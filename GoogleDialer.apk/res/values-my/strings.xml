@@ -63,7 +63,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript">^1၊ ^2၊ ^3။</string>
     <string name="a11y_new_call_log_entry_phone_account">^1 တွင်</string>
     <string name="a11y_new_call_log_entry_rtt_call">^1 သို့ RTT ခေါ်ဆိုမှု ပြုလုပ်ရန်</string>
-    <string name="a11y_new_call_log_entry_tap_action">မီနူးကို ချဲ့ရန်</string>
+    <string name="a11y_new_call_log_entry_tap_action">မီနူးကို ချဲ့ရန် (သို့) လျှော့ပြရန်</string>
     <string name="a11y_new_call_log_entry_video_call">^1 ကို ဗီဒီယို ခေါ်ဆိုရန်</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">wifi သုံး၍ ^1 ထံ ဗီဒီယိုခေါ်ဆိုရန်</string>
     <string name="a11y_new_call_log_entry_voice_call">^1 ကို ခေါ်ဆိုရန်</string>
@@ -191,6 +191,7 @@
     <string name="atlas_soda_banner_feature_text">ဖုန်းကိုင်ထားပါ</string>
     <string name="atlas_temp_service_notification_title">‘ဖုန်းကိုင်ထားပါ’ ခေါ်ဆိုမှု စတင်နေသည်</string>
     <string name="atlas_warning_text_for_second_incoming_call">ဤခေါ်ဆိုမှုကို ဖြေကြားပါက ‘ဖုန်းကိုင်ထားပါ’ ကို အဆုံးသတ်ပါမည်</string>
+    <string name="audio_route_item_checked_description">ရွေးထားပါသည်</string>
     <string name="audioroute_bluetooth">ဘလူးတုသ်</string>
     <string name="audioroute_headset">ကြိုးတပ်မိုက်ခွက်ပါနားကြပ်</string>
     <string name="audioroute_phone">ဖုန်း</string>
@@ -235,6 +236,7 @@
     <string name="bm_suggest_wait_time_estimating">"ချတ်
 လုပ်ဆောင်နေသည်…"</string>
     <string name="bottomsheet_action_expand_halfway">တစ်ဝက်ချဲ့ရန်</string>
+    <string name="bottomsheet_drag_handle_content_description">ဖိဆွဲအထိန်း</string>
     <string name="bubble_bottom_action_end_call">ဖုန်းချရန်</string>
     <string name="bubble_bottom_action_hide">ဝှက်ရန်</string>
     <string name="bubble_return_to_call">ခေါ်ဆိုမှုသို့ ပြန်သွားရန်</string>
@@ -296,7 +298,7 @@
     <string name="call_incoming_will_disconnect">ဤခေါ်ဆိုမှုကို ဖြေကြားပါက သင်၏ အခြားခေါ်ဆိုမှုကို အဆုံးသတ်ပါမည်</string>
     <string name="call_incoming_will_disconnect_app">ဖုန်းကိုင်လိုက်လျှင် သင်ယခုပြောနေခြင်းကို %1$s ဖြတ်ပစ်ပါမည်</string>
     <string name="call_isdn">ISDN ကိုခေါ်ပါ</string>
-    <string name="call_log_action_block_and_optionally_mark_as_spam">စပမ်းကို ပိတ်ရန်/တိုင်ကြားရန်</string>
+    <string name="call_log_action_block_and_optionally_mark_as_spam">စပမ်းကို ပိတ်ရန်/တိုင်ရန်</string>
     <string name="call_log_action_mark_as_not_spam">စပမ်း မဟုတ်ပါ</string>
     <string name="call_log_action_share_voicemail">... သို့ ပို့ပါ</string>
     <string name="call_log_label_spam">စပမ်း</string>
@@ -582,10 +584,8 @@
     <string name="copy_number">နံပါတ်ကို ကူးယူရန်</string>
     <string name="create_new_contact">အဆက်အသွယ်အသစ် ထည့်ရန်</string>
     <string name="crosby_setting_title">ဖုန်းခေါ်ဆိုမှု အသံသွင်းခြင်း</string>
-    <string name="crystal_clear_audio_setting_title">ကြည်လင်ပြတ်သားသော ခေါ်ဆိုမှုအသံ</string>
     <string name="current_voicemail_greeting_record_instruction">နှုတ်ဆက်မှု အသံသွင်းပါ</string>
     <string name="current_voicemail_greeting_recording_title">ကျွန်ုပ်၏ အသံမေးလ် နှုတ်ခွန်းဆက်သမှု</string>
-    <string name="custom_message_hint">စိတ်ကြိုက် မက်ဆေ့ဂျ်တစ်ခု ရေးပါ</string>
     <string name="custom_prefix_add_prefix_to_call_entry_always_add_prefix">ရှေ့ဆက်ပုဒ် အမြဲထည့်ရန်</string>
     <string name="custom_prefix_add_prefix_to_call_entry_ask_before_dialing">ဖုန်းမခေါ်မီ မေးမြန်းရန်</string>
     <string name="custom_prefix_add_prefix_to_call_entry_never_add_prefix">ရှေ့ဆက်ပုဒ် ဘယ်တော့မှ မထည့်ပါနှင့်</string>
@@ -670,11 +670,11 @@
     <string name="display_options_view_given_name_first">ပထမ အမည် ဦးစွာ</string>
     <string name="display_options_view_names_as">အမည် ချထားပုံစံ</string>
     <string name="do_not_show_again">ထပ်မပြပါနှင့်</string>
-    <string name="duo_fallback_dialog_do_not_show_again_label">ဤရွေးချယ်မှုကို မှတ်ထားရန်</string>
-    <string name="duo_fallback_dialog_message">သင့်ဗီဒီယိုခေါ်ဆိုမှုကို မိုဘိုင်းဝန်ဆောင်မှုဖြင့် ဗီဒီယိုခေါ်ဆိုခြင်းသုံးပြီး ပြုလုပ်၍မရပါ။ ၎င်းအစား Duo သုံးပြီး ခေါ်ဆိုကြည့်ပါ။</string>
-    <string name="duo_fallback_dialog_negative_button_label">မလုပ်တော့</string>
-    <string name="duo_fallback_dialog_positive_button_label">Duo သုံးရန်</string>
-    <string name="duo_fallback_dialog_title">Google Duo ဖြင့် စမ်းကြည့်မလား။</string>
+    <string name="duo_fallback_dialog_do_not_show_again_label">ခေါ်ဆိုမှုတိုင်းအတွက် Duo ကို အရန်အဖြစ် ထားရှိရန် မှတ်ထားပါ။ ဆက်တင်များတွင် အချိန်မရွေး စီမံပါ။</string>
+    <string name="duo_fallback_dialog_message">သင်၏ မိုဘိုင်းဖုန်းကုမ္ပဏီက ဗီဒီယိုခေါ်ဆိုခြင်းကို မပြုလုပ်နိုင်ပါက Duo သည် ဖုန်းခေါ်ရန် အလိုအလျောက် ကြိုးပမ်းပါမည်။</string>
+    <string name="duo_fallback_dialog_negative_button_label">မလိုပါ</string>
+    <string name="duo_fallback_dialog_positive_button_label">Duo ဖြင့် အရန်သိမ်းရန်</string>
+    <string name="duo_fallback_dialog_title">ခေါ်ဆိုမှုများကို Google Duo ဖြင့် အရန်သိမ်းမလား။</string>
     <string name="edit_number_before_call">မခေါ်ဆိုမီ နံပါတ် တည်းဖြတ်ရန်</string>
     <string name="emergency_assist_address_sentence">ကျွန်ုပ် %1$s မှာ ရောက်နေတာပါ။</string>
     <string name="emergency_assist_button_fire">မီးသတ်</string>
@@ -696,6 +696,7 @@
     <string name="emergency_voice_assist_dialog_button_close">မလုပ်တော့</string>
     <string name="emergency_voice_assist_dialog_title">အရေးပေါ်အော်ပရေတာက ဤသို့ကြားပါသည်</string>
     <string name="end_call_with_default_message_description">ဖုန်းချရန်</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_icon_content_description">အမှား</string>
     <string name="error_unable_to_get_audio">နမူနာအသံကို ရယူ၍ မရပါ</string>
     <string name="error_unable_to_play_audio">နမူနာအသံကို ဖွင့်၍ မရပါ</string>
@@ -740,7 +741,7 @@
     <string name="first_time_dialog_duo_video_call_label">Google Duo</string>
     <string name="first_time_dialog_negative_button_label">မလုပ်တော့</string>
     <string name="first_time_dialog_positive_button_label">ရွေးရန်</string>
-    <string name="first_time_dialog_remember_this_choice_label">ဤရွေးချယ်မှုကို မှတ်ထားရန်</string>
+    <string name="first_time_dialog_remember_this_choice_label">ခေါ်ဆိုမှုတိုင်းအတွက် မှတ်ထားပါ။ ဆက်တင်များတွင် အချိန်မရွေး စီမံပါ။</string>
     <string name="first_time_dialog_title">ဗီဒီယိုခေါ်ဆိုခြင်း ဝန်ဆောင်မှု ရွေးပါ</string>
     <string name="flip_to_shush_title">အသံပိတ်ရန် မှောက်ပါ</string>
     <string name="flip_to_silence_summary">အဝင်ခေါ်ဆိုမှုကို အသံပိတ်ရန် သင့်ဖုန်းကို ပြင်ညီမျက်နှာပြင်ပေါ်တွင် မှောက်ထားပါ</string>
@@ -788,6 +789,8 @@
     <string name="incall_content_description_hold">ခေါ်ဆိုမှုခဏရပ်ရန်</string>
     <string name="incall_content_description_merge_calls">ခေါ်ဆိုမှုများပေါင်းရန်</string>
     <string name="incall_content_description_muted">အသံပိတ်ထားသည်</string>
+    <string name="incall_content_description_show_less">လျှော့ပြရန်</string>
+    <string name="incall_content_description_show_more">ပိုပြရန်</string>
     <string name="incall_content_description_speaker">စပီကာ</string>
     <string name="incall_content_description_swap_calls">ခေါ်ဆိုမှုများကို ဖလှယ်ရန်</string>
     <string name="incall_content_description_swap_sim">ဆင်းမ်ကတ် ပြောင်းပါ</string>
@@ -803,6 +806,7 @@
     <string name="incall_label_hold">ခဏရပ်ထားရန်</string>
     <string name="incall_label_manage">စီမံရန်</string>
     <string name="incall_label_merge">ပေါင်းရန်</string>
+    <string name="incall_label_more">နောက်ထပ်</string>
     <string name="incall_label_mute">အသံပိတ်ရန်</string>
     <string name="incall_label_record">အသံဖမ်းရန်</string>
     <string name="incall_label_record_checked">အသံဖမ်းမှုရပ်ရန်</string>
@@ -835,15 +839,9 @@
     <string name="join_call_with_default_message_description">ခေါ်ဆိုမှုတွင် ပါဝင်ရန်</string>
     <string name="just_now">ယခုလေးတင်</string>
     <string name="lat_long_format">%1$f၊ %2$f</string>
+    <string name="launch_application_settings">ဆက်တင်များ</string>
     <string name="launcherActivityLabel">ဖုန်း</string>
     <string name="learn_more_text_for_tmo">ပိုမိုလေ့လာရန် T-Mobile သို့ သွားပါ</string>
-    <string name="legacy_post_call_message">သင် ဘာကြောင့် ဖုန်းဆက်သည်ကို ပြောပါ</string>
-    <string name="legacy_post_call_message_1">အရေးကြီးသည်။ ကျွန်ုပ်ကို ဖုန်းပြန်ဆက်ပါ။</string>
-    <string name="legacy_post_call_message_2">သင်အချိန်ရလျှင် ကျွန်ုပ်ကို ဖုန်းပြန်ဆက်ပါ။</string>
-    <string name="legacy_post_call_message_3">အရေးမကြီးပါ။ နောက်မှ ကျွန်ုပ်တို့ ချတ်လုပ်နိုင်ပါသည်။</string>
-    <string name="legacy_post_call_message_sent">မက်ဆေ့ဂျ် ပို့လိုက်ပါပြီ</string>
-    <string name="legacy_post_call_send_message">မက်ဆေ့ဂျ် ပို့ပါ</string>
-    <string name="legacy_post_call_view">ကြည့်ရန်</string>
     <string name="libraries_material_featurehighlight_dismiss">ပယ်ပါ</string>
     <string name="license_activity_label">အခမဲ့ရင်းမြစ်လိုင်စင်များ</string>
     <string name="light_theme_label">အလင်း</string>
@@ -868,6 +866,7 @@
     <string name="mdd_notification_action_cancel">မလုပ်တော့</string>
     <string name="mdd_notification_download_failed">ဒေါင်းလုဒ်လုပ်၍ မရပါ</string>
     <string name="mdd_notification_download_paused">ကွန်ရက်ချိတ်ဆက်မှုကို စောင့်နေသည်</string>
+    <string name="mdd_notification_download_paused_wifi">WiFi ချိတ်ဆက်မှု စောင့်နေသည်</string>
     <string name="meid_number">MEID %s</string>
     <string name="menu_callNumber">%s ကို ဖုန်းခေါ်ရန်</string>
     <string name="merge_calls_confirm_message">ပေါင်းစည်းထားသော ခေါ်ဆိုမှုတွင် ရှိမည့်သူများကို လူတိုင်းက သိထားကြောင်း သေချာမှသာ သင့်ခေါ်ဆိုမှုများကို ပေါင်းစည်းပါ</string>
@@ -907,11 +906,9 @@
     <string name="nearbyplaces_account_setting_title">Google အကောင့်</string>
     <string name="new_call_log_activity_title">ခေါ်ဆိုမှုမှတ်တမ်း</string>
     <string name="new_call_log_all_title">အားလုံး</string>
-    <string name="new_call_log_carrier_video">ဖုန်းလိုင်း ဗီဒီယို</string>
     <string name="new_call_log_clear_call_log_confirmation">၎င်းက သင့်မှတ်တမ်းထဲမှ ခေါ်ဆိုမှုအားလုံးကို ဖျက်ပါမည်</string>
     <string name="new_call_log_clear_call_log_confirmation_title">ယခင်ခေါ်ဆိုမှုများ ဖယ်ရှားမလား။</string>
     <string name="new_call_log_delete_all">ယခင်ခေါ်ဆိုမှုများ ဖယ်ရှားရန်</string>
-    <string name="new_call_log_duo_video">Duo ဗီဒီယို</string>
     <string name="new_call_log_empty">သင်၏ ခေါ်ဆိုမှုများ ဤနေရတွင် ပေါ်ပါမည်</string>
     <string name="new_call_log_generic_video">ဗီဒီယို</string>
     <string name="new_call_log_header_older">ယခင်နေ့များက</string>
@@ -929,6 +926,7 @@
     <string name="new_permission_no_search">သင့်အဆက်အသွယ်များကို ရှာဖွေရန် Contacts ခွင့်ပြုချက်များကို ဖွင့်ပါ။</string>
     <string name="non_contact_always_record_dialog_title">သင့်အဆက်အသွယ်တွင်မပါသော နံပါတ်များအတွက် အသံသွင်းထားသော ခေါ်ဆိုမှုများ အမြဲပြုလုပ်မလား။</string>
     <string name="non_contact_toggle_label">သင့်အဆက်အသွယ်များတွင် မပါဝင်သော နံပါတ်များ</string>
+    <string name="non_spam_aftercall_notification_title">%1$s ကို သိပါသလား။</string>
     <string name="non_spam_notification_title">%1$s ကို သိပါသလား။</string>
     <string name="not_set">သတ်မှတ်မထားပါ</string>
     <string name="notification_action_accept">လက်ခံရန်</string>
@@ -979,7 +977,7 @@
     <string name="notification_ongoing_call">ဆက်သွားနေသော ဖုန်းခေါ်မှု</string>
     <string name="notification_ongoing_call_multi_sim">%1$s မှတစ်ဆင့် လက်ရှိခေါ်ဆိုမှု</string>
     <string name="notification_ongoing_call_wifi_template">လက်ရှိပြောနေခြင်း %1$s</string>
-    <string name="notification_ongoing_call_wifi_template_multi_sim">%1$s မှတစ်ဆင့် လက်ရှိ %1$s</string>
+    <string name="notification_ongoing_call_wifi_template_multi_sim">Ongoing %1$s via %2$s</string>
     <string name="notification_ongoing_paused_video_call">လက်ရှိ မိုဘိုင်းဖုန်းကုမ္ပဏီမှ ဗီဒီယိုခေါ်ဆိုမှု ‑ ဗီဒီယိုကို ခေတ္တရပ်ထားသည်</string>
     <string name="notification_ongoing_paused_video_call_multi_sim">%1$s မှ မိုဘိုင်းဝန်ဆောင်မှုဖြင့် လက်ရှိဗီဒီယိုခေါ်ဆိုမှု‑ ဗီဒီယို ခဏရပ်ထားသည်</string>
     <string name="notification_ongoing_video_call">လက်ရှိပြောနေသော မိုဘိုင်းဖုန်းကုမ္ပဏီမှ ဗီဒီယိုခေါ်ဆိုမှု</string>
@@ -992,7 +990,7 @@
     <string name="notification_take_call">ဖုန်းခေါ်ဆိုမှုလွှဲယူပါ</string>
     <string name="notification_take_video_call">ဗီဒီယိုခေါ်ဆိုမှုလွှဲယူပါ</string>
     <string name="notification_voicemail_callers_list">%1$s, %2$s</string>
-    <string name="notification_voicemail_no_vm_number">အသံမေးလ်နံပါတ် မသိပါ</string>
+    <string name="notification_voicemail_no_vm_number">အသံမေးလ်ကို စနစ်ထည့်သွင်းရန် ‘မီနူး’ > ‘ဆက်တင်များ’ သို့ သွားပါ။</string>
     <string name="notification_voicemail_text_format">%s ကို ခေါ်ပါ</string>
     <string name="old_block_number_confirmation_title">%1$s ကို ပိတ်ထားမလား။</string>
     <string name="openhistory_button_label">မှတ်တမ်း</string>
@@ -1047,7 +1045,7 @@
     <string name="private_num_non_verizon">ပုဂ္ဂလိကဖုန်းနံပါတ်</string>
     <string name="private_num_verizon">ကန့်သတ်ထားသည်</string>
     <string name="private_or_hidden_action_preference_description">သူတို့၏ ခေါ်ဆိုသူ ID ဖျောက်ထားသော ခေါ်ဆိုသူများ</string>
-    <string name="private_or_hidden_action_preference_title">သီးသန့် (သို့) ဖျောက်ထားသည်</string>
+    <string name="private_or_hidden_action_preference_title">သီးသန့်နှင့် ဖျောက်ထားသော နံပါတ်များ</string>
     <string name="quick_contact_checkbox_description">အဆက်အသွယ် ရွေးရန်</string>
     <string name="ready_for_recording">အသင့်ဖြစ်ပါပြီ…</string>
     <string name="record_audio_pre_call_dialog_got_it">ရပြီ</string>
@@ -1094,7 +1092,7 @@ Call Screen သည် ဒေတာ (သို့) Wi-Fi မသုံးပါ။
     <string name="revelio_end_call_user_missed_internal_message">ခေါ်ဆိုမှု လွတ်သွားသည်</string>
     <string name="revelio_pref_title">Call Screen</string>
     <string name="revelio_preference_summary_automatic_screening_off">အလိုအလျောက် စစ်ဆေးခြင်း ပိတ်ထားသည်</string>
-    <string name="revelio_preference_summary_screening">%1$s ကို စစ်ဆေးနေသည်</string>
+    <string name="revelio_preference_summary_screening">%1$s စစ်ဆေးရန်</string>
     <string name="revelio_save_audio_setting_summary">သင်၏ Assistant ဖြေကြားထားသော ခေါ်ဆိုမှုများထံမှ အသံကို သိမ်းပါ</string>
     <string name="revelio_save_audio_setting_title">Call Screen အသံ သိမ်းခြင်း</string>
     <string name="revelio_setting_title">Call Screen</string>
@@ -1168,7 +1166,6 @@ Call Screen သည် ဒေတာ (သို့) Wi-Fi မသုံးပါ။
     <string name="set_default_account_description">ဆင်းမ်ကတ်ရွေးချယ်မှုကို သင့်အဆက်အသွယ်များနှင့်တွဲ၍ သိမ်းထားသည်။</string>
     <string name="set_phone_as_default_explanation_text">Phone သည် သင်၏ မူရင်းဖုန်းအက်ပ်ဖြစ်မှသာ ဖုန်းခေါ်ဆိုခြင်းနှင့် လက်ခံခြင်းများကို ပြုလုပ်နိုင်သည်</string>
     <string name="set_phone_as_default_request_text">Phone ကို မူရင်းအဖြစ် ထားပါ</string>
-    <string name="settings">ဆက်တင်များ</string>
     <string name="settings_page_call_recording_feature_not_available_text">သင့်တည်နေရာတွင် ခေါ်ဆိုမှုကို အသံဖမ်း၍ မရနိုင်ပါ</string>
     <string name="settings_page_crosby_feature_not_available_text">သင့်တည်နေရာတွင် မရနိုင်ပါ</string>
     <string name="setup_duo_button_long_text">Duo ဗီဒီယိုခေါ်ဆိုမှု စီစဉ်ရန်</string>
@@ -1218,6 +1215,9 @@ Call Screen သည် ဒေတာ (သို့) Wi-Fi မသုံးပါ။
     <string name="sounds_and_vibration_title">အသံများနှင့် တုန်ခါမှု</string>
     <string name="spam_action_preference_description">Google ၏ စပမ်းဒေတာဘေ့စ်နှင့် ကိုက်ညီသော နံပါတ်များ</string>
     <string name="spam_action_preference_title">စပမ်း</string>
+    <string name="spam_after_call_notification_add_contact_action_text">အဆက်အသွယ် ထည့်ရန်</string>
+    <string name="spam_after_call_notification_report_spam_action_text">ပိတ်၍ သတင်းပို့ရန်</string>
+    <string name="spam_aftercall_notification_unknown">အမည်မသိ</string>
     <string name="spam_and_call_screen_settings_title">စပမ်းနှင့် Call Screen</string>
     <string name="spam_blocking_promo_action_dismiss">ပယ်ရန်</string>
     <string name="spam_blocking_promo_action_filter_spam">စပမ်းကို စစ်ထုတ်ရန်</string>
@@ -1229,6 +1229,9 @@ Call Screen သည် ဒေတာ (သို့) Wi-Fi မသုံးပါ။
     <string name="spam_blocking_settings_enable_error_text">စပမ်းစစ်ထုတ်ခြင်းကို ဖွင့်ရာတွင် အခက်အခဲရှိပါသည်</string>
     <string name="spam_blocking_settings_summary">သံသယဖြစ်ဖွယ်စပမ်းခေါ်ဆိုမှုများ၏ နှောင့်ယှက်မှုမှ သင့်အား ကာကွယ်ပေးခြင်း</string>
     <string name="spam_blocking_settings_title">စပမ်းခေါ်ဆိုမှုများကို စစ်ထုတ်ခြင်း</string>
+    <string name="spam_dialog_add_contact_action">အဆက်အသွယ်များသို့ ထည့်ရန်</string>
+    <string name="spam_dialog_dismiss_action">ပယ်ရန်</string>
+    <string name="spam_notification_action_block_spam">နံပါတ်ကို ပိတ်ထားရန်</string>
     <string name="spam_notification_action_dismiss">ပယ်ရန်</string>
     <string name="spam_notification_add_contact_action_text">အဆက်အသွယ်ထည့်ရန်</string>
     <string name="spam_notification_block_spam_action_text">နံပါတ်ကို ပိတ်ပါ</string>
@@ -1468,27 +1471,27 @@ Call Screen သည် ဒေတာ (သို့) Wi-Fi မသုံးပါ။
     <string name="videocall_remotely_resumed">ခေါ်ဆိုမှုပြန်စသည်</string>
     <string name="videocall_settings_default_ask_every_time">အကြိမ်တိုင်း မေးရန်</string>
     <string name="videocall_settings_default_carrier">မိုဘိုင်းဝန်ဆောင်မှုဖြင့် ဗီဒီယိုခေါ်ဆိုခြင်း</string>
-    <string name="videocall_settings_default_caution">This feature allows a user to choose a preferred video call solution and indicate the receiver’s video capability when it’s available. ^1</string>
-    <string name="videocall_settings_default_caution_learn_more">Learn more about preferred video services</string>
+    <string name="videocall_settings_default_caution">ဗီဒီယိုခေါ်ဆိုမှု ပြုလုပ်ပုံနှင့် သင်ခေါ်ဆိုမည့်သူက ၎င်းကို လက်ခံနိုင်ခြင်း ရှိ၊ မရှိ သိနိုင်ပုံကို ရွေးပါ။ ^1</string>
+    <string name="videocall_settings_default_caution_learn_more">ဗီဒီယိုခေါ်ဆိုမှုများအကြောင်း ပိုမိုလေ့လာရန်</string>
     <string name="videocall_settings_default_duo">Google Duo</string>
     <string name="videocall_settings_default_title">ဦးစားပေး ဗီဒီယိုခေါ်ဆိုခြင်း ဝန်ဆောင်မှု</string>
-    <string name="videocall_settings_fallback_caution">"When “Use Google Duo as backup” (if applicable) is on and a call can't be completed using your preferred service, the call will automatically be attempted on Duo. ^1"</string>
-    <string name="videocall_settings_fallback_caution_learn_more">Learn more about Duo backup calling</string>
-    <string name="videocall_settings_fallback_summary">ဦးစားပေးဝန်ဆောင်မှု မရနိုင်ပါက Duo သို့ ပြောင်းပါ</string>
-    <string name="videocall_settings_fallback_title">Google Duo ကို အရန်အဖြစ် သုံးခြင်း</string>
+    <string name="videocall_settings_fallback_caution">Google Duo ကို အရန်အဖြစ် ထားရှိပြီး ဖွင့်ထားလျှင် သင်၏ မိုဘိုင်းဖုန်းကုမ္ပဏီက ဗီဒီယိုခေါ်ဆိုခြင်းကို မပြုလုပ်နိုင်ပါက Duo သည် ဖုန်းခေါ်ရန် အလိုအလျောက် ကြိုးပမ်းပါမည်။ ^1</string>
+    <string name="videocall_settings_fallback_caution_learn_more">Duo ကို အရန်အဖြစ် ထားရှိခြင်းအကြောင်း ပိုမိုလေ့လာရန်</string>
+    <string name="videocall_settings_fallback_summary">သင်၏ ဦးစားပေးဝန်ဆောင်မှု မရနိုင်ပါက Duo သို့ ပြောင်းပါ</string>
+    <string name="videocall_settings_fallback_title">Duo ကို အရန်အဖြစ် သုံးခြင်း</string>
     <string name="videocall_settings_title">ဗီဒီယိုခေါ်ဆိုခြင်း</string>
     <string name="videocall_show_preview_button_description">စက်အတွင်း ဗီဒီယိုဖိဒ်ကို ပြရန်</string>
     <string name="view_location_settings">တည်နေရာ ဆက်တင်များ</string>
     <string name="vitle_label">LTE ဖြင့် ဗီဒီယိုခေါ်ဆိုမှု</string>
     <string name="viwifi_label">WiFi ဖြင့် ဗီဒီယိုခေါ်ဆိုမှု</string>
     <string name="vm_change_pin_error_invalid">ပင်နံပါတ်အသစ်တွင် မမှန်ကန်သောအက္ခရာများ ပါဝင်နေသည်။</string>
-    <string name="vm_change_pin_error_last_4_digits_msisdn">ပင်နံပါတ်အသစ်သည် သင့်ဖုန်းနံပါတ်၏ နောက်ဆုံးဂဏန်လေးလုံး မဖြစ်ရပါ။</string>
+    <string name="vm_change_pin_error_last_4_digits_msisdn">"Your PIN can't be the last 4 digits of your phone number."</string>
     <string name="vm_change_pin_error_mismatch">ပင်နံပါတ်အဟောင်းမှာ ထပ်တူမကျပါ။</string>
     <string name="vm_change_pin_error_system_error">ပင်နံပါတ်ကို ပြောင်း၍ မရပါ</string>
     <string name="vm_change_pin_error_too_long">ပင်နံပါတ်အသစ်မှာ ရှည်လွန်းနေပါသည်။</string>
     <string name="vm_change_pin_error_too_short">ပင်နံပါတ်အသစ်မှာ တိုလွန်းနေပါသည်။</string>
     <string name="vm_change_pin_error_too_weak">ပင်နံပါတ်အသစ်မှာ အားနည်းလွန်းနေပါသည်။ အားကောင်းသော စကားဝှက်တစ်ခုတွင် အစဉ်လိုက်စာလုံးများ (သို့) ထပ်တလဲလဲသုံးထားသော ကိန်းဂဏန်းများ မပါသင့်ပါ။</string>
-    <string name="vm_change_pin_error_unchanged_pin">ပင်နံပါတ်အသစ်သည် သင့်လက်ရှိ ပင်နံပါတ်နှင့် တူနေသည်။ အခြား ပင်နံပါတ် ထည့်ပါ။</string>
+    <string name="vm_change_pin_error_unchanged_pin">"Your new PIN can't be the same as your current PIN."</string>
     <string name="vm_change_pin_progress_message">ခဏစောင့်ပါ။</string>
     <string name="voice_call">ဖုန်း ခေါ်ဆိုရန်</string>
     <string name="voice_call_button">ခေါ်ဆိုရန်</string>
@@ -1510,11 +1513,9 @@ Call Screen သည် ဒေတာ (သို့) Wi-Fi မသုံးပါ။
     <string name="voicemailMultiSelectDeleteConfirm">ဖျက်ပါ</string>
     <string name="voicemail_action_call_customer_support">အကူအညီပေးရေးဌာနကို ဖုန်းခေါ်ရန်</string>
     <string name="voicemail_action_call_voicemail">အသံမေးလ် ခေါ်ဆိုရန်</string>
-    <string name="voicemail_action_dimiss">မလိုတော့ပါ</string>
     <string name="voicemail_action_retry">ထပ်လုပ်ကြည့်ရန်</string>
     <string name="voicemail_action_set_pin">ပင်နံပါတ် သတ်မှတ်ရန်</string>
     <string name="voicemail_action_sync">စင့်ခ်လုပ်ရန်</string>
-    <string name="voicemail_action_turn_archive_on">ဖွင့်ရန်</string>
     <string name="voicemail_action_turn_off_airplane_mode">လေယာဉ်ပျံမုဒ် ဆက်တင်များ</string>
     <string name="voicemail_activating_summary_info">အသံမေးလ်ကို စတင်အသုံးပြုနေသည်</string>
     <string name="voicemail_advanced_settings_title">အဆင့်မြင့် ဆက်တင်များ</string>
@@ -1529,7 +1530,7 @@ Call Screen သည် ဒေတာ (သို့) Wi-Fi မသုံးပါ။
     <string name="voicemail_change_pin_preference_summary_disable">ပင်နံပါတ်ပြောင်းရန် ကြည့်ရှုစီမံနိုင်သော အသံမေးလ်ကို ဖွင့်ထားရပါမည်</string>
     <string name="voicemail_change_pin_preference_summary_not_activated">ကြည့်ရှုစီမံနိုင်သော အသံမေးလ်ကို မဖွင့်ရသေးပါ၊ နောက်မှ ထပ်ဖွင့်ကြည့်ပါ</string>
     <string name="voicemail_change_pin_preference_title">ပင်နံပါတ် ပြောင်းခြင်း</string>
-    <string name="voicemail_donate_preference_summary_info">စာသားမှတ်တမ်းတိကျမှု ပိုမိုကောင်းမွန်လာစေရန် Google အား သင်၏ အသံမေးလ်မက်ဆေ့ဂျ်များကို သုံးသပ်ခွင့်ပေးလိုက်ပါ။ သင်၏ အသံမေးလ်မက်ဆေ့ဂျ်များကို အမည်မဖော်ဘဲ သိမ်းထားပါသည်။ %1$s</string>
+    <string name="voicemail_donate_preference_summary_info">စာသားမှတ်တမ်းတိကျမှု ပိုမိုကောင်းမွန်လာစေရန် Google အား သင်၏ အသံမေးလ်မက်ဆေ့ဂျ်များကို သုံးသပ်ခွင့်ပေးလိုက်ပါ။ သင်၏ အသံမေးလ်မက်ဆေ့ဂျ်များကို အမည်မဖော်ဘဲ သိမ်းထားပါသည်။ ^1</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">ဒေတာမရှိသော ဆင်းမ်ကတ်များအတွက် ကြည့်ရှုစီမံနိုင်သော အသံမေးလ် အသုံးပြုပါက ဖုန်းလိုင်းအသုံးပြုခ ပေးရနိုင်ပါသည်</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">ရွေးထားသော ဒေတာ SIM အတွက်သာလျှင် ကြည့်ရှုစီမံနိုင်သော အသံမေးလ်ကို ရရှိနိုင်ပါသည်</string>
     <string name="voicemail_error_activating_message">ကြည့်ရှုစီမံနိုင်သောအသံမေးလ်ကို ဖွင့်၍မပြီးသေးမီ အသံမေးလ်အသိပေးချက်များကို လက်ခံနိုင်မည် မဟုတ်ပါ။ အသံမေးလ်မပွင့်မီ မက်ဆေ့ဂျ်အသစ်များကို ရယူရန် အသံမေးလ် ခေါ်ဆိုပါ။</string>
@@ -1542,12 +1543,8 @@ Call Screen သည် ဒေတာ (သို့) Wi-Fi မသုံးပါ။
     <string name="voicemail_error_bad_config_title">ကြည့်ရှုစီမံနိုင်သော အသံမေးလ်ကို အပ်ဒိတ်လုပ်၍မရပါ</string>
     <string name="voicemail_error_communication_message">အသံမေးလ်ကြည့်ရန် ဖုန်းခေါ်နိုင်ပါသေးသည်။</string>
     <string name="voicemail_error_communication_title">ကြည့်ရှုစီမံနိုင်သော အသံမေးလ်ကို အပ်ဒိတ်လုပ်၍မရပါ</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_message">သင့်ဝင်စာ ပြည့်ခါနီးပါပြီ။ နေရာလွတ်ရရှိရန်အတွက် အပိုသိုလှောင်မှုဖွင့်ပါက Google သည် သင်၏ အသံမေးလ်မက်ဆေ့ဂျ်များကို စီမံခန့်ခွဲ၍ မိတ္တူကူးနိုင်ပါမည်။</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_title">အပိုသိုလှောင်မှုနှင့် မိတ္တူတို့ကို ဖွင့်ခြင်း</string>
     <string name="voicemail_error_inbox_full_message">သင့်ဝင်စာ ပြည့်နေပါပြီ။ အသံမေးလ်အသစ်ကို လက်ခံရန် မက်ဆေ့ဂျ်အချို့ ဖျက်ကြည့်ပါ။</string>
     <string name="voicemail_error_inbox_full_title">အသံမေးလ်အသစ်များကို လက်မခံနိုင်ပါ</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_message">သင့်ဝင်စာ ပြည့်နေပါပြီ။ နေရာလွတ်ရရှိရန်အတွက် အပိုသိုလှောင်မှုဖွင့်ပါက Google သည် သင်၏ အသံမေးလ်မက်ဆေ့ဂျ်များကို စီမံခန့်ခွဲ၍ မိတ္တူကူးနိုင်ပါမည်။</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_title">အပိုသိုလှောင်မှုနှင့် မိတ္တူတို့ကို ဖွင့်ခြင်း</string>
     <string name="voicemail_error_inbox_near_full_message">သင့်ဝင်စာပြည့်နေပါက အသံမေးလ်အသစ်ကို လက်ခံနိုင်မည် မဟုတ်ပါ။</string>
     <string name="voicemail_error_inbox_near_full_title">ဝင်စာ ပြည့်ခါနီးပါပြီ</string>
     <string name="voicemail_error_no_data_cellular_required_message">သင်၏ မိုဘိုင်းဒေတာချိတ်ဆက်မှု ပိုကောင်းလာလျှင် ထပ်လုပ်ကြည့်ပါ။ အသံမေးလ်ကြည့်ရန် ဖုန်းခေါ်နိုင်ပါသေးသည်။</string>
@@ -1580,7 +1577,7 @@ Call Screen သည် ဒေတာ (သို့) Wi-Fi မသုံးပါ။
     <string name="voicemail_transcription_failed_language_not_supported">စာသားမှတ်တမ်း မရရှိနိုင်ပါ။ ဘာသာစကား ပံ့ပိုးမထားပါ။</string>
     <string name="voicemail_transcription_failed_no_speech">စာသားမှတ်တမ်း မရရှိနိုင်ပါ။ မည်သည့် ပြောဆိုမှုကိုမျှ ရှာမတွေ့ပါ။</string>
     <string name="voicemail_transcription_in_progress">ကူးယူနေသည်...</string>
-    <string name="voicemail_transcription_preference_summary_info">Google ၏ စာသားမှတ်တမ်း ဝန်ဆောင်မှုကို သုံးပြီး သင့်အသံမေးလ်၏ စာသားမှတ်တမ်းကို ရယူပါ %1$s</string>
+    <string name="voicemail_transcription_preference_summary_info">Google ၏ စာသားမှတ်တမ်း ဝန်ဆောင်မှုကို သုံးပြီး သင့်အသံမေးလ်၏ စာသားမှတ်တမ်းကို ရယူပါ ^1</string>
     <string name="voicemail_visual_voicemail_auto_archive_switch_title">အပိုဆောင်း မိတ္တူနှင့် သိုလှောင်မှု</string>
     <string name="voicemail_visual_voicemail_donation_switch_title">အသံမေးလ်စာသားမှတ်တမ်း စိစစ်ခြင်း</string>
     <string name="voicemail_visual_voicemail_switch_title">ကြည့်ရှုစီမံနိုင်သော အသံမေးလ်</string>
@@ -1636,7 +1633,7 @@ Call Screen သည် ဒေတာ (သို့) Wi-Fi မသုံးပါ။
     <string name="wait_prompt_str">"အောက်ပါ တီးလုံးများကို ပို့မလား?
 "</string>
     <string name="was_this_a_business_chip_text">၎င်းက လုပ်ငန်းတစ်ခုလား။</string>
-    <string name="was_this_a_business_dialog_body">ဤတဂ်ကို အတည်ပြုပါက ခေါ်ဆိုသူ ID ပိုကောင်းလာအောင် Google အား ကူညီပေးသည်</string>
+    <string name="was_this_a_business_dialog_body">၎င်းကို အတည်ပြုပါက ခေါ်ဆိုသူ ID မွမ်းမံရာတွင် Google အား ကူညီပေးသည်</string>
     <string name="was_this_a_business_dialog_negative_response">No</string>
     <string name="was_this_a_business_dialog_positive_response">Yes</string>
     <string name="was_this_a_business_dialog_snackbar">သင့်အကြံပြုချက်အတွက် ကျေးဇူးတင်ပါသည်</string>

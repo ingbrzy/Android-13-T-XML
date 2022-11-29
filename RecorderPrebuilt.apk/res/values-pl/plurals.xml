@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="custom_cards_view_description_items_left">
-        <item quantity="other">Pozostało %1$d elementu</item>
-        <item quantity="one">Pozostał %1$d element</item>
-        <item quantity="few">Pozostały %1$d elementy</item>
-        <item quantity="many">Pozostało %1$d elementów</item>
-    </plurals>
     <plurals name="dlg_message_deletion_confirmation">
         <item quantity="other">Nagrania zostaną trwale usunięte. Tej czynności nie będzie można cofnąć.</item>
         <item quantity="one">Nagranie zostanie trwale usunięte. Tej czynności nie będzie można cofnąć.</item>
@@ -30,23 +24,35 @@
         <item quantity="few">Trwale usunąć te nagrania?</item>
         <item quantity="many">Trwale usunąć te nagrania?</item>
     </plurals>
-    <plurals name="download_unsuccessful_description_storage_full">
-        <item quantity="other">Nie można pobrać nagrania, bo pamięć urządzenia jest pełna. Kliknij, by sprawdzić.</item>
-        <item quantity="one">Pamięć urządzenia jest pełna. Kliknij, by sprawdzić.</item>
-        <item quantity="few">Nie można pobrać nagrań, bo pamięć urządzenia jest pełna. Kliknij, by sprawdzić.</item>
-        <item quantity="many">Nie można pobrać nagrań, bo pamięć urządzenia jest pełna. Kliknij, by sprawdzić.</item>
-    </plurals>
-    <plurals name="downloaded_description">
-        <item quantity="other">Pobrano %1$d nagrania</item>
-        <item quantity="one">Pobrano %1$d nagranie</item>
-        <item quantity="few">Pobrano %1$d nagrania</item>
-        <item quantity="many">Pobrano %1$d nagrań</item>
+    <plurals name="download_failure_description_storage_full">
+        <item quantity="other">Nie można pobrać nagrań, ponieważ pamięć urządzenia jest pełna. Kliknij, aby to sprawdzić.</item>
+        <item quantity="one">Pamięć urządzenia jest pełna. Kliknij, aby to sprawdzić.</item>
+        <item quantity="few">Nie można pobrać nagrań, ponieważ pamięć urządzenia jest pełna. Kliknij, aby to sprawdzić.</item>
+        <item quantity="many">Nie można pobrać nagrań, ponieważ pamięć urządzenia jest pełna. Kliknij, aby to sprawdzić.</item>
     </plurals>
     <plurals name="downloading_description">
         <item quantity="other">Pobieram %1$d nagrania</item>
         <item quantity="one">Pobieram %1$d nagranie</item>
         <item quantity="few">Pobieram %1$d nagrania</item>
         <item quantity="many">Pobieram %1$d nagrań</item>
+    </plurals>
+    <plurals name="og_backup_failed_title">
+        <item quantity="other">Nie udało się utworzyć kopii zapasowej %1$d elementu</item>
+        <item quantity="one">Nie udało się utworzyć kopii zapasowej %1$d elementu</item>
+        <item quantity="few">Nie udało się utworzyć kopii zapasowej %1$d elementów</item>
+        <item quantity="many">Nie udało się utworzyć kopii zapasowej %1$d elementów</item>
+    </plurals>
+    <plurals name="og_backup_items_left">
+        <item quantity="other">Pozostało %1$d elementu</item>
+        <item quantity="one">Pozostał %1$d element</item>
+        <item quantity="few">Pozostały %1$d elementy</item>
+        <item quantity="many">Pozostało %1$d elementów</item>
+    </plurals>
+    <plurals name="og_backup_items_stopped_title">
+        <item quantity="other">Nie udało się utworzyć kopii zapasowej %1$d elementu</item>
+        <item quantity="one">Nie udało się utworzyć kopii zapasowej %1$d elementu</item>
+        <item quantity="few">Nie udało się utworzyć kopii zapasowej %1$d elementów</item>
+        <item quantity="many">Nie udało się utworzyć kopii zapasowej %1$d elementów</item>
     </plurals>
     <plurals name="search_results_count">
         <item quantity="other">%1$d wyniku</item>
@@ -55,10 +61,10 @@
         <item quantity="many">%1$d wyników</item>
     </plurals>
     <plurals name="search_results_position">
-        <item quantity="other">%1$d/%2$d wyniku</item>
-        <item quantity="one">%1$d/%2$d wyniku</item>
-        <item quantity="few">%1$d/%2$d wyników</item>
-        <item quantity="many">%1$d/%2$d wyników</item>
+        <item quantity="other">^1/^2 wyniku</item>
+        <item quantity="one">^1/^2 wyniku</item>
+        <item quantity="few">^1/^2 wyników</item>
+        <item quantity="many">^1/^2 wyników</item>
     </plurals>
     <plurals name="search_results_position_content_description">
         <item quantity="other">%1$d z %2$d wyniku</item>
@@ -77,12 +83,6 @@
         <item quantity="one">Pamięć urządzenia jest pełna. Nie można pobrać nagrania.</item>
         <item quantity="few">Pamięć urządzenia jest pełna. Nie można pobrać nagrań.</item>
         <item quantity="many">Pamięć urządzenia jest pełna. Nie można pobrać nagrań.</item>
-    </plurals>
-    <plurals name="uploaded_description">
-        <item quantity="other">Przesłano %1$d nagrania</item>
-        <item quantity="one">Przesłano %1$d nagranie</item>
-        <item quantity="few">Przesłano %1$d nagrania</item>
-        <item quantity="many">Przesłano %1$d nagrań</item>
     </plurals>
     <plurals name="uploading_description">
         <item quantity="other">Przesyłam %1$d nagrania</item>

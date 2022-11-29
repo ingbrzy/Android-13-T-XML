@@ -63,7 +63,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript">^1, ^2, ^3.</string>
     <string name="a11y_new_call_log_entry_phone_account">^1ல்</string>
     <string name="a11y_new_call_log_entry_rtt_call">^1க்கு RTT அழைப்பைச் செய்</string>
-    <string name="a11y_new_call_log_entry_tap_action">மெனுவை விரிவாக்கு</string>
+    <string name="a11y_new_call_log_entry_tap_action">மெனுவை விரிவாக்கும் அல்லது சுருக்கும்</string>
     <string name="a11y_new_call_log_entry_video_call">^1க்கு வீடியோ அழைப்பைச் செய்</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">வைஃபையைப் பயன்படுத்தி ^1 உடன் வீடியோ அழைப்பை மேற்கொள்ளும்</string>
     <string name="a11y_new_call_log_entry_voice_call">^1ஐ அழை</string>
@@ -191,6 +191,7 @@
     <string name="atlas_soda_banner_feature_text">எனக்காகக் காத்திரு</string>
     <string name="atlas_temp_service_notification_title">‘எனக்காகக் காத்திரு’ அழைப்பு துவக்கப்படுகிறது</string>
     <string name="atlas_warning_text_for_second_incoming_call">இந்த அழைப்புக்குப் பதிலளித்தால் ‘எனக்காகக் காத்திரு’ அம்சம் செயல்படாது</string>
+    <string name="audio_route_item_checked_description">தேர்ந்தெடுக்கப்பட்டது</string>
     <string name="audioroute_bluetooth">புளூடூத்</string>
     <string name="audioroute_headset">வயருடன்கூடிய ஹெட்செட்</string>
     <string name="audioroute_phone">ஃபோன்</string>
@@ -235,6 +236,7 @@
     <string name="bm_suggest_wait_time_estimating">"Chat
 விரைவில் கிடைக்கும்…"</string>
     <string name="bottomsheet_action_expand_halfway">பாதியளவு விரிவாக்கும்</string>
+    <string name="bottomsheet_drag_handle_content_description">இழுப்பதற்கான ஹேண்டில்</string>
     <string name="bubble_bottom_action_end_call">அழைப்பை முடி</string>
     <string name="bubble_bottom_action_hide">மறை</string>
     <string name="bubble_return_to_call">அழைப்பிற்குச் செல்</string>
@@ -582,10 +584,8 @@
     <string name="copy_number">எண்ணை நகலெடு</string>
     <string name="create_new_contact">புதிய தொடர்பை உருவாக்கு</string>
     <string name="crosby_setting_title">அழைப்பு ரெக்கார்டிங்</string>
-    <string name="crystal_clear_audio_setting_title">தெளிவான அழைப்பு</string>
     <string name="current_voicemail_greeting_record_instruction">வாழ்த்தை பதிவுசெய்க</string>
     <string name="current_voicemail_greeting_recording_title">எனது குரலஞ்சல் வாழ்த்து</string>
-    <string name="custom_message_hint">பிரத்தியேக செய்தியை எழுதவும்</string>
     <string name="custom_prefix_add_prefix_to_call_entry_always_add_prefix">எப்போதும் முன்னொட்டைச் சேர்</string>
     <string name="custom_prefix_add_prefix_to_call_entry_ask_before_dialing">அழைக்கும் முன் கேள்</string>
     <string name="custom_prefix_add_prefix_to_call_entry_never_add_prefix">முன்னொட்டைச் சேர்க்க வேண்டாம்</string>
@@ -670,11 +670,11 @@
     <string name="display_options_view_given_name_first">பெயரின் முற்பகுதி முதலில்</string>
     <string name="display_options_view_names_as">பெயர் வடிவம்</string>
     <string name="do_not_show_again">மீண்டும் காட்டாதே</string>
-    <string name="duo_fallback_dialog_do_not_show_again_label">இந்த விருப்பத்தை நினைவில்கொள்</string>
-    <string name="duo_fallback_dialog_message">மொபைல் நெட்வொர்க் வீடியோ அழைப்பைப் பயன்படுத்தி வீடியோ அழைப்பைச் செய்ய முடியவில்லை. இதற்குப் பதிலாக, Duo மூலம் அழைத்திடுங்கள்.</string>
-    <string name="duo_fallback_dialog_negative_button_label">ரத்துசெய்</string>
-    <string name="duo_fallback_dialog_positive_button_label">Duo மூலம் அழை</string>
-    <string name="duo_fallback_dialog_title">Google Duo மூலம் அழைக்கவா?</string>
+    <string name="duo_fallback_dialog_do_not_show_again_label">ஒவ்வொரு அழைப்பிற்கும் Duoவை மாற்று ஆப்ஸாகப் பயன்படுத்துவதை நினைவில் கொள். அமைப்புகளில் இதை எப்போது வேண்டுமானாலும் மாற்றலாம்.</string>
+    <string name="duo_fallback_dialog_message">உங்கள் மொபைல் நிறுவனத்தால் வீடியோ அழைப்பைச் செய்ய முடியவில்லை எனில் Duo தானாகவே அந்த அழைப்பைச் செய்ய முயலும்.</string>
+    <string name="duo_fallback_dialog_negative_button_label">வேண்டாம்</string>
+    <string name="duo_fallback_dialog_positive_button_label">Duoவை மாற்று ஆப்ஸாக அமை</string>
+    <string name="duo_fallback_dialog_title">அழைப்புகளைச் செய்ய Google Duoவை மாற்று ஆப்ஸாகப் பயன்படுத்தவா?</string>
     <string name="edit_number_before_call">அழைக்கும் முன் எண்ணைத் திருத்து</string>
     <string name="emergency_assist_address_sentence">நான் இருக்கும் இடம் %1$s.</string>
     <string name="emergency_assist_button_fire">தீ விபத்து</string>
@@ -696,6 +696,7 @@
     <string name="emergency_voice_assist_dialog_button_close">ரத்துசெய்</string>
     <string name="emergency_voice_assist_dialog_title">இது அவசரகால ஆபரேட்டருக்குக் கேட்கும்</string>
     <string name="end_call_with_default_message_description">அழைப்பைத் துண்டிக்கும்</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_icon_content_description">பிழை</string>
     <string name="error_unable_to_get_audio">மாதிரி ஆடியோவைப் பெற முடியவில்லை</string>
     <string name="error_unable_to_play_audio">மாதிரி ஆடியோவைப் பிளே செய்ய முடியவில்லை</string>
@@ -740,7 +741,7 @@
     <string name="first_time_dialog_duo_video_call_label">Google Duo</string>
     <string name="first_time_dialog_negative_button_label">ரத்துசெய்</string>
     <string name="first_time_dialog_positive_button_label">தேர்ந்தெடு</string>
-    <string name="first_time_dialog_remember_this_choice_label">இந்த விருப்பத்தை நினைவில்கொள்</string>
+    <string name="first_time_dialog_remember_this_choice_label">ஒவ்வொரு அழைப்பிற்கும் நினைவில் கொள். அமைப்புகளில் இதை எப்போது வேண்டுமானாலும் மாற்றலாம்.</string>
     <string name="first_time_dialog_title">வீடியோ அழைப்புச் சேவையைத் தேர்வுசெய்தல்</string>
     <string name="flip_to_shush_title">Shhh அம்சத்துக்கு மாற்றத் திருப்புதல்</string>
     <string name="flip_to_silence_summary">மொபைலின் திரை கீழ்நோக்கி இருக்கும்படி திருப்பி சமதளத்தில் வைத்தால் உள்வரும் அழைப்பு நிசப்தமாக்கப்படும்</string>
@@ -788,6 +789,8 @@
     <string name="incall_content_description_hold">அழைப்பை ஹோல்டில் வைக்கும்</string>
     <string name="incall_content_description_merge_calls">அழைப்புகளை இணைக்கும்</string>
     <string name="incall_content_description_muted">ஒலியடக்கப்பட்டது</string>
+    <string name="incall_content_description_show_less">குறைவாகக் காட்டு</string>
+    <string name="incall_content_description_show_more">மேலும் காட்டு</string>
     <string name="incall_content_description_speaker">ஸ்பீக்கர்</string>
     <string name="incall_content_description_swap_calls">அழைப்புகளை மாற்றும்</string>
     <string name="incall_content_description_swap_sim">சிம்மை மாற்றும்</string>
@@ -803,6 +806,7 @@
     <string name="incall_label_hold">ஹோல்டில் வை</string>
     <string name="incall_label_manage">நிர்வகி</string>
     <string name="incall_label_merge">இணை</string>
+    <string name="incall_label_more">மேலும்</string>
     <string name="incall_label_mute">ஒலியடக்கு</string>
     <string name="incall_label_record">ரெக்கார்டு</string>
     <string name="incall_label_record_checked">ரெக்கார்டிங்கை நிறுத்து</string>
@@ -835,15 +839,9 @@
     <string name="join_call_with_default_message_description">அழைப்பில் இணைக்கும்</string>
     <string name="just_now">சற்றுமுன்</string>
     <string name="lat_long_format">%1$f, %2$f</string>
+    <string name="launch_application_settings">அமைப்புகள்</string>
     <string name="launcherActivityLabel">மொபைல்</string>
     <string name="learn_more_text_for_tmo">மேலும் அறிய T-Mobileலுக்குச் செல்லுங்கள்</string>
-    <string name="legacy_post_call_message">அழைத்த காரணத்தைக் கூறுங்கள்</string>
-    <string name="legacy_post_call_message_1">அவசரம். திரும்ப அழைக்கவும்.</string>
-    <string name="legacy_post_call_message_2">உங்களுக்கு நேரமிருக்கும் போது என்னைத் திரும்ப அழைக்கவும்.</string>
-    <string name="legacy_post_call_message_3">அவசரமில்லை. நாம் பிறகு பேசலாம்.</string>
-    <string name="legacy_post_call_message_sent">மெசேஜ் அனுப்பப்பட்டது</string>
-    <string name="legacy_post_call_send_message">மெசேஜ் அனுப்பவா?</string>
-    <string name="legacy_post_call_view">காட்டு</string>
     <string name="libraries_material_featurehighlight_dismiss">நிராகரி</string>
     <string name="license_activity_label">ஓப்பன் சோர்ஸ் உரிமங்கள்</string>
     <string name="light_theme_label">லைட்</string>
@@ -868,6 +866,7 @@
     <string name="mdd_notification_action_cancel">ரத்துசெய்</string>
     <string name="mdd_notification_download_failed">பதிவிறக்க முடியவில்லை</string>
     <string name="mdd_notification_download_paused">நெட்வொர்க் இணைப்பிற்காகக் காத்திருக்கிறது</string>
+    <string name="mdd_notification_download_paused_wifi">வைஃபை இணைப்பிற்காகக் காத்திருக்கிறது</string>
     <string name="meid_number">MEID %s</string>
     <string name="menu_callNumber">%s எண்ணை அழை</string>
     <string name="merge_calls_confirm_message">இணைக்கப்படும் அழைப்பில் யாரெல்லாம் இருப்பார்கள் என்பது அனைவருக்கும் தெரியும் என்பதில் உறுதியாக இருந்தால் மட்டுமே அழைப்பை இணைக்கவும்</string>
@@ -907,11 +906,9 @@
     <string name="nearbyplaces_account_setting_title">Google கணக்கு</string>
     <string name="new_call_log_activity_title">அழைப்புப் பதிவு</string>
     <string name="new_call_log_all_title">அனைத்தும்</string>
-    <string name="new_call_log_carrier_video">தொலைத்தொடர்பு நிறுவன வீடியோ</string>
     <string name="new_call_log_clear_call_log_confirmation">இவ்வாறு செய்வதால், பதிவிலிருந்து எல்லா அழைப்புகளும் நீக்கப்படும்</string>
     <string name="new_call_log_clear_call_log_confirmation_title">அழைப்புப் பதிவை அழிக்கவா?</string>
     <string name="new_call_log_delete_all">அழைப்புப் பதிவை அழி</string>
-    <string name="new_call_log_duo_video">Duo வீடியோ</string>
     <string name="new_call_log_empty">நீங்கள் செய்யும் அழைப்புகள் இங்கே காட்டப்படும்</string>
     <string name="new_call_log_generic_video">வீடியோ</string>
     <string name="new_call_log_header_older">பழையவை</string>
@@ -929,6 +926,7 @@
     <string name="new_permission_no_search">தொடர்புகளைத் தேட, தொடர்புகளுக்கான அனுமதிகளை இயக்கவும்.</string>
     <string name="non_contact_always_record_dialog_title">உங்கள் தொடர்புகளில் இல்லாத எண்களில் இருந்து வரும் அழைப்புகளை எப்போதும் ரெக்கார்டு செய்யவா?</string>
     <string name="non_contact_toggle_label">எனது தொடர்புகளில் இல்லாத எண்கள்</string>
+    <string name="non_spam_aftercall_notification_title">%1$s - தெரிந்த எண்ணா?</string>
     <string name="non_spam_notification_title">%1$s - தெரிந்த எண்ணா?</string>
     <string name="not_set">அமைக்கப்படவில்லை</string>
     <string name="notification_action_accept">ஏற்கிறேன்</string>
@@ -979,7 +977,7 @@
     <string name="notification_ongoing_call">செயலில் இருக்கும் அழைப்பு</string>
     <string name="notification_ongoing_call_multi_sim">அழைப்பு %1$s இல் நடக்கிறது</string>
     <string name="notification_ongoing_call_wifi_template">செயலிலுள்ள அழைப்பு: %1$s</string>
-    <string name="notification_ongoing_call_wifi_template_multi_sim">%1$s அழைப்பு %1$s இல் நடக்கிறது</string>
+    <string name="notification_ongoing_call_wifi_template_multi_sim">Ongoing %1$s via %2$s</string>
     <string name="notification_ongoing_paused_video_call">கேரியர் மூலமான தற்போதைய வீடியோ அழைப்பு ‑ இடைநிறுத்தப்பட்டது</string>
     <string name="notification_ongoing_paused_video_call_multi_sim">வீடியோ அழைப்பு %1$s இல் நடக்கிறது ‑ இடைநிறுத்தப்பட்டது</string>
     <string name="notification_ongoing_video_call">கேரியர் மூலமான தற்போதைய வீடியோ அழைப்பு</string>
@@ -992,7 +990,7 @@
     <string name="notification_take_call">அழைப்பை எடு</string>
     <string name="notification_take_video_call">வீடியோ அழைப்பை எடு</string>
     <string name="notification_voicemail_callers_list">%1$s, %2$s</string>
-    <string name="notification_voicemail_no_vm_number">குரலஞ்சல் எண் அறியப்படவில்லை</string>
+    <string name="notification_voicemail_no_vm_number">குரலஞ்சலை அமைக்க, மெனு > அமைப்புகள் என்பதற்குச் செல்லவும்.</string>
     <string name="notification_voicemail_text_format">%s என்ற எண்ணை அழைக்கவும்</string>
     <string name="old_block_number_confirmation_title">%1$sஐத் தடுக்கவா?</string>
     <string name="openhistory_button_label">வரலாறு</string>
@@ -1033,6 +1031,7 @@
     <string name="precall_dialpad_chat_button">உரையாடல்</string>
     <string name="precall_dialpad_chat_wait_min">%1$dநிமி காத்திருப்பு</string>
     <string name="preference_copied">\"%1$s\" கிளிப்போர்டுக்கு நகலெடுக்கப்பட்டது.</string>
+    <string name="preferences_license_title">மூன்றாம் தரப்பு அறிவிப்புகள்</string>
     <string name="presence_optin_dialog_do_not_show_again_label">மீண்டும் காட்டாதே</string>
     <string name="presence_optin_dialog_message">"வீடியோ அழைப்பைத் தொடங்கும் முன், எந்தெந்த ஃபோன் எண்கள் எல்லாம் Verizon வீடியோ அழைப்புகளைப் பெறலாம் என்பதை Verizon உறுதிப்படுத்த விரும்புகிறது.
 
@@ -1047,7 +1046,7 @@
     <string name="private_num_non_verizon">தனிப்பட்ட எண்</string>
     <string name="private_num_verizon">வரம்பிட்டவை</string>
     <string name="private_or_hidden_action_preference_description">அழைப்பாளர் ஐடியை மறைக்கும் அழைப்பாளர்கள்</string>
-    <string name="private_or_hidden_action_preference_title">தனிப்பட்ட/மறைக்கப்பட்ட எண்</string>
+    <string name="private_or_hidden_action_preference_title">தனிப்பட்ட &amp; மறைக்கப்பட்ட எண்கள்</string>
     <string name="quick_contact_checkbox_description">தொடர்பைத் தேர்ந்தெடுக்கும்</string>
     <string name="ready_for_recording">தயாராகிறது…</string>
     <string name="record_audio_pre_call_dialog_got_it">சரி</string>
@@ -1094,7 +1093,7 @@
     <string name="revelio_end_call_user_missed_internal_message">அழைப்பைத் தவறவிட்டீர்கள்</string>
     <string name="revelio_pref_title">அழைப்பு வடிப்பான்</string>
     <string name="revelio_preference_summary_automatic_screening_off">தானாக வடிகட்டுதல் முடக்கப்பட்டுள்ளது</string>
-    <string name="revelio_preference_summary_screening">%1$s ஐ வடிகட்டும்</string>
+    <string name="revelio_preference_summary_screening">%1$sஐ ஸ்கிரீன் செய்தல்</string>
     <string name="revelio_save_audio_setting_summary">Assistant பதிலளித்த அழைப்புகளின் ஆடியோவைச் சேமிக்கும்</string>
     <string name="revelio_save_audio_setting_title">அழைப்பு வடிப்பான் ஆடியோவைச் சேமி</string>
     <string name="revelio_setting_title">அழைப்பு வடிப்பான்</string>
@@ -1168,7 +1167,6 @@
     <string name="set_default_account_description">உங்கள் தொடர்புகளுடன் SIM விருப்பத்தேர்வு சேமிக்கப்பட்டுள்ளது.</string>
     <string name="set_phone_as_default_explanation_text">இது உங்கள் இயல்புநிலை ஃபோன் ஆப்ஸாக இருந்தால் மட்டுமே மொபைலால் அழைப்புகளை செய்யவும், பெறவும் முடியும்</string>
     <string name="set_phone_as_default_request_text">இயல்புநிலை ஆப்ஸாக ஃபோனை அமைக்கவும்</string>
-    <string name="settings">அமைப்புகள்</string>
     <string name="settings_page_call_recording_feature_not_available_text">அழைப்பை ரெக்கார்டு செய்யும் அம்சத்தை உங்கள் இருப்பிடத்தில் பயன்படுத்த முடியாது</string>
     <string name="settings_page_crosby_feature_not_available_text">உங்கள் இருப்பிடத்தில் பயன்படுத்த முடியாது</string>
     <string name="setup_duo_button_long_text">Duo வீடியோ அழைப்பை அமை</string>
@@ -1218,6 +1216,9 @@
     <string name="sounds_and_vibration_title">ஒலிகளும் அதிர்வும்</string>
     <string name="spam_action_preference_description">Googleளின் ஸ்பேம் தரவுத்தளத்துடன் பொருந்தும் எண்கள்</string>
     <string name="spam_action_preference_title">ஸ்பேம்</string>
+    <string name="spam_after_call_notification_add_contact_action_text">தொடர்பைச் சேர்</string>
+    <string name="spam_after_call_notification_report_spam_action_text">தடுத்துப் புகாரளி</string>
+    <string name="spam_aftercall_notification_unknown">தெரியாதது</string>
     <string name="spam_and_call_screen_settings_title">ஸ்பேம் மற்றும் அழைப்பு வடிப்பான்</string>
     <string name="spam_blocking_promo_action_dismiss">நிராகரி</string>
     <string name="spam_blocking_promo_action_filter_spam">ஸ்பேமைத் தடு</string>
@@ -1229,6 +1230,9 @@
     <string name="spam_blocking_settings_enable_error_text">ஸ்பேம் தடுத்தலை இயக்குவதில் சிக்கல்</string>
     <string name="spam_blocking_settings_summary">உங்களைத் தொந்தரவு செய்வதிலிருந்து சந்தேகத்திற்குரிய ஸ்பேம் அழைப்புகளைத் தடுக்கும்</string>
     <string name="spam_blocking_settings_title">ஸ்பேம் அழைப்புகளைத் தடுக்கவும்</string>
+    <string name="spam_dialog_add_contact_action">தொடர்புகளில் சேர்</string>
+    <string name="spam_dialog_dismiss_action">நிராகரி</string>
+    <string name="spam_notification_action_block_spam">ஆம். எண்ணைத் தடு</string>
     <string name="spam_notification_action_dismiss">நிராகரி</string>
     <string name="spam_notification_add_contact_action_text">தொடர்பைச் சேர்</string>
     <string name="spam_notification_block_spam_action_text">ஆம், எண்ணைத் தடு</string>
@@ -1468,27 +1472,27 @@
     <string name="videocall_remotely_resumed">மீண்டும் தொடங்கப்பட்டது</string>
     <string name="videocall_settings_default_ask_every_time">ஒவ்வொரு முறையும் கேட்பவை</string>
     <string name="videocall_settings_default_carrier">மொபைல் நெட்வொர்க் வீடியோ அழைப்பு</string>
-    <string name="videocall_settings_default_caution">This feature allows a user to choose a preferred video call solution and indicate the receiver’s video capability when it’s available. ^1</string>
-    <string name="videocall_settings_default_caution_learn_more">Learn more about preferred video services</string>
+    <string name="videocall_settings_default_caution">வீடியோ அழைப்பை எப்படிச் செய்ய விரும்புகிறீர்கள் என்பதைத் தேர்ந்தெடுத்து, நீங்கள் அழைப்பவர் அதைப் பெறமுடியுமா என்பதை அறியவும். ^1</string>
+    <string name="videocall_settings_default_caution_learn_more">வீடியோ அழைப்புகள் குறித்து மேலும் அறிக</string>
     <string name="videocall_settings_default_duo">Google Duo</string>
     <string name="videocall_settings_default_title">விருப்பமான வீடியோ அழைப்புச் சேவை</string>
-    <string name="videocall_settings_fallback_caution">"When “Use Google Duo as backup” (if applicable) is on and a call can't be completed using your preferred service, the call will automatically be attempted on Duo. ^1"</string>
-    <string name="videocall_settings_fallback_caution_learn_more">Learn more about Duo backup calling</string>
-    <string name="videocall_settings_fallback_summary">உங்களுக்கு விருப்பமான சேவை கிடைக்கவில்லை எனில் Duoவுக்கு மாற்றப்படும்</string>
-    <string name="videocall_settings_fallback_title">மாற்று விருப்பமாக Google Duoவைப் பயன்படுத்துதல்</string>
+    <string name="videocall_settings_fallback_caution">வீடியோ அழைப்புக்கான மாற்று ஆப்ஸாக Duoவை அமைத்திருந்து அதை ஆன் செய்து வைத்திருந்தால், உங்கள் மொபைல் நிறுவனத்தால் வீடியோ அழைப்பைச் செய்ய முடியவில்லை எனில் Duo தானாகவே அந்த அழைப்பைச் செய்ய முயலும். ^1</string>
+    <string name="videocall_settings_fallback_caution_learn_more">மாற்று ஆப்ஸாக Duoவைப் பயன்படுத்துவது குறித்து மேலும் அறிக</string>
+    <string name="videocall_settings_fallback_summary">உங்களுக்கு விருப்பமான சேவை கிடைக்கவில்லை எனில் Duoவுக்கு மாறுங்கள்</string>
+    <string name="videocall_settings_fallback_title">மாற்று விருப்பமாக Duoவைப் பயன்படுத்து</string>
     <string name="videocall_settings_title">வீடியோ அழைப்பு</string>
     <string name="videocall_show_preview_button_description">அக வீடியோ ஊட்டத்தைக் காட்டும்</string>
     <string name="view_location_settings">இருப்பிட அமைப்புகள்</string>
     <string name="vitle_label">வீடியோ அழைப்பு (LTE)</string>
     <string name="viwifi_label">வைஃபை வீடியோ அழைப்பு</string>
     <string name="vm_change_pin_error_invalid">புதிய பின்னில் தவறான எழுத்துகள் உள்ளன.</string>
-    <string name="vm_change_pin_error_last_4_digits_msisdn">புதிய பின் உங்கள் மொபைலின் கடைசி நான்கு இலக்கங்களாக இருக்கக்கூடாது.</string>
+    <string name="vm_change_pin_error_last_4_digits_msisdn">உங்கள் பின் (PIN) உங்கள் ஃபோன் எண்ணின் கடைசி 4 இலக்கங்களாக இருக்கக்கூடாது.</string>
     <string name="vm_change_pin_error_mismatch">பழைய பின் பொருந்தவில்லை.</string>
     <string name="vm_change_pin_error_system_error">பின்னை மாற்ற முடியவில்லை</string>
     <string name="vm_change_pin_error_too_long">புதிய பின் மிகவும் நீளமாக உள்ளது.</string>
     <string name="vm_change_pin_error_too_short">புதிய பின் மிகவும் சிறியதாக உள்ளது.</string>
     <string name="vm_change_pin_error_too_weak">புதிய பின் மிகவும் வலுவற்றதாக உள்ளது. வலுவான கடவுச்சொல்லில் தொடர்வரிசையோ மீண்டும் மீண்டும் வரும் இலக்கங்களோ இருக்கக்கூடாது.</string>
-    <string name="vm_change_pin_error_unchanged_pin">தற்போதைய பின்னையே புதிய பின்னாக வழங்கியிருக்கிறீர்கள். வேறு பின்னை வழங்கவும்.</string>
+    <string name="vm_change_pin_error_unchanged_pin">உங்களின் புதிய பின்னும் (PIN) தற்போதைய பின்னும் (PIN) வெவ்வேறாக இருக்க வேண்டும்.</string>
     <string name="vm_change_pin_progress_message">காத்திருக்கவும்.</string>
     <string name="voice_call">குரல் அழைப்பு</string>
     <string name="voice_call_button">அழை</string>
@@ -1510,11 +1514,9 @@
     <string name="voicemailMultiSelectDeleteConfirm">நீக்கு</string>
     <string name="voicemail_action_call_customer_support">வாடிக்கையாளர் ஆதரவை அழை</string>
     <string name="voicemail_action_call_voicemail">குரலஞ்சலில் அழை</string>
-    <string name="voicemail_action_dimiss">வேண்டாம்</string>
     <string name="voicemail_action_retry">மீண்டும் முயல்க</string>
     <string name="voicemail_action_set_pin">பின்னை அமை</string>
     <string name="voicemail_action_sync">ஒத்திசை</string>
-    <string name="voicemail_action_turn_archive_on">இயக்கு</string>
     <string name="voicemail_action_turn_off_airplane_mode">விமானப் பயன்முறை அமைப்புகள்</string>
     <string name="voicemail_activating_summary_info">குரலஞ்சலைச் செயல்படுத்துகிறது</string>
     <string name="voicemail_advanced_settings_title">மேம்பட்ட அமைப்புகள்</string>
@@ -1529,7 +1531,7 @@
     <string name="voicemail_change_pin_preference_summary_disable">பின்னை மாற்ற, விஷுவல் குரலஞ்சலை இயக்க வேண்டும்</string>
     <string name="voicemail_change_pin_preference_summary_not_activated">விஷுவல் குரலஞ்சல் இன்னும் இயக்கப்படவில்லை. பிறகு முயலவும்</string>
     <string name="voicemail_change_pin_preference_title">பின்னை மாற்று</string>
-    <string name="voicemail_donate_preference_summary_info">டிரான்ஸ்கிரிப்ஷனின் துல்லியத்தன்மையை மேம்படுத்த, உங்கள் குரலஞ்சல் செய்திகளை மதிப்பாய்வு செய்வதற்கு Googleஐ அனுமதிக்கவும். உங்கள் குரலஞ்சல் செய்திகள் பெயரற்ற முறையில் சேமிக்கப்படும். %1$s</string>
+    <string name="voicemail_donate_preference_summary_info">டிரான்ஸ்கிரிப்ஷனின் துல்லியத்தன்மையை மேம்படுத்த, உங்கள் குரலஞ்சல் செய்திகளை மதிப்பாய்வு செய்வதற்கு Googleஐ அனுமதிக்கவும். உங்கள் குரலஞ்சல் செய்திகள் பெயரற்ற முறையில் சேமிக்கப்படும். ^1</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">டேட்டா இல்லாத சிம்களில் விஷுவல் குரலஞ்சலைப் பயன்படுத்தினால் மொபைல் நிறுவனம் கட்டணங்களை விதிக்கலாம்</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">தேர்ந்தெடுத்த சிம்மிற்கு மட்டுமே விஷுவல் குரலஞ்சலுக்கான அமைப்பைப் பெற முடியும்</string>
     <string name="voicemail_error_activating_message">விஷுவல் குரலஞ்சலை முழுவதுமாகச் செயல்படுத்தும் வரை, உங்களால் குரலஞ்சல் அறிவிப்புகளைப் பெற முடியாமல் போகலாம். குரலஞ்சலை முழுவதுமாகச் செயல்படுத்தும் வரை புதிய மெசேஜ்களைப் பெற, குரலஞ்சலை அழைக்கவும்.</string>
@@ -1542,12 +1544,8 @@
     <string name="voicemail_error_bad_config_title">விஷுவல் குரலஞ்சலைப் புதுப்பிக்க முடியவில்லை</string>
     <string name="voicemail_error_communication_message">குரலஞ்சலைக் கேட்க, இப்போதும் நீங்கள் குரலஞ்சல் எண்ணிற்கு அழைக்கலாம்.</string>
     <string name="voicemail_error_communication_title">விஷுவல் குரலஞ்சலைப் புதுப்பிக்க முடியவில்லை</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_message">உங்கள் அஞ்சல்பெட்டி கிட்டத்தட்ட நிரம்பிவிட்டது. இடத்தைக் காலியாக்க, கூடுதல் சேமிப்பகத்தை இயக்கவும். இதன் மூலம் Google உங்கள் குரலஞ்சல் மெசேஜ்களை நிர்வகித்து, காப்புப் பிரதி எடுக்கலாம்.</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_title">கூடுதல் சேமிப்பகத்தையும் காப்புப் பிரதியையும் இயக்கு</string>
     <string name="voicemail_error_inbox_full_message">இன்பாக்ஸ் நிரம்பிவிட்டது. புதிய குரலஞ்சல்களைப் பெற, சில மெசேஜ்களை நீக்கவும்.</string>
     <string name="voicemail_error_inbox_full_title">புதிய குரலஞ்சல்களைப் பெற முடியவில்லை</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_message">உங்கள் அஞ்சல்பெட்டி நிரம்பிவிட்டது. இடத்தைக் காலியாக்க, கூடுதல் சேமிப்பகத்தை இயக்கவும். இதன் மூலம் Google உங்கள் குரலஞ்சல் மெசேஜ்களை நிர்வகித்து, காப்புப் பிரதி எடுக்கலாம்.</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_title">கூடுதல் சேமிப்பகத்தையும் காப்புப் பிரதியையும் இயக்கு</string>
     <string name="voicemail_error_inbox_near_full_message">இன்பாக்ஸ் நிரம்பியிருந்தால், புதிய குரலஞ்சலைப் பெற முடியாது.</string>
     <string name="voicemail_error_inbox_near_full_title">இன்பாக்ஸ் கிட்டத்தட்ட நிரம்பிவிட்டது</string>
     <string name="voicemail_error_no_data_cellular_required_message">மொபைல் டேட்டா இணைப்பின் வேகம் முன்பை விட அதிகமாகும் போது, மீண்டும் முயலவும். குரலஞ்சலைக் கேட்க, இப்போதும் நீங்கள் குரலஞ்சல் எண்ணிற்கு அழைக்கலாம்.</string>
@@ -1580,7 +1578,7 @@
     <string name="voicemail_transcription_failed_language_not_supported">டிரான்ஸ்கிரிப்ட் இல்லை. மொழி ஆதரிக்கப்படவில்லை.</string>
     <string name="voicemail_transcription_failed_no_speech">டிரான்ஸ்கிரிப்ட் இல்லை. பேச்சு எதுவும் கேட்கவில்லை.</string>
     <string name="voicemail_transcription_in_progress">டிரான்ஸ்கிரைப் செய்கிறது…</string>
-    <string name="voicemail_transcription_preference_summary_info">Google இன் டிரான்ஸ்கிரிப்ஷன் சேவையைப் பயன்படுத்தி, உங்கள் குரலஞ்சலுக்கான டிரான்ஸ்கிரிப்ட்டுகளைப் பெறலாம். %1$s</string>
+    <string name="voicemail_transcription_preference_summary_info">Google இன் டிரான்ஸ்கிரிப்ஷன் சேவையைப் பயன்படுத்தி, உங்கள் குரலஞ்சலுக்கான டிரான்ஸ்கிரிப்ட்டுகளைப் பெறலாம். ^1</string>
     <string name="voicemail_visual_voicemail_auto_archive_switch_title">கூடுதல் காப்புப் பிரதியும் சேமிப்பகமும்</string>
     <string name="voicemail_visual_voicemail_donation_switch_title">குரலஞ்சல் டிரான்ஸ்கிரிப்ஷன் பகுப்பாய்வு</string>
     <string name="voicemail_visual_voicemail_switch_title">விஷுவல் குரலஞ்சல்</string>
@@ -1636,7 +1634,7 @@
     <string name="wait_prompt_str">"பின்வரும் டோன்களை அனுப்பவா?
 "</string>
     <string name="was_this_a_business_chip_text">இது பிசினஸின் அழைப்பா?</string>
-    <string name="was_this_a_business_dialog_body">இந்தக் குறிச்சொல்லை உறுதிசெய்வது அழைப்பாளர் ஐடியை Google மேம்படுத்த உதவும்</string>
+    <string name="was_this_a_business_dialog_body">இதை உறுதிசெய்வது அழைப்பாளர் ஐடி சேவையை Google மேம்படுத்த உதவும்</string>
     <string name="was_this_a_business_dialog_negative_response">இல்லை</string>
     <string name="was_this_a_business_dialog_positive_response">ஆம்</string>
     <string name="was_this_a_business_dialog_snackbar">பதிலளித்தமைக்கு நன்றி</string>

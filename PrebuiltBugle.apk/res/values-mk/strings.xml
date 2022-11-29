@@ -26,7 +26,6 @@
     <string name="abc_shareactionprovider_share_with_application">Сподели со %s</string>
     <string name="abc_toolbar_collapse_description">Собери</string>
     <string name="about_application_pp_tos_settings">„За“, „Услови“ и „Приватност“</string>
-    <string name="acs_url_dropdown_hint">Поставете го ACS URL</string>
     <string name="action_add_contact">Додај контакт</string>
     <string name="action_advanced_feedback">Испратете повратни информации</string>
     <string name="action_archive">Архивирање</string>
@@ -45,18 +44,19 @@
     <string name="action_help_and_feedback">Помош и повратни информации</string>
     <string name="action_info_and_options">Информации и опции</string>
     <string name="action_jump_to_chat">Прикажи во разговор</string>
+    <string name="action_meet_video_call">Видеоповик на Meet</string>
     <string name="action_menu_mark_all_as_read">Означи ги сите како прочитани</string>
     <string name="action_menu_show_archived">Архивирани</string>
     <string name="action_menu_show_spam_folder">Спам и блокирани</string>
     <string name="action_notification_off">Исклучи известувања</string>
     <string name="action_notification_on">Вклучи известувања</string>
     <string name="action_notification_settings">Исклучи звук на извест.</string>
+    <string name="action_off">Исклучи</string>
     <string name="action_pair_device">Спарување уред</string>
     <string name="action_people_and_options">Детали</string>
     <string name="action_people_and_options_group">Детали за групата</string>
     <string name="action_pin_to_top">Закачи на најгорниот дел</string>
     <string name="action_report_spam">Пријави спам</string>
-    <string name="action_scan_qr_code">Messages за компјутер</string>
     <string name="action_search">Пребарување</string>
     <string name="action_search_gifs">Пребарување GIF-датотеки</string>
     <string name="action_search_messages">Пребарување пораки</string>
@@ -75,6 +75,7 @@
     <string name="action_viLTE_video_call">Видеоповик преку оператор</string>
     <string name="action_video_call">Воспоставете видеоповик</string>
     <string name="actionbar_subtitle_name_prefix">со %s</string>
+    <string name="active_reminder">Потсетник</string>
     <string name="active_sim_content_message">Избрана е %s</string>
     <string name="activity_not_found_message">Не може да се најде соодветна апликација</string>
     <string name="add_area_code_banner_button">Додајте го кодот на областа</string>
@@ -88,6 +89,7 @@
     <string name="add_contact_confirmation_dialog_title">Да се додаде во Контакти?</string>
     <string name="add_country_code_banner_button">Додајте код на земја</string>
     <string name="add_more_participants_button_content_description">Додај повеќе учесници</string>
+    <string name="add_reaction_content_description">Реагирајте со приспособена реакција</string>
     <string name="add_reaction_for_assistant_card_rcs_fallback_text">​%1$s​ на картичка на „Помошникот“</string>
     <string name="add_reaction_for_audio_rcs_fallback_text">​%1$s​ на аудиодатотека</string>
     <string name="add_reaction_for_contact_rcs_fallback_text">​%1$s​ на контакт</string>
@@ -95,7 +97,7 @@
     <string name="add_reaction_for_gif_rcs_fallback_text">​%1$s​ на GIF</string>
     <string name="add_reaction_for_link_rcs_fallback_text">​%1$s​ на линк</string>
     <string name="add_reaction_for_photo_rcs_fallback_text">​%1$s​ на фотографија</string>
-    <string name="add_reaction_for_text_message_rcs_fallback_text">​%1$s​ на „%2$s“</string>
+    <string name="add_reaction_for_text_message_rcs_fallback_text">​%1$s​ на „ %2$s “</string>
     <string name="add_reaction_for_unknown_message_type_rcs_fallback_text">​%1$s​ на непознат тип порака</string>
     <string name="add_reaction_for_video_rcs_fallback_text">​%1$s​ на видео</string>
     <string name="advanced_feedback_activity_disclaimer">Содржините и текстот на вашите пораки, освен оние во слики од екранот, не се испраќаат во Google</string>
@@ -132,14 +134,13 @@
     <string name="apn_mnc">MNC</string>
     <string name="app_name">Messages</string>
     <string name="app_settings_conversation_pref_title">Поставки за апликација</string>
-    <string name="apply_button">Примени</string>
     <string name="archived_activity_title">Архивирани</string>
     <string name="archived_conversation_list_empty_text">Архивираните разговори се појавуваат тука</string>
     <string name="area_code_banner_description">@string/banner_description</string>
     <string name="assistant_movies_shortcut_title">Филмови</string>
+    <string name="assistant_preference_summary">Прикажувај релевантни информации за храна, филмови и друго</string>
     <string name="assistant_preference_title">Предлози од „Помошникот“</string>
     <string name="assistant_restaurants_shortcut_title">Ресторани</string>
-    <string name="assistant_send_to_chip_default_group_name">група</string>
     <string name="assistant_suggestions_tooltip_text">Messages создава предлози во текот на вашиот разговор на уредот. Може да допрете на предлозите за да видите и споделите информации од „Помошникот на Google“. &lt;br/> &lt;br/> &lt;a href>Дознајте повеќе&lt;/a> и управувајте во &lt;a href>Поставки&lt;/a></string>
     <string name="assistant_suggestions_tooltip_title_text">Добивајте информации со еден допир</string>
     <string name="assistant_weather_shortcut_title">Временска прогноза</string>
@@ -155,12 +156,18 @@
     <string name="attachment_location">Локација</string>
     <string name="attachment_picture">Слика</string>
     <string name="attachment_preview_close_content_description">Отфрли го прилогот</string>
+    <string name="attachment_preview_photos_link_share_getting_link">Се вчитува линкот…</string>
+    <string name="attachment_preview_photos_link_share_no_upload_needed">Претходно прикачено</string>
+    <string name="attachment_preview_photos_link_share_upload_size">Прикачување: %s</string>
+    <string name="attachment_preview_photos_link_share_upload_size_failure">Непознато</string>
+    <string name="attachment_preview_photos_link_share_upload_size_placeholder">Се пресметува…</string>
     <string name="attachment_unsupported_file">Неподдржана датотека</string>
     <string name="attachment_vcard">Картичка за контакт</string>
     <string name="attachment_video">Видео</string>
     <string name="audio_attachment_content_description">Аудио прилог</string>
     <string name="audio_attachment_seek_playback_description">Аудиорепродукција</string>
     <string name="audio_button_view_content_description">Допрете двапати и задржете за да снимите аудио, лизгајте налево за да откажете</string>
+    <string name="audio_format_type">аудио</string>
     <string name="audio_pause_content_description">Пауза</string>
     <string name="audio_play_content_description">Репродуцирај аудио прилог</string>
     <string name="audio_recorder_call_in_progress">Не може да се снима аудио кога има повик во тек</string>
@@ -179,6 +186,8 @@
     <string name="auto_selected_country_summary">Автоматски откриена (%1$s)</string>
     <string name="automoved_spam_notification_action_dismiss">Отфрли</string>
     <string name="automoved_spam_notification_action_view">Прикажи</string>
+    <string name="automoved_spam_notification_content_text">Дојдовниот спам се преместува во „Спам и блокирано“</string>
+    <string name="automoved_spam_notification_content_title">Откриен е спам</string>
     <string name="avatar_no_connection_msg">Нема интернет-врска</string>
     <string name="avatar_promo_create">Создај</string>
     <string name="avatar_promo_see_all">Види ги сите</string>
@@ -190,7 +199,8 @@
     <string name="birthday_banner_description">@string/banner_description</string>
     <string name="birthday_banner_dismiss_button_text">Отфрли</string>
     <string name="birthday_banner_settings_button_text">Управувајте во „Поставки“</string>
-    <string name="birthday_info_text">Messages создава потсетници за родендени од контактите со родендени на вашиот уред</string>
+    <string name="birthday_info_text">Потсетнициве се засноваат на информациите за родендени од апликацијата за контакти на вашиот уред.</string>
+    <string name="birthday_info_text_with_settings">Потсетнициве се засноваат на информациите за родендени од апликацијата за контакти на вашиот уред. &lt;a href>%1$s&lt;/a></string>
     <string name="birthday_nudge_enabled_pref_summary">Добивајте потсетници за родендените што сте ги додале на контактите на вашиот уред</string>
     <string name="birthday_nudge_enabled_pref_title">Потсетници за родендени</string>
     <string name="block_confirmation_message_spam_folder">И понатаму ќе добивате пораки од %1$s, но веќе нема да добивате известувања. Разговоров ќе се премести во „Спам и блокирани“.</string>
@@ -210,9 +220,13 @@
     <string name="boew_promo_text">За да добиете функции за разговор, како на пр., испраќање пораки преку Wi-Fi и мобилен интернет, дозволете Messages да продолжи во заднина</string>
     <string name="boew_promo_title">Правете повеќе со Messages</string>
     <string name="bottomsheet_action_expand_halfway">Прошири до половина</string>
+    <string name="bottomsheet_drag_handle_content_description">Рачка за влечење</string>
     <string name="broadcast_receiver_notification_text_extra_info">Messages работи во заднина. Пријавете грешка ако го гледате известувањево подолго од една минута. Име на примач: %1$s</string>
     <string name="broadcast_sms_text">Масовна SMS-порака</string>
     <string name="bubble_settings_title">Балончиња</string>
+    <string name="bugle_add_account_error">Не може да се додаде сметка. Обидете се повторно.</string>
+    <string name="bugle_fix_it">Поправи</string>
+    <string name="bugle_load_account_failure">Не може да се вчитаат сметките.</string>
     <string name="bugle_notification_category_conversations">Разговори</string>
     <string name="bugle_notification_category_default_settings">Стандардни поставки</string>
     <string name="bugle_notification_category_reminders">Потсетници</string>
@@ -224,6 +238,8 @@
     <string name="bugle_notification_reminders_channel_name">Потсетници</string>
     <string name="bugle_notification_report_issue_channel_name">Барање за повр. информации за Messages</string>
     <string name="bugle_notification_silent_default_channel_name">Добивајте известувања додека користите интернет</string>
+    <string name="bugle_play_services_error">Не може да се испрати барање до „Услуги на Google Play“.</string>
+    <string name="bugle_retry">Обиди се пак</string>
     <string name="business_action_call_full_content_description">Повикајте го %1$s (%2$s)</string>
     <string name="business_action_call_short_content_description">Повикајте</string>
     <string name="business_action_call_short_text_m2">Повикај</string>
@@ -285,6 +301,7 @@
     <string name="c2o_single_file_attachment_size_limit_exceed">Прилогот е премногу голем за да се испрати. Обидете се со испраќање датотека помала од %s.</string>
     <string name="c2o_storage_permissions_text">Допрете за да дозволите пристап до Media</string>
     <string name="c2o_video_button_text">Видео</string>
+    <string name="calendar_badge_content_description">Значка на календар</string>
     <string name="calendar_event_added">Настанот е зачуван</string>
     <string name="calendar_file_content_description">Датотека од календар</string>
     <string name="calendar_suggestion_event_chat_title">Разговор на Android Messages</string>
@@ -292,9 +309,10 @@
     <string name="calendar_suggestions_tooltip_text">Заштедете време со веќе пополнети детали, како што се датум, локација и наслов, од неодамнешните пораки</string>
     <string name="calendar_suggestions_tooltip_title_text">Закажувајте додека разговарате</string>
     <string name="calligraphy">Калиграфија</string>
-    <string name="camera_attach_media">Приложи</string>
+    <string name="camera_attach_media">Прикачи</string>
     <string name="camera_attach_media_description">Приложи во порака</string>
     <string name="camera_back_switch_button">Прекинувач за задна камера</string>
+    <string name="camera_capture_button_label">Фотографирај</string>
     <string name="camera_flash_off">Без блиц</string>
     <string name="camera_flash_on">Со блиц</string>
     <string name="camera_front_switch_button">Прекинувач за предна камера</string>
@@ -392,6 +410,11 @@
     <string name="common_google_play_services_update_text">%1$s нема да се извршува ако не ги ажурирате услугите на Google Play.</string>
     <string name="common_google_play_services_update_title">Ажурирај ги услугите на Google Play</string>
     <string name="common_google_play_services_updating_text">%1$s нема да се извршува без услугите на Google Play што се ажурираат во моментов.</string>
+    <string name="common_google_play_services_wear_update_text">Потребна е нова верзија на услугите на Google Play. Таа наскоро самата ќе се ажурира.</string>
+    <string name="common_open_on_phone">Отвори на телефонот</string>
+    <string name="complete_photos_app_onboarding">Отворете ја „Фотографии на Google“</string>
+    <string name="complete_photos_app_onboarding_title">За да продолжите, дозвлете пристап на „Фотографии на Google“</string>
+    <string name="complete_photos_app_onboarding_to_continue">Започнете во апликацијата „Фотографии на Google“</string>
     <string name="compose_message_view_hint_text">Порака во разговор</string>
     <string name="compose_message_view_hint_text_multi_sim_rcs">Разговор (%s)</string>
     <string name="compose_message_view_hint_text_multi_sim_sms_mms">Порака (%s)</string>
@@ -413,15 +436,12 @@
     <string name="contact_has_multiple_destinations_phone">%1$s (+%2$s други)</string>
     <string name="contact_has_multiple_destinations_type">Повеќе</string>
     <string name="contact_list_add_people">Додајте го %s</string>
-    <string name="contact_list_empty_text">Внесете име на контактот или телефонски број за да започнете нова порака</string>
     <string name="contact_list_send_to_text">Испратете на %s</string>
     <string name="contact_picker_autocomplete_added">Се додаде %1$s, во моментов се уредува</string>
     <string name="contact_picker_autocomplete_deleted">Контактот %1$s е избришан. Во моментов се уредува</string>
-    <string name="contact_picker_cant_add_destination_twice">Бројот е веќе во групата</string>
     <string name="contact_picker_cant_remove_from_existing">Не може да се отстрани број од постоечки разговор</string>
     <string name="contact_picker_cant_remove_from_screen">За отстранување луѓе, одете во &lt;b>Детали за групата&lt;/b></string>
     <string name="contact_picker_confirm_participants_button_label">Следно</string>
-    <string name="contact_picker_group_create_label">Создајте група</string>
     <string name="contact_picker_group_v2_create_label">Создајте група</string>
     <string name="contact_picker_message_a_business_label">Разговарајте со бизнис</string>
     <string name="contact_picker_title_add_people">Додавање луѓе</string>
@@ -444,10 +464,14 @@
     <string name="content_description_link_to_settings">Управување во „Поставки“</string>
     <string name="contextual_action_bar_description_prefix">Се прикажува алатникот за дејства: %s. Одете горе за да изберете дејство или да затворите.</string>
     <string name="conversation_area_code_popup_paragraph">Без познат повикувачки број, Messages ќе се обиде да испрати на %1$s. За идни пораки, додајте го повикувачкиот број на контактов. %2$s</string>
+    <string name="conversation_block_failed_message">Не е блокирано, проверете ја врската</string>
+    <string name="conversation_blocking_message">Се блокира…</string>
     <string name="conversation_country_code_popup_paragraph">Додајте код на земја (+%1$s за %2$s) на контактов за да може вашата порака да се испрати до вистинското лице. %3$s</string>
     <string name="conversation_creation_failed">Разговорот не успеа да се создаде. Обидете се повторно подоцна.</string>
     <string name="conversation_creation_failure">Не може да се започне разговор</string>
+    <string name="conversation_deleting_message">Се брише…</string>
     <string name="conversation_deletion_failed">Разговорот не може да се избрише</string>
+    <string name="conversation_deletion_failed_message">Не е избришано, проверете ја врската</string>
     <string name="conversation_empty_name">Празно</string>
     <string name="conversation_label_all">Сите</string>
     <string name="conversation_label_business_updates">Бизнис</string>
@@ -474,7 +498,6 @@
     <string name="conversation_list_item_view_draft_message">Нацрт</string>
     <string name="conversation_list_item_view_sent_from_other_prefix">%s:</string>
     <string name="conversation_list_item_view_sent_from_you_prefix">Вие:</string>
-    <string name="conversation_list_loading_item_description">Разговорот се вчитува</string>
     <string name="conversation_list_message_fail_to_decrypt">Не може да се дешиф.</string>
     <string name="conversation_list_rcs_promo_button_negative">Не ажурирај ја апликацијата</string>
     <string name="conversation_list_rcs_promo_button_positive">Ажурирај сега</string>
@@ -486,7 +509,6 @@
     <string name="conversation_list_snippet_link">Линк</string>
     <string name="conversation_list_spam_popup_negative">Управувајте во „Поставки“</string>
     <string name="conversation_list_spam_popup_paragraph">За да спречи спам, Google ги користи телефонските броеви на непознати испраќачи и примачи. Вашите пораки и контакти не се испраќаат до Google. %1$s</string>
-    <string name="conversation_list_spam_popup_paragraph_on_device">Messages ја користи интелигенцијата на уредот за откривање спам и испраќа одредени податоци за поракиве до Google без вашиот телефонски број или содржините на пораките. %1$s</string>
     <string name="conversation_list_spam_popup_positive">Во ред</string>
     <string name="conversation_list_spam_popup_title">Заштита од спам</string>
     <string name="conversation_list_terms_and_conditions_promo_subtitle">Завршете со вклучување функции за разговор за да испраќате пораки преку Wi-Fi и друго</string>
@@ -509,6 +531,7 @@
     <string name="conversation_suggestion_set_reminder_action">Предложено дејство за поставување потсетник</string>
     <string name="conversation_suggestion_share_location_action">Предложено дејство на споделување локација</string>
     <string name="conversation_suggestion_share_location_action_failure">Нешто тргна наопаку. За споделување на вашата локација, додајте ја во нова порака.</string>
+    <string name="conversation_suggestion_star_action">Предложено дејство со ѕвезда</string>
     <string name="conversation_suggestion_sticker">Предложена налепница</string>
     <string name="copy">Копирај</string>
     <string name="copy_to_clipboard">Копирај</string>
@@ -518,6 +541,7 @@
     <string name="create_group_info_title">Додавање име на групата</string>
     <string name="create_new_group_message">Ако го додадете лицево, ќе започнете нова група без функции за разговор</string>
     <string name="current_country_pref_title">Вашата моментална земја</string>
+    <string name="custom_reaction_selection_prompt">Select an emoji</string>
     <string name="dark_mode_disable_title">Оневозможи темен режим</string>
     <string name="dark_mode_enable_title">Овозможи темен режим</string>
     <string name="dasher_disabled_notification_body">Контактирајте со администраторот на системот или најавете се со друга сметка.</string>
@@ -585,12 +609,9 @@
     <string name="ditto_activity_label">Спарување уред</string>
     <string name="ditto_foreground_service_device_pairing_notification_text">Вашите пораки се достапни на спарениот уред</string>
     <string name="ditto_foreground_service_device_pairing_notification_title">Спарување уред</string>
-    <string name="ditto_foreground_service_notification_text">Вашите пораки се достапни на спарениот компјутер</string>
-    <string name="ditto_foreground_service_notification_title">Messages за компјутер</string>
     <string name="ditto_foreground_service_sign_out">Распари</string>
     <string name="ditto_persistent_notification_settings">Известувања</string>
     <string name="ditto_settings_action_bar_title">Известувања</string>
-    <string name="ditto_settings_connected_to_web_notification_description">„Messages за компјутер“ се појавува кога уредот е онлајн</string>
     <string name="ditto_settings_connected_to_web_notification_title">Прикажи постојано известување</string>
     <string name="ditto_settings_device_paired_notification_description">„Спарување уред“ се појавува кога уредот е онлајн</string>
     <string name="ditto_settings_while_using_web_notification_description">Сопри ги мелодијата и вибрациите кога уредот е онлајн</string>
@@ -630,6 +651,7 @@
     <string name="dump_mms_pref_title">Извади MMS</string>
     <string name="dump_sms_pref_summary">Извади ги примените необработени податоци за SMS на надворешна датотека за складирање</string>
     <string name="dump_sms_pref_title">Извади SMS</string>
+    <string name="duplicate_upload_snackbar">Некои дупликати не се опфатени</string>
     <string name="e2ee_conversation_tombstone">Разговор шифриран од крај до крај со %1$s</string>
     <string name="e2ee_conversation_tombstone_with_learn_more">Разговор шифриран од крај до крај со %1$s. %2$s</string>
     <string name="e2ee_fail_to_send_retry_description">Испратете повторно како разговор</string>
@@ -668,7 +690,6 @@
 Messages ќе се вклучи пак кога функциите за разговор ќе се поврзат повторно."</string>
     <string name="enable_rcs_auto_fallback_dialog_title">Да се препрати автоматски како порака (SMS/MMS)?</string>
     <string name="enable_rcs_auto_fallback_title">Автоматско препраќање како порака (SMS/MMS)</string>
-    <string name="enable_rcs_fallback_to_sms_title">Испрати ги пораките повторно ако не се доставени</string>
     <string name="enable_rcs_fallback_to_xms_title">Испрати ги пораките повторно ако не се доставени</string>
     <string name="enable_rcs_summary_off">Кога е достапен, користи Wi-Fi или мобилен интернет за пораки</string>
     <string name="enable_rcs_summary_on">Кога е достапен, се користи интернет-сообраќај за пораки</string>
@@ -680,17 +701,21 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="enter_phone_number_title">Потврдете го својот телефонски број</string>
     <string name="enter_phone_number_title_for_sim">Потврдете го телефонскиот број за %1$s</string>
     <string name="enumeration_comma">", "</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_failed_to_save_setting">Проблем со зачувување. Обидете се повторно.</string>
     <string name="error_icon_content_description">Грешка</string>
     <string name="error_premium_sms_needs_permission">За испраќање на поракава, одете во поставките на уредот и вклучете пристап до Premium SMS</string>
+    <string name="error_text_draft_is_reply_to_missing_message">Не може да се одговори на избришана порака</string>
+    <string name="error_text_draft_is_reply_without_rcs">Проблем со функциите за разговор. Обидете се да испратите без одговор.</string>
+    <string name="error_text_scheduled_send_with_draft_reply">Не може да се закаже одговор во моментов</string>
     <string name="etouffee_to_rcs_notification">Messages откри дека шифрирањето крај-до-крај се изгуби во разговор. Допрете за испраќање повратни информации.</string>
     <string name="etouffee_to_telephony_setting">Приватност</string>
-    <string name="etouffee_to_telephony_setting_description">"Дозволите за SMS ги опфаќаат вашите пораки шифрирани од крај до крај за да може за нив да се прави бекап на Android, да се читаат на глас во вашиот автомобил или на придружен уред и друго. Прегледајте ги и управувајте со апликациите со дозволи за SMS во поставките за Android.
+    <string name="etouffee_to_telephony_setting_description">"Дозволите за SMS ги опфаќаат вашите обострано шифрирани пораки за да може за нив да се прави бекап на Android, да се читаат на глас во вашиот автомобил или на придружен уред и друго. Прегледајте ги и управувајте со апликациите со дозволи за SMS во поставките за Android.
 
-Кога вие или апликацијата ќе ги избрише податоците, Messages ја враќа вашата историја од локалниот простор за складирање каде што има бекап за неа. Кога поставкава е исклучена, нема да се прави бекап на пораките шифрирани од крај до крај и може да се изгубат.
+Кога вие или апликацијата ќе ги избрише податоците, Messages ја враќа вашата историја од локалниот простор за складирање каде што има бекап за неа. Кога поставкава е исклучена, нема да се прави бекап на обострано шифрираните пораки и може да се изгубат.
 
-Променувањето на поставкава нема да влијае на веќе испратените или примените пораки шифрирани од крај до крај."</string>
-    <string name="etouffee_to_telephony_setting_title">Дозволете апликации со дозвола за SMS да пристапуваат до пораките шифрирани од крај до крај</string>
+Променувањето на поставкава нема да влијае на веќе испратените или примените обострано шифрирани пораки."</string>
+    <string name="etouffee_to_telephony_setting_title">Дозволете апликации со дозвола за SMS да пристапуваат до обострано шифрираните пораки</string>
     <string name="example_assistant_action_text">Временска прогноза за викендов</string>
     <string name="example_gif_search_action_text">Хаха</string>
     <string name="example_smart_reply_text1">Звучи одлично!</string>
@@ -708,19 +733,24 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="exo_controls_pause_description">Пауза</string>
     <string name="exo_controls_play_description">Пушти</string>
     <string name="exo_controls_previous_description">Претходна</string>
-    <string name="exo_controls_repeat_all_description">Повтори ги сите</string>
-    <string name="exo_controls_repeat_off_description">Не повторувај ниту една</string>
-    <string name="exo_controls_repeat_one_description">Повтори една</string>
+    <string name="exo_controls_repeat_all_description">Тековно: повтори ги сите. Вклучи/исклучи повторување.</string>
+    <string name="exo_controls_repeat_off_description">Тековно: не повторувај. Вклучи/исклучи повторување.</string>
+    <string name="exo_controls_repeat_one_description">Тековно: повтори една. Вклучи/исклучи повторување.</string>
     <string name="exo_controls_rewind_description">Премотај наназад</string>
     <string name="exo_controls_show">Прикажи ги контролите на плеерот</string>
-    <string name="exo_controls_shuffle_off_description">Мешањето е исклучено</string>
-    <string name="exo_controls_shuffle_on_description">Мешањето е вклучено</string>
+    <string name="exo_controls_shuffle_off_description">Овозможи режим на мешање</string>
+    <string name="exo_controls_shuffle_on_description">Оневозможи режим на мешање</string>
     <string name="exo_controls_vr_description">Режим на VR</string>
     <string name="exo_track_selection_auto">Автоматскa</string>
     <string name="exo_track_selection_none">Нема</string>
     <string name="expand_attach_button_content_description">Копчиња за проширување прилози</string>
     <string name="expand_button_title">Напредни</string>
     <string name="exposed_dropdown_menu_content_description">Прикажи паѓачко мени</string>
+    <string name="express_sign_in_illustration_content_description">Илустрација на функцијата за споделување аудиовизуелни содржини</string>
+    <string name="express_sign_in_sub_title">"Задржете ја острината на видеата кога
+ќе се најавите и испратите линкови од „Фотографии на Google“."</string>
+    <string name="express_sign_in_title">"Споделување видеа како што
+треба да се гледаат"</string>
     <string name="fail_to_decrypt_message_metadata">Не може да се дешифрира, Допрете за опции</string>
     <string name="fail_to_load_dialog_negative_button">Испрати SMS преку SIM-картичката на уредот</string>
     <string name="fail_to_load_dialog_positive_button">Обиди се пак</string>
@@ -734,6 +764,7 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="failed_message_content_description">Неуспешна порака. Допрете за повторен обид.</string>
     <string name="failed_qr_pairing_dialog_message">За жал, нешто тргна наопаку. Обидете се повторно за неколку минути.</string>
     <string name="failed_qr_pairing_dialog_positive_button_text">Во ред</string>
+    <string name="failed_to_select_attachment_from_system_picker">Не можеше да се избере овој прилог</string>
     <string name="fast_track_negative_button_text">Не, фала</string>
     <string name="fast_track_popup_accepted_snack_bar_text">Се поставуваат функциите за разговор. Ќе ве информираме кога ќе бидат подготвени.</string>
     <string name="fast_track_popup_declined_snack_bar_text">Може да вклучите функции за разговор во „Поставки“, во секое време.</string>
@@ -799,6 +830,9 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="fi_settings_download_over_wifi_title">Синхронизирање аудиовизуелни содржини само преку Wi-Fi</string>
     <string name="fi_settings_opt_out_failed">Не може да се сопре синхронизирањето и да се одјави во моментов. Обидете се повторно подоцна.</string>
     <string name="fi_settings_opt_out_in_progress">Се сопира синхронизирањето и се одјавува</string>
+    <string name="fi_settings_redirect_button">Управувајте со бекапот</string>
+    <string name="fi_settings_redirect_summary">Најдете ги во менито на сметката</string>
+    <string name="fi_settings_redirect_title">Поставките за бекап и синхронизација се преместени</string>
     <string name="fi_settings_sync_preference_backup_in_progress">Бекап во тек: %1$d %%</string>
     <string name="fi_settings_sync_preference_restore_in_progress">Враќање во тек: %1$d %%</string>
     <string name="fi_settings_sync_preference_summary">Пораките, повиците и говорната пошта се синхронизирани на сите екрани</string>
@@ -816,6 +850,7 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="file_transfer_via_sms_other">Споделив датотека со вас</string>
     <string name="file_transfer_via_sms_video">Споделив видео со вас</string>
     <string name="files_shortcut_title">Датотеки</string>
+    <string name="flip_camera_button_label">Префрлете ја камерата</string>
     <string name="floating_toolbar_close_overflow_description">Затвори проширено мени</string>
     <string name="floating_toolbar_open_overflow_description">Повеќе опции</string>
     <string name="foreground_service_notification_generic_text">Messages работи во заднина</string>
@@ -829,12 +864,27 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="full_banner_expand_chip_description">Копче за проширување филтер</string>
     <string name="full_screen_gallery_action_attach">Додај</string>
     <string name="fullscreen_button_description">Отвори на цел екран</string>
+    <string name="gaia_auth_failure_dialog_body">Некои функции што ги овозможува сметката на Google нема да функционираат сѐ додека не се најавите</string>
+    <string name="gaia_auth_failure_dialog_title">Како потврда дека сте вие, најавете се повторно</string>
+    <string name="gallery_google_photos_option_tray_button_add">Додај</string>
+    <string name="gallery_google_photos_option_tray_button_always">Секогаш</string>
+    <string name="gallery_google_photos_option_tray_button_cancel">Откажи</string>
+    <string name="gallery_google_photos_option_tray_button_just_once">Само еднаш</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_image">Слика со помала јасност</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_unknown">Аудиовизуелни содржини со лош квалитет</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_video">Видео со лош квалитет</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_image">Слика</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_unknown">Аудиовизуелни содржини</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_video">Видео</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_body">Поголем квалитет. Управувајте со споделени линкови на „Фотографии на Google“.</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_learn_more">Дознајте повеќе</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_title">Линк до „Фотографии на Google“</string>
+    <string name="gallery_item_content_description_selected_state">Поништете го изборот на ставкава %1$s прикачена на позиција %2$s со двоен допир</string>
+    <string name="gallery_item_content_description_unselected_state">Изберете ја ставкава %1$s снимена во %2$s со двоен допир</string>
     <string name="general_settings">Општо</string>
     <string name="general_settings_activity_title">Општи поставки</string>
     <string name="general_settings_title_m2">Опции</string>
     <string name="generic_issue_text">Друго</string>
-    <string name="get_messenger_notification_body">Читајте и испраќајте SMS од часовникот или телефонот</string>
-    <string name="get_messenger_notification_header">Преземете ја Messages</string>
     <string name="get_sticker_packs_error_msg">Не може да се вчитаат налепниците.</string>
     <string name="gif_screen_no_result">Не може да се најде совпаѓање. Проверете го пребарувањето и обидете се повторно.</string>
     <string name="gif_screen_title">GIF-датотеки</string>
@@ -842,10 +892,23 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="gif_search_hint">Пребарување GIF-датотеки</string>
     <string name="gifs_shortcut_title">GIF-датотеки</string>
     <string name="go_to_top">Прикажи најново</string>
-    <string name="google_account_pref_title">Сметка на Google</string>
     <string name="google_assistant_verification_channel_name">Потврдувач на „Помошникот“</string>
     <string name="google_assistant_verification_notification_title">„Помошникот на Google“ испраќа порака</string>
     <string name="google_fi_text">Google Fi</string>
+    <string name="google_photos_onboarding_close_button_description">Затвори ја картичката на „Фотографии на Google“</string>
+    <string name="google_photos_onboarding_ineligible_title">За појасни видеа, најавете се на „Фотографии на Google“</string>
+    <string name="google_photos_onboarding_ineligible_title_photos_and_videos">За појасни фотографии и видеа, најавете се на „Фотографии на Google“</string>
+    <string name="google_photos_onboarding_learn_more">Дознајте повеќе</string>
+    <string name="google_photos_onboarding_next">Следно</string>
+    <string name="google_photos_onboarding_ok">Во ред</string>
+    <string name="google_photos_onboarding_signed_in_title_photos_and_videos">Најавете се за да испраќате појасни фотографии и видеа</string>
+    <string name="google_photos_onboarding_signed_out_title">Најавете се за да испраќате појасни видеа</string>
+    <string name="google_photos_onboarding_text_body">Зачувајте го квалитетот на видеата кога испраќате линкови од „Фотографии на Google“ во разговори преку MMS</string>
+    <string name="google_photos_onboarding_text_body_photos_and_videos_xms">Зачувајте ја јасноста на вашите аудиовизуелни содржини кога испраќате линкови од „Фотографии на Google“ во разговори преку MMS</string>
+    <string name="google_photos_onboarding_title">Споделување видеа како што треба да се гледаат</string>
+    <string name="google_photos_onboarding_title_photos_and_videos">Споделување фотографии и видеа како што треба да се гледаат</string>
+    <string name="google_photos_option_tray">Најавете се за да испраќате појасни видеа</string>
+    <string name="google_photos_option_tray_photos_and_videos">Најавете се за да испраќате појасни фотографии и видеа</string>
     <string name="google_play_protect_title">Google Play Protect</string>
     <string name="google_tos_chat_features_tooltip">"Гледајте кога некој пишува, добивајте известувања за прочитана порака и испраќајте пораки, датотеки и фотографии со висока резолуција со функциите за разговор преку Rich Communication Services (RCS). Испраќањето пораки троши мобилен интернет.
 
@@ -859,8 +922,9 @@ Messages ќе се вклучи пак кога функциите за разг
 
 Стандардната SIM-картичка за повици може да ја промените во „Поставки на системот“. %1$s"</string>
     <string name="google_tos_multisim_view_accessibility_description">Дознајте повеќе</string>
+    <string name="google_tos_negative_link_text">Не, фала</string>
     <string name="group_conversation_title_everyone_else_left">Јас</string>
-    <string name="group_limit_alert_dialog_message">{max_group_size_including_self,plural, =1{Не може да содржи повеќе од # лице}one{Не може да содржи повеќе од # лице}other{Не може да содржи повеќе од # лица}}</string>
+    <string name="group_limit_alert_dialog_message">{max_group_size_excluding_self,plural, =1{Не може да содржи повеќе од # друго лице}one{Не може да содржи повеќе од # друго лице}other{Не може да содржи повеќе од # други лица}}</string>
     <string name="group_mms_pref_title">Групно испраќање пораки</string>
     <string name="group_name_edit_text_label">Име на групата</string>
     <string name="guest_cloud_preview">ПРЕГЛЕД</string>
@@ -870,14 +934,19 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="happy_birthday_no_name">Посакајте му „Среќен роденден“ на контактов!</string>
     <string name="hidden_sender_address">Скриена адреса на испраќачот</string>
     <string name="highlighter">Обележувач</string>
+    <string name="how_it_works_link_text">Како функционира</string>
+    <string name="hqms_always_send_image_as_link_pref_title">Секогаш испраќај слики со линк во порака (SMS/MMS)</string>
+    <string name="hqms_always_send_video_as_link_pref_title">Секогаш испраќај видеа со линк во порака (SMS/MMS)</string>
+    <string name="hqms_settings_gaia_card_text">Управувајте со линкови во „Фотографии на Google“</string>
+    <string name="hqms_settings_info_text">Messages прикачува на „Фотографии на Google“, каде што може да управувате со споделувањето видеа со линк. %1$s</string>
+    <string name="hqms_settings_sign_in_prompt_text">Најавете се на вашата сметка на Google за да ја користите функцијава</string>
     <string name="hqms_settings_summary">Споделување поквалитетно видео во порака (SMS/MMS)</string>
     <string name="hqms_settings_title">Фотографии на Google</string>
     <string name="identity_verification_notification_text">Messages потврдува дојдовна порака</string>
     <string name="ignore">Игнорирај</string>
     <string name="image_attachment_content_description">Слика во прилог</string>
     <string name="image_compress_info">Поради ограничувањата на операторот за MMS-пораки, примачот ќе гледа слики со понизок квалитет</string>
-    <string name="imei_format_dropdown_hint">Поставете формат IMEI</string>
-    <string name="imsi_format_dropdown_hint">Поставете формат IMSI</string>
+    <string name="image_format_type">слика</string>
     <string name="in_conversation_blocked_contact_text">Можеби не ги гледате сите пораки затоа што разговорот содржи блокирани контакти.</string>
     <string name="in_conversation_notify_new_message_action">Прикажи</string>
     <string name="in_conversation_notify_new_message_text">Нова порака</string>
@@ -887,7 +956,7 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="incoming_message_for_secondary_user_notification_title">Нова порака</string>
     <string name="incoming_message_foreground_notification_text">Messages обработува дојдовна порака</string>
     <string name="incoming_mms_disabled_by_company_pref_summary">Вашата компанија не дозволува дојдовни MMS-пораки</string>
-    <string name="indeterminate">Ниту штиклирано, ниту отштиклирано</string>
+    <string name="indeterminate">Делумно проверено</string>
     <string name="info_and_options_activity_business_tab_list_header">Бизнис</string>
     <string name="info_and_options_activity_info_tab_content_description">Информации</string>
     <string name="info_and_options_activity_info_tab_title">Информации</string>
@@ -898,6 +967,9 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="info_and_options_view_terms_of_service">Прикажи Услови за користење</string>
     <string name="inline_playback_error">Не може да се пушти видеово во Messages</string>
     <string name="inline_playback_pause_content_description">Паузирај го видеото</string>
+    <string name="install_photos_app">Инсталирајте ја „Фотографии на Google“</string>
+    <string name="install_photos_app_title">За да продолжите, инсталирајте ја апликацијата „Фотографии на Google“</string>
+    <string name="install_photos_app_to_continue">Инсталирајте ја апликацијата за да испраќате поквалитетни видеа</string>
     <string name="invalid_qr_code_dialog_message">За да се најавите, скенирајте го QR-кодот на %s</string>
     <string name="invalid_qr_code_dialog_positive_button_text">Во ред</string>
     <string name="invalid_qr_code_dialog_title">Неточен код</string>
@@ -911,14 +983,12 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="leave_confirmation_text">Дали сигурно сакате да го сопрете добивањето пораки од групава?</string>
     <string name="leave_confirmation_title">Напуштете ја групата трајно</string>
     <string name="libraries_material_featurehighlight_dismiss">Отфрли</string>
-    <string name="link_preview_enabled_pref_summary">Прикажи прегледи во пораки</string>
+    <string name="lighter_account_sign_out_snackbar_text">Најавете се за да ги прегледате вашите бизнис разговори</string>
+    <string name="lighter_block_report_spam_body">Името на бизнисот и вашиот разговор со бизнисов одат во Google (можно е операторот да ви наплати).</string>
     <string name="link_preview_enabled_pref_summary_off">Исклучено</string>
     <string name="link_preview_failed">Преглед не е достапен</string>
     <string name="link_preview_google_photos_display_name">Фотографии на Google</string>
-    <string name="link_preview_preference_info_text">Google добива прегледи на содржини од поврзани сајтови. Само линковите од познати испраќачи опфаќаат прегледи. %1$s</string>
-    <string name="link_preview_preference_title">Автоматски прегледи на линк</string>
     <string name="link_preview_tap_to_load">Допрете за вчитување преглед</string>
-    <string name="link_preview_wifi_only_pref_summary">Преземај прегледи само преку Wi-Fi</string>
     <string name="link_to_settings"><u>Управување во „Поставки“</u></string>
     <string name="listify_many">%1$s и %2$d други</string>
     <string name="listify_one">%s</string>
@@ -965,13 +1035,13 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="manual_msisdn_skipped_snack_bar_text">Не се овозможени подобрени функции за разговор. Овозможете ги во секое време во „Поставки“.</string>
     <string name="manual_msisdn_skipped_snack_bar_text_b155475148">Messages ќе се обиде да го потврди вашиот број со операторот. Управувајте во „Поставки“</string>
     <string name="manual_msisdn_verify_now_snack_bar_text_b155475148">Messages ќе се обиде да го потврди вашиот број со операторот. Управувајте во „Поставки“</string>
-    <string name="manually_override_rcs_flags">Рачно отфрлање на знаменцата на RCS</string>
     <string name="mark_all_messages_as_read_confirmation">Сите пораки се означени како прочитани</string>
     <string name="mdd_download_notification_channel_name">Канал за известување за преземање податоци</string>
     <string name="mdd_foreground_service_notification_title">Се презема</string>
     <string name="mdd_notification_action_cancel">Откажи</string>
     <string name="mdd_notification_download_failed">Неуспешно преземање</string>
     <string name="mdd_notification_download_paused">Се чека мрежна врска</string>
+    <string name="mdd_notification_download_paused_wifi">Се чека Wi-Fi врска</string>
     <string name="media_compress_info">Поради ограничувањата на операторот за MMS-пораки, примачот ќе гледа аудиовизуелни содржини со понизок квалитет</string>
     <string name="media_compress_tooltip_info_icon_text">информации</string>
     <string name="media_viewer_close_button_description">Затвори</string>
@@ -1070,6 +1140,8 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="message_type_vcard">Картичка за контакт</string>
     <string name="message_type_video">Видео</string>
     <string name="message_video_content_description">Видео</string>
+    <string name="message_with_deleted_snippet_talk_back_announcement">%1$s како одговор на избришана порака</string>
+    <string name="message_with_reply_snippet_talk_back_announcement">%1$s како одговор на %2$s од %3$s</string>
     <string name="messages_for_web_preference_summary">Одете на %1$s</string>
     <string name="messages_for_web_preference_title">Разменување SMS-пораки, воспоставување повици и проверување говорна пошта во прелистувач</string>
     <string name="messages_status_feedback_data_description">"Сите препорачани податоци се корисни при откривањето на скриените проблеми, различните причини, како се поврзани и каде треба да се решаваат проблеми.
@@ -1122,11 +1194,15 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="mms_phone_number_pref_title">Телефонски број</string>
     <string name="mms_text">MMS</string>
     <string name="mtrl_badge_numberless_content_description">Ново известување</string>
+    <string name="mtrl_checkbox_state_description_checked">Checked</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Indeterminate</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Not checked</string>
     <string name="mtrl_chip_close_icon_content_description">Отстрани %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Над %1$d нови известувања</string>
     <string name="mtrl_picker_a11y_next_month">Промени на следниот месец</string>
     <string name="mtrl_picker_a11y_prev_month">Промени на претходниот месец</string>
     <string name="mtrl_picker_announce_current_selection">Тековен избор: %1$s</string>
+    <string name="mtrl_picker_cancel">Откажи</string>
     <string name="mtrl_picker_confirm">Во ред</string>
     <string name="mtrl_picker_day_of_week_column_header">Колона со денови: %1$s</string>
     <string name="mtrl_picker_navigate_to_year_description">Оди на %1$s година</string>
@@ -1138,11 +1214,24 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="multimedia_message">Мултимедијална порака</string>
     <string name="muted_conversation_content_description">Известувањата се оневозможени</string>
     <string name="nav_app_bar_navigate_up_description">Оди нагоре</string>
+    <string name="nav_archived_messages_folder_title">Архивирано</string>
+    <string name="nav_choose_theme_title">Изберете тема</string>
+    <string name="nav_choose_theme_title_disable_dark_mode">Оневозможи темен режим</string>
+    <string name="nav_choose_theme_title_enable_dark_mode">Овозможи темен режим</string>
+    <string name="nav_device_pairing_title">Спарување уред</string>
+    <string name="nav_mark_all_as_read_title">Означи ги сите како прочитани</string>
+    <string name="nav_messages_folder_title">Messages</string>
+    <string name="nav_spam_and_blocked_messages_folder_title">Спам и блокирано</string>
+    <string name="nav_starred_folder_title">Означено со ѕвезда</string>
     <string name="navigate_up_button_content_description">Движи се нагоре</string>
     <string name="new_message_label">{count,plural, =1{1 нова порака}one{# нова порака}other{# нови пораки}}</string>
     <string name="new_pill_label">Ново</string>
     <string name="new_rich_cards_preference_info_text">За да ги создава сите прегледи и да открива штетни содржини, Google скенира одредени податоци (како што се места или линкови) од вашата историја на разговори, без да ве идентификува. %1$s</string>
-    <string name="no_google_account">Ниедна</string>
+    <string name="no_business_name_fallback">бизнисов</string>
+    <string name="no_connection">Нема мрежа</string>
+    <string name="no_media_button">Прикажи ги опциите</string>
+    <string name="no_media_caption">Обидете се со друг извор на аудиовизуелни содржини или профил</string>
+    <string name="no_media_description">Нема аудиовизуелни содржини зачувани на уредов за профилов</string>
     <string name="no_reply_pinned_message_text">Испраќачот не поддржува одговори</string>
     <string name="no_sim_message">Нема пораки на SIM</string>
     <string name="not_selected">Не е избрано</string>
@@ -1198,31 +1287,51 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="nudge_learn_more_info_text">Повеќе за потсетувањата</string>
     <string name="nudge_reply_enabled_pref_summary">Пораките на коишто можеби треба да одговорите ќе се преместуваат најгоре</string>
     <string name="nudge_reply_enabled_pref_title">Предложете потсетници за одговарање</string>
+    <string name="nudge_settings_page_description">Прикажи потсетници за одговори и родендени</string>
     <string name="nudge_settings_page_title">Потсетувања</string>
     <string name="numeric_text_keyboard_toggle_button_content_description">Префрлајте меѓу внесување текст и броеви</string>
     <string name="off">Исклучено</string>
     <string name="og_a11y_close">Затвори</string>
     <string name="og_account_and_settings">Сметка и поставки.</string>
+    <string name="og_account_particle_disc_no_accounts_available_a11y">Најави се</string>
     <string name="og_add_another_account">Додајте друга сметка</string>
+    <string name="og_app_settings">Поставки за %1$s</string>
     <string name="og_choose_an_account_title">Изберете сметка</string>
     <string name="og_collapse_account_list_a11y">Соберете го списокот со сметки.</string>
     <string name="og_continue">Продолжи</string>
     <string name="og_continue_as">Продолжи како %1$s</string>
     <string name="og_expand_account_list_a11y">Проширете го списокот со сметки.</string>
+    <string name="og_get_storage_action">Купете капацитет</string>
+    <string name="og_get_storage_action_short">Купете повеќе</string>
     <string name="og_google_one_account_a11y">Сметка на Google One.</string>
+    <string name="og_help_feedback">Помош и повратни информации</string>
     <string name="og_loading_a11y">Се вчитува</string>
     <string name="og_manage_accounts">Управувајте со сметките на уредов</string>
+    <string name="og_manage_storage_action">Управување со капацитетот</string>
+    <string name="og_manage_storage_action_short">Управувајте</string>
+    <string name="og_minimized_storage_card_title">Искористен капацитет: %1$s од %2$s GB</string>
+    <string name="og_more_options_action">Повеќе опции</string>
+    <string name="og_more_options_action_short">Опции</string>
     <string name="og_my_account_desc_long_length">Управувајте со вашата сметка на Google</string>
     <string name="og_my_account_desc_meduim_length">Сметка на Google</string>
     <string name="og_my_account_desc_short_length">Сметка</string>
+    <string name="og_privacy_advisor">Вашите податоци во %1$s</string>
     <string name="og_privacy_policy">Политика за приватност</string>
     <string name="og_selected_account_a11y">Избрана е %1$s.</string>
     <string name="og_sign_in_">Најави се</string>
     <string name="og_signed_in_as_account">Најавени сте како %1$s</string>
+    <string name="og_storage_card_almost_full_a11y_label">Капацитетот на сметката е речиси полн</string>
+    <string name="og_storage_card_full_a11y_label">Капацитетот на сметката е полн</string>
+    <string name="og_storage_card_title">Капацитет на сметката</string>
+    <string name="og_storage_card_title_almost_full">Искористени се %1$s од капацитетот</string>
+    <string name="og_storage_card_title_full">Нема веќе простор</string>
+    <string name="og_storage_progress_subtitle">Искористен капацитет: %1$s GB од %2$s GB</string>
     <string name="og_terms_of_service">Услови за користење</string>
     <string name="og_use_account_a11y_no_period">Користете ја %1$s</string>
+    <string name="og_use_without_an_account">Користи без сметка</string>
     <string name="on">Вклучено</string>
     <string name="onboarding_google_tos_with_sms_charges_and_learn_more">За да вклучите функции за разговор од Google, се согласувате со %1$s и %2$s. Google повремено ќе го потврдува вашиот број преку разменување на информациите за вашиот уред со вашиот оператор (може да ви се наплати за SMS). %3$s.</string>
+    <string name="open_full_screen_camera_button_label">Отвори ја камерата на цел екран</string>
     <string name="open_video_trimmer_dialog_negative">Откажи</string>
     <string name="open_video_trimmer_dialog_positive">Скрати</string>
     <string name="organization">Организација</string>
@@ -1236,8 +1345,6 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="otp_auto_deletion_promo_banner_positive_button_text">Продолжи</string>
     <string name="otp_auto_deletion_promo_banner_title_text">Да се избришат OTP-лозинките автоматски по 24 часа?</string>
     <string name="otp_copied_to_clipboard">Кодот е копиран</string>
-    <string name="otp_pattern_dropdown_hint">Поставете шема OTP</string>
-    <string name="otp_port_dropdown_hint">Поставете порта OTP</string>
     <string name="outgoing_message_foreground_notification_text">Messages обработува појдовна порака</string>
     <string name="outgoing_mms_disabled_by_carrier_pref_summary">Вашиот оператор не дозволува појдовни MMS-пораки</string>
     <string name="outgoing_mms_disabled_by_company_pref_summary">Вашата компанија не дозволува појдовни MMS-пораки</string>
@@ -1263,6 +1370,7 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="paired_desktops_last_connection_time">Последна активност: %s</string>
     <string name="paired_desktops_last_connection_time_unknown">непознато</string>
     <string name="participant_joined_group">%s се придружи на групава</string>
+    <string name="participant_joined_with_learn_more">Учесниците %1$s се придружија на групава. %2$s</string>
     <string name="participant_left_group">%s ја напушти групава</string>
     <string name="participant_list_add">Додајте луѓе</string>
     <string name="participant_list_count_title_icu">{count,plural, =0{0 други лица}=1{1 друго лице}one{# друго лице}other{# други лица}}</string>
@@ -1282,9 +1390,10 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="phone_number_input_body_for_mo_text">Или прескокнете го чекоров за да добиете функции за разговор подоцна, а Messages ќе се обиде да го потврди вашиот број со вашиот оператор</string>
     <string name="phone_number_input_body_text">За да се увери дека ќе добиете функции за разговор, Messages ќе го потврди вашиот број</string>
     <string name="phone_number_input_hint">Вашиот телефонски број</string>
+    <string name="phone_number_input_invalid_number_text">Погрешен телефонски број</string>
     <string name="phone_number_input_negative_button_for_mo_text">Прескокни засега</string>
     <string name="phone_number_input_negative_button_for_mt_text">Потсети ме подоцна</string>
-    <string name="phone_number_input_positive_button_text">Додај број</string>
+    <string name="phone_number_input_positive_button_text">Додајте број</string>
     <string name="phone_number_input_streamlined_body_for_mo_text">Споделувајте фотографии, видеа и други, преку Wi-Fi или мобилен интернет. За да добиете функции за разговор побрзо, додајте го вашиот број сега. Или прескокнете го чекоров и дозволете Messages да се обиде да го открие и потврди вашиот број.</string>
     <string name="phone_number_input_streamlined_body_text">Споделувајте фотографии, видеа и други, преку Wi-Fi или мобилен интернет. За да добиете функции за разговор, додајте го вашиот број сега.</string>
     <string name="phone_number_input_streamlined_negative_button_for_mo_text">Прескокни</string>
@@ -1298,10 +1407,25 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="phone_number_input_title_text">За да добиете функции за разговор побрзо, додајте го вашиот број сега</string>
     <string name="phone_number_input_tos_reminder_text">Претходно се согласивте со %1$s на функциите за разговор</string>
     <string name="phone_number_input_tos_text">Условите за користење</string>
+    <string name="phone_number_promo_banner_body_text">Потврдете го вашиот телефонски број за да испраќате јасни видеа, анимирани реакции и друго, преку Wi-Fi или мобилен интернет</string>
+    <string name="phone_number_promo_banner_negative_button_text">Отфрли</string>
+    <string name="phone_number_promo_banner_positive_button_text">Следно</string>
+    <string name="phone_number_promo_banner_title_text">Следен чекор за подобрување на функциите на Messages</string>
+    <string name="phone_number_promo_body_text">Започнете сега со вашиот потврден телефонски број. Управувајте со функциите за разговор во секое време во „Поставки“</string>
+    <string name="phone_number_promo_body_text_mo">Започнете сега со вашиот потврден телефонски број. Или прескокнете го чекоров за да добиете функции за разговор подоцна, а Messages ќе се обиде да го потврди бројот за вас.</string>
+    <string name="phone_number_promo_negative_button_text">Потсети ме подоцна</string>
+    <string name="phone_number_promo_negative_button_text_mo">Прескокни засега</string>
+    <string name="phone_number_promo_positive_button_text">Добиј функции за разговор</string>
+    <string name="phone_number_promo_title_text">Дали сте подготвени за споделување фотографии, видеа и друго преку Wi-Fi или мобилен интернет?</string>
+    <string name="phone_number_ui_accepted_snackbar_text">Ќе добиете известување кога ќе бидат достапни функциите за разговор</string>
+    <string name="phone_number_ui_dismissed_snackbar_action_text">Поставки</string>
+    <string name="phone_number_ui_dismissed_snackbar_text">За да добиете функции за разговор сега, додајте го вашиот телефонски број или управувајте во „Поставки“</string>
     <string name="photo_taken">Фотографирано</string>
+    <string name="photos_app_installation_required">За да испраќате поквалитетни видеа, инсталирајте ја апликацијата „Фотографии на Google“</string>
+    <string name="photos_app_onboarding_required">За да испраќате поквалитетни видеа, дозволете пристап на „Фотографии на Google“</string>
+    <string name="photos_app_sharing_unavailable_try_again_later">Линкот до поквалитетното видео е привремено недостапен. Подготвено е за испраќање видео со помал квалитет.</string>
+    <string name="photos_app_sign_in_required">За да испраќате поквалитетни видеа, најавете се на „Фотографии на Google“</string>
     <string name="picker_disambiguation_title">Изберете дестинација</string>
-    <string name="pin_limit_message">Може да закачите најмногу %1$d разговори</string>
-    <string name="pin_success_message">Закачени се %1$d од %2$d разговори</string>
     <string name="pinch_zoom_pref_title">Штипнете за зумирање на текстот во разговорот</string>
     <string name="places_autocomplete_clear_button">Исчисти го пребарувањето</string>
     <string name="places_autocomplete_label">Одберете место</string>
@@ -1351,10 +1475,11 @@ Messages ќе се вклучи пак кога функциите за разг
 Податоциве помагаат да се потврдат претпоставките и да се утврдат факторите што придонесуваат за проблемот, со цел побрзо и поефикасно разбирање на проблемот."</string>
     <string name="problematic_message_feedback_data_rationale_title">Како помагаат податоците за пораките и разговорите</string>
     <string name="promotion_content_description">Поракава е категоризирана како понуда</string>
+    <string name="prompt_button_action_not_now">Не сега</string>
+    <string name="prompt_button_action_sign_in">Најавете се</string>
     <string name="proxy_screen_clear_search">Избриши го пребарувањето</string>
     <string name="proxy_screen_search">Пребарување</string>
     <string name="qr_action_bar_device_pairing_title">Спарување уред</string>
-    <string name="qr_action_bar_title">Messages за компјутер</string>
     <string name="qr_code_scanner_hint_text">Скенирајте го QR-кодот прикажан на&lt;br/><b>%s</b></string>
     <string name="qr_code_scanner_preference_button">Скенер на QR-кодови</string>
     <string name="qr_delete_all_paired_desktops_button_text">Распари ги сите уреди</string>
@@ -1369,6 +1494,8 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="qr_welcome_privacy">Политика за приватност</string>
     <string name="qr_welcome_terms_of_service">Услови за користење</string>
     <string name="rbm_block_confirmation_message_spam_folder">Веќе нема да добивате известувања кога ќе примите пораки од %1$s. Разговоров ќе се премести во „Спам и блокирани“. %2$s</string>
+    <string name="rbm_block_dialog_body">Нема да примате пораки од испраќачов. Разговоров ќе се премести во „Спам и блокирано“ каде што ќе може да го одблокирате во секое време.</string>
+    <string name="rbm_block_dialog_positive_button_label">Блокирај</string>
     <string name="rbm_business_logo_icon_content_description">Икона на лого на бизнисот</string>
     <string name="rbm_platform_generalized_verifier_title">Потврдено од %s</string>
     <string name="rbm_platform_verified_by_google">Потврдено од Google</string>
@@ -1388,6 +1515,7 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="rcs_learn_more_title">%1$s за функциите за разговор</string>
     <string name="rcs_learn_more_title_with_no_link">Дознајте повеќе за функциите за разговор</string>
     <string name="rcs_message">Порака на Rich Communication Service</string>
+    <string name="rcs_message_failed_recipient_lost_encryption_content_description">Не може да се испорача. Допрете за опции.</string>
     <string name="rcs_message_failed_recipient_lost_rcs_content_description">Не може да се испорача. Допрете за опции</string>
     <string name="rcs_mobile_data_auto_download_carrier_format_entry">Стандарден (%1$s)</string>
     <string name="rcs_mobile_data_auto_download_limit_disable_entry_text">Оневозможи</string>
@@ -1424,7 +1552,7 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="rcs_setup_otp_title">Внесете код</string>
     <string name="rcs_setup_otp_trouble">Не ја добивте пораката?</string>
     <string name="rcs_setup_phone_number_hint">Телефонски број</string>
-    <string name="rcs_setup_reject">Не, благодарам</string>
+    <string name="rcs_setup_reject">Не, фала</string>
     <string name="rcs_setup_resend_otp">Испрати го кодот повторно</string>
     <string name="rcs_setup_timeout_acknowledgement_button_text">Сфатив</string>
     <string name="rcs_setup_timeout_message">Messages ќе ве извести кога ќе заврши чекорот</string>
@@ -1470,11 +1598,12 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="reaction_surprised_content_description">Лице со отворена уста</string>
     <string name="reactions_promo_announcement">Притиснете долго за реакција</string>
     <string name="reactions_promo_text">Допрете и задржете за реакција</string>
-    <string name="read_external_storage_permission_description">За гледање на содржините во вашата галерија директно оттука, потребен е пристап до просторот на вашиот телефон.</string>
+    <string name="read_media_storage_permission_description">За гледање на содржините во вашата галерија директно оттука, потребен е пристап до просторот со аудиовизуелни содржини на вашиот телефон.</string>
     <string name="received_label">Примени:</string>
     <string name="recipient_hint">Внесете име, телефонски број или е-пошта</string>
     <string name="recipient_label">До</string>
     <string name="recipient_offline_description">Се чека %s да биде онлајн…</string>
+    <string name="reminder_badge_content_description">Значка за потсетник</string>
     <string name="reminder_datetime_picker_dialog_delete_button">Избриши</string>
     <string name="reminder_datetime_picker_dialog_menu_title_add">Поставување потсетник</string>
     <string name="reminder_datetime_picker_dialog_menu_title_update">Ажурирање потсетник</string>
@@ -1495,7 +1624,7 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="reminder_suggestions_tooltip_text">Допрете и изберете време за проверка подоцна. Исклучете ги предлозите во &lt;a href>Поставки&lt;/a></string>
     <string name="reminder_suggestions_tooltip_title_text">Поставете потсетници</string>
     <string name="reminders_banner_body">%1$s: %2$s</string>
-    <string name="reminders_banner_description">@string/banner_description</string>
+    <string name="reminders_banner_description">Reminder conversation banner</string>
     <string name="reminders_banner_done_button">Готово</string>
     <string name="reminders_banner_remind_button">Потсети за 1 ч.</string>
     <string name="reminders_banner_self_sender_name">Вие</string>
@@ -1508,7 +1637,7 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="remove_reaction_from_gif_rcs_fallback_text">Реакцијата ‌%1$s‌ е отстранета од GIF</string>
     <string name="remove_reaction_from_link_rcs_fallback_text">Реакцијата ‌%1$s‌ е отстранета од линк</string>
     <string name="remove_reaction_from_photo_rcs_fallback_text">Реакцијата ‌%1$s‌ е отстранета од фотографија</string>
-    <string name="remove_reaction_from_text_message_rcs_fallback_text">Реакцијата ‌%1$s‌ е отстранета од „%2$s“</string>
+    <string name="remove_reaction_from_text_message_rcs_fallback_text">Реакцијата ‌%1$s‌ е отстранета од „ %2$s “</string>
     <string name="remove_reaction_from_unknown_message_type_rcs_fallback_text">Реакцијата ‌%1$s‌ е отстранета од непознат тип порака</string>
     <string name="remove_reaction_from_video_rcs_fallback_text">Реакцијата ‌%1$s‌ е отстранета од видео</string>
     <string name="remove_user_dialog_cancel">Откажи</string>
@@ -1517,14 +1646,17 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="rename_group_title_m2">Име на групата</string>
     <string name="reply_activity_title">Одговори</string>
     <string name="reply_button_label">Одговорете</string>
-    <string name="reply_icon_content_description">Одговор на порака</string>
+    <string name="reply_icon_content_description">Одговорете</string>
     <string name="report_contact_title">Пријави спам</string>
     <string name="report_failed_rcs_group_creation">Нешто тргна наопаку и еден или повеќе учесници не се додадени.</string>
     <string name="report_group_spam_body_spam_folder">Броевите и неодамнешните SMS-пораки од други членови на групата ќе се испратат до Google за преглед, а може да се испратат и до вашиот оператор (може да ви се наплати). Разговоров ќе остане во „Спам и блокирани“, без известувања. %1$s</string>
+    <string name="report_invalid_thread_id_issue_description">Погрешен ID на низа. За детали, погледнете во евиденцијата.</string>
     <string name="report_issue_action_text">Испратете повратни информации</string>
+    <string name="report_issue_description">Messages автоматски откри грешка. За детали, погледнете во евиденцијата.</string>
     <string name="report_issue_notification_text">Messages откри грешка. Допрете за испраќање повратни информации.</string>
     <string name="report_not_spam_snackbar_message">%1$s е пријавен дека не е спам</string>
     <string name="report_person_delivered">%1$s Примена: %2$s</string>
+    <string name="report_person_ftd">%1$s не можеше да дешифрира: %2$s</string>
     <string name="report_person_read">%1$s Прочитана: %2$s</string>
     <string name="report_person_sent">%s не ја прими</string>
     <string name="report_receive_issue_notification_message">Android не може да прими порака испратена до вас. Допрете за испраќање повратни информации.</string>
@@ -1537,6 +1669,7 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="report_spam_snackbar_message">%1$s е пријавен како спам</string>
     <string name="report_spam_toast_title">Спамот е пријавен</string>
     <string name="report_telephone_db_recreation_message">Проблем со вчитување пораки. Допрете за испраќање повратни информации.</string>
+    <string name="report_thread_id_not_found_description">Недостасува ID на низа. За детали, погледнете во евиденцијата.</string>
     <string name="required_permissions_no_promptable_promo">Променете ги дозволите во поставките за апликации на уредот. Дајте ѝ пристап на Messages до SMS, Телефон и Контакти.</string>
     <string name="required_permissions_no_promptable_title">Одобри пристап</string>
     <string name="required_permissions_promptable_promo">За да завршите со поставување на вашата стандардна апликација, дозволете Messages да ги гледа вашите SMS-пораки, телефонот и контактите</string>
@@ -1556,6 +1689,11 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="samsung_setting_search_title">Поставки за Messages</string>
     <string name="save">Зачувај</string>
     <string name="save_attachment">Зачувај</string>
+    <string name="save_banner_body">Зачувајте го роденденов во вашата апликација за контакти и Messages ќе ве потсети следната година</string>
+    <string name="save_banner_positive_button">Зачувај го роденденот</string>
+    <string name="save_banner_title_name">Не заборавајте го роденденот на %1$s</string>
+    <string name="save_banner_title_no_name">Не заборавајте го роденденот на контактот</string>
+    <string name="save_birthday_banner_description">@string/banner_description</string>
     <string name="save_otp_confirm_button">Зачувај ја OTP-лозинката</string>
     <string name="save_otp_dialog_message">Оваа OTP-лозинка ќе се зачува, а другите OTP-лозинки ќе продолжат да се бришат автоматски по 24 часа. Управувајте во „Поставки“.</string>
     <string name="save_otp_dialog_title">Да се зачува оваа OTP-лозинка?</string>
@@ -1574,6 +1712,7 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="scheduled_send_announcement_scheduling_failed">Не може да се закаже порака.</string>
     <string name="scheduled_send_announcement_scheduling_started">Се закажува порака.</string>
     <string name="scheduled_send_announcement_scheduling_succeeded">Пораката е закажана.</string>
+    <string name="scheduled_send_badge_content_description">Значка за закажано испраќање</string>
     <string name="scheduled_send_compose_label_close_content_description">Отстрани го распоредот.</string>
     <string name="scheduled_send_datetime_picker_subtitle">За испраќање, телефонот нека ви биде вклучен и поврзан на Wi-Fi или мобилен интернет</string>
     <string name="scheduled_send_datetime_picker_title">Закажување испраќање (%1$s)</string>
@@ -1597,10 +1736,11 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="search_rendering_unable_to_search">Проблем со пребарување. Обидете се повторно подоцна.</string>
     <string name="search_starred_messages_title">Означено со ѕвезда</string>
     <string name="security_key_page_description">За да потврдите, сите броеви треба да се совпаѓаат со оние од кодот на примачот.</string>
-    <string name="security_key_page_intro">Кодов ви овозможува да потврдите дека само соодветниот примач ќе ги прими вашите пораки шифрирани од крај до крај.</string>
+    <string name="security_key_page_intro">Кодов ви овозможува да потврдите дека само соодветниот примач ќе ги прими вашите обострано шифрирани пораки.</string>
     <string name="security_key_top_level_title">Потврдување на шифрирањето</string>
     <string name="see_gallery">Видете ја галеријата</string>
     <string name="selected">Избрано</string>
+    <string name="selection_position_text">%1$d</string>
     <string name="self_left_group_conversation_failed">Не успеа напуштањето на групата. Обидете се повторно подоцна.</string>
     <string name="self_participant_reaction_name">Вие</string>
     <string name="self_person_name">Вие</string>
@@ -1650,7 +1790,6 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="sending_timeout_failure_dialog_title">Пораката не е испратена</string>
     <string name="sent_label">Испратено:</string>
     <string name="set_message_priority_description">Поставете итен статус</string>
-    <string name="set_rcs_flags">Поставување знаменца на RCS</string>
     <string name="set_rcs_mobile_data_auto_download_limit_title">Автоматско преземање датотеки примени преку мобилен интернет</string>
     <string name="setting_fast_track_body_with_cost">Ако продолжите, се согласувате со %1$s и %2$s. За испорачување пораки на телефонски број, можно е Google повремено да го потврдува вашиот број преку разменување на информациите за вашиот уред со вашиот оператор или преку SMS (може да ви се наплати). Функциите на разговор може да ги оневозможите од „Поставки“. %3$s</string>
     <string name="settings_activity_title">Поставки</string>
@@ -1673,6 +1812,13 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="shortcuts_screen_title">Кратенки</string>
     <string name="show_sms_link_warning_change_label">Промени</string>
     <string name="show_sms_link_warning_text">Прилозите ќе се испраќаат како SMS-пораки што опфаќаат линк до прилогот</string>
+    <string name="sign_in_app_name_without_account">Користи ја %1$s без сметка</string>
+    <string name="sign_in_cancel">Откажи</string>
+    <string name="sign_in_without_account">Користи без сметка</string>
+    <string name="sign_in_without_account_short">Без сметка</string>
+    <string name="sign_into_photos_app">Најавете се</string>
+    <string name="sign_into_photos_app_title">За да продолжите, најавете се на „Фотографии на Google“</string>
+    <string name="sign_into_photos_app_with_x_to_continue">Во моментов испраќате од %1$s</string>
     <string name="signature_banner_description">@string/banner_description</string>
     <string name="silent_ringtone">Безгласен режим</string>
     <string name="sim_label">SIM:</string>
@@ -1691,9 +1837,13 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="sim_storage_full_title">Капацитетот на SIM-картичката е полн</string>
     <string name="sim_storage_pref_title">Пораки на SIM-картичката</string>
     <string name="simple_fail_to_decrypt_message_dialog_body">За дешифрирање пораки во иднина, ажурирајте ја вашата апликација Messages</string>
+    <string name="smart_action_settings_page_description">Прикажи релевантни кратенки за календар, пребарување GIF-датотеки, споделување локација и друго</string>
+    <string name="smart_action_settings_page_title">Дејства</string>
+    <string name="smart_actions_preference_summary_shortcuts">Прикажувај релевантни кратенки за календар, пребарување GIF-датотеки, споделување локација и друго</string>
     <string name="smart_actions_preference_title">Предложени дејства</string>
     <string name="smart_compose_preference_summary">Прикажи предлози за предвидувачко пишување</string>
     <string name="smart_compose_preference_title">Паметно пишување</string>
+    <string name="smart_reply_preference_summary">Прикажувај опции за одговарање во разговор</string>
     <string name="smarts_preference_info_text">„Паметниот одговор“ и предложените дејства се видливи само за вас, сѐ додека не допрете и споделите. &lt;br/> &lt;br/> Предлозите варираат според вашиот разговор и се создаваат на уредот. %1$s</string>
     <string name="smarts_preference_info_text_with_assistant">Messages генерира „Паметен одговор“, предложени дејства и предлози од „Помошникот“ со интелигенцијата на уредот. &lt;br/> &lt;br/>Предлозите нема да се споделат со Google или кој било друг сѐ додека не допрете на нив. &lt;br/> &lt;br/> Ако дозволите Messages да пристапува до локацијата на вашиот уред, ќе гледате повеќе локални предлози. %1$s</string>
     <string name="smarts_settings_page_summary">„Паметен одговор“, предложени дејства и друго</string>
@@ -1720,19 +1870,18 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="snackbar_text_label_rcs_group_created_too_large">{max_group_size_including_self,plural, =1{Не може да содржи повеќе од # лице}one{Не може да содржи повеќе од # лице}other{Не може да содржи повеќе од # лица}}</string>
     <string name="snackbar_text_label_rcs_group_self_only">Групава е празна. Додајте луѓе во групава пред да испратите порака во разговоров.</string>
     <string name="snippet">%1$s: %2$s</string>
-    <string name="snippet_assistant_card_text">Картичка на „Помошникот“</string>
-    <string name="snippet_attachment_icon_content_description">Икона на прилог од исечокот на одговор</string>
     <string name="snippet_audio_attachment_text">Аудио</string>
     <string name="snippet_deleted_message_text">Пораката е избришана</string>
-    <string name="snippet_dismiss_icon_content_description">Икона за отфрлање одговори</string>
+    <string name="snippet_dismiss_icon_content_description">Избриши</string>
     <string name="snippet_file_attachment_text">Датотека</string>
     <string name="snippet_from_you">Вие: %s</string>
     <string name="snippet_image_attachment_text">Слика</string>
-    <string name="snippet_media_thumbnail_content_description">Сликичка на аудиовизуелни содржини од исечокот на одговор</string>
     <string name="snippet_self_participant_header">Вие</string>
     <string name="snippet_video_attachment_text">Видео</string>
     <string name="soft_num_key_pad_backspace_content_description">Бришење наназад</string>
     <string name="someone_added_participant">%1$s го додаде учесникот %2$s во групава</string>
+    <string name="someone_added_participant_with_learn_more">%1$s го додаде учесникот %2$s во групава. %3$s</string>
+    <string name="someone_else_created_encrypted_rcs_group">%1$s го создаде групниов разговор со %2$s. %3$s</string>
     <string name="someone_else_created_mms_group">%1$s ја создаде групнава MMS-порака со %2$s</string>
     <string name="someone_else_created_rcs_group">%1$s го создаде групниов разговор со %2$s</string>
     <string name="someone_joined_group">Некој се придружи на групава</string>
@@ -1756,7 +1905,6 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="spam_dialog_title_spam_folder">Да се пријави спам?</string>
     <string name="spam_folder_activity_title">Спам и блокирани</string>
     <string name="spam_folder_conversation_list_empty_text_v2">Спамот и блокираните разговори се појавуваат тука</string>
-    <string name="spam_preference_info_text_on_device">Messages ја користи интелигенцијата на уредот за откривање спам и испраќа одредени податоци за поракиве до Google без вашиот телефонски број или содржините на пораките. %1$s</string>
     <string name="spam_protection_consent_string">Како помош за откривање спам, Messages испраќа податоци за вашите пораки во Google, без вашиот телефонски број или содржината на пораките. %1$s</string>
     <string name="spam_reporting_from">Пријавување спам</string>
     <string name="spam_settings">Заштита од спам</string>
@@ -1765,6 +1913,8 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="split_view_pref_title">Приказ на детали на список</string>
     <string name="stacked_banner_count_text">1 од %1$d</string>
     <string name="star_badge_content_description">Означување ѕвезда со значка</string>
+    <string name="star_badge_menu_remove_action">Отстрани</string>
+    <string name="star_badge_menu_view_all_action">Прикажи ги сите</string>
     <string name="star_badge_on_click_snackbar_action">Врати</string>
     <string name="star_badge_on_click_snackbar_message">Ѕвездата е отстранета</string>
     <string name="sticker_content_description">Налепница од %s</string>
@@ -1801,10 +1951,12 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="subject_with_label">Наслов: %1$s</string>
     <string name="subject_with_urgent_label">[ИТНО] %1$s</string>
     <string name="success_message_format">%1$s %2$s %3$s %4$s %5$s %6$s.</string>
+    <string name="success_message_self_sender">Рековте %1$s %2$s %3$s %4$s.</string>
     <string name="success_message_self_sender_format_with_multiple_attachments">Испративте повеќе прилози %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_self_sender_format_with_single_attachment">Испративте прилог %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_specified_sender_format_with_multiple_attachments">%1$s испрати повеќе прилози %2$s %3$s %4$s %5$s %6$s.</string>
     <string name="success_message_specified_sender_format_with_single_attachment">%1$s испрати прилог %2$s %3$s %4$s %5$s %6$s.</string>
+    <string name="success_message_unspecified_sender">Испраќачот рече %1$s %2$s %3$s %4$s.</string>
     <string name="success_message_unspecified_sender_format_with_multiple_attachments">Испраќачот испрати повеќе прилози %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_unspecified_sender_format_with_single_attachment">Испраќачот испрати прилог %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_sent_to_message_format">Испратено до %1$s %2$s %3$s %4$s.</string>
@@ -1813,10 +1965,18 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="sud_back_button_label">Назад</string>
     <string name="sud_more_button_label">Повеќе</string>
     <string name="sud_next_button_label">Следно</string>
-    <string name="suggested_stickers_preference_summary">Прикажи предложени налепници</string>
+    <string name="suggested_stickers_preference_summary">Прикажувај опции за одговарање со налепница</string>
     <string name="suggested_stickers_preference_title">Предложени налепници</string>
+    <string name="suggestion_shortcut_dialog_body_text">Означете порака со ѕвезда, направете распоред во моментот и друго, со брзи и лесно кратенки.</string>
+    <string name="suggestion_shortcut_dialog_positive_button">Во ред</string>
+    <string name="suggestion_shortcut_dialog_subsection_body_text">Кратенките се предлагаат поради работи, на пр., телефонски броеви и датуми. %1$s</string>
+    <string name="suggestion_shortcut_dialog_subsection_title_text">Како функционира тоа</string>
+    <string name="suggestion_shortcut_dialog_title">Предложени кратенки за да стигнете таму побрзо</string>
+    <string name="suggestion_shortcut_search_title">Пребарување</string>
+    <string name="suggestion_shortcut_star_toolstone">Означете ги пораките со ѕвезда и лесно наоѓајте ги во %1$s</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_notification_inbox_style_summary_text">уште +%d</string>
+    <string name="super_sort_pref_title">Организирање пораки</string>
     <string name="super_sort_settings_title">Организирање пораки</string>
     <string name="supersort_conversation_list_empty_text_business_update">Новостите за бизнисот се појавуваат тука автоматски</string>
     <string name="supersort_conversation_list_empty_text_manage_in_settings">Управувајте во „Поставки“</string>
@@ -1850,7 +2010,7 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="survey_device_model">Модел на уред</string>
     <string name="survey_email_address">Адреса на е-пошта</string>
     <string name="survey_google_play_services_version">Верзија на „Услуги на Google Play“</string>
-    <string name="survey_legal_text">Ако продолжите, се согласувате Google да ги користи вашите одговори и %1$s за подобрување на услугите, согласно нашите %2$s и %3$s.</string>
+    <string name="survey_legal_text">Ако продолжите, се согласувате Google да ги користи вашите одговори и %1$s за подобрување на услугите, согласно со нашите %2$s и %3$s.</string>
     <string name="survey_legal_text_car">By continuing, Google will use your answers, account &amp; system info to improve services. See account profile for Privacy &amp; Terms.</string>
     <string name="survey_library_version">Верзија на збирката</string>
     <string name="survey_network_request_failed">Барањето мрежа не успеа</string>
@@ -1879,6 +2039,11 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="survey_user_agent">Корисник-агент</string>
     <string name="survey_very_dissatisfied">Многу незадоволен</string>
     <string name="survey_very_satisfied">Многу задоволен</string>
+    <string name="swipe_actions">Дејства со повлекување</string>
+    <string name="swipe_actions_summary">Изберете „Архивирај“ или „Избриши“, повлекување надесно или налево или исклучете го повлекувањето</string>
+    <string name="swipe_customize">Приспособување</string>
+    <string name="swipe_left">Повлекување налево</string>
+    <string name="swipe_right">Повлекување надесно</string>
     <string name="switcher_no_phone_number">Не е најдена SIM-картичка</string>
     <string name="switcher_pair_device_title_text">Размена на SMS-пораки со спарен телефон</string>
     <string name="switcher_positive_button_text">Продолжи</string>
@@ -1886,6 +2051,7 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="switcher_use_device_sim_number">(%s)</string>
     <string name="switcher_use_device_sim_title_text">Размена на SMS-пораки со SIM-картичката на уредов</string>
     <string name="syncing_with_device_foreground_notification_text">Messages се синхронизира со вашиот уред</string>
+    <string name="system_picker_button_label">Папки</string>
     <string name="t_mobile_tos_pref_link_text">Одредби и услови</string>
     <string name="t_mobile_tos_pref_text">Функции за разговор од Google обезбедени од T-Mobile. Погледнете на %1$s.</string>
     <string name="t_mobile_tos_pref_url">https://www.t-mobile.com/responsibility/legal/terms-and-conditions</string>
@@ -1910,6 +2076,7 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="theme_setting_dialog_options_light_mode">Светла</string>
     <string name="theme_setting_dialog_options_system_default_mode">Стандардна за системот</string>
     <string name="theme_setting_dialog_title">Изберете тема</string>
+    <string name="tiktok_account_login_failure">Не можеше да се најави на избраната сметка.</string>
     <string name="tiktok_add_account_error">Не може да се додаде сметка. Обидете се повторно.</string>
     <string name="tiktok_fix_it">Поправете</string>
     <string name="tiktok_load_account_failure">Не може да се вчитаат сметките.</string>
@@ -1935,6 +2102,18 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="tombstone_self_removed_from_group_referrer_known">%1$s ве отстрани од групава</string>
     <string name="tombstone_self_removing_others_from_group">Ги отстранивте %1$s од групава</string>
     <string name="tombstone_show_link_previews">Прегледите на линк се вклучени.&lt;br />Дознајте повеќе или исклучете во &lt;u>Поставки&lt;/u>.</string>
+    <string name="tombstone_show_link_previews_disabled">Прегледите на линкови се исклучени.&lt;br />Дознајте повеќе или вклучете во &lt;u>Поставки&lt;/u>.</string>
+    <string name="tooltip_content">"Вашата сметка на Google овозможува
+функции, како на пр., споделување линкови на „Фотографии на Google“
+во Messages без
+пристап до вашите разговори.
+
+Пораките сѐ уште се испраќаат од вашиот
+телефонски број. Дознајте повеќе"</string>
+    <string name="tooltip_content_with_line_break_fix">"Вашата сметка на Google овозможува функции, како на пр., споделување линкови од „Фотографии на Google“ во Messages без пристапување до вашите разговори.
+
+Messages сѐ уште испраќа од вашиот телефонски број. Дознајте повеќе"</string>
+    <string name="tooltip_link">Дознајте повеќе</string>
     <string name="top_contacts_grid_name">★</string>
     <string name="top_contacts_title">Најчесто контактирани</string>
     <string name="transaction_content_description">Поракава е категоризирана како трансакција</string>
@@ -1944,6 +2123,7 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="unblock_and_report_not_spam_snackbar_message">%1$s е одболкиран и пријавен дека не е спам</string>
     <string name="unblock_banner_body">За да го извадите разговоров од „Архива“ и да добивате известувања повторно, одблокирајте го испраќачот %s</string>
     <string name="unblock_banner_body_spam_folder">За да го извадите разговоров од „Спам и блокирани“ и да добивате пораки повторно, одблокирајте го испраќачот %s</string>
+    <string name="unblock_banner_body_v2">Unblock to receive messages from this sender</string>
     <string name="unblock_banner_description">@string/banner_description</string>
     <string name="unblock_banner_positive_button">Одблокирај</string>
     <string name="unblock_banner_title">Блокирано</string>
@@ -1979,6 +2159,7 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="unsent">Неиспратено</string>
     <string name="unspam_banner_body">"За да го извадите разговоров од „Архивирано' и да добивате известувања повторно, пријавете дека %s не е спам"</string>
     <string name="unspam_banner_body_spam_folder">За да го извадите разговоров од „Спам и блокирани“ и да добивате известувања повторно, пријавете дека %s не е спам</string>
+    <string name="unspam_banner_body_v2">Report as not spam to receive messages from this sender</string>
     <string name="unspam_banner_description">@string/banner_description</string>
     <string name="unspam_banner_end_button">Не е спам</string>
     <string name="unspam_banner_title">Пријавено како спам</string>
@@ -1994,6 +2175,8 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="unsupported_file_save_alert">Да се зачува прилогот во „Преземања“?</string>
     <string name="unsupported_file_save_cancel">Откажи</string>
     <string name="unverified_sms_banner_description">@string/banner_description</string>
+    <string name="unwanted_messages_toolstone_link">блокирајте и пријавете</string>
+    <string name="unwanted_messages_toolstone_text">За несакани пораки, %1$s</string>
     <string name="upcoming_reminder">Претстоен потсетник</string>
     <string name="update_content_description">Поракава е категоризирана како новост</string>
     <string name="update_donation_banner_body_v2">Вашиот идентитет ќе остане приватен и може да ги отстраните содржините на пораките</string>
@@ -2014,7 +2197,7 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="v7_preference_off">ИСКЛУЧЕНО</string>
     <string name="v7_preference_on">ВКЛУЧЕНО</string>
     <string name="vcard_collapse">Допрете за собирање на деталите.</string>
-    <string name="vcard_detail_activity_title">Информации за контакт</string>
+    <string name="vcard_detail_activity_title">Податоци за контакт</string>
     <string name="vcard_detail_birthday_label">Роденден</string>
     <string name="vcard_detail_notes_label">Белешки</string>
     <string name="vcard_detail_picker_empty_warning">Нема информации за контакт. Сепак да се испрати?</string>
@@ -2036,6 +2219,7 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="video_attachment_content_description">Видео во прилог</string>
     <string name="video_attachment_limit_exceeded_when_sending">Може да испраќате само едно видео по порака. Отстранете ги дополнителните видеа и обидете се повторно.</string>
     <string name="video_compress_info">Поради ограничувањата на операторот за MMS-пораки, примачот ќе гледа видеа со понизок квалитет</string>
+    <string name="video_format_type">видео</string>
     <string name="video_media_failure">За да создадете видео, обидете се да снимате подолго</string>
     <string name="video_taken">Видеото е снимено</string>
     <string name="video_thumbnail_view_play_button_content_description">Пушти видео</string>
@@ -2082,19 +2266,20 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="websiteTypeWork">Работа</string>
     <string name="welcome_agree_button_text">Се согласувам</string>
     <string name="welcome_chat_features_decline">Користете ја Messages без функции за разговор</string>
-    <string name="welcome_chat_features_learn_more">Дознајте повеќе за функциите за разговор</string>
     <string name="welcome_chat_features_legal">Ако ги користите функциите за разговор, се согласувате со %1$s и %2$s. Google повремено ќе го потврдува вашиот број со вашиот оператор (може да ви се наплати за SMS).</string>
+    <string name="welcome_chat_features_text">"· Испраќање преку Wi-Fi или мобилен интернет
+· Споделување на вашите датотеки и аудиовизуелни содржини
+· Чување на приватноста на вашите пораки"</string>
     <string name="welcome_chat_features_title">Побрзи, побогати разговори со повисок квалитет преку Wi-Fi или мобилен интернет</string>
+    <string name="welcome_chat_features_title_experiment_0">Искористете го максимумот со Messages</string>
+    <string name="welcome_chat_features_title_experiment_1">Искористете го максимумот со функциите за разговор во Messages</string>
     <string name="welcome_consent_button_text">Следно</string>
-    <string name="welcome_finish_button_text">Готово</string>
     <string name="welcome_smarts_notice_description">"Поедноставете ги вашите разговори со функциите како што се „Помошник на Google“ и „Паметен одговор“. Вашите разговори ќе бидат безбедни на вашиот уред.
 %1$s и %2$s"</string>
     <string name="welcome_smarts_notice_title">Корисни паметни известувања</string>
     <string name="welcome_spam_description">"За да спречи спам, Google користи телефонски броеви што не се во вашите контакти без да ве идентификува вас или вашиот број.
 %1$s и %2$s"</string>
     <string name="welcome_spam_title">Заштита од спам</string>
-    <string name="welcome_splash_tagline">"Едноставни, паметни пораки
-од Google"</string>
     <string name="widget_reply_exit_content_description">Назад</string>
     <string name="widget_reply_open">ОТВОРИ MESSAGES</string>
     <string name="widget_reply_to">Одговорете на %s</string>
@@ -2102,9 +2287,14 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="work_directory_display_name">Контакти на Работниот профил</string>
     <string name="xms_send_mode_pref_title">Испраќајте само SMS и MMS</string>
     <string name="you_added_participant">Го додадовте учесникот %s во групава</string>
+    <string name="you_added_participant_with_learn_more">Ги додадовте учесниците %1$s во групава. %2$s</string>
+    <string name="you_created_encrypted_rcs_group">Го создадовте групниов разговор со %1$s. %2$s</string>
     <string name="you_created_mms_group">Ја создадовте групнава MMS-порака со %s</string>
     <string name="you_created_rcs_group">Го создадовте групниов разговор со %s</string>
     <string name="you_left_group">Ја напуштивте групава</string>
+    <string name="youtube_dismissal_prompt">Допрете и повлечете за затворање</string>
+    <string name="youtube_drag_prompt">Повлечете за да го преместите плеерот</string>
+    <string name="youtube_pip_playing">Видеото е моментално пуштено</string>
     <string name="zero_connectivity_failure_announcement">Пораката не е испратена</string>
     <string name="zero_state_search_action_copy">Копирај</string>
     <string name="zero_state_search_action_jump_to_chat">Прикажи во разговор</string>
@@ -2124,6 +2314,7 @@ Messages ќе се вклучи пак кога функциите за разг
     <string name="zero_state_search_details_image_accessibility">Сликата ја испрати %1$s на %2$s</string>
     <string name="zero_state_search_details_video_accessibility">Видеото го испрати %1$s на %2$s</string>
     <string name="zero_state_search_dropdown_free_text">Пребарајте „%s“</string>
+    <string name="zero_state_search_empty_results_text">Вашите пораки, аудиовизуелни содржини и линкови од разговоров означени со ѕвезда ќе се појават тука</string>
     <string name="zero_state_search_images">Слики</string>
     <string name="zero_state_search_link_copied">Линкот е копиран</string>
     <string name="zero_state_search_links">Линкови</string>

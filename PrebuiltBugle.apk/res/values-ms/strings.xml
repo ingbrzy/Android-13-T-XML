@@ -26,7 +26,6 @@
     <string name="abc_shareactionprovider_share_with_application">Kongsi dengan %s</string>
     <string name="abc_toolbar_collapse_description">Runtuhkan</string>
     <string name="about_application_pp_tos_settings">Perihal, syarat &amp; privasi</string>
-    <string name="acs_url_dropdown_hint">Tetapkan Url ACS</string>
     <string name="action_add_contact">Tambah kenalan</string>
     <string name="action_advanced_feedback">Hantar maklum balas</string>
     <string name="action_archive">Arkib</string>
@@ -45,18 +44,19 @@
     <string name="action_help_and_feedback">Bantuan &amp; maklum balas</string>
     <string name="action_info_and_options">Maklumat &amp; pilihan</string>
     <string name="action_jump_to_chat">Lihat dalam sembang</string>
+    <string name="action_meet_video_call">Panggilan video Meet</string>
     <string name="action_menu_mark_all_as_read">Tandai semua sebagai dibaca</string>
     <string name="action_menu_show_archived">Diarkibkan</string>
     <string name="action_menu_show_spam_folder">Spam &amp; disekat</string>
     <string name="action_notification_off">Matikan pemberitahuan</string>
     <string name="action_notification_on">Hidupkan pemberitahuan</string>
     <string name="action_notification_settings">Redam pemberitahuan</string>
+    <string name="action_off">Mati</string>
     <string name="action_pair_device">Penggandingan peranti</string>
     <string name="action_people_and_options">Butiran</string>
     <string name="action_people_and_options_group">Butiran kumpulan</string>
     <string name="action_pin_to_top">Sematkan di atas</string>
     <string name="action_report_spam">Laporkan spam</string>
-    <string name="action_scan_qr_code">Messages untuk web</string>
     <string name="action_search">Cari</string>
     <string name="action_search_gifs">Cari GIF</string>
     <string name="action_search_messages">Cari dalam mesej</string>
@@ -75,6 +75,7 @@
     <string name="action_viLTE_video_call">Panggilan video pembawa</string>
     <string name="action_video_call">Buat panggilan video</string>
     <string name="actionbar_subtitle_name_prefix">dengan %s</string>
+    <string name="active_reminder">Peringatan</string>
     <string name="active_sim_content_message">%s dipilih</string>
     <string name="activity_not_found_message">Tidak menemui aplikasi yang sesuai</string>
     <string name="add_area_code_banner_button">Tambah kod kawasan</string>
@@ -88,6 +89,7 @@
     <string name="add_contact_confirmation_dialog_title">Tambah pada Kenalan?</string>
     <string name="add_country_code_banner_button">Tambah kod negara</string>
     <string name="add_more_participants_button_content_description">Tambah peserta lagi</string>
+    <string name="add_reaction_content_description">Berikan reaksi dengan reaksi Tersuai</string>
     <string name="add_reaction_for_assistant_card_rcs_fallback_text">​%1$s​ kepada kad assistant</string>
     <string name="add_reaction_for_audio_rcs_fallback_text">​%1$s​ kepada fail audio</string>
     <string name="add_reaction_for_contact_rcs_fallback_text">​%1$s​ kepada kenalan</string>
@@ -95,7 +97,7 @@
     <string name="add_reaction_for_gif_rcs_fallback_text">​%1$s​ kepada GIF</string>
     <string name="add_reaction_for_link_rcs_fallback_text">​%1$s​ kepada pautan</string>
     <string name="add_reaction_for_photo_rcs_fallback_text">​%1$s​ kepada foto</string>
-    <string name="add_reaction_for_text_message_rcs_fallback_text">​%1$s​ kepada \"%2$s\"</string>
+    <string name="add_reaction_for_text_message_rcs_fallback_text">​%1$s​ kepada \" %2$s \"</string>
     <string name="add_reaction_for_unknown_message_type_rcs_fallback_text">​%1$s​ kepada jenis mesej yang tidak diketahui</string>
     <string name="add_reaction_for_video_rcs_fallback_text">​%1$s​ kepada video</string>
     <string name="advanced_feedback_activity_disclaimer">Kandungan mesej dan teks anda, kecuali yang terdapat dalam tangkapan skrin, tidak dihantar kepada Google</string>
@@ -132,14 +134,13 @@
     <string name="apn_mnc">MNC</string>
     <string name="app_name">Messages</string>
     <string name="app_settings_conversation_pref_title">Tetapan apl</string>
-    <string name="apply_button">Guna</string>
     <string name="archived_activity_title">Diarkibkan</string>
     <string name="archived_conversation_list_empty_text">Perbualan diarkibkan dipaparkan di sini</string>
     <string name="area_code_banner_description">@string/banner_description</string>
     <string name="assistant_movies_shortcut_title">Filem</string>
+    <string name="assistant_preference_summary">Tunjukkan maklumat yang berkaitan tentang tempat menjamu selera, filem &amp; pelbagai lagi</string>
     <string name="assistant_preference_title">Cadangan Assistant</string>
     <string name="assistant_restaurants_shortcut_title">Restoran</string>
-    <string name="assistant_send_to_chip_default_group_name">kumpulan</string>
     <string name="assistant_suggestions_tooltip_text">Messages membuat cadangan sementara menyimpan perbualan anda pada peranti. Anda boleh mengetik cadangan untuk melihat &amp; berkongsi maklumat daripada Google Assistant. &lt;br/> &lt;br/> &lt;a href>Ketahui lebih lanjut&lt;/a> &amp; urus dalam &lt;a href>Tetapan&lt;/a></string>
     <string name="assistant_suggestions_tooltip_title_text">Dapatkan maklumat dengan satu ketikan</string>
     <string name="assistant_weather_shortcut_title">Cuaca</string>
@@ -155,12 +156,18 @@
     <string name="attachment_location">Lokasi</string>
     <string name="attachment_picture">Gambar</string>
     <string name="attachment_preview_close_content_description">Buang lampiran</string>
+    <string name="attachment_preview_photos_link_share_getting_link">Mendapatkan pautan…</string>
+    <string name="attachment_preview_photos_link_share_no_upload_needed">Dimuat naik sebelum ini</string>
+    <string name="attachment_preview_photos_link_share_upload_size">Muat naik %s</string>
+    <string name="attachment_preview_photos_link_share_upload_size_failure">Tidak diketahui</string>
+    <string name="attachment_preview_photos_link_share_upload_size_placeholder">Mengira…</string>
     <string name="attachment_unsupported_file">Fail tidak disokong</string>
     <string name="attachment_vcard">Kad kenalan</string>
     <string name="attachment_video">Video</string>
     <string name="audio_attachment_content_description">Lampiran audio</string>
     <string name="audio_attachment_seek_playback_description">Main balik audio</string>
     <string name="audio_button_view_content_description">Ketik dua kali dan tahan untuk merakam audio, luncur ke kiri untuk membatalkan.</string>
+    <string name="audio_format_type">audio</string>
     <string name="audio_pause_content_description">Jeda</string>
     <string name="audio_play_content_description">Mainkan lampiran audio</string>
     <string name="audio_recorder_call_in_progress">Tidak boleh merakam audio semasa dalam panggilan</string>
@@ -179,6 +186,8 @@
     <string name="auto_selected_country_summary">Dikesan secara automatik (%1$s)</string>
     <string name="automoved_spam_notification_action_dismiss">Ketepikan</string>
     <string name="automoved_spam_notification_action_view">Lihat</string>
+    <string name="automoved_spam_notification_content_text">Spam masuk dialihkan ke “Spam &amp; disekat”</string>
+    <string name="automoved_spam_notification_content_title">Spam dikesan</string>
     <string name="avatar_no_connection_msg">Tiada sambungan Internet</string>
     <string name="avatar_promo_create">Buat</string>
     <string name="avatar_promo_see_all">Lihat Semua</string>
@@ -190,7 +199,8 @@
     <string name="birthday_banner_description">@string/banner_description</string>
     <string name="birthday_banner_dismiss_button_text">Ketepikan</string>
     <string name="birthday_banner_settings_button_text">Urus dalam tetapan</string>
-    <string name="birthday_info_text">Messages membuat peringatan hari lahir daripada kenalan dengan hari lahir pada peranti anda</string>
+    <string name="birthday_info_text">Peringatan ini adalah berdasarkan maklumat hari lahir daripada apl kenalan peranti anda.</string>
+    <string name="birthday_info_text_with_settings">Peringatan ini adalah berdasarkan maklumat hari lahir daripada apl kenalan peranti anda. &lt;a href>%1$s&lt;/a></string>
     <string name="birthday_nudge_enabled_pref_summary">Dapatkan peringatan untuk hari lahir yang telah anda tambahkan pada kenalan pada peranti anda</string>
     <string name="birthday_nudge_enabled_pref_title">Peringatan hari lahir</string>
     <string name="block_confirmation_message_spam_folder">Anda akan terus menerima mesej daripada %1$s tetapi anda tidak akan diberitahu lagi. Perbualan ini akan dialihkan ke “Spam &amp; disekat”.</string>
@@ -210,9 +220,13 @@
     <string name="boew_promo_text">Untuk mendapatkan ciri sembang seperti pemesejan melalui Wi‑Fi dan data, benarkan Messages diteruskan di latar belakang</string>
     <string name="boew_promo_title">Lakukan lebih banyak perkara dengan Messages</string>
     <string name="bottomsheet_action_expand_halfway">Kembangkan helaian bawah</string>
+    <string name="bottomsheet_drag_handle_content_description">Pemegang seret</string>
     <string name="broadcast_receiver_notification_text_extra_info">Messages sedang melakukan kerja di latar belakang. Sila buat laporan pepijat jika anda melihat pemberitahuan ini selama lebih seminit. Nama penerima: %1$s</string>
     <string name="broadcast_sms_text">Teks massa SMS</string>
     <string name="bubble_settings_title">Gelembung</string>
+    <string name="bugle_add_account_error">Gagal menambahkan akaun, sila cuba lagi.</string>
+    <string name="bugle_fix_it">Betulkannya</string>
+    <string name="bugle_load_account_failure">Gagal memuatkan akaun.</string>
     <string name="bugle_notification_category_conversations">Perbualan</string>
     <string name="bugle_notification_category_default_settings">Tetapan lalai</string>
     <string name="bugle_notification_category_reminders">Peringatan</string>
@@ -224,6 +238,8 @@
     <string name="bugle_notification_reminders_channel_name">Peringatan</string>
     <string name="bugle_notification_report_issue_channel_name">Permintaan maklum balas Messages</string>
     <string name="bugle_notification_silent_default_channel_name">Dapatkan pemberitahuan semasa menggunakan web</string>
+    <string name="bugle_play_services_error">Gagal semasa bertanya perkhidmatan Google Play.</string>
+    <string name="bugle_retry">Cuba semula</string>
     <string name="business_action_call_full_content_description">Panggil %1$s (%2$s)</string>
     <string name="business_action_call_short_content_description">Panggil</string>
     <string name="business_action_call_short_text_m2">Panggil</string>
@@ -285,6 +301,7 @@
     <string name="c2o_single_file_attachment_size_limit_exceed">Lampiran anda terlalu besar untuk dihantar. Cuba hantar fail yang lebih kecil daripada %s.</string>
     <string name="c2o_storage_permissions_text">Ketik untuk memberikan akses kepada Media</string>
     <string name="c2o_video_button_text">Video</string>
+    <string name="calendar_badge_content_description">Lencana kalendar</string>
     <string name="calendar_event_added">Acara disimpan</string>
     <string name="calendar_file_content_description">Fail kalendar</string>
     <string name="calendar_suggestion_event_chat_title">Sembang Android Messages</string>
@@ -295,6 +312,7 @@
     <string name="camera_attach_media">Lampir</string>
     <string name="camera_attach_media_description">Lampirkan pada Mesej</string>
     <string name="camera_back_switch_button">Suis kamera belakang</string>
+    <string name="camera_capture_button_label">Ambil Foto</string>
     <string name="camera_flash_off">Denyar dimatikan</string>
     <string name="camera_flash_on">Denyar dihidupkan</string>
     <string name="camera_front_switch_button">Suis kamera depan</string>
@@ -392,6 +410,11 @@ Anda boleh mematikan ciri sembang dalam tetapan. %1$s"</string>
     <string name="common_google_play_services_update_text">%1$s tidak akan berfungsi kecuali anda mengemas kini perkhidmatan Google Play.</string>
     <string name="common_google_play_services_update_title">Kemaskinikan perkhidmatan Google Play</string>
     <string name="common_google_play_services_updating_text">%1$s tidak akan berfungsi tanpa perkhidmatan Google Play dan perkhidmatan ini sedang dikemaskinikan.</string>
+    <string name="common_google_play_services_wear_update_text">Versi baharu perkhidmatan Google Play diperlukan. Kemas kini automatik akan dijalankan sebentar lagi.</string>
+    <string name="common_open_on_phone">Buka pada telefon</string>
+    <string name="complete_photos_app_onboarding">Buka Google Photos</string>
+    <string name="complete_photos_app_onboarding_title">Untuk meneruskan tindakan, benarkan akses Google Photos</string>
+    <string name="complete_photos_app_onboarding_to_continue">Bermula dalam apl Google Photos</string>
     <string name="compose_message_view_hint_text">Mesej sembang</string>
     <string name="compose_message_view_hint_text_multi_sim_rcs">Sembang (%s)</string>
     <string name="compose_message_view_hint_text_multi_sim_sms_mms">Mesej teks (%s)</string>
@@ -413,15 +436,12 @@ Anda boleh mematikan ciri sembang dalam tetapan. %1$s"</string>
     <string name="contact_has_multiple_destinations_phone">%1$s (+%2$s lagi)</string>
     <string name="contact_has_multiple_destinations_type">Berbilang</string>
     <string name="contact_list_add_people">Tambahkan %s</string>
-    <string name="contact_list_empty_text">Masukkan nama kenalan atau nombor telefon untuk memulakan mesej baharu</string>
     <string name="contact_list_send_to_text">Hantar ke %s</string>
     <string name="contact_picker_autocomplete_added">%1$s ditambahkan, sedang mengedit</string>
     <string name="contact_picker_autocomplete_deleted">%1$s dipadamkan, sedang mengedit</string>
-    <string name="contact_picker_cant_add_destination_twice">Nombor itu sudah ada dalam kumpulan</string>
     <string name="contact_picker_cant_remove_from_existing">Tidak dapat mengalih keluar nombor daripada perbualan sedia ada</string>
     <string name="contact_picker_cant_remove_from_screen">Untuk mengalih keluar orang, pergi ke &lt;b>Butiran Kumpulan&lt;/b></string>
     <string name="contact_picker_confirm_participants_button_label">Seterusnya</string>
-    <string name="contact_picker_group_create_label">Buat kumpulan</string>
     <string name="contact_picker_group_v2_create_label">Buat kumpulan</string>
     <string name="contact_picker_message_a_business_label">Sembang dengan perniagaan</string>
     <string name="contact_picker_title_add_people">Tambah orang</string>
@@ -444,10 +464,14 @@ Anda boleh mematikan ciri sembang dalam tetapan. %1$s"</string>
     <string name="content_description_link_to_settings">Urus dalam Tetapan</string>
     <string name="contextual_action_bar_description_prefix">Menunjukkan bar alat untuk tindakan: %s. Navigasi ke atas untuk memilih tindakan atau menutup.</string>
     <string name="conversation_area_code_popup_paragraph">Tanpa kod kawasan yang diketahui, Messages akan cuba menghantar ke %1$s. Tambahkan kod kawasan kenalan ini untuk mesej akan datang. %2$s</string>
+    <string name="conversation_block_failed_message">Tidak disekat, semak sambungan</string>
+    <string name="conversation_blocking_message">Menyekat…</string>
     <string name="conversation_country_code_popup_paragraph">Tambahkan kod negara (+%1$s untuk %2$s) pada kenalan ini supaya mesej anda dihantar kepada orang yang betul. %3$s</string>
     <string name="conversation_creation_failed">Gagal membuat perbualan, sila cuba sebentar lagi.</string>
     <string name="conversation_creation_failure">Tidak dapat memulakan perbualan</string>
+    <string name="conversation_deleting_message">Memadamkan…</string>
     <string name="conversation_deletion_failed">Tidak dapat memadamkan perbualan</string>
+    <string name="conversation_deletion_failed_message">Tidak dipadamkan, semak sambungan</string>
     <string name="conversation_empty_name">Kosong</string>
     <string name="conversation_label_all">Semua</string>
     <string name="conversation_label_business_updates">Perniagaan</string>
@@ -474,7 +498,6 @@ Anda boleh mematikan ciri sembang dalam tetapan. %1$s"</string>
     <string name="conversation_list_item_view_draft_message">Draf</string>
     <string name="conversation_list_item_view_sent_from_other_prefix">%s:</string>
     <string name="conversation_list_item_view_sent_from_you_prefix">Anda:</string>
-    <string name="conversation_list_loading_item_description">Memuatkan perbualan</string>
     <string name="conversation_list_message_fail_to_decrypt">Tidak dpt menyahsulit</string>
     <string name="conversation_list_rcs_promo_button_negative">Jangan Tingkatkan Apl</string>
     <string name="conversation_list_rcs_promo_button_positive">Tingkatkan Sekarang</string>
@@ -486,7 +509,6 @@ Anda boleh mematikan ciri sembang dalam tetapan. %1$s"</string>
     <string name="conversation_list_snippet_link">Pautan</string>
     <string name="conversation_list_spam_popup_negative">Urus dalam Tetapan</string>
     <string name="conversation_list_spam_popup_paragraph">Untuk menghalang spam, Google menggunakan nombor telefon pengirim dan penerima yang tidak diketahui. Mesej dan kenalan anda tidak dihantar kepada Google. %1$s</string>
-    <string name="conversation_list_spam_popup_paragraph_on_device">Messages menggunakan risikan pada peranti untuk mengesan spam dan menghantar data tentang mesej ini kepada Google tanpa memasukkan nombor telefon atau kandungan mesej anda. %1$s</string>
     <string name="conversation_list_spam_popup_positive">OK</string>
     <string name="conversation_list_spam_popup_title">Perlindungan spam</string>
     <string name="conversation_list_terms_and_conditions_promo_subtitle">Selesaikan tindakan menghidupkan ciri sembang untuk menerima pemesejan melalui Wi-Fi dan pelbagai lagi</string>
@@ -509,15 +531,17 @@ Anda boleh mematikan ciri sembang dalam tetapan. %1$s"</string>
     <string name="conversation_suggestion_set_reminder_action">Tindakan menetapkan peringatan yang dicadangkan</string>
     <string name="conversation_suggestion_share_location_action">Tindakan perkongsian lokasi cadangan</string>
     <string name="conversation_suggestion_share_location_action_failure">Masalah telah berlaku. Untuk berkongsi lokasi anda, tambahkan lokasi tersebut pada mesej baharu.</string>
+    <string name="conversation_suggestion_star_action">Tindakan bintang yang dicadangkan</string>
     <string name="conversation_suggestion_sticker">Pelekat yang dicadangkan</string>
     <string name="copy">Salin</string>
     <string name="copy_to_clipboard">Salin</string>
     <string name="copy_to_clipboard_dialog_title">Salin ke papan keratan?</string>
     <string name="country_code_hint">Kod negara</string>
     <string name="country_code_picker_title">Pilih negara</string>
-    <string name="create_group_info_title">Tambahkan nama kumpulan</string>
+    <string name="create_group_info_title">Tambah nama kumpulan</string>
     <string name="create_new_group_message">Penambahan orang ini akan memulakan kumpulan baharu tanpa ciri sembang</string>
     <string name="current_country_pref_title">Negara semasa anda</string>
+    <string name="custom_reaction_selection_prompt">Pilih emoji</string>
     <string name="dark_mode_disable_title">Lumpuhkan mod gelap</string>
     <string name="dark_mode_enable_title">Dayakan mod gelap</string>
     <string name="dasher_disabled_notification_body">Hubungi pentadbir sistem anda atau log masuk dengan akaun lain.</string>
@@ -585,12 +609,9 @@ Anda boleh mematikan ciri sembang dalam tetapan. %1$s"</string>
     <string name="ditto_activity_label">Penggandingan peranti</string>
     <string name="ditto_foreground_service_device_pairing_notification_text">Mesej anda tersedia pada peranti yang telah anda gandingkan</string>
     <string name="ditto_foreground_service_device_pairing_notification_title">Penggandingan peranti</string>
-    <string name="ditto_foreground_service_notification_text">Mesej anda tersedia pada komputer yang telah anda gandingkan</string>
-    <string name="ditto_foreground_service_notification_title">Messages untuk web</string>
     <string name="ditto_foreground_service_sign_out">Nyahganding</string>
     <string name="ditto_persistent_notification_settings">Pemberitahuan</string>
     <string name="ditto_settings_action_bar_title">Pemberitahuan</string>
-    <string name="ditto_settings_connected_to_web_notification_description">“Messages untuk web” dipaparkan apabila peranti anda di dalam talian</string>
     <string name="ditto_settings_connected_to_web_notification_title">Tunjukkan pemberitahuan gigih</string>
     <string name="ditto_settings_device_paired_notification_description">“Penggandingan peranti” dipaparkan apabila peranti anda berada dalam talian</string>
     <string name="ditto_settings_while_using_web_notification_description">Hentikan nada dering &amp; getaran apabila peranti anda dalam talian</string>
@@ -630,6 +651,7 @@ Orang akan menyemak mesej anda, yang termasuk nombor pengirim perniagaan. Nombor
     <string name="dump_mms_pref_title">Buang MMS</string>
     <string name="dump_sms_pref_summary">Buang data mentah SMS yang diterima ke dalam fail storan luaran</string>
     <string name="dump_sms_pref_title">Buang SMS</string>
+    <string name="duplicate_upload_snackbar">Sesetengah pendua tidak disertakan</string>
     <string name="e2ee_conversation_tombstone">Bersambung dengan penyulitan menyeluruh bersama %1$s</string>
     <string name="e2ee_conversation_tombstone_with_learn_more">Bersembang bersama %1$s dengan penyulitan menyeluruh. %2$s</string>
     <string name="e2ee_fail_to_send_retry_description">Hantar semula sebagai sembang</string>
@@ -668,7 +690,6 @@ Orang akan menyemak mesej anda, yang termasuk nombor pengirim perniagaan. Nombor
 Mesej akan beralih kembali apabila ciri sembang disambung semula."</string>
     <string name="enable_rcs_auto_fallback_dialog_title">Hantar semula sebagai teks (SMS/MMS) secara automatik?</string>
     <string name="enable_rcs_auto_fallback_title">Hantar semula sebagai teks (SMS/MMS) secara automatik</string>
-    <string name="enable_rcs_fallback_to_sms_title">Hantar semula mesej jika tidak disampaikan</string>
     <string name="enable_rcs_fallback_to_xms_title">Hantar semula mesej jika tidak disampaikan</string>
     <string name="enable_rcs_summary_off">Gunakan Wi-Fi atau data untuk pemesejan apabila tersedia</string>
     <string name="enable_rcs_summary_on">Menggunakan data untuk pemesejan apabila tersedia</string>
@@ -680,9 +701,13 @@ Mesej akan beralih kembali apabila ciri sembang disambung semula."</string>
     <string name="enter_phone_number_title">Sahkan nombor telefon anda</string>
     <string name="enter_phone_number_title_for_sim">Sahkan nombor telefon untuk %1$s</string>
     <string name="enumeration_comma">", "</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_failed_to_save_setting">Masalah semasa menyimpan. Cuba lagi.</string>
     <string name="error_icon_content_description">Ralat</string>
     <string name="error_premium_sms_needs_permission">Untuk menghantar mesej ini, lawati tetapan peranti anda dan hidupkan akses SMS Premium</string>
+    <string name="error_text_draft_is_reply_to_missing_message">Tidak dapat membalas mesej yang telah dipadamkan</string>
+    <string name="error_text_draft_is_reply_without_rcs">Masalah dengan ciri sembang. Cuba hantar tanpa balasan.</string>
+    <string name="error_text_scheduled_send_with_draft_reply">Tidak dapat menjadualkan balasan pada masa ini</string>
     <string name="etouffee_to_rcs_notification">Messages mengesan bahawa penyulitan menyeluruh telah digugurkan dalam perbualan. Ketik untuk menghantar maklum balas.</string>
     <string name="etouffee_to_telephony_setting">Privasi</string>
     <string name="etouffee_to_telephony_setting_description">"Kebenaran SMS termasuk mesej anda yang disulitkan secara menyeluruh supaya mesej itu dapat disandarkan oleh Android, dibacakan dengan lantang dalam kereta anda atau pada peranti rakan dan pelbagai lagi. Lihat dan urus apl anda dengan kebenaran SMS dalam tetapan Android.
@@ -708,19 +733,24 @@ Penukaran tetapan ini tidak melibatkan mesej yang disulitkan secara menyeluruh y
     <string name="exo_controls_pause_description">Jeda</string>
     <string name="exo_controls_play_description">Main</string>
     <string name="exo_controls_previous_description">Sebelumnya</string>
-    <string name="exo_controls_repeat_all_description">Ulang semua</string>
-    <string name="exo_controls_repeat_off_description">Jangan ulang</string>
-    <string name="exo_controls_repeat_one_description">Ulang satu</string>
+    <string name="exo_controls_repeat_all_description">Mod semasa: Ulang semua. Togol mod ulang.</string>
+    <string name="exo_controls_repeat_off_description">Mod semasa: Tidak berulang. Togol mod ulang.</string>
+    <string name="exo_controls_repeat_one_description">Mod semasa: Ulang satu. Togol mod ulang.</string>
     <string name="exo_controls_rewind_description">Mandir</string>
     <string name="exo_controls_show">Tunjukkan kawalan pemain</string>
-    <string name="exo_controls_shuffle_off_description">Matikan rombak</string>
-    <string name="exo_controls_shuffle_on_description">Hidupkan rombak</string>
+    <string name="exo_controls_shuffle_off_description">Dayakan mod rombak</string>
+    <string name="exo_controls_shuffle_on_description">Lumpuhkan mod rombak</string>
     <string name="exo_controls_vr_description">Mod VR</string>
     <string name="exo_track_selection_auto">Automatik</string>
     <string name="exo_track_selection_none">Tiada</string>
     <string name="expand_attach_button_content_description">Butang kembangkan lampiran</string>
     <string name="expand_button_title">Terperinci</string>
     <string name="exposed_dropdown_menu_content_description">Tunjukkan menu lungsur</string>
+    <string name="express_sign_in_illustration_content_description">Ilustrasi ciri perkongsian media</string>
+    <string name="express_sign_in_sub_title">"Kekalkan kejelasan video apabila anda
+log masuk dan menghantar pautan Google Photos."</string>
+    <string name="express_sign_in_title">"Kongsi video sebagaimana
+video itu harus ditonton"</string>
     <string name="fail_to_decrypt_message_metadata">Tidak dapat menyahsulit, ketik untuk mendapatkan pilihan</string>
     <string name="fail_to_load_dialog_negative_button">Hantar teks dengan SIM peranti</string>
     <string name="fail_to_load_dialog_positive_button">Cuba lagi</string>
@@ -734,6 +764,7 @@ Penukaran tetapan ini tidak melibatkan mesej yang disulitkan secara menyeluruh y
     <string name="failed_message_content_description">Mesej gagal. Ketik untuk mencuba semula.</string>
     <string name="failed_qr_pairing_dialog_message">Maaf, kesilapan telah berlaku. Cuba lagi dalam beberapa minit.</string>
     <string name="failed_qr_pairing_dialog_positive_button_text">OK</string>
+    <string name="failed_to_select_attachment_from_system_picker">Gagal memilih lampiran ini</string>
     <string name="fast_track_negative_button_text">Tidak perlu</string>
     <string name="fast_track_popup_accepted_snack_bar_text">Menyediakan ciri sembang. Kami akan memberitahu anda setelah selesai nanti.</string>
     <string name="fast_track_popup_declined_snack_bar_text">Anda boleh menghidupkan ciri sembang pada bila-bila masa dalam Tetapan.</string>
@@ -799,6 +830,9 @@ Penukaran tetapan ini tidak melibatkan mesej yang disulitkan secara menyeluruh y
     <string name="fi_settings_download_over_wifi_title">Segerakkan media sahaja melalui Wi-Fi</string>
     <string name="fi_settings_opt_out_failed">Tidak dapat menghentikan penyegerakan &amp; log keluar sekarang. Cuba lagi nanti.</string>
     <string name="fi_settings_opt_out_in_progress">Menghentikan penyegerakan dan log keluar</string>
+    <string name="fi_settings_redirect_button">Urus sandaran</string>
+    <string name="fi_settings_redirect_summary">Temukan tetapan tersebut di bawah menu akaun</string>
+    <string name="fi_settings_redirect_title">Tetapan sandaran &amp; segerakan telah dialihkan</string>
     <string name="fi_settings_sync_preference_backup_in_progress">Penyandaran sedang berlangsung: %1$d%%</string>
     <string name="fi_settings_sync_preference_restore_in_progress">Pemulihan sedang berlangsung: %1$d%%</string>
     <string name="fi_settings_sync_preference_summary">Mesej, panggilan &amp; mel suara kekal terkini merentas skrin</string>
@@ -816,6 +850,7 @@ Penukaran tetapan ini tidak melibatkan mesej yang disulitkan secara menyeluruh y
     <string name="file_transfer_via_sms_other">Saya telah berkongsi fail dengan anda</string>
     <string name="file_transfer_via_sms_video">Saya telah berkongsi video dengan anda</string>
     <string name="files_shortcut_title">Fail</string>
+    <string name="flip_camera_button_label">Balikkan Kamera</string>
     <string name="floating_toolbar_close_overflow_description">Tutup limpahan</string>
     <string name="floating_toolbar_open_overflow_description">Lagi pilihan</string>
     <string name="foreground_service_notification_generic_text">Messages sedang melakukan kerja di latar belakang</string>
@@ -829,12 +864,27 @@ Penukaran tetapan ini tidak melibatkan mesej yang disulitkan secara menyeluruh y
     <string name="full_banner_expand_chip_description">Butang kembangkan cip</string>
     <string name="full_screen_gallery_action_attach">Tambah</string>
     <string name="fullscreen_button_description">Buka skrin penuh?</string>
+    <string name="gaia_auth_failure_dialog_body">Sesetengah ciri yang dikuasakan oleh Google Account anda tidak boleh digunakan sehingga anda log masuk</string>
+    <string name="gaia_auth_failure_dialog_title">Untuk mengesahkan identiti anda, log masuk sekali lagi</string>
+    <string name="gallery_google_photos_option_tray_button_add">Tambah</string>
+    <string name="gallery_google_photos_option_tray_button_always">Sentiasa</string>
+    <string name="gallery_google_photos_option_tray_button_cancel">Batal</string>
+    <string name="gallery_google_photos_option_tray_button_just_once">Sekali sahaja</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_image">Imej berkejelasan rendah</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_unknown">Media berkualiti rendah</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_video">Video berkualiti rendah</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_image">Imej</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_unknown">Media</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_video">Video</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_body">Kejelasan tajam. Urus pautan yang dikongsi dalam Google Photos.</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_learn_more">Ketahui lebih lanjut</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_title">Pautan Google Photos</string>
+    <string name="gallery_item_content_description_selected_state">Nyahpilih %1$s ini yang terletak pada kedudukan %2$s dengan dua ketikan</string>
+    <string name="gallery_item_content_description_unselected_state">Pilih %1$s ini yang diambil pada %2$s dengan mengetik dua kali</string>
     <string name="general_settings">Umum</string>
     <string name="general_settings_activity_title">Tetapan umum</string>
     <string name="general_settings_title_m2">Pilihan</string>
     <string name="generic_issue_text">Lain-lain</string>
-    <string name="get_messenger_notification_body">Baca dan hantar mesej teks daripada jam tangan atau telefon anda</string>
-    <string name="get_messenger_notification_header">Dapatkan Messages</string>
     <string name="get_sticker_packs_error_msg">Gagal memuatkan pelekat.</string>
     <string name="gif_screen_no_result">Tidak menemukan padanan. Semak carian anda, kemudian cuba lagi.</string>
     <string name="gif_screen_title">GIF</string>
@@ -842,10 +892,23 @@ Penukaran tetapan ini tidak melibatkan mesej yang disulitkan secara menyeluruh y
     <string name="gif_search_hint">Cari GIF</string>
     <string name="gifs_shortcut_title">GIF</string>
     <string name="go_to_top">Lihat yang terbaharu</string>
-    <string name="google_account_pref_title">Akaun Google</string>
     <string name="google_assistant_verification_channel_name">Pengesah Assistant</string>
     <string name="google_assistant_verification_notification_title">Google Assistant menghantar mesej</string>
     <string name="google_fi_text">Google Fi</string>
+    <string name="google_photos_onboarding_close_button_description">Tutup kad Google Photos</string>
+    <string name="google_photos_onboarding_ineligible_title">Log masuk ke Google Photos untuk mendapatkan video berkejelasan tajam</string>
+    <string name="google_photos_onboarding_ineligible_title_photos_and_videos">Log masuk ke Google Photos untuk mendapatkan foto &amp; video berkejelasan tajam</string>
+    <string name="google_photos_onboarding_learn_more">Ketahui lebih lanjut</string>
+    <string name="google_photos_onboarding_next">Seterusnya</string>
+    <string name="google_photos_onboarding_ok">OK</string>
+    <string name="google_photos_onboarding_signed_in_title_photos_and_videos">Log masuk untuk menghantar foto &amp; video berkejelasan tajam</string>
+    <string name="google_photos_onboarding_signed_out_title">Log masuk untuk menghantar video berkejelasan tajam</string>
+    <string name="google_photos_onboarding_text_body">Kekalkan kejelasan video apabila anda menghantar pautan Google Photos dalam perbualan MMS</string>
+    <string name="google_photos_onboarding_text_body_photos_and_videos_xms">Kekalkan kejelasan media yang tajam apabila anda menghantar pautan Google Photos dalam perbualan MMS</string>
+    <string name="google_photos_onboarding_title">Kongsi video sebagaimana video itu harus ditonton</string>
+    <string name="google_photos_onboarding_title_photos_and_videos">Kongsi foto &amp; video sebagaimana media itu harus dilihat</string>
+    <string name="google_photos_option_tray">Log masuk untuk menghantar video yang lebih tajam</string>
+    <string name="google_photos_option_tray_photos_and_videos">Log masuk untuk menghantar foto &amp; video berkejelasan tajam</string>
     <string name="google_play_protect_title">Google Play Protect</string>
     <string name="google_tos_chat_features_tooltip">"Lihat apabila seseorang sedang menaip, dapatkan resit baca dan hantar mesej, fail &amp; foto peleraian tinggi dengan ciri sembang melalui Perkhidmatan Komunikasi Kaya (RCS). Ciri ini menggunakan data untuk menghantar mesej.
 
@@ -859,8 +922,9 @@ Anda boleh mematikan ciri tersebut dalam tetapan. %1$s"</string>
 
 Anda boleh menukar SIM panggilan lalai dalam tetapan Sistem. %1$s"</string>
     <string name="google_tos_multisim_view_accessibility_description">Ketahui lebih lanjut</string>
+    <string name="google_tos_negative_link_text">Tidak perlu</string>
     <string name="group_conversation_title_everyone_else_left">Saya</string>
-    <string name="group_limit_alert_dialog_message">{max_group_size_including_self,plural, =1{Tidak boleh melebihi # orang}other{Tidak boleh melebihi # orang}}</string>
+    <string name="group_limit_alert_dialog_message">{max_group_size_excluding_self,plural, =1{Tidak boleh melebihi # orang lain}other{Tidak boleh melebihi # orang lain}}</string>
     <string name="group_mms_pref_title">Pemesejan kumpulan</string>
     <string name="group_name_edit_text_label">Nama kumpulan</string>
     <string name="guest_cloud_preview">PRATONTON</string>
@@ -870,14 +934,19 @@ Anda boleh menukar SIM panggilan lalai dalam tetapan Sistem. %1$s"</string>
     <string name="happy_birthday_no_name">Ucap Selamat Hari Lahir kepada mereka!</string>
     <string name="hidden_sender_address">Alamat pengirim tersembunyi</string>
     <string name="highlighter">Penyerlah</string>
+    <string name="how_it_works_link_text">Caranya</string>
+    <string name="hqms_always_send_image_as_link_pref_title">Sentiasa hantar imej melalui pautan dalam teks (SMS/MMS)</string>
+    <string name="hqms_always_send_video_as_link_pref_title">Sentiasa hantar video melalui pautan dalam teks (SMS/MMS)</string>
+    <string name="hqms_settings_gaia_card_text">Urus pautan dalam Google Photos</string>
+    <string name="hqms_settings_info_text">Mesej dimuat naik kepada Google Photos, yang membolehkan anda mengurus perkongsian pautan video. %1$s</string>
+    <string name="hqms_settings_sign_in_prompt_text">Log masuk ke akaun Google anda untuk menggunakan ciri ini</string>
     <string name="hqms_settings_summary">Kongsi video dengan kejelasan yang tajam dalam teks (SMS/MMS)</string>
     <string name="hqms_settings_title">Google Photos</string>
     <string name="identity_verification_notification_text">Messages sedang mengesahkan mesej masuk</string>
     <string name="ignore">Abaikan</string>
     <string name="image_attachment_content_description">Lampiran imej</string>
     <string name="image_compress_info">Penerima akan melihat kualiti imej yang lebih rendah disebabkan had MMS</string>
-    <string name="imei_format_dropdown_hint">Setkan Format IMEI</string>
-    <string name="imsi_format_dropdown_hint">Setkan Format IMSI</string>
+    <string name="image_format_type">imej</string>
     <string name="in_conversation_blocked_contact_text">Anda mungkin tidak dapat melihat semua mesej kerana perbualan ini mengandungi kenalan yang disekat.</string>
     <string name="in_conversation_notify_new_message_action">Paparan</string>
     <string name="in_conversation_notify_new_message_text">Mesej baharu</string>
@@ -887,7 +956,7 @@ Anda boleh menukar SIM panggilan lalai dalam tetapan Sistem. %1$s"</string>
     <string name="incoming_message_for_secondary_user_notification_title">Mesej baharu</string>
     <string name="incoming_message_foreground_notification_text">Messages sedang memproses mesej masuk</string>
     <string name="incoming_mms_disabled_by_company_pref_summary">Syarikat anda tidak membenarkan mesej MMS masuk</string>
-    <string name="indeterminate">Berkecuali</string>
+    <string name="indeterminate">Sebahagiannya ditandai</string>
     <string name="info_and_options_activity_business_tab_list_header">Perniagaan</string>
     <string name="info_and_options_activity_info_tab_content_description">Maklumat</string>
     <string name="info_and_options_activity_info_tab_title">Maklumat</string>
@@ -898,6 +967,9 @@ Anda boleh menukar SIM panggilan lalai dalam tetapan Sistem. %1$s"</string>
     <string name="info_and_options_view_terms_of_service">Lihat Syarat Perkhidmatan</string>
     <string name="inline_playback_error">Tidak dapat memainkan video ini dalam Messages</string>
     <string name="inline_playback_pause_content_description">Jeda video</string>
+    <string name="install_photos_app">Dapatkan Google Photos</string>
+    <string name="install_photos_app_title">Untuk meneruskan tindakan, dapatkan apl Google Photos</string>
+    <string name="install_photos_app_to_continue">Pasang apl untuk menghantar video kejelasan tajam</string>
     <string name="invalid_qr_code_dialog_message">Untuk log masuk, imbas kod QR di %s</string>
     <string name="invalid_qr_code_dialog_positive_button_text">OK</string>
     <string name="invalid_qr_code_dialog_title">Kod salah</string>
@@ -911,14 +983,12 @@ Anda boleh menukar SIM panggilan lalai dalam tetapan Sistem. %1$s"</string>
     <string name="leave_confirmation_text">Adakah anda pasti mahu berhenti menerima mesej daripada kumpulan ini?</string>
     <string name="leave_confirmation_title">Tinggalkan Kumpulan Secara Kekal</string>
     <string name="libraries_material_featurehighlight_dismiss">Ketepikan</string>
-    <string name="link_preview_enabled_pref_summary">Tunjukkan pratonton dalam mesej</string>
+    <string name="lighter_account_sign_out_snackbar_text">Log masuk untuk melihat perbualan perniagaan anda</string>
+    <string name="lighter_block_report_spam_body">Nama perniagaan dan perbualan anda dengan perniagaan ini dihantar kepada Google (caj pembawa mungkin dikenakan).</string>
     <string name="link_preview_enabled_pref_summary_off">Mati</string>
     <string name="link_preview_failed">Pratonton tidak tersedia</string>
     <string name="link_preview_google_photos_display_name">Google Photos</string>
-    <string name="link_preview_preference_info_text">Google mendapat kandungan pratonton daripada tapak yang dipaut. Hanya pautan daripada pengirim dikenali yang disertakan dengan pratonton. %1$s</string>
-    <string name="link_preview_preference_title">Pratonton pautan automatik</string>
     <string name="link_preview_tap_to_load">Ketik untuk memuatkan pratonton</string>
-    <string name="link_preview_wifi_only_pref_summary">Muat turun pratonton hanya menggunakan Wi-Fi</string>
     <string name="link_to_settings"><u>Urus dalam Tetapan</u></string>
     <string name="listify_many">%1$s dan %2$d yang lain</string>
     <string name="listify_one">%s</string>
@@ -965,13 +1035,13 @@ Maklumat yang disyorkan boleh dikongsi, jika mahu, dan tidak termasuk kandungan 
     <string name="manual_msisdn_skipped_snack_bar_text">Ciri sembang dipertingkat belum didayakan. Dayakan pada bila-bila masa dalam tetapan.</string>
     <string name="manual_msisdn_skipped_snack_bar_text_b155475148">Messages akan cuba mengesahkan nombor anda dengan pembawa. Urus dalam Tetapan.</string>
     <string name="manual_msisdn_verify_now_snack_bar_text_b155475148">Messages akan cuba mengesahkan nombor anda dengan pembawa. Urus dalam Tetapan.</string>
-    <string name="manually_override_rcs_flags">Batalkan Bendera RCS secara manual</string>
     <string name="mark_all_messages_as_read_confirmation">Semua mesej ditandai sebagai dibaca</string>
     <string name="mdd_download_notification_channel_name">Saluran Pemberitahuan Muat Turun Data</string>
     <string name="mdd_foreground_service_notification_title">Memuat turun</string>
     <string name="mdd_notification_action_cancel">Batal</string>
     <string name="mdd_notification_download_failed">Muat turun gagal</string>
     <string name="mdd_notification_download_paused">Menunggu sambungan rangkaian</string>
+    <string name="mdd_notification_download_paused_wifi">Tunggu sambungan Wi-Fi</string>
     <string name="media_compress_info">Penerima akan melihat kualiti media yang lebih rendah disebabkan had MMS</string>
     <string name="media_compress_tooltip_info_icon_text">maklumat</string>
     <string name="media_viewer_close_button_description">Tutup</string>
@@ -1070,6 +1140,8 @@ Maklumat yang disyorkan boleh dikongsi, jika mahu, dan tidak termasuk kandungan 
     <string name="message_type_vcard">Kad kenalan</string>
     <string name="message_type_video">Video</string>
     <string name="message_video_content_description">Video</string>
+    <string name="message_with_deleted_snippet_talk_back_announcement">%1$s sebagai balasan kepada mesej yang dipadamkan</string>
+    <string name="message_with_reply_snippet_talk_back_announcement">%1$s sebagai balasan kepada %2$s daripada %3$s</string>
     <string name="messages_for_web_preference_summary">Lawati %1$s</string>
     <string name="messages_for_web_preference_title">Hantar teks, buat panggilan &amp; semak mel suara di web</string>
     <string name="messages_status_feedback_data_description">"Semua maklumat yang disyorkan membantu dalam mendedahkan masalah yang tersembunyi, punca-punca masalah, cara masalah ini bersangkut-paut dan tempat untuk menyelesaikan masalah.
@@ -1122,11 +1194,15 @@ Anda boleh membalas kod pendek nombor sahaja tetapi bukan kod yang mengandungi h
     <string name="mms_phone_number_pref_title">Nombor telefon</string>
     <string name="mms_text">MMS</string>
     <string name="mtrl_badge_numberless_content_description">Pemberitahuan baharu</string>
+    <string name="mtrl_checkbox_state_description_checked">Checked</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Indeterminate</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Not checked</string>
     <string name="mtrl_chip_close_icon_content_description">Alih keluar %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Lebih daripada %1$d pemberitahuan baharu</string>
     <string name="mtrl_picker_a11y_next_month">Tukar kepada bulan seterusnya</string>
     <string name="mtrl_picker_a11y_prev_month">Tukar kepada bulan sebelumnya</string>
     <string name="mtrl_picker_announce_current_selection">Pilihan semasa: %1$s</string>
+    <string name="mtrl_picker_cancel">Batal</string>
     <string name="mtrl_picker_confirm">OK</string>
     <string name="mtrl_picker_day_of_week_column_header">Lajur hari: %1$s</string>
     <string name="mtrl_picker_navigate_to_year_description">Navigasi ke tahun %1$s</string>
@@ -1138,11 +1214,24 @@ Anda boleh membalas kod pendek nombor sahaja tetapi bukan kod yang mengandungi h
     <string name="multimedia_message">Mesej multimedia</string>
     <string name="muted_conversation_content_description">Pemberitahuan dilumpuhkan.</string>
     <string name="nav_app_bar_navigate_up_description">Navigasi ke atas</string>
+    <string name="nav_archived_messages_folder_title">Diarkibkan</string>
+    <string name="nav_choose_theme_title">Pilih tema</string>
+    <string name="nav_choose_theme_title_disable_dark_mode">Lumpuhkan mod gelap</string>
+    <string name="nav_choose_theme_title_enable_dark_mode">Dayakan mod gelap</string>
+    <string name="nav_device_pairing_title">Penggandingan peranti</string>
+    <string name="nav_mark_all_as_read_title">Tandai semua sebagai dibaca</string>
+    <string name="nav_messages_folder_title">Mesej</string>
+    <string name="nav_spam_and_blocked_messages_folder_title">Spam &amp; disekat</string>
+    <string name="nav_starred_folder_title">Dibintangi</string>
     <string name="navigate_up_button_content_description">Navigasi ke atas</string>
     <string name="new_message_label">{count,plural, =1{1 mesej baharu}other{# mesej baharu}}</string>
     <string name="new_pill_label">Baharu</string>
     <string name="new_rich_cards_preference_info_text">Google mengimbas maklumat terpilih (seperti tempat atau pautan) daripada sejarah sembang anda tanpa mengenal pasti diri anda untuk membuat semua pratonton dan mengecam kandungan berbahaya. %1$s</string>
-    <string name="no_google_account">Tiada</string>
+    <string name="no_business_name_fallback">perniagaan ini</string>
+    <string name="no_connection">Tiada sambungan</string>
+    <string name="no_media_button">Lihat pilihan</string>
+    <string name="no_media_caption">Cuba sumber media atau profil yang lain</string>
+    <string name="no_media_description">Tiada media yang disimpan pada peranti ini untuk profil ini</string>
     <string name="no_reply_pinned_message_text">Pengirim tidak menyokong balasan</string>
     <string name="no_sim_message">Tiada mesej pada SIM</string>
     <string name="not_selected">Tidak dipilih</string>
@@ -1198,31 +1287,51 @@ Anda boleh membalas kod pendek nombor sahaja tetapi bukan kod yang mengandungi h
     <string name="nudge_learn_more_info_text">Lagi tentang sigung</string>
     <string name="nudge_reply_enabled_pref_summary">Mesej yang mungkin memerlukan balasan anda akan dialihkan ke atas.</string>
     <string name="nudge_reply_enabled_pref_title">Cadangkan peringatan balas</string>
+    <string name="nudge_settings_page_description">Tunjukkan balasan dan peringatan hari lahir</string>
     <string name="nudge_settings_page_title">Sigung</string>
     <string name="numeric_text_keyboard_toggle_button_content_description">Beralih antara memasukkan teks dan nombor</string>
     <string name="off">Mati</string>
     <string name="og_a11y_close">Tutup</string>
     <string name="og_account_and_settings">Akaun dan tetapan.</string>
+    <string name="og_account_particle_disc_no_accounts_available_a11y">Log masuk</string>
     <string name="og_add_another_account">Tambah akaun lain</string>
+    <string name="og_app_settings">Tetapan %1$s</string>
     <string name="og_choose_an_account_title">Pilih akaun</string>
     <string name="og_collapse_account_list_a11y">Runtuhkan senarai akaun.</string>
     <string name="og_continue">Teruskan</string>
     <string name="og_continue_as">Teruskan sebagai %1$s</string>
     <string name="og_expand_account_list_a11y">Kembangkan senarai akaun.</string>
+    <string name="og_get_storage_action">Dapatkan storan</string>
+    <string name="og_get_storage_action_short">Beli lagi</string>
     <string name="og_google_one_account_a11y">Akaun Google One.</string>
+    <string name="og_help_feedback">Bantuan &amp; maklum balas</string>
     <string name="og_loading_a11y">Memuatkan</string>
     <string name="og_manage_accounts">Urus akaun pada peranti ini</string>
+    <string name="og_manage_storage_action">Urus storan</string>
+    <string name="og_manage_storage_action_short">Urus</string>
+    <string name="og_minimized_storage_card_title">Storan digunakan: %1$s daripada %2$s GB</string>
+    <string name="og_more_options_action">Lagi pilihan</string>
+    <string name="og_more_options_action_short">Pilihan</string>
     <string name="og_my_account_desc_long_length">Urus Google Account anda</string>
     <string name="og_my_account_desc_meduim_length">Akaun Google</string>
     <string name="og_my_account_desc_short_length">Akaun</string>
+    <string name="og_privacy_advisor">Data anda dalam %1$s</string>
     <string name="og_privacy_policy">Dasar Privasi</string>
     <string name="og_selected_account_a11y">%1$s dipilih.</string>
     <string name="og_sign_in_">Log Masuk</string>
     <string name="og_signed_in_as_account">Dilog masuk sebagai %1$s</string>
+    <string name="og_storage_card_almost_full_a11y_label">Storan akaun anda hampir penuh</string>
+    <string name="og_storage_card_full_a11y_label">Storan akaun anda sudah penuh</string>
+    <string name="og_storage_card_title">Storan akaun</string>
+    <string name="og_storage_card_title_almost_full">%1$s storan digunakan</string>
+    <string name="og_storage_card_title_full">Kehabisan storan</string>
+    <string name="og_storage_progress_subtitle">%1$s GB daripada %2$s GB digunakan</string>
     <string name="og_terms_of_service">Syarat Perkhidmatan</string>
     <string name="og_use_account_a11y_no_period">Gunakan %1$s</string>
+    <string name="og_use_without_an_account">Gunakan tanpa akaun</string>
     <string name="on">Hidup</string>
     <string name="onboarding_google_tos_with_sms_charges_and_learn_more">Untuk menghidupkan ciri sembang daripada Google, anda bersetuju menerima %1$s dan %2$s. Sekali-sekala, Google akan mengesahkan nombor anda dengan bertukar-tukar maklumat peranti anda dengan pembawa anda (Caj SMS mungkin dikenakan). %3$s.</string>
+    <string name="open_full_screen_camera_button_label">Buka Kamera Skrin Penuh</string>
     <string name="open_video_trimmer_dialog_negative">Batal</string>
     <string name="open_video_trimmer_dialog_positive">Pangkas</string>
     <string name="organization">Organisasi</string>
@@ -1236,8 +1345,6 @@ Anda boleh membalas kod pendek nombor sahaja tetapi bukan kod yang mengandungi h
     <string name="otp_auto_deletion_promo_banner_positive_button_text">Teruskan</string>
     <string name="otp_auto_deletion_promo_banner_title_text">Autopadam OTP selepas 24 jam?</string>
     <string name="otp_copied_to_clipboard">Kod disalin</string>
-    <string name="otp_pattern_dropdown_hint">Setkan Corak OTP</string>
-    <string name="otp_port_dropdown_hint">Setkan Port OTP</string>
     <string name="outgoing_message_foreground_notification_text">Messages sedang memproses mesej keluar</string>
     <string name="outgoing_mms_disabled_by_carrier_pref_summary">Pembawa anda tidak membenarkan mesej MMS keluar</string>
     <string name="outgoing_mms_disabled_by_company_pref_summary">Syarikat anda tidak membenarkan mesej MMS keluar</string>
@@ -1263,6 +1370,7 @@ Anda boleh membalas kod pendek nombor sahaja tetapi bukan kod yang mengandungi h
     <string name="paired_desktops_last_connection_time">Terakhir aktif: %s</string>
     <string name="paired_desktops_last_connection_time_unknown">tidak diketahui</string>
     <string name="participant_joined_group">%s menyertai kumpulan ini</string>
+    <string name="participant_joined_with_learn_more">%1$s menyertai kumpulan ini. %2$s</string>
     <string name="participant_left_group">%s meninggalkan kumpulan ini</string>
     <string name="participant_list_add">Tambah orang</string>
     <string name="participant_list_count_title_icu">{count,plural, =0{0 orang lain}=1{1 orang lain}other{# orang lain}}</string>
@@ -1282,8 +1390,9 @@ Anda boleh membalas kod pendek nombor sahaja tetapi bukan kod yang mengandungi h
     <string name="phone_number_input_body_for_mo_text">Atau, langkau untuk mendapatkan ciri sembang kemudian dan Messages akan cuba mengesahkan nombor anda dengan pembawa anda</string>
     <string name="phone_number_input_body_text">Untuk memastikan anda menerima ciri sembang, Messages akan mengesahkan nombor anda</string>
     <string name="phone_number_input_hint">Nombor telefon anda</string>
+    <string name="phone_number_input_invalid_number_text">Nombor telefon tidak sah</string>
     <string name="phone_number_input_negative_button_for_mo_text">Langkau buat masa ini</string>
-    <string name="phone_number_input_negative_button_for_mt_text">Ingatkan kemudian</string>
+    <string name="phone_number_input_negative_button_for_mt_text">Ingatkan saya nanti</string>
     <string name="phone_number_input_positive_button_text">Tambah nombor</string>
     <string name="phone_number_input_streamlined_body_for_mo_text">Kongsi foto, video dan pelbagai lagi melalui Wi-Fi atau data. Untuk mendapatkan ciri sembang dengan lebih pantas, tambahkan nombor anda sekarang. Anda juga boleh melangkau langkah ini dan membiarkan Messages cuba menemukan dan mengesahkan nombor anda.</string>
     <string name="phone_number_input_streamlined_body_text">Kongsi foto, video dan pelbagai lagi melalui Wi-Fi atau data. Untuk mendapatkan ciri sembang, tambahkan nombor anda sekarang.</string>
@@ -1298,10 +1407,25 @@ Anda boleh membalas kod pendek nombor sahaja tetapi bukan kod yang mengandungi h
     <string name="phone_number_input_title_text">Untuk mendapatkan ciri sembang dengan lebih pantas, tambahkan nombor anda sekarang</string>
     <string name="phone_number_input_tos_reminder_text">Sebelum ini, anda bersetuju menerima %1$s ciri sembang.</string>
     <string name="phone_number_input_tos_text">Syarat Perkhidmatan</string>
+    <string name="phone_number_promo_banner_body_text">Untuk menghantar video kejelasan tajam, reaksi beranimasi dan pelbagai lagi melalui Wi-Fi atau data mudah alih, sahkan nombor telefon anda</string>
+    <string name="phone_number_promo_banner_negative_button_text">Ketepikan</string>
+    <string name="phone_number_promo_banner_positive_button_text">Seterusnya</string>
+    <string name="phone_number_promo_banner_title_text">Langkah seterusnya untuk mendapatkan ciri Messages yang lebih baik</string>
+    <string name="phone_number_promo_body_text">Mulakan sekarang dengan nombor telefon anda yang disahkan. Urus ciri sembang pada bila-bila masa dalam tetapan.</string>
+    <string name="phone_number_promo_body_text_mo">Mulakan sekarang dengan nombor telefon anda yang disahkan. Atau, langkau untuk mendapatkan ciri sembang kemudian dan Messages akan cuba mengesahkan nombor anda untuk anda.</string>
+    <string name="phone_number_promo_negative_button_text">Ingatkan saya nanti</string>
+    <string name="phone_number_promo_negative_button_text_mo">Langkau buat masa ini</string>
+    <string name="phone_number_promo_positive_button_text">Dapatkan ciri sembang</string>
+    <string name="phone_number_promo_title_text">Bersedia untuk berkongsi foto, video &amp; pelbagai lagi melalui Wi-Fi &amp; data?</string>
+    <string name="phone_number_ui_accepted_snackbar_text">Anda akan dimaklumkan apabila ciri sembang tersedia</string>
+    <string name="phone_number_ui_dismissed_snackbar_action_text">Tetapan</string>
+    <string name="phone_number_ui_dismissed_snackbar_text">Untuk mendapatkan ciri sembang sekarang, tambah nombor telefon anda atau urus dalam tetapan</string>
     <string name="photo_taken">Foto diambil</string>
+    <string name="photos_app_installation_required">Untuk menghantar video kejelasan tajam, dapatkan apl Google Photos</string>
+    <string name="photos_app_onboarding_required">Untuk menghantar video kejelasan tajam, benarkan akses Google Photos</string>
+    <string name="photos_app_sharing_unavailable_try_again_later">Pautan video kejelasan tajam tidak tersedia untuk sementara waktu. Video kejelasan rendah sedia untuk dihantar.</string>
+    <string name="photos_app_sign_in_required">Untuk menghantar video kejelasan tajam, log masuk ke Google Photos</string>
     <string name="picker_disambiguation_title">Pilih destinasi</string>
-    <string name="pin_limit_message">Anda boleh menyemat hingga %1$d perbualan</string>
-    <string name="pin_success_message">%1$d daripada %2$d perbualan disemat</string>
     <string name="pinch_zoom_pref_title">Cubit untuk mengezum teks perbualan</string>
     <string name="places_autocomplete_clear_button">Kosongkan carian</string>
     <string name="places_autocomplete_label">Pilih tempat</string>
@@ -1321,7 +1445,7 @@ Anda boleh membalas kod pendek nombor sahaja tetapi bukan kod yang mengandungi h
     <string name="posted_this_year">%1$s%2$s%3$s</string>
     <string name="posted_yesterday">Semalam%1$s%2$s</string>
     <string name="preference_copied">\"%1$s\" disalin ke papan keratan.</string>
-    <string name="preferences_license_title">Lesen sumber terbuka</string>
+    <string name="preferences_license_title">Notis Pihak Ketiga</string>
     <string name="premium_sms_banner_body">Untuk menghantar ke %s dan nombor SMS Premium yang lain, hidupkan pilihan ini dalam Tetapan.</string>
     <string name="premium_sms_banner_body_saved_contact">Untuk menghantar kepada %1$s (%2$s) dan nombor SMS Premium yang lain, hidupkan pilihan ini dalam Tetapan.</string>
     <string name="premium_sms_banner_description">@string/banner_description</string>
@@ -1352,10 +1476,11 @@ Maklumat tentang mesej dan perbualan anda termasuk nombor telefon dan e-mel peng
 Maklumat ini membantu kami mengesahkan andaian dan mengecam faktor yang menyumbang kepada isu ini untuk memahami isu dengan lebih pantas dan lebih cekap."</string>
     <string name="problematic_message_feedback_data_rationale_title">Cara maklumat tentang mesej &amp; perbualan anda dapat membantu</string>
     <string name="promotion_content_description">Mesej ini dikategorikan sebagai tawaran</string>
+    <string name="prompt_button_action_not_now">Bukan sekarang</string>
+    <string name="prompt_button_action_sign_in">Log masuk</string>
     <string name="proxy_screen_clear_search">Kosongkan carian</string>
     <string name="proxy_screen_search">Cari</string>
     <string name="qr_action_bar_device_pairing_title">Penggandingan peranti</string>
-    <string name="qr_action_bar_title">Messages untuk web</string>
     <string name="qr_code_scanner_hint_text">Imbas kod QR yang ditunjukkan di &lt;br/><b>%s</b></string>
     <string name="qr_code_scanner_preference_button">Pengimbas kod QR</string>
     <string name="qr_delete_all_paired_desktops_button_text">Nyahgandingkan semua peranti</string>
@@ -1370,6 +1495,8 @@ Maklumat ini membantu kami mengesahkan andaian dan mengecam faktor yang menyumba
     <string name="qr_welcome_privacy">Dasar Privasi</string>
     <string name="qr_welcome_terms_of_service">Syarat Perkhidmatan</string>
     <string name="rbm_block_confirmation_message_spam_folder">Anda tidak akan diberitahu apabila menerima mesej daripada %1$s lagi. Perbualan ini akan dialihkan ke “Spam &amp; disekat”. %2$s</string>
+    <string name="rbm_block_dialog_body">Anda tidak akan menerima mesej daripada pengirim ini. Perbualan ini akan dialihkan kepada “Spam &amp; disekat” untuk membolehkan anda menyahsekat perbualan ini pada bila-bila masa.</string>
+    <string name="rbm_block_dialog_positive_button_label">Sekat</string>
     <string name="rbm_business_logo_icon_content_description">Ikon Logo Perniagaan</string>
     <string name="rbm_platform_generalized_verifier_title">Disahkan oleh %s</string>
     <string name="rbm_platform_verified_by_google">Disahkan oleh Google</string>
@@ -1389,6 +1516,7 @@ Maklumat ini membantu kami mengesahkan andaian dan mengecam faktor yang menyumba
     <string name="rcs_learn_more_title">%1$s tentang ciri sembang</string>
     <string name="rcs_learn_more_title_with_no_link">Ketahui lebih lanjut tentang ciri sembang</string>
     <string name="rcs_message">Mesej Perkhidmatan Komunikasi Kaya</string>
+    <string name="rcs_message_failed_recipient_lost_encryption_content_description">Tidak dapat dihantar, ketik untuk melihat pilihan</string>
     <string name="rcs_message_failed_recipient_lost_rcs_content_description">Tidak dapat dihantar, ketik untuk mendapatkan pilihan</string>
     <string name="rcs_mobile_data_auto_download_carrier_format_entry">Lalai (%1$s)</string>
     <string name="rcs_mobile_data_auto_download_limit_disable_entry_text">Lumpuhkan</string>
@@ -1471,11 +1599,12 @@ Maklumat ini membantu kami mengesahkan andaian dan mengecam faktor yang menyumba
     <string name="reaction_surprised_content_description">Muka dengan mulut ternganga</string>
     <string name="reactions_promo_announcement">Tekan lama untuk memberikan reaksi</string>
     <string name="reactions_promo_text">Sentuh &amp; tahan untuk memberikan reaksi</string>
-    <string name="read_external_storage_permission_description">Untuk melihat kandungan galeri anda secara langsung dari sini, akses kepada storan telefon anda diperlukan.</string>
+    <string name="read_media_storage_permission_description">Untuk melihat kandungan galeri anda di sini, akses kepada media storan telefon anda diperlukan.</string>
     <string name="received_label">Diterima:</string>
-    <string name="recipient_hint">Taipkan nama, nombor telefon atau e-mel.</string>
+    <string name="recipient_hint">Taip nama, nombor telefon atau e-mel.</string>
     <string name="recipient_label">Kepada</string>
     <string name="recipient_offline_description">Menunggu sehingga %s berada dalam talian…</string>
+    <string name="reminder_badge_content_description">Lencana peringatan</string>
     <string name="reminder_datetime_picker_dialog_delete_button">Padam</string>
     <string name="reminder_datetime_picker_dialog_menu_title_add">Tetapkan peringatan</string>
     <string name="reminder_datetime_picker_dialog_menu_title_update">Kemas kini peringatan</string>
@@ -1496,7 +1625,7 @@ Maklumat ini membantu kami mengesahkan andaian dan mengecam faktor yang menyumba
     <string name="reminder_suggestions_tooltip_text">Ketik dan pilih masa untuk dibuat susulan kemudian. Matikan cadangan dalam &lt;a href>Tetapan&lt;/a></string>
     <string name="reminder_suggestions_tooltip_title_text">Tetapkan peringatan</string>
     <string name="reminders_banner_body">%1$s: %2$s</string>
-    <string name="reminders_banner_description">@string/banner_description</string>
+    <string name="reminders_banner_description">Reminder conversation banner</string>
     <string name="reminders_banner_done_button">Selesai</string>
     <string name="reminders_banner_remind_button">Ingatkan 1 jam</string>
     <string name="reminders_banner_self_sender_name">Anda</string>
@@ -1509,7 +1638,7 @@ Maklumat ini membantu kami mengesahkan andaian dan mengecam faktor yang menyumba
     <string name="remove_reaction_from_gif_rcs_fallback_text">Dialih keluar ‌%1$s‌ daripada GIF</string>
     <string name="remove_reaction_from_link_rcs_fallback_text">‌%1$s‌ dialih keluar daripada pautan</string>
     <string name="remove_reaction_from_photo_rcs_fallback_text">Dialih keluar ‌%1$s‌ daripada foto</string>
-    <string name="remove_reaction_from_text_message_rcs_fallback_text">Dialih keluar ‌%1$s‌ daripada \"%2$s\"</string>
+    <string name="remove_reaction_from_text_message_rcs_fallback_text">Dialih keluar ‌%1$s‌ daripada \" %2$s \"</string>
     <string name="remove_reaction_from_unknown_message_type_rcs_fallback_text">Dialih keluar ‌%1$s‌ daripada jenis mesej yang tidak diketahui</string>
     <string name="remove_reaction_from_video_rcs_fallback_text">Dialih keluar ‌%1$s‌ daripada video</string>
     <string name="remove_user_dialog_cancel">Batal</string>
@@ -1518,14 +1647,17 @@ Maklumat ini membantu kami mengesahkan andaian dan mengecam faktor yang menyumba
     <string name="rename_group_title_m2">Nama kumpulan</string>
     <string name="reply_activity_title">Balas</string>
     <string name="reply_button_label">Balas</string>
-    <string name="reply_icon_content_description">Balas mesej</string>
+    <string name="reply_icon_content_description">Balas</string>
     <string name="report_contact_title">Laporkan spam</string>
     <string name="report_failed_rcs_group_creation">Ralat telah berlaku dan sekurang-kurangnya satu peserta tidak ditambahkan.</string>
     <string name="report_group_spam_body_spam_folder">Nombor dan teks terbaharu ahli kumpulan yang lain akan dihantar kepada Google untuk semakan dan mungkin dihantar kepada pembawa anda juga (bayaran mungkin dikenakan). Perbualan ini akan kekal dalam “Spam &amp; disekat”, tanpa pemberitahuan. %1$s</string>
+    <string name="report_invalid_thread_id_issue_description">ID urutan tidak sah. Lihat log untuk mendapatkan butiran.</string>
     <string name="report_issue_action_text">Hantar maklum balas</string>
+    <string name="report_issue_description">Messages mengesan ralat secara automatik. Lihat log untuk mendapatkan butiran.</string>
     <string name="report_issue_notification_text">Messages mengesan ralat. Ketik untuk menghantar maklum balas.</string>
     <string name="report_not_spam_snackbar_message">%1$s dilaporkan sebagai bukan spam</string>
     <string name="report_person_delivered">%1$s Diterima: %2$s</string>
+    <string name="report_person_ftd">%1$s Gagal menyahsulit: %2$s</string>
     <string name="report_person_read">%1$s Dibaca: %2$s</string>
     <string name="report_person_sent">%s belum menerima mesej</string>
     <string name="report_receive_issue_notification_message">Android tidak dapat menerima mesej yang dihantar kepada anda. Ketik untuk menghantar maklum balas.</string>
@@ -1538,6 +1670,7 @@ Maklumat ini membantu kami mengesahkan andaian dan mengecam faktor yang menyumba
     <string name="report_spam_snackbar_message">%1$s dilaporkan sebagai spam</string>
     <string name="report_spam_toast_title">Spam dilaporkan</string>
     <string name="report_telephone_db_recreation_message">Masalah semasa mendapatkan kembali mesej. Ketik untuk menghantar maklum balas.</string>
+    <string name="report_thread_id_not_found_description">ID urutan tiada. Lihat log untuk mendapatkan butiran.</string>
     <string name="required_permissions_no_promptable_promo">Tukar kebenaran dalam tetapan apl peranti anda. Beri Messages akses kepada SMS, Telefon dan Kenalan.</string>
     <string name="required_permissions_no_promptable_title">Berikan Akses</string>
     <string name="required_permissions_promptable_promo">Untuk menyelesaikan penyediaan apl lalai anda, benarkan Messages melihat SMS, Telefon dan Kenalan anda</string>
@@ -1557,6 +1690,11 @@ Maklumat ini membantu kami mengesahkan andaian dan mengecam faktor yang menyumba
     <string name="samsung_setting_search_title">Tetapan Messages</string>
     <string name="save">Simpan</string>
     <string name="save_attachment">Simpan</string>
+    <string name="save_banner_body">Simpan hari lahir ini dalam apl kenalan anda dan Messages akan mengingatkan anda pada tahun hadapan</string>
+    <string name="save_banner_positive_button">Simpan hari lahir</string>
+    <string name="save_banner_title_name">Ingat hari lahir %1$s</string>
+    <string name="save_banner_title_no_name">Ingat hari lahir mereka</string>
+    <string name="save_birthday_banner_description">@string/banner_description</string>
     <string name="save_otp_confirm_button">Simpan OTP</string>
     <string name="save_otp_dialog_message">OTP ini akan disimpan sementara OTP anda yang lain akan terus dipadamkan secara automatik selepas 24 jam. Urus dalam tetapan.</string>
     <string name="save_otp_dialog_title">Simpan OTP ini?</string>
@@ -1575,6 +1713,7 @@ Maklumat ini membantu kami mengesahkan andaian dan mengecam faktor yang menyumba
     <string name="scheduled_send_announcement_scheduling_failed">Gagal menjadualkan mesej.</string>
     <string name="scheduled_send_announcement_scheduling_started">Menjadualkan mesej.</string>
     <string name="scheduled_send_announcement_scheduling_succeeded">Mesej dijadualkan.</string>
+    <string name="scheduled_send_badge_content_description">Lencana penghantaran berjadual</string>
     <string name="scheduled_send_compose_label_close_content_description">Alih keluar penjadualan.</string>
     <string name="scheduled_send_datetime_picker_subtitle">Untuk menghantar, pastikan telefon dihidupkan dan sambung kepada Wi-Fi atau data</string>
     <string name="scheduled_send_datetime_picker_title">Jadualkan penghantaran (%1$s)</string>
@@ -1602,6 +1741,7 @@ Maklumat ini membantu kami mengesahkan andaian dan mengecam faktor yang menyumba
     <string name="security_key_top_level_title">Sahkan penyulitan</string>
     <string name="see_gallery">Lihat galeri</string>
     <string name="selected">Dipilih</string>
+    <string name="selection_position_text">%1$d</string>
     <string name="self_left_group_conversation_failed">Gagal meninggalkan kumpulan, sila cuba sebentar lagi.</string>
     <string name="self_participant_reaction_name">Anda</string>
     <string name="self_person_name">Anda</string>
@@ -1651,7 +1791,6 @@ Nombor telefon anda digunakan hanya untuk mencari silap dan menyelesaikan masala
     <string name="sending_timeout_failure_dialog_title">Mesej tidak dihantar</string>
     <string name="sent_label">Dihantar:</string>
     <string name="set_message_priority_description">Tetapkan status segera</string>
-    <string name="set_rcs_flags">Tetapkan Bendera RCS</string>
     <string name="set_rcs_mobile_data_auto_download_limit_title">Automuat turun fail yang anda terima melalui data mudah alih</string>
     <string name="setting_fast_track_body_with_cost">Dengan meneruskan penggunaan, anda bersetuju menerima %1$s dan %2$s. Untuk penghantaran mesej berdasarkan nombor telefon, Google mungkin mengesahkan nombor anda sekali-sekala dengan bertukar-tukar maklumat peranti anda dengan pembawa anda atau melalui SMS (caj mungkin dikenakan). Anda boleh melumpuhkan ciri sembang daripada Tetapan. %3$s</string>
     <string name="settings_activity_title">Tetapan</string>
@@ -1674,6 +1813,13 @@ Nombor telefon anda digunakan hanya untuk mencari silap dan menyelesaikan masala
     <string name="shortcuts_screen_title">Pintasan</string>
     <string name="show_sms_link_warning_change_label">Tukar</string>
     <string name="show_sms_link_warning_text">Lampiran akan dihantar sebagai mesej SMS yang termasuk pautan ke lampiran itu</string>
+    <string name="sign_in_app_name_without_account">Gunakan %1$s tanpa akaun</string>
+    <string name="sign_in_cancel">Batal</string>
+    <string name="sign_in_without_account">Gunakan tanpa akaun</string>
+    <string name="sign_in_without_account_short">Tanpa akaun</string>
+    <string name="sign_into_photos_app">Log masuk</string>
+    <string name="sign_into_photos_app_title">Untuk meneruskan tindakan, log masuk ke Google Photos</string>
+    <string name="sign_into_photos_app_with_x_to_continue">Anda sedang membuat penghantaran daripada %1$s</string>
     <string name="signature_banner_description">@string/banner_description</string>
     <string name="silent_ringtone">Senyap</string>
     <string name="sim_label">SIM:</string>
@@ -1692,9 +1838,13 @@ Nombor telefon anda digunakan hanya untuk mencari silap dan menyelesaikan masala
     <string name="sim_storage_full_title">Storan kad SIM penuh</string>
     <string name="sim_storage_pref_title">Mesej kad SIM</string>
     <string name="simple_fail_to_decrypt_message_dialog_body">Untuk menyahsulitkan mesej akan datang, cuba kemas kini apl Messages anda</string>
+    <string name="smart_action_settings_page_description">Tunjukkan pintasan yang berkaitan untuk kalendar, carian GIF, kongsi lokasi &amp; pelbagai lagi</string>
+    <string name="smart_action_settings_page_title">Tindakan</string>
+    <string name="smart_actions_preference_summary_shortcuts">Tunjukkan pintasan yang berkaitan untuk kalendar, carian GIF, kongsi lokasi &amp; pelbagai lagi</string>
     <string name="smart_actions_preference_title">Tindakan yang dicadangkan</string>
     <string name="smart_compose_preference_summary">Tunjukkan cadangan penulisan ramalan</string>
     <string name="smart_compose_preference_title">Karang Pintar</string>
+    <string name="smart_reply_preference_summary">Tunjukkan pilihan balasan sembang</string>
     <string name="smarts_preference_info_text">Balasan Pintar dan tindakan yang dicadangkan hanya kelihatan kepada anda sehingga anda mengetik &amp; berkongsi. &lt;br/> &lt;br/> Cadangan berbeza-beza berdasarkan perbualan anda dan dijanakan pada peranti. %1$s</string>
     <string name="smarts_preference_info_text_with_assistant">Balasan Pintar, tindakan yang dicadangkan serta cadangan Assistant dijanakan dengan kecerdasan pada peranti oleh Messages. &lt;br/> &lt;br/>Cadangan tidak dikongsi dengan Google atau orang lain sehingga anda mengetik pada cadangan itu. &lt;br/> &lt;br/> Jika anda membenarkan Messages mengakses lokasi peranti, anda dapat melihat lebih banyak cadangan setempat. %1$s</string>
     <string name="smarts_settings_page_summary">Balasan Pintar, tindakan yang dicadangkan &amp; pelbagai lagi</string>
@@ -1721,19 +1871,18 @@ Balasan akan muncul dalam perbualan individu"</string>
     <string name="snackbar_text_label_rcs_group_created_too_large">{max_group_size_including_self,plural, =1{Tidak boleh melebihi # orang}other{Tidak boleh melebihi # orang}}</string>
     <string name="snackbar_text_label_rcs_group_self_only">Kumpulan ini kosong. Tambahkan orang pada kumpulan ini sebelum menghantar mesej kepada sembang ini.</string>
     <string name="snippet">%1$s: %2$s</string>
-    <string name="snippet_assistant_card_text">Kad Assistant</string>
-    <string name="snippet_attachment_icon_content_description">Ikon lampiran coretan balasan</string>
     <string name="snippet_audio_attachment_text">Audio</string>
     <string name="snippet_deleted_message_text">Mesej dipadamkan</string>
-    <string name="snippet_dismiss_icon_content_description">Ikon ketepikan balasan</string>
+    <string name="snippet_dismiss_icon_content_description">Padam</string>
     <string name="snippet_file_attachment_text">Fail</string>
     <string name="snippet_from_you">Anda: %s</string>
-    <string name="snippet_image_attachment_text">Imej</string>
-    <string name="snippet_media_thumbnail_content_description">Lakaran kecil media coretan balasan</string>
+    <string name="snippet_image_attachment_text">Gambar</string>
     <string name="snippet_self_participant_header">Anda</string>
     <string name="snippet_video_attachment_text">Video</string>
     <string name="soft_num_key_pad_backspace_content_description">Undur ruang</string>
     <string name="someone_added_participant">%1$s menambahkan %2$s pada kumpulan ini</string>
+    <string name="someone_added_participant_with_learn_more">%1$s menambahkan %2$s pada kumpulan ini. %3$s</string>
+    <string name="someone_else_created_encrypted_rcs_group">%1$s membuat sembang kumpulan ini dengan %2$s. %3$s</string>
     <string name="someone_else_created_mms_group">%1$s membuat MMS kumpulan ini dengan %2$s</string>
     <string name="someone_else_created_rcs_group">%1$s membuat sembang kumpulan ini dengan %2$s</string>
     <string name="someone_joined_group">Seseorang menyertai kumpulan ini</string>
@@ -1757,7 +1906,6 @@ Balasan akan muncul dalam perbualan individu"</string>
     <string name="spam_dialog_title_spam_folder">Laporkan spam?</string>
     <string name="spam_folder_activity_title">Spam &amp; disekat</string>
     <string name="spam_folder_conversation_list_empty_text_v2">Spam &amp; perbualan yang disekat dipaparkan di sini</string>
-    <string name="spam_preference_info_text_on_device">Messages menggunakan risikan pada peranti untuk mengesan spam dan menghantar data tentang mesej ini kepada Google tanpa memasukkan nombor telefon atau kandungan mesej anda. %1$s</string>
     <string name="spam_protection_consent_string">Untuk membantu kami mengesan spam, Messages menghantar sesetengah data tentang mesej anda kepada Google tanpa menyertakan nombor telefon atau kandungan mesej anda. %1$s</string>
     <string name="spam_reporting_from">Melaporkan spam</string>
     <string name="spam_settings">Perlindungan spam</string>
@@ -1766,6 +1914,8 @@ Balasan akan muncul dalam perbualan individu"</string>
     <string name="split_view_pref_title">Paparan butiran senarai</string>
     <string name="stacked_banner_count_text">1 daripada %1$d</string>
     <string name="star_badge_content_description">Lencana bintang</string>
+    <string name="star_badge_menu_remove_action">Alih keluar</string>
+    <string name="star_badge_menu_view_all_action">Lihat semua</string>
     <string name="star_badge_on_click_snackbar_action">Buat asal</string>
     <string name="star_badge_on_click_snackbar_message">Bintang dialih keluar</string>
     <string name="sticker_content_description">Pelekat %s</string>
@@ -1802,10 +1952,12 @@ Balasan akan muncul dalam perbualan individu"</string>
     <string name="subject_with_label">Subjek: %1$s</string>
     <string name="subject_with_urgent_label">[SEGERA] %1$s</string>
     <string name="success_message_format">%1$s %2$s %3$s %4$s %5$s %6$s.</string>
+    <string name="success_message_self_sender">Anda kata %1$s %2$s %3$s %4$s.</string>
     <string name="success_message_self_sender_format_with_multiple_attachments">Anda menghantar berbilang lampiran %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_self_sender_format_with_single_attachment">Anda menghantar lampiran %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_specified_sender_format_with_multiple_attachments">%1$s menghantar berbilang lampiran %2$s %3$s %4$s %5$s %6$s.</string>
     <string name="success_message_specified_sender_format_with_single_attachment">%1$s menghantar lampiran %2$s %3$s %4$s %5$s %6$s.</string>
+    <string name="success_message_unspecified_sender">Pengirim berkata %1$s %2$s %3$s %4$s.</string>
     <string name="success_message_unspecified_sender_format_with_multiple_attachments">Pengirim menghantar berbilang lampiran %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_unspecified_sender_format_with_single_attachment">Pengirim menghantar lampiran %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_sent_to_message_format">Dihantar kepada %1$s %2$s %3$s %4$s.</string>
@@ -1814,10 +1966,18 @@ Balasan akan muncul dalam perbualan individu"</string>
     <string name="sud_back_button_label">Kembali</string>
     <string name="sud_more_button_label">Lagi</string>
     <string name="sud_next_button_label">Seterusnya</string>
-    <string name="suggested_stickers_preference_summary">Tunjukkan pelekat yang dicadangkan</string>
+    <string name="suggested_stickers_preference_summary">Tunjukkan pilihan balasan pelekat</string>
     <string name="suggested_stickers_preference_title">Pelekat yang dicadangkan</string>
+    <string name="suggestion_shortcut_dialog_body_text">Bintangkan mesej, jadualkan pada waktu itu dan pelbagai lagi, menggunakan pintasan yang cepat lagi mudah.</string>
+    <string name="suggestion_shortcut_dialog_positive_button">OK</string>
+    <string name="suggestion_shortcut_dialog_subsection_body_text">Pintasan digesa oleh perkara seperti nombor telefon dan tarikh. %1$s</string>
+    <string name="suggestion_shortcut_dialog_subsection_title_text">Caranya</string>
+    <string name="suggestion_shortcut_dialog_title">Pintasan dicadangkan agar sampai ke sana dengan lebih pantas</string>
+    <string name="suggestion_shortcut_search_title">Cari</string>
+    <string name="suggestion_shortcut_star_toolstone">Bintangkan mesej untuk ditemukan dengan mudah dalam %1$s</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_notification_inbox_style_summary_text">+%d lagi</string>
+    <string name="super_sort_pref_title">Penyusunan mesej</string>
     <string name="super_sort_settings_title">Penyusunan mesej</string>
     <string name="supersort_conversation_list_empty_text_business_update">Kemaskinian perniagaan dipaparkan di sini secara automatik</string>
     <string name="supersort_conversation_list_empty_text_manage_in_settings">Urus dalam Tetapan</string>
@@ -1880,6 +2040,11 @@ Temukan sebarang perbualan dalam Semua"</string>
     <string name="survey_user_agent">Ejen Pengguna</string>
     <string name="survey_very_dissatisfied">Amat tidak berpuas hati</string>
     <string name="survey_very_satisfied">Amat berpuas hati</string>
+    <string name="swipe_actions">Tindakan leret</string>
+    <string name="swipe_actions_summary">Pilih Arkib atau Padam, ke kanan atau ke kiri atau matikan ciri leret</string>
+    <string name="swipe_customize">Sesuaikan</string>
+    <string name="swipe_left">Leret ke kiri</string>
+    <string name="swipe_right">Leret ke kanan</string>
     <string name="switcher_no_phone_number">Kad SIM tidak ditemukan</string>
     <string name="switcher_pair_device_title_text">Hantar teks dengan telefon yang digandingkan</string>
     <string name="switcher_positive_button_text">Teruskan</string>
@@ -1887,6 +2052,7 @@ Temukan sebarang perbualan dalam Semua"</string>
     <string name="switcher_use_device_sim_number">(%s)</string>
     <string name="switcher_use_device_sim_title_text">Hantar teks dengan SIM peranti ini</string>
     <string name="syncing_with_device_foreground_notification_text">Messages sedang menyegerak dengan peranti anda</string>
+    <string name="system_picker_button_label">Folder</string>
     <string name="t_mobile_tos_pref_link_text">Terma dan Syarat</string>
     <string name="t_mobile_tos_pref_text">Ciri sembang daripada Google dikuasakan oleh T-Mobile. Lihat %1$s.</string>
     <string name="t_mobile_tos_pref_url">https://www.t-mobile.com/responsibility/legal/terms-and-conditions</string>
@@ -1904,13 +2070,14 @@ Tetapan > %1$s"</string>
     <string name="terms_and_conditions_rejected_dialog_title">Ciri sembang tidak didayakan</string>
     <string name="terms_summary">Ringkasan syarat</string>
     <string name="text_button_action">Tambah teks</string>
-    <string name="text_conversation_tombstone">Penghantaran teks dengan %s (SMS/MMS)</string>
+    <string name="text_conversation_tombstone">Menghantar teks kepada %s (SMS/MMS)</string>
     <string name="text_message">Mesej teks</string>
     <string name="text_of_video_attachment_needs_trimming">Video ini terlalu besar untuk dihantar. Pangkas video untuk mengurangkan peleraian dan saiz, kemudian cuba hantar video itu sekali lagi.</string>
     <string name="theme_setting_dialog_options_dark_mode">Gelap</string>
     <string name="theme_setting_dialog_options_light_mode">Cerah</string>
     <string name="theme_setting_dialog_options_system_default_mode">Lalai sistem</string>
     <string name="theme_setting_dialog_title">Pilih tema</string>
+    <string name="tiktok_account_login_failure">Gagal log masuk ke akaun yang dipilih.</string>
     <string name="tiktok_add_account_error">Gagal menambahkan akaun. Sila cuba lagi.</string>
     <string name="tiktok_fix_it">Betulkan</string>
     <string name="tiktok_load_account_failure">Gagal memuatkan akaun.</string>
@@ -1936,6 +2103,18 @@ Anda sahaja yang dapat melihat nama ini"</string>
     <string name="tombstone_self_removed_from_group_referrer_known">%1$s mengalih keluar anda daripada kumpulan ini</string>
     <string name="tombstone_self_removing_others_from_group">Anda telah mengalih keluar %1$s daripada kumpulan ini</string>
     <string name="tombstone_show_link_previews">Pratonton pautan dihidupkan.&lt;br />Ketahui lebih lanjut atau matikan dalam &lt;u>Tetapan&lt;/u>.</string>
+    <string name="tombstone_show_link_previews_disabled">Pratonton pautan dimatikan.&lt;br />Ketahui lebih lanjut tentang cara menghidupkan ciri dalam &lt;u>Tetapan&lt;/u>.</string>
+    <string name="tooltip_content">"Google Account anda menguasakan
+ciri seperti perkongsian pautan Google Photos
+dalam Messages tanpa
+mengakses perbualan anda.
+
+Messages masih menghantar daripada
+nombor telefon anda. Ketahui lebih lanjut"</string>
+    <string name="tooltip_content_with_line_break_fix">"Google Account anda menguasakan ciri seperti perkongsian pautan Google Photos dalam Messages tanpa mengakses perbualan anda.
+
+Messages masih dihantar daripada nombor telefon anda. Ketahui lebih lanjut"</string>
+    <string name="tooltip_link">Ketahui lebih lanjut</string>
     <string name="top_contacts_grid_name">★</string>
     <string name="top_contacts_title">Kenalan kerap dihubungi</string>
     <string name="transaction_content_description">Mesej ini dikategorikan sebagai transaksi</string>
@@ -1945,6 +2124,7 @@ Anda sahaja yang dapat melihat nama ini"</string>
     <string name="unblock_and_report_not_spam_snackbar_message">%1$s dinyahsekat &amp; dilaporkan sebagai bukan spam</string>
     <string name="unblock_banner_body">Untuk mengalihkan perbualan ini keluar daripada Diarkibkan dan mendapatkan mesej sekali lagi, nyahsekat %s</string>
     <string name="unblock_banner_body_spam_folder">Untuk mengalihkan perbualan ini keluar daripada “Spam &amp; disekat” dan mendapatkan mesej semula, nyahsekat %s</string>
+    <string name="unblock_banner_body_v2">Unblock to receive messages from this sender</string>
     <string name="unblock_banner_description">@string/banner_description</string>
     <string name="unblock_banner_positive_button">Nyahsekat</string>
     <string name="unblock_banner_title">Disekat</string>
@@ -1980,6 +2160,7 @@ Nombor telefon digunakan hanya untuk mencari silap dan menyelesaikan masalah. Go
     <string name="unsent">Tidak dihantar</string>
     <string name="unspam_banner_body">Untuk mengalihkan perbualan ini keluar daripada Diarkibkan dan mendapatkan pemberitahuan sekali lagi, laporkan %s sebagai bukan spam</string>
     <string name="unspam_banner_body_spam_folder">Untuk mengalihkan perbualan ini keluar daripada “Spam &amp; disekat” dan mendapatkan pemberitahuan semula, laporkan %s sebagai bukan spam</string>
+    <string name="unspam_banner_body_v2">Report as not spam to receive messages from this sender</string>
     <string name="unspam_banner_description">@string/banner_description</string>
     <string name="unspam_banner_end_button">Bukan spam</string>
     <string name="unspam_banner_title">Dilaporkan sebagai spam</string>
@@ -1995,6 +2176,8 @@ Nombor telefon digunakan hanya untuk mencari silap dan menyelesaikan masalah. Go
     <string name="unsupported_file_save_alert">Simpan lampiran ke Muat Turun?</string>
     <string name="unsupported_file_save_cancel">Batal</string>
     <string name="unverified_sms_banner_description">@string/banner_description</string>
+    <string name="unwanted_messages_toolstone_link">sekat &amp; lapor</string>
+    <string name="unwanted_messages_toolstone_text">Untuk mesej yang tidak dikehendaki, %1$s</string>
     <string name="upcoming_reminder">Peringatan akan datang</string>
     <string name="update_content_description">Mesej ini dikategorikan sebagai kemaskinian</string>
     <string name="update_donation_banner_body_v2">Identiti anda kekal dirahsiakan dan anda boleh mengalih keluar sebarang kandungan mesej</string>
@@ -2037,6 +2220,7 @@ Nombor telefon digunakan hanya untuk mencari silap dan menyelesaikan masalah. Go
     <string name="video_attachment_content_description">Lampiran video</string>
     <string name="video_attachment_limit_exceeded_when_sending">Anda hanya boleh menghantar satu video bagi setiap mesej. Sila alih keluar video tambahan dan cuba lagi.</string>
     <string name="video_compress_info">Penerima akan melihat kualiti video yang lebih rendah disebabkan had MMS</string>
+    <string name="video_format_type">video</string>
     <string name="video_media_failure">Untuk membuat video, cuba rakam lebih lama</string>
     <string name="video_taken">Video diambil</string>
     <string name="video_thumbnail_view_play_button_content_description">Mainkan video</string>
@@ -2083,19 +2267,20 @@ Gunakan penilaian terbaik anda tentang kandungan mesej ini."</string>
     <string name="websiteTypeWork">Tempat kerja</string>
     <string name="welcome_agree_button_text">Setuju</string>
     <string name="welcome_chat_features_decline">Gunakan Messages tanpa ciri sembang</string>
-    <string name="welcome_chat_features_learn_more">Ketahui lebih lanjut tentang ciri sembang</string>
     <string name="welcome_chat_features_legal">Dengan menggunakan ciri sembang, anda bersetuju menerima %1$s &amp; %2$s. Sekali-sekala, Google akan mengesahkan nombor anda dengan pembawa anda (caj SMS mungkin dikenakan).</string>
+    <string name="welcome_chat_features_text">"· Hantar melalui Wi-Fi atau data mudah alih
+· Kongsi fail &amp; media anda
+· Kekalkan mesej anda sebagai peribadi"</string>
     <string name="welcome_chat_features_title">Sembang yang lebih pantas, lebih kaya serta berkualiti lebih tinggi melalui Wi-Fi atau data</string>
+    <string name="welcome_chat_features_title_experiment_0">Lakukan lebih banyak perkara dengan Messages</string>
+    <string name="welcome_chat_features_title_experiment_1">Lakukan lebih banyak perkara dengan ciri sembang dalam Messages</string>
     <string name="welcome_consent_button_text">Seterusnya</string>
-    <string name="welcome_finish_button_text">Selesai</string>
     <string name="welcome_smarts_notice_description">"Mudahkan sembang anda dengan ciri seperti Google Assistant dan Balasan Pintar. Sembang anda kekal dilindungi pada peranti anda.
 %1$s dan %2$s"</string>
     <string name="welcome_smarts_notice_title">Notis pintar yang berguna</string>
     <string name="welcome_spam_description">"Untuk menghalang spam, Google menggunakan nombor telefon yang bukan nombor kenalan anda, tanpa mengenal pasti anda atau nombor anda.
 %1$s dan %2$s"</string>
     <string name="welcome_spam_title">Perlindungan spam</string>
-    <string name="welcome_splash_tagline">"Pemesejan pintar dan mudah
-oleh Google"</string>
     <string name="widget_reply_exit_content_description">Kembali</string>
     <string name="widget_reply_open">BUKA MESSAGES</string>
     <string name="widget_reply_to">Balas %s</string>
@@ -2103,9 +2288,14 @@ oleh Google"</string>
     <string name="work_directory_display_name">Kenalan Profil Kerja</string>
     <string name="xms_send_mode_pref_title">Hantar mesej SMS dan MMS sahaja</string>
     <string name="you_added_participant">Anda menambahkan %s pada kumpulan ini</string>
+    <string name="you_added_participant_with_learn_more">Anda menambahkan %1$s pada kumpulan ini. %2$s</string>
+    <string name="you_created_encrypted_rcs_group">Anda membuat sembang kumpulan ini dengan %1$s. %2$s</string>
     <string name="you_created_mms_group">Anda membuat MMS kumpulan ini dengan %s</string>
     <string name="you_created_rcs_group">Anda membuat sembang kumpulan ini dengan %s</string>
     <string name="you_left_group">Anda meninggalkan kumpulan ini</string>
+    <string name="youtube_dismissal_prompt">Ketik dan seret untuk tutup</string>
+    <string name="youtube_drag_prompt">Seret untuk mengalihkan pemain</string>
+    <string name="youtube_pip_playing">Video sedang dimainkan</string>
     <string name="zero_connectivity_failure_announcement">Mesej tidak dihantar</string>
     <string name="zero_state_search_action_copy">Salin</string>
     <string name="zero_state_search_action_jump_to_chat">Lihat dalam sembang</string>
@@ -2125,6 +2315,7 @@ oleh Google"</string>
     <string name="zero_state_search_details_image_accessibility">Imej dihantar oleh %1$s pada %2$s</string>
     <string name="zero_state_search_details_video_accessibility">Video dihantar oleh %1$s pada %2$s</string>
     <string name="zero_state_search_dropdown_free_text">Cari \"%s\"</string>
+    <string name="zero_state_search_empty_results_text">Mesej dibintangi, media dan pautan anda daripada perbualan ini akan dipaparkan di sini</string>
     <string name="zero_state_search_images">Imej</string>
     <string name="zero_state_search_link_copied">Pautan disalin</string>
     <string name="zero_state_search_links">Pautan</string>

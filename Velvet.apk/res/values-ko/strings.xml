@@ -81,8 +81,6 @@
     <string name="accessibility_switch_to_oem_minus_one_button">%1$s 페이지로 이동</string>
     <string name="accessibility_voice_search_button">음성 검색</string>
     <string name="accessibility_voice_search_visual_aid_text">휴대전화에 대고 말씀하셔서 궁금한 것을 물어보세요.</string>
-    <string name="account_item">%1$s(으)로 전환</string>
-    <string name="account_list">계정 목록</string>
     <string name="account_loading">로드 중…</string>
     <string name="account_particle_disc_description">계정 메뉴 열기</string>
     <string name="acessibility_recurrence_choose_end_date_description">종료일 변경</string>
@@ -148,7 +146,6 @@
     <string name="ad_badge">광고</string>
     <string name="ad_badge_text">광고</string>
     <string name="ad_dismiss_survey_skip">건너뛰기</string>
-    <string name="add_account">계정 추가</string>
     <string name="add_button_content_description">추가</string>
     <string name="add_custom_feed">RSS 피드로 추가</string>
     <string name="add_custom_feed_url_hint">https://www.example.org/podcast.xml</string>
@@ -174,8 +171,6 @@
     <string name="add_salsa_card_title">자주 사용하는 빠른 명령어를 추가하세요</string>
     <string name="add_shortcut_dismiss_button_description">닫기</string>
     <string name="add_shortcut_text">홈 화면에 운전 모드 추가</string>
-    <string name="add_snackbar_action">추가</string>
-    <string name="add_this_location_to_your_list_snackbar_text">이 위치를 목록에 추가하시겠습니까?</string>
     <string name="add_to_folder">폴더에 추가: %1$s</string>
     <string name="add_to_folder_with_app">%1$s이(가) 포함된 폴더에 추가</string>
     <string name="add_to_home_screen">홈 화면에 추가</string>
@@ -284,9 +279,12 @@
     <string name="all_salsas_section_subtitle">어시스턴트가 대기 모드로 기다리다가 내가 선택한 빠른 명령어를 감지합니다. 주로 사용되는 비슷한 명령어를 사용해도 작동합니다</string>
     <string name="all_set_title">어시스턴트가 준비되었습니다</string>
     <string name="all_settings_title">모든 설정</string>
+    <string name="allow_access">액세스 허용</string>
     <string name="allow_bluetooth_button_with_device_locked_notification_body">휴대전화가 잠겨 있을 때 블루투스 기기를 통해 음성으로 전화를 거는 등 여러 가지 작업을 할 수 있습니다.</string>
     <string name="allow_bluetooth_button_with_device_locked_notification_title">블루투스 기기를 통해 음성 기능 사용</string>
     <string name="allow_button_text">허용</string>
+    <string name="allow_calls_toggle_description">운전 중에 전화가 오면 알림</string>
+    <string name="allow_calls_toggle_title">수신 전화 허용</string>
     <string name="allow_rotation_title">회전 허용</string>
     <string name="allow_wired_headsets_button_with_device_locked_notification_body">휴대전화가 잠겨 있을 때 유선 헤드셋을 통해 음성으로 전화를 거는 등 여러 가지 작업을 할 수 있습니다.</string>
     <string name="allow_wired_headsets_button_with_device_locked_notification_title">유선 헤드셋을 통해 음성 기능 사용</string>
@@ -362,11 +360,10 @@
     <string name="ambient_settings_bc_page_desc">어시스턴트가 지금 내게 필요한 정보를 홈 화면이나 잠금 화면에 보여 줍니다.</string>
     <string name="ambient_settings_bc_title">라이브 위젯</string>
     <string name="ambient_settings_commute_and_ttl_subtitle">교통정보 및 도착예정시간 확인</string>
-    <string name="ambient_settings_commute_and_ttl_title">출퇴근 및 출발 시간 알림</string>
+    <string name="ambient_settings_commute_subtitle">교통정보 보기</string>
+    <string name="ambient_settings_commute_title">출퇴근길</string>
     <string name="ambient_settings_device_location_subtitle">내 위치와 관련 있는 콘텐츠 표시</string>
     <string name="ambient_settings_device_location_title">위치</string>
-    <string name="ambient_settings_grocery_subtitle" />
-    <string name="ambient_settings_grocery_title">배달 및 포장</string>
     <string name="ambient_settings_home_and_work_location_subtitle">집과 직장 주소를 기준으로 한 도착예정시간과 교통정보 등의 통근 정보 확인</string>
     <string name="ambient_settings_home_and_work_location_title">집 및 직장</string>
     <string name="ambient_settings_hotel_subtitle">체크인 및 체크아웃 정보</string>
@@ -379,6 +376,7 @@
     <string name="ambient_settings_title">한눈에 보기</string>
     <string name="ambient_settings_travel_bundle_subtitle">Gmail에 포함된 항공편</string>
     <string name="ambient_settings_travel_bundle_title">여행</string>
+    <string name="ambient_settings_ttl_subtitle">도착예정시간 확인</string>
     <string name="ambient_settings_ttl_title">출발 시간 알림</string>
     <string name="ambient_settings_upcoming_bundle_subtitle">캘린더 일정 및 리마인더</string>
     <string name="ambient_settings_upcoming_bundle_title">예정</string>
@@ -462,7 +460,10 @@
     <string name="ar_permissions_screen_title">Get a better look</string>
     <string name="ar_session_error_dialog_body">An error has occurred when trying to view this object in your space.</string>
     <string name="ar_session_error_dialog_title">Unable to view in your space</string>
+    <string name="ar_triggering_description">기기가 움직임과 블루투스 연결을 사용하여 이동 중인 차량에 타고 있음을 감지합니다.</string>
+    <string name="ar_triggering_title">운전이 감지된 경우</string>
     <string name="ask_assistant">어시스턴트에게 물어보기</string>
+    <string name="ask_before_launching">시작 전에 물어보기</string>
     <string name="ask_for_message_to_number">물론입니다. 문자 메시지를 보내겠습니다. 메시지 내용을 말해 주세요.</string>
     <string name="ask_for_text_message_contact_first_time">네, %1$s님에게 문자 메시지를 보냅니다. 메시지 내용을 말씀해 주세요.</string>
     <string name="ask_to_confirm_3p_chat_message">%2$s님에게 보내는 %1$s 메시지의 내용은 %3$s입니다. 보내시겠어요, 아니면 내용을 변경할까요?</string>
@@ -470,10 +471,10 @@
     <string name="ask_to_confirm_message_reprompt">죄송합니다. 메시지를 보낼까요, 아니면 내용을 변경할까요?</string>
     <string name="ask_to_confirm_sms">%1$s님에게 보내는 SMS의 내용은 %2$s입니다. 보내시겠어요, 아니면 내용을 변경할까요?</string>
     <string name="assistant">어시스턴트</string>
-    <string name="assistant_aa_loyalty_card_title">Loyalty Card</string>
+    <string name="assistant_aa_loyalty_card_title">포인트 카드</string>
     <string name="assistant_accessibility_voice_typing_stopped">음성 입력 중지됨</string>
     <string name="assistant_add_item_app_control_suggestion">추가</string>
-    <string name="assistant_ama_media_only_chip">Listen</string>
+    <string name="assistant_ama_media_only_chip">오디오 콘텐츠</string>
     <string name="assistant_android_settings_access_assistant_category_title">Pixel에서 Google 어시스턴트 액세스</string>
     <string name="assistant_android_settings_active_edge_summary">어시스턴트에게 말하려면 휴대전화 하단을 손으로 빠르게 쥐었다가 놓으세요.</string>
     <string name="assistant_android_settings_active_edge_title">쥐기 동작으로 어시스턴트 액세스</string>
@@ -492,7 +493,8 @@
     <string name="assistant_android_settings_see_all_title">모든 어시스턴트 설정 보기</string>
     <string name="assistant_android_settings_voice_match_summary">Voice Match를 사용하여 휴대전화가 잠겨 있을 때도 음성으로 어시스턴트에 액세스하세요.</string>
     <string name="assistant_android_settings_voice_match_title">“Hey Google”이라고 말하기</string>
-    <string name="assistant_at_store">At Store</string>
+    <string name="assistant_at_store">매장</string>
+    <string name="assistant_avatar_icon_description">사용자 아바타 아이콘</string>
     <string name="assistant_bit_action_card_link">Google 어시스턴트 페이지로 이동</string>
     <string name="assistant_bit_action_card_negative">거부</string>
     <string name="assistant_bit_action_card_positive">사용 설정</string>
@@ -509,10 +511,15 @@ myactivity.google.com에서 어시스턴트 기록을 삭제할 수 있습니다
 언제든지 myactivity.google.com에서 어시스턴트 기록을 확인하고 삭제할 수 있습니다."</string>
     <string name="assistant_bit_alert_on_title">Google 어시스턴트를 사용 설정하시겠습니까?</string>
     <string name="assistant_branding">어시스턴트</string>
-    <string name="assistant_calendar_event_during">%1$s now</string>
-    <string name="assistant_calendar_event_pre">%1$s in %2$s</string>
-    <string name="assistant_calendar_event_pre_static">%1$s at %2$s</string>
-    <string name="assistant_calendar_event_time_range">%1$s – %2$s</string>
+    <string name="assistant_calendar_event_during">지금 %1$s</string>
+    <string name="assistant_calendar_event_pre">%2$s 후 %1$s</string>
+    <string name="assistant_calendar_event_pre_static">%2$s에 %1$s</string>
+    <string name="assistant_calendar_event_time_range">%1$s~%2$s</string>
+    <string name="assistant_canvas_logo_view_description">음성 검색</string>
+    <string name="assistant_canvas_opa_keyboard_indicator_content_description">입력 모드</string>
+    <string name="assistant_canvas_opa_send_button_content_description">보내기</string>
+    <string name="assistant_canvas_opa_text_input_hint">메시지 입력</string>
+    <string name="assistant_canvas_transcription_bar_description">스크립트 작성 바</string>
     <string name="assistant_create_doc_app_control_suggestion">문서 새로 만들어 줘</string>
     <string name="assistant_custodio_activity_menu_help">도움말</string>
     <string name="assistant_custodio_activity_menu_send_feedback">의견 보내기</string>
@@ -743,6 +750,7 @@ myactivity.google.com에서 어시스턴트 기록을 삭제할 수 있습니다
     <string name="assistant_custodio_youtube_media_provider_name">YouTube</string>
     <string name="assistant_default_error_message">문제가 발생했습니다. 다시 시도해 보세요.</string>
     <string name="assistant_dictation_ineligible_aiai_version">어시스턴트 음성 입력을 사용하려면 Google Play에서 Android 시스템 인텔리전스 앱을 업데이트하세요. &lt;a href=\"https://play.google.com/store/apps/details?id=com.google.android.as\">업데이트&lt;/a> &lt;br> &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#update_app\">자세히 알아보기&lt;/a></string>
+    <string name="assistant_dictation_ineligible_android_old_version">어시스턴트 음성 입력을 사용하려면 Android 시스템을 업데이트하세요. &lt;a href=\"intent:#Intent;action=android.settings.SYSTEM_UPDATE_SETTINGS;end\">업데이트&lt;/a> &lt;br> &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#update_app\">자세히 알아보기&lt;/a></string>
     <string name="assistant_dictation_ineligible_download_needed">어시스턴트 음성 입력을 업데이트해야 합니다. 자동으로 다운로드하려면 Wi-Fi에 연결하세요. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#update_to_use\">자세히 알아보기&lt;/a></string>
     <string name="assistant_dictation_ineligible_generic">현재 어시스턴트 음성 입력을 사용할 수 없습니다. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#fix_issues_assistant_voice_typing\">자세히 알아보기&lt;/a></string>
     <string name="assistant_dictation_ineligible_locale_mismatch">어시스턴트 음성 입력을 사용하려면 기본 Gboard와 기기의 언어가 동일해야 합니다. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#device_language\">자세히 알아보기&lt;/a></string>
@@ -752,29 +760,25 @@ myactivity.google.com에서 어시스턴트 기록을 삭제할 수 있습니다
     <string name="assistant_dictation_ineligible_work_profile">현재 직장 프로필 앱에서는 어시스턴트 음성 입력을 사용할 수 없습니다. 사용하려면 개인 앱으로 전환하세요. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#not_available_work_profile\">자세히 알아보기&lt;/a></string>
     <string name="assistant_edit_app_control_suggestion">수정</string>
     <string name="assistant_features_title">작업 처리하기</string>
-    <string name="assistant_flight_chip_boarding_pass">Boarding Pass</string>
-    <string name="assistant_flight_chip_check_in">Check in for your flight</string>
-    <string name="assistant_flight_chip_more_info">More Flight Info</string>
-    <string name="assistant_flight_departure_gate_info">Gate %1$s</string>
-    <string name="assistant_flight_departure_info">%1$s to %2$s departs in %3$s</string>
-    <string name="assistant_flight_departure_info_now">%1$s to %2$s departs now</string>
-    <string name="assistant_flight_departure_info_static_time">%1$s to %2$s departs at %3$s</string>
-    <string name="assistant_flight_departure_info_static_without_time">%1$s to %2$s</string>
-    <string name="assistant_flight_departure_terminal_info">Terminal %1$s</string>
-    <string name="assistant_flight_departure_time_delayed_info">Departs %1$s (<strike>%2$s</strike>)</string>
-    <string name="assistant_flight_departure_time_info">Departs %1$s</string>
-    <string name="assistant_flight_seat_info">Seat %1$s</string>
-    <string name="assistant_flight_to_delayed_info">Delayed: Flight to %1$s</string>
-    <string name="assistant_flight_to_info">Flight to %1$s</string>
+    <string name="assistant_flight_chip_boarding_pass">탑승권</string>
+    <string name="assistant_flight_chip_check_in">항공편 체크인</string>
+    <string name="assistant_flight_chip_more_info">항공편 정보 더보기</string>
+    <string name="assistant_flight_departure_gate_info">탑승구 %1$s</string>
+    <string name="assistant_flight_departure_info">%1$s 출발, %2$s 도착 항공편 %3$s 후 출발</string>
+    <string name="assistant_flight_departure_info_now">%1$s 출발, %2$s 도착 항공편 지금 출발</string>
+    <string name="assistant_flight_departure_info_static_time">%1$s 출발, %2$s 도착 항공편 %3$s에 출발</string>
+    <string name="assistant_flight_departure_info_static_without_time">%1$s 출발, %2$s 도착</string>
+    <string name="assistant_flight_departure_terminal_info">터미널 %1$s</string>
+    <string name="assistant_flight_departure_time_delayed_info">%1$s(<strike>%2$s</strike>) 출발</string>
+    <string name="assistant_flight_departure_time_info">%1$s 출발</string>
+    <string name="assistant_flight_seat_info">좌석 %1$s</string>
+    <string name="assistant_flight_to_delayed_info">지연: %1$s 도착 항공편</string>
+    <string name="assistant_flight_to_info">%1$s 도착 항공편</string>
     <string name="assistant_grocery_delivery_completed">%1$s order delivered</string>
-    <string name="assistant_grocery_delivery_during">%1$s delivery now</string>
-    <string name="assistant_grocery_delivery_pre">%1$s delivery in %2$s</string>
-    <string name="assistant_grocery_delivery_pre_static">%1$s delivery at %2$s</string>
+    <string name="assistant_grocery_delivery_scheduled">%1$s delivery scheduled</string>
     <string name="assistant_grocery_pickup_completed">%1$s order picked up</string>
-    <string name="assistant_grocery_pickup_during">%1$s pickup now</string>
-    <string name="assistant_grocery_pickup_pre">%1$s pickup in %2$s</string>
-    <string name="assistant_grocery_pickup_pre_static">%1$s pickup at %2$s</string>
-    <string name="assistant_grocery_pickup_ready">%1$s pickup now</string>
+    <string name="assistant_grocery_pickup_ready">%1$s order ready for pickup</string>
+    <string name="assistant_grocery_pickup_scheduled">%1$s pickup scheduled</string>
     <string name="assistant_grocery_time_range">%1$s – %2$s</string>
     <string name="assistant_guacamole_answer_call_announce">응답 중</string>
     <string name="assistant_guacamole_closed_popup_pill_content_description">다음과 같이 말하세요. “%1$s”. 알약 버튼을 두 번 탭하면 자세한 정보를 확인할 수 있습니다.</string>
@@ -829,6 +833,9 @@ myactivity.google.com에서 어시스턴트 기록을 삭제할 수 있습니다
     <string name="assistant_keyboard_first_one_text">첫 번째 항목</string>
     <string name="assistant_keyboard_firstrun_text">&lt;linkable>설정 관리&lt;/linkable></string>
     <string name="assistant_keyboard_icon_label">키보드</string>
+    <string name="assistant_keyboard_input_clear_button_content_description">Click to clear text input</string>
+    <string name="assistant_keyboard_input_mic_button_content_description">Click the mic icon to start voice query</string>
+    <string name="assistant_keyboard_input_text_hint">Type a text input here</string>
     <string name="assistant_keyboard_learning_center_category_compose">입력 및 전송</string>
     <string name="assistant_keyboard_learning_center_category_emojis">그림 이모티콘 추가</string>
     <string name="assistant_keyboard_learning_center_category_forms">양식 및 이메일</string>
@@ -912,12 +919,14 @@ myactivity.google.com에서 어시스턴트 기록을 삭제할 수 있습니다
     <string name="assistant_keyboard_sticky_mic_education_tip_text">키보드를 닫을 때까지&lt;br>마이크를 켜진 상태로 두려면 두 번 탭하세요.</string>
     <string name="assistant_keyboard_stop_button_description">음성기록 중지</string>
     <string name="assistant_keyboard_stop_text">중지</string>
+    <string name="assistant_keyboard_suggestion_query_builder_button_content_description">Click to edit in input box</string>
     <string name="assistant_keyboard_undo_button_description">실행취소</string>
     <string name="assistant_keyboard_undo_text">실행취소</string>
     <string name="assistant_keyboard_voice_command_not_supported">이 앱에서 사용할 수 없는 명령어입니다.</string>
     <string name="assistant_keyboard_voice_corrections_tip_text">선택된 항목 대신 사용할&lt;br>단어를 말하세요.</string>
     <string name="assistant_language_not_supported">Google 어시스턴트에서 아직 %s를 지원하지 않습니다.</string>
     <string name="assistant_learning_center_data_error">Sorry, something went wrong while loading data.</string>
+    <string name="assistant_learning_center_detailed_page_data_error">Sorry, something went wrong while loading data.</string>
     <string name="assistant_logo_a11y">탭하여 Google 어시스턴트 열기</string>
     <string name="assistant_logo_content_description">Google 어시스턴트 로고</string>
     <string name="assistant_long_press_power_action_button_text">확인</string>
@@ -959,7 +968,7 @@ myactivity.google.com에서 어시스턴트 기록을 삭제할 수 있습니다
     <string name="assistant_my_actions_unpin_confirmation_dialog_title">참고</string>
     <string name="assistant_my_actions_unpinned_action_row_add_button_content_description">작업 추가</string>
     <string name="assistant_my_actions_unpinned_actions_header">추천 작업</string>
-    <string name="assistant_my_flights_query">My Flights</string>
+    <string name="assistant_my_flights_query">내 항공편</string>
     <string name="assistant_on_lockscreen_desc">휴대전화가 잠겨 있을 때 어시스턴트가 응답하도록 허용합니다. 연락처, 메시지 등 개인 검색결과를 확인하려면 어시스턴트가 음성을 인식할 수 있도록 “%1$s”이라고 말하세요.</string>
     <string name="assistant_on_lockscreen_description">휴대전화가 잠겨 있을 때 어시스턴트가 응답하도록 허용합니다. 연락처, 메시지 등 개인 검색결과를 확인하려면 어시스턴트가 음성을 인식할 수 있도록 \"Hey Google\"이라고 말하세요.</string>
     <string name="assistant_on_lockscreen_title">잠금 화면에서 어시스턴트 응답 듣기</string>
@@ -1452,7 +1461,7 @@ myactivity.google.com에서 어시스턴트 기록을 삭제할 수 있습니다
     <string name="assistant_settings_music_gpm_premium_dialog_title">Play 뮤직 구독이나 라이브러리가 필요함</string>
     <string name="assistant_settings_music_icon_text">음악 제공업체 아이콘</string>
     <string name="assistant_settings_music_link_dialog_text">Google 계정을 %1$s에 연결하여 호환되는 기기에서 재생하고 재생목록에 액세스하세요. Google 어시스턴트를 통해 %1$s 서비스를 이용할 경우 쿼리가 %1$s에 전송되어 개인정보 보호 관련 안내에 따라 사용될 수 있으며 %1$s에서 개인 검색결과 및 맞춤 추천을 제공할 수 있습니다. 계정은 언제든지 어시스턴트 설정에서 연결 해제할 수 있습니다.</string>
-    <string name="assistant_settings_music_no_preference_summary">공유 기기에 있는 다른 계정의 선호사항 사용</string>
+    <string name="assistant_settings_music_no_preference_summary">공유 기기에 등록된 다른 계정의 환경설정 사용</string>
     <string name="assistant_settings_music_no_preference_title">기본 제공업체 없음</string>
     <string name="assistant_settings_music_premium_dialog_button">확인</string>
     <string name="assistant_settings_music_premium_dialog_text">%1$s의 Google 홈 연동을 위해서는 프리미엄 계정이 필요합니다. 무료 서비스 중 하나를 선택하는 것이 좋습니다.</string>
@@ -1788,21 +1797,38 @@ Google Home 앱 또는 Google 어시스턴트 앱의 설정에서 Voice Match와
     <string name="assistant_suw_intro_screen_action_button_text">동의</string>
     <string name="assistant_suw_intro_screen_cancel_button_text">건너뛰기</string>
     <string name="assistant_suw_intro_screen_default_x_google_hotword">Hey Google</string>
+    <string name="assistant_suw_intro_screen_hint1_for_unicorn_vm3">{GENDER,select, male{“%1$s”을 사용하려면 어시스턴트가 {GIVEN_NAME}님의 음성을 인식할 수 있도록 Voice Match를 사용해야 합니다.}female{“%1$s”을 사용하려면 어시스턴트가 {GIVEN_NAME}님의 음성을 인식할 수 있도록 Voice Match를 사용해야 합니다.}other{“%1$s”을 사용하려면 어시스턴트가 {GIVEN_NAME}님의 음성을 인식할 수 있도록 Voice Match를 사용해야 합니다.}}</string>
+    <string name="assistant_suw_intro_screen_hint1_vm3">“%1$s”을 사용하려면 어시스턴트가 내 음성을 인식할 수 있도록 Voice Match를 사용해야 합니다.</string>
+    <string name="assistant_suw_intro_screen_hint2_for_unicorn_vm3">%1$s님의 의도하지 않아도 “%2$s”처럼 들리는 소음이 감지되면 어시스턴트가 활성화될 수 있습니다.</string>
+    <string name="assistant_suw_intro_screen_hint2_vm3">내가 의도하지 않아도 “%1$s”처럼 들리는 소음이 감지되면 어시스턴트가 활성화될 수 있습니다.</string>
+    <string name="assistant_suw_intro_screen_hint3_for_unicorn_vm3">%2$s님의 어시스턴트 설정에서 “%1$s” 사용을 중지할 수 있습니다.</string>
+    <string name="assistant_suw_intro_screen_hint3_vm3">어시스턴트 설정에서 “%1$s” 사용을 중지할 수 있습니다.</string>
     <string name="assistant_suw_intro_screen_item_summary_1">\"이번 주말 날씨는 어때?\"</string>
+    <string name="assistant_suw_intro_screen_item_summary_1_for_unicorn">\"우산 필요할까?\"</string>
     <string name="assistant_suw_intro_screen_item_summary_2">“가장 가까운 카페는 어디야?”</string>
+    <string name="assistant_suw_intro_screen_item_summary_2_for_unicorn">“하마는 어떤 소리를 내?”</string>
     <string name="assistant_suw_intro_screen_item_summary_3">“내일 오전 5시로 알람 설정해 줘.”</string>
+    <string name="assistant_suw_intro_screen_item_summary_3_for_unicorn">\"20분으로 숙제 타이머 맞춰 줘.\"</string>
     <string name="assistant_suw_intro_screen_item_title_1">질문하기</string>
     <string name="assistant_suw_intro_screen_item_title_2">길찾기</string>
+    <string name="assistant_suw_intro_screen_item_title_2_for_unicorn">새로운 것 배워보기</string>
     <string name="assistant_suw_intro_screen_item_title_3">작업 처리</string>
     <string name="assistant_suw_intro_screen_subtitle_v2">동의하면 Google 어시스턴트는 “%1$s” 감지를 위해 대기 모드로 기다리게 됩니다</string>
+    <string name="assistant_suw_intro_screen_subtitle_v2_for_unicorn_vm3">동의하면 Google 어시스턴트는 %1$s님이 말하는 “%2$s” 감지를 위해 대기 모드로 기다립니다</string>
     <string name="assistant_suw_intro_screen_title">“%1$s”로 어시스턴트를 사용하세요</string>
     <string name="assistant_suw_intro_screen_title_for_unicorn">%1$s님이 “%2$s”이라고 말하여 Google 어시스턴트를 사용할 수 있도록 허용하기</string>
-    <string name="assistant_suw_intro_screen_with_ww_hint">어시스턴트 설정에서 옵션을 업데이트할 수 있습니다.</string>
+    <string name="assistant_suw_intro_screen_title_for_unicorn_vm3">%1$s님이 핸즈프리로 Google에 음성으로 명령하도록 허용</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint2_for_unicorn_vm3">%1$s님이 의도하지 않아도 “%2$s” 또는 빠른 실행 문구처럼 들리는 소음이 감지되면 어시스턴트가 활성화될 수 있습니다.</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint2_vm3">내가 의도하지 않아도 “%1$s” 또는 빠른 실행 문구처럼 들리는 소음이 감지되면 어시스턴트가 활성화될 수 있습니다.</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint3_for_unicorn_vm3">%2$s님의 어시스턴트 설정에서 “%1$s” 및 빠른 실행 문구 사용을 중지할 수 있습니다.</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint3_vm3">어시스턴트 설정에서 “%1$s” 및 빠른 실행 문구 사용을 중지할 수 있습니다.</string>
     <string name="assistant_suw_intro_screen_with_ww_item_summary_1">궁금한 것을 질문하고 도움을 받아 작업을 완료하세요</string>
     <string name="assistant_suw_intro_screen_with_ww_item_summary_2">“멈춰”나 “일시중지해 줘”와 같은 단어를 말해 보세요(예: 알람이 울릴 때).</string>
+    <string name="assistant_suw_intro_screen_with_ww_item_summary_2_for_unicorn_vm3">"예를 들어 알람이 울릴 때 %1$s님이 '멈춰' 또는 '일시중지해 줘'와 같은 단어를 말할 수 있습니다."</string>
     <string name="assistant_suw_intro_screen_with_ww_item_title_1">“%1$s”</string>
     <string name="assistant_suw_intro_screen_with_ww_item_title_2">빠른 실행 문구</string>
     <string name="assistant_suw_intro_screen_with_ww_subtitle">동의하면 Google 어시스턴트는 “%1$s”과 특정 빠른 실행 문구를 감지하기 위해 대기 모드로 기다리게 됩니다</string>
+    <string name="assistant_suw_intro_screen_with_ww_subtitle_for_unicorn_vm3">동의하면 Google 어시스턴트는 %1$s님이 말하는 “%2$s”과 특정 빠른 실행 문구를 감지하기 위해 대기 모드로 기다리게 됩니다</string>
     <string name="assistant_suw_intro_screen_with_ww_title">핸즈프리로 Google과 대화</string>
     <string name="assistant_suw_loading_screen_title">확인 중…</string>
     <string name="assistant_suw_more_button_text">더보기</string>
@@ -1818,8 +1844,8 @@ Google Home 앱 또는 Google 어시스턴트 앱의 설정에서 Voice Match와
     <string name="assistant_suw_settings_screen_title">%1$s 잠금 상태에서도 어시스턴트를 사용하세요</string>
     <string name="assistant_suw_settings_screen_title_for_unicorn">{GENDER,select, male{%1$s 기기가 잠긴 상태에서도 {GIVEN_NAME}님이 Google 어시스턴트를 이용하도록 허용}female{%1$s 기기가 잠긴 상태에서도 {GIVEN_NAME}님이 Google 어시스턴트를 이용하도록 허용}other{%1$s 기기가 잠긴 상태에서도 {GIVEN_NAME}님이 Google 어시스턴트를 이용하도록 허용}}</string>
     <string name="assistant_take_note_app_control_suggestion">메모해 줘</string>
-    <string name="assistant_tap_to_check_in">Tap to check-in</string>
-    <string name="assistant_tomorrow_time">Tomorrow, %1$s</string>
+    <string name="assistant_tap_to_check_in">탭하여 체크인</string>
+    <string name="assistant_tomorrow_time">내일 %1$s</string>
     <string name="assistant_ui_learn_more_link">자세히 알아보기</string>
     <string name="assistant_unicorn_get_your_parent_subtitle">부모와 함께 Voice Match를 설정할 수 있습니다</string>
     <string name="assistant_unicorn_get_your_parent_subtitle_shared_devices">자녀와 함께 Google 어시스턴트를 설정하세요</string>
@@ -1827,6 +1853,8 @@ Google Home 앱 또는 Google 어시스턴트 앱의 설정에서 Voice Match와
     <string name="assistant_voice_plate_avatar_label">설정 열기</string>
     <string name="assistant_voice_plate_greeting_hi_text">안녕하세요? 무엇을 도와드릴까요?</string>
     <string name="assistant_voice_plate_keyboard_icon_label">키보드</string>
+    <string name="assistant_voice_plate_onboarding_oauth_recovery_button">로그인</string>
+    <string name="assistant_voice_plate_onboarding_oauth_recovery_text">어시스턴트를 사용하려면 Google 계정에 다시 로그인하세요.</string>
     <string name="assistant_voice_plate_onboarding_oobe_button">시작하기</string>
     <string name="assistant_voice_plate_onboarding_oobe_text">더 많은 어시스턴트 기능 사용하기</string>
     <string name="assistant_voice_speech_output_title">어시스턴트 음성 및 음성 출력</string>
@@ -1849,7 +1877,7 @@ Google Home 앱 또는 Google 어시스턴트 앱의 설정에서 Voice Match와
     <string name="assistant_weather_widget_preview_condition">맑음</string>
     <string name="assistant_weather_widget_preview_loading">로드 중…</string>
     <string name="assistant_weather_widget_preview_location">샌프란시스코</string>
-    <string name="assistant_yesterday_time">Yesterday, %1$s</string>
+    <string name="assistant_yesterday_time">어제 %1$s</string>
     <string name="assistantactions_alarm_confirmation_card_button_text">알람 보기</string>
     <string name="assistantactions_call_confirmation_card_button">전화 걸기</string>
     <string name="assistantactions_confirmation_card_cancel_text">작업 취소됨</string>
@@ -1993,7 +2021,7 @@ Google Home 앱 또는 Google 어시스턴트 앱의 설정에서 Voice Match와
     <string name="bisto_device_launch_oobe_pref_summary">음성 및 헤드폰으로 Google의 도움을 받는 방법을 알아보세요.</string>
     <string name="bisto_device_launch_oobe_pref_title">자세히 알아보기</string>
     <string name="bisto_device_make_and_model">제조업체 및 모델</string>
-    <string name="bisto_device_notification_access_for_gestures_pref_summary">수신되는 알림을 소리내어 읽게 하려면 ‘길게 터치’ 컨트롤에서 양쪽 이어폰의 ‘어시스턴트에게 말하기’ 기능을 사용 설정하세요.</string>
+    <string name="bisto_device_notification_access_for_gestures_pref_summary">받은 알림을 소리내어 읽게 하려면 ‘길게 터치’ 컨트롤에서 한쪽 또는 양쪽 이어폰의 ‘어시스턴트에게 말하기’ 기능을 사용 설정하세요.</string>
     <string name="bisto_device_notification_access_pref_summary">헤드폰에서 음성 알림을 듣습니다.</string>
     <string name="bisto_device_notification_access_pref_title">알림 액세스 사용 설정</string>
     <string name="bisto_device_notifications_pref_title">음성 알림</string>
@@ -2008,7 +2036,6 @@ Google Home 앱 또는 Google 어시스턴트 앱의 설정에서 Voice Match와
     <string name="bisto_device_tutorial_pref_title">가이드</string>
     <string name="bisto_device_user_manual_pref">사용 설명서</string>
     <string name="bisto_downloading_device_customization">기기 정보 다운로드 중</string>
-    <string name="bisto_end_sound_pref_title">종료 알림음 재생</string>
     <string name="bisto_error_connect_device">기기에 연결할 수 없습니다. 연결 상태를 확인한 후 다시 시도해 보세요.</string>
     <string name="bisto_error_consent_retry_message">연결 상태를 확인한 후 다시 시도하세요.</string>
     <string name="bisto_error_enable_opa">기기와 통신할 수 없습니다. 연결 상태를 확인한 후 다시 시도해 보세요.</string>
@@ -2064,11 +2091,13 @@ Google Home 앱 또는 Google 어시스턴트 앱의 설정에서 Voice Match와
     <string name="blue_steel_cancel">취소</string>
     <string name="blue_steel_consent_detail">"\"Hey Google\"이라고 부르지 않아도 최대 1.5미터 떨어진 거리에서 화면을 보고 Google에 말을 걸 수 있습니다.
 
-원리: 기기가 카메라 감지를 활용하여 동영상을 분석해서 사용자가 어시스턴트를 활성화하려고 하는지 판단합니다. 어시스턴트가 사용자 요청을 잘못 감지하면 의도치 않게 활성화될 수 있습니다. 동영상은 기기 내부에서 처리되며 Google 서버로 전송되지 않습니다.
+작동 방식: 기기에서 카메라 감지를 활용하여 동영상을 분석해서 사용자가 어시스턴트를 활성화하려고 하는지 판단합니다. 어시스턴트가 사용자의 요청을 잘못 감지하면 의도치 않게 활성화될 수 있습니다. 동영상은 기기 내부에서 처리되며 Google 서버로 전송되지 않습니다.
 
 또한 어시스턴트는 Face Match 및 Voice Match를 사용하여 맞춤형 보면서 말하기 기능을 제공합니다. 다른 사용자가 보면서 말하기를 사용하고자 하는 경우 직접 자신의 Home 앱이나 어시스턴트 앱 설정에서 기능을 설정하면 됩니다.
 
-언제든지 Face Match 설정에서 이 기능을 사용 중지할 수 있습니다."</string>
+언제든지 Face Match 설정에서 이 기능을 사용 중지할 수 있습니다.
+
+참고: 보면서 말하기를 사용 설정한 상태에서도 계속해서 “Hey Google”이라고 말해도 됩니다."</string>
     <string name="blue_steel_consent_title">%1$s에서 보면서 말하기 기능 사용</string>
     <string name="blue_steel_learn_more">&lt;a href=%1$s>자세히 알아보기&lt;/a></string>
     <string name="blue_steel_turn_on">사용</string>
@@ -2085,7 +2114,6 @@ Google Home 앱 또는 Google 어시스턴트 앱의 설정에서 Voice Match와
     <string name="bottom_navigation_collections_label">컬렉션</string>
     <string name="bottom_navigation_drawer_label">더보기</string>
     <string name="bottom_navigation_search_label">검색</string>
-    <string name="bottom_navigation_snapshot_label">마이 데이</string>
     <string name="bottom_navigation_spark_label">디스커버</string>
     <string name="bottom_navigation_tabs_label">탭</string>
     <string name="bottomsheet_action_expand_halfway">반만 펼치기</string>
@@ -2093,6 +2121,8 @@ Google Home 앱 또는 Google 어시스턴트 앱의 설정에서 Voice Match와
     <string name="brightness">화면 밝기</string>
     <string name="broken_google_play_services_text">요청을 완료하려면 Google Play 서비스가 필요합니다. 기기를 다시 시작하세요.</string>
     <string name="bt_auto_trigger_title">자동차 연결 시 어시스턴트 운전 모드가 시작되도록 설정하세요</string>
+    <string name="bt_triggering_description">이 설정을 사용하여 자동차에 탑승할 때 운전 모드가 시작되도록 합니다.</string>
+    <string name="bt_triggering_title">자동차 블루투스에 연결된 경우</string>
     <string name="bubble_cancel_button_text">취소</string>
     <string name="bubble_dismiss_text">아래로 드래그하여 닫기</string>
     <string name="bubble_feedback_link">의견</string>
@@ -2218,7 +2248,6 @@ Google Home 앱 또는 Google 어시스턴트 앱의 설정에서 Voice Match와
     <string name="cct_account_mismatch_card_button_text">%1$s 열기</string>
     <string name="cct_account_mismatch_card_header">웹페이지 보기</string>
     <string name="cct_account_mismatch_card_text">여기에서 찾은 페이지를 보려면 &lt;b>%1$s 설정&lt;/b>을 업데이트하고 &lt;b>%2$s&lt;/b>의 동기화를 사용 설정하세요.</string>
-    <string name="chance_of_precipitation_label">강수 확률: %s</string>
     <string name="change_button_text">변경</string>
     <string name="change_speed_button">읽기 속도 변경</string>
     <string name="channel_description">향상된 음성 제어와 탭하기 쉬운 버튼 덕분에 운전에 더욱 집중할 수 있습니다.</string>
@@ -2332,6 +2361,7 @@ Google Home 앱 또는 Google 어시스턴트 앱의 설정에서 Voice Match와
     <string name="common_google_play_services_update_text">Google Play 서비스를 업데이트해야 %1$s이(가) 실행됩니다.</string>
     <string name="common_google_play_services_update_title">Google Play 서비스 업데이트</string>
     <string name="common_google_play_services_updating_text">현재 업데이트 중인 Google Play 서비스가 있어야 %1$s이(가) 실행됩니다.</string>
+    <string name="common_google_play_services_wear_update_text">새 버전의 Google Play 서비스가 필요합니다. 곧 자동으로 업데이트됩니다.</string>
     <string name="common_google_search_hint">Google 검색</string>
     <string name="common_google_search_label">Google</string>
     <string name="common_learn_more">자세히 알아보기</string>
@@ -2339,6 +2369,7 @@ Google Home 앱 또는 Google 어시스턴트 앱의 설정에서 Voice Match와
     <string name="common_open_on_phone">스마트폰에서 열기</string>
     <string name="common_see_updates">업데이트 보기</string>
     <string name="common_yes">확인</string>
+    <string name="comms_center_close_button_description">페이지 닫기</string>
     <string name="commute_eta_msg">%2$s까지 %1$s 소요 예정</string>
     <string name="commute_eta_time_hour">%1$s시간</string>
     <string name="commute_eta_time_hour_minute">%1$s시간 %2$s분</string>
@@ -2516,16 +2547,16 @@ Google 계정 설정의 %1$s 섹션에서 이러한 대화를 확인하고 관�
     <string name="cricket_second_innings">2이닝</string>
     <string name="crop_wallpaper">배경화면 잘라내기</string>
     <string name="cross_profile_meta_data">개인용 한눈에 보기 위젯에 다가오는 직장 일정 표시</string>
-    <string name="current_conditions_temperature" formatted="false">기온: %s %s</string>
     <string name="current_inning">%1$d회</string>
-    <string name="current_location_searchbox">현재 위치</string>
     <string name="current_period">%1$d라운드</string>
     <string name="custom">맞춤설정(휴대전화에서는 할 수 없음)</string>
+    <string name="custom_reply_button_string">맞춤 답장</string>
     <string name="custom_tabs_explore_action_button_desc">관련 페이지 보기</string>
     <string name="custom_tabs_link_copied">링크를 클립보드에 복사했습니다.</string>
     <string name="custom_tabs_menu_item_copy_link">링크 복사</string>
     <string name="custom_tabs_menu_item_help">도움말</string>
     <string name="custom_tabs_menu_item_open_in_browser_generic">웹브라우저에서 열기</string>
+    <string name="custom_tabs_menu_item_personal_info_removal">나와 관련된 검색결과 삭제</string>
     <string name="custom_tabs_menu_item_recent">최근</string>
     <string name="custom_tabs_menu_item_share">링크 공유...</string>
     <string name="custom_tabs_share_via">다음을 통해 공유</string>
@@ -2537,7 +2568,6 @@ Google 계정 설정의 %1$s 섹션에서 이러한 대화를 확인하고 관�
     <string name="cw_chip_icon_description">작업 칩 아이콘</string>
     <string name="cw_disabled_message">일시적으로 사용할 수 없습니다. 나중에 다시 확인해 보세요.</string>
     <string name="cw_feedback_chip_text">의견 보내기</string>
-    <string name="daily_conditions_sky_condition">날씨: %s</string>
     <string name="dangerous_or_harmful_activity">위험하거나 유해한 행위</string>
     <string name="data_in_assistant">어시스턴트의 내 데이터</string>
     <string name="data_sharing_action_button">허용</string>
@@ -2548,6 +2578,7 @@ Google 계정 설정의 %1$s 섹션에서 이러한 대화를 확인하고 관�
     <string name="data_sharing_title_text">모든 TV 앱에서 검색</string>
     <string name="date_at_time">%1$s %2$s</string>
     <string name="date_in_the_past">%1$s&lt;font color=#9E9E9E>은 이미 지났습니다&lt;/font>.</string>
+    <string name="day_picker_description">월별 바둑판식 날짜 표시</string>
     <string name="decline_button_description">통화 거절</string>
     <string name="decline_permissions">Not Now</string>
     <string name="deeplink_default_promocard_more_ways_to_search">Google 앱에서 이용할 수 있는 다양한 검색 방법을 확인하세요</string>
@@ -2557,7 +2588,6 @@ Google 계정 설정의 %1$s 섹션에서 이러한 대화를 확인하고 관�
     <string name="default_error">죄송합니다. 문제가 발생했습니다.</string>
     <string name="default_error_msg">알 수 없는 오류</string>
     <string name="default_group_name">그룹 채팅</string>
-    <string name="default_location_name">샌프란시스코</string>
     <string name="default_media_selection_description">어시스턴트에게 음악 재생을 요청하면 이 서비스가 기본적으로 사용됩니다.</string>
     <string name="default_media_selection_title">기본 음악 서비스 선택</string>
     <string name="default_microphone_error">문제가 발생했습니다. 다시 시도해 주세요.</string>
@@ -2901,9 +2931,12 @@ Google 어시스턴트 앱에서 어시스턴트를 다시 설정할 수 있습�
     <string name="dnd_setting_title">우선순위 알림만 표시</string>
     <string name="dnd_title_off">사용 안함</string>
     <string name="dnd_title_on">사용</string>
+    <string name="dnd_toggle_description">우선순위를 설정하지 않은 앱 알림은 운전 중에 무음 처리됩니다.</string>
+    <string name="dnd_toggle_title">운전 중 알림 제한</string>
     <string name="do_not_disturb_desc">방해 금지 모드</string>
     <string name="do_not_show_fewer_like_this">비슷한 콘텐츠 더 적게 표시 취소</string>
     <string name="do_not_show_more_like_this">비슷한 콘텐츠 더 이상 표시하지 않음</string>
+    <string name="do_nothing">아무것도 안함</string>
     <string name="done_button_text">완료</string>
     <string name="done_label">완료</string>
     <string name="doodle_content_description">Google 기념일 로고 이미지</string>
@@ -2932,8 +2965,11 @@ Google 어시스턴트 앱에서 어시스턴트를 다시 설정할 수 있습�
     <string name="dreamliner_dock_trusted_item_summary">"휴대전화가 잠금 상태로 Pixel Stand에 장착되어 있을 때 기기에서 사진, 이메일, 캘린더, 연락처, 리마인더 등의 개인 검색결과를 표시하도록 허용합니다. 어시스턴트를 통한 결제가 사용 설정되어 있는 경우 결제 기능도 허용됩니다. &lt;a href='https://support.google.com/assistant/answer/7684543?hl=en&amp;co=GENIE.Platform=Android'>자세히 알아보기&lt;/a>"</string>
     <string name="dreamliner_dock_trusted_item_title">Pixel Stand 개인 검색결과</string>
     <string name="drive_mode_dedup_string">운전 모드</string>
+    <string name="driving_general_settings_header">일반</string>
     <string name="driving_screen_not_driving_description">어시스턴트 운전 모드 종료</string>
     <string name="driving_screen_not_driving_label">운전 중이 아님</string>
+    <string name="driving_settings_subtitle">운전 중 어시스턴트의 지원 방식을 관리합니다</string>
+    <string name="driving_settings_title">운전 모드</string>
     <string name="drl_nga_mic_button">마이크</string>
     <string name="dsc_illustration_description">내 TV 앱 로고</string>
     <string name="dt_promocard_icon_description">어두운 테마</string>
@@ -2988,6 +3024,9 @@ Google 어시스턴트 앱에서 어시스턴트를 다시 설정할 수 있습�
     <string name="enable_google_play_services_link">사용</string>
     <string name="enable_google_play_services_text">요청을 완료하려면 Google Play 서비스를 사용하도록 설정해야 합니다.</string>
     <string name="enable_google_search_restriction">Google 검색 사용</string>
+    <string name="enable_mini_toggle_description">내비게이션 시작 시 운전 모드가 실행됨</string>
+    <string name="enable_mini_toggle_title">Google 지도에서 내비게이션 사용 시</string>
+    <string name="enable_mini_toggle_waiting_period_description">얼마 뒤부터 내비게이션을 시작하면 운전 모드가 설정됩니다.</string>
     <string name="enable_video_preview_autoplay">자동 재생</string>
     <string name="enable_video_preview_autoplay_on_mobile_data">모바일 네트워크에서 허용</string>
     <string name="enable_web_history_toast">웹 기록을 사용하도록 설정함</string>
@@ -3014,22 +3053,17 @@ Google 어시스턴트 앱에서 어시스턴트를 다시 설정할 수 있습�
     <string name="episode_sort">정렬</string>
     <string name="episode_sort_option_newest_first">최근 날짜순</string>
     <string name="episode_sort_option_oldest_first">오래된 날짜순</string>
-    <string name="error_adding_location_snackbar_text">위치를 추가하는 중에 오류가 발생했습니다.</string>
     <string name="error_assist_app_step_1_text"><b>1.</b> 아래의 <b>설정</b> 버튼을 탭합니다.</string>
     <string name="error_assist_app_step_2_text"><b>2.</b> <b>지원 앱</b> 섹션을 탭합니다.</string>
     <string name="error_assist_app_step_3_text"><b>3.</b> <b>Google</b>을 탭하여 기본값으로 설정합니다.</string>
     <string name="error_card_title_text_something_went_wrong">문제 발생</string>
     <string name="error_connecting_to_server">연결되지 않음</string>
-    <string name="error_fetching_suggestions_status_text">추천 항목을 가져오는 중에 오류가 발생했습니다.</string>
-    <string name="error_getting_current_location_status_text">현재 위치 정보를 가져오는 중에 오류가 발생했습니다.</string>
-    <string name="error_getting_location_info_status_text">선택한 위치 정보를 가져오는 중에 오류가 발생했습니다.</string>
     <string name="error_icon_content_description">오류</string>
     <string name="error_loading_content">페이지를 로드할 수 없습니다.</string>
     <string name="error_media_info">미디어를 재생하는 중에 오류가 발생했습니다.</string>
     <string name="error_no_connection_text">"사용 가능한 네트워크가 없습니다.
 연결 상태를 확인한 후 다시 시도해 보세요."</string>
     <string name="error_no_match_text">마이크를 탭하고 휴대전화에 대고 말하면 질문의 답을 빠르게 찾을 수 있습니다.</string>
-    <string name="error_removing_location_snackbar_text">위치를 삭제하는 중에 오류가 발생했습니다.</string>
     <string name="error_unreliable_network">문제가 발생했습니다. 연결 상태를 확인한 후 다시 시도하세요.</string>
     <string name="errors_header">E</string>
     <string name="errors_header_full_length">실책</string>
@@ -3090,6 +3124,53 @@ Google 어시스턴트 앱에서 어시스턴트를 다시 설정할 수 있습�
     <string name="explore_tab_shortcut_section_subtitle">자주 사용하는 앱을 바탕으로 표시됨</string>
     <string name="explore_tab_shortcut_section_title">추천 바로가기</string>
     <string name="exposed_dropdown_menu_content_description">드롭다운 메뉴 표시</string>
+    <string name="fa_alarm_instance_default_label">설정된 알람 없음</string>
+    <string name="fa_alarm_instance_filled_bullet">●</string>
+    <string name="fa_alarm_instance_switch_off_label">%1$s 알람이 해제됨</string>
+    <string name="fa_alarm_instance_switch_on_label">%1$s 알람이 설정됨</string>
+    <string name="fa_audio_recorder_audio_recording_text">녹음 중…</string>
+    <string name="fa_audio_recorder_default_play_record_time_text">00:00</string>
+    <string name="fa_audio_recorder_delete_audio_message">음성 메시지 삭제</string>
+    <string name="fa_audio_recorder_pause_audio_playback">일시중지</string>
+    <string name="fa_audio_recorder_playback_audio">재생</string>
+    <string name="fa_audio_recorder_recording_audio">녹음</string>
+    <string name="fa_audio_recorder_stop_recording_audio">녹음 중지</string>
+    <string name="fa_cancel_button_description">취소 버튼</string>
+    <string name="fa_confirm_button_description">확인 버튼</string>
+    <string name="fa_contact_selection_contact_icon_description">연락처 아이콘</string>
+    <string name="fa_contact_selection_pick_another_contact_view_hint">다른 연락처 선택</string>
+    <string name="fa_contact_selection_view_hint">연락처 선택</string>
+    <string name="fa_device_setting_toggle_icon_description">설정 아이콘</string>
+    <string name="fa_device_setting_toggle_off_description">%1$s 사용 중지됨</string>
+    <string name="fa_device_setting_toggle_on_description">%1$s 사용 설정됨</string>
+    <string name="fa_duration_hours_minutes_seconds">%1$02d시간 %2$02d분 %3$02d초</string>
+    <string name="fa_duration_minutes_seconds">%1$02d분 %2$02d초</string>
+    <string name="fa_duration_picker_confirm_button_text">완료</string>
+    <string name="fa_duration_picker_hour_unit_label">시간</string>
+    <string name="fa_duration_picker_minute_unit_label">분</string>
+    <string name="fa_duration_picker_second_unit_label">초</string>
+    <string name="fa_duration_picker_title">시간 설정</string>
+    <string name="fa_duration_seconds">%1$02d초</string>
+    <string name="fa_empty_time">--:--</string>
+    <string name="fa_family_info_broadcast_settings_button">방송 설정 버튼</string>
+    <string name="fa_family_info_collapse_button">사용자 표시 버튼 접기</string>
+    <string name="fa_family_info_uncollapse_button">사용자 표시 버튼 펼치기</string>
+    <string name="fa_filled_bullet">●</string>
+    <string name="fa_hour_unit_label">시</string>
+    <string name="fa_list_item_picker_title">다음 옵션 중 하나를 선택하세요</string>
+    <string name="fa_minute_unit_label">분</string>
+    <string name="fa_playback_audio">재생</string>
+    <string name="fa_recurrence_custom">맞춤설정(휴대전화에서는 설정할 수 없음)</string>
+    <string name="fa_recurrence_do_not_repeat">반복 안함</string>
+    <string name="fa_recurrence_none">반복 없음</string>
+    <string name="fa_remaining_duration_hours_minutes_seconds">%1$02d시간 %2$02d분 %3$02d초 남음</string>
+    <string name="fa_remaining_duration_minutes_seconds">%1$02d분 %2$02d초 남음</string>
+    <string name="fa_remaining_duration_seconds">%1$02d초 남음</string>
+    <string name="fa_second_unit_label">초</string>
+    <string name="fa_timer_status_active">실행 중</string>
+    <string name="fa_timer_status_paused">일시중지됨</string>
+    <string name="fa_timer_status_reset">재설정</string>
+    <string name="fa_timer_status_unknown">알 수 없음</string>
     <string name="facade_search_box_content_description">검색…</string>
     <string name="face_match_enabled_devices_section_subtitle">Face Match를 사용 설정한 기기의 목록입니다.</string>
     <string name="face_match_enabled_devices_section_title">Face Match가 사용 설정된 기기</string>
@@ -3149,7 +3230,6 @@ Google 어시스턴트 앱에서 어시스턴트를 다시 설정할 수 있습�
     <string name="fetch_with_no_notification_access_dismiss">닫기</string>
     <string name="fetch_with_no_notification_access_settings">설정</string>
     <string name="fetch_with_no_notification_access_title">%1$s에서 알림 듣기</string>
-    <string name="fetching_suggestions_status_text">추천 항목 가져오는 중...</string>
     <string name="filled_bullet">●</string>
     <string name="final_notification_no_reply_prompt">다시 읽어 드릴까요, 아니면 그만할까요?</string>
     <string name="final_notification_no_reply_reprompt">죄송합니다. 다시 읽어 드릴까요, 아니면 그만할까요?</string>
@@ -3464,7 +3544,7 @@ Google 어시스턴트 앱에서 어시스턴트를 다시 설정할 수 있습�
     <string name="googleapp_accountmenu_chrome_incognito">새 Chrome 시크릿 탭</string>
     <string name="googleapp_accountmenu_data_in_search">Google 검색</string>
     <string name="googleapp_accountmenu_passwords">비밀번호</string>
-    <string name="googleapp_accountmenu_personal_info_removal">개인 정보 삭제</string>
+    <string name="googleapp_accountmenu_personal_info_removal">Results about you</string>
     <string name="googleapp_accountmenu_quick_delete_education_easy">탭 한 번으로 지난 15분간의 Google 검색 기록을 삭제</string>
     <string name="googleapp_accountmenu_quickdelete_cancel">취소</string>
     <string name="googleapp_accountmenu_quickdelete_error">기록을 삭제할 수 없습니다.</string>
@@ -3480,7 +3560,7 @@ Google 어시스턴트 앱에서 어시스턴트를 다시 설정할 수 있습�
     <string name="googleapp_accountmenu_search_history">검색 기록</string>
     <string name="googleapp_accountmenu_your_contributions">내 참여 내역</string>
     <string name="googleapp_actionbutton_listen">소리내어 읽습니다.</string>
-    <string name="googleapp_ads_personalization_settings_title">Ads personalization</string>
+    <string name="googleapp_ads_personalization_settings_title">광고 개인 최적화</string>
     <string name="googleapp_amp_security_button_description">보안 연결됨</string>
     <string name="googleapp_app_suggestions_summary">설치된 앱 이름입니다.</string>
     <string name="googleapp_app_suggestions_title">앱</string>
@@ -3492,6 +3572,10 @@ Google 어시스턴트 앱에서 어시스턴트를 다시 설정할 수 있습�
     <string name="googleapp_autocomplete_with_trending_searches_header_title">인기 급상승 검색어</string>
     <string name="googleapp_autocomplete_with_trending_searches_summary">인기 급상승 검색어에는 거주 지역의 인기 검색어가 포함됩니다.</string>
     <string name="googleapp_autocomplete_with_trending_searches_title">인기 급상승 검색어 자동 완성</string>
+    <string name="googleapp_autoplay_video_previews_always">Wi-Fi 및 모바일 데이터 사용 시</string>
+    <string name="googleapp_autoplay_video_previews_never">사용 안함</string>
+    <string name="googleapp_autoplay_video_previews_setting_title">동영상 미리보기 자동재생</string>
+    <string name="googleapp_autoplay_video_previews_wifi">Wi-Fi 사용 시에만</string>
     <string name="googleapp_back_arrow_description">뒤로</string>
     <string name="googleapp_bar_color_title">바 색상</string>
     <string name="googleapp_bar_logo_title">바 로고</string>
@@ -3503,12 +3587,6 @@ Google 어시스턴트 앱에서 어시스턴트를 다시 설정할 수 있습�
     <string name="googleapp_boc_tooltip_tap_to_manage_your_preferences">탭하여 환경설정 및 의견 관리</string>
     <string name="googleapp_books_mode_landing_text">도서 검색</string>
     <string name="googleapp_bottom_navigation_collections_label_content_description">컬렉션 버튼</string>
-    <string name="googleapp_broad_queries_topbar_mic_description">음성 검색</string>
-    <string name="googleapp_broad_queries_topbar_search_description">검색</string>
-    <string name="googleapp_broad_queries_topbar_up_content_description">뒤로</string>
-    <string name="googleapp_broadqueries_error_message">인터넷 연결 상태가 정상인지 확인하세요.</string>
-    <string name="googleapp_broadqueries_error_title">문제 발생</string>
-    <string name="googleapp_broadqueries_loading_indicator_desc">콘텐츠 로드 중</string>
     <string name="googleapp_browser_actionbutton_ampinfo">AMP 추가 정보</string>
     <string name="googleapp_browser_actionbutton_overflowmenu">추가 작업</string>
     <string name="googleapp_browser_actionbutton_tabs">탭</string>
@@ -3521,8 +3599,8 @@ Google 어시스턴트 앱에서 어시스턴트를 다시 설정할 수 있습�
     <string name="googleapp_browser_clear_error">인터넷 사용 기록을 삭제하는 중에 문제가 발생했습니다.</string>
     <string name="googleapp_browser_contextmenu_open_in_new_tab_title">새 탭에서 열기</string>
     <string name="googleapp_browser_contextmenu_previewimage_description">이미지 미리보기</string>
-    <string name="googleapp_browser_contextmenu_previewimage_scrolllabel">Scroll for more of image</string>
-    <string name="googleapp_browser_contextmenu_previewimage_smalllabel">Image preview enlarged from original size</string>
+    <string name="googleapp_browser_contextmenu_previewimage_scrolllabel">스크롤하여 이미지의 나머지 부분을 확인하세요.</string>
+    <string name="googleapp_browser_contextmenu_previewimage_smalllabel">원본 크기를 확대한 이미지 미리보기입니다.</string>
     <string name="googleapp_browser_download_blocker_incognito_continue_btn">다운로드</string>
     <string name="googleapp_browser_download_blocker_incognito_message">다운로드한 파일은 기기에 저장됩니다. 시크릿 모드를 사용 중지한 후에도 파일에 액세스할 수 있습니다.</string>
     <string name="googleapp_browser_enable_title">Google 앱에서 웹페이지 열기</string>
@@ -3532,28 +3610,27 @@ Google 어시스턴트 앱에서 어시스턴트를 다시 설정할 수 있습�
     <string name="googleapp_browser_firstrun_summary">"Google 앱 업데이트가 완료되었으며, 이제 앱에서 기사, 동영상, 스토리와 같은 웹 콘텐츠를 둘러볼 수 있습니다.
 
 일부 웹사이트에서는 로그인해야 할 수 있으며 브라우저 설정을 검토해야 하는 경우도 있습니다."</string>
-    <string name="googleapp_browser_firstrun_summary_v2">"Now you can view pages faster and enjoy an improved search experience.
+    <string name="googleapp_browser_firstrun_summary_v2">"이제 향상된 검색 환경과 더욱 빠른 페이지 로드 속도를 즐겨보세요.
 
-You may need to log back in to some sites."</string>
+일부 사이트에 다시 로그인해야 할 수 있습니다."</string>
     <string name="googleapp_browser_firstrun_summary_v2_part2">"
 
-Manage your new browser security and privacy settings in the app."</string>
+새로운 브라우저 보안 설정과 개인 정보 보호 설정을 앱에서 관리하세요."</string>
     <string name="googleapp_browser_firstrun_title">이제 Google 앱에서 웹 콘텐츠를 확인하세요</string>
-    <string name="googleapp_browser_firstrun_title_v2">Browse without leaving the app</string>
+    <string name="googleapp_browser_firstrun_title_v2">앱을 종료하지 않고 둘러보기</string>
     <string name="googleapp_browser_setting_clear_cache_title"><b>캐시된 이미지 및 파일</b>"
 일부 사이트는 다음 방문 시 로드 속도가 느려질 수 있습니다."</string>
     <string name="googleapp_browser_setting_clear_data_title"><b>쿠키 및 사이트 데이터</b>"
 대부분의 사이트에서 로그아웃됩니다. Google 계정에서는 로그아웃되지 않습니다."</string>
     <string name="googleapp_browser_settings_browser_privacy_category_title">브라우저 개인 정보 보호</string>
     <string name="googleapp_browser_settings_browser_safety_category_title">브라우저 보안</string>
-    <string name="googleapp_browser_settings_browsing_history_summary">Manage your browsing history at My Activity</string>
+    <string name="googleapp_browser_settings_browsing_history_summary">내 활동에서 방문 기록을 관리합니다.</string>
     <string name="googleapp_browser_settings_browsing_history_title">방문 기록</string>
     <string name="googleapp_browser_settings_clear_browsing_data_summary">쿠키 및 캐시된 데이터 삭제</string>
     <string name="googleapp_browser_settings_clear_browsing_data_title">인터넷 사용 기록 삭제하기</string>
     <string name="googleapp_browser_settings_cleardata_button_text">데이터 지우기</string>
     <string name="googleapp_browser_settings_extended_safe_browsing_summary">브라우저 정보를 Google에 전송하여 위험한 앱과 사이트를 감지하도록 돕습니다. 여기에는 방문한 일부 페이지의 URL, 제한된 시스템 정보, 일부 페이지 콘텐츠가 포함됩니다.</string>
     <string name="googleapp_browser_settings_extended_safe_browsing_title">브라우저 보안 개선에 참여</string>
-    <string name="googleapp_browser_settings_link">브라우저 설정</string>
     <string name="googleapp_browser_settings_real_time_safe_browsing_summary">사이트를 방문할 때마다 새 보안 문제가 있는지 확인합니다. 방문하는 페이지의 URL이 Google로 전송됩니다.</string>
     <string name="googleapp_browser_settings_real_time_safe_browsing_title">실시간으로 사이트 보안 검사</string>
     <string name="googleapp_browser_settings_safe_browsing_summary">알려진 보안 문제가 있는 사이트를 방문할 때 경고를 표시합니다. 안전하지 않은 URL을 방문하면 URL이 Google로 전송될 수 있습니다.</string>
@@ -3620,10 +3697,10 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_covid_vaccine_register_25_subheader">만 25세 이상이면 누구나 백신을 접종받을 수 있습니다</string>
     <string name="googleapp_covid_vaccine_register_header">COVID 백신 접종 신청하기</string>
     <string name="googleapp_custom_color_description">색상 맞춤 검색 위젯</string>
-    <string name="googleapp_custom_color_hue_slider_description">Custom hue slider</string>
-    <string name="googleapp_custom_color_hue_slider_label">Hue</string>
-    <string name="googleapp_custom_color_saturation_slider_description">Custom saturation slider</string>
-    <string name="googleapp_custom_color_saturation_slider_label">Saturation</string>
+    <string name="googleapp_custom_color_hue_slider_description">맞춤 색조 슬라이더</string>
+    <string name="googleapp_custom_color_hue_slider_label">색조</string>
+    <string name="googleapp_custom_color_saturation_slider_description">맞춤 채도 슬라이더</string>
+    <string name="googleapp_custom_color_saturation_slider_label">채도</string>
     <string name="googleapp_custom_tabs_collections_menu_item_title">컬렉션 보기</string>
     <string name="googleapp_custom_tabs_copy_link_menu_item_title">링크 복사</string>
     <string name="googleapp_custom_tabs_copy_link_toast_text">클립보드에 복사됨</string>
@@ -3635,6 +3712,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_custom_tabs_enabled_setting_unavailable_need_first_run_done">이 옵션을 사용할 수 있도록 Chrome을 열고 설정합니다.</string>
     <string name="googleapp_custom_tabs_enabled_setting_unavailable_update_chrome">이 설정을 사용할 수 있도록 Chrome 최신 버전을 설치합니다.</string>
     <string name="googleapp_custom_tabs_help_menu_item_title">도움말</string>
+    <string name="googleapp_custom_tabs_piros_menu_item_title">나와 관련된 검색결과 삭제</string>
     <string name="googleapp_custom_tabs_recently_menu_item_title">최근</string>
     <string name="googleapp_customize_text">맞춤설정</string>
     <string name="googleapp_disco_channels_and_interests_tng_setting">채널 및 관심분야</string>
@@ -3746,7 +3824,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_general_settings_title">일반</string>
     <string name="googleapp_go_to_discover_content_description">디스커버로 이동</string>
     <string name="googleapp_goc_bottombar_close_description">관련 페이지 숨기기</string>
-    <string name="googleapp_google_app_browser_instacart_button_content_description">Instacart button</string>
+    <string name="googleapp_google_app_browser_instacart_button_content_description">Instacart 버튼</string>
     <string name="googleapp_hide_explicit_results_settings_title">검색결과에서 음란물 숨기기</string>
     <string name="googleapp_images_mode_landing_text">이미지 검색</string>
     <string name="googleapp_incognito_app_strip_header">앱 검색결과(시크릿 모드가 아닐 수 있음)</string>
@@ -3780,7 +3858,6 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_incognito_setup_device_biometrics_dialog_title">생체 인식 설정</string>
     <string name="googleapp_incognito_signpost_button_text">끄기</string>
     <string name="googleapp_incognito_signpost_icon_description">시크릿 모드 이정표 아이콘</string>
-    <string name="googleapp_incognito_signpost_message_assistant">시크릿 모드로 탐색하는 중에는 어시스턴트 기능을 사용할 수 없습니다. 어시스턴트를 사용하려면 시크릿 모드를 종료하세요.</string>
     <string name="googleapp_incognito_signpost_message_collections">시크릿 모드에서는 컬렉션을 사용할 수 없습니다. 컬렉션을 사용하려면 시크릿 모드를 종료하세요.</string>
     <string name="googleapp_incognito_signpost_message_default">시크릿 모드로 탐색하는 중에는 사용할 수 없는 기능입니다. 이 기능을 사용하려면 시크릿 모드를 종료하세요.</string>
     <string name="googleapp_incognito_signpost_message_discover">시크릿 모드에서는 디스커버 피드를 사용할 수 없습니다.</string>
@@ -3803,7 +3880,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_interstitial_visibility_warning_isp">인터넷 서비스 제공업체(ISP)</string>
     <string name="googleapp_interstitial_visibility_warning_websites">방문한 웹사이트</string>
     <string name="googleapp_language_setting_title">검색 언어</string>
-    <string name="googleapp_language_switcher_auto_option">Auto-switch</string>
+    <string name="googleapp_language_switcher_auto_option">자동 전환</string>
     <string name="googleapp_lens_button_content_description">카메라 검색</string>
     <string name="googleapp_lens_explainer">검색하려는 대상의 사진을 촬영하세요.</string>
     <string name="googleapp_lens_icon_content_description">카메라 검색</string>
@@ -3882,7 +3959,14 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_recent_pages_enabled_setting_title">최근 페이지</string>
     <string name="googleapp_region_setting_title">검색 지역</string>
     <string name="googleapp_reset_style_text">기본 스타일로 재설정</string>
-    <string name="googleapp_save_button_text">Save</string>
+    <string name="googleapp_save_button_text">저장</string>
+    <string name="googleapp_save_feature_default_collection_label">즐겨찾는 페이지</string>
+    <string name="googleapp_save_feature_error_title">죄송합니다. 문제가 발생했습니다.</string>
+    <string name="googleapp_save_feature_share_close_button_description">닫기</string>
+    <string name="googleapp_save_feature_share_receiver_subject_and_text">"%1$s
+
+%2$s"</string>
+    <string name="googleapp_save_feature_share_save">저장</string>
     <string name="googleapp_search_a_song_content_description">탭하여 노래 인식 시작</string>
     <string name="googleapp_search_bar_radius_24dp_description">타원형</string>
     <string name="googleapp_search_bar_radius_2dp_description">직사각형</string>
@@ -3912,26 +3996,27 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_second_screen_manage_interests_menu_label">관심분야 관리</string>
     <string name="googleapp_second_screen_settings_menu_label">설정</string>
     <string name="googleapp_see_updates">소식 보기</string>
-    <string name="googleapp_settings_about_link">정보</string>
+    <string name="googleapp_setting_error_card_icon_content_description">오류</string>
+    <string name="googleapp_setting_error_card_message_explanation">웹페이지를 로드할 수 없습니다.</string>
+    <string name="googleapp_setting_error_card_message_title">문제 발생</string>
     <string name="googleapp_settings_about_title">정보</string>
-    <string name="googleapp_settings_general_link">일반</string>
-    <string name="googleapp_settings_language_and_region_link">언어 및 지역</string>
     <string name="googleapp_settings_language_and_region_title">언어 및 지역</string>
     <string name="googleapp_settings_legal_notices_title">법적 고지</string>
     <string name="googleapp_settings_location_terms_of_service_title">위치 서비스 약관</string>
+    <string name="googleapp_settings_nav_up">위로 이동</string>
     <string name="googleapp_settings_open_source_licenses_title">제3자 고지사항</string>
     <string name="googleapp_settings_privacy_and_security_link">개인 정보 보호 및 보안</string>
     <string name="googleapp_settings_privacy_policy_title">개인정보처리방침</string>
-    <string name="googleapp_settings_search_widget_link">검색 위젯</string>
+    <string name="googleapp_settings_search">검색</string>
+    <string name="googleapp_settings_search_hint">설정 검색</string>
     <string name="googleapp_settings_terms_of_service_title">서비스 약관</string>
-    <string name="googleapp_settings_voice_link">음성</string>
     <string name="googleapp_settings_voice_title">음성</string>
     <string name="googleapp_shopping_mode_landing_text">쇼핑 검색</string>
     <string name="googleapp_show_waiting_text">잠시만 기다려 주세요…</string>
-    <string name="googleapp_sign_in_tout_header">Sign in to personalize Discover</string>
-    <string name="googleapp_sign_in_tout_negative_text">Cancel</string>
-    <string name="googleapp_sign_in_tout_positive_text">Sign in</string>
-    <string name="googleapp_sign_in_tout_subheader">Control what you see in the Google app by signing in</string>
+    <string name="googleapp_sign_in_tout_header">로그인하여 디스커버를 맞춤설정하세요</string>
+    <string name="googleapp_sign_in_tout_negative_text">취소</string>
+    <string name="googleapp_sign_in_tout_positive_text">로그인</string>
+    <string name="googleapp_sign_in_tout_subheader">로그인하면 Google 앱에 표시되는 콘텐츠를 관리할 수 있습니다</string>
     <string name="googleapp_signed_out_pq_based_suggestion_message">최근 검색어와 관련된 예상 검색어입니다.</string>
     <string name="googleapp_silk_pane_close_button">닫기</string>
     <string name="googleapp_silk_pane_dismiss_message">닫기</string>
@@ -3939,6 +4024,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_sno_subscriptions_internal_error_header">문제 발생</string>
     <string name="googleapp_sno_subscriptions_offline_error_message">구독을 확인하고 수정하려면 네트워크에 연결해야 합니다.</string>
     <string name="googleapp_sound_search_search_a_song_hint">노래 검색</string>
+    <string name="googleapp_srp_query_tiger">호랑이</string>
     <string name="googleapp_stamp_viewer_actionbutton_feedback">의견 보내기</string>
     <string name="googleapp_stamp_viewer_actionbutton_heart">하트</string>
     <string name="googleapp_stamp_viewer_actionbutton_help_center">고객센터</string>
@@ -3953,7 +4039,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_stamp_viewer_error_title">문제 발생</string>
     <string name="googleapp_stamp_viewer_overflow_menu_button_content_description">추가 옵션</string>
     <string name="googleapp_stamp_viewer_overflow_menu_close">닫기</string>
-    <string name="googleapp_stamp_viewer_preview_button_text">전체 내용 읽기</string>
+    <string name="googleapp_stamp_viewer_preview_button_text">계속 보기</string>
     <string name="googleapp_stamp_viewer_preview_label">미리보기</string>
     <string name="googleapp_stamp_viewer_publisher_cta">방문</string>
     <string name="googleapp_stamp_viewer_retry_button_text">다시 시도</string>
@@ -3970,7 +4056,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_tabs_manager_close_all_tabs_dialog_confirmation_button_label">모두 닫기</string>
     <string name="googleapp_tabs_manager_close_all_tabs_dialog_confirmation_message">열린 탭을 모두 닫으시겠습니까?</string>
     <string name="googleapp_tabs_manager_close_tab_button_default_description">탭 닫기</string>
-    <string name="googleapp_tabs_manager_close_tab_button_description">웹사이트 닫기 %s - 버튼</string>
+    <string name="googleapp_tabs_manager_close_tab_button_description">%s 웹사이트 닫기</string>
     <string name="googleapp_tabs_manager_empty_state_title">열려 있는 탭 없음</string>
     <string name="googleapp_tabs_manager_new_tab_button_description">새 검색 시작</string>
     <string name="googleapp_tabs_manager_new_tab_button_text">새 탭</string>
@@ -3988,18 +4074,19 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_voice_search_humming">허밍으로 노래를 검색하세요.</string>
     <string name="googleapp_voice_search_tired_of_typing">입력하기가 귀찮으신가요? 음성으로 검색하세요.</string>
     <string name="googleapp_voice_search_with_voice">음성으로 검색하세요.</string>
+    <string name="googleapp_voice_settings_assistant_title">Google 어시스턴트</string>
     <string name="googleapp_voice_settings_languages_setting_check_content_description">선택됨</string>
     <string name="googleapp_voice_settings_languages_setting_limit_reached_notice">한도에 도달했습니다. 언어를 추가로 선택할 수 없습니다.</string>
     <string name="googleapp_voice_settings_languages_setting_no_selection_notice">언어를 선택하지 않았습니다.</string>
     <string name="googleapp_voice_settings_languages_setting_save_button_text">저장</string>
+    <string name="googleapp_voice_settings_languages_setting_summary_text_others">Others:</string>
+    <string name="googleapp_voice_settings_languages_setting_summary_text_primary">Primary:</string>
     <string name="googleapp_voice_settings_languages_setting_title">언어</string>
     <string name="googleapp_voice_settings_offline_speech_recognition_setting_summary">다운로드한 언어 관리</string>
     <string name="googleapp_voice_settings_offline_speech_recognition_setting_title">오프라인 음성 인식</string>
     <string name="googleapp_voice_settings_spoken_results_setting_title">음성 검색결과</string>
-    <string name="googleapp_voice_settings_spoken_results_value_all_voices">모든 음성 검색</string>
-    <string name="googleapp_voice_settings_spoken_results_value_hands_free_only">핸즈프리 검색만</string>
-    <string name="googleapp_voice_settings_voice_match_setting_summary">Google 어시스턴트에 음성으로 명령하여 작업 처리</string>
-    <string name="googleapp_voice_settings_voice_match_setting_title">Voice Match</string>
+    <string name="googleapp_voice_settings_spoken_results_value_all_voices">On</string>
+    <string name="googleapp_voice_settings_spoken_results_value_hands_free_only">Off</string>
     <string name="googleapp_waa_disabled_tout_promo_description">Google 검색 개인 정보 보호 설정</string>
     <string name="googleapp_waa_disabled_tout_promo_header">피드에 방문 기록을 사용하지 않음</string>
     <string name="googleapp_waa_disabled_tout_promo_subheader">웹 및 앱 활동이 사용 중지되어 있기 때문에 표시되는 디스커버 피드 내용에 방문 기록이 사용되지 않습니다</string>
@@ -4082,6 +4169,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="herbie_skip_ota_dialog_message">업데이트를 완료하지 않고 계속하면 %1$s이(가) 제대로 작동하지 않을 수 있습니다.</string>
     <string name="herbie_skip_ota_dialog_title">기기가 제대로 작동하지 않을 수 있음</string>
     <string name="heres_the_message">메시지 도착:</string>
+    <string name="hey_google_title">‘Hey Google’ 감지</string>
     <string name="hide_account_list">계정 숨김</string>
     <string name="hide_completed_episodes">재생이 완료된 에피소드 숨기기</string>
     <string name="hide_debug_info">디버그 정보 숨기기</string>
@@ -4126,6 +4214,8 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="hotword_disabled_motorola_aov">"다른 기능에서 '%1$s' 대신 마이크를 사용하고 있습니다. Moto Voice를 사용 중지하여 '%1$s'을 다시 사용 설정하세요."</string>
     <string name="hotword_disabled_text">"사용 중인 어시스턴트 언어로는 %1$s에서 'Hey Google'이 작동하지 않습니다."</string>
     <string name="hotword_disabled_title">"%1$s에서 'Hey Google' 사용 불가"</string>
+    <string name="hotword_enrollment_battery_impact_disclosure_wear_os">“%1$s”을 사용 설정하면 시계 배터리 사용량이 늘어납니다. 어시스턴트 설정에서 “%2$s”을 사용 중지할 수 있습니다.</string>
+    <string name="hotword_enrollment_battery_impact_disclosure_wear_os_for_unicorn">“%1$s”을 사용 설정하면 시계 배터리 사용량이 늘어납니다. %3$s님의 어시스턴트 설정에서 “%2$s”을 사용 중지할 수 있습니다.</string>
     <string name="hotword_enrollment_button_more">더보기</string>
     <string name="hotword_enrollment_delete_voice_model">음성 모델 삭제하기</string>
     <string name="hotword_enrollment_device_fast_update_progress_summary">어시스턴트가 이전에 녹음된 음성 클립을 사용하여 이 기기에서 사용할 음성 모델을 만듭니다.</string>
@@ -4145,7 +4235,10 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="hotword_enrollment_enroll_text_opa_talkback">아래 %1$s 버튼을 활성화한 다음 \"%2$s\"이라고 말하여 어시스턴트가 내 음성을 익히도록 도와주세요.</string>
     <string name="hotword_enrollment_enroll_text_opa_talkback_assistant_device">"어시스턴트가 내 음성을 인식하도록 학습시키려면 하단의 '녹음 시작' 버튼을 탭한 다음 메시지가 표시되면 다음과 같이 말하세요.
 %1$s"</string>
+    <string name="hotword_enrollment_enroll_text_opa_tisid_talkback_assistant_device">다음 화면에서는 어시스턴트가 말하는 문구를 내가 따라 하여 어시스턴트에게 내 목소리를 학습시킵니다. 먼저 어시스턴트가 말하는 문구를 듣고 녹음 시작 버튼을 누른 다음 따라서 말해 보세요. 시작하려면 %1$s 버튼을 탭하세요.</string>
+    <string name="hotword_enrollment_enroll_tisid_talkback_next">다음</string>
     <string name="hotword_enrollment_fast_update_header_title">Voice Match 활성화</string>
+    <string name="hotword_enrollment_feature_disabled">이 기능은 사용 중지되었습니다.</string>
     <string name="hotword_enrollment_feature_disabled_by_admin">관리자가 이 기능을 사용 중지했습니다.</string>
     <string name="hotword_enrollment_from_fdl_google_home_share_screen_done">완료</string>
     <string name="hotword_enrollment_google_home_enrollment_intro_title_activate">이 기기에서 Voice Match 활성화</string>
@@ -4173,8 +4266,8 @@ Manage your new browser security and privacy settings in the app."</string>
 이제 맞춤 검색결과를 받아볼 수 있어요. 기기에 로그인하려면 탭하세요. g.co/voicematch"</string>
     <string name="hotword_enrollment_google_home_share_message_subject">어시스턴트에게 나를 인식하도록 가르치세요</string>
     <string name="hotword_enrollment_google_home_share_screen_done">초대</string>
-    <string name="hotword_enrollment_google_home_skip_dialog_negative_button">Voice Match 설정</string>
-    <string name="hotword_enrollment_google_home_skip_dialog_positive_button">완료</string>
+    <string name="hotword_enrollment_google_home_skip_dialog_negative_button">삭제</string>
+    <string name="hotword_enrollment_google_home_skip_dialog_positive_button">Voice Match 설정</string>
     <string name="hotword_enrollment_google_home_skip_dialog_title">기기에서 {PERSON}님의 계정이 삭제됩니다</string>
     <string name="hotword_enrollment_google_home_summary_footer_text">%1$s에서 음성 활동을 확인하거나 삭제할 수 있습니다. 어시스턴트 설정에서 Voice Match를 사용 중지할 수도 있습니다.</string>
     <string name="hotword_enrollment_google_home_tisid_enrollment_devices">"
@@ -4192,7 +4285,16 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="hotword_enrollment_intro_get_started_unicorn">다음</string>
     <string name="hotword_enrollment_intro_header_summary">Google 어시스턴트를 사용해 핸즈프리로 도움을 받으세요.</string>
     <string name="hotword_enrollment_intro_header_summary_oobe">{GENDER,select, male{%1$s님이 음성을 사용해 핸즈프리로 도움을 받을 수 있습니다.}female{%1$s님이 음성을 사용해 핸즈프리로 도움을 받을 수 있습니다.}other{%1$s님이 음성을 사용해 핸즈프리로 도움을 받을 수 있습니다.}}</string>
-    <string name="hotword_enrollment_intro_header_summary_wear_os_battery_disclosure">사용자가 핸즈프리로 도움을 요청할 수 있도록 시계가 대기 모드에서 기다립니다.</string>
+    <string name="hotword_enrollment_intro_header_summary_wear_os">"%1$s을 탭하면 시계가 완전한 활성 상태일 때 어시스턴트가 “%2$s”을 감지하기 위한 대기 상태가 됩니다.
+
+또한 “%3$s”과 함께 Voice Match를 사용해야 어시스턴트가 나를 인식할 수 있습니다."</string>
+    <string name="hotword_enrollment_intro_header_summary_wear_os_for_unicorn">"{GENDER,select, male{%1$s을 탭하면 시계가 완전한 활성 상태일 때 %2$s님의 어시스턴트가 “%3$s”을 감지하기 위한 대기 상태가 됩니다.
+
+또한 “%4$s”과 함께 Voice Match를 사용해야 어시스턴트가 %5$s님을 인식할 수 있습니다.}female{%1$s을 탭하면 시계가 완전한 활성 상태일 때 %2$s님의 어시스턴트가 “%3$s”을 감지하기 위한 대기 상태가 됩니다.
+
+또한 “%4$s”과 함께 Voice Match를 사용해야 어시스턴트가 %5$s님을 인식할 수 있습니다.}other{%1$s을 탭하면 시계가 완전한 활성 상태일 때 %2$s님의 어시스턴트가 “%3$s”을 감지하기 위한 대기 상태가 됩니다.
+
+또한 “%4$s”과 함께 Voice Match를 사용해야 어시스턴트가 %5$s님을 인식할 수 있습니다.}}"</string>
     <string name="hotword_enrollment_intro_header_title">\"%1$s\"로 어시스턴트 사용</string>
     <string name="hotword_enrollment_intro_header_title_glif_non_opa">언제든지 음성으로 검색</string>
     <string name="hotword_enrollment_intro_header_title_oobe">%1$s님이 “%2$s”로 Google 어시스턴트에 액세스할 수 있도록 허용</string>
@@ -4215,6 +4317,8 @@ Voice Match를 통해 어시스턴트가 %1$s님을 인식하고 다른 사람�
 나중에 Voice Match가 %1$s님에게 적합하지 않다고 생각되면 어시스턴트 설정에서 Voice Match를 삭제하세요. Voice Match 설정 중에 %1$s님이 녹음한 오디오 클립을 확인하거나 삭제하려면 %1$s님의 계정에서 activity.google.com으로 이동하세요. 
 
 참고: 자녀와 비슷한 음성 또는 녹음된 클립을 사용하여 다른 사람이 어시스턴트를 통해 %1$s님의 개인 검색결과에 액세스할 수 있습니다.}}"</string>
+    <string name="hotword_enrollment_intro_misactivation_disclaimer_wear_os">“%1$s”과 비슷한 소음이 들리면 의도치 않게 어시스턴트가 활성화될 수 있습니다.</string>
+    <string name="hotword_enrollment_intro_misactivation_disclaimer_wear_os_for_unicorn">예를 들어 “%2$s”과 비슷한 소음이 들리면 %1$s님이 의도하지 않아도 어시스턴트가 활성화될 수 있습니다.</string>
     <string name="hotword_enrollment_intro_summary_glif_non_opa">화면이 꺼져 있을 때나 좋아하는 다른 앱을 사용하고 있을 때도 언제든지 \"%1$s\"이라고 말하세요.&lt;br/>&lt;br/>기기에 고유한 음성 모델이 생성되어 Google 음성검색이 나를 다른 사람과 구분할 수 있게 됩니다.&lt;br/>&lt;br/>&lt;b>주의사항:&lt;/b> 비슷한 음성이나 녹음된 음성으로도 음성검색에 액세스할 수 있습니다. 나중에 Google 앱에서 권한을 사용 중지할 수 있습니다.</string>
     <string name="hotword_enrollment_intro_title_activate_hey_google">%1$s을 사용한 Voice Match 활성화</string>
     <string name="hotword_enrollment_intro_title_activate_hey_google_for_unicorn">%1$s님의 Voice Match 활성화</string>
@@ -4308,7 +4412,6 @@ Voice Match를 통해 어시스턴트가 %1$s님을 인식하고 다른 사람�
     <string name="hotword_enrollment_voice_match_next">다음</string>
     <string name="hotword_enrollment_voice_match_no_thanks">닫기</string>
     <string name="hotword_enrollment_voice_match_skip">건너뛰기</string>
-    <string name="hotword_enrollment_wear_os_battery_impact_disclosure">대기 모드에서는 시계 배터리가 더 많이 소모됩니다.</string>
     <string name="hotword_enrollment_wrong_query">다시 말씀해 주세요.</string>
     <string name="hotword_model_download_notification_content">음성 모델을 업데이트하면 \"%1$s\"이라고 말할 때 더 잘 인식하게 됩니다.</string>
     <string name="hotword_model_download_notification_title">"'%1$s' 모델 업데이트"</string>
@@ -4598,6 +4701,7 @@ Voice Match 설정 중에 녹음한 오디오 클립을 보거나 삭제하려�
     <string name="language_switcher_nudge_string">언어를 변경하려면 이 버튼을 클릭하세요.</string>
     <string name="language_unsupported_text">어시스턴트의 언어를 변경하세요.</string>
     <string name="language_unsupported_tts">차량에서 선택하신 언어가 지원되지 않습니다. 계속해서 어시스턴트의 지원을 받으시려면 대화용으로 다른 언어를 선택하세요. 안전한 상황일 때 차량의 어시스턴트 설정에서 선택하세요.</string>
+    <string name="launch_driving_mode">운전 모드 실행</string>
     <string name="launcher_name">Google Now 런처</string>
     <string name="launcher_shortcut_assistant_short">Google 어시스턴트</string>
     <string name="launcher_shortcut_text_search_short">검색</string>
@@ -4753,14 +4857,13 @@ Voice Match 설정 중에 녹음한 오디오 클립을 보거나 삭제하려�
     <string name="lens_info_panel_on_device_chip_share_translate_content_description">번역된 이미지 공유</string>
     <string name="lens_info_panel_on_device_chip_translate">번역</string>
     <string name="lens_info_panel_on_device_chip_translate_content_description">선택한 텍스트 번역</string>
-    <string name="lens_info_panel_on_device_no_text_header_title">텍스트 없음</string>
     <string name="lens_info_panel_on_device_results_header_limited_functionality">일부 기능을 사용할 수 없음</string>
     <string name="lens_info_panel_on_device_results_header_offline">오프라인</string>
     <string name="lens_info_panel_on_device_text_header_title">이미지에서 발견된 텍스트</string>
     <string name="lens_info_panel_on_device_translation_header_title">번역된 텍스트</string>
+    <string name="lens_info_panel_partial_translate_enabled_header_title">원본 텍스트</string>
     <string name="lens_info_panel_processing_message">로드 중…</string>
     <string name="lens_info_panel_quoted_title">\"%1$s\"</string>
-    <string name="lens_info_panel_select_text_to_translate_header_title">번역할 텍스트 선택</string>
     <string name="lens_kilometers_indicator">%skm</string>
     <string name="lens_latex_input_hint">수학 문제 입력</string>
     <string name="lens_launcher_description">카메라 검색</string>
@@ -4856,6 +4959,7 @@ Voice Match 설정 중에 녹음한 오디오 클립을 보거나 삭제하려�
     <string name="lens_sample_images_translate_card_text_short">이미지 번역</string>
     <string name="lens_search_bar_hint">음식점 이름 입력</string>
     <string name="lens_search_filter_name">검색</string>
+    <string name="lens_selection_state_guidance_message_on_device_translation">번역할 텍스트를 탭하세요.</string>
     <string name="lens_share_to_lens_label">이미지 검색</string>
     <string name="lens_share_translate_message">Google 렌즈를 사용하여 번역했습니다. 체험해 보세요.</string>
     <string name="lens_shopping_filter_guidance_message">제품 또는 바코드 사진 찍기</string>
@@ -4970,14 +5074,10 @@ Voice Match 설정 중에 녹음한 오디오 클립을 보거나 삭제하려�
     <string name="local_intent_search">오프라인 상태에서 위치를 찾으려고 하시는 것 같습니다.</string>
     <string name="local_results_map_description">%1$s 지도</string>
     <string name="location">위치</string>
-    <string name="location_added_snackbar_text">위치 추가됨</string>
-    <string name="location_default_error">문제가 발생했습니다. 나중에 다시 시도하세요.</string>
     <string name="location_feedback_button_heading">위치 카드는 ‘위치 카드 의견 양식’을 클릭하세요.</string>
     <string name="location_feedback_button_text">위치 카드 의견 양식</string>
     <string name="location_name">이름</string>
-    <string name="location_not_saved_snackbar_text">%s 저장에 실패하였습니다.</string>
     <string name="location_permission_toast">Google 검색 및 어시스턴트가 내 위치(백그라운드 위치 포함)를 사용하여 지역에 맞는 검색결과와 기능을 제공할 수 있습니다.</string>
-    <string name="location_removed_snackbar_text">위치 삭제됨</string>
     <string name="location_setting_title">위치</string>
     <string name="locked_fetch_requires_hpr">휴대전화가 잠겨 있을 때 알림을 들으려면 헤드폰 개인 검색결과를 사용 설정해야 합니다. 자세한 내용은 휴대전화에서 알림을 확인하세요.</string>
     <string name="locked_fetch_requires_unlock">알림 및 기타 개인 검색결과를 들으려면 휴대전화를 한 번 잠금 해제해야 합니다.</string>
@@ -5010,7 +5110,6 @@ Voice Match 설정 중에 녹음한 오디오 클립을 보거나 삭제하려�
     <string name="main_page_subtitle">\"Hey Google\"이라고 말해서 앱을 쉽게 이용할 수 있도록 바로가기를 만들어 보세요.</string>
     <string name="main_page_title">바로가기</string>
     <string name="make_a_call_text">전화 걸기</string>
-    <string name="manage_accounts">계정 관리</string>
     <string name="manage_activity_button_text">기록 관리</string>
     <string name="manage_all_assistant_settings">모든 어시스턴트 설정 관리</string>
     <string name="manage_apps_title">앱 및 서비스 관리</string>
@@ -5069,6 +5168,7 @@ Voice Match 설정 중에 녹음한 오디오 클립을 보거나 삭제하려�
     <string name="mdd_notification_action_cancel">취소</string>
     <string name="mdd_notification_download_failed">다운로드 실패</string>
     <string name="mdd_notification_download_paused">네트워크 연결 대기 중</string>
+    <string name="mdd_notification_download_paused_wifi">Waiting for WiFi connection</string>
     <string name="mdd_notification_download_success">다운로드됨</string>
     <string name="media_artist_a11y">%1$s, 아티스트</string>
     <string name="media_assistant_logo_a11y">클릭하여 말하기</string>
@@ -5133,6 +5233,10 @@ Voice Match 설정 중에 녹음한 오디오 클립을 보거나 삭제하려�
     <string name="menu_overlay_reset_to_default_style">기본 스타일로 재설정</string>
     <string name="menu_refresh">새로고침</string>
     <string name="menu_send_button_content_description">의견 제출용 전송 버튼입니다.</string>
+    <string name="message_alert_hear_contact">연락처 이름 듣기</string>
+    <string name="message_alert_hear_message">전체 메시지 듣기</string>
+    <string name="message_alert_notification_only">알림만</string>
+    <string name="message_alert_title">메시지 알림 선택</string>
     <string name="message_announce_title">메시지 알림</string>
     <string name="message_card_feedback">의견 보내기</string>
     <string name="message_center_auto_read_setting_turn_on">자동 읽기 사용 설정</string>
@@ -5153,6 +5257,9 @@ Voice Match 설정 중에 녹음한 오디오 클립을 보거나 삭제하려�
     <string name="message_sound_search_result_tts">듣고 있는 곡은 %s입니다.</string>
     <string name="message_sound_search_result_with_artist_tts" formatted="false">듣고 있는 곡은 %s의 %s입니다.</string>
     <string name="message_who_initial_prompt">누구에게 메시지를 보내시겠어요?</string>
+    <string name="messaging_settings_header">통화 및 메시지</string>
+    <string name="messaging_toggle_description">운전 중에 어시스턴트의 도움을 받아 메시지를 듣고 답장할 수 있습니다.</string>
+    <string name="messaging_toggle_title">음성으로 메시지 듣기 및 답장</string>
     <string name="mic_button_content_description">음성 검색</string>
     <string name="mic_button_description">%1$s 마이크 버튼</string>
     <string name="mic_fab_content_description">클릭하여 Google 어시스턴트와 대화하세요.</string>
@@ -5284,7 +5391,7 @@ Voice Match 설정 중에 녹음한 오디오 클립을 보거나 삭제하려�
     <string name="mtrl_picker_toggle_to_day_selection">탭하여 요일 선택으로 전환</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">텍스트 입력 모드로 전환</string>
     <string name="mtrl_picker_toggle_to_year_selection">탭하여 연도 선택으로 전환</string>
-    <string name="mtrl_timepicker_cancel">Cancel</string>
+    <string name="mtrl_timepicker_cancel">취소</string>
     <string name="mtrl_timepicker_confirm">확인</string>
     <string name="multiple_devices_cant_find_device">기기를 찾을 수 없음</string>
     <string name="multiple_devices_found_explanation">기기를 한 번에 하나씩 설정할 수 있습니다. 어시스턴트에 연결할 기기를 선택하세요.</string>
@@ -5322,7 +5429,6 @@ Voice Match 설정 중에 녹음한 오디오 클립을 보거나 삭제하려�
     <string name="network_connection_unstable">네트워크 연결이 불안정한 것 같습니다. 죄송합니다. 다시 시도해 주세요.</string>
     <string name="network_error">현재 Google에 접속할 수 없습니다.</string>
     <string name="network_error_airplane_mode_tts">비행기 모드이므로 현재 인터넷에 연결되어 있지 않습니다.</string>
-    <string name="network_error_fetching_weather_data_status_text">현재 네트워크를 사용할 수 없습니다.</string>
     <string name="network_error_no_connection_tts">현재 인터넷에 연결되어 있지 않습니다.</string>
     <string name="network_error_try_again">다시 시도</string>
     <string name="never">안함</string>
@@ -5842,6 +5948,8 @@ Voice Match 설정 중에 녹음한 오디오 클립을 보거나 삭제하려�
     <string name="notification_heading">어시스턴트가 알림을 읽도록 허용</string>
     <string name="notification_modal_text">새 에피소드 알림</string>
     <string name="notification_okay">알겠습니다</string>
+    <string name="notification_permission_modal_description">메시지를 듣고 통화를 음소거하려면 Google 앱의 알림 액세스를 허용하세요.</string>
+    <string name="notification_permission_modal_title">Google의 알림 액세스를 허용하시겠습니까?</string>
     <string name="notification_permissions_button">액세스 허용</string>
     <string name="notification_permissions_description">Google 앱에서 메시지 및 방해 금지 모드 설정에 액세스하도록 허용할까요?</string>
     <string name="notification_settings">설정</string>
@@ -6109,12 +6217,6 @@ Voice Match 설정 중에 녹음한 오디오 클립을 보거나 삭제하려�
     <string name="opa_consent_check_error_title">문제가 발생했습니다.</string>
     <string name="opa_consent_check_error_title_confirmreject">다음 설정으로 어시스턴트의 모든 기능을 활용하기</string>
     <string name="opa_consent_check_error_title_notavailable">이 계정에서는 Google 어시스턴트를 사용할 수 없습니다.</string>
-    <string name="opa_contextual_cards_found_message">다음은 이 화면과 관련된 정보입니다.</string>
-    <string name="opa_contextual_cards_found_proactive_message">다음은 이 화면과 관련하여 검색한 내용입니다.</string>
-    <string name="opa_contextual_cards_network_error">접속이 원활하지 않음</string>
-    <string name="opa_contextual_cards_no_cards_message">화면에서 도움을 드릴 수 있는 항목을 찾을 수 없습니다. 마이크를 탭하여 무엇이든 물어보세요.</string>
-    <string name="opa_contextual_cards_nothing_found_card_text">화면에 정보가 없습니다.</string>
-    <string name="opa_contextual_cards_offline_indicator">휴대전화가 오프라인 상태이므로 지금은 도와드릴 수 없습니다.</string>
     <string name="opa_contextual_cards_share_screenshot_error">문제가 발생했습니다. 다시 시도해 보세요.</string>
     <string name="opa_continued_conversation_optin_screen_allow_button_text">예</string>
     <string name="opa_continued_conversation_optin_screen_disallow_button_text">닫기</string>
@@ -6342,10 +6444,6 @@ Voice Match 설정 중에 녹음한 오디오 클립을 보거나 삭제하려�
     <string name="opa_pre_upgrade_notifs_disabled_toast_text">설정을 업데이트하고 이 알림을 사용 중지했습니다</string>
     <string name="opa_privacy_policy_chip_text">개인정보처리방침</string>
     <string name="opa_proactive_notification_subtext">어시스턴트</string>
-    <string name="opa_screen_read_it">읽기</string>
-    <string name="opa_screen_read_this_page">페이지 읽기</string>
-    <string name="opa_screen_search_more_screen_context_action">내 화면에 관한 내용 더보기</string>
-    <string name="opa_screen_search_screen_context_action">내 화면에 표시된 내용</string>
     <string name="opa_screen_search_share_screenshot_action">스크린샷 공유</string>
     <string name="opa_screenless_nav_opt_in_notification_body">내비게이션이 켜져 있을 때 음성으로 Google 어시스턴트에 명령을 내릴 수 있습니다.</string>
     <string name="opa_screenless_nav_opt_in_notification_title">내비게이션과 Google 어시스턴트 함께 사용하기</string>
@@ -6533,6 +6631,7 @@ Voice Match 설정 중에 녹음한 오디오 클립을 보거나 삭제하려�
     <string name="payments_auth_too_many_fingerprint_retries_should_use_password">허용된 시도 횟수를 초과했습니다. 대신 비밀번호를 입력하세요.</string>
     <string name="payments_auth_use_biometric_checkbox_hint">앞으로 이 기기에서 지문, 얼굴 등의 수단을 통해 결제를 확인합니다.</string>
     <string name="payments_auth_use_fingerprint_checkbox_hint">앞으로 승인 시 지문 사용</string>
+    <string name="pending_fragment_error_toast">문제가 발생했습니다. 나중에 다시 시도해 주세요.</string>
     <string name="peoplekit_about_suggested_people_hide_info">보고 싶지 않은 추천 연락처를 숨길 수 있습니다.</string>
     <string name="peoplekit_about_suggested_people_info">Google에서는 상호작용을 바탕으로 사용자를 추천합니다.</string>
     <string name="peoplekit_about_top_suggestions">추천 사용자 정보</string>
@@ -6733,6 +6832,7 @@ Voice Match 설정 중에 녹음한 오디오 클립을 보거나 삭제하려�
     <string name="phone_pr_title">휴대전화</string>
     <string name="phone_voice_match_settings_delete_voice_model_summary">이 기기에서 Voice Match 모델을 삭제합니다. 그러면 “%1$s”도 사용 중지됩니다.</string>
     <string name="phone_voice_match_settings_delete_voice_model_title">Voice Match 모델 삭제하기</string>
+    <string name="phone_voice_match_settings_not_supported_error">Hey Google은 이 기기에서 지원되지 않습니다.</string>
     <string name="phone_voice_match_settings_retrain_summary">어시스턴트가 내 목소리를 인식하도록 학습시킵니다.</string>
     <string name="phone_voice_match_settings_retrain_title">Voice Match 모델 다시 학습시키기</string>
     <string name="photo_downloading_error_toast_text">사진 다운로드 중 오류 발생</string>
@@ -7134,13 +7234,13 @@ Voice Match 설정 중에 녹음한 오디오 클립을 보거나 삭제하려�
     <string name="punt_for_personal_results">도움을 받으려면 차량에서 개인 검색결과를 허용하셔야 합니다. 안전하게 기기를 사용할 수 있을 때 어시스턴트 설정에서 허용하세요.</string>
     <string name="punt_for_signed_out">이를 위해 Google 계정에 로그인하셔야 합니다. 안전하게 기기를 사용할 수 있을 때 차량 알림에서 다음 단계를 확인하세요.</string>
     <string name="punt_home_alias_unset">집 주소를 알려주시지 않은 것 같습니다. 주소를 말씀하시면 집으로 가는 경로를 안내해 드릴 수 있습니다.</string>
-    <string name="punt_max_volume">죄송합니다. 현재 이 기기에서는 볼륨을 최대로 설정하거나 100%로 높이는 것은 지원되지 않습니다.</string>
     <string name="punt_missing_call_permission">통화가 사용 설정되어 있지 않은 것 같습니다. 안전하게 휴대전화를 사용할 수 있을 때 블루투스 설정을 열고 차량을 선택하여 기능을 사용 설정하세요.</string>
     <string name="punt_missing_message_permission">문자 메시지가 사용 설정되어 있지 않은 것 같습니다. 안전하게 휴대전화를 사용할 수 있을 때 블루투스 설정을 열고 차량을 선택하여 기능을 사용 설정하세요.</string>
     <string name="punt_non_percentage_volume_control">자동차에서 볼륨은 백분율로 설정되므로 볼륨을 25%로 설정해 달라고 말할 수 있습니다.</string>
     <string name="punt_offline_music">인터넷에 연결되어 있지 않으므로 음악을 재생할 수 없습니다.</string>
     <string name="punt_open_app">죄송합니다. 앱이 설치되어 있지 않거나 현재 사용할 수 없습니다.</string>
     <string name="punt_open_unsafe_for_drving_app">운전 중에 사용하기 안전한 앱이 아닙니다.</string>
+    <string name="punt_set_volume_beyond_threshold">안전상의 이유로 차량의 볼륨을 요청하신 만큼 높게 설정할 수 없습니다. 설정 가능한 최대 볼륨은 %1$d%%입니다.</string>
     <string name="punt_work_alias_unset">직장 주소를 알려주시지 않은 것 같습니다. 주소를 말씀하시면 직장으로 가는 경로를 안내해 드릴 수 있습니다.</string>
     <string name="qp_bottom_baseball_inning">%1$d회말</string>
     <string name="qp_precip">강수 확률 %1$s</string>
@@ -7152,7 +7252,6 @@ Voice Match 설정 중에 녹음한 오디오 클립을 보거나 삭제하려�
     <string name="qp_weather_unit_abbrev_celsius">C</string>
     <string name="qp_weather_unit_abbrev_fahrenheit">F</string>
     <string name="qp_wind_speed">풍속 %1$d%2$s</string>
-    <string name="qpf_label">강수량 예측: %s</string>
     <string name="qsb_promocard_icon_description">Google</string>
     <string name="qsb_promocard_negative_button_text">거부</string>
     <string name="qsb_promocard_positive_button_text">추가</string>
@@ -7195,7 +7294,6 @@ Voice Match 설정 중에 녹음한 오디오 클립을 보거나 삭제하려�
     <string name="rating_very_dissatisfied">매우 불만족</string>
     <string name="rating_very_satisfied">매우 만족</string>
     <string name="rating_views_content_description">5점 만점에 %1$d점</string>
-    <string name="reached_max_locations_removal_dialog_title">최대 8개 저장할 수 있습니다. 새로운 위치를 저장하려면 하나를 삭제하세요.</string>
     <string name="reaction_ads_show_more">비슷한 <b>광고</b>가 더 많이 표시됩니다.</string>
     <string name="reaction_modal_close_action">닫기</string>
     <string name="reaction_show_more">비슷한 카드가 더 많이 표시됩니다.</string>
@@ -7329,7 +7427,6 @@ Google 계정에서는 삭제되지 않습니다."</string>
     <string name="remove_all_devices_button_text">모든 기기에서 Face Match 삭제</string>
     <string name="remove_all_played">재생된 에피소드 삭제</string>
     <string name="remove_all_week_old">%1$d일 이상 지난 에피소드 삭제</string>
-    <string name="remove_button_text">삭제</string>
     <string name="remove_completed_episodes">재생이 완료된 에피소드 삭제</string>
     <string name="remove_download">다운로드한 에피소드 삭제</string>
     <string name="remove_from_history_failed">기록에서 항목을 삭제하지 못했습니다.</string>
@@ -7346,6 +7443,7 @@ Google 계정에서는 삭제되지 않습니다."</string>
     <string name="repeat_notification">네, 다시 들려드리겠습니다. 내용은 다음과 같습니다</string>
     <string name="replay_count_down">&lt;b>%1$d&lt;/b> 후 다시보기…</string>
     <string name="reply">답장</string>
+    <string name="reply_button_string">답장</string>
     <string name="reply_button_text">답장</string>
     <string name="reply_message_notice">메시지 전송 중</string>
     <string name="report_other_option">기타</string>
@@ -7437,7 +7535,7 @@ Google 계정에서는 삭제되지 않습니다."</string>
     <string name="sceneviewer_get_help">Get help</string>
     <string name="sceneviewer_get_help_button_content_description">Get Help</string>
     <string name="sceneviewer_immersive_edge_fallback_dialog_confirm_button">Go</string>
-    <string name="sceneviewer_immersive_edge_fallback_dialog_message">No connection. You will be redirected to &lt;b> %1$s &lt;/b></string>
+    <string name="sceneviewer_immersive_edge_fallback_dialog_message">No connections available. Redirecting you to &lt;b>%1$s&lt;/b>. Please try again in a few minutes.</string>
     <string name="sceneviewer_immersive_edge_fallback_dialog_title">Connection lost</string>
     <string name="sceneviewer_immersive_edge_redirect_dialog_cancel_button">Cancel</string>
     <string name="sceneviewer_immersive_edge_redirect_dialog_confirm_button">OK</string>
@@ -7467,7 +7565,6 @@ Google 계정에서는 삭제되지 않습니다."</string>
     <string name="search_apps_web_and_more">앱, 웹 등 검색…</string>
     <string name="search_box_content_description">검색…</string>
     <string name="search_box_hint">검색...</string>
-    <string name="search_box_hint_for_places_and_web">장소 검색</string>
     <string name="search_bubble_notification_description">Google 검색 풍선을 계속 표시합니다.</string>
     <string name="search_bubble_notification_header">Google 검색 풍선</string>
     <string name="search_bubble_optin_prompt_cancel_text">삭제</string>
@@ -7499,7 +7596,6 @@ Google 계정에서는 삭제되지 않습니다."</string>
     <string name="search_maps">지도 검색</string>
     <string name="search_menu_title">검색</string>
     <string name="search_notifications">알림</string>
-    <string name="search_plate_accessibility_voice_search_button">검색</string>
     <string name="search_region_default">현재 지역(기본값)</string>
     <string name="search_region_setting_summary">현재 지역</string>
     <string name="search_restriction">Google 검색을 사용할 권한이 없습니다.</string>
@@ -7548,6 +7644,7 @@ Google 계정에서는 삭제되지 않습니다."</string>
     <string name="select_address_title">배송지 주소 선택</string>
     <string name="select_all_episodes">모두 선택</string>
     <string name="select_assistant_language">어시스턴트 언어 선택</string>
+    <string name="select_day">월/일 선택</string>
     <string name="select_feedback_category">의견 카테고리 선택</string>
     <string name="select_google_account">Google 계정</string>
     <string name="select_google_account_add_account">계정 추가</string>
@@ -7559,6 +7656,7 @@ Google 계정에서는 삭제되지 않습니다."</string>
     <string name="select_instrument_message">결제 정보가 Google Pay에 안전하게 보관되므로 언제 어디서나 어시스턴트를 통해 결제할 수 있습니다.</string>
     <string name="select_instrument_title">결제 수단 선택</string>
     <string name="select_wifi_network_button_text">Wi-Fi 네트워크 선택</string>
+    <string name="select_year">연도 선택</string>
     <string name="selectable_search_widget_initializing">초기화 중…</string>
     <string name="selected_account">%1$s에 로그인</string>
     <string name="selected_interest">관심분야에 추가되었습니다.</string>
@@ -7585,7 +7683,6 @@ Google 계정에서는 삭제되지 않습니다."</string>
     <string name="sending_audio_to_account_toast">오디오를 %1$s에 전송 중…</string>
     <string name="sensitive_or_disparaging_for_individuals">특정인에게 민감하거나 차별적임</string>
     <string name="server_error">현재 Google에 접속할 수 없습니다.</string>
-    <string name="server_error_fetching_weather_data_status_text">문제가 발생했습니다. 나중에 다시 시도하세요.</string>
     <string name="set_alarm">알람 설정</string>
     <string name="set_duration">시간 설정</string>
     <string name="set_reminder_saved">알림 저장됨</string>
@@ -7677,11 +7774,6 @@ Google 계정에서는 삭제되지 않습니다."</string>
 쇼핑 목록은 어시스턴트에 의해 저장되어 Google 쇼핑에서 관리됩니다."</string>
     <string name="shopping_list_category_title_v2">쇼핑 서비스</string>
     <string name="shopping_mode_landing_text">쇼핑 검색</string>
-    <string name="short_google_play_services_enable_required">Google Play 서비스가 사용 설정되어야 함</string>
-    <string name="short_google_play_services_install_required">Google Play 서비스가 설치되어야 함</string>
-    <string name="short_google_play_services_missing_permission">Google Play 서비스에 필수 권한이 1개 이상 없습니다.</string>
-    <string name="short_google_play_services_unsupported">현재 기기에서 Google Play 서비스가 지원되지 않음</string>
-    <string name="short_google_play_services_update_required">Google Play 서비스가 업데이트되어야 함</string>
     <string name="shortcut_not_available">바로가기를 사용할 수 없음</string>
     <string name="shortcut_phrase_label">단축어 목록:</string>
     <string name="shortcuts_link_description">설치된 앱에서 단축키를 통해 어떤 작업을 할 수 있는지 알아보세요.</string>
@@ -7710,7 +7802,6 @@ Google 계정에서는 삭제되지 않습니다."</string>
     <string name="show_proactively_on_displays">요청 없이도 디스플레이에 표시</string>
     <string name="show_results">결과 보기</string>
     <string name="sidekick_network_error">네트워크 오류가 발생했습니다. 네트워크 연결을 확인하고 다시 시도해 주세요.</string>
-    <string name="sign_in">로그인</string>
     <string name="sign_in_accept">로그인</string>
     <string name="sign_in_error_description">계정에 로그인하는 중에 오류가 발생했습니다.</string>
     <string name="sign_in_message">내 팟캐스트 및 다른 기기에서의 감상 기록을 확인하려면 로그인하세요.</string>
@@ -7802,6 +7893,7 @@ Google 계정에서는 삭제되지 않습니다."</string>
     <string name="snowman_content">관심 없는 스토리나 주제를 숨길 수 있습니다.</string>
     <string name="soccer_shootout">승부차기</string>
     <string name="solid">단색</string>
+    <string name="someone_else_text">다른 연락처</string>
     <string name="sorry_string">다시 말씀해 주시겠어요?</string>
     <string name="sort_description">정렬 기준: %1$s</string>
     <string name="sound_search_hint">무슨 노래지?</string>
@@ -7831,6 +7923,7 @@ Google 계정에서는 삭제되지 않습니다."</string>
     <string name="speech_output_keywords">음성 출력, 핸즈프리, 핸즈 프리</string>
     <string name="speech_output_subtitle">어시스턴트의 구어체 사용 정도를 선택하세요.</string>
     <string name="speech_output_title">음성 출력</string>
+    <string name="speedbump_prompt_text">시작하려면 마이크를 탭하세요.</string>
     <string name="spinner_request_completed">피드 업데이트됨</string>
     <string name="spinner_request_failed">피드를 업데이트할 수 없음</string>
     <string name="spinner_requesting_new_content">피드 업데이트 중</string>
@@ -8136,9 +8229,6 @@ Google 계정에서는 삭제되지 않습니다."</string>
     <string name="switch_on">켜기</string>
     <string name="switcher_description">음성 검색 언어 선택기</string>
     <string name="switcher_language_description">현재 언어는 %1$s입니다.</string>
-    <string name="tab_title_10_days">10일</string>
-    <string name="tab_title_today">오늘</string>
-    <string name="tab_title_tomorrow">내일</string>
     <string name="tactile_add_action_button_title">작업 추가</string>
     <string name="tactile_all_results_title">전체 검색결과</string>
     <string name="tactile_answers_on_the_go_suggestion_1">$48의 15%%는 얼마야?</string>
@@ -8360,6 +8450,7 @@ Google 계정에서는 삭제되지 않습니다."</string>
     <string name="transparency_seek_bar_description">막대 명암</string>
     <string name="transparent">투명</string>
     <string name="trends_suggestion_message">현재 지역 인기 검색어</string>
+    <string name="triggering_settings_header">운전 모드 실행</string>
     <string name="trim_silence">무음 자르기</string>
     <string name="trim_silence_disable">무음 자르기 사용 중지</string>
     <string name="trim_silence_enable">무음 자르기 사용 설정</string>
@@ -8510,39 +8601,33 @@ Google 계정에서는 삭제되지 않습니다."</string>
     <string name="twslang_zh_CN">중국어(간체)</string>
     <string name="twslang_zh_TW">중국어(번체)</string>
     <string name="twslang_zu">줄루어</string>
-    <string name="unable_to_save_location_snackbar_text">위치를 저장할 수 없습니다. 나중에 다시 시도해 주세요.</string>
-    <string name="unable_to_show_locations_text">위치를 표시할 수 없습니다.</string>
-    <string name="unable_to_show_weather_for_location_error">이 위치의 날씨 정보를 표시할 수 없습니다.</string>
-    <string name="unable_to_show_weather_for_specific_location_error">%s 날씨 정보를 표시할 수 없습니다.</string>
     <string name="unblock_show_from_recommendations">TV 프로그램 추천 차단 취소</string>
     <string name="undo">실행취소</string>
     <string name="undo_action">실행취소</string>
     <string name="undo_dismiss_message_default">완료</string>
-    <string name="undo_snackbar_action">실행취소</string>
     <string name="undo_string">실행취소</string>
     <string name="unicorn_consent_screen_message">어시스턴트는 Face Match를 통해 %1$s님을 다른 사람과 구분할 수 있습니다. 자녀분이 Nest Hub Max에 가까이 다가가면 얼굴을 인식해 사용자 환경을 맞춤설정합니다.</string>
     <string name="unicorn_consent_screen_title">어시스턴트에서 %1$s님의 얼굴을 인식하도록 허용해 주세요</string>
     <string name="unicorn_hand_off_screen_message">{GENDER,select, male{준비가 되면 얼굴 모델을 생성할 수 있도록 {PERSON}님에게 기기를 건네주고, 옆에서 계속 다음 단계를 도와주세요.}female{준비가 되면 얼굴 모델을 생성할 수 있도록 {PERSON}님에게 기기를 건네주고, 옆에서 계속 다음 단계를 도와주세요.}other{준비가 되면 얼굴 모델을 생성할 수 있도록 {PERSON}님에게 기기를 건네주고, 옆에서 계속 다음 단계를 도와주세요.}}</string>
     <string name="unicorn_hand_off_screen_title">어시스턴트에서 %1$s님의 얼굴을 인식하도록 허용해 주세요</string>
-    <string name="unicorn_handoff_img_content_desc">기기를 넘겨주세요.</string>
     <string name="unicorn_hotword_enrollment_google_home_oobe_skip_dialog_message">이 단계를 건너뛰면 Google Home에서 {PERSON}님을 집에 있는 다른 사용자와 구분하지 못합니다.</string>
-    <string name="unicorn_hotword_enrollment_google_home_skip_dialog_message">"{GENDER,select, male{Voice Match가 없으면 {PERSON}님의 Google 계정이 기기에서 연결 해제되며 개인화된 환경을 이용할 수 없게 됩니다. 
+    <string name="unicorn_hotword_enrollment_google_home_skip_dialog_message">"{GENDER,select, male{Voice Match를 설정하지 않으면 {PERSON}님의 Google 계정이 기기에서 연결 해제되며 자녀 보호 기능 또는 개인화된 환경이 적용되지 않습니다. 
 
-언제든지 Family Link 또는 {PERSON}님의 Google Home 앱이나 Google 어시스턴트 앱의 설정을 통해 이 기기에 Voice Match를 사용 설정할 수 있습니다. 
+언제든지 Family Link 또는 {PERSON}님의 Google Home 앱이나 Google 어시스턴트 앱의 설정을 통해 기기에 Voice Match를 사용 설정할 수 있습니다. 
 
-어시스턴트가 {PERSON}님의 목소리를 인식하도록 학습시키면 더욱 개인화된 환경을 이용할 수 있으며 Google에서는 특정 콘텐츠 제한을 적용할 수 있습니다. 홈 기기에서 자신의 캘린더, 연락처와 같은 내용을 볼 수 있게 됩니다. 
+어시스턴트가 {PERSON}님을 인식할 수 없게 되므로 어시스턴트가 인식하지 않는 사용자 또는 게스트와 동일하게 간주합니다. 또한 {PERSON}님에게 자녀 보호 기능을 설정했더라도 어시스턴트가 자녀 보호 기능을 사용할 수 없습니다. 
 
-{PERSON}님을 홈 기기에 다시 추가하려면 Google이 {PERSON}님의 목소리를 인식하도록 학습시키세요.}female{Voice Match가 없으면 {PERSON}님의 Google 계정이 기기에서 연결 해제되며 개인화된 환경을 이용할 수 없게 됩니다. 
+{PERSON}님을 홈 기기에 다시 추가하려면 Google이 {PERSON}님의 목소리를 인식하도록 학습시키세요.}female{Voice Match를 설정하지 않으면 {PERSON}님의 Google 계정이 기기에서 연결 해제되며 자녀 보호 기능 또는 개인화된 환경이 적용되지 않습니다. 
 
-언제든지 Family Link 또는 {PERSON}님의 Google Home 앱이나 Google 어시스턴트 앱의 설정을 통해 이 기기에 Voice Match를 사용 설정할 수 있습니다. 
+언제든지 Family Link 또는 {PERSON}님의 Google Home 앱이나 Google 어시스턴트 앱의 설정을 통해 기기에 Voice Match를 사용 설정할 수 있습니다. 
 
-어시스턴트가 {PERSON}님의 목소리를 인식하도록 학습시키면 더욱 개인화된 환경을 이용할 수 있으며 Google에서는 특정 콘텐츠 제한을 적용할 수 있습니다. 홈 기기에서 자신의 캘린더, 연락처와 같은 내용을 볼 수 있게 됩니다. 
+어시스턴트가 {PERSON}님을 인식할 수 없게 되므로 어시스턴트가 인식하지 않는 사용자 또는 게스트와 동일하게 간주합니다. 또한 {PERSON}님에게 자녀 보호 기능을 설정했더라도 어시스턴트가 자녀 보호 기능을 사용할 수 없습니다. 
 
-{PERSON}님을 홈 기기에 다시 추가하려면 Google이 {PERSON}님의 목소리를 인식하도록 학습시키세요.}other{Voice Match가 없으면 {PERSON}님의 Google 계정이 기기에서 연결 해제되며 개인화된 환경을 이용할 수 없게 됩니다. 
+{PERSON}님을 홈 기기에 다시 추가하려면 Google이 {PERSON}님의 목소리를 인식하도록 학습시키세요.}other{Voice Match를 설정하지 않으면 {PERSON}님의 Google 계정이 기기에서 연결 해제되며 자녀 보호 기능 또는 개인화된 환경이 적용되지 않습니다. 
 
-언제든지 Family Link 또는 {PERSON}님의 Google Home 앱이나 Google 어시스턴트 앱의 설정을 통해 이 기기에 Voice Match를 사용 설정할 수 있습니다. 
+언제든지 Family Link 또는 {PERSON}님의 Google Home 앱이나 Google 어시스턴트 앱의 설정을 통해 기기에 Voice Match를 사용 설정할 수 있습니다. 
 
-어시스턴트가 {PERSON}님의 목소리를 인식하도록 학습시키면 더욱 개인화된 환경을 이용할 수 있으며 Google에서는 특정 콘텐츠 제한을 적용할 수 있습니다. 홈 기기에서 자신의 캘린더, 연락처와 같은 내용을 볼 수 있게 됩니다. 
+어시스턴트가 {PERSON}님을 인식할 수 없게 되므로 어시스턴트가 인식하지 않는 사용자 또는 게스트와 동일하게 간주합니다. 또한 {PERSON}님에게 자녀 보호 기능을 설정했더라도 어시스턴트가 자녀 보호 기능을 사용할 수 없습니다. 
 
 {PERSON}님을 홈 기기에 다시 추가하려면 Google이 {PERSON}님의 목소리를 인식하도록 학습시키세요.}}"</string>
     <string name="unified_ime_recognition_locale_toast">음성 인식에 %1$s 사용 중</string>
@@ -8789,12 +8874,8 @@ Google 계정에서는 삭제되지 않습니다."</string>
     <string name="warning_unsupported_music_provider_dialog_negative_button_text">아니요</string>
     <string name="warning_unsupported_music_provider_dialog_positive_button_text">예</string>
     <string name="warning_unsupported_music_provider_dialog_title">지원되지 않는 음악 서비스를 사용하여 계속하시겠습니까?</string>
-    <string name="weather_accessibility_search_plate_back_button">뒤로</string>
-    <string name="weather_accessibility_search_plate_menu_button">메뉴</string>
-    <string name="weather_add_to_home_screen">홈 화면에 추가</string>
     <string name="weather_add_to_homescreen">홈 화면에 추가</string>
     <string name="weather_button_ok">확인</string>
-    <string name="weather_cancel_button_text">취소</string>
     <string name="weather_celsius">섭씨</string>
     <string name="weather_current_location">현재 위치</string>
     <string name="weather_error_background_content_description">오류</string>
@@ -8808,7 +8889,6 @@ Google 계정에서는 삭제되지 않습니다."</string>
     <string name="weather_search_query">날씨</string>
     <string name="weather_search_text">날씨</string>
     <string name="weather_send_feedback">의견 보내기</string>
-    <string name="weather_shortcut_icon_label">날씨</string>
     <string name="weather_temperature_units">온도 단위</string>
     <string name="weather_title">%2$s %1$s</string>
     <string name="weather_today_tab_name">오늘</string>
@@ -8867,8 +8947,6 @@ Google 계정에서는 삭제되지 않습니다."</string>
     <string name="widget_resized">폭 %1$s, 높이 %2$s로 위젯 크기 조정됨</string>
     <string name="wifi_off">Wi-Fi 사용 안함</string>
     <string name="wifi_on">Wi-Fi 사용</string>
-    <string name="wind_current_time_and_direction_template_with_bullet_separator" formatted="false">%s • %s</string>
-    <string name="wind_speed_with_unit" formatted="false">%d%s</string>
     <string name="wired_headset_icon_description">유선 헤드셋</string>
     <string name="wired_headset_off_label">유선 헤드셋 꺼짐</string>
     <string name="wired_headset_on_label">유선 헤드셋 켜짐</string>
@@ -8882,6 +8960,7 @@ Google 계정에서는 삭제되지 않습니다."</string>
     <string name="workspace_scroll_format">홈 화면 %1$d/%2$d</string>
     <string name="wrong_account_selected_error_message">Google 어시스턴트가 기기와 연결되지 않은 다른 계정을 사용하고 있습니다. %1$s 계정을 사용하여 Google 어시스턴트에 로그인해 주세요.</string>
     <string name="wrong_account_selected_error_title">계정이 일치하지 않음</string>
+    <string name="year_picker_description">년</string>
     <string name="yes_button_text">동의</string>
     <string name="yesterday">어제</string>
     <string name="yesterday_at_time">어제 %1$s</string>
@@ -8893,7 +8972,6 @@ Google 계정에서는 삭제되지 않습니다."</string>
     <string name="your_information_link_subtitle">더 맞춤화된 어시스턴트를 위해</string>
     <string name="your_information_page_subtitle">Google 어시스턴트를 내게 맞춤화하기 위해 사용되는 정보를 관리하세요</string>
     <string name="your_information_title">내 정보</string>
-    <string name="your_location_search_menu_text">내 위치</string>
     <string name="your_news_update_load_error">맞춤 뉴스 업데이트를 로드하는 중에 문제가 발생했습니다.</string>
     <string name="your_news_update_title">뉴스 업데이트</string>
     <string name="your_salsas_section_header">내 빠른 명령어</string>

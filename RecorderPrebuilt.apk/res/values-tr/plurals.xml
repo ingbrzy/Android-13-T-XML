@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="custom_cards_view_description_items_left">
-        <item quantity="other">%1$d öğe kaldı</item>
-        <item quantity="one">%1$d öğe kaldı</item>
-    </plurals>
     <plurals name="dlg_message_deletion_confirmation">
         <item quantity="other">Kayıtlarınız kalıcı olarak silinecek. Bu işlem geri alınamaz.</item>
         <item quantity="one">Kaydınız kalıcı olarak silinecek. Bu işlem geri alınamaz.</item>
@@ -20,25 +16,33 @@
         <item quantity="other">Bu kayıtlar kalıcı olarak silinsin mi?</item>
         <item quantity="one">Bu kayıt kalıcı olarak silinsin mi?</item>
     </plurals>
-    <plurals name="download_unsuccessful_description_storage_full">
+    <plurals name="download_failure_description_storage_full">
         <item quantity="other">Cihazın depolama alanı dolu olduğundan kayıtlar indirilemiyor. İncelemek için dokunun.</item>
         <item quantity="one">Cihazın depolama alanı dolu. İncelemek için dokunun.</item>
-    </plurals>
-    <plurals name="downloaded_description">
-        <item quantity="other">%1$d kayıt indirildi</item>
-        <item quantity="one">%1$d kayıt indirildi</item>
     </plurals>
     <plurals name="downloading_description">
         <item quantity="other">%1$d kayıt indiriliyor</item>
         <item quantity="one">%1$d kayıt indiriliyor</item>
+    </plurals>
+    <plurals name="og_backup_failed_title">
+        <item quantity="other">%1$d öğe yedeklenemedi</item>
+        <item quantity="one">%1$d öğe yedeklenemedi</item>
+    </plurals>
+    <plurals name="og_backup_items_left">
+        <item quantity="other">%1$d öğe kaldı</item>
+        <item quantity="one">%1$d öğe kaldı</item>
+    </plurals>
+    <plurals name="og_backup_items_stopped_title">
+        <item quantity="other">%1$d öğe yedeklenmedi</item>
+        <item quantity="one">%1$d öğe yedeklenmedi</item>
     </plurals>
     <plurals name="search_results_count">
         <item quantity="other">%1$d sonuç</item>
         <item quantity="one">%1$d sonuç</item>
     </plurals>
     <plurals name="search_results_position">
-        <item quantity="other">%1$d/%2$d sonuç</item>
-        <item quantity="one">%1$d/%2$d sonuç</item>
+        <item quantity="other">^1/^2 sonuç</item>
+        <item quantity="one">^1/^2 sonuç</item>
     </plurals>
     <plurals name="search_results_position_content_description">
         <item quantity="other">%1$d / %2$d sonuç</item>
@@ -51,10 +55,6 @@
     <plurals name="snackbar_message_download_failed_storage_full">
         <item quantity="other">Cihazın depolama alanı dolu. Kayıtlar indirilemiyor.</item>
         <item quantity="one">Cihazın depolama alanı dolu. Kayıt indirilemiyor.</item>
-    </plurals>
-    <plurals name="uploaded_description">
-        <item quantity="other">%1$d kayıt yüklendi</item>
-        <item quantity="one">%1$d kayıt yüklendi</item>
     </plurals>
     <plurals name="uploading_description">
         <item quantity="other">%1$d kayıt yükleniyor</item>

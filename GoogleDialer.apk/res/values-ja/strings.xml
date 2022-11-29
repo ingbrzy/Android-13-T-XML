@@ -63,7 +63,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript">^1、^2、^3。</string>
     <string name="a11y_new_call_log_entry_phone_account">^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">^1 さん宛に RTT 通話を発信</string>
-    <string name="a11y_new_call_log_entry_tap_action">メニューを展開</string>
+    <string name="a11y_new_call_log_entry_tap_action">メニューを開く / 閉じる</string>
     <string name="a11y_new_call_log_entry_video_call">^1 さんにビデオ通話を発信</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">Wi-Fi を使用して ^1 さんにビデオ通話を発信</string>
     <string name="a11y_new_call_log_entry_voice_call">^1 さんに発信</string>
@@ -191,6 +191,7 @@
     <string name="atlas_soda_banner_feature_text">代理待機</string>
     <string name="atlas_temp_service_notification_title">代理待機通話を初期化しています</string>
     <string name="atlas_warning_text_for_second_incoming_call">この通話に応答すると、代理待機が終了します</string>
+    <string name="audio_route_item_checked_description">選択済み</string>
     <string name="audioroute_bluetooth">Bluetooth</string>
     <string name="audioroute_headset">有線ヘッドセット</string>
     <string name="audioroute_phone">電話</string>
@@ -235,6 +236,7 @@
     <string name="bm_suggest_wait_time_estimating">"チャット
 起動中…"</string>
     <string name="bottomsheet_action_expand_halfway">下半分を展開</string>
+    <string name="bottomsheet_drag_handle_content_description">ドラッグ ハンドル</string>
     <string name="bubble_bottom_action_end_call">通話を終了</string>
     <string name="bubble_bottom_action_hide">非表示にする</string>
     <string name="bubble_return_to_call">通話に戻る</string>
@@ -344,7 +346,7 @@
     <string name="call_screen_demo_audio_button_text">サンプル音声を再生</string>
     <string name="call_screen_demo_learn_more_text">詳細</string>
     <string name="call_screen_demo_page_1_description">この選択は通話ごとに行えます。通話スクリーニングはデバイス上で動作するため、Wi-Fi やモバイルデータは使用しません。</string>
-    <string name="call_screen_demo_page_1_title">スワイプして応答する代わりに、[着信をフィルタリング] をタップします</string>
+    <string name="call_screen_demo_page_1_title">スワイプして応答する代わりに、[通話をスクリーニングする] をタップします</string>
     <string name="call_screen_demo_page_2_description">Google アシスタントが、かかってきた電話の発信者と用件を確認します。発信者の発言はリアルタイムで文字起こしされます。</string>
     <string name="call_screen_demo_page_2_title">不明な発信者について推測する必要がなくなります</string>
     <string name="call_screen_demo_page_3_description">クイック返信のいずれかをタップするだけで、さらに質問したり、スパムとして報告したりできます。</string>
@@ -363,7 +365,7 @@
     <string name="call_screen_end_call_non_local_internal_message">通話が切断されました</string>
     <string name="call_screen_how_it_works_setting_title">通話スクリーニングはご利用のデバイス上で動作するため、Wi-Fi もモバイルデータも必要ありません。会話の文字起こしが生成され、スマートフォン上にのみ保存されます。%1$s</string>
     <string name="call_screen_how_it_works_title">通話スクリーニングはご利用のデバイス上で動作するため、Wi-Fi もモバイルデータも必要ありません。会話の文字起こしが生成され、スマートフォン上にのみ保存されます。^1</string>
-    <string name="call_screen_incallui_chip_text">通話をスクリーニングする</string>
+    <string name="call_screen_incallui_chip_text">スクリーニング</string>
     <string name="call_screen_join_call_button_content_description">電話に出る</string>
     <string name="call_screen_join_call_internal_message">この通話に参加しました</string>
     <string name="call_screen_known_caller_avatar_content_description">発信者の写真</string>
@@ -582,10 +584,8 @@
     <string name="copy_number">電話番号をコピー</string>
     <string name="create_new_contact">新しい連絡先を作成</string>
     <string name="crosby_setting_title">通話の録音</string>
-    <string name="crystal_clear_audio_setting_title">クリアな通話音声</string>
     <string name="current_voicemail_greeting_record_instruction">応答メッセージを録音</string>
     <string name="current_voicemail_greeting_recording_title">録音済みの留守番電話応答メッセージ</string>
-    <string name="custom_message_hint">カスタム メッセージを入力</string>
     <string name="custom_prefix_add_prefix_to_call_entry_always_add_prefix">常にプレフィックスを追加する</string>
     <string name="custom_prefix_add_prefix_to_call_entry_ask_before_dialing">ダイヤルする前に確認する</string>
     <string name="custom_prefix_add_prefix_to_call_entry_never_add_prefix">プレフィックスは追加しない</string>
@@ -670,11 +670,11 @@
     <string name="display_options_view_given_name_first">名が先</string>
     <string name="display_options_view_names_as">名前の形式</string>
     <string name="do_not_show_again">今後表示しない</string>
-    <string name="duo_fallback_dialog_do_not_show_again_label">この設定を保存</string>
-    <string name="duo_fallback_dialog_message">携帯通信会社のビデオ通話機能でビデオ通話を発信することができませんでした。代わりに Duo を使用して通話を発信してみてください。</string>
-    <string name="duo_fallback_dialog_negative_button_label">キャンセル</string>
-    <string name="duo_fallback_dialog_positive_button_label">Duo を使用</string>
-    <string name="duo_fallback_dialog_title">Google Duo　を使用しますか？</string>
+    <string name="duo_fallback_dialog_do_not_show_again_label">すべての通話で、Duo が予備のビデオ通話サービスとして設定されます。変更が必要な場合は設定にアクセスしてください。</string>
+    <string name="duo_fallback_dialog_message">携帯通信会社のサービスでビデオ通話を発信できないときに、Duo が代わりに発信を試みます。</string>
+    <string name="duo_fallback_dialog_negative_button_label">設定しない</string>
+    <string name="duo_fallback_dialog_positive_button_label">Duo を予備のサービスに設定</string>
+    <string name="duo_fallback_dialog_title">Google Duo を予備のビデオ通話サービスにしますか？</string>
     <string name="edit_number_before_call">発信前に電話番号を編集</string>
     <string name="emergency_assist_address_sentence">私の現在地は%1$sです。</string>
     <string name="emergency_assist_button_fire">消防</string>
@@ -696,6 +696,7 @@
     <string name="emergency_voice_assist_dialog_button_close">キャンセル</string>
     <string name="emergency_voice_assist_dialog_title">緊急サービスのオペレーターには次のように聞こえます</string>
     <string name="end_call_with_default_message_description">通話を終了</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_icon_content_description">エラー</string>
     <string name="error_unable_to_get_audio">サンプル音声を取得できません</string>
     <string name="error_unable_to_play_audio">サンプル音声を再生できません</string>
@@ -740,7 +741,7 @@
     <string name="first_time_dialog_duo_video_call_label">Google Duo</string>
     <string name="first_time_dialog_negative_button_label">キャンセル</string>
     <string name="first_time_dialog_positive_button_label">選択</string>
-    <string name="first_time_dialog_remember_this_choice_label">この設定を保存</string>
+    <string name="first_time_dialog_remember_this_choice_label">すべての通話に適用します。変更が必要な場合は設定にアクセスしてください。</string>
     <string name="first_time_dialog_title">ビデオ通話サービスを選択する</string>
     <string name="flip_to_shush_title">ふせるだけでサイレント モード</string>
     <string name="flip_to_silence_summary">着信音が鳴っているときにスマートフォンの画面を下にして平らな場所に置くと、着信通知がオフになります</string>
@@ -788,6 +789,8 @@
     <string name="incall_content_description_hold">通話を保留</string>
     <string name="incall_content_description_merge_calls">通話を統合</string>
     <string name="incall_content_description_muted">ミュートしました</string>
+    <string name="incall_content_description_show_less">折りたたむ</string>
+    <string name="incall_content_description_show_more">すべて表示</string>
     <string name="incall_content_description_speaker">スピーカー</string>
     <string name="incall_content_description_swap_calls">通話を切り替える</string>
     <string name="incall_content_description_swap_sim">SIM を変更</string>
@@ -803,6 +806,7 @@
     <string name="incall_label_hold">保留</string>
     <string name="incall_label_manage">管理</string>
     <string name="incall_label_merge">統合</string>
+    <string name="incall_label_more">詳細</string>
     <string name="incall_label_mute">ミュート</string>
     <string name="incall_label_record">録音</string>
     <string name="incall_label_record_checked">録音を停止</string>
@@ -835,15 +839,9 @@
     <string name="join_call_with_default_message_description">電話に出る</string>
     <string name="just_now">たった今</string>
     <string name="lat_long_format">%1$f, %2$f</string>
+    <string name="launch_application_settings">設定</string>
     <string name="launcherActivityLabel">電話</string>
     <string name="learn_more_text_for_tmo">詳しくは T-Mobile にアクセスしてください</string>
-    <string name="legacy_post_call_message">電話をした理由をお話しください</string>
-    <string name="legacy_post_call_message_1">至急お伝えしたいことがあるので、折り返しお電話ください。</string>
-    <string name="legacy_post_call_message_2">お時間のあるときにお電話ください。</string>
-    <string name="legacy_post_call_message_3">急ぎではないので、また後でかけ直します。</string>
-    <string name="legacy_post_call_message_sent">メッセージを送信しました</string>
-    <string name="legacy_post_call_send_message">メッセージを送信</string>
-    <string name="legacy_post_call_view">表示</string>
     <string name="libraries_material_featurehighlight_dismiss">閉じる</string>
     <string name="license_activity_label">オープンソース ライセンス</string>
     <string name="light_theme_label">ライトモード</string>
@@ -868,6 +866,7 @@
     <string name="mdd_notification_action_cancel">キャンセル</string>
     <string name="mdd_notification_download_failed">ダウンロード失敗</string>
     <string name="mdd_notification_download_paused">ネットワーク接続を待機中</string>
+    <string name="mdd_notification_download_paused_wifi">Wi-Fi 接続を待機中</string>
     <string name="meid_number">MEID %s</string>
     <string name="menu_callNumber">%s に発信</string>
     <string name="merge_calls_confirm_message">通話を統合するには、統合後の通話に誰が参加するのかを全員が把握している必要があります</string>
@@ -907,11 +906,9 @@
     <string name="nearbyplaces_account_setting_title">Googleアカウント</string>
     <string name="new_call_log_activity_title">通話履歴</string>
     <string name="new_call_log_all_title">すべて</string>
-    <string name="new_call_log_carrier_video">携帯通信会社経由のビデオ通話</string>
     <string name="new_call_log_clear_call_log_confirmation">すべての通話が履歴から削除されます</string>
     <string name="new_call_log_clear_call_log_confirmation_title">通話履歴を削除しますか？</string>
     <string name="new_call_log_delete_all">通話履歴を削除</string>
-    <string name="new_call_log_duo_video">Duo のビデオ通話</string>
     <string name="new_call_log_empty">かけた電話の履歴がここに表示されます</string>
     <string name="new_call_log_generic_video">ビデオ</string>
     <string name="new_call_log_header_older">昨日以前</string>
@@ -929,6 +926,7 @@
     <string name="new_permission_no_search">連絡先を検索するには、連絡先の権限を ON にしてください。</string>
     <string name="non_contact_always_record_dialog_title">連絡先に登録されていない電話番号との通話を常に録音しますか？</string>
     <string name="non_contact_toggle_label">連絡先に登録されていない電話番号</string>
+    <string name="non_spam_aftercall_notification_title">発信者（%1$s）をご存知ですか？</string>
     <string name="non_spam_notification_title">発信者（%1$s）をご存知ですか？</string>
     <string name="not_set">未設定</string>
     <string name="notification_action_accept">同意する</string>
@@ -979,7 +977,7 @@
     <string name="notification_ongoing_call">通話中</string>
     <string name="notification_ongoing_call_multi_sim">通話が進行中（%1$s を使用）</string>
     <string name="notification_ongoing_call_wifi_template">%1$sを進行中</string>
-    <string name="notification_ongoing_call_wifi_template_multi_sim">%1$sが進行中（%1$s を使用）</string>
+    <string name="notification_ongoing_call_wifi_template_multi_sim">Ongoing %1$s via %2$s</string>
     <string name="notification_ongoing_paused_video_call">進行中のビデオ通話（携帯通信会社のサービス） ‑ 一時停止中</string>
     <string name="notification_ongoing_paused_video_call_multi_sim">携帯通信会社のビデオ通話サービスで通話中（%1$s使用）‑ 一時停止中</string>
     <string name="notification_ongoing_video_call">ビデオ通話（携帯通信会社のサービス）が進行中</string>
@@ -992,7 +990,7 @@
     <string name="notification_take_call">通話を引き継ぐ</string>
     <string name="notification_take_video_call">ビデオハングアウトを引き継ぐ</string>
     <string name="notification_voicemail_callers_list">%1$s、%2$s</string>
-    <string name="notification_voicemail_no_vm_number">留守番電話の番号が不明です</string>
+    <string name="notification_voicemail_no_vm_number">ボイスメールを設定するには、[メニュー] > [設定] に移動します。</string>
     <string name="notification_voicemail_text_format">%s 宛に発信</string>
     <string name="old_block_number_confirmation_title">%1$s をブロックしますか？</string>
     <string name="openhistory_button_label">履歴</string>
@@ -1033,6 +1031,7 @@
     <string name="precall_dialpad_chat_button">チャット</string>
     <string name="precall_dialpad_chat_wait_min">待ち時間 %1$d 分</string>
     <string name="preference_copied">「%1$s」をクリップボードにコピーしました。</string>
+    <string name="preferences_license_title">サードパーティ ソフトウェアに関する通知</string>
     <string name="presence_optin_dialog_do_not_show_again_label">次回から表示しない</string>
     <string name="presence_optin_dialog_message">"ビデオ通話を発信する前に、どの連絡先の電話番号が Verizon ビデオ通話に対応しているのか Verizon が確認します。
 
@@ -1047,7 +1046,7 @@
     <string name="private_num_non_verizon">非通知設定</string>
     <string name="private_num_verizon">制限されています</string>
     <string name="private_or_hidden_action_preference_description">発信者番号が表示されないようにしている発信者</string>
-    <string name="private_or_hidden_action_preference_title">非通知設定</string>
+    <string name="private_or_hidden_action_preference_title">非通知 / 非表示の番号</string>
     <string name="quick_contact_checkbox_description">連絡先を選択する</string>
     <string name="ready_for_recording">準備しています…</string>
     <string name="record_audio_pre_call_dialog_got_it">OK</string>
@@ -1168,7 +1167,6 @@
     <string name="set_default_account_description">連絡先に適用する SIM の設定が保存されます。</string>
     <string name="set_phone_as_default_explanation_text">電話アプリで通話の発着信を行うには、これをデフォルトの通話アプリに設定する必要があります。</string>
     <string name="set_phone_as_default_request_text">電話アプリをデフォルトとして設定してください</string>
-    <string name="settings">設定</string>
     <string name="settings_page_call_recording_feature_not_available_text">現在の場所では通話の録音は使用できません</string>
     <string name="settings_page_crosby_feature_not_available_text">現在の場所では使用できません</string>
     <string name="setup_duo_button_long_text">Duo のビデオ通話をセットアップ</string>
@@ -1218,6 +1216,9 @@
     <string name="sounds_and_vibration_title">音とバイブレーション</string>
     <string name="spam_action_preference_description">Google のスパム データベースに一致する電話番号</string>
     <string name="spam_action_preference_title">スパム</string>
+    <string name="spam_after_call_notification_add_contact_action_text">連絡先を追加</string>
+    <string name="spam_after_call_notification_report_spam_action_text">ブロックして報告</string>
+    <string name="spam_aftercall_notification_unknown">不明</string>
     <string name="spam_and_call_screen_settings_title">スパムの番号と通話スクリーニング</string>
     <string name="spam_blocking_promo_action_dismiss">閉じる</string>
     <string name="spam_blocking_promo_action_filter_spam">迷惑電話をフィルタリング</string>
@@ -1229,6 +1230,9 @@
     <string name="spam_blocking_settings_enable_error_text">迷惑電話のブロックを ON にできませんでした</string>
     <string name="spam_blocking_settings_summary">迷惑電話の疑いがある通話をブロックします</string>
     <string name="spam_blocking_settings_title">迷惑電話をブロック</string>
+    <string name="spam_dialog_add_contact_action">連絡先に追加</string>
+    <string name="spam_dialog_dismiss_action">閉じる</string>
+    <string name="spam_notification_action_block_spam">番号をブロック</string>
     <string name="spam_notification_action_dismiss">閉じる</string>
     <string name="spam_notification_add_contact_action_text">連絡先に追加</string>
     <string name="spam_notification_block_spam_action_text">番号をブロック</string>
@@ -1468,27 +1472,27 @@
     <string name="videocall_remotely_resumed">通話が再開されました</string>
     <string name="videocall_settings_default_ask_every_time">毎回確認</string>
     <string name="videocall_settings_default_carrier">携帯通信会社のビデオ通話</string>
-    <string name="videocall_settings_default_caution">This feature allows a user to choose a preferred video call solution and indicate the receiver’s video capability when it’s available. ^1</string>
-    <string name="videocall_settings_default_caution_learn_more">Learn more about preferred video services</string>
+    <string name="videocall_settings_default_caution">ビデオ通話の発信方法を選択すると、相手が通話を受信できるかどうかがわかります。^1</string>
+    <string name="videocall_settings_default_caution_learn_more">ビデオ通話の詳細</string>
     <string name="videocall_settings_default_duo">Google Duo</string>
     <string name="videocall_settings_default_title">優先的に使用するビデオ通話サービス</string>
-    <string name="videocall_settings_fallback_caution">"When “Use Google Duo as backup” (if applicable) is on and a call can't be completed using your preferred service, the call will automatically be attempted on Duo. ^1"</string>
-    <string name="videocall_settings_fallback_caution_learn_more">Learn more about Duo backup calling</string>
-    <string name="videocall_settings_fallback_summary">優先サービスが利用できない場合は Duo に切り替える</string>
-    <string name="videocall_settings_fallback_title">Google Duo をバックアップとして使用する</string>
+    <string name="videocall_settings_fallback_caution">Google Duo が予備のビデオ通話サービスとして設定されていて、且つオンになっている場合、携帯通信会社のサービスでビデオ通話を発信できないときに、Duo が代わりに発信を試みます。^1</string>
+    <string name="videocall_settings_fallback_caution_learn_more">Duo を予備のビデオ通話サービスにする設定の詳細</string>
+    <string name="videocall_settings_fallback_summary">目的のサービスが利用できない場合は Duo に切り替える</string>
+    <string name="videocall_settings_fallback_title">Duo をバックアップとして使用する</string>
     <string name="videocall_settings_title">ビデオ通話</string>
     <string name="videocall_show_preview_button_description">ローカル動画フィードを表示</string>
     <string name="view_location_settings">位置情報の設定</string>
     <string name="vitle_label">LTE 経由のビデオ通話</string>
     <string name="viwifi_label">ビデオオーバー Wi-Fi</string>
     <string name="vm_change_pin_error_invalid">新しい PIN に無効な文字が含まれています。</string>
-    <string name="vm_change_pin_error_last_4_digits_msisdn">新しい PIN に、電話番号の下 4 桁を指定することはできません。</string>
+    <string name="vm_change_pin_error_last_4_digits_msisdn">電話番号の下 4 桁を PIN に指定することはできません。</string>
     <string name="vm_change_pin_error_mismatch">古い PIN が一致しません。</string>
     <string name="vm_change_pin_error_system_error">PIN を変更できませんでした</string>
     <string name="vm_change_pin_error_too_long">新しい PIN が長すぎます。</string>
     <string name="vm_change_pin_error_too_short">新しい PIN が短すぎます。</string>
     <string name="vm_change_pin_error_too_weak">新しい PIN の強度が弱すぎます。パスワードには連続する文字や、数字の繰り返しは使用しないでください。</string>
-    <string name="vm_change_pin_error_unchanged_pin">新しい PIN と現在の PIN が同じです。異なる PIN を入力してください。</string>
+    <string name="vm_change_pin_error_unchanged_pin">新しい PIN を現在の PIN と同じにすることはできません。</string>
     <string name="vm_change_pin_progress_message">お待ちください。</string>
     <string name="voice_call">音声通話</string>
     <string name="voice_call_button">音声通話</string>
@@ -1510,11 +1514,9 @@
     <string name="voicemailMultiSelectDeleteConfirm">削除</string>
     <string name="voicemail_action_call_customer_support">カスタマー サポート宛に発信</string>
     <string name="voicemail_action_call_voicemail">留守番電話サービスを呼び出す</string>
-    <string name="voicemail_action_dimiss">スキップ</string>
     <string name="voicemail_action_retry">再試行</string>
     <string name="voicemail_action_set_pin">PIN を設定</string>
     <string name="voicemail_action_sync">同期</string>
-    <string name="voicemail_action_turn_archive_on">ON にする</string>
     <string name="voicemail_action_turn_off_airplane_mode">機内モードの設定</string>
     <string name="voicemail_activating_summary_info">留守番電話を有効にしています</string>
     <string name="voicemail_advanced_settings_title">詳細設定</string>
@@ -1529,7 +1531,7 @@
     <string name="voicemail_change_pin_preference_summary_disable">PIN を変更するには、ビジュアル留守番電話を有効にする必要があります</string>
     <string name="voicemail_change_pin_preference_summary_not_activated">ビジュアル留守番電話がまだ有効になっていません。しばらくしてからもう一度お試しください</string>
     <string name="voicemail_change_pin_preference_title">PIN の変更</string>
-    <string name="voicemail_donate_preference_summary_info">よろしければ Google による留守番電話メッセージの分析にご協力ください。分析結果は音声文字変換機能の精度改善に役立てさせていただきます。分析にあたっては、留守番電話のメッセージを匿名で保存させていただきます。%1$s</string>
+    <string name="voicemail_donate_preference_summary_info">よろしければ Google による留守番電話メッセージの分析にご協力ください。分析結果は音声文字変換機能の精度改善に役立てさせていただきます。分析にあたっては、留守番電話のメッセージを匿名で保存させていただきます。^1</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">データプランなしの SIM でビジュアル留守番電話を使用すると、携帯通信会社の通信料がかかる場合があります</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">ビジュアル留守番電話は選択したデータ SIM でのみご利用いただけます</string>
     <string name="voicemail_error_activating_message">ビジュアル留守番電話の有効化が完了するまで留守番電話通知を受信できません。新しいメッセージを取得するには留守番電話サービスを呼び出してください。</string>
@@ -1542,12 +1544,8 @@
     <string name="voicemail_error_bad_config_title">ビジュアル留守番電話を更新できません</string>
     <string name="voicemail_error_communication_message">留守番電話サービスを呼び出して留守番電話を確認することは可能です。</string>
     <string name="voicemail_error_communication_title">ビジュアル留守番電話を更新できません</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_message">メールボックスの空き容量が少なくなっています。空き容量を増やすには、追加の保存容量を ON にして、Google が留守番電話のメッセージの管理とバックアップを行えるようにしてください。</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_title">追加の保存容量とバックアップを ON にしてください</string>
     <string name="voicemail_error_inbox_full_message">受信トレイに空き容量がありません。新しい留守番電話を受信するには、古いメッセージをいくつか削除してみてください。</string>
     <string name="voicemail_error_inbox_full_title">新しい留守番電話を受信できません</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_message">メールボックスに空き容量がありません。空き容量を増やすには、追加の保存容量を ON にして、Google が留守番電話のメッセージの管理とバックアップを行えるようにしてください。</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_title">追加の保存容量とバックアップを ON にしてください</string>
     <string name="voicemail_error_inbox_near_full_message">受信トレイに空き容量がないため、新しい留守番電話を受信できません。</string>
     <string name="voicemail_error_inbox_near_full_title">受信トレイの空き容量が少なくなっています</string>
     <string name="voicemail_error_no_data_cellular_required_message">モバイルデータ通信の接続状態が良好なときにもう一度お試しください。留守番電話サービスを呼び出して留守番電話を確認することは可能です。</string>
@@ -1580,7 +1578,7 @@
     <string name="voicemail_transcription_failed_language_not_supported">この言語はサポートされていないため、文字に変換できません。</string>
     <string name="voicemail_transcription_failed_no_speech">言語音が検出されなかったため、文字に変換できません。</string>
     <string name="voicemail_transcription_in_progress">文字に変換しています…</string>
-    <string name="voicemail_transcription_preference_summary_info">Google の音声文字変換サービスを使用して留守番電話が文字に変換されます。%1$s</string>
+    <string name="voicemail_transcription_preference_summary_info">Google の音声文字変換サービスを使用して留守番電話が文字に変換されます。^1</string>
     <string name="voicemail_visual_voicemail_auto_archive_switch_title">追加のバックアップと保存容量</string>
     <string name="voicemail_visual_voicemail_donation_switch_title">留守番電話の音声文字変換結果の分析</string>
     <string name="voicemail_visual_voicemail_switch_title">ビジュアル留守番電話</string>
@@ -1636,7 +1634,7 @@
     <string name="wait_prompt_str">"次の番号を送信しますか？
 "</string>
     <string name="was_this_a_business_chip_text">ビジネスからの通話でしたか？</string>
-    <string name="was_this_a_business_dialog_body">ご報告いただいたタグの正誤情報は、発信者番号通知サービスの改善に役立てさせていただきます</string>
+    <string name="was_this_a_business_dialog_body">ご確認いただいた内容は、発信者番号機能の改善に役立てさせていただきます</string>
     <string name="was_this_a_business_dialog_negative_response">いいえ</string>
     <string name="was_this_a_business_dialog_positive_response">はい</string>
     <string name="was_this_a_business_dialog_snackbar">ありがとうございました</string>

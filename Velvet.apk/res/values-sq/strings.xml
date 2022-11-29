@@ -171,8 +171,6 @@ Derisa anëtarët e familjes të pranojnë ftesën, ata do të kenë qasje të k
     <string name="add_salsa_card_title">Shto shprehje të shpejta që i thua shpesh</string>
     <string name="add_shortcut_dismiss_button_description">Hiq</string>
     <string name="add_shortcut_text">Shto modalitetin \"me makinë\" në \"Ekranin bazë\"</string>
-    <string name="add_snackbar_action">Shto</string>
-    <string name="add_this_location_to_your_list_snackbar_text">Shtoje këtë vendndodhje te lista?</string>
     <string name="add_to_folder">Shto te dosja: %1$s</string>
     <string name="add_to_folder_with_app">Shto te dosja me %1$s</string>
     <string name="add_to_home_screen">Shto në ekranin bazë</string>
@@ -278,9 +276,12 @@ Kalo te kjo llogari te asistenti për të vazhduar."</string>
     <string name="all_salsas_section_subtitle">\"Asistenti\" do të presë në modalitetin e gatishmërisë për të zbuluar shprehjet e shpejta që zgjedh ti. Variacionet e zakonshme bëjnë gjithashtu punë.</string>
     <string name="all_set_title">\"Asistenti\" yt është gati</string>
     <string name="all_settings_title">TË GJITHA CILËSIMET</string>
+    <string name="allow_access">Lejo qasjen</string>
     <string name="allow_bluetooth_button_with_device_locked_notification_body">Kur telefoni është i kyçur, mund të përdorësh zërin për të kryer telefonata, dhe më shumë, me një pajisje \"bluetooth\"</string>
     <string name="allow_bluetooth_button_with_device_locked_notification_title">Përdor zërin me një pajisje \"bluetooth\"</string>
     <string name="allow_button_text">Lejo</string>
+    <string name="allow_calls_toggle_description">Do të njoftohesh për telefonatat hyrëse ndërsa drejton makinën</string>
+    <string name="allow_calls_toggle_title">Lejo telefonatat hyrëse</string>
     <string name="allow_rotation_title">Lejo rrotullimin</string>
     <string name="allow_wired_headsets_button_with_device_locked_notification_body">Kur telefoni është i kyçur, mund të përdorësh zërin për të kryer telefonata, dhe më shumë, me kufje me tela</string>
     <string name="allow_wired_headsets_button_with_device_locked_notification_title">Përdor zërin me kufje me tela</string>
@@ -356,11 +357,10 @@ Kalo te kjo llogari te asistenti për të vazhduar."</string>
     <string name="ambient_settings_bc_page_desc">Asistenti yt të tregon se çfarë të duhet, pikërisht kur të duhet, në ekranin tënd bazë dhe në ekranin e kyçjes.</string>
     <string name="ambient_settings_bc_title">Live Space</string>
     <string name="ambient_settings_commute_and_ttl_subtitle">Shiko trafikun dhe kohën e mbërritjes</string>
-    <string name="ambient_settings_commute_and_ttl_title">Udhëtimi ditor dhe koha për të ikur</string>
+    <string name="ambient_settings_commute_subtitle">Shiko trafikun</string>
+    <string name="ambient_settings_commute_title">Udhëtimet e përditshme</string>
     <string name="ambient_settings_device_location_subtitle">Shfaq përmbajtje të përshtatshme sipas vendndodhjes sate</string>
     <string name="ambient_settings_device_location_title">Vendndodhja</string>
-    <string name="ambient_settings_grocery_subtitle" />
-    <string name="ambient_settings_grocery_title">Dërgesat dhe marrjet</string>
     <string name="ambient_settings_home_and_work_location_subtitle">Merr informacion udhëtimi ditor, si p.sh. koha e parashikuar e mbërritjes dhe trafiku, sipas adresës sate të shtëpisë dhe të punës</string>
     <string name="ambient_settings_home_and_work_location_title">Shtëpia dhe vendi i punës</string>
     <string name="ambient_settings_hotel_subtitle">Informacioni i regjistrimit dhe i largimit</string>
@@ -373,6 +373,7 @@ Kalo te kjo llogari te asistenti për të vazhduar."</string>
     <string name="ambient_settings_title">Shkurtimisht</string>
     <string name="ambient_settings_travel_bundle_subtitle">Fluturimet nga Gmail</string>
     <string name="ambient_settings_travel_bundle_title">Udhëtim</string>
+    <string name="ambient_settings_ttl_subtitle">Shiko kohën e mbërritjes (ETA)</string>
     <string name="ambient_settings_ttl_title">"Koha për t'u nisur"</string>
     <string name="ambient_settings_upcoming_bundle_subtitle">Ngjarjet e kalendarit dhe alarmet rikujtuese</string>
     <string name="ambient_settings_upcoming_bundle_title">Të ardhshme</string>
@@ -449,7 +450,10 @@ Kalo te kjo llogari te asistenti për të vazhduar."</string>
     <string name="ar_permissions_screen_title">Get a better look</string>
     <string name="ar_session_error_dialog_body">An error has occurred when trying to view this object in your space.</string>
     <string name="ar_session_error_dialog_title">Unable to view in your space</string>
+    <string name="ar_triggering_description">Pajisja jote përdor lëvizjen dhe lidhjet me Bluetooth për të zbuluar se kur je në një automjet që po lëviz</string>
+    <string name="ar_triggering_title">Kur zbulohet drejtimi i makinës</string>
     <string name="ask_assistant">Pyet \"Asistentin\"</string>
+    <string name="ask_before_launching">Pyet përpara se ta hapësh</string>
     <string name="ask_for_message_to_number">Sigurisht, dëshiron të dërgosh një mesazh me tekst. Cili është mesazhi?</string>
     <string name="ask_for_text_message_contact_first_time">"Në rregull, dëshiron t'i dërgosh një mesazh me tekst %1$s. Cili është mesazhi?"</string>
     <string name="ask_to_confirm_3p_chat_message">Ky është mesazhi yt i %1$s për %2$s ku thuhet: %3$s. Dëshiron që ta dërgosh apo ta ndryshosh?</string>
@@ -457,10 +461,10 @@ Kalo te kjo llogari te asistenti për të vazhduar."</string>
     <string name="ask_to_confirm_message_reprompt">Më fal, ta dërgoj apo ta ndryshoj?</string>
     <string name="ask_to_confirm_sms">Ky është mesazhi yt SMS për %1$s, %2$s. Dëshiron që ta dërgosh apo ta ndryshosh?</string>
     <string name="assistant">Asistenti</string>
-    <string name="assistant_aa_loyalty_card_title">Loyalty Card</string>
+    <string name="assistant_aa_loyalty_card_title">Karta e besnikërisë</string>
     <string name="assistant_accessibility_voice_typing_stopped">Shkrimi me zë ndaloi</string>
     <string name="assistant_add_item_app_control_suggestion">Shto</string>
-    <string name="assistant_ama_media_only_chip">Listen</string>
+    <string name="assistant_ama_media_only_chip">Dëgjo</string>
     <string name="assistant_android_settings_access_assistant_category_title">Qasu tek \"Asistenti i Google\" në Pixel</string>
     <string name="assistant_android_settings_active_edge_summary">Për të folur me \"Asistentin\", shtrydh me shpejtësi gjysmën e poshtme të telefonit, e më pas lëshoje</string>
     <string name="assistant_android_settings_active_edge_title">Shtrydhe për \"Asistentin\" tënd</string>
@@ -479,7 +483,8 @@ Kalo te kjo llogari te asistenti për të vazhduar."</string>
     <string name="assistant_android_settings_see_all_title">Shiko \"Cilësimet e Asistentit\"</string>
     <string name="assistant_android_settings_voice_match_summary">Përdor Voice Match për të pasur qasje tek \"Asistenti\" me zërin tënd, edhe kur telefoni është i kyçur</string>
     <string name="assistant_android_settings_voice_match_title">Thuaj “Ok Google”</string>
-    <string name="assistant_at_store">At Store</string>
+    <string name="assistant_at_store">Në dyqan</string>
+    <string name="assistant_avatar_icon_description">Ikona e simbolit të përdoruesit</string>
     <string name="assistant_bit_action_card_link">Shko te faqja e \"Asistentit të Google\"</string>
     <string name="assistant_bit_action_card_negative">Jo, faleminderit</string>
     <string name="assistant_bit_action_card_positive">Aktivizo</string>
@@ -495,10 +500,15 @@ Mund ta fshish historikun e \"Asistentit\" te myactivity.google.com."</string>
     <string name="assistant_bit_alert_on_text">"\"Asistenti i Google\" dërgon te Google informacione, si kërkesat e tua zanore, në mënyrë që të mund t'u përgjigjet pyetjeve të tua dhe të të ndihmojë të realizosh gjëra të ndryshme.
 Mund ta rishikosh dhe ta fshish historikun e \"Asistentit\" në çdo kohë te myactivity.google.com."</string>
     <string name="assistant_bit_alert_on_title">Të aktivizohet \"Asistenti i Google\"?</string>
-    <string name="assistant_calendar_event_during">%1$s now</string>
-    <string name="assistant_calendar_event_pre">%1$s in %2$s</string>
-    <string name="assistant_calendar_event_pre_static">%1$s at %2$s</string>
-    <string name="assistant_calendar_event_time_range">%1$s – %2$s</string>
+    <string name="assistant_calendar_event_during">%1$s tani</string>
+    <string name="assistant_calendar_event_pre">%1$s pas %2$s</string>
+    <string name="assistant_calendar_event_pre_static">%1$s në %2$s</string>
+    <string name="assistant_calendar_event_time_range">%1$s - %2$s</string>
+    <string name="assistant_canvas_logo_view_description">Kërko me zë</string>
+    <string name="assistant_canvas_opa_keyboard_indicator_content_description">Modaliteti i shkrimit</string>
+    <string name="assistant_canvas_opa_send_button_content_description">Dërgo</string>
+    <string name="assistant_canvas_opa_text_input_hint">Shkruaj një mesazh</string>
+    <string name="assistant_canvas_transcription_bar_description">Shiriti i transkriptimit</string>
     <string name="assistant_create_doc_app_control_suggestion">Krijo një dokument</string>
     <string name="assistant_custodio_activity_menu_help">Ndihma</string>
     <string name="assistant_custodio_activity_menu_send_feedback">Dërgo komente</string>
@@ -729,6 +739,7 @@ Mund ta rishikosh dhe ta fshish historikun e \"Asistentit\" në çdo kohë te my
     <string name="assistant_custodio_youtube_media_provider_name">YouTube</string>
     <string name="assistant_default_error_message">Ndodhi një gabim, provo përsëri</string>
     <string name="assistant_dictation_ineligible_aiai_version">"Për të përdorur \"Shkrimin me zë nëpërmjet 'Asistentit'\", përditëso aplikacionin Android System Intelligence në Google Play. &lt;a href=\"https://play.google.com/store/apps/details?id=com.google.android.as\">Përditëso&lt;/a> &lt;br> &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#update_app\">Mëso më shumë&lt;/a>"</string>
+    <string name="assistant_dictation_ineligible_android_old_version">"Për të përdorur \"Shkrimin me zë nëpërmjet 'Asistentit'\", përditëso versionin e Android. &lt;a href=\"intent:#Intent;action=android.settings.SYSTEM_UPDATE_SETTINGS;end\">Përditëso&lt;/a> &lt;br> &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#update_app\">Mëso më shumë&lt;/a>"</string>
     <string name="assistant_dictation_ineligible_download_needed">"\"Shkrimi me zë nëpërmjet 'Asistentit'\" ka nevojë për një përditësim. Lidhu me Wi-Fi për ta shkarkuar automatikisht. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#update_to_use\">Mëso më shumë&lt;/a>"</string>
     <string name="assistant_dictation_ineligible_generic">"Nuk mund të përdorësh aktualisht \"Shkrimin me zë nëpërmjet 'Asistentit'\". &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#fix_issues_assistant_voice_typing\">Mëso më shumë&lt;/a>"</string>
     <string name="assistant_dictation_ineligible_locale_mismatch">"Për të përdorur \"Shkrimin me zë nëpërmjet 'Asistentit'\", gjuhët kryesore të Gboard dhe të pajisjes duhet të jenë të njëjta. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#device_language\">Mëso më shumë&lt;/a>"</string>
@@ -738,29 +749,25 @@ Mund ta rishikosh dhe ta fshish historikun e \"Asistentit\" në çdo kohë te my
     <string name="assistant_dictation_ineligible_work_profile">"\"Shkrimi me zë i 'Asistentit'\" nuk ofrohet aktualisht për aplikacionet në një profil pune. Kalo tek aplikacionet e tua personale për ta përdorur këtë. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#not_available_work_profile\">Mëso më shumë&lt;/a>"</string>
     <string name="assistant_edit_app_control_suggestion">Redakto</string>
     <string name="assistant_features_title">Realizo gjëra të ndryshme</string>
-    <string name="assistant_flight_chip_boarding_pass">Boarding Pass</string>
-    <string name="assistant_flight_chip_check_in">Check in for your flight</string>
-    <string name="assistant_flight_chip_more_info">More Flight Info</string>
-    <string name="assistant_flight_departure_gate_info">Gate %1$s</string>
-    <string name="assistant_flight_departure_info">%1$s to %2$s departs in %3$s</string>
-    <string name="assistant_flight_departure_info_now">%1$s to %2$s departs now</string>
-    <string name="assistant_flight_departure_info_static_time">%1$s to %2$s departs at %3$s</string>
-    <string name="assistant_flight_departure_info_static_without_time">%1$s to %2$s</string>
-    <string name="assistant_flight_departure_terminal_info">Terminal %1$s</string>
-    <string name="assistant_flight_departure_time_delayed_info">Departs %1$s (<strike>%2$s</strike>)</string>
-    <string name="assistant_flight_departure_time_info">Departs %1$s</string>
-    <string name="assistant_flight_seat_info">Seat %1$s</string>
-    <string name="assistant_flight_to_delayed_info">Delayed: Flight to %1$s</string>
-    <string name="assistant_flight_to_info">Flight to %1$s</string>
+    <string name="assistant_flight_chip_boarding_pass">Karta e imbarkimit</string>
+    <string name="assistant_flight_chip_check_in">Regjistrohu për fluturimin tënd</string>
+    <string name="assistant_flight_chip_more_info">Informacione të tjera për fluturimin</string>
+    <string name="assistant_flight_departure_gate_info">Porta %1$s</string>
+    <string name="assistant_flight_departure_info">Fluturimi nga %1$s për në %2$s niset për %3$s</string>
+    <string name="assistant_flight_departure_info_now">Fluturimi nga %1$s për në %2$s niset tani</string>
+    <string name="assistant_flight_departure_info_static_time">Fluturimi nga %1$s për në %2$s niset në %3$s</string>
+    <string name="assistant_flight_departure_info_static_without_time">%1$s - %2$s</string>
+    <string name="assistant_flight_departure_terminal_info">Terminali %1$s</string>
+    <string name="assistant_flight_departure_time_delayed_info">Nisja: %1$s (<strike>%2$s</strike>)</string>
+    <string name="assistant_flight_departure_time_info">Nisja: %1$s</string>
+    <string name="assistant_flight_seat_info">Ndenjësja %1$s</string>
+    <string name="assistant_flight_to_delayed_info">Me vonesë: Fluturimi për në %1$s</string>
+    <string name="assistant_flight_to_info">Fluturimi për në %1$s</string>
     <string name="assistant_grocery_delivery_completed">%1$s order delivered</string>
-    <string name="assistant_grocery_delivery_during">%1$s delivery now</string>
-    <string name="assistant_grocery_delivery_pre">%1$s delivery in %2$s</string>
-    <string name="assistant_grocery_delivery_pre_static">%1$s delivery at %2$s</string>
+    <string name="assistant_grocery_delivery_scheduled">%1$s delivery scheduled</string>
     <string name="assistant_grocery_pickup_completed">%1$s order picked up</string>
-    <string name="assistant_grocery_pickup_during">%1$s pickup now</string>
-    <string name="assistant_grocery_pickup_pre">%1$s pickup in %2$s</string>
-    <string name="assistant_grocery_pickup_pre_static">%1$s pickup at %2$s</string>
-    <string name="assistant_grocery_pickup_ready">%1$s pickup now</string>
+    <string name="assistant_grocery_pickup_ready">%1$s order ready for pickup</string>
+    <string name="assistant_grocery_pickup_scheduled">%1$s pickup scheduled</string>
     <string name="assistant_grocery_time_range">%1$s – %2$s</string>
     <string name="assistant_guacamole_answer_call_announce">Po përgjigjet</string>
     <string name="assistant_guacamole_closed_popup_pill_content_description">Thuaj “%1$s”. Trokit dy herë te pilula për më shumë informacione.</string>
@@ -815,6 +822,9 @@ Mund ta rishikosh dhe ta fshish historikun e \"Asistentit\" në çdo kohë te my
     <string name="assistant_keyboard_first_one_text">Artikulli i parë</string>
     <string name="assistant_keyboard_firstrun_text">&lt;linkable>Menaxho cilësimet&lt;/linkable></string>
     <string name="assistant_keyboard_icon_label">Tastiera</string>
+    <string name="assistant_keyboard_input_clear_button_content_description">Click to clear text input</string>
+    <string name="assistant_keyboard_input_mic_button_content_description">Click the mic icon to start voice query</string>
+    <string name="assistant_keyboard_input_text_hint">Type a text input here</string>
     <string name="assistant_keyboard_learning_center_category_compose">Shkruaj dhe dërgo</string>
     <string name="assistant_keyboard_learning_center_category_emojis">Shto Emoji</string>
     <string name="assistant_keyboard_learning_center_category_forms">Formularë dhe email-e</string>
@@ -898,12 +908,14 @@ Mund ta rishikosh dhe ta fshish historikun e \"Asistentit\" në çdo kohë te my
     <string name="assistant_keyboard_sticky_mic_education_tip_text">Trokit dy herë për ta mbajtur mikrofonin të hapur&lt;br>derisa të mbyllësh tastierën</string>
     <string name="assistant_keyboard_stop_button_description">Ndalo diktimin</string>
     <string name="assistant_keyboard_stop_text">Ndalo</string>
+    <string name="assistant_keyboard_suggestion_query_builder_button_content_description">Click to edit in input box</string>
     <string name="assistant_keyboard_undo_button_description">Zhbëj</string>
     <string name="assistant_keyboard_undo_text">Zhbëj</string>
     <string name="assistant_keyboard_voice_command_not_supported">Komanda nuk ofrohet në këtë aplikacion</string>
     <string name="assistant_keyboard_voice_corrections_tip_text">Thuaj fjalën me të cilën dëshiron të&lt;br>zëvendësosh përzgjedhjen</string>
     <string name="assistant_language_not_supported">\"Asistenti i Google\" nuk ofrohet ende në %s</string>
     <string name="assistant_learning_center_data_error">Sorry, something went wrong while loading data.</string>
+    <string name="assistant_learning_center_detailed_page_data_error">Sorry, something went wrong while loading data.</string>
     <string name="assistant_logo_a11y">Trokit për të hapur \"Asistentin e Google\"</string>
     <string name="assistant_logo_content_description">Logoja e \"Asistentit të Google\"</string>
     <string name="assistant_long_press_power_action_button_text">E kuptova</string>
@@ -945,7 +957,7 @@ Mund ta rishikosh dhe ta fshish historikun e \"Asistentit\" në çdo kohë te my
     <string name="assistant_my_actions_unpin_confirmation_dialog_title">Njoftim!</string>
     <string name="assistant_my_actions_unpinned_action_row_add_button_content_description">Shtoje këtë veprim</string>
     <string name="assistant_my_actions_unpinned_actions_header">Veprimet që mund të të pëlqejnë</string>
-    <string name="assistant_my_flights_query">My Flights</string>
+    <string name="assistant_my_flights_query">Fluturimet e mia</string>
     <string name="assistant_on_lockscreen_desc">Lejo që \"Asistenti\" të përgjigjet kur telefoni është i kyçur. Për të marrë rezultate personale, si p.sh. kontaktet dhe mesazhet e tua, thuaj “%1$s” që \"Asistenti\" të mund të njohë zërin tënd.</string>
     <string name="assistant_on_lockscreen_description">Lejo që \"Asistenti\" të përgjigjet kur telefoni është i kyçur. Për të marrë rezultate personale, si p.sh. kontaktet dhe mesazhet e tua, thuaj “Ok Google” që \"Asistenti\" të mund të njohë zërin tënd.</string>
     <string name="assistant_on_lockscreen_title">Përgjigjet e \"Asistentit\" në ekranin e kyçjes</string>
@@ -1772,21 +1784,38 @@ Mund t'i aktivizosh përsëri Voice Match dhe Face Match te cilësimet në aplik
     <string name="assistant_suw_intro_screen_action_button_text">Pranoj</string>
     <string name="assistant_suw_intro_screen_cancel_button_text">Kapërce</string>
     <string name="assistant_suw_intro_screen_default_x_google_hotword">Ok Google</string>
+    <string name="assistant_suw_intro_screen_hint1_for_unicorn_vm3">{GENDER,select, male{\"%1$s\" kërkon gjithashtu Voice Match, në mënyrë që \"Asistenti\" i {GIVEN_NAME} ta njohë atë.}female{\"%1$s\" kërkon gjithashtu Voice Match, në mënyrë që \"Asistenti\" i {GIVEN_NAME} ta njohë atë.}other{\"%1$s\" kërkon gjithashtu Voice Match, në mënyrë që \"Asistenti\" i {GIVEN_NAME} të mund ta njohë atë.}}</string>
+    <string name="assistant_suw_intro_screen_hint1_vm3">\"%1$s\" kërkon gjithashtu Voice Match, në mënyrë që \"Asistenti\" të mund të të njohë.</string>
+    <string name="assistant_suw_intro_screen_hint2_for_unicorn_vm3">\"Asistenti\" mund të aktivizohet edhe kur %1$s nuk e ka pasur për qëllim; për shembull, kur ka një zhurmë që tingëllon si \"%2$s\".</string>
+    <string name="assistant_suw_intro_screen_hint2_vm3">\"Asistenti\" mund të aktivizohet edhe kur nuk e ke pasur këtë qëllim; për shembull, kur ka një zhurmë që tingëllon si \"%1$s\".</string>
+    <string name="assistant_suw_intro_screen_hint3_for_unicorn_vm3">Mund ta çaktivizosh \"%1$s\" te cilësimet e \"Asistentit\" të %2$s.</string>
+    <string name="assistant_suw_intro_screen_hint3_vm3">Mund ta çaktivizosh \"%1$s\" te cilësimet e \"Asistentit\".</string>
     <string name="assistant_suw_intro_screen_item_summary_1">“Si është moti këtë fundjavë?”</string>
+    <string name="assistant_suw_intro_screen_item_summary_1_for_unicorn">\"A më nevojitet çadër?\"</string>
     <string name="assistant_suw_intro_screen_item_summary_2">“Ku është kafeneja më e afërt?”</string>
+    <string name="assistant_suw_intro_screen_item_summary_2_for_unicorn">\"Çfarë tingulli nxjerr hipopotami?\"</string>
     <string name="assistant_suw_intro_screen_item_summary_3">“Cakto një alarm për në orën 5:00 nesër në mëngjes.”</string>
+    <string name="assistant_suw_intro_screen_item_summary_3_for_unicorn">\"Vendos një kohëmatës për detyrat e shtëpisë për 20 minuta\".</string>
     <string name="assistant_suw_intro_screen_item_title_1">Bëj pyetje</string>
     <string name="assistant_suw_intro_screen_item_title_2">Merr udhëzime</string>
+    <string name="assistant_suw_intro_screen_item_title_2_for_unicorn">Mëso gjëra të reja</string>
     <string name="assistant_suw_intro_screen_item_title_3">Realizo gjëra të ndryshme</string>
     <string name="assistant_suw_intro_screen_subtitle_v2">Nëse pranon, \"Asistenti i Google\" do të presë në modalitetin e gatishmërisë për të zbuluar “%1$s”.</string>
+    <string name="assistant_suw_intro_screen_subtitle_v2_for_unicorn_vm3">Nëse pranon, \"Asistenti i Google\" do të presë në modalitetin e gatishmërisë për të zbuluar kur %1$s të thotë \"%2$s\".</string>
     <string name="assistant_suw_intro_screen_title">Qasu tek \"Asistenti\" yt me “%1$s”</string>
     <string name="assistant_suw_intro_screen_title_for_unicorn">Lejo që %1$s të ketë qasje tek \"Asistenti i Google\" me “%2$s”</string>
-    <string name="assistant_suw_intro_screen_with_ww_hint">Mund ta përditësosh këtë zgjedhje te cilësimet e \"Asistentit\".</string>
+    <string name="assistant_suw_intro_screen_title_for_unicorn_vm3">Lejo %1$s të flasë me Google pa përdorur duart</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint2_for_unicorn_vm3">\"Asistenti\" mund të aktivizohet edhe kur %1$s nuk e ka pasur për qëllim; për shembull, kur ka një zhurmë që tingëllon si \"%2$s\" ose kur ka një frazë të shpejtë.</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint2_vm3">\"Asistenti\" mund të aktivizohet edhe kur nuk e ke pasur për qëllim; për shembull, kur ka një zhurmë që tingëllon si \"%1$s\" ose kur ka një frazë të shpejtë.</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint3_for_unicorn_vm3">Mund ta çaktivizosh \"%1$s\" dhe frazat e shpejta te cilësimet e \"Asistentit\" të %2$s.</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint3_vm3">Mund ta çaktivizosh \"%1$s\" dhe frazat e shpejta te cilësimet e \"Asistentit\".</string>
     <string name="assistant_suw_intro_screen_with_ww_item_summary_1">Bëj pyetje dhe merr ndihmë me detyrat.</string>
     <string name="assistant_suw_intro_screen_with_ww_item_summary_2">Provo fjalë si “ndalo” ose “shtyje” (p.sh. kur bie një alarm).</string>
+    <string name="assistant_suw_intro_screen_with_ww_item_summary_2_for_unicorn_vm3">%1$s mund të thotë fjalë, si p.sh. \"ndalo\" ose \"vendos në pauzë\" (për shembull, kur bie një alarm).</string>
     <string name="assistant_suw_intro_screen_with_ww_item_title_1">“%1$s”</string>
     <string name="assistant_suw_intro_screen_with_ww_item_title_2">Frazat e shpejta</string>
     <string name="assistant_suw_intro_screen_with_ww_subtitle">Nëse pranon, \"Asistenti i Google\" do të presë në modalitetin e gatishmërisë për të zbuluar “%1$s” dhe disa fraza të caktuara të shpejta.</string>
+    <string name="assistant_suw_intro_screen_with_ww_subtitle_for_unicorn_vm3">Nëse pranon, \"Asistenti i Google\" do të presë në modalitetin e gatishmërisë për të zbuluar se kur %1$s thotë \"%2$s\" dhe fraza të caktuara të shpejta.</string>
     <string name="assistant_suw_intro_screen_with_ww_title">Flit me Google pa përdorur duart</string>
     <string name="assistant_suw_loading_screen_title">Po kontrollon…</string>
     <string name="assistant_suw_more_button_text">Më shumë</string>
@@ -1802,8 +1831,8 @@ Mund t'i aktivizosh përsëri Voice Match dhe Face Match te cilësimet në aplik
     <string name="assistant_suw_settings_screen_title">Qasu tek \"Asistenti\" pa e shkyçur %1$s tënd</string>
     <string name="assistant_suw_settings_screen_title_for_unicorn">{GENDER,select, male{Lejo që {GIVEN_NAME} të ketë qasje tek \"Asistenti i Google\" pa e shkyçur %1$s e tij}female{Lejo që {GIVEN_NAME} të ketë qasje tek \"Asistenti i Google\" pa e shkyçur %1$s e saj}other{Lejo që {GIVEN_NAME} të ketë qasje tek \"Asistenti i Google\" pa e shkyçur %1$s e vet}}</string>
     <string name="assistant_take_note_app_control_suggestion">Mbaj një shënim</string>
-    <string name="assistant_tap_to_check_in">Tap to check-in</string>
-    <string name="assistant_tomorrow_time">Tomorrow, %1$s</string>
+    <string name="assistant_tap_to_check_in">"Trokit për t'u regjistruar"</string>
+    <string name="assistant_tomorrow_time">Nesër, %1$s</string>
     <string name="assistant_ui_learn_more_link">Mëso më shumë</string>
     <string name="assistant_unicorn_get_your_parent_subtitle">Së bashku, mund ta konfiguroni Voice Match.</string>
     <string name="assistant_unicorn_get_your_parent_subtitle_shared_devices">SË bashku mund ta konfigurosh \"Asistentin e Google\".</string>
@@ -1811,6 +1840,8 @@ Mund t'i aktivizosh përsëri Voice Match dhe Face Match te cilësimet në aplik
     <string name="assistant_voice_plate_avatar_label">Hap cilësimet</string>
     <string name="assistant_voice_plate_greeting_hi_text">Përshëndetje, si mund të të ndihmoj?</string>
     <string name="assistant_voice_plate_keyboard_icon_label">Tastiera</string>
+    <string name="assistant_voice_plate_onboarding_oauth_recovery_button">Identifikohu</string>
+    <string name="assistant_voice_plate_onboarding_oauth_recovery_text">Identifikohu në \"Llogarinë e Google\" për të përdorur \"Asistentin\"</string>
     <string name="assistant_voice_plate_onboarding_oobe_button">Fillo</string>
     <string name="assistant_voice_plate_onboarding_oobe_text">Shkyç veçori të tjera të \"Asistentit\"</string>
     <string name="assistant_voice_speech_output_title">Zëri i \"Asistentit\" dhe dalja e ligjërimit</string>
@@ -1833,7 +1864,7 @@ Te \"Cilësimet\", trokit \"Lejet > Vendndodhja > Lejo gjithmonë\"."</string>
     <string name="assistant_weather_widget_preview_condition">Me diell</string>
     <string name="assistant_weather_widget_preview_loading">Po ngarkon…</string>
     <string name="assistant_weather_widget_preview_location">San-Francisko</string>
-    <string name="assistant_yesterday_time">Yesterday, %1$s</string>
+    <string name="assistant_yesterday_time">Dje, %1$s</string>
     <string name="assistantactions_alarm_confirmation_card_button_text">View alarms</string>
     <string name="assistantactions_call_confirmation_card_button">Call</string>
     <string name="assistantactions_confirmation_card_cancel_text">Operation canceled</string>
@@ -1946,9 +1977,11 @@ Mund të zbatohen tarifa për të dhënat."</string>
 
 Si funksionon: Pajisja jote mbështetet në zbulimin e kamerës dhe analizon videon tënde për të përcaktuar nëse dëshiron ta aktivizosh \"Asistentin\" tënd. \"Asistenti\" mund të aktivizohet kur nuk ke pasur këtë qëllim, nëse ai zbulon gabimisht se kërkon ndihmën e tij. Videoja jote përpunohet në pajisje dhe nuk dërgohet në serverët e Google.
 
-\"Asistenti\" përdor gjithashtu Face Match dhe Voice Match në mënyrë që \"Shiko dhe fol\" të funksionojë vetëm për ty. Nëse të tjerë dëshirojnë të përdorin \"Shiko dhe fol\", ata mund ta konfigurojnë atë te cilësimet e aplikacionit të tyre Home ose \"Asistenti\".
+\"Asistenti\" përdor gjithashtu Face Match dhe Voice Match në mënyrë që \"Shiko dhe fol\" të funksionojë vetëm për ty. Nëse të tjerët dëshirojnë të përdorin \"Shiko dhe fol\", ata mund ta konfigurojnë atë te cilësimet e aplikacionit të tyre Home ose \"Asistenti\".
 
-Këtë veçori mund ta çaktivizosh në çdo kohë te cilësimet e tua të Face Match."</string>
+Këtë veçori mund ta çaktivizosh në çdo kohë te cilësimet e tua të Face Match.
+
+Shënim. Mund të vazhdosh të thuash \"Ok Google\" edhe nëse e ke të aktivizuar \"Shiko dhe fol\"."</string>
     <string name="blue_steel_consent_title">\"Shiko dhe fol\" në %1$s</string>
     <string name="blue_steel_learn_more">&lt;a href=%1$s>Mëso më shumë&lt;/a></string>
     <string name="blue_steel_turn_on">Aktivizo</string>
@@ -1965,7 +1998,6 @@ Këtë veçori mund ta çaktivizosh në çdo kohë te cilësimet e tua të Face 
     <string name="bottom_navigation_collections_label">Koleksionet</string>
     <string name="bottom_navigation_drawer_label">Më shumë</string>
     <string name="bottom_navigation_search_label">Kërko</string>
-    <string name="bottom_navigation_snapshot_label">Snapshot</string>
     <string name="bottom_navigation_spark_label">Zbulo</string>
     <string name="bottom_navigation_tabs_label">Skedat</string>
     <string name="bottomsheet_action_expand_halfway">Zgjeroje deri në gjysmë</string>
@@ -1973,6 +2005,8 @@ Këtë veçori mund ta çaktivizosh në çdo kohë te cilësimet e tua të Face 
     <string name="brightness">Ndriçimi i ekranit</string>
     <string name="broken_google_play_services_text">Për të përfunduar kërkesën, të nevojitet të aktivizosh shërbimet e \"Luaj me Google\". Rinise pajisjen nga e para.</string>
     <string name="bt_auto_trigger_title">Hap modalitetin \"me makinë\" të \"Asistentit\" kur lidhesh me makinën tënde</string>
+    <string name="bt_triggering_description">Përdor këtë cilësim për të hapur modalitetin \"me makinë\" kur hyn në makinë</string>
+    <string name="bt_triggering_title">Kur lidhet me Bluetooth-in</string>
     <string name="bubble_cancel_button_text">Anulo</string>
     <string name="bubble_dismiss_text">Zvarrit poshtë për të larguar</string>
     <string name="bubble_feedback_link">Komentet</string>
@@ -2080,7 +2114,6 @@ Këtë veçori mund ta çaktivizosh në çdo kohë te cilësimet e tua të Face 
     <string name="cct_account_mismatch_card_button_text">Hap %1$s</string>
     <string name="cct_account_mismatch_card_header">Shiko faqet e tua të uebit</string>
     <string name="cct_account_mismatch_card_text">Për të parë faqet që gjen këtu, përditëso &lt;b>Cilësimet e %1$s&lt;/b> dhe aktivizo sinkronizimin për &lt;b>%2$s&lt;/b></string>
-    <string name="chance_of_precipitation_label">Mundësia për reshje: %s</string>
     <string name="change_button_text">Ndrysho</string>
     <string name="change_speed_button">Ndrysho shpejtësinë e leximit</string>
     <string name="channel_description">Kontrolli i përmirësuar i zërit dhe butonat që torkiten lehtë të ndihmojnë të përqendrohesh në rrugë.</string>
@@ -2194,6 +2227,7 @@ dhe luaj muzikë"</string>
     <string name="common_google_play_services_update_text">%1$s nuk do të funksionojë nëse nuk përditëson shërbimet e \"Luaj me Google\".</string>
     <string name="common_google_play_services_update_title">Përditëso shërbimet e \"Luaj me Google\"</string>
     <string name="common_google_play_services_updating_text">%1$s nuk do të funksionojë pa shërbimet e Google Play, të cilat po përditësohen aktualisht.</string>
+    <string name="common_google_play_services_wear_update_text">Nevojitet një version i ri i shërbimeve të \"Luaj me Google\". Ai do të përditësohet automatikisht së shpejti.</string>
     <string name="common_google_search_hint">Kërko me Google</string>
     <string name="common_google_search_label">Google</string>
     <string name="common_learn_more">Mëso më shumë</string>
@@ -2201,6 +2235,7 @@ dhe luaj muzikë"</string>
     <string name="common_open_on_phone">Hape në telefon</string>
     <string name="common_see_updates">SHIKO PËRDITËSIMET</string>
     <string name="common_yes">OK</string>
+    <string name="comms_center_close_button_description">Mbyll faqen</string>
     <string name="commute_eta_msg">%1$s për në %2$s</string>
     <string name="commute_eta_time_hour">%1$s orë</string>
     <string name="commute_eta_time_hour_minute">%1$s orë %2$s min.</string>
@@ -2346,16 +2381,16 @@ Këto biseda mund t'i shikosh dhe t'i menaxhosh në seksionin %1$s të cilësime
     <string name="cricket_second_innings">Gjuajtjet e 2-ta</string>
     <string name="crop_wallpaper">Prit imazhin e sfondit</string>
     <string name="cross_profile_meta_data">Shfaq ngjarjet e ardhshme të punës në miniaplikacionin tënd personal \"Shkurtimisht\"</string>
-    <string name="current_conditions_temperature" formatted="false">Temperatura: %s %s</string>
     <string name="current_inning">Gjuajtjet %1$d</string>
-    <string name="current_location_searchbox">Vendndodhja aktuale</string>
     <string name="current_period">Pjesa %1$d</string>
     <string name="custom">Personalizim (nuk mund të personalizoj nga telefoni)</string>
+    <string name="custom_reply_button_string">Përgjigje e personalizuar</string>
     <string name="custom_tabs_explore_action_button_desc">Shiko faqe të ngjashme</string>
     <string name="custom_tabs_link_copied">Lidhja u kopjua në memorien e fragmenteve</string>
     <string name="custom_tabs_menu_item_copy_link">Kopjo lidhjen</string>
     <string name="custom_tabs_menu_item_help">Ndihma</string>
     <string name="custom_tabs_menu_item_open_in_browser_generic">Hapeni në shfletuesin e uebit</string>
+    <string name="custom_tabs_menu_item_personal_info_removal">Hiq rezultatet rreth teje</string>
     <string name="custom_tabs_menu_item_recent">Të fundit</string>
     <string name="custom_tabs_menu_item_share">Ndaje lidhjen...</string>
     <string name="custom_tabs_share_via">Shpërndaj përmes</string>
@@ -2367,7 +2402,6 @@ Këto biseda mund t'i shikosh dhe t'i menaxhosh në seksionin %1$s të cilësime
     <string name="cw_chip_icon_description">Ikona e çipit të veprimit</string>
     <string name="cw_disabled_message">Nuk ofrohet përkohësisht. Do të kthehemi së shpejti!</string>
     <string name="cw_feedback_chip_text">Dërgo koment</string>
-    <string name="daily_conditions_sky_condition">Kushtet e qiellit: %s</string>
     <string name="dangerous_or_harmful_activity">Aktivitet i rrezikshëm ose i dëmshëm</string>
     <string name="data_in_assistant">Të dhënat e tua tek \"Asistenti\"</string>
     <string name="data_sharing_action_button">Lejo</string>
@@ -2378,6 +2412,7 @@ Këto biseda mund t'i shikosh dhe t'i menaxhosh në seksionin %1$s të cilësime
     <string name="data_sharing_title_text">Kërko në të gjitha aplikacionet e televizorit</string>
     <string name="date_at_time">%1$s në %2$s</string>
     <string name="date_in_the_past">%1$s &lt;font color=#9E9E9E> është në të kaluarën&lt;/font></string>
+    <string name="day_picker_description">Tabela mujore e ditëve</string>
     <string name="decline_button_description">Refuzo telefonatën</string>
     <string name="decline_permissions">Not Now</string>
     <string name="deeplink_default_promocard_more_ways_to_search">Më shumë mënyra për të kërkuar në aplikacionin e Google</string>
@@ -2387,7 +2422,6 @@ Këto biseda mund t'i shikosh dhe t'i menaxhosh në seksionin %1$s të cilësime
     <string name="default_error">Mos, ndodhi një gabim.</string>
     <string name="default_error_msg">Gabim i panjohur</string>
     <string name="default_group_name">bisedë në grup</string>
-    <string name="default_location_name">San Francisko</string>
     <string name="default_media_selection_description">"Kur t'i kërkosh \"Asistentit\" që të luajë muzikë, ky shërbim do të përdoret si i parazgjedhur"</string>
     <string name="default_media_selection_title">Zgjidh shërbimin e parazgjedhur të muzikës</string>
     <string name="default_microphone_error">Mos, ndodhi një gabim. Provo përsëri.</string>
@@ -2721,9 +2755,12 @@ Mund t'i riaktivizosh gjithmonë këto cilësime nëpërmjet cilësimeve në apl
     <string name="dnd_setting_title">Shfaq vetëm njoftimet prioritare</string>
     <string name="dnd_title_off">Joaktiv</string>
     <string name="dnd_title_on">Aktiv</string>
+    <string name="dnd_toggle_description">Njoftimet pa përparësi të aplikacioneve do të vendosen në heshtje ndërsa drejton makinën</string>
+    <string name="dnd_toggle_title">Kufizo njoftimet gjatë drejtimit</string>
     <string name="do_not_disturb_desc">Mos shqetëso</string>
     <string name="do_not_show_fewer_like_this">Mos shfaq më pak si kjo</string>
     <string name="do_not_show_more_like_this">Mos shfaq të tjera si kjo</string>
+    <string name="do_nothing">Mos bëj asgjë</string>
     <string name="done_button_text">U krye</string>
     <string name="done_label">U krye</string>
     <string name="doodle_content_description">Imazhi i Google Doodle</string>
@@ -2751,8 +2788,11 @@ Mund t'i riaktivizosh gjithmonë këto cilësime nëpërmjet cilësimeve në apl
     <string name="dreamliner_dock_trusted_item_summary">"Lejo rezultatet personale në këtë pajisje, si p.sh. fotografitë, email-et, kalendarin, kontaktet dhe alarmet rikujtuese kur telefoni është i kyçur në Pixel Stand. Kjo lejon po ashtu pagesat nëse është aktivizuar Pay me \"Asistentin\" tënd. &lt;a href='https://support.google.com/assistant/answer/7684543?hl=en&amp;co=GENIE.Platform=Android'>Mëso më shumë&lt;/a>"</string>
     <string name="dreamliner_dock_trusted_item_title">Rezultatet personale të Pixel Stand</string>
     <string name="drive_mode_dedup_string">modaliteti \"me makinë\"</string>
+    <string name="driving_general_settings_header">Të përgjithshme</string>
     <string name="driving_screen_not_driving_description">Dil nga modaliteti \"me makinë\" i \"Asistentit\"</string>
     <string name="driving_screen_not_driving_label">Nuk po drejtoj makinën</string>
+    <string name="driving_settings_subtitle">Menaxho mënyrën se si \"Asistenti\" të ndihmon të drejtosh makinën</string>
+    <string name="driving_settings_title">Modaliteti \"me makinë\"</string>
     <string name="drl_nga_mic_button">Mikrofoni</string>
     <string name="dsc_illustration_description">Logot e aplikacioneve të televizorit tënd</string>
     <string name="dt_promocard_icon_description">Tema e errët</string>
@@ -2804,6 +2844,9 @@ Mund t'i riaktivizosh gjithmonë këto cilësime nëpërmjet cilësimeve në apl
     <string name="enable_google_play_services_link">Aktivizo</string>
     <string name="enable_google_play_services_text">Për të përfunduar kërkesën, të nevojitet të aktivizosh shërbimet e \"Luaj me Google\".</string>
     <string name="enable_google_search_restriction">Aktivizo \"Kërko me Google\"</string>
+    <string name="enable_mini_toggle_description">Modaliteti \"me makinë\" do të hapet kur të fillosh navigimin</string>
+    <string name="enable_mini_toggle_title">Kur navigon në Google Maps</string>
+    <string name="enable_mini_toggle_waiting_period_description">Së shpejti, modaliteti \"me makinë\" do të aktivizohet kur të fillosh navigimin</string>
     <string name="enable_video_preview_autoplay">Luajtja automatike</string>
     <string name="enable_video_preview_autoplay_on_mobile_data">Lejo në rrjetet celulare</string>
     <string name="enable_web_history_toast">Historiku i uebit është i aktivizuar</string>
@@ -2830,22 +2873,17 @@ Mund t'i riaktivizosh gjithmonë këto cilësime nëpërmjet cilësimeve në apl
     <string name="episode_sort">Rendit</string>
     <string name="episode_sort_option_newest_first">Më të rejat në fillim</string>
     <string name="episode_sort_option_oldest_first">Më të vjetrat në fillim</string>
-    <string name="error_adding_location_snackbar_text">Gabim gjatë shtimit të vendndodhjes</string>
     <string name="error_assist_app_step_1_text"><b>1.</b> Trokit te butoni i <b>Cilësimeve</b> më poshtë</string>
     <string name="error_assist_app_step_2_text"><b>2.</b> Trokit te seksioni i <b>Aplikacionit të asistentit</b></string>
     <string name="error_assist_app_step_3_text"><b>3.</b> Trokit te <b>Google</b> për ta caktuar si të parazgjedhur</string>
     <string name="error_card_title_text_something_went_wrong">Ndodhi një gabim</string>
     <string name="error_connecting_to_server">Nuk ka lidhje</string>
-    <string name="error_fetching_suggestions_status_text">Gabim gjatë marrjes së sugjerimeve</string>
-    <string name="error_getting_current_location_status_text">Gabim gjatë marrjes së informacionit të vendndodhjes aktuale</string>
-    <string name="error_getting_location_info_status_text">Gabim në marrjen e informacionit për vendndodhjen e përzgjedhur</string>
     <string name="error_icon_content_description">Gabim</string>
     <string name="error_loading_content">Faqja nuk mund të ngarkohet.</string>
     <string name="error_media_info">Ndodhi një gabim gjatë luajtjes së medias.</string>
     <string name="error_no_connection_text">"Nuk ka asnjë rrjet të disponueshëm
 Është mirë që të kontrollosh lidhjen dhe të provosh përsëri"</string>
     <string name="error_no_match_text">Trokit te mikrofoni, më pas fol te telefoni për përgjigje të shpejta</string>
-    <string name="error_removing_location_snackbar_text">Gabim gjatë heqjes së vendndodhjes</string>
     <string name="error_unreliable_network">Ndodhi një gabim. Kontrollo lidhjen tënde dhe provo përsëri.</string>
     <string name="errors_header">E</string>
     <string name="errors_header_full_length">Gabimet</string>
@@ -2899,6 +2937,53 @@ Mund t'i riaktivizosh gjithmonë këto cilësime nëpërmjet cilësimeve në apl
     <string name="explore_tab_shortcut_section_subtitle">Bazuar në aplikacionet e tua të shpeshta</string>
     <string name="explore_tab_shortcut_section_title">Shkurtoret që mund të të pëlqejnë</string>
     <string name="exposed_dropdown_menu_content_description">Shfaq menynë me lëshim poshtë</string>
+    <string name="fa_alarm_instance_default_label">Nuk është caktuar asnjë alarm</string>
+    <string name="fa_alarm_instance_filled_bullet">●</string>
+    <string name="fa_alarm_instance_switch_off_label">Alarmi i orës %1$s është çaktivizuar</string>
+    <string name="fa_alarm_instance_switch_on_label">Alarmi i orës %1$s është aktivizuar</string>
+    <string name="fa_audio_recorder_audio_recording_text">Po regjistron…</string>
+    <string name="fa_audio_recorder_default_play_record_time_text">00:00</string>
+    <string name="fa_audio_recorder_delete_audio_message">Fshi mesazhin me audio</string>
+    <string name="fa_audio_recorder_pause_audio_playback">Vendos në pauzë</string>
+    <string name="fa_audio_recorder_playback_audio">Luaj</string>
+    <string name="fa_audio_recorder_recording_audio">Po regjistrohet</string>
+    <string name="fa_audio_recorder_stop_recording_audio">Ndalo regjistrimin</string>
+    <string name="fa_cancel_button_description">Butoni i anulimit</string>
+    <string name="fa_confirm_button_description">Butoni i konfirmimit</string>
+    <string name="fa_contact_selection_contact_icon_description">Ikona e kontaktit</string>
+    <string name="fa_contact_selection_pick_another_contact_view_hint">Zgjidh një kontakt tjetër</string>
+    <string name="fa_contact_selection_view_hint">Zgjidh një kontakt</string>
+    <string name="fa_device_setting_toggle_icon_description">Ikona e cilësimit</string>
+    <string name="fa_device_setting_toggle_off_description">%1$s është joaktiv</string>
+    <string name="fa_device_setting_toggle_on_description">%1$s është aktiv</string>
+    <string name="fa_duration_hours_minutes_seconds">%1$02d orë e %2$02d min. e %3$02d sek.</string>
+    <string name="fa_duration_minutes_seconds">%1$02d min. e %2$02d sek.</string>
+    <string name="fa_duration_picker_confirm_button_text">U krye</string>
+    <string name="fa_duration_picker_hour_unit_label">Orët</string>
+    <string name="fa_duration_picker_minute_unit_label">Minutat</string>
+    <string name="fa_duration_picker_second_unit_label">Sekondat</string>
+    <string name="fa_duration_picker_title">Cakto kohëzgjatjen</string>
+    <string name="fa_duration_seconds">%1$02d sek.</string>
+    <string name="fa_empty_time">--:--</string>
+    <string name="fa_family_info_broadcast_settings_button">Butoni i cilësimeve të transmetimit</string>
+    <string name="fa_family_info_collapse_button">Butoni i shfaqjes së personave u palos</string>
+    <string name="fa_family_info_uncollapse_button">Butoni i shfaqjes së personave u zgjerua</string>
+    <string name="fa_filled_bullet">●</string>
+    <string name="fa_hour_unit_label">o</string>
+    <string name="fa_list_item_picker_title">Zgjidh një opsion</string>
+    <string name="fa_minute_unit_label">m</string>
+    <string name="fa_playback_audio">Luaj</string>
+    <string name="fa_recurrence_custom">E personalizuar (nuk mund të personalizohet në telefon)</string>
+    <string name="fa_recurrence_do_not_repeat">Mos e përsërit</string>
+    <string name="fa_recurrence_none">Asnjë</string>
+    <string name="fa_remaining_duration_hours_minutes_seconds">Të mbetura: %1$02d orë e %2$02d min. e %3$02d sek.</string>
+    <string name="fa_remaining_duration_minutes_seconds">Të mbetura: %1$02d min. e %2$02d sek.</string>
+    <string name="fa_remaining_duration_seconds">Të mbetura: %1$02d sek.</string>
+    <string name="fa_second_unit_label">s</string>
+    <string name="fa_timer_status_active">AKTIV</string>
+    <string name="fa_timer_status_paused">NË PAUZË</string>
+    <string name="fa_timer_status_reset">RIVENDOS</string>
+    <string name="fa_timer_status_unknown">I PANJOHUR</string>
     <string name="facade_search_box_content_description">Kërko…</string>
     <string name="face_match_enabled_devices_section_subtitle">E ke aktivizuar Face Match në këto pajisje</string>
     <string name="face_match_enabled_devices_section_title">Pajisjet me Face Match</string>
@@ -2952,7 +3037,6 @@ Mund t'i riaktivizosh gjithmonë këto cilësime nëpërmjet cilësimeve në apl
     <string name="feedback_unsuccessful_snackbar_hint">Ndodhi një gabim. Provo përsëri.</string>
     <string name="feedback_verify_location">Verifiko vendndodhjen tënde</string>
     <string name="feedtooltip_video">Videot tani luhen automatikisht me të dhënat celulare. &lt;u>Cilësimet&lt;/u></string>
-    <string name="fetching_suggestions_status_text">Po merr sugjerimet...</string>
     <string name="filled_bullet">●</string>
     <string name="final_notification_no_reply_prompt">Dëshiron ta përsërisësh apo kaq ishte për momentin?</string>
     <string name="final_notification_no_reply_reprompt">Më fal, dëshiron ta përsërisësh apo kaq ishte për momentin?</string>
@@ -3250,7 +3334,7 @@ Provo të kërkosh përsëri për podkastin."</string>
     <string name="googleapp_accountmenu_chrome_incognito">Skedë e re \"e fshehtë\" e Chrome</string>
     <string name="googleapp_accountmenu_data_in_search">Kërko</string>
     <string name="googleapp_accountmenu_passwords">Fjalëkalimet</string>
-    <string name="googleapp_accountmenu_personal_info_removal">Hiq informacionet e tua personale</string>
+    <string name="googleapp_accountmenu_personal_info_removal">Results about you</string>
     <string name="googleapp_accountmenu_quick_delete_education_easy">Pastro 15 minutat e fundit të historikut të \"Kërko\" me vetëm një trokitje</string>
     <string name="googleapp_accountmenu_quickdelete_cancel">Anulo</string>
     <string name="googleapp_accountmenu_quickdelete_error">"S'mund të fshihej historiku"</string>
@@ -3266,7 +3350,7 @@ Provo të kërkosh përsëri për podkastin."</string>
     <string name="googleapp_accountmenu_search_history">Historiku i kërkimeve</string>
     <string name="googleapp_accountmenu_your_contributions">Kontributet e tua</string>
     <string name="googleapp_actionbutton_listen">Lexo me zë të lartë</string>
-    <string name="googleapp_ads_personalization_settings_title">Ads personalization</string>
+    <string name="googleapp_ads_personalization_settings_title">Personalizimi i reklamave</string>
     <string name="googleapp_amp_security_button_description">Lidhja është e sigurt</string>
     <string name="googleapp_app_suggestions_summary">Emrat e aplikacioneve të instaluara.</string>
     <string name="googleapp_app_suggestions_title">Aplikacionet</string>
@@ -3278,6 +3362,10 @@ Provo të kërkosh përsëri për podkastin."</string>
     <string name="googleapp_autocomplete_with_trending_searches_header_title">Kërkimet në tendencë</string>
     <string name="googleapp_autocomplete_with_trending_searches_summary">Kërkimet në tendencë përfshijnë kërkimet më të shpeshta në zonën tënde</string>
     <string name="googleapp_autocomplete_with_trending_searches_title">Plotësimi automatik me kërkimet në tendencë</string>
+    <string name="googleapp_autoplay_video_previews_always">Me Wi-Fi dhe të dhëna celulare</string>
+    <string name="googleapp_autoplay_video_previews_never">Asnjëherë</string>
+    <string name="googleapp_autoplay_video_previews_setting_title">Pamjet paraprake të luajtjes automatike të videove</string>
+    <string name="googleapp_autoplay_video_previews_wifi">Vetëm me Wi-Fi</string>
     <string name="googleapp_back_arrow_description">Pas</string>
     <string name="googleapp_bar_color_title">Ngjyra e shiritit</string>
     <string name="googleapp_bar_logo_title">Logoja e shiritit</string>
@@ -3289,12 +3377,6 @@ Provo të kërkosh përsëri për podkastin."</string>
     <string name="googleapp_boc_tooltip_tap_to_manage_your_preferences">Trokit për të menaxhuar preferencat dhe komentet e tua</string>
     <string name="googleapp_books_mode_landing_text">Kërko për libra</string>
     <string name="googleapp_bottom_navigation_collections_label_content_description">Butoni \"Koleksionet\"</string>
-    <string name="googleapp_broad_queries_topbar_mic_description">Kërkimi me zë</string>
-    <string name="googleapp_broad_queries_topbar_search_description">Kërko</string>
-    <string name="googleapp_broad_queries_topbar_up_content_description">Prapa</string>
-    <string name="googleapp_broadqueries_error_message">Kontrollo nëse punon lidhja e internetit</string>
-    <string name="googleapp_broadqueries_error_title">Ndodhi një gabim</string>
-    <string name="googleapp_broadqueries_loading_indicator_desc">Përmbajtja po ngarkohet</string>
     <string name="googleapp_browser_actionbutton_ampinfo">Më shumë rreth faqeve AMP</string>
     <string name="googleapp_browser_actionbutton_overflowmenu">Veprime të tjera</string>
     <string name="googleapp_browser_actionbutton_tabs">Skedat</string>
@@ -3307,8 +3389,8 @@ Provo të kërkosh përsëri për podkastin."</string>
     <string name="googleapp_browser_clear_error">Ndodhi një gabim gjatë përpjekjes për të pastruar të dhënat e shfletimit.</string>
     <string name="googleapp_browser_contextmenu_open_in_new_tab_title">Hape në skedë të re</string>
     <string name="googleapp_browser_contextmenu_previewimage_description">Pamja paraprake e imazhit</string>
-    <string name="googleapp_browser_contextmenu_previewimage_scrolllabel">Scroll for more of image</string>
-    <string name="googleapp_browser_contextmenu_previewimage_smalllabel">Image preview enlarged from original size</string>
+    <string name="googleapp_browser_contextmenu_previewimage_scrolllabel">Lëvize për të parë më shumë nga imazhi</string>
+    <string name="googleapp_browser_contextmenu_previewimage_smalllabel">Pamja paraprake e imazhit është e zmadhuar nga madhësia origjinale</string>
     <string name="googleapp_browser_download_blocker_incognito_continue_btn">Shkarko</string>
     <string name="googleapp_browser_download_blocker_incognito_message">Skedarët e shkarkuar ruhen në pajisjen tënde. Ata do të jenë përsëri të arritshëm pasi ta çaktivizosh modalitetin \"I fshehtë\".</string>
     <string name="googleapp_browser_enable_title">Hap faqet e uebit në aplikacionin e Google</string>
@@ -3318,28 +3400,27 @@ Provo të kërkosh përsëri për podkastin."</string>
     <string name="googleapp_browser_firstrun_summary">"Aplikacioni yt i Google është përditësuar dhe tani mund të shfletosh përmbajtje të uebit si artikuj, video dhe histori - të gjitha nga brenda aplikacionit.
 
 Mund të duhet të identifikohesh në disa sajte uebi dhe mund të duash t'i rishikosh cilësimet e shfletuesit tënd."</string>
-    <string name="googleapp_browser_firstrun_summary_v2">"Now you can view pages faster and enjoy an improved search experience.
+    <string name="googleapp_browser_firstrun_summary_v2">"Tani mund t'i shikosh faqet më shpejt dhe të shijosh një përvojë të përmirësuar të kërkimit.
 
-You may need to log back in to some sites."</string>
+Mund të të duhet të identifikohesh sërish në disa sajte."</string>
     <string name="googleapp_browser_firstrun_summary_v2_part2">"
 
-Manage your new browser security and privacy settings in the app."</string>
+Menaxho cilësimet e reja të sigurisë dhe privatësisë të shfletuesit tënd në aplikacion."</string>
     <string name="googleapp_browser_firstrun_title">Përmbajtjet e uebit tani hapen në aplikacion</string>
-    <string name="googleapp_browser_firstrun_title_v2">Browse without leaving the app</string>
+    <string name="googleapp_browser_firstrun_title_v2">Shfleto pa u larguar nga aplikacioni</string>
     <string name="googleapp_browser_setting_clear_cache_title"><b>Imazhet dhe skedarët në memorien specifike</b>"
 Disa sajte mund të ngarkohen më ngadalë gjatë vizitës sate të radhës."</string>
     <string name="googleapp_browser_setting_clear_data_title"><b>Kukit dhe të dhënat e sajteve</b>"
 Bën që të dalësh nga shumica e sajteve. Nuk do të dalësh nga \"Llogaria jote e Google\"."</string>
     <string name="googleapp_browser_settings_browser_privacy_category_title">Privatësia e shfletuesit</string>
     <string name="googleapp_browser_settings_browser_safety_category_title">Siguria e shfletuesit</string>
-    <string name="googleapp_browser_settings_browsing_history_summary">Manage your browsing history at My Activity</string>
+    <string name="googleapp_browser_settings_browsing_history_summary">Menaxho historikun tënd të shfletimit tek \"Aktiviteti im\"</string>
     <string name="googleapp_browser_settings_browsing_history_title">Historiku i shfletimit</string>
     <string name="googleapp_browser_settings_clear_browsing_data_summary">Pastro kukit dhe memorien specifike</string>
     <string name="googleapp_browser_settings_clear_browsing_data_title">Pastro të dhënat e shfletimit</string>
     <string name="googleapp_browser_settings_cleardata_button_text">Pastro të dhënat</string>
     <string name="googleapp_browser_settings_extended_safe_browsing_summary">Dërgo informacionet e shfletuesit te Google për të ndihmuar në zbulimin e aplikacioneve dhe sajteve të rrezikshme. Kjo përfshin URL-të e disa faqeve që viziton, informacione të kufizuara të sistemit dhe disa përmbajtje të faqeve.</string>
     <string name="googleapp_browser_settings_extended_safe_browsing_title">Ndihmo në përmirësimin e sigurisë së shfletuesit</string>
-    <string name="googleapp_browser_settings_link">Cilësimet e shfletuesit</string>
     <string name="googleapp_browser_settings_real_time_safe_browsing_summary">Kontrollo për probleme të reja të sigurisë sa herë që viziton një sajt. URL-të e faqeve që viziton do të dërgohen te Google.</string>
     <string name="googleapp_browser_settings_real_time_safe_browsing_title">Kontrollo sigurinë e sajtit në kohë reale</string>
     <string name="googleapp_browser_settings_safe_browsing_summary">"Shiko një paralajmërim kur përpiqesh të vizitosh një sajt që ka probleme të njohura të sigurisë. URL-të e pasigurta që viziton mund t'i dërgohen Google."</string>
@@ -3406,10 +3487,10 @@ Bën që të dalësh nga shumica e sajteve. Nuk do të dalësh nga \"Llogaria jo
     <string name="googleapp_covid_vaccine_register_25_subheader">Të gjithë nga mosha 25 vjeç e lart përfiton vaksinë</string>
     <string name="googleapp_covid_vaccine_register_header">Regjistrohu sot për vaksinën kundër COVID</string>
     <string name="googleapp_custom_color_description">Ngjyra e personalizuar e miniaplikacionit të kërkimit</string>
-    <string name="googleapp_custom_color_hue_slider_description">Custom hue slider</string>
-    <string name="googleapp_custom_color_hue_slider_label">Hue</string>
-    <string name="googleapp_custom_color_saturation_slider_description">Custom saturation slider</string>
-    <string name="googleapp_custom_color_saturation_slider_label">Saturation</string>
+    <string name="googleapp_custom_color_hue_slider_description">Rrëshqitësi i nuancës së personalizuar</string>
+    <string name="googleapp_custom_color_hue_slider_label">Nuanca</string>
+    <string name="googleapp_custom_color_saturation_slider_description">Rrëshqitësi i gjallërisë të personalizuar</string>
+    <string name="googleapp_custom_color_saturation_slider_label">Gjallëria</string>
     <string name="googleapp_custom_tabs_collections_menu_item_title">Shiko koleksionet</string>
     <string name="googleapp_custom_tabs_copy_link_menu_item_title">Kopjo lidhjen</string>
     <string name="googleapp_custom_tabs_copy_link_toast_text">Lidhja u kopjua në kujtesën e fragmenteve</string>
@@ -3421,6 +3502,7 @@ Identifikuar si %1$s"</string>
     <string name="googleapp_custom_tabs_enabled_setting_unavailable_need_first_run_done">Hap dhe konfiguro Chrome për të aktivizuar këtë opsion</string>
     <string name="googleapp_custom_tabs_enabled_setting_unavailable_update_chrome">Instalo versionin më të fundit të Chrome për ta aktivizuar</string>
     <string name="googleapp_custom_tabs_help_menu_item_title">Ndihma</string>
+    <string name="googleapp_custom_tabs_piros_menu_item_title">Hiq rezultatet rreth teje</string>
     <string name="googleapp_custom_tabs_recently_menu_item_title">Të fundit</string>
     <string name="googleapp_customize_text">Personalizo</string>
     <string name="googleapp_disco_channels_and_interests_tng_setting">Kanalet dhe interesat</string>
@@ -3532,7 +3614,7 @@ Identifikuar si %1$s"</string>
     <string name="googleapp_general_settings_title">E përgjithshme</string>
     <string name="googleapp_go_to_discover_content_description">Shko te \"Zbulo\"</string>
     <string name="googleapp_goc_bottombar_close_description">Fshih faqet e ngjashme</string>
-    <string name="googleapp_google_app_browser_instacart_button_content_description">Instacart button</string>
+    <string name="googleapp_google_app_browser_instacart_button_content_description">Butoni \"Instacart\"</string>
     <string name="googleapp_hide_explicit_results_settings_title">Fshih rezultatet me përmbajtje të qartë seksuale</string>
     <string name="googleapp_images_mode_landing_text">Kërko për imazhe</string>
     <string name="googleapp_incognito_app_strip_header">Nga aplikacionet e tua (mund të mos jetë në modalitetin \"e fshehtë\")</string>
@@ -3566,7 +3648,6 @@ Identifikuar si %1$s"</string>
     <string name="googleapp_incognito_setup_device_biometrics_dialog_title">Konfiguro sistemet biometrike</string>
     <string name="googleapp_incognito_signpost_button_text">Çaktivizo</string>
     <string name="googleapp_incognito_signpost_icon_description">Ikona e tabelës udhëzuese \"i fshehtë\"</string>
-    <string name="googleapp_incognito_signpost_message_assistant">"Veçoritë e \"Asistentit\" nuk ofrohen ndërsa shfleton në modalitetin \"i fshehtë\", dil për t'u qasur te \"Asistenti\""</string>
     <string name="googleapp_incognito_signpost_message_collections">"Koleksionet nuk ofrohen ndërsa shfleton në modalitetin \"i fshehtë\", dil për t'u qasur tek ato"</string>
     <string name="googleapp_incognito_signpost_message_default">"Veçoria nuk ofrohet ndërsa shfleton në modalitetin \"i fshehtë\". Dil për t'u qasur tek ajo"</string>
     <string name="googleapp_incognito_signpost_message_discover">"Furnizimi yt i \"Zbulo\" nuk ofrohet kur je në \"Modalitetin 'e fshehtë'\""</string>
@@ -3589,7 +3670,7 @@ Identifikuar si %1$s"</string>
     <string name="googleapp_interstitial_visibility_warning_isp">Ofruesi yt i shërbimit të internetit</string>
     <string name="googleapp_interstitial_visibility_warning_websites">Faqet e internetit që viziton</string>
     <string name="googleapp_language_setting_title">Gjuha e kërkimit</string>
-    <string name="googleapp_language_switcher_auto_option">Auto-switch</string>
+    <string name="googleapp_language_switcher_auto_option">Ndërrim auto.</string>
     <string name="googleapp_lens_button_content_description">Kërkimi me kamerën</string>
     <string name="googleapp_lens_explainer">Bëj një fotografi të gjithçkaje për ta kërkuar atë</string>
     <string name="googleapp_lens_icon_content_description">Kërkimi me kamerën</string>
@@ -3668,7 +3749,14 @@ Do të shikosh rezultate personale kërkimi në pajisje nga këto aplikacione dh
     <string name="googleapp_recent_pages_enabled_setting_title">Faqet e fundit</string>
     <string name="googleapp_region_setting_title">Rajoni i kërkimit</string>
     <string name="googleapp_reset_style_text">Rivendose në stilin e parazgjedhur</string>
-    <string name="googleapp_save_button_text">Save</string>
+    <string name="googleapp_save_button_text">Ruaj</string>
+    <string name="googleapp_save_feature_default_collection_label">Faqet e preferuara</string>
+    <string name="googleapp_save_feature_error_title">Ndodhi një gabim</string>
+    <string name="googleapp_save_feature_share_close_button_description">Mbyll</string>
+    <string name="googleapp_save_feature_share_receiver_subject_and_text">"%1$s
+
+%2$s"</string>
+    <string name="googleapp_save_feature_share_save">Ruaj</string>
     <string name="googleapp_search_a_song_content_description">Trokit për të nisur njohjen e këngës</string>
     <string name="googleapp_search_bar_radius_24dp_description">I rrumbullakosur</string>
     <string name="googleapp_search_bar_radius_2dp_description">Drejtkëndësh</string>
@@ -3698,26 +3786,27 @@ Do të shikosh rezultate personale kërkimi në pajisje nga këto aplikacione dh
     <string name="googleapp_second_screen_manage_interests_menu_label">Menaxho interesat</string>
     <string name="googleapp_second_screen_settings_menu_label">Cilësimet</string>
     <string name="googleapp_see_updates">Shiko përditësimet</string>
-    <string name="googleapp_settings_about_link">Rreth</string>
+    <string name="googleapp_setting_error_card_icon_content_description">Gabim</string>
+    <string name="googleapp_setting_error_card_message_explanation">Faqja e uebit nuk mund të ngarkohej</string>
+    <string name="googleapp_setting_error_card_message_title">Ndodhi një gabim</string>
     <string name="googleapp_settings_about_title">Rreth</string>
-    <string name="googleapp_settings_general_link">Të përgjithshme</string>
-    <string name="googleapp_settings_language_and_region_link">Gjuha dhe rajoni</string>
     <string name="googleapp_settings_language_and_region_title">Gjuha dhe rajoni</string>
     <string name="googleapp_settings_legal_notices_title">Njoftimet ligjore</string>
     <string name="googleapp_settings_location_terms_of_service_title">Kushtet e shërbimit të vendndodhjes</string>
+    <string name="googleapp_settings_nav_up">Navigo lart</string>
     <string name="googleapp_settings_open_source_licenses_title">Njoftimet e palëve të treta</string>
     <string name="googleapp_settings_privacy_and_security_link">Privatësia dhe siguria</string>
     <string name="googleapp_settings_privacy_policy_title">Politika e privatësisë</string>
-    <string name="googleapp_settings_search_widget_link">Miniaplikacioni i kërkimit</string>
+    <string name="googleapp_settings_search">Kërko</string>
+    <string name="googleapp_settings_search_hint">Kërko te cilësimet</string>
     <string name="googleapp_settings_terms_of_service_title">Kushtet e shërbimit</string>
-    <string name="googleapp_settings_voice_link">Zëri</string>
     <string name="googleapp_settings_voice_title">Zëri</string>
     <string name="googleapp_shopping_mode_landing_text">Kërko për blerje</string>
     <string name="googleapp_show_waiting_text">Vetëm një moment…</string>
-    <string name="googleapp_sign_in_tout_header">Sign in to personalize Discover</string>
-    <string name="googleapp_sign_in_tout_negative_text">Cancel</string>
-    <string name="googleapp_sign_in_tout_positive_text">Sign in</string>
-    <string name="googleapp_sign_in_tout_subheader">Control what you see in the Google app by signing in</string>
+    <string name="googleapp_sign_in_tout_header">Identifikohu për të personalizuar \"Zbulo\"</string>
+    <string name="googleapp_sign_in_tout_negative_text">Anulo</string>
+    <string name="googleapp_sign_in_tout_positive_text">Identifikohu</string>
+    <string name="googleapp_sign_in_tout_subheader">Kontrollo se çfarë shikon në aplikacionin e Google duke u identifikuar</string>
     <string name="googleapp_signed_out_pq_based_suggestion_message">Ky parashikim ka lidhje me kërkimet më të fundit.</string>
     <string name="googleapp_silk_pane_close_button">Mbyll</string>
     <string name="googleapp_silk_pane_dismiss_message">Hiq</string>
@@ -3725,6 +3814,7 @@ Do të shikosh rezultate personale kërkimi në pajisje nga këto aplikacione dh
     <string name="googleapp_sno_subscriptions_internal_error_header">Ndodhi një gabim</string>
     <string name="googleapp_sno_subscriptions_offline_error_message">Për të shikuar dhe për të modifikuar abonimet e tua, do të duhet të lidhesh me rrjetin</string>
     <string name="googleapp_sound_search_search_a_song_hint">Kërko një këngë</string>
+    <string name="googleapp_srp_query_tiger">tigër</string>
     <string name="googleapp_stamp_viewer_actionbutton_feedback">Dërgo koment</string>
     <string name="googleapp_stamp_viewer_actionbutton_heart">Zemër</string>
     <string name="googleapp_stamp_viewer_actionbutton_help_center">Qendra e ndihmës</string>
@@ -3739,7 +3829,7 @@ Do të shikosh rezultate personale kërkimi në pajisje nga këto aplikacione dh
     <string name="googleapp_stamp_viewer_error_title">Ndodhi një gabim</string>
     <string name="googleapp_stamp_viewer_overflow_menu_button_content_description">Opsione të tjera.</string>
     <string name="googleapp_stamp_viewer_overflow_menu_close">Mbyll</string>
-    <string name="googleapp_stamp_viewer_preview_button_text">Vazhdo te historia e plotë</string>
+    <string name="googleapp_stamp_viewer_preview_button_text">Vazhdo të shikosh</string>
     <string name="googleapp_stamp_viewer_preview_label">Pamja paraprake</string>
     <string name="googleapp_stamp_viewer_publisher_cta">Vizito</string>
     <string name="googleapp_stamp_viewer_retry_button_text">Provo përsëri</string>
@@ -3756,7 +3846,7 @@ Do të shikosh rezultate personale kërkimi në pajisje nga këto aplikacione dh
     <string name="googleapp_tabs_manager_close_all_tabs_dialog_confirmation_button_label">Mbylli të gjitha</string>
     <string name="googleapp_tabs_manager_close_all_tabs_dialog_confirmation_message">"E konfirmon që dëshiron t'i mbyllësh të gjitha skedat e hapura?"</string>
     <string name="googleapp_tabs_manager_close_tab_button_default_description">mbyll skedën</string>
-    <string name="googleapp_tabs_manager_close_tab_button_description">mbyll sajtin e uebit \"%s\" - buton</string>
+    <string name="googleapp_tabs_manager_close_tab_button_description">mbyll sajtin e uebit %s</string>
     <string name="googleapp_tabs_manager_empty_state_title">Nuk ke ndonjë skedë të hapur</string>
     <string name="googleapp_tabs_manager_new_tab_button_description">fillo një kërkim të ri</string>
     <string name="googleapp_tabs_manager_new_tab_button_text">Skedë e re</string>
@@ -3774,18 +3864,19 @@ Do të shikosh rezultate personale kërkimi në pajisje nga këto aplikacione dh
     <string name="googleapp_voice_search_humming">Kërko për këngët duke i kënduar nën zë</string>
     <string name="googleapp_voice_search_tired_of_typing">Je lodhur duke shkruar? Kërko me zë</string>
     <string name="googleapp_voice_search_with_voice">Kërko me zë</string>
+    <string name="googleapp_voice_settings_assistant_title">Asistenti i Google</string>
     <string name="googleapp_voice_settings_languages_setting_check_content_description">Zgjedhur</string>
     <string name="googleapp_voice_settings_languages_setting_limit_reached_notice">U arrit kufiri. Nuk mund të zgjedhësh më shumë gjuhë.</string>
     <string name="googleapp_voice_settings_languages_setting_no_selection_notice">Nuk është zgjedhur asnjë gjuhë.</string>
     <string name="googleapp_voice_settings_languages_setting_save_button_text">RUAJ</string>
+    <string name="googleapp_voice_settings_languages_setting_summary_text_others">Others:</string>
+    <string name="googleapp_voice_settings_languages_setting_summary_text_primary">Primary:</string>
     <string name="googleapp_voice_settings_languages_setting_title">Gjuhët</string>
     <string name="googleapp_voice_settings_offline_speech_recognition_setting_summary">Menaxho gjuhët e shkarkuara</string>
     <string name="googleapp_voice_settings_offline_speech_recognition_setting_title">Njohja e ligjërimit jashtë linje</string>
     <string name="googleapp_voice_settings_spoken_results_setting_title">Rezultatet e lexuara me zë</string>
-    <string name="googleapp_voice_settings_spoken_results_value_all_voices">Të gjitha kërkimet me zë</string>
-    <string name="googleapp_voice_settings_spoken_results_value_hands_free_only">Vetëm kërkimet pa duar</string>
-    <string name="googleapp_voice_settings_voice_match_setting_summary">Fol me \"Asistentin e Google\" për të realizuar gjërat e tua</string>
-    <string name="googleapp_voice_settings_voice_match_setting_title">Voice Match</string>
+    <string name="googleapp_voice_settings_spoken_results_value_all_voices">On</string>
+    <string name="googleapp_voice_settings_spoken_results_value_hands_free_only">Off</string>
     <string name="googleapp_waa_disabled_tout_promo_description">CIlësimet e privatësisë së \"Kërko në Google\"</string>
     <string name="googleapp_waa_disabled_tout_promo_header">Furnizimi yt nuk bazohet në historikun tënd</string>
     <string name="googleapp_waa_disabled_tout_promo_subheader">\"Zbulo\" nuk bazohet te historiku yt pasi \"Aktiviteti i uebit dhe i aplikacioneve\" është joaktiv</string>
@@ -3858,6 +3949,7 @@ Do të shikosh rezultate personale kërkimi në pajisje nga këto aplikacione dh
     <string name="help_and_feedback">Ndihmë dhe komente</string>
     <string name="help_quoted_example_query">“%s”</string>
     <string name="heres_the_message">Ky është mesazhi:</string>
+    <string name="hey_google_title">Zbulimi i \"Ok Google\"</string>
     <string name="hide_completed_episodes">Fshih episodet e përfunduara</string>
     <string name="hide_debug_info">Fshih informacionin e korrigjimit</string>
     <string name="hide_examples_description">Fshih shembujt</string>
@@ -3897,6 +3989,8 @@ Do të shikosh rezultate personale kërkimi në pajisje nga këto aplikacione dh
     <string name="hotseat_out_of_space">Nuk ka më hapësirë në tabakanë \"Të preferuarat\"</string>
     <string name="hotword_disabled">\"%1$s\" është çaktivzuar</string>
     <string name="hotword_disabled_motorola_aov">Një funksion tjetër po e përdor mikrofonin në vend të \"%1$s\". Çaktivizo Moto Voice për të aktivizuar përsëri \"%1$s\".</string>
+    <string name="hotword_enrollment_battery_impact_disclosure_wear_os">“%1$s” përdor më shumë bateri në orë. Mund ta çaktivizosh “%2$s” te cilësimet e \"Asistentit\".</string>
+    <string name="hotword_enrollment_battery_impact_disclosure_wear_os_for_unicorn">“%1$s” përdor më shumë bateri në orë. Mund ta çaktivizosh “%2$s” te cilësimet e \"Asistentit\" të %3$s.</string>
     <string name="hotword_enrollment_button_more">Më shumë</string>
     <string name="hotword_enrollment_delete_voice_model">Fshi modelin e zërit</string>
     <string name="hotword_enrollment_device_fast_update_progress_summary">\"Asistenti\" yt po përdor fragmente zanore të regjistruara më parë për të krijuar një model zëri për këtë pajisje.</string>
@@ -3916,7 +4010,10 @@ Do të shikosh rezultate personale kërkimi në pajisje nga këto aplikacione dh
     <string name="hotword_enrollment_enroll_text_opa_talkback">Aktivizo butonin %1$s më poshtë dhe më pas thuaj \"%2$s\" për të trajnuar asistentin tënd të mësojë zërin tënd.</string>
     <string name="hotword_enrollment_enroll_text_opa_talkback_assistant_device">"Për të stërvitur \"Asistentin\" tënd që të njohë zërin tënd, trokit te butoni \"NIS REGJISTRIMIN\" më poshtë dhe më pas thuaj sa më poshtë kur të kërkohet:
 %1$s"</string>
+    <string name="hotword_enrollment_enroll_text_opa_tisid_talkback_assistant_device">\"Asistenti\" do ta mësojë zërin tënd në ekranin tjetër duke thënë një frazë dhe duke dëgjuar mënyrën se si e thua atë. Dëgjo \"Asistentin\" ndërsa thotë frazën. Më pas shtyp butonin \"Nis regjistrimin\" dhe thuaje frazën me zë të lartë. Për të filluar procesin, trokit %1$s.</string>
+    <string name="hotword_enrollment_enroll_tisid_talkback_next">Para</string>
     <string name="hotword_enrollment_fast_update_header_title">Aktivizimi i Voice Match</string>
+    <string name="hotword_enrollment_feature_disabled">Kjo veçori është çaktivizuar</string>
     <string name="hotword_enrollment_feature_disabled_by_admin">Kjo veçori është çaktivizuar nga administratori yt</string>
     <string name="hotword_enrollment_from_fdl_google_home_share_screen_done">U krye</string>
     <string name="hotword_enrollment_google_home_enrollment_intro_title_activate">Aktivizo Voice Match në këtë pajisje</string>
@@ -3944,8 +4041,8 @@ Këto regjistrime të mëparshme mund të përdoren për të krijuar një model 
 dhe ti mund të marrësh përgjigje vetëm për veten tënde! ! Trokit për t'u identifikuar në pajisjen tënde: g.co/voicematch"</string>
     <string name="hotword_enrollment_google_home_share_message_subject">Mësoje \"Asistentin\" tënd që të të njohë</string>
     <string name="hotword_enrollment_google_home_share_screen_done">Fto</string>
-    <string name="hotword_enrollment_google_home_skip_dialog_negative_button">Konfiguro Voice Match</string>
-    <string name="hotword_enrollment_google_home_skip_dialog_positive_button">Përfundo</string>
+    <string name="hotword_enrollment_google_home_skip_dialog_negative_button">Hiq</string>
+    <string name="hotword_enrollment_google_home_skip_dialog_positive_button">Konfiguro Voice Match</string>
     <string name="hotword_enrollment_google_home_skip_dialog_title">Llogaria e {PERSON} do të hiqet nga kjo pajisje</string>
     <string name="hotword_enrollment_google_home_summary_footer_text">Mund të shikosh ose të fshish aktivitetin e zërit në %1$s të tua. Mund ta çaktivizosh gjithashtu Voice Match te cilësimet e \"Asistentit\".</string>
     <string name="hotword_enrollment_google_home_tisid_enrollment_devices">"
@@ -3963,7 +4060,16 @@ Nëse më vonë vendos se Voice Match nuk bën për ty, thjesht hiqe te \"Cilës
     <string name="hotword_enrollment_intro_get_started_unicorn">Para</string>
     <string name="hotword_enrollment_intro_header_summary">Merr ndihmë nga \"Asistenti i Google\" pa përdorur duart</string>
     <string name="hotword_enrollment_intro_header_summary_oobe">{GENDER,select, male{%1$s mund të marrë ndihmë pa përdorur duart duke përdorur zërin e tij.}female{%1$s mund të marrë ndihmë pa përdorur duart duke përdorur zërin e saj.}other{%1$s mund të marrë ndihmë pa përdorur duart duke përdorur zërin e vet.}}</string>
-    <string name="hotword_enrollment_intro_header_summary_wear_os_battery_disclosure">Ora jote do të qëndrojë në modalitetin e gatishmërisë për të të ofruar ndihmë pa përdorur duart</string>
+    <string name="hotword_enrollment_intro_header_summary_wear_os">"Nëse troket te \"%1$s\", \"Asistenti\" do të qëndrojë në gatishmëri për të zbuluar “%2$s” kur ora jote është plotësisht e zgjuar.
+
+“%3$s” kërkon po ashtu Voice Match që \"Asistenti\" të mund të të njohë."</string>
+    <string name="hotword_enrollment_intro_header_summary_wear_os_for_unicorn">"{GENDER,select, male{Nëse troket te \"%1$s\", \"Asistenti\" i %2$s do të qëndrojë në gatishmëri për të zbuluar “%3$s” kur ora e tij është plotësisht e zgjuar.
+
+“%4$s” kërkon po ashtu Voice Match që \"Asistenti\" i %5$s të mund ta njohë atë.}female{Nëse troket te \"%1$s\", \"Asistenti\" i %2$s do të qëndrojë në gatishmëri për të zbuluar “%3$s” kur ora e saj është plotësisht e zgjuar.
+
+“%4$s” kërkon po ashtu Voice Match që \"Asistenti\" i %5$s të mund ta njohë atë.}other{Nëse troket te \"%1$s\", \"Asistenti\" i %2$s do të qëndrojë në gatishmëri për të zbuluar “%3$s” kur ora e atij personi është plotësisht e zgjuar.
+
+“%4$s” kërkon po ashtu Voice Match që \"Asistenti\" i %5$s të mund ta njohë atë.}}"</string>
     <string name="hotword_enrollment_intro_header_title">Qasu tek \"Asistenti\" yt me “%1$s”</string>
     <string name="hotword_enrollment_intro_header_title_glif_non_opa">Kërko me zë në çdo kohë</string>
     <string name="hotword_enrollment_intro_header_title_oobe">Lejo që %1$s të ketë qasje tek \"Asistenti i Google\" me “%2$s”</string>
@@ -3986,6 +4092,8 @@ Voice Match lejon që \"Asistenti\" ta identifikojë %1$s dhe ta dallojë atë n
 Nëse vendos më vonë se Voice Match nuk është i përshtatshëm për %1$s, thjesht hiqe atë nga \"Cilësimet\" e \"Asistentit\" për të. Për të parë ose fshirë klipet e audios që regjistron %1$s gjatë konfigurimit të Voice Match, shko tek activity.google.com nga llogaria e %1$s. 
 
 Shënim. Edhe një zë i ngjashëm ose një regjistrim mund të jetë në gjendje të ketë qasje në rezultatet personale të %1$s në \"Asistentin\" tënd}}"</string>
+    <string name="hotword_enrollment_intro_misactivation_disclaimer_wear_os">\"Asistenti\" mund të aktivizohet kur nuk ke pasur këtë qëllim, si p.sh. kur ka një zhurmë që duket si \"%1$s\".</string>
+    <string name="hotword_enrollment_intro_misactivation_disclaimer_wear_os_for_unicorn">\"Asistenti\" mund të aktivizohet kur %1$s nuk ka pasur këtë qëllim, si p.sh. kur ka një zhurmë që duket si \"%2$s\".</string>
     <string name="hotword_enrollment_intro_summary_glif_non_opa">Thuaj \"%1$s\" për të folur me pajisjen tënde në çdo moment: edhe nëse ekrani yt është i fikur ose nëse po përdor aplikacionet e tua të preferuara.&lt;br/>&lt;br/>Në këtë pajisje do të krijohet një model unik i zërit tënd, gjë që do të ndihmojë që \"Kërkimi me zë i Google\" të të identifikojë dhe të të dallojë nga të tjerët.&lt;br/>&lt;br/>&lt;b>Ki parasysh:&lt;/b> Edhe një zë ose regjistrim i ngjashëm mund të arrijë të qaset te \"Kërkimi me zë\". Mund ta heqësh autorizimin më vonë duke e çaktivizuar te aplikacioni i Google.</string>
     <string name="hotword_enrollment_intro_title_activate_hey_google">Aktivizo Voice Match për \"%1$s\"</string>
     <string name="hotword_enrollment_intro_title_activate_hey_google_for_unicorn">Aktivizo Voice Match për %1$s</string>
@@ -4079,7 +4187,6 @@ Këto regjistrime të mëparshme mund të përdoren për të krijuar një modal 
     <string name="hotword_enrollment_voice_match_next">Para</string>
     <string name="hotword_enrollment_voice_match_no_thanks">Jo, faleminderit</string>
     <string name="hotword_enrollment_voice_match_skip">Kapërce</string>
-    <string name="hotword_enrollment_wear_os_battery_impact_disclosure">Modaliteti në gatishmëri e harxhon më shumë baterinë e orës</string>
     <string name="hotword_enrollment_wrong_query">Provo ta thuash përsëri</string>
     <string name="hotword_model_download_notification_content">Po përditëson modelin e zërit për të njohur më mirë kur thua \"%1$s\"</string>
     <string name="hotword_model_download_notification_title">Përditësimi i modelit \"%1$s\"</string>
@@ -4352,6 +4459,7 @@ Për të parë ose fshirë klipet e audios që ke regjistruar gjatë konfigurimi
     <string name="language_switcher_nudge_string">Për të ndryshuar gjuhën, kliko mbi këtë buton</string>
     <string name="language_unsupported_text">Ndrysho gjuhën e \"Asistentit\"</string>
     <string name="language_unsupported_tts">Nuk e flas gjuhën që ke zgjedhur për makinën. Nëse ende dëshiron që të të ndihmoj, mund të zgjedhësh një gjuhë tjetër vetëm për bisedat e tua. Kur të jetë e sigurt, mund ta bësh këtë te cilësimet e \"Asistentit\" në makinën tënde.</string>
+    <string name="launch_driving_mode">Hap modalitetin \"me makinë\"</string>
     <string name="launcher_name">Nisësi i \"Google Tani\"</string>
     <string name="launcher_shortcut_assistant_short">Asistenti i Google</string>
     <string name="launcher_shortcut_text_search_short">Kërko</string>
@@ -4430,7 +4538,7 @@ Për të parë ose fshirë klipet e audios që ke regjistruar gjatë konfigurimi
     <string name="lens_education_filter_guidance_message">Drejtoje te detyrat e shtëpisë dhe më pas trokit te \"Regjistro\" për ndihmë</string>
     <string name="lens_empty_latex_snackbar">Fut një ekuacion matematikor për të parë rezultatet</string>
     <string name="lens_error_please_try_again">Provo sërish</string>
-    <string name="lens_failed_to_open_3rd_party_content">Unable to load content</string>
+    <string name="lens_failed_to_open_3rd_party_content">Përmbajtja nuk mund të ngarkohet</string>
     <string name="lens_failed_to_open_image">Imazhi nuk mund të hapet.</string>
     <string name="lens_failure_info_card_compact_text_filter_description">Bëj një fotografi të çfarëdo fjale për të kopjuar ose kërkuar</string>
     <string name="lens_failure_info_card_compact_translate_filter_description">Bëj një fotografi të tekstit për përkthim</string>
@@ -4507,14 +4615,13 @@ Për të parë ose fshirë klipet e audios që ke regjistruar gjatë konfigurimi
     <string name="lens_info_panel_on_device_chip_share_translate_content_description">Ndaj imazhin e përkthyer</string>
     <string name="lens_info_panel_on_device_chip_translate">Përkthe</string>
     <string name="lens_info_panel_on_device_chip_translate_content_description">Përkthe tekstin e zgjedhur</string>
-    <string name="lens_info_panel_on_device_no_text_header_title">Nuk u gjet asnjë tekst</string>
     <string name="lens_info_panel_on_device_results_header_limited_functionality">Disa veçori nuk ofrohen</string>
     <string name="lens_info_panel_on_device_results_header_offline">Jashtë linje</string>
     <string name="lens_info_panel_on_device_text_header_title">Teksti i gjetur në imazh</string>
     <string name="lens_info_panel_on_device_translation_header_title">Teksti i përkthyer</string>
+    <string name="lens_info_panel_partial_translate_enabled_header_title">Teksti origjinal</string>
     <string name="lens_info_panel_processing_message">Po ngarkohet…</string>
     <string name="lens_info_panel_quoted_title">\"%1$s\"</string>
-    <string name="lens_info_panel_select_text_to_translate_header_title">Zgjidh tekstin për të përkthyer</string>
     <string name="lens_kilometers_indicator">%s km</string>
     <string name="lens_latex_input_hint">Shkruaj një problem matematikor</string>
     <string name="lens_launcher_description">Kërkimi me kamerën</string>
@@ -4610,6 +4717,7 @@ Për të parë ose fshirë klipet e audios që ke regjistruar gjatë konfigurimi
     <string name="lens_sample_images_translate_card_text_short">Përkthe imazhet</string>
     <string name="lens_search_bar_hint">Fut emrin e restorantit</string>
     <string name="lens_search_filter_name">Kërko</string>
+    <string name="lens_selection_state_guidance_message_on_device_translation">Trokit tek teksti për ta përkthyer</string>
     <string name="lens_share_to_lens_label">Kërko për imazhin</string>
     <string name="lens_share_translate_message">Përkthyer me \"Lenten e Google\". Provoje vetë!</string>
     <string name="lens_shopping_filter_guidance_message">Nxirr një fotografi të produkteve ose barkodeve</string>
@@ -4723,14 +4831,10 @@ Për të parë ose fshirë klipet e audios që ke regjistruar gjatë konfigurimi
     <string name="local_intent_search">Me sa duket po përpiqesh të gjesh një vendndodhje ndërkohë që je jashtë linje.</string>
     <string name="local_results_map_description">Harta e %1$s</string>
     <string name="location">Vendndodhja</string>
-    <string name="location_added_snackbar_text">Vendndodhja u shtua</string>
-    <string name="location_default_error">Ndodhi një gabim. Provo sërish më vonë.</string>
     <string name="location_feedback_button_heading">Për kartën e vendndodhjes, kliko te “FORMULARI I KOMENTEVE PËR KARTËN E VENDNDODHJES”.</string>
     <string name="location_feedback_button_text">Formulari i komenteve për kartën e vendndodhjes</string>
     <string name="location_name">Emri</string>
-    <string name="location_not_saved_snackbar_text">%s nuk u ruajt.</string>
     <string name="location_permission_toast">\"Kërko në Google\" dhe \"Asistenti\" mund të përdorin vendndodhjen tënde (edhe në sfond) për të ofruar veçori dhe rezultate të përshtatshme në nivel lokal.</string>
-    <string name="location_removed_snackbar_text">Vendndodhja u hoq</string>
     <string name="location_setting_title">Vendndodhja</string>
     <string name="lockscreen_close_icon_description">Mbyll</string>
     <string name="lockscreen_consent_action">Po, jam dakord</string>
@@ -4820,6 +4924,7 @@ telefonatë"</string>
     <string name="mdd_notification_action_cancel">Anulo</string>
     <string name="mdd_notification_download_failed">Shkarkimi dështoi</string>
     <string name="mdd_notification_download_paused">Në pritje të lidhjes së rrjetit</string>
+    <string name="mdd_notification_download_paused_wifi">Waiting for WiFi connection</string>
     <string name="mdd_notification_download_success">Shkarkuar</string>
     <string name="media_artist_a11y">%1$s, artist</string>
     <string name="media_assistant_logo_a11y">Kliko për të folur</string>
@@ -4884,6 +4989,10 @@ luaj %s”"</string>
     <string name="menu_overlay_reset_to_default_style">Rivendose në stilin e parazgjedhur</string>
     <string name="menu_refresh">Rifresko</string>
     <string name="menu_send_button_content_description">Butoni \"Dërgo\" për të dërguar komentet.</string>
+    <string name="message_alert_hear_contact">Dëgjo emrin e kontaktit</string>
+    <string name="message_alert_hear_message">Dëgjo mesazhin e plotë</string>
+    <string name="message_alert_notification_only">Vetëm njoftim</string>
+    <string name="message_alert_title">Zgjidh sinjalizimin e mesazheve</string>
     <string name="message_announce_title">Sinjalizimi për mesazhet</string>
     <string name="message_card_feedback">Komentet</string>
     <string name="message_center_auto_read_setting_turn_on">Aktiv. autoleximin</string>
@@ -4904,6 +5013,9 @@ luaj %s”"</string>
     <string name="message_sound_search_result_tts">Po dëgjon %s</string>
     <string name="message_sound_search_result_with_artist_tts" formatted="false">Po dëgjon %s nga %s</string>
     <string name="message_who_initial_prompt">"Kujt dëshiron t'i dërgosh mesazh?"</string>
+    <string name="messaging_settings_header">Telefonatat dhe mesazhet</string>
+    <string name="messaging_toggle_description">"\"Asistenti\" yt të ndihmon të dëgjosh dhe t'i përgjigjesh mesazheve ndërsa drejton makinën"</string>
+    <string name="messaging_toggle_title">Dëgjo mesazhet dhe përgjigju me zë</string>
     <string name="mic_button_content_description">Kërkimi me zë</string>
     <string name="mic_button_description">Butoni i mikrofonit %1$s</string>
     <string name="mic_fab_content_description">Kliko për të folur me \"Asistentin e Google\".</string>
@@ -5066,7 +5178,6 @@ Zbulo dhe kontrollo të gjitha kërkimet e tua në Google dhe më shumë tek \"A
     <string name="network_connection_unstable">Me sa duket lidhja jote e rrjetit nuk është e qëndrueshme. Të kërkoj ndjesë. Provo përsëri.</string>
     <string name="network_error">Google nuk mund të arrihet në këtë moment.</string>
     <string name="network_error_airplane_mode_tts">Nuk ka lidhje interneti tani sepse je në modalitetin \"në aeroplan\".</string>
-    <string name="network_error_fetching_weather_data_status_text">Rrjeti aktualisht i padisponueshëm</string>
     <string name="network_error_no_connection_tts">Nuk ka lidhje interneti për momentin.</string>
     <string name="network_error_try_again">Provo sërish</string>
     <string name="never">Asnjëherë</string>
@@ -5570,6 +5681,8 @@ Më vonë, nëse zgjedh një aplikacion tjetër si ofruesin tënd, shënimet dhe
     <string name="notification_heading">"Lejo që \"Asistenti\" të t'i lexojë njoftimet"</string>
     <string name="notification_modal_text">Njoftimet për episodet e reja</string>
     <string name="notification_okay">Në rregull</string>
+    <string name="notification_permission_modal_description">"Për të dëgjuar mesazhet dhe për t'i vendosur në heshtje telefonatat, lejo që aplikacioni i Google të ketë qasje te njoftimet e tua."</string>
+    <string name="notification_permission_modal_title">Të lejohet qasja te njoftimet për Google?</string>
     <string name="notification_permissions_button">Lejo qasjen</string>
     <string name="notification_permissions_description">Të lejohet aplikacioni i Google që të ketë qasje në cilësimet e tua të mesazheve dhe \"Mos shqetëso\"?</string>
     <string name="notification_settings">CILËSIMET</string>
@@ -5835,12 +5948,6 @@ Zvarrite për ta zhvendosur ose hequr."</string>
     <string name="opa_consent_check_error_title">Ndodhi një gabim</string>
     <string name="opa_consent_check_error_title_confirmreject">Shijo eksperiencën e plotë me \"Asistentin\" me këto cilësime</string>
     <string name="opa_consent_check_error_title_notavailable">\"Asistenti i Google\" nuk është i disponueshëm për këtë llogari</string>
-    <string name="opa_contextual_cards_found_message">Ja disa informacione në lidhje me këtë ekran:</string>
-    <string name="opa_contextual_cards_found_proactive_message">Meqenëse po flasim për këtë, ja se çfarë gjeta në lidhje me këtë ekran.</string>
-    <string name="opa_contextual_cards_network_error">Nuk ka lidhje.</string>
-    <string name="opa_contextual_cards_no_cards_message">Nuk mund të gjej diçka në ekranin tënd me të cilën mund të të ndihmoj. Provo të trokasësh te mikrofoni për të më kërkuar diçka.</string>
-    <string name="opa_contextual_cards_nothing_found_card_text">Nuk u gjet asgjë në ekran</string>
-    <string name="opa_contextual_cards_offline_indicator">Telefoni yt është jashtë linje, kështu që nuk mund të të ndihmoj në këtë moment.</string>
     <string name="opa_contextual_cards_share_screenshot_error">Me sa duket ka ndodhur një gabim. Provoje përsëri.</string>
     <string name="opa_continued_conversation_optin_screen_allow_button_text">Po, jam dakord</string>
     <string name="opa_continued_conversation_optin_screen_disallow_button_text">Jo, faleminderit</string>
@@ -6068,10 +6175,6 @@ Mund t'i çaktivizosh rezultatet personale te cilësimet e \"Asistentit\"."</str
     <string name="opa_pre_upgrade_notifs_disabled_toast_text">Kemi përditësuar cilësimet e tua dhe i kemi çaktivizuar këto njoftime</string>
     <string name="opa_privacy_policy_chip_text">Politika e privatësisë</string>
     <string name="opa_proactive_notification_subtext">Asistenti</string>
-    <string name="opa_screen_read_it">Lexoje</string>
-    <string name="opa_screen_read_this_page">Lexo këtë faqe</string>
-    <string name="opa_screen_search_more_screen_context_action">Më shumë nga ekrani im</string>
-    <string name="opa_screen_search_screen_context_action">Çfarë ka në ekranin tim?</string>
     <string name="opa_screen_search_share_screenshot_action">Ndaj pamjen e ekranit</string>
     <string name="opa_screenless_nav_opt_in_notification_body">Gjatë navigitimit, mund të përdorësh zërin për të folur me \"Asistentin e Google\"</string>
     <string name="opa_screenless_nav_opt_in_notification_title">Përdor \"Asistentin e Google\" gjatë navigimit</string>
@@ -6243,6 +6346,7 @@ Do të dëgjosh gjithmonë rezultatet jopersonale që ke zgjedhur, si motin ose 
     <string name="payments_auth_too_many_fingerprint_retries_should_use_password">Shumë përpjekje. Fut fjalëkalimin në vend të kësaj.</string>
     <string name="payments_auth_use_biometric_checkbox_hint">"Përdor këtë pajisje për t'i konfirmuar pagesat e ardhshme me gjurmën e gishtit, fytyrën ose një mënyrë të ngjashme."</string>
     <string name="payments_auth_use_fingerprint_checkbox_hint">Përdor gjurmën e gishtit për miratimet e ardhshme</string>
+    <string name="pending_fragment_error_toast">Ndodhi një gabim. Provo përsëri më vonë</string>
     <string name="peoplekit_about_suggested_people_hide_info">"Mund t'i fshehësh sugjerimet që nuk dëshiron t'i shikosh."</string>
     <string name="peoplekit_about_suggested_people_info">Google sugjeron persona bazuar në ndërveprimet e tua.</string>
     <string name="peoplekit_about_top_suggestions">Për personat e sugjeruar</string>
@@ -6442,6 +6546,7 @@ Ki parasysh se kushdo që përdor këtë pajisje mund t'i marrë po ashtu rezult
     <string name="phone_pr_title">Telefoni yt</string>
     <string name="phone_voice_match_settings_delete_voice_model_summary">Hiqe modelin tënd të Voice Match nga kjo pajisje. Kjo do të çaktivizojë po ashtu “%1$s”.</string>
     <string name="phone_voice_match_settings_delete_voice_model_title">Fshi modelin e Voice Match</string>
+    <string name="phone_voice_match_settings_not_supported_error">\"Ok Google\" nuk mbështetet në këtë pajisje.</string>
     <string name="phone_voice_match_settings_retrain_summary">Trajnoje \"Asistentin\" për të njohur përsëri zërin tënd</string>
     <string name="phone_voice_match_settings_retrain_title">Trajno përsëri modelin e Voice Match</string>
     <string name="photo_downloading_error_toast_text">Gabim gjatë shkarkimit të fotografive</string>
@@ -6837,13 +6942,13 @@ Nëse e bën këtë ndryshim, do të marrësh:"</string>
     <string name="punt_for_personal_results">Që të të ndihmoj për këtë, duhet të lejosh rezultatet personale në këtë makinë. Kur të jetë e sigurt, mund ta bësh këtë te cilësimet e \"Asistentit\".</string>
     <string name="punt_for_signed_out">Për këtë, do të të duhet të identifikohesh me \"Llogarinë tënde të Google\". Kur të jetë e sigurt, kontrollo njoftimin e makinës për hapin tjetër.</string>
     <string name="punt_home_alias_unset">Me sa duket nuk e kam adresën tënde të shtëpisë. Në vend të kësaj, mund të marrësh udhëzime për në shtëpi duke më treguar adresën tënde.</string>
-    <string name="punt_max_volume">Na vjen keq, por caktimi i volumit në maksimum ose rritja e tij në 100% nuk mbështetet aktualisht në këtë pajisje.</string>
     <string name="punt_missing_call_permission">Me sa duket telefonatat nuk janë aktivizuar. Kur të jetë e sigurt, kërko për cilësimet e Bluetooth-it në telefon dhe zgjidh makinën tënde për ta aktivizuar.</string>
     <string name="punt_missing_message_permission">Me sa duket mesazhet me tekst nuk janë aktivizuar. Kur të jetë e sigurt, kërko për cilësimet e Bluetooth-it në telefon dhe zgjidh makinën tënde për ta aktivizuar.</string>
     <string name="punt_non_percentage_volume_control">Në makinë, caktimi i volumit funksionon sipas përqindjes, kështu që mund të thuash p.sh. \"Caktoje volumin në 25%\".</string>
     <string name="punt_offline_music">Me sa duket nuk ka lidhje, prandaj nuk mund ta luaj për ty.</string>
     <string name="punt_open_app">Na vjen keq, por ky aplikacion nuk është i instaluar ose nuk ofrohet për momentin.</string>
     <string name="punt_open_unsafe_for_drving_app">"Na vjen keq, por ai aplikacion nuk është i sigurt për t'u përdorur gjatë drejtimit të makinës."</string>
+    <string name="punt_set_volume_beyond_threshold">Për arsye sigurie, nuk mund ta caktoj volumin aq të lartë në automjetin tënd. Mund të më kërkosh ta caktoj maksimumi deri në %1$d%%</string>
     <string name="punt_work_alias_unset">Me sa duket nuk e kam adresën tënde të punës. Në vend të kësaj, mund të marrësh udhëzime për në punë duke më treguar adresën tënde.</string>
     <string name="qp_bottom_baseball_inning">Fundi i gjuajtjeve %1$d</string>
     <string name="qp_precip">Reshjet %1$s</string>
@@ -6855,7 +6960,6 @@ Nëse e bën këtë ndryshim, do të marrësh:"</string>
     <string name="qp_weather_unit_abbrev_celsius">C</string>
     <string name="qp_weather_unit_abbrev_fahrenheit">F</string>
     <string name="qp_wind_speed">Era %1$d%2$s</string>
-    <string name="qpf_label">Parashikimi sasior për reshjet: %s</string>
     <string name="qsb_promocard_icon_description">Google</string>
     <string name="qsb_promocard_negative_button_text">Jo, faleminderit</string>
     <string name="qsb_promocard_positive_button_text">Shto</string>
@@ -6898,7 +7002,6 @@ Nëse e bën këtë ndryshim, do të marrësh:"</string>
     <string name="rating_very_dissatisfied">Shumë i pakënaqur</string>
     <string name="rating_very_satisfied">Shumë i kënaqur</string>
     <string name="rating_views_content_description">%1$d nga pesë</string>
-    <string name="reached_max_locations_removal_dialog_title">Mund të ruash deri në 8. Për të ruajtur një vendndodhjen të re, hiqe njërën prej tyre.</string>
     <string name="reaction_ads_show_more">Do të të shfaqen më shumë <b>reklama</b> si kjo</string>
     <string name="reaction_modal_close_action">Mbyll</string>
     <string name="reaction_show_more">Do të shfaqen më shumë si kjo në përmbajtjen tënde</string>
@@ -7032,7 +7135,6 @@ Kjo nuk do t'i fshijë ato nga \"Llogaria jote e Google\"."</string>
     <string name="remove_all_devices_button_text">Hiqe Face Match nga të gjitha pajisjet</string>
     <string name="remove_all_played">Hiq episodet e luajtura</string>
     <string name="remove_all_week_old">Hiq të vjetrat mbi %1$d ditë</string>
-    <string name="remove_button_text">Hiq</string>
     <string name="remove_completed_episodes">Hiq episodet e përfunduara</string>
     <string name="remove_download">Hiq shkarkimin</string>
     <string name="remove_from_history_failed">Artikulli nuk mund të hiqej nga historiku.</string>
@@ -7049,6 +7151,7 @@ Kjo nuk do t'i fshijë ato nga \"Llogaria jote e Google\"."</string>
     <string name="repeat_notification">Në rregull, ja edhe një herë. Thotë</string>
     <string name="replay_count_down">Po riluhet pas: &lt;b>%1$d&lt;/b>…</string>
     <string name="reply">Përgjigju</string>
+    <string name="reply_button_string">Përgjigju</string>
     <string name="reply_button_text">Përgjigju</string>
     <string name="reply_message_notice">Po dërgon mesazhin</string>
     <string name="report_other_option">Tjetër</string>
@@ -7140,7 +7243,7 @@ Kjo nuk do t'i fshijë ato nga \"Llogaria jote e Google\"."</string>
     <string name="sceneviewer_get_help">Get help</string>
     <string name="sceneviewer_get_help_button_content_description">Get Help</string>
     <string name="sceneviewer_immersive_edge_fallback_dialog_confirm_button">Go</string>
-    <string name="sceneviewer_immersive_edge_fallback_dialog_message">No connection. You will be redirected to &lt;b> %1$s &lt;/b></string>
+    <string name="sceneviewer_immersive_edge_fallback_dialog_message">No connections available. Redirecting you to &lt;b>%1$s&lt;/b>. Please try again in a few minutes.</string>
     <string name="sceneviewer_immersive_edge_fallback_dialog_title">Connection lost</string>
     <string name="sceneviewer_immersive_edge_redirect_dialog_cancel_button">Cancel</string>
     <string name="sceneviewer_immersive_edge_redirect_dialog_confirm_button">OK</string>
@@ -7170,7 +7273,6 @@ Kjo nuk do t'i fshijë ato nga \"Llogaria jote e Google\"."</string>
     <string name="search_apps_web_and_more">Kërko në aplikacione, ueb, etj…</string>
     <string name="search_box_content_description">Kërko…</string>
     <string name="search_box_hint">Kërko...</string>
-    <string name="search_box_hint_for_places_and_web">Kërko Vende</string>
     <string name="search_bubble_notification_description">Për të vazhduar të shfaqësh flluskën e \"Kërko në Google\".</string>
     <string name="search_bubble_notification_header">Flluska e \"Kërko në Google\"</string>
     <string name="search_bubble_optin_prompt_cancel_text">Hiq</string>
@@ -7202,7 +7304,6 @@ Provo të kërkosh përsëri për podkastin."</string>
     <string name="search_maps">Kërko te Maps</string>
     <string name="search_menu_title">Kërko</string>
     <string name="search_notifications">Njoftime</string>
-    <string name="search_plate_accessibility_voice_search_button">Kërko</string>
     <string name="search_region_default">Rajoni aktual (i parazgjedhur)</string>
     <string name="search_region_setting_summary">Rajoni aktual</string>
     <string name="search_restriction">Nuk ke leje për të përdorur \"Kërko me Google\"</string>
@@ -7251,6 +7352,7 @@ Hape për më shumë."</string>
     <string name="select_address_title">Zgjidh një adresë dorëzimi</string>
     <string name="select_all_episodes">Zgjidhi të gjitha</string>
     <string name="select_assistant_language">Zgjidh gjuhën e \"Asistentit\".</string>
+    <string name="select_day">Zgjidh muajin dhe ditën</string>
     <string name="select_feedback_category">Zgjidh kategorinë e komentit</string>
     <string name="select_google_account">Llogaria e Google</string>
     <string name="select_google_account_add_account">Shto llogari</string>
@@ -7262,6 +7364,7 @@ Hape për më shumë."</string>
     <string name="select_instrument_message">Google Pay i mban të sigurta informacionet e tua të pagesës, kështu që mund të paguash me \"Asistentin\" tënd në çdo kohë dhe çdo vend.</string>
     <string name="select_instrument_title">Zgjidh një mënyrë pagese</string>
     <string name="select_wifi_network_button_text">Zgjidh një rrjet Wi-Fi</string>
+    <string name="select_year">Zgjidh vitin</string>
     <string name="selectable_search_widget_initializing">Po fillon…</string>
     <string name="selected_interest">U shtua tek interesat e tua</string>
     <string name="selected_language">Gjuha e furnizimit është përditësuar</string>
@@ -7286,7 +7389,6 @@ Hape për më shumë."</string>
     <string name="sending_audio_to_account_toast">Po dërgon audion te %1$s…</string>
     <string name="sensitive_or_disparaging_for_individuals">E ndjeshme ose fyese për individët</string>
     <string name="server_error">Google nuk mund të arrihet në këtë moment.</string>
-    <string name="server_error_fetching_weather_data_status_text">Ndodhi një gabim. Provo përsëri më vonë.</string>
     <string name="set_alarm">Cakto alarmin</string>
     <string name="set_duration">Cakto kohëzgjatjen</string>
     <string name="set_reminder_saved">Alarmi rikujtues u ruajt</string>
@@ -7371,11 +7473,6 @@ Hape për më shumë."</string>
 Listat e tua të blerjes do të ruhen nga \"Asistenti\" yt (menaxhohet nga \"Blerjet përmes Google\")."</string>
     <string name="shopping_list_category_title_v2">Shërbimet e blerjeve</string>
     <string name="shopping_mode_landing_text">Kërko për blerje</string>
-    <string name="short_google_play_services_enable_required">Shërbimet e \"Luaj me Google\" duhet të aktivizohen</string>
-    <string name="short_google_play_services_install_required">Shërbimet e \"Luaj me Google\" duhet të instalohen</string>
-    <string name="short_google_play_services_missing_permission">Shërbimi i \"Luaj me Google\" nuk ka një ose më shumë prej lejeve të kërkuara.</string>
-    <string name="short_google_play_services_unsupported">Shërbimet e \"Luaj me Google\" nuk mbështeten nga pajisja jote</string>
-    <string name="short_google_play_services_update_required">Shërbimet e \"Luaj me Google\" duhet të përditësohen</string>
     <string name="shortcut_not_available">Shkurtorja nuk është e disponueshme</string>
     <string name="shortcut_phrase_label">Kur thua:</string>
     <string name="shortcuts_link_description">Shiko se çfarë mund të bësh me aplikacionet e instaluara duke përdorur shkurtoret</string>
@@ -7487,6 +7584,7 @@ Kjo shfaqje nuk ofrohet për momentin."</string>
     <string name="snowman_content">Mund të fshehësh historitë ose temat që nuk të interesojnë</string>
     <string name="soccer_shootout">Me penallti</string>
     <string name="solid">I patejdukshëm</string>
+    <string name="someone_else_text">Dikë tjetër</string>
     <string name="sorry_string">Më fal?</string>
     <string name="sort_description">Renditur sipas: %1$s</string>
     <string name="sound_search_hint">Çfarë kënge është kjo?</string>
@@ -7516,6 +7614,7 @@ Kjo shfaqje nuk ofrohet për momentin."</string>
     <string name="speech_output_keywords">dalja e ligjërimit, pa duar</string>
     <string name="speech_output_subtitle">Zgjidh se sa bashkëbisedues dëshiron të jetë \"Asistenti\" yt</string>
     <string name="speech_output_title">Dalja e ligjërimit</string>
+    <string name="speedbump_prompt_text">Prek mikrofonin për të filluar</string>
     <string name="spinner_request_completed">Furnizimi u përditësua</string>
     <string name="spinner_request_failed">Furnizimi nuk mund të përditësohet</string>
     <string name="spinner_requesting_new_content">Furnizimi po përditësohet</string>
@@ -7821,9 +7920,6 @@ Pasi \"Asistenti\" të të njohë, ti mund të kryesh veprime në llogari, si p.
     <string name="switch_on">AKT.</string>
     <string name="switcher_description">Përzgjedhësi i gjuhës për kërkimin me zë</string>
     <string name="switcher_language_description">Gjuha aktuale është %1$s</string>
-    <string name="tab_title_10_days">10 ditë</string>
-    <string name="tab_title_today">Sot</string>
-    <string name="tab_title_tomorrow">Nesër</string>
     <string name="tactile_add_action_button_title">Shto një veprim</string>
     <string name="tactile_all_results_title">Të gjitha rezultatet</string>
     <string name="tactile_answers_on_the_go_suggestion_1">Sa është 15%% e 48 USD?</string>
@@ -8027,6 +8123,7 @@ Pasi \"Asistenti\" të të njohë, ti mund të kryesh veprime në llogari, si p.
     <string name="transparency_seek_bar_description">Hija e shiritit</string>
     <string name="transparent">I tejdukshëm</string>
     <string name="trends_suggestion_message">Ky kërkim është në tendencë në zonën tënde.</string>
+    <string name="triggering_settings_header">Hap modalitetin \"me makinë\"</string>
     <string name="trim_silence">Anashkalo heshtjen</string>
     <string name="trim_silence_disable">Çaktivizo anashkalimin e heshtjes</string>
     <string name="trim_silence_enable">Aktivizo anashkalimin e heshtjes</string>
@@ -8175,39 +8272,33 @@ Pasi \"Asistenti\" të të njohë, ti mund të kryesh veprime në llogari, si p.
     <string name="twslang_zh_CN">Kinezisht (E thjeshtuar)</string>
     <string name="twslang_zh_TW">Kinezisht (Tradicionale)</string>
     <string name="twslang_zu">Zulu</string>
-    <string name="unable_to_save_location_snackbar_text">Vendndodhja nuk mund të ruhet. Provo përsëri më vonë.</string>
-    <string name="unable_to_show_locations_text">Vendndodhjet nuk mund të shfaqen</string>
-    <string name="unable_to_show_weather_for_location_error">Nuk mund të shfaqë informacionin e motit për këtë vendndodhje.</string>
-    <string name="unable_to_show_weather_for_specific_location_error">Nuk mund të shfaqë informacionin e motit për %s.</string>
     <string name="unblock_show_from_recommendations">Zhbllokoje këtë shfaqje nga rekomandimet</string>
     <string name="undo">Zhbëj</string>
     <string name="undo_action">Zhbëj</string>
     <string name="undo_dismiss_message_default">U krye</string>
-    <string name="undo_snackbar_action">Zhbëj</string>
     <string name="undo_string">Zhbëj</string>
     <string name="unicorn_consent_screen_message">"\"Asistenti\" përdor Face Match për ta dalluar %1$s nga të tjerët. Kur fëmija i afrohet Nest Hub Max ne do të përdorim fytyrën e tij për t'ia personalizuar përvojën përkatësisht."</string>
     <string name="unicorn_consent_screen_title">Lejoji \"Asistentit\" ta njohë fytyrën e %1$s</string>
     <string name="unicorn_hand_off_screen_message">{GENDER,select, male{Kur të jesh gati, kaloja pajisjen {PERSON} për të krijuar modelin e fytyrës së tij dhe qëndro diku pranë për ta ndihmuar me hapat në vijim.}female{Kur të jesh gati, kaloja pajisjen {PERSON} për të krijuar modelin e fytyrës së saj dhe qëndro diku pranë për ta ndihmuar me hapat në vijim.}other{Kur të jesh gati, kaloja pajisjen {PERSON} për të krijuar modelin e fytyrës së tij dhe qëndro diku pranë për ta ndihmuar me hapat në vijim.}}</string>
     <string name="unicorn_hand_off_screen_title">Lejoji \"Asistentit\" ta njohë fytyrën e %1$s</string>
-    <string name="unicorn_handoff_img_content_desc">Dorëzoje pajisjen</string>
     <string name="unicorn_hotword_enrollment_google_home_oobe_skip_dialog_message">Nëse e kapërcen këtë hap, Google Home nuk do të jetë në gjendje të dallojë {PERSON} nga të tjerët në shtëpinë tënde.</string>
-    <string name="unicorn_hotword_enrollment_google_home_skip_dialog_message">"{GENDER,select, male{Pa Voice Match, \"Llogaria e Google\" e {PERSON} do të shkëputet nga kjo pajisje dhe ai nuk do të marrë një përvojë të personalizuar. 
+    <string name="unicorn_hotword_enrollment_google_home_skip_dialog_message">"{GENDER,select, male{Pa Voice Match, \"Llogaria e Google\" e {PERSON} do të shkëputet nga kjo pajisje dhe ai nuk do të marrë kontrollet prindërore apo një përvojë të personalizuar. 
 
-Mund ta aktivizosh gjithmonë Voice Match për këtë pajisje nëpërmjet Family Link ose nëpërmjet cilësimeve në aplikacionin Google Home ose në aplikacionin \"Asistenti i Google\" të {PERSON}. 
+Mund ta aktivizosh gjithmonë Voice Match për këtë pajisje nëpërmjet Family Link ose nëpërmjet cilësimeve në aplikacionin Google Home ose në aplikacionin \"Asistenti i Google\" të {PERSON}. 
 
-Kur ta mësosh \"Asistentin\" të njohë zërin e {PERSON}, ai do të marrë një përvojë më të personalizuar dhe Google mund të zbatojë kufizime të caktuara për përmbajtjen. Ai do të mund të shikojë gjëra të caktuara në pajisjet e shtëpisë, si p.sh. kalendarin dhe kontaktet e tij. 
+Duke qenë se \"Asistenti\" nuk mund ta njohë më {PERSON}, ai do të trajtohet si vizitor ose si çdo person tjetër që \"Asistenti\" nuk e njeh. Kjo do të thotë se \"Asistenti\" gjithashtu nuk mund të përdorë kontrollet prindërore nëse ato ishin të konfiguruara për {PERSON}. 
 
-Për ta shtuar {PERSON} përsëri te pajisjet e shtëpisë, mësoje Google të njohë zërin e {PERSON}.}female{Pa Voice Match, \"Llogaria e Google\" e {PERSON} do të shkëputet nga kjo pajisje dhe ajo nuk do të marrë një përvojë të personalizuar. 
+Për ta shtuar {PERSON} përsëri te pajisjet e shtëpisë, mësoje Google të njohë zërin e {PERSON}.}female{Pa Voice Match, \"Llogaria e Google\" e {PERSON} do të shkëputet nga kjo pajisje dhe ajo nuk do të marrë kontrollet prindërore apo një përvojë të personalizuar. 
 
-Mund ta aktivizosh gjithmonë Voice Match për këtë pajisje nëpërmjet Family Link ose nëpërmjet cilësimeve në aplikacionin Google Home ose në aplikacionin \"Asistenti i Google\" të {PERSON}. 
+Mund ta aktivizosh gjithmonë Voice Match për këtë pajisje nëpërmjet Family Link ose nëpërmjet cilësimeve në aplikacionin Google Home ose në aplikacionin \"Asistenti i Google\" të {PERSON}. 
 
-Kur ta mësosh \"Asistentin\" të njohë zërin e {PERSON}, ajo do të marrë një përvojë më të personalizuar dhe Google mund të zbatojë kufizime të caktuara për përmbajtjen. Ajo do të mund të shikojë gjëra të caktuara në pajisjet e shtëpisë, si p.sh. kalendarin dhe kontaktet e saj. 
+Duke qenë se \"Asistenti\" nuk mund ta njohë më {PERSON}, ajo do të trajtohet si vizitore ose si çdo person tjetër që \"Asistenti\" nuk e njeh. Kjo do të thotë se \"Asistenti\" gjithashtu nuk mund të përdorë kontrollet prindërore nëse ato ishin të konfiguruara për {PERSON}. 
 
-Për ta shtuar {PERSON} përsëri te pajisjet e shtëpisë, mësoje Google të njohë zërin e {PERSON}.}other{Pa Voice Match, \"Llogaria e Google\" e {PERSON} do të shkëputet nga kjo pajisje dhe ai person nuk do të marrë një përvojë të personalizuar. 
+Për ta shtuar {PERSON} përsëri te pajisjet e shtëpisë, mësoje Google të njohë zërin e {PERSON}.}other{Pa Voice Match, \"Llogaria e Google\" e {PERSON} do të shkëputet nga kjo pajisje dhe personi nuk do të marrë kontrollet prindërore apo një përvojë të personalizuar. 
 
-Mund ta aktivizosh gjithmonë Voice Match për këtë pajisje nëpërmjet Family Link ose nëpërmjet cilësimeve në aplikacionin Google Home ose në aplikacionin \"Asistenti i Google\" të {PERSON}. 
+Mund ta aktivizosh gjithmonë Voice Match për këtë pajisje nëpërmjet Family Link ose nëpërmjet cilësimeve në aplikacionin Google Home ose në aplikacionin \"Asistenti i Google\" të {PERSON}. 
 
-Kur ta mësosh \"Asistentin\" të njohë zërin e {PERSON}, ai person do të marrë një përvojë më të personalizuar dhe Google mund të zbatojë kufizime të caktuara për përmbajtjen. Ai person do të mund të shikojë gjëra të caktuara në pajisjet e shtëpisë, si p.sh. kalendarin dhe kontaktet e veta. 
+Meqë asistenti nuk mund ta njohë më {PERSON}, personi do të trajtohet si vizitor ose si çdo person tjetër që \"Asistenti\" nuk e njeh. Kjo do të thotë se \"Asistenti\" gjithashtu nuk mund të përdorë kontrollet prindërore nëse ato ishin të konfiguruara për {PERSON}. 
 
 Për ta shtuar {PERSON} përsëri te pajisjet e shtëpisë, mësoje Google të njohë zërin e {PERSON}.}}"</string>
     <string name="unified_ime_recognition_locale_toast">Po përdor %1$s për njohjen</string>
@@ -8436,12 +8527,8 @@ Voice Match"</string>
     <string name="warning_unsupported_music_provider_dialog_negative_button_text">JO</string>
     <string name="warning_unsupported_music_provider_dialog_positive_button_text">PO</string>
     <string name="warning_unsupported_music_provider_dialog_title">Do të vazhdosh me shërbimin e pambështetur të muzikës?</string>
-    <string name="weather_accessibility_search_plate_back_button">Prapa</string>
-    <string name="weather_accessibility_search_plate_menu_button">Menyja</string>
-    <string name="weather_add_to_home_screen">Shto në ekranin bazë</string>
     <string name="weather_add_to_homescreen">Shto në ekranin bazë</string>
     <string name="weather_button_ok">Në rregull</string>
-    <string name="weather_cancel_button_text">Anulo</string>
     <string name="weather_celsius">Celsius</string>
     <string name="weather_current_location">Vendndodhja aktuale</string>
     <string name="weather_error_background_content_description">Gabim</string>
@@ -8455,7 +8542,6 @@ Voice Match"</string>
     <string name="weather_search_query">moti</string>
     <string name="weather_search_text">moti</string>
     <string name="weather_send_feedback">Dërgo komente</string>
-    <string name="weather_shortcut_icon_label">Moti</string>
     <string name="weather_temperature_units">Njësitë e temperaturës</string>
     <string name="weather_title">%1$s në %2$s</string>
     <string name="weather_today_tab_name">Sot</string>
@@ -8514,8 +8600,6 @@ Voice Match"</string>
     <string name="widget_resized">Madhësia e miniaplikacionit u ndryshua me gjerësinë %1$s dhe lartësinë %2$s</string>
     <string name="wifi_off">Wi-Fi është i çaktivizuar</string>
     <string name="wifi_on">Wi-Fi i aktivizuar</string>
-    <string name="wind_current_time_and_direction_template_with_bullet_separator" formatted="false">%s • %s</string>
-    <string name="wind_speed_with_unit" formatted="false">%d %s</string>
     <string name="wired_headset_icon_description">Kufjet me tel</string>
     <string name="wired_headset_off_label">Kufjet me tel janë joaktive</string>
     <string name="wired_headset_on_label">Kufjet me tel janë aktive</string>
@@ -8529,6 +8613,7 @@ Voice Match"</string>
     <string name="workspace_scroll_format">Ekrani bazë: %1$d nga gjithsej %2$d</string>
     <string name="wrong_account_selected_error_message">\"Asistenti i Google\" po përdor një llogari të ndryshme nga llogaria e lidhur me pajisjen tënde. Identifikohu në \"Asistentin e Google\" me llogarinë %1$s.</string>
     <string name="wrong_account_selected_error_title">Llogaritë nuk përputhen</string>
+    <string name="year_picker_description">Lista e viteve</string>
     <string name="yes_button_text">Po, jam dakord</string>
     <string name="yesterday">Dje</string>
     <string name="yesterday_at_time">Dje në %1$s</string>
@@ -8540,7 +8625,6 @@ Voice Match"</string>
     <string name="your_information_link_subtitle">Për një \"Asistent\" më të personalizuar</string>
     <string name="your_information_page_subtitle">Kontrollo informacionin e përdorur për ta bërë \"Asistentin e Google\" më të personalizuar për ty</string>
     <string name="your_information_title">Informacioni yt</string>
-    <string name="your_location_search_menu_text">Vendndodhja jote</string>
     <string name="your_news_update_load_error">Ndodhi një gabim gjatë ngarkimit të \"Përditësimit të lajmeve\".</string>
     <string name="your_news_update_title">Përditësimet e lajmeve të tua</string>
     <string name="your_salsas_section_header">Shprehjet e tua të shpejta</string>

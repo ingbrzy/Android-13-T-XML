@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="custom_cards_view_description_items_left">
-        <item quantity="other">Preostalo je %1$d elementov</item>
-        <item quantity="one">Preostal je %1$d element</item>
-        <item quantity="two">Preostala sta %1$d elementa</item>
-        <item quantity="few">Preostali so %1$d elementi</item>
-    </plurals>
     <plurals name="dlg_message_deletion_confirmation">
         <item quantity="other">Posnetki bodo trajno izbrisani. Tega dejanja ni mogoče razveljaviti.</item>
         <item quantity="one">Posnetki bodo trajno izbrisani. Tega dejanja ni mogoče razveljaviti.</item>
@@ -30,23 +24,35 @@
         <item quantity="two">Ali želite trajno izbrisati ta posnetka?</item>
         <item quantity="few">Ali želite trajno izbrisati te posnetke?</item>
     </plurals>
-    <plurals name="download_unsuccessful_description_storage_full">
+    <plurals name="download_failure_description_storage_full">
         <item quantity="other">Posnetkov ni mogoče prenesti, ker je shramba naprave polna. Dotaknite se za pregled.</item>
         <item quantity="one">Posnetkov ni mogoče prenesti, ker je shramba naprave polna. Dotaknite se za pregled.</item>
         <item quantity="two">Posnetkov ni mogoče prenesti, ker je shramba naprave polna. Dotaknite se za pregled.</item>
         <item quantity="few">Posnetkov ni mogoče prenesti, ker je shramba naprave polna. Dotaknite se za pregled.</item>
-    </plurals>
-    <plurals name="downloaded_description">
-        <item quantity="other">Prenesenih je %1$d posnetkov</item>
-        <item quantity="one">Prenesen je %1$d posnetek</item>
-        <item quantity="two">Prenesena sta %1$d posnetka</item>
-        <item quantity="few">Preneseni so %1$d posnetki</item>
     </plurals>
     <plurals name="downloading_description">
         <item quantity="other">Prenašanje %1$d posnetkov</item>
         <item quantity="one">Prenašanje %1$d posnetka</item>
         <item quantity="two">Prenašanje %1$d posnetkov</item>
         <item quantity="few">Prenašanje %1$d posnetkov</item>
+    </plurals>
+    <plurals name="og_backup_failed_title">
+        <item quantity="other">Varnostno kopiranje %1$d elementov ni uspelo</item>
+        <item quantity="one">Varnostno kopiranje %1$d elementa ni uspelo</item>
+        <item quantity="two">Varnostno kopiranje %1$d elementov ni uspelo</item>
+        <item quantity="few">Varnostno kopiranje %1$d elementov ni uspelo</item>
+    </plurals>
+    <plurals name="og_backup_items_left">
+        <item quantity="other">Preostalih je %1$d elementov</item>
+        <item quantity="one">Preostal je %1$d element</item>
+        <item quantity="two">Preostala sta %1$d elementa</item>
+        <item quantity="few">Preostali so %1$d elementi</item>
+    </plurals>
+    <plurals name="og_backup_items_stopped_title">
+        <item quantity="other">%1$d elementov ni varnostno kopiranih</item>
+        <item quantity="one">%1$d element ni varnostno kopiran</item>
+        <item quantity="two">%1$d elementa nista varnostno kopirana</item>
+        <item quantity="few">%1$d elementi niso varnostno kopirani</item>
     </plurals>
     <plurals name="search_results_count">
         <item quantity="other">%1$d rezultatov</item>
@@ -55,10 +61,10 @@
         <item quantity="few">%1$d rezultati</item>
     </plurals>
     <plurals name="search_results_position">
-        <item quantity="other">%1$d/%2$d rezultatov</item>
-        <item quantity="one">%1$d/%2$d rezultatov</item>
-        <item quantity="two">%1$d/%2$d rezultatov</item>
-        <item quantity="few">%1$d/%2$d rezultatov</item>
+        <item quantity="other">^1/^2 rezultatov</item>
+        <item quantity="one">^1/^2 rezultatov</item>
+        <item quantity="two">^1/^2 rezultatov</item>
+        <item quantity="few">^1/^2 rezultatov</item>
     </plurals>
     <plurals name="search_results_position_content_description">
         <item quantity="other">%1$d od %2$d rezultatov</item>
@@ -77,12 +83,6 @@
         <item quantity="one">Shramba naprave je polna. Posnetkov ni mogoče prenesti.</item>
         <item quantity="two">Shramba naprave je polna. Posnetkov ni mogoče prenesti.</item>
         <item quantity="few">Shramba naprave je polna. Posnetkov ni mogoče prenesti.</item>
-    </plurals>
-    <plurals name="uploaded_description">
-        <item quantity="other">Naloženih je %1$d posnetkov</item>
-        <item quantity="one">Naložen je %1$d posnetek</item>
-        <item quantity="two">Naložena sta %1$d posnetka</item>
-        <item quantity="few">Naloženi so %1$d posnetki</item>
     </plurals>
     <plurals name="uploading_description">
         <item quantity="other">Nalaganje %1$d posnetkov</item>

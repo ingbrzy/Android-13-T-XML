@@ -63,7 +63,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript">^1, ^2, ^3។</string>
     <string name="a11y_new_call_log_entry_phone_account">នៅ​លើ ^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">ហៅ​ទូរសព្ទ​តាម RTT ទៅ ^1</string>
-    <string name="a11y_new_call_log_entry_tap_action">ពង្រីក​ម៉ឺនុយ</string>
+    <string name="a11y_new_call_log_entry_tap_action">ពង្រីក ឬ​បង្រួម​ម៉ឺនុយ</string>
     <string name="a11y_new_call_log_entry_video_call">ហៅ​ជា​វីដេអូ​ទៅ ^1</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">ហៅ​ជា​វីដេអូ​ទៅ ^1 ដោយ​ប្រើប្រាស់ wifi</string>
     <string name="a11y_new_call_log_entry_voice_call">ហៅ​ ^1</string>
@@ -191,6 +191,7 @@
     <string name="atlas_soda_banner_feature_text">Hold for Me</string>
     <string name="atlas_temp_service_notification_title">កំពុង​ចាប់ផ្ដើម​ការហៅ Hold for Me</string>
     <string name="atlas_warning_text_for_second_incoming_call">ការទទួល​ការហៅ​នេះ​នឹង​បញ្ចប់ Hold for Me</string>
+    <string name="audio_route_item_checked_description">បាន​ធីក</string>
     <string name="audioroute_bluetooth">ប៊្លូធូស</string>
     <string name="audioroute_headset">កាស​មាន​ខ្សែ</string>
     <string name="audioroute_phone">ទូរសព្ទ</string>
@@ -235,6 +236,7 @@
     <string name="bm_suggest_wait_time_estimating">"ជជែក
 កំពុងដំណើរការ…"</string>
     <string name="bottomsheet_action_expand_halfway">ពង្រីក​ពាក់កណ្ដាល</string>
+    <string name="bottomsheet_drag_handle_content_description">ដង​អូស</string>
     <string name="bubble_bottom_action_end_call">បញ្ចប់​ការ​ហៅ</string>
     <string name="bubble_bottom_action_hide">លាក់</string>
     <string name="bubble_return_to_call">ទៅផ្ទាំងហៅទូរសព្ទវិញ</string>
@@ -582,10 +584,8 @@
     <string name="copy_number">ចម្លងលេខទូរសព្ទ</string>
     <string name="create_new_contact">បង្កើត​ទំនាក់ទំនង​ថ្មី</string>
     <string name="crosby_setting_title">ថត​ការហៅ​ទូរសព្ទ</string>
-    <string name="crystal_clear_audio_setting_title">ការហៅដែល​មាន​សំឡេង​ច្បាស់</string>
     <string name="current_voicemail_greeting_record_instruction">ថត​សារ​ស្វាគមន៍</string>
     <string name="current_voicemail_greeting_recording_title">សារ​ស្វាគមន៍​ជា​សំឡេង​របស់​ខ្ញុំ</string>
-    <string name="custom_message_hint">សរសេរ​សារ​ផ្ទាល់ខ្លួន</string>
     <string name="custom_prefix_add_prefix_to_call_entry_always_add_prefix">បញ្ចូលបុព្វបទ​ជានិច្ច</string>
     <string name="custom_prefix_add_prefix_to_call_entry_ask_before_dialing">សួរមុននឹងហៅទូរសព្ទ</string>
     <string name="custom_prefix_add_prefix_to_call_entry_never_add_prefix">កុំបញ្ចូល​បុព្វបទឱ្យសោះ</string>
@@ -670,11 +670,11 @@
     <string name="display_options_view_given_name_first">នាម​ខ្លួន​មុន</string>
     <string name="display_options_view_names_as">ទម្រង់ឈ្មោះ</string>
     <string name="do_not_show_again">កុំ​បង្ហាញ​ទៀត</string>
-    <string name="duo_fallback_dialog_do_not_show_again_label">ចងចាំ​ជម្រើស​នេះ</string>
-    <string name="duo_fallback_dialog_message">មិន​អាច​ធ្វើ​ការហៅ​ជា​វីដេអូរបស់អ្នក​ដោយប្រើការហៅ​ជា​វីដេអូ​តាម​រយៈក្រុមហ៊ុន​សេវាទូរសព្ទបានទេ។ សូម​សាកល្បងធ្វើការហៅ​ដោយប្រើ Duo ជំនួសវិញ។</string>
-    <string name="duo_fallback_dialog_negative_button_label">បោះបង់</string>
-    <string name="duo_fallback_dialog_positive_button_label">ប្រើ Duo</string>
-    <string name="duo_fallback_dialog_title">សាកល្បងប្រើ Google Duo ឬ?</string>
+    <string name="duo_fallback_dialog_do_not_show_again_label">ចងចាំ​ Duo ជា​មធ្យោបាយ​បម្រុង​សម្រាប់​គ្រប់​ការហៅ។ គ្រប់គ្រង​បានគ្រប់ពេល​នៅ​ក្នុងការ​កំណត់។</string>
+    <string name="duo_fallback_dialog_message">Duo នឹង​សាកល្បង​ហៅ​ដោយ​ស្វ័យប្រវត្តិ ប្រសិនបើ​ក្រុមហ៊ុន​សេវាទូរសព្ទ​របស់​អ្នក​មិន​អាច​ធ្វើ​ការហៅ​ជា​វីដេអូបាន​ទេ។</string>
+    <string name="duo_fallback_dialog_negative_button_label">ទេ អរគុណ</string>
+    <string name="duo_fallback_dialog_positive_button_label">ប្រើ Duo ជា​មធ្យោបាយ​បម្រុង</string>
+    <string name="duo_fallback_dialog_title">ប្រើ Google Duo ជា​មធ្យោបាយ​បម្រុង​ក្នុង​ការហៅ​ឬ?</string>
     <string name="edit_number_before_call">កែ​លេខ​ មុន​ពេល​ហៅទូរសព្ទ</string>
     <string name="emergency_assist_address_sentence">ទីតាំង​របស់​ខ្ញុំ​ស្ថិត​នៅ %1$s។</string>
     <string name="emergency_assist_button_fire">ភ្លើង</string>
@@ -696,6 +696,7 @@
     <string name="emergency_voice_assist_dialog_button_close">បោះបង់</string>
     <string name="emergency_voice_assist_dialog_title">ប្រតិបត្តិករ​សង្គ្រោះ​បន្ទាន់​ស្ដាប់​ឮ​វា</string>
     <string name="end_call_with_default_message_description">បញ្ចប់​ការហៅ​ទូរសព្ទ</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_icon_content_description">បញ្ហា</string>
     <string name="error_unable_to_get_audio">មិន​អាច​ទាញយក​សំឡេង​គំរូ​បាន​ទេ</string>
     <string name="error_unable_to_play_audio">មិន​អាច​ចាក់​សំឡេង​គំរូ​បាន​ទេ</string>
@@ -740,7 +741,7 @@
     <string name="first_time_dialog_duo_video_call_label">Google Duo</string>
     <string name="first_time_dialog_negative_button_label">បោះបង់</string>
     <string name="first_time_dialog_positive_button_label">ជ្រើសរើស</string>
-    <string name="first_time_dialog_remember_this_choice_label">ចងចាំ​ជម្រើស​នេះ</string>
+    <string name="first_time_dialog_remember_this_choice_label">ចងចាំ​សម្រាប់​គ្រប់ការហៅ។ គ្រប់គ្រង​បានគ្រប់ពេល​នៅ​ក្នុងការ​កំណត់។</string>
     <string name="first_time_dialog_title">ជ្រើសរើស​សេវា​ហៅ​ជា​វីដេអូ</string>
     <string name="flip_to_shush_title">ផ្កាប់​ដើម្បី​បើក​មុខងារ​កុំ​រំខាន</string>
     <string name="flip_to_silence_summary">ដើម្បី​បិទ​សំឡេង​នៃ​ការហៅ​ចូល សូម​ផ្កាប់​ទូរសព្ទ​របស់​អ្នក​នៅ​លើ​ផ្ទៃ​រាប​ស្មើ</string>
@@ -788,6 +789,8 @@
     <string name="incall_content_description_hold">ដាក់​ការ​ហៅ​ឲ្យ​រង់ចាំ</string>
     <string name="incall_content_description_merge_calls">បញ្ចូល​ការ​ហៅ​រួម​​គ្នា</string>
     <string name="incall_content_description_muted">បានបិទសំឡេង</string>
+    <string name="incall_content_description_show_less">បង្ហាញតិចជាង</string>
+    <string name="incall_content_description_show_more">បង្ហាញបន្ថែម</string>
     <string name="incall_content_description_speaker">ឧបករណ៍​បំពង​សំឡេង</string>
     <string name="incall_content_description_swap_calls">ប្ដូរ​ការ​ហៅ</string>
     <string name="incall_content_description_swap_sim">ប្ដូរស៊ីម</string>
@@ -803,6 +806,7 @@
     <string name="incall_label_hold">ដាក់ឱ្យរង់ចាំ</string>
     <string name="incall_label_manage">គ្រប់គ្រង</string>
     <string name="incall_label_merge">បញ្ចូលគ្នា</string>
+    <string name="incall_label_more">ច្រើនទៀត</string>
     <string name="incall_label_mute">បិទ​សំឡេង</string>
     <string name="incall_label_record">ថត</string>
     <string name="incall_label_record_checked">ឈប់​ថត</string>
@@ -835,15 +839,9 @@
     <string name="join_call_with_default_message_description">ចូលរួម​ការហៅ​ទូរសព្ទ</string>
     <string name="just_now">អម្បាញ់មិញ</string>
     <string name="lat_long_format">%1$f, %2$f</string>
+    <string name="launch_application_settings">ការកំណត់</string>
     <string name="launcherActivityLabel">ទូរស័ព្ទ</string>
     <string name="learn_more_text_for_tmo">ចូល​មើល T-Mobile ដើម្បី​ស្វែងយល់​បន្ថែម</string>
-    <string name="legacy_post_call_message">ប្រាប់​អំពី​មូលហេតុ​ដែល​អ្នក​បាន​ហៅ​ទូរសព្ទ</string>
-    <string name="legacy_post_call_message_1">នេះ​ជា​ករណី​បន្ទាន់។ សូម​ហៅ​ទូរសព្ទមក​ខ្ញុំ​វិញ។</string>
-    <string name="legacy_post_call_message_2">សូម​ហៅ​ទូរសព្ទ​មក​ខ្ញុំវិញ នៅ​ពេល​អ្នក​ឆ្លៀត​ពេល​បាន​ខ្លះ។</string>
-    <string name="legacy_post_call_message_3">មិន​បន្ទាន់​ទេ យើង​អាច​ជជែក​គ្នា​នៅ​ពេល​ក្រោយ​បាន។</string>
-    <string name="legacy_post_call_message_sent">បាន​ផ្ញើ​សារ</string>
-    <string name="legacy_post_call_send_message">ផ្ញើ​សារ</string>
-    <string name="legacy_post_call_view">មើល</string>
     <string name="libraries_material_featurehighlight_dismiss">បោះបង់</string>
     <string name="license_activity_label">អាជ្ញាបណ្ណ​កូដចំហ</string>
     <string name="light_theme_label">ភ្លឺ</string>
@@ -868,6 +866,7 @@
     <string name="mdd_notification_action_cancel">បោះបង់</string>
     <string name="mdd_notification_download_failed">ការទាញយក​មិន​បានសម្រេចទេ</string>
     <string name="mdd_notification_download_paused">កំពុងរង់ចាំឱ្យ​មាន​ការ​តភ្ជាប់​បណ្ដាញ</string>
+    <string name="mdd_notification_download_paused_wifi">កំពុងរង់ចាំការតភ្ជាប់ WiFi</string>
     <string name="meid_number">MEID %s</string>
     <string name="menu_callNumber">ហៅ​ទៅ​កាន់ %s</string>
     <string name="merge_calls_confirm_message">ដាក់​ការហៅ​ទូរសព្ទ​របស់​អ្នក​ចូល​គ្នា តែ​ក្នុង​ករណី​ដែល​អ្នក​ច្បាស់​ថា អ្នក​គ្រប់​គ្នា​ដឹង​ថា នរណា​ខ្លះ​នឹង​ចូលរួម​ក្នុង​ការហៅ​ទូរសព្ទ​ដែល​ដាក់​ចូល​គ្នា​នេះ</string>
@@ -907,11 +906,9 @@
     <string name="nearbyplaces_account_setting_title">គណនី Google</string>
     <string name="new_call_log_activity_title">ប្រវត្តិ​ហៅ​ទូរសព្ទ</string>
     <string name="new_call_log_all_title">ទាំងអស់</string>
-    <string name="new_call_log_carrier_video">វីដេអូ​តាម​ក្រុមហ៊ុន​សេវា​ទូរសព្ទ</string>
     <string name="new_call_log_clear_call_log_confirmation">វានឹងលុបកំណត់ហេតុ​ការហៅទូរសព្ទ​ទាំងអស់ចេញពីប្រវត្តិរបស់អ្នក</string>
     <string name="new_call_log_clear_call_log_confirmation_title">សម្អាត​ប្រវត្តិ​ហៅមែនទេ?</string>
     <string name="new_call_log_delete_all">សម្អាតប្រវត្តិហៅទូរសព្ទ</string>
-    <string name="new_call_log_duo_video">វីដេអូ​តាម Duo</string>
     <string name="new_call_log_empty">ការហៅ​ទូរសព្ទ​ដែល​អ្នក​ធ្វើ​ឡើង​នឹង​បង្ហាញ​នៅ​ត្រង់​នេះ</string>
     <string name="new_call_log_generic_video">វីដេអូ</string>
     <string name="new_call_log_header_older">ចាស់ៗ</string>
@@ -929,6 +926,7 @@
     <string name="new_permission_no_search">ដើម្បីស្វែងរកទំនាក់ទំនងរបស់អ្នក សូមបើកការអនុញ្ញាតទំនាក់ទំនង។</string>
     <string name="non_contact_always_record_dialog_title">ថតការហៅទូរសព្ទ​ដោយប្រើលេខ​ដែលមិនស្ថិតនៅក្នុង​ទំនាក់ទំនង​របស់អ្នកឬ?</string>
     <string name="non_contact_toggle_label">លេខ​មិន​នៅ​ក្នុង​ទំនាក់ទំនង​របស់​អ្នក​ទេ</string>
+    <string name="non_spam_aftercall_notification_title">ស្គាល់ %1$s ទេ?</string>
     <string name="non_spam_notification_title">ស្គាល់ %1$s?</string>
     <string name="not_set">មិនបានកំណត់</string>
     <string name="notification_action_accept">ព្រម​ទទួល</string>
@@ -979,7 +977,7 @@
     <string name="notification_ongoing_call">កំពុង​បន្ត​ការ​ហៅ</string>
     <string name="notification_ongoing_call_multi_sim">ការហៅ​ដែល​កំពុង​ដំណើរការ​តាម %1$s</string>
     <string name="notification_ongoing_call_wifi_template">%1$s កំពុង​បន្ត</string>
-    <string name="notification_ongoing_call_wifi_template_multi_sim">%1$s ដែល​កំពុង​ដំណើរការ​តាម %1$s</string>
+    <string name="notification_ongoing_call_wifi_template_multi_sim">%1$s ដែល​កំពុង​ដំណើរការ​តាម​%2$s</string>
     <string name="notification_ongoing_paused_video_call">កំពុងហៅជាវីដេអូតាមក្រុមហ៊ុនសេវាទូរសព្ទ ‑ បានផ្អាកវីដេអូ</string>
     <string name="notification_ongoing_paused_video_call_multi_sim">ការហៅជាវីដេអូតាមរយៈក្រុមហ៊ុនសេវាទូរសព្ទដែលកំពុងដំណើរការតាម %1$s ‑ បានផ្អាកវីដេអូ</string>
     <string name="notification_ongoing_video_call">កំពុងហៅជាវីដេអូតាមក្រុមហ៊ុនសេវាទូរសព្ទ</string>
@@ -992,7 +990,7 @@
     <string name="notification_take_call">ទទួលយកការហៅ</string>
     <string name="notification_take_video_call">ទទួល​យក​ការ​ហៅ​វីដេអូ</string>
     <string name="notification_voicemail_callers_list">%1$s, %2$s</string>
-    <string name="notification_voicemail_no_vm_number">មិន​ស្គាល់​លេខ​សារ​ជា​សំឡេង​ទេ</string>
+    <string name="notification_voicemail_no_vm_number">ដើម្បី​រៀបចំ​សារ​ជា​សំឡេង សូមចូលទៅកាន់​ម៉ឺនុយ > ការ​កំណត់។</string>
     <string name="notification_voicemail_text_format">ហៅ​ទូរសព្ទ​ទៅកាន់ %s</string>
     <string name="old_block_number_confirmation_title">ទប់ស្កាត់ %1$s ឬ?</string>
     <string name="openhistory_button_label">ប្រវត្តិ</string>
@@ -1047,7 +1045,7 @@
     <string name="private_num_non_verizon">លេខ​ឯកជន</string>
     <string name="private_num_verizon">បាន​ដាក់​កំហិត</string>
     <string name="private_or_hidden_action_preference_description">អ្នក​ហៅ​ទូរសព្ទ​លាក់​អត្តសញ្ញាណ​ខ្លួន</string>
-    <string name="private_or_hidden_action_preference_title">ឯកជន ឬ​លាក់</string>
+    <string name="private_or_hidden_action_preference_title">លេខ​ឯកជន និង​លេខ​ដែល​បានលាក់</string>
     <string name="quick_contact_checkbox_description">ជ្រើសរើស​ទំនាក់ទំនង</string>
     <string name="ready_for_recording">រួចរាល់...</string>
     <string name="record_audio_pre_call_dialog_got_it">យល់ហើយ</string>
@@ -1094,7 +1092,7 @@ Call Screen មិន​ប្រើប្រាស់​ទិន្នន័�
     <string name="revelio_end_call_user_missed_internal_message">បាន​ខកខាន​ទទួល​ទូរសព្ទ</string>
     <string name="revelio_pref_title">Call Screen</string>
     <string name="revelio_preference_summary_automatic_screening_off">ការត្រួត​ពិនិត្យ​ស្វ័យប្រវត្តិ​ត្រូវ​បាន​បិទ</string>
-    <string name="revelio_preference_summary_screening">ការត្រួត​ពិនិត្យ %1$s</string>
+    <string name="revelio_preference_summary_screening">​ត្រួតពិនិត្យ %1$s</string>
     <string name="revelio_save_audio_setting_summary">រក្សា​ទុក​សំឡេង​ពី​ការហៅ​ទូរសព្ទ​ដែល​ត្រូវ​បាន​ឆ្លើយ​ដោយ​ជំនួយការ​របស់​អ្នក</string>
     <string name="revelio_save_audio_setting_title">រក្សា​ទុក​សំឡេង Call Screen</string>
     <string name="revelio_setting_title">Call Screen</string>
@@ -1168,7 +1166,6 @@ Call Screen មិន​ប្រើប្រាស់​ទិន្នន័�
     <string name="set_default_account_description">ចំណូល​ចិត្ត​ស៊ីម​ត្រូវ​បាន​រក្សា​ទុក​ជាមួយ​ទំនាក់ទំនង​របស់​អ្នក។</string>
     <string name="set_phone_as_default_explanation_text">ទូរសព្ទ​អាច​ចាប់ផ្ដើម​ហៅ និង​ទទួល​ទូរសព្ទ​តែ​ប៉ុណ្ណោះ បើ​វា​ជា​កម្មវិធី​ទូរសព្ទ​លំនាំដើម​របស់​អ្នក</string>
     <string name="set_phone_as_default_request_text">កំណត់​ទូរសព្ទ​ជា​លំនាំដើម</string>
-    <string name="settings">ការកំណត់</string>
     <string name="settings_page_call_recording_feature_not_available_text">ការថតការហៅទូរសព្ទ​មិនអាចប្រើ​នៅក្នុងទីតាំង​របស់អ្នកបានទេ</string>
     <string name="settings_page_crosby_feature_not_available_text">មិនអាច​ប្រើ​នៅក្នុង​ទីតាំង​របស់អ្នក​បានទេ</string>
     <string name="setup_duo_button_long_text">រៀបចំ​ការហៅ​ជា​វីដេអូ​តាម Duo</string>
@@ -1218,6 +1215,9 @@ Call Screen មិន​ប្រើប្រាស់​ទិន្នន័�
     <string name="sounds_and_vibration_title">សំឡេង និងរំញ័រ</string>
     <string name="spam_action_preference_description">លេខ​ដែល​ត្រូវ​គ្នា​នឹង​មូលដ្ឋាន​ទិន្នន័យ​លេខ​ឥត​បានការ​របស់ Google</string>
     <string name="spam_action_preference_title">លេខ​ឥត​បានការ</string>
+    <string name="spam_after_call_notification_add_contact_action_text">បញ្ចូល​ទំនាក់ទំនង</string>
+    <string name="spam_after_call_notification_report_spam_action_text">ទប់ស្កាត់និងរាយការណ៍</string>
+    <string name="spam_aftercall_notification_unknown">មិន​ស្គាល់</string>
     <string name="spam_and_call_screen_settings_title">លេខ​ឥត​បានការ និង Call Screen</string>
     <string name="spam_blocking_promo_action_dismiss">បដិសេធ</string>
     <string name="spam_blocking_promo_action_filter_spam">តម្រង​សារ​ឥត​បានការ</string>
@@ -1229,6 +1229,9 @@ Call Screen មិន​ប្រើប្រាស់​ទិន្នន័�
     <string name="spam_blocking_settings_enable_error_text">មាន​បញ្ហា​ក្នុង​ការបើក​តម្រង​ការហៅ​ឥត​បានការ</string>
     <string name="spam_blocking_settings_summary">ទប់ស្កាត់​ការហៅ​ឥត​បានការ​ដែល​សង្ស័យ​កុំ​ឲ្យ​រំខាន​អ្នក</string>
     <string name="spam_blocking_settings_title">ត្រង​ការហៅ​ឥត​បាន​ការ</string>
+    <string name="spam_dialog_add_contact_action">បញ្ចូល​ទៅ​ក្នុង​ទំនាក់ទំនង</string>
+    <string name="spam_dialog_dismiss_action">ច្រានចោល</string>
+    <string name="spam_notification_action_block_spam">បាទ/ចាស ទប់ស្កាត់​លេខ</string>
     <string name="spam_notification_action_dismiss">បដិសេធ</string>
     <string name="spam_notification_add_contact_action_text">បញ្ចូល​​ទំនាក់ទំនង</string>
     <string name="spam_notification_block_spam_action_text">បាទ/ចាស ទប់ស្កាត់​លេខ</string>
@@ -1468,28 +1471,27 @@ Call Screen មិន​ប្រើប្រាស់​ទិន្នន័�
     <string name="videocall_remotely_resumed">បាន​បន្ត​ការ​ហៅ​ទូរសព្ទ</string>
     <string name="videocall_settings_default_ask_every_time">សួរ​គ្រប់​ពេល</string>
     <string name="videocall_settings_default_carrier">ការហៅជាវីដេអូតាមរយៈក្រុមហ៊ុន​សេវាទូរសព្ទ</string>
-    <string name="videocall_settings_default_caution">មុខងារ​នេះ​អនុញ្ញាត​ឱ្យ​អ្នកប្រើប្រាស់​ជ្រើសរើស​ដំណោះស្រាយ​អាទិភាព​នៃ​ការហៅជាវីដេអូ និង​បង្ហាញ​សមត្ថភាព​វីដេអូ​ពី​ខាង​អ្នកទទួល នៅពេល​អាច​ប្រើ​វា​បាន។ ^1</string>
-    <string name="videocall_settings_default_caution_learn_more">ស្វែងយល់​បន្ថែម​អំពី​សេវាកម្ម​វីដេអូ​អាទិភាព</string>
+    <string name="videocall_settings_default_caution">ជ្រើសរើស​របៀប​ដែល​អ្នកនឹង​ធ្វើការ​ហៅ​ជា​វីដេអូ និង​ដឹង​ថា​តើ​មនុស្ស​ដែល​អ្នក​កំពុង​ហៅ​ទៅ​កាន់ អាច​ទទួល​បាន​ការហៅ​ឬ​អត់។ ^1</string>
+    <string name="videocall_settings_default_caution_learn_more">ព័ត៌មាន​បន្ថែម​អំពី​ការហៅ​ជា​វីដេអូ</string>
     <string name="videocall_settings_default_duo">Google Duo</string>
     <string name="videocall_settings_default_title">សេវា​ហៅ​ជា​វីដេអូ​ដែល​ចង់​បាន</string>
-    <string name="videocall_settings_fallback_caution">"នៅពេល “ប្រើ Google Duo ជា​មធ្យោបាយ​បម្រុង​ទុក” (បើ​មាន) ត្រូវ​បានបើក ហើយ​មិន​អាច​ធ្វើការហៅ​​ដោយប្រើសេវា​អាទិភាព​របស់​អ្នក នោះការហៅតាម Duo នឹងត្រូវ​បានធ្វើឡើង​ដោយ​ស្វ័យប្រវត្តិ។
-^1"</string>
-    <string name="videocall_settings_fallback_caution_learn_more">ស្វែងយល់​បន្ថែម​អំពី​ការហៅ​ដោយ​ប្រើ Duo ជា​មធ្យោបាយ​បម្រុង​ទុក</string>
-    <string name="videocall_settings_fallback_summary">ប្ដូរ​ទៅ Duo ប្រសិន​បើ​មិន​អាច​ប្រើ​សេវា​ដែល​ចង់​បាន​ទេ</string>
-    <string name="videocall_settings_fallback_title">ប្រើ Google Duo ជា​មធ្យោបាយ​បម្រុង​ទុក</string>
+    <string name="videocall_settings_fallback_caution">ប្រសិនបើ​អ្នក​មាន Google Duo ជា​មធ្យោបាយ​បម្រុង និង​បានបើកវា នោះ Duo នឹង​សាកល្បង​ហៅ​ដោយ​ស្វ័យប្រវត្តិ បើ​ក្រុមហ៊ុន​សេវាទូរសព្ទ​របស់​អ្នក​មិន​អាច​ធ្វើ​ការហៅ​ជា​វីដេអូបាន​ទេ។ ^1</string>
+    <string name="videocall_settings_fallback_caution_learn_more">ព័ត៌មាន​បន្ថែម​អំពី​ Duo ជាមធ្យោបាយ​​បម្រុង</string>
+    <string name="videocall_settings_fallback_summary">ប្ដូរ​ទៅ Duo ប្រសិន​បើ​មិន​អាច​ប្រើ​សេវា​ដែល​អ្នក​ចង់​បាន​ទេ</string>
+    <string name="videocall_settings_fallback_title">ប្រើប្រាស់ Duo សម្រាប់​បម្រុង​ទុក</string>
     <string name="videocall_settings_title">ការហៅ​ជា​វីដេអូ</string>
     <string name="videocall_show_preview_button_description">បង្ហាញ​ព័ត៌មាន​វីដេអូ​លើ​ឧបករណ៍</string>
     <string name="view_location_settings">ការកំណត់ទីតាំង</string>
     <string name="vitle_label">វីដេអូ​តាម LTE</string>
     <string name="viwifi_label">ការហៅ​ជា​វីដេអូ​តាម Wi-Fi</string>
     <string name="vm_change_pin_error_invalid">កូដ PIN ថ្មី​មាន​តួ​អក្សរ​មិន​ត្រឹមត្រូវ។</string>
-    <string name="vm_change_pin_error_last_4_digits_msisdn">កូដ PIN ថ្មី​មិន​ត្រូវ​ជា​លេខ​បួន​ខ្ទង់​ចុង​ក្រោយ​នៃ​លេខ​ទូរសព្ទ​របស់​អ្នក​ទេ។</string>
+    <string name="vm_change_pin_error_last_4_digits_msisdn">កូដ PIN របស់អ្នកមិនអាចជាលេខ 4 ខ្ទង់ចុងក្រោយនៃលេខទូរសព្ទរបស់អ្នកទេ។</string>
     <string name="vm_change_pin_error_mismatch">កូដ PIN ចាស់​មិន​ត្រូវ​គ្នា​ទេ។</string>
     <string name="vm_change_pin_error_system_error">មិន​អាច​ប្ដូរ​កូដ PIN បាន​ទេ</string>
     <string name="vm_change_pin_error_too_long">កូដ PIN ថ្មី​វែង​ពេក។</string>
     <string name="vm_change_pin_error_too_short">កូដ PIN ថ្មី​ខ្លី​ពេក។</string>
     <string name="vm_change_pin_error_too_weak">កូដ PIN ថ្មី​​ខ្សោយ​ពេក។ ពាក្យ​សម្ងាត់​ខ្លាំង​មិន​គួរ​មាន​​លេខ​រៀង​ត​គ្នា ឬលេខ​ស្ទួន​គ្នា​ទេ។</string>
-    <string name="vm_change_pin_error_unchanged_pin">កូដ PIN ថ្មី​គឺ​ដូច​គ្នា​នឹង​កូដ PIN បច្ចុប្បន្ន​របស់​អ្នក។ សូម​បញ្ចូល​កូដ PIN ផ្សេង។</string>
+    <string name="vm_change_pin_error_unchanged_pin">កូដ PIN ថ្មីរបស់អ្នកមិនអាចដូចគ្នាទៅនឹងកូដ PIN បច្ចុប្បន្នរបស់អ្នកទេ។</string>
     <string name="vm_change_pin_progress_message">សូម​រង់ចាំ។</string>
     <string name="voice_call">ការហៅ​ជា​សំឡេង</string>
     <string name="voice_call_button">ហៅ​ទូរសព្ទ</string>
@@ -1511,11 +1513,9 @@ Call Screen មិន​ប្រើប្រាស់​ទិន្នន័�
     <string name="voicemailMultiSelectDeleteConfirm">លុប</string>
     <string name="voicemail_action_call_customer_support">ហៅ​ទូរសព្ទ​ទៅ​ផ្នែក​ជំនួយ​អតិថិជន</string>
     <string name="voicemail_action_call_voicemail">ហៅ​ជា​សារ​សំឡេង</string>
-    <string name="voicemail_action_dimiss">ទេ អរគុណ</string>
     <string name="voicemail_action_retry">ព្យាយាមម្ដងទៀត</string>
     <string name="voicemail_action_set_pin">កំណត់​កូដ PIN</string>
     <string name="voicemail_action_sync">ធ្វើ​សម​កាល​កម្ម</string>
-    <string name="voicemail_action_turn_archive_on">បើក</string>
     <string name="voicemail_action_turn_off_airplane_mode">ការ​កំណត់​​មុខងារ​​​ពេល​ជិះ​យន្តហោះ</string>
     <string name="voicemail_activating_summary_info">កំពុង​បើក​ដំណើរការ​សារ​ជា​សំឡេង</string>
     <string name="voicemail_advanced_settings_title">ការកំណត់​កម្រិត​ខ្ពស់</string>
@@ -1530,7 +1530,7 @@ Call Screen មិន​ប្រើប្រាស់​ទិន្នន័�
     <string name="voicemail_change_pin_preference_summary_disable">សារ​ជា​សំឡេង​ដែល​អាច​មើល​ឃើញ​ត្រូវ​តែ​បើក​ដំណើរការ ដើម្បី​ផ្លាស់​ប្ដូរ​កូដ PIN បាន</string>
     <string name="voicemail_change_pin_preference_summary_not_activated">សារ​ជា​សំឡេង​ដែល​អាច​មើល​ឃើញ​មិន​ទាន់​​ត្រូវ​បាន​បើក​ដំណើរការ​នៅ​ឡើយ​ទេ សូម​ព្យាយាម​ម្ដង​ទៀត​នៅ​ពេល​ក្រោយ</string>
     <string name="voicemail_change_pin_preference_title">ប្ដូរ​កូដ PIN</string>
-    <string name="voicemail_donate_preference_summary_info">អនុញ្ញាត​ឲ្យ Google ពិនិត្យមើល​សារ​ជា​សំឡេង​របស់​អ្នក ដើម្បី​ធ្វើ​ឲ្យភាពត្រឹមត្រូវ​​នៃប្រតិចារឹក​ប្រសើរ​ឡើង។ សារ​ជា​សំឡេង​របស់​អ្នក​នឹង​ត្រូវបាន​រក្សាទុក​ជា​លក្ខណៈ​អនាមិក។ %1$s</string>
+    <string name="voicemail_donate_preference_summary_info">អនុញ្ញាត​ឲ្យ Google ពិនិត្យមើល​សារ​ជា​សំឡេង​របស់​អ្នក ដើម្បី​ធ្វើ​ឲ្យភាពត្រឹមត្រូវ​​នៃប្រតិចារឹក​ប្រសើរ​ឡើង។ សារ​ជា​សំឡេង​របស់​អ្នក​នឹង​ត្រូវបាន​រក្សាទុក​ជា​លក្ខណៈ​អនាមិក។ ^1</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">អាច​មាន​មាន​ការគិត​ថ្លៃ​ពី​ក្រុមហ៊ុន​សេវា​ទូរសព្ទ​ចំពោះ​ការប្រើប្រាស់​សារ​ជា​សំឡេង​ដែល​មើល​ឃើញ​សម្រាប់​ស៊ីម​ដែល​គ្មាន​ទិន្នន័យ</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">សារ​ជា​សំឡេង​ដែល​មើល​ឃើញ​អាច​ប្រើ​បាន​សម្រាប់​តែ​ស៊ីម​ទិន្នន័យ​ដែល​បាន​ជ្រើសរើស​ប៉ុណ្ណោះ</string>
     <string name="voicemail_error_activating_message">អ្នក​ប្រហែលជា​​មិន​ទទួល​បាន​ការ​ជូនដំណឹង​ជា​សារ​សំឡេង​ឡើយ រហូត​​ទាល់តែសារ​ជា​សំឡេង​ដែល​មើល​បានបើកដំណើរការពេញលេញ​​។ ហៅ​ជា​សារ​សំឡេង ​ដើម្បី​​ទទួល​បាន​សារ​ថ្មី​ៗ រហូត​សារ​ជា​សំឡេង​ត្រូវ​បានបើកដំណើរការពេញលេញ។</string>
@@ -1543,12 +1543,8 @@ Call Screen មិន​ប្រើប្រាស់​ទិន្នន័�
     <string name="voicemail_error_bad_config_title">មិន​អាច​ធ្វើ​បច្ចុប្បន្នភាព​សារ​​ជា​សំឡេង​ដែល​មើល​ឃើញ​​បាន​ទេ</string>
     <string name="voicemail_error_communication_message">អ្នក​នៅ​តែ​អាច​ហៅ​​ទូរសព្ទ​ដើម្បី​ស្ដាប់​សារ​ជា​សំឡេង</string>
     <string name="voicemail_error_communication_title">មិន​អាច​ធ្វើ​បច្ចុប្បន្នភាព​សារ​​ជា​សំឡេង​ដែល​មើល​ឃើញ​​បាន​ទេ</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_message">ប្រអប់​សារ​របស់​អ្នក​ពេញហើយ។ ដើម្បី​បង្កើន​ទំហំ​ផ្ទុក​ទំនេរ សូម​បើក​ទំហំផ្ទុក​បន្ថែម ដើម្បី​ឲ្យ Google អាច​គ្រប់គ្រង និង​បម្រុងទុក​សារ​នៃសារ​ជា​សំឡេង​របស់​អ្នក​បាន។</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_title">បើក​ទំហំ​ផ្ទុក​បន្ថែម រួច​បម្រុងទុក</string>
     <string name="voicemail_error_inbox_full_message">ប្រអប់សាររបស់អ្នកពេញហើយ។ សូមសាកល្បងលុបសារមួយចំនួនដើម្បី​អាច​ទទួល​សារជាសំឡេងថ្មី​បាន។</string>
     <string name="voicemail_error_inbox_full_title">មិនអាចទទួល​សារជា​សំឡេង​ថ្មី​បាន​ទេ</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_message">ប្រអប់​​សារ​​របស់​អ្នក​ពេញហើយ។ ដើម្បី​បង្កើន​ទំហំ​ផ្ទុក​ទំនេរ សូម​បើក​ទំហំផ្ទុក​បន្ថែម ដើម្បី​ឲ្យ Google អាច​គ្រប់គ្រង និង​បម្រុងទុក​សារ​នៃសារ​ជា​សំឡេង​របស់​អ្នក​បាន។</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_title">បើក​ទំហំ​ផ្ទុក​បន្ថែម រួច​បម្រុងទុក</string>
     <string name="voicemail_error_inbox_near_full_message">អ្នក​នឹង​មិន​អាច​ទទួល​សារ​ជា​សំឡេង​ថ្មី​បាន​ទេ បើ​ប្រអប់​សារ​របស់​អ្នក​ពេញ។</string>
     <string name="voicemail_error_inbox_near_full_title">ប្រអប់​សារជិត​ពេញ</string>
     <string name="voicemail_error_no_data_cellular_required_message">សូមព្យាយាម​ម្ដង​ទៀត នៅពេល​​​​ការតភ្ជាប់​ទិន្នន័យ​​ទូរសព្ទ​ចល័តរបស់អ្នកបាន​ប្រសើរឡើង។ អ្នក​នៅ​តែ​អាច​ហៅ​ទូរសព្ទ​ ដើម្បី​​ពិនិត្យមើលសារ​ជា​សំឡេង​បាន។</string>
@@ -1581,7 +1577,7 @@ Call Screen មិន​ប្រើប្រាស់​ទិន្នន័�
     <string name="voicemail_transcription_failed_language_not_supported">Transcript not available. Language not supported.</string>
     <string name="voicemail_transcription_failed_no_speech">Transcript not available. No speech detected.</string>
     <string name="voicemail_transcription_in_progress">កំពុងធ្វើប្រតិចារឹក...</string>
-    <string name="voicemail_transcription_preference_summary_info">ទទួល​ប្រតិចារឹក​នៃ​សារ​ជា​សំឡេង​របស់​អ្នក​ដោយ​ប្រើប្រាស់​សេវាកម្ម​ប្រតិចារឹក​របស់ Google ។ %1$s</string>
+    <string name="voicemail_transcription_preference_summary_info">ទទួល​ប្រតិចារឹក​នៃ​សារ​ជា​សំឡេង​របស់​អ្នក​ដោយ​ប្រើប្រាស់​សេវាកម្ម​ប្រតិចារឹក​របស់ Google ។ ^1</string>
     <string name="voicemail_visual_voicemail_auto_archive_switch_title">ទំហំ​ផ្ទុក និង​ការបម្រុង​ទុក​បន្ថែម</string>
     <string name="voicemail_visual_voicemail_donation_switch_title">ការវិភាគ​ប្រតិចារឹក​សារ​ជា​សំឡេង</string>
     <string name="voicemail_visual_voicemail_switch_title">សារ​ជា​សំឡេង​ដែល​មើល​ឃើញ</string>
@@ -1637,7 +1633,7 @@ Call Screen មិន​ប្រើប្រាស់​ទិន្នន័�
     <string name="wait_prompt_str">"ផ្ញើ​សំឡេង​ដូច​ខាងក្រោម?
 "</string>
     <string name="was_this_a_business_chip_text">តើនេះជា​អាជីវកម្មមែនទេ?</string>
-    <string name="was_this_a_business_dialog_body">ការបញ្ជាក់​ស្លាក​នេះ​ជួយ​ឱ្យ Google កែ​លម្អ​អត្តសញ្ញាណ​អ្នក​ហៅ​ទូរសព្ទ</string>
+    <string name="was_this_a_business_dialog_body">ការបញ្ជាក់​នេះ​ជួយ​ឱ្យ Google កែ​លម្អ​អត្តសញ្ញាណ​អ្នក​ហៅ​ទូរសព្ទ</string>
     <string name="was_this_a_business_dialog_negative_response">ទេ</string>
     <string name="was_this_a_business_dialog_positive_response">បាទ/ចាស</string>
     <string name="was_this_a_business_dialog_snackbar">សូមអរគុណចំពោះមតិកែលម្អរបស់អ្នក</string>

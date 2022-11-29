@@ -87,15 +87,21 @@
     <string name="ar_permissions_screen_title">Get a better look</string>
     <string name="ar_session_error_dialog_body">An error has occurred when trying to view this object in your space.</string>
     <string name="ar_session_error_dialog_title">Unable to view in your space</string>
-    <string name="assistant_aa_loyalty_card_title">Loyalty Card</string>
+    <string name="assistant_aa_loyalty_card_title">ဖောက်သည်ကတ်</string>
     <string name="assistant_accessibility_voice_typing_stopped">အသံဖြင့် စာရိုက်ခြင်း ရပ်ထားသည်</string>
     <string name="assistant_add_item_app_control_suggestion">ထည့်ပါ</string>
-    <string name="assistant_ama_media_only_chip">Listen</string>
-    <string name="assistant_at_store">At Store</string>
-    <string name="assistant_calendar_event_during">%1$s now</string>
-    <string name="assistant_calendar_event_pre">%1$s in %2$s</string>
-    <string name="assistant_calendar_event_pre_static">%1$s at %2$s</string>
+    <string name="assistant_ama_media_only_chip">နားဆင်ရန်</string>
+    <string name="assistant_at_store">ဆိုင်တွင်</string>
+    <string name="assistant_avatar_icon_description">အသုံးပြုသူကိုယ်စားပြုပုံ သင်္ကေတ</string>
+    <string name="assistant_calendar_event_during">ယခု %1$s</string>
+    <string name="assistant_calendar_event_pre">%2$s တွင် %1$s</string>
+    <string name="assistant_calendar_event_pre_static">%2$s တွင် %1$s</string>
     <string name="assistant_calendar_event_time_range">%1$s – %2$s</string>
+    <string name="assistant_canvas_logo_view_description">အသံဖြင့် ရှာဖွေခြင်း</string>
+    <string name="assistant_canvas_opa_keyboard_indicator_content_description">စာရိုက်မုဒ်</string>
+    <string name="assistant_canvas_opa_send_button_content_description">ပို့ရန်</string>
+    <string name="assistant_canvas_opa_text_input_hint">မက်ဆေ့ဂျ် ရေးရန်</string>
+    <string name="assistant_canvas_transcription_bar_description">စာသားမှတ်တမ်းဘား</string>
     <string name="assistant_create_doc_app_control_suggestion">မှတ်တမ်း ပြုလုပ်ပါ</string>
     <string name="assistant_custodio_activity_menu_help">အကူအညီ</string>
     <string name="assistant_custodio_activity_menu_send_feedback">အကြံပြုချက် ပို့ရန်</string>
@@ -325,6 +331,7 @@
     <string name="assistant_custodio_youtube_media_provider_link">အကြောင်းအရာ ဆက်တင်များ</string>
     <string name="assistant_custodio_youtube_media_provider_name">YouTube</string>
     <string name="assistant_dictation_ineligible_aiai_version">Assistant အသံဖြင့်စာရိုက်ခြင်း သုံးရန် Google Play တွင် သင်၏ Android System Intelligence အက်ပ်ကို အပ်ဒိတ်လုပ်ပါ။ &lt;a href=\"https://play.google.com/store/apps/details?id=com.google.android.as\">အပ်ဒိတ်လုပ်ရန်&lt;/a> &lt;br> &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#update_app\">ပိုမိုလေ့လာရန်&lt;/a></string>
+    <string name="assistant_dictation_ineligible_android_old_version">‘Assistant အသံဖြင့်စာရိုက်ခြင်း’ သုံးရန် သင်၏ ‘Android စနစ်’ အပ်ဒိတ်လုပ်ရမည်။ &lt;a href=\"intent:#Intent;action=android.settings.SYSTEM_UPDATE_SETTINGS;end\">အပ်ဒိတ်လုပ်ရန်&lt;/a> &lt;br> &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#update_app\">ပိုမိုလေ့လာရန်&lt;/a></string>
     <string name="assistant_dictation_ineligible_download_needed">Assistant အသံဖြင့်စာရိုက်ခြင်းကို အပ်ဒိတ်လုပ်ရန် လိုအပ်သည်။ အလိုအလျောက်ဒေါင်းလုဒ်လုပ်ရန် Wi-Fi သို့ ချိတ်ဆက်ပါ။ &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#update_to_use\">ပိုမိုလေ့လာရန်&lt;/a></string>
     <string name="assistant_dictation_ineligible_generic">လောလောဆယ်တွင် Assistant အသံဖြင့်စာရိုက်ခြင်းကို သုံး၍မရပါ။ &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#fix_issues_assistant_voice_typing\">ပိုမိုလေ့လာရန်&lt;/a></string>
     <string name="assistant_dictation_ineligible_locale_mismatch">Assistant အသံဖြင့်စာရိုက်ခြင်း သုံးရန် သင်၏အဓိက Gboard နှင့် စက်၏ဘာသာစကားများ တူညီရမည်။ &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#device_language\">ပိုမိုလေ့လာရန်&lt;/a></string>
@@ -333,29 +340,25 @@
     <string name="assistant_dictation_ineligible_unsupported_system_language">လက်ရှိ သင့်စက်၏ဘာသာစကားတွင် မရနိုင်ပါ။ ၎င်းသုံးရန် သင့်စက်၏ဘာသာစကားကို Gboard ဘာသာစကားနှင့်တူအောင် ပြောင်းနိုင်သည်။ &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#device_language\">ပိုမိုလေ့လာရန်&lt;/a></string>
     <string name="assistant_dictation_ineligible_work_profile">Assistant အသံဖြင့်စာရိုက်ခြင်းကို အလုပ်ပရိုဖိုင်ရှိ အက်ပ်များအတွက် လောလောဆယ်မရနိုင်ပါ။ ၎င်းကိုသုံးရန် ကိုယ်ရေးသုံးအက်ပ်များသို့ ပြောင်းပါ။ &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#not_available_work_profile\">ပိုမိုလေ့လာရန်&lt;/a></string>
     <string name="assistant_edit_app_control_suggestion">ပြင်ဆင်ပါ</string>
-    <string name="assistant_flight_chip_boarding_pass">Boarding Pass</string>
-    <string name="assistant_flight_chip_check_in">Check in for your flight</string>
-    <string name="assistant_flight_chip_more_info">More Flight Info</string>
-    <string name="assistant_flight_departure_gate_info">Gate %1$s</string>
-    <string name="assistant_flight_departure_info">%1$s to %2$s departs in %3$s</string>
-    <string name="assistant_flight_departure_info_now">%1$s to %2$s departs now</string>
-    <string name="assistant_flight_departure_info_static_time">%1$s to %2$s departs at %3$s</string>
-    <string name="assistant_flight_departure_info_static_without_time">%1$s to %2$s</string>
-    <string name="assistant_flight_departure_terminal_info">Terminal %1$s</string>
-    <string name="assistant_flight_departure_time_delayed_info">Departs %1$s (<strike>%2$s</strike>)</string>
-    <string name="assistant_flight_departure_time_info">Departs %1$s</string>
-    <string name="assistant_flight_seat_info">Seat %1$s</string>
-    <string name="assistant_flight_to_delayed_info">Delayed: Flight to %1$s</string>
-    <string name="assistant_flight_to_info">Flight to %1$s</string>
+    <string name="assistant_flight_chip_boarding_pass">လေယာဉ်တက်ခွင့် လက်မှတ်</string>
+    <string name="assistant_flight_chip_check_in">သင့်လေယာဉ်ခရီးစဉ်အတွက် ရောက်ရှိကြောင်း အသိပေးရန်</string>
+    <string name="assistant_flight_chip_more_info">နောက်ထပ် လေယာဉ်ခရီးစဉ် အချက်အလက်များ</string>
+    <string name="assistant_flight_departure_gate_info">ဂိတ် %1$s</string>
+    <string name="assistant_flight_departure_info">%1$s မှ %2$s သို့ %3$s တွင် ထွက်ခွာမည်</string>
+    <string name="assistant_flight_departure_info_now">%1$s မှ %2$s သို့ ယခုထွက်ခွာပါပြီ</string>
+    <string name="assistant_flight_departure_info_static_time">%1$s မှ %2$s သို့ %3$s တွင် ထွက်ခွာမည်</string>
+    <string name="assistant_flight_departure_info_static_without_time">%1$s မှ %2$s</string>
+    <string name="assistant_flight_departure_terminal_info">ဆိုက်ရောက်-ထွက်ခွာဂိတ် %1$s</string>
+    <string name="assistant_flight_departure_time_delayed_info">%1$s (<strike>%2$s</strike>) တွင် ထွက်ခွာမည်</string>
+    <string name="assistant_flight_departure_time_info">%1$s တွင် ထွက်ခွာမည်</string>
+    <string name="assistant_flight_seat_info">ခုံ %1$s</string>
+    <string name="assistant_flight_to_delayed_info">နောက်ကျနေသည်- %1$s သို့ လေယာဉ်ခရီးစဉ်</string>
+    <string name="assistant_flight_to_info">%1$s သို့ လေယာဉ်ခရီးစဉ်</string>
     <string name="assistant_grocery_delivery_completed">%1$s order delivered</string>
-    <string name="assistant_grocery_delivery_during">%1$s delivery now</string>
-    <string name="assistant_grocery_delivery_pre">%1$s delivery in %2$s</string>
-    <string name="assistant_grocery_delivery_pre_static">%1$s delivery at %2$s</string>
+    <string name="assistant_grocery_delivery_scheduled">%1$s delivery scheduled</string>
     <string name="assistant_grocery_pickup_completed">%1$s order picked up</string>
-    <string name="assistant_grocery_pickup_during">%1$s pickup now</string>
-    <string name="assistant_grocery_pickup_pre">%1$s pickup in %2$s</string>
-    <string name="assistant_grocery_pickup_pre_static">%1$s pickup at %2$s</string>
-    <string name="assistant_grocery_pickup_ready">%1$s pickup now</string>
+    <string name="assistant_grocery_pickup_ready">%1$s order ready for pickup</string>
+    <string name="assistant_grocery_pickup_scheduled">%1$s pickup scheduled</string>
     <string name="assistant_grocery_time_range">%1$s – %2$s</string>
     <string name="assistant_guacamole_closed_popup_pill_content_description">“%1$s” ဟု ပြောနိုင်သည်။ အချက်အလက်ပိုပြရန် ခလုတ်ကို နှစ်ချက်တို့နိုင်သည်။</string>
     <string name="assistant_guacamole_opened_popup_pill_content_description">“%1$s” ဟု ပြောနိုင်သည်။ အချက်အလက်လျှော့ပြရန် ခလုတ်ကို နှစ်ချက်တို့နိုင်သည်။</string>
@@ -404,6 +407,9 @@
     <string name="assistant_keyboard_first_one_text">ပထမတစ်ခု</string>
     <string name="assistant_keyboard_firstrun_text">&lt;linkable>ဆက်တင်များ စီမံရန်&lt;/linkable></string>
     <string name="assistant_keyboard_icon_label">ကီးဘုတ်</string>
+    <string name="assistant_keyboard_input_clear_button_content_description">Click to clear text input</string>
+    <string name="assistant_keyboard_input_mic_button_content_description">Click the mic icon to start voice query</string>
+    <string name="assistant_keyboard_input_text_hint">Type a text input here</string>
     <string name="assistant_keyboard_learning_center_category_compose">စာရိုက်ခြင်းနှင့် ပို့ခြင်း</string>
     <string name="assistant_keyboard_learning_center_category_emojis">အီမိုဂျီများ ထည့်ခြင်း</string>
     <string name="assistant_keyboard_learning_center_category_forms">ဖောင်များနှင့် အီးမေးလ်များ</string>
@@ -487,11 +493,13 @@
     <string name="assistant_keyboard_sticky_mic_education_tip_text">ကီးဘုတ်ကို မပိတ်မီအထိ&lt;br>မိုက်ကို ဖွင့်ထားရန် နှစ်ချက်တို့နိုင်သည်</string>
     <string name="assistant_keyboard_stop_button_description">နှုတ်တိုက်ချပေးခြင်း ရပ်ရန်</string>
     <string name="assistant_keyboard_stop_text">ရပ်ရန်</string>
+    <string name="assistant_keyboard_suggestion_query_builder_button_content_description">Click to edit in input box</string>
     <string name="assistant_keyboard_undo_button_description">နောက်ပြန်ရန်</string>
     <string name="assistant_keyboard_undo_text">နောက်ပြန်ရန်</string>
     <string name="assistant_keyboard_voice_command_not_supported">ဤအက်ပ်တွင် ကွန်မန်း အသုံးမပြုနိုင်ပါ</string>
     <string name="assistant_keyboard_voice_corrections_tip_text">ရွေးချယ်မှုအစား’d like to&lt;br>သုံးလိုသည့် စကားလုံးကို ပြောနိုင်သည်</string>
     <string name="assistant_learning_center_data_error">Sorry, something went wrong while loading data.</string>
+    <string name="assistant_learning_center_detailed_page_data_error">Sorry, something went wrong while loading data.</string>
     <string name="assistant_long_press_power_action_button_text">ရပြီ</string>
     <string name="assistant_long_press_power_action_description">ပါဝါပိတ်နေသည်</string>
     <string name="assistant_long_press_power_button_1">ဖွင့်ပိတ်ခလုတ်</string>
@@ -531,7 +539,7 @@
     <string name="assistant_my_actions_unpin_confirmation_dialog_title">ကြိုတင်သတိပေးချက်။</string>
     <string name="assistant_my_actions_unpinned_action_row_add_button_content_description">ဤလုပ်ဆောင်ချက်ကို ထည့်ရန်</string>
     <string name="assistant_my_actions_unpinned_actions_header">သင်နှစ်သက်နိုင်သည့် လုပ်ဆောင်ချက်များ</string>
-    <string name="assistant_my_flights_query">My Flights</string>
+    <string name="assistant_my_flights_query">ကျွန်ုပ်၏ လေယာဉ်ခရီးစဉ်များ</string>
     <string name="assistant_preloaded_fre_homescreen_suggestion_1">အချိန်တိုင်းစက် ၂ မိနစ် သတ်မှတ်ပါ</string>
     <string name="assistant_preloaded_fre_homescreen_suggestion_11">သတိပေးချက် သတ်မှတ်ပါ</string>
     <string name="assistant_preloaded_fre_homescreen_suggestion_12">Gmail ကို ဖွင့်ပါ</string>
@@ -591,21 +599,38 @@
     <string name="assistant_suw_intro_screen_action_button_text">သဘောတူသည်</string>
     <string name="assistant_suw_intro_screen_cancel_button_text">ကျော်ရန်</string>
     <string name="assistant_suw_intro_screen_default_x_google_hotword">Ok Google</string>
+    <string name="assistant_suw_intro_screen_hint1_for_unicorn_vm3">{GENDER,select, male{{GIVEN_NAME} ၏ Assistant က သူ့ကိုမှတ်မိနိုင်ရန် “%1$s” လည်း Voice Match လိုအပ်သည်။}female{{GIVEN_NAME} ၏ Assistant က သူ့ကိုမှတ်မိနိုင်ရန် “%1$s” လည်း Voice Match လိုအပ်သည်။}other{{GIVEN_NAME} ၏ Assistant က သူ့ကိုမှတ်မိနိုင်ရန် “%1$s” လည်း Voice Match လိုအပ်သည်။}}</string>
+    <string name="assistant_suw_intro_screen_hint1_vm3">Assistant က သင့်ကိုမှတ်မိနိုင်ရန် “%1$s” လည်း Voice Match လိုအပ်သည်။</string>
+    <string name="assistant_suw_intro_screen_hint2_for_unicorn_vm3">%1$s က မရည်ရွယ်သော်လည်း ဥပမာ “%2$s” ကဲ့သို့ အသံထွက်သော ဆူညံသံရှိသည့်အခါ Assistant ကို စတင်နိုင်သည်။</string>
+    <string name="assistant_suw_intro_screen_hint2_vm3">သင်က မရည်ရွယ်သော်လည်း ဥပမာ “%1$s” ကဲ့သို့ အသံထွက်သော ဆူညံသံရှိသည့်အခါ Assistant ကို စတင်နိုင်သည်။</string>
+    <string name="assistant_suw_intro_screen_hint3_for_unicorn_vm3">%2$s ၏ Assistant ဆက်တင်များတွင် “%1$s” ကို ပိတ်နိုင်သည်။</string>
+    <string name="assistant_suw_intro_screen_hint3_vm3">Assistant ဆက်တင်များတွင် “%1$s” ကို ပိတ်နိုင်သည်။</string>
     <string name="assistant_suw_intro_screen_item_summary_1">“ဒီတစ်ပတ် ရာသီဥတုအခြေအနေ ဘယ်လိုရှိလဲ။”</string>
+    <string name="assistant_suw_intro_screen_item_summary_1_for_unicorn">“ထီးယူရမလား။”</string>
     <string name="assistant_suw_intro_screen_item_summary_2">“အနီးဆုံးကော်ဖီဆိုင်က ဘယ်နားမှာလဲ။”</string>
+    <string name="assistant_suw_intro_screen_item_summary_2_for_unicorn">“ရေမြင်းရဲ့အသံက ဘယ်လိုမျိုးလဲ။”</string>
     <string name="assistant_suw_intro_screen_item_summary_3">“မနက်ဖြန်မနက် ၅:၀၀ နာရီ နှိုးစက်ပေးပါ။”</string>
+    <string name="assistant_suw_intro_screen_item_summary_3_for_unicorn">“အိမ်စာတိုင်မာကို မိနစ် ၂၀ သတ်မှတ်ပါ။”</string>
     <string name="assistant_suw_intro_screen_item_title_1">မေးခွန်းများ မေးခြင်း</string>
     <string name="assistant_suw_intro_screen_item_title_2">လမ်းညွှန်ရယူရန်</string>
+    <string name="assistant_suw_intro_screen_item_title_2_for_unicorn">အသစ်အဆန်းများ လေ့လာရန်</string>
     <string name="assistant_suw_intro_screen_item_title_3">လုပ်စရာများ ပြီးအောင်လုပ်ခြင်း</string>
     <string name="assistant_suw_intro_screen_subtitle_v2">သင်သဘောတူပါက “%1$s” ကို သိရှိစေရန်အတွက် Google Assistant က အရန်သင့်ထားသည့်မုဒ်တွင်စောင့်နေမည်။</string>
+    <string name="assistant_suw_intro_screen_subtitle_v2_for_unicorn_vm3">သင်သဘောတူပါက Google Assistant သည် %1$s က “%2$s” ပြောသောအခါ သိရှိစေရန်အတွက် အရန်သင့်မုဒ်တွင် စောင့်နေမည်။</string>
     <string name="assistant_suw_intro_screen_title">သင့် Assistant ကို “%1$s” ဖြင့်သုံးပါ</string>
     <string name="assistant_suw_intro_screen_title_for_unicorn">%1$s ကို “%2$s” ဖြင့် Google Assistant သုံးခွင့်ပြုပါ</string>
-    <string name="assistant_suw_intro_screen_with_ww_hint">ဤရွေးချယ်စရာကို Assistant ဆက်တင်များတွင် အပ်ဒိတ်လုပ်နိုင်သည်။</string>
+    <string name="assistant_suw_intro_screen_title_for_unicorn_vm3">%1$s ကို Google အား လက်လွတ်စကားပြောခွင့်ပြုပါ</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint2_for_unicorn_vm3">%1$s က မရည်ရွယ်သော်လည်း ဥပမာ “%2$s” (သို့) အမြန်စကားရပ်ကဲ့သို့ အသံထွက်သော ဆူညံသံရှိသည့်အခါ Assistant ကို စတင်နိုင်သည်။</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint2_vm3">သင်က မရည်ရွယ်သော်လည်း ဥပမာ “%1$s” (သို့) အမြန်စကားရပ်ကဲ့သို့ အသံထွက်သော ဆူညံသံရှိသည့်အခါ Assistant ကို စတင်နိုင်သည်။</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint3_for_unicorn_vm3">%2$s ၏ Assistant ဆက်တင်များတွင် “%1$s” (သို့) အမြန်စကားရပ်များကို ပိတ်နိုင်သည်။</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint3_vm3">Assistant ဆက်တင်များတွင် “%1$s” (သို့) အမြန်စကားရပ်များကို ပိတ်နိုင်သည်။</string>
     <string name="assistant_suw_intro_screen_with_ww_item_summary_1">လုပ်ဆောင်စရာများနှင့်ပတ်သက်၍ မေးခွန်းများမေးပြီး အကူအညီရယူပါ။</string>
     <string name="assistant_suw_intro_screen_with_ww_item_summary_2">“stop” (သို့) “snooze” ကဲ့သို့စကားလုံးများသုံးကြည့်ပါ (ဥပမာ- နှိုးစက်မြည်နေသည့်အခါ)။</string>
+    <string name="assistant_suw_intro_screen_with_ww_item_summary_2_for_unicorn_vm3">ရပ်သွားရန် %1$s က “stop” (သို့) “snooze” ကဲ့သို့စကားလုံးများ ပြောကြည့်နိုင်သည် (ဥပမာ- နှိုးစက်မြည်နေသည့်အခါ)။</string>
     <string name="assistant_suw_intro_screen_with_ww_item_title_1">“%1$s”</string>
     <string name="assistant_suw_intro_screen_with_ww_item_title_2">အမြန်သုံးစကားရပ်များ</string>
     <string name="assistant_suw_intro_screen_with_ww_subtitle">သင်သဘောတူပါက Google Assistant သည် “%1$s” နှင့် အမြန်သုံးစကားရပ်အချို့ကို သိရှိစေရန်အတွက် အရန်သင့်ထားသည့်မုဒ်တွင် စောင့်နေမည်။</string>
+    <string name="assistant_suw_intro_screen_with_ww_subtitle_for_unicorn_vm3">သင်သဘောတူပါက Google Assistant သည် %1$s က “%2$s” နှင့် အမြန်စကားရပ်အချို့ကို ပြောသောအခါ သိရှိစေရန်အတွက် အရန်သင့်မုဒ်တွင် စောင့်နေမည်။</string>
     <string name="assistant_suw_intro_screen_with_ww_title">Google လက်လွတ်အကူအညီသို့ စကားပြောပါ</string>
     <string name="assistant_suw_loading_screen_title">စစ်ဆေးနေသည်…</string>
     <string name="assistant_suw_more_button_text">နောက်ထပ်</string>
@@ -613,19 +638,21 @@
     <string name="assistant_suw_optional_step_title">Google Assistant စနစ်ထည့်သွင်းခြင်း</string>
     <string name="assistant_suw_settings_screen_action_button_text">သဘောတူသည်</string>
     <string name="assistant_suw_settings_screen_cancel_button_text">ကျော်ရန်</string>
-    <string name="assistant_suw_settings_screen_hint"><b>မှတ်ချက်-</b> ဆင်တူသောအသံ (သို့) အသံသွင်းချက်များဖြင့်လည်း သင့် Assistant ရှိ ကိုယ်ရေးကိုယ်တာ ရလဒ်များကို အသုံးပြု၍ ရသွားနိုင်ပါသည်</string>
-    <string name="assistant_suw_settings_screen_hint_for_unicorn">{GENDER,select, male{&lt;b>မှတ်ချက်-&lt;/b> ဆင်တူသောအသံ (သို့) အသံသွင်းချက်များဖြင့်လည်း {GIVEN_NAME}’၏ Assistant ရှိ ကိုယ်ရေးကိုယ်တာ ရလဒ်များကို သုံး၍ရနိုင်ပါသည်။}female{&lt;b>မှတ်ချက်-&lt;/b> ဆင်တူသောအသံ (သို့) အသံသွင်းချက်များဖြင့်လည်း {GIVEN_NAME}’၏ Assistant ရှိ ကိုယ်ရေးကိုယ်တာ ရလဒ်များကို သုံး၍ရနိုင်ပါသည်။}other{&lt;b>မှတ်ချက်-&lt;/b> ဆင်တူသောအသံ (သို့) အသံသွင်းချက်များဖြင့်လည်း {GIVEN_NAME}’၏ Assistant ရှိ ကိုယ်ရေးကိုယ်တာ ရလဒ်များကို သုံး၍ရနိုင်ပါသည်။}}</string>
+    <string name="assistant_suw_settings_screen_hint"><b>မှတ်ချက်-</b> ဆင်တူသောအသံ (သို့) အသံသွင်းချက်ဖြင့် သင့် Assistant ရှိ ကိုယ်ရေးကိုယ်တာ ရလဒ်များသို့ ဝင်ခွင့်ရသွားနိုင်သည်</string>
+    <string name="assistant_suw_settings_screen_hint_for_unicorn">{GENDER,select, male{&lt;b>မှတ်ချက်-&lt;/b> ဆင်တူသောအသံ (သို့) အသံသွင်းချက်များဖြင့် {GIVEN_NAME}’၏ Assistant ရှိ ကိုယ်ရေးကိုယ်တာ ရလဒ်များသို့ ဝင်ခွင့်ရသွားနိုင်ပါသည်။}female{&lt;b>မှတ်ချက်-&lt;/b> ဆင်တူသောအသံ (သို့) အသံသွင်းချက်များဖြင့် {GIVEN_NAME}’၏ Assistant ရှိ ကိုယ်ရေးကိုယ်တာ ရလဒ်များသို့ ဝင်ခွင့်ရသွားနိုင်ပါသည်။}other{&lt;b>မှတ်ချက်-&lt;/b> ဆင်တူသောအသံ (သို့) အသံသွင်းချက်များဖြင့် {GIVEN_NAME}’၏ Assistant ရှိ ကိုယ်ရေးကိုယ်တာ ရလဒ်များသို့ ဝင်ခွင့်ရသွားနိုင်ပါသည်။}}</string>
     <string name="assistant_suw_settings_screen_item_summary_v2">သင်၏ %1$s လော့ခ်ချထားသည့်အခါ Assistant ကို တုံ့ပြန်ခွင့်ပြုပါ။ အဆက်အသွယ်များကို ဖုန်းခေါ်ခြင်းနှင့် မက်ဆေ့ဂျ်ပို့ခြင်းကဲ့သို့ ကိုယ်ရေးကိုယ်တာ လုပ်ဆောင်ချက်များအတွက် Assistant က သင့်အသံကိုမှတ်မိစေရန် “%2$s” ဟု ပြောပါ။</string>
     <string name="assistant_suw_settings_screen_item_summary_v2_for_unicorn">{GENDER,select, male{{GIVEN_NAME} ၏ %1$s လော့ခ်ချထားသည့်အခါ Assistant ကို တုံ့ပြန်ခွင့်ပြုပါ။ အဆက်အသွယ်များကို ဖုန်းခေါ်ခြင်းနှင့် မက်ဆေ့ဂျ်ပို့ခြင်းကဲ့သို့ ကိုယ်ရေးကိုယ်တာ လုပ်ဆောင်ချက်များအတွက် {GIVEN_NAME} က “%2$s” ဟု ပြောသောအခါ Assistant သည် သူ၏အသံကို မှတ်မိပါမည်။}female{{GIVEN_NAME} ၏ %1$s လော့ခ်ချထားသည့်အခါ Assistant ကို တုံ့ပြန်ခွင့်ပြုပါ။ အဆက်အသွယ်များကို ဖုန်းခေါ်ခြင်းနှင့် မက်ဆေ့ဂျ်ပို့ခြင်းကဲ့သို့ ကိုယ်ရေးကိုယ်တာ လုပ်ဆောင်ချက်များအတွက် {GIVEN_NAME} က “%2$s” ဟု ပြောသောအခါ Assistant သည် သူ၏အသံကို မှတ်မိပါမည်။}other{{GIVEN_NAME} ၏ %1$s လော့ခ်ချထားသည့်အခါ Assistant ကို တုံ့ပြန်ခွင့်ပြုပါ။ အဆက်အသွယ်များကို ဖုန်းခေါ်ခြင်းနှင့် မက်ဆေ့ဂျ်ပို့ခြင်းကဲ့သို့ ကိုယ်ရေးကိုယ်တာ လုပ်ဆောင်ချက်များအတွက် {GIVEN_NAME} က “%2$s” ဟု ပြောသောအခါ Assistant သည် သူ၏အသံကို မှတ်မိပါမည်။}}</string>
     <string name="assistant_suw_settings_screen_item_title">လော့ခ်ချထားချိန် ဖန်သားပြင်တွင် Assistant ကို ခွင့်ပြုခြင်း</string>
     <string name="assistant_suw_settings_screen_title">သင်၏ %1$s မဖွင့်ဘဲ Assistant သုံးပါ</string>
     <string name="assistant_suw_settings_screen_title_for_unicorn">{GENDER,select, male{%1$s မဖွင့်ဘဲ {GIVEN_NAME} ကို Google Assistant သုံးခွင့်ပေးပါ}female{%1$s မဖွင့်ဘဲ {GIVEN_NAME} ကို Google Assistant သုံးခွင့်ပေးပါ}other{%1$s မဖွင့်ဘဲ {GIVEN_NAME} ကို Google Assistant သုံးခွင့်ပေးပါ}}</string>
     <string name="assistant_take_note_app_control_suggestion">မှတ်စု ရေးပါ</string>
-    <string name="assistant_tap_to_check_in">Tap to check-in</string>
-    <string name="assistant_tomorrow_time">Tomorrow, %1$s</string>
+    <string name="assistant_tap_to_check_in">ရောက်ရှိကြောင်း အသိပေးရန် တို့ပါ</string>
+    <string name="assistant_tomorrow_time">မနက်ဖြန်၊ %1$s</string>
     <string name="assistant_voice_plate_avatar_label">ဆက်တင်များ ဖွင့်ရန်</string>
     <string name="assistant_voice_plate_greeting_hi_text">မင်္ဂလာပါ။ ဘာကူညီရမလဲ။</string>
     <string name="assistant_voice_plate_keyboard_icon_label">ကီးဘုတ်</string>
+    <string name="assistant_voice_plate_onboarding_oauth_recovery_button">လက်မှတ်ထိုးဝင်ရန်</string>
+    <string name="assistant_voice_plate_onboarding_oauth_recovery_text">Assistant သုံးရန် သင့် Google Account သို့ ထပ်မံလက်မှတ်ထိုးဝင်ရမည်</string>
     <string name="assistant_voice_plate_onboarding_oobe_button">စတင်ရန်</string>
     <string name="assistant_voice_plate_onboarding_oobe_text">နောက်ထပ် Assistant ဝန်ဆောင်မှုများ ဖွင့်ရန်</string>
     <string name="assistant_vs_ui_education_tooltip_caption">သင့် Assistant နှင့် ယခုစကားဝိုင်းကို အဆုံးသတ်ရန် ပူဖောင်းကွက်ကို စခရင်အောက်ခြေသို့ ဖိဆွဲပါ</string>
@@ -647,7 +674,7 @@
     <string name="assistant_weather_widget_preview_condition">နေသာသည်</string>
     <string name="assistant_weather_widget_preview_loading">ဖွင့်နေသည်…</string>
     <string name="assistant_weather_widget_preview_location">ဆန်ဖရန်စစ္စကို</string>
-    <string name="assistant_yesterday_time">Yesterday, %1$s</string>
+    <string name="assistant_yesterday_time">မနေ့က၊ %1$s</string>
     <string name="assistantactions_alarm_confirmation_card_button_text">View alarms</string>
     <string name="assistantactions_call_confirmation_card_button">Call</string>
     <string name="assistantactions_confirmation_card_cancel_text">Operation canceled</string>
@@ -696,7 +723,6 @@
     <string name="bottom_navigation_collections_label">စုစည်းမှုများ</string>
     <string name="bottom_navigation_drawer_label">နောက်ထပ်</string>
     <string name="bottom_navigation_search_label">ရှာရန်</string>
-    <string name="bottom_navigation_snapshot_label">Snapshot</string>
     <string name="bottom_navigation_spark_label">Discover</string>
     <string name="bottom_navigation_tabs_label">တဘ်များ</string>
     <string name="bottomsheet_action_expand_halfway">တစ်ဝက်ချဲ့ရန်</string>
@@ -757,7 +783,9 @@
     <string name="common_google_play_services_update_text">Google Play ဝန်ဆောင်မှုများအား အပ်ဒိတ်မလုပ်ပါက %1$s အလုပ်လုပ်မည် မဟုတ်ပါ။</string>
     <string name="common_google_play_services_update_title">Google Play ဝန်ဆောင်မှုများကို အပ်ဒိတ်လုပ်ရန်</string>
     <string name="common_google_play_services_updating_text">Google Play ဝန်ဆောင်မှုများကို လက်ရှိအပ်ဒိတ်လုပ်နေသောကြောင့် %1$s ကိုဖွင့်၍ရမည်မဟုတ်ပါ။</string>
+    <string name="common_google_play_services_wear_update_text">Google Play ဝန်ဆောင်မှုဗားရှင်းအသစ်များ လိုအပ်နေသည်။ အချိန်အနည်းငယ်အကြာတွင် ၎င်းကိုယ်တိုင်အပ်ဒိတ်လုပ်ပါ လိမ့်မည်။</string>
     <string name="common_open_on_phone">ဖုန်းပေါ်မှာ ဖွင့်ပါ</string>
+    <string name="comms_center_close_button_description">စာမျက်နှာ ပိတ်ရန်</string>
     <string name="confirm_device_credential_password">စကားဝှက်သုံးရန်</string>
     <string name="confirm_not_driving_button">ကားမောင်းမနေပါ</string>
     <string name="confirm_not_driving_description">ကားမောင်းမနေဘူးလား။ မောင်းနှင်မုဒ်မှ လောလောဆယ် ထွက်လိုက်မည်</string>
@@ -767,6 +795,8 @@
     <string name="copy">မိတ္တူကူးရန်</string>
     <string name="create_folder_with">ဖိုလ်ဒါ ပြုလုပ်ရန်- %1$s</string>
     <string name="crop_wallpaper">နောက်ခံအား ဖြတ်ခြင်း</string>
+    <string name="custom_reply_button_string">စိတ်ကြိုက်စာပြန်ရန်</string>
+    <string name="day_picker_description">လအလိုက်နေ့များအကွက်</string>
     <string name="decline_button_description">ခေါ်ဆိုမှုကို ငြင်းပယ်ရန်</string>
     <string name="decline_permissions">Not Now</string>
     <string name="default_error">သည်းခံပါ။ တစ်ခုခု မှားသွားသည်။</string>
@@ -839,6 +869,53 @@
     <string name="experimental_mode_unexpectedly_disconnected_warning">မမျှော်လင့်သော ဆာဗာ ချွတ်ယွင်းချက်။ အက်ပ်ကို ပိတ်ပြီး ထပ်စမ်းကြည့်ပါ။</string>
     <string name="experimental_test_in_progress">စက်၏ စွမ်းရည်ကို စစ်ဆေးနေသည်…</string>
     <string name="exposed_dropdown_menu_content_description">ဆွဲချမီနူးကို ပြရန်</string>
+    <string name="fa_alarm_instance_default_label">နှိုးစက်ပေးမထားပါ</string>
+    <string name="fa_alarm_instance_filled_bullet">●</string>
+    <string name="fa_alarm_instance_switch_off_label">%1$s နှိုးစက် ပိတ်ထားသည်</string>
+    <string name="fa_alarm_instance_switch_on_label">%1$s နှိုးစက် ဖွင့်ထားသည်</string>
+    <string name="fa_audio_recorder_audio_recording_text">အသံဖမ်းနေသည်…</string>
+    <string name="fa_audio_recorder_default_play_record_time_text">၀၀:၀၀</string>
+    <string name="fa_audio_recorder_delete_audio_message">အသံ မက်ဆေ့ဂျ် ဖျက်ရန်</string>
+    <string name="fa_audio_recorder_pause_audio_playback">ခဏရပ်ရန်</string>
+    <string name="fa_audio_recorder_playback_audio">ဖွင့်ရန်</string>
+    <string name="fa_audio_recorder_recording_audio">အသံဖမ်းနေသည်</string>
+    <string name="fa_audio_recorder_stop_recording_audio">အသံဖမ်းခြင်း ရပ်ရန်</string>
+    <string name="fa_cancel_button_description">မလုပ်တော့ ခလုတ်</string>
+    <string name="fa_confirm_button_description">အတည်ပြုရန် ခလုတ်</string>
+    <string name="fa_contact_selection_contact_icon_description">အဆက်အသွယ် သင်္ကေတ</string>
+    <string name="fa_contact_selection_pick_another_contact_view_hint">အခြားအဆက်အသွယ် ရွေးရန်</string>
+    <string name="fa_contact_selection_view_hint">အဆက်အသွယ် ရွေးရန်</string>
+    <string name="fa_device_setting_toggle_icon_description">ဆက်တင်သင်္ကေတ</string>
+    <string name="fa_device_setting_toggle_off_description">%1$s ပိတ်ထားသည်</string>
+    <string name="fa_device_setting_toggle_on_description">%1$s ဖွင့်ထားသည်</string>
+    <string name="fa_duration_hours_minutes_seconds">%1$02dh %2$02dm %3$02ds</string>
+    <string name="fa_duration_minutes_seconds">%1$02dm %2$02ds</string>
+    <string name="fa_duration_picker_confirm_button_text">ပြီးပြီ</string>
+    <string name="fa_duration_picker_hour_unit_label">နာရီ</string>
+    <string name="fa_duration_picker_minute_unit_label">မိနစ်</string>
+    <string name="fa_duration_picker_second_unit_label">စက္ကန့်</string>
+    <string name="fa_duration_picker_title">ကြာချိန် သတ်မှတ်ရန်</string>
+    <string name="fa_duration_seconds">%1$02ds</string>
+    <string name="fa_empty_time">--:--</string>
+    <string name="fa_family_info_broadcast_settings_button">ထုတ်လွှင့်မှုဆက်တင်များ ခလုတ်</string>
+    <string name="fa_family_info_collapse_button">လူများပြရန်ခလုတ် ခေါက်ထားသည်</string>
+    <string name="fa_family_info_uncollapse_button">လူများပြရန်ခလုတ် ချဲ့ထားသည်</string>
+    <string name="fa_filled_bullet">●</string>
+    <string name="fa_hour_unit_label">h</string>
+    <string name="fa_list_item_picker_title">နည်းလမ်းတစ်ခု ရွေးပါ</string>
+    <string name="fa_minute_unit_label">m</string>
+    <string name="fa_playback_audio">ဖွင့်ရန်</string>
+    <string name="fa_recurrence_custom">စိတ်ကြိုက် (ဖုန်းတွင် စိတ်ကြိုက်လုပ်၍မရပါ)</string>
+    <string name="fa_recurrence_do_not_repeat">ပြန်မကျော့ပါနှင့်</string>
+    <string name="fa_recurrence_none">မရှိ</string>
+    <string name="fa_remaining_duration_hours_minutes_seconds">%1$02dh %2$02dm %3$02ds ကျန်သည်</string>
+    <string name="fa_remaining_duration_minutes_seconds">%1$02dm %2$02ds ကျန်သည်</string>
+    <string name="fa_remaining_duration_seconds">%1$02ds ကျန်သည်</string>
+    <string name="fa_second_unit_label">s</string>
+    <string name="fa_timer_status_active">ဖွင့်ထားသည်</string>
+    <string name="fa_timer_status_paused">ခဏရပ်ထားသည်</string>
+    <string name="fa_timer_status_reset">ပြင်ဆင်သတ်မှတ်ထားသည်</string>
+    <string name="fa_timer_status_unknown">မသိပါ</string>
     <string name="facade_search_box_content_description">ရှာဖွေရန်…</string>
     <string name="filled_bullet">●</string>
     <string name="find_something_else_button_text">အခြားအရာတစ်ခု ရှာရန်</string>
@@ -994,7 +1071,7 @@
     <string name="googleapp_accountmenu_chrome_incognito">Chrome ရုပ်ဖျက်တဘ် အသစ်</string>
     <string name="googleapp_accountmenu_data_in_search">Search</string>
     <string name="googleapp_accountmenu_passwords">စကားဝှက်များ</string>
-    <string name="googleapp_accountmenu_personal_info_removal">သင့်ကိုယ်ရေးအချက်အလက် ဖယ်ရှားရန်</string>
+    <string name="googleapp_accountmenu_personal_info_removal">Results about you</string>
     <string name="googleapp_accountmenu_quick_delete_education_easy">တစ်ချက်တို့ရုံဖြင့် ‘ရှာဖွေမှတ်တမ်း’ ၏ ပြီးခဲ့သော ၁၅ မိနစ်စာကို ရှင်းသည်</string>
     <string name="googleapp_accountmenu_quickdelete_cancel">မလုပ်တော့</string>
     <string name="googleapp_accountmenu_quickdelete_error">မှတ်တမ်းကို ဖျက်၍မရပါ</string>
@@ -1022,6 +1099,10 @@
     <string name="googleapp_autocomplete_with_trending_searches_header_title">ခေတ်စားနေသည့် ရှာဖွေမှုများ</string>
     <string name="googleapp_autocomplete_with_trending_searches_summary">ခေတ်စားနေသည့် ရှာဖွေမှုများတွင် သင့်ဒေသရှိ လူကြိုက်များသောရှာဖွေမှုများ ပါဝင်သည်</string>
     <string name="googleapp_autocomplete_with_trending_searches_title">ခေတ်စားနေသည့် ရှာဖွေမှုဖြင့် အလိုအလျောက်ဖြည့်ခြင်း</string>
+    <string name="googleapp_autoplay_video_previews_always">Wi-Fi နှင့် မိုဘိုင်းဒေတာ သုံးချိန်</string>
+    <string name="googleapp_autoplay_video_previews_never">မည်သည့်အခါမှ</string>
+    <string name="googleapp_autoplay_video_previews_setting_title">ဗီဒီယို အစမ်းကြည့်ရှုခြင်းများ အလိုအလျောက်ဖွင့်ပါ</string>
+    <string name="googleapp_autoplay_video_previews_wifi">Wi-Fi တွင်သာ</string>
     <string name="googleapp_back_arrow_description">နောက်သို့</string>
     <string name="googleapp_bar_color_title">ဘားအရောင်</string>
     <string name="googleapp_bar_logo_title">ဘားလိုဂို</string>
@@ -1033,12 +1114,6 @@
     <string name="googleapp_boc_tooltip_tap_to_manage_your_preferences">သတ်မှတ်ချက်များနှင့် အကြံပြုချက်ကို စီမံရန် တို့ပါ</string>
     <string name="googleapp_books_mode_landing_text">စာအုပ်များကို ရှာရန်</string>
     <string name="googleapp_bottom_navigation_collections_label_content_description">စုစည်းမှုများ ခလုတ်</string>
-    <string name="googleapp_broad_queries_topbar_mic_description">အသံဖြင့် ရှာဖွေရန်</string>
-    <string name="googleapp_broad_queries_topbar_search_description">ရှာဖွေရန်</string>
-    <string name="googleapp_broad_queries_topbar_up_content_description">နောက်သို့</string>
-    <string name="googleapp_broadqueries_error_message">အင်တာနက်ချိတ်ဆက်မှု ရှိ၊ မရှိ စစ်ဆေးပါ</string>
-    <string name="googleapp_broadqueries_error_title">တစ်ခုခု မှားသွားသည်</string>
-    <string name="googleapp_broadqueries_loading_indicator_desc">အကြောင်းအရာကို ဖွင့်နေသည်</string>
     <string name="googleapp_browser_actionbutton_ampinfo">AMP အကြောင်း ပိုမိုသိရှိရန်</string>
     <string name="googleapp_browser_actionbutton_overflowmenu">နောက်ထပ် လုပ်ဆောင်ချက်များ</string>
     <string name="googleapp_browser_actionbutton_tabs">တဘ်များ</string>
@@ -1062,28 +1137,27 @@
     <string name="googleapp_browser_firstrun_summary">"သင့် Google app ကို အပ်ဒိတ်လုပ်ပြီး၍ ဆောင်းပါး၊ ဗီဒီယိုနှင့် ဇာတ်လမ်းများကဲ့သို့ ဝဘ်အကြောင်းအရာအားလုံးကို အက်ပ်အတွင်းတွင် ကြည့်ရှုနိုင်ပါပြီ။
 
 ဝဘ်ဆိုက်အချို့သို့ အကောင့်ဝင်ရန် လိုအပ်နိုင်ပြီး ဘရောင်ဇာ ဆက်တင်များကို ပြန်လည်စစ်ဆေးနိုင်ပါသည်။"</string>
-    <string name="googleapp_browser_firstrun_summary_v2">"Now you can view pages faster and enjoy an improved search experience.
+    <string name="googleapp_browser_firstrun_summary_v2">"ယခုအခါ စာမျက်နှာများကို ပိုမြန်ဆန်စွာကြည့်ပြီး ပိုကောင်းမွန်သော ရှာဖွေမှုကို အသုံးပြုနိုင်ပါပြီ။
 
-You may need to log back in to some sites."</string>
+ဝဘ်ဆိုက်အချို့တွင် အကောင့်ပြန်ဝင်ရန် လိုအပ်နိုင်သည်။"</string>
     <string name="googleapp_browser_firstrun_summary_v2_part2">"
 
-Manage your new browser security and privacy settings in the app."</string>
+သင့်ဘရောင်ဇာအသစ်၏ လုံခြုံရေးနှင့် ကိုယ်ရေးအချက်အလက်လုံခြုံမှု ဆက်တင်များကို အက်ပ်တွင် စီမံနိုင်သည်။"</string>
     <string name="googleapp_browser_firstrun_title">အက်ပ်တွင် ဝဘ်အကြောင်းအရာ ပွင့်သွားပါပြီ</string>
-    <string name="googleapp_browser_firstrun_title_v2">Browse without leaving the app</string>
+    <string name="googleapp_browser_firstrun_title_v2">အက်ပ်မှမထွက်ဘဲ ကြည့်ရန်</string>
     <string name="googleapp_browser_setting_clear_cache_title"><b>ကက်ရှ်တွင် သိမ်းထားသော ပုံများနှင့် ဖိုင်များ</b>"
 အချို့ဝဘ်ဆိုက်များကို နောက်တစ်ကြိမ် ဖွင့်သည့်အခါ ပိုမိုနှေးကွေးစွာ ပွင့်နိုင်သည်။"</string>
     <string name="googleapp_browser_setting_clear_data_title"><b>ကွတ်ကီးများနှင့် ဝဘ်ဆိုက် ဒေတာများ</b>"
 သင့်ကို ဝဘ်ဆိုက်အများစုမှ ထွက်သွားစေပါမည်။ သင့် Google Account မှ ထွက်သွားမည် မဟုတ်ပါ။"</string>
     <string name="googleapp_browser_settings_browser_privacy_category_title">ဘရောင်ဇာ ကိုယ်ရေးအချက်အလက်လုံခြုံမှု</string>
     <string name="googleapp_browser_settings_browser_safety_category_title">ဘရောင်ဇာ လုံခြုံရေး</string>
-    <string name="googleapp_browser_settings_browsing_history_summary">Manage your browsing history at My Activity</string>
+    <string name="googleapp_browser_settings_browsing_history_summary">ကြည့်ရှုခြင်းမှတ်တမ်းကို ‘ကျွန်ုပ်၏လုပ်ဆောင်ချက်’ တွင် စီမံနိုင်သည်</string>
     <string name="googleapp_browser_settings_browsing_history_title">ကြည့်ရှုခြင်းမှတ်တမ်း</string>
     <string name="googleapp_browser_settings_clear_browsing_data_summary">ကွတ်ကီးနှင့် ကက်ရှ်ဒေတာများကို ရှင်းသည်</string>
     <string name="googleapp_browser_settings_clear_browsing_data_title">ဖွင့်ကြည့်ထားသည့်မှတ်တမ်းဒေတာကို ရှင်းရန်</string>
     <string name="googleapp_browser_settings_cleardata_button_text">ဒေတာရှင်းရန်</string>
     <string name="googleapp_browser_settings_extended_safe_browsing_summary">အန္တရာယ်ရှိသည့် အက်ပ်နှင့် ဝဘ်ဆိုက်များကို ခြေရာခံရာတွင် ကူညီပေးရန် ဘရောင်ဇာအချက်အလက်ကို Google သို့ ပို့သည်။ ၎င်းတွင် သင်ဝင်ကြည့်သည့် စာမျက်နှာအချို့၏ URL များ၊ ကန့်သတ်ထားသည့်စနစ်အချက်အလက်နှင့် စာမျက်နှာအကြောင်းအရာအချို့တို့ ပါဝင်သည်။</string>
     <string name="googleapp_browser_settings_extended_safe_browsing_title">ဘရောင်ဇာလုံခြုံရေး ပိုမိုကောင်းမွန်အောင် ကူညီရန်</string>
-    <string name="googleapp_browser_settings_link">ဘရောင်ဇာ ဆက်တင်များ</string>
     <string name="googleapp_browser_settings_real_time_safe_browsing_summary">ဝဘ်ဆိုက်ကို ဝင်ကြည့်သည့်အခါတိုင်း လုံခြုံရေးဆိုင်ရာ ပြဿနာအသစ်များ စစ်ဆေးသည်။ သင်ဝင်ကြည့်သည့် စာမျက်နှာများ၏ URL များကို Google သို့ ပို့ပါမည်။</string>
     <string name="googleapp_browser_settings_real_time_safe_browsing_title">ဝဘ်ဆိုက်လုံခြုံရေး အချိန်နှင့်တစ်ပြေးညီ စစ်ဆေးရန်</string>
     <string name="googleapp_browser_settings_safe_browsing_summary">သိထားသည့် လုံခြုံရေးပြဿနာများရှိသော ဝဘ်ဆိုက်ကို ဝင်ကြည့်ပါက သတိပေးချက်ကို မြင်ရသည်။ သင်ဝင်ကြည့်သော မလုံခြုံသည့် URL များကို Google သို့ ပို့နိုင်သည်။</string>
@@ -1151,9 +1225,9 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_covid_vaccine_register_header">COVID ကာကွယ်ဆေးအတွက် ယနေ့ မှတ်ပုံတင်ရန်</string>
     <string name="googleapp_custom_color_description">ရှာဖွေမှု ဝိဂျက် စိတ်ကြိုက်အရောင်</string>
     <string name="googleapp_custom_color_hue_slider_description">စိတ်ကြိုက် အရောင်အဆင်း ရွှေ့တုံး</string>
-    <string name="googleapp_custom_color_hue_slider_label">Hue</string>
+    <string name="googleapp_custom_color_hue_slider_label">အရောင်အသွေး</string>
     <string name="googleapp_custom_color_saturation_slider_description">စိတ်ကြိုက် စိုစွတ်ပြည့်ဝမှု ရွှေ့တုံး</string>
-    <string name="googleapp_custom_color_saturation_slider_label">Saturation</string>
+    <string name="googleapp_custom_color_saturation_slider_label">စိုစွတ်ပြည့်ဝမှု</string>
     <string name="googleapp_custom_tabs_collections_menu_item_title">စုစည်းမှုများကို ကြည့်ရန်</string>
     <string name="googleapp_custom_tabs_copy_link_menu_item_title">လင့်ခ်ကို မိတ္တူကူးရန်</string>
     <string name="googleapp_custom_tabs_copy_link_toast_text">လင့်ခ်ကို ကလစ်ဘုတ်သို့ မိတ္တူကူးပြီးပါပြီ</string>
@@ -1165,6 +1239,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_custom_tabs_enabled_setting_unavailable_need_first_run_done">ဤအရာလုပ်ဆောင်ရန် Chrome ဖွင့်ပြီး စနစ်ထည့်သွင်းရမည်</string>
     <string name="googleapp_custom_tabs_enabled_setting_unavailable_update_chrome">ဖွင့်ရန် Chrome နောက်ဆုံးဗားရှင်းကို ထည့်သွင်းရမည်</string>
     <string name="googleapp_custom_tabs_help_menu_item_title">အကူအညီ</string>
+    <string name="googleapp_custom_tabs_piros_menu_item_title">သင့်အကြောင်းရလဒ်များကို ဖယ်ရှားရန်</string>
     <string name="googleapp_custom_tabs_recently_menu_item_title">မကြာသေးမီက</string>
     <string name="googleapp_customize_text">စိတ်ကြိုက်လုပ်ရန်</string>
     <string name="googleapp_disco_channels_and_interests_tng_setting">ချန်နယ်နှင့် စိတ်ဝင်စားမှုများ</string>
@@ -1276,7 +1351,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_general_settings_title">အထွေထွေ</string>
     <string name="googleapp_go_to_discover_content_description">Discover သို့ သွားရန်</string>
     <string name="googleapp_goc_bottombar_close_description">ဆက်စပ်စာမျက်နှာများကို ဖျောက်ရန်</string>
-    <string name="googleapp_google_app_browser_instacart_button_content_description">Instacart button</string>
+    <string name="googleapp_google_app_browser_instacart_button_content_description">Instacart ခလုတ်</string>
     <string name="googleapp_hide_explicit_results_settings_title">ကြမ်းတမ်းသော ပြကွက် ရလဒ်များကို ဖျောက်ရန်</string>
     <string name="googleapp_images_mode_landing_text">ပုံများကို ရှာရန်</string>
     <string name="googleapp_incognito_app_strip_header">သင်၏အက်ပ်များမှ (ရုပ်ဖျက်မုဒ်ဖြင့် မဟုတ်ပါ)</string>
@@ -1310,7 +1385,6 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_incognito_setup_device_biometrics_dialog_title">ဇီဝမက်ထရစ် အချက်အလက်များကို စနစ်ထည့်သွင်းပါ</string>
     <string name="googleapp_incognito_signpost_button_text">ပိတ်ရန်</string>
     <string name="googleapp_incognito_signpost_icon_description">ရုပ်ဖျက်မုဒ် ဆိုင်းဘုတ် သင်္ကေတ</string>
-    <string name="googleapp_incognito_signpost_message_assistant">"'ရုပ်ဖျက်မုဒ်' တွင် ဖွင့်ကြည့်နေစဉ်၌ Assistant ဝန်ဆောင်မှုများကို မရရှိနိုင်ပါ- Assistant သုံးရန် ထွက်ပါ"</string>
     <string name="googleapp_incognito_signpost_message_collections">"'ရုပ်ဖျက်မုဒ်' တွင် ဖွင့်ကြည့်နေစဉ်၌ စုစည်းမှုများကို မရရှိနိုင်ပါ- ၎င်းတို့ကိုသုံးရန် ထွက်ပါ"</string>
     <string name="googleapp_incognito_signpost_message_default">"'ရုပ်ဖျက်မုဒ်' တွင် ဖွင့်ကြည့်နေစဉ်၌ ဤဝန်ဆောင်မှုကို မရရှိနိုင်ပါ- ၎င်းကိုသုံးရန် ထွက်ပါ"</string>
     <string name="googleapp_incognito_signpost_message_discover">သင် ရုပ်ဖျက်မုဒ်တွင်ရှိနေစဉ် သင်၏ Discover ဖိဒ်ကို မရနိုင်ပါ</string>
@@ -1413,6 +1487,13 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_region_setting_title">ဒေသရှာဖွေရန်</string>
     <string name="googleapp_reset_style_text">မူလပုံစံအတိုင်း ပြင်ဆင်သတ်မှတ်ရန်</string>
     <string name="googleapp_save_button_text">သိမ်းရန်</string>
+    <string name="googleapp_save_feature_default_collection_label">အကြိုက်ဆုံး စာမျက်နှာများ</string>
+    <string name="googleapp_save_feature_error_title">တစ်ခုခု မှားသွားသည်</string>
+    <string name="googleapp_save_feature_share_close_button_description">ပိတ်ပါ</string>
+    <string name="googleapp_save_feature_share_receiver_subject_and_text">"%1$s
+
+%2$s"</string>
+    <string name="googleapp_save_feature_share_save">သိမ်းရန်</string>
     <string name="googleapp_search_a_song_content_description">သီချင်းသိရှိခြင်းကို စတင်ရန် တို့ပါ</string>
     <string name="googleapp_search_bar_radius_24dp_description">အနားဝိုင်း</string>
     <string name="googleapp_search_bar_radius_2dp_description">ထောင့်မှန်စတုဂံ</string>
@@ -1442,19 +1523,20 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_second_screen_manage_interests_menu_label">စိတ်ဝင်စားမှုများကို စီမံရန်</string>
     <string name="googleapp_second_screen_settings_menu_label">ဆက်တင်များ</string>
     <string name="googleapp_see_updates">အပ်ဒိတ်များကို ကြည့်ရန်</string>
-    <string name="googleapp_settings_about_link">အကြောင်း</string>
+    <string name="googleapp_setting_error_card_icon_content_description">အမှား</string>
+    <string name="googleapp_setting_error_card_message_explanation">ဤအင်တာနက်စာမျက်နှာကို ဖွင့်၍မရပါ</string>
+    <string name="googleapp_setting_error_card_message_title">တစ်ခုခု မှားသွားသည်</string>
     <string name="googleapp_settings_about_title">အကြောင်း</string>
-    <string name="googleapp_settings_general_link">အထွေထွေ</string>
-    <string name="googleapp_settings_language_and_region_link">ဘာသာစကားနှင့် ဒေသ</string>
     <string name="googleapp_settings_language_and_region_title">ဘာသာစကားနှင့် ဒေသ</string>
     <string name="googleapp_settings_legal_notices_title">ဥပဒေဆိုင်ရာသတိပေးချက်များ</string>
     <string name="googleapp_settings_location_terms_of_service_title">တည်နေရာ ဝန်ဆောင်မှုစည်းမျဉ်းများ</string>
+    <string name="googleapp_settings_nav_up">အပေါ်သို့ သွားရန်</string>
     <string name="googleapp_settings_open_source_licenses_title">ပြင်ပကုမ္ပဏီ၏ အသိပေးချက်များ</string>
     <string name="googleapp_settings_privacy_and_security_link">ကိုယ်ရေးလုံခြုံမှု၊ လုံခြုံရေး</string>
     <string name="googleapp_settings_privacy_policy_title">ကိုယ်ရေးအချက်အလက် မူဝါဒ</string>
-    <string name="googleapp_settings_search_widget_link">ရှာဖွေမှု ဝိဂျက်</string>
+    <string name="googleapp_settings_search">ရှာဖွေရန်</string>
+    <string name="googleapp_settings_search_hint">ဆက်တင်များတွင် ရှာဖွေရန်</string>
     <string name="googleapp_settings_terms_of_service_title">ဝန်ဆောင်မှုစည်းမျဉ်းများ</string>
-    <string name="googleapp_settings_voice_link">အသံ</string>
     <string name="googleapp_settings_voice_title">အသံ</string>
     <string name="googleapp_shopping_mode_landing_text">စျေးဝယ်ရန်အတွက် ရှာရန်</string>
     <string name="googleapp_show_waiting_text">တစ်ခဏသာ…</string>
@@ -1469,6 +1551,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_sno_subscriptions_internal_error_header">တစ်ခုခု မှားသွားသည်</string>
     <string name="googleapp_sno_subscriptions_offline_error_message">သင့်စာရင်းသွင်းမှာယူခြင်းများကို ကြည့်ရှု၊ တည်းဖြတ်ရန် ကွန်ရက် ချိတ်ဆက်ရပါမည်</string>
     <string name="googleapp_sound_search_search_a_song_hint">သီချင်းတစ်ပုဒ်ရှာရန်</string>
+    <string name="googleapp_srp_query_tiger">ကျား</string>
     <string name="googleapp_stamp_viewer_actionbutton_feedback">အကြံပြုချက်ပို့ရန်</string>
     <string name="googleapp_stamp_viewer_actionbutton_heart">အသည်းနှလုံးပုံ</string>
     <string name="googleapp_stamp_viewer_actionbutton_help_center">ကူညီရေးဌာန</string>
@@ -1483,7 +1566,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_stamp_viewer_error_title">တစ်ခုခု မှားသွားသည်</string>
     <string name="googleapp_stamp_viewer_overflow_menu_button_content_description">နောက်ထပ် ရွေးချယ်စရာများ။</string>
     <string name="googleapp_stamp_viewer_overflow_menu_close">ပိတ်ရန်</string>
-    <string name="googleapp_stamp_viewer_preview_button_text">ဝဘ်ပို့စ်အပြည့်အစုံ ဆက်ကြည့်ရန်</string>
+    <string name="googleapp_stamp_viewer_preview_button_text">ဆက်ကြည့်ရန်</string>
     <string name="googleapp_stamp_viewer_preview_label">အကြိုဗားရှင်း</string>
     <string name="googleapp_stamp_viewer_publisher_cta">ဝင်ကြည့်ရန်</string>
     <string name="googleapp_stamp_viewer_retry_button_text">ထပ်စမ်းကြည့်ရန်</string>
@@ -1500,7 +1583,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_tabs_manager_close_all_tabs_dialog_confirmation_button_label">အားလုံး ပိတ်ရန်</string>
     <string name="googleapp_tabs_manager_close_all_tabs_dialog_confirmation_message">ဖွင့်ထားသောတဘ်အားလုံးကို ပိတ်လိုသည်မှာ သေချာသလား။</string>
     <string name="googleapp_tabs_manager_close_tab_button_default_description">တဘ်ပိတ်ရန်</string>
-    <string name="googleapp_tabs_manager_close_tab_button_description">%s ဝဘ်ဆိုက်ပိတ်ရန် - ခလုတ်</string>
+    <string name="googleapp_tabs_manager_close_tab_button_description">%s ဝဘ်ဆိုက် ပိတ်ရန်</string>
     <string name="googleapp_tabs_manager_empty_state_title">ဖွင့်ထားသောတဘ် မရှိပါ</string>
     <string name="googleapp_tabs_manager_new_tab_button_description">ရှာဖွေမှုအသစ် စတင်ရန်</string>
     <string name="googleapp_tabs_manager_new_tab_button_text">တဘ်အသစ်</string>
@@ -1518,18 +1601,19 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_voice_search_humming">သီချင်းများကို ညည်းခြင်းဖြင့် ရှာပါ</string>
     <string name="googleapp_voice_search_tired_of_typing">စာရိုက်ရန်ပျင်းနေပြီလား။ အသံဖြင့် ရှာပါ</string>
     <string name="googleapp_voice_search_with_voice">အသံဖြင့် ရှာပါ</string>
+    <string name="googleapp_voice_settings_assistant_title">Google Assistant</string>
     <string name="googleapp_voice_settings_languages_setting_check_content_description">ရွေးထားသည်</string>
     <string name="googleapp_voice_settings_languages_setting_limit_reached_notice">ကန့်သတ်ချက် ပြည့်သွားပါပြီ။ ဘာသာစကားများ ထပ်ရွေး၍ မရတော့ပါ။</string>
     <string name="googleapp_voice_settings_languages_setting_no_selection_notice">ဘာသာစကား ရွေးချယ်မထားပါ။</string>
     <string name="googleapp_voice_settings_languages_setting_save_button_text">သိမ်းရန်</string>
+    <string name="googleapp_voice_settings_languages_setting_summary_text_others">Others:</string>
+    <string name="googleapp_voice_settings_languages_setting_summary_text_primary">Primary:</string>
     <string name="googleapp_voice_settings_languages_setting_title">ဘာသာစကားများ</string>
     <string name="googleapp_voice_settings_offline_speech_recognition_setting_summary">ဒေါင်းလုဒ်လုပ်ထားသည့် ဘာသာစကားများကို စီမံနိုင်သည်</string>
     <string name="googleapp_voice_settings_offline_speech_recognition_setting_title">အော့ဖ်လိုင်း စကားသံမှတ်သားမှု</string>
     <string name="googleapp_voice_settings_spoken_results_setting_title">စကားပြောရလဒ်များ</string>
-    <string name="googleapp_voice_settings_spoken_results_value_all_voices">အသံဖြင့်ရှာဖွေခြင်း အားလုံး</string>
-    <string name="googleapp_voice_settings_spoken_results_value_hands_free_only">လက်လွတ်ရှာဖွေမှုများသာ</string>
-    <string name="googleapp_voice_settings_voice_match_setting_summary">အလုပ်များပြီးမြောက်ရန် Google Assistant ကို ပြောဆိုနိုင်သည်</string>
-    <string name="googleapp_voice_settings_voice_match_setting_title">Voice Match</string>
+    <string name="googleapp_voice_settings_spoken_results_value_all_voices">On</string>
+    <string name="googleapp_voice_settings_spoken_results_value_hands_free_only">Off</string>
     <string name="googleapp_waa_disabled_tout_promo_description">Google Search ကိုယ်ရေးအချက်အလက်လုံခြုံမှု ဆက်တင်များ</string>
     <string name="googleapp_waa_disabled_tout_promo_header">သင်၏ဖိဒ်သည် သင့်မှတ်တမ်းပေါ် အခြေခံမထားပါ</string>
     <string name="googleapp_waa_disabled_tout_promo_subheader">ဝဘ်နှင့်အက်ပ်လုပ်ဆောင်ချက် ဆက်တင် ပိတ်ထားသောကြောင့် Discover ဖိဒ်ကို သင့်မှတ်တမ်းပေါ် အခြေခံမထားပါ</string>
@@ -1660,7 +1744,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="lens_education_filter_guidance_message">"အိမ်စာကိုချိန်ပြီး 'ရိုက်ကူးရန်'ကို တို့ခြင်းဖြင့် အကူအညီရယူပါ"</string>
     <string name="lens_empty_latex_snackbar">ရလဒ်များကိုကြည့်ရန် သင်္ချာညီမျှခြင်းတစ်ခုထည့်ပါ</string>
     <string name="lens_error_please_try_again">ထပ်စမ်းကြည့်ပါ</string>
-    <string name="lens_failed_to_open_3rd_party_content">Unable to load content</string>
+    <string name="lens_failed_to_open_3rd_party_content">အကြောင်းအရာများကို ဖွင့်၍မရပါ</string>
     <string name="lens_failed_to_open_image">ပုံကို ဖွင့်၍ မရပါ။</string>
     <string name="lens_failure_info_card_compact_text_filter_description">မိတ္တူကူးရန် သို့မဟုတ် ရှာဖွေရန် စာလုံးများကို ဓာတ်ပုံရိုက်ပါ</string>
     <string name="lens_failure_info_card_compact_translate_filter_description">ဘာသာပြန်ရန် စာသားကို ဓာတ်ပုံရိုက်ပါ</string>
@@ -1736,14 +1820,13 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="lens_info_panel_on_device_chip_share_translate_content_description">ဘာသာပြန်ထားသောပုံကို မျှဝေရန်</string>
     <string name="lens_info_panel_on_device_chip_translate">ဘာသာပြန်ရန်</string>
     <string name="lens_info_panel_on_device_chip_translate_content_description">ရွေးထားသောစာသားကို ဘာသာပြန်ရန်</string>
-    <string name="lens_info_panel_on_device_no_text_header_title">စာသား ရှာမတွေ့ပါ</string>
     <string name="lens_info_panel_on_device_results_header_limited_functionality">အချို့ဝန်ဆောင်မှုများကို မရနိုင်ပါ</string>
     <string name="lens_info_panel_on_device_results_header_offline">အော့ဖ်လိုင်း</string>
     <string name="lens_info_panel_on_device_text_header_title">ပုံတွင် တွေ့ရသော စာသား</string>
     <string name="lens_info_panel_on_device_translation_header_title">ဘာသာပြန်ထားသည့် စာသား</string>
+    <string name="lens_info_panel_partial_translate_enabled_header_title">မူရင်းစာသား</string>
     <string name="lens_info_panel_processing_message">ဖွင့်နေသည်…</string>
     <string name="lens_info_panel_quoted_title">\"%1$s\"</string>
-    <string name="lens_info_panel_select_text_to_translate_header_title">ဘာသာပြန်မည့် စာသားကို ရွေးချယ်ပါ</string>
     <string name="lens_kilometers_indicator">%s km</string>
     <string name="lens_latex_input_hint">သင်္ချာပုစ္ဆာတစ်ခုကို စာရိုက်ပါ</string>
     <string name="lens_living_surface_audio_button_mute">အသံပိတ်ရန်</string>
@@ -1838,6 +1921,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="lens_sample_images_translate_card_text_short">ပုံများ ဘာသာပြန်ရန်</string>
     <string name="lens_search_bar_hint">စားသောက်ဆိုင်အမည် ထည့်ရန်</string>
     <string name="lens_search_filter_name">ရှာပါ</string>
+    <string name="lens_selection_state_guidance_message_on_device_translation">ဘာသာပြန်ရန် စာသားပေါ် တို့ပါ</string>
     <string name="lens_share_to_lens_label">ပုံရှာရန်</string>
     <string name="lens_share_translate_message">Google Lens ဖြင့် ဘာသာပြန်ထားသည်။ သင်ကိုယ်တိုင် စမ်းကြည့်ပါ။</string>
     <string name="lens_shopping_filter_guidance_message">ထုတ်ကုန် (သို့) ဘားကုဒ်များကို ဓာတ်ပုံရိုက်ပါ</string>
@@ -1953,6 +2037,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="mdd_notification_action_cancel">မလုပ်တော့</string>
     <string name="mdd_notification_download_failed">ဒေါင်းလုဒ်လုပ်၍ မရပါ</string>
     <string name="mdd_notification_download_paused">ကွန်ရက်ချိတ်ဆက်မှုကို စောင့်နေသည်</string>
+    <string name="mdd_notification_download_paused_wifi">Waiting for WiFi connection</string>
     <string name="mdd_notification_download_success">ဒေါင်းလုဒ်လုပ်ပြီးပြီ</string>
     <string name="media_browser_youtube_premium_warning_text">အကြံပြုချက်များကြည့်ရန် ပရီမီယံအကောင့်လိုသည်</string>
     <string name="media_empty_state_task_hey_google_play_music">"“Ok Google၊
@@ -2518,11 +2603,11 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="punt_for_personal_results">သင့်အား ကူညီပေးရန်အတွက် ဤကားတွင် ကိုယ်ရေးကိုယ်တာရလဒ်များကို ခွင့်ပြုချက်ပေးရပါမည်။ ဘေးကင်းသည့်အခါ Assistant ဆက်တင်များတွင်လည်း ထိုသို့ပြုလုပ်နိုင်ပါသည်။</string>
     <string name="punt_for_signed_out">၎င်းအတွက် သင်၏ Google Account ဖြင့် လက်မှတ်ထိုးဝင်ရပါမည်။ ဘေးကင်းသည့်အခါ နောက်တစ်ဆင့်အတွက် သင့်ကား၏အကြောင်းကြားချက်ကို စစ်ဆေးပါ။</string>
     <string name="punt_home_alias_unset">ကျွန်ုပ်တွင် သင့်အိမ်လိပ်စာ ရှိပုံမရပါ။ ၎င်းအစား သင့်လိပ်စာကိုပြော၍ အိမ်သို့ လမ်းညွှန်ချက်များ ရယူနိုင်ပါသည်။</string>
-    <string name="punt_max_volume">အသံအကျယ်ဆုံးတွင်ထားခြင်း (သို့) ၁၀၀% အထိ အသံချဲ့ခြင်းကို ဤစက်တွင် လောလောဆယ်မပံ့ပိုးပါ။</string>
     <string name="punt_non_percentage_volume_control">ကားထဲရှိ အသံအတိုးအကျယ်ကို ရာခိုင်နှုန်းဖြင့်သတ်မှတ်နိုင်သည့်အတွက် ၂၅ ရာခိုင်နှုန်းတွင် သတ်မှတ်ရန် ‘Set the volume to 25%’ ဟုပြောနိုင်သည်။</string>
     <string name="punt_offline_music">ကွန်ရက်ချိတ်ဆက်မထားလို့ ဖွင့်ပေးလို့ မရပါဘူး။</string>
     <string name="punt_open_app">ဝမ်းနည်းပါသည်၊ လက်ရှိတွင် ဤအက်ပ်ကို ထည့်သွင်းမထားပါ (သို့) မရရှိနိုင်ပါ။</string>
     <string name="punt_open_unsafe_for_drving_app">စိတ်မကောင်းပါ၊ ဤအက်ပ်က ကားမောင်းနေစဉ် သုံးရန်မသင့်တော်ပါ။</string>
+    <string name="punt_set_volume_beyond_threshold">ဘေးကင်းစေရန်အတွက် သင့်ကားတွင် ဤမျှအသံချဲ့၍ မရပါ။ ၎င်းကို %1$d%% အထိ ချဲ့ခိုင်းနိုင်သည်</string>
     <string name="punt_work_alias_unset">ကျွန်ုပ်တွင် သင့်အလုပ်လိပ်စာ ရှိပုံမရပါ။ ၎င်းအစား သင့်လိပ်စာကိုပြော၍ အလုပ်သို့ လမ်းညွှန်ချက်များ ရယူနိုင်ပါသည်။</string>
     <string name="query_suggestion_header_text">ပြောကြည့်ပါ</string>
     <string name="recurrence_dialog_title">ထပ်လုပ်ပါ</string>
@@ -2534,6 +2619,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="recurrence_month_pattern_last_day">လစဉ်နောက်ဆုံးနေ့တိုင်း</string>
     <string name="refresh_bt_latency_button_description">ဘလူးတုသ်တုံ့ပြန်ချိန်ကို ပြန်စစ်ဆေးရန်</string>
     <string name="replay_count_down">&lt;b>%1$d&lt;/b> ဖြင့် ပြန်ဖွင့်နေသည်…</string>
+    <string name="reply_button_string">စာပြန်ရန်</string>
     <string name="reply_button_text">စာပြန်ရန်</string>
     <string name="reset_settings">ဆက်တင် ပြင်ဆင်သတ်မှတ်ရန်</string>
     <string name="resume_label">ခေါ်ဆိုမှုကို ဆက်လုပ်ရန်</string>
@@ -2559,7 +2645,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="sceneviewer_get_help">Get help</string>
     <string name="sceneviewer_get_help_button_content_description">Get Help</string>
     <string name="sceneviewer_immersive_edge_fallback_dialog_confirm_button">Go</string>
-    <string name="sceneviewer_immersive_edge_fallback_dialog_message">No connection. You will be redirected to &lt;b> %1$s &lt;/b></string>
+    <string name="sceneviewer_immersive_edge_fallback_dialog_message">No connections available. Redirecting you to &lt;b>%1$s&lt;/b>. Please try again in a few minutes.</string>
     <string name="sceneviewer_immersive_edge_fallback_dialog_title">Connection lost</string>
     <string name="sceneviewer_immersive_edge_redirect_dialog_cancel_button">Cancel</string>
     <string name="sceneviewer_immersive_edge_redirect_dialog_confirm_button">OK</string>
@@ -2577,6 +2663,8 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="search_box_content_description">ရှာဖွေရန်…</string>
     <string name="search_menu_title">ရှာဖွေမှု</string>
     <string name="search_restriction">သင်သည် Google Search ကို သုံးခွင့်မရှိပါ</string>
+    <string name="select_day">လနှင့် နေ့ ရွေးပါ</string>
+    <string name="select_year">ခုနှစ်ရွေးပါ</string>
     <string name="send_a_message">%1$s ထံ မက်ဆေ့ဂျ်ပို့ပါ</string>
     <string name="send_a_message_no_contact">မက်ဆေ့ဂျ်ပို့ပါ</string>
     <string name="send_a_message_text">မက်ဆေ့ဂျ်ပို့ရန်</string>
@@ -2605,6 +2693,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="signed_out_account_particle_disc_state_description">ထွက်ထားသည်</string>
     <string name="six_dof_guidance">ဖုန်းကို နေရာလွတ်တစ်ခုသို့ ချိန်ပြီး ဘေးသို့ ဖြည်းညင်းစွာ ရွှေ့ပါ</string>
     <string name="smartaction_button_icon_content_description">ရွေးထားသော အဆင့်မြင့်လုပ်ဆောင်ချက်နှင့် ဆက်စပ်နေသည့်သင်္ကေတ။</string>
+    <string name="someone_else_text">အခြားတစ်ဦး</string>
     <string name="soundsearch_close_content_description">ပိတ်ရန်</string>
     <string name="soundsearch_label_almost_there">ပြီးခါနီးပါပြီ…</string>
     <string name="soundsearch_label_keep_going">ဆက်လုပ်နေသည်…</string>
@@ -2940,5 +3029,6 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="workspace_cling_longpress_title">နောက်ခံ၊ ဝိဂျက်နှင့် ဆက်တင်များ</string>
     <string name="workspace_new_page">ပင်မမျက်နှာပြင် စာမျက်နှာသစ်</string>
     <string name="workspace_scroll_format">ပင်မစာမျက်နှာ %1$d မှ %2$d</string>
+    <string name="year_picker_description">ခုနှစ်စာရင်း</string>
     <string name="yes_button_text">ပါဝင်မည်</string>
 </resources>

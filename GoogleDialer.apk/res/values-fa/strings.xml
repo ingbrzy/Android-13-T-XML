@@ -63,7 +63,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript">^1، ^2، ^3.</string>
     <string name="a11y_new_call_log_entry_phone_account">در ^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">برقراری تماس نوشتار هم‌زمان با ^1</string>
-    <string name="a11y_new_call_log_entry_tap_action">بزرگ کردن منو</string>
+    <string name="a11y_new_call_log_entry_tap_action">گسترده یا جمع کردن منو</string>
     <string name="a11y_new_call_log_entry_video_call">تماس تصویری با ^1</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">‏برقراری تماس ویدیویی با ^1 بااستفاده از wifi</string>
     <string name="a11y_new_call_log_entry_voice_call">تماس با ^1</string>
@@ -191,6 +191,7 @@
     <string name="atlas_soda_banner_feature_text">انتظار به‌جای من</string>
     <string name="atlas_temp_service_notification_title">درحال راه‌اندازی تماس «انتظار به‌جای من»</string>
     <string name="atlas_warning_text_for_second_incoming_call">اگر به این تماس پاسخ دهید، «انتظار به‌جای من» خاموش خواهد شد</string>
+    <string name="audio_route_item_checked_description">دارای علامت</string>
     <string name="audioroute_bluetooth">Bluetooth</string>
     <string name="audioroute_headset">هدست سیم‌دار</string>
     <string name="audioroute_phone">تلفن</string>
@@ -235,6 +236,7 @@
     <string name="bm_suggest_wait_time_estimating">"‏گپ
 درحال انجام است…"</string>
     <string name="bottomsheet_action_expand_halfway">گسترده کردن تا نیمه</string>
+    <string name="bottomsheet_drag_handle_content_description">دستگیره کشاندن</string>
     <string name="bubble_bottom_action_end_call">پایان تماس</string>
     <string name="bubble_bottom_action_hide">پنهان کردن</string>
     <string name="bubble_return_to_call">برگشت به تماس</string>
@@ -243,7 +245,7 @@
     <string name="callFailed_simError">فاقد سیم، یا خطای سیم</string>
     <string name="callHistoryIconLabel">سابقه تماس</string>
     <string name="call_action_label_automatically_screen">به‌طور خودکار غربال شود. تماس‌های تلفنی خودکار رد شوند.</string>
-    <string name="call_action_label_ring_phone">به صدا در آوردن زنگ تلفن (پیش‌فرض)</string>
+    <string name="call_action_label_ring_phone">به تلفن زنگ زدن (پیش‌فرض)</string>
     <string name="call_action_label_silently_decline">بی‌صدا رد کردن</string>
     <string name="call_announcer_preference_footer_instruction_text">هنگام دریافت تماس‌های ورودی، نام و شماره تماس‌گیرنده با صدای بلند خوانده می‌شود.</string>
     <string name="call_announcer_preference_list_title">اعلام شناسه تماس‌گیرنده</string>
@@ -582,10 +584,8 @@
     <string name="copy_number">کپی کردن شماره</string>
     <string name="create_new_contact">ایجاد مخاطب جدید</string>
     <string name="crosby_setting_title">ضبط تماس</string>
-    <string name="crystal_clear_audio_setting_title">تماس واضح</string>
     <string name="current_voicemail_greeting_record_instruction">ضبط خوشامدگویی</string>
     <string name="current_voicemail_greeting_recording_title">خوشامدگویی پست صوتی من</string>
-    <string name="custom_message_hint">پیام سفارشی بنویسید</string>
     <string name="custom_prefix_add_prefix_to_call_entry_always_add_prefix">همیشه پیش‌شماره اضافه شود</string>
     <string name="custom_prefix_add_prefix_to_call_entry_ask_before_dialing">قبل‌از شماره‌گیری سؤال شود</string>
     <string name="custom_prefix_add_prefix_to_call_entry_never_add_prefix">هرگز پیش‌شماره اضافه نشود</string>
@@ -670,11 +670,11 @@
     <string name="display_options_view_given_name_first">ابتدا نام</string>
     <string name="display_options_view_names_as">قالب نام</string>
     <string name="do_not_show_again">دیگر نشان داده نشود</string>
-    <string name="duo_fallback_dialog_do_not_show_again_label">این گزینه به خاطر سپرده شود</string>
-    <string name="duo_fallback_dialog_message">‏امکان تکمیل تماس ویدیویی بااستفاده از تماس ویدیویی ازطریق شرکت مخابراتی وجود ندارد. درعوض، تماس را بااستفاده از Due برقرار کنید.</string>
-    <string name="duo_fallback_dialog_negative_button_label">لغو</string>
-    <string name="duo_fallback_dialog_positive_button_label">‏استفاده از DUO</string>
-    <string name="duo_fallback_dialog_title">‏با Google Duo امتحان می‌کنید؟</string>
+    <string name="duo_fallback_dialog_do_not_show_again_label">‏برای همه تماس‌ها Duo را به‌عنوان پشتیبان به‌خاطر داشته باشید. هرزمان خواستید در تنظیمات مدیریت کنید.</string>
+    <string name="duo_fallback_dialog_message">‏درصورتی‌که شرکت مخابراتی‌تان نتواند تماس ویدیویی را کامل کند، Duo به‌طور خودکار تماس می‌گیرد.</string>
+    <string name="duo_fallback_dialog_negative_button_label">نه متشکرم</string>
+    <string name="duo_fallback_dialog_positive_button_label">‏استفاده از Duo به‌عنوان پشتیبان</string>
+    <string name="duo_fallback_dialog_title">‏از Google Duo برای پشتیبان تماس‌ها استفاده شود؟</string>
     <string name="edit_number_before_call">ویرایش شماره قبل از تماس</string>
     <string name="emergency_assist_address_sentence">مکان من %1$s است.</string>
     <string name="emergency_assist_button_fire">آتش</string>
@@ -696,6 +696,7 @@
     <string name="emergency_voice_assist_dialog_button_close">لغو</string>
     <string name="emergency_voice_assist_dialog_title">اپراتور اضطراری این را می‌شنود</string>
     <string name="end_call_with_default_message_description">پایان دادن به تماس</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_icon_content_description">خطا</string>
     <string name="error_unable_to_get_audio">نمی‌توان صدای نمونه را دریافت کرد</string>
     <string name="error_unable_to_play_audio">نمی‌توان صدای نمونه را پخش کرد</string>
@@ -740,7 +741,7 @@
     <string name="first_time_dialog_duo_video_call_label">Google Duo</string>
     <string name="first_time_dialog_negative_button_label">لغو</string>
     <string name="first_time_dialog_positive_button_label">انتخاب</string>
-    <string name="first_time_dialog_remember_this_choice_label">این گزینه به‌خاطر سپرده شود</string>
+    <string name="first_time_dialog_remember_this_choice_label">برای همه تماس‌ها به‌خاطر سپرده شود هرزمان خواستید در تنظیمات مدیریت کنید.</string>
     <string name="first_time_dialog_title">انتخاب سرویس تماس ویدیویی</string>
     <string name="flip_to_shush_title">حالت سکوت با وارو کردن</string>
     <string name="flip_to_silence_summary">برای بی‌صدا کردن تماس ورودی، تلفن را از سمت نمایشگر روی سطح صافی قرار دهید</string>
@@ -758,7 +759,7 @@
     <string name="gsa_update_button">‏رفتن به فروشگاه Play</string>
     <string name="gsa_update_necessary">‏برای استفاده از «غربال تماس»، «برنامه Google» را به‌روزرسانی کنید</string>
     <string name="hac_settings_summary">روشن کردن سازگاری با سمعک</string>
-    <string name="hac_settings_title">سمعک‌ها</string>
+    <string name="hac_settings_title">سمعک</string>
     <string name="header_screen">تماس‌های ویدیویی</string>
     <string name="header_search_results_contacts">همه مخاطبین</string>
     <string name="header_suggested_contacts">پیشنهادی</string>
@@ -783,11 +784,13 @@
     <string name="incall_content_description_downgrade_call">فقط صوتی</string>
     <string name="incall_content_description_earpiece">گوشی</string>
     <string name="incall_content_description_end_call">پایان تماس</string>
-    <string name="incall_content_description_flip_camera">چرخش دوربین</string>
+    <string name="incall_content_description_flip_camera">چرخاندن دوربین</string>
     <string name="incall_content_description_hide_button">پنهان کردن دکمه‌ها</string>
     <string name="incall_content_description_hold">درانتظارنگه‌داشتن تماس</string>
     <string name="incall_content_description_merge_calls">ادغام تماس‌ها</string>
     <string name="incall_content_description_muted">بی‌صدا شد</string>
+    <string name="incall_content_description_show_less">نمایش کمتر</string>
+    <string name="incall_content_description_show_more">نمایش بیشتر</string>
     <string name="incall_content_description_speaker">بلندگو</string>
     <string name="incall_content_description_swap_calls">جابه‌جایی تماس‌ها</string>
     <string name="incall_content_description_swap_sim">تغییر سیم‌کارت</string>
@@ -803,6 +806,7 @@
     <string name="incall_label_hold">درحال انتظار</string>
     <string name="incall_label_manage">مدیریت</string>
     <string name="incall_label_merge">ادغام</string>
+    <string name="incall_label_more">بیشتر</string>
     <string name="incall_label_mute">بی‌صدا کردن</string>
     <string name="incall_label_record">ضبط</string>
     <string name="incall_label_record_checked">توقف ضبط</string>
@@ -835,15 +839,9 @@
     <string name="join_call_with_default_message_description">پیوستن به تماس</string>
     <string name="just_now">لحظاتی پیش</string>
     <string name="lat_long_format">%1$f، %2$f</string>
+    <string name="launch_application_settings">تنظیمات</string>
     <string name="launcherActivityLabel">تلفن</string>
     <string name="learn_more_text_for_tmo">‏برای اطلاعات بیشتر، به وب‌سایت T-Mobile مراجعه کنید</string>
-    <string name="legacy_post_call_message">بگویید برای چه کاری تماس گرفته‌اید</string>
-    <string name="legacy_post_call_message_1">ضروری است. با من تماس بگیرید.</string>
-    <string name="legacy_post_call_message_2">هرموقع فرصت داشتید با من تماس بگیرید.</string>
-    <string name="legacy_post_call_message_3">ضروری نیست، می‌توانیم بعداً گپ بزنیم.</string>
-    <string name="legacy_post_call_message_sent">پیام ارسال شد</string>
-    <string name="legacy_post_call_send_message">ارسال پیام</string>
-    <string name="legacy_post_call_view">مشاهده</string>
     <string name="libraries_material_featurehighlight_dismiss">نپذیرفتن</string>
     <string name="license_activity_label">مجوزهای متن‌باز</string>
     <string name="light_theme_label">روشن</string>
@@ -868,6 +866,7 @@
     <string name="mdd_notification_action_cancel">لغو</string>
     <string name="mdd_notification_download_failed">بارگیری نشد</string>
     <string name="mdd_notification_download_paused">درانتظار اتصال شبکه</string>
+    <string name="mdd_notification_download_paused_wifi">درانتظار اتصال Wi-Fi</string>
     <string name="meid_number">MEID: %s</string>
     <string name="menu_callNumber">تماس با %s</string>
     <string name="merge_calls_confirm_message">تنها درصورتی تماس‌ها را ادغام کنید که مطمئن هستید می‌دانید چه‌کسی در تماس ادغام‌شده خواهد بود</string>
@@ -907,11 +906,9 @@
     <string name="nearbyplaces_account_setting_title">‏حساب Google</string>
     <string name="new_call_log_activity_title">سابقه تماس</string>
     <string name="new_call_log_all_title">همه</string>
-    <string name="new_call_log_carrier_video">تماس تصویری با شرکت مخابراتی</string>
     <string name="new_call_log_clear_call_log_confirmation">این کار همه تماس‌ها را از سابقه شما حذف می‌کند</string>
     <string name="new_call_log_clear_call_log_confirmation_title">سابقه تماس پاک شود؟</string>
     <string name="new_call_log_delete_all">پاک کردن سابقه تماس</string>
-    <string name="new_call_log_duo_video">‏تماس تصویری Duo</string>
     <string name="new_call_log_empty">تماس‌هایی که برقرار می‌کنید اینجا نشان داده می‌شوند</string>
     <string name="new_call_log_generic_video">ویدیو</string>
     <string name="new_call_log_header_older">قدیمی‌تر</string>
@@ -929,6 +926,7 @@
     <string name="new_permission_no_search">برای جستجوی مخاطبینتان، مجوزهای مخاطبین را روشن کنید.</string>
     <string name="non_contact_always_record_dialog_title">تماس با شماره‌هایی که در مخاطبین شما نیستند همیشه ضبط شود؟</string>
     <string name="non_contact_toggle_label">شماره‌هایی که در «مخاطبین» نیستند</string>
+    <string name="non_spam_aftercall_notification_title">%1$s را می‌شناسید؟</string>
     <string name="non_spam_notification_title">%1$s را می‌شناسید؟</string>
     <string name="not_set">تنظیم نشده</string>
     <string name="notification_action_accept">پذیرفتن</string>
@@ -979,7 +977,7 @@
     <string name="notification_ongoing_call">تماس جاری</string>
     <string name="notification_ongoing_call_multi_sim">تماس درحال انجام ازطریق %1$s</string>
     <string name="notification_ongoing_call_wifi_template">%1$s درحال انجام</string>
-    <string name="notification_ongoing_call_wifi_template_multi_sim">تماس درحال انجام %1$s ازطریق %1$s</string>
+    <string name="notification_ongoing_call_wifi_template_multi_sim">Ongoing %1$s via %2$s</string>
     <string name="notification_ongoing_paused_video_call">‏تماس ویدیویی درحال انجام ازطریق شرکت مخابراتی ‑ ویدیو موقتاً متوقف شد</string>
     <string name="notification_ongoing_paused_video_call_multi_sim">‏تماس ویدیویی شرکت مخابراتی ازطریق %1$s ‑ ویدیو موقتاً متوقف شد</string>
     <string name="notification_ongoing_video_call">تماس ویدیویی درحال انجام ازطریق شرکت مخابراتی</string>
@@ -992,7 +990,7 @@
     <string name="notification_take_call">انتقال تماس</string>
     <string name="notification_take_video_call">انتقال تماس تصویری</string>
     <string name="notification_voicemail_callers_list">%1$s، %2$s</string>
-    <string name="notification_voicemail_no_vm_number">شماره پست صوتی ناشناس</string>
+    <string name="notification_voicemail_no_vm_number">برای راه‌اندازی پست صوتی، به «منو > تنظیمات» بروید.</string>
     <string name="notification_voicemail_text_format">شماره‌گیری %s</string>
     <string name="old_block_number_confirmation_title">%1$s مسدود شود؟</string>
     <string name="openhistory_button_label">سابقه</string>
@@ -1033,6 +1031,7 @@
     <string name="precall_dialpad_chat_button">گپ</string>
     <string name="precall_dialpad_chat_wait_min">%1$d دقیقه انتظار</string>
     <string name="preference_copied">«%1$s» در بریده‌دان کپی شد.</string>
+    <string name="preferences_license_title">اعلان‌های شخص ثالث</string>
     <string name="presence_optin_dialog_do_not_show_again_label">دیگر نشان داده نشود</string>
     <string name="presence_optin_dialog_message">"‏قبل از شروع تماس ویدیویی، Verizon می‌خواهد مطمئن شود که کدام شماره تلفن‌ها می‌توانند تماس‌های ویدیویی Verizon دریافت کنند.
 
@@ -1047,7 +1046,7 @@
     <string name="private_num_non_verizon">شماره خصوصی</string>
     <string name="private_num_verizon">محدودشده</string>
     <string name="private_or_hidden_action_preference_description">تماس‌گیرنده‌هایی که شناسه تماس‌گیرنده خودشان را پنهان می‌کنند</string>
-    <string name="private_or_hidden_action_preference_title">خصوصی یا پنهان</string>
+    <string name="private_or_hidden_action_preference_title">شماره‌های پنهان و خصوصی</string>
     <string name="quick_contact_checkbox_description">انتخاب مخاطب</string>
     <string name="ready_for_recording">آماده…</string>
     <string name="record_audio_pre_call_dialog_got_it">متوجه‌ام</string>
@@ -1084,8 +1083,8 @@
     <string name="request_or_download_voice_model_button">ادامه</string>
     <string name="respond_via_sms_setting_title">پاسخ‌های سریع</string>
     <string name="return_to_call">برگشتن به تماس</string>
-    <string name="revelio_callers_how_it_works_text">"‏برای خاموش کردن غربال خودکار، تنظیم «به صدا در آوردن زنگ تلفن (پیش‌فرض)» را برای تماس‌های ناشناس انتخاب کنید. مخاطبین شما هرگز به‌طور خودکار غربال نمی‌شوند. اگر تلفنتان به هدفون یا بلندگو متصل باشد، غربال خودکار کار نمی‌کند. 
-«غربال تماس» از داده تلفن همراه یا Wi-Fi استفاده نمی‌کند اما از اعتبار تماس شرکت مخابراتی استفاده می‌کند. %1$s"</string>
+    <string name="revelio_callers_how_it_works_text">"‏برای خاموش کردن غربال خودکار، تنظیم «به تلفن زنگ زدن (پیش‌فرض)» را برای تماس‌های ناشناس انتخاب کنید. مخاطبین شما هرگز به‌طور خودکار غربال نمی‌شوند. اگر تلفنتان به هدفون یا بلندگو متصل باشد، غربال خودکار کار نمی‌کند. 
+«غربال تماس» از داده تلفن همراه یا Wi-Fi استفاده نمی‌کند اما از زمان تماس شرکت مخابراتی استفاده می‌کند. %1$s"</string>
     <string name="revelio_delete_old_recordings_setting_summary">حذف پس‌از ۳۰ روز</string>
     <string name="revelio_delete_old_recordings_setting_title">حذف خودکار موارد ضبط‌شده و ترانویسی‌های قدیمی</string>
     <string name="revelio_demo_setting_title">نحوه عملکرد «غربال تماس» را ببینید</string>
@@ -1094,7 +1093,7 @@
     <string name="revelio_end_call_user_missed_internal_message">تماس ازدست رفت</string>
     <string name="revelio_pref_title">غربال تماس</string>
     <string name="revelio_preference_summary_automatic_screening_off">غربال خودکار خاموش است</string>
-    <string name="revelio_preference_summary_screening">غربال %1$s</string>
+    <string name="revelio_preference_summary_screening">صفحه %1$s</string>
     <string name="revelio_save_audio_setting_summary">صدای تماس‌هایی که «دستیار» به آن‌ها پاسخ می‌دهد ذخیره می‌شود</string>
     <string name="revelio_save_audio_setting_title">ذخیره صدای «غربال تماس»</string>
     <string name="revelio_setting_title">غربال تماس</string>
@@ -1168,7 +1167,6 @@
     <string name="set_default_account_description">تنظیمات ترجیحی سیم همراه با مخاطبینتان ذخیره شده است.</string>
     <string name="set_phone_as_default_explanation_text">«تلفن» تنها زمانی می‌تواند تماسی را آغاز یا دریافت کنید که برنامه تلفن پیش‌فرض شما باشد</string>
     <string name="set_phone_as_default_request_text">«تلفن» را به‌عنوان پیش‌فرض تنظیم کنید</string>
-    <string name="settings">تنظیمات</string>
     <string name="settings_page_call_recording_feature_not_available_text">ضبط تماس در مکان شما دردسترس نیست</string>
     <string name="settings_page_crosby_feature_not_available_text">در مکان شما دردسترس نیست</string>
     <string name="setup_duo_button_long_text">‏راه‌اندازی تماس ویدیویی Duo</string>
@@ -1218,6 +1216,9 @@
     <string name="sounds_and_vibration_title">صدا و لرزش</string>
     <string name="spam_action_preference_description">‏شماره‌هایی که با پایگاه داده هرزنامه Google مطابقت دارد</string>
     <string name="spam_action_preference_title">هرزنامه</string>
+    <string name="spam_after_call_notification_add_contact_action_text">افزودن مخاطب</string>
+    <string name="spam_after_call_notification_report_spam_action_text">مسدود کردن و گزارش کردن</string>
+    <string name="spam_aftercall_notification_unknown">نامشخص</string>
     <string name="spam_and_call_screen_settings_title">هرزنامه و غربال تماس</string>
     <string name="spam_blocking_promo_action_dismiss">نپذیرفتن</string>
     <string name="spam_blocking_promo_action_filter_spam">فیلتر هرزنامه</string>
@@ -1229,6 +1230,9 @@
     <string name="spam_blocking_settings_enable_error_text">مشکل هنگام روشن کردن فیلتر هرزنامه</string>
     <string name="spam_blocking_settings_summary">از اینکه تماس‌های هرزنامه برایتان مزاحمت ایجاد کنند جلوگیری می‌کند</string>
     <string name="spam_blocking_settings_title">فیلتر کردن تماس‌های هرزنامه</string>
+    <string name="spam_dialog_add_contact_action">افزودن به مخاطبین</string>
+    <string name="spam_dialog_dismiss_action">رد شدن</string>
+    <string name="spam_notification_action_block_spam">بله، شماره مسدود شود</string>
     <string name="spam_notification_action_dismiss">رد کردن</string>
     <string name="spam_notification_add_contact_action_text">افزودن مخاطب</string>
     <string name="spam_notification_block_spam_action_text">بله، شماره مسدود شود</string>
@@ -1386,7 +1390,7 @@
     <string name="video_call_intro_dialog_content_tap_video_icon">‏تلفنتان به‌طور خودکار از «تماس ویدیویی T-Mobile» یا Google Duo استفاده می‌کند</string>
     <string name="video_call_intro_dialog_do_not_show_again_label">دیگر نشان داده نشود</string>
     <string name="video_call_intro_dialog_nagative_button_dimiss">رد شدن</string>
-    <string name="video_call_intro_dialog_nagative_button_not_now">الآن نه</string>
+    <string name="video_call_intro_dialog_nagative_button_not_now">حالا نه</string>
     <string name="video_call_intro_dialog_positive_button_learn_more">بیشتر بدانید</string>
     <string name="video_call_intro_dialog_positive_button_open_duo">‏باز کردن Duo</string>
     <string name="video_call_intro_dialog_title_make_duo_call">‏برقراری تماس ویدیویی با Google Duo</string>
@@ -1428,27 +1432,27 @@
     <string name="videocall_remotely_resumed">تماس ازسرگرفته‌شده</string>
     <string name="videocall_settings_default_ask_every_time">هربار پرسیده شود</string>
     <string name="videocall_settings_default_carrier">تماس ویدیویی ازطریق شرکت مخابراتی</string>
-    <string name="videocall_settings_default_caution">This feature allows a user to choose a preferred video call solution and indicate the receiver’s video capability when it’s available. ^1</string>
-    <string name="videocall_settings_default_caution_learn_more">Learn more about preferred video services</string>
+    <string name="videocall_settings_default_caution">نحوه برقراری تماس ویدیویی را انتخاب کنید و بدانید که آیا فردی که با آن تماس می‌گیرید می‌تواند آن را دریافت کند یا خیر. ^1</string>
+    <string name="videocall_settings_default_caution_learn_more">اطلاعات بیشتر درباره تماس ویدیویی</string>
     <string name="videocall_settings_default_duo">Google Duo</string>
     <string name="videocall_settings_default_title">سرویس تماس ویدیویی برگزیده</string>
-    <string name="videocall_settings_fallback_caution">"When “Use Google Duo as backup” (if applicable) is on and a call can't be completed using your preferred service, the call will automatically be attempted on Duo. ^1"</string>
-    <string name="videocall_settings_fallback_caution_learn_more">Learn more about Duo backup calling</string>
-    <string name="videocall_settings_fallback_summary">‏درصورتی‌که سرویس برگزیده دردسترس نباشد، از Duo استفاده می‌شود</string>
-    <string name="videocall_settings_fallback_title">‏استفاده از Google Duo به‌عنوان پشتیبان</string>
+    <string name="videocall_settings_fallback_caution">‏اگر Google Duo را به‌عنوان پشتیبان دارید و روشن است، درصورتی‌که شرکت مخابراتی‌تان نتواند تماس ویدیویی را کامل کند، Duo به‌طور خودکار تماس می‌گیرد. ^1</string>
+    <string name="videocall_settings_fallback_caution_learn_more">‏اطلاعات بیشتر درباره Duo به‌عنوان پشتیبان</string>
+    <string name="videocall_settings_fallback_summary">‏درصورتی‌که سرویس برگزیده‌تان دردسترس نباشد، از Duo استفاده می‌شود</string>
+    <string name="videocall_settings_fallback_title">‏استفاده از Duo به‌عنوان پشتیبان</string>
     <string name="videocall_settings_title">تماس ویدیویی</string>
     <string name="videocall_show_preview_button_description">نمایش جارزن ویدیوی محلی</string>
     <string name="view_location_settings">تنظیمات مکان</string>
     <string name="vitle_label">‏ویدیو ازطریق LTE</string>
     <string name="viwifi_label">‏ویدیو ازطریق WiFi</string>
     <string name="vm_change_pin_error_invalid">پین جدید نویسه‌های نامعتبری دارد.</string>
-    <string name="vm_change_pin_error_last_4_digits_msisdn">پین جدید نباید چهار رقم آخر شماره تلفنتان باشد.</string>
+    <string name="vm_change_pin_error_last_4_digits_msisdn">پین شما نباید ۴ رقم آخر شماره تلفنتان باشد.</string>
     <string name="vm_change_pin_error_mismatch">پین قدیمی مطابقت ندارد.</string>
     <string name="vm_change_pin_error_system_error">پین تغییر نکرد</string>
     <string name="vm_change_pin_error_too_long">پین جدید خیلی طولانی است.</string>
     <string name="vm_change_pin_error_too_short">پین جدید خیلی کوتاه است.</string>
     <string name="vm_change_pin_error_too_weak">پین جدید خیلی ضعیف است. گذرواژه قوی نباید توالی عددی باشد یا عدد تکراری داشته باشد.</string>
-    <string name="vm_change_pin_error_unchanged_pin">پین جدید مشابه پین فعلی‌تان است. پین دیگری وارد کنید.</string>
+    <string name="vm_change_pin_error_unchanged_pin">پین جدید نباید مشابه پین فعلی‌تان باشد.</string>
     <string name="vm_change_pin_progress_message">لطفاً منتظر بمانید.</string>
     <string name="voice_call">تماس صوتی</string>
     <string name="voice_call_button">تماس</string>
@@ -1470,11 +1474,9 @@
     <string name="voicemailMultiSelectDeleteConfirm">حذف</string>
     <string name="voicemail_action_call_customer_support">تماس با پشتیبانی مشتری</string>
     <string name="voicemail_action_call_voicemail">تماس با پست صوتی</string>
-    <string name="voicemail_action_dimiss">نه متشکرم</string>
     <string name="voicemail_action_retry">تلاش مجدد</string>
     <string name="voicemail_action_set_pin">تنظیم پین</string>
     <string name="voicemail_action_sync">همگام‌سازی</string>
-    <string name="voicemail_action_turn_archive_on">روشن کردن</string>
     <string name="voicemail_action_turn_off_airplane_mode">تنظیمات حالت هواپیما</string>
     <string name="voicemail_activating_summary_info">فعال کردن پست صوتی</string>
     <string name="voicemail_advanced_settings_title">تنظیمات پیشرفته</string>
@@ -1489,7 +1491,7 @@
     <string name="voicemail_change_pin_preference_summary_disable">برای تغییر پین، پست صوتی تصویری باید فعال شود</string>
     <string name="voicemail_change_pin_preference_summary_not_activated">پست صوتی تصویری هنوز فعال نشده است، لطفاً بعداً دوباره امتحان کنید</string>
     <string name="voicemail_change_pin_preference_title">تغییر پین</string>
-    <string name="voicemail_donate_preference_summary_info">‏برای بهبود دقت ترانویسی، به Google اجازه دهید پیام‌های پست صوتی شما را مرور کند. پیام‌های پست صوتی‌تان به‌صورت ناشناس ذخیره می‌شوند. %1$s</string>
+    <string name="voicemail_donate_preference_summary_info">‏برای بهبود دقت ترانویسی، به Google اجازه دهید پیام‌های پست صوتی شما را مرور کند. پیام‌های پست صوتی‌تان به‌صورت ناشناس ذخیره می‌شوند. ^1</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">استفاده از پیام صوتی تصویری با سیم‌کارت‌های بدون داده ممکن است موجب هزینه‌های شرکت مخابراتی شود</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">پیام صوتی تصویری فقط برای سیم‌کارت داده انتخابی دردسترس است</string>
     <string name="voicemail_error_activating_message">ممکن است تا زمانی که پست صوتی تصویری کاملاً فعال نشده باشد، اعلان‌های پست صوتی را دریافت نکنید. تا زمانی که پست صوتی به‌طور کامل فعال نشده است، برای بازیابی پیام‌های جدید با پست صوتی تماس بگیرید.</string>
@@ -1502,12 +1504,8 @@
     <string name="voicemail_error_bad_config_title">پست صوتی تصویری به‌روزرسانی نشد</string>
     <string name="voicemail_error_communication_message">همچنان می‌توانید برای بررسی پست صوتی تماس بگیرید.</string>
     <string name="voicemail_error_communication_title">پست صوتی تصویری به‌روزرسانی نشد</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_message">‏صندوق ورودی‌تان تقریباً پر است. برای آزاد کردن فضا، فضای ذخیره‌سازی اضافی را فعال‌سازی کنید تا Google بتواند پیام‌های صندوق پستی‌تان را مدیریت و پشتیبان‌گیری کند.</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_title">فعال‌سازی فضای ذخیره‌سازی اضافی و پشتیبان‌گیری</string>
     <string name="voicemail_error_inbox_full_message">صندوق ورودی‌تان پر است. بعضی از پیام‌ها را حذف کنید تا پست صوتی جدید دریافت کنید.</string>
     <string name="voicemail_error_inbox_full_title">پست‌های صوتی جدید دریافت نمی‌شود</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_message">‏صندوق ورودی‌تان پر است. برای آزاد کردن فضا، فضای ذخیره‌سازی اضافی را فعال‌سازی کنید تا Google بتواند پیام‌های صندوق پستی‌تان را مدیریت و پشتیبان‌گیری کند.</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_title">فعال‌سازی فضای ذخیره‌سازی اضافی و پشتیبان‌گیری</string>
     <string name="voicemail_error_inbox_near_full_message">اگر صندوق ورودی‌تان پر باشد نمی‌توانید پست صوتی جدیدی دریافت کنید.</string>
     <string name="voicemail_error_inbox_near_full_title">صندوق ورودی تقریباً پر است</string>
     <string name="voicemail_error_no_data_cellular_required_message">وقتی اتصال داده تلفن همراه بهتر شد، دوباره امتحان کنید. هنوز می‌توانید برای بررسی پست صوتی تماس بگیرید.</string>
@@ -1540,7 +1538,7 @@
     <string name="voicemail_transcription_failed_language_not_supported">ترانوشت دردسترس نیست. زبان پشتیبانی نمی‌شود.</string>
     <string name="voicemail_transcription_failed_no_speech">ترانوشت دردسترس نیست. گفتگویی شناسایی نشد.</string>
     <string name="voicemail_transcription_in_progress">درحال رونوشت‌برداری…</string>
-    <string name="voicemail_transcription_preference_summary_info">‏با استفاده از سرویس ترانویسی Google، ترانوشت پست صوتی‌تان را دریافت کنید. %1$s</string>
+    <string name="voicemail_transcription_preference_summary_info">‏با استفاده از سرویس ترانویسی Google، ترانوشت پست صوتی‌تان را دریافت کنید. ^1</string>
     <string name="voicemail_visual_voicemail_auto_archive_switch_title">پشتیبان‌گیری و فضای ذخیره‌سازی اضافی</string>
     <string name="voicemail_visual_voicemail_donation_switch_title">تجزیه‌وتحلیل ترانویسی پست صوتی</string>
     <string name="voicemail_visual_voicemail_switch_title">پست صوتی تصویری</string>
@@ -1596,7 +1594,7 @@
     <string name="wait_prompt_str">"‏صداهای زیر ارسال شود؟
 "</string>
     <string name="was_this_a_business_chip_text">آیا یک کسب‌وکار بود؟</string>
-    <string name="was_this_a_business_dialog_body">‏تأیید کردن این برچسب به Google کمک می‌کند شناسه تماس‌گیرنده را بهبود دهد</string>
+    <string name="was_this_a_business_dialog_body">‏تأیید کردن این شماره به Google کمک می‌کند شناسه تماس‌گیرنده را بهبود دهد</string>
     <string name="was_this_a_business_dialog_negative_response">نه</string>
     <string name="was_this_a_business_dialog_positive_response">بله</string>
     <string name="was_this_a_business_dialog_snackbar">از بازخوردتان سپاس‌گزاریم</string>

@@ -28,7 +28,6 @@
     <string name="about_application_pp_tos_settings">Meer oor, bepalings en privaatheid</string>
     <string name="accessbility_suggestion_dropdown_closed">Geen voorstelle beskikbaar nie</string>
     <string name="accessbility_suggestion_dropdown_opened">Kontakvoorstelle geopen</string>
-    <string name="acs_url_dropdown_hint">Stel ACS URL</string>
     <string name="action_add_contact">Voeg kontak by</string>
     <string name="action_advanced_feedback">Stuur terugvoer</string>
     <string name="action_archive">Argiveer</string>
@@ -47,18 +46,19 @@
     <string name="action_help_and_feedback">Hulp en terugvoer</string>
     <string name="action_info_and_options">Inligting en opsies</string>
     <string name="action_jump_to_chat">Sien in klets</string>
+    <string name="action_meet_video_call">Vergader-video-oproep</string>
     <string name="action_menu_mark_all_as_read">Merk alle as gelees</string>
     <string name="action_menu_show_archived">Geargiveer</string>
     <string name="action_menu_show_spam_folder">Strooipos en geblokkeer</string>
     <string name="action_notification_off">Skakel kennisgewings af</string>
     <string name="action_notification_on">Skakel kennisgewings aan</string>
     <string name="action_notification_settings">Demp kennisgewings</string>
+    <string name="action_off">Af</string>
     <string name="action_pair_device">Toestelsaambinding</string>
     <string name="action_people_and_options">Besonderhede</string>
     <string name="action_people_and_options_group">Groepbesonderhede</string>
     <string name="action_pin_to_top">Speld boaan vas</string>
     <string name="action_report_spam">Gee strooipos aan</string>
-    <string name="action_scan_qr_code">Boodskappe vir web</string>
     <string name="action_search">Soek</string>
     <string name="action_search_gifs">"Deursoek GIF's"</string>
     <string name="action_search_messages">Soek deur boodskappe</string>
@@ -77,6 +77,7 @@
     <string name="action_viLTE_video_call">Diensverskaffervideo-oproep</string>
     <string name="action_video_call">"Maak 'n video-oproep"</string>
     <string name="actionbar_subtitle_name_prefix">met %s</string>
+    <string name="active_reminder">Onthounota</string>
     <string name="active_sim_content_message">%s gekies</string>
     <string name="activity_not_found_message">"Kon nie 'n toepaslike program vind nie"</string>
     <string name="add_area_code_banner_button">Voeg gebiedskode by</string>
@@ -90,6 +91,7 @@
     <string name="add_contact_confirmation_dialog_title">Voeg by kontakte?</string>
     <string name="add_country_code_banner_button">Voeg landkode by</string>
     <string name="add_more_participants_button_content_description">Voeg meer deelnemers by</string>
+    <string name="add_reaction_content_description">"Reageer met 'n gepasmaakte reaksie"</string>
     <string name="add_reaction_for_assistant_card_rcs_fallback_text">​%1$s​ oor assistentkaart</string>
     <string name="add_reaction_for_audio_rcs_fallback_text">"​%1$s​ oor 'n oudiolêer"</string>
     <string name="add_reaction_for_contact_rcs_fallback_text">"​%1$s​ oor 'n kontak"</string>
@@ -97,7 +99,7 @@
     <string name="add_reaction_for_gif_rcs_fallback_text">"​%1$s​ oor 'n GIF"</string>
     <string name="add_reaction_for_link_rcs_fallback_text">"​%1$s​ oor 'n skakel"</string>
     <string name="add_reaction_for_photo_rcs_fallback_text">"​%1$s​ oor 'n foto"</string>
-    <string name="add_reaction_for_text_message_rcs_fallback_text">​%1$s​ na \"%2$s\"</string>
+    <string name="add_reaction_for_text_message_rcs_fallback_text">​%1$s​ na \" %2$s \"</string>
     <string name="add_reaction_for_unknown_message_type_rcs_fallback_text">"​%1$s​ oor 'n onbekende boodskaptipe"</string>
     <string name="add_reaction_for_video_rcs_fallback_text">"​%1$s​ oor 'n video"</string>
     <string name="advanced_feedback_activity_disclaimer">Jou boodskapinhoud en -teks, behalwe dié in skermskote, word nie vir Google gestuur nie</string>
@@ -134,14 +136,13 @@
     <string name="apn_mnc">MNC</string>
     <string name="app_name">Boodskappe</string>
     <string name="app_settings_conversation_pref_title">Programinstellings</string>
-    <string name="apply_button">Pas toe</string>
     <string name="archived_activity_title">Geargiveer</string>
     <string name="archived_conversation_list_empty_text">Geargiveerde gesprekke verskyn hier</string>
     <string name="area_code_banner_description">@string/banner_description</string>
     <string name="assistant_movies_shortcut_title">Flieks</string>
+    <string name="assistant_preference_summary">Wys relevante inligting oor uiteet, flieks en meer</string>
     <string name="assistant_preference_title">Assistentvoorstelle</string>
     <string name="assistant_restaurants_shortcut_title">Restaurante</string>
-    <string name="assistant_send_to_chip_default_group_name">groep</string>
     <string name="assistant_suggestions_tooltip_text">Boodskappe skep voorstelle terwyl dit jou gesprek op toestel hou. Jy kan voorstelle tik om inligting vanaf die Google Assistent te sien en te deel. &lt;br/> &lt;br/> &lt;a href>Kom meer te wete&lt;/a> en bestuur in &lt;a href>Instellings&lt;/a></string>
     <string name="assistant_suggestions_tooltip_title_text">"Kry inligting met 'n tik"</string>
     <string name="assistant_weather_shortcut_title">Weer</string>
@@ -157,12 +158,18 @@
     <string name="attachment_location">Ligging</string>
     <string name="attachment_picture">Prent</string>
     <string name="attachment_preview_close_content_description">Gooi aanhegsel weg</string>
+    <string name="attachment_preview_photos_link_share_getting_link">Kry tans skakel …</string>
+    <string name="attachment_preview_photos_link_share_no_upload_needed">Voorheen opgelaai</string>
+    <string name="attachment_preview_photos_link_share_upload_size">%s oplaai</string>
+    <string name="attachment_preview_photos_link_share_upload_size_failure">Onbekend</string>
+    <string name="attachment_preview_photos_link_share_upload_size_placeholder">Bereken tans …</string>
     <string name="attachment_unsupported_file">Niegesteunde lêer</string>
     <string name="attachment_vcard">Kontakkaart</string>
     <string name="attachment_video">Video</string>
     <string name="audio_attachment_content_description">Oudio-aanhegsel</string>
     <string name="audio_attachment_seek_playback_description">Oudioterugspeel</string>
     <string name="audio_button_view_content_description">Dubbeltik en hou om oudio op te neem, gly na links om te kanselleer</string>
+    <string name="audio_format_type">oudio</string>
     <string name="audio_pause_content_description">Wag</string>
     <string name="audio_play_content_description">Speel oudio-aanhegsel</string>
     <string name="audio_recorder_call_in_progress">Kan nie oudio tydens ’n oproep opneem nie</string>
@@ -181,6 +188,8 @@
     <string name="auto_selected_country_summary">Outomaties bespeur (%1$s)</string>
     <string name="automoved_spam_notification_action_dismiss">Weier</string>
     <string name="automoved_spam_notification_action_view">Bekyk</string>
+    <string name="automoved_spam_notification_content_text">Inkomende strooipos is na \"Strooipos en geblokkeer\" geskuif</string>
+    <string name="automoved_spam_notification_content_title">Strooipos is bespeur</string>
     <string name="avatar_no_connection_msg">Geen internetverbinding nie</string>
     <string name="avatar_promo_create">Skep</string>
     <string name="avatar_promo_see_all">Sien alles</string>
@@ -192,7 +201,8 @@
     <string name="birthday_banner_description">@string/banner_description</string>
     <string name="birthday_banner_dismiss_button_text">Maak toe</string>
     <string name="birthday_banner_settings_button_text">Bestuur in instellings</string>
-    <string name="birthday_info_text">"Boodskappe skep verjaarsdagonthounota's van kontakte met verjaarsdae op jou toestel"</string>
+    <string name="birthday_info_text">Hierdie onthounotas is gebaseer op verjaardaginligting uit jou toestel se kontakteprogram.</string>
+    <string name="birthday_info_text_with_settings">Hierdie onthounotas is gebaseer op verjaardaginligting uit jou toestel se kontakteprogram. &lt;a href>%1$s&lt;/a></string>
     <string name="birthday_nudge_enabled_pref_summary">Kry onthounotas vir verjaarsdae wat jy by kontakte op jou toestel gevoeg het</string>
     <string name="birthday_nudge_enabled_pref_title">Verjaardagonthounotas</string>
     <string name="block_confirmation_message_spam_folder">Jy sal steeds boodskappe van %1$s ontvang, maar sal nie meer in kennis gestel word nie. Hierdie gesprek sal na \"Strooipos en geblokkeer\" geskuif word.</string>
@@ -212,9 +222,13 @@
     <string name="boew_promo_text">Om kletskenmerke te kry, soos boodskappe oor Wi-Fi en data, laat Boodskappe toe om in die agtergrond voort te gaan</string>
     <string name="boew_promo_title">Doen meer met Boodskappe</string>
     <string name="bottomsheet_action_expand_halfway">Vou halfpad uit</string>
+    <string name="bottomsheet_drag_handle_content_description">Sleephandvatsel</string>
     <string name="broadcast_receiver_notification_text_extra_info">"Boodskappe doen tans werk in die agtergrond. Dien asseblief 'n foutverslag in as jy hierdie kennisgewing vir langer as 'n minuut sien. Ontvangernaam: %1$s"</string>
     <string name="broadcast_sms_text">SMS-massateks</string>
     <string name="bubble_settings_title">Borrels</string>
+    <string name="bugle_add_account_error">Kon nie rekening byvoeg nie; probeer asseblief weer.</string>
+    <string name="bugle_fix_it">Maak dit reg</string>
+    <string name="bugle_load_account_failure">Kon nie rekeninge laai nie.</string>
     <string name="bugle_notification_category_conversations">Gesprekke</string>
     <string name="bugle_notification_category_default_settings">Verstekinstellings</string>
     <string name="bugle_notification_category_reminders">Onthounotas</string>
@@ -226,6 +240,8 @@
     <string name="bugle_notification_reminders_channel_name">Onthounotas</string>
     <string name="bugle_notification_report_issue_channel_name">Boodskappe-terugvoerversoek</string>
     <string name="bugle_notification_silent_default_channel_name">Kry kennisgewings terwyl jy web gebruik</string>
+    <string name="bugle_play_services_error">Kon nie by Google Play-dienste navraag doen nie.</string>
+    <string name="bugle_retry">Herprobeer</string>
     <string name="business_action_call_full_content_description">Bel %1$s (%2$s)</string>
     <string name="business_action_call_short_content_description">Bel</string>
     <string name="business_action_call_short_text_m2">Bel</string>
@@ -287,6 +303,7 @@
     <string name="c2o_single_file_attachment_size_limit_exceed">"Jou aanhegsel is te groot om te stuur. Probeer om 'n lêer kleiner as %s te stuur."</string>
     <string name="c2o_storage_permissions_text">Tik om toegang aan Media te gee</string>
     <string name="c2o_video_button_text">Video</string>
+    <string name="calendar_badge_content_description">Kalenderkenteken</string>
     <string name="calendar_event_added">Geleentheid gestoor</string>
     <string name="calendar_file_content_description">Kalenderlêer</string>
     <string name="calendar_suggestion_event_chat_title">Android Boodskappe-klets</string>
@@ -297,6 +314,7 @@
     <string name="camera_attach_media">Heg aan</string>
     <string name="camera_attach_media_description">Heg aan Boodskap</string>
     <string name="camera_back_switch_button">Skakelaar vir agterste kamera</string>
+    <string name="camera_capture_button_label">Neem foto</string>
     <string name="camera_flash_off">Flits af</string>
     <string name="camera_flash_on">Flits aan</string>
     <string name="camera_front_switch_button">Skakelaar vir voorste kamera</string>
@@ -397,6 +415,11 @@ Jy kan kletskenmerke in instellings afskakel. %1$s"</string>
     <string name="common_google_play_services_update_text">%1$s sal nie werk nie tensy jy Google Play Dienste opdateer.</string>
     <string name="common_google_play_services_update_title">Dateer Google Play Dienste op</string>
     <string name="common_google_play_services_updating_text">%1$s sal nie sonder Google Play Dienste werk nie, wat tans opdateer.</string>
+    <string name="common_google_play_services_wear_update_text">Nuwe weergawe van Google Play Dienste is nodig. Dit sal binnekort self opdateer.</string>
+    <string name="common_open_on_phone">Maak oop op foon</string>
+    <string name="complete_photos_app_onboarding">"Maak Google Foto's oop"</string>
+    <string name="complete_photos_app_onboarding_title">"Om voort te gaan moet jy Google Foto's toegang gee"</string>
+    <string name="complete_photos_app_onboarding_to_continue">"Kom aan die gang met die Google Foto's-program"</string>
     <string name="compose_message_view_hint_text">Kletsboodskap</string>
     <string name="compose_message_view_hint_text_multi_sim_rcs">Klets (%s)</string>
     <string name="compose_message_view_hint_text_multi_sim_sms_mms">Teks (%s)</string>
@@ -418,15 +441,12 @@ Jy kan kletskenmerke in instellings afskakel. %1$s"</string>
     <string name="contact_has_multiple_destinations_phone">%1$s (+%2$s meer)</string>
     <string name="contact_has_multiple_destinations_type">Veelvuldige</string>
     <string name="contact_list_add_people">Voeg %s by</string>
-    <string name="contact_list_empty_text">"Voer 'n kontaknaam of foonnommer in om 'n nuwe boodskap te begin"</string>
     <string name="contact_list_send_to_text">Stuur na %s</string>
     <string name="contact_picker_autocomplete_added">%1$s is bygevoeg, word tans gewysig</string>
     <string name="contact_picker_autocomplete_deleted">%1$s uitgevee, wysig tans</string>
-    <string name="contact_picker_cant_add_destination_twice">Daardie nommer is reeds in die groep</string>
     <string name="contact_picker_cant_remove_from_existing">"Kan nie nommer uit 'n bestaande gesprek verwyder nie"</string>
     <string name="contact_picker_cant_remove_from_screen">Gaan na &lt;b>Groepbesonderhede&lt;/b> om mense te verwyder</string>
     <string name="contact_picker_confirm_participants_button_label">Volgende</string>
-    <string name="contact_picker_group_create_label">Skep groep</string>
     <string name="contact_picker_group_v2_create_label">Skep groep</string>
     <string name="contact_picker_message_a_business_label">"Klets met 'n besigheid"</string>
     <string name="contact_picker_title_add_people">Voeg mense by</string>
@@ -449,10 +469,14 @@ Jy kan kletskenmerke in instellings afskakel. %1$s"</string>
     <string name="content_description_link_to_settings">Bestuur in instellings</string>
     <string name="contextual_action_bar_description_prefix">"Wys tans nutsbalk vir handelinge: %s. Navigeer op om 'n handeling te kies of maak toe."</string>
     <string name="conversation_area_code_popup_paragraph">Sonder ’n bekende gebiedskode, sal Boodskappe probeer om na %1$s te stuur. Voeg hierdie kontak se gebiedskode by vir toekomstige boodskappe. %2$s</string>
+    <string name="conversation_block_failed_message">Nie geblokkeer nie, gaan verbinding na</string>
+    <string name="conversation_blocking_message">Blokkeer tans …</string>
     <string name="conversation_country_code_popup_paragraph">Voeg landkode (+%1$s vir %2$s) by hierdie kontak sodat jou boodskap na die regte persoon gestuur word. %3$s</string>
     <string name="conversation_creation_failed">Kon nie gesprek skep nie, probeer asseblief later weer.</string>
     <string name="conversation_creation_failure">Kon nie gesprek begin nie</string>
+    <string name="conversation_deleting_message">Vee tans uit …</string>
     <string name="conversation_deletion_failed">Kon nie gesprek uitvee nie</string>
+    <string name="conversation_deletion_failed_message">Nie uitgevee nie, gaan verbinding na</string>
     <string name="conversation_empty_name">Leeg</string>
     <string name="conversation_label_all">Alles</string>
     <string name="conversation_label_business_updates">Besigheid</string>
@@ -479,7 +503,6 @@ Jy kan kletskenmerke in instellings afskakel. %1$s"</string>
     <string name="conversation_list_item_view_draft_message">Konsep</string>
     <string name="conversation_list_item_view_sent_from_other_prefix">%s:</string>
     <string name="conversation_list_item_view_sent_from_you_prefix">Jy:</string>
-    <string name="conversation_list_loading_item_description">Laai tans gesprek</string>
     <string name="conversation_list_message_fail_to_decrypt">Geen dekripsie nie</string>
     <string name="conversation_list_rcs_promo_button_negative">Moenie program opgradeer nie</string>
     <string name="conversation_list_rcs_promo_button_positive">Gradeer nou op</string>
@@ -491,7 +514,6 @@ Jy kan kletskenmerke in instellings afskakel. %1$s"</string>
     <string name="conversation_list_snippet_link">Skakel</string>
     <string name="conversation_list_spam_popup_negative">Bestuur in instellings</string>
     <string name="conversation_list_spam_popup_paragraph">Om strooipos te help voorkom, gebruik Google die foonnommers van onbekende stuurders en ontvangers. Jou boodskappe en kontakte word nie aan Google gestuur nie. %1$s</string>
-    <string name="conversation_list_spam_popup_paragraph_on_device">Boodskappe gebruik intoestelintelligensie om strooipos te bespeur en stuur sekere data oor hierdie boodskappe aan Google, sonder om jou foonnommer of boodskapinhoud in te sluit. %1$s</string>
     <string name="conversation_list_spam_popup_positive">OK</string>
     <string name="conversation_list_spam_popup_title">Strooiposbeskerming</string>
     <string name="conversation_list_terms_and_conditions_promo_subtitle">Skakel klaar kletskenmerke aan om boodskappe oor Wi-Fi te ontvang en meer</string>
@@ -514,6 +536,7 @@ Jy kan kletskenmerke in instellings afskakel. %1$s"</string>
     <string name="conversation_suggestion_set_reminder_action">Voorgestelde stel herinnering-aksie</string>
     <string name="conversation_suggestion_share_location_action">Delingshandeling van voorgestelde ligging</string>
     <string name="conversation_suggestion_share_location_action_failure">"Iets het verkeerd gegaan. Voeg jou ligging by 'n nuwe boodskap om dit te deel."</string>
+    <string name="conversation_suggestion_star_action">Voorgestelde sterhandeling</string>
     <string name="conversation_suggestion_sticker">Voorgestelde plakker</string>
     <string name="copy">Kopieer</string>
     <string name="copy_to_clipboard">Kopieer</string>
@@ -523,6 +546,7 @@ Jy kan kletskenmerke in instellings afskakel. %1$s"</string>
     <string name="create_group_info_title">Voeg groepnaam by</string>
     <string name="create_new_group_message">"Byvoeging van hierdie persoon sal 'n nuwe groep sonder kletskenmerke begin"</string>
     <string name="current_country_pref_title">Jou huidige land</string>
+    <string name="custom_reaction_selection_prompt">"Kies 'n emosiekoon"</string>
     <string name="dark_mode_disable_title">Deaktiveer donkermodus</string>
     <string name="dark_mode_enable_title">Aktiveer donker modus</string>
     <string name="dasher_disabled_notification_body">"Kontak jou stelseladministrateur of meld aan met 'n ander rekening."</string>
@@ -590,12 +614,9 @@ Jy kan kletskenmerke in instellings afskakel. %1$s"</string>
     <string name="ditto_activity_label">Toestelsaambinding</string>
     <string name="ditto_foreground_service_device_pairing_notification_text">Jou boodskappe is beskikbaar op die toestel wat jy saamgebind het</string>
     <string name="ditto_foreground_service_device_pairing_notification_title">Toestelsaambinding</string>
-    <string name="ditto_foreground_service_notification_text">Jou boodskappe is beskikbaar op die rekenaar wat jy saamgebind het</string>
-    <string name="ditto_foreground_service_notification_title">Boodskappe vir Web</string>
     <string name="ditto_foreground_service_sign_out">Maak los</string>
     <string name="ditto_persistent_notification_settings">Kennisgewings</string>
     <string name="ditto_settings_action_bar_title">Kennisgewings</string>
-    <string name="ditto_settings_connected_to_web_notification_description">“Boodskappe vir Web” verskyn wanneer jou toestel aanlyn is</string>
     <string name="ditto_settings_connected_to_web_notification_title">Wys aanhoudende kennisgewing</string>
     <string name="ditto_settings_device_paired_notification_description">“Toestelsaambinding” verskyn wanneer jou toestel aanlyn is</string>
     <string name="ditto_settings_while_using_web_notification_description">Stop luitoon en vibrasie wanneer jou toestel aanlyn is</string>
@@ -636,6 +657,7 @@ Mense hersien jou boodskappe, wat die besigheidstuurder se nommer insluit. Jou f
     <string name="dump_mms_pref_title">Gooi MMS weg</string>
     <string name="dump_sms_pref_summary">Stort rou data van ontvangde SMS in eksterne berginglêer</string>
     <string name="dump_sms_pref_title">Gooi SMS weg</string>
+    <string name="duplicate_upload_snackbar">Sommige duplikate is nie ingesluit nie</string>
     <string name="e2ee_conversation_tombstone">Klets met punt-na-punt-enkripsie met %1$s</string>
     <string name="e2ee_conversation_tombstone_with_learn_more">Klets tans met punt-na-punt-enkripsie met %1$s. %2$s</string>
     <string name="e2ee_fail_to_send_retry_description">Stuur weer as klets</string>
@@ -674,7 +696,6 @@ Mense hersien jou boodskappe, wat die besigheidstuurder se nommer insluit. Jou f
 Boodskappe sal terugskakel wanneer kletskenmerke weer koppel."</string>
     <string name="enable_rcs_auto_fallback_dialog_title">Stuur outomaties weer as teks (SMS/MMS)?</string>
     <string name="enable_rcs_auto_fallback_title">Stuur outomaties weer as teks (SMS/MMS)</string>
-    <string name="enable_rcs_fallback_to_sms_title">Herstuur onafgelewerde boodskappe</string>
     <string name="enable_rcs_fallback_to_xms_title">Herstuur onafgelewerde boodskappe</string>
     <string name="enable_rcs_summary_off">Gebruik Wi-Fi of data vir boodskappe wanneer dit beskikbaar is</string>
     <string name="enable_rcs_summary_on">Die gebruik van data vir boodskappe wanneer dit beskikbaar is</string>
@@ -686,9 +707,13 @@ Boodskappe sal terugskakel wanneer kletskenmerke weer koppel."</string>
     <string name="enter_phone_number_title">Bevestig jou foonnommer</string>
     <string name="enter_phone_number_title_for_sim">Bevestig telefoonnommer vir %1$s</string>
     <string name="enumeration_comma">", "</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_failed_to_save_setting">Sukkel om te stoor. Probeer weer.</string>
     <string name="error_icon_content_description">Fout</string>
     <string name="error_premium_sms_needs_permission">Om hierdie boodskap te stuur, besoek jou toestel se instellings en skakel Premium SMS-toegang aan</string>
+    <string name="error_text_draft_is_reply_to_missing_message">Kan nie antwoord op ’n boodskap wat uitgevee is nie</string>
+    <string name="error_text_draft_is_reply_without_rcs">Probleme met kletskenmerke. Probeer om sonder ’n antwoord te stuur.</string>
+    <string name="error_text_scheduled_send_with_draft_reply">Kan nie op die oomblik ’n antwoord skeduleer nie</string>
     <string name="etouffee_to_rcs_notification">"Boodskappe het bespeur punt-na-punt-enkripsie is in 'n gesprek laat vaar. Tik om terugvoer te stuur."</string>
     <string name="etouffee_to_telephony_setting">Privaatheid</string>
     <string name="etouffee_to_telephony_setting_description">"SMS-toestemmings sluit jou boodskappe met punt-tot-punt-enkripsie in sodat hulle onder meer deur Android gerugsteun kan word en hardop in jou kar of op 'n metgeseltoestel gelees kan word. Bekyk en bestuur jou programme met SMS-toestemmings in Android-instellings.
@@ -714,19 +739,24 @@ As jy hierdie instelling verander, sal dit nie boodskappe met punt-na-punt-enkri
     <string name="exo_controls_pause_description">Onderbreek</string>
     <string name="exo_controls_play_description">Speel</string>
     <string name="exo_controls_previous_description">Vorige</string>
-    <string name="exo_controls_repeat_all_description">Herhaal alles</string>
-    <string name="exo_controls_repeat_off_description">Herhaal niks</string>
-    <string name="exo_controls_repeat_one_description">Herhaal een</string>
+    <string name="exo_controls_repeat_all_description">Huidige modus: herhaal alles. Wissel herhaalmodus.</string>
+    <string name="exo_controls_repeat_off_description">Huidige modus: herhaal niks. Wissel herhaalmodus.</string>
+    <string name="exo_controls_repeat_one_description">Huidige modus: herhaal een. Wissel herhaalmodus.</string>
     <string name="exo_controls_rewind_description">Spoel terug</string>
     <string name="exo_controls_show">Wys spelerkontroles</string>
-    <string name="exo_controls_shuffle_off_description">Skommel is af</string>
-    <string name="exo_controls_shuffle_on_description">Skommel is aan</string>
+    <string name="exo_controls_shuffle_off_description">Aktiveer skommelmodus</string>
+    <string name="exo_controls_shuffle_on_description">Deaktiveer skommelmodus</string>
     <string name="exo_controls_vr_description">VR-modus</string>
     <string name="exo_track_selection_auto">Outo</string>
     <string name="exo_track_selection_none">Geen</string>
     <string name="expand_attach_button_content_description">Vou aanhegselknoppies uit</string>
     <string name="expand_button_title">Gevorderd</string>
     <string name="exposed_dropdown_menu_content_description">Wys aftrekkieslys</string>
+    <string name="express_sign_in_illustration_content_description">Prent van die mediadelingkenmerk</string>
+    <string name="express_sign_in_sub_title">"Bewaar skerp video-helderheid wanneer jy
+inteken en Google Foto's-skakels stuur."</string>
+    <string name="express_sign_in_title">"Deel video's soos hulle
+veronderstel is om gesien te word"</string>
     <string name="fail_to_decrypt_message_metadata">Geen dekripsie nie, tik vir opsies</string>
     <string name="fail_to_load_dialog_negative_button">SMS met toestel-SIM</string>
     <string name="fail_to_load_dialog_positive_button">Herprobeer</string>
@@ -740,6 +770,7 @@ As jy hierdie instelling verander, sal dit nie boodskappe met punt-na-punt-enkri
     <string name="failed_message_content_description">Boodskap het misluk.Tik om weer te probeer.</string>
     <string name="failed_qr_pairing_dialog_message">"Iets het verkeerd gegaan. Probeer oor 'n paar minute weer."</string>
     <string name="failed_qr_pairing_dialog_positive_button_text">OK</string>
+    <string name="failed_to_select_attachment_from_system_picker">Kon nie hierdie aanhegsel kies nie</string>
     <string name="fast_track_negative_button_text">Nee, dankie</string>
     <string name="fast_track_popup_accepted_snack_bar_text">Stel tans kletskenmerke op. Ons sal jou laat weet wanneer hulle gereed is.</string>
     <string name="fast_track_popup_declined_snack_bar_text">Jy kan kletskenmerke enige tyd in Instellings aanskakel.</string>
@@ -805,6 +836,9 @@ As jy hierdie instelling verander, sal dit nie boodskappe met punt-na-punt-enkri
     <string name="fi_settings_download_over_wifi_title">Sinkroniseer media slegs oor Wi-Fi</string>
     <string name="fi_settings_opt_out_failed">Kan nie op die oomblik sinkronisasie stop en afmeld nie. Probeer later weer.</string>
     <string name="fi_settings_opt_out_in_progress">Stop sinkronisasie en meld af</string>
+    <string name="fi_settings_redirect_button">Bestuur rugsteun</string>
+    <string name="fi_settings_redirect_summary">Jy kan hulle in die rekeningkieslys vind</string>
+    <string name="fi_settings_redirect_title">Rugsteun- en sinkroniseerinstellings het geskuif</string>
     <string name="fi_settings_sync_preference_backup_in_progress">Rugsteun is besig: %1$d%%</string>
     <string name="fi_settings_sync_preference_restore_in_progress">Terugstel is besig: %1$d%%</string>
     <string name="fi_settings_sync_preference_summary">"SMS'e, oproepe en stemboodskappe bly op datum oor skerms"</string>
@@ -822,6 +856,7 @@ As jy hierdie instelling verander, sal dit nie boodskappe met punt-na-punt-enkri
     <string name="file_transfer_via_sms_other">"Ek het 'n lêer met jou gedeel"</string>
     <string name="file_transfer_via_sms_video">"Ek het 'n video met jou gedeel"</string>
     <string name="files_shortcut_title">Lêers</string>
+    <string name="flip_camera_button_label">Draai kamera</string>
     <string name="floating_toolbar_close_overflow_description">Maak oorloop toe</string>
     <string name="floating_toolbar_open_overflow_description">Nog opsies</string>
     <string name="foreground_service_notification_generic_text">Boodskappe doen tans werk in die agtergrond</string>
@@ -835,12 +870,27 @@ As jy hierdie instelling verander, sal dit nie boodskappe met punt-na-punt-enkri
     <string name="full_banner_expand_chip_description">Vou Uit-knoppie</string>
     <string name="full_screen_gallery_action_attach">Voeg by</string>
     <string name="fullscreen_button_description">Maak volskerm oop</string>
+    <string name="gaia_auth_failure_dialog_body">Sommige kenmerke wat deur jou Google-rekening aangedryf word, sal nie werk voordat jy aanmeld nie</string>
+    <string name="gaia_auth_failure_dialog_title">Jy moet weer aanmeld om te bevestig dat dit jy is</string>
+    <string name="gallery_google_photos_option_tray_button_add">Voeg by</string>
+    <string name="gallery_google_photos_option_tray_button_always">Altyd</string>
+    <string name="gallery_google_photos_option_tray_button_cancel">Kanselleer</string>
+    <string name="gallery_google_photos_option_tray_button_just_once">Net een keer</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_image">Onduideliker beeld</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_unknown">Swak gehalte media</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_video">Video met swak kwaliteit</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_image">Prent</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_unknown">Media</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_video">Video</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_body">"Skerp duidelikheid. Bestuur gedeelde skakels in Google Foto's."</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_learn_more">Kom meer te wete</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_title">"Google Foto's-skakel"</string>
+    <string name="gallery_item_content_description_selected_state">Ontkies hierdie %1$s wat by posisie %2$s aangeheg is, met dubbeltik</string>
+    <string name="gallery_item_content_description_unselected_state">Selekteer hierdie %1$s wat op %2$s geneem is met ’n dubbeltik</string>
     <string name="general_settings">Algemeen</string>
     <string name="general_settings_activity_title">Algemene instellings</string>
     <string name="general_settings_title_m2">Opsies</string>
     <string name="generic_issue_text">Ander</string>
-    <string name="get_messenger_notification_body">"Lees en stuur SMS'e van jou horlosie of foon af"</string>
-    <string name="get_messenger_notification_header">Kry Boodskappe</string>
     <string name="get_sticker_packs_error_msg">Kon nie plakkers laai nie.</string>
     <string name="gif_screen_no_result">"Kon nie 'n passing vind nie. Gaan jou soektog na en probeer weer."</string>
     <string name="gif_screen_title">"GIF's"</string>
@@ -848,10 +898,24 @@ As jy hierdie instelling verander, sal dit nie boodskappe met punt-na-punt-enkri
     <string name="gif_search_hint">"Deursoek GIF's"</string>
     <string name="gifs_shortcut_title">"GIF's"</string>
     <string name="go_to_top">Sien die jongste</string>
-    <string name="google_account_pref_title">Google-rekening</string>
     <string name="google_assistant_verification_channel_name">Assistent-verifieerder</string>
     <string name="google_assistant_verification_notification_title">Google Assistant stuur tans boodskap</string>
     <string name="google_fi_text">Google Fi</string>
+    <string name="google_photos_onboarding_close_button_description">"Maak Google Foto's-kaart toe"</string>
+    <string name="google_photos_onboarding_ineligible_title">"Meld by Google Foto's aan vir duidelike video's"</string>
+    <string name="google_photos_onboarding_ineligible_title_photos_and_videos">"Meld by Google Foto's aan vir duidelike foto's en video's"</string>
+    <string name="google_photos_onboarding_learn_more">Kom meer te wete</string>
+    <string name="google_photos_onboarding_next">Volgende</string>
+    <string name="google_photos_onboarding_ok">OK</string>
+    <string name="google_photos_onboarding_signed_in_title_photos_and_videos">"Meld aan om duideliker foto's en video's te stuur"</string>
+    <string name="google_photos_onboarding_signed_out_title">"Meld aan om video's te stuur wat baie duidelik is"</string>
+    <string name="google_photos_onboarding_text_body">"Behou video-duidelikheid wanneer jy Google Foto's-skakels in MMS-gesprekke stuur"</string>
+    <string name="google_photos_onboarding_text_body_photos_and_videos_xms">"Behou skerp media-duidelikheid wanneer jy Google Foto's-skakels in MMS-gesprekke stuur"</string>
+    <string name="google_photos_onboarding_title">"Deel video's soos hulle
+veronderstel is om gesien te word"</string>
+    <string name="google_photos_onboarding_title_photos_and_videos">"Deel foto's en video's soos hulle veronderstel is om gesien te word"</string>
+    <string name="google_photos_option_tray">"Meld aan om helderder video's te stuur"</string>
+    <string name="google_photos_option_tray_photos_and_videos">"Meld aan om duideliker foto's en video's te stuur"</string>
     <string name="google_play_protect_title">Google Play Beskerming</string>
     <string name="google_tos_chat_features_tooltip">"Sien wanneer iemand besig is om te tik, kry leesbewyse, en stuur boodskappe, lêers en hoëresolusiefoto's met kletskenmerke via Ryk kommunikasiedienste (RCS). Dit gebruik data om boodskappe te stuur.
 
@@ -865,8 +929,9 @@ Jy kan dit in instellings afskakel. %1$s"</string>
 
 Jy kan jou verstekoproep-SIM in Stelselinstellings verander. %1$s"</string>
     <string name="google_tos_multisim_view_accessibility_description">Kom meer te wete</string>
+    <string name="google_tos_negative_link_text">Nee, dankie</string>
     <string name="group_conversation_title_everyone_else_left">Ek</string>
-    <string name="group_limit_alert_dialog_message">{max_group_size_including_self,plural, =1{Kan nie meer as # persoon hê nie}other{Kan nie meer as # mense hê nie}}</string>
+    <string name="group_limit_alert_dialog_message">{max_group_size_excluding_self,plural, =1{Kan nie meer as # ander persoon hê nie}other{Kan nie meer as # ander mense hê nie}}</string>
     <string name="group_mms_pref_title">Groepboodskappe</string>
     <string name="group_name_edit_text_label">Groepnaam</string>
     <string name="guest_cloud_preview">VOORSKOU</string>
@@ -876,14 +941,19 @@ Jy kan jou verstekoproep-SIM in Stelselinstellings verander. %1$s"</string>
     <string name="happy_birthday_no_name">Wens hulle geluk met die verjaarsdag!</string>
     <string name="hidden_sender_address">Versteekte afsenderadres</string>
     <string name="highlighter">Kleurmerker</string>
+    <string name="how_it_works_link_text">Hoe dit werk</string>
+    <string name="hqms_always_send_image_as_link_pref_title">Stuur altyd beelde per skakel in SMS (SMS/MMS)</string>
+    <string name="hqms_always_send_video_as_link_pref_title">"Stuur altyd video's per skakel in SMS (SMS/MMS)"</string>
+    <string name="hqms_settings_gaia_card_text">"Deel skakels in Google Foto's"</string>
+    <string name="hqms_settings_info_text">"Boodskappe laai na Google Foto's op, waar jy video-skakeldeling kan bestuur. %1$s"</string>
+    <string name="hqms_settings_sign_in_prompt_text">Teken by jou Google-rekening in om hierdie kenmerk te gebruik</string>
     <string name="hqms_settings_summary">Deel video met skerper duidelikheid in SMS (SMS/MMS)</string>
     <string name="hqms_settings_title">"Google Foto's"</string>
     <string name="identity_verification_notification_text">"Boodskappe verifieer tans 'n uitgaande boodskap"</string>
     <string name="ignore">Ignoreer</string>
     <string name="image_attachment_content_description">Prentaanhegsel</string>
     <string name="image_compress_info">Ontvanger sal swakker prentgehalte sien weens diensverskaffer-MMS-limiete</string>
-    <string name="imei_format_dropdown_hint">Stel IMEI-formaat</string>
-    <string name="imsi_format_dropdown_hint">Stel IMSI-formaat</string>
+    <string name="image_format_type">prent</string>
     <string name="in_conversation_blocked_contact_text">Jy sien dalk nie al die boodskappe nie omdat hierdie gesprek geblokkeerde kontakte bevat.</string>
     <string name="in_conversation_notify_new_message_action">Bekyk</string>
     <string name="in_conversation_notify_new_message_text">Nuwe boodskap</string>
@@ -893,7 +963,7 @@ Jy kan jou verstekoproep-SIM in Stelselinstellings verander. %1$s"</string>
     <string name="incoming_message_for_secondary_user_notification_title">Nuwe boodskap</string>
     <string name="incoming_message_foreground_notification_text">"Boodskappe verwerk tans 'n inkomende boodskap"</string>
     <string name="incoming_mms_disabled_by_company_pref_summary">Jou maatskappy laat nie inkomende MSS-boodskappe toe nie</string>
-    <string name="indeterminate">Nie gemerk of ontmerk nie</string>
+    <string name="indeterminate">Gedeeltelik gemerk</string>
     <string name="info_and_options_activity_business_tab_list_header">Besigheid</string>
     <string name="info_and_options_activity_info_tab_content_description">Inligting</string>
     <string name="info_and_options_activity_info_tab_title">Inligting</string>
@@ -904,6 +974,9 @@ Jy kan jou verstekoproep-SIM in Stelselinstellings verander. %1$s"</string>
     <string name="info_and_options_view_terms_of_service">Bekyk diensbepalings</string>
     <string name="inline_playback_error">Kan nie hierdie video in Boodskappe speel nie</string>
     <string name="inline_playback_pause_content_description">Onderbreek video</string>
+    <string name="install_photos_app">"Kry Google Foto's"</string>
+    <string name="install_photos_app_title">"Kry die Google Foto's-program om voort te gaan"</string>
+    <string name="install_photos_app_to_continue">"Installeer die program om video's met skerp duidelikheid te stuur"</string>
     <string name="invalid_qr_code_dialog_message">Skandeer die QR-kode op %s om aan te meld</string>
     <string name="invalid_qr_code_dialog_positive_button_text">OK</string>
     <string name="invalid_qr_code_dialog_title">Verkeerde kode</string>
@@ -917,14 +990,12 @@ Jy kan jou verstekoproep-SIM in Stelselinstellings verander. %1$s"</string>
     <string name="leave_confirmation_text">Is jy seker jy wil nie meer boodskappe vanaf hierdie groep ontvang nie?</string>
     <string name="leave_confirmation_title">Verlaat groep permanent</string>
     <string name="libraries_material_featurehighlight_dismiss">Weier</string>
-    <string name="link_preview_enabled_pref_summary">Wys voorskoue in boodskappe</string>
+    <string name="lighter_account_sign_out_snackbar_text">Jy moet aanmeld om jou besigheidgesprekke te sien</string>
+    <string name="lighter_block_report_spam_body">Die besigheidsnaam en jou gesprek met hierdie besigheid gaan na Google (diesverskafferheffings kan geld).</string>
     <string name="link_preview_enabled_pref_summary_off">Af</string>
     <string name="link_preview_failed">Voorskou nie beskikbaar nie</string>
     <string name="link_preview_google_photos_display_name">"Google Foto's"</string>
-    <string name="link_preview_preference_info_text">Google kry voorskou-inhoud vanaf gekoppelde werwe. Slegs skakels vanaf bekende stuurders sal voorskoue bevat. %1$s</string>
-    <string name="link_preview_preference_title">Outomatiese skakelvoorskoue</string>
     <string name="link_preview_tap_to_load">Tik om voorskou te laai</string>
-    <string name="link_preview_wifi_only_pref_summary">Laai slegs voorskoue op Wi-Fi af</string>
     <string name="link_to_settings"><u>Bestuur in instellings</u></string>
     <string name="listify_many">%1$s en %2$d ander</string>
     <string name="listify_one">%s</string>
@@ -970,13 +1041,13 @@ Dit is opsioneel om aanbevole inligting te deel en dit sluit nie die inhoud of t
     <string name="manual_msisdn_skipped_snack_bar_text">Verbeterde kletskenmerke is nie geaktiveer nie. Aktiveer enige tyd in instellings.</string>
     <string name="manual_msisdn_skipped_snack_bar_text_b155475148">Boodskappe sal probeer om jou nommer by jou diensverskaffer te verifieer. Bestuur in Instellings.</string>
     <string name="manual_msisdn_verify_now_snack_bar_text_b155475148">Boodskappe sal probeer om jou nommer by jou diensverskaffer te verifieer. Bestuur in Instellings.</string>
-    <string name="manually_override_rcs_flags">Ignoreer RCS-vlae handmatig</string>
     <string name="mark_all_messages_as_read_confirmation">Alle boodskappe as gelees gemerk</string>
     <string name="mdd_download_notification_channel_name">Data-aflaaikennisgewingkanaal</string>
     <string name="mdd_foreground_service_notification_title">Laai tans af</string>
     <string name="mdd_notification_action_cancel">Kanselleer</string>
     <string name="mdd_notification_download_failed">Kon nie aflaai nie</string>
     <string name="mdd_notification_download_paused">Wag tans vir netwerkverbinding</string>
+    <string name="mdd_notification_download_paused_wifi">Wag tans vir wi-fi-verbinding</string>
     <string name="media_compress_info">Ontvanger sal swakker mediagehalte sien weens diensverskaffer-MMS-limiete</string>
     <string name="media_compress_tooltip_info_icon_text">inligting</string>
     <string name="media_viewer_close_button_description">Maak toe</string>
@@ -1075,6 +1146,8 @@ Dit is opsioneel om aanbevole inligting te deel en dit sluit nie die inhoud of t
     <string name="message_type_vcard">Kontakkaart</string>
     <string name="message_type_video">Video</string>
     <string name="message_video_content_description">Video</string>
+    <string name="message_with_deleted_snippet_talk_back_announcement">%1$s in antwoord op ’n boodskap wat uitgevee is</string>
+    <string name="message_with_reply_snippet_talk_back_announcement">%1$s in antwoord op %2$s vanaf %3$s</string>
     <string name="messages_for_web_preference_summary">Gaan na %1$s</string>
     <string name="messages_for_web_preference_title">SMS, maak oproepe en gaan stempos na op die web</string>
     <string name="messages_status_feedback_data_description">"Alle aanbevole inligting help om versteekte probleme, die verskeie oorsake daarvan, hoe hulle met mekaar verband hou, en waar foutsporing gedoen kan word, te ontdek. 
@@ -1128,11 +1201,15 @@ Jy kan antwoord op kortkodes wat slegs nommers bevat, maar nie op kodes met lett
     <string name="mms_text">MMS</string>
     <string name="more_string">+%1$d</string>
     <string name="mtrl_badge_numberless_content_description">Nuwe kennisgewing</string>
+    <string name="mtrl_checkbox_state_description_checked">Checked</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Indeterminate</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Not checked</string>
     <string name="mtrl_chip_close_icon_content_description">Verwyder %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Meer as %1$d nuwe kennisgewings</string>
     <string name="mtrl_picker_a11y_next_month">Verander na volgende maand</string>
     <string name="mtrl_picker_a11y_prev_month">Verander na vorige maand</string>
     <string name="mtrl_picker_announce_current_selection">Huidige keuse: %1$s</string>
+    <string name="mtrl_picker_cancel">Kanselleer</string>
     <string name="mtrl_picker_confirm">OK</string>
     <string name="mtrl_picker_day_of_week_column_header">Kolom van dae: %1$s</string>
     <string name="mtrl_picker_navigate_to_year_description">Gaan na jaar %1$s</string>
@@ -1144,11 +1221,24 @@ Jy kan antwoord op kortkodes wat slegs nommers bevat, maar nie op kodes met lett
     <string name="multimedia_message">Multimediaboodskap</string>
     <string name="muted_conversation_content_description">Kennisgewings is gedeaktiveer.</string>
     <string name="nav_app_bar_navigate_up_description">Gaan op</string>
+    <string name="nav_archived_messages_folder_title">Geargiveer</string>
+    <string name="nav_choose_theme_title">Kies tema</string>
+    <string name="nav_choose_theme_title_disable_dark_mode">Deaktiveer donkermodus</string>
+    <string name="nav_choose_theme_title_enable_dark_mode">Aktiveer donkermodus</string>
+    <string name="nav_device_pairing_title">Toestelsaambinding</string>
+    <string name="nav_mark_all_as_read_title">Merk alles as gelees</string>
+    <string name="nav_messages_folder_title">Boodskappe</string>
+    <string name="nav_spam_and_blocked_messages_folder_title">Strooipos en geblokkeer</string>
+    <string name="nav_starred_folder_title">Gester</string>
     <string name="navigate_up_button_content_description">Beweeg op</string>
     <string name="new_message_label">{count,plural, =1{1 nuwe boodskap}other{# nuwe boodskappe}}</string>
     <string name="new_pill_label">Nuut</string>
     <string name="new_rich_cards_preference_info_text">Google skandeer geselekteerde inligting (soos plekke of skakels) van jou kletsgeskiedenis sonder om jou te identifiseer om alle voorskoue te skep en skadelike inhoud te identifiseer. %1$s</string>
-    <string name="no_google_account">Geen</string>
+    <string name="no_business_name_fallback">hierdie besigheid</string>
+    <string name="no_connection">Geen verbinding nie</string>
+    <string name="no_media_button">Bekyk opsies</string>
+    <string name="no_media_caption">Probeer ’n ander mediabron of ’n ander profiel</string>
+    <string name="no_media_description">Geen media is op hierdie toestel vir hierdie profiel gestoor nie</string>
     <string name="no_reply_pinned_message_text">Afsender ondersteun nie antwoorde nie</string>
     <string name="no_sim_message">Geen boodskappe op SIM nie</string>
     <string name="not_selected">Nie gekies nie</string>
@@ -1204,31 +1294,51 @@ Jy kan antwoord op kortkodes wat slegs nommers bevat, maar nie op kodes met lett
     <string name="nudge_learn_more_info_text">Meer oor porre</string>
     <string name="nudge_reply_enabled_pref_summary">Boodskappe wat jy dalk moet beantwoord, sal na bo skuif</string>
     <string name="nudge_reply_enabled_pref_title">Stel antwoordonthounotas voor</string>
+    <string name="nudge_settings_page_description">Wys antwoord- en verjaarsdagonthounotas</string>
     <string name="nudge_settings_page_title">Porre</string>
     <string name="numeric_text_keyboard_toggle_button_content_description">Wissel tussen invoer van teks en syfers</string>
     <string name="off">Af</string>
     <string name="og_a11y_close">Maak toe</string>
     <string name="og_account_and_settings">Rekening en instellings.</string>
+    <string name="og_account_particle_disc_no_accounts_available_a11y">Meld aan</string>
     <string name="og_add_another_account">"Voeg 'n ander rekening by"</string>
+    <string name="og_app_settings">%1$s-instellings</string>
     <string name="og_choose_an_account_title">"Kies 'n rekening"</string>
     <string name="og_collapse_account_list_a11y">Vou rekeninglys in.</string>
     <string name="og_continue">Gaan voort</string>
     <string name="og_continue_as">Gaan voort as %1$s</string>
     <string name="og_expand_account_list_a11y">Vou rekeninglys uit.</string>
+    <string name="og_get_storage_action">Kry bergingspasie</string>
+    <string name="og_get_storage_action_short">Koop meer</string>
     <string name="og_google_one_account_a11y">Google One-rekening.</string>
+    <string name="og_help_feedback">Hulp en terugvoer</string>
     <string name="og_loading_a11y">Laai tans</string>
     <string name="og_manage_accounts">Bestuur rekeninge op hierdie toestel</string>
+    <string name="og_manage_storage_action">Bestuur berging</string>
+    <string name="og_manage_storage_action_short">Bestuur</string>
+    <string name="og_minimized_storage_card_title">Berging gebruik: %1$s van %2$s GB</string>
+    <string name="og_more_options_action">Meer opsies</string>
+    <string name="og_more_options_action_short">Opsies</string>
     <string name="og_my_account_desc_long_length">Bestuur jou Google-rekening</string>
     <string name="og_my_account_desc_meduim_length">Google-rekening</string>
     <string name="og_my_account_desc_short_length">Rekening</string>
+    <string name="og_privacy_advisor">Jou data in %1$s</string>
     <string name="og_privacy_policy">Privaatheidsbeleid</string>
     <string name="og_selected_account_a11y">%1$s is gekies.</string>
     <string name="og_sign_in_">Meld aan</string>
     <string name="og_signed_in_as_account">Aangemeld as %1$s</string>
+    <string name="og_storage_card_almost_full_a11y_label">Jou rekeningberging is amper vol</string>
+    <string name="og_storage_card_full_a11y_label">Jou rekeningberging is vol</string>
+    <string name="og_storage_card_title">Rekeningberging</string>
+    <string name="og_storage_card_title_almost_full">%1$s se berging is gebruik</string>
+    <string name="og_storage_card_title_full">Berging is vol</string>
+    <string name="og_storage_progress_subtitle">%1$s GB van %2$s GB is gebruik</string>
     <string name="og_terms_of_service">Diensbepalings</string>
     <string name="og_use_account_a11y_no_period">Gebruik %1$s</string>
+    <string name="og_use_without_an_account">"Gebruik sonder 'n rekening"</string>
     <string name="on">Aan</string>
     <string name="onboarding_google_tos_with_sms_charges_and_learn_more">Jy stem in tot die %1$s en %2$s om kletskenmerke van Google aan te skakel. Google sal van tyd tot tyd jou nommer verifieer deur jou toestelinligting met jou diensverskaffer uit te ruil (SMS-tariewe kan geld). %3$s.</string>
+    <string name="open_full_screen_camera_button_label">Maak volskerm-kamera oop</string>
     <string name="open_video_trimmer_dialog_negative">Kanselleer</string>
     <string name="open_video_trimmer_dialog_positive">Knip</string>
     <string name="organization">Organisasie</string>
@@ -1242,8 +1352,6 @@ Jy kan antwoord op kortkodes wat slegs nommers bevat, maar nie op kodes met lett
     <string name="otp_auto_deletion_promo_banner_positive_button_text">Gaan voort</string>
     <string name="otp_auto_deletion_promo_banner_title_text">"Vee EW's (OTP's) ná 24-uur outomaties uit?"</string>
     <string name="otp_copied_to_clipboard">Kode is gekopieer</string>
-    <string name="otp_pattern_dropdown_hint">Stel OTP-patroon</string>
-    <string name="otp_port_dropdown_hint">Stel OTP-poort</string>
     <string name="outgoing_message_foreground_notification_text">"Boodskappe verwerk tans 'n uitgaande boodskap"</string>
     <string name="outgoing_mms_disabled_by_carrier_pref_summary">Jou diensverskaffer laat nie uitgaande MMS-boodskappe toe nie</string>
     <string name="outgoing_mms_disabled_by_company_pref_summary">Jou maatskappy laat nie uitgaande MMS-boodskappe toe nie</string>
@@ -1269,6 +1377,7 @@ Jy kan antwoord op kortkodes wat slegs nommers bevat, maar nie op kodes met lett
     <string name="paired_desktops_last_connection_time">Laas aktief: %s</string>
     <string name="paired_desktops_last_connection_time_unknown">onbekend</string>
     <string name="participant_joined_group">%s het by hierdie groep aangesluit</string>
+    <string name="participant_joined_with_learn_more">%1$s het by hierdie groep aangesluit. %2$s</string>
     <string name="participant_left_group">%s het hierdie groep verlaat</string>
     <string name="participant_list_add">Voeg mense by</string>
     <string name="participant_list_count_title_icu">{count,plural, =0{0 ander mense}=1{1 ander persoon}other{# ander mense}}</string>
@@ -1288,8 +1397,9 @@ Jy kan antwoord op kortkodes wat slegs nommers bevat, maar nie op kodes met lett
     <string name="phone_number_input_body_for_mo_text">Of slaan oor om later kletskenmerke te kry en Boodskappe sal probeer om jou nommer by jou diensverskaffer te verifieer</string>
     <string name="phone_number_input_body_text">Boodskappe verifieer jou nommer om seker te maak jy kry kletskenmerke</string>
     <string name="phone_number_input_hint">Jou foonnommer</string>
+    <string name="phone_number_input_invalid_number_text">Ongeldige foonnommer</string>
     <string name="phone_number_input_negative_button_for_mo_text">Slaan voorlopig oor</string>
-    <string name="phone_number_input_negative_button_for_mt_text">Herinner later</string>
+    <string name="phone_number_input_negative_button_for_mt_text">Herinner my later</string>
     <string name="phone_number_input_positive_button_text">Voeg nommer by</string>
     <string name="phone_number_input_streamlined_body_for_mo_text">"Deel foto's, video's en meer oor wi-fi of data. Voeg jou nommer nou by om gouer kletskenmerke te kry. Of slaan hierdie stap oor sodat Boodskappe kan probeer om jou nommer op te spoor en te verifieer."</string>
     <string name="phone_number_input_streamlined_body_text">"Deel foto's, video's en meer oor wi-fi of data. Voeg jou nommer nou by om kletskenmerke te kry."</string>
@@ -1304,10 +1414,25 @@ Jy kan antwoord op kortkodes wat slegs nommers bevat, maar nie op kodes met lett
     <string name="phone_number_input_title_text">Voeg jou nommer nou by om gouer kletskenmerke te kry</string>
     <string name="phone_number_input_tos_reminder_text">Jy het reeds tot die %1$s vir kletskenmerke ingestem</string>
     <string name="phone_number_input_tos_text">Diensbepalings</string>
+    <string name="phone_number_promo_banner_body_text">"Om baie duidelike video's, geanimeerde reaksies, en meer oor wi-fi of mobiele data te stuur, bevestig jou foonnommer"</string>
+    <string name="phone_number_promo_banner_negative_button_text">Weier</string>
+    <string name="phone_number_promo_banner_positive_button_text">Volgende</string>
+    <string name="phone_number_promo_banner_title_text">Volgende stap na beter kenmerke vir Boodskappe</string>
+    <string name="phone_number_promo_body_text">Begin nou met jou bevestigde foonnommer. Bestuur kletskenmerke enige tyd in instellings.</string>
+    <string name="phone_number_promo_body_text_mo">Begin nou met jou bevestigde foonnommer. Of slaan oor om kletskenmerke later te kry en Boodskappe sal probeer om jou nommer vir jou te bevestig.</string>
+    <string name="phone_number_promo_negative_button_text">Herinner my later</string>
+    <string name="phone_number_promo_negative_button_text_mo">Slaan voorlopig oor</string>
+    <string name="phone_number_promo_positive_button_text">Kry kletskenmerke</string>
+    <string name="phone_number_promo_title_text">"Is jy gereed om foto's, video's en meer oor wi-fi of met data te deel?"</string>
+    <string name="phone_number_ui_accepted_snackbar_text">Jy sal in kennis gestel word wanneer kletskenmerke beskikbaar is</string>
+    <string name="phone_number_ui_dismissed_snackbar_action_text">Instellings</string>
+    <string name="phone_number_ui_dismissed_snackbar_text">Om nou kletskenmerke te kry, voeg jou foonnommer by of bestuur in instellings</string>
     <string name="photo_taken">Foto geneem</string>
+    <string name="photos_app_installation_required">"Kry die Google Foto's-program om video's met skerp duidelikheid te stuur"</string>
+    <string name="photos_app_onboarding_required">"Gee Google Foto's toegang sodat jy video's met skerp duidelikheid kan stuur"</string>
+    <string name="photos_app_sharing_unavailable_try_again_later">Skakel vir video met skerp duidelikheid is tans nie beskikbaar nie. Video met lae duidelikheid is gereed om te stuur.</string>
+    <string name="photos_app_sign_in_required">"Meld by Google Foto's aan om video's met skerp duidelikheid te stuur"</string>
     <string name="picker_disambiguation_title">Kies bestemming</string>
-    <string name="pin_limit_message">Jy kan tot %1$d gesprekke vasspeld</string>
-    <string name="pin_success_message">Het %1$d van %2$d gesprekke vasgespeld</string>
     <string name="pinch_zoom_pref_title">Knyp om op gesprek se teks in te zoem</string>
     <string name="places_autocomplete_clear_button">Vee soektog uit</string>
     <string name="places_autocomplete_label">"Kies 'n plek"</string>
@@ -1327,7 +1452,7 @@ Jy kan antwoord op kortkodes wat slegs nommers bevat, maar nie op kodes met lett
     <string name="posted_this_year">%1$s%2$s%3$s</string>
     <string name="posted_yesterday">Gister%1$s%2$s</string>
     <string name="preference_copied">\"%1$s\" is na knipbord gekopieer.</string>
-    <string name="preferences_license_title">Oopbronlisensies</string>
+    <string name="preferences_license_title">Derdepartykennisgewings</string>
     <string name="premium_sms_banner_body">Skakel dit in Instellings aan om na %s en ander premium-SMS-nommers te stuur.</string>
     <string name="premium_sms_banner_body_saved_contact">Skakel dit in Instellings aan om na %1$s (%2$s) en ander premium-SMS-nommers te stuur.</string>
     <string name="premium_sms_banner_description">@string/banner_description</string>
@@ -1358,10 +1483,11 @@ Inligting oor jou boodskappe en gesprekke sluit foonnommers en e-posse van stuur
 Hierdie inligting help om aannames te bekragtig en om faktore wat tot die kwessie bydra, te identifiseer, vir vinniger, meer doeltreffende begrip van die kwessie."</string>
     <string name="problematic_message_feedback_data_rationale_title">Hoe inligting oor jou boodskappe en gesprekke help</string>
     <string name="promotion_content_description">"Hierdie boodskap is as 'n aanbod gekategoriseer"</string>
+    <string name="prompt_button_action_not_now">Nie nou nie</string>
+    <string name="prompt_button_action_sign_in">Meld aan</string>
     <string name="proxy_screen_clear_search">Vee soektog uit</string>
     <string name="proxy_screen_search">Soek</string>
     <string name="qr_action_bar_device_pairing_title">Toestelsaambinding</string>
-    <string name="qr_action_bar_title">Boodskappe vir web</string>
     <string name="qr_code_scanner_hint_text">Skandeer die QR-kode wat op &lt;br/><b>%s</b> gewys word</string>
     <string name="qr_code_scanner_preference_button">QR-kodeskandeerder</string>
     <string name="qr_delete_all_paired_desktops_button_text">Maak alle toestelle los</string>
@@ -1376,6 +1502,8 @@ Hierdie inligting help om aannames te bekragtig en om faktore wat tot die kwessi
     <string name="qr_welcome_privacy">Privaatheidsbeleid</string>
     <string name="qr_welcome_terms_of_service">Diensbepalings</string>
     <string name="rbm_block_confirmation_message_spam_folder">Jy sal nie meer in kennis gestel word wanneer jy boodskappe van %1$s ontvang nie. Hierdie gesprek sal na \"Strooipos en geblokkeer\" geskuif word. %2$s</string>
+    <string name="rbm_block_dialog_body">Jy sal nie boodskappe vanaf hierdie stuurder ontvang nie. Hierdie gesprek sal skuif na “Strooipos en geblokkeer,” waar jy dit enige tyd kan deblokkeer.</string>
+    <string name="rbm_block_dialog_positive_button_label">Blokkeer</string>
     <string name="rbm_business_logo_icon_content_description">Besigheidslogo-ikoon</string>
     <string name="rbm_platform_generalized_verifier_title">Geverifieer deur %s</string>
     <string name="rbm_platform_verified_by_google">Deur Google geverifieer</string>
@@ -1395,6 +1523,7 @@ Hierdie inligting help om aannames te bekragtig en om faktore wat tot die kwessi
     <string name="rcs_learn_more_title">%1$s oor kletskenmerke</string>
     <string name="rcs_learn_more_title_with_no_link">Kom meer te wete oor kletskenmerke</string>
     <string name="rcs_message">Rykkommunikasiediens-boodskap</string>
+    <string name="rcs_message_failed_recipient_lost_encryption_content_description">Kan nie afgelewer word nie, tik vir opsies</string>
     <string name="rcs_message_failed_recipient_lost_rcs_content_description">Kan nie afgelewer word nie, tik vir opsies</string>
     <string name="rcs_mobile_data_auto_download_carrier_format_entry">Verstek (%1$s)</string>
     <string name="rcs_mobile_data_auto_download_limit_disable_entry_text">Deaktiveer</string>
@@ -1477,11 +1606,12 @@ Hierdie inligting help om aannames te bekragtig en om faktore wat tot die kwessi
     <string name="reaction_surprised_content_description">Gesig met oop mond</string>
     <string name="reactions_promo_announcement">Druk lank om te reageer</string>
     <string name="reactions_promo_text">Raak en hou om te reageer</string>
-    <string name="read_external_storage_permission_description">Toegang tot jou foon se berging word benodig om die inhoud van jou galery regstreeks van hier af te sien.</string>
+    <string name="read_media_storage_permission_description">Toegang tot jou foon se mediaberging word benodig as jy die inhoud van jou galery direk van hier af wil sien.</string>
     <string name="received_label">Ontvang:</string>
     <string name="recipient_hint">"Voer 'n naam, foonnommer of e-pos in"</string>
     <string name="recipient_label">Aan</string>
     <string name="recipient_offline_description">Wag tot %s aanlyn is …</string>
+    <string name="reminder_badge_content_description">Onthounota-kenteken</string>
     <string name="reminder_datetime_picker_dialog_delete_button">Vee uit</string>
     <string name="reminder_datetime_picker_dialog_menu_title_add">Stel onthounota</string>
     <string name="reminder_datetime_picker_dialog_menu_title_update">Opdatering-herinnering</string>
@@ -1502,7 +1632,7 @@ Hierdie inligting help om aannames te bekragtig en om faktore wat tot die kwessi
     <string name="reminder_suggestions_tooltip_text">Tik en kies n tyd om later op te volg. Skakel voorstelle af in &lt;a href>Instellings&lt;/a></string>
     <string name="reminder_suggestions_tooltip_title_text">Stel onthounotas</string>
     <string name="reminders_banner_body">%1$s: %2$s</string>
-    <string name="reminders_banner_description">@string/banner_description</string>
+    <string name="reminders_banner_description">Reminder conversation banner</string>
     <string name="reminders_banner_done_button">Klaar</string>
     <string name="reminders_banner_remind_button">Herinner 1 u.</string>
     <string name="reminders_banner_self_sender_name">Jy</string>
@@ -1515,7 +1645,7 @@ Hierdie inligting help om aannames te bekragtig en om faktore wat tot die kwessi
     <string name="remove_reaction_from_gif_rcs_fallback_text">Het ‌%1$s‌ van ’n GIF verwyder</string>
     <string name="remove_reaction_from_link_rcs_fallback_text">"Het ‌%1$s‌ van 'n skakel verwyder"</string>
     <string name="remove_reaction_from_photo_rcs_fallback_text">Het ‌%1$s‌ van ’n foto verwyder</string>
-    <string name="remove_reaction_from_text_message_rcs_fallback_text">Het ‌%1$s‌ van “%2$s” verwyder</string>
+    <string name="remove_reaction_from_text_message_rcs_fallback_text">Het ‌%1$s‌ van “ %2$s ” verwyder</string>
     <string name="remove_reaction_from_unknown_message_type_rcs_fallback_text">Het ‌%1$s‌ van ’n onbekende tipe boodskap verwyder</string>
     <string name="remove_reaction_from_video_rcs_fallback_text">Het ‌%1$s‌ van ’n video verwyder</string>
     <string name="remove_user_dialog_cancel">Kanselleer</string>
@@ -1524,14 +1654,17 @@ Hierdie inligting help om aannames te bekragtig en om faktore wat tot die kwessi
     <string name="rename_group_title_m2">Groepnaam</string>
     <string name="reply_activity_title">Antwoord</string>
     <string name="reply_button_label">Antwoord</string>
-    <string name="reply_icon_content_description">Antwoord op boodskap</string>
+    <string name="reply_icon_content_description">Antwoord</string>
     <string name="report_contact_title">Gee strooipos aan</string>
     <string name="report_failed_rcs_group_creation">Iets het skeefgeloop en een of meer deelnemers is nie bygevoeg nie.</string>
     <string name="report_group_spam_body_spam_folder">Die nommers en onlangse boodskappe van ander groepslede sal na Google gaan vir hersiening, en dit kan dalk na jou diensverskaffer gaan (koste kan geld). Hierdie gesprek sal in \"Strooipos en geblokkeer\" bly, sonder kennisgewings. %1$s</string>
+    <string name="report_invalid_thread_id_issue_description">Ongeldige draad-ID. Kry meer besonderhede in loglêers.</string>
     <string name="report_issue_action_text">Stuur terugvoer</string>
+    <string name="report_issue_description">Boodskappe het outomaties ’n fout bespeur. Kry meer besonderhede in loglêers.</string>
     <string name="report_issue_notification_text">"Boodskappe het 'n fout bespeur. Tik om terugvoer te stuur."</string>
     <string name="report_not_spam_snackbar_message">%1$s as nie strooipos aangegee</string>
     <string name="report_person_delivered">%1$s ontvang: %2$s</string>
+    <string name="report_person_ftd">%1$s Kon nie dekripteer nie: %2$s</string>
     <string name="report_person_read">%1$s gelees: %2$s</string>
     <string name="report_person_sent">%s het nie ontvang nie</string>
     <string name="report_receive_issue_notification_message">"Android kan nie 'n boodskap ontvang wat aan jou gestuur is nie. Tik om terugvoer te stuur."</string>
@@ -1544,6 +1677,7 @@ Hierdie inligting help om aannames te bekragtig en om faktore wat tot die kwessi
     <string name="report_spam_snackbar_message">%1$s aangegee as strooipos</string>
     <string name="report_spam_toast_title">Strooipos aangegee</string>
     <string name="report_telephone_db_recreation_message">Kan nie boodskappe gaan haal nie. Tik om terugvoer te stuur.</string>
+    <string name="report_thread_id_not_found_description">Draad-ID ontbreek. Kry meer besonderhede in loglêers.</string>
     <string name="required_permissions_no_promptable_promo">Verander toestemmings in jou toestel se programinstellings. Gee Boodskappe toegang tot SMS, foon en kontakte.</string>
     <string name="required_permissions_no_promptable_title">Verleen toegang</string>
     <string name="required_permissions_promptable_promo">Om jou verstekprogram se opstelling te voltooi, laat Boodskappe jou SMS, foon en kontakte sien.</string>
@@ -1563,6 +1697,11 @@ Hierdie inligting help om aannames te bekragtig en om faktore wat tot die kwessi
     <string name="samsung_setting_search_title">Boodskappe-instellings</string>
     <string name="save">Stoor</string>
     <string name="save_attachment">Stoor</string>
+    <string name="save_banner_body">Stoor hierdie verjaarsdag in jou kontakte-program en Boodskappe sal jou volgende jaar herinner</string>
+    <string name="save_banner_positive_button">Stoor verjaarsdag</string>
+    <string name="save_banner_title_name">Onthou %1$s se verjaarsdag</string>
+    <string name="save_banner_title_no_name">Onthou hulle verjaarsdag</string>
+    <string name="save_birthday_banner_description">@string/banner_description</string>
     <string name="save_otp_confirm_button">Stoor EW</string>
     <string name="save_otp_dialog_message">"Hierdie EW (OTP) sal gestoor word terwyl jou ander EW's (OTP's) steeds ná 24 uur outomaties uitgevee sal word. Bestuur in instellings."</string>
     <string name="save_otp_dialog_title">Stoor hierdie EW?</string>
@@ -1581,6 +1720,7 @@ Hierdie inligting help om aannames te bekragtig en om faktore wat tot die kwessi
     <string name="scheduled_send_announcement_scheduling_failed">Kon nie boodskap skeduleer nie.</string>
     <string name="scheduled_send_announcement_scheduling_started">Skeduleer tans boodskap.</string>
     <string name="scheduled_send_announcement_scheduling_succeeded">Boodskap is geskeduleer.</string>
+    <string name="scheduled_send_badge_content_description">Kenteken vir geskeduleerde stuur</string>
     <string name="scheduled_send_compose_label_close_content_description">Verwyder skedulering.</string>
     <string name="scheduled_send_datetime_picker_subtitle">Hou die foon aan en koppel aan wi-fi of data om te stuur</string>
     <string name="scheduled_send_datetime_picker_title">Skeduleer stuur (%1$s)</string>
@@ -1608,6 +1748,7 @@ Hierdie inligting help om aannames te bekragtig en om faktore wat tot die kwessi
     <string name="security_key_top_level_title">Verifieer enkripsie</string>
     <string name="see_gallery">Sien galery</string>
     <string name="selected">Gekies</string>
+    <string name="selection_position_text">%1$d</string>
     <string name="self_left_group_conversation_failed">Kon nie groep verlaat nie, probeer asseblief later weer.</string>
     <string name="self_participant_reaction_name">Jy</string>
     <string name="self_person_name">Jy</string>
@@ -1657,7 +1798,6 @@ Jou foonnommer word slegs vir foutsporing en oplossing van kwessies gebruik. Goo
     <string name="sending_timeout_failure_dialog_title">Boodskap is nie gestuur nie</string>
     <string name="sent_label">Gestuur:</string>
     <string name="set_message_priority_description">Stel dringende status</string>
-    <string name="set_rcs_flags">Stel RCS-vlae</string>
     <string name="set_rcs_mobile_data_auto_download_limit_title">Laai lêers wat jy oor mobiele data ontvang outomaties af</string>
     <string name="setting_fast_track_body_with_cost">Deur voort te gaan, stem jy in tot die %1$s en %2$s. Vir foonnommer-gebaseerde boodskaplewering, sal Google van tyd tot tyd jou nommer verifieer deur jou toestelinligting met jou diensverskaffer of via SMS uit te ruil (tariewe kan geld). Jy kan kletskenmerke vanaf Instellings deaktiveer. %3$s</string>
     <string name="settings_activity_title">Instellings</string>
@@ -1680,6 +1820,13 @@ Jou foonnommer word slegs vir foutsporing en oplossing van kwessies gebruik. Goo
     <string name="shortcuts_screen_title">Kortpaaie</string>
     <string name="show_sms_link_warning_change_label">Verander</string>
     <string name="show_sms_link_warning_text">"Aanhegsels sal as SMS-boodskappe gestuur word wat 'n skakel na die aanhegsel insluit"</string>
+    <string name="sign_in_app_name_without_account">"Gebruik %1$s sonder 'n rekening"</string>
+    <string name="sign_in_cancel">Kanselleer</string>
+    <string name="sign_in_without_account">"Gebruik sonder 'n rekening"</string>
+    <string name="sign_in_without_account_short">Sonder rekening</string>
+    <string name="sign_into_photos_app">Meld aan</string>
+    <string name="sign_into_photos_app_title">"Meld by Google Foto's aan om voort te gaan"</string>
+    <string name="sign_into_photos_app_with_x_to_continue">Jy stuur tans vanaf %1$s</string>
     <string name="signature_banner_description">@string/banner_description</string>
     <string name="silent_ringtone">Stil</string>
     <string name="sim_label">SIM:</string>
@@ -1698,9 +1845,13 @@ Jou foonnommer word slegs vir foutsporing en oplossing van kwessies gebruik. Goo
     <string name="sim_storage_full_title">SIM-kaartberging is vol</string>
     <string name="sim_storage_pref_title">SIM-kaartboodskappe</string>
     <string name="simple_fail_to_decrypt_message_dialog_body">Probeer om jou Boodskappeprogram op te dateer om toekomstige boodskappe te dekripteer</string>
+    <string name="smart_action_settings_page_description">Wys relevante kortpaaie na kalender, GIF-soektog, deel ligging en meer</string>
+    <string name="smart_action_settings_page_title">Handelinge</string>
+    <string name="smart_actions_preference_summary_shortcuts">Wys relevante kortpaaie na kalender, GIF-soektog, deel ligging en meer</string>
     <string name="smart_actions_preference_title">Voorgestelde handelinge</string>
     <string name="smart_compose_preference_summary">Wys voorspellendeskryfvoorstelle</string>
     <string name="smart_compose_preference_title">Slimskryf</string>
+    <string name="smart_reply_preference_summary">Wys kletsantwoordopsies</string>
     <string name="smarts_preference_info_text">Slimantwoord en voorgestelde handelinge is slegs aan jou sigbaar totdat jy tik en deel. &lt;br/> &lt;br/> Voorstelle verskil gebaseer op jou gesprek en word op toestel gegenereer. %1$s</string>
     <string name="smarts_preference_info_text_with_assistant">Slimantwoord, voorgestelde aksies Assistent-voorstelle word met op-toestel-intelligensie deur Boodskappe gegenereer. &lt;br/> &lt;br/>Voorstelle word nie met Google of enigiemand anders gedeel totdat jy op dit tik nie. &lt;br/> &lt;br/> As jy Boodskappe toelaat om toegang tot jou toestel se ligging te kry, sal jy meer plaaslike voorstelle sien. %1$s</string>
     <string name="smarts_settings_page_summary">Slimantwoord, voorgestelde handelinge en meer</string>
@@ -1727,19 +1878,18 @@ Antwoorde sal in individuele gesprekke verskyn"</string>
     <string name="snackbar_text_label_rcs_group_created_too_large">{max_group_size_including_self,plural, =1{Kan nie meer as # persoon hê nie}other{Kan nie meer as # mense hê nie}}</string>
     <string name="snackbar_text_label_rcs_group_self_only">Hierdie groep is leeg. Voeg mense by hierdie groep voordat jy boodskappe vir hierdie klets stuur.</string>
     <string name="snippet">%1$s: %2$s</string>
-    <string name="snippet_assistant_card_text">Assistentkaart</string>
-    <string name="snippet_attachment_icon_content_description">Aanhegselikoon by antwoordbrokkie</string>
     <string name="snippet_audio_attachment_text">Oudio</string>
-    <string name="snippet_deleted_message_text">Boodskap is uitgevee</string>
-    <string name="snippet_dismiss_icon_content_description">Antwoord-toemaak-ikoon</string>
+    <string name="snippet_deleted_message_text">Boodskap uitgevee</string>
+    <string name="snippet_dismiss_icon_content_description">Vee uit</string>
     <string name="snippet_file_attachment_text">Lêer</string>
     <string name="snippet_from_you">Jy: %s</string>
     <string name="snippet_image_attachment_text">Prent</string>
-    <string name="snippet_media_thumbnail_content_description">Miniprent by antwoordbrokkie</string>
     <string name="snippet_self_participant_header">Jy</string>
     <string name="snippet_video_attachment_text">Video</string>
     <string name="soft_num_key_pad_backspace_content_description">Backspace</string>
     <string name="someone_added_participant">%1$s het %2$s by hierdie groep gevoeg</string>
+    <string name="someone_added_participant_with_learn_more">%1$s het %2$s by hierdie groep gevoeg. %3$s</string>
+    <string name="someone_else_created_encrypted_rcs_group">%1$s het hierdie groepklets met %2$s geskep. %3$s</string>
     <string name="someone_else_created_mms_group">%1$s het hierdie groep-MMS met %2$s geskep</string>
     <string name="someone_else_created_rcs_group">%1$s het hierdie groepklets met %2$s geskep</string>
     <string name="someone_joined_group">Iemand het by hierdie groep aangesluit</string>
@@ -1763,7 +1913,6 @@ Antwoorde sal in individuele gesprekke verskyn"</string>
     <string name="spam_dialog_title_spam_folder">Gee strooipos aan?</string>
     <string name="spam_folder_activity_title">Strooipos en geblokkeer</string>
     <string name="spam_folder_conversation_list_empty_text_v2">Strooipos en geblokkeerde gesprekke verskyn hier</string>
-    <string name="spam_preference_info_text_on_device">Boodskappe gebruik intoestelintelligensie om strooipos te bespeur en stuur sekere data oor hierdie boodskappe aan Google, sonder om jou foonnommer of boodskapinhoud in te sluit. %1$s</string>
     <string name="spam_protection_consent_string">Om te help om strooipos te bespeur, stuur Boodskappe sekere data oor jou boodskappe aan Google sonder om jou foonnommer of boodskapinhoud in te sluit. %1$s</string>
     <string name="spam_reporting_from">Strooiposaanmelding</string>
     <string name="spam_settings">Strooiposbeskerming</string>
@@ -1772,6 +1921,8 @@ Antwoorde sal in individuele gesprekke verskyn"</string>
     <string name="split_view_pref_title">Lysbesonderhede-aansig</string>
     <string name="stacked_banner_count_text">1 van %1$d</string>
     <string name="star_badge_content_description">Sterkenteken</string>
+    <string name="star_badge_menu_remove_action">Verwyder</string>
+    <string name="star_badge_menu_view_all_action">Bekyk alles</string>
     <string name="star_badge_on_click_snackbar_action">Ontdoen</string>
     <string name="star_badge_on_click_snackbar_message">Ster is verwyder</string>
     <string name="sticker_content_description">Plakker van %s</string>
@@ -1808,10 +1959,12 @@ Antwoorde sal in individuele gesprekke verskyn"</string>
     <string name="subject_with_label">Onderwerp: %1$s</string>
     <string name="subject_with_urgent_label">[DRINGEND] %1$s</string>
     <string name="success_message_format">%1$s %2$s %3$s %4$s %5$s %6$s.</string>
+    <string name="success_message_self_sender">Jy het gesê %1$s %2$s %3$s %4$s.</string>
     <string name="success_message_self_sender_format_with_multiple_attachments">Jy het veelvuldige aanhegsels gestuur %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_self_sender_format_with_single_attachment">"Jy het 'n aanhegsel gestuur %1$s %2$s %3$s %4$s %5$s."</string>
     <string name="success_message_specified_sender_format_with_multiple_attachments">%1$s het veelvuldige aanhegsels gestuur %2$s %3$s %4$s %5$s %6$s.</string>
     <string name="success_message_specified_sender_format_with_single_attachment">"%1$s het 'n aanhegsel gestuur %2$s %3$s %4$s %5$s %6$s."</string>
+    <string name="success_message_unspecified_sender">Die stuurder het gesê %1$s %2$s %3$s %4$s.</string>
     <string name="success_message_unspecified_sender_format_with_multiple_attachments">Die stuurder het veelvuldige aanhegsels gestuur %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_unspecified_sender_format_with_single_attachment">"Die stuurder het 'n aanhegsel gestuur %1$s %2$s %3$s %4$s %5$s."</string>
     <string name="success_sent_to_message_format">Gestuur aan %1$s%2$s%3$s%4$s</string>
@@ -1820,10 +1973,18 @@ Antwoorde sal in individuele gesprekke verskyn"</string>
     <string name="sud_back_button_label">Terug</string>
     <string name="sud_more_button_label">Meer</string>
     <string name="sud_next_button_label">Volgende</string>
-    <string name="suggested_stickers_preference_summary">Wys voorgestelde plakkers</string>
+    <string name="suggested_stickers_preference_summary">Wys plakkerantwoordopsies</string>
     <string name="suggested_stickers_preference_title">Voorgestelde plakkers</string>
+    <string name="suggestion_shortcut_dialog_body_text">Ster ’n boodskap, skeduleer in die oomblik en meer, met vinnige en maklike kortpaaie.</string>
+    <string name="suggestion_shortcut_dialog_positive_button">OK</string>
+    <string name="suggestion_shortcut_dialog_subsection_body_text">Kortpaaie word deur dinge soos foonnommers en datums gepor. %1$s</string>
+    <string name="suggestion_shortcut_dialog_subsection_title_text">Hoe dit werk</string>
+    <string name="suggestion_shortcut_dialog_title">Voorgestelde kortpaaie om jou vinniger daar te kry</string>
+    <string name="suggestion_shortcut_search_title">Soek</string>
+    <string name="suggestion_shortcut_star_toolstone">Ster boodskappe en vind hulle maklik in %1$s</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_notification_inbox_style_summary_text">Nog +%d</string>
+    <string name="super_sort_pref_title">Boodskaporganisasie</string>
     <string name="super_sort_settings_title">Boodskaporganisasie</string>
     <string name="supersort_conversation_list_empty_text_business_update">Besigheidopdaterings verskyn outomaties hier</string>
     <string name="supersort_conversation_list_empty_text_manage_in_settings">Bestuur in instellings</string>
@@ -1886,6 +2047,11 @@ Vind enige gesprek in Alle"</string>
     <string name="survey_user_agent">Gebruikeragent</string>
     <string name="survey_very_dissatisfied">Baie ontevrede</string>
     <string name="survey_very_satisfied">Baie tevrede</string>
+    <string name="swipe_actions">Swiephandelinge</string>
+    <string name="swipe_actions_summary">Kies Argiveer of Vee uit, na regs of na links, of skakel swiep af</string>
+    <string name="swipe_customize">Pasmaak</string>
+    <string name="swipe_left">Swiep links</string>
+    <string name="swipe_right">Swiep regs</string>
     <string name="switcher_no_phone_number">SIM-kaart nie gevind nie</string>
     <string name="switcher_pair_device_title_text">"Stuur SMS'e met saamgebinde foon"</string>
     <string name="switcher_positive_button_text">Gaan voort</string>
@@ -1893,6 +2059,7 @@ Vind enige gesprek in Alle"</string>
     <string name="switcher_use_device_sim_number">(%s)</string>
     <string name="switcher_use_device_sim_title_text">"Stuur SMS'e met hierdie toestel se SIM"</string>
     <string name="syncing_with_device_foreground_notification_text">Boodskappe sinkroniseer tans met jou toestel</string>
+    <string name="system_picker_button_label">Vouers</string>
     <string name="t_mobile_tos_pref_link_text">Bepalings en voorwaardes</string>
     <string name="t_mobile_tos_pref_text">Kletskenmerke vanaf Google deur T-mobile aangedryf. Raadpleeg %1$s.</string>
     <string name="t_mobile_tos_pref_url">https://www.t-mobile.com/responsibility/legal/terms-and-conditions</string>
@@ -1917,6 +2084,7 @@ Instellings > %1$s"</string>
     <string name="theme_setting_dialog_options_light_mode">Lig</string>
     <string name="theme_setting_dialog_options_system_default_mode">Stelselverstek</string>
     <string name="theme_setting_dialog_title">Kies tema</string>
+    <string name="tiktok_account_login_failure">Kon nie by die geselekteerde rekening aanmeld nie.</string>
     <string name="tiktok_add_account_error">Kon nie rekening byvoeg nie. Probeer weer.</string>
     <string name="tiktok_fix_it">Maak dit reg</string>
     <string name="tiktok_load_account_failure">Kon nie rekeninge laai nie.</string>
@@ -1942,6 +2110,18 @@ Net jy kan hierdie naam sien"</string>
     <string name="tombstone_self_removed_from_group_referrer_known">%1$s het jou uit hierdie groep verwyder</string>
     <string name="tombstone_self_removing_others_from_group">Jy het %1$s uit hierdie groep verwyder</string>
     <string name="tombstone_show_link_previews">Skakelvoorskoue is aan.&lt;br />Kom meer te wete, of skakel af in &lt;u>Instellings&lt;/u>.</string>
+    <string name="tombstone_show_link_previews_disabled">Skakelvoorskoue is afgeskakel.&lt;br />Kom meer te wete of skakel aan in &lt;u>Instellings&lt;/u>.</string>
+    <string name="tooltip_content">"Jou Google-rekening dryf kenmerke
+soos Google Foto's-skakeldeling aan
+in Boodskappe
+sonder om by jou
+gesprekke in te gaan.
+]nBoodskappe word steeds van jou
+foonnommer af gestuur. Kom meer te wete"</string>
+    <string name="tooltip_content_with_line_break_fix">"Jou Google-rekening dryf kenmerke aan soos om skakels met Google Foto's in Boodskappe te deel sonder om by jou gesprekke in te gaan.
+
+Boodskappe word steeds vanaf jou foonnommer gestuur. Kom meer te wete"</string>
+    <string name="tooltip_link">Kom meer te wete</string>
     <string name="top_contacts_grid_name">★</string>
     <string name="top_contacts_title">Topkontakte</string>
     <string name="transaction_content_description">"Hierdie boodskap is as 'n transaksie gekategoriseer"</string>
@@ -1951,6 +2131,7 @@ Net jy kan hierdie naam sien"</string>
     <string name="unblock_and_report_not_spam_snackbar_message">%1$s gedeblokkeer en gerapporteer as nie strooipos nie</string>
     <string name="unblock_banner_body">Om hierdie gesprek uit die argief te skuif en weer boodskappe te kry, deblokkeer %s</string>
     <string name="unblock_banner_body_spam_folder">Om hierdie gesprek uit \"Strooipos en geblokkeer\" te skuif en weer boodskappe te kry, deblokkeer %s</string>
+    <string name="unblock_banner_body_v2">Unblock to receive messages from this sender</string>
     <string name="unblock_banner_description">@string/banner_description</string>
     <string name="unblock_banner_positive_button">Deblokkeer</string>
     <string name="unblock_banner_title">Geblokkeer</string>
@@ -1986,6 +2167,7 @@ Foonnommers word slegs vir foutsporing en oplossing van kwessies gebruik. Google
     <string name="unsent">Ongestuur</string>
     <string name="unspam_banner_body">Om hierdie gesprek uit die argief te skuif en weer kennisgewings te kry, rapporteer %s as nie strooipos nie</string>
     <string name="unspam_banner_body_spam_folder">Om hierdie gesprek uit \"Strooipos en geblokkeer\" te skuif en weer kennisgewings te kry, rapporteer %s as nie strooipos nie</string>
+    <string name="unspam_banner_body_v2">Report as not spam to receive messages from this sender</string>
     <string name="unspam_banner_description">@string/banner_description</string>
     <string name="unspam_banner_end_button">Nie strooipos nie</string>
     <string name="unspam_banner_title">Aangegee as strooipos</string>
@@ -2001,6 +2183,8 @@ Foonnommers word slegs vir foutsporing en oplossing van kwessies gebruik. Google
     <string name="unsupported_file_save_alert">Stoor aanhegsel na aflaaie?</string>
     <string name="unsupported_file_save_cancel">Kanselleer</string>
     <string name="unverified_sms_banner_description">@string/banner_description</string>
+    <string name="unwanted_messages_toolstone_link">Blokkeer en gee aan</string>
+    <string name="unwanted_messages_toolstone_text">Vir ongewenste boodskappe, %1$s</string>
     <string name="upcoming_reminder">Komende herinnering</string>
     <string name="update_content_description">"Hierdie boodskap is as 'n opdatering gekategoriseer"</string>
     <string name="update_donation_banner_body_v2">Jou identiteit bly privaat en jy kan enige boodskapinhoud verwyder</string>
@@ -2043,6 +2227,7 @@ Foonnommers word slegs vir foutsporing en oplossing van kwessies gebruik. Google
     <string name="video_attachment_content_description">Video-aanhegsel</string>
     <string name="video_attachment_limit_exceeded_when_sending">"Jy kan net een video per boodskap stuur. Verwyder bykomende video's en probeer weer."</string>
     <string name="video_compress_info">Ontvanger sal swakker videogehalte sien weens diensverskaffer-MMS-limiete</string>
+    <string name="video_format_type">video</string>
     <string name="video_media_failure">"Probeer om langer op te neem om 'n video te skep"</string>
     <string name="video_taken">Video geneem</string>
     <string name="video_thumbnail_view_play_button_content_description">Speel video</string>
@@ -2089,19 +2274,20 @@ Gebruik jou beste oordeel met die inhoud van hierdie boodskap."</string>
     <string name="websiteTypeWork">Werk</string>
     <string name="welcome_agree_button_text">Stem saam</string>
     <string name="welcome_chat_features_decline">Gebruik Boodskappe sonder kletskenmerke</string>
-    <string name="welcome_chat_features_learn_more">Kom meer te wete oor kletskenmerke</string>
     <string name="welcome_chat_features_legal">Deur kletskenmerke te gebruik, stem jy in tot die %1$s en %2$s. Google sal nou en dan jou nommer met jou diensverskaffer verifieer (SMS-tariewe kan geld).</string>
+    <string name="welcome_chat_features_text">"– Stuur oor wi-fi of mobiele data
+· Deel jou lêers en media
+· Hou jou boodskappe privaat"</string>
     <string name="welcome_chat_features_title">Vinniger, ryker, hoër gehalte klets op Wi-Fi of data</string>
+    <string name="welcome_chat_features_title_experiment_0">Doen meer as ooit met Boodskappe</string>
+    <string name="welcome_chat_features_title_experiment_1">Doen meer as ooit met kletskenmerke in Boodskappe</string>
     <string name="welcome_consent_button_text">Volgende</string>
-    <string name="welcome_finish_button_text">Voltooi</string>
     <string name="welcome_smarts_notice_description">"Vereenvoudig jou kletse met kenmerke soos Google Assistent en Slimantwoord. Jou kletse bly veilig op jou toestel.
 %1$s en %2$s"</string>
     <string name="welcome_smarts_notice_title">Nuttige smarts</string>
     <string name="welcome_spam_description">"Google gebruik fonnommers wat nie jou kontakte is nie, om strooipos te help voorkom, sonder om jou of jou nommer te identifiseer.
 %1$s en %2$s"</string>
     <string name="welcome_spam_title">Strooiposbeskerming</string>
-    <string name="welcome_splash_tagline">"Eenvoudige, slim boodskappe
-deur Google"</string>
     <string name="widget_reply_exit_content_description">Terug</string>
     <string name="widget_reply_open">MAAK BOODSKAPPE OOP</string>
     <string name="widget_reply_to">Antwoord %s</string>
@@ -2109,9 +2295,14 @@ deur Google"</string>
     <string name="work_directory_display_name">Werkprofielkontakte</string>
     <string name="xms_send_mode_pref_title">Stuur net SMS- en MMS-boodskappe</string>
     <string name="you_added_participant">Jy het %s by hierdie groep gevoeg</string>
+    <string name="you_added_participant_with_learn_more">Jy het %1$s by hierdie groep gevoeg. %2$s</string>
+    <string name="you_created_encrypted_rcs_group">Jy het hierdie groepklets met %1$s geskep. %2$s</string>
     <string name="you_created_mms_group">Jy het hierdie groep-MMS met %s geskep</string>
     <string name="you_created_rcs_group">Jy het hierdie groepklets met %s geskep</string>
     <string name="you_left_group">Jy het hierdie groep verlaat</string>
+    <string name="youtube_dismissal_prompt">Tik en sleep om toe te maak</string>
+    <string name="youtube_drag_prompt">Sleep om die speler te skuif</string>
+    <string name="youtube_pip_playing">Video speel tans</string>
     <string name="zero_connectivity_failure_announcement">Boodskap nie gestuur nie</string>
     <string name="zero_state_search_action_copy">Kopieer</string>
     <string name="zero_state_search_action_jump_to_chat">Sien in klets</string>
@@ -2131,6 +2322,7 @@ deur Google"</string>
     <string name="zero_state_search_details_image_accessibility">Beeld gestuur deur %1$s op %2$s</string>
     <string name="zero_state_search_details_video_accessibility">Video gestuur deur %1$s op %2$s</string>
     <string name="zero_state_search_dropdown_free_text">Soek vir \"%s\"</string>
+    <string name="zero_state_search_empty_results_text">Jou gesterde boodskappe, media en skakels vanaf hierdie gesprek sal hier verskyn</string>
     <string name="zero_state_search_images">Prente</string>
     <string name="zero_state_search_link_copied">Skakel is gekopieer</string>
     <string name="zero_state_search_links">Skakels</string>

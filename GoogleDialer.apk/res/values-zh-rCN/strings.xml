@@ -63,7 +63,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript">^1，^2，^3</string>
     <string name="a11y_new_call_log_entry_phone_account">通过“^1”</string>
     <string name="a11y_new_call_log_entry_rtt_call">与^1进行 RTT 通话</string>
-    <string name="a11y_new_call_log_entry_tap_action">展开菜单</string>
+    <string name="a11y_new_call_log_entry_tap_action">展开或收起菜单</string>
     <string name="a11y_new_call_log_entry_video_call">与^1进行视频通话</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">使用 WLAN 向^1发起视频通话邀请</string>
     <string name="a11y_new_call_log_entry_voice_call">给^1打电话</string>
@@ -191,6 +191,7 @@
     <string name="atlas_soda_banner_feature_text">呼叫保持</string>
     <string name="atlas_temp_service_notification_title">正在初始化呼叫保持通话</string>
     <string name="atlas_warning_text_for_second_incoming_call">如果接听此来电，系统会结束呼叫保持通话</string>
+    <string name="audio_route_item_checked_description">已选中</string>
     <string name="audioroute_bluetooth">蓝牙</string>
     <string name="audioroute_headset">有线耳机</string>
     <string name="audioroute_phone">听筒</string>
@@ -235,6 +236,7 @@
     <string name="bm_suggest_wait_time_estimating">"Chat
 处理中…"</string>
     <string name="bottomsheet_action_expand_halfway">展开到一半高度</string>
+    <string name="bottomsheet_drag_handle_content_description">拖动手柄</string>
     <string name="bubble_bottom_action_end_call">结束通话</string>
     <string name="bubble_bottom_action_hide">隐藏</string>
     <string name="bubble_return_to_call">返回通话</string>
@@ -582,10 +584,8 @@
     <string name="copy_number">复制号码</string>
     <string name="create_new_contact">新建联系人</string>
     <string name="crosby_setting_title">通话录音</string>
-    <string name="crystal_clear_audio_setting_title">清晰通话</string>
     <string name="current_voicemail_greeting_record_instruction">录制问候语</string>
     <string name="current_voicemail_greeting_recording_title">我的语音信箱问候语</string>
-    <string name="custom_message_hint">自行撰写信息</string>
     <string name="custom_prefix_add_prefix_to_call_entry_always_add_prefix">始终添加前缀</string>
     <string name="custom_prefix_add_prefix_to_call_entry_ask_before_dialing">拨号前先询问</string>
     <string name="custom_prefix_add_prefix_to_call_entry_never_add_prefix">永不添加前缀</string>
@@ -670,11 +670,11 @@
     <string name="display_options_view_given_name_first">名字在前</string>
     <string name="display_options_view_names_as">姓名格式</string>
     <string name="do_not_show_again">不再显示</string>
-    <string name="duo_fallback_dialog_do_not_show_again_label">记住此选择</string>
-    <string name="duo_fallback_dialog_message">无法使用运营商视频通话功能完成视频通话。请尝试改用 Duo 进行通话。</string>
-    <string name="duo_fallback_dialog_negative_button_label">取消</string>
-    <string name="duo_fallback_dialog_positive_button_label">使用 Duo</string>
-    <string name="duo_fallback_dialog_title">想试试 Google Duo？</string>
+    <string name="duo_fallback_dialog_do_not_show_again_label">将 Duo 设为每次通话的备用选项。随时可在“设置”中进行管理。</string>
+    <string name="duo_fallback_dialog_message">在你无法通过运营商完成视频通话时，Duo 会自动尝试发起通话。</string>
+    <string name="duo_fallback_dialog_negative_button_label">不用了</string>
+    <string name="duo_fallback_dialog_positive_button_label">将 Duo 用作备用选项</string>
+    <string name="duo_fallback_dialog_title">要将 Google Duo 用作备用选项吗？</string>
     <string name="edit_number_before_call">拨打电话前编辑号码</string>
     <string name="emergency_assist_address_sentence">我所在的位置是：%1$s。</string>
     <string name="emergency_assist_button_fire">火灾</string>
@@ -696,6 +696,7 @@
     <string name="emergency_voice_assist_dialog_button_close">取消</string>
     <string name="emergency_voice_assist_dialog_title">系统会向紧急服务接线员发送以下内容</string>
     <string name="end_call_with_default_message_description">结束通话</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_icon_content_description">错误</string>
     <string name="error_unable_to_get_audio">无法获取音频示例</string>
     <string name="error_unable_to_play_audio">无法播放音频示例</string>
@@ -740,7 +741,7 @@
     <string name="first_time_dialog_duo_video_call_label">Google Duo</string>
     <string name="first_time_dialog_negative_button_label">取消</string>
     <string name="first_time_dialog_positive_button_label">选择</string>
-    <string name="first_time_dialog_remember_this_choice_label">记住此选择</string>
+    <string name="first_time_dialog_remember_this_choice_label">每次通话都使用此选项。随时可在“设置”中进行管理。</string>
     <string name="first_time_dialog_title">选择视频通话服务</string>
     <string name="flip_to_shush_title">翻转即可设为勿扰</string>
     <string name="flip_to_silence_summary">如果要将来电静音，请将手机正面朝下放在平坦的表面上</string>
@@ -788,6 +789,8 @@
     <string name="incall_content_description_hold">保持通话</string>
     <string name="incall_content_description_merge_calls">合并通话</string>
     <string name="incall_content_description_muted">已静音</string>
+    <string name="incall_content_description_show_less">收起</string>
+    <string name="incall_content_description_show_more">展开</string>
     <string name="incall_content_description_speaker">免提</string>
     <string name="incall_content_description_swap_calls">切换通话</string>
     <string name="incall_content_description_swap_sim">更改 SIM 卡</string>
@@ -803,6 +806,7 @@
     <string name="incall_label_hold">保持通话</string>
     <string name="incall_label_manage">管理</string>
     <string name="incall_label_merge">合并</string>
+    <string name="incall_label_more">更多</string>
     <string name="incall_label_mute">静音</string>
     <string name="incall_label_record">录制</string>
     <string name="incall_label_record_checked">停止录音</string>
@@ -835,15 +839,9 @@
     <string name="join_call_with_default_message_description">加入通话</string>
     <string name="just_now">刚刚</string>
     <string name="lat_long_format">%1$f, %2$f</string>
+    <string name="launch_application_settings">设置</string>
     <string name="launcherActivityLabel">电话</string>
     <string name="learn_more_text_for_tmo">访问 T-Mobile 网站以了解详情</string>
-    <string name="legacy_post_call_message">说明致电原因</string>
-    <string name="legacy_post_call_message_1">情况紧急，请回电。</string>
-    <string name="legacy_post_call_message_2">有空时给我回电。</string>
-    <string name="legacy_post_call_message_3">不着急，稍后再聊。</string>
-    <string name="legacy_post_call_message_sent">信息已发送</string>
-    <string name="legacy_post_call_send_message">发送信息</string>
-    <string name="legacy_post_call_view">查看</string>
     <string name="libraries_material_featurehighlight_dismiss">关闭</string>
     <string name="license_activity_label">开放源代码许可</string>
     <string name="light_theme_label">浅色</string>
@@ -868,6 +866,7 @@
     <string name="mdd_notification_action_cancel">取消</string>
     <string name="mdd_notification_download_failed">下载失败</string>
     <string name="mdd_notification_download_paused">正在等待连接到网络</string>
+    <string name="mdd_notification_download_paused_wifi">正在等待建立 Wi-Fi 连接</string>
     <string name="meid_number">MEID %s</string>
     <string name="menu_callNumber">拨打 %s</string>
     <string name="merge_calls_confirm_message">请仅在确保知悉通话参与者的情况下再合并通话</string>
@@ -907,11 +906,9 @@
     <string name="nearbyplaces_account_setting_title">Google 帐号</string>
     <string name="new_call_log_activity_title">通话记录</string>
     <string name="new_call_log_all_title">全部</string>
-    <string name="new_call_log_carrier_video">运营商视频通话</string>
     <string name="new_call_log_clear_call_log_confirmation">这会删除您的所有通话记录</string>
     <string name="new_call_log_clear_call_log_confirmation_title">要清除通话记录吗？</string>
     <string name="new_call_log_delete_all">清除通话记录</string>
-    <string name="new_call_log_duo_video">Duo 视频通话</string>
     <string name="new_call_log_empty">您拨打的电话会显示在此处</string>
     <string name="new_call_log_generic_video">视频</string>
     <string name="new_call_log_header_older">更早</string>
@@ -929,6 +926,7 @@
     <string name="new_permission_no_search">要搜索您的联系人，请开启“通讯录”权限。</string>
     <string name="non_contact_always_record_dialog_title">要始终录制与非通讯录号码的通话吗？</string>
     <string name="non_contact_toggle_label">非联系人号码</string>
+    <string name="non_spam_aftercall_notification_title">认识 %1$s 吗？</string>
     <string name="non_spam_notification_title">%1$s 是陌生号码吗？</string>
     <string name="not_set">未设置</string>
     <string name="notification_action_accept">接受</string>
@@ -979,7 +977,7 @@
     <string name="notification_ongoing_call">正在通话</string>
     <string name="notification_ongoing_call_multi_sim">正在进行通话（使用 %1$s）</string>
     <string name="notification_ongoing_call_wifi_template">正在通话 - %1$s</string>
-    <string name="notification_ongoing_call_wifi_template_multi_sim">正在进行 %1$s 通话（使用 %1$s）</string>
+    <string name="notification_ongoing_call_wifi_template_multi_sim">Ongoing %1$s via %2$s</string>
     <string name="notification_ongoing_paused_video_call">正在进行运营商视频通话 ‑ 已暂停发送视频画面</string>
     <string name="notification_ongoing_paused_video_call_multi_sim">正在进行运营商视频通话（使用 %1$s）‑ 已暂停发送视频画面</string>
     <string name="notification_ongoing_video_call">正在进行运营商视频通话</string>
@@ -992,7 +990,7 @@
     <string name="notification_take_call">接通通话</string>
     <string name="notification_take_video_call">接通视频通话</string>
     <string name="notification_voicemail_callers_list">%1$s，%2$s</string>
-    <string name="notification_voicemail_no_vm_number">语音信箱号码未知</string>
+    <string name="notification_voicemail_no_vm_number">要设置语音信箱，请转到“菜单”>“设置”。</string>
     <string name="notification_voicemail_text_format">拨打 %s</string>
     <string name="old_block_number_confirmation_title">要屏蔽 %1$s 吗？</string>
     <string name="openhistory_button_label">记录</string>
@@ -1033,6 +1031,7 @@
     <string name="precall_dialpad_chat_button">聊天</string>
     <string name="precall_dialpad_chat_wait_min">等待 %1$d 分钟</string>
     <string name="preference_copied">已将“%1$s”复制到剪贴板。</string>
+    <string name="preferences_license_title">第三方声明</string>
     <string name="presence_optin_dialog_do_not_show_again_label">不再显示</string>
     <string name="presence_optin_dialog_message">"发起视频通话前，Verizon 想要确认哪些电话号码可以接听 Verizon 视频通话。
 
@@ -1047,7 +1046,7 @@
     <string name="private_num_non_verizon">私密号码</string>
     <string name="private_num_verizon">受限</string>
     <string name="private_or_hidden_action_preference_description">隐藏本机号码的来电者</string>
-    <string name="private_or_hidden_action_preference_title">不公开或隐藏的号码</string>
+    <string name="private_or_hidden_action_preference_title">匿名号码和隐藏号码</string>
     <string name="quick_contact_checkbox_description">选择联系人</string>
     <string name="ready_for_recording">已就绪…</string>
     <string name="record_audio_pre_call_dialog_got_it">知道了</string>
@@ -1094,7 +1093,7 @@ Call Screen 不需要使用移动数据网络或 WLAN，但会消耗运营商服
     <string name="revelio_end_call_user_missed_internal_message">您错过了来电</string>
     <string name="revelio_pref_title">Call Screen</string>
     <string name="revelio_preference_summary_automatic_screening_off">自动过滤功能已关闭</string>
-    <string name="revelio_preference_summary_screening">过滤“%1$s”</string>
+    <string name="revelio_preference_summary_screening">屏幕 %1$s</string>
     <string name="revelio_save_audio_setting_summary">保存 Google 助理接听的通话的音频</string>
     <string name="revelio_save_audio_setting_title">保存 Call Screen 音频</string>
     <string name="revelio_setting_title">Call Screen</string>
@@ -1168,7 +1167,6 @@ Call Screen 不需要使用移动数据网络或 WLAN，但会消耗运营商服
     <string name="set_default_account_description">已为您的联系人保存 SIM 卡偏好设置。</string>
     <string name="set_phone_as_default_explanation_text">您只有将“电话”应用设为默认电话应用，才能使用它拨打和接听电话</string>
     <string name="set_phone_as_default_request_text">将“电话”设为默认应用</string>
-    <string name="settings">设置</string>
     <string name="settings_page_call_recording_feature_not_available_text">通话录音服务无法在您所在地点使用</string>
     <string name="settings_page_crosby_feature_not_available_text">无法在您所在的地点使用</string>
     <string name="setup_duo_button_long_text">设置 Duo 视频通话</string>
@@ -1218,6 +1216,9 @@ Call Screen 不需要使用移动数据网络或 WLAN，但会消耗运营商服
     <string name="sounds_and_vibration_title">提示音和振动</string>
     <string name="spam_action_preference_description">与 Google 垃圾内容数据库中的号码匹配的号码</string>
     <string name="spam_action_preference_title">骚扰电话号码</string>
+    <string name="spam_after_call_notification_add_contact_action_text">添加联系人</string>
+    <string name="spam_after_call_notification_report_spam_action_text">屏蔽并举报</string>
+    <string name="spam_aftercall_notification_unknown">未知</string>
     <string name="spam_and_call_screen_settings_title">骚扰电话和 Call Screen</string>
     <string name="spam_blocking_promo_action_dismiss">关闭</string>
     <string name="spam_blocking_promo_action_filter_spam">过滤骚扰电话</string>
@@ -1229,6 +1230,9 @@ Call Screen 不需要使用移动数据网络或 WLAN，但会消耗运营商服
     <string name="spam_blocking_settings_enable_error_text">启用骚扰电话过滤功能时出错</string>
     <string name="spam_blocking_settings_summary">防止您受到疑似骚扰电话的打扰</string>
     <string name="spam_blocking_settings_title">过滤骚扰电话</string>
+    <string name="spam_dialog_add_contact_action">添加到通讯录</string>
+    <string name="spam_dialog_dismiss_action">关闭</string>
+    <string name="spam_notification_action_block_spam">是的，屏蔽号码</string>
     <string name="spam_notification_action_dismiss">关闭</string>
     <string name="spam_notification_add_contact_action_text">添加联系人</string>
     <string name="spam_notification_block_spam_action_text">是的，屏蔽号码</string>
@@ -1468,27 +1472,27 @@ Call Screen 不需要使用移动数据网络或 WLAN，但会消耗运营商服
     <string name="videocall_remotely_resumed">通话已恢复</string>
     <string name="videocall_settings_default_ask_every_time">每次都询问</string>
     <string name="videocall_settings_default_carrier">运营商视频通话</string>
-    <string name="videocall_settings_default_caution">This feature allows a user to choose a preferred video call solution and indicate the receiver’s video capability when it’s available. ^1</string>
-    <string name="videocall_settings_default_caution_learn_more">Learn more about preferred video services</string>
+    <string name="videocall_settings_default_caution">选择进行视频通话的方式，并了解通话对象能否接听视频通话。^1</string>
+    <string name="videocall_settings_default_caution_learn_more">详细了解视频通话</string>
     <string name="videocall_settings_default_duo">Google Duo</string>
     <string name="videocall_settings_default_title">首选的视频通话服务</string>
-    <string name="videocall_settings_fallback_caution">"When “Use Google Duo as backup” (if applicable) is on and a call can't be completed using your preferred service, the call will automatically be attempted on Duo. ^1"</string>
-    <string name="videocall_settings_fallback_caution_learn_more">Learn more about Duo backup calling</string>
+    <string name="videocall_settings_fallback_caution">如果你将 Google Duo 用作备用选项并将其开启，那么在你无法通过运营商完成视频通话时，Duo 会自动尝试发起通话。^1</string>
+    <string name="videocall_settings_fallback_caution_learn_more">详细了解如何将 Duo 作为备用选项</string>
     <string name="videocall_settings_fallback_summary">在无法使用首选服务时切换到 Duo</string>
-    <string name="videocall_settings_fallback_title">将 Google Duo 作为备用选项</string>
+    <string name="videocall_settings_fallback_title">将 Duo 作为备用选项</string>
     <string name="videocall_settings_title">视频通话</string>
     <string name="videocall_show_preview_button_description">显示本地视频画面</string>
     <string name="view_location_settings">位置信息设置</string>
     <string name="vitle_label">LTE 视频通话</string>
     <string name="viwifi_label">WLAN 视频通话</string>
     <string name="vm_change_pin_error_invalid">新的 PIN 码包含无效字符。</string>
-    <string name="vm_change_pin_error_last_4_digits_msisdn">新的 PIN 码不得是您的电话号码后四位数。</string>
+    <string name="vm_change_pin_error_last_4_digits_msisdn">PIN 码不能是电话号码的后 4 位数字。</string>
     <string name="vm_change_pin_error_mismatch">旧的 PIN 码不匹配。</string>
     <string name="vm_change_pin_error_system_error">无法更改 PIN 码</string>
     <string name="vm_change_pin_error_too_long">新的 PIN 码太长。</string>
     <string name="vm_change_pin_error_too_short">新的 PIN 码太短。</string>
     <string name="vm_change_pin_error_too_weak">新的 PIN 码安全系数太低。如要提高密码强度，请勿使用连续或重复的数字。</string>
-    <string name="vm_change_pin_error_unchanged_pin">新的 PIN 码与当前 PIN 码相同。请输入不同的 PIN 码。</string>
+    <string name="vm_change_pin_error_unchanged_pin">新 PIN 码不能与当前的 PIN 码相同。</string>
     <string name="vm_change_pin_progress_message">请稍候。</string>
     <string name="voice_call">拨打语音电话</string>
     <string name="voice_call_button">拨打电话</string>
@@ -1510,11 +1514,9 @@ Call Screen 不需要使用移动数据网络或 WLAN，但会消耗运营商服
     <string name="voicemailMultiSelectDeleteConfirm">删除</string>
     <string name="voicemail_action_call_customer_support">致电客服人员</string>
     <string name="voicemail_action_call_voicemail">呼叫语音信箱</string>
-    <string name="voicemail_action_dimiss">不用了</string>
     <string name="voicemail_action_retry">重试</string>
     <string name="voicemail_action_set_pin">设置 PIN 码</string>
     <string name="voicemail_action_sync">同步</string>
-    <string name="voicemail_action_turn_archive_on">启用</string>
     <string name="voicemail_action_turn_off_airplane_mode">飞行模式设置</string>
     <string name="voicemail_activating_summary_info">正在激活语音信箱</string>
     <string name="voicemail_advanced_settings_title">高级设置</string>
@@ -1529,7 +1531,7 @@ Call Screen 不需要使用移动数据网络或 WLAN，但会消耗运营商服
     <string name="voicemail_change_pin_preference_summary_disable">必须启用可视语音信箱才能更改 PIN 码</string>
     <string name="voicemail_change_pin_preference_summary_not_activated">可视语音信箱尚未激活，请稍后再试</string>
     <string name="voicemail_change_pin_preference_title">更改 PIN 码</string>
-    <string name="voicemail_donate_preference_summary_info">允许 Google 查看您的语音信息，提高转录准确度。您的语音信息会以匿名形式存储。%1$s</string>
+    <string name="voicemail_donate_preference_summary_info">允许 Google 查看您的语音信息，提高转录准确度。您的语音信息会以匿名形式存储。^1</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">如果在没有数据流量的情况下使用可视化语音信箱功能，运营商可能会收取相应的费用</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">可视语音信箱仅适用于所选数据 SIM 卡</string>
     <string name="voicemail_error_activating_message">您必须完全激活可视语音信箱，才能收到语音信息通知。在完全激活前，请呼叫语音信箱以检索新信息。</string>
@@ -1542,12 +1544,8 @@ Call Screen 不需要使用移动数据网络或 WLAN，但会消耗运营商服
     <string name="voicemail_error_bad_config_title">无法更新可视语音信箱</string>
     <string name="voicemail_error_communication_message">您仍然可以通过拨打电话来查看语音信息。</string>
     <string name="voicemail_error_communication_title">无法更新可视语音信箱</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_message">您的邮箱快满了。如要释放空间，请启用额外存储空间，以便 Google 管理和备份您的语音信息。</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_title">启用额外存储空间和备份功能</string>
     <string name="voicemail_error_inbox_full_message">您的收件箱已满。请尝试删除部分邮件，以便接收新的语音信息。</string>
     <string name="voicemail_error_inbox_full_title">无法接收新的语音信息</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_message">您的邮箱已满。如要释放空间，请启用额外存储空间，以便 Google 管理和备份您的语音信息。</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_title">启用额外存储空间和备份功能</string>
     <string name="voicemail_error_inbox_near_full_message">如果收件箱满了，您将无法接收新的语音信息。</string>
     <string name="voicemail_error_inbox_near_full_title">收件箱快满了</string>
     <string name="voicemail_error_no_data_cellular_required_message">请在移动数据网络连接信号较强时重试。您仍然可以通过拨打电话来查看语音信息。</string>
@@ -1580,7 +1578,7 @@ Call Screen 不需要使用移动数据网络或 WLAN，但会消耗运营商服
     <string name="voicemail_transcription_failed_language_not_supported">转录失败，语言不受支持。</string>
     <string name="voicemail_transcription_failed_no_speech">转录失败，检测不到语音。</string>
     <string name="voicemail_transcription_in_progress">正在转录…</string>
-    <string name="voicemail_transcription_preference_summary_info">借助 Google 的转录服务获取语音信息的转录文本。%1$s</string>
+    <string name="voicemail_transcription_preference_summary_info">借助 Google 的转录服务获取语音信息的转录文本。^1</string>
     <string name="voicemail_visual_voicemail_auto_archive_switch_title">额外的备份功能和存储空间</string>
     <string name="voicemail_visual_voicemail_donation_switch_title">语音信息转录分析</string>
     <string name="voicemail_visual_voicemail_switch_title">可视语音信箱</string>
@@ -1636,7 +1634,7 @@ Call Screen 不需要使用移动数据网络或 WLAN，但会消耗运营商服
     <string name="wait_prompt_str">"发送以下音频？
 "</string>
     <string name="was_this_a_business_chip_text">这是商家吗？</string>
-    <string name="was_this_a_business_dialog_body">确认此标签有助于 Google 改进来电显示功能</string>
+    <string name="was_this_a_business_dialog_body">确认此号码有助于 Google 改进来电显示功能</string>
     <string name="was_this_a_business_dialog_negative_response">否</string>
     <string name="was_this_a_business_dialog_positive_response">是</string>
     <string name="was_this_a_business_dialog_snackbar">感谢您的反馈</string>

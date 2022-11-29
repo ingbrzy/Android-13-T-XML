@@ -63,7 +63,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript">^1, ^2, ^3.</string>
     <string name="a11y_new_call_log_entry_phone_account">^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">^1 bilan RTT suhbat qilish</string>
-    <string name="a11y_new_call_log_entry_tap_action">menyuni ochish</string>
+    <string name="a11y_new_call_log_entry_tap_action">menyuni kengaytirish yoki yig‘ish</string>
     <string name="a11y_new_call_log_entry_video_call">^1 bilan video suhbat boshlash</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">^1 bilan Wi-Fi orqali video muloqot qilish</string>
     <string name="a11y_new_call_log_entry_voice_call">chaqiruv: ^1</string>
@@ -191,6 +191,7 @@ Yozib olingan chaqiruvlar faqat telefoningizga saqlanadi, xolos.^1"</string>
     <string name="atlas_soda_banner_feature_text">Hold for Me</string>
     <string name="atlas_temp_service_notification_title">Hold for Me chaqiruvi amalga oshirilmoqda</string>
     <string name="atlas_warning_text_for_second_incoming_call">Bu chaqiruvga javob berilsa, Hold for Me funksiyasi faolsizlantiriladi</string>
+    <string name="audio_route_item_checked_description">Belgilandi</string>
     <string name="audioroute_bluetooth">Bluetooth</string>
     <string name="audioroute_headset">Simli garnitura</string>
     <string name="audioroute_phone">Telefon</string>
@@ -235,6 +236,7 @@ Yozib olingan chaqiruvlar faqat telefoningizga saqlanadi, xolos.^1"</string>
     <string name="bm_suggest_wait_time_estimating">"Chat
 Kutib turing…"</string>
     <string name="bottomsheet_action_expand_halfway">Yarmiga kengaytirish</string>
+    <string name="bottomsheet_drag_handle_content_description">Surish dastagi</string>
     <string name="bubble_bottom_action_end_call">Chaqiruvni tugatish</string>
     <string name="bubble_bottom_action_hide">Berkitish</string>
     <string name="bubble_return_to_call">Chaqiruvga qaytish</string>
@@ -582,10 +584,8 @@ Zudlik bilan yordam kerak."</string>
     <string name="copy_number">Raqamni nusxalash</string>
     <string name="create_new_contact">Yangi kontakt yaratish</string>
     <string name="crosby_setting_title">Suhbatni yozib olish</string>
-    <string name="crystal_clear_audio_setting_title">Tiniq ovoz</string>
     <string name="current_voicemail_greeting_record_instruction">Salom. yozib oling</string>
     <string name="current_voicemail_greeting_recording_title">Ovozli pochta salomlashuvim</string>
-    <string name="custom_message_hint">Boshqa xabar yozing</string>
     <string name="custom_prefix_add_prefix_to_call_entry_always_add_prefix">Har doim prefiks kiritilsin</string>
     <string name="custom_prefix_add_prefix_to_call_entry_ask_before_dialing">Chaqiruvdan oldin so‘ralsin</string>
     <string name="custom_prefix_add_prefix_to_call_entry_never_add_prefix">Prefiks kiritilmasin</string>
@@ -670,11 +670,11 @@ Zudlik bilan yordam kerak."</string>
     <string name="display_options_view_given_name_first">Avval ismi</string>
     <string name="display_options_view_names_as">Ism formati</string>
     <string name="do_not_show_again">Boshqa ko‘rsatilmasin</string>
-    <string name="duo_fallback_dialog_do_not_show_again_label">Shu tanlov eslab qolinsin</string>
-    <string name="duo_fallback_dialog_message">Video chaqiruvni aloqa operatoringiz orqali amalga oshirish imkonsiz. Chaqiruvni Duo orqali amalga oshiring.</string>
-    <string name="duo_fallback_dialog_negative_button_label">Bekor qilish</string>
-    <string name="duo_fallback_dialog_positive_button_label">Duo ishlatish</string>
-    <string name="duo_fallback_dialog_title">Google Duo bilan sinalsinmi?</string>
+    <string name="duo_fallback_dialog_do_not_show_again_label">Duo ilovasini har bir chaqiruv uchun zaxira sifatida eslab qoling. Istalgan vaqtda sozlamalar orqali boshqaring.</string>
+    <string name="duo_fallback_dialog_message">Agar operatoringiz video chaqiruvni yakunlay olmasa, Duo avtomatik ravishda telefon qilishga urinib ko‘radi.</string>
+    <string name="duo_fallback_dialog_negative_button_label">Kerak emas</string>
+    <string name="duo_fallback_dialog_positive_button_label">Duo bilan zaxiralash</string>
+    <string name="duo_fallback_dialog_title">Chaqiruvlar Google Duo bilan zaxiralansinmi?</string>
     <string name="edit_number_before_call">Chaqiruvdan oldin tahrirlash</string>
     <string name="emergency_assist_address_sentence">Manzilim – %1$s.</string>
     <string name="emergency_assist_button_fire">O‘t o‘chir. xizmati</string>
@@ -696,6 +696,7 @@ Zudlik bilan yordam kerak."</string>
     <string name="emergency_voice_assist_dialog_button_close">Bekor qilish</string>
     <string name="emergency_voice_assist_dialog_title">Favqulodda xizmatlar operatori bu matnni eshitadi</string>
     <string name="end_call_with_default_message_description">Tugatish</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_icon_content_description">Xato</string>
     <string name="error_unable_to_get_audio">Audio namunasini olish imkonsiz</string>
     <string name="error_unable_to_play_audio">Audio namunasini tinglash imkonsiz</string>
@@ -740,7 +741,7 @@ Zudlik bilan yordam kerak."</string>
     <string name="first_time_dialog_duo_video_call_label">Google Duo</string>
     <string name="first_time_dialog_negative_button_label">Bekor qilish</string>
     <string name="first_time_dialog_positive_button_label">Tanlash</string>
-    <string name="first_time_dialog_remember_this_choice_label">Shu tanlov eslab qolinsin</string>
+    <string name="first_time_dialog_remember_this_choice_label">Har bir chaqiruv uchun eslab qoling. Istalgan vaqtda sozlamalar orqali boshqaring.</string>
     <string name="first_time_dialog_title">Video chaqiruv xizmatini tanlang</string>
     <string name="flip_to_shush_title">Pastga qaratib jimlatish</string>
     <string name="flip_to_silence_summary">Kiruvchi chaqiruvlarni ovozsiz qilish uchun telefonni tekis yuzaga ekrani bilan pastga qaratib qo‘ying.</string>
@@ -788,6 +789,8 @@ Zudlik bilan yordam kerak."</string>
     <string name="incall_content_description_hold">Qo‘ng‘iroqni kutish rejimiga o‘tkazish</string>
     <string name="incall_content_description_merge_calls">Qo‘ng‘iroqlarni birlashtirish</string>
     <string name="incall_content_description_muted">Mikrofon o‘chirib qo‘yildi</string>
+    <string name="incall_content_description_show_less">Kamroq</string>
+    <string name="incall_content_description_show_more">Yana</string>
     <string name="incall_content_description_speaker">Karnay</string>
     <string name="incall_content_description_swap_calls">Boshqa qo‘ng‘iroqqa o‘tish</string>
     <string name="incall_content_description_swap_sim">SIM kartani o‘zgartirish</string>
@@ -803,6 +806,7 @@ Zudlik bilan yordam kerak."</string>
     <string name="incall_label_hold">Pauza</string>
     <string name="incall_label_manage">Boshqarish</string>
     <string name="incall_label_merge">Birlashtirish</string>
+    <string name="incall_label_more">Yana</string>
     <string name="incall_label_mute">Ovozsiz</string>
     <string name="incall_label_record">Yozib olish</string>
     <string name="incall_label_record_checked">To‘xtatish</string>
@@ -835,15 +839,9 @@ Zudlik bilan yordam kerak."</string>
     <string name="join_call_with_default_message_description">Qabul qilish</string>
     <string name="just_now">Hozirgina</string>
     <string name="lat_long_format">%1$f, %2$f</string>
+    <string name="launch_application_settings">Sozlamalar</string>
     <string name="launcherActivityLabel">Telefon</string>
     <string name="learn_more_text_for_tmo">Batafsil axborot olish uchun T-Mobile saytiga kiring</string>
-    <string name="legacy_post_call_message">Bu chaqiruvdan maqsad?</string>
-    <string name="legacy_post_call_message_1">Bu juda shoshilinch. Menga qaytib telefon qiling.</string>
-    <string name="legacy_post_call_message_2">Imkoniyatingiz bo‘lganda, menga qaytib telefon qiling.</string>
-    <string name="legacy_post_call_message_3">Shoshilinch emas. Keyinroq ham suhbatlashishimiz mumkin.</string>
-    <string name="legacy_post_call_message_sent">Xabar yuborildi</string>
-    <string name="legacy_post_call_send_message">Xabar yuboring</string>
-    <string name="legacy_post_call_view">Ochish</string>
     <string name="libraries_material_featurehighlight_dismiss">Yopish</string>
     <string name="license_activity_label">Ochiq kodli DT litsenziyalari</string>
     <string name="light_theme_label">Kunduzgi</string>
@@ -868,6 +866,7 @@ Zudlik bilan yordam kerak."</string>
     <string name="mdd_notification_action_cancel">Bekor qilish</string>
     <string name="mdd_notification_download_failed">Yuklab olinmadi</string>
     <string name="mdd_notification_download_paused">Tarmoqqa ulanish kutilmoqda</string>
+    <string name="mdd_notification_download_paused_wifi">Wi-Fi aloqasi kutilmoqda</string>
     <string name="meid_number">MEID (%s)</string>
     <string name="menu_callNumber">%s raqamiga qo‘ng‘iroq qilish</string>
     <string name="merge_calls_confirm_message">Chaqiruvdagi abonentlar bir-biriga tanish bo‘lsagina chaqiruvlarni birlashtiring.</string>
@@ -907,11 +906,9 @@ Zudlik bilan yordam kerak."</string>
     <string name="nearbyplaces_account_setting_title">Google hisobi</string>
     <string name="new_call_log_activity_title">Chaqiruvlar tarixi</string>
     <string name="new_call_log_all_title">Hammasi</string>
-    <string name="new_call_log_carrier_video">Operator orqali video chaqiruv</string>
     <string name="new_call_log_clear_call_log_confirmation">Chaqiruvlar tarixidagi barcha axborot tozalanadi</string>
     <string name="new_call_log_clear_call_log_confirmation_title">Chaqiruvlar tarixi tozalansinmi?</string>
     <string name="new_call_log_delete_all">Chaqiruvlar tarixini tozalash</string>
-    <string name="new_call_log_duo_video">Duo orqali video chaqiruv</string>
     <string name="new_call_log_empty">Bu yerda chiquvchi chaqiruvlaringiz chiqadi</string>
     <string name="new_call_log_generic_video">Video</string>
     <string name="new_call_log_header_older">Eskiroq</string>
@@ -929,6 +926,7 @@ Zudlik bilan yordam kerak."</string>
     <string name="new_permission_no_search">Kontaktlarni qidirish uchun “Kontaktlar” ruxsatnomasini yoqing.</string>
     <string name="non_contact_always_record_dialog_title">Kontaktlaringizga kiritilmagan abonenentlar bilan suhbatingiz har doim yozib olinsinmi?</string>
     <string name="non_contact_toggle_label">Begona raqamlar</string>
+    <string name="non_spam_aftercall_notification_title">%1$s egasini taniysizmi?</string>
     <string name="non_spam_notification_title">%1$s sizga tanish raqammi?</string>
     <string name="not_set">Tayinlanmagan</string>
     <string name="notification_action_accept">Roziman</string>
@@ -979,7 +977,7 @@ Zudlik bilan yordam kerak."</string>
     <string name="notification_ongoing_call">Joriy chaqiruv</string>
     <string name="notification_ongoing_call_multi_sim">%1$s orqali chaqiruv davom etmoqda</string>
     <string name="notification_ongoing_call_wifi_template">Joriy %1$s</string>
-    <string name="notification_ongoing_call_wifi_template_multi_sim">%1$s orqali %1$s chaqiruv davom etmoqda</string>
+    <string name="notification_ongoing_call_wifi_template_multi_sim">Ongoing %1$s via %2$s</string>
     <string name="notification_ongoing_paused_video_call">Video chaqiruv davom etmoqda ‑ video pauza qilindi</string>
     <string name="notification_ongoing_paused_video_call_multi_sim">%1$s orqali video chaqiruv davom etmoqda ‑ video pauzada</string>
     <string name="notification_ongoing_video_call">Uyali tarmoq orqali video chaqiruv davom etmoqda</string>
@@ -992,7 +990,7 @@ Zudlik bilan yordam kerak."</string>
     <string name="notification_take_call">Qo‘ng‘iroqni qabul qilish</string>
     <string name="notification_take_video_call">Shu qurilmada davom etish</string>
     <string name="notification_voicemail_callers_list">%1$s, %2$s</string>
-    <string name="notification_voicemail_no_vm_number">Ovozli pochta raqami noma’lum</string>
+    <string name="notification_voicemail_no_vm_number">Ovozli pochtani sozlab olish uchun Menyu > Sozlamalarni oching.</string>
     <string name="notification_voicemail_text_format">Chaqiruv: %s</string>
     <string name="old_block_number_confirmation_title">%1$s bloklansinmi?</string>
     <string name="openhistory_button_label">Tarix</string>
@@ -1047,7 +1045,7 @@ Ayrim telefon raqamlariga sozlamalarni o‘zgartirmasdan turib ham video chaqiru
     <string name="private_num_non_verizon">Maxfiy raqam</string>
     <string name="private_num_verizon">Yashirin raqam</string>
     <string name="private_or_hidden_action_preference_description">Telefon raqamlarini berkitadigan abonentlar</string>
-    <string name="private_or_hidden_action_preference_title">Shaxsiy yoki berkitilgan</string>
+    <string name="private_or_hidden_action_preference_title">Shaxsiy va yashirin raqamlar</string>
     <string name="quick_contact_checkbox_description">Kontaktni tanlang</string>
     <string name="ready_for_recording">Tayyorlanmoqda…</string>
     <string name="record_audio_pre_call_dialog_got_it">OK</string>
@@ -1094,7 +1092,7 @@ Chaqiruvlar filtrida internet ishlatilmaydi, lekin mobil aloqa tarif rejangizdag
     <string name="revelio_end_call_user_missed_internal_message">Chaqiruvga javob berilmadi</string>
     <string name="revelio_pref_title">Chaqiruvlar filtri</string>
     <string name="revelio_preference_summary_automatic_screening_off">Avtomatik filtrlash yoqilmagan</string>
-    <string name="revelio_preference_summary_screening">Filtrlash: %1$s</string>
+    <string name="revelio_preference_summary_screening">%1$sni tekshirish</string>
     <string name="revelio_save_audio_setting_summary">Assistent javob bergan chaqiruvlar audiosini saqlab olishingiz mumkin</string>
     <string name="revelio_save_audio_setting_title">Chaqiruvlar filtri audiosini saqlash</string>
     <string name="revelio_setting_title">Chaqiruvlar filtri</string>
@@ -1168,7 +1166,6 @@ Chaqiruvlar filtrida internet ishlatilmaydi, lekin mobil aloqa tarif rejangizdag
     <string name="set_default_account_description">Kontaktlar uchun SIM karta saqlandi.</string>
     <string name="set_phone_as_default_explanation_text">Bu Telefon ilovasi birlamchi qilinsagina telefon qilish va chaqiruvlarni qabul qilish mumkin.</string>
     <string name="set_phone_as_default_request_text">Telefon ilovasini birlamchi qilish</string>
-    <string name="settings">Sozlamalar</string>
     <string name="settings_page_call_recording_feature_not_available_text">Suhbatni yozib olish funksiyasi hududingizda ishlamaydi</string>
     <string name="settings_page_crosby_feature_not_available_text">Hududingizda ishlamaydi</string>
     <string name="setup_duo_button_long_text">Duo video chaqiruvini sozlash</string>
@@ -1218,6 +1215,9 @@ Chaqiruvlar filtrida internet ishlatilmaydi, lekin mobil aloqa tarif rejangizdag
     <string name="sounds_and_vibration_title">Tovushlar va tebranish</string>
     <string name="spam_action_preference_description">Google kompaniyasining spam ma’lumotlar bazasidagi mavjud raqamlar</string>
     <string name="spam_action_preference_title">Spam</string>
+    <string name="spam_after_call_notification_add_contact_action_text">Kontaktni qo‘shish</string>
+    <string name="spam_after_call_notification_report_spam_action_text">Bloklash/xabar ber.</string>
+    <string name="spam_aftercall_notification_unknown">Noma’lum</string>
     <string name="spam_and_call_screen_settings_title">Spam va chaqiruvlar filtri</string>
     <string name="spam_blocking_promo_action_dismiss">Yopish</string>
     <string name="spam_blocking_promo_action_filter_spam">Spamni filtrlash</string>
@@ -1229,6 +1229,9 @@ Chaqiruvlar filtrida internet ishlatilmaydi, lekin mobil aloqa tarif rejangizdag
     <string name="spam_blocking_settings_enable_error_text">Spam chaqiruvlarni filtrlar funksiyasi yoqilmadi</string>
     <string name="spam_blocking_settings_summary">Shubhali chaqiruvlarni bezovta qilmasligi uchun bloklash</string>
     <string name="spam_blocking_settings_title">Spam chaqiruvlarni filtrlash</string>
+    <string name="spam_dialog_add_contact_action">Kontaktlarga saqlash</string>
+    <string name="spam_dialog_dismiss_action">Yopish</string>
+    <string name="spam_notification_action_block_spam">Raqam bloklansin</string>
     <string name="spam_notification_action_dismiss">Yopish</string>
     <string name="spam_notification_add_contact_action_text">Kontaktni saqlash</string>
     <string name="spam_notification_block_spam_action_text">Raqam bloklansin</string>
@@ -1468,27 +1471,27 @@ Bunda mobil trafik uchun haq olinadi."</string>
     <string name="videocall_remotely_resumed">Qo‘ng‘iroq tiklandi</string>
     <string name="videocall_settings_default_ask_every_time">Har safar so‘ralsin</string>
     <string name="videocall_settings_default_carrier">Aloqa operatori orqali video chaqiruv</string>
-    <string name="videocall_settings_default_caution">This feature allows a user to choose a preferred video call solution and indicate the receiver’s video capability when it’s available. ^1</string>
-    <string name="videocall_settings_default_caution_learn_more">Learn more about preferred video services</string>
+    <string name="videocall_settings_default_caution">Video chaqiruvni qanday amalga oshirishingizni tanlang va telefon qilayotgan odam uni qabul qila oladimi yoki yo‘qligini biling. ^1</string>
+    <string name="videocall_settings_default_caution_learn_more">Video chaqiruvlar haqida batafsil</string>
     <string name="videocall_settings_default_duo">Google Duo</string>
     <string name="videocall_settings_default_title">Afzal video chaqiruv xizmati</string>
-    <string name="videocall_settings_fallback_caution">"When “Use Google Duo as backup” (if applicable) is on and a call can't be completed using your preferred service, the call will automatically be attempted on Duo. ^1"</string>
-    <string name="videocall_settings_fallback_caution_learn_more">Learn more about Duo backup calling</string>
-    <string name="videocall_settings_fallback_summary">Afzal video chaqiruv xizmatidan foydalanish imkonsiz ekanligida, Duo xizmatiga almashtirilsin</string>
-    <string name="videocall_settings_fallback_title">Google Duo xizmatidan zaxira aloqa usuli sifatida foydalanish</string>
+    <string name="videocall_settings_fallback_caution">Agar sizda zaxira sifatida Google Duo bo‘lsa va u yoqilgan bo‘lsa, operatoringiz video chaqiruvni yakunlay olmasa, Duo avtomatik ravishda telefon qilishga urinib ko‘radi. ^1</string>
+    <string name="videocall_settings_fallback_caution_learn_more">Zaxira sifatida Duo haqida batafsil</string>
+    <string name="videocall_settings_fallback_summary">Agar siz tanlagan xizmat mavjud bo‘lmasa, Duo xizmatiga almashtirilsin</string>
+    <string name="videocall_settings_fallback_title">Duo xizmatini zaxira xizmati sifatida ishlatish</string>
     <string name="videocall_settings_title">Video chaqiruv</string>
     <string name="videocall_show_preview_button_description">Shaxsiy video tasmani chiqarish</string>
     <string name="view_location_settings">Joylashuv sozlamalari</string>
     <string name="vitle_label">Video (LTE)</string>
     <string name="viwifi_label">Video chaqiruv (Wi-Fi)</string>
     <string name="vm_change_pin_error_invalid">Yangi PIN kodda yaroqsiz belgilari bor.</string>
-    <string name="vm_change_pin_error_last_4_digits_msisdn">Yangi PIN kod telefon raqamingizning oxirgi 4 ta raqami bo‘lmasligi lozim.</string>
+    <string name="vm_change_pin_error_last_4_digits_msisdn">"Your PIN can't be the last 4 digits of your phone number."</string>
     <string name="vm_change_pin_error_mismatch">Eski PIN kod mos kelmayapti.</string>
     <string name="vm_change_pin_error_system_error">PIN kodni o‘zgartirib bo‘lmadi.</string>
     <string name="vm_change_pin_error_too_long">Yangi PIN kod juda uzun.</string>
     <string name="vm_change_pin_error_too_short">Yangi PIN kod juda qisqa.</string>
     <string name="vm_change_pin_error_too_weak">Yangi PIN kod juda oddiy. Kuchli PIN kodda raqamlar odatiy tartibda bo‘lmasligi yoki takrorlanmasligi lozim.</string>
-    <string name="vm_change_pin_error_unchanged_pin">Yangi PIN kod hozirgi PIN kod bilan bir xil. Boshqa PIN kod kiriting.</string>
+    <string name="vm_change_pin_error_unchanged_pin">"Your new PIN can't be the same as your current PIN."</string>
     <string name="vm_change_pin_progress_message">Iltimos, kuting…</string>
     <string name="voice_call">Ovozli chaqiruv qilish</string>
     <string name="voice_call_button">Chaqiruv</string>
@@ -1510,11 +1513,9 @@ Bunda mobil trafik uchun haq olinadi."</string>
     <string name="voicemailMultiSelectDeleteConfirm">O‘chirish</string>
     <string name="voicemail_action_call_customer_support">Mijozlarga ko‘mak xizmatiga terish</string>
     <string name="voicemail_action_call_voicemail">Ovozli xabarlarni tinglash</string>
-    <string name="voicemail_action_dimiss">Kerak emas</string>
     <string name="voicemail_action_retry">Qaytadan</string>
     <string name="voicemail_action_set_pin">PIN kod o‘rnatish</string>
     <string name="voicemail_action_sync">Sinxronlash</string>
-    <string name="voicemail_action_turn_archive_on">Yoqish</string>
     <string name="voicemail_action_turn_off_airplane_mode">Parvoz rejimi sozlamalari</string>
     <string name="voicemail_activating_summary_info">Ovozli pochtani yoqish</string>
     <string name="voicemail_advanced_settings_title">Kengaytirilgan sozlamalar</string>
@@ -1529,7 +1530,7 @@ Bunda mobil trafik uchun haq olinadi."</string>
     <string name="voicemail_change_pin_preference_summary_disable">PIN kodni almashtirish uchun vizual ovozli pochtani yoqing.</string>
     <string name="voicemail_change_pin_preference_summary_not_activated">Vizual ovozli pochta hali yoqilmadi. Keyinroq qayta urining.</string>
     <string name="voicemail_change_pin_preference_title">PIN kodni almashtirish</string>
-    <string name="voicemail_donate_preference_summary_info">Transkripsiya sifatini yaxshilash maqsadida Googlega ovozli xabarlaringizni tekshirishiga ruxsat bering. Ovozli xabarlar anonim saqlanadi.%1$s</string>
+    <string name="voicemail_donate_preference_summary_info">Transkripsiya sifatini yaxshilash maqsadida Googlega ovozli xabarlaringizni tekshirishiga ruxsat bering. Ovozli xabarlar anonim saqlanadi.^1</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">Internet uchun to‘lovi oldindan qilinmagan SIM kartalar orqali vizual ovozli pochtadan foydalanilsa, operator tariflari asosida haq olinishi mumkin.</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">Vizual ovozli xabarlardan internet ulangan va tanlangan SIM karta orqali foydalanish mumkin, xolos.</string>
     <string name="voicemail_error_activating_message">Vizual ovozli pochta xizmati faollashtirilmasa, yangi ovozli xabarlar haqida bildirishnoma kelmaydi. Ungacha ovozli pochta raqamiga terib, yangi xabarlarni tinglashingiz mumkin.</string>
@@ -1542,12 +1543,8 @@ Bunda mobil trafik uchun haq olinadi."</string>
     <string name="voicemail_error_bad_config_title">Vizual ovozli pochta yangilanmadi</string>
     <string name="voicemail_error_communication_message">Ovozli pochtani maxsus raqamga terib ham tekshirishingiz mumkin.</string>
     <string name="voicemail_error_communication_title">Vizual ovozli pochta yangilanmadi</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_message">Pochtangiz qutisi deyarli to‘lgan. Unda joy bo‘shatish uchun qo‘shimcha xotirani yoqing. Bu – Googlega ovozli xabarlaringizni boshqarish va ularning nusxasini avtomatik yuklashiga imkon beradi.</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_title">Qo‘shimcha xotira va avtomatik yuklash funksiyasini yoqing</string>
     <string name="voicemail_error_inbox_full_message">Ovozli pochta qutisi to‘lgan. Yangi xabar qabul qilish uchun bir nechta eski xabarlarni o‘chirib tashlang.</string>
     <string name="voicemail_error_inbox_full_title">Yangi ovozli pochta xabarini qabul qilib bo‘lmaydi</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_message">Pochtangiz qutisi deyarli to‘lgan. Unda joy bo‘shatish uchun qo‘shimcha xotirani yoqing. Bu – Googlega ovozli xabarlaringizni boshqarish va ularning nusxasini avtomatik yuklashiga imkon beradi.</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_title">Qo‘shimcha xotira va avtomatik yuklash funksiyasini yoqing</string>
     <string name="voicemail_error_inbox_near_full_message">Agar ovozli pochta qutisi to‘lib qolsa, yangi xabar qabul qilishning imkoni bo‘lmay qoladi.</string>
     <string name="voicemail_error_inbox_near_full_title">Ovozli pochta qutisi deyarli to‘lgan</string>
     <string name="voicemail_error_no_data_cellular_required_message">Mobil internet yaxshi ishlaganda qayta urining. Ovozli pochtani maxsus raqamga terib ham tekshirishingiz mumkin.</string>
@@ -1580,7 +1577,7 @@ Bunda mobil trafik uchun haq olinadi."</string>
     <string name="voicemail_transcription_failed_language_not_supported">Transkripsiya qilib bo‘lmadi. Bu til qo‘llab-quvvatlanmaydi.</string>
     <string name="voicemail_transcription_failed_no_speech">Transkripsiya qilib bo‘lmadi. Nutq aniqlanmadi.</string>
     <string name="voicemail_transcription_in_progress">Transkripsiya qilinmoqda…</string>
-    <string name="voicemail_transcription_preference_summary_info">Ovozli xabarlarni maxsus Google xizmati yordamida transkripsiya qilishga ruxsat berilsin. %1$s</string>
+    <string name="voicemail_transcription_preference_summary_info">Ovozli xabarlarni maxsus Google xizmati yordamida transkripsiya qilishga ruxsat berilsin. ^1</string>
     <string name="voicemail_visual_voicemail_auto_archive_switch_title">Qo‘shimcha xotira</string>
     <string name="voicemail_visual_voicemail_donation_switch_title">Ovozli xabarlar transkripsiyasi tahlili</string>
     <string name="voicemail_visual_voicemail_switch_title">Vizual ovozli pochta</string>
@@ -1636,7 +1633,7 @@ Bunda mobil trafik uchun haq olinadi."</string>
     <string name="wait_prompt_str">"Ushbu tovushlar jo‘natilsinmi?
 "</string>
     <string name="was_this_a_business_chip_text">Chaqiruv kompaniyadan keldimi?</string>
-    <string name="was_this_a_business_dialog_body">Google abonent raqamlarini yanada yaxshiroq aniqlay olishiga yordam berish uchun bu tegni tasdiqlang.</string>
+    <string name="was_this_a_business_dialog_body">Buni tasdiqlash Google kompaniyasiga abonent raqamini yaxshilashga yordam beradi</string>
     <string name="was_this_a_business_dialog_negative_response">Yo‘q</string>
     <string name="was_this_a_business_dialog_positive_response">Ha</string>
     <string name="was_this_a_business_dialog_snackbar">Fikr-mulohazangiz uchun rahmat!</string>

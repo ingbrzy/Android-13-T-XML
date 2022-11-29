@@ -63,7 +63,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript">^1, ^2, ^3.</string>
     <string name="a11y_new_call_log_entry_phone_account">(^1)</string>
     <string name="a11y_new_call_log_entry_rtt_call">зрабіць выклік RTT да карыстальніка ^1</string>
-    <string name="a11y_new_call_log_entry_tap_action">разгарнуць меню</string>
+    <string name="a11y_new_call_log_entry_tap_action">разгарнуць ці згарнуць меню</string>
     <string name="a11y_new_call_log_entry_video_call">зрабіць відэавыклік да карыстальніка ^1</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">пачаць відэавыклік з карыстальнікам ^1 праз Wi-Fi</string>
     <string name="a11y_new_call_log_entry_voice_call">выклікаць карыстальніка ^1</string>
@@ -191,6 +191,7 @@
     <string name="atlas_soda_banner_feature_text">Утрыманне выкліку</string>
     <string name="atlas_temp_service_notification_title">Ініцыялізуецца выклік з утрыманнем</string>
     <string name="atlas_warning_text_for_second_incoming_call">Калі вы адкажаце на гэты выклік, Утрыманне выкліку завершыцца</string>
+    <string name="audio_route_item_checked_description">Выбрана</string>
     <string name="audioroute_bluetooth">Bluetooth</string>
     <string name="audioroute_headset">Правадная гарнітура</string>
     <string name="audioroute_phone">Тэлефон</string>
@@ -235,6 +236,7 @@
     <string name="bm_suggest_wait_time_estimating">"Чат
 Ідзе праца…"</string>
     <string name="bottomsheet_action_expand_halfway">Разгарнуць напалову</string>
+    <string name="bottomsheet_drag_handle_content_description">Маркер перацягвання</string>
     <string name="bubble_bottom_action_end_call">Завяршыць выклік</string>
     <string name="bubble_bottom_action_hide">Схаваць</string>
     <string name="bubble_return_to_call">Вярнуцца да выкліку</string>
@@ -582,10 +584,8 @@
     <string name="copy_number">Капіраваць нумар</string>
     <string name="create_new_contact">Новы кантакт</string>
     <string name="crosby_setting_title">Запіс выклікаў</string>
-    <string name="crystal_clear_audio_setting_title">Чысты гук</string>
     <string name="current_voicemail_greeting_record_instruction">Запісаць вітанне</string>
     <string name="current_voicemail_greeting_recording_title">Вітанне галасавой пошты</string>
-    <string name="custom_message_hint">Напісаць карыстальніцкае паведамленне</string>
     <string name="custom_prefix_add_prefix_to_call_entry_always_add_prefix">Заўжды дадаваць прэфікс</string>
     <string name="custom_prefix_add_prefix_to_call_entry_ask_before_dialing">Пытацца перад выклікам</string>
     <string name="custom_prefix_add_prefix_to_call_entry_never_add_prefix">Ніколі не дадаваць прэфікс</string>
@@ -670,11 +670,11 @@
     <string name="display_options_view_given_name_first">Спачатку імя</string>
     <string name="display_options_view_names_as">Фармат імя</string>
     <string name="do_not_show_again">Больш не паказваць</string>
-    <string name="duo_fallback_dialog_do_not_show_again_label">Запомніць гэты выбар</string>
-    <string name="duo_fallback_dialog_message">Ваш відэавыклік немагчыма выканаць з дапамогай відэавыкліку праз аператара. Паспрабуйце зрабіць выклік з выкарыстаннем Duo.</string>
-    <string name="duo_fallback_dialog_negative_button_label">Скасаваць</string>
-    <string name="duo_fallback_dialog_positive_button_label">Выкарыстаць Duo</string>
-    <string name="duo_fallback_dialog_title">Паспрабаваць з Google Duo?</string>
+    <string name="duo_fallback_dialog_do_not_show_again_label">Запомніць Duo як рэзервовую праграму для ўсіх выклікаў. Можна змяніць у любы час у наладах.</string>
+    <string name="duo_fallback_dialog_message">Duo аўтаматычна будзе спрабаваць выклікаць абанента, калі аператар не падтрымлівае відэавыклікі.</string>
+    <string name="duo_fallback_dialog_negative_button_label">Не, дзякуй</string>
+    <string name="duo_fallback_dialog_positive_button_label">Дубліраваць выклік праз Duo</string>
+    <string name="duo_fallback_dialog_title">Дубліраваць выклікі з дапамогай Google Duo?</string>
     <string name="edit_number_before_call">Змяніць нумар перад выклікам</string>
     <string name="emergency_assist_address_sentence">Маё месцазнаходжанне: %1$s.</string>
     <string name="emergency_assist_button_fire">Пажарныя</string>
@@ -696,6 +696,7 @@
     <string name="emergency_voice_assist_dialog_button_close">Скасаваць</string>
     <string name="emergency_voice_assist_dialog_title">Аператар экстраннай службы чуе гэта</string>
     <string name="end_call_with_default_message_description">Завяршыць выклік</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_icon_content_description">Памылка</string>
     <string name="error_unable_to_get_audio">Не ўдалося загрузіць узор аўдыязапісу</string>
     <string name="error_unable_to_play_audio">Не ўдалося прайграць узор аўдыязапісу</string>
@@ -740,7 +741,7 @@
     <string name="first_time_dialog_duo_video_call_label">Google Duo</string>
     <string name="first_time_dialog_negative_button_label">Скасаваць</string>
     <string name="first_time_dialog_positive_button_label">Выбраць</string>
-    <string name="first_time_dialog_remember_this_choice_label">Запомніць гэты выбар</string>
+    <string name="first_time_dialog_remember_this_choice_label">Запомніць для ўсіх выклікаў. Можна змяніць у любы час у наладах.</string>
     <string name="first_time_dialog_title">Выбраць сэрвіс для відэавыклікаў</string>
     <string name="flip_to_shush_title">Перавярнуць для рэжыму \"Тсс\"</string>
     <string name="flip_to_silence_summary">Каб выключыць гук уваходнага выкліку, пакладзіце тэлефон на роўную паверхню экранам уніз</string>
@@ -788,6 +789,8 @@
     <string name="incall_content_description_hold">Паставіць выклік на ўтрыманне</string>
     <string name="incall_content_description_merge_calls">"Аб'яднаць выклікі"</string>
     <string name="incall_content_description_muted">Гук адключаны</string>
+    <string name="incall_content_description_show_less">Згарнуць</string>
+    <string name="incall_content_description_show_more">Разгарнуць</string>
     <string name="incall_content_description_speaker">Вонкавы дынамік</string>
     <string name="incall_content_description_swap_calls">Пераключыцца на іншы выклік</string>
     <string name="incall_content_description_swap_sim">Змяніць SIM-карту</string>
@@ -803,6 +806,7 @@
     <string name="incall_label_hold">Утрымліваць</string>
     <string name="incall_label_manage">Кіраваць</string>
     <string name="incall_label_merge">"Аб'яднаць"</string>
+    <string name="incall_label_more">Яшчэ</string>
     <string name="incall_label_mute">Выкл. гук</string>
     <string name="incall_label_record">Запіс</string>
     <string name="incall_label_record_checked">Спыніць запіс</string>
@@ -835,15 +839,9 @@
     <string name="join_call_with_default_message_description">Далучыцца да выкліку</string>
     <string name="just_now">Зараз</string>
     <string name="lat_long_format">%1$f, %2$f</string>
+    <string name="launch_application_settings">Налады</string>
     <string name="launcherActivityLabel">Тэлефон</string>
     <string name="learn_more_text_for_tmo">Дадатковую інфармацыю глядзіце на сайце T-Mobile</string>
-    <string name="legacy_post_call_message">Паведаміце прычыну выкліку</string>
-    <string name="legacy_post_call_message_1">Гэта тэрмінова. Перазваніце мне.</string>
-    <string name="legacy_post_call_message_2">Перазваніце мне, калі будзеце мець час.</string>
-    <string name="legacy_post_call_message_3">Не тэрмінова. Можам пагаварыць пазней.</string>
-    <string name="legacy_post_call_message_sent">Паведамленне адпраўлена</string>
-    <string name="legacy_post_call_send_message">Адправіць паведамленне</string>
-    <string name="legacy_post_call_view">Паглядзець</string>
     <string name="libraries_material_featurehighlight_dismiss">Адхіліць</string>
     <string name="license_activity_label">Ліцэнзіі на ПЗ з адкрытым зыходным кодам</string>
     <string name="light_theme_label">Светлая</string>
@@ -868,6 +866,7 @@
     <string name="mdd_notification_action_cancel">Скасаваць</string>
     <string name="mdd_notification_download_failed">Збой спампоўкі</string>
     <string name="mdd_notification_download_paused">Чакаецца падключэнне да сеткі</string>
+    <string name="mdd_notification_download_paused_wifi">Чакаецца падключэнне да сеткі Wi-Fi</string>
     <string name="meid_number">MEID %s</string>
     <string name="menu_callNumber">Выклікаць %s</string>
     <string name="merge_calls_confirm_message">"Пераканайцеся, што ўсе абаненты ведаюць, хто будзе ўдзельнічаць у аб'яднаным выкліку"</string>
@@ -907,11 +906,9 @@
     <string name="nearbyplaces_account_setting_title">Уліковы запіс Google</string>
     <string name="new_call_log_activity_title">Гісторыя выклікаў</string>
     <string name="new_call_log_all_title">Усе</string>
-    <string name="new_call_log_carrier_video">Відэавыклік праз аператара</string>
     <string name="new_call_log_clear_call_log_confirmation">З вашай гісторыі будуць выдалены ўсе выклікі</string>
     <string name="new_call_log_clear_call_log_confirmation_title">Ачысціць гісторыю выклікаў?</string>
     <string name="new_call_log_delete_all">Ачысціць гісторыю выклікаў</string>
-    <string name="new_call_log_duo_video">Відэавыклік Duo</string>
     <string name="new_call_log_empty">Тут будуць паказаны выходныя выклікі</string>
     <string name="new_call_log_generic_video">Відэа</string>
     <string name="new_call_log_header_older">Больш старыя</string>
@@ -929,6 +926,7 @@
     <string name="new_permission_no_search">Каб шукаць свае кантакты, уключыце дазвол для Кантактаў.</string>
     <string name="non_contact_always_record_dialog_title">Заўсёды запісваць выклікі з абанентамі, якіх няма ў вашым спісе кантактаў?</string>
     <string name="non_contact_toggle_label">Нумары, якіх няма ў вашых кантактах</string>
+    <string name="non_spam_aftercall_notification_title">Вы ведаеце нумар %1$s?</string>
     <string name="non_spam_notification_title">Вы ведаеце нумар %1$s?</string>
     <string name="not_set">Не зададзена</string>
     <string name="notification_action_accept">Прыняць</string>
@@ -979,7 +977,7 @@
     <string name="notification_ongoing_call">Бягучы выклік</string>
     <string name="notification_ongoing_call_multi_sim">Бягучы выклік (%1$s)</string>
     <string name="notification_ongoing_call_wifi_template">Бягучы выклік праз %1$s</string>
-    <string name="notification_ongoing_call_wifi_template_multi_sim">Бягучы выклік %1$s (%1$s)</string>
+    <string name="notification_ongoing_call_wifi_template_multi_sim">Бягучы выклік %1$s (%2$s)</string>
     <string name="notification_ongoing_paused_video_call">Бягучы відэавыклік праз аператара ‑ відэа прыпынена</string>
     <string name="notification_ongoing_paused_video_call_multi_sim">Бягучы відэавыклік праз аператара (%1$s) ‑ відэа прыпынена</string>
     <string name="notification_ongoing_video_call">Бягучы відэавыклік праз аператара</string>
@@ -992,7 +990,7 @@
     <string name="notification_take_call">Прыняць выклік</string>
     <string name="notification_take_video_call">Прыняць відэавыклік</string>
     <string name="notification_voicemail_callers_list">%1$s, %2$s</string>
-    <string name="notification_voicemail_no_vm_number">Невядомы нумар галасавой пошты</string>
+    <string name="notification_voicemail_no_vm_number">Каб наладзіць галасавую пошту, перайдзіце ў раздзел \"Меню > Налады\".</string>
     <string name="notification_voicemail_text_format">Набраць %s</string>
     <string name="old_block_number_confirmation_title">Заблакіраваць нумар%1$s?</string>
     <string name="openhistory_button_label">Гісторыя</string>
@@ -1047,7 +1045,7 @@
     <string name="private_num_non_verizon">Прыватны нумар</string>
     <string name="private_num_verizon">Абмежавана</string>
     <string name="private_or_hidden_action_preference_description">Абаненты, якія хаваюць свой нумар</string>
-    <string name="private_or_hidden_action_preference_title">Прыватныя ці схаваныя нумары</string>
+    <string name="private_or_hidden_action_preference_title">Прыватныя і схаваныя нумары</string>
     <string name="quick_contact_checkbox_description">Выбраць кантакт</string>
     <string name="ready_for_recording">Гатова…</string>
     <string name="record_audio_pre_call_dialog_got_it">Зразумела</string>
@@ -1094,7 +1092,7 @@
     <string name="revelio_end_call_user_missed_internal_message">Выклік быў прапушчаны</string>
     <string name="revelio_pref_title">Фільтр выклікаў</string>
     <string name="revelio_preference_summary_automatic_screening_off">Аўтаматычнае фільтраванне выключана</string>
-    <string name="revelio_preference_summary_screening">Фільтраванне: %1$s</string>
+    <string name="revelio_preference_summary_screening">Фільтраваць па: %1$s</string>
     <string name="revelio_save_audio_setting_summary">Захоўваць аўдыязапісы выклікаў, на якія адказаў ваш Памочнік</string>
     <string name="revelio_save_audio_setting_title">Захоўваць аўдыязапісы Фільтра выклікаў</string>
     <string name="revelio_setting_title">Фільтр выклікаў</string>
@@ -1168,7 +1166,6 @@
     <string name="set_default_account_description">Параметры SIM-карты захоўваюцца ў наладах кантактаў.</string>
     <string name="set_phone_as_default_explanation_text">Каб рабіць і прымаць выклікі праз праграму \"Тэлефон\", зрабіце яе стандартнай праграмай для выклікаў</string>
     <string name="set_phone_as_default_request_text">Зрабіце праграму \"Тэлефон\" стандартнай</string>
-    <string name="settings">Налады</string>
     <string name="settings_page_call_recording_feature_not_available_text">Запіс выклікаў недаступны ў вашым рэгіёне</string>
     <string name="settings_page_crosby_feature_not_available_text">Недаступна ў вашым рэгіёне</string>
     <string name="setup_duo_button_long_text">Наладзіць відэавыклікі Duo</string>
@@ -1218,6 +1215,9 @@
     <string name="sounds_and_vibration_title">Гукі і вібрацыя</string>
     <string name="spam_action_preference_description">Нумары з базы даных Google аб спамерах</string>
     <string name="spam_action_preference_title">Спам</string>
+    <string name="spam_after_call_notification_add_contact_action_text">Дадаць кантакт</string>
+    <string name="spam_after_call_notification_report_spam_action_text">Заблак. і паведаміць</string>
+    <string name="spam_aftercall_notification_unknown">Невядомы нумар</string>
     <string name="spam_and_call_screen_settings_title">Фільтр выклікаў і спам</string>
     <string name="spam_blocking_promo_action_dismiss">Адхіліць</string>
     <string name="spam_blocking_promo_action_filter_spam">Фільтраваць спам</string>
@@ -1229,6 +1229,9 @@
     <string name="spam_blocking_settings_enable_error_text">Памылка ўключэння фільтра спама</string>
     <string name="spam_blocking_settings_summary">Заблакіруйце выклікі, якія падазраюцца ў спаме</string>
     <string name="spam_blocking_settings_title">Фільтраваць выклікі спамераў</string>
+    <string name="spam_dialog_add_contact_action">Дадаць у кантакты</string>
+    <string name="spam_dialog_dismiss_action">Закрыць</string>
+    <string name="spam_notification_action_block_spam">Так, заблакіраваць нумар</string>
     <string name="spam_notification_action_dismiss">Адхіліць</string>
     <string name="spam_notification_add_contact_action_text">Дадаць кантакт</string>
     <string name="spam_notification_block_spam_action_text">Так, заблакіраваць нумар</string>
@@ -1428,27 +1431,27 @@
     <string name="videocall_remotely_resumed">Выклік адноўлены</string>
     <string name="videocall_settings_default_ask_every_time">Заўсёды пытацца</string>
     <string name="videocall_settings_default_carrier">Відэавыклік праз аператара</string>
-    <string name="videocall_settings_default_caution">This feature allows a user to choose a preferred video call solution and indicate the receiver’s video capability when it’s available. ^1</string>
-    <string name="videocall_settings_default_caution_learn_more">Learn more about preferred video services</string>
+    <string name="videocall_settings_default_caution">Выберыце, як вы будзеце рабіць відэавыклік і атрымліваць інфармацыю аб тым, ці даступны гэты сэрвіс для абанента, якога вы выклікаеце. ^1</string>
+    <string name="videocall_settings_default_caution_learn_more">Даведацца больш пра відэавыклікі</string>
     <string name="videocall_settings_default_duo">Google Duo</string>
     <string name="videocall_settings_default_title">Прыярытэтны сэрвіс для відэавыкліку</string>
-    <string name="videocall_settings_fallback_caution">"When “Use Google Duo as backup” (if applicable) is on and a call can't be completed using your preferred service, the call will automatically be attempted on Duo. ^1"</string>
-    <string name="videocall_settings_fallback_caution_learn_more">Learn more about Duo backup calling</string>
+    <string name="videocall_settings_fallback_caution">Калі вы выкарыстоўваеце Google Duo як рэзервовую праграму, яна аўтаматычна будзе спрабаваць выклікаць абанента, калі аператар не падтрымлівае відэавыклікі. ^1</string>
+    <string name="videocall_settings_fallback_caution_learn_more">Даведацца больш пра выкарыстанне Duo як рэзервовай праграмы</string>
     <string name="videocall_settings_fallback_summary">Пераключацца на Duo, калі прыярытэтны сэрвіс недаступны</string>
-    <string name="videocall_settings_fallback_title">Выкарыстоўваць Google Duo як рэзервовы сэрвіс</string>
+    <string name="videocall_settings_fallback_title">Выкарыстоўваць Duo у якасці рэзервовага сэрвісу</string>
     <string name="videocall_settings_title">Відэавыклікі</string>
     <string name="videocall_show_preview_button_description">Паказаць сваё відэа</string>
     <string name="view_location_settings">Налады месцазнаходжання</string>
     <string name="vitle_label">Відэасувязь па LTE</string>
     <string name="viwifi_label">Відэавыклік праз Wi-Fi</string>
     <string name="vm_change_pin_error_invalid">Новы PIN-код змяшчае няправільныя сімвалы.</string>
-    <string name="vm_change_pin_error_last_4_digits_msisdn">Новы PIN-код не павінен супадаць з апошнімі чатырма лічбамі вашага нумара тэлефона.</string>
+    <string name="vm_change_pin_error_last_4_digits_msisdn">PIN-кодам не могуць быць апошнія 4 лічбы вашага нумара тэлефона.</string>
     <string name="vm_change_pin_error_mismatch">Стары PIN-код не падыходзіць.</string>
     <string name="vm_change_pin_error_system_error">Немагчыма змяніць PIN-код</string>
     <string name="vm_change_pin_error_too_long">Новы PIN-код занадта доўгі.</string>
     <string name="vm_change_pin_error_too_short">Новы PIN-код занадта кароткі.</string>
     <string name="vm_change_pin_error_too_weak">Новы PIN-код занадта слабы. Надзейны пароль не павінен змяшчаць паслядоўнасці лічбаў ці лічбы, якія паўтараюцца.</string>
-    <string name="vm_change_pin_error_unchanged_pin">Новы PIN-код супадае з бягучым PIN-кодам. Увядзіце іншы PIN-код.</string>
+    <string name="vm_change_pin_error_unchanged_pin">Новы PIN-код не можа супадаць з бягучым PIN-кодам.</string>
     <string name="vm_change_pin_progress_message">Пачакайце.</string>
     <string name="voice_call">Галасавы выклік</string>
     <string name="voice_call_button">Выклікаць</string>
@@ -1470,11 +1473,9 @@
     <string name="voicemailMultiSelectDeleteConfirm">Выдаліць</string>
     <string name="voicemail_action_call_customer_support">Выклік у службу падтрымкі</string>
     <string name="voicemail_action_call_voicemail">Выклік на галасавую пошту</string>
-    <string name="voicemail_action_dimiss">Не, дзякуй</string>
     <string name="voicemail_action_retry">Паўтарыць спробу</string>
     <string name="voicemail_action_set_pin">Задаць PIN-код</string>
     <string name="voicemail_action_sync">Сінхранізаваць</string>
-    <string name="voicemail_action_turn_archive_on">Уключыць</string>
     <string name="voicemail_action_turn_off_airplane_mode">Налады рэжыму палёту</string>
     <string name="voicemail_activating_summary_info">Уключэнне галасавой пошты</string>
     <string name="voicemail_advanced_settings_title">Пашыраныя налады</string>
@@ -1489,7 +1490,7 @@
     <string name="voicemail_change_pin_preference_summary_disable">Каб змяніць PIN-код, трэба ўключыць візуальную галасавую пошту</string>
     <string name="voicemail_change_pin_preference_summary_not_activated">Візуальная галасавая пошта пакуль не актываваная. Паўтарыце спробу пазней</string>
     <string name="voicemail_change_pin_preference_title">Змяніць PIN-код</string>
-    <string name="voicemail_donate_preference_summary_info">Дазвольце Google праглядаць паведамленні галасавой пошты, каб палепшыць дакладнасць расшыфроўкі. Паведамленні галасавой пошты захоўваюцца ананімна. %1$s</string>
+    <string name="voicemail_donate_preference_summary_info">Дазвольце Google праглядаць паведамленні галасавой пошты, каб палепшыць дакладнасць расшыфроўкі. Паведамленні галасавой пошты захоўваюцца ананімна. ^1</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">Пры выкарыстанні візуальнай галасавой пошты абанентамі SIM-карт, для якіх не аформлены план перадачы даных, аператар можа спаганяць плату</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">Візуальная галасавая пошта даступная толькі для выбранай SIM-карты для перадачы даных</string>
     <string name="voicemail_error_activating_message">Апавяшчэнні галасавой пошты могуць вам не прыходзіць, пакуль візуальная галасавая пошта не будзе поўнасцю актывавана. Каб атрымаць новыя паведамленні да завяршэння актывацыі, пазваніце на галасавую пошту.</string>
@@ -1502,12 +1503,8 @@
     <string name="voicemail_error_bad_config_title">Немагчыма абнавіць візуальную галасавую пошту</string>
     <string name="voicemail_error_communication_message">Каб праверыць галасавую пошту, вы таксама можаце зрабіць выклік.</string>
     <string name="voicemail_error_communication_title">Немагчыма абнавіць візуальную галасавую пошту</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_message">Ваша паштовая скрыня амаль запоўнена. Каб вызваліць месца, уключыце дадатковае сховішча, каб Google мог кіраваць вашымі паведамленнямі галасавой пошты і рабіць іх рэзервовую копію.</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_title">Уключыць дадатковае сховішча і рэзервовае капіраванне</string>
     <string name="voicemail_error_inbox_full_message">Ваша папка ўваходных запоўнена. Паспрабуйце выдаліць некалькі паведамленняў, каб атрымаць новую галасавую пошту.</string>
     <string name="voicemail_error_inbox_full_title">Немагчыма атрымліваць новыя галасавыя паведамленні</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_message">Ваша паштовая скрыня запоўнена. Каб вызваліць месца, уключыце дадатковае сховішча, каб Google мог кіраваць вашымі паведамленнямі галасавой пошты і рабіць іх рэзервовую копію.</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_title">Уключыць дадатковае сховішча і рэзервовае капіраванне</string>
     <string name="voicemail_error_inbox_near_full_message">Вы не зможаце атрымліваць новыя галасавыя паведамленні, калі ваша папка ўваходных поўная.</string>
     <string name="voicemail_error_inbox_near_full_title">Папка ўваходных амаль запоўнена</string>
     <string name="voicemail_error_no_data_cellular_required_message">Паўтарыце спробу, калі падключэнне да мабільнай перадачы даных палепшыцца. Каб праверыць галасавую пошту, вы таксама можаце зрабіць выклік.</string>
@@ -1540,7 +1537,7 @@
     <string name="voicemail_transcription_failed_language_not_supported">Расшыфроўка недаступная. Мова не падтрымліваецца.</string>
     <string name="voicemail_transcription_failed_no_speech">Расшыфроўка недаступная. Маўленне не выяўлена.</string>
     <string name="voicemail_transcription_in_progress">Ідзе расшыфроўка…</string>
-    <string name="voicemail_transcription_preference_summary_info">Атрымайце расшыфроўкі галасавой пошты з дапамогай сэрвісу расшыфроўкі Google. %1$s</string>
+    <string name="voicemail_transcription_preference_summary_info">Атрымайце расшыфроўкі галасавой пошты з дапамогай сэрвісу расшыфроўкі Google. ^1</string>
     <string name="voicemail_visual_voicemail_auto_archive_switch_title">Дадатковае рэзервовае капір. і сховішча</string>
     <string name="voicemail_visual_voicemail_donation_switch_title">Аналіз транскрыпцый галасавой пошты</string>
     <string name="voicemail_visual_voicemail_switch_title">Візуальная галасавая пошта</string>
@@ -1596,7 +1593,7 @@
     <string name="wait_prompt_str">"Адправіць наступныя тоны?
 "</string>
     <string name="was_this_a_business_chip_text">Гэта быў выклік ад кампаніі?</string>
-    <string name="was_this_a_business_dialog_body">Пацвердзіўшы гэты цэтлік, вы дапаможаце Google палепшыць ідэнтыфікацыю абанента</string>
+    <string name="was_this_a_business_dialog_body">Пацвердзіўшы гэты нумар, вы дапаможаце Google палепшыць ідэнтыфікацыю абанента</string>
     <string name="was_this_a_business_dialog_negative_response">Не</string>
     <string name="was_this_a_business_dialog_positive_response">Так</string>
     <string name="was_this_a_business_dialog_snackbar">Дзякуй за водгук</string>

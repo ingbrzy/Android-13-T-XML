@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="custom_cards_view_description_items_left">
-        <item quantity="other">%1$d item yang tinggal</item>
-        <item quantity="one">%1$d item yang tinggal</item>
-    </plurals>
     <plurals name="dlg_message_deletion_confirmation">
         <item quantity="other">Rakaman anda akan dipadamkan secara kekal. Tindakan ini tidak boleh dibuat asal.</item>
         <item quantity="one">Rakaman anda akan dipadamkan secara kekal. Tindakan ini tidak boleh dibuat asal.</item>
@@ -20,25 +16,33 @@
         <item quantity="other">Padam rekod ini secara kekal?</item>
         <item quantity="one">Padam rakaman ini secara kekal?</item>
     </plurals>
-    <plurals name="download_unsuccessful_description_storage_full">
+    <plurals name="download_failure_description_storage_full">
         <item quantity="other">Tidak dapat memuat turun rakaman kerana storan peranti penuh. Ketik untuk menyemak.</item>
         <item quantity="one">Storan peranti penuh. Ketik untuk menyemak.</item>
-    </plurals>
-    <plurals name="downloaded_description">
-        <item quantity="other">%1$d rakaman dimuat turun</item>
-        <item quantity="one">%1$d rakaman dimuat turun</item>
     </plurals>
     <plurals name="downloading_description">
         <item quantity="other">Memuat turun %1$d rakaman</item>
         <item quantity="one">Memuat turun %1$d rakaman</item>
+    </plurals>
+    <plurals name="og_backup_failed_title">
+        <item quantity="other">%1$d item gagal disandarkan</item>
+        <item quantity="one">%1$d item gagal disandarkan</item>
+    </plurals>
+    <plurals name="og_backup_items_left">
+        <item quantity="other">%1$d item lagi</item>
+        <item quantity="one">%1$d item lagi</item>
+    </plurals>
+    <plurals name="og_backup_items_stopped_title">
+        <item quantity="other">%1$d item tidak disandarkan</item>
+        <item quantity="one">%1$d item tidak disandarkan</item>
     </plurals>
     <plurals name="search_results_count">
         <item quantity="other">%1$d hasil carian</item>
         <item quantity="one">%1$d hasil carian</item>
     </plurals>
     <plurals name="search_results_position">
-        <item quantity="other">%1$d/%2$d hasil carian</item>
-        <item quantity="one">%1$d/%2$d hasil carian</item>
+        <item quantity="other">^1/^2 hasil carian</item>
+        <item quantity="one">^1/^2 hasil carian</item>
     </plurals>
     <plurals name="search_results_position_content_description">
         <item quantity="other">%1$d daripada %2$d hasil carian</item>
@@ -51,10 +55,6 @@
     <plurals name="snackbar_message_download_failed_storage_full">
         <item quantity="other">Storan peranti penuh. Tidak dapat memuat turun rakaman.</item>
         <item quantity="one">Storan peranti penuh. Tidak dapat memuat turun rakaman.</item>
-    </plurals>
-    <plurals name="uploaded_description">
-        <item quantity="other">%1$d rakaman dimuat naik</item>
-        <item quantity="one">%1$d rakaman dimuat naik</item>
     </plurals>
     <plurals name="uploading_description">
         <item quantity="other">Memuat naik %1$d rakaman</item>

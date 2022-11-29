@@ -28,7 +28,6 @@
     <string name="about_application_pp_tos_settings">Info, podmienky a súkromie</string>
     <string name="accessbility_suggestion_dropdown_closed">K dispozícii nie sú žiadne návrhy</string>
     <string name="accessbility_suggestion_dropdown_opened">Ponuka Návrhy kontaktov je otvorená</string>
-    <string name="acs_url_dropdown_hint">Nastaviť webovú adresu ACS</string>
     <string name="action_add_contact">Pridať kontakt</string>
     <string name="action_advanced_feedback">Odoslať spätnú väzbu</string>
     <string name="action_archive">Archivovať</string>
@@ -47,18 +46,19 @@
     <string name="action_help_and_feedback">Pomocník a spätná väzba</string>
     <string name="action_info_and_options">Informácie a možnosti</string>
     <string name="action_jump_to_chat">Zobraziť v čete</string>
+    <string name="action_meet_video_call">Videohovor cez Meet</string>
     <string name="action_menu_mark_all_as_read">Označiť všetko ako prečítané</string>
     <string name="action_menu_show_archived">Archivované</string>
     <string name="action_menu_show_spam_folder">Spam a blokované</string>
     <string name="action_notification_off">Vypnúť upozornenia</string>
     <string name="action_notification_on">Zapnúť upozornenia</string>
     <string name="action_notification_settings">Ignorovať upozornenia</string>
+    <string name="action_off">Vypnúť</string>
     <string name="action_pair_device">Párovanie zariadenia</string>
     <string name="action_people_and_options">Podrobnosti</string>
     <string name="action_people_and_options_group">Podrobnosti o skupine</string>
     <string name="action_pin_to_top">Pripnúť do hornej časti</string>
     <string name="action_report_spam">Nahlásiť spam</string>
-    <string name="action_scan_qr_code">Správy na webe</string>
     <string name="action_search">Hľadať</string>
     <string name="action_search_gifs">Hľadať gify</string>
     <string name="action_search_messages">Hľadať v správach</string>
@@ -77,6 +77,7 @@
     <string name="action_viLTE_video_call">Videohovor cez operátora</string>
     <string name="action_video_call">Uskutočniť videohovor</string>
     <string name="actionbar_subtitle_name_prefix">s príjemcom %s</string>
+    <string name="active_reminder">Pripomenutie</string>
     <string name="active_sim_content_message">Je vybraná SIM karta %s</string>
     <string name="activity_not_found_message">Nenašla sa vhodná aplikácia</string>
     <string name="add_area_code_banner_button">Pridať predvoľbu</string>
@@ -90,6 +91,7 @@
     <string name="add_contact_confirmation_dialog_title">Pridať medzi kontakty?</string>
     <string name="add_country_code_banner_button">Pridať kód krajiny</string>
     <string name="add_more_participants_button_content_description">Pridať ďalších účastníkov</string>
+    <string name="add_reaction_content_description">Reagujte pomocou vlastnej reakcie</string>
     <string name="add_reaction_for_assistant_card_rcs_fallback_text">​%1$s​ ku karte Asistenta</string>
     <string name="add_reaction_for_audio_rcs_fallback_text">​%1$s​ k zvukovému súboru</string>
     <string name="add_reaction_for_contact_rcs_fallback_text">​%1$s​ ku kontaktu</string>
@@ -97,7 +99,7 @@
     <string name="add_reaction_for_gif_rcs_fallback_text">​%1$s​ ku gifu</string>
     <string name="add_reaction_for_link_rcs_fallback_text">​%1$s​ k odkazu</string>
     <string name="add_reaction_for_photo_rcs_fallback_text">​%1$s​ k fotke</string>
-    <string name="add_reaction_for_text_message_rcs_fallback_text">​%1$s​ k správe %2$s</string>
+    <string name="add_reaction_for_text_message_rcs_fallback_text">​%1$s​ k správe  %2$s </string>
     <string name="add_reaction_for_unknown_message_type_rcs_fallback_text">​%1$s​ k neznámemu typu správy</string>
     <string name="add_reaction_for_video_rcs_fallback_text">​%1$s​ k videu</string>
     <string name="advanced_feedback_activity_disclaimer">Obsah a text vašej správy (okrem obsahu a textu na snímkach obrazovky) Googlu nebudú odoslané</string>
@@ -134,14 +136,13 @@
     <string name="apn_mnc">MNC</string>
     <string name="app_name">Správy</string>
     <string name="app_settings_conversation_pref_title">Nastavenia aplikácie</string>
-    <string name="apply_button">Použiť</string>
     <string name="archived_activity_title">Archivované</string>
     <string name="archived_conversation_list_empty_text">Tu sa zobrazujú archivované konverzácie</string>
     <string name="area_code_banner_description">@string/banner_description</string>
     <string name="assistant_movies_shortcut_title">Filmy</string>
+    <string name="assistant_preference_summary">Zobrazovať relevantné informácie o reštauráciách, filmoch a ďalších možnostiach</string>
     <string name="assistant_preference_title">Návrhy Asistenta</string>
     <string name="assistant_restaurants_shortcut_title">Reštaurácie</string>
-    <string name="assistant_send_to_chip_default_group_name">skupina</string>
     <string name="assistant_suggestions_tooltip_text">Správy vytvárajú návrhy, no vaše konverzácie nechávajú v zariadení. Klepnutím na návrh si môžete pozrieť a zdieľať informácie od Asistenta Google. &lt;br/> &lt;br/> Prečítajte si &lt;a href>ďalšie informácie&lt;/a> a spravujte funkciu v &lt;a href>Nastaveniach&lt;/a>.</string>
     <string name="assistant_suggestions_tooltip_title_text">Získajte informácie klepnutím</string>
     <string name="assistant_weather_shortcut_title">Počasie</string>
@@ -157,12 +158,18 @@
     <string name="attachment_location">Poloha</string>
     <string name="attachment_picture">Obrázok</string>
     <string name="attachment_preview_close_content_description">Zahodiť prílohu</string>
+    <string name="attachment_preview_photos_link_share_getting_link">Získava sa odkaz…</string>
+    <string name="attachment_preview_photos_link_share_no_upload_needed">Nahrané v minulosti</string>
+    <string name="attachment_preview_photos_link_share_upload_size">Nahrávanie: %s</string>
+    <string name="attachment_preview_photos_link_share_upload_size_failure">Neznáme</string>
+    <string name="attachment_preview_photos_link_share_upload_size_placeholder">Vypočítava sa…</string>
     <string name="attachment_unsupported_file">Nepodporovaný súbor</string>
     <string name="attachment_vcard">Vizitka</string>
     <string name="attachment_video">Video</string>
     <string name="audio_attachment_content_description">Zvuková príloha</string>
     <string name="audio_attachment_seek_playback_description">Prehrávanie zvuku</string>
     <string name="audio_button_view_content_description">Nahrávanie zvuku spustíte dvojitým klepnutím a pridržaním a zrušíte ho prejdením prstom vľavo</string>
+    <string name="audio_format_type">zvukový klip</string>
     <string name="audio_pause_content_description">Pozastaviť</string>
     <string name="audio_play_content_description">Prehrať zvukovú prílohu</string>
     <string name="audio_recorder_call_in_progress">Počas hovoru nie je možné nahrávať zvuk</string>
@@ -181,6 +188,8 @@
     <string name="auto_selected_country_summary">Automaticky rozpoznané (%1$s)</string>
     <string name="automoved_spam_notification_action_dismiss">Zavrieť</string>
     <string name="automoved_spam_notification_action_view">Zobraziť</string>
+    <string name="automoved_spam_notification_content_text">Prichádzajúci spam bol presunutý do priečinka Spam a blokované správy</string>
+    <string name="automoved_spam_notification_content_title">Bol zistený spam</string>
     <string name="avatar_no_connection_msg">Žiadne internetové pripojenie</string>
     <string name="avatar_promo_create">Vytvoriť</string>
     <string name="avatar_promo_see_all">Zobraziť všetko</string>
@@ -192,7 +201,8 @@
     <string name="birthday_banner_description">@string/banner_description</string>
     <string name="birthday_banner_dismiss_button_text">Zavrieť</string>
     <string name="birthday_banner_settings_button_text">Spravovať v nastaveniach</string>
-    <string name="birthday_info_text">Správy vytvoria pripomenutia narodenín pre kontakty v zariadení, pri ktorých máte tento údaj poznačený</string>
+    <string name="birthday_info_text">Tieto pripomenutia vychádzajú z informácií o narodeninách, ktoré máte uložené v aplikácii Kontakty v zariadení.</string>
+    <string name="birthday_info_text_with_settings">Tieto pripomenutia vychádzajú z informácií o narodeninách, ktoré máte uložené v aplikácii Kontakty v zariadení. &lt;a href>%1$s&lt;/a></string>
     <string name="birthday_nudge_enabled_pref_summary">Nechajte si pripomenúť narodeniny, ktoré ste si pridali ku kontaktom v zariadení</string>
     <string name="birthday_nudge_enabled_pref_title">Pripomenutia narodenín</string>
     <string name="block_confirmation_message_spam_folder">Od kontaktu %1$s budete ďalej dostávať správy. Nebudete však dostávať upozornenia. Táto konverzácia bude presunutá do priečinka Spam a blokované konverzácie.</string>
@@ -212,9 +222,13 @@
     <string name="boew_promo_text">Ak chcete získať četové funkcie, ako je odosielanie správ cez Wi‑Fi a dáta, povoľte aplikácii Správy pokračovať na pozadí</string>
     <string name="boew_promo_title">Správy vám dávajú viac možností</string>
     <string name="bottomsheet_action_expand_halfway">Rozbaliť napoly</string>
+    <string name="bottomsheet_drag_handle_content_description">Presúvadlo</string>
     <string name="broadcast_receiver_notification_text_extra_info">Správy pracujú na pozadí. Ak toto upozornenie zostane zobrazené dlhšie ako minútu, odošlite správu o chybe. Meno príjemcu: %1$s</string>
     <string name="broadcast_sms_text">Hromadná správa SMS</string>
     <string name="bubble_settings_title">Bubliny</string>
+    <string name="bugle_add_account_error">Účet sa nepodarilo pridať. Skúste to znova.</string>
+    <string name="bugle_fix_it">Opraviť</string>
+    <string name="bugle_load_account_failure">Účty sa nepodarilo načítať.</string>
     <string name="bugle_notification_category_conversations">Konverzácie</string>
     <string name="bugle_notification_category_default_settings">Predvolené nastavenia</string>
     <string name="bugle_notification_category_reminders">Pripomenutia</string>
@@ -226,6 +240,8 @@
     <string name="bugle_notification_reminders_channel_name">Pripomenutia</string>
     <string name="bugle_notification_report_issue_channel_name">Žiadosť o spätnú väzbu k Správam</string>
     <string name="bugle_notification_silent_default_channel_name">Pri používaní webu môžete dostávať upozornenia</string>
+    <string name="bugle_play_services_error">Došlo k chybe pri odosielaní dopytu Službám Google Play.</string>
+    <string name="bugle_retry">Skúsiť znova</string>
     <string name="business_action_call_full_content_description">Zavolať na číslo %1$s (%2$s)</string>
     <string name="business_action_call_short_content_description">Zavolať</string>
     <string name="business_action_call_short_text_m2">Volať</string>
@@ -287,6 +303,7 @@
     <string name="c2o_single_file_attachment_size_limit_exceed">Príloha je príliš veľká a nedá sa odoslať. Skúste odoslať súbor menší ako %s.</string>
     <string name="c2o_storage_permissions_text">Klepnite tu a povoľte prístup k médiám</string>
     <string name="c2o_video_button_text">Video</string>
+    <string name="calendar_badge_content_description">Odznak kalendára</string>
     <string name="calendar_event_added">Udalosť bola uložená</string>
     <string name="calendar_file_content_description">Súbor kalendára</string>
     <string name="calendar_suggestion_event_chat_title">Čet v Správach pre Android</string>
@@ -297,6 +314,7 @@
     <string name="camera_attach_media">Priložiť</string>
     <string name="camera_attach_media_description">Priložiť k správe</string>
     <string name="camera_back_switch_button">Prepínač na zadný fotoaparát</string>
+    <string name="camera_capture_button_label">Odfotiť</string>
     <string name="camera_flash_off">Blesk je vypnutý</string>
     <string name="camera_flash_on">Blesk je zapnutý</string>
     <string name="camera_front_switch_button">Prepínač na predný fotoaparát</string>
@@ -397,6 +415,11 @@
     <string name="common_google_play_services_update_text">Aplikáciu %1$s bude možné spustiť až po aktualizácii služieb Google Play.</string>
     <string name="common_google_play_services_update_title">Aktualizácia služieb Google Play</string>
     <string name="common_google_play_services_updating_text">Na spustenie aplikácie %1$s sa vyžadujú služby Google Play, ktoré sa momentálne aktualizujú.</string>
+    <string name="common_google_play_services_wear_update_text">Vyžaduje sa nová verzia služieb Google Play. Aktualizujú sa automaticky v najbližšom čase.</string>
+    <string name="common_open_on_phone">Otvoriť v telefóne</string>
+    <string name="complete_photos_app_onboarding">Otvoriť Fotky Google</string>
+    <string name="complete_photos_app_onboarding_title">Ak chcete pokračovať, povoľte aplikácii Fotky Google prístup</string>
+    <string name="complete_photos_app_onboarding_to_continue">Začnite v aplikácii Fotky Google</string>
     <string name="compose_message_view_hint_text">Četová správa</string>
     <string name="compose_message_view_hint_text_multi_sim_rcs">Čet (%s)</string>
     <string name="compose_message_view_hint_text_multi_sim_sms_mms">Textová správa (%s)</string>
@@ -418,15 +441,12 @@
     <string name="contact_has_multiple_destinations_phone">%1$s (+ ešte %2$s)</string>
     <string name="contact_has_multiple_destinations_type">Viaceré</string>
     <string name="contact_list_add_people">Pridať číslo %s</string>
-    <string name="contact_list_empty_text">Zadajte meno kontaktu alebo telefónne číslo a začnite písať novú správu</string>
     <string name="contact_list_send_to_text">Odoslať na číslo %s</string>
     <string name="contact_picker_autocomplete_added">Kontakt %1$s bol pridaný, momentálne ste v režime úprav</string>
     <string name="contact_picker_autocomplete_deleted">Kontakt %1$s bol odstránený, momentálne sa upravuje</string>
-    <string name="contact_picker_cant_add_destination_twice">Dané číslo sa v skupine už nachádza</string>
     <string name="contact_picker_cant_remove_from_existing">Číslo sa nedá odstrániť z existujúcej konverzácie</string>
     <string name="contact_picker_cant_remove_from_screen">Ak chcete odobrať ľudí, prejdite na &lt;b>Podrobnosti o skupine&lt;/b></string>
     <string name="contact_picker_confirm_participants_button_label">Ďalej</string>
-    <string name="contact_picker_group_create_label">Vytvoriť skupinu</string>
     <string name="contact_picker_group_v2_create_label">Vytvoriť skupinu</string>
     <string name="contact_picker_message_a_business_label">Četovať s firmou</string>
     <string name="contact_picker_title_add_people">Pridanie ľudí</string>
@@ -449,10 +469,14 @@
     <string name="content_description_link_to_settings">Spravovať v nastaveniach</string>
     <string name="contextual_action_bar_description_prefix">Zobrazuje sa panel s nástrojmi pre akcie: %s. Ak chcete vybrať akciu, prejdite nahor. Inak panel zatvorte.</string>
     <string name="conversation_area_code_popup_paragraph">Ak nie je známa predvoľba, Správy sa pokúsia odoslať správu s predvoľbou %1$s. Pridajte k tomuto kontaktu predvoľbu, ktorá bude použitá pri budúcich správach. %2$s</string>
+    <string name="conversation_block_failed_message">Nepodarilo sa zablokovať, skontrolujte pripojenie</string>
+    <string name="conversation_blocking_message">Blokuje sa…</string>
     <string name="conversation_country_code_popup_paragraph">Pridajte k tomuto kontaktu kód krajiny (+%1$s pre krajinu %2$s), aby bola vaša správa odoslaná tomu správnemu človeku. %3$s</string>
     <string name="conversation_creation_failed">Vytvorenie konverzácie zlyhalo, skúste to neskôr.</string>
     <string name="conversation_creation_failure">Rozhovor nie je možné spustiť</string>
+    <string name="conversation_deleting_message">Odstraňuje sa…</string>
     <string name="conversation_deletion_failed">Konverzáciu nebolo možné odstrániť</string>
+    <string name="conversation_deletion_failed_message">Nepodarilo sa odstrániť, skontrolujte pripojenie</string>
     <string name="conversation_empty_name">Prázdne</string>
     <string name="conversation_label_all">Všetko</string>
     <string name="conversation_label_business_updates">Firemné</string>
@@ -479,7 +503,6 @@
     <string name="conversation_list_item_view_draft_message">Koncept</string>
     <string name="conversation_list_item_view_sent_from_other_prefix">%s:</string>
     <string name="conversation_list_item_view_sent_from_you_prefix">"Vy:  "</string>
-    <string name="conversation_list_loading_item_description">Načítava sa konverzácia</string>
     <string name="conversation_list_message_fail_to_decrypt">Nedá sa dešifrovať</string>
     <string name="conversation_list_rcs_promo_button_negative">Neaktualizovať aplikáciu</string>
     <string name="conversation_list_rcs_promo_button_positive">Aktualizovať</string>
@@ -491,7 +514,6 @@
     <string name="conversation_list_snippet_link">Odkaz</string>
     <string name="conversation_list_spam_popup_negative">Spravovať v nastaveniach</string>
     <string name="conversation_list_spam_popup_paragraph">Na ochranu pred spamom používa Google telefónne čísla neznámych odosielateľov a príjemcov. Vaše správy a kontakty sa neodosielajú Googlu. %1$s</string>
-    <string name="conversation_list_spam_popup_paragraph_on_device">Aplikácia Správy používa na rozpoznávanie spamu informácie zo zariadenia. Niektoré údaje o týchto správach odosiela Googlu, no neuvádza vaše telefónne číslo ani obsah správy. %1$s</string>
     <string name="conversation_list_spam_popup_positive">OK</string>
     <string name="conversation_list_spam_popup_title">Ochrana pred spamom</string>
     <string name="conversation_list_terms_and_conditions_promo_subtitle">Dokončite zapínanie funkcií četu a získajte možnosť odosielania správ cez Wi‑Fi a oveľa viac</string>
@@ -514,6 +536,7 @@
     <string name="conversation_suggestion_set_reminder_action">Navrhovaná akcia nastavenia pripomenutia</string>
     <string name="conversation_suggestion_share_location_action">Navrhovaná akcia zdieľania polohy</string>
     <string name="conversation_suggestion_share_location_action_failure">Vyskytla sa chyba. Ak chcete zdieľať svoju polohu, pridajte ju k novej správe.</string>
+    <string name="conversation_suggestion_star_action">Navrhovaná akcia označenia hviezdičkou</string>
     <string name="conversation_suggestion_sticker">Navrhovaná nálepka</string>
     <string name="copy">Kopírovať</string>
     <string name="copy_to_clipboard">Kopírovať</string>
@@ -523,6 +546,7 @@
     <string name="create_group_info_title">Pridať názov skupiny</string>
     <string name="create_new_group_message">Pridanie tejto osoby založí novú skupinu bez funkcií četu</string>
     <string name="current_country_pref_title">Vaša aktuálna krajina</string>
+    <string name="custom_reaction_selection_prompt">Vyberte emodži</string>
     <string name="dark_mode_disable_title">Vypnúť tmavý režim</string>
     <string name="dark_mode_enable_title">Zapnúť tmavý režim</string>
     <string name="dasher_disabled_notification_body">Obráťte sa na správcu systému alebo sa prihláste pomocou iného účtu.</string>
@@ -590,12 +614,9 @@
     <string name="ditto_activity_label">Párovanie zariadenia</string>
     <string name="ditto_foreground_service_device_pairing_notification_text">Vaše správy sú k dispozícii v spárovanom zariadení</string>
     <string name="ditto_foreground_service_device_pairing_notification_title">Párovanie zariadenia</string>
-    <string name="ditto_foreground_service_notification_text">Vaše správy sú k dispozícii v spárovanom počítači</string>
-    <string name="ditto_foreground_service_notification_title">Správy na webe</string>
     <string name="ditto_foreground_service_sign_out">Zrušiť párovanie</string>
     <string name="ditto_persistent_notification_settings">Upozornenia</string>
     <string name="ditto_settings_action_bar_title">Upozornenia</string>
-    <string name="ditto_settings_connected_to_web_notification_description">Keď je vaše zariadenie online, zobrazí sa text Správy na webe</string>
     <string name="ditto_settings_connected_to_web_notification_title">Zobraziť trvalé upozornenie</string>
     <string name="ditto_settings_device_paired_notification_description">Možnosť Párovanie zariadenia sa zobrazí, keď bude zariadenie online</string>
     <string name="ditto_settings_while_using_web_notification_description">Keď bude vaše zariadenie online, vypnú sa vibrácie a zvonenie</string>
@@ -636,6 +657,7 @@ Vaše správy, ktoré zahŕňajú aj telefónne číslo odosielajúcej firmy, ko
     <string name="dump_mms_pref_title">Zálohovať správy MMS</string>
     <string name="dump_sms_pref_summary">Zálohovať nespracované dáta prijatých správ SMS do súboru v externom úložisku</string>
     <string name="dump_sms_pref_title">Zálohovať správy SMS</string>
+    <string name="duplicate_upload_snackbar">Niektoré duplikáty neboli zahrnuté</string>
     <string name="e2ee_conversation_tombstone">S používateľom %1$s četujete s šifrovaním end-to-end</string>
     <string name="e2ee_conversation_tombstone_with_learn_more">Četujete s používateľom %1$s so zapnutým šifrovaním end-to-end. %2$s</string>
     <string name="e2ee_fail_to_send_retry_description">Znova odoslať ako čet</string>
@@ -674,7 +696,6 @@ Vaše správy, ktoré zahŕňajú aj telefónne číslo odosielajúcej firmy, ko
 Správy sa prepnú späť, keď sa četové funkcie znova pripoja."</string>
     <string name="enable_rcs_auto_fallback_dialog_title">Chcete správy automaticky znova posielať ako textové (SMS/MMS)?</string>
     <string name="enable_rcs_auto_fallback_title">Správy automaticky znova posielať ako textové (SMS/MMS)</string>
-    <string name="enable_rcs_fallback_to_sms_title">Opätovné odosielanie nedoručených správ</string>
     <string name="enable_rcs_fallback_to_xms_title">Opätovné odosielanie nedoručených správ</string>
     <string name="enable_rcs_summary_off">Posielať správy cez Wi‑Fi alebo dáta, ak sú k dispozícii</string>
     <string name="enable_rcs_summary_on">Výmena správ dátovým pripojením, ak je k dispozícii</string>
@@ -686,9 +707,13 @@ Správy sa prepnú späť, keď sa četové funkcie znova pripoja."</string>
     <string name="enter_phone_number_title">Potvrďte svoje telefónne číslo</string>
     <string name="enter_phone_number_title_for_sim">Potvrďte telefónne číslo SIM karty %1$s</string>
     <string name="enumeration_comma">", "</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_failed_to_save_setting">Uloženie nebolo úspešné. Skúste to znova.</string>
     <string name="error_icon_content_description">Chyba</string>
     <string name="error_premium_sms_needs_permission">Ak chcete túto správu odoslať, prejdite na nastavenia zariadenia a zapnite prístup k prémiovým správam SMS</string>
+    <string name="error_text_draft_is_reply_to_missing_message">Na odstránenú správu sa nedá odpovedať</string>
+    <string name="error_text_draft_is_reply_without_rcs">Vyskytol sa problém s četovými funkciami. Skúste správu odoslať bez odpovede v čete.</string>
+    <string name="error_text_scheduled_send_with_draft_reply">Odpoveď sa momentálne nedá naplánovať</string>
     <string name="etouffee_to_rcs_notification">Správy zistili, že určitá konverzácia prestala používať šifrovanie end-to-end. Klepnutím odošlete spätnú väzbu.</string>
     <string name="etouffee_to_telephony_setting">Ochrana súkromia</string>
     <string name="etouffee_to_telephony_setting_description">"Povolenia pre SMS správy zahŕňajú správy chránené šifrovaním end-to-end. Vďaka tomu možno tieto správy zálohovať v Androide, nechať si ich prečítať nahlas v aute alebo v sprievodnom zariadení a oveľa viac. Aplikácie s povoleniami pre SMS správy môžete zobraziť a spravovať v nastaveniach Androidu.
@@ -714,19 +739,24 @@ Zmena tohto nastavenia neovplyvní správy chránené šifrovaním end-to-end, k
     <string name="exo_controls_pause_description">Pozastaviť</string>
     <string name="exo_controls_play_description">Prehrať</string>
     <string name="exo_controls_previous_description">Predchádzajúca</string>
-    <string name="exo_controls_repeat_all_description">Opakovať všetko</string>
-    <string name="exo_controls_repeat_off_description">Neopakovať</string>
-    <string name="exo_controls_repeat_one_description">Opakovať jednu</string>
+    <string name="exo_controls_repeat_all_description">Aktuálny režim: Opakovať všetky. Prepnúť režim opakovania</string>
+    <string name="exo_controls_repeat_off_description">Aktuálny režim: Neopakovať. Prepnúť režim opakovania</string>
+    <string name="exo_controls_repeat_one_description">Aktuálny režim: Opakovať jedno. Prepnúť režim opakovania</string>
     <string name="exo_controls_rewind_description">Pretočiť späť</string>
     <string name="exo_controls_show">Zobraziť ovládacie prvky prehrávača</string>
-    <string name="exo_controls_shuffle_off_description">Náhodné prehrávanie je vypnuté</string>
-    <string name="exo_controls_shuffle_on_description">Náhodné prehrávanie je zapnuté</string>
+    <string name="exo_controls_shuffle_off_description">Zapnúť režim náhodného prehrávania</string>
+    <string name="exo_controls_shuffle_on_description">Vypnúť režim náhodného prehrávania</string>
     <string name="exo_controls_vr_description">režim VR</string>
     <string name="exo_track_selection_auto">Automaticky</string>
     <string name="exo_track_selection_none">Žiadne</string>
     <string name="expand_attach_button_content_description">Rozbaliť priložené tlačidlá</string>
     <string name="expand_button_title">Rozšírené</string>
     <string name="exposed_dropdown_menu_content_description">Zobraziť rozbaľovaciu ponuku</string>
+    <string name="express_sign_in_illustration_content_description">Ilustrácia k funkcii zdieľania médií</string>
+    <string name="express_sign_in_sub_title">"Zachovajte vo videách jasný a ostrý obraz,
+keď sa prihlásite a pošlete odkazy do Fotiek Google."</string>
+    <string name="express_sign_in_title">"Zdieľajte videá tak,
+ako boli natočené"</string>
     <string name="fail_to_decrypt_message_metadata">Nedá sa dešifrovať, klepnutím si zobrazíte možnosti</string>
     <string name="fail_to_load_dialog_negative_button">Poslať textovú správu pomocou SIM karty zariadenia</string>
     <string name="fail_to_load_dialog_positive_button">Skúsiť znova</string>
@@ -740,6 +770,7 @@ Zmena tohto nastavenia neovplyvní správy chránené šifrovaním end-to-end, k
     <string name="failed_message_content_description">Správa zlyhala. Klepnutím to skúste znova.</string>
     <string name="failed_qr_pairing_dialog_message">Vyskytol sa problém. Skúste to znova o niekoľko minút.</string>
     <string name="failed_qr_pairing_dialog_positive_button_text">OK</string>
+    <string name="failed_to_select_attachment_from_system_picker">Nepodarilo sa vybrať túto prílohu</string>
     <string name="fast_track_negative_button_text">Nie, vďaka</string>
     <string name="fast_track_popup_accepted_snack_bar_text">Nastavujú sa funkcie četu. Keď budú pripravené, dáme vám vedieť.</string>
     <string name="fast_track_popup_declined_snack_bar_text">Četové funkcie môžete kedykoľvek zapnúť v nastaveniach.</string>
@@ -805,6 +836,9 @@ Zmena tohto nastavenia neovplyvní správy chránené šifrovaním end-to-end, k
     <string name="fi_settings_download_over_wifi_title">Synchronizovať médiá len cez Wi‑Fi</string>
     <string name="fi_settings_opt_out_failed">Momentálne nemôžeme zastaviť synchronizáciu a odhlásiť vás. Skúste to neskôr.</string>
     <string name="fi_settings_opt_out_in_progress">Zastavuje sa synchronizácia a odhlasuje sa</string>
+    <string name="fi_settings_redirect_button">Spravovať zálohovanie</string>
+    <string name="fi_settings_redirect_summary">Nájdete ich v ponuke účtu</string>
+    <string name="fi_settings_redirect_title">Nastavenia funkcie Zálohovanie a synchronizácia boli presunuté</string>
     <string name="fi_settings_sync_preference_backup_in_progress">Zálohuje sa: %1$d %%</string>
     <string name="fi_settings_sync_preference_restore_in_progress">Obnovuje sa: %1$d %%</string>
     <string name="fi_settings_sync_preference_summary">Správy, hovory a hlasové správy ostanú aktuálne vo všetkých zariadeniach</string>
@@ -822,6 +856,7 @@ Zmena tohto nastavenia neovplyvní správy chránené šifrovaním end-to-end, k
     <string name="file_transfer_via_sms_other">Zdieľam s vami súbor</string>
     <string name="file_transfer_via_sms_video">Zdieľam s vami video</string>
     <string name="files_shortcut_title">Súbory</string>
+    <string name="flip_camera_button_label">Prepnúť fotoaparát</string>
     <string name="floating_toolbar_close_overflow_description">Zavrieť rozšírenú ponuku</string>
     <string name="floating_toolbar_open_overflow_description">Ďalšie možnosti</string>
     <string name="foreground_service_notification_generic_text">Aplikácia Správy pracuje na pozadí</string>
@@ -835,12 +870,27 @@ Zmena tohto nastavenia neovplyvní správy chránené šifrovaním end-to-end, k
     <string name="full_banner_expand_chip_description">Tlačidlo na rozbalenie čipu</string>
     <string name="full_screen_gallery_action_attach">Pridať</string>
     <string name="fullscreen_button_description">Otvoriť na celú obrazovku</string>
+    <string name="gaia_auth_failure_dialog_body">Niektoré funkcie používajúce váš účet Google nebudú fungovať, kým sa neprihlásite</string>
+    <string name="gaia_auth_failure_dialog_title">Na overenie toho, že ste to vy, sa znova prihláste</string>
+    <string name="gallery_google_photos_option_tray_button_add">Pridať</string>
+    <string name="gallery_google_photos_option_tray_button_always">Vždy</string>
+    <string name="gallery_google_photos_option_tray_button_cancel">Zrušiť</string>
+    <string name="gallery_google_photos_option_tray_button_just_once">Len raz</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_image">Obrázok s nižšou jasnosťou</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_unknown">Médium s nízkou kvalitou</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_video">Video s nízkou kvalitou</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_image">Obrázok</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_unknown">Médiá</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_video">Video</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_body">Kvalitnejší obraz. Zdieľané odkazy môžete spravovať vo Fotkách Google.</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_learn_more">Ďalšie informácie</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_title">Odkaz na Fotky Google</string>
+    <string name="gallery_item_content_description_selected_state">Výber tejto položky (%1$s) priloženej na pozícii %2$s zrušíte dvojitým klepnutím</string>
+    <string name="gallery_item_content_description_unselected_state">Túto položku (%1$s) nasnímanú %2$s vyberiete dvojitým klepnutím</string>
     <string name="general_settings">Všeobecné</string>
     <string name="general_settings_activity_title">Všeobecné nastavenia</string>
     <string name="general_settings_title_m2">Možnosti</string>
     <string name="generic_issue_text">Iné</string>
-    <string name="get_messenger_notification_body">Čítajte a odosielajte textové správy z hodiniek či telefónu</string>
-    <string name="get_messenger_notification_header">Nainštalujte si Správy</string>
     <string name="get_sticker_packs_error_msg">Nálepky sa nepodarilo načítať.</string>
     <string name="gif_screen_no_result">Nedá sa nájsť zhoda. Skontrolujte parametre vyhľadávania a skúste to znova.</string>
     <string name="gif_screen_title">Gify</string>
@@ -848,10 +898,23 @@ Zmena tohto nastavenia neovplyvní správy chránené šifrovaním end-to-end, k
     <string name="gif_search_hint">Hľadať gify</string>
     <string name="gifs_shortcut_title">Gify</string>
     <string name="go_to_top">Zobraziť najnovšie</string>
-    <string name="google_account_pref_title">Účet Google</string>
     <string name="google_assistant_verification_channel_name">Overenie Asistenta</string>
     <string name="google_assistant_verification_notification_title">Asistent Google odosiela správu</string>
     <string name="google_fi_text">Google Fi</string>
+    <string name="google_photos_onboarding_close_button_description">Zavrieť kartu Fotiek Google</string>
+    <string name="google_photos_onboarding_ineligible_title">Ak chcete kvalitnejšie videá, prihláste sa do Fotiek Google</string>
+    <string name="google_photos_onboarding_ineligible_title_photos_and_videos">Ak chcete kvalitnejšie fotky a videá, prihláste sa do Fotiek Google</string>
+    <string name="google_photos_onboarding_learn_more">Ďalšie informácie</string>
+    <string name="google_photos_onboarding_next">Ďalej</string>
+    <string name="google_photos_onboarding_ok">OK</string>
+    <string name="google_photos_onboarding_signed_in_title_photos_and_videos">Ak chcete odosielať kvalitnejšie fotky a videá, prihláste sa</string>
+    <string name="google_photos_onboarding_signed_out_title">Ak chcete odosielať kvalitnejšie videá, prihláste sa</string>
+    <string name="google_photos_onboarding_text_body">Zachovajte vo videách jasný a ostrý obraz, keď do konverzácií cez MMS vložíte odkazy na Fotky Google</string>
+    <string name="google_photos_onboarding_text_body_photos_and_videos_xms">Zachovajte v médiách jasný a ostrý obraz, keď do konverzácií cez MMS vložíte odkazy na Fotky Google</string>
+    <string name="google_photos_onboarding_title">Zdieľajte videá tak, ako boli natočené</string>
+    <string name="google_photos_onboarding_title_photos_and_videos">Zdieľajte fotky a videá v takej kvalite, v akej boli zaznamenané</string>
+    <string name="google_photos_option_tray">Ak chcete odosielať ostrejšie videá, prihláste sa</string>
+    <string name="google_photos_option_tray_photos_and_videos">Ak chcete odosielať kvalitnejšie fotky a videá, prihláste sa</string>
     <string name="google_play_protect_title">Google Play Protect</string>
     <string name="google_tos_chat_features_tooltip">"Zistite, keď niekto píše správu, dostávajte potvrdenia o prečítaní a odosielajte správy, súbory a fotky vo vysokom rozlíšení četovými fukciami prostredníctvom protokolu RCS. Ten odosiela správy pomocou dátového pripojenia.
 
@@ -865,8 +928,9 @@ Môžete to vypnúť v nastaveniach. %1$s"</string>
 
 Predvolenú SIM kartu na hovory môžete zmeniť v nastaveniach systému. %1$s"</string>
     <string name="google_tos_multisim_view_accessibility_description">Ďalšie informácie</string>
+    <string name="google_tos_negative_link_text">Nie, vďaka</string>
     <string name="group_conversation_title_everyone_else_left">Ja</string>
-    <string name="group_limit_alert_dialog_message">"{max_group_size_including_self,plural, =1{Nemôže mať viac ako # osobu}few{Nemôže mať viac ako # ľudí}many{Can't have more than # people}other{Nemôže mať viac ako # ľudí}}"</string>
+    <string name="group_limit_alert_dialog_message">"{max_group_size_excluding_self,plural, =1{Nemôže mať viac ako # ďalšiu osobu}few{Nemôže mať viac ako # ďalších ľudí}many{Can't have more than # other people}other{Nemôže mať viac ako # ďalších ľudí}}"</string>
     <string name="group_mms_pref_title">Skupinové správy</string>
     <string name="group_name_edit_text_label">Názov skupiny</string>
     <string name="guest_cloud_preview">PREDBEŽNÁ VERZIA</string>
@@ -876,14 +940,19 @@ Predvolenú SIM kartu na hovory môžete zmeniť v nastaveniach systému. %1$s"
     <string name="happy_birthday_no_name">Zaželajte tomuto používateľovi všetko najlepšie k narodeninám.</string>
     <string name="hidden_sender_address">Skrytá adresa odosielateľa</string>
     <string name="highlighter">Zvýrazňovač</string>
+    <string name="how_it_works_link_text">Ako to funguje</string>
+    <string name="hqms_always_send_image_as_link_pref_title">Vždy posielať obrázok v textovej správe SMS či MMS ako odkaz</string>
+    <string name="hqms_always_send_video_as_link_pref_title">Vždy posielať video v textovej správe SMS či MMS ako odkaz</string>
+    <string name="hqms_settings_gaia_card_text">Spravovať odkazy vo Fotkách Google</string>
+    <string name="hqms_settings_info_text">Správy budú nahrávať videá do Fotiek Google, kde môžete spravovať zdieľanie odkazov na video. %1$s</string>
+    <string name="hqms_settings_sign_in_prompt_text">Prihláste sa do svojho účtu Google, aby ste mohli túto funkciu používať</string>
     <string name="hqms_settings_summary">Zdieľajte v textovej správe (SMS/MMS) kvalitnejšie video</string>
     <string name="hqms_settings_title">Fotky Google</string>
     <string name="identity_verification_notification_text">Aplikácia Správy overuje prichádzajúcu správu</string>
     <string name="ignore">Ignorovať</string>
     <string name="image_attachment_content_description">Príloha v podobe obrázka</string>
     <string name="image_compress_info">Pre obmedzenia operátora týkajúce sa MMS správ uvidí príjemca obrázok v nižšej kvalite</string>
-    <string name="imei_format_dropdown_hint">Nastaviť formát IMEI</string>
-    <string name="imsi_format_dropdown_hint">Nastaviť formát IMSI</string>
+    <string name="image_format_type">obrázok</string>
     <string name="in_conversation_blocked_contact_text">V konverzácii sa nemusia zobrazovať všetky správy, pretože obsahuje blokované kontakty.</string>
     <string name="in_conversation_notify_new_message_action">Zobraziť</string>
     <string name="in_conversation_notify_new_message_text">Nová správa</string>
@@ -893,7 +962,7 @@ Predvolenú SIM kartu na hovory môžete zmeniť v nastaveniach systému. %1$s"
     <string name="incoming_message_for_secondary_user_notification_title">Nová správa</string>
     <string name="incoming_message_foreground_notification_text">Aplikácia Správy spracúva prichádzajúcu správu</string>
     <string name="incoming_mms_disabled_by_company_pref_summary">Vaša firma nepovoľuje prichádzajúce MMS správy</string>
-    <string name="indeterminate">Ani začiarknuté ani nezačiarknuté</string>
+    <string name="indeterminate">Čiastočne začiarknuté</string>
     <string name="info_and_options_activity_business_tab_list_header">Firemné nastavenia</string>
     <string name="info_and_options_activity_info_tab_content_description">Informácie</string>
     <string name="info_and_options_activity_info_tab_title">Informácie</string>
@@ -904,6 +973,9 @@ Predvolenú SIM kartu na hovory môžete zmeniť v nastaveniach systému. %1$s"
     <string name="info_and_options_view_terms_of_service">Zobraziť zmluvné podmienky</string>
     <string name="inline_playback_error">Toto video sa v Správach nedá prehrať</string>
     <string name="inline_playback_pause_content_description">Pozastaviť video</string>
+    <string name="install_photos_app">Stiahnuť Fotky Google</string>
+    <string name="install_photos_app_title">Ak chcete pokračovať, stiahnite si aplikáciu Fotky Google</string>
+    <string name="install_photos_app_to_continue">Ak chcete odosielať kvalitnejšie videá, nainštalujte si aplikáciu</string>
     <string name="invalid_qr_code_dialog_message">Ak sa chcete prihlásiť, naskenujte QR kód na %s</string>
     <string name="invalid_qr_code_dialog_positive_button_text">OK</string>
     <string name="invalid_qr_code_dialog_title">Nesprávny kód</string>
@@ -917,14 +989,12 @@ Predvolenú SIM kartu na hovory môžete zmeniť v nastaveniach systému. %1$s"
     <string name="leave_confirmation_text">Naozaj už nechcete dostávať správy z tejto skupiny?</string>
     <string name="leave_confirmation_title">Trvalé opustenie skupiny</string>
     <string name="libraries_material_featurehighlight_dismiss">Zrušiť</string>
-    <string name="link_preview_enabled_pref_summary">Zobrazovať v správach ukážky</string>
+    <string name="lighter_account_sign_out_snackbar_text">Ak si chcete pozrieť svoje firemné konverzácie, prihláste sa</string>
+    <string name="lighter_block_report_spam_body">Názov firmy a vaša konverzácia s touto firmou budú odoslané Googlu (môžu sa účtovať poplatky operátora).</string>
     <string name="link_preview_enabled_pref_summary_off">Vypnuté</string>
     <string name="link_preview_failed">Ukážka nie je k dispozícii</string>
     <string name="link_preview_google_photos_display_name">Fotky Google</string>
-    <string name="link_preview_preference_info_text">Google získava ukážky obsahu z prepojených webov. Ukážky sa zobrazujú iba v prípade odkazov od známych odosielateľov. %1$s</string>
-    <string name="link_preview_preference_title">Automatické ukážky odkazov</string>
     <string name="link_preview_tap_to_load">Klepnutím načítate ukážku</string>
-    <string name="link_preview_wifi_only_pref_summary">Sťahovať ukážky len cez Wi-Fi</string>
     <string name="link_to_settings"><u>Spravovať v nastaveniach</u></string>
     <string name="listify_many">%1$s a ďalší (%2$d)</string>
     <string name="listify_one">%s</string>
@@ -971,13 +1041,13 @@ Odporúčané informácie nemusíte poskytnúť a obsah ani text vašich správ
     <string name="manual_msisdn_skipped_snack_bar_text">Zlepšené četové funkcie neboli aktivované. Aktivovať ich môžete kedykoľvek v nastaveniach.</string>
     <string name="manual_msisdn_skipped_snack_bar_text_b155475148">Správy sa pokúsia overiť vaše číslo u operátora. Túto funkciu môžete spravovať v Nastaveniach.</string>
     <string name="manual_msisdn_verify_now_snack_bar_text_b155475148">Správy sa pokúsia overiť vaše číslo u operátora. Túto funkciu môžete spravovať v Nastaveniach.</string>
-    <string name="manually_override_rcs_flags">Ručne prepísať experimentálne funkcie RCS</string>
     <string name="mark_all_messages_as_read_confirmation">Všetky správy boli označené ako prečítané</string>
     <string name="mdd_download_notification_channel_name">Data Download – kanál upozornení</string>
     <string name="mdd_foreground_service_notification_title">Sťahuje sa</string>
     <string name="mdd_notification_action_cancel">Zrušiť</string>
     <string name="mdd_notification_download_failed">Sťahovanie zlyhalo</string>
     <string name="mdd_notification_download_paused">Čaká sa na pripojenie k sieti.</string>
+    <string name="mdd_notification_download_paused_wifi">Čaká sa na pripojenie Wi‑Fi</string>
     <string name="media_compress_info">Pre obmedzenia operátora týkajúce sa MMS správ uvidí príjemca médiá v nižšej kvalite</string>
     <string name="media_compress_tooltip_info_icon_text">informácie</string>
     <string name="media_viewer_close_button_description">Zavrieť</string>
@@ -1076,6 +1146,8 @@ Odporúčané informácie nemusíte poskytnúť a obsah ani text vašich správ
     <string name="message_type_vcard">Vizitka</string>
     <string name="message_type_video">Video</string>
     <string name="message_video_content_description">Video</string>
+    <string name="message_with_deleted_snippet_talk_back_announcement">%1$s ako reakcia na odstránenú správu</string>
+    <string name="message_with_reply_snippet_talk_back_announcement">%1$s ako reakcia na správu %2$s od používateľa %3$s</string>
     <string name="messages_for_web_preference_summary">Prejsť na %1$s</string>
     <string name="messages_for_web_preference_title">Odosielajte textové správy, volajte a kontrolujte si hlasové správy na internete</string>
     <string name="messages_status_feedback_data_description">"Všetky odporúčané informácie pomáhajú pri odhaľovaní skrytých problémov, ich rozličných príčin či toho, ako medzi sebou súvisia alebo kde aplikovať riešenie.
@@ -1129,11 +1201,15 @@ Odpovedať môžete na správy, kde krátky kód tvoria len číslice. Na správ
     <string name="mms_text">MMS</string>
     <string name="more_string">+%1$d</string>
     <string name="mtrl_badge_numberless_content_description">Nové upozornenie</string>
+    <string name="mtrl_checkbox_state_description_checked">Checked</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Indeterminate</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Not checked</string>
     <string name="mtrl_chip_close_icon_content_description">Odstrániť položku %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Viac než %1$d nových upozornení</string>
     <string name="mtrl_picker_a11y_next_month">Ďalší mesiac</string>
     <string name="mtrl_picker_a11y_prev_month">Predchádzajúci mesiac</string>
     <string name="mtrl_picker_announce_current_selection">Aktuálny výber: %1$s</string>
+    <string name="mtrl_picker_cancel">Zrušiť</string>
     <string name="mtrl_picker_confirm">OK</string>
     <string name="mtrl_picker_day_of_week_column_header">Stĺpec dní: %1$s</string>
     <string name="mtrl_picker_navigate_to_year_description">Prejsť na rok %1$s</string>
@@ -1145,11 +1221,24 @@ Odpovedať môžete na správy, kde krátky kód tvoria len číslice. Na správ
     <string name="multimedia_message">Multimediálna správa</string>
     <string name="muted_conversation_content_description">Upozornenia sú zakázané.</string>
     <string name="nav_app_bar_navigate_up_description">Prejsť hore</string>
+    <string name="nav_archived_messages_folder_title">Archivované</string>
+    <string name="nav_choose_theme_title">Výber motívu</string>
+    <string name="nav_choose_theme_title_disable_dark_mode">Vypnúť tmavý režim</string>
+    <string name="nav_choose_theme_title_enable_dark_mode">Zapnúť tmavý režim</string>
+    <string name="nav_device_pairing_title">Spárovať so zariadením</string>
+    <string name="nav_mark_all_as_read_title">Všetko ako prečítané</string>
+    <string name="nav_messages_folder_title">Správy</string>
+    <string name="nav_spam_and_blocked_messages_folder_title">Spam a blokované</string>
+    <string name="nav_starred_folder_title">S hviezdičkou</string>
     <string name="navigate_up_button_content_description">Prejsť hore</string>
     <string name="new_message_label">{count,plural, =1{1 nová správa}few{# nové správy}many{# new messages}other{# nových správ}}</string>
     <string name="new_pill_label">Nové</string>
     <string name="new_rich_cards_preference_info_text">Google prehľadáva vybrané informácie, napríklad miesta či odkazy, z vašej histórie četu, aby mohol vytvárať ukážky a rozoznávať škodlivý obsah. Nezisťuje pritom vašu totožnosť. %1$s</string>
-    <string name="no_google_account">Žiadny</string>
+    <string name="no_business_name_fallback">tejto firmy</string>
+    <string name="no_connection">Bez pripojenia</string>
+    <string name="no_media_button">Zobraziť možnosti</string>
+    <string name="no_media_caption">Vyskúšajte iný zdroj médií alebo profil</string>
+    <string name="no_media_description">V tomto zariadení nie sú pre tento profil uložené žiadne médiá</string>
     <string name="no_reply_pinned_message_text">Odosielateľ nepodporuje odpovede</string>
     <string name="no_sim_message">Žiadne správy na SIM karte</string>
     <string name="not_selected">Nevybrané</string>
@@ -1205,31 +1294,51 @@ Odpovedať môžete na správy, kde krátky kód tvoria len číslice. Na správ
     <string name="nudge_learn_more_info_text">Viac o štuchnutiach</string>
     <string name="nudge_reply_enabled_pref_summary">Správy, ktoré môžu vyžadovať vašu odpoveď, budú presunuté nahor</string>
     <string name="nudge_reply_enabled_pref_title">Navrhovať pripomenutia odpovedí</string>
+    <string name="nudge_settings_page_description">Zobrazovať odpovede a pripomenutia narodenín</string>
     <string name="nudge_settings_page_title">Štuchnutia</string>
     <string name="numeric_text_keyboard_toggle_button_content_description">Prepnúť medzi zadávaním textu a číslic</string>
     <string name="off">Vypnuté</string>
     <string name="og_a11y_close">Zavrieť</string>
     <string name="og_account_and_settings">Účet a nastavenia.</string>
+    <string name="og_account_particle_disc_no_accounts_available_a11y">Prihlásiť sa</string>
     <string name="og_add_another_account">Pridať ďalší účet</string>
+    <string name="og_app_settings">Nastavenia aplikácie %1$s</string>
     <string name="og_choose_an_account_title">Vyberte účet</string>
     <string name="og_collapse_account_list_a11y">Zbaliť zoznam účtov.</string>
     <string name="og_continue">Pokračovať</string>
     <string name="og_continue_as">Pokračovať ako %1$s</string>
     <string name="og_expand_account_list_a11y">Rozbaliť zoznam účtov.</string>
+    <string name="og_get_storage_action">Získať priestor</string>
+    <string name="og_get_storage_action_short">Kúpiť viac</string>
     <string name="og_google_one_account_a11y">Účet Google One.</string>
+    <string name="og_help_feedback">Pomocník a spätná väzba</string>
     <string name="og_loading_a11y">Načítava sa</string>
     <string name="og_manage_accounts">Spravovať účty v tomto zariadení</string>
+    <string name="og_manage_storage_action">Spravovať priestor</string>
+    <string name="og_manage_storage_action_short">Spravovať</string>
+    <string name="og_minimized_storage_card_title">Využitý ukladací priestor: %1$s z %2$s GB</string>
+    <string name="og_more_options_action">Ďalšie možnosti</string>
+    <string name="og_more_options_action_short">Možnosti</string>
     <string name="og_my_account_desc_long_length">Spravovať účet Google</string>
     <string name="og_my_account_desc_meduim_length">Účet Google</string>
     <string name="og_my_account_desc_short_length">Účet</string>
+    <string name="og_privacy_advisor">Vaše údaje v aplikácii %1$s</string>
     <string name="og_privacy_policy">Pravidlá ochrany súkromia</string>
     <string name="og_selected_account_a11y">Vybrané: %1$s.</string>
     <string name="og_sign_in_">Prihlásiť sa</string>
     <string name="og_signed_in_as_account">Prihlásili ste sa ako %1$s</string>
+    <string name="og_storage_card_almost_full_a11y_label">Ukladací priestor vášho účtu je takmer plný</string>
+    <string name="og_storage_card_full_a11y_label">Ukladací priestor vášho účtu je plný</string>
+    <string name="og_storage_card_title">Priestor účtu</string>
+    <string name="og_storage_card_title_almost_full">Využívate %1$s ukladacieho priestoru</string>
+    <string name="og_storage_card_title_full">Ukladací priestor je plný</string>
+    <string name="og_storage_progress_subtitle">%1$s GB využitých z %2$s GB</string>
     <string name="og_terms_of_service">Zmluvné podmienky</string>
     <string name="og_use_account_a11y_no_period">Použiť účet %1$s</string>
+    <string name="og_use_without_an_account">Použiť bez účtu</string>
     <string name="on">Zapnuté</string>
     <string name="onboarding_google_tos_with_sms_charges_and_learn_more">Zapnutím četových funkcií od Googlu prijímate %1$s a %2$s. Google vaše číslo občas overí výmenou informácií o zariadení s vaším operátorom (môžu sa účtovať poplatky za SMS). %3$s.</string>
+    <string name="open_full_screen_camera_button_label">Otvoriť fotoaparát na celú obrazovku</string>
     <string name="open_video_trimmer_dialog_negative">Zrušiť</string>
     <string name="open_video_trimmer_dialog_positive">Zostrihať</string>
     <string name="organization">Organizácia</string>
@@ -1243,8 +1352,6 @@ Odpovedať môžete na správy, kde krátky kód tvoria len číslice. Na správ
     <string name="otp_auto_deletion_promo_banner_positive_button_text">Pokračovať</string>
     <string name="otp_auto_deletion_promo_banner_title_text">Chcete automaticky odstraňovať jednorazové heslá po 24 hodinách?</string>
     <string name="otp_copied_to_clipboard">Kód bol skopírovaný</string>
-    <string name="otp_pattern_dropdown_hint">Nastaviť vzor jednorazového hesla</string>
-    <string name="otp_port_dropdown_hint">Nastaviť port jednorazového hesla</string>
     <string name="outgoing_message_foreground_notification_text">Aplikácia Správy spracúva odchádzajúcu správu</string>
     <string name="outgoing_mms_disabled_by_carrier_pref_summary">Váš operátor nepovoľuje odchádzajúce MMS správy</string>
     <string name="outgoing_mms_disabled_by_company_pref_summary">Vaša firma nepovoľuje odchádzajúce MMS správy</string>
@@ -1270,6 +1377,7 @@ Odpovedať môžete na správy, kde krátky kód tvoria len číslice. Na správ
     <string name="paired_desktops_last_connection_time">Posledná aktivita: %s</string>
     <string name="paired_desktops_last_connection_time_unknown">neznáme</string>
     <string name="participant_joined_group">%s sa pripojil(a) k tejto skupine</string>
+    <string name="participant_joined_with_learn_more">Účastníci (%1$s) sa pripojili k tejto skupine. %2$s</string>
     <string name="participant_left_group">%s opustil(a) túto skupinu</string>
     <string name="participant_list_add">Pridať ľudí</string>
     <string name="participant_list_count_title_icu">{count,plural, =0{Žiadni ďalší ľudia}=1{1 ďalší človek}few{# ďalší ľudia}many{# other people}other{# ďalších ľudí}}</string>
@@ -1289,6 +1397,7 @@ Odpovedať môžete na správy, kde krátky kód tvoria len číslice. Na správ
     <string name="phone_number_input_body_for_mo_text">Ak vám stačí získať četové funkcie neskôr, preskočte tento krok a Správy sa pokúsia číslo overiť u vášho operátora</string>
     <string name="phone_number_input_body_text">Správy overia vaše číslo, aby ste mohli získať funkcie četu</string>
     <string name="phone_number_input_hint">Vaše telefónne číslo</string>
+    <string name="phone_number_input_invalid_number_text">Neplatné telefónne číslo</string>
     <string name="phone_number_input_negative_button_for_mo_text">Nateraz preskočiť</string>
     <string name="phone_number_input_negative_button_for_mt_text">Pripomenúť neskôr</string>
     <string name="phone_number_input_positive_button_text">Pridať číslo</string>
@@ -1305,10 +1414,25 @@ Odpovedať môžete na správy, kde krátky kód tvoria len číslice. Na správ
     <string name="phone_number_input_title_text">Ak chcete získať četové funkcie rýchlejšie, pridajte svoje číslo</string>
     <string name="phone_number_input_tos_reminder_text">V minulosti ste prijali %1$s pre četové funkcie</string>
     <string name="phone_number_input_tos_text">zmluvné podmienky</string>
+    <string name="phone_number_promo_banner_body_text">Potvrďte svoje telefónne číslo, aby ste mohli odosielať kvalitnejšie videá, animované reakcie a ďalší obsah cez Wi‐Fi alebo mobilné dáta</string>
+    <string name="phone_number_promo_banner_negative_button_text">Zavrieť</string>
+    <string name="phone_number_promo_banner_positive_button_text">Ďalej</string>
+    <string name="phone_number_promo_banner_title_text">Ďalší krok k lepším funkciám Správ</string>
+    <string name="phone_number_promo_body_text">Začnite tým, že zadáte svoje overené telefónne číslo. Četové funkcie môžete kedykoľvek spravovať v Nastaveniach.</string>
+    <string name="phone_number_promo_body_text_mo">Začnite tým, že zadáte a overíte svoje telefónne číslo. Ak vám stačí získať četové funkcie neskôr, preskočte tento krok a Správy sa pokúsia overiť číslo za vás.</string>
+    <string name="phone_number_promo_negative_button_text">Pripomenúť neskôr</string>
+    <string name="phone_number_promo_negative_button_text_mo">Nateraz preskočiť</string>
+    <string name="phone_number_promo_positive_button_text">Získať četové funkcie</string>
+    <string name="phone_number_promo_title_text">Chcete cez Wi-Fi alebo dáta zdieľať fotky, videá a ďalší obsah?</string>
+    <string name="phone_number_ui_accepted_snackbar_text">Keď budete mať četové funkcie k dispozícii, dostanete upozornenie</string>
+    <string name="phone_number_ui_dismissed_snackbar_action_text">Nastavenia</string>
+    <string name="phone_number_ui_dismissed_snackbar_text">Ak chcete získať četové funkcie hneď, pridajte svoje telefónne číslo alebo spravujte možnosti v nastaveniach</string>
     <string name="photo_taken">Odfotené</string>
+    <string name="photos_app_installation_required">Ak chcete odosielať kvalitnejšie videá, stiahnite si aplikáciu Fotky Google</string>
+    <string name="photos_app_onboarding_required">Ak chcete odosielať kvalitnejšie videá, povoľte Fotkám Google prístup</string>
+    <string name="photos_app_sharing_unavailable_try_again_later">Odkaz na video s kvalitnejším obrazom je dočasne nedostupný. Video s nižšou kvalitou je pripravené na odoslanie.</string>
+    <string name="photos_app_sign_in_required">Ak chcete posielať kvalitnejšie videá, prihláste sa do Fotiek Google</string>
     <string name="picker_disambiguation_title">Výber cieľového čísla</string>
-    <string name="pin_limit_message">Môžete pripnúť maximálne tento počet konverzácií: %1$d</string>
-    <string name="pin_success_message">Pripnuté konverzácie: %1$d z %2$d</string>
     <string name="pinch_zoom_pref_title">Zmena veľkosti zobrazenia textu konverzácie stiahnutím alebo roztiahnutím prstov</string>
     <string name="places_autocomplete_clear_button">Vymazať vyhľadávanie</string>
     <string name="places_autocomplete_label">Výber miesta</string>
@@ -1328,7 +1452,7 @@ Odpovedať môžete na správy, kde krátky kód tvoria len číslice. Na správ
     <string name="posted_this_year">%1$s%2$s%3$s</string>
     <string name="posted_yesterday">Včera%1$s%2$s</string>
     <string name="preference_copied">Položka %1$s bola skopírovaná do schránky.</string>
-    <string name="preferences_license_title">Licencie open source</string>
+    <string name="preferences_license_title">Poznámky tretích strán</string>
     <string name="premium_sms_banner_body">Ak chcete odosielať správy na číslo %s a ďalšie čísla pre prémiové SMS, zapnite túto možnosť v Nastaveniach.</string>
     <string name="premium_sms_banner_body_saved_contact">Ak chcete odosielať správy kontaktu %1$s (%2$s) a na ďalšie čísla pre prémiové SMS, zapnite túto možnosť v Nastaveniach.</string>
     <string name="premium_sms_banner_description">@string/banner_description</string>
@@ -1359,10 +1483,11 @@ Medzi informácie o vašich správach patria telefónne čísla a e‑maily od
 Tieto informácie pomáhajú potvrdiť domnienky a identifikovať faktory podieľajúce sa na probléme. Vďaka tomu je možné porozumieť mu rýchlejšie a efektívnejšie."</string>
     <string name="problematic_message_feedback_data_rationale_title">V čom sú informácie o vašich správach a konverzáciách nápomocné</string>
     <string name="promotion_content_description">Táto správa je zaradená do kategórie Ponuky</string>
+    <string name="prompt_button_action_not_now">Teraz nie</string>
+    <string name="prompt_button_action_sign_in">Prihlásiť sa</string>
     <string name="proxy_screen_clear_search">Vymazať vyhľadávanie</string>
     <string name="proxy_screen_search">Hľadať</string>
     <string name="qr_action_bar_device_pairing_title">Párovanie zariadenia</string>
-    <string name="qr_action_bar_title">Správy na webe</string>
     <string name="qr_code_scanner_hint_text">Naskenujte QR kód zobrazený na&lt;br/><b>%s</b></string>
     <string name="qr_code_scanner_preference_button">Skener QR kódov</string>
     <string name="qr_delete_all_paired_desktops_button_text">Zrušiť párovanie všetkých zariadení</string>
@@ -1376,7 +1501,9 @@ Tieto informácie pomáhajú potvrdiť domnienky a identifikovať faktory podie
     <string name="qr_welcome_hangouts_unpair_devices_text">Zrušiť párovanie všetkých zariadení</string>
     <string name="qr_welcome_privacy">Pravidlá ochrany súkromia</string>
     <string name="qr_welcome_terms_of_service">Zmluvné podmienky</string>
-    <string name="rbm_block_confirmation_message_spam_folder">Po prijatí správy od používateľa %1$s už nebudete dostávať upozornenia. Táto konverzácia bude presunutá do priečinka Spam a blokované konverzácie. %2$s</string>
+    <string name="rbm_block_confirmation_message_spam_folder">Pri prijatí správy od používateľa %1$s už nebudete dostávať upozornenia. Táto konverzácia bude presunutá do priečinka Spam a blokované konverzácie. %2$s</string>
+    <string name="rbm_block_dialog_body">Od tohto odosielateľa nebudete dostávať správy. Táto konverzácia bude presunutá do sekcie Spam a blokované, kde ju môžete kedykoľvek odblokovať.</string>
+    <string name="rbm_block_dialog_positive_button_label">Blokovať</string>
     <string name="rbm_business_logo_icon_content_description">Ikona s firemným logom</string>
     <string name="rbm_platform_generalized_verifier_title">Overené spoločnosťou %s</string>
     <string name="rbm_platform_verified_by_google">Overené Googlom</string>
@@ -1396,6 +1523,7 @@ Tieto informácie pomáhajú potvrdiť domnienky a identifikovať faktory podie
     <string name="rcs_learn_more_title">%1$s o četových funkciách</string>
     <string name="rcs_learn_more_title_with_no_link">Ďalšie informácie o četových funkciách</string>
     <string name="rcs_message">Správa Rich Communication Service</string>
+    <string name="rcs_message_failed_recipient_lost_encryption_content_description">Nedá sa doručiť, klepnutím si zobrazíte možnosti</string>
     <string name="rcs_message_failed_recipient_lost_rcs_content_description">Nedá sa doručiť, klepnutím si zobrazíte možnosti</string>
     <string name="rcs_mobile_data_auto_download_carrier_format_entry">Predvolené (%1$s)</string>
     <string name="rcs_mobile_data_auto_download_limit_disable_entry_text">Zakázať</string>
@@ -1478,11 +1606,12 @@ Tieto informácie pomáhajú potvrdiť domnienky a identifikovať faktory podie
     <string name="reaction_surprised_content_description">Tvár s otvorenými ústami</string>
     <string name="reactions_promo_announcement">Dlhým stlačením pošlete reakciu</string>
     <string name="reactions_promo_text">Pridržaním pošlete reakciu</string>
-    <string name="read_external_storage_permission_description">Ak si chcete priamo odtiaľto pozrieť obsah galérie, vyžaduje sa prístup k ukladaciemu priestoru vášho telefónu.</string>
+    <string name="read_media_storage_permission_description">Ak si chcete priamo odtiaľto pozrieť obsah galérie, vyžaduje sa prístup k mediálnemu priestoru vášho telefónu.</string>
     <string name="received_label">Prijaté:</string>
     <string name="recipient_hint">Zadajte meno, telefónne číslo alebo e-mail</string>
     <string name="recipient_label">Komu</string>
     <string name="recipient_offline_description">Čaká sa, kým bude %s online…</string>
+    <string name="reminder_badge_content_description">Odznak pripomenutia</string>
     <string name="reminder_datetime_picker_dialog_delete_button">Odstrániť</string>
     <string name="reminder_datetime_picker_dialog_menu_title_add">Nastaviť pripomenutie</string>
     <string name="reminder_datetime_picker_dialog_menu_title_update">Aktualizovať pripomenutie</string>
@@ -1503,7 +1632,7 @@ Tieto informácie pomáhajú potvrdiť domnienky a identifikovať faktory podie
     <string name="reminder_suggestions_tooltip_text">Klepnite a vyberte čas, kedy sa chcete ku konverzácii vrátiť. Tieto návrhy môžete vypnúť v &lt;a href>nastaveniach&lt;/a>.</string>
     <string name="reminder_suggestions_tooltip_title_text">Nastavte si pripomenutia</string>
     <string name="reminders_banner_body">%1$s: %2$s</string>
-    <string name="reminders_banner_description">@string/banner_description</string>
+    <string name="reminders_banner_description">Reminder conversation banner</string>
     <string name="reminders_banner_done_button">Hotovo</string>
     <string name="reminders_banner_remind_button">Odložiť o 1 h</string>
     <string name="reminders_banner_self_sender_name">Vy</string>
@@ -1516,7 +1645,7 @@ Tieto informácie pomáhajú potvrdiť domnienky a identifikovať faktory podie
     <string name="remove_reaction_from_gif_rcs_fallback_text">Reakcia ‌%1$s‌ na gif bola odstránená</string>
     <string name="remove_reaction_from_link_rcs_fallback_text">Reakcia ‌%1$s‌ na odkaz bola odstránená</string>
     <string name="remove_reaction_from_photo_rcs_fallback_text">Reakcia ‌%1$s‌ na fotku bola odstránená</string>
-    <string name="remove_reaction_from_text_message_rcs_fallback_text">Reakcia ‌%1$s‌ na správu „%2$s“ bola odstránená</string>
+    <string name="remove_reaction_from_text_message_rcs_fallback_text">Reakcia ‌%1$s‌ na správu „ %2$s “ bola odstránená</string>
     <string name="remove_reaction_from_unknown_message_type_rcs_fallback_text">Reakcia ‌%1$s‌ na neznámy typ správy bola odstránená</string>
     <string name="remove_reaction_from_video_rcs_fallback_text">Reakcia ‌%1$s‌ na video bola odstránená</string>
     <string name="remove_user_dialog_cancel">Zrušiť</string>
@@ -1525,14 +1654,17 @@ Tieto informácie pomáhajú potvrdiť domnienky a identifikovať faktory podie
     <string name="rename_group_title_m2">Názov skupiny</string>
     <string name="reply_activity_title">Odpovedanie</string>
     <string name="reply_button_label">Odpovedať</string>
-    <string name="reply_icon_content_description">Odpovedať na správu</string>
+    <string name="reply_icon_content_description">Odpovedať</string>
     <string name="report_contact_title">Nahlásiť spam</string>
     <string name="report_failed_rcs_group_creation">Došlo k chybe a minimálne jeden z účastníkov nebol pridaný.</string>
     <string name="report_group_spam_body_spam_folder">Čísla a nedávne správy ostatných členov skupiny budú odoslané na kontrolu Googlu. Môže ich dostať aj váš operátor (môžu sa účtovať poplatky). Táto konverzácia zostane v priečinku Spam a blokované konverzácie a nebudete na ňu dostávať upozornenia. %1$s</string>
+    <string name="report_invalid_thread_id_issue_description">Neplatný identifikátor vlákna. Podrobnosti nájdete v denníkoch.</string>
     <string name="report_issue_action_text">Odoslať spätnú väzbu</string>
+    <string name="report_issue_description">Aplikácia Správy automaticky zaznamenala chybu. Podrobnosti nájdete v denníkoch.</string>
     <string name="report_issue_notification_text">Správy zaznamenali chybu. Klepnutím odošlete spätnú väzbu.</string>
     <string name="report_not_spam_snackbar_message">Pri čísle %1$s bolo nahlásené, že nejde o spam</string>
     <string name="report_person_delivered">Používateľ %1$s prijal správu: %2$s</string>
+    <string name="report_person_ftd">%1$s Nepodarilo sa dešifrovať: %2$s</string>
     <string name="report_person_read">Používateľ %1$s si prečítal správu: %2$s</string>
     <string name="report_person_sent">Používateľ %s neprijal správu</string>
     <string name="report_receive_issue_notification_message">Android nedokáže prijať správu, ktorú vám niekto odoslal. Klepnutím odošlete spätnú väzbu.</string>
@@ -1545,6 +1677,7 @@ Tieto informácie pomáhajú potvrdiť domnienky a identifikovať faktory podie
     <string name="report_spam_snackbar_message">Číslo %1$s bolo nahlásené ako spam</string>
     <string name="report_spam_toast_title">Správa bola nahlásená ako spam</string>
     <string name="report_telephone_db_recreation_message">Správy sa nepodarilo načítať. Klepnutím odošlete spätnú väzbu.</string>
+    <string name="report_thread_id_not_found_description">Chýba identifikátor vlákna. Podrobnosti nájdete v denníkoch.</string>
     <string name="required_permissions_no_promptable_promo">Zmeňte povolenia v nastaveniach aplikácie v zariadení. Udeľte aplikácii Správy prístup k SMS, telefónu a kontaktom.</string>
     <string name="required_permissions_no_promptable_title">Udeliť prístup</string>
     <string name="required_permissions_promptable_promo">Povoľte Správam zobrazovanie vašich SMS, hovorov a kontaktov, dokončíte tak nastavovanie svojej predvolenej aplikácie.</string>
@@ -1560,10 +1693,15 @@ Tieto informácie pomáhajú potvrdiť domnienky a identifikovať faktory podie
     <string name="rich_cards_settings_enable_link_preview_title">Zobrazovať len ukážky webových odkazov</string>
     <string name="rich_cards_settings_root_title">Automatické ukážky</string>
     <string name="said">povedal(a)</string>
-    <string name="same_birthday_nudge_text">Dnes oslavuje narodeniny!</string>
+    <string name="same_birthday_nudge_text">Dnes má narodeniny!</string>
     <string name="samsung_setting_search_title">Nastavenia Správ</string>
     <string name="save">Uložiť</string>
     <string name="save_attachment">Uložiť</string>
+    <string name="save_banner_body">Uložte si tieto narodeniny do aplikácie Kontakty a Správy vám ich budúci rok pripomenú</string>
+    <string name="save_banner_positive_button">Uložiť narodeniny</string>
+    <string name="save_banner_title_name">Nezabudnite na narodeniny kontaktu %1$s</string>
+    <string name="save_banner_title_no_name">Nezabudnite na narodeniny tohto kontaktu</string>
+    <string name="save_birthday_banner_description">@string/banner_description</string>
     <string name="save_otp_confirm_button">Uložiť jednorazové heslo</string>
     <string name="save_otp_dialog_message">Toto jednorazové heslo bude uložené, zatiaľ čo ostatné jednorazové heslá budú po 24 hodinách automaticky odstránené. Túto funkciu môžete spravovať v nastaveniach.</string>
     <string name="save_otp_dialog_title">Chcete uložiť toto jednorazové heslo?</string>
@@ -1582,6 +1720,7 @@ Tieto informácie pomáhajú potvrdiť domnienky a identifikovať faktory podie
     <string name="scheduled_send_announcement_scheduling_failed">Odoslanie správy sa nepodarilo naplánovať.</string>
     <string name="scheduled_send_announcement_scheduling_started">Plánuje sa odoslanie správy.</string>
     <string name="scheduled_send_announcement_scheduling_succeeded">Odoslanie správy bolo naplánované.</string>
+    <string name="scheduled_send_badge_content_description">Odznak naplánovaného odoslania</string>
     <string name="scheduled_send_compose_label_close_content_description">Odstrániť plánovanie</string>
     <string name="scheduled_send_datetime_picker_subtitle">Správa bude odoslaná, len ak necháte telefón zapnutý a pripojený k Wi‑Fi alebo dátovej sieti</string>
     <string name="scheduled_send_datetime_picker_title">Naplánovanie odoslania (%1$s)</string>
@@ -1609,6 +1748,7 @@ Tieto informácie pomáhajú potvrdiť domnienky a identifikovať faktory podie
     <string name="security_key_top_level_title">Overenie šifrovania</string>
     <string name="see_gallery">Zobraziť galériu</string>
     <string name="selected">Vybrané</string>
+    <string name="selection_position_text">%1$d</string>
     <string name="self_left_group_conversation_failed">Nepodarilo sa opustiť skupinu, skúste to neskôr.</string>
     <string name="self_participant_reaction_name">Vy</string>
     <string name="self_person_name">Vy</string>
@@ -1658,7 +1798,6 @@ Vaše telefónne číslo sa používa len na zisťovanie a riešenie problémov
     <string name="sending_timeout_failure_dialog_title">Správa nebola odoslaná</string>
     <string name="sent_label">Odoslané:</string>
     <string name="set_message_priority_description">Nastaviť stav súrnej správy</string>
-    <string name="set_rcs_flags">Nastaviť experimentálne funkcie RCS</string>
     <string name="set_rcs_mobile_data_auto_download_limit_title">Automaticky sťahovať prijaté súbory cez dátové pripojenie</string>
     <string name="setting_fast_track_body_with_cost">Pokračovaním vyjadrujete súhlas so %1$s a %2$s. Pri doručovaní správ na základe telefónneho čísla môže Google príležitostne overiť vaše číslo výmenou informácií o zariadení s vaším operátorom alebo formou SMS (môžu sa vám účtovať poplatky). Četové funkcie môžete vypnúť v nastaveniach. %3$s</string>
     <string name="settings_activity_title">Nastavenia</string>
@@ -1681,6 +1820,13 @@ Vaše telefónne číslo sa používa len na zisťovanie a riešenie problémov
     <string name="shortcuts_screen_title">Skratky</string>
     <string name="show_sms_link_warning_change_label">Zmeniť</string>
     <string name="show_sms_link_warning_text">Prílohy budú odoslané ako správy SMS, ktoré zahŕňajú odkaz na prílohu</string>
+    <string name="sign_in_app_name_without_account">Použiť aplikáciu %1$s bez účtu</string>
+    <string name="sign_in_cancel">Zrušiť</string>
+    <string name="sign_in_without_account">Použiť bez účtu</string>
+    <string name="sign_in_without_account_short">Bez účtu</string>
+    <string name="sign_into_photos_app">Prihlásiť sa</string>
+    <string name="sign_into_photos_app_title">Ak chcete pokračovať, prihláste sa do Fotiek Google</string>
+    <string name="sign_into_photos_app_with_x_to_continue">Momentálne používate účet %1$s</string>
     <string name="signature_banner_description">@string/banner_description</string>
     <string name="silent_ringtone">Tichý režim</string>
     <string name="sim_label">SIM karta:</string>
@@ -1699,9 +1845,13 @@ Vaše telefónne číslo sa používa len na zisťovanie a riešenie problémov
     <string name="sim_storage_full_title">Úložisko SIM karty je plné</string>
     <string name="sim_storage_pref_title">Správy na SIM karte</string>
     <string name="simple_fail_to_decrypt_message_dialog_body">Ak chcete dešifrovať budúce správy, skúste si aktualizovať aplikáciu Správy</string>
+    <string name="smart_action_settings_page_description">Zobrazovať relevantné odkazy na kalendár, vyhľadávanie gifov, zdieľanie polohy a ďalšie akcie</string>
+    <string name="smart_action_settings_page_title">Akcie</string>
+    <string name="smart_actions_preference_summary_shortcuts">Zobrazovať relevantné odkazy na kalendár, vyhľadávanie gifov, zdieľanie polohy a ďalšie akcie</string>
     <string name="smart_actions_preference_title">Navrhované akcie</string>
     <string name="smart_compose_preference_summary">Zobraziť prediktívne návrhy písania</string>
     <string name="smart_compose_preference_title">Rýchle písanie</string>
+    <string name="smart_reply_preference_summary">Zobrazovať možnosti odpovedí v četoch</string>
     <string name="smarts_preference_info_text">Rýchle odpovede a navrhované akcie sú viditeľné iba pre vás, kým na ne neklepnete a nebudete ich zdieľať. &lt;br/> &lt;br/> Návrhy sú založené na vašej konverzácii a generujú sa v zariadení. %1$s</string>
     <string name="smarts_preference_info_text_with_assistant">Rýchle odpovede, navrhované akcie a návrhy od Asistenta sú generované aplikáciou Správy priamo v zariadení. &lt;br/> &lt;br/>Návrhy sa nezdieľajú s Googlom ani s nikým iným, kým na ne neklepnete. &lt;br/> &lt;br/> Ak poskytnete aplikácii Správy prístup k polohe zariadenia, budú sa vám zobrazovať miestne návrhy. %1$s</string>
     <string name="smarts_settings_page_summary">Rýchle odpovede, navrhované akcie a ďalšie</string>
@@ -1728,19 +1878,18 @@ Odpovede sa zobrazia v samostatných konverzáciách"</string>
     <string name="snackbar_text_label_rcs_group_created_too_large">"{max_group_size_including_self,plural, =1{Nemôže mať viac ako # osobu}few{Nemôže mať viac ako # ľudí}many{Can't have more than # people}other{Nemôže mať viac ako # ľudí}}"</string>
     <string name="snackbar_text_label_rcs_group_self_only">Táto skupina je prázdna. Ak sa chcete zapojiť do četu, pridajte do tejto skupiny ľudí.</string>
     <string name="snippet">%1$s: %2$s</string>
-    <string name="snippet_assistant_card_text">Karta Asistenta</string>
-    <string name="snippet_attachment_icon_content_description">Ikona prílohy v okne odpovede</string>
     <string name="snippet_audio_attachment_text">Zvuk</string>
-    <string name="snippet_deleted_message_text">Správa bola odstránená</string>
-    <string name="snippet_dismiss_icon_content_description">Ikona na zatvorenie odpovede</string>
+    <string name="snippet_deleted_message_text">Správa odstránená</string>
+    <string name="snippet_dismiss_icon_content_description">Odstrániť</string>
     <string name="snippet_file_attachment_text">Súbor</string>
     <string name="snippet_from_you">Vy: %s</string>
     <string name="snippet_image_attachment_text">Obrázok</string>
-    <string name="snippet_media_thumbnail_content_description">Miniatúra mediálneho súboru v okne odpovede</string>
     <string name="snippet_self_participant_header">Vy</string>
     <string name="snippet_video_attachment_text">Video</string>
     <string name="soft_num_key_pad_backspace_content_description">Backspace</string>
     <string name="someone_added_participant">%1$s pridal(a) do tejto skupiny účastníkov %2$s</string>
+    <string name="someone_added_participant_with_learn_more">%1$s pridal(a) do tejto skupiny účastníkov (%2$s). %3$s</string>
+    <string name="someone_else_created_encrypted_rcs_group">%1$s vytvoril(a) tento skupinový čet s účastníkmi %2$s. %3$s</string>
     <string name="someone_else_created_mms_group">%1$s vytvoril(a) túto skupinovú MMS s účastníkmi %2$s</string>
     <string name="someone_else_created_rcs_group">%1$s vytvoril(a) tento skupinový čet s účastníkmi %2$s</string>
     <string name="someone_joined_group">Niekto sa pripojil k tejto skupine</string>
@@ -1764,7 +1913,6 @@ Odpovede sa zobrazia v samostatných konverzáciách"</string>
     <string name="spam_dialog_title_spam_folder">Chcete nahlásiť spam?</string>
     <string name="spam_folder_activity_title">Spam a blokované</string>
     <string name="spam_folder_conversation_list_empty_text_v2">Tu sa zobrazujú blokované konverzácie a spam</string>
-    <string name="spam_preference_info_text_on_device">Aplikácia Správy používa na rozpoznávanie spamu informácie zo zariadenia. Niektoré údaje o týchto správach odosiela Googlu, no neuvádza vaše telefónne číslo ani obsah správy. %1$s</string>
     <string name="spam_protection_consent_string">V rámci detekcie spamu posielajú Správy určité údaje o vašich správach Googlu, ale neuvádzajú vaše telefónne číslo ani obsah správ. %1$s</string>
     <string name="spam_reporting_from">Správa sa nahlasuje ako spam</string>
     <string name="spam_settings">Ochrana pred spamom</string>
@@ -1773,6 +1921,8 @@ Odpovede sa zobrazia v samostatných konverzáciách"</string>
     <string name="split_view_pref_title">Podrobné zobrazenie zoznamu</string>
     <string name="stacked_banner_count_text">1 z %1$d</string>
     <string name="star_badge_content_description">Odznak s hviezdičkou</string>
+    <string name="star_badge_menu_remove_action">Vymaž</string>
+    <string name="star_badge_menu_view_all_action">Zobraziť všetko</string>
     <string name="star_badge_on_click_snackbar_action">Späť</string>
     <string name="star_badge_on_click_snackbar_message">Hviezdička bola odstránená</string>
     <string name="sticker_content_description">Nálepka: %s</string>
@@ -1809,10 +1959,12 @@ Odpovede sa zobrazia v samostatných konverzáciách"</string>
     <string name="subject_with_label">Predmet: %1$s</string>
     <string name="subject_with_urgent_label">[SÚRNE] %1$s</string>
     <string name="success_message_format">%1$s %2$s %3$s %4$s %5$s %6$s.</string>
+    <string name="success_message_self_sender">Napísali ste %1$s %2$s %3$s %4$s.</string>
     <string name="success_message_self_sender_format_with_multiple_attachments">Odoslali ste niekoľko príloh %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_self_sender_format_with_single_attachment">Odoslali ste prílohu %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_specified_sender_format_with_multiple_attachments">%1$s odoslal(a) niekoľko príloh %2$s %3$s %4$s %5$s %6$s.</string>
     <string name="success_message_specified_sender_format_with_single_attachment">%1$s odoslal(a) prílohu %2$s %3$s %4$s %5$s %6$s.</string>
+    <string name="success_message_unspecified_sender">Odosielateľ napísal %1$s %2$s %3$s %4$s.</string>
     <string name="success_message_unspecified_sender_format_with_multiple_attachments">Odosielateľ odoslal niekoľko príloh %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_unspecified_sender_format_with_single_attachment">Odosielateľ odoslal prílohu %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_sent_to_message_format">Odoslané používateľovi %1$s %2$s %3$s %4$s.</string>
@@ -1821,10 +1973,18 @@ Odpovede sa zobrazia v samostatných konverzáciách"</string>
     <string name="sud_back_button_label">Späť</string>
     <string name="sud_more_button_label">Viac</string>
     <string name="sud_next_button_label">Ďalej</string>
-    <string name="suggested_stickers_preference_summary">Zobraziť navrhované nálepky</string>
+    <string name="suggested_stickers_preference_summary">Zobrazovať možnosti odpovedí formou nálepky</string>
     <string name="suggested_stickers_preference_title">Navrhované nálepky</string>
+    <string name="suggestion_shortcut_dialog_body_text">Skratky vám pomôžu rýchlo a jednoducho si označiť správu hviezdičkou, operatívne plánovať a vykonávať ďalšie akcie.</string>
+    <string name="suggestion_shortcut_dialog_positive_button">OK</string>
+    <string name="suggestion_shortcut_dialog_subsection_body_text">Skratky sú ponúkané napríklad pri telefónnych číslach a dátumoch. %1$s</string>
+    <string name="suggestion_shortcut_dialog_subsection_title_text">Ako to funguje</string>
+    <string name="suggestion_shortcut_dialog_title">Návrhy skratiek vám ušetria čas</string>
+    <string name="suggestion_shortcut_search_title">vyhľadávania</string>
+    <string name="suggestion_shortcut_star_toolstone">Označte správy hviezdičkou, aby ste ich ľahko našli prostredníctvom funkcie %1$s</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_notification_inbox_style_summary_text">Ešte +%d</string>
+    <string name="super_sort_pref_title">Usporiadanie správ</string>
     <string name="super_sort_settings_title">Usporiadanie správ</string>
     <string name="supersort_conversation_list_empty_text_business_update">Tu sa automaticky zobrazujú novinky od firiem</string>
     <string name="supersort_conversation_list_empty_text_manage_in_settings">Túto funkciu môžete spravovať v nastaveniach.</string>
@@ -1887,6 +2047,11 @@ Konverzácie môžete vyhľadávať v kategórii Všetko."</string>
     <string name="survey_user_agent">Používateľský agent</string>
     <string name="survey_very_dissatisfied">Veľká nespokojnosť</string>
     <string name="survey_very_satisfied">Veľká spokojnosť</string>
+    <string name="swipe_actions">Akcie po potiahnutí</string>
+    <string name="swipe_actions_summary">Nastavte, či potiahnutím doprava alebo doľava vyberiete Archivovať alebo Odstrániť, prípadne vypnite akcie po potiahnutí</string>
+    <string name="swipe_customize">Prispôsobiť</string>
+    <string name="swipe_left">Potiahnuť doľava</string>
+    <string name="swipe_right">Potiahnuť doprava</string>
     <string name="switcher_no_phone_number">SIM karta nebola nájdená</string>
     <string name="switcher_pair_device_title_text">Posielať textové správy pomocou spárovaného telefónu</string>
     <string name="switcher_positive_button_text">Pokračovať</string>
@@ -1894,6 +2059,7 @@ Konverzácie môžete vyhľadávať v kategórii Všetko."</string>
     <string name="switcher_use_device_sim_number">(%s)</string>
     <string name="switcher_use_device_sim_title_text">Posielať textové správy pomocou SIM karty tohto zariadenia</string>
     <string name="syncing_with_device_foreground_notification_text">Správy sa synchronizujú s vaším zariadením</string>
+    <string name="system_picker_button_label">Priečinky</string>
     <string name="t_mobile_tos_pref_link_text">zmluvné podmienky</string>
     <string name="t_mobile_tos_pref_text">Četové funkcie od Googlu vám poskytuje T‑Mobile. Prečítajte si %1$s.</string>
     <string name="t_mobile_tos_pref_url">https://www.t-mobile.com/responsibility/legal/terms-and-conditions</string>
@@ -1917,6 +2083,7 @@ Nastavenia > %1$s"</string>
     <string name="theme_setting_dialog_options_light_mode">Svetlý</string>
     <string name="theme_setting_dialog_options_system_default_mode">Predvolené nastavenie systému</string>
     <string name="theme_setting_dialog_title">Výber motívu</string>
+    <string name="tiktok_account_login_failure">Nepodarilo sa prihlásiť do vybraného účtu.</string>
     <string name="tiktok_add_account_error">Účet sa nepodarilo pridať. Skúste to znova.</string>
     <string name="tiktok_fix_it">Opraviť</string>
     <string name="tiktok_load_account_failure">Účty sa nepodarilo načítať.</string>
@@ -1942,6 +2109,18 @@ Tento názov vidíte iba vy"</string>
     <string name="tombstone_self_removed_from_group_referrer_known">%1$s vás odobral(a) z tejto skupiny</string>
     <string name="tombstone_self_removing_others_from_group">Odobrali ste účastníka %1$s z tejto skupiny</string>
     <string name="tombstone_show_link_previews">Ukážky odkazov sú zapnuté.&lt;br />Viacej sa môžete dozvedieť alebo ukážky vypnúť v &lt;u>nastaveniach&lt;/u>.</string>
+    <string name="tombstone_show_link_previews_disabled">Ukážky odkazov sú vypnuté.&lt;br />Prečítajte si viac alebo ich zapnite v &lt;u>Nastaveniach&lt;/u>.</string>
+    <string name="tooltip_content">"Účet Google ponúka funkcie
+ako zdieľanie odkazu do Fotiek Google
+v Správach bez nutnosti
+prechádzať do konverzácií.
+
+Správy sa aj v tomto prípade posielajú z vášho
+telefónneho čísla. Ďalšie informácie"</string>
+    <string name="tooltip_content_with_line_break_fix">"Váš účet Google podporuje funkcie ako zdieľanie odkazov na Fotky Google v Správach bez nutnosti prístupu ku konverziám.
+
+Správy sa aj naďalej odosielajú z vášho telefónneho čísla. Ďalšie informácie"</string>
+    <string name="tooltip_link">Ďalšie informácie</string>
     <string name="top_contacts_grid_name">★</string>
     <string name="top_contacts_title">Najčastejšie používané kontakty</string>
     <string name="transaction_content_description">Táto správa je zaradená do kategórie Transakcie</string>
@@ -1951,6 +2130,7 @@ Tento názov vidíte iba vy"</string>
     <string name="unblock_and_report_not_spam_snackbar_message">Číslo %1$s bolo odblokované a bolo nahlásené, že nejde o spam</string>
     <string name="unblock_banner_body">Ak chcete túto konverzáciu vybrať z archívu a znova dostávať správy, odblokujte odosielateľa %s</string>
     <string name="unblock_banner_body_spam_folder">Ak chcete túto konverzáciu vybrať z priečinka Spam a blokované konverzácie a znova dostávať upozornenia, odblokujte kontakt %s</string>
+    <string name="unblock_banner_body_v2">Unblock to receive messages from this sender</string>
     <string name="unblock_banner_description">@string/banner_description</string>
     <string name="unblock_banner_positive_button">Odblokovať</string>
     <string name="unblock_banner_title">Blokované</string>
@@ -1986,6 +2166,7 @@ Telefónne čísla sa používajú len na zisťovanie a riešenie problémov. G
     <string name="unsent">Neodoslané</string>
     <string name="unspam_banner_body">Ak chcete túto konverzáciu vybrať z archívu a znova dostávať upozornenia, nahláste, že odosielateľ %s nie je spam</string>
     <string name="unspam_banner_body_spam_folder">Ak chcete túto konverzáciu vybrať z priečinka Spam a blokované konverzácie a znova dostávať upozornenia, nahláste, že %s nie je spam</string>
+    <string name="unspam_banner_body_v2">Report as not spam to receive messages from this sender</string>
     <string name="unspam_banner_description">@string/banner_description</string>
     <string name="unspam_banner_end_button">Nie je spam</string>
     <string name="unspam_banner_title">Nahlásené ako spam</string>
@@ -2001,6 +2182,8 @@ Telefónne čísla sa používajú len na zisťovanie a riešenie problémov. G
     <string name="unsupported_file_save_alert">Chcete uložiť prílohu do stiahnutých súborov?</string>
     <string name="unsupported_file_save_cancel">Zrušiť</string>
     <string name="unverified_sms_banner_description">@string/banner_description</string>
+    <string name="unwanted_messages_toolstone_link">blokovať a nahlásiť</string>
+    <string name="unwanted_messages_toolstone_text">Nechcené správy môžete %1$s</string>
     <string name="upcoming_reminder">Blížiace sa pripomenutie</string>
     <string name="update_content_description">Táto správa je zaradená do kategórie Aktuality</string>
     <string name="update_donation_banner_body_v2">Nikto sa nedozvie vašu totožnosť a obsah správ môžete kedykoľvek odstrániť</string>
@@ -2043,6 +2226,7 @@ Telefónne čísla sa používajú len na zisťovanie a riešenie problémov. G
     <string name="video_attachment_content_description">Príloha v podobe videa</string>
     <string name="video_attachment_limit_exceeded_when_sending">Môžete odoslať iba jedno video na správu. Odstráňte ďalšie videá a skúste to znova.</string>
     <string name="video_compress_info">Pre obmedzenia operátora týkajúce sa MMS správ uvidí príjemca video v nižšej kvalite</string>
+    <string name="video_format_type">video</string>
     <string name="video_media_failure">Ak chcete vytvoriť video, nahrávajte dlhšie</string>
     <string name="video_taken">Video bolo nasnímané</string>
     <string name="video_thumbnail_view_play_button_content_description">Prehrať video</string>
@@ -2089,19 +2273,20 @@ Pri posudzovaní obsahu tejto správy sa riaďte vlastnými skúsenosťami."</st
     <string name="websiteTypeWork">Práca</string>
     <string name="welcome_agree_button_text">Súhlasím</string>
     <string name="welcome_chat_features_decline">Používať Správy bez četových funkcií</string>
-    <string name="welcome_chat_features_learn_more">Ďalšie informácie o četových funkciách</string>
     <string name="welcome_chat_features_legal">Používaním četových funkcií vyjadrujete súhlas s dokumentmi %1$s a %2$s. Google vaše číslo príležitostne overí u vášho operátora (môžu sa účtovať poplatky za SMS).</string>
+    <string name="welcome_chat_features_text">"· Odosielanie správ cez Wi‐Fi alebo mobilné dáta
+· Zdieľanie súborov a médií
+· Zachovanie súkromia správ"</string>
     <string name="welcome_chat_features_title">Rýchlejší, rozmanitejší a kvalitnejší čet cez Wi‑Fi a dátové pripojenie</string>
+    <string name="welcome_chat_features_title_experiment_0">So Správami máte teraz ešte viac možností</string>
+    <string name="welcome_chat_features_title_experiment_1">S četovými funkciami v Správach máte teraz ešte viac možností</string>
     <string name="welcome_consent_button_text">Ďalej</string>
-    <string name="welcome_finish_button_text">Dokončiť</string>
     <string name="welcome_smarts_notice_description">"Zjednodušte si četovanie vďaka funkciám, ako sú Asistent Google a rýchle odpovede. Vaše čety zostávajú v bezpečí vo vašom zariadení.
 %1$s alebo %2$s"</string>
     <string name="welcome_smarts_notice_title">Užitočné inteligentné funkcie</string>
     <string name="welcome_spam_description">"Na zabránenie spamu používa Google telefónne čísla, ktoré nemáte uložené v kontaktoch, bez toho, aby identifikoval vás alebo vaše číslo.
 %1$s alebo %2$s"</string>
     <string name="welcome_spam_title">Ochrana pred spamom</string>
-    <string name="welcome_splash_tagline">"Jednoduché a inteligentné správy
-od Googlu"</string>
     <string name="widget_reply_exit_content_description">Späť</string>
     <string name="widget_reply_open">OTVORIŤ SPRÁVY</string>
     <string name="widget_reply_to">Odpovedať kontaktu %s</string>
@@ -2109,9 +2294,14 @@ od Googlu"</string>
     <string name="work_directory_display_name">Kontakty v pracovnom profile</string>
     <string name="xms_send_mode_pref_title">Posielať len SMS a MMS správy</string>
     <string name="you_added_participant">Pridali ste do tejto skupiny účastníkov %s</string>
+    <string name="you_added_participant_with_learn_more">Pridali ste do tejto skupiny účastníkov (%1$s). %2$s</string>
+    <string name="you_created_encrypted_rcs_group">Vytvorili ste tento skupinový čet s účastníkmi %1$s. %2$s</string>
     <string name="you_created_mms_group">Vytvorili ste túto skupinovú MMS s účastníkmi %s</string>
     <string name="you_created_rcs_group">Vytvorili ste tento skupinový čet s účastníkmi %s</string>
     <string name="you_left_group">Opustili ste túto skupinu</string>
+    <string name="youtube_dismissal_prompt">Zavriete klepnutím a presunutím</string>
+    <string name="youtube_drag_prompt">Prehrávač premiestníte presunutím</string>
+    <string name="youtube_pip_playing">Video sa momentálne prehráva</string>
     <string name="zero_connectivity_failure_announcement">Správa nebola odoslaná</string>
     <string name="zero_state_search_action_copy">Kopírovať</string>
     <string name="zero_state_search_action_jump_to_chat">Zobraziť v čete</string>
@@ -2131,6 +2321,7 @@ od Googlu"</string>
     <string name="zero_state_search_details_image_accessibility">Obrázok odoslaný používateľom %1$s %2$s</string>
     <string name="zero_state_search_details_video_accessibility">Video odoslané používateľom %1$s %2$s</string>
     <string name="zero_state_search_dropdown_free_text">Hľadať výraz %s</string>
+    <string name="zero_state_search_empty_results_text">Tu sa zobrazia vaše správy, médiá a odkazy z tejto konverzácie označené hviezdičkou</string>
     <string name="zero_state_search_images">Obrázky</string>
     <string name="zero_state_search_link_copied">Odkaz bol skopírovaný</string>
     <string name="zero_state_search_links">Odkazy</string>

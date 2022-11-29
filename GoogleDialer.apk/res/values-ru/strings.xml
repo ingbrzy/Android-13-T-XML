@@ -63,7 +63,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript">^1, ^2, ^3.</string>
     <string name="a11y_new_call_log_entry_phone_account">^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">Позвонить пользователю ^1, используя RTT</string>
-    <string name="a11y_new_call_log_entry_tap_action">развернуть меню</string>
+    <string name="a11y_new_call_log_entry_tap_action">развернуть или свернуть меню</string>
     <string name="a11y_new_call_log_entry_video_call">начать видеовстречу с пользователем ^1</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">начать видеочат с ^1 через Wi-Fi</string>
     <string name="a11y_new_call_log_entry_voice_call">позвонить пользователю ^1</string>
@@ -191,6 +191,7 @@
     <string name="atlas_soda_banner_feature_text">Hold for Me</string>
     <string name="atlas_temp_service_notification_title">Инициализация звонка Hold for Me</string>
     <string name="atlas_warning_text_for_second_incoming_call">Если вы ответите на вызов, функция Hold for Me отключится.</string>
+    <string name="audio_route_item_checked_description">Выбрано</string>
     <string name="audioroute_bluetooth">Bluetooth</string>
     <string name="audioroute_headset">Проводная гарнитура</string>
     <string name="audioroute_phone">Телефон</string>
@@ -235,6 +236,7 @@
     <string name="bm_suggest_wait_time_estimating">"Чат
 Подождите…"</string>
     <string name="bottomsheet_action_expand_halfway">Развернуть наполовину</string>
+    <string name="bottomsheet_drag_handle_content_description">Маркер перемещения</string>
     <string name="bubble_bottom_action_end_call">Завершить вызов</string>
     <string name="bubble_bottom_action_hide">Скрыть</string>
     <string name="bubble_return_to_call">Вернуться к вызову</string>
@@ -582,10 +584,8 @@
     <string name="copy_number">Скопировать номер</string>
     <string name="create_new_contact">Создать контакт</string>
     <string name="crosby_setting_title">Запись звонков</string>
-    <string name="crystal_clear_audio_setting_title">Чистый звук</string>
     <string name="current_voicemail_greeting_record_instruction">Запишите приветствие</string>
     <string name="current_voicemail_greeting_recording_title">Мое приветствие в голосовой почте</string>
-    <string name="custom_message_hint">Добавьте свой текст</string>
     <string name="custom_prefix_add_prefix_to_call_entry_always_add_prefix">Добавлять префикс</string>
     <string name="custom_prefix_add_prefix_to_call_entry_ask_before_dialing">Спрашивать перед вызовом</string>
     <string name="custom_prefix_add_prefix_to_call_entry_never_add_prefix">Не добавлять префикс</string>
@@ -670,11 +670,11 @@
     <string name="display_options_view_given_name_first">Сначала имя</string>
     <string name="display_options_view_names_as">Порядок имени и фамилии</string>
     <string name="do_not_show_again">Больше не показывать</string>
-    <string name="duo_fallback_dialog_do_not_show_again_label">Запомнить выбор</string>
-    <string name="duo_fallback_dialog_message">Видеовызов через вашего оператора невозможно выполнить. Попробуйте воспользоваться Duo.</string>
-    <string name="duo_fallback_dialog_negative_button_label">Отмена</string>
-    <string name="duo_fallback_dialog_positive_button_label">Использовать Duo</string>
-    <string name="duo_fallback_dialog_title">Попробовать в Google Duo?</string>
+    <string name="duo_fallback_dialog_do_not_show_again_label">Использовать Duo в качестве резервного варианта для каждого вызова. Изменить параметр можно в настройках в любой момент.</string>
+    <string name="duo_fallback_dialog_message">Duo автоматически попытается позвонить, если оператор не сможет совершить видеовызов.</string>
+    <string name="duo_fallback_dialog_negative_button_label">Нет</string>
+    <string name="duo_fallback_dialog_positive_button_label">Использовать Duo как резервный вариант</string>
+    <string name="duo_fallback_dialog_title">Используете Google Duo в качестве резервного приложения для звонков?</string>
     <string name="edit_number_before_call">Изменить номер и позвонить</string>
     <string name="emergency_assist_address_sentence">Я нахожусь по адресу %1$s.</string>
     <string name="emergency_assist_button_fire">Пожарная охрана</string>
@@ -696,6 +696,7 @@
     <string name="emergency_voice_assist_dialog_button_close">Отмена</string>
     <string name="emergency_voice_assist_dialog_title">Оператор экстренной службы слышит этот текст</string>
     <string name="end_call_with_default_message_description">Завершить вызов</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_icon_content_description">Ошибка</string>
     <string name="error_unable_to_get_audio">Не удалось извлечь демонстрационный фрагмент аудио.</string>
     <string name="error_unable_to_play_audio">Не удалось воспроизвести демонстрационный фрагмент аудио.</string>
@@ -740,7 +741,7 @@
     <string name="first_time_dialog_duo_video_call_label">Google Duo</string>
     <string name="first_time_dialog_negative_button_label">Отмена</string>
     <string name="first_time_dialog_positive_button_label">Выбрать</string>
-    <string name="first_time_dialog_remember_this_choice_label">Запомнить выбор</string>
+    <string name="first_time_dialog_remember_this_choice_label">Запомнить для каждого звонка. Изменить параметр можно в настройках в любой момент.</string>
     <string name="first_time_dialog_title">Выберите сервис видеовызовов</string>
     <string name="flip_to_shush_title">Режим \"Тсс\" при перевороте</string>
     <string name="flip_to_silence_summary">Чтобы отключить звук входящего вызова, положите телефон экраном вниз на плоскую поверхность.</string>
@@ -788,6 +789,8 @@
     <string name="incall_content_description_hold">Удерживать вызов</string>
     <string name="incall_content_description_merge_calls">Объединить вызовы</string>
     <string name="incall_content_description_muted">Звук выключен</string>
+    <string name="incall_content_description_show_less">Свернуть</string>
+    <string name="incall_content_description_show_more">Развернуть</string>
     <string name="incall_content_description_speaker">Динамик</string>
     <string name="incall_content_description_swap_calls">Переключиться на другой вызов</string>
     <string name="incall_content_description_swap_sim">Сменить SIM-карту</string>
@@ -803,6 +806,7 @@
     <string name="incall_label_hold">Удерживать</string>
     <string name="incall_label_manage">Управление</string>
     <string name="incall_label_merge">Объединить</string>
+    <string name="incall_label_more">Ещё</string>
     <string name="incall_label_mute">Выкл. микрофон</string>
     <string name="incall_label_record">Записать</string>
     <string name="incall_label_record_checked">Выключить запись</string>
@@ -835,15 +839,9 @@
     <string name="join_call_with_default_message_description">Принять вызов</string>
     <string name="just_now">Только что</string>
     <string name="lat_long_format">%1$f, %2$f</string>
+    <string name="launch_application_settings">Настройки</string>
     <string name="launcherActivityLabel">Телефон</string>
     <string name="learn_more_text_for_tmo">Подробную информацию можно получить на сайте T-Mobile.</string>
-    <string name="legacy_post_call_message">Причина звонка?</string>
-    <string name="legacy_post_call_message_1">Срочно перезвоните мне.</string>
-    <string name="legacy_post_call_message_2">Перезвоните мне, когда сможете.</string>
-    <string name="legacy_post_call_message_3">Не срочно, можем поговорить позже.</string>
-    <string name="legacy_post_call_message_sent">Сообщение отправлено.</string>
-    <string name="legacy_post_call_send_message">Напишите сообщение</string>
-    <string name="legacy_post_call_view">Посмотреть</string>
     <string name="libraries_material_featurehighlight_dismiss">Закрыть</string>
     <string name="license_activity_label">Лицензии ПО с открытым исходным кодом</string>
     <string name="light_theme_label">Светлая</string>
@@ -868,6 +866,7 @@
     <string name="mdd_notification_action_cancel">Отмена</string>
     <string name="mdd_notification_download_failed">Ошибка скачивания</string>
     <string name="mdd_notification_download_paused">Ожидание подключения к сети</string>
+    <string name="mdd_notification_download_paused_wifi">Ожидание подключения к сети Wi-Fi</string>
     <string name="meid_number">MEID (%s)</string>
     <string name="menu_callNumber">Позвонить: %s</string>
     <string name="merge_calls_confirm_message">Объединяйте вызовы только в том случае, если всем абонентам известно о других участниках такого вызова.</string>
@@ -907,11 +906,9 @@
     <string name="nearbyplaces_account_setting_title">Аккаунт Google</string>
     <string name="new_call_log_activity_title">Журнал звонков</string>
     <string name="new_call_log_all_title">Все</string>
-    <string name="new_call_log_carrier_video">Видеовызов</string>
     <string name="new_call_log_clear_call_log_confirmation">Из журнала звонков будут удалены все записи.</string>
     <string name="new_call_log_clear_call_log_confirmation_title">Очистить журнал звонков?</string>
     <string name="new_call_log_delete_all">Очистить журнал звонков</string>
-    <string name="new_call_log_duo_video">Видеовызов с помощью Duo</string>
     <string name="new_call_log_empty">Здесь будут показаны исходящие звонки.</string>
     <string name="new_call_log_generic_video">Видео</string>
     <string name="new_call_log_header_older">Раньше</string>
@@ -929,6 +926,7 @@
     <string name="new_permission_no_search">Для поиска контактов включите разрешение \"Контакты\".</string>
     <string name="non_contact_always_record_dialog_title">Всегда записывать вызовы с абонентами, которых нет в вашем списке контактов?</string>
     <string name="non_contact_toggle_label">Номера не из контактов</string>
+    <string name="non_spam_aftercall_notification_title">Вы знаете, кому принадлежит номер %1$s?</string>
     <string name="non_spam_notification_title">Вы знаете, кому принадлежит номер %1$s?</string>
     <string name="not_set">Не указано</string>
     <string name="notification_action_accept">Принять</string>
@@ -979,7 +977,7 @@
     <string name="notification_ongoing_call">Текущий вызов</string>
     <string name="notification_ongoing_call_multi_sim">Текущий звонок через %1$s</string>
     <string name="notification_ongoing_call_wifi_template">Текущий %1$s</string>
-    <string name="notification_ongoing_call_wifi_template_multi_sim">Текущий звонок по %1$s через %1$s</string>
+    <string name="notification_ongoing_call_wifi_template_multi_sim">Текущий звонок по %1$s через %2$s</string>
     <string name="notification_ongoing_paused_video_call">Текущий видеовызов через оператора – видео приостановлено</string>
     <string name="notification_ongoing_paused_video_call_multi_sim">Текущий видеовызов через оператора и %1$s – видео приостановлено</string>
     <string name="notification_ongoing_video_call">Текущий видеовызов через оператора</string>
@@ -992,7 +990,7 @@
     <string name="notification_take_call">Продолжить на этом устройстве</string>
     <string name="notification_take_video_call">Продолжить на этом устройстве</string>
     <string name="notification_voicemail_callers_list">%1$s, %2$s</string>
-    <string name="notification_voicemail_no_vm_number">Номер голосовой почты неизвестен</string>
+    <string name="notification_voicemail_no_vm_number">Чтобы настроить голосовую почту, выберите \"Меню > Настройки\".</string>
     <string name="notification_voicemail_text_format">Позвонить: %s</string>
     <string name="old_block_number_confirmation_title">Заблокировать номер %1$s?</string>
     <string name="openhistory_button_label">История</string>
@@ -1033,6 +1031,7 @@
     <string name="precall_dialpad_chat_button">Начать чат</string>
     <string name="precall_dialpad_chat_wait_min">Подождите %1$d мин.</string>
     <string name="preference_copied">Текст \"%1$s\" скопирован в буфер обмена</string>
+    <string name="preferences_license_title">Примечания сторонних разработчиков</string>
     <string name="presence_optin_dialog_do_not_show_again_label">Больше не показывать</string>
     <string name="presence_optin_dialog_message">"Сначала нужно проверить, на какие номера телефонов могут поступать видеовызовы Verizon.
 
@@ -1047,7 +1046,7 @@
     <string name="private_num_non_verizon">Номер скрыт</string>
     <string name="private_num_verizon">Номер скрыт</string>
     <string name="private_or_hidden_action_preference_description">Абоненты, скрывающие свой номер</string>
-    <string name="private_or_hidden_action_preference_title">Личный или скрытый</string>
+    <string name="private_or_hidden_action_preference_title">Личные и скрытые номера</string>
     <string name="quick_contact_checkbox_description">Выберите контакт</string>
     <string name="ready_for_recording">Подготовка…</string>
     <string name="record_audio_pre_call_dialog_got_it">ОК</string>
@@ -1094,7 +1093,7 @@
     <string name="revelio_end_call_user_missed_internal_message">Вызов был пропущен</string>
     <string name="revelio_pref_title">Фильтр звонков</string>
     <string name="revelio_preference_summary_automatic_screening_off">Автоматическая фильтрация отключена</string>
-    <string name="revelio_preference_summary_screening">Фильтрация: %1$s</string>
+    <string name="revelio_preference_summary_screening">Экран %1$s</string>
     <string name="revelio_save_audio_setting_summary">Вы можете сохранять аудиозаписи звонков, на которые ответил ваш Ассистент.</string>
     <string name="revelio_save_audio_setting_title">Сохранять аудио Фильтра звонков</string>
     <string name="revelio_setting_title">Фильтр звонков</string>
@@ -1168,7 +1167,6 @@
     <string name="set_default_account_description">Предпочтительная SIM-карта сохраняется для контактов.</string>
     <string name="set_phone_as_default_explanation_text">Телефон может звонить и получать звонки, только если это приложение выбрано для звонков по умолчанию</string>
     <string name="set_phone_as_default_request_text">Сделать \"Телефон\" приложением по умолчанию</string>
-    <string name="settings">Настройки</string>
     <string name="settings_page_call_recording_feature_not_available_text">Запись звонков недоступна там, где вы находитесь</string>
     <string name="settings_page_crosby_feature_not_available_text">Недоступно там, где вы находитесь</string>
     <string name="setup_duo_button_long_text">Настроить видеосвязь Duo</string>
@@ -1218,6 +1216,9 @@
     <string name="sounds_and_vibration_title">Звуки и вибрация</string>
     <string name="spam_action_preference_description">Номера, которые есть в базе спама Google</string>
     <string name="spam_action_preference_title">Спам</string>
+    <string name="spam_after_call_notification_add_contact_action_text">Добавить контакт</string>
+    <string name="spam_after_call_notification_report_spam_action_text">Блокировать/сообщить</string>
+    <string name="spam_aftercall_notification_unknown">Неизвестно</string>
     <string name="spam_and_call_screen_settings_title">Спам и фильтр звонков</string>
     <string name="spam_blocking_promo_action_dismiss">Закрыть</string>
     <string name="spam_blocking_promo_action_filter_spam">Фильтровать спам</string>
@@ -1229,6 +1230,9 @@
     <string name="spam_blocking_settings_enable_error_text">Не удалось включить фильтрацию спама</string>
     <string name="spam_blocking_settings_summary">Вас больше не будут беспокоить подозрительные звонки</string>
     <string name="spam_blocking_settings_title">Фильтровать спам-вызовы</string>
+    <string name="spam_dialog_add_contact_action">Добавить в контакты</string>
+    <string name="spam_dialog_dismiss_action">Закрыть</string>
+    <string name="spam_notification_action_block_spam">Заблокировать номер</string>
     <string name="spam_notification_action_dismiss">Закрыть</string>
     <string name="spam_notification_add_contact_action_text">Добавить в контакты</string>
     <string name="spam_notification_block_spam_action_text">Заблокировать номер</string>
@@ -1467,27 +1471,27 @@
     <string name="videocall_remotely_resumed">Вызов возобновлен</string>
     <string name="videocall_settings_default_ask_every_time">Спрашивать каждый раз</string>
     <string name="videocall_settings_default_carrier">Видеовызов через оператора</string>
-    <string name="videocall_settings_default_caution">This feature allows a user to choose a preferred video call solution and indicate the receiver’s video capability when it’s available. ^1</string>
-    <string name="videocall_settings_default_caution_learn_more">Learn more about preferred video services</string>
+    <string name="videocall_settings_default_caution">Выберите, как нужно совершать видеовызов и как определять, может ли абонент его принять. ^1</string>
+    <string name="videocall_settings_default_caution_learn_more">Подробнее о видеовызовах…</string>
     <string name="videocall_settings_default_duo">Google Duo</string>
     <string name="videocall_settings_default_title">Предпочтительный сервис видеовызовов</string>
-    <string name="videocall_settings_fallback_caution">"When “Use Google Duo as backup” (if applicable) is on and a call can't be completed using your preferred service, the call will automatically be attempted on Duo. ^1"</string>
-    <string name="videocall_settings_fallback_caution_learn_more">Learn more about Duo backup calling</string>
-    <string name="videocall_settings_fallback_summary">Переключиться на Duo, если предпочтительный сервис видеовызовов недоступен</string>
-    <string name="videocall_settings_fallback_title">Использовать Google Duo как резервный способ связи</string>
+    <string name="videocall_settings_fallback_caution">Если вы используете в качестве резервного варианта Google Duo и это приложение включено, оно автоматически попытается позвонить, если оператор не сможет совершить видеовызов. ^1</string>
+    <string name="videocall_settings_fallback_caution_learn_more">Подробнее об использовании Duo в качестве резервного варианта…</string>
+    <string name="videocall_settings_fallback_summary">Переключаться на Duo, если предпочтительный сервис видеовызовов недоступен</string>
+    <string name="videocall_settings_fallback_title">Сделать Duo резервным сервисом</string>
     <string name="videocall_settings_title">Видеовызовы</string>
     <string name="videocall_show_preview_button_description">Показать свое видеоизображение</string>
     <string name="view_location_settings">Настройки геоданных</string>
     <string name="vitle_label">Видео (LTE)</string>
     <string name="viwifi_label">Видеовызов (Wi-Fi)</string>
     <string name="vm_change_pin_error_invalid">Новый PIN-код содержит недопустимые символы.</string>
-    <string name="vm_change_pin_error_last_4_digits_msisdn">Новый PIN-код не должен совпадать с последними четырьмя цифрами вашего телефона.</string>
+    <string name="vm_change_pin_error_last_4_digits_msisdn">В качестве PIN-кода нельзя использовать четыре последние цифры номера телефона.</string>
     <string name="vm_change_pin_error_mismatch">Старый PIN-код указан неверно.</string>
     <string name="vm_change_pin_error_system_error">Не удалось сменить PIN-код</string>
     <string name="vm_change_pin_error_too_long">Новый PIN-код слишком длинный.</string>
     <string name="vm_change_pin_error_too_short">Новый PIN-код слишком короткий.</string>
     <string name="vm_change_pin_error_too_weak">Новый PIN-код слишком простой. Чтобы пароль был надежным, он не должен содержать последовательных или повторяющихся цифр.</string>
-    <string name="vm_change_pin_error_unchanged_pin">Новый PIN-код совпадает с текущим, придумайте другой.</string>
+    <string name="vm_change_pin_error_unchanged_pin">Новый PIN-код не должен совпадать с текущим.</string>
     <string name="vm_change_pin_progress_message">Подождите…</string>
     <string name="voice_call">Начать голосовой вызов</string>
     <string name="voice_call_button">Позвонить</string>
@@ -1509,11 +1513,9 @@
     <string name="voicemailMultiSelectDeleteConfirm">Удалить</string>
     <string name="voicemail_action_call_customer_support">Связаться со службой поддержки</string>
     <string name="voicemail_action_call_voicemail">Прослушать сообщения</string>
-    <string name="voicemail_action_dimiss">Нет</string>
     <string name="voicemail_action_retry">Повторить попытку</string>
     <string name="voicemail_action_set_pin">Установить PIN-код</string>
     <string name="voicemail_action_sync">Синхронизировать</string>
-    <string name="voicemail_action_turn_archive_on">Да</string>
     <string name="voicemail_action_turn_off_airplane_mode">Настройки режима полета</string>
     <string name="voicemail_activating_summary_info">Активация голосовой почты</string>
     <string name="voicemail_advanced_settings_title">Расширенные настройки</string>
@@ -1528,7 +1530,7 @@
     <string name="voicemail_change_pin_preference_summary_disable">Чтобы изменить PIN-код, включите визуальную голосовую почту</string>
     <string name="voicemail_change_pin_preference_summary_not_activated">Визуальная голосовая почта пока не активирована, повторите попытку позже</string>
     <string name="voicemail_change_pin_preference_title">Изменение PIN-кода</string>
-    <string name="voicemail_donate_preference_summary_info">Разрешить Google просматривать ваши расшифрованные сообщения голосовой почты, чтобы улучшить качество транскрипции. Сообщения хранятся анонимно. %1$s</string>
+    <string name="voicemail_donate_preference_summary_info">Разрешить Google просматривать ваши расшифрованные сообщения голосовой почты, чтобы улучшить качество транскрипции. Сообщения хранятся анонимно. ^1</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">За использование визуальной голосовой почты абонентами SIM-карт без оплаченного мобильного Интернета оператор может взимать плату</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">Визуальные голосовые сообщения доступны только для выбранной SIM-карты, используемой для передачи данных.</string>
     <string name="voicemail_error_activating_message">Вы можете не получать уведомления голосовой почты до завершения включения. Позвоните, чтобы прослушать новые сообщения.</string>
@@ -1541,12 +1543,8 @@
     <string name="voicemail_error_bad_config_title">Не удалось обновить страницу просмотра голосовой почты</string>
     <string name="voicemail_error_communication_message">Чтобы проверить голосовую почту, вы можете позвонить на специальный номер.</string>
     <string name="voicemail_error_communication_title">Не удалось обновить страницу просмотра голосовой почты</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_message">Почтовый ящик почти заполнен. Чтобы освободить место, активируйте дополнительное пространство. После этого Google сможет управлять вашими голосовыми сообщениями и сохранять их резервные копии.</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_title">Требуется дополнительное пространство</string>
     <string name="voicemail_error_inbox_full_message">Почтовый ящик заполнен. Чтобы получать новые голосовые сообщения, удалите старые.</string>
     <string name="voicemail_error_inbox_full_title">Нет свободного места</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_message">Почтовый ящик заполнен. Чтобы освободить место, активируйте дополнительное пространство. После этого Google сможет управлять вашими голосовыми сообщениями и сохранять их резервные копии.</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_title">Требуется дополнительное пространство</string>
     <string name="voicemail_error_inbox_near_full_message">Когда почтовый ящик будет заполнен, вы не сможете получать новые голосовые сообщения.</string>
     <string name="voicemail_error_inbox_near_full_title">Почтовый ящик почти заполнен</string>
     <string name="voicemail_error_no_data_cellular_required_message">Дождитесь стабильного сигнала мобильного Интернета и повторите попытку. Если вы хотите проверить голосовую почту сейчас, позвоните на специальный номер.</string>
@@ -1579,7 +1577,7 @@
     <string name="voicemail_transcription_failed_language_not_supported">Транскрипция недоступна. Язык не поддерживается.</string>
     <string name="voicemail_transcription_failed_no_speech">Транскрипция недоступна. Речь не найдена.</string>
     <string name="voicemail_transcription_in_progress">Расшифровка…</string>
-    <string name="voicemail_transcription_preference_summary_info">Разрешить расшифровку голосовых сообщений с помощью специального сервиса Google. %1$s</string>
+    <string name="voicemail_transcription_preference_summary_info">Разрешить расшифровку голосовых сообщений с помощью специального сервиса Google. ^1</string>
     <string name="voicemail_visual_voicemail_auto_archive_switch_title">Дополнительное пространство</string>
     <string name="voicemail_visual_voicemail_donation_switch_title">Анализ расшифровки голосовой почты</string>
     <string name="voicemail_visual_voicemail_switch_title">Визуальная голосовая почта</string>
@@ -1635,7 +1633,7 @@
     <string name="wait_prompt_str">"Отправить следующие тоны?
 "</string>
     <string name="was_this_a_business_chip_text">Это была компания?</string>
-    <string name="was_this_a_business_dialog_body">Подтвердите тег, чтобы помочь Google лучше распознавать абонентов</string>
+    <string name="was_this_a_business_dialog_body">Подтвердите эту информацию, чтобы помочь Google лучше распознавать абонентов.</string>
     <string name="was_this_a_business_dialog_negative_response">Нет</string>
     <string name="was_this_a_business_dialog_positive_response">Да</string>
     <string name="was_this_a_business_dialog_snackbar">Спасибо!</string>

@@ -63,7 +63,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript">^1, ^2, ^3.</string>
     <string name="a11y_new_call_log_entry_phone_account">sa ^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">makipag-RTT na tawag kay ^1</string>
-    <string name="a11y_new_call_log_entry_tap_action">palawakin ang menu</string>
+    <string name="a11y_new_call_log_entry_tap_action">palawakin o i-collapse ang menu</string>
     <string name="a11y_new_call_log_entry_video_call">makipag-video call kay ^1</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">mag-video call kay ^1 gamit ang wifi</string>
     <string name="a11y_new_call_log_entry_voice_call">tawagan si ^1</string>
@@ -191,6 +191,7 @@ Sa telepono mo lang sino-store ang mga recording. ^1"</string>
     <string name="atlas_soda_banner_feature_text">"I-hold para Sa'kin"</string>
     <string name="atlas_temp_service_notification_title">"Sinisimulan ang isang tawag na gagamitan ng I-hold para Sa'kin"</string>
     <string name="atlas_warning_text_for_second_incoming_call">"Tatapusin ng pagsagot sa tawag na ito ang I-hold para Sa'kin"</string>
+    <string name="audio_route_item_checked_description">May check</string>
     <string name="audioroute_bluetooth">Bluetooth</string>
     <string name="audioroute_headset">Wired na headset</string>
     <string name="audioroute_phone">Telepono</string>
@@ -235,6 +236,7 @@ Sa telepono mo lang sino-store ang mga recording. ^1"</string>
     <string name="bm_suggest_wait_time_estimating">"Chat
 Tinatantya…"</string>
     <string name="bottomsheet_action_expand_halfway">I-expand hanggang gitna</string>
+    <string name="bottomsheet_drag_handle_content_description">I-drag ang handle</string>
     <string name="bubble_bottom_action_end_call">Tapusin ang tawag</string>
     <string name="bubble_bottom_action_hide">Itago</string>
     <string name="bubble_return_to_call">Bumalik sa tawag</string>
@@ -582,10 +584,8 @@ Magpadala ng tulong."</string>
     <string name="copy_number">Kopyahin ang numero</string>
     <string name="create_new_contact">Gumawa ng bagong contact</string>
     <string name="crosby_setting_title">Pag-record ng tawag</string>
-    <string name="crystal_clear_audio_setting_title">Malinaw na pagtawag</string>
     <string name="current_voicemail_greeting_record_instruction">I-record ang pagbati</string>
     <string name="current_voicemail_greeting_recording_title">Ang aking pagbati sa voicemail</string>
-    <string name="custom_message_hint">Sumulat ng custom na mensahe</string>
     <string name="custom_prefix_add_prefix_to_call_entry_always_add_prefix">Palaging idagdag ang prefix</string>
     <string name="custom_prefix_add_prefix_to_call_entry_ask_before_dialing">Tanungin bago i-dial</string>
     <string name="custom_prefix_add_prefix_to_call_entry_never_add_prefix">Huwag magdagdag ng prefix</string>
@@ -670,11 +670,11 @@ Magpadala ng tulong."</string>
     <string name="display_options_view_given_name_first">Pangalan muna</string>
     <string name="display_options_view_names_as">Format ng pangalan</string>
     <string name="do_not_show_again">Huwag ipakitang muli</string>
-    <string name="duo_fallback_dialog_do_not_show_again_label">Tandaan ang pagpipiliang ito</string>
-    <string name="duo_fallback_dialog_message">Hindi makumpleto ang iyong video call gamit ang pakikipag-video call gamit ang carrier. Subukan na lang tumawag gamit ang Duo.</string>
-    <string name="duo_fallback_dialog_negative_button_label">Kanselahin</string>
-    <string name="duo_fallback_dialog_positive_button_label">Gamitin ang Duo</string>
-    <string name="duo_fallback_dialog_title">Subukan sa Google Duo?</string>
+    <string name="duo_fallback_dialog_do_not_show_again_label">Tandaan ang Duo bilang backup para sa bawat tawag. Pamahalaan anumang oras sa mga setting.</string>
+    <string name="duo_fallback_dialog_message">Awtomatikong susubukan ng Duo na tumawag kung hindi maisasagawa ang video call sa pamamagitan ng iyong carrier.</string>
+    <string name="duo_fallback_dialog_negative_button_label">Huwag na lang</string>
+    <string name="duo_fallback_dialog_positive_button_label">Mag-back up gamit ang Duo</string>
+    <string name="duo_fallback_dialog_title">I-back up ang mga tawag gamit ang Google Duo?</string>
     <string name="edit_number_before_call">I-edit ang numero bago tumawag</string>
     <string name="emergency_assist_address_sentence">Ang aking lokasyon ay %1$s.</string>
     <string name="emergency_assist_button_fire">Sunog</string>
@@ -696,6 +696,7 @@ Magpadala ng tulong."</string>
     <string name="emergency_voice_assist_dialog_button_close">Kanselahin</string>
     <string name="emergency_voice_assist_dialog_title">Naririnig ito ng operator para sa emergency</string>
     <string name="end_call_with_default_message_description">Tapusin ang tawag</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_icon_content_description">Error</string>
     <string name="error_unable_to_get_audio">Hindi makuha ang sample na audio</string>
     <string name="error_unable_to_play_audio">Hindi ma-play ang sample na audio</string>
@@ -740,7 +741,7 @@ Magpadala ng tulong."</string>
     <string name="first_time_dialog_duo_video_call_label">Google Duo</string>
     <string name="first_time_dialog_negative_button_label">Kanselahin</string>
     <string name="first_time_dialog_positive_button_label">Piliin</string>
-    <string name="first_time_dialog_remember_this_choice_label">Tandaan ang pagpipiliang ito</string>
+    <string name="first_time_dialog_remember_this_choice_label">Tandaan para sa bawat tawag. Pamahalaan anumang oras sa mga setting.</string>
     <string name="first_time_dialog_title">Piliin ang serbisyo sa video call</string>
     <string name="flip_to_shush_title">I-flip Para I-Shhh</string>
     <string name="flip_to_silence_summary">Para i-silent ang papasok na tawag, itaob ang iyong telepono sa patag na lugar</string>
@@ -788,6 +789,8 @@ Magpadala ng tulong."</string>
     <string name="incall_content_description_hold">I-hold ang tawag</string>
     <string name="incall_content_description_merge_calls">I-merge ang mga tawag</string>
     <string name="incall_content_description_muted">Naka-mute</string>
+    <string name="incall_content_description_show_less">Magpakita ng kaunti</string>
+    <string name="incall_content_description_show_more">Magpakita pa</string>
     <string name="incall_content_description_speaker">Speaker</string>
     <string name="incall_content_description_swap_calls">Pagpalitin ang mga tawag</string>
     <string name="incall_content_description_swap_sim">Baguhin ang SIM</string>
@@ -803,6 +806,7 @@ Magpadala ng tulong."</string>
     <string name="incall_label_hold">I-hold</string>
     <string name="incall_label_manage">Pamahalaan</string>
     <string name="incall_label_merge">I-merge</string>
+    <string name="incall_label_more">Higit pa</string>
     <string name="incall_label_mute">I-mute</string>
     <string name="incall_label_record">Mag-record</string>
     <string name="incall_label_record_checked">Itigil ang pag-record</string>
@@ -835,15 +839,9 @@ Magpadala ng tulong."</string>
     <string name="join_call_with_default_message_description">Sumali sa tawag</string>
     <string name="just_now">Ngayon lang</string>
     <string name="lat_long_format">%1$f, %2$f</string>
+    <string name="launch_application_settings">Mga Setting</string>
     <string name="launcherActivityLabel">Telepono</string>
     <string name="learn_more_text_for_tmo">Bisitahin ang T-Mobile para matuto pa</string>
-    <string name="legacy_post_call_message">Sabihin kung bakit ka tumawag</string>
-    <string name="legacy_post_call_message_1">Importante. Tawagan mo ako.</string>
-    <string name="legacy_post_call_message_2">Tawagan mo ako kapag may oras ka.</string>
-    <string name="legacy_post_call_message_3">Hindi importante, puwede tayong mag-chat sa ibang pagkakataon.</string>
-    <string name="legacy_post_call_message_sent">Naipadala ang mensahe</string>
-    <string name="legacy_post_call_send_message">Magpadala ng mensahe</string>
-    <string name="legacy_post_call_view">Tingnan</string>
     <string name="libraries_material_featurehighlight_dismiss">I-dismiss</string>
     <string name="license_activity_label">Mga open source na lisensya</string>
     <string name="light_theme_label">Maliwanag</string>
@@ -868,6 +866,7 @@ Magpadala ng tulong."</string>
     <string name="mdd_notification_action_cancel">Kanselahin</string>
     <string name="mdd_notification_download_failed">Hindi na-download</string>
     <string name="mdd_notification_download_paused">Naghihintay ng koneksyon sa network</string>
+    <string name="mdd_notification_download_paused_wifi">Naghihintay ng koneksyon sa WiFi</string>
     <string name="meid_number">MEID %s</string>
     <string name="menu_callNumber">Tawagan ang %s</string>
     <string name="merge_calls_confirm_message">I-merge ang iyong mga tawag kung sigurado kang kilala ng lahat kung sino ang nasa naka-merge na tawag</string>
@@ -907,11 +906,9 @@ Magpadala ng tulong."</string>
     <string name="nearbyplaces_account_setting_title">Google Account</string>
     <string name="new_call_log_activity_title">History ng tawag</string>
     <string name="new_call_log_all_title">Lahat</string>
-    <string name="new_call_log_carrier_video">Video call sa carrier</string>
     <string name="new_call_log_clear_call_log_confirmation">Ide-delete nito ang lahat ng tawag mula sa iyong history</string>
     <string name="new_call_log_clear_call_log_confirmation_title">I-clear ang history ng tawag?</string>
     <string name="new_call_log_delete_all">I-clear ang history ng tawag</string>
-    <string name="new_call_log_duo_video">Video call sa Duo</string>
     <string name="new_call_log_empty">Lalabas dito ang mga tawag na gagawin mo</string>
     <string name="new_call_log_generic_video">Video</string>
     <string name="new_call_log_header_older">Mas Luma</string>
@@ -929,6 +926,7 @@ Magpadala ng tulong."</string>
     <string name="new_permission_no_search">Upang makapaghanap sa iyong mga contact, i-on ang mga pahintulot sa Mga Contact.</string>
     <string name="non_contact_always_record_dialog_title">Palaging i-record ang mga tawag mula sa mga numerong wala sa iyong mga contact?</string>
     <string name="non_contact_toggle_label">Mga numerong wala sa iyong mga contact</string>
+    <string name="non_spam_aftercall_notification_title">Kilala mo ba ang %1$s?</string>
     <string name="non_spam_notification_title">Kilala mo ba ang %1$s?</string>
     <string name="not_set">Hindi nakatakda</string>
     <string name="notification_action_accept">Tanggapin</string>
@@ -979,7 +977,7 @@ Magpadala ng tulong."</string>
     <string name="notification_ongoing_call">Kasalukuyang tawag</string>
     <string name="notification_ongoing_call_multi_sim">Kasalukuyang tawag sa pamamagitan ng %1$s</string>
     <string name="notification_ongoing_call_wifi_template">Kasalukuyang %1$s</string>
-    <string name="notification_ongoing_call_wifi_template_multi_sim">Kasalukuyang %1$s sa pamamagitan ng %1$s</string>
+    <string name="notification_ongoing_call_wifi_template_multi_sim">Ongoing %1$s via %2$s</string>
     <string name="notification_ongoing_paused_video_call">Video call sa carrier ‑ naka-pause ang video</string>
     <string name="notification_ongoing_paused_video_call_multi_sim">Video call gamit ang carrier sa %1$s ‑ naka-pause ang video</string>
     <string name="notification_ongoing_video_call">Kasalukuyang video call sa carrier</string>
@@ -992,7 +990,7 @@ Magpadala ng tulong."</string>
     <string name="notification_take_call">Sagutin ang Tawag</string>
     <string name="notification_take_video_call">Sagutin ang Video Call</string>
     <string name="notification_voicemail_callers_list">%1$s, %2$s</string>
-    <string name="notification_voicemail_no_vm_number">Hindi kilala ang numero ng voicemail</string>
+    <string name="notification_voicemail_no_vm_number">Para mag-set up ng voicemail, pumunta sa Menu > Mga Setting.</string>
     <string name="notification_voicemail_text_format">I-dial ang %s</string>
     <string name="old_block_number_confirmation_title">I-block ang %1$s?</string>
     <string name="openhistory_button_label">History</string>
@@ -1033,6 +1031,7 @@ Magpadala ng tulong."</string>
     <string name="precall_dialpad_chat_button">Makipag-chat</string>
     <string name="precall_dialpad_chat_wait_min">%1$dm paghihintay</string>
     <string name="preference_copied">Nakopya sa clipboard ang \"%1$s.\"</string>
+    <string name="preferences_license_title">Mga Abiso ng Third Party</string>
     <string name="presence_optin_dialog_do_not_show_again_label">Huwag ipakita ulit</string>
     <string name="presence_optin_dialog_message">"Bago magsimula ng video call, gustong kumpirmahin ng Verizon kung aling mga numero ng telepono ang makakatanggap ng mga video call sa Verizon.
 
@@ -1047,7 +1046,7 @@ Puwede ka pa ring mag-video call sa ilang numero nang hindi ina-update ang mga s
     <string name="private_num_non_verizon">Pribadong numero</string>
     <string name="private_num_verizon">Pinaghihigpitan</string>
     <string name="private_or_hidden_action_preference_description">Mga tumatawag na nagtatago ng kanilang caller ID</string>
-    <string name="private_or_hidden_action_preference_title">Pribado o nakatago</string>
+    <string name="private_or_hidden_action_preference_title">Mga pribado at nakatagong numero</string>
     <string name="quick_contact_checkbox_description">Pumili ng contact</string>
     <string name="ready_for_recording">Inihahanda…</string>
     <string name="record_audio_pre_call_dialog_got_it">OK</string>
@@ -1094,7 +1093,7 @@ Hindi gumagamit ng data o Wi-FI ang Call Screen pero gumagamit ito ng mga minuto
     <string name="revelio_end_call_user_missed_internal_message">Hindi nasagot ang tawag</string>
     <string name="revelio_pref_title">Call Screen</string>
     <string name="revelio_preference_summary_automatic_screening_off">I-off ang awtomatikong pag-screen</string>
-    <string name="revelio_preference_summary_screening">Pag-screen sa %1$s</string>
+    <string name="revelio_preference_summary_screening">Screen %1$s</string>
     <string name="revelio_save_audio_setting_summary">I-save ang audio mula sa mga tawag na sasagutin ng iyong Assistant</string>
     <string name="revelio_save_audio_setting_title">I-save ang audio ng Call Screen</string>
     <string name="revelio_setting_title">Call Screen</string>
@@ -1168,7 +1167,6 @@ Hindi gumagamit ng data o Wi-FI ang Call Screen pero gumagamit ito ng mga minuto
     <string name="set_default_account_description">Ise-save sa iyong mga contact ang kagustuhan sa SIM.</string>
     <string name="set_phone_as_default_explanation_text">Magsisimula at makakatanggap lang ng mga tawag ang telepono kung ito ang iyong default na phone app</string>
     <string name="set_phone_as_default_request_text">Itakdang default ang Telepono</string>
-    <string name="settings">Mga Setting</string>
     <string name="settings_page_call_recording_feature_not_available_text">Hindi available ang pag-record ng tawag sa iyong lokasyon</string>
     <string name="settings_page_crosby_feature_not_available_text">Hindi available sa iyong lokasyon</string>
     <string name="setup_duo_button_long_text">Mag-set up ng Duo video call</string>
@@ -1218,6 +1216,9 @@ Hindi gumagamit ng data o Wi-FI ang Call Screen pero gumagamit ito ng mga minuto
     <string name="sounds_and_vibration_title">Tunog at pag-vibrate</string>
     <string name="spam_action_preference_description">Mga numero na tumutugma sa database ng spam ng Google</string>
     <string name="spam_action_preference_title">Spam</string>
+    <string name="spam_after_call_notification_add_contact_action_text">Magdagdag ng contact</string>
+    <string name="spam_after_call_notification_report_spam_action_text">I-block at iulat</string>
+    <string name="spam_aftercall_notification_unknown">Hindi kilala</string>
     <string name="spam_and_call_screen_settings_title">Spam at Call Screen</string>
     <string name="spam_blocking_promo_action_dismiss">I-dismiss</string>
     <string name="spam_blocking_promo_action_filter_spam">I-filter ang Spam</string>
@@ -1229,6 +1230,9 @@ Hindi gumagamit ng data o Wi-FI ang Call Screen pero gumagamit ito ng mga minuto
     <string name="spam_blocking_settings_enable_error_text">May problema sa pag-on ng pag-filter ng spam</string>
     <string name="spam_blocking_settings_summary">Pigilan ang mga hinihinalang spam na tawag mula sa pang-aabala sa iyo</string>
     <string name="spam_blocking_settings_title">I-filter ang mga spam na tawag</string>
+    <string name="spam_dialog_add_contact_action">Idagdag sa mga contact</string>
+    <string name="spam_dialog_dismiss_action">I-dismiss</string>
+    <string name="spam_notification_action_block_spam">Oo, i-block ang numero</string>
     <string name="spam_notification_action_dismiss">I-dismiss</string>
     <string name="spam_notification_add_contact_action_text">Magdagdag ng contact</string>
     <string name="spam_notification_block_spam_action_text">Oo, i-block ang numero</string>
@@ -1468,27 +1472,27 @@ Gagamit ng data kung ipagpapatuloy mo ang tawag."</string>
     <string name="videocall_remotely_resumed">Itinuloy ang tawag</string>
     <string name="videocall_settings_default_ask_every_time">Tanungin palagi</string>
     <string name="videocall_settings_default_carrier">Video call gamit ang carrier</string>
-    <string name="videocall_settings_default_caution">This feature allows a user to choose a preferred video call solution and indicate the receiver’s video capability when it’s available. ^1</string>
-    <string name="videocall_settings_default_caution_learn_more">Learn more about preferred video services</string>
+    <string name="videocall_settings_default_caution">Piliin kung paano ka gagawa ng video call at alamin kung matatanggap ito ng taong tinatawagan mo. ^1</string>
+    <string name="videocall_settings_default_caution_learn_more">Higit pa tungkol sa mga video call</string>
     <string name="videocall_settings_default_duo">Google Duo</string>
     <string name="videocall_settings_default_title">Mas gustong serbisyo sa video call</string>
-    <string name="videocall_settings_fallback_caution">"When “Use Google Duo as backup” (if applicable) is on and a call can't be completed using your preferred service, the call will automatically be attempted on Duo. ^1"</string>
-    <string name="videocall_settings_fallback_caution_learn_more">Learn more about Duo backup calling</string>
-    <string name="videocall_settings_fallback_summary">Lumipat sa Duo kung hindi available ang mas gustong serbisyo</string>
-    <string name="videocall_settings_fallback_title">Gamitin ang Google Duo bilang backup</string>
+    <string name="videocall_settings_fallback_caution">Kung Google Duo ang backup mo at naka-on ito, awtomatikong susubukan ng Duo na tumawag kung hindi maisasagawa ang video call sa pamamagitan ng iyong carrier. ^1</string>
+    <string name="videocall_settings_fallback_caution_learn_more">Higit pa tungkol sa Duo bilang backup</string>
+    <string name="videocall_settings_fallback_summary">Lumipat sa Duo kung hindi available ang gusto mong serbisyo</string>
+    <string name="videocall_settings_fallback_title">Gamitin ang Duo bilang backup</string>
     <string name="videocall_settings_title">Pag-video Call</string>
     <string name="videocall_show_preview_button_description">Ipakita ang lokal na feed ng video</string>
     <string name="view_location_settings">Mga setting ng lokasyon</string>
     <string name="vitle_label">Video sa LTE</string>
     <string name="viwifi_label">Video over WiFi</string>
     <string name="vm_change_pin_error_invalid">Ang bagong PIN ay naglalaman ng mga di-wastong character.</string>
-    <string name="vm_change_pin_error_last_4_digits_msisdn">Ang bagong PIN ay hindi dapat ang huling apat na digit ng iyong numero ng telepono.</string>
+    <string name="vm_change_pin_error_last_4_digits_msisdn">Hindi pwedeng ang huling 4 na digit ng iyong numero ng telepono ang PIN mo.</string>
     <string name="vm_change_pin_error_mismatch">Hindi tumutugma ang lumang PIN.</string>
     <string name="vm_change_pin_error_system_error">Hindi nabago ang PIN</string>
     <string name="vm_change_pin_error_too_long">Masyadong mahaba ang bagong PIN.</string>
     <string name="vm_change_pin_error_too_short">Masyadong maikli ang bagong PIN.</string>
     <string name="vm_change_pin_error_too_weak">Masyadong mahina ang bagong PIN. Ang isang malakas na password ay hindi dapat magkaroon ng tuloy-tuloy na sequence o paulit-ulit na mga digit.</string>
-    <string name="vm_change_pin_error_unchanged_pin">Ang bagong PIN ay kapareho ng iyong kasalukuyang PIN. Maglagay ng ibang PIN.</string>
+    <string name="vm_change_pin_error_unchanged_pin">Hindi pwedeng kapareho ng iyong kasalukuyang PIN ang bago mong PIN.</string>
     <string name="vm_change_pin_progress_message">Pakihintay.</string>
     <string name="voice_call">Voice call</string>
     <string name="voice_call_button">Tawag</string>
@@ -1510,11 +1514,9 @@ Gagamit ng data kung ipagpapatuloy mo ang tawag."</string>
     <string name="voicemailMultiSelectDeleteConfirm">I-delete</string>
     <string name="voicemail_action_call_customer_support">Tumawag sa customer support</string>
     <string name="voicemail_action_call_voicemail">Tumawag sa voicemail</string>
-    <string name="voicemail_action_dimiss">Hindi, salamat na lang</string>
     <string name="voicemail_action_retry">Subukang muli</string>
     <string name="voicemail_action_set_pin">Magtakda ng PIN</string>
     <string name="voicemail_action_sync">I-sync</string>
-    <string name="voicemail_action_turn_archive_on">I-on</string>
     <string name="voicemail_action_turn_off_airplane_mode">Mga setting ng airplane mode</string>
     <string name="voicemail_activating_summary_info">Ina-activate ang voicemail</string>
     <string name="voicemail_advanced_settings_title">Mga Advanced na Setting</string>
@@ -1529,7 +1531,7 @@ Gagamit ng data kung ipagpapatuloy mo ang tawag."</string>
     <string name="voicemail_change_pin_preference_summary_disable">Dapat naka-enable ang visual na voicemail upang palitan ang PIN</string>
     <string name="voicemail_change_pin_preference_summary_not_activated">Hindi pa naka-activate ang visual na voicemail, pakisubukan ulit sa ibang pagkakataon</string>
     <string name="voicemail_change_pin_preference_title">Palitan ang PIN</string>
-    <string name="voicemail_donate_preference_summary_info">Hayaang suriin ng Google ang iyong mga mensahe sa voicemail para mapaganda ang katumpakan ng transkripsyon. Ini-store nang anonymous ang iyong mga mensahe sa voicemail. %1$s</string>
+    <string name="voicemail_donate_preference_summary_info">Hayaang suriin ng Google ang iyong mga mensahe sa voicemail para mapaganda ang katumpakan ng transkripsyon. Ini-store nang anonymous ang iyong mga mensahe sa voicemail. ^1</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">Puwedeng magkaroon ng mga singil sa carrier ang paggamit ng visual na voicemail para sa mga SIM na walang data</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">Available lang ang visual voicemail para sa napiling data SIM</string>
     <string name="voicemail_error_activating_message">Maaaring hindi ka makatanggap ng mga notification sa voicemail hanggang sa ganap na ma-activate ang visual na voicemail. Tawagan ang voicemail para makuha ang mga bagong mensahe hanggang sa ganap na ma-activate ang voicemail.</string>
@@ -1542,12 +1544,8 @@ Gagamit ng data kung ipagpapatuloy mo ang tawag."</string>
     <string name="voicemail_error_bad_config_title">Hindi ma-update ang visual na voicemail</string>
     <string name="voicemail_error_communication_message">Maaari ka pa ring tumawag para tingnan ang voicemail.</string>
     <string name="voicemail_error_communication_title">Hindi ma-update ang visual na voicemail</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_message">Malapit nang mapuno ang iyong mailbox. Para magbakante ng space, i-on ang karagdagang storage para pamahalaan at i-back up ng Google ang iyong mga mensahe sa voicemail.</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_title">I-on ang karagdagang storage at backup</string>
     <string name="voicemail_error_inbox_full_message">Puno na ang inbox mo. Subukang i-delete ang ilang mensahe para makatanggap ng bagong voicemail.</string>
     <string name="voicemail_error_inbox_full_title">Hindi makatanggap ng mga bagong voicemail</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_message">Puno na ang iyong mailbox. Para magbakante ng space, i-on ang karagdagang storage para pamahalaan at i-back up ng Google ang iyong mga mensahe sa voicemail.</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_title">I-on ang karagdagang storage at backup</string>
     <string name="voicemail_error_inbox_near_full_message">Hindi ka makakatanggap ng bagong voicemail kung puno na ang inbox mo.</string>
     <string name="voicemail_error_inbox_near_full_title">Malapit nang mapuno ang inbox</string>
     <string name="voicemail_error_no_data_cellular_required_message">Subukang muli kapag mas maganda na ang iyong koneksyon ng mobile data. Maaari ka pa ring tumawag para tingnan ang voicemail.</string>
@@ -1580,7 +1578,7 @@ Gagamit ng data kung ipagpapatuloy mo ang tawag."</string>
     <string name="voicemail_transcription_failed_language_not_supported">Hindi available ang transcript. Hindi sinusuportahan ang wika.</string>
     <string name="voicemail_transcription_failed_no_speech">Hindi available ang transcript. Walang na-detect na pagsasalita.</string>
     <string name="voicemail_transcription_in_progress">Tina-transcribe…</string>
-    <string name="voicemail_transcription_preference_summary_info">Kumuha ng mga transcript ng iyong voicemail gamit ang serbisyo ng transcription ng Google. %1$s</string>
+    <string name="voicemail_transcription_preference_summary_info">Kumuha ng mga transcript ng iyong voicemail gamit ang serbisyo ng transcription ng Google. ^1</string>
     <string name="voicemail_visual_voicemail_auto_archive_switch_title">Karagdagang backup at storage</string>
     <string name="voicemail_visual_voicemail_donation_switch_title">Pagsusuri ng transkripsyon ng voicemail</string>
     <string name="voicemail_visual_voicemail_switch_title">Visual na voicemail</string>
@@ -1636,7 +1634,7 @@ Gagamit ng data kung ipagpapatuloy mo ang tawag."</string>
     <string name="wait_prompt_str">"Ipadala ang mga sumusunod na tone?
 "</string>
     <string name="was_this_a_business_chip_text">Isa ba itong negosyo?</string>
-    <string name="was_this_a_business_dialog_body">Kapag kinumpirma ang tag na ito, matutulungan ang Google na pahusayin ang caller ID</string>
+    <string name="was_this_a_business_dialog_body">Makakatulong sa pagpapahusay ng Google sa caller ID kapag kinumpirma ito</string>
     <string name="was_this_a_business_dialog_negative_response">Hindi</string>
     <string name="was_this_a_business_dialog_positive_response">Oo</string>
     <string name="was_this_a_business_dialog_snackbar">Salamat sa iyong feedback</string>

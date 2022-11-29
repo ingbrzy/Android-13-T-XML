@@ -90,7 +90,7 @@
     <string name="bisto_device_launch_oobe_pref_summary">Obtén información para recibir ayuda de Google cuando uses la voz y los auriculares</string>
     <string name="bisto_device_launch_oobe_pref_title">Más información</string>
     <string name="bisto_device_make_and_model">Marca y modelo</string>
-    <string name="bisto_device_notification_access_for_gestures_pref_summary">Para que se lean en voz alta las notificaciones entrantes, activa \"Hablar con Asistente\" para ambos auriculares en los controles de \"Mantener presionado\"</string>
+    <string name="bisto_device_notification_access_for_gestures_pref_summary">Para que se lean en voz alta las notificaciones entrantes, activa \"Hablar con Asistente\" para, al menos, un auricular en los controles de \"Mantener presionado\"</string>
     <string name="bisto_device_notification_access_pref_summary">Permite las notificaciones por voz en tus audífonos</string>
     <string name="bisto_device_notification_access_pref_title">Activar notificaciones</string>
     <string name="bisto_device_notifications_pref_title">Notificaciones por voz</string>
@@ -105,7 +105,6 @@
     <string name="bisto_device_tutorial_pref_title">Instructivos</string>
     <string name="bisto_device_user_manual_pref">Manual del usuario</string>
     <string name="bisto_downloading_device_customization">Descargando información del dispositivo</string>
-    <string name="bisto_end_sound_pref_title">Reproducir sonido de finalización</string>
     <string name="bisto_error_connect_device">No se pudo establecer conexión con el dispositivo. Revisa la conexión y vuelve a intentarlo.</string>
     <string name="bisto_error_consent_retry_message">Revisa la conexión y vuelve a intentarlo.</string>
     <string name="bisto_error_enable_opa">No se pudo establecer comunicación con el dispositivo. Revisa la conexión y vuelve a intentarlo.</string>
@@ -214,6 +213,7 @@ Puedes desactivar los resultados personales en cualquier momento en la configur
     <string name="confirm_remove_device_positive_button">Desactivar</string>
     <string name="confirm_remove_device_title">¿Quieres desactivar Asistente de Google?</string>
     <string name="contact_image_content_description">Es la foto de perfil del contacto seleccionado.</string>
+    <string name="custom_reply_button_string">Resp. personalizada</string>
     <string name="default_error">Se produjo un error.</string>
     <string name="default_microphone_error">Se produjo un error. Vuelve a intentarlo.</string>
     <string name="disable_assistant_confirm_message">"Asistente de Google no estará activado en este dispositivo, por lo que no podrás escuchar mensajes, eventos del calendario ni otros datos importantes.
@@ -364,11 +364,12 @@ Puedes volver a configurar el servicio en la app del Asistente de Google."</st
     <string name="mdd_notification_action_cancel">Cancelar</string>
     <string name="mdd_notification_download_failed">Error de descarga</string>
     <string name="mdd_notification_download_paused">Esperando la conexión de red</string>
+    <string name="mdd_notification_download_paused_wifi">Waiting for WiFi connection</string>
     <string name="mdd_notification_download_success">Descargas</string>
     <string name="media_rec_header_text">¿Qué quieres escuchar?</string>
     <string name="media_rec_loading_text">Cargando sugerencias multimedia</string>
     <string name="media_rec_news_text_query">Cuéntame las noticias más recientes</string>
-    <string name="media_rec_play_something_else_text">Reproducir otra cosa</string>
+    <string name="media_rec_play_something_else_text">Poner otra cosa</string>
     <string name="mic_off">El micrófono está desactivado.</string>
     <string name="mic_on">Se volvió a activar el micrófono.</string>
     <string name="microphone_permission_denied_error">Para eso, tienes que darme acceso a cierta información relacionada. Cuando sea seguro, consulta la notificación del vehículo para ver los detalles.</string>
@@ -581,13 +582,14 @@ Puedes volver a configurar el servicio en la app del Asistente de Google."</st
     <string name="punt_for_personal_results">Para que pueda ayudarte, debes habilitar los resultados personales en este vehículo. Cuando sea seguro, activa el permiso en la configuración del Asistente.</string>
     <string name="punt_for_signed_out">Para eso, tendrás que acceder a tu Cuenta de Google. Cuando sea seguro, busca en el vehículo la notificación que contiene el siguiente paso.</string>
     <string name="punt_home_alias_unset">Al parecer, no tengo tu dirección particular. Puedes decirme cuál es para obtener instrucciones sobre cómo llegar.</string>
-    <string name="punt_max_volume">Lo siento, pero la función de poner el volumen al máximo o de subirlo al 100% no está disponible en este dispositivo.</string>
     <string name="punt_non_percentage_volume_control">En el vehículo, el volumen se establece por porcentaje, de modo que puedes decir, por ejemplo: \"Pon el volumen al 25%\".</string>
     <string name="punt_offline_music">Como parece que no tienes conexión, no puedo reproducir ese contenido.</string>
     <string name="punt_open_app">Esta app no está instalada o no está disponible en este momento.</string>
     <string name="punt_open_unsafe_for_drving_app">No es seguro usar esa app mientras conduces.</string>
+    <string name="punt_set_volume_beyond_threshold">Por razones de seguridad, no puedo establecer el volumen del vehículo en un nivel tan alto. El valor máximo es %1$d%%</string>
     <string name="punt_work_alias_unset">Al parecer, no tengo tu dirección de trabajo. Puedes decirme cuál es para obtener instrucciones sobre cómo llegar.</string>
     <string name="query_suggestion_header_text">Prueba decir</string>
+    <string name="reply_button_string">Responder</string>
     <string name="retryable_error_message">Se produjo un error; vuelve a intentarlo</string>
     <string name="scroll_handle_content_description">Controlador pequeño para indicar que se puede desplazar la hoja inferior</string>
     <string name="sender_and_message_contents">%1$s dice: %2$s</string>

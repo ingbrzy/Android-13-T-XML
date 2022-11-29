@@ -63,7 +63,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript">^1, ^2, ^3.</string>
     <string name="a11y_new_call_log_entry_phone_account">^1లో</string>
     <string name="a11y_new_call_log_entry_rtt_call">^1కు RTT కాల్ చేయండి</string>
-    <string name="a11y_new_call_log_entry_tap_action">మెనూని విస్తరించండి</string>
+    <string name="a11y_new_call_log_entry_tap_action">మెనూను విస్తరించండి లేదా కుదించండి</string>
     <string name="a11y_new_call_log_entry_video_call">^1కి వీడియో కాల్ చేయండి</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">wifi ఉపయోగించి ^1కు వీడియో కాల్ చేయి</string>
     <string name="a11y_new_call_log_entry_voice_call">^1కి కాల్ చేయండి</string>
@@ -191,6 +191,7 @@
     <string name="atlas_soda_banner_feature_text">ఫోన్ హోల్డ్</string>
     <string name="atlas_temp_service_notification_title">ఫోన్ హోల్డ్ కాల్ ప్రారంభించబడుతోంది</string>
     <string name="atlas_warning_text_for_second_incoming_call">ఈ కాల్‌కు సమాధానం ఇవ్వడం వలన, ఫోన్ హోల్డ్ ముగుస్తుంది</string>
+    <string name="audio_route_item_checked_description">ఎంచుకున్నారు</string>
     <string name="audioroute_bluetooth">బ్లూటూత్</string>
     <string name="audioroute_headset">వైర్ గల హెడ్‌సెట్</string>
     <string name="audioroute_phone">ఫోన్</string>
@@ -235,6 +236,7 @@
     <string name="bm_suggest_wait_time_estimating">"చాట్
 పని చేస్తోంది…"</string>
     <string name="bottomsheet_action_expand_halfway">సగాన్ని విస్తరింపజేయండి</string>
+    <string name="bottomsheet_drag_handle_content_description">లాగే హ్యాండిల్</string>
     <string name="bubble_bottom_action_end_call">కాల్‌ను ముగించండి</string>
     <string name="bubble_bottom_action_hide">దాచిపెట్టు</string>
     <string name="bubble_return_to_call">కాల్ స్క్రీన్‌కు తిరిగి వెళ్ళు</string>
@@ -582,10 +584,8 @@
     <string name="copy_number">నంబర్‌ను కాపీ చేయి</string>
     <string name="create_new_contact">కొత్త పరిచయాన్ని క్రియేట్ చేయండి</string>
     <string name="crosby_setting_title">కాల్ రికార్డింగ్</string>
-    <string name="crystal_clear_audio_setting_title">మెరుగైన కాలింగ్</string>
     <string name="current_voicemail_greeting_record_instruction">శుభాకాంక్షలను రికార్డ్ చేయి</string>
     <string name="current_voicemail_greeting_recording_title">నా వాయిస్ మెయిల్ శుభాకాంక్షలు</string>
-    <string name="custom_message_hint">అనుకూల మెసేజ్‌ను రాయండి</string>
     <string name="custom_prefix_add_prefix_to_call_entry_always_add_prefix">ఎప్పుడూ ప్రిఫిక్స్ జోడించవద్దు</string>
     <string name="custom_prefix_add_prefix_to_call_entry_ask_before_dialing">డయల్ చేయడానికి ముందు అడగాలి</string>
     <string name="custom_prefix_add_prefix_to_call_entry_never_add_prefix">ప్రిఫిక్స్ ఎప్పుడూ వద్దు</string>
@@ -670,11 +670,11 @@
     <string name="display_options_view_given_name_first">ముందుగా మొదటి పేరు</string>
     <string name="display_options_view_names_as">పేరు యొక్క ఫార్మాట్‌</string>
     <string name="do_not_show_again">మళ్లీ చూపవద్దు</string>
-    <string name="duo_fallback_dialog_do_not_show_again_label">ఈ ఎంపికను గుర్తుపెట్టుకోండి</string>
-    <string name="duo_fallback_dialog_message">క్యారియర్ వీడియో కాలింగ్‌ను ఉపయోగించి మీ వీడియో కాల్‌ను పూర్తి చేయడం సాధ్యం కాదు. బదులుగా Duoను ఉపయోగించి కాల్ చేయడానికి ట్రై చేయండి.</string>
-    <string name="duo_fallback_dialog_negative_button_label">రద్దు చేయండి</string>
-    <string name="duo_fallback_dialog_positive_button_label">Duoను ఉపయోగించండి</string>
-    <string name="duo_fallback_dialog_title">Google Duoతో ట్రై చేయాలా?</string>
+    <string name="duo_fallback_dialog_do_not_show_again_label">ప్రతి కాల్స్ కోసం Duoని బ్యాకప్ పద్ధతిగా ఉంచండి. ఏ సమయంలో అయినా సెట్టింగ్‌ల నుండి మేనేజ్ చేయండి.</string>
+    <string name="duo_fallback_dialog_message">మీ క్యారియర్ వీడియో కాల్‌ను పూర్తి చేయలేకపోతే Duo ఆటోమేటిక్‌గా కాల్ చేయడానికి ట్రై చేస్తుంది.</string>
+    <string name="duo_fallback_dialog_negative_button_label">వద్దు, ధన్యవాదాలు</string>
+    <string name="duo_fallback_dialog_positive_button_label">Duoతో బ్యాకప్ చేయండి</string>
+    <string name="duo_fallback_dialog_title">Google Duoతో కాల్స్‌ను బ్యాకప్ చేయాలా?</string>
     <string name="edit_number_before_call">కాల్ చేసే ముందు నంబర్‌ను ఎడిట్ చేయండి</string>
     <string name="emergency_assist_address_sentence">నా స్థానం %1$s.</string>
     <string name="emergency_assist_button_fire">అగ్ని</string>
@@ -696,6 +696,7 @@
     <string name="emergency_voice_assist_dialog_button_close">రద్దు చేయి</string>
     <string name="emergency_voice_assist_dialog_title">అత్యవసర ఆపరేటర్‌కు ఇది వినిపిస్తుంది</string>
     <string name="end_call_with_default_message_description">కాల్‌ను ముగించండి</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_icon_content_description">ఎర్రర్</string>
     <string name="error_unable_to_get_audio">నమూనా ఆడియోను పొందడం సాధ్యపడలేదు</string>
     <string name="error_unable_to_play_audio">నమూనా ఆడియోను ప్లే చేయడం సాధ్యపడలేదు</string>
@@ -740,7 +741,7 @@
     <string name="first_time_dialog_duo_video_call_label">Google Duo</string>
     <string name="first_time_dialog_negative_button_label">రద్దు చేయండి</string>
     <string name="first_time_dialog_positive_button_label">ఎంచుకోండి</string>
-    <string name="first_time_dialog_remember_this_choice_label">ఈ ఎంపికను గుర్తుపెట్టుకోండి</string>
+    <string name="first_time_dialog_remember_this_choice_label">ప్రతి కాల్ కోసం గుర్తుంచుకోండి. ఏ సమయంలో అయినా సెట్టింగ్‌ల నుండి మేనేజ్ చేయండి.</string>
     <string name="first_time_dialog_title">వీడియో కాలింగ్ సర్వీస్‌ను ఎంచుకోండి</string>
     <string name="flip_to_shush_title">Shhh సంజ్ఞకి తిప్పండి</string>
     <string name="flip_to_silence_summary">ఇన్‌కమింగ్ కాల్‌ను నిశ్శబ్దం చేయడానికి, ఉపరితలం చదునుగా ఉండే చోట ముఖం కిందకు ఉండేలా మీ ఫోన్‌ను తిప్పండి</string>
@@ -788,6 +789,8 @@
     <string name="incall_content_description_hold">కాల్‌ను హోల్డ్ చేయి</string>
     <string name="incall_content_description_merge_calls">కాల్స్‌ను విలీనం చేస్తుంది</string>
     <string name="incall_content_description_muted">మ్యూట్ చేయబడింది</string>
+    <string name="incall_content_description_show_less">తక్కువ చూపు</string>
+    <string name="incall_content_description_show_more">ఎక్కువ చూపు</string>
     <string name="incall_content_description_speaker">స్పీకర్</string>
     <string name="incall_content_description_swap_calls">కాల్స్‌ను మారుస్తుంది</string>
     <string name="incall_content_description_swap_sim">SIMని మార్చు</string>
@@ -803,6 +806,7 @@
     <string name="incall_label_hold">హోల్డ్ చేయి</string>
     <string name="incall_label_manage">నిర్వహించు</string>
     <string name="incall_label_merge">విలీనం చేయి</string>
+    <string name="incall_label_more">మరిన్ని</string>
     <string name="incall_label_mute">మ్యూట్ చేయి</string>
     <string name="incall_label_record">రికార్డ్</string>
     <string name="incall_label_record_checked">రికార్డింగ్ ఆపివేయి</string>
@@ -835,15 +839,9 @@
     <string name="join_call_with_default_message_description">కాల్‌లో చేరండి</string>
     <string name="just_now">ఇప్పుడే</string>
     <string name="lat_long_format">%1$f, %2$f</string>
+    <string name="launch_application_settings">సెట్టింగ్‌లు</string>
     <string name="launcherActivityLabel">ఫోన్</string>
     <string name="learn_more_text_for_tmo">మరింత తెలుసుకోవడానికి T-Mobileను సందర్శించండి</string>
-    <string name="legacy_post_call_message">మీరు ఎందుకు కాల్ చేశారో చెప్పండి</string>
-    <string name="legacy_post_call_message_1">అత్యవసరమైన విషయం. నాకు తిరిగి కాల్ చేయండి.</string>
-    <string name="legacy_post_call_message_2">మీకు కొంత సమయం ఉన్నప్పుడు నాకు తిరిగి కాల్ చేయండి.</string>
-    <string name="legacy_post_call_message_3">అత్యవసరమేమీ కాదు, మనం తర్వాత చాట్ చేసుకోవచ్చు.</string>
-    <string name="legacy_post_call_message_sent">మెసేజ్ పంపబడింది</string>
-    <string name="legacy_post_call_send_message">మెసేజ్‌ను పంపండి</string>
-    <string name="legacy_post_call_view">చూడండి</string>
     <string name="libraries_material_featurehighlight_dismiss">తీసివేస్తుంది</string>
     <string name="license_activity_label">ఓపెన్ సోర్స్ లైసెన్స్‌లు</string>
     <string name="light_theme_label">లేత</string>
@@ -868,6 +866,7 @@
     <string name="mdd_notification_action_cancel">రద్దు చేయి</string>
     <string name="mdd_notification_download_failed">డౌన్‌లోడ్ విఫలమైంది</string>
     <string name="mdd_notification_download_paused">నెట్‌వర్క్ కనెక్షన్ కోసం వేచి ఉంది</string>
+    <string name="mdd_notification_download_paused_wifi">Wi-Fi కనెక్షన్ కోసం వేచి ఉంది</string>
     <string name="meid_number">MEID %s</string>
     <string name="menu_callNumber">%sకు కాల్ చేయండి</string>
     <string name="merge_calls_confirm_message">విలీనం చేసిన కాల్‌లో ఎవరు ఉంటారో అందరికీ తెలుసు అని మీకు మాత్రమే ఖచ్చితంగా తెలిస్తేనే మీ కాల్స్‌ను విలీనం చేయండి</string>
@@ -907,11 +906,9 @@
     <string name="nearbyplaces_account_setting_title">Google ఖాతా</string>
     <string name="new_call_log_activity_title">కాల్ హిస్టరీ</string>
     <string name="new_call_log_all_title">అన్నీ</string>
-    <string name="new_call_log_carrier_video">క్యారియర్ వీడియో</string>
     <string name="new_call_log_clear_call_log_confirmation">ఈ చర్య మీ చరిత్ర నుండి అన్ని కాల్స్‌ను తొలగిస్తుంది</string>
     <string name="new_call_log_clear_call_log_confirmation_title">కాల్ హిస్టరీని తీసివేయాలా?</string>
     <string name="new_call_log_delete_all">కాల్ హిస్టరీని తీసివేయి</string>
-    <string name="new_call_log_duo_video">Duo వీడియో</string>
     <string name="new_call_log_empty">మీరు చేసే కాల్స్ ఇక్కడ కనిపిస్తాయి</string>
     <string name="new_call_log_generic_video">వీడియో</string>
     <string name="new_call_log_header_older">పాతది</string>
@@ -929,6 +926,7 @@
     <string name="new_permission_no_search">మీ కాంటాక్ట్‌లలో సెర్చ్ చేయడానికి, కాంటాక్ట్‌లకు అనుమతులను ఆన్ చేయండి.</string>
     <string name="non_contact_always_record_dialog_title">మీ కాంటాక్ట్‌లలో లేని నంబర్‌ల నుండి వచ్చిన కాల్స్‌ను ఎల్లప్పుడూ రికార్డ్ చేయాలా?</string>
     <string name="non_contact_toggle_label">మీ కాంటాక్ట్‌లలో లేని నంబర్‌లు</string>
+    <string name="non_spam_aftercall_notification_title">%1$s తెలుసా?</string>
     <string name="non_spam_notification_title">%1$s తెలుసా?</string>
     <string name="not_set">సెట్ చేయలేదు</string>
     <string name="notification_action_accept">ఆమోదిస్తున్నాను</string>
@@ -979,7 +977,7 @@
     <string name="notification_ongoing_call">కాల్ కొనసాగుతోంది</string>
     <string name="notification_ongoing_call_multi_sim">%1$s ద్వారా కాల్ కొనసాగుతోంది</string>
     <string name="notification_ongoing_call_wifi_template">%1$s కొనసాగుతోంది</string>
-    <string name="notification_ongoing_call_wifi_template_multi_sim">%1$s ద్వారా %1$s కొనసాగుతోంది</string>
+    <string name="notification_ongoing_call_wifi_template_multi_sim">%2$s ద్వారా %1$s కొనసాగుతోంది</string>
     <string name="notification_ongoing_paused_video_call">క్యారియర్ వీడియో కాల్ జరుగుతోంది ‑ వీడియో పాజ్ అయింది</string>
     <string name="notification_ongoing_paused_video_call_multi_sim">%1$sతో క్యారియర్ వీడియో కాల్ కొనసాగుతోంది - వీడియో పాజ్ అయింది</string>
     <string name="notification_ongoing_video_call">క్యారియర్ వీడియో కాల్ జరుగుతోంది</string>
@@ -992,7 +990,7 @@
     <string name="notification_take_call">కాల్‌ను తీయి</string>
     <string name="notification_take_video_call">వీడియో కాల్‌ను తీయి</string>
     <string name="notification_voicemail_callers_list">%1$s, %2$s</string>
-    <string name="notification_voicemail_no_vm_number">వాయిస్ మెయిల్ నంబర్ తెలియదు</string>
+    <string name="notification_voicemail_no_vm_number">వాయిస్ మెయిల్‌ను సెటప్ చేయడానికి, మెనూ > సెట్టింగ్‌లకు వెళ్లండి.</string>
     <string name="notification_voicemail_text_format">%sకు డయల్ చేయండి</string>
     <string name="old_block_number_confirmation_title">%1$sని బ్లాక్ చేయాలా?</string>
     <string name="openhistory_button_label">చరిత్ర</string>
@@ -1033,6 +1031,7 @@
     <string name="precall_dialpad_chat_button">చాట్ చేయండి</string>
     <string name="precall_dialpad_chat_wait_min">%1$dనిమి నిరీక్షణ సమయం</string>
     <string name="preference_copied">\"%1$s\" క్లిప్‌బోర్డ్‌కి కాపీ చేయబడింది.</string>
+    <string name="preferences_license_title">థర్డ్-పార్టీ నోటీసులు</string>
     <string name="presence_optin_dialog_do_not_show_again_label">మళ్లీ చూపవద్దు</string>
     <string name="presence_optin_dialog_message">"వీడియో కాల్ ప్రారంభించే ముందు, ఏ ఫోన్ నెంబర్‌లు Verizon వీడియో కాల్స్‌ అందుకోగలవో Verizon నిర్ధారించుకోవాలనుకుంటోంది.
 
@@ -1043,11 +1042,11 @@
     <string name="preview_branding_label">ప్రివ్యూ</string>
     <string name="preview_label">ప్రివ్యూ</string>
     <string name="previously_unread_miss_call_text">మిమ్మల్ని చేరుకోవడానికి మునుపే ప్రయత్నించారు</string>
-    <string name="privacy_policy_label">గోప్యతా విధానం</string>
+    <string name="privacy_policy_label">గోప్యతా పాలసీ</string>
     <string name="private_num_non_verizon">ప్రైవేట్ నంబర్</string>
     <string name="private_num_verizon">నియంత్రిత నంబర్</string>
     <string name="private_or_hidden_action_preference_description">కాలర్ IDని దాచిన కాలర్‌లు</string>
-    <string name="private_or_hidden_action_preference_title">ప్రైవేట్ లేదా దాచబడినవి</string>
+    <string name="private_or_hidden_action_preference_title">ప్రైవేట్ &amp; దాచబడిన నంబర్‌లు</string>
     <string name="quick_contact_checkbox_description">కాంటాక్ట్‌ను ఎంచుకోండి</string>
     <string name="ready_for_recording">సిద్ధం…</string>
     <string name="record_audio_pre_call_dialog_got_it">అర్థమైంది</string>
@@ -1094,7 +1093,7 @@
     <string name="revelio_end_call_user_missed_internal_message">కాల్ మిస్ అయింది</string>
     <string name="revelio_pref_title">కాల్ స్క్రీనింగ్</string>
     <string name="revelio_preference_summary_automatic_screening_off">ఆటోమేటిక్ స్క్రీనింగ్ ఆఫ్‌లో ఉంది</string>
-    <string name="revelio_preference_summary_screening">స్క్రీనింగ్ %1$s</string>
+    <string name="revelio_preference_summary_screening">స్క్రీన్ %1$s</string>
     <string name="revelio_save_audio_setting_summary">మీ Assistant ద్వారా సమాధానం ఇచ్చిన కాల్స్ నుండి ఆడియోను సేవ్ చేయండి</string>
     <string name="revelio_save_audio_setting_title">కాల్ స్క్రీనింగ్ ఆడియోను సేవ్ చేయండి</string>
     <string name="revelio_setting_title">కాల్ స్క్రీనింగ్</string>
@@ -1168,7 +1167,6 @@
     <string name="set_default_account_description">మీ కాంటాక్ట్‌లతో SIM ప్రాధాన్యత సేవ్ చేయబడుతుంది.</string>
     <string name="set_phone_as_default_explanation_text">ఫోన్ అనేది మీ డిఫాల్ట్ ఫోన్ యాప్ అయితే మాత్రమే అది కాల్స్‌ను పంపగలదు మరియు అందుకోగలదు</string>
     <string name="set_phone_as_default_request_text">ఫోన్‌ను డిఫాల్ట్‌గా సెట్ చేయండి</string>
-    <string name="settings">సెట్టింగ్‌లు</string>
     <string name="settings_page_call_recording_feature_not_available_text">కాల్ రికార్డింగ్ మీ లొకేషన్‌లో అందుబాటులో లేదు</string>
     <string name="settings_page_crosby_feature_not_available_text">మీ లొకేషన్‌లో అందుబాటులో లేదు</string>
     <string name="setup_duo_button_long_text">Duo వీడియో కాలింగ్ సెట్ చేయండి</string>
@@ -1218,6 +1216,9 @@
     <string name="sounds_and_vibration_title">ధ్వనులు మరియు వైబ్రేషన్</string>
     <string name="spam_action_preference_description">Google స్పామ్ డేటాబేస్‌తో మ్యాచ్ అయ్యే నంబర్‌లు</string>
     <string name="spam_action_preference_title">స్పామ్</string>
+    <string name="spam_after_call_notification_add_contact_action_text">కాంటాక్ట్‌ను జోడించు</string>
+    <string name="spam_after_call_notification_report_spam_action_text">బ్లాక్ &amp; రిపోర్ట్</string>
+    <string name="spam_aftercall_notification_unknown">తెలియదు</string>
     <string name="spam_and_call_screen_settings_title">స్పామ్ మరియు కాల్ స్క్రీన్</string>
     <string name="spam_blocking_promo_action_dismiss">విస్మరించు</string>
     <string name="spam_blocking_promo_action_filter_spam">స్పామ్‌ని ఫిల్టర్ చేయి</string>
@@ -1229,8 +1230,11 @@
     <string name="spam_blocking_settings_enable_error_text">స్పామ్ ఫిల్టరింగ్‌ని ఆన్ చేస్తున్నప్పుడు సమస్య ఏర్పడింది</string>
     <string name="spam_blocking_settings_summary">సందేహించని స్పామ్ కాల్స్‌ను మీకు ఇబ్బంది పెట్టకుండా నివారించండి</string>
     <string name="spam_blocking_settings_title">స్పామ్ కాల్స్‌ను ఫిల్టర్ చేయండి</string>
+    <string name="spam_dialog_add_contact_action">కాంటాక్ట్‌లకు జోడించండి</string>
+    <string name="spam_dialog_dismiss_action">విస్మరించండి</string>
+    <string name="spam_notification_action_block_spam">అవును, నంబర్‌ను బ్లాక్ చేయండి</string>
     <string name="spam_notification_action_dismiss">విస్మరించండి</string>
-    <string name="spam_notification_add_contact_action_text">పరిచయాన్ని జోడించండి</string>
+    <string name="spam_notification_add_contact_action_text">కాంటాక్ట్‌ను జోడించండి</string>
     <string name="spam_notification_block_spam_action_text">అవును, నంబర్‌ను బ్లాక్ చేయండి</string>
     <string name="spam_notification_dialog_add_contact_action_text">కాంటాక్ట్‌లకు జోడించండి</string>
     <string name="spam_notification_dialog_block_report_spam_action_text">బ్లాక్ చేసి, స్పామ్ అని రిపోర్ట్ చేయండి</string>
@@ -1468,27 +1472,27 @@
     <string name="videocall_remotely_resumed">కాల్ పునఃప్రారంభించబడింది</string>
     <string name="videocall_settings_default_ask_every_time">ప్రతిసారి అడగాలి</string>
     <string name="videocall_settings_default_carrier">క్యారియర్ వీడియో కాల్</string>
-    <string name="videocall_settings_default_caution">This feature allows a user to choose a preferred video call solution and indicate the receiver’s video capability when it’s available. ^1</string>
-    <string name="videocall_settings_default_caution_learn_more">Learn more about preferred video services</string>
+    <string name="videocall_settings_default_caution">మీరు వీడియో కాల్ ఎలా చేయాలో ఎంచుకోండి, మీరు కాల్ చేస్తున్న వ్యక్తి దానిని స్వీకరించగలరో లేదో తెలుసుకోండి. ^1</string>
+    <string name="videocall_settings_default_caution_learn_more">వీడియో కాల్స్ గురించి మరిన్ని విషయాలు</string>
     <string name="videocall_settings_default_duo">Google Duo</string>
     <string name="videocall_settings_default_title">ప్రాధాన్య వీడియో కాల్ సర్వీస్</string>
-    <string name="videocall_settings_fallback_caution">"When “Use Google Duo as backup” (if applicable) is on and a call can't be completed using your preferred service, the call will automatically be attempted on Duo. ^1"</string>
-    <string name="videocall_settings_fallback_caution_learn_more">Learn more about Duo backup calling</string>
-    <string name="videocall_settings_fallback_summary">ప్రాధాన్య సర్వీస్ అందుబాటులో లేకపోతే Duoకి స్విచ్ అవ్వండి</string>
-    <string name="videocall_settings_fallback_title">Google Duoని బ్యాకప్‌గా ఉపయోగించండి</string>
+    <string name="videocall_settings_fallback_caution">మీరు Google Duoని బ్యాకప్‌గా కలిగి ఉంటే, అది ఆన్‌లో ఉన్నట్లయితే, మీ క్యారియర్ వీడియో కాల్‌ను పూర్తి చేయలేకపోతే Duo ఆటోమేటిక్‌గా కాల్ చేయడానికి ట్రై చేస్తుంది. ^1</string>
+    <string name="videocall_settings_fallback_caution_learn_more">బ్యాకప్‌గా Duo గురించి మరిన్ని విషయాలు</string>
+    <string name="videocall_settings_fallback_summary">మీ ప్రాధాన్య సర్వీస్ అందుబాటులో లేకపోతే Duoకి స్విచ్ అవ్వండి</string>
+    <string name="videocall_settings_fallback_title">Duoను బ్యాకప్‌గా ఉపయోగించండి</string>
     <string name="videocall_settings_title">వీడియో కాలింగ్</string>
     <string name="videocall_show_preview_button_description">స్థానిక వీడియో ఫీడ్‌ను చూపించు</string>
     <string name="view_location_settings">స్థాన సెట్టింగ్‌లు</string>
     <string name="vitle_label">LTE నుండి వీడియో</string>
     <string name="viwifi_label">Wi-Fi ద్వారా వీడియో</string>
     <string name="vm_change_pin_error_invalid">కొత్త పిన్ చెల్లని అక్షరాలను కలిగి ఉంది.</string>
-    <string name="vm_change_pin_error_last_4_digits_msisdn">ఎట్టి పరిస్థితుల్లోనూ కొత్త PIN మీ ఫోన్ నంబర్‌లో చివరి నాలుగు అంకెలు కాకూడదు.</string>
+    <string name="vm_change_pin_error_last_4_digits_msisdn">మీ PIN మీ ఫోన్ నంబర్‌లోని చివరి 4 అంకెలు కాకూడదు.</string>
     <string name="vm_change_pin_error_mismatch">పాత పిన్ సరిపోలలేదు.</string>
     <string name="vm_change_pin_error_system_error">పిన్‌ని మార్చడం సాధ్యపడలేదు</string>
     <string name="vm_change_pin_error_too_long">కొత్త పిన్ చాలా పొడవుగా ఉంది.</string>
     <string name="vm_change_pin_error_too_short">కొత్త పిన్ చాలా చిన్నదిగా ఉంది.</string>
-    <string name="vm_change_pin_error_too_weak">కొత్త పిన్ చాలా బలహీనంగా ఉంది. శక్తివంతమైన పాస్‌వర్డ్‌లో వరుస శ్రేణిలో అక్షరాలు/అంకెలు లేదా పునరావృత అంకెలు ఉండకూడదు.</string>
-    <string name="vm_change_pin_error_unchanged_pin">కొత్త PIN మీ ప్రస్తుత PIN లాగానే ఉంది. వేరే PINను ఎంటర్ చేయండి.</string>
+    <string name="vm_change_pin_error_too_weak">కొత్త పిన్ చాలా బలహీనంగా ఉంది. శక్తివంతమైన పాస్‌వర్డ్‌లో వరుస శ్రేణిలో అక్షరాలు/అంకెలు లేదా రిపీట్ అంకెలు ఉండకూడదు.</string>
+    <string name="vm_change_pin_error_unchanged_pin">మీ కొత్త PIN మీ ప్రస్తుత PIN లాగా ఉండకూడదు.</string>
     <string name="vm_change_pin_progress_message">దయచేసి వేచి ఉండండి.</string>
     <string name="voice_call">వాయిస్ కాల్</string>
     <string name="voice_call_button">కాల్ చేయి</string>
@@ -1510,11 +1514,9 @@
     <string name="voicemailMultiSelectDeleteConfirm">తొలగించు</string>
     <string name="voicemail_action_call_customer_support">వినియోగదారు సేవా కేంద్రానికి కాల్ చేయండి</string>
     <string name="voicemail_action_call_voicemail">వాయిస్ మెయిల్‌కు కాల్ చేయండి</string>
-    <string name="voicemail_action_dimiss">వద్దు, ధన్యవాదాలు</string>
     <string name="voicemail_action_retry">మళ్లీ ప్రయత్నించండి</string>
     <string name="voicemail_action_set_pin">పిన్‌ని సెట్ చేయండి</string>
     <string name="voicemail_action_sync">సింక్‌</string>
-    <string name="voicemail_action_turn_archive_on">ఆన్ చేయి</string>
     <string name="voicemail_action_turn_off_airplane_mode">విమానం మోడ్ సెట్టింగ్‌లు</string>
     <string name="voicemail_activating_summary_info">వాయిస్‌ మెయిల్‌ను యాక్టివేట్ చేస్తోంది</string>
     <string name="voicemail_advanced_settings_title">అధునాతన సెట్టింగ్‌లు</string>
@@ -1529,7 +1531,7 @@
     <string name="voicemail_change_pin_preference_summary_disable">పిన్‌ని మార్చడానికి తప్పనిసరిగా దృశ్యమాన వాయిస్ మెయిల్‌ను ప్రారంభించాలి</string>
     <string name="voicemail_change_pin_preference_summary_not_activated">దృశ్యమాన వాయిస్ మెయిల్‌ ఇంకా సక్రియం కాలేదు, దయచేసి తర్వాత మళ్లీ ప్రయత్నించండి</string>
     <string name="voicemail_change_pin_preference_title">పిన్‌ని మార్చండి</string>
-    <string name="voicemail_donate_preference_summary_info">మాటల టైపింగ్ క్వాలిటీని మెరుగుపరచడం కోసం మీ వాయిస్ మెయిల్ మెసేజ్‌లను రివ్యూ చేయడానికి Googleను అనుమతించండి. మీ వాయిస్ మెయిల్ మెసేజ్‌లు అనామకంగా స్టోర్‌ చేయబడతాయి. %1$s</string>
+    <string name="voicemail_donate_preference_summary_info">మాటల టైపింగ్ క్వాలిటీని మెరుగుపరచడం కోసం మీ వాయిస్ మెయిల్ మెసేజ్‌లను రివ్యూ చేయడానికి Googleను అనుమతించండి. మీ వాయిస్ మెయిల్ మెసేజ్‌లు అనామకంగా స్టోర్‌ చేయబడతాయి. ^1</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">డేటా లేని SIMలలో దృశ్యరూప వాయిస్ మెయిల్‌ను ఉపయోగించడం వలన, క్యారియర్ ఛార్జీలు విధించబడవచ్చు</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">ఎంచుకున్న డేటా SIM కోసం మాత్రమే దృశ్య వాయిస్ మెయిల్ అందుబాటులో ఉంది</string>
     <string name="voicemail_error_activating_message">విజువల్ వాయిస్ మెయిల్ పూర్తిగా యాక్టివేట్ అయ్యే దాకా మీరు వాయిస్ మెయిల్ నోటిఫికేషన్‌లను స్వీకరించలేకపోవచ్చు. వాయిస్ మెయిల్ పూర్తిగా యాక్టివేట్ అయ్యే దాకా కొత్త మెసేజ్‌లను తిరిగి పొందడానికి వాయిస్ మెయిల్‌కు కాల్ చేయండి.</string>
@@ -1542,12 +1544,8 @@
     <string name="voicemail_error_bad_config_title">దృశ్య వాయిస్ మెయిల్‌ను అప్‌డేట్ చేయడం సాధ్యపడదు</string>
     <string name="voicemail_error_communication_message">మీరు ఇప్పటికీ వాయిస్ మెయిల్‌ను తనిఖీ చేయడానికి కాల్ చేయవచ్చు.</string>
     <string name="voicemail_error_communication_title">దృశ్య వాయిస్ మెయిల్‌ను అప్‌డేట్ చేయడం సాధ్యపడదు</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_message">మీ మెయిల్‌బాక్స్ దాదాపు నిండిపోయింది. స్పేస్‌ను ఖాళీ చేయడానికి అదనపు స్టోరేజీని ఆన్ చేయండి, దీని వలన Google మీ వాయిస్ మెయిల్ మెసేజ్‌లను మేనేజ్‌ చేయగలదు, బ్యాకప్ చేయగలదు.</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_title">అదనపు నిల్వ మరియు బ్యాకప్‌ను ఆన్ చేయండి</string>
     <string name="voicemail_error_inbox_full_message">మీ ఇన్‌బాక్స్ నిండింది. కొత్త వాయిస్ మెయిల్‌ను స్వీకరించడానికి కొన్ని మెసేజ్‌లను తొలగించడానికి ప్రయత్నించండి.</string>
     <string name="voicemail_error_inbox_full_title">కొత్త వాయిస్ మెయిళ్లను స్వీకరించలేరు</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_message">మీ మెయిల్‌బాక్స్ నిండింది. స్పేస్‌ను ఖాళీ చేయడానికి అదనపు స్టోరేజీని ఆన్ చేయండి, దీని వలన Google మీ వాయిస్ మెయిల్ మెసేజ్‌లను మేనేజ్‌ చేయగలదు, బ్యాకప్ చేయగలదు.</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_title">అదనపు నిల్వ మరియు బ్యాకప్‌ను ఆన్ చేయండి</string>
     <string name="voicemail_error_inbox_near_full_message">మీ ఇన్‌బాక్స్ నిండిపోయి ఉంటే, కొత్త వాయిస్ మెయిల్‌ను స్వీకరించలేరు.</string>
     <string name="voicemail_error_inbox_near_full_title">ఇన్‌బాక్స్‌ దాదాపు నిండింది</string>
     <string name="voicemail_error_no_data_cellular_required_message">మీ మొబైల్ డేటా కనెక్షన్ మెరుగైనప్పుడు మళ్లీ ప్రయత్నించండి. మీరు ఇప్పటికీ వాయిస్ మెయిల్‌ను తనిఖీ చేయడానికి కాల్ చేయవచ్చు.</string>
@@ -1580,7 +1578,7 @@
     <string name="voicemail_transcription_failed_language_not_supported">లిప్యంతరీకరణ అందుబాటులో లేదు. భాషకు మద్దతు లేదు.</string>
     <string name="voicemail_transcription_failed_no_speech">లిప్యంతరీకరణ అందుబాటులో లేదు. ప్రసంగం కనుగొనబడలేదు.</string>
     <string name="voicemail_transcription_in_progress">లిప్యంతరణం చేస్తోంది…</string>
-    <string name="voicemail_transcription_preference_summary_info">Google లిప్యంతరీకరణ సేవను ఉపయోగించి మీ వాయిస్‌ మెయిల్ యొక్క లిప్యంతరీకరణలను పొందండి. %1$s</string>
+    <string name="voicemail_transcription_preference_summary_info">Google లిప్యంతరీకరణ సేవను ఉపయోగించి మీ వాయిస్‌ మెయిల్ యొక్క లిప్యంతరీకరణలను పొందండి. ^1</string>
     <string name="voicemail_visual_voicemail_auto_archive_switch_title">అదనపు బ్యాకప్ మరియు నిల్వ</string>
     <string name="voicemail_visual_voicemail_donation_switch_title">వాయిస్ మెయిల్ లిప్యంతరీకరణ విశ్లేషణ</string>
     <string name="voicemail_visual_voicemail_switch_title">దృశ్య వాయిస్ మెయిల్</string>
@@ -1636,7 +1634,7 @@
     <string name="wait_prompt_str">"కింది టోన్‌లు పంపాలా?
 "</string>
     <string name="was_this_a_business_chip_text">ఈ బిజినెస్ నుండి వచ్చిందా?</string>
-    <string name="was_this_a_business_dialog_body">ఈ ట్యాగ్‌ను నిర్ధారించడం వలన Google కాలర్ IDని మెరుగుపరచడంలో సహాయపడుతుంది</string>
+    <string name="was_this_a_business_dialog_body">ఈ నంబర్‌ను నిర్ధారించడం వలన Google కాలర్ IDని మెరుగుపరచడంలో సహాయపడుతుంది</string>
     <string name="was_this_a_business_dialog_negative_response">కాదు</string>
     <string name="was_this_a_business_dialog_positive_response">అవును</string>
     <string name="was_this_a_business_dialog_snackbar">మీ ఫీడ్‌బ్యాక్‌కు ధన్యవాదాలు</string>

@@ -352,7 +352,6 @@
     <string name="abc_searchview_description_search">Zoeken</string>
     <string name="abc_searchview_description_submit">Zoekopdracht verzenden</string>
     <string name="abc_searchview_description_voice">Gesproken zoekopdracht</string>
-    <string name="abc_slices_permission_request">%1$s wil segmenten van %2$s tonen</string>
     <string name="abc_toolbar_collapse_description">Samenvouwen</string>
     <string name="action_label_move_down">Omlaag verplaatsen</string>
     <string name="action_label_move_to_bottom">Onderaan zetten</string>
@@ -374,8 +373,19 @@
     <string name="alarm_is_dismissed">%s wekker gesloten</string>
     <string name="alarm_is_set">Wekker is ingesteld voor %s</string>
     <string name="alarm_is_snoozed">Wekker voor %1$s is %2$s gesnoozed</string>
-    <string name="alarm_missed_text">%1$s - %2$s</string>
+    <string name="alarm_label_edit_dialog_pane_title">Label bewerken</string>
+    <string name="alarm_missed_app_notifications_blocked">Je klokmeldingen stonden uit</string>
+    <string name="alarm_missed_battery_saver">Batterijbesparing heeft misschien een negatieve invloed gehad op de wekkerfunctionaliteit</string>
+    <string name="alarm_missed_blocked_by_dnd">Niet storen heeft je wekker op stil gezet</string>
+    <string name="alarm_missed_clock_background_restricted">Je wekker liet geen geluid horen omdat achtergrondactiviteit beperkt was</string>
+    <string name="alarm_missed_firing_notifications_blocked">Je wekker- en timermeldingen stonden uit</string>
+    <string name="alarm_missed_in_vr">Wekker is geblokkeerd door virtual reality</string>
+    <string name="alarm_missed_low_volume">Het volume van je wekker was laag: %d%%</string>
+    <string name="alarm_missed_overlapping_alarms">Wekker is vervangen door wekker voor %s</string>
+    <string name="alarm_missed_setting_exact_alarm_blocked">Klok heeft rechten nodig om wekkers te zetten</string>
+    <string name="alarm_missed_silent_default_alarm_ringtone">Het geluid van je wekker was op stil gezet</string>
     <string name="alarm_missed_title">Wekker gemist</string>
+    <string name="alarm_missed_volume_muted">Het geluid van je wekker was uitgezet</string>
     <string name="alarm_not_scheduled">Niet gepland</string>
     <string name="alarm_promo">"Zeg de volgende keer iets als 'Hey Google, zet een wekker'."</string>
     <string name="alarm_service_desc">Verwerkt acties van alarmmeldingen.</string>
@@ -385,8 +395,10 @@
     <string name="alarm_tomorrow">Morgen</string>
     <string name="alarm_undo">ongedaan maken</string>
     <string name="alarm_vibrate">Trillen</string>
+    <string name="alarm_volume_increased">Wekkervolume verhoogd naar %d%%</string>
     <string name="alarm_volume_muted">Alarmvolume gedempt</string>
     <string name="alarm_volume_title">Wekkervolume</string>
+    <string name="alarm_wakeup_not_set">Je wekker is niet gezet</string>
     <string name="alarms_blocked_by_dnd">Apparaat is ingesteld op totale stilte</string>
     <string name="alarms_not_prioritized">"Wekkers worden gedempt met 'Niet storen'"</string>
     <string name="all_results">Alle resultaten</string>
@@ -394,21 +406,22 @@
     <string name="analog_clock_widget_promo">Voeg een Analoge klok-widget toe aan je startscherm.</string>
     <string name="analog_gadget">Analoge klok</string>
     <string name="app_label">Klok</string>
-    <string name="app_notifications_blocked">Klokmeldingen zijn uitgeschakeld</string>
+    <string name="app_notifications_blocked">Wekker- en timermeldingen zijn vereist</string>
     <string name="assistant_channel_name">Google Assistent-routines</string>
     <string name="authorization_required">%1$s heeft geen toestemming om met Klok te werken</string>
     <string name="auto_silence_entry_never">Nooit</string>
     <string name="auto_silence_title">Stil na</string>
     <string name="automatic_home_clock">Automatische klok voor thuis</string>
     <string name="automatic_home_clock_summary">Voeg een klok voor thuis toe wanneer je in een andere tijdzone reist.</string>
+    <string name="battery_saver">Batterijbesparing kan zorgen voor slechtere prestaties van de wekker- en timerfunctionaliteit</string>
     <string name="bedtime_activity_tomorrow">Je activiteitsgegevens voor bedtijd worden morgen hier weergegeven</string>
     <string name="bedtime_card_consent_no_thanks">Nee</string>
     <string name="bedtime_card_hide_activity_sleep">Recente activiteit verbergen</string>
     <string name="bedtime_card_hide_calendar">Geplande afspraken verbergen</string>
     <string name="bedtime_card_hide_sleep_sounds">Slaapgeluiden verbergen</string>
-    <string name="bedtime_card_show_activity_sleep">Recente activiteit weergeven</string>
-    <string name="bedtime_card_show_calendar">Geplande afspraken weergeven</string>
-    <string name="bedtime_card_show_sleep_sounds">Slaapgeluiden weergeven</string>
+    <string name="bedtime_card_show_activity_sleep">Recente activiteit tonen</string>
+    <string name="bedtime_card_show_calendar">Geplande afspraken tonen</string>
+    <string name="bedtime_card_show_sleep_sounds">Slaapgeluiden tonen</string>
     <string name="bedtime_card_title_activity_sleep">Slaapactiviteit</string>
     <string name="bedtime_card_title_activity_sleep_onboarding">Recente activiteit tijdens bedtijd bekijken</string>
     <string name="bedtime_card_title_calendar">Geplande afspraken</string>
@@ -420,7 +433,7 @@
     <string name="bedtime_data_consent_description">Houd je schermtijd bij en bekijk schattingen van hoelang je in bed ligt. Dit is gebaseerd op de tijd dat je telefoon zonder te bewegen in een donkere kamer ligt.</string>
     <string name="bedtime_disabled_explanation"><b>Geen bedtijd ingesteld</b>"
 
-De herinneringsmelding en bedtijdstand zijn uitgeschakeld. De geselecteerde tijd wordt nog steeds gebruikt om je recente activiteit tijdens bedtijd weer te geven."</string>
+De herinneringsmelding en bedtijdstand staan uit. De geselecteerde tijd wordt nog steeds gebruikt om je recente activiteit tijdens bedtijd te tonen."</string>
     <string name="bedtime_disabled_explanation_no_wellbeing_app"><b>Geen bedtijd ingesteld.</b></string>
     <string name="bedtime_mode_label">Bedtijdstand</string>
     <string name="bedtime_morning_onboarding_title">Een vaste wekker instellen</string>
@@ -433,7 +446,7 @@ De herinneringsmelding en bedtijdstand zijn uitgeschakeld. De geselecteerde tijd
     <string name="bedtime_promo_tooltip">Een vaste bedtijd instellen om beter te slapen</string>
     <string name="bedtime_reminder_dialog_title">Herinneringsmelding</string>
     <string name="bedtime_reminder_label">Herinneringsmelding</string>
-    <string name="bedtime_schedule_disabled_description">Uitgeschakeld</string>
+    <string name="bedtime_schedule_disabled_description">Uit</string>
     <string name="bedtime_starts_at">Je bedtijd begint om %1$s</string>
     <string name="bedtime_wake">Wakker worden</string>
     <string name="bottomsheet_action_expand_halfway">Half uitvouwen</string>
@@ -443,7 +456,7 @@ De herinneringsmelding en bedtijdstand zijn uitgeschakeld. De geselecteerde tijd
     <string name="calendar_cross_profile_connect">Werkprofiel koppelen</string>
     <string name="calendar_cross_profile_disconnect">Werkprofiel loskoppelen</string>
     <string name="calendar_cross_profile_permission">Bekijk je zakelijke en persoonlijke agenda-afspraken samen in de persoonlijke Klok-app</string>
-    <string name="calendar_cross_profile_permission_request">Inschakelen in Instellingen</string>
+    <string name="calendar_cross_profile_permission_request">Aanzetten in Instellingen</string>
     <string name="calendar_cross_profile_title">Je werkafspraken toevoegen</string>
     <string name="calendar_event_all_day">Hele dag in %1$s</string>
     <string name="calendar_event_all_day_no_location">Hele dag</string>
@@ -451,7 +464,7 @@ De herinneringsmelding en bedtijdstand zijn uitgeschakeld. De geselecteerde tijd
     <string name="calendar_event_detail_content_description">%1$s tot %2$s bij %3$s</string>
     <string name="calendar_event_detail_no_location">%1$s - %2$s</string>
     <string name="calendar_event_detail_no_location_content_description">%1$s tot %2$s</string>
-    <string name="calendar_no_event">Geen afspraken om weer te geven</string>
+    <string name="calendar_no_event">Geen afspraken om te tonen</string>
     <string name="calendar_permission_description">Geef Klok toegang tot je agenda om te zorgen dat de wekker wordt ingesteld vóór afspraken.</string>
     <string name="calm_premium_notice">Krijg onbeperkt toegang tot rustgevende verhalen voor het slapengaan, muziek en meditaties</string>
     <string name="cant_connect_to_provider">Kan geen verbinding maken met %1$s. Je hoort geen content van %1$s.</string>
@@ -465,9 +478,9 @@ De herinneringsmelding en bedtijdstand zijn uitgeschakeld. De geselecteerde tijd
     <string name="clock_settings">Klok</string>
     <string name="clock_style">Stijl</string>
     <string name="collapse_alarm">Wekker samenvouwen</string>
-    <string name="common_google_play_services_enable_button">Inschakelen</string>
-    <string name="common_google_play_services_enable_text">%1$s werkt niet, tenzij je Google Play-services inschakelt.</string>
-    <string name="common_google_play_services_enable_title">Google Play-services inschakelen</string>
+    <string name="common_google_play_services_enable_button">Aanzetten</string>
+    <string name="common_google_play_services_enable_text">%1$s werkt niet, tenzij je Google Play-services aanzet.</string>
+    <string name="common_google_play_services_enable_title">Google Play-services aanzetten</string>
     <string name="common_google_play_services_install_button">Installeren</string>
     <string name="common_google_play_services_install_text">%1$s kan niet worden uitgevoerd zonder Google Play-services, die je nog niet op je apparaat hebt.</string>
     <string name="common_google_play_services_install_title">Google Play-services ophalen</string>
@@ -496,7 +509,7 @@ De herinneringsmelding en bedtijdstand zijn uitgeschakeld. De geselecteerde tijd
     <string name="digital_gadget">Digitale klok</string>
     <string name="dismiss">Sluiten</string>
     <string name="dismiss_alarm">Wekker sluiten</string>
-    <string name="display_clock_seconds_pref">Tijd met seconden weergeven</string>
+    <string name="display_clock_seconds_pref">Tijd met seconden tonen</string>
     <string name="done">Klaar</string>
     <string name="drag">Slepen</string>
     <string name="duration_repeat_separator">%1$s • %2$s</string>
@@ -504,9 +517,10 @@ De herinneringsmelding en bedtijdstand zijn uitgeschakeld. De geselecteerde tijd
     <string name="every_day">Elke dag</string>
     <string name="expand_alarm">Wekker uitvouwen</string>
     <string name="expand_button_title">Geavanceerd</string>
-    <string name="exposed_dropdown_menu_content_description">Dropdownmenu weergeven</string>
+    <string name="exposed_dropdown_menu_content_description">Dropdownmenu tonen</string>
     <string name="firing_channel_name">Actieve wekkers en timers</string>
-    <string name="firing_notifications_blocked">Wekker- en timermeldingen zijn uitgeschakeld</string>
+    <string name="firing_notification_channels_blocked">@string/app_notifications_blocked</string>
+    <string name="fix_alarm_volume">Verbeteren</string>
     <string name="for_premium_members_only">Alleen voor premium leden</string>
     <string name="get_it_on_google_play">Download de app via Google Play</string>
     <string name="get_ready_for_bed">Maak je klaar om naar bed te gaan</string>
@@ -521,8 +535,8 @@ De herinneringsmelding en bedtijdstand zijn uitgeschakeld. De geselecteerde tijd
     <string name="home_time_zone_title">Tijdzone thuis</string>
     <string name="hours_label">u</string>
     <string name="hours_minutes_seconds">%1$d:%2$02d:%3$02d</string>
-    <string name="icon_content_description">Icoon voor dialoogvenster</string>
     <string name="in_bed">Tijd in bed</string>
+    <string name="in_vr">Wekker is geblokkeerd in virtual reality</string>
     <string name="install_provider_menu_item">%1$s installeren</string>
     <string name="installation_required">%1$s is niet geïnstalleerd</string>
     <string name="internet_connection_required">Voor content van %1$s is een internetverbinding vereist</string>
@@ -536,6 +550,7 @@ De herinneringsmelding en bedtijdstand zijn uitgeschakeld. De geselecteerde tijd
     <string name="learn_more">Meer informatie</string>
     <string name="loading_widget">Laden…</string>
     <string name="login_required">Je bent niet ingelogd bij %1$s</string>
+    <string name="low_volume">Het volume van je wekker is laag</string>
     <string name="manage_data">Gegevens beheren</string>
     <string name="material_clock_toggle_content_description">Selecteer a.m. of p.m.</string>
     <string name="material_hour_selection">Selecteer uur</string>
@@ -570,6 +585,8 @@ De herinneringsmelding en bedtijdstand zijn uitgeschakeld. De geselecteerde tijd
     <string name="mtrl_badge_numberless_content_description">Nieuwe melding</string>
     <string name="mtrl_chip_close_icon_content_description">%1$s verwijderen</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Meer dan %1$d nieuwe meldingen</string>
+    <string name="mtrl_timepicker_cancel">Annuleren</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
     <string name="music_alert_description">Kies een app om te gebruiken voor muziekwekkers</string>
     <string name="music_alert_header">Muziekwekkers beschikbaar</string>
     <string name="music_promo_body_four">Je kunt nu muziek kiezen uit %1$s, %2$s, %3$s en %4$s</string>
@@ -590,6 +607,7 @@ De herinneringsmelding en bedtijdstand zijn uitgeschakeld. De geselecteerde tijd
     <string name="no_data">Geen gegevens</string>
     <string name="no_firing_alarms">Geen actieve wekkers</string>
     <string name="no_label_specified">Geen label opgegeven</string>
+    <string name="no_laps">Geen ronden</string>
     <string name="no_scheduled_alarms">Geen geplande wekkers</string>
     <string name="no_usage">Telefoon niet gebruikt</string>
     <string name="no_wakeup_alarm">Geen wekker gezet</string>
@@ -621,12 +639,11 @@ De herinneringsmelding en bedtijdstand zijn uitgeschakeld. De geselecteerde tijd
     <string name="plus_more">+ nog %1$s</string>
     <string name="plus_more_content_description">nog %1$s</string>
     <string name="preference_copied">"'%1$s' is gekopieerd naar het klembord."</string>
-    <string name="preferences_license_title">Opensource-licenties</string>
     <string name="provider_authorize_clock">Koppelen</string>
     <string name="provider_connect_prompt">Als je %1$s wilt gebruiken, koppel je je %1$s-account aan de Klok-app</string>
     <string name="provider_connect_title">Verbinden met %1$s</string>
-    <string name="provider_disable_offline_mode_prompt">Als je Spotify wilt gebruiken, schakel je de offline modus uit in de Spotify-app</string>
-    <string name="provider_disable_offline_mode_title">Offline modus uitschakelen</string>
+    <string name="provider_disable_offline_mode_prompt">Als je Spotify wilt gebruiken, zet je de offline modus uit in de Spotify-app</string>
+    <string name="provider_disable_offline_mode_title">Offline modus uitzetten</string>
     <string name="provider_install_prompt">Als je %1$s wilt gebruiken, installeer je de %1$s-app</string>
     <string name="provider_install_provider_app">Installeren</string>
     <string name="provider_login">Inloggen</string>
@@ -666,8 +683,8 @@ De herinneringsmelding en bedtijdstand zijn uitgeschakeld. De geselecteerde tijd
     <string name="shortcut_start_screensaver_short">Screensaver</string>
     <string name="shortcut_start_stopwatch_long">Stopwatch starten</string>
     <string name="shortcut_start_stopwatch_short">Starten</string>
-    <string name="show_provider_menu_item">%1$s weergeven</string>
-    <string name="silent_default_alarm_ringtone">Standaardbeltoon voor wekker is stil</string>
+    <string name="show_provider_menu_item">%1$s tonen</string>
+    <string name="silent_default_alarm_ringtone">Standaard wekkergeluid is stil</string>
     <string name="silent_ringtone_title">Stil</string>
     <string name="skip">Overslaan</string>
     <string name="sleep_sound">Slaapgeluiden</string>
@@ -679,16 +696,6 @@ De herinneringsmelding en bedtijdstand zijn uitgeschakeld. De geselecteerde tijd
     <string name="sleep_sound_title_contemplation">Overpeinzing</string>
     <string name="sleep_sound_title_deep_space">Diep in de ruimte</string>
     <string name="sleep_sound_title_waves">Golven</string>
-    <string name="slice_alarm_button_toggle_enable">Schakelaar voor wekker aan-/uitzetten</string>
-    <string name="slice_alarm_button_view_alarm">Wekker bekijken</string>
-    <string name="slice_alarm_button_view_all">Alles weergeven</string>
-    <string name="slice_alarm_create_header">Een wekker zetten</string>
-    <string name="slice_alarm_no_alarm">Er zijn geen wekkers.</string>
-    <string name="slice_alarm_save">Opslaan</string>
-    <string name="slice_alarm_view_header">Wekkers</string>
-    <string name="slice_timer_create_header">Een timer starten</string>
-    <string name="slice_timer_start">Starten</string>
-    <string name="slice_timer_view">Timer bekijken</string>
     <string name="snooze_duration_title">Snoozeduur</string>
     <string name="snoozed_alarms_channel_name">Gesnoozede wekkers</string>
     <string name="sounds">Geluiden</string>
@@ -714,12 +721,12 @@ De herinneringsmelding en bedtijdstand zijn uitgeschakeld. De geselecteerde tijd
     <string name="timer_accessibility_stopped">Timer onderbroken, %1$s</string>
     <string name="timer_add_minute">+ 1:00</string>
     <string name="timer_add_timer">Timer toevoegen</string>
-    <string name="timer_cancel">Annuleren</string>
+    <string name="timer_backspace">Backspace</string>
     <string name="timer_canceled">Timer geannuleerd</string>
     <string name="timer_created">Timer gemaakt</string>
     <string name="timer_delete">Verwijderen</string>
     <string name="timer_deleted">Timer verwijderd</string>
-    <string name="timer_descriptive_delete">%s verwijderen</string>
+    <string name="timer_descriptive_backspace">Backspace %s</string>
     <string name="timer_dismissed">Timer gesloten</string>
     <string name="timer_multi_missed">%d timers gemist</string>
     <string name="timer_multi_times_up">%d timers verlopen</string>
@@ -765,10 +772,13 @@ De herinneringsmelding en bedtijdstand zijn uitgeschakeld. De geselecteerde tijd
     <string name="volume_button_setting_title">Volumeknoppen</string>
     <string name="wake_up_alarm">Wakker worden</string>
     <string name="wake_up_to_music">Wakker worden met muziek</string>
+    <string name="wakeup_card_onboard_bedtime">Stel je vaste schema voor wakker worden in</string>
+    <string name="wakeup_card_start_bedtime_onboarding">Starten</string>
     <string name="wakeup_disabled_explanation"><b>Geen wekker gezet</b>"
 
-Hoewel de wekker niet is gezet, wordt de geselecteerde tijd gebruikt om de "<annotation type="app_link">bedtijdstand</annotation> uit te schakelen en je recente activiteit tijdens bedtijd weer te geven.</string>
+Hoewel de wekker niet is gezet, wordt de geselecteerde tijd gebruikt om de "<annotation type="app_link">bedtijdstand</annotation> uit te zetten en je recente activiteit tijdens bedtijd te tonen.</string>
     <string name="wakeup_disabled_explanation_no_wellbeing_app"><b>Geen wekker gezet.</b></string>
+    <string name="wakeup_schedule_change_button">Planning wijzigen</string>
     <string name="week_start_title">Week starten op</string>
     <string name="widget_alarm_content_description">Wekker gezet voor %s</string>
     <string name="work_profile_disabled_message">Al je wekkers in de werkklok staan uit. Je kunt de persoonlijke klok gebruiken.</string>

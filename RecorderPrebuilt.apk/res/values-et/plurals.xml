@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="custom_cards_view_description_items_left">
-        <item quantity="other">Jäänud on %1$d üksust</item>
-        <item quantity="one">Jäänud on %1$d üksus</item>
-    </plurals>
     <plurals name="dlg_message_deletion_confirmation">
         <item quantity="other">Teie salvestised kustutatakse jäädavalt. Seda toimingut ei saa tagasi võtta.</item>
         <item quantity="one">Teie salvestis kustutatakse jäädavalt. Seda toimingut ei saa tagasi võtta.</item>
@@ -20,25 +16,33 @@
         <item quantity="other">Kas kustutada need salvestised jäädavalt?</item>
         <item quantity="one">Kas kustutada see salvestis jäädavalt?</item>
     </plurals>
-    <plurals name="download_unsuccessful_description_storage_full">
+    <plurals name="download_failure_description_storage_full">
         <item quantity="other">Salvestisi ei saa alla laadida, kuna seadme salvestusruum on täis. Puudutage ülevaatamiseks.</item>
         <item quantity="one">Seadme salvestusruum on täis. Puudutage ülevaatamiseks.</item>
-    </plurals>
-    <plurals name="downloaded_description">
-        <item quantity="other">Laaditi alla %1$d salvestist</item>
-        <item quantity="one">Laaditi alla %1$d salvestis</item>
     </plurals>
     <plurals name="downloading_description">
         <item quantity="other">%1$d salvestise allalaadimine</item>
         <item quantity="one">%1$d salvestise allalaadimine</item>
+    </plurals>
+    <plurals name="og_backup_failed_title">
+        <item quantity="other">%1$d üksuse varundamine ebaõnnestus</item>
+        <item quantity="one">%1$d üksuse varundamine ebaõnnestus</item>
+    </plurals>
+    <plurals name="og_backup_items_left">
+        <item quantity="other">Jäänud on %1$d üksust</item>
+        <item quantity="one">Jäänud on %1$d üksus</item>
+    </plurals>
+    <plurals name="og_backup_items_stopped_title">
+        <item quantity="other">%1$d üksust on varundamata</item>
+        <item quantity="one">%1$d üksus on varundamata</item>
     </plurals>
     <plurals name="search_results_count">
         <item quantity="other">%1$d tulemust</item>
         <item quantity="one">%1$d tulemus</item>
     </plurals>
     <plurals name="search_results_position">
-        <item quantity="other">Tulemused: %1$d/%2$d</item>
-        <item quantity="one">Tulemus: %1$d/%2$d</item>
+        <item quantity="other">Tulemused: ^1/^2</item>
+        <item quantity="one">Tulemus: ^1/^2</item>
     </plurals>
     <plurals name="search_results_position_content_description">
         <item quantity="other">%1$d tulemust %2$d-st</item>
@@ -51,10 +55,6 @@
     <plurals name="snackbar_message_download_failed_storage_full">
         <item quantity="other">Seadme salvestusruum on täis. Salvestisi ei saa alla laadida.</item>
         <item quantity="one">Seadme salvestusruum on täis. Salvestist ei saa alla laadida.</item>
-    </plurals>
-    <plurals name="uploaded_description">
-        <item quantity="other">Laaditi üles %1$d salvestist</item>
-        <item quantity="one">Laaditi üles %1$d salvestis</item>
     </plurals>
     <plurals name="uploading_description">
         <item quantity="other">Laaditakse üles %1$d salvestist</item>

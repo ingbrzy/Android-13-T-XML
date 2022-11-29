@@ -63,7 +63,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript">^1, ^2, ^3.</string>
     <string name="a11y_new_call_log_entry_phone_account">^1 hesabında</string>
     <string name="a11y_new_call_log_entry_rtt_call">^1 adlı şəxsə RTT zəngi edin</string>
-    <string name="a11y_new_call_log_entry_tap_action">menyunu genişləndirin</string>
+    <string name="a11y_new_call_log_entry_tap_action">menyunu genişləndirin və ya yığcamlaşdırın</string>
     <string name="a11y_new_call_log_entry_video_call">video zəng edin: ^1</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">wifi ilə ^1 adlı şəxsə video zəng edin</string>
     <string name="a11y_new_call_log_entry_voice_call">zəng edin: ^1</string>
@@ -191,6 +191,7 @@ Səsyazmalar yalnız telefonunuzda saxlanılır. ^1"</string>
     <string name="atlas_soda_banner_feature_text">Mənim üçün Gözlədin</string>
     <string name="atlas_temp_service_notification_title">\"Mənim üçün Gözlədin\" zəngi başladılır</string>
     <string name="atlas_warning_text_for_second_incoming_call">Bu zəngə cavab vermək \"Mənim üçün Gözlədin\" funksiyasını sonlandıracaq</string>
+    <string name="audio_route_item_checked_description">İşarələndi</string>
     <string name="audioroute_bluetooth">Bluetooth</string>
     <string name="audioroute_headset">Simli qulaqlıq</string>
     <string name="audioroute_phone">Telefon</string>
@@ -235,6 +236,7 @@ Səsyazmalar yalnız telefonunuzda saxlanılır. ^1"</string>
     <string name="bm_suggest_wait_time_estimating">"Çat
 İşlənilir…"</string>
     <string name="bottomsheet_action_expand_halfway">Tam genişləndirin</string>
+    <string name="bottomsheet_drag_handle_content_description">Dəstək</string>
     <string name="bubble_bottom_action_end_call">Çağrını bitirin</string>
     <string name="bubble_bottom_action_hide">Gizlədin</string>
     <string name="bubble_return_to_call">Zəngə geri qayıdın</string>
@@ -582,10 +584,8 @@ Kömək istəyin."</string>
     <string name="copy_number">Nömrəni kopyalayın</string>
     <string name="create_new_contact">Yeni kontakt yaradın</string>
     <string name="crosby_setting_title">Səsin qeydə alınması</string>
-    <string name="crystal_clear_audio_setting_title">Aydın səs keyfiyyətli zəng</string>
     <string name="current_voicemail_greeting_record_instruction">Salamlamanı qeydə alın</string>
     <string name="current_voicemail_greeting_recording_title">Səsli e-poçt salamlamam</string>
-    <string name="custom_message_hint">Fərdi mesaj yazın</string>
     <string name="custom_prefix_add_prefix_to_call_entry_always_add_prefix">Həmişə prefiks əlavə edin</string>
     <string name="custom_prefix_add_prefix_to_call_entry_ask_before_dialing">Zəng etmədən öncə soruşun</string>
     <string name="custom_prefix_add_prefix_to_call_entry_never_add_prefix">Heç vaxt prefiks əlavə etməyin</string>
@@ -670,11 +670,11 @@ Kömək istəyin."</string>
     <string name="display_options_view_given_name_first">Ad ilk yazılsın</string>
     <string name="display_options_view_names_as">Ad formatı</string>
     <string name="do_not_show_again">Yenidən göstərməyin</string>
-    <string name="duo_fallback_dialog_do_not_show_again_label">Bu seçimi yadda saxlayın</string>
-    <string name="duo_fallback_dialog_message">Video zəng operator video zəngindən istifadə edərkən tamamlana bilməz. Əvəzində Duo vasitəsilə zəng etməyi sınayın.</string>
-    <string name="duo_fallback_dialog_negative_button_label">Ləğv edin</string>
-    <string name="duo_fallback_dialog_positive_button_label">Duo istifadə edin</string>
-    <string name="duo_fallback_dialog_title">Google Duo ilə sınamaq istəyirsiniz?</string>
+    <string name="duo_fallback_dialog_do_not_show_again_label">"Duo'nu bütün zənglər üçün yedək tətbiq kimi yadda saxlayın. İstənilən vaxt ayarlarda idarə edin."</string>
+    <string name="duo_fallback_dialog_message">Operator video zəngi tamamlaya bilmədikdə Duo avtomatik zəng etməyə çalışacaq.</string>
+    <string name="duo_fallback_dialog_negative_button_label">Xeyr</string>
+    <string name="duo_fallback_dialog_positive_button_label">Duo ilə yedəkləyin</string>
+    <string name="duo_fallback_dialog_title">Zənglər Google Duo ilə yedəklənsin?</string>
     <string name="edit_number_before_call">Zəngdən öncə nömrəni düzəldin</string>
     <string name="emergency_assist_address_sentence">Ünvanım: %1$s.</string>
     <string name="emergency_assist_button_fire">Alov</string>
@@ -696,6 +696,7 @@ Kömək istəyin."</string>
     <string name="emergency_voice_assist_dialog_button_close">Ləğv edin</string>
     <string name="emergency_voice_assist_dialog_title">Operator bunu eşidir</string>
     <string name="end_call_with_default_message_description">Zəngi bitirin</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_icon_content_description">Xəta</string>
     <string name="error_unable_to_get_audio">Nümunə audiosunu əldə etmək alınmadı</string>
     <string name="error_unable_to_play_audio">Nümunə audiosunu oxutmaq alınmadı</string>
@@ -740,7 +741,7 @@ Kömək istəyin."</string>
     <string name="first_time_dialog_duo_video_call_label">Google Duo</string>
     <string name="first_time_dialog_negative_button_label">Ləğv edin</string>
     <string name="first_time_dialog_positive_button_label">Seçin</string>
-    <string name="first_time_dialog_remember_this_choice_label">Bu seçimi yadda saxlayın</string>
+    <string name="first_time_dialog_remember_this_choice_label">Bütün zənglər üçün yadda saxlayın. İstənilən vaxt ayarlarda idarə edin.</string>
     <string name="first_time_dialog_title">Video zəng xidmətini seçin</string>
     <string name="flip_to_shush_title">Üzü üstə çevirib susdurun</string>
     <string name="flip_to_silence_summary">Gələn zəngi səssiz rejimə keçirmək üçün telefonu düz səthdə tərsinə qoyun.</string>
@@ -788,6 +789,8 @@ Kömək istəyin."</string>
     <string name="incall_content_description_hold">Zəngi gözlədin</string>
     <string name="incall_content_description_merge_calls">Zəngləri birləşdirin</string>
     <string name="incall_content_description_muted">Səssiz</string>
+    <string name="incall_content_description_show_less">Az göstərin</string>
+    <string name="incall_content_description_show_more">Ardına baxın</string>
     <string name="incall_content_description_speaker">Dinamik</string>
     <string name="incall_content_description_swap_calls">Zəngləri dəyişdirin</string>
     <string name="incall_content_description_swap_sim">SIM-i dəyişin</string>
@@ -803,6 +806,7 @@ Kömək istəyin."</string>
     <string name="incall_label_hold">Pauza</string>
     <string name="incall_label_manage">İdarə edin</string>
     <string name="incall_label_merge">Birləşdir</string>
+    <string name="incall_label_more">Daha çox</string>
     <string name="incall_label_mute">Susdurun</string>
     <string name="incall_label_record">Səs yazın</string>
     <string name="incall_label_record_checked">Dayandırın</string>
@@ -835,15 +839,9 @@ Kömək istəyin."</string>
     <string name="join_call_with_default_message_description">Zəngə qoşulun</string>
     <string name="just_now">İndicə</string>
     <string name="lat_long_format">%1$f, %2$f</string>
+    <string name="launch_application_settings">Ayarlar</string>
     <string name="launcherActivityLabel">Telefon</string>
     <string name="learn_more_text_for_tmo">Ətraflı məlumat üçün T-Mobile səhifəsinə daxil olun</string>
-    <string name="legacy_post_call_message">Nə üçün zəng etdiyinizi bildirin</string>
-    <string name="legacy_post_call_message_1">Təcili mənə geri zəng edin.</string>
-    <string name="legacy_post_call_message_2">Vaxt olduqda mənə geri zəng edin.</string>
-    <string name="legacy_post_call_message_3">Təcili deyil, daha sonra söhbət edə bilərik.</string>
-    <string name="legacy_post_call_message_sent">Mesaj göndərildi</string>
-    <string name="legacy_post_call_send_message">Mesaj göndərin</string>
-    <string name="legacy_post_call_view">Baxın</string>
     <string name="libraries_material_featurehighlight_dismiss">Kənarlaşdır</string>
     <string name="license_activity_label">Açıq mənbə lisenziyaları</string>
     <string name="light_theme_label">İşıq</string>
@@ -868,6 +866,7 @@ Kömək istəyin."</string>
     <string name="mdd_notification_action_cancel">Ləğv edin</string>
     <string name="mdd_notification_download_failed">Endirmə alınmadı</string>
     <string name="mdd_notification_download_paused">Şəbəkə bağlantısı gözlənilir</string>
+    <string name="mdd_notification_download_paused_wifi">Wi-Fi bağlantısı gözlənilir</string>
     <string name="meid_number">MEID %s</string>
     <string name="menu_callNumber">%s nömrəsinə zəng edin</string>
     <string name="merge_calls_confirm_message">Zəngləri yalnız hamının birləşdirilmiş zəngdə kimin iştirak edəcəyini bildiyi halda birləşdirin</string>
@@ -907,11 +906,9 @@ Kömək istəyin."</string>
     <string name="nearbyplaces_account_setting_title">Google Hesabı</string>
     <string name="new_call_log_activity_title">Zəng tarixçəsi</string>
     <string name="new_call_log_all_title">Hamısı</string>
-    <string name="new_call_log_carrier_video">Operator video</string>
     <string name="new_call_log_clear_call_log_confirmation">Bu, tarixçənizdən bütün zəngləri siləcəkdir</string>
     <string name="new_call_log_clear_call_log_confirmation_title">Zəng tarixçəsi silinsin?</string>
     <string name="new_call_log_delete_all">Zəng tarixçəsini silin</string>
-    <string name="new_call_log_duo_video">Duo video</string>
     <string name="new_call_log_empty">Etdiyiniz zənglər burada görünəcək</string>
     <string name="new_call_log_generic_video">Video</string>
     <string name="new_call_log_header_older">Keçmiş</string>
@@ -929,6 +926,7 @@ Kömək istəyin."</string>
     <string name="new_permission_no_search">Kontaktlarınızı axtarmaq üçün Kontakt icazələrini aktiv edin.</string>
     <string name="non_contact_always_record_dialog_title">Kontkatlarınızda olmayan nömrələrlə zəng həmişə qeydə alınsın?</string>
     <string name="non_contact_toggle_label">Kontaktlarınızda olmayan nömrələr</string>
+    <string name="non_spam_aftercall_notification_title">%1$s nömrəsini tanıyırsınız?</string>
     <string name="non_spam_notification_title">%1$s nömrəsini tanıyırsınız?</string>
     <string name="not_set">Ayarlanmayıb</string>
     <string name="notification_action_accept">Qəbul edin</string>
@@ -979,7 +977,7 @@ Kömək istəyin."</string>
     <string name="notification_ongoing_call">Davam edən zəng</string>
     <string name="notification_ongoing_call_multi_sim">%1$s ilə davam edən zəng</string>
     <string name="notification_ongoing_call_wifi_template">Davam edən %1$s</string>
-    <string name="notification_ongoing_call_wifi_template_multi_sim">%1$s ilə davam edən %1$s</string>
+    <string name="notification_ongoing_call_wifi_template_multi_sim">Ongoing %1$s via %2$s</string>
     <string name="notification_ongoing_paused_video_call">Operator ilə davam edən video zəng ‑ video dayandırıldı</string>
     <string name="notification_ongoing_paused_video_call_multi_sim">%1$s ilə davam edən operator video zəngi – video dayandırıldı</string>
     <string name="notification_ongoing_video_call">Operator ilə davam edən video zəng</string>
@@ -992,7 +990,7 @@ Kömək istəyin."</string>
     <string name="notification_take_call">Zəngə cavab verin</string>
     <string name="notification_take_video_call">Video Zəngə cavab verin</string>
     <string name="notification_voicemail_callers_list">%1$s, %2$s</string>
-    <string name="notification_voicemail_no_vm_number">Səsli e-poçt nömrəsi naməlumdur</string>
+    <string name="notification_voicemail_no_vm_number">Səsli poçtu ayarlamaq üçün Menyu > Ayarlar bölməsinə keçin.</string>
     <string name="notification_voicemail_text_format">%s nömrəsini yığın</string>
     <string name="old_block_number_confirmation_title">%1$s blok edilsin?</string>
     <string name="openhistory_button_label">Tarix</string>
@@ -1047,7 +1045,7 @@ Ayarları yeniləmədən hələ də bəzi nömrələrə video zəng edə bilərs
     <string name="private_num_non_verizon">Gizli nömrə</string>
     <string name="private_num_verizon">Gizli nömrə</string>
     <string name="private_or_hidden_action_preference_description">Zəng edənlər zəng edənin ID-sini gizlədir</string>
-    <string name="private_or_hidden_action_preference_title">Şəxsi və ya gizli</string>
+    <string name="private_or_hidden_action_preference_title">Şəxsi və gizli nömrələr</string>
     <string name="quick_contact_checkbox_description">Kontakt seçin</string>
     <string name="ready_for_recording">Hazırdır…</string>
     <string name="record_audio_pre_call_dialog_got_it">Anladım</string>
@@ -1094,7 +1092,7 @@ Zəng Filtri data və ya Wi-Fi istifadə etmir, lakin operator danışıq dəqiq
     <string name="revelio_end_call_user_missed_internal_message">Zəngə cavab vermədiniz</string>
     <string name="revelio_pref_title">Zəng Filtri</string>
     <string name="revelio_preference_summary_automatic_screening_off">Avtomatik görüntüləmə deaktivdir</string>
-    <string name="revelio_preference_summary_screening">Görüntüləmə %1$s</string>
+    <string name="revelio_preference_summary_screening">Ekran %1$s</string>
     <string name="revelio_save_audio_setting_summary">Assistentiniz tərəfindən cavab verilən zənglərdəki audionu yadda saxlayın</string>
     <string name="revelio_save_audio_setting_title">Zəng Filtri audiosunu yadda saxlayın</string>
     <string name="revelio_setting_title">Zəng Filtri</string>
@@ -1168,7 +1166,6 @@ Zəng Filtri data və ya Wi-Fi istifadə etmir, lakin operator danışıq dəqiq
     <string name="set_default_account_description">SIM tərcihi kontaktlarla birlikdə yadda saxlandı.</string>
     <string name="set_phone_as_default_explanation_text">Yalnız defolt telefon tətbiqi olduğu halda, telefon zənglər icra edə və qəbul edə bilər</string>
     <string name="set_phone_as_default_request_text">Telfonu defolt olaraq ayarlayın</string>
-    <string name="settings">Ayarlar</string>
     <string name="settings_page_call_recording_feature_not_available_text">Zəngin qeydə alınması ərazinizdə əlçatan deyil</string>
     <string name="settings_page_crosby_feature_not_available_text">Ərazinizdə əlçatan deyil</string>
     <string name="setup_duo_button_long_text">Duo video zəngi ayarlayın</string>
@@ -1218,6 +1215,9 @@ Zəng Filtri data və ya Wi-Fi istifadə etmir, lakin operator danışıq dəqiq
     <string name="sounds_and_vibration_title">Səslər və vibrasiya</string>
     <string name="spam_action_preference_description">"Google'un spam data bazasına uyğun nömrələr"</string>
     <string name="spam_action_preference_title">Spam</string>
+    <string name="spam_after_call_notification_add_contact_action_text">Kontakt əlavə edin</string>
+    <string name="spam_after_call_notification_report_spam_action_text">Blok/şikayət edin</string>
+    <string name="spam_aftercall_notification_unknown">Naməlum</string>
     <string name="spam_and_call_screen_settings_title">Spam və Zəng Ekranı</string>
     <string name="spam_blocking_promo_action_dismiss">Kənarlaşdırın</string>
     <string name="spam_blocking_promo_action_filter_spam">Spamı Filtrləyin</string>
@@ -1229,6 +1229,9 @@ Zəng Filtri data və ya Wi-Fi istifadə etmir, lakin operator danışıq dəqiq
     <string name="spam_blocking_settings_enable_error_text">Spam filterini aktiv edərkən xəta baş verdi</string>
     <string name="spam_blocking_settings_summary">Şübhəli spam zənglərinin Sizi narahat etməsinə icazə verməyin</string>
     <string name="spam_blocking_settings_title">Spam zənglərini filtrləyin</string>
+    <string name="spam_dialog_add_contact_action">Kontakta əlavə edin</string>
+    <string name="spam_dialog_dismiss_action">Bağlayın</string>
+    <string name="spam_notification_action_block_spam">Bəli, nömrəni blok edin</string>
     <string name="spam_notification_action_dismiss">Keçin</string>
     <string name="spam_notification_add_contact_action_text">Kontakt əlavə edin</string>
     <string name="spam_notification_block_spam_action_text">Bəli, blok edin</string>
@@ -1468,27 +1471,27 @@ Zəngə davam etsəniz, data istifadəsi tətbiq ediləcək."</string>
     <string name="videocall_remotely_resumed">Zəng davam edir</string>
     <string name="videocall_settings_default_ask_every_time">Hər dəfə soruşulsun</string>
     <string name="videocall_settings_default_carrier">Operator video zəngi</string>
-    <string name="videocall_settings_default_caution">This feature allows a user to choose a preferred video call solution and indicate the receiver’s video capability when it’s available. ^1</string>
-    <string name="videocall_settings_default_caution_learn_more">Learn more about preferred video services</string>
+    <string name="videocall_settings_default_caution">İstifadə edəcəyəniz video zəng metodunu seçin və bu xidmətin zəng etdiyiniz şəxs üçün əlçatan olub-olmaması barədə məlumat əldə edin. ^1</string>
+    <string name="videocall_settings_default_caution_learn_more">Video zənglər haqqında ətraflı məlumat</string>
     <string name="videocall_settings_default_duo">Google Duo</string>
     <string name="videocall_settings_default_title">Tərcih edilən video zəng xidməti</string>
-    <string name="videocall_settings_fallback_caution">"When “Use Google Duo as backup” (if applicable) is on and a call can't be completed using your preferred service, the call will automatically be attempted on Duo. ^1"</string>
-    <string name="videocall_settings_fallback_caution_learn_more">Learn more about Duo backup calling</string>
-    <string name="videocall_settings_fallback_summary">"Tərcih edilən xidmət əlçatan deyilsə, Duo'ya keçid edin"</string>
-    <string name="videocall_settings_fallback_title">"Google Duo'dan yedəkləmə kimi istifadə edin"</string>
+    <string name="videocall_settings_fallback_caution">Yedəkləmə kimi Google Duo tətbiqiniz varsa, operator video zəngi tamamlaya bilmədikdə Duo avtomatik zəng etməyə çalışacaq. ^1</string>
+    <string name="videocall_settings_fallback_caution_learn_more">"Duo'da yedəkləmə haqqında ətraflı məlumat"</string>
+    <string name="videocall_settings_fallback_summary">"Tərcih etdiyiniz xidmət əlçatan deyilsə, Duo'ya keçid edin"</string>
+    <string name="videocall_settings_fallback_title">"Yedək olaraq Duo'nu istifadə edin"</string>
     <string name="videocall_settings_title">Video Zəng</string>
     <string name="videocall_show_preview_button_description">Yerli video lentini göstərin</string>
     <string name="view_location_settings">Məkan parametrləri</string>
     <string name="vitle_label">LTE ilə video zəng</string>
     <string name="viwifi_label">WiFi ilə video zəng</string>
     <string name="vm_change_pin_error_invalid">Yeni PIN yanlış simvollardan ibarətdir.</string>
-    <string name="vm_change_pin_error_last_4_digits_msisdn">Yeni PIN telefon nömrənizin son dörd rəqəmi ola bilməz.</string>
+    <string name="vm_change_pin_error_last_4_digits_msisdn">"Your PIN can't be the last 4 digits of your phone number."</string>
     <string name="vm_change_pin_error_mismatch">Köhnə PIN uyğun gəlmir.</string>
     <string name="vm_change_pin_error_system_error">PIN-i dəyişmək mümkün olmadı</string>
     <string name="vm_change_pin_error_too_long">Yeni PIN çox uzundur.</string>
     <string name="vm_change_pin_error_too_short">Yeni PIN çox qısadır.</string>
     <string name="vm_change_pin_error_too_weak">Yeni PIN çox zəifdir. Güclü parol ardıcıllıqdan və ya təkrarlanan rəqəmlərdən ibarət olmamalıdır.</string>
-    <string name="vm_change_pin_error_unchanged_pin">Yeni PIN cari PIN kodunuzla eynidir. Fərqli PIN daxil edin.</string>
+    <string name="vm_change_pin_error_unchanged_pin">"Your new PIN can't be the same as your current PIN."</string>
     <string name="vm_change_pin_progress_message">Gözləyin.</string>
     <string name="voice_call">Səsli zəng</string>
     <string name="voice_call_button">Zəng</string>
@@ -1510,11 +1513,9 @@ Zəngə davam etsəniz, data istifadəsi tətbiq ediləcək."</string>
     <string name="voicemailMultiSelectDeleteConfirm">Silin</string>
     <string name="voicemail_action_call_customer_support">Müştəri xidmətinə zəng edin</string>
     <string name="voicemail_action_call_voicemail">Səsli e-poçta zəng edin</string>
-    <string name="voicemail_action_dimiss">Xeyr, təşəkkürlər</string>
     <string name="voicemail_action_retry">Yenidən cəhd edin</string>
     <string name="voicemail_action_set_pin">PIN ayarlayın</string>
     <string name="voicemail_action_sync">Sinxronizasiya</string>
-    <string name="voicemail_action_turn_archive_on">Aktiv edin</string>
     <string name="voicemail_action_turn_off_airplane_mode">Təyyarə rejimi ayarları</string>
     <string name="voicemail_activating_summary_info">Səsli e-poçt aktiv edilir</string>
     <string name="voicemail_advanced_settings_title">Daha çox Ayarlar</string>
@@ -1529,7 +1530,7 @@ Zəngə davam etsəniz, data istifadəsi tətbiq ediləcək."</string>
     <string name="voicemail_change_pin_preference_summary_disable">PIN-i dəyişmək üçün görünən səsli e-poçt aktiv olmalıdır</string>
     <string name="voicemail_change_pin_preference_summary_not_activated">Vizual səsli poçt hələ aktiv edilməyib, sonra cəhd edin.</string>
     <string name="voicemail_change_pin_preference_title">PIN-i dəyişin</string>
-    <string name="voicemail_donate_preference_summary_info">"Transkripsiya keyfiyyətini təkmilləşdirmək üçün Google'a səsli e-poçt mesajlarınızı nəzərdən keçirmək icazəsi verin. Səsli e-poçt mesajlarınız anonim olaraq saxlanılacaq. %1$s"</string>
+    <string name="voicemail_donate_preference_summary_info">"Transkripsiya keyfiyyətini təkmilləşdirmək üçün Google'a səsli e-poçt mesajlarınızı nəzərdən keçirmək icazəsi verin. Səsli e-poçt mesajlarınız anonim olaraq saxlanılacaq. ^1"</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">Data olmadan SİM-lər üçün görünən səsli e-poçt istifadə etmək operator ödənişlərinin çıxılmasına səbəb ola bilər</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">Vizual səsli poçt yalnız seçilmiş data SIM üçün əlçatandır</string>
     <string name="voicemail_error_activating_message">Vizual səsli e-poçt tam aktiv edilənə kimi səsli e-poçt bildirişləri almaya bilərsiniz. Səsli e-poçt tam aktiv edilənə kimi yeni mesajları əldə etmək üçün səsli e-poçta zəng edin.</string>
@@ -1542,12 +1543,8 @@ Zəngə davam etsəniz, data istifadəsi tətbiq ediləcək."</string>
     <string name="voicemail_error_bad_config_title">Vizual səsli e-poçtları yeniləmək olmur</string>
     <string name="voicemail_error_communication_message">Səsli e-poçtları yoxlamaq üçün yenə də zəng edə bilərsiniz.</string>
     <string name="voicemail_error_communication_title">Vizual səsli e-poçtları yeniləmək olmur</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_message">E-poçt qutusu artıq doludur. Boş yer üçün əlavə yaddaşı aktiv edin, beləliklə, Google səsli e-poçt mesajlarını idarə edə və yedəkləyə bilər.</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_title">Əlavə yaddaş və yedəkləməni aktiv edin</string>
     <string name="voicemail_error_inbox_full_message">Gələnlər qutusu doludur. Yeni səsli e-poçt əldə etmək üçün bəzi mesajları silin.</string>
     <string name="voicemail_error_inbox_full_title">Yeni səsli e-poçt almaq mümkün deyil</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_message">E-poçt qutusu doludur. Boş yer üçün əlavə yaddaşı aktiv edin, beləliklə, Google səsli e-poçt mesajlarını idarə edə və yedəkləyə bilər.</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_title">Əlavə yaddaş və yedəkləməni aktiv edin</string>
     <string name="voicemail_error_inbox_near_full_message">Gələnlər qutusu dolu olduqda, yeni səsli e-poçt almayacaqsınız.</string>
     <string name="voicemail_error_inbox_near_full_title">Gələnlər qutusu demək olar ki doludur</string>
     <string name="voicemail_error_no_data_cellular_required_message">Mobil data bağlantısı yaxşı olduqda yenidən cəhd edin. Səsli e-poçtları yoxlamaq üçün yenə də zəng edə bilərsiniz.</string>
@@ -1580,7 +1577,7 @@ Zəngə davam etsəniz, data istifadəsi tətbiq ediləcək."</string>
     <string name="voicemail_transcription_failed_language_not_supported">Transkripsiya əlçatan deyil. Dil dəstəklənmir.</string>
     <string name="voicemail_transcription_failed_no_speech">Transkripsiya əlçatan deyil. Nitq seçilməyib.</string>
     <string name="voicemail_transcription_in_progress">Transkripsiya edilir...</string>
-    <string name="voicemail_transcription_preference_summary_info">"Google'un transkripsiya xidmtindən istifadə edərək səsli e-məktubların transkripsiyasını əldə edin. %1$s"</string>
+    <string name="voicemail_transcription_preference_summary_info">"Google'un transkripsiya xidmtindən istifadə edərək səsli e-məktubların transkripsiyasını əldə edin. ^1"</string>
     <string name="voicemail_visual_voicemail_auto_archive_switch_title">Əlavə yedəkləmə və yaddaş</string>
     <string name="voicemail_visual_voicemail_donation_switch_title">Səsli e-məktub transkripsiyası təhlili</string>
     <string name="voicemail_visual_voicemail_switch_title">Vizual səsli e-poçt</string>
@@ -1636,7 +1633,7 @@ Zəngə davam etsəniz, data istifadəsi tətbiq ediləcək."</string>
     <string name="wait_prompt_str">"Aşağıdakı tonlar göndərilsin?
 "</string>
     <string name="was_this_a_business_chip_text">İşdən zəng vurmuşdular?</string>
-    <string name="was_this_a_business_dialog_body">"Bu teqin təsdiqlənməsi Google'un zəng edənin ID-sini təkmilləşdirməyinə kömək edir"</string>
+    <string name="was_this_a_business_dialog_body">"Bunu təsdiqləmək Google'a zəng edənin ID-sini təkmilləşdirməkdə kömək edir"</string>
     <string name="was_this_a_business_dialog_negative_response">Xeyr</string>
     <string name="was_this_a_business_dialog_positive_response">Bəli</string>
     <string name="was_this_a_business_dialog_snackbar">Rəyinizə görə təşəkkürlər</string>

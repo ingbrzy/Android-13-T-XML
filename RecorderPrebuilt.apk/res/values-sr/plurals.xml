@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="custom_cards_view_description_items_left">
-        <item quantity="other">Још %1$d ставки</item>
-        <item quantity="one">Још %1$d ставка</item>
-        <item quantity="few">Још %1$d ставке</item>
-    </plurals>
     <plurals name="dlg_message_deletion_confirmation">
         <item quantity="other">Снимци ће се трајно избрисати. Ова радња не може да се опозове.</item>
         <item quantity="one">Снимци ће се трајно избрисати. Ова радња не може да се опозове.</item>
@@ -25,20 +20,30 @@
         <item quantity="one">Желите ли да трајно избришете ове снимке?</item>
         <item quantity="few">Желите ли да трајно избришете ове снимке?</item>
     </plurals>
-    <plurals name="download_unsuccessful_description_storage_full">
+    <plurals name="download_failure_description_storage_full">
         <item quantity="other">Преузимање снимака није успело јер је меморијски простор уређаја пун. Додирните да бисте прегледали.</item>
         <item quantity="one">Преузимање снимака није успело јер је меморијски простор уређаја пун. Додирните да бисте прегледали.</item>
         <item quantity="few">Преузимање снимака није успело јер је меморијски простор уређаја пун. Додирните да бисте прегледали.</item>
-    </plurals>
-    <plurals name="downloaded_description">
-        <item quantity="other">Преузето је %1$d снимака</item>
-        <item quantity="one">Преузет је %1$d снимак</item>
-        <item quantity="few">Преузета су %1$d снимка</item>
     </plurals>
     <plurals name="downloading_description">
         <item quantity="other">Преузима се %1$d снимака</item>
         <item quantity="one">Преузима се %1$d снимак</item>
         <item quantity="few">Преузимају се %1$d снимка</item>
+    </plurals>
+    <plurals name="og_backup_failed_title">
+        <item quantity="other">Није успело прављење резервне копије %1$d ставки</item>
+        <item quantity="one">Није успело прављење резервне копије %1$d ставке</item>
+        <item quantity="few">Није успело прављење резервне копије %1$d ставке</item>
+    </plurals>
+    <plurals name="og_backup_items_left">
+        <item quantity="other">Преостало је %1$d ставки</item>
+        <item quantity="one">Преостала је %1$d ставка</item>
+        <item quantity="few">Преостале су %1$d ставке</item>
+    </plurals>
+    <plurals name="og_backup_items_stopped_title">
+        <item quantity="other">%1$d ставки нема резервну копију</item>
+        <item quantity="one">%1$d ставка нема резервну копију</item>
+        <item quantity="few">%1$d ставке немају резервну копију</item>
     </plurals>
     <plurals name="search_results_count">
         <item quantity="other">%1$d резултата</item>
@@ -46,9 +51,9 @@
         <item quantity="few">%1$d резултата</item>
     </plurals>
     <plurals name="search_results_position">
-        <item quantity="other">%1$d/%2$d резултата</item>
-        <item quantity="one">%1$d/%2$d резултат</item>
-        <item quantity="few">%1$d/%2$d резултата</item>
+        <item quantity="other">^1/^2 резултата</item>
+        <item quantity="one">^1/^2 резултат</item>
+        <item quantity="few">^1/^2 резултата</item>
     </plurals>
     <plurals name="search_results_position_content_description">
         <item quantity="other">%1$d од %2$d резултата</item>
@@ -64,11 +69,6 @@
         <item quantity="other">Меморијски простор уређаја је пун. Преузимање снимака није успело.</item>
         <item quantity="one">Меморијски простор уређаја је пун. Преузимање снимака није успело.</item>
         <item quantity="few">Меморијски простор уређаја је пун. Преузимање снимака није успело.</item>
-    </plurals>
-    <plurals name="uploaded_description">
-        <item quantity="other">Отпремљено је %1$d снимака</item>
-        <item quantity="one">Отпремљен је %1$d снимак</item>
-        <item quantity="few">Отпремљена су %1$d снимка</item>
     </plurals>
     <plurals name="uploading_description">
         <item quantity="other">Отпрема се %1$d снимака</item>

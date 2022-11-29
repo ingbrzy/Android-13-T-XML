@@ -63,7 +63,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript">^1, ^2, ^3.</string>
     <string name="a11y_new_call_log_entry_phone_account">ב-^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">‏שיחת RTT אל ^1</string>
-    <string name="a11y_new_call_log_entry_tap_action">הרחבת התפריט</string>
+    <string name="a11y_new_call_log_entry_tap_action">הרחבה או כיווץ של התפריט</string>
     <string name="a11y_new_call_log_entry_video_call">שיחת וידאו אל ^1</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">‏התחלה של שיחת וידאו עם ^1 באמצעות Wi-Fi</string>
     <string name="a11y_new_call_log_entry_voice_call">שיחה אל ^1</string>
@@ -191,6 +191,7 @@
     <string name="atlas_soda_banner_feature_text">Hold for Me</string>
     <string name="atlas_temp_service_notification_title">‏מיד תתחיל שיחה עם Hold for Me</string>
     <string name="atlas_warning_text_for_second_incoming_call">‏מענה לשיחה הזו יסיים את השימוש ב-Hold for Me</string>
+    <string name="audio_route_item_checked_description">התיבה מסומנת</string>
     <string name="audioroute_bluetooth">Bluetooth</string>
     <string name="audioroute_headset">אוזניות עם חוט</string>
     <string name="audioroute_phone">טלפון</string>
@@ -235,6 +236,7 @@
     <string name="bm_suggest_wait_time_estimating">"‏צ'אט
 מיד נחבר אותך…"</string>
     <string name="bottomsheet_action_expand_halfway">הרחבה עד האמצע</string>
+    <string name="bottomsheet_drag_handle_content_description">נקודת אחיזה לגרירה</string>
     <string name="bubble_bottom_action_end_call">סיום השיחה</string>
     <string name="bubble_bottom_action_hide">הסתרה</string>
     <string name="bubble_return_to_call">חזרה לשיחה</string>
@@ -582,10 +584,8 @@
     <string name="copy_number">העתקת המספר</string>
     <string name="create_new_contact">איש קשר חדש</string>
     <string name="crosby_setting_title">הקלטת שיחות</string>
-    <string name="crystal_clear_audio_setting_title">קול ברור וחד בשיחה</string>
     <string name="current_voicemail_greeting_record_instruction">הקלטת פתיח</string>
     <string name="current_voicemail_greeting_recording_title">הפתיח לתא הקולי שלי</string>
-    <string name="custom_message_hint">הודעה מותאמת אישית</string>
     <string name="custom_prefix_add_prefix_to_call_entry_always_add_prefix">תמיד צריך להוסיף קידומת</string>
     <string name="custom_prefix_add_prefix_to_call_entry_ask_before_dialing">הצגת שאלה לפני כל שיחה</string>
     <string name="custom_prefix_add_prefix_to_call_entry_never_add_prefix">אף פעם לא צריך להוסיף קידומת</string>
@@ -670,11 +670,11 @@
     <string name="display_options_view_given_name_first">שם פרטי יופיע ראשון</string>
     <string name="display_options_view_names_as">פורמט השם</string>
     <string name="do_not_show_again">הבנתי, לא צריך להציג את זה שוב</string>
-    <string name="duo_fallback_dialog_do_not_show_again_label">אני רוצה להשתמש באפשרות הזו גם בעתיד</string>
-    <string name="duo_fallback_dialog_message">‏אי אפשר להתחיל את שיחת הווידאו דרך הספק, אבל אפשר להשתמש ב-Duo.</string>
-    <string name="duo_fallback_dialog_negative_button_label">ביטול</string>
-    <string name="duo_fallback_dialog_positive_button_label">‏שימוש ב-Duo</string>
-    <string name="duo_fallback_dialog_title">‏רוצה לנסות את Google Duo?</string>
+    <string name="duo_fallback_dialog_do_not_show_again_label">‏שימוש ב-Duo כגיבוי לכל שיחה. אפשר לשנות את זה בהגדרות בכל שלב.</string>
+    <string name="duo_fallback_dialog_message">‏אם אי אפשר לבצע את שיחת הווידאו דרך הספק הסלולרי שלך, יהיה ניסיון אוטומטי לבצע אותה דרך Duo.</string>
+    <string name="duo_fallback_dialog_negative_button_label">לא תודה</string>
+    <string name="duo_fallback_dialog_positive_button_label">‏שימוש ב-Duo כגיבוי</string>
+    <string name="duo_fallback_dialog_title">‏רוצה להשתמש ב-Google duo כגיבוי לשיחות?</string>
     <string name="edit_number_before_call">עריכת המספר לפני השיחה</string>
     <string name="emergency_assist_address_sentence">המיקום שלי הוא %1$s.</string>
     <string name="emergency_assist_button_fire">שריפה</string>
@@ -696,6 +696,7 @@
     <string name="emergency_voice_assist_dialog_button_close">ביטול</string>
     <string name="emergency_voice_assist_dialog_title">זה מה שיושמע למוקד החירום</string>
     <string name="end_call_with_default_message_description">סיום השיחה</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_icon_content_description">שגיאה</string>
     <string name="error_unable_to_get_audio">הטעינה של קטע האודיו לדוגמה נכשלה</string>
     <string name="error_unable_to_play_audio">ההשמעה של קטע האודיו לדוגמה נכשלה</string>
@@ -740,7 +741,7 @@
     <string name="first_time_dialog_duo_video_call_label">Google Duo</string>
     <string name="first_time_dialog_negative_button_label">ביטול</string>
     <string name="first_time_dialog_positive_button_label">בחירה</string>
-    <string name="first_time_dialog_remember_this_choice_label">אני רוצה להשתמש באפשרות הזו גם בעתיד</string>
+    <string name="first_time_dialog_remember_this_choice_label">שימוש באפשרות הזו לכל שיחה. אפשר לשנות את זה בהגדרות בכל שלב.</string>
     <string name="first_time_dialog_title">בחירת שירות לשיחות וידאו</string>
     <string name="flip_to_shush_title">היפוך לצורך השתקה</string>
     <string name="flip_to_silence_summary">כדי להשתיק שיחה נכנסת, אפשר להניח את הטלפון הפוך על משטח ישר.</string>
@@ -788,6 +789,8 @@
     <string name="incall_content_description_hold">העברת השיחה להמתנה</string>
     <string name="incall_content_description_merge_calls">מיזוג שיחות</string>
     <string name="incall_content_description_muted">מושתקת</string>
+    <string name="incall_content_description_show_less">פחות</string>
+    <string name="incall_content_description_show_more">עוד</string>
     <string name="incall_content_description_speaker">רמקול</string>
     <string name="incall_content_description_swap_calls">החלפת שיחות</string>
     <string name="incall_content_description_swap_sim">‏החלפת SIM</string>
@@ -803,6 +806,7 @@
     <string name="incall_label_hold">המתנה</string>
     <string name="incall_label_manage">ניהול</string>
     <string name="incall_label_merge">מיזוג</string>
+    <string name="incall_label_more">הרחבה</string>
     <string name="incall_label_mute">השתקה</string>
     <string name="incall_label_record">הקלטה</string>
     <string name="incall_label_record_checked">הפסקת ההקלטה</string>
@@ -835,15 +839,9 @@
     <string name="join_call_with_default_message_description">הצטרפות לשיחה</string>
     <string name="just_now">הרגע</string>
     <string name="lat_long_format">%1$f, %2$f</string>
+    <string name="launch_application_settings">הגדרות</string>
     <string name="launcherActivityLabel">טלפון</string>
     <string name="learn_more_text_for_tmo">‏למידע נוסף, אפשר להיכנס לאתר של T-Mobile</string>
-    <string name="legacy_post_call_message">רוצה לציין למה התקשרת?</string>
-    <string name="legacy_post_call_message_1">זה דחוף. אפשר לחזור אליי?</string>
-    <string name="legacy_post_call_message_2">אפשר לחזור אליי כשיהיה לך זמן?</string>
-    <string name="legacy_post_call_message_3">זה לא דחוף. נוכל לדבר אחר כך.</string>
-    <string name="legacy_post_call_message_sent">ההודעה נשלחה</string>
-    <string name="legacy_post_call_send_message">רוצה לשלוח הודעה?</string>
-    <string name="legacy_post_call_view">הצגה</string>
     <string name="libraries_material_featurehighlight_dismiss">סגור</string>
     <string name="license_activity_label">רישיונות קוד פתוח</string>
     <string name="light_theme_label">בהיר</string>
@@ -868,6 +866,7 @@
     <string name="mdd_notification_action_cancel">ביטול</string>
     <string name="mdd_notification_download_failed">ההורדה נכשלה</string>
     <string name="mdd_notification_download_paused">בהמתנה לחיבור רשת</string>
+    <string name="mdd_notification_download_paused_wifi">בהמתנה לחיבור Wi-Fi</string>
     <string name="meid_number">MEID %s</string>
     <string name="menu_callNumber">התקשרות אל %s</string>
     <string name="merge_calls_confirm_message">כדאי למזג את השיחות רק אם בטוחים שכולים יודעים מי יהיה בשיחה הממוזגת</string>
@@ -907,11 +906,9 @@
     <string name="nearbyplaces_account_setting_title">‏חשבון Google</string>
     <string name="new_call_log_activity_title">היסטוריית שיחות</string>
     <string name="new_call_log_all_title">הכול</string>
-    <string name="new_call_log_carrier_video">שיחות וידאו דרך הספק הסלולרי</string>
     <string name="new_call_log_clear_call_log_confirmation">כל השיחות יימחקו מההיסטוריה שלך</string>
     <string name="new_call_log_clear_call_log_confirmation_title">לנקות את היסטוריית השיחות?</string>
     <string name="new_call_log_delete_all">ניקוי היסטוריית השיחות</string>
-    <string name="new_call_log_duo_video">‏שיחות וידאו דרך Duo</string>
     <string name="new_call_log_empty">כאן יופיעו השיחות שלך</string>
     <string name="new_call_log_generic_video">וידאו</string>
     <string name="new_call_log_header_older">שיחות ישנות יותר</string>
@@ -929,6 +926,7 @@
     <string name="new_permission_no_search">"עליך להפעיל את ההרשאה 'אנשי קשר' כדי לחפש באנשי הקשר שלך."</string>
     <string name="non_contact_always_record_dialog_title">רוצה להקליט תמיד שיחות עם מספרי טלפון שאינם באנשי הקשר שלך?</string>
     <string name="non_contact_toggle_label">מספרים שאינם באנשי הקשר</string>
+    <string name="non_spam_aftercall_notification_title">האם %1$s מוכר לך?</string>
     <string name="non_spam_notification_title">האם %1$s מוכר לך?</string>
     <string name="not_set">לא מוגדרת</string>
     <string name="notification_action_accept">קבל</string>
@@ -979,7 +977,7 @@
     <string name="notification_ongoing_call">שיחה פעילה</string>
     <string name="notification_ongoing_call_multi_sim">שיחה פעילה באמצעות %1$s</string>
     <string name="notification_ongoing_call_wifi_template">%1$s פעילה</string>
-    <string name="notification_ongoing_call_wifi_template_multi_sim">שיחת %1$s פעילה באמצעות %1$s</string>
+    <string name="notification_ongoing_call_wifi_template_multi_sim">Ongoing %1$s via %2$s</string>
     <string name="notification_ongoing_paused_video_call">‏שיחת וידאו פעילה דרך הספק הסלולרי ‑ הווידאו מושהה</string>
     <string name="notification_ongoing_paused_video_call_multi_sim">‏שיחת וידאו פעילה דרך הספק באמצעות %1$s‑ הווידאו מושהה</string>
     <string name="notification_ongoing_video_call">שיחת וידאו פעילה דרך הספק הסלולרי</string>
@@ -992,7 +990,7 @@
     <string name="notification_take_call">קבל את השיחה</string>
     <string name="notification_take_video_call">קבל את שיחת הווידאו</string>
     <string name="notification_voicemail_callers_list">%1$s, %2$s</string>
-    <string name="notification_voicemail_no_vm_number">המספר של תא הדואר הקולי אינו ידוע</string>
+    <string name="notification_voicemail_no_vm_number">"כדי להגדיר את התא הקולי, אפשר לפתוח את התפריט ולהקיש על 'הגדרות'."</string>
     <string name="notification_voicemail_text_format">‏חיוג אל ‎%s‎</string>
     <string name="old_block_number_confirmation_title">לחסום את %1$s?</string>
     <string name="openhistory_button_label">היסטוריה</string>
@@ -1033,6 +1031,7 @@
     <string name="precall_dialpad_chat_button">"צ'אט"</string>
     <string name="precall_dialpad_chat_wait_min">"%1$d דק' המתנה"</string>
     <string name="preference_copied">\"%1$s\" הועתק ללוח.</string>
+    <string name="preferences_license_title">הודעות של צד שלישי</string>
     <string name="presence_optin_dialog_do_not_show_again_label">אין צורך להציג את זה שוב</string>
     <string name="presence_optin_dialog_message">"‏לפני שמתחילים שיחות וידאו, ב-Verizon רוצים לוודא אילו מספרי טלפון יכולים לקבל שיחות וידאו דרך Verizon‏.
 
@@ -1047,7 +1046,7 @@
     <string name="private_num_non_verizon">מספר פרטי</string>
     <string name="private_num_verizon">מספר חסום</string>
     <string name="private_or_hidden_action_preference_description">שיחות מאנשים שמתקשרים מחסוי</string>
-    <string name="private_or_hidden_action_preference_title">מספרים חסויים</string>
+    <string name="private_or_hidden_action_preference_title">מספרים פרטיים וחסויים</string>
     <string name="quick_contact_checkbox_description">בחירת איש קשר</string>
     <string name="ready_for_recording">בהכנה…</string>
     <string name="record_audio_pre_call_dialog_got_it">הבנתי</string>
@@ -1094,7 +1093,7 @@
     <string name="revelio_end_call_user_missed_internal_message">השיחה לא נענתה</string>
     <string name="revelio_pref_title">Call Screen</string>
     <string name="revelio_preference_summary_automatic_screening_off">הסינון האוטומטי מושבת</string>
-    <string name="revelio_preference_summary_screening">סינון ובדיקה של %1$s</string>
+    <string name="revelio_preference_summary_screening">מסך %1$s</string>
     <string name="revelio_save_audio_setting_summary">‏שמירת הקול משיחות שנענו על ידי Assistant</string>
     <string name="revelio_save_audio_setting_title">‏שמירת הקול ב-Call Screen</string>
     <string name="revelio_setting_title">Call Screen</string>
@@ -1168,7 +1167,6 @@
     <string name="set_default_account_description">‏ההעדפה לגבי כרטיס ה-SIM תישמר עם אנשי הקשר.</string>
     <string name="set_phone_as_default_explanation_text">"אפשר להתקשר ולקבל שיחות באפליקציית 'טלפון' רק אם היא מוגדרת כאפליקציית ברירת המחדל לשיחות"</string>
     <string name="set_phone_as_default_request_text">"הגדרה לשל אפליקציית 'טלפון' כברירת המחדל"</string>
-    <string name="settings">הגדרות</string>
     <string name="settings_page_call_recording_feature_not_available_text">אי אפשר להקליט שיחות במיקום שלך</string>
     <string name="settings_page_crosby_feature_not_available_text">האפשרות לא זמינה במיקום שלך</string>
     <string name="setup_duo_button_long_text">‏הגדרת Duo לשיחות וידאו</string>
@@ -1218,6 +1216,9 @@
     <string name="sounds_and_vibration_title">צלילים ורטט</string>
     <string name="spam_action_preference_description">‏מספרים שנמצאים במסד נתוני הספאם של Google</string>
     <string name="spam_action_preference_title">ספאם</string>
+    <string name="spam_after_call_notification_add_contact_action_text">הוספת איש קשר</string>
+    <string name="spam_after_call_notification_report_spam_action_text">חסימה ודיווח</string>
+    <string name="spam_aftercall_notification_unknown">לא ידוע</string>
     <string name="spam_and_call_screen_settings_title">סינון שיחות וספאם</string>
     <string name="spam_blocking_promo_action_dismiss">סגירה</string>
     <string name="spam_blocking_promo_action_filter_spam">סינון ספאם</string>
@@ -1229,6 +1230,9 @@
     <string name="spam_blocking_settings_enable_error_text">הייתה בעיה בהפעלת הסינון של שיחות ספאם</string>
     <string name="spam_blocking_settings_summary">שיחות שקיים חשד כי הן ספאם יסוננו למניעת הטרדות</string>
     <string name="spam_blocking_settings_title">סינון שיחות ספאם</string>
+    <string name="spam_dialog_add_contact_action">הוספה לאנשי הקשר</string>
+    <string name="spam_dialog_dismiss_action">סגירה</string>
+    <string name="spam_notification_action_block_spam">כן, אני רוצה לחסום את המספר</string>
     <string name="spam_notification_action_dismiss">סגירה</string>
     <string name="spam_notification_add_contact_action_text">הוספת איש קשר</string>
     <string name="spam_notification_block_spam_action_text">כן, אני רוצה לחסום את המספר</string>
@@ -1468,28 +1472,27 @@
     <string name="videocall_remotely_resumed">השיחה חודשה</string>
     <string name="videocall_settings_default_ask_every_time">אני רוצה לאשר בכל פעם</string>
     <string name="videocall_settings_default_carrier">שיחות וידאו דרך הספק</string>
-    <string name="videocall_settings_default_caution">המנגנון הזה מאפשר למשתמש לבחור פתרון מועדף לשיחות וידאו ולציין מה יכולת הווידאו של הנמען (אם יש יכולת כזו). ^1</string>
-    <string name="videocall_settings_default_caution_learn_more">למידע נוסף על שירותי וידאו מועדפים</string>
+    <string name="videocall_settings_default_caution">יש לך אפשרות לבחור איך לבצע שיחות וידאו ולדעת אם מי שמתקשר יכול לקבל אותה. ^1</string>
+    <string name="videocall_settings_default_caution_learn_more">למידע נוסף על שיחות וידאו</string>
     <string name="videocall_settings_default_duo">Google Duo</string>
     <string name="videocall_settings_default_title">שירות מועדף לשיחות וידאו</string>
-    <string name="videocall_settings_fallback_caution">"‏אם אפשר להפעיל את ההגדרה 'שימוש ב-Google Duo כגיבוי', כשהיא פועלת ואי אפשר להתקשר באמצעות השירות המועדף שבחרת, יהיה ניסיון אוטומטי להתחיל את השיחה ב-Duo.‏
-^1"</string>
-    <string name="videocall_settings_fallback_caution_learn_more">‏למידע נוסף על שיחות באמצעות Duo כגיבוי</string>
+    <string name="videocall_settings_fallback_caution">‏אם הגדרת את Google Duo כגיבוי ואי אפשר לבצע את שיחת הווידאו דרך הספק הסלולרי שלך, יהיה ניסיון אוטומטי לבצע אותה דרך Duo. ^1</string>
+    <string name="videocall_settings_fallback_caution_learn_more">‏למידע נוסף על שימוש ב-Duo כגיבוי</string>
     <string name="videocall_settings_fallback_summary">‏מעבר ל-Duo אם השירות המועדף לא זמין</string>
-    <string name="videocall_settings_fallback_title">‏שימוש ב-Google Duo כגיבוי</string>
+    <string name="videocall_settings_fallback_title">‏שימוש ב-Duo כגיבוי</string>
     <string name="videocall_settings_title">שיחות וידאו</string>
     <string name="videocall_show_preview_button_description">הצגת שידור הווידאו המקומי</string>
     <string name="view_location_settings">הגדרות מיקום</string>
     <string name="vitle_label">‏שיחת וידאו ב-LTE</string>
     <string name="viwifi_label">‏שיחת וידאו ב-Wi-Fi</string>
     <string name="vm_change_pin_error_invalid">קוד הגישה החדש מכיל תווים לא חוקיים.</string>
-    <string name="vm_change_pin_error_last_4_digits_msisdn">אי אפשר להשתמש בארבע הספרות האחרונות של מספר הטלפון כדי ליצור את הקוד הסודי החדש.</string>
+    <string name="vm_change_pin_error_last_4_digits_msisdn">הקוד הסודי לא יכול להיות 4 הספרות האחרונות של מספר הטלפון שלך.</string>
     <string name="vm_change_pin_error_mismatch">קוד הגישה הישן לא נכון.</string>
     <string name="vm_change_pin_error_system_error">לא ניתן היה לשנות את קוד הגישה</string>
     <string name="vm_change_pin_error_too_long">קוד הגישה החדש ארוך מדי.</string>
     <string name="vm_change_pin_error_too_short">קוד הגישה החדש קצר מדי.</string>
     <string name="vm_change_pin_error_too_weak">קוד הגישה החדש חלש מדי. בסיסמה חזקה אסור שיהיו ספרות ברצף מספרי או ספרות שחוזרות על עצמן.</string>
-    <string name="vm_change_pin_error_unchanged_pin">הקוד הסודי החדש זהה לקוד הסודי הקיים. צריך לבחור קוד סודי אחר.</string>
+    <string name="vm_change_pin_error_unchanged_pin">הקוד הסודי החדש לא יכול להיות זהה לקוד הסודי הקיים.</string>
     <string name="vm_change_pin_progress_message">רק רגע בבקשה.</string>
     <string name="voice_call">שיחה קולית</string>
     <string name="voice_call_button">שיחה</string>
@@ -1511,11 +1514,9 @@
     <string name="voicemailMultiSelectDeleteConfirm">מחיקה</string>
     <string name="voicemail_action_call_customer_support">התקשרות לשירות הלקוחות</string>
     <string name="voicemail_action_call_voicemail">התקשרות לתא הקולי</string>
-    <string name="voicemail_action_dimiss">לא תודה</string>
     <string name="voicemail_action_retry">נסו שוב</string>
     <string name="voicemail_action_set_pin">הגדרת קוד גישה</string>
     <string name="voicemail_action_sync">סנכרן</string>
-    <string name="voicemail_action_turn_archive_on">הפעלה</string>
     <string name="voicemail_action_turn_off_airplane_mode">הגדרות למצב טיסה</string>
     <string name="voicemail_activating_summary_info">הפעלת הדואר הקולי מתבצעת</string>
     <string name="voicemail_advanced_settings_title">הגדרות מתקדמות</string>
@@ -1530,7 +1531,7 @@
     <string name="voicemail_change_pin_preference_summary_disable">צריך להפעיל את הדואר הקולי הוויזואלי כדי לשנות את קוד הגישה</string>
     <string name="voicemail_change_pin_preference_summary_not_activated">הדואר הקולי הוויזואלי לא הופעל עדיין. אפשר לנסות שוב מאוחר יותר</string>
     <string name="voicemail_change_pin_preference_title">שינוי קוד הגישה</string>
-    <string name="voicemail_donate_preference_summary_info">‏אם נוכל לבדוק את ההודעות הקוליות שלך דיוק התמלול של Google ישתפר. ההודעות הקוליות נשמרות באופן אנונימי. %1$s</string>
+    <string name="voicemail_donate_preference_summary_info">‏אם נוכל לבדוק את ההודעות הקוליות שלך דיוק התמלול של Google ישתפר. ההודעות הקוליות נשמרות באופן אנונימי. ^1</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">‏שימוש בדואר קולי ויזאולי בכרטיסי SIM בלי חבילת גלישה עלול לגרור חיובים נוספים מצד הספק הסלולרי</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">‏התא הקולי הוויזואלי זמין רק ל-SIM הנתונים שנבחר</string>
     <string name="voicemail_error_activating_message">ייתכן שלא יגיעו אליך עדכונים על הודעות חדשות בדואר הקולי עד שהדואר הקולי הוויזואלי יופעל במלואו. עד אז, עליך להתקשר לדואר הקולי כדי להאזין להודעות החדשות.</string>
@@ -1543,12 +1544,8 @@
     <string name="voicemail_error_bad_config_title">לא ניתן לעדכן את הדואר הקולי הוויזואלי</string>
     <string name="voicemail_error_communication_message">עדיין תוכל להתקשר כדי לבדוק את הדואר הקולי.</string>
     <string name="voicemail_error_communication_title">לא ניתן לעדכן את הדואר הקולי הוויזואלי</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_message">‏תיבת הדואר שלך כמעט מלאה. הפעל את הגיבוי ופינוי המקום כדי ש-Google תוכל לנהל ולגבות את ההודעות הקוליות שלך.</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_title">הפעל את הגיבוי ופינוי המקום</string>
     <string name="voicemail_error_inbox_full_message">תיבת הדואר הנכנס מלאה. כדי לקבל דואר קולי חדש מומלץ למחוק חלק מההודעות.</string>
     <string name="voicemail_error_inbox_full_title">לא ניתן לקבל הודעות חדשות בדואר הקולי</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_message">‏תיבת הדואר שלך מלאה. הפעל את הגיבוי ופינוי המקום כדי ש-Google תוכל לנהל ולגבות את ההודעות הקוליות שלך.</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_title">הפעל את הגיבוי ופינוי המקום</string>
     <string name="voicemail_error_inbox_near_full_message">אם תיבת הדואר הנכנס מלאה, לא תוכל לקבל דואר קולי חדש.</string>
     <string name="voicemail_error_inbox_near_full_title">תיבת הדואר הנכנס כמעט מלאה</string>
     <string name="voicemail_error_no_data_cellular_required_message">נסה שוב כשיהיה חיבור טוב יותר לרשת הסלולרית. אפשר גם להתקשר כדי לבדוק הודעות קוליות.</string>
@@ -1581,7 +1578,7 @@
     <string name="voicemail_transcription_failed_language_not_supported">התמלול לא בוצע מכיוון שהשפה לא נתמכת.</string>
     <string name="voicemail_transcription_failed_no_speech">התמלול לא בוצע מכיוון שלא זיהינו דיבור.</string>
     <string name="voicemail_transcription_in_progress">אנחנו מתמללים…</string>
-    <string name="voicemail_transcription_preference_summary_info">‏תמלול ההודעות הקוליות באמצעות שירותי התמלול של Google. %1$s</string>
+    <string name="voicemail_transcription_preference_summary_info">‏תמלול ההודעות הקוליות באמצעות שירותי התמלול של Google. ^1</string>
     <string name="voicemail_visual_voicemail_auto_archive_switch_title">גיבוי ופינוי מקום</string>
     <string name="voicemail_visual_voicemail_donation_switch_title">ניתוח התמלולים של ההודעות הקוליות</string>
     <string name="voicemail_visual_voicemail_switch_title">תא קולי ויזואלי</string>
@@ -1637,7 +1634,7 @@
     <string name="wait_prompt_str">"‏לשלוח את הצלילים הבאים?
 "</string>
     <string name="was_this_a_business_chip_text">האם השיחה הייתה מעסק?</string>
-    <string name="was_this_a_business_dialog_body">"‏אישור התווית יעזור ל-Google לשפר את הפיצ'ר של השיחה המזוהה"</string>
+    <string name="was_this_a_business_dialog_body">‏אישור יעזור ל-Google לשפר את זיהוי השיחות</string>
     <string name="was_this_a_business_dialog_negative_response">לא</string>
     <string name="was_this_a_business_dialog_positive_response">כן</string>
     <string name="was_this_a_business_dialog_snackbar">תודה על המשוב</string>

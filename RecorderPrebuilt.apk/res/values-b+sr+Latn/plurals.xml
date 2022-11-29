@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="custom_cards_view_description_items_left">
-        <item quantity="other">Još %1$d stavki</item>
-        <item quantity="one">Još %1$d stavka</item>
-        <item quantity="few">Još %1$d stavke</item>
-    </plurals>
     <plurals name="dlg_message_deletion_confirmation">
         <item quantity="other">Snimci će se trajno izbrisati. Ova radnja ne može da se opozove.</item>
         <item quantity="one">Snimci će se trajno izbrisati. Ova radnja ne može da se opozove.</item>
@@ -25,20 +20,30 @@
         <item quantity="one">Želite li da trajno izbrišete ove snimke?</item>
         <item quantity="few">Želite li da trajno izbrišete ove snimke?</item>
     </plurals>
-    <plurals name="download_unsuccessful_description_storage_full">
+    <plurals name="download_failure_description_storage_full">
         <item quantity="other">Preuzimanje snimaka nije uspelo jer je memorijski prostor uređaja pun. Dodirnite da biste pregledali.</item>
         <item quantity="one">Preuzimanje snimaka nije uspelo jer je memorijski prostor uređaja pun. Dodirnite da biste pregledali.</item>
         <item quantity="few">Preuzimanje snimaka nije uspelo jer je memorijski prostor uređaja pun. Dodirnite da biste pregledali.</item>
-    </plurals>
-    <plurals name="downloaded_description">
-        <item quantity="other">Preuzeto je %1$d snimaka</item>
-        <item quantity="one">Preuzet je %1$d snimak</item>
-        <item quantity="few">Preuzeta su %1$d snimka</item>
     </plurals>
     <plurals name="downloading_description">
         <item quantity="other">Preuzima se %1$d snimaka</item>
         <item quantity="one">Preuzima se %1$d snimak</item>
         <item quantity="few">Preuzimaju se %1$d snimka</item>
+    </plurals>
+    <plurals name="og_backup_failed_title">
+        <item quantity="other">Nije uspelo pravljenje rezervne kopije %1$d stavki</item>
+        <item quantity="one">Nije uspelo pravljenje rezervne kopije %1$d stavke</item>
+        <item quantity="few">Nije uspelo pravljenje rezervne kopije %1$d stavke</item>
+    </plurals>
+    <plurals name="og_backup_items_left">
+        <item quantity="other">Preostalo je %1$d stavki</item>
+        <item quantity="one">Preostala je %1$d stavka</item>
+        <item quantity="few">Preostale su %1$d stavke</item>
+    </plurals>
+    <plurals name="og_backup_items_stopped_title">
+        <item quantity="other">%1$d stavki nema rezervnu kopiju</item>
+        <item quantity="one">%1$d stavka nema rezervnu kopiju</item>
+        <item quantity="few">%1$d stavke nemaju rezervnu kopiju</item>
     </plurals>
     <plurals name="search_results_count">
         <item quantity="other">%1$d rezultata</item>
@@ -46,9 +51,9 @@
         <item quantity="few">%1$d rezultata</item>
     </plurals>
     <plurals name="search_results_position">
-        <item quantity="other">%1$d/%2$d rezultata</item>
-        <item quantity="one">%1$d/%2$d rezultat</item>
-        <item quantity="few">%1$d/%2$d rezultata</item>
+        <item quantity="other">^1/^2 rezultata</item>
+        <item quantity="one">^1/^2 rezultat</item>
+        <item quantity="few">^1/^2 rezultata</item>
     </plurals>
     <plurals name="search_results_position_content_description">
         <item quantity="other">%1$d od %2$d rezultata</item>
@@ -64,11 +69,6 @@
         <item quantity="other">Memorijski prostor uređaja je pun. Preuzimanje snimaka nije uspelo.</item>
         <item quantity="one">Memorijski prostor uređaja je pun. Preuzimanje snimaka nije uspelo.</item>
         <item quantity="few">Memorijski prostor uređaja je pun. Preuzimanje snimaka nije uspelo.</item>
-    </plurals>
-    <plurals name="uploaded_description">
-        <item quantity="other">Otpremljeno je %1$d snimaka</item>
-        <item quantity="one">Otpremljen je %1$d snimak</item>
-        <item quantity="few">Otpremljena su %1$d snimka</item>
     </plurals>
     <plurals name="uploading_description">
         <item quantity="other">Otprema se %1$d snimaka</item>

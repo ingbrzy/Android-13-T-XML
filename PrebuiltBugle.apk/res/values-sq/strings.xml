@@ -26,7 +26,6 @@
     <string name="abc_shareactionprovider_share_with_application">Ndaje me %s</string>
     <string name="abc_toolbar_collapse_description">Palos</string>
     <string name="about_application_pp_tos_settings">Informacione, kushtet dhe privatësia</string>
-    <string name="acs_url_dropdown_hint">Vendos URL-në e ACS-së</string>
     <string name="action_add_contact">Shto kontakt</string>
     <string name="action_advanced_feedback">Dërgo komente</string>
     <string name="action_archive">Arkivo</string>
@@ -45,18 +44,19 @@
     <string name="action_help_and_feedback">Ndihmë dhe komente</string>
     <string name="action_info_and_options">Informacione dhe opsione</string>
     <string name="action_jump_to_chat">Shiko në bisedë</string>
+    <string name="action_meet_video_call">Videotelefonatë e Meet</string>
     <string name="action_menu_mark_all_as_read">Shëno të gjitha si të lexuara</string>
     <string name="action_menu_show_archived">Arkivuar</string>
     <string name="action_menu_show_spam_folder">Të bezdisshme dhe të bllokuara</string>
     <string name="action_notification_off">Çaktivizo njoftimet</string>
     <string name="action_notification_on">Aktivizo njoftimet</string>
     <string name="action_notification_settings">Çaktivizo njoftimet</string>
+    <string name="action_off">Joaktiv</string>
     <string name="action_pair_device">Çiftimi i pajisjes</string>
     <string name="action_people_and_options">Detajet</string>
     <string name="action_people_and_options_group">Detajet e grupit</string>
     <string name="action_pin_to_top">Gozhdo në krye</string>
     <string name="action_report_spam">Raporto si të bezdisshme</string>
-    <string name="action_scan_qr_code">Mesazhet për ueb</string>
     <string name="action_search">Kërko</string>
     <string name="action_search_gifs">Kërko për skedarë GIF</string>
     <string name="action_search_messages">Kërko mesazhet</string>
@@ -66,7 +66,7 @@
     <string name="action_send">Dërgo</string>
     <string name="action_set_reminder">Cakto alarmin rikujtues</string>
     <string name="action_settings">Cilësimet</string>
-    <string name="action_share">Shpërnda</string>
+    <string name="action_share">Shpërndaj</string>
     <string name="action_show_subject_field">Shfaq fushën e subjektit</string>
     <string name="action_star">Shënoje mesazhin me yll</string>
     <string name="action_unarchive">Hiq nga arkiva</string>
@@ -75,6 +75,7 @@
     <string name="action_viLTE_video_call">Videotelefonatë nëpërmjet operatorit</string>
     <string name="action_video_call">Bëj një telefonatë me video</string>
     <string name="actionbar_subtitle_name_prefix">me %s</string>
+    <string name="active_reminder">Alarm rikujtues</string>
     <string name="active_sim_content_message">%s u zgjodh</string>
     <string name="activity_not_found_message">Nuk arriti të gjente një aplikacion të përshtatshëm</string>
     <string name="add_area_code_banner_button">Shto prefiksin e zonës</string>
@@ -88,6 +89,7 @@
     <string name="add_contact_confirmation_dialog_title">Shto te kontaktet?</string>
     <string name="add_country_code_banner_button">Shto prefiksin e shtetit</string>
     <string name="add_more_participants_button_content_description">Shto më shumë pjesëmarrës</string>
+    <string name="add_reaction_content_description">Reago me një reagim të personalizuar</string>
     <string name="add_reaction_for_assistant_card_rcs_fallback_text">​%1$s​ për kartën e asistentit</string>
     <string name="add_reaction_for_audio_rcs_fallback_text">​%1$s​ për një skedar audio</string>
     <string name="add_reaction_for_contact_rcs_fallback_text">​%1$s​ për një kontakt</string>
@@ -95,7 +97,7 @@
     <string name="add_reaction_for_gif_rcs_fallback_text">​%1$s​ për një imazh GIF</string>
     <string name="add_reaction_for_link_rcs_fallback_text">​%1$s​ për një lidhje</string>
     <string name="add_reaction_for_photo_rcs_fallback_text">​%1$s​ për një fotografi</string>
-    <string name="add_reaction_for_text_message_rcs_fallback_text">​%1$s​ për \"%2$s\"</string>
+    <string name="add_reaction_for_text_message_rcs_fallback_text">​%1$s​ për \" %2$s \"</string>
     <string name="add_reaction_for_unknown_message_type_rcs_fallback_text">​%1$s​ për një lloj të panjohur mesazhi</string>
     <string name="add_reaction_for_video_rcs_fallback_text">​%1$s​ për një video</string>
     <string name="advanced_feedback_activity_disclaimer">Përmbajtja dhe teksti i mesazheve të tua, përveçse për ato në pamjet e ekranit, nuk dërgohen te Google</string>
@@ -132,14 +134,13 @@
     <string name="apn_mnc">MNC</string>
     <string name="app_name">Mesazhet</string>
     <string name="app_settings_conversation_pref_title">Cilësimet e aplikacionit</string>
-    <string name="apply_button">Zbato</string>
     <string name="archived_activity_title">Arkivuar</string>
     <string name="archived_conversation_list_empty_text">Bisedat e arkivuara shfaqen këtu</string>
     <string name="area_code_banner_description">@string/banner_description</string>
     <string name="assistant_movies_shortcut_title">Filma</string>
+    <string name="assistant_preference_summary">Shfaq informacione përkatëse për restorante, filma etj.</string>
     <string name="assistant_preference_title">Sugjerimet e \"Asistentit\"</string>
     <string name="assistant_restaurants_shortcut_title">Restorante</string>
-    <string name="assistant_send_to_chip_default_group_name">grupi</string>
     <string name="assistant_suggestions_tooltip_text">\"Mesazhet\" krijojnë sugjerime ndërkohë që e mbajnë bisedën tënde në pajisje. Mund të trokasësh te sugjerimet për të shikuar dhe për të ndarë informacione nga \"Asistenti i Google\". &lt;br/> &lt;br/> &lt;a href>Mëso më shumë&lt;/a> dhe menaxhoji te &lt;a href>Cilësimet&lt;/a></string>
     <string name="assistant_suggestions_tooltip_title_text">Merr informacione me një trokitje</string>
     <string name="assistant_weather_shortcut_title">Moti</string>
@@ -155,12 +156,18 @@
     <string name="attachment_location">Vendndodhja</string>
     <string name="attachment_picture">Fotografi</string>
     <string name="attachment_preview_close_content_description">Hiq bashkëngjitjen</string>
+    <string name="attachment_preview_photos_link_share_getting_link">Po merr lidhjen…</string>
+    <string name="attachment_preview_photos_link_share_no_upload_needed">Është ngarkuar më parë</string>
+    <string name="attachment_preview_photos_link_share_upload_size">Ngarkimi %s</string>
+    <string name="attachment_preview_photos_link_share_upload_size_failure">Madhësi e panjohur</string>
+    <string name="attachment_preview_photos_link_share_upload_size_placeholder">Po llogaritet…</string>
     <string name="attachment_unsupported_file">Skedar i pambështetur</string>
     <string name="attachment_vcard">Kartë kontakti</string>
     <string name="attachment_video">Video</string>
     <string name="audio_attachment_content_description">Bashkëngjitja audio</string>
     <string name="audio_attachment_seek_playback_description">Luajtja e audios</string>
     <string name="audio_button_view_content_description">Trokit dy herë dhe mbaje të shtypur për të regjistruar audio, rrëshqit majtas për ta anuluar</string>
+    <string name="audio_format_type">audio</string>
     <string name="audio_pause_content_description">Pauzë</string>
     <string name="audio_play_content_description">Luaj bashkëngjitjen në audio</string>
     <string name="audio_recorder_call_in_progress">Audioja nuk mund të regjistrohet gjatë telefonatës</string>
@@ -179,6 +186,8 @@
     <string name="auto_selected_country_summary">Zbuluar automatikisht (%1$s)</string>
     <string name="automoved_spam_notification_action_dismiss">Hiqe</string>
     <string name="automoved_spam_notification_action_view">Shiko</string>
+    <string name="automoved_spam_notification_content_text">Biseda hyrëse e bezdisshme u zhvendos te \"Të bezdisshme dhe të bllokuara\"</string>
+    <string name="automoved_spam_notification_content_title">U zbulua një bisedë e bezdisshme</string>
     <string name="avatar_no_connection_msg">Nuk ka lidhje interneti</string>
     <string name="avatar_promo_create">Krijo</string>
     <string name="avatar_promo_see_all">Shiko të gjithë</string>
@@ -190,7 +199,8 @@
     <string name="birthday_banner_description">@string/banner_description</string>
     <string name="birthday_banner_dismiss_button_text">Hiqe</string>
     <string name="birthday_banner_settings_button_text">Menaxhoje te cilësimet</string>
-    <string name="birthday_info_text">\"Mesazhet\" kanë krijuar alarme rikujtuese për ditëlindjet nga kontaktet që kanë të dhëna të ditëlindjeve në pajisjen tënde</string>
+    <string name="birthday_info_text">Këto alarme rikujtuese bazohen në informacionet e datëlindjeve nga aplikacioni i kontakteve i pajisjes sate.</string>
+    <string name="birthday_info_text_with_settings">Këto alarme rikujtuese bazohen në informacionet e datëlindjeve nga aplikacioni i kontakteve i pajisjes sate. &lt;a href>%1$s&lt;/a></string>
     <string name="birthday_nudge_enabled_pref_summary">Merr alarme rikujtuese për ditëlindjet që ke shtuar te kontaktet në pajisjen tënde</string>
     <string name="birthday_nudge_enabled_pref_title">Alarmet rikujtuese për ditëlindjet</string>
     <string name="block_confirmation_message_spam_folder">Do të vazhdosh të marrësh mesazhe nga %1$s, por nuk do të njoftohesh më. Kjo bisedë do të zhvendoset te “Të bezdisshme dhe të bllokuara”.</string>
@@ -206,13 +216,17 @@
     <string name="boew_promo_double_check_dialog_title">Të kapërcehen veçoritë e bisedës?</string>
     <string name="boew_promo_legal">Aplikacioni \"Mesazhet\" do të ndajë informacionet për harduerin e pajisjes dhe kartën SIM me operatorin tënd celular.</string>
     <string name="boew_promo_negative_button_text">JO TANI</string>
-    <string name="boew_promo_positive_button_text">PËRPARA</string>
+    <string name="boew_promo_positive_button_text">PARA</string>
     <string name="boew_promo_text">Për të marrë veçoritë e bisedës, si dërgimin e mesazheve nëpërmjet Wi‑Fi dhe të dhënave, lejo që aplikacioni \"Mesazhet\" të vazhdojë në sfond</string>
     <string name="boew_promo_title">Bëj më shumë me apl. \"Mesazhet\"</string>
     <string name="bottomsheet_action_expand_halfway">Zgjeroje deri në gjysmë</string>
+    <string name="bottomsheet_drag_handle_content_description">Doreza e zvarritjes</string>
     <string name="broadcast_receiver_notification_text_extra_info">\"Mesazhet\" po punojnë në sfond. Dërgo një raport të defekteve në kod nëse e shikon këtë njoftim për më shumë se një minutë. Emri i marrësit: %1$s</string>
     <string name="broadcast_sms_text">Mesazhet SMS masive</string>
     <string name="bubble_settings_title">Flluskat</string>
+    <string name="bugle_add_account_error">Shtimi i llogarisë dështoi. Provo përsëri.</string>
+    <string name="bugle_fix_it">Rregulloje</string>
+    <string name="bugle_load_account_failure">Ngarkimi i llogarive dështoi.</string>
     <string name="bugle_notification_category_conversations">Bisedat</string>
     <string name="bugle_notification_category_default_settings">Cilësimet e parazgjedhura</string>
     <string name="bugle_notification_category_reminders">Alarmet rikujtuese</string>
@@ -224,6 +238,8 @@
     <string name="bugle_notification_reminders_channel_name">Alarmet rikujtuese</string>
     <string name="bugle_notification_report_issue_channel_name">Kërkesë për komente për \"Mesazhet\"</string>
     <string name="bugle_notification_silent_default_channel_name">Merr njoftime gjatë përdorimit të uebit</string>
+    <string name="bugle_play_services_error">Dështoi gjatë kërkesës për shërbimet e Google Play.</string>
+    <string name="bugle_retry">Riprovo</string>
     <string name="business_action_call_full_content_description">Telefono %1$s (%2$s)</string>
     <string name="business_action_call_short_content_description">Telefono</string>
     <string name="business_action_call_short_text_m2">Telefono</string>
@@ -285,6 +301,7 @@
     <string name="c2o_single_file_attachment_size_limit_exceed">"Bashkëngjitja jote është shumë e madhe për t'u dërguar. Provo të dërgosh një skedar më të vogël se %s."</string>
     <string name="c2o_storage_permissions_text">Trokit për të dhënë qasje te \"Media\"</string>
     <string name="c2o_video_button_text">Video</string>
+    <string name="calendar_badge_content_description">Stema e kalendarit</string>
     <string name="calendar_event_added">Ngjarja u ruajt</string>
     <string name="calendar_file_content_description">Skedari i kalendarit</string>
     <string name="calendar_suggestion_event_chat_title">Biseda në \"Mesazhet e Android\"</string>
@@ -295,6 +312,7 @@
     <string name="camera_attach_media">Bashkëngjit</string>
     <string name="camera_attach_media_description">Bashkëngjit te mesazhi</string>
     <string name="camera_back_switch_button">Butoni i kamerës së pasme</string>
+    <string name="camera_capture_button_label">Nxirr një fotografi</string>
     <string name="camera_flash_off">Blici joaktiv</string>
     <string name="camera_flash_on">Blici aktiv</string>
     <string name="camera_front_switch_button">Butoni i kamerës së përparme</string>
@@ -392,6 +410,11 @@ Veçoritë e bisedës mund t'i çaktivizosh te cilësimet. %1$s"</string>
     <string name="common_google_play_services_update_text">%1$s nuk do të funksionojë nëse nuk përditëson shërbimet e \"Luaj me Google\".</string>
     <string name="common_google_play_services_update_title">Përditëso shërbimet e \"Luaj me Google\"</string>
     <string name="common_google_play_services_updating_text">%1$s nuk do të funksionojë pa shërbimet e Google Play, të cilat po përditësohen aktualisht.</string>
+    <string name="common_google_play_services_wear_update_text">Nevojitet një version i ri i shërbimeve të \"Luaj me Google\". Ai do të përditësohet automatikisht së shpejti.</string>
+    <string name="common_open_on_phone">Hape në telefon</string>
+    <string name="complete_photos_app_onboarding">Hap \"Fotografitë e Google\"</string>
+    <string name="complete_photos_app_onboarding_title">Për të vazhduar, lejo qasjen e \"Fotografive të Google\"</string>
+    <string name="complete_photos_app_onboarding_to_continue">Fillo në aplikacionin \"Fotografitë e Google\"</string>
     <string name="compose_message_view_hint_text">Mesazh bisede</string>
     <string name="compose_message_view_hint_text_multi_sim_rcs">Bisedë (%s)</string>
     <string name="compose_message_view_hint_text_multi_sim_sms_mms">Mesazh me tekst (%s)</string>
@@ -413,15 +436,12 @@ Veçoritë e bisedës mund t'i çaktivizosh te cilësimet. %1$s"</string>
     <string name="contact_has_multiple_destinations_phone">%1$s (+%2$s më shumë)</string>
     <string name="contact_has_multiple_destinations_type">Disa</string>
     <string name="contact_list_add_people">Shto %s</string>
-    <string name="contact_list_empty_text">Fut një emër kontakti ose numër telefoni për të nisur një mesazh të ri</string>
     <string name="contact_list_send_to_text">Dërgo te %s</string>
     <string name="contact_picker_autocomplete_added">U shtua %1$s, aktualisht po redaktohet</string>
     <string name="contact_picker_autocomplete_deleted">%1$s u fshi, aktualisht po redaktohet</string>
-    <string name="contact_picker_cant_add_destination_twice">Ai numër ndodhet tashmë në grup</string>
     <string name="contact_picker_cant_remove_from_existing">Numri nuk mund të hiqet nga një bisedë ekzistuese</string>
     <string name="contact_picker_cant_remove_from_screen">Për të hequr personat, shko te &lt;b>Detajet e grupit&lt;/b></string>
     <string name="contact_picker_confirm_participants_button_label">Para</string>
-    <string name="contact_picker_group_create_label">Krijo një grup</string>
     <string name="contact_picker_group_v2_create_label">Krijo një grup</string>
     <string name="contact_picker_message_a_business_label">Bisedo me një biznes</string>
     <string name="contact_picker_title_add_people">Shto njerëz</string>
@@ -444,10 +464,14 @@ Veçoritë e bisedës mund t'i çaktivizosh te cilësimet. %1$s"</string>
     <string name="content_description_link_to_settings">Menaxho te \"Cilësimet\"</string>
     <string name="contextual_action_bar_description_prefix">Po shfaqet shiriti i veglave për veprimet: %s. Navigo lart për të zgjedhur një veprim ose për ta mbyllur.</string>
     <string name="conversation_area_code_popup_paragraph">Pa një prefiks të njohur të zonës, \"Mesazhet\" do të përpiqen të dërgojnë në numrin %1$s. Shto prefiksin e zonës për këtë kontakt për mesazhet e ardhshme. %2$s</string>
+    <string name="conversation_block_failed_message">Nuk u bllokua. Kontrollo lidhjen</string>
+    <string name="conversation_blocking_message">Po bllokohet…</string>
     <string name="conversation_country_code_popup_paragraph">"Shto prefiksin e shtetit (%2$s, +%1$s) për këtë kontakt që mesazhi yt t'i dërgohet personit të duhur. %3$s"</string>
     <string name="conversation_creation_failed">Dështoi në krijimin e bisedës, Provo përsëri më vonë.</string>
     <string name="conversation_creation_failure">Nuk arriti të fillonte bisedën</string>
+    <string name="conversation_deleting_message">Po fshihet…</string>
     <string name="conversation_deletion_failed">Biseda nuk mund të fshihej</string>
+    <string name="conversation_deletion_failed_message">Nuk u fshi. Kontrollo lidhjen</string>
     <string name="conversation_empty_name">Bosh</string>
     <string name="conversation_label_all">Të gjitha</string>
     <string name="conversation_label_business_updates">Biznesi</string>
@@ -474,7 +498,6 @@ Veçoritë e bisedës mund t'i çaktivizosh te cilësimet. %1$s"</string>
     <string name="conversation_list_item_view_draft_message">Draft</string>
     <string name="conversation_list_item_view_sent_from_other_prefix">%s:</string>
     <string name="conversation_list_item_view_sent_from_you_prefix">Ti:</string>
-    <string name="conversation_list_loading_item_description">Po ngarkon bisedën</string>
     <string name="conversation_list_message_fail_to_decrypt">Nuk mund të deshifrohet</string>
     <string name="conversation_list_rcs_promo_button_negative">Mos e përmirëso aplikacionin</string>
     <string name="conversation_list_rcs_promo_button_positive">Përmirësoje tani</string>
@@ -486,7 +509,6 @@ Veçoritë e bisedës mund t'i çaktivizosh te cilësimet. %1$s"</string>
     <string name="conversation_list_snippet_link">Lidh</string>
     <string name="conversation_list_spam_popup_negative">Menaxho te \"Cilësimet\"</string>
     <string name="conversation_list_spam_popup_paragraph">Për të ndihmuar në parandalimin e mesazheve të bezdisshme, Google përdor numrat e telefonit të dërguesve dhe marrësve të panjohur. Mesazhet dhe kontaktet e tua nuk dërgohen te Google. %1$s</string>
-    <string name="conversation_list_spam_popup_paragraph_on_device">Aplikacioni \"Mesazhet\" përdor veçorinë e inteligjencës në pajisje për të zbuluar mesazhet e bezdisshme dhe disa të dhëna për këto mesazhe i dërgon te Google pa përfshirë numrin tënd të telefonit apo përmbajtjen e mesazheve. %1$s</string>
     <string name="conversation_list_spam_popup_positive">Në rregull</string>
     <string name="conversation_list_spam_popup_title">Mbrojtja nga mesazhet e bezdisshme</string>
     <string name="conversation_list_terms_and_conditions_promo_subtitle">Përfundo aktivizimin e veçorive të bisedës për të marrë mesazhe nëpërmjet WiFi dhe të tjera</string>
@@ -509,6 +531,7 @@ Veçoritë e bisedës mund t'i çaktivizosh te cilësimet. %1$s"</string>
     <string name="conversation_suggestion_set_reminder_action">Veprimi i sugjeruar për alarmin rikujtues të caktuar</string>
     <string name="conversation_suggestion_share_location_action">Veprimi i sugjeruar për ndarjen e vendndodhjes</string>
     <string name="conversation_suggestion_share_location_action_failure">Ndodhi një gabim. Për të ndarë vendndodhjen tënde, shtoje atë te një mesazh i ri.</string>
+    <string name="conversation_suggestion_star_action">Veprimi i sugjeruar për shënim me yll</string>
     <string name="conversation_suggestion_sticker">Ngjitëse e sugjeruar</string>
     <string name="copy">Kopjo</string>
     <string name="copy_to_clipboard">Kopjo</string>
@@ -518,6 +541,7 @@ Veçoritë e bisedës mund t'i çaktivizosh te cilësimet. %1$s"</string>
     <string name="create_group_info_title">Shto emrin e grupit</string>
     <string name="create_new_group_message">Shtimi i këtij personi do të nisë një grup të ri pa veçoritë e bisedës</string>
     <string name="current_country_pref_title">Shteti yt aktual</string>
+    <string name="custom_reaction_selection_prompt">Select an emoji</string>
     <string name="dark_mode_disable_title">Çaktivizo modalitetin e errët</string>
     <string name="dark_mode_enable_title">Aktivizo modalitetin e errët</string>
     <string name="dasher_disabled_notification_body">Kontakto me administratorin e sistemit ose identifikohu me një llogari tjetër.</string>
@@ -585,12 +609,9 @@ Veçoritë e bisedës mund t'i çaktivizosh te cilësimet. %1$s"</string>
     <string name="ditto_activity_label">Çiftimi i pajisjes</string>
     <string name="ditto_foreground_service_device_pairing_notification_text">Mesazhet e tua ofrohen në pajisjen që ke çiftuar</string>
     <string name="ditto_foreground_service_device_pairing_notification_title">Çiftimi i pajisjes</string>
-    <string name="ditto_foreground_service_notification_text">Mesazhet e tua ofrohen në kompjuterin që ke çiftuar</string>
-    <string name="ditto_foreground_service_notification_title">Mesazhet për ueb</string>
     <string name="ditto_foreground_service_sign_out">Anulo çiftimin</string>
     <string name="ditto_persistent_notification_settings">Njoftimet</string>
     <string name="ditto_settings_action_bar_title">Njoftimet</string>
-    <string name="ditto_settings_connected_to_web_notification_description">\"Mesazhet për ueb\" shfaqen kur pajisja jote është në linjë</string>
     <string name="ditto_settings_connected_to_web_notification_title">Shfaq njoftimin e vazhdueshëm</string>
     <string name="ditto_settings_device_paired_notification_description">“Çiftimi i pajisjes” shfaqet kur pajisja jote është në linjë</string>
     <string name="ditto_settings_while_using_web_notification_description">Ndalo tonin e ziles dhe dridhjet kur pajisja jote është në linjë</string>
@@ -630,6 +651,7 @@ Mesazhet e tua, duke përfshirë edhe numrin e dërguesit të biznesit, rishikoh
     <string name="dump_mms_pref_title">Hidh MMS-të</string>
     <string name="dump_sms_pref_summary">Hidhi të dhënat SMS të papërpunuara në skedarin e hapësirës së jashtme ruajtëse</string>
     <string name="dump_sms_pref_title">Hidh SMS-të</string>
+    <string name="duplicate_upload_snackbar">Disa dublikata nuk janë përfshirë</string>
     <string name="e2ee_conversation_tombstone">Biseda e enkriptuar nga skaji në skaj me %1$s</string>
     <string name="e2ee_conversation_tombstone_with_learn_more">Biseda e enkriptuar nga skaji në skaj me %1$s. %2$s</string>
     <string name="e2ee_fail_to_send_retry_description">Ridërgo si bisedë</string>
@@ -668,7 +690,6 @@ Mesazhet e tua, duke përfshirë edhe numrin e dërguesit të biznesit, rishikoh
 Mesazhet do të enkriptohen përsëri kur të rilidhen veçoritë e bisedës."</string>
     <string name="enable_rcs_auto_fallback_dialog_title">Të dërgohen automatikisht si mesazhe me tekst (SMS/MMS)?</string>
     <string name="enable_rcs_auto_fallback_title">Ridërgoji automatikisht si mesazhe me tekst (SMS/MMS)</string>
-    <string name="enable_rcs_fallback_to_sms_title">Ridërgo mesazhet nëse nuk janë dorëzuar</string>
     <string name="enable_rcs_fallback_to_xms_title">Ridërgo mesazhet nëse nuk janë dorëzuar</string>
     <string name="enable_rcs_summary_off">Përdor Wi-Fi ose të dhënat për mesazhet kur disponohen</string>
     <string name="enable_rcs_summary_on">Nëse mundësohen, përdoren të dhënat celulare për dërgimin e mesazheve</string>
@@ -680,9 +701,13 @@ Mesazhet do të enkriptohen përsëri kur të rilidhen veçoritë e bisedës."</
     <string name="enter_phone_number_title">Konfirmo numrin tënd të telefonit</string>
     <string name="enter_phone_number_title_for_sim">Konfirmo numrin e telefonit për %1$s</string>
     <string name="enumeration_comma">", "</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_failed_to_save_setting">Problem gjatë ruajtjes. Provo përsëri.</string>
     <string name="error_icon_content_description">Gabim</string>
     <string name="error_premium_sms_needs_permission">Për të dërguar këtë mesazh, vizito cilësimet e pajisjes tënde dhe aktivizo qasjen për mesazhet SMS premium</string>
+    <string name="error_text_draft_is_reply_to_missing_message">"Nuk mund t'i përgjigjesh një mesazhi të fshirë"</string>
+    <string name="error_text_draft_is_reply_without_rcs">Problem me veçoritë e bisedës. Provo të dërgosh pa përgjigje.</string>
+    <string name="error_text_scheduled_send_with_draft_reply">Nuk mund të planifikohet një përgjigje në këtë moment</string>
     <string name="etouffee_to_rcs_notification">\"Mesazhet\" zbuluan se enkriptimi nga skaji në skaj është hequr në një bisedë. Trokit për të dërguar komente.</string>
     <string name="etouffee_to_telephony_setting">Privatësia</string>
     <string name="etouffee_to_telephony_setting_description">"Lejet për mesazhet SMS përfshijnë mesazhet e enkriptuara nga skaji në skaj në mënyrë që ato të mund të rezervohen nga Android, të lexohen me zë në makinë ose në një pajisje shoqëruese etj. Shiko dhe menaxho aplikacionet e tua me lejet për mesazhet SMS te cilësimet e Android.
@@ -708,19 +733,24 @@ Ndryshimi i këtij cilësimi nuk do të ketë ndikim te mesazhet e enkriptuara n
     <string name="exo_controls_pause_description">Pauzë</string>
     <string name="exo_controls_play_description">Luaj</string>
     <string name="exo_controls_previous_description">Prapa</string>
-    <string name="exo_controls_repeat_all_description">Përsërit të gjitha</string>
-    <string name="exo_controls_repeat_off_description">Mos përsërit asnjë</string>
-    <string name="exo_controls_repeat_one_description">Përsërit një</string>
+    <string name="exo_controls_repeat_all_description">Modaliteti aktual: Përsërit të gjitha. Aktivizo/çaktivizo modalitetin e përsëritjes.</string>
+    <string name="exo_controls_repeat_off_description">Modaliteti aktual: Mos përsërit asnjë. Aktivizo/çaktivizo modalitetin e përsëritjes.</string>
+    <string name="exo_controls_repeat_one_description">Modaliteti aktual: Përsërit një. Aktivizo/çaktivizo modalitetin e përsëritjes.</string>
     <string name="exo_controls_rewind_description">Rikthe</string>
     <string name="exo_controls_show">Shfaq komandat e luajtësit</string>
-    <string name="exo_controls_shuffle_off_description">Përzierja joaktive</string>
-    <string name="exo_controls_shuffle_on_description">Përzierja aktive</string>
+    <string name="exo_controls_shuffle_off_description">Aktivizo modalitetin e përzierjes</string>
+    <string name="exo_controls_shuffle_on_description">Çaktivizo modalitetin e përzierjes</string>
     <string name="exo_controls_vr_description">Modaliteti RV</string>
     <string name="exo_track_selection_auto">Automatike</string>
     <string name="exo_track_selection_none">Asnjë</string>
     <string name="expand_attach_button_content_description">Zgjero butonat e bashkëngjitjes</string>
     <string name="expand_button_title">Të përparuara</string>
     <string name="exposed_dropdown_menu_content_description">Shfaq menynë me lëshim poshtë</string>
+    <string name="express_sign_in_illustration_content_description">Ilustrimi i veçorisë së ndarjes së medias</string>
+    <string name="express_sign_in_sub_title">"Ruaj qartësinë e pastër të videove kur
+identifikohesh dhe dërgon lidhje të \"Fotografive të Google\"."</string>
+    <string name="express_sign_in_title">"Ndaji videot ashtu
+si duhet të shikohen"</string>
     <string name="fail_to_decrypt_message_metadata">Nuk mund të deshifrohet. Trokit për opsionet</string>
     <string name="fail_to_load_dialog_negative_button">Dërgo mesazhe me kartën SIM të pajisjes</string>
     <string name="fail_to_load_dialog_positive_button">Riprovo</string>
@@ -734,6 +764,7 @@ Ndryshimi i këtij cilësimi nuk do të ketë ndikim te mesazhet e enkriptuara n
     <string name="failed_message_content_description">Mesazhi dështoi. Trokit për të riprovuar.</string>
     <string name="failed_qr_pairing_dialog_message">Ndodhi një gabim. Provo përsëri pas disa minutash.</string>
     <string name="failed_qr_pairing_dialog_positive_button_text">Në rregull</string>
+    <string name="failed_to_select_attachment_from_system_picker">Zgjedhja e kësaj bashkëngjitjeje dështoi</string>
     <string name="fast_track_negative_button_text">Jo, faleminderit</string>
     <string name="fast_track_popup_accepted_snack_bar_text">Veçoritë e bisedës po konfigurohen. Do të të informojmë kur të jenë gati.</string>
     <string name="fast_track_popup_declined_snack_bar_text">"Mund t'i aktivizosh veçoritë e bisedës në çdo kohë te \"Cilësimet\"."</string>
@@ -799,6 +830,9 @@ Ndryshimi i këtij cilësimi nuk do të ketë ndikim te mesazhet e enkriptuara n
     <string name="fi_settings_download_over_wifi_title">Sinkronizoje median vetëm nëpërmjet Wi-Fi</string>
     <string name="fi_settings_opt_out_failed">Ndalimi i sinkronizimit dhe dalja nuk mund të kryhen për momentin. Provo përsëri më vonë.</string>
     <string name="fi_settings_opt_out_in_progress">Po ndalohet sinkronizimi dhe po del</string>
+    <string name="fi_settings_redirect_button">Menaxho rezervimin</string>
+    <string name="fi_settings_redirect_summary">"Ato mund t'i gjesh nën menynë e llogarisë"</string>
+    <string name="fi_settings_redirect_title">Cilësimet e \"Rezervimit dhe sinkronizimit\" janë zhvendosur</string>
     <string name="fi_settings_sync_preference_backup_in_progress">Rezervimi në vazhdim: %1$d%%</string>
     <string name="fi_settings_sync_preference_restore_in_progress">Restaurimi në vazhdim: %1$d%%</string>
     <string name="fi_settings_sync_preference_summary">Mesazhet, telefonatat dhe posta zanore qëndrojnë të përditësuara mes ekraneve</string>
@@ -816,6 +850,7 @@ Ndryshimi i këtij cilësimi nuk do të ketë ndikim te mesazhet e enkriptuara n
     <string name="file_transfer_via_sms_other">Kam ndarë një skedar me ty</string>
     <string name="file_transfer_via_sms_video">Kam ndarë një video me ty</string>
     <string name="files_shortcut_title">Skedarët</string>
+    <string name="flip_camera_button_label">Ndërro kamerën</string>
     <string name="floating_toolbar_close_overflow_description">Mbylle tejkalimin</string>
     <string name="floating_toolbar_open_overflow_description">Opsione të tjera</string>
     <string name="foreground_service_notification_generic_text">\"Mesazhet\" po punojnë në sfond</string>
@@ -829,12 +864,27 @@ Ndryshimi i këtij cilësimi nuk do të ketë ndikim te mesazhet e enkriptuara n
     <string name="full_banner_expand_chip_description">Butoni i zgjerimit të çipit</string>
     <string name="full_screen_gallery_action_attach">Shto</string>
     <string name="fullscreen_button_description">Hap ekranin e plotë</string>
+    <string name="gaia_auth_failure_dialog_body">Disa veçori të mundësuara nga \"Llogaria jote e Google\" nuk do të funksionojnë derisa të identifikohesh</string>
+    <string name="gaia_auth_failure_dialog_title">Për të verifikuar që je ti, identifikohu përsëri</string>
+    <string name="gallery_google_photos_option_tray_button_add">Shto</string>
+    <string name="gallery_google_photos_option_tray_button_always">Gjithmonë</string>
+    <string name="gallery_google_photos_option_tray_button_cancel">Anulo</string>
+    <string name="gallery_google_photos_option_tray_button_just_once">Vetëm një herë</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_image">Imazh me qartësi më të ulët</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_unknown">Media me cilësi të ulët</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_video">Video me cilësi të ulët</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_image">Imazh</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_unknown">Media</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_video">Video</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_body">Qartësi e madhe. Menaxho lidhjet e ndara në \"Fotografitë e Google\".</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_learn_more">Mëso më shumë</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_title">Lidhja e \"Fotografive të Google\"</string>
+    <string name="gallery_item_content_description_selected_state">Anulo zgjedhjen e këtij artikulli (%1$s) të bashkëngjitur në pozicionin %2$s duke trokitur dy herë</string>
+    <string name="gallery_item_content_description_unselected_state">Trokit dy herë për të zgjedhur këtë %1$s të nxjerrë më %2$s</string>
     <string name="general_settings">Të përgjithshme</string>
     <string name="general_settings_activity_title">Cilësimet e përgjithshme</string>
     <string name="general_settings_title_m2">Opsionet</string>
     <string name="generic_issue_text">Tjetër</string>
-    <string name="get_messenger_notification_body">Lexo dhe dërgo mesazhe me tekst nga ora ose telefoni</string>
-    <string name="get_messenger_notification_header">Merr \"Mesazhet\"</string>
     <string name="get_sticker_packs_error_msg">Ngarkimi i ngjitëseve dështoi.</string>
     <string name="gif_screen_no_result">Nuk mund të gjendet një përputhje. Kontrollo kërkimin tënd dhe provo përsëri.</string>
     <string name="gif_screen_title">Skedarët GIF</string>
@@ -842,10 +892,23 @@ Ndryshimi i këtij cilësimi nuk do të ketë ndikim te mesazhet e enkriptuara n
     <string name="gif_search_hint">Kërko për skedarë GIF</string>
     <string name="gifs_shortcut_title">Skedarë GIF</string>
     <string name="go_to_top">Shiko më të fundit</string>
-    <string name="google_account_pref_title">Llogaria e Google</string>
     <string name="google_assistant_verification_channel_name">Verifikuesi i \"Asistentit\"</string>
     <string name="google_assistant_verification_notification_title">\"Asistenti i Google\" po dërgon mesazh</string>
     <string name="google_fi_text">Google Fi</string>
+    <string name="google_photos_onboarding_close_button_description">Mbylle kartën e \"Fotografive të Google\"</string>
+    <string name="google_photos_onboarding_ineligible_title">Identifikohu në \"Fotografitë e Google\" për video me qartësi të madhe</string>
+    <string name="google_photos_onboarding_ineligible_title_photos_and_videos">Identifikohu në \"Fotografitë e Google\" për fotografi dhe video me qartësi të madhe</string>
+    <string name="google_photos_onboarding_learn_more">Mëso më shumë</string>
+    <string name="google_photos_onboarding_next">Para</string>
+    <string name="google_photos_onboarding_ok">Në rregull</string>
+    <string name="google_photos_onboarding_signed_in_title_photos_and_videos">Identifikohu për të dërguar fotografi dhe video me qartësi të madhe</string>
+    <string name="google_photos_onboarding_signed_out_title">Identifikohu për të dërguar video me qartësi të madhe</string>
+    <string name="google_photos_onboarding_text_body">Ruaj qartësinë e videove kur i dërgon lidhjet e \"Fotografive të Google\" në biseda me MMS</string>
+    <string name="google_photos_onboarding_text_body_photos_and_videos_xms">Ruaj qartësinë e madhe të medias kur i dërgon lidhjet e \"Fotografive të Google\" në biseda me MMS</string>
+    <string name="google_photos_onboarding_title">Ndaji videot ashtu si duhet të shikohen</string>
+    <string name="google_photos_onboarding_title_photos_and_videos">Ndaji fotografitë dhe videot ashtu si duhet të shikohen</string>
+    <string name="google_photos_option_tray">Identifikohu për të dërguar video më të qarta</string>
+    <string name="google_photos_option_tray_photos_and_videos">Identifikohu për të dërguar fotografi dhe video me qartësi të madhe</string>
     <string name="google_play_protect_title">Google Play Protect</string>
     <string name="google_tos_chat_features_tooltip">"Shiko kur shkruan dikush, merr konfirmimet e leximit dhe dërgo mesazhe, skedarë dhe fotografi me rezolucion të lartë me veçoritë e bisedës nëpërmjet Rich Communication Services (RCS). Kjo përdor të dhëna për dërgimin e mesazheve.
 
@@ -859,8 +922,9 @@ Këtë mund ta çaktivizosh te cilësimet. %1$s"</string>
 
 Kartën SIM të parazgjedhur për telefonatat mund ta ndryshosh te \"Cilësimet e sistemit\". %1$s"</string>
     <string name="google_tos_multisim_view_accessibility_description">Mëso më shumë</string>
+    <string name="google_tos_negative_link_text">Jo, faleminderit</string>
     <string name="group_conversation_title_everyone_else_left">Unë</string>
-    <string name="group_limit_alert_dialog_message">{max_group_size_including_self,plural, =1{Nuk mund të kesh më shumë se # person}other{Nuk mund të kesh më shumë se # persona}}</string>
+    <string name="group_limit_alert_dialog_message">{max_group_size_excluding_self,plural, =1{Nuk mund të kesh më shumë se # person tjetër}other{Nuk mund të kesh më shumë se # persona të tjerë}}</string>
     <string name="group_mms_pref_title">Mesazhe në grup</string>
     <string name="group_name_edit_text_label">Emri i grupit</string>
     <string name="guest_cloud_preview">PAMJA PARAPRAKE</string>
@@ -870,14 +934,19 @@ Kartën SIM të parazgjedhur për telefonatat mund ta ndryshosh te \"Cilësimet 
     <string name="happy_birthday_no_name">Uroje për ditëlindjen!</string>
     <string name="hidden_sender_address">Adresë e fshehur e dërguesit</string>
     <string name="highlighter">Theksuesi</string>
+    <string name="how_it_works_link_text">Si funksionon</string>
+    <string name="hqms_always_send_image_as_link_pref_title">Dërgo gjithmonë imazhe me anë të lidhjeve në mesazhe me tekst (SMS/MMS)</string>
+    <string name="hqms_always_send_video_as_link_pref_title">Dërgo gjithmonë video me anë të lidhjeve në mesazhe me tekst (SMS/MMS)</string>
+    <string name="hqms_settings_gaia_card_text">Menaxho lidhjet në \"Fotografitë e Google\"</string>
+    <string name="hqms_settings_info_text">\"Mesazhet\" i ngarkojnë te \"Fotografitë e Google\", ku mund të menaxhosh ndarjen e lidhjeve të videove. %1$s</string>
+    <string name="hqms_settings_sign_in_prompt_text">Identifikohu në \"Llogarinë tënde të Google\" për të përdorur këtë veçori</string>
     <string name="hqms_settings_summary">Ndaj video me qartësi të madhe në mesazhe me tekst (SMS/MMS)</string>
     <string name="hqms_settings_title">Fotografitë e Google</string>
     <string name="identity_verification_notification_text">\"Mesazhet\" po verifikojnë një mesazh hyrës</string>
     <string name="ignore">Shpërfill</string>
     <string name="image_attachment_content_description">Bashkëngjitje imazhi</string>
     <string name="image_compress_info">Marrësi do të shikojë një cilësi më të ulët të imazhit për shkak të kufijve të operatorit celular për mesazhet MMS</string>
-    <string name="imei_format_dropdown_hint">Vendos formatin e IMEI-së</string>
-    <string name="imsi_format_dropdown_hint">Vendos formatin e IMSI-së</string>
+    <string name="image_format_type">imazh</string>
     <string name="in_conversation_blocked_contact_text">Mund të mos i shikosh të gjitha mesazhet sepse ky bashkëbisedim përmban kontakte të bllokuara.</string>
     <string name="in_conversation_notify_new_message_action">Shiko</string>
     <string name="in_conversation_notify_new_message_text">Mesazh i ri</string>
@@ -887,7 +956,7 @@ Kartën SIM të parazgjedhur për telefonatat mund ta ndryshosh te \"Cilësimet 
     <string name="incoming_message_for_secondary_user_notification_title">Mesazh i ri</string>
     <string name="incoming_message_foreground_notification_text">\"Mesazhet\" po përpunojnë një mesazh hyrës</string>
     <string name="incoming_mms_disabled_by_company_pref_summary">Kompania jote nuk i lejon mesazhet hyrëse MMS</string>
-    <string name="indeterminate">As e zgjedhur as e pazgjedhur</string>
+    <string name="indeterminate">Pjesërisht e shënuar</string>
     <string name="info_and_options_activity_business_tab_list_header">Biznesi</string>
     <string name="info_and_options_activity_info_tab_content_description">Informacione</string>
     <string name="info_and_options_activity_info_tab_title">Informacione</string>
@@ -898,6 +967,9 @@ Kartën SIM të parazgjedhur për telefonatat mund ta ndryshosh te \"Cilësimet 
     <string name="info_and_options_view_terms_of_service">Shiko \"Kushtet e shërbimit\"</string>
     <string name="inline_playback_error">Kjo video nuk mund të luhet te \"Mesazhet\"</string>
     <string name="inline_playback_pause_content_description">Vendose në pauzë videon</string>
+    <string name="install_photos_app">Merr \"Fotografitë e Google\"</string>
+    <string name="install_photos_app_title">Për të vazhduar, merr aplikacionin \"Fotografitë e Google\"</string>
+    <string name="install_photos_app_to_continue">Instalo aplikacionin për të dërguar video me qartësi të madhe</string>
     <string name="invalid_qr_code_dialog_message">"Për t'u identifikuar, skano kodin QR në %s"</string>
     <string name="invalid_qr_code_dialog_positive_button_text">Në rregull</string>
     <string name="invalid_qr_code_dialog_title">Kod i gabuar</string>
@@ -911,14 +983,12 @@ Kartën SIM të parazgjedhur për telefonatat mund ta ndryshosh te \"Cilësimet 
     <string name="leave_confirmation_text">Je i sigurt se dëshiron të ndërpresësh marrjen e mesazheve nga ky grup?</string>
     <string name="leave_confirmation_title">Largohu nga grupi përgjithmonë</string>
     <string name="libraries_material_featurehighlight_dismiss">Injoro</string>
-    <string name="link_preview_enabled_pref_summary">Shfaq pamjet paraprake te mesazhet</string>
+    <string name="lighter_account_sign_out_snackbar_text">Identifikohu për të parë bisedat e tua të biznesit</string>
+    <string name="lighter_block_report_spam_body">Emri i biznesit dhe biseda jote me këtë biznes dërgohen te Google (mund të zbatohen tarifat e operatorit celular).</string>
     <string name="link_preview_enabled_pref_summary_off">Joaktive</string>
     <string name="link_preview_failed">Imazhi paraprak nuk ofrohet</string>
     <string name="link_preview_google_photos_display_name">Fotografitë e Google</string>
-    <string name="link_preview_preference_info_text">Google e merr përmbajtjen e pamjes paraprake nga sajtet e lidhura. Vetëm lidhjet nga dërguesit e njohur përfshijnë pamje paraprake. %1$s</string>
-    <string name="link_preview_preference_title">Pamjet paraprake automatike të lidhjeve</string>
     <string name="link_preview_tap_to_load">Trokit për të ngarkuar pamjen paraprake</string>
-    <string name="link_preview_wifi_only_pref_summary">Shkarkoji pamjet paraprake vetëm në Wi-Fi</string>
     <string name="link_to_settings"><u>Menaxho te \"Cilësimet\"</u></string>
     <string name="listify_many">%1$s dhe %2$d të tjerë</string>
     <string name="listify_one">%s</string>
@@ -965,13 +1035,13 @@ Ndarja e informacioneve të rekomanduara është opsionale dhe nuk përfshin pë
     <string name="manual_msisdn_skipped_snack_bar_text">Veçoritë e përmirësuara të bisedës nuk janë aktivizuar. Aktivizoji në çdo kohë te cilësimet.</string>
     <string name="manual_msisdn_skipped_snack_bar_text_b155475148">\"Mesazhet\" do të përpiqen ta verifikojnë numrin tënd me operatorin tënd celular. Menaxho te \"Cilësimet\".</string>
     <string name="manual_msisdn_verify_now_snack_bar_text_b155475148">\"Mesazhet\" do të përpiqen ta verifikojnë numrin tënd me operatorin tënd celular. Menaxho te \"Cilësimet\".</string>
-    <string name="manually_override_rcs_flags">Anulo manualisht flamujt e RCS-së</string>
     <string name="mark_all_messages_as_read_confirmation">Të gjitha mesazhet u shënuan si të lexuara</string>
     <string name="mdd_download_notification_channel_name">Kanali i njoftimeve të shkarkimit të të dhënave</string>
     <string name="mdd_foreground_service_notification_title">Po shkarkon</string>
     <string name="mdd_notification_action_cancel">Anulo</string>
     <string name="mdd_notification_download_failed">Shkarkimi dështoi</string>
     <string name="mdd_notification_download_paused">Në pritje të lidhjes së rrjetit</string>
+    <string name="mdd_notification_download_paused_wifi">Në pritje të lidhjes Wi-Fi</string>
     <string name="media_compress_info">Marrësi do të shikojë një cilësi më të ulët të medias për shkak të kufijve të operatorit celular për mesazhet MMS</string>
     <string name="media_compress_tooltip_info_icon_text">informacione</string>
     <string name="media_viewer_close_button_description">Mbyll</string>
@@ -1070,6 +1140,8 @@ Ndarja e informacioneve të rekomanduara është opsionale dhe nuk përfshin pë
     <string name="message_type_vcard">Kartë kontakti</string>
     <string name="message_type_video">Video</string>
     <string name="message_video_content_description">Video</string>
+    <string name="message_with_deleted_snippet_talk_back_announcement">%1$s në përgjigje të një mesazhi të fshirë</string>
+    <string name="message_with_reply_snippet_talk_back_announcement">%1$s në përgjigje të mesazhit \"%2$s\" nga %3$s</string>
     <string name="messages_for_web_preference_summary">Shko te %1$s</string>
     <string name="messages_for_web_preference_title">Dërgo mesazhe me tekst, bëj telefonata dhe kontrollo postën zanore në ueb</string>
     <string name="messages_status_feedback_data_description">"Të gjitha informacionet e rekomanduara janë të dobishme për të zbuluar problemet e fshehura, shkaqet e ndryshme, si lidhen me njëra-tjetrën dhe ku t'i zgjidhësh ata.
@@ -1122,11 +1194,15 @@ Mund t'u përgjigjesh kodeve të shkurtra që kanë vetëm numra, por jo kodeve 
     <string name="mms_phone_number_pref_title">Numri i telefonit</string>
     <string name="mms_text">MMS</string>
     <string name="mtrl_badge_numberless_content_description">Njoftim i ri</string>
+    <string name="mtrl_checkbox_state_description_checked">Checked</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Indeterminate</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Not checked</string>
     <string name="mtrl_chip_close_icon_content_description">Hiq %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Më shumë se %1$d njoftime të reja</string>
     <string name="mtrl_picker_a11y_next_month">Ndrysho te muaji i ardhshëm</string>
     <string name="mtrl_picker_a11y_prev_month">Ndrysho te muaji i kaluar</string>
     <string name="mtrl_picker_announce_current_selection">Zgjedhja aktuale: %1$s</string>
+    <string name="mtrl_picker_cancel">Anulo</string>
     <string name="mtrl_picker_confirm">Në rregull</string>
     <string name="mtrl_picker_day_of_week_column_header">Kolona e ditëve: %1$s</string>
     <string name="mtrl_picker_navigate_to_year_description">Navigo te viti %1$s</string>
@@ -1138,11 +1214,24 @@ Mund t'u përgjigjesh kodeve të shkurtra që kanë vetëm numra, por jo kodeve 
     <string name="multimedia_message">Mesazh multimedial</string>
     <string name="muted_conversation_content_description">Njoftimet janë çaktivizuar.</string>
     <string name="nav_app_bar_navigate_up_description">Ngjitu lart</string>
+    <string name="nav_archived_messages_folder_title">Arkivuar</string>
+    <string name="nav_choose_theme_title">Zgjidh temën</string>
+    <string name="nav_choose_theme_title_disable_dark_mode">Çaktivizo modalitetin e errët</string>
+    <string name="nav_choose_theme_title_enable_dark_mode">Aktivizo modalitetin e errët</string>
+    <string name="nav_device_pairing_title">Çiftimi i pajisjes</string>
+    <string name="nav_mark_all_as_read_title">Shëno të gjitha si të lexuara</string>
+    <string name="nav_messages_folder_title">Mesazhet</string>
+    <string name="nav_spam_and_blocked_messages_folder_title">Të bezd. e të bllokuara</string>
+    <string name="nav_starred_folder_title">Me yll</string>
     <string name="navigate_up_button_content_description">Ngjitu lart</string>
     <string name="new_message_label">{count,plural, =1{1 mesazh i ri}other{# mesazhe të reja}}</string>
     <string name="new_pill_label">E re</string>
     <string name="new_rich_cards_preference_info_text">Google skanon informacione të përzgjedhura (si p.sh. vendet ose lidhjet) nga historiku yt i bisedës pa të identifikuar ty për të krijuar të gjitha pamjet paraprake dhe për të identifikuar përmbajtjet e dëmshme. %1$s</string>
-    <string name="no_google_account">Asnjë</string>
+    <string name="no_business_name_fallback">këtë biznes</string>
+    <string name="no_connection">Nuk ka lidhje</string>
+    <string name="no_media_button">Shiko opsionet</string>
+    <string name="no_media_caption">Provo një profil ose burim tjetër të medias</string>
+    <string name="no_media_description">Nuk ka asnjë media të ruajtur në këtë pajisje për këtë profil</string>
     <string name="no_reply_pinned_message_text">Dërguesi nuk i mbështet përgjigjet</string>
     <string name="no_sim_message">Nuk ka mesazhe në kartën SIM</string>
     <string name="not_selected">Nuk është zgjedhur</string>
@@ -1198,31 +1287,51 @@ Mund t'u përgjigjesh kodeve të shkurtra që kanë vetëm numra, por jo kodeve 
     <string name="nudge_learn_more_info_text">Më shumë rreth shtytjeve</string>
     <string name="nudge_reply_enabled_pref_summary">Mesazhet që mund të kenë nevojë për një përgjigje nga ti do të zhvendosen në krye</string>
     <string name="nudge_reply_enabled_pref_title">Sugjero alarmet rikujtuese për përgjigjet</string>
+    <string name="nudge_settings_page_description">Shfaq alarmet rikujtuese për përgjigjet dhe ditëlindjet</string>
     <string name="nudge_settings_page_title">Shtytjet</string>
     <string name="numeric_text_keyboard_toggle_button_content_description">Kalo mes futjes së tekstit dhe numrave</string>
     <string name="off">Joaktiv</string>
     <string name="og_a11y_close">Mbyll</string>
     <string name="og_account_and_settings">Llogaria dhe cilësimet.</string>
+    <string name="og_account_particle_disc_no_accounts_available_a11y">Identifikohu</string>
     <string name="og_add_another_account">Shto llogari tjetër</string>
+    <string name="og_app_settings">Cilësimet e %1$s</string>
     <string name="og_choose_an_account_title">Zgjidh një llogari</string>
     <string name="og_collapse_account_list_a11y">Palos listën e llogarive.</string>
     <string name="og_continue">Vazhdo</string>
     <string name="og_continue_as">Vazhdo si %1$s</string>
     <string name="og_expand_account_list_a11y">Zgjero listën e llogarive.</string>
+    <string name="og_get_storage_action">Merr hapësirë ruajtëse</string>
+    <string name="og_get_storage_action_short">Bli më shumë</string>
     <string name="og_google_one_account_a11y">Llogaria e Google One.</string>
+    <string name="og_help_feedback">Ndihma dhe komentet</string>
     <string name="og_loading_a11y">Po ngarkohet</string>
     <string name="og_manage_accounts">Menaxho llogaritë në këtë pajisje</string>
+    <string name="og_manage_storage_action">Menaxho hapësirën ruajtëse</string>
+    <string name="og_manage_storage_action_short">Menaxho</string>
+    <string name="og_minimized_storage_card_title">Hapësira ruajtëse e përdorur: %1$s nga %2$s GB</string>
+    <string name="og_more_options_action">Opsione të tjera</string>
+    <string name="og_more_options_action_short">Opsionet</string>
     <string name="og_my_account_desc_long_length">Menaxho llogarinë tënde të Google</string>
     <string name="og_my_account_desc_meduim_length">Llogaria e Google</string>
     <string name="og_my_account_desc_short_length">Llogaria</string>
+    <string name="og_privacy_advisor">Të dhënat e tua në %1$s</string>
     <string name="og_privacy_policy">Politika e privatësisë</string>
     <string name="og_selected_account_a11y">Është zgjedhur %1$s.</string>
     <string name="og_sign_in_">Identifikohu</string>
     <string name="og_signed_in_as_account">Identifikuar si %1$s</string>
+    <string name="og_storage_card_almost_full_a11y_label">Hapësira ruajtëse e llogarisë sate është pothuajse plot</string>
+    <string name="og_storage_card_full_a11y_label">Hapësira ruajtëse e llogarisë sate është plot</string>
+    <string name="og_storage_card_title">Hapësira ruajtëse e llogarisë</string>
+    <string name="og_storage_card_title_almost_full">%1$s e hapësirës ruajtëse e përdorur</string>
+    <string name="og_storage_card_title_full">Nuk ka hapësirë ruajtëse</string>
+    <string name="og_storage_progress_subtitle">Hapësira e përdorur: %1$s GB nga %2$s GB</string>
     <string name="og_terms_of_service">Kushtet e shërbimit</string>
     <string name="og_use_account_a11y_no_period">Përdor %1$s</string>
+    <string name="og_use_without_an_account">Përdore pa llogari</string>
     <string name="on">Aktiv</string>
     <string name="onboarding_google_tos_with_sms_charges_and_learn_more">Për të aktivizuar veçoritë e bisedës nga Google, ti pranon %1$s dhe %2$s. Google do të verifikojë herë pas here numrin tënd duke shkëmbyer informacionet e pajisjes sate me operatorin tënd celular (mund të zbatohen tarifa për mesazhet SMS). %3$s.</string>
+    <string name="open_full_screen_camera_button_label">Hape kamerën në ekran të plotë</string>
     <string name="open_video_trimmer_dialog_negative">Anulo</string>
     <string name="open_video_trimmer_dialog_positive">Shkurto</string>
     <string name="organization">Organizata</string>
@@ -1236,8 +1345,6 @@ Mund t'u përgjigjesh kodeve të shkurtra që kanë vetëm numra, por jo kodeve 
     <string name="otp_auto_deletion_promo_banner_positive_button_text">Vazhdo</string>
     <string name="otp_auto_deletion_promo_banner_title_text">Të fshihen automatikisht fjalëkalimet OTP pas 24 orësh?</string>
     <string name="otp_copied_to_clipboard">Kodi u kopjua</string>
-    <string name="otp_pattern_dropdown_hint">Vendos motivin e OTP-së</string>
-    <string name="otp_port_dropdown_hint">Vendos portën e OTP-së</string>
     <string name="outgoing_message_foreground_notification_text">\"Mesazhet\" po përpunojnë një mesazh dalës</string>
     <string name="outgoing_mms_disabled_by_carrier_pref_summary">Operatori yt celular nuk i lejon mesazhet dalëse MMS</string>
     <string name="outgoing_mms_disabled_by_company_pref_summary">Kompania jote nuk i lejon mesazhet dalëse MMS</string>
@@ -1263,6 +1370,7 @@ Mund t'u përgjigjesh kodeve të shkurtra që kanë vetëm numra, por jo kodeve 
     <string name="paired_desktops_last_connection_time">Aktiv së fundi: %s</string>
     <string name="paired_desktops_last_connection_time_unknown">e panjohur</string>
     <string name="participant_joined_group">%s u bashkuan në këtë grup</string>
+    <string name="participant_joined_with_learn_more">%1$s u bashkuat në këtë grup. %2$s</string>
     <string name="participant_left_group">%s u larguan nga ky grup</string>
     <string name="participant_list_add">Shto njerëz</string>
     <string name="participant_list_count_title_icu">{count,plural, =0{0 persona të tjerë}=1{1 person tjetër}other{# persona të tjerë}}</string>
@@ -1282,6 +1390,7 @@ Mund t'u përgjigjesh kodeve të shkurtra që kanë vetëm numra, por jo kodeve 
     <string name="phone_number_input_body_for_mo_text">"Ose kapërceje këtë për t'i marrë veçoritë e bisedës më vonë dhe \"Mesazhet\" do të përpiqen ta verifikojnë numrin tënd me operatorin tënd celular"</string>
     <string name="phone_number_input_body_text">Për të siguruar që të marrësh veçoritë e bisedës, \"Mesazhet\" verifikojnë numrin tënd</string>
     <string name="phone_number_input_hint">Numri yt i telefonit</string>
+    <string name="phone_number_input_invalid_number_text">Numër telefoni i pavlefshëm</string>
     <string name="phone_number_input_negative_button_for_mo_text">Kapërce për momentin</string>
     <string name="phone_number_input_negative_button_for_mt_text">Më kujto më vonë</string>
     <string name="phone_number_input_positive_button_text">Shto një numër</string>
@@ -1298,10 +1407,25 @@ Mund t'u përgjigjesh kodeve të shkurtra që kanë vetëm numra, por jo kodeve 
     <string name="phone_number_input_title_text">Për të marrë më shpejt veçoritë e bisedës, shto numrin tënd tani</string>
     <string name="phone_number_input_tos_reminder_text">Ke pranuar më parë %1$s për veçoritë e bisedës</string>
     <string name="phone_number_input_tos_text">Kushtet e shërbimit</string>
+    <string name="phone_number_promo_banner_body_text">Për të dërguar video me qartësi të madhe, reagime me animacione dhe më shumë nëpërmjet Wi-Fi ose të dhënave celulare, konfirmo numrin tënd të telefonit</string>
+    <string name="phone_number_promo_banner_negative_button_text">Hiq</string>
+    <string name="phone_number_promo_banner_positive_button_text">Para</string>
+    <string name="phone_number_promo_banner_title_text">Hapi tjetër drejt veçorive më të mira të \"Mesazheve\"</string>
+    <string name="phone_number_promo_body_text">Fillo tani me numrin tënd të verifikuar të telefonit. Menaxhoji veçoritë e bisedës në çdo kohë te cilësimet</string>
+    <string name="phone_number_promo_body_text_mo">"Fillo tani me numrin tënd të verifikuar të telefonit. Ose kapërceje për t'i marrë veçoritë e bisedës më vonë dhe \"Mesazhet\" do të përpiqen ta verifikojnë numrin tënd për ty."</string>
+    <string name="phone_number_promo_negative_button_text">Më kujto më vonë</string>
+    <string name="phone_number_promo_negative_button_text_mo">Kapërce për momentin</string>
+    <string name="phone_number_promo_positive_button_text">Merr veçoritë e bisedës</string>
+    <string name="phone_number_promo_title_text">Gati për të ndarë fotografi, video etj. nëpërmjet Wi-Fi ose të dhënave?</string>
+    <string name="phone_number_ui_accepted_snackbar_text">Do të njoftohesh kur të ofrohen veçoritë e bisedës</string>
+    <string name="phone_number_ui_dismissed_snackbar_action_text">Cilësimet</string>
+    <string name="phone_number_ui_dismissed_snackbar_text">Për të marrë veçoritë e bisedës tani, shto numrin tënd të telefonit ose menaxhoji ato te cilësimet</string>
     <string name="photo_taken">Fotografia u realizua</string>
+    <string name="photos_app_installation_required">Për të dërguar video me qartësi të madhe, merr aplikacionin \"Fotografitë e Google\"</string>
+    <string name="photos_app_onboarding_required">Për të dërguar video me qartësi të madhe, lejo qasjen e \"Fotografive të Google\"</string>
+    <string name="photos_app_sharing_unavailable_try_again_later">"Lidhja e videos me qartësi të madhe nuk ofrohet përkohësisht. Videoja me qartësi të ulët është gati për t'u dërguar."</string>
+    <string name="photos_app_sign_in_required">Për të dërguar video me qartësi të madhe, identifikohu në \"Fotografitë e Google\"</string>
     <string name="picker_disambiguation_title">Zgjidh destinacionin</string>
-    <string name="pin_limit_message">Mund të gozhdosh deri në %1$d biseda</string>
-    <string name="pin_success_message">Bisedat e gozhduara: %1$d nga %2$d</string>
     <string name="pinch_zoom_pref_title">Lëviz gishtat për zmadhimin e tekstit të bisedës</string>
     <string name="places_autocomplete_clear_button">Pastro kërkimin</string>
     <string name="places_autocomplete_label">Zgjidh një vend</string>
@@ -1351,10 +1475,11 @@ Informacionet për mesazhet dhe bisedat e tua përfshijnë numrat e telefonit dh
 Këto informacione ndihmojnë për të verifikuar supozimet dhe për të identifikuar faktorët që kanë ndikim te problemi për ta kuptuar problemin në një mënyrë më efikase dhe më të shpejtë."</string>
     <string name="problematic_message_feedback_data_rationale_title">Si mund të ndihmojnë informacionet për mesazhet dhe bisedat e tua</string>
     <string name="promotion_content_description">Ky mesazh është kategorizuar si ofertë</string>
+    <string name="prompt_button_action_not_now">Jo tani</string>
+    <string name="prompt_button_action_sign_in">Identifikohu</string>
     <string name="proxy_screen_clear_search">Pastro kërkimin</string>
     <string name="proxy_screen_search">Kërko</string>
     <string name="qr_action_bar_device_pairing_title">Çiftimi i pajisjes</string>
-    <string name="qr_action_bar_title">Mesazhet për ueb</string>
     <string name="qr_code_scanner_hint_text">Skano kodin QR të shfaqur në&lt;br/><b>%s</b></string>
     <string name="qr_code_scanner_preference_button">Skaneri i kodeve QR</string>
     <string name="qr_delete_all_paired_desktops_button_text">Anulo çiftimin e të gjitha pajisjeve</string>
@@ -1369,6 +1494,8 @@ Këto informacione ndihmojnë për të verifikuar supozimet dhe për të identif
     <string name="qr_welcome_privacy">Politika e privatësisë</string>
     <string name="qr_welcome_terms_of_service">Kushtet e shërbimit</string>
     <string name="rbm_block_confirmation_message_spam_folder">Nuk do të njoftohesh më kur të marrësh mesazhe nga %1$s. Kjo bisedë do të zhvendoset te “Të bezdisshme dhe të bllokuara”. %2$s</string>
+    <string name="rbm_block_dialog_body">Nuk do të marrësh mesazhe nga ky dërgues. Kjo bisedë do të zhvendoset te \"Të bezdisshme dhe të bllokuara\", ku mund ta zhbllokosh në çdo kohë.</string>
+    <string name="rbm_block_dialog_positive_button_label">Blloko</string>
     <string name="rbm_business_logo_icon_content_description">Ikona e logos së biznesit</string>
     <string name="rbm_platform_generalized_verifier_title">Verifikuar nga %s</string>
     <string name="rbm_platform_verified_by_google">Verifikuar nga Google</string>
@@ -1388,6 +1515,7 @@ Këto informacione ndihmojnë për të verifikuar supozimet dhe për të identif
     <string name="rcs_learn_more_title">%1$s rreth veçorive të bisedës</string>
     <string name="rcs_learn_more_title_with_no_link">Mëso më shumë për veçoritë e bisedës</string>
     <string name="rcs_message">Mesazh shërbimi i komunikimit të pasur</string>
+    <string name="rcs_message_failed_recipient_lost_encryption_content_description">Nuk mund të dorëzohet. Trokit për opsionet</string>
     <string name="rcs_message_failed_recipient_lost_rcs_content_description">Nuk mund të dorëzohet. Trokit për opsionet</string>
     <string name="rcs_mobile_data_auto_download_carrier_format_entry">I parazgjedhur (%1$s)</string>
     <string name="rcs_mobile_data_auto_download_limit_disable_entry_text">Çaktivizo</string>
@@ -1470,11 +1598,12 @@ Këto informacione ndihmojnë për të verifikuar supozimet dhe për të identif
     <string name="reaction_surprised_content_description">Fytyrë me gojë hapur</string>
     <string name="reactions_promo_announcement">Kryej një shtypje të gjatë për të reaguar</string>
     <string name="reactions_promo_text">Prek dhe mbaj të shtypur për të reaguar</string>
-    <string name="read_external_storage_permission_description">Për të shikuar përmbajtjet e galerisë drejtpërdrejt nga këtu, kërkohet qasja te hapësira ruajtëse e telefonit tënd.</string>
+    <string name="read_media_storage_permission_description">Për të shikuar përmbajtjet e galerisë drejtpërdrejt nga këtu, kërkohet qasja te hapësira ruajtëse e medias e telefonit tënd.</string>
     <string name="received_label">Marrë:</string>
     <string name="recipient_hint">Shkruaj një emër, numër telefoni ose email</string>
     <string name="recipient_label">Për</string>
     <string name="recipient_offline_description">Në pritje deri sa %s të jetë në linjë…</string>
+    <string name="reminder_badge_content_description">Stema e alarmeve rikujtuese</string>
     <string name="reminder_datetime_picker_dialog_delete_button">Fshi</string>
     <string name="reminder_datetime_picker_dialog_menu_title_add">Cakto një alarm rikujtues</string>
     <string name="reminder_datetime_picker_dialog_menu_title_update">Përditëso alarmin rikujtues</string>
@@ -1495,7 +1624,7 @@ Këto informacione ndihmojnë për të verifikuar supozimet dhe për të identif
     <string name="reminder_suggestions_tooltip_text">Trokit dhe zgjidh një kohë për ta vazhduar më vonë. Çaktivizo sugjerimet te &lt;a href>Cilësimet&lt;/a></string>
     <string name="reminder_suggestions_tooltip_title_text">Vendos alarme rikujtuese</string>
     <string name="reminders_banner_body">%1$s: %2$s</string>
-    <string name="reminders_banner_description">@string/banner_description</string>
+    <string name="reminders_banner_description">Reminder conversation banner</string>
     <string name="reminders_banner_done_button">U krye</string>
     <string name="reminders_banner_remind_button">Kujto për 1 orë</string>
     <string name="reminders_banner_self_sender_name">Ti</string>
@@ -1508,7 +1637,7 @@ Këto informacione ndihmojnë për të verifikuar supozimet dhe për të identif
     <string name="remove_reaction_from_gif_rcs_fallback_text">‌%1$s‌ u hoq nga një GIF</string>
     <string name="remove_reaction_from_link_rcs_fallback_text">‌%1$s‌ u hoq nga një lidhje</string>
     <string name="remove_reaction_from_photo_rcs_fallback_text">‌%1$s‌ u hoq nga një fotografi</string>
-    <string name="remove_reaction_from_text_message_rcs_fallback_text">‌%1$s‌ u hoq nga \"%2$s\"</string>
+    <string name="remove_reaction_from_text_message_rcs_fallback_text">‌%1$s‌ u hoq nga \" %2$s \"</string>
     <string name="remove_reaction_from_unknown_message_type_rcs_fallback_text">‌%1$s‌ u hoq nga një lloj i panjohur mesazhi</string>
     <string name="remove_reaction_from_video_rcs_fallback_text">‌%1$s‌ u hoq nga një video</string>
     <string name="remove_user_dialog_cancel">Anulo</string>
@@ -1517,14 +1646,17 @@ Këto informacione ndihmojnë për të verifikuar supozimet dhe për të identif
     <string name="rename_group_title_m2">Emri i grupit</string>
     <string name="reply_activity_title">Përgjigju</string>
     <string name="reply_button_label">Përgjigju</string>
-    <string name="reply_icon_content_description">Përgjigju mesazhit</string>
+    <string name="reply_icon_content_description">Përgjigju</string>
     <string name="report_contact_title">Raportoje si të bezdisshëm</string>
     <string name="report_failed_rcs_group_creation">Ndodhi një gabim dhe një ose më shumë pjesëmarrës nuk janë shtuar.</string>
     <string name="report_group_spam_body_spam_folder">Numrat dhe mesazhet e fundit me tekst të anëtarëve të tjerë të grupit do të dërgohen te Google për rishikim dhe mund të dërgohen tek operatori yt celular (mund të zbatohen tarifa). Kjo bisedë do të mbetet te \"Të bezdisshme dhe të bllokuara\", pa njoftime. %1$s</string>
+    <string name="report_invalid_thread_id_issue_description">ID e pavlefshme e bashkëbisedimit. Shiko evidencat për detaje.</string>
     <string name="report_issue_action_text">Dërgo komente</string>
+    <string name="report_issue_description">Aplikacioni \"Mesazhet\" zbuloi automatikisht një gabim. Shiko evidencat për detaje.</string>
     <string name="report_issue_notification_text">U zbulua një gabim te \"Mesazhet\". Trokit për të dërguar komente.</string>
     <string name="report_not_spam_snackbar_message">%1$s u raportua si jo i bezdisshëm</string>
     <string name="report_person_delivered">%1$s e mori në: %2$s</string>
+    <string name="report_person_ftd">Deshifrimi nga %1$s dështoi: %2$s</string>
     <string name="report_person_read">%1$s e lexoi në: %2$s</string>
     <string name="report_person_sent">%s nuk e ka marrë</string>
     <string name="report_receive_issue_notification_message">Android nuk mund të marrë një mesazh të dërguar për ty. Trokit për të dërguar komente.</string>
@@ -1537,6 +1669,7 @@ Këto informacione ndihmojnë për të verifikuar supozimet dhe për të identif
     <string name="report_spam_snackbar_message">%1$s u raportua si jo i bezdisshëm</string>
     <string name="report_spam_toast_title">U raportua si postë e bezdisshme</string>
     <string name="report_telephone_db_recreation_message">Problem me marrjen e mesazheve. Trokit për të dërguar komente.</string>
+    <string name="report_thread_id_not_found_description">ID-ja e bashkëbisedimit mungon. Shiko evidencat për detaje.</string>
     <string name="required_permissions_no_promptable_promo">Ndrysho lejet në cilësimet e aplikacionit në pajisje. Lejo që aplikacioni \"Mesazhet\" të ketë qasje te mesazhet SMS, \"Telefoni\" dhe \"Kontaktet\".</string>
     <string name="required_permissions_no_promptable_title">Jepi mundësinë e qasjes</string>
     <string name="required_permissions_promptable_promo">Për të përfunduar konfigurimin e aplikacionit tënd të parazgjedhur, lejo që \"Mesazhet\" të shikojnë mesazhet SMS, \"Telefonin\" dhe \"Kontaktet\" e tua</string>
@@ -1556,6 +1689,11 @@ Këto informacione ndihmojnë për të verifikuar supozimet dhe për të identif
     <string name="samsung_setting_search_title">Cilësimet e \"Mesazheve\"</string>
     <string name="save">Ruaj</string>
     <string name="save_attachment">Ruaj</string>
+    <string name="save_banner_body">Ruaje këtë ditëlindje në aplikacionin e kontakteve dhe \"Mesazhet\" do të të kujtojnë vitin e ardhshëm</string>
+    <string name="save_banner_positive_button">Ruaje ditëlindjen</string>
+    <string name="save_banner_title_name">Mos e harro ditëlindjen e %1$s</string>
+    <string name="save_banner_title_no_name">Mos ia harro ditëlindjen</string>
+    <string name="save_birthday_banner_description">@string/banner_description</string>
     <string name="save_otp_confirm_button">Ruaj fjalëkalimin njëpërdorimësh</string>
     <string name="save_otp_dialog_message">Ky fjalëkalim njëpërdorimësh do të ruhet ndërsa fjalëkalimet e tjera njëpërdorimëshe do të vazhdojnë të fshihen automatikisht pas 24 orësh. Menaxhoje te cilësimet.</string>
     <string name="save_otp_dialog_title">Të ruhet ky fjalëkalim njëpërdorimësh?</string>
@@ -1574,6 +1712,7 @@ Këto informacione ndihmojnë për të verifikuar supozimet dhe për të identif
     <string name="scheduled_send_announcement_scheduling_failed">Planifikimi i mesazhit dështoi.</string>
     <string name="scheduled_send_announcement_scheduling_started">Mesazhi po planifikohet.</string>
     <string name="scheduled_send_announcement_scheduling_succeeded">Mesazhi u planifikua.</string>
+    <string name="scheduled_send_badge_content_description">Stema e dërgimit të planifikuar</string>
     <string name="scheduled_send_compose_label_close_content_description">Hiqe planifikimin.</string>
     <string name="scheduled_send_datetime_picker_subtitle">Për të dërguar, mbaje telefonin ndezur dhe lidhu me Wi-Fi ose të dhënat celulare</string>
     <string name="scheduled_send_datetime_picker_title">Planifiko dërgimin (%1$s)</string>
@@ -1601,6 +1740,7 @@ Këto informacione ndihmojnë për të verifikuar supozimet dhe për të identif
     <string name="security_key_top_level_title">Verifiko enkriptimin</string>
     <string name="see_gallery">Shiko galerinë</string>
     <string name="selected">Zgjedhur</string>
+    <string name="selection_position_text">%1$d</string>
     <string name="self_left_group_conversation_failed">Largimi nga grupi dështoi. Provo përsëri më vonë.</string>
     <string name="self_participant_reaction_name">Ti</string>
     <string name="self_person_name">Ti</string>
@@ -1650,7 +1790,6 @@ Numri yt i telefonit përdoret vetëm për diagnostikimin dhe zgjidhjen e proble
     <string name="sending_timeout_failure_dialog_title">Mesazhi nuk u dërgua</string>
     <string name="sent_label">Dërguar:</string>
     <string name="set_message_priority_description">Vendos statusin urgjent</string>
-    <string name="set_rcs_flags">Cakto flamujt e RCS-së</string>
     <string name="set_rcs_mobile_data_auto_download_limit_title">Shkarko automatikisht skedarët që merr nëpërmjet të dhënave celulare</string>
     <string name="setting_fast_track_body_with_cost">"Duke vazhduar, ti pranon %1$s dhe %2$s. Për dorëzimin e mesazheve në bazë të numrit të telefonit, Google mund të verifikojë herë pas here numrin tënd duke shkëmbyer informacionet e pajisjes sate me operatorin tënd celular ose nëpërmjet mesazheve SMS (mund të zbatohen tarifa). Mund t'i çaktivizosh veçoritë e bisedës nga \"Cilësimet\". %3$s"</string>
     <string name="settings_activity_title">Cilësimet</string>
@@ -1673,6 +1812,13 @@ Numri yt i telefonit përdoret vetëm për diagnostikimin dhe zgjidhjen e proble
     <string name="shortcuts_screen_title">Shkurtoret</string>
     <string name="show_sms_link_warning_change_label">Ndrysho</string>
     <string name="show_sms_link_warning_text">Bashkëngjitjet do të dërgohen si mesazhe SMS që përfshijnë një lidhje për te bashkëngjitja</string>
+    <string name="sign_in_app_name_without_account">Përdor \"%1$s\" pa llogari</string>
+    <string name="sign_in_cancel">Anulo</string>
+    <string name="sign_in_without_account">Përdore pa llogari</string>
+    <string name="sign_in_without_account_short">Pa llogari</string>
+    <string name="sign_into_photos_app">Identifikohu</string>
+    <string name="sign_into_photos_app_title">Për të vazhduar, identifikohu në \"Fotografitë e Google\"</string>
+    <string name="sign_into_photos_app_with_x_to_continue">Aktualisht po dërgon nga %1$s</string>
     <string name="signature_banner_description">@string/banner_description</string>
     <string name="silent_ringtone">Në heshtje</string>
     <string name="sim_label">Karta SIM:</string>
@@ -1691,9 +1837,13 @@ Numri yt i telefonit përdoret vetëm për diagnostikimin dhe zgjidhjen e proble
     <string name="sim_storage_full_title">Hapësira ruajtëse e kartës SIM është plot</string>
     <string name="sim_storage_pref_title">Mesazhet e kartës SIM</string>
     <string name="simple_fail_to_decrypt_message_dialog_body">Për të deshifruar mesazhet e ardhshme, provo ta përditësosh aplikacionin \"Mesazhet\"</string>
+    <string name="smart_action_settings_page_description">Shfaq shkurtoret përkatëse për te kalendari, kërkimi i imazheve GIF, vendndodhja e ndarë etj.</string>
+    <string name="smart_action_settings_page_title">Veprimet</string>
+    <string name="smart_actions_preference_summary_shortcuts">Shfaq shkurtoret përkatëse për te kalendari, kërkimi i imazheve GIF, vendndodhja e ndarë etj.</string>
     <string name="smart_actions_preference_title">Veprimet e sugjeruara</string>
     <string name="smart_compose_preference_summary">Shfaq sugjerimet parashikuese për shkrimin</string>
     <string name="smart_compose_preference_title">Hartimi inteligjent</string>
+    <string name="smart_reply_preference_summary">Shfaq opsionet e përgjigjes së bisedës</string>
     <string name="smarts_preference_info_text">"\"Përgjigjja inteligjente\" dhe veprimet e sugjeruara janë të dukshme vetëm për ty deri sa të trokasësh tek ato dhe t'i ndash. &lt;br/> &lt;br/> Sugjerimet ndryshojnë në bazë të bisedës dhe krijohen në pajisje. %1$s"</string>
     <string name="smarts_preference_info_text_with_assistant">Përgjigjja inteligjente, veprimet e sugjeruara dhe sugjerimet e \"Asistentit\" krijohen me inteligjencën në pajisje nga \"Mesazhet\". &lt;br/> &lt;br/>Sugjerimet nuk ndahen me Google dhe asnjë tjetër deri sa të trokasësh tek ato. &lt;br/> &lt;br/> Nëse lejon që \"Mesazhet\" të kenë qasje te vendndodhja e pajisjes, do të shikosh më shumë sugjerime lokale. %1$s</string>
     <string name="smarts_settings_page_summary">\"Përgjigjja inteligjente\", veprimet e sugjeruara etj.</string>
@@ -1710,7 +1860,7 @@ Përgjigjet do të shfaqen në biseda individuale"</string>
     <string name="sms_encoding_pref_title">Përdor shkronjat e thjeshta</string>
     <string name="sms_error_template">%1$s (Kodi i gabimit: %2$d)</string>
     <string name="sms_protocol_label">SMS</string>
-    <string name="sms_text">MESAZH</string>
+    <string name="sms_text">SMS</string>
     <string name="smsc_number_pref_summary">Mesazhet SMS mund të ndalojnë së funksionuari nëse e ndryshon ose e fshin këtë numër</string>
     <string name="smsc_number_pref_title_pre_r">Numri SMSC i personalizuar</string>
     <string name="smsc_number_pref_title_r_plus">SMSC</string>
@@ -1720,19 +1870,18 @@ Përgjigjet do të shfaqen në biseda individuale"</string>
     <string name="snackbar_text_label_rcs_group_created_too_large">{max_group_size_including_self,plural, =1{Nuk mund të kesh më shumë se # person}other{Nuk mund të kesh më shumë se # persona}}</string>
     <string name="snackbar_text_label_rcs_group_self_only">Ky grup është bosh. Shto persona në këtë grup para se të dërgosh mesazhe në këtë bisedë.</string>
     <string name="snippet">%1$s: %2$s</string>
-    <string name="snippet_assistant_card_text">Kartë e \"Asistentit\"</string>
-    <string name="snippet_attachment_icon_content_description">Ikona e bashkëngjitjes e fragmentit të përgjigjes</string>
     <string name="snippet_audio_attachment_text">Audio</string>
     <string name="snippet_deleted_message_text">Mesazhi u fshi</string>
-    <string name="snippet_dismiss_icon_content_description">Ikona e heqjes së përgjigjes</string>
+    <string name="snippet_dismiss_icon_content_description">Fshi</string>
     <string name="snippet_file_attachment_text">Skedar</string>
     <string name="snippet_from_you">Ti: %s</string>
-    <string name="snippet_image_attachment_text">Imazh</string>
-    <string name="snippet_media_thumbnail_content_description">Miniatura e medias e fragmentit të përgjigjes</string>
+    <string name="snippet_image_attachment_text">Fotografia</string>
     <string name="snippet_self_participant_header">Ti</string>
     <string name="snippet_video_attachment_text">Video</string>
     <string name="soft_num_key_pad_backspace_content_description">Butoni \"Kthim prapa\"</string>
     <string name="someone_added_participant">%1$s shtoi %2$s te ky grup</string>
+    <string name="someone_added_participant_with_learn_more">%1$s shtoi %2$s në këtë grup. %3$s</string>
+    <string name="someone_else_created_encrypted_rcs_group">%1$s krijoi këtë grup bisede me %2$s. %3$s</string>
     <string name="someone_else_created_mms_group">%1$s krijoi këtë MMS në grup me %2$s</string>
     <string name="someone_else_created_rcs_group">%1$s krijoi këtë grup bisede me %2$s</string>
     <string name="someone_joined_group">Dikush iu bashkua këtij grupi</string>
@@ -1756,7 +1905,6 @@ Përgjigjet do të shfaqen në biseda individuale"</string>
     <string name="spam_dialog_title_spam_folder">Do ta raportosh si të bezdisshme?</string>
     <string name="spam_folder_activity_title">Të bezdisshme dhe të bllokuara</string>
     <string name="spam_folder_conversation_list_empty_text_v2">Bisedat e bezdisshme dhe të bllokuara shfaqen këtu</string>
-    <string name="spam_preference_info_text_on_device">Aplikacioni \"Mesazhet\" përdor veçorinë e inteligjencës në pajisje për të zbuluar mesazhet e bezdisshme dhe disa të dhëna për këto mesazhe i dërgon te Google pa përfshirë numrin tënd të telefonit apo përmbajtjen e mesazheve. %1$s</string>
     <string name="spam_protection_consent_string">Për të ndihmuar në zbulimin e përmbajtjeve të bezdisshme, aplikacioni \"Mesazhet\" dërgon disa të dhëna për mesazhet e tua te Google pa përfshirë numrin tënd të telefonit apo përmbajtjen e mesazheve. %1$s</string>
     <string name="spam_reporting_from">Po raportohet si postë e bezdisshme</string>
     <string name="spam_settings">Mbrojtja nga mesazhet e bezdisshme</string>
@@ -1765,6 +1913,8 @@ Përgjigjet do të shfaqen në biseda individuale"</string>
     <string name="split_view_pref_title">Pamja e detajuar e listës</string>
     <string name="stacked_banner_count_text">1 nga %1$d</string>
     <string name="star_badge_content_description">Stema e yllit</string>
+    <string name="star_badge_menu_remove_action">Hiq</string>
+    <string name="star_badge_menu_view_all_action">Shiko të gjitha</string>
     <string name="star_badge_on_click_snackbar_action">Zhbëj</string>
     <string name="star_badge_on_click_snackbar_message">Ylli u hoq</string>
     <string name="sticker_content_description">Ngjitëse: %s</string>
@@ -1801,10 +1951,12 @@ Përgjigjet do të shfaqen në biseda individuale"</string>
     <string name="subject_with_label">Subjekti: %1$s</string>
     <string name="subject_with_urgent_label">[URGJENT] %1$s</string>
     <string name="success_message_format">%1$s %2$s %3$s %4$s %5$s %6$s.</string>
+    <string name="success_message_self_sender">Ti the: %1$s %2$s %3$s %4$s.</string>
     <string name="success_message_self_sender_format_with_multiple_attachments">Dërgove disa bashkëngjitje %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_self_sender_format_with_single_attachment">Dërgove një bashkëngjitje %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_specified_sender_format_with_multiple_attachments">%1$s dërgoi disa bashkëngjitje %2$s %3$s %4$s %5$s %6$s.</string>
     <string name="success_message_specified_sender_format_with_single_attachment">%1$s dërgoi një bashkëngjitje %2$s %3$s %4$s %5$s %6$s.</string>
+    <string name="success_message_unspecified_sender">Dërguesi tha: %1$s %2$s %3$s %4$s.</string>
     <string name="success_message_unspecified_sender_format_with_multiple_attachments">Dërguesi dërgoi disa bashkëngjitje %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_unspecified_sender_format_with_single_attachment">Dërguesi dërgoi një bashkëngjitje %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_sent_to_message_format">U dërgua te %1$s %2$s %3$s %4$s.</string>
@@ -1813,10 +1965,18 @@ Përgjigjet do të shfaqen në biseda individuale"</string>
     <string name="sud_back_button_label">Prapa</string>
     <string name="sud_more_button_label">Më shumë</string>
     <string name="sud_next_button_label">Para</string>
-    <string name="suggested_stickers_preference_summary">Shfaq ngjitëset e sugjeruara</string>
+    <string name="suggested_stickers_preference_summary">Shfaq opsionet e përgjigjes me ngjitëse</string>
     <string name="suggested_stickers_preference_title">Ngjitëse të sugjeruara</string>
+    <string name="suggestion_shortcut_dialog_body_text">Shëno një mesazh me yll, planifiko orarin etj. me shkurtoret e shpejta dhe të thjeshta.</string>
+    <string name="suggestion_shortcut_dialog_positive_button">Në rregull</string>
+    <string name="suggestion_shortcut_dialog_subsection_body_text">Shkurtoret sugjerohen nga gjëra të tilla si p.sh. numrat e telefonit dhe datat. %1$s</string>
+    <string name="suggestion_shortcut_dialog_subsection_title_text">Si funksionon</string>
+    <string name="suggestion_shortcut_dialog_title">Shkurtore të sugjeruara për të të çuar atje më shpejt</string>
+    <string name="suggestion_shortcut_search_title">Kërko</string>
+    <string name="suggestion_shortcut_star_toolstone">Shënoji me yll mesazhet dhe gjeji me lehtësi te \"%1$s\"</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_notification_inbox_style_summary_text">+%d të tjera</string>
+    <string name="super_sort_pref_title">Organizimi i mesazheve</string>
     <string name="super_sort_settings_title">Organizimi i mesazheve</string>
     <string name="supersort_conversation_list_empty_text_business_update">Përditësimet për biznesin shfaqen automatikisht këtu</string>
     <string name="supersort_conversation_list_empty_text_manage_in_settings">Menaxho te \"Cilësimet\"</string>
@@ -1879,6 +2039,11 @@ Gjej çdo bisedë te \"Të gjitha\""</string>
     <string name="survey_user_agent">Agjenti i përdoruesit</string>
     <string name="survey_very_dissatisfied">Shumë i pakënaqur</string>
     <string name="survey_very_satisfied">Shumë i kënaqur</string>
+    <string name="swipe_actions">Veprimet me rrëshqitje</string>
+    <string name="swipe_actions_summary">Zgjidh \"Arkivo\" ose \"Fshi\", në të djathtë ose në të majtë, ose çaktivizo rrëshqitjen me shpejtësi</string>
+    <string name="swipe_customize">Personalizo</string>
+    <string name="swipe_left">Rrëshqit shpejt majtas</string>
+    <string name="swipe_right">Rrëshqit shpejt djathtas</string>
     <string name="switcher_no_phone_number">Karta SIM nuk u gjet</string>
     <string name="switcher_pair_device_title_text">Dërgo mesazhe me telefonin e çiftuar</string>
     <string name="switcher_positive_button_text">Vazhdo</string>
@@ -1886,6 +2051,7 @@ Gjej çdo bisedë te \"Të gjitha\""</string>
     <string name="switcher_use_device_sim_number">(%s)</string>
     <string name="switcher_use_device_sim_title_text">Dërgo mesazhe me kartën SIM të kësaj pajisjeje</string>
     <string name="syncing_with_device_foreground_notification_text">\"Mesazhet\" po sinkronizohen me pajisjen tënde</string>
+    <string name="system_picker_button_label">Dosjet</string>
     <string name="t_mobile_tos_pref_link_text">Kushtet e përgjithshme</string>
     <string name="t_mobile_tos_pref_text">Veçoritë e bisedës nga Google mundësohen nga T-Mobile. Shiko %1$s.</string>
     <string name="t_mobile_tos_pref_url">https://www.t-mobile.com/responsibility/legal/terms-and-conditions</string>
@@ -1910,6 +2076,7 @@ Cilësimet > %1$s"</string>
     <string name="theme_setting_dialog_options_light_mode">E ndriçuar</string>
     <string name="theme_setting_dialog_options_system_default_mode">Parazgjedhja e sistemit</string>
     <string name="theme_setting_dialog_title">Zgjidh temën</string>
+    <string name="tiktok_account_login_failure">Identifikimi në llogarinë e zgjedhur dështoi.</string>
     <string name="tiktok_add_account_error">Shtimi i llogarisë dështoi. Provo përsëri.</string>
     <string name="tiktok_fix_it">Rregulloje</string>
     <string name="tiktok_load_account_failure">Ngarkimi i llogarive dështoi.</string>
@@ -1935,6 +2102,18 @@ Vetëm ti mund ta shikosh këtë emër"</string>
     <string name="tombstone_self_removed_from_group_referrer_known">%1$s të hoqi nga ky grup</string>
     <string name="tombstone_self_removing_others_from_group">Hoqe %1$s nga ky grup</string>
     <string name="tombstone_show_link_previews">Pamjet paraprake të lidhjeve janë aktive.&lt;br />Mëso më shumë ose çaktivizoji te &lt;u>Cilësimet&lt;/u>.</string>
+    <string name="tombstone_show_link_previews_disabled">Pamjet paraprake të lidhjeve janë joaktive.&lt;br />Mëso më shumë ose aktivizoji te &lt;u>Cilësimet&lt;/u>.</string>
+    <string name="tooltip_content">"\"Llogaria jote e Google\" bën të mundur
+veçoritë si p.sh. ndarja e lidhjeve
+të \"Fotografive të Google\" në aplikacionin \"Mesazhet\"
+pa u qasur në bisedat e tua.
+
+Mesazhet dërgohen përsëri nga
+numri yt i telefonit. Mëso më shumë"</string>
+    <string name="tooltip_content_with_line_break_fix">"\"Llogaria jote e Google\" mundëson veçori si ndarja e lidhjeve e \"Fotografive të Google\" te \"Mesazhet\" po u qasur te bisedat e tua.
+
+Mesazhet dërgohen përsëri nga numri yt i telefonit. Mëso më shumë"</string>
+    <string name="tooltip_link">Mëso më shumë</string>
     <string name="top_contacts_grid_name">★</string>
     <string name="top_contacts_title">Kontaktet kryesore</string>
     <string name="transaction_content_description">Ky mesazh është kategorizuar si transaksion</string>
@@ -1944,6 +2123,7 @@ Vetëm ti mund ta shikosh këtë emër"</string>
     <string name="unblock_and_report_not_spam_snackbar_message">%1$s u zhbllokua dhe u raportua si jo i bezdisshëm</string>
     <string name="unblock_banner_body">Për ta hequr këtë bisedë nga \"Të arkivuara\" dhe për të marrë përsëri mesazhe, zhbllokoje %s</string>
     <string name="unblock_banner_body_spam_folder">Për ta hequr këtë bisedë nga “Të bezdisshme dhe të bllokuara” dhe për të marrë përsëri mesazhet, zhbllokoje %s</string>
+    <string name="unblock_banner_body_v2">Unblock to receive messages from this sender</string>
     <string name="unblock_banner_description">@string/banner_description</string>
     <string name="unblock_banner_positive_button">Zhblloko</string>
     <string name="unblock_banner_title">Bllokuar</string>
@@ -1979,6 +2159,7 @@ Numrat e telefonit përdoret vetëm për diagnostikimin dhe zgjidhjen e probleme
     <string name="unsent">I padërguar</string>
     <string name="unspam_banner_body">Për ta hequr këtë bisedë nga \"Të arkivuara\" dhe për të marrë përsëri njoftime, raportoje %ssi jo të bezdisshme</string>
     <string name="unspam_banner_body_spam_folder">Për ta hequr këtë bisedë nga \"Të bezdisshme dhe të bllokuara\" dhe për të marrë përsëri njoftime, raportoje %s si jo të bezdisshme</string>
+    <string name="unspam_banner_body_v2">Report as not spam to receive messages from this sender</string>
     <string name="unspam_banner_description">@string/banner_description</string>
     <string name="unspam_banner_end_button">Nuk është e bezdisshme</string>
     <string name="unspam_banner_title">Raportuar si jo i bezdisshëm</string>
@@ -1994,6 +2175,8 @@ Numrat e telefonit përdoret vetëm për diagnostikimin dhe zgjidhjen e probleme
     <string name="unsupported_file_save_alert">Të ruhet bashkëngjitja te \"Shkarkimet\"?</string>
     <string name="unsupported_file_save_cancel">Anulo</string>
     <string name="unverified_sms_banner_description">@string/banner_description</string>
+    <string name="unwanted_messages_toolstone_link">bllokoji dhe raportoji</string>
+    <string name="unwanted_messages_toolstone_text">Për mesazhet e padëshiruara, %1$s</string>
     <string name="upcoming_reminder">Alarm rikujtues i ardhshëm</string>
     <string name="update_content_description">Ky mesazh është kategorizuar si përditësim</string>
     <string name="update_donation_banner_body_v2">"Identiteti yt mbetet privat dhe mund t'i heqësh përmbajtjet e mesazheve"</string>
@@ -2036,6 +2219,7 @@ Numrat e telefonit përdoret vetëm për diagnostikimin dhe zgjidhjen e probleme
     <string name="video_attachment_content_description">Bashkëngjitje video</string>
     <string name="video_attachment_limit_exceeded_when_sending">Mund të dërgosh vetëm një video për çdo mesazh. Hiqi videot shtesë dhe provo përsëri.</string>
     <string name="video_compress_info">Marrësi do të shikojë një cilësi më të ulët të videos për shkak të kufijve të operatorit celular për mesazhet MMS</string>
+    <string name="video_format_type">video</string>
     <string name="video_media_failure">Për të krijuar një video, provo të regjistrosh për një kohë më të gjatë</string>
     <string name="video_taken">Videoja u realizua</string>
     <string name="video_thumbnail_view_play_button_content_description">Luaj video</string>
@@ -2082,19 +2266,20 @@ Përdor gjykimin tënd për përmbajtjet e këtij mesazhi."</string>
     <string name="websiteTypeWork">Puna</string>
     <string name="welcome_agree_button_text">Pranoj</string>
     <string name="welcome_chat_features_decline">Përdor \"Mesazhet\" pa veçoritë e bisedës</string>
-    <string name="welcome_chat_features_learn_more">Mëso më shumë për veçoritë e bisedës</string>
     <string name="welcome_chat_features_legal">Duke përdorur veçoritë e bisedës, ti pranon %1$s dhe %2$s. Google do të verifikojë herë pas here numrin tënd me operatorin tënd celular (mund të zbatohen tarifa për mesazhet SMS).</string>
+    <string name="welcome_chat_features_text">"· Dërgo nëpërmjet Wi-Fi ose të dhënave celulare
+· Ndaj skedarët dhe mediat e tua
+· Mbaji mesazhet e tua private"</string>
     <string name="welcome_chat_features_title">Bisedë më e shpejtë, me më shumë funksione dhe me cilësi më të lartë nëpërmjet Wi-Fi ose të dhënave</string>
+    <string name="welcome_chat_features_title_experiment_0">Bëj më shumë se kurdoherë më parë me \"Mesazhet\"</string>
+    <string name="welcome_chat_features_title_experiment_1">Bëj më shumë se kurdoherë më parë me veçoritë e bisedës te \"Mesazhet\"</string>
     <string name="welcome_consent_button_text">Para</string>
-    <string name="welcome_finish_button_text">Përfundo</string>
     <string name="welcome_smarts_notice_description">"Thjeshtoji bisedat e tua me veçoritë si Asistenti i Google dhe \"Përgjigjja inteligjente\". Bisedat e tua qëndrojnë të sigurta në pajisjen tënde.
 %1$s dhe %2$s"</string>
     <string name="welcome_smarts_notice_title">Inteligjente dhe të dobishme</string>
     <string name="welcome_spam_description">"Për të ndihmuar në parandalimin e mesazheve të bezdisshme, Google përdor numrat e telefonit që nuk janë kontakte të tua, pa të identifikuar ty ose numrin tënd.
 %1$s dhe %2$s"</string>
     <string name="welcome_spam_title">Mbrojtja nga mesazhet e bezdisshme</string>
-    <string name="welcome_splash_tagline">"Mesazhe të thjeshta dhe inteligjente
-nga Google"</string>
     <string name="widget_reply_exit_content_description">Prapa</string>
     <string name="widget_reply_open">HAP \"MESAZHET\"</string>
     <string name="widget_reply_to">Përgjigjju %s</string>
@@ -2102,9 +2287,14 @@ nga Google"</string>
     <string name="work_directory_display_name">Kontaktet e profilit të punës</string>
     <string name="xms_send_mode_pref_title">Dërgo vetëm mesazhe SMS dhe MMS</string>
     <string name="you_added_participant">Shtove %s te ky grup</string>
+    <string name="you_added_participant_with_learn_more">Shtove %1$s në këtë grup. %2$s</string>
+    <string name="you_created_encrypted_rcs_group">Krijove këtë grup bisede me %1$s. %2$s</string>
     <string name="you_created_mms_group">Krijove këtë MMS në grup me %s</string>
     <string name="you_created_rcs_group">Krijove këtë grup bisede me %s</string>
     <string name="you_left_group">U largove nga ky grup</string>
+    <string name="youtube_dismissal_prompt">Trokit dhe zvarrite për ta mbyllur</string>
+    <string name="youtube_drag_prompt">Zvarrite për ta zhvendosur luajtësin</string>
+    <string name="youtube_pip_playing">Videoja po luhet aktualisht</string>
     <string name="zero_connectivity_failure_announcement">Mesazhi nuk është dërguar</string>
     <string name="zero_state_search_action_copy">Kopjo</string>
     <string name="zero_state_search_action_jump_to_chat">Shiko në bisedë</string>
@@ -2124,6 +2314,7 @@ nga Google"</string>
     <string name="zero_state_search_details_image_accessibility">Imazhi u dërgua nga %1$s më %2$s</string>
     <string name="zero_state_search_details_video_accessibility">Videoja u dërgua nga %1$s më %2$s</string>
     <string name="zero_state_search_dropdown_free_text">Kërko për \"%s\"</string>
+    <string name="zero_state_search_empty_results_text">Media, lidhjet dhe mesazhet e shënuara me yll nga kjo bisedë do të shfaqen këtu</string>
     <string name="zero_state_search_images">Imazhet</string>
     <string name="zero_state_search_link_copied">Lidhja u kopjua</string>
     <string name="zero_state_search_links">Lidhjet</string>

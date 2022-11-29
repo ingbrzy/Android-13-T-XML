@@ -63,7 +63,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript">^1, ^2, ^3.</string>
     <string name="a11y_new_call_log_entry_phone_account">på ^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">ring RTT-samtal till ^1</string>
-    <string name="a11y_new_call_log_entry_tap_action">utöka menyn</string>
+    <string name="a11y_new_call_log_entry_tap_action">utöka eller komprimera menyn</string>
     <string name="a11y_new_call_log_entry_video_call">ring ett videosamtal till ^1</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">ring ett videosamtal till ^1 på wifi</string>
     <string name="a11y_new_call_log_entry_voice_call">ring till ^1</string>
@@ -192,6 +192,7 @@ Inspelningar lagras endast på din telefon. ^1"</string>
     <string name="atlas_soda_banner_feature_text">Hold for Me</string>
     <string name="atlas_temp_service_notification_title">Ett Hold for Me-samtal initieras</string>
     <string name="atlas_warning_text_for_second_incoming_call">Hold for Me avslutas om du svarar på samtalet</string>
+    <string name="audio_route_item_checked_description">Markerad</string>
     <string name="audioroute_bluetooth">Bluetooth</string>
     <string name="audioroute_headset">Trådanslutet headset</string>
     <string name="audioroute_phone">Telefon</string>
@@ -236,6 +237,7 @@ Inspelningar lagras endast på din telefon. ^1"</string>
     <string name="bm_suggest_wait_time_estimating">"Chat
 Arbetar…"</string>
     <string name="bottomsheet_action_expand_halfway">Utöka till hälften</string>
+    <string name="bottomsheet_drag_handle_content_description">Handtag</string>
     <string name="bubble_bottom_action_end_call">Lägg på</string>
     <string name="bubble_bottom_action_hide">Dölj</string>
     <string name="bubble_return_to_call">Tillbaka till samtal</string>
@@ -583,10 +585,8 @@ Skicka hjälp."</string>
     <string name="copy_number">Kopiera nummer</string>
     <string name="create_new_contact">Skapa ny kontakt</string>
     <string name="crosby_setting_title">Inspelning av samtal</string>
-    <string name="crystal_clear_audio_setting_title">Tydliga samtal</string>
     <string name="current_voicemail_greeting_record_instruction">Spela in en hälsning</string>
     <string name="current_voicemail_greeting_recording_title">Mitt hälsningsmeddelande i röstbrevlådan</string>
-    <string name="custom_message_hint">Skriv anpassat meddelande</string>
     <string name="custom_prefix_add_prefix_to_call_entry_always_add_prefix">Lägg alltid till prefix</string>
     <string name="custom_prefix_add_prefix_to_call_entry_ask_before_dialing">Fråga innan du slår nummer</string>
     <string name="custom_prefix_add_prefix_to_call_entry_never_add_prefix">Lägg aldrig till prefix</string>
@@ -671,11 +671,11 @@ Skicka hjälp."</string>
     <string name="display_options_view_given_name_first">Förnamn först</string>
     <string name="display_options_view_names_as">Namnformat</string>
     <string name="do_not_show_again">Visa inte igen</string>
-    <string name="duo_fallback_dialog_do_not_show_again_label">Kom ihåg det här valet</string>
-    <string name="duo_fallback_dialog_message">Det går inte att genomföra videosamtalet med videosamtal genom operatören. Försök i stället ringa med Duo.</string>
-    <string name="duo_fallback_dialog_negative_button_label">Avbryt</string>
-    <string name="duo_fallback_dialog_positive_button_label">Använd Duo</string>
-    <string name="duo_fallback_dialog_title">Prova med Google Duo?</string>
+    <string name="duo_fallback_dialog_do_not_show_again_label">Kom ihåg Duo som reserv för varje samtal. Hantera när som helst i Inställningar.</string>
+    <string name="duo_fallback_dialog_message">Duo försöker ringa automatiskt om operatören inte kan ringa videosamtalet.</string>
+    <string name="duo_fallback_dialog_negative_button_label">Nej tack</string>
+    <string name="duo_fallback_dialog_positive_button_label">Duo som reserv</string>
+    <string name="duo_fallback_dialog_title">Google Duo reserv för samtal?</string>
     <string name="edit_number_before_call">Redigera nummer före samtal</string>
     <string name="emergency_assist_address_sentence">Min plats är %1$s.</string>
     <string name="emergency_assist_button_fire">Brand</string>
@@ -697,6 +697,7 @@ Skicka hjälp."</string>
     <string name="emergency_voice_assist_dialog_button_close">Avbryt</string>
     <string name="emergency_voice_assist_dialog_title">Operatören hos räddningstjänsten hör detta</string>
     <string name="end_call_with_default_message_description">Lägg på</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_icon_content_description">Fel</string>
     <string name="error_unable_to_get_audio">Det går inte att hämta exempelljudet</string>
     <string name="error_unable_to_play_audio">Det går inte att spela upp exempelljudet</string>
@@ -741,7 +742,7 @@ Skicka hjälp."</string>
     <string name="first_time_dialog_duo_video_call_label">Google Duo</string>
     <string name="first_time_dialog_negative_button_label">Avbryt</string>
     <string name="first_time_dialog_positive_button_label">Välj</string>
-    <string name="first_time_dialog_remember_this_choice_label">Kom ihåg det här valet</string>
+    <string name="first_time_dialog_remember_this_choice_label">Kom ihåg för alla samtal. Hantera när som helst i Inställningar.</string>
     <string name="first_time_dialog_title">Välj videosamtalstjänst</string>
     <string name="flip_to_shush_title">Vänd för att aktivera Schh</string>
     <string name="flip_to_silence_summary">Stäng av ljudet för ett inkommande samtal genom att lägga telefonen med skärmen mot en plan yta</string>
@@ -789,6 +790,8 @@ Skicka hjälp."</string>
     <string name="incall_content_description_hold">Parkera samtal</string>
     <string name="incall_content_description_merge_calls">Koppla ihop samtal</string>
     <string name="incall_content_description_muted">Ljud av</string>
+    <string name="incall_content_description_show_less">Visa mindre</string>
+    <string name="incall_content_description_show_more">Visa mer</string>
     <string name="incall_content_description_speaker">Högtalare</string>
     <string name="incall_content_description_swap_calls">Byt samtal</string>
     <string name="incall_content_description_swap_sim">Ändra SIM</string>
@@ -804,6 +807,7 @@ Skicka hjälp."</string>
     <string name="incall_label_hold">Parkera</string>
     <string name="incall_label_manage">Hantera</string>
     <string name="incall_label_merge">Sammanfoga</string>
+    <string name="incall_label_more">Mer</string>
     <string name="incall_label_mute">Ljud av</string>
     <string name="incall_label_record">Spela in</string>
     <string name="incall_label_record_checked">Sluta spela in</string>
@@ -836,15 +840,9 @@ Skicka hjälp."</string>
     <string name="join_call_with_default_message_description">Anslut till samtal</string>
     <string name="just_now">Nyss</string>
     <string name="lat_long_format">%1$f, %2$f</string>
+    <string name="launch_application_settings">Inställningar</string>
     <string name="launcherActivityLabel">Telefon</string>
     <string name="learn_more_text_for_tmo">Besök T-Mobile för mer information</string>
-    <string name="legacy_post_call_message">Berätta varför du ringde</string>
-    <string name="legacy_post_call_message_1">Det är brådskande. Ring tillbaka.</string>
-    <string name="legacy_post_call_message_2">Ring tillbaka när du har tid.</string>
-    <string name="legacy_post_call_message_3">Inte brådskande, vi kan prata senare.</string>
-    <string name="legacy_post_call_message_sent">Meddelandet skickat</string>
-    <string name="legacy_post_call_send_message">Skicka meddelande</string>
-    <string name="legacy_post_call_view">Visa</string>
     <string name="libraries_material_featurehighlight_dismiss">Ignorera</string>
     <string name="license_activity_label">Licenser för öppen källkod</string>
     <string name="light_theme_label">Ljust</string>
@@ -869,6 +867,7 @@ Skicka hjälp."</string>
     <string name="mdd_notification_action_cancel">Avbryt</string>
     <string name="mdd_notification_download_failed">Nedladdningen misslyckades</string>
     <string name="mdd_notification_download_paused">Väntar på nätverksanslutning</string>
+    <string name="mdd_notification_download_paused_wifi">Väntar på wifi-anslutning</string>
     <string name="meid_number">MEID %s</string>
     <string name="menu_callNumber">Ring %s</string>
     <string name="merge_calls_confirm_message">Koppla ihop dina samtal om du är säker på att alla känner till vilka som deltar i det sammankopplade samtalet</string>
@@ -908,11 +907,9 @@ Skicka hjälp."</string>
     <string name="nearbyplaces_account_setting_title">Google-konto</string>
     <string name="new_call_log_activity_title">Samtalshistorik</string>
     <string name="new_call_log_all_title">Alla</string>
-    <string name="new_call_log_carrier_video">Operatörsvideo</string>
     <string name="new_call_log_clear_call_log_confirmation">Alla samtal raderas från historiken</string>
     <string name="new_call_log_clear_call_log_confirmation_title">Vill du rensa samtalshistoriken?</string>
     <string name="new_call_log_delete_all">Rensa samtalshistorik</string>
-    <string name="new_call_log_duo_video">Duo-video</string>
     <string name="new_call_log_empty">Dina samtal du ringer visas här</string>
     <string name="new_call_log_generic_video">Video</string>
     <string name="new_call_log_header_older">Äldre</string>
@@ -930,6 +927,7 @@ Skicka hjälp."</string>
     <string name="new_permission_no_search">Aktivera behörigheten till Kontakter om du vill söka bland kontakterna.</string>
     <string name="non_contact_always_record_dialog_title">Vill du alltid spela in samtal med nummer som inte finns i dina kontakter?</string>
     <string name="non_contact_toggle_label">Nummer inte bland dina kontakter</string>
+    <string name="non_spam_aftercall_notification_title">Känner du %1$s?</string>
     <string name="non_spam_notification_title">Känner du %1$s?</string>
     <string name="not_set">Inte angett</string>
     <string name="notification_action_accept">Godkänn</string>
@@ -980,7 +978,7 @@ Skicka hjälp."</string>
     <string name="notification_ongoing_call">Pågående samtal</string>
     <string name="notification_ongoing_call_multi_sim">Pågående samtal på %1$s</string>
     <string name="notification_ongoing_call_wifi_template">Pågående %1$s</string>
-    <string name="notification_ongoing_call_wifi_template_multi_sim">Pågående %1$s på %1$s</string>
+    <string name="notification_ongoing_call_wifi_template_multi_sim">Pågående %1$s på %2$s</string>
     <string name="notification_ongoing_paused_video_call">Pågående videosamtal ‑ videoflödet har pausats</string>
     <string name="notification_ongoing_paused_video_call_multi_sim">Pågående videosamtal via operatören på %1$s ‑ video pausad</string>
     <string name="notification_ongoing_video_call">Pågående operatörsvideosamtal</string>
@@ -993,7 +991,7 @@ Skicka hjälp."</string>
     <string name="notification_take_call">Svara på samtal</string>
     <string name="notification_take_video_call">Svara på videosamtal</string>
     <string name="notification_voicemail_callers_list">%1$s, %2$s</string>
-    <string name="notification_voicemail_no_vm_number">Numret till röstbrevlådan är okänt</string>
+    <string name="notification_voicemail_no_vm_number">Välj Meny > Inställningar om du vill konfigurera röstbrevlådan.</string>
     <string name="notification_voicemail_text_format">Ring %s</string>
     <string name="old_block_number_confirmation_title">Vill du blockera %1$s?</string>
     <string name="openhistory_button_label">Historik</string>
@@ -1034,6 +1032,7 @@ Skicka hjälp."</string>
     <string name="precall_dialpad_chat_button">Chatta</string>
     <string name="precall_dialpad_chat_wait_min">%1$d min väntetid</string>
     <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
+    <string name="preferences_license_title">Meddelande för tredje part</string>
     <string name="presence_optin_dialog_do_not_show_again_label">Visa inte igen</string>
     <string name="presence_optin_dialog_message">"Innan du startar ett videosamtal vill Verizon bekräfta vilka telefonnummer som kan ta emot videosamtal från Verizon.
 
@@ -1048,7 +1047,7 @@ Du kan fortfarande ringa videosamtal till några nummer utan att uppdatera inst�
     <string name="private_num_non_verizon">Privat nummer</string>
     <string name="private_num_verizon">Hemligt nummer</string>
     <string name="private_or_hidden_action_preference_description">Uppringare som döljer nummerpresentatören</string>
-    <string name="private_or_hidden_action_preference_title">Privat eller dold</string>
+    <string name="private_or_hidden_action_preference_title">Privata och dolda nummer</string>
     <string name="quick_contact_checkbox_description">Välj kontakt</string>
     <string name="ready_for_recording">Klar …</string>
     <string name="record_audio_pre_call_dialog_got_it">OK</string>
@@ -1095,7 +1094,7 @@ Samtalsfiltrering använder inte data eller wifi, men använder samtalstid hos o
     <string name="revelio_end_call_user_missed_internal_message">Samtalet missades</string>
     <string name="revelio_pref_title">Samtalsfiltrering</string>
     <string name="revelio_preference_summary_automatic_screening_off">Automatisk filtrering av</string>
-    <string name="revelio_preference_summary_screening">Filtrerar %1$s</string>
+    <string name="revelio_preference_summary_screening">Skärm %1$s</string>
     <string name="revelio_save_audio_setting_summary">Spara ljudet från samtal som Assistenten besvarar</string>
     <string name="revelio_save_audio_setting_title">Spara samtalsfiltreringsljud</string>
     <string name="revelio_setting_title">Samtalsfiltrering</string>
@@ -1169,7 +1168,6 @@ Samtalsfiltrering använder inte data eller wifi, men använder samtalstid hos o
     <string name="set_default_account_description">SIM-inställning sparas med dina kontakter.</string>
     <string name="set_phone_as_default_explanation_text">Telefon kan endast ringa och ta emot samtal om den är standardappen för telefon</string>
     <string name="set_phone_as_default_request_text">Ange Telefon som standard</string>
-    <string name="settings">Inställningar</string>
     <string name="settings_page_call_recording_feature_not_available_text">Inspelning av samtal är inte tillgängligt på din plats.</string>
     <string name="settings_page_crosby_feature_not_available_text">Inte tillgängligt på din plats</string>
     <string name="setup_duo_button_long_text">Konfigurera videosamtal med Duo</string>
@@ -1219,6 +1217,9 @@ Samtalsfiltrering använder inte data eller wifi, men använder samtalstid hos o
     <string name="sounds_and_vibration_title">Ljud och vibration</string>
     <string name="spam_action_preference_description">Nummer som matchar Googles spamdatabas</string>
     <string name="spam_action_preference_title">Spam</string>
+    <string name="spam_after_call_notification_add_contact_action_text">Lägg till kontakt</string>
+    <string name="spam_after_call_notification_report_spam_action_text">Blockera och anmäl</string>
+    <string name="spam_aftercall_notification_unknown">Okänt</string>
     <string name="spam_and_call_screen_settings_title">Spam- och samtalsfiltrering</string>
     <string name="spam_blocking_promo_action_dismiss">Stäng</string>
     <string name="spam_blocking_promo_action_filter_spam">Filtrera spam</string>
@@ -1230,6 +1231,9 @@ Samtalsfiltrering använder inte data eller wifi, men använder samtalstid hos o
     <string name="spam_blocking_settings_enable_error_text">Problemet med att aktivera spamfilter</string>
     <string name="spam_blocking_settings_summary">Förhindra att misstänkta spamsamtal stör dig</string>
     <string name="spam_blocking_settings_title">Filtrera spamsamtal</string>
+    <string name="spam_dialog_add_contact_action">Lägg till i Kontakter</string>
+    <string name="spam_dialog_dismiss_action">Stäng</string>
+    <string name="spam_notification_action_block_spam">Ja, blockera numret</string>
     <string name="spam_notification_action_dismiss">Stäng</string>
     <string name="spam_notification_add_contact_action_text">Lägg till kontakt</string>
     <string name="spam_notification_block_spam_action_text">Ja, blockera numret</string>
@@ -1469,27 +1473,27 @@ Dataanvändning gäller om du fortsätter samtalet."</string>
     <string name="videocall_remotely_resumed">Samtal återupptaget</string>
     <string name="videocall_settings_default_ask_every_time">Fråga varje gång</string>
     <string name="videocall_settings_default_carrier">Videosamtal genom operatören</string>
-    <string name="videocall_settings_default_caution">This feature allows a user to choose a preferred video call solution and indicate the receiver’s video capability when it’s available. ^1</string>
-    <string name="videocall_settings_default_caution_learn_more">Learn more about preferred video services</string>
+    <string name="videocall_settings_default_caution">Välj hur du ringer ett videosamtal och ta reda på om personen du ringer till kan svara. ^1</string>
+    <string name="videocall_settings_default_caution_learn_more">Mer om videosamtal</string>
     <string name="videocall_settings_default_duo">Google Duo</string>
     <string name="videocall_settings_default_title">Föredragen videosamtalstjänst</string>
-    <string name="videocall_settings_fallback_caution">"When “Use Google Duo as backup” (if applicable) is on and a call can't be completed using your preferred service, the call will automatically be attempted on Duo. ^1"</string>
-    <string name="videocall_settings_fallback_caution_learn_more">Learn more about Duo backup calling</string>
+    <string name="videocall_settings_fallback_caution">Om du har Google Duo som reserv och aktiverat, försöker Duo automatiskt ringa om operatören inte kan slutföra videosamtalet. ^1</string>
+    <string name="videocall_settings_fallback_caution_learn_more">Mer om Duo som reserv</string>
     <string name="videocall_settings_fallback_summary">Växla till Duo om föredragen tjänst inte är tillgänglig</string>
-    <string name="videocall_settings_fallback_title">Använd Google Duo som reserv</string>
+    <string name="videocall_settings_fallback_title">Använd Duo som reserv</string>
     <string name="videocall_settings_title">Videosamtal</string>
     <string name="videocall_show_preview_button_description">Visa lokalt videoflöde</string>
     <string name="view_location_settings">Platsinställningar</string>
     <string name="vitle_label">Video över LTE</string>
     <string name="viwifi_label">Video över wifi</string>
     <string name="vm_change_pin_error_invalid">Den nya pinkoden innehåller ogiltiga tecken.</string>
-    <string name="vm_change_pin_error_last_4_digits_msisdn">Den nya pinkoden får inte vara de fyra sista siffrorna i ditt telefonnummer.</string>
+    <string name="vm_change_pin_error_last_4_digits_msisdn">Pinkoden får inte vara de fyra sista siffrorna i telefonnumret.</string>
     <string name="vm_change_pin_error_mismatch">Den gamla pinkoden stämmer inte.</string>
     <string name="vm_change_pin_error_system_error">Det gick inte att ändra pinkoden</string>
     <string name="vm_change_pin_error_too_long">Den nya pinkoden är för lång.</string>
     <string name="vm_change_pin_error_too_short">Den nya pinkoden är för kort.</string>
     <string name="vm_change_pin_error_too_weak">Den nya pinkoden är för svag. Ett starkt lösenord får inte ha siffror i ordningsföljd eller upprepade siffror.</string>
-    <string name="vm_change_pin_error_unchanged_pin">Den nya pinkoden är samma som din aktuella pinkod. Ange en annan pinkod.</string>
+    <string name="vm_change_pin_error_unchanged_pin">Den nya pinkoden får inte vara samma som din nuvarande.</string>
     <string name="vm_change_pin_progress_message">Vänta.</string>
     <string name="voice_call">Röstsamtal</string>
     <string name="voice_call_button">Ring</string>
@@ -1511,11 +1515,9 @@ Dataanvändning gäller om du fortsätter samtalet."</string>
     <string name="voicemailMultiSelectDeleteConfirm">Radera</string>
     <string name="voicemail_action_call_customer_support">Ring kundsupporten</string>
     <string name="voicemail_action_call_voicemail">Ring röstbrevlådan</string>
-    <string name="voicemail_action_dimiss">Nej tack</string>
     <string name="voicemail_action_retry">Försök igen</string>
     <string name="voicemail_action_set_pin">Ställ in pinkod</string>
     <string name="voicemail_action_sync">Synkronisera</string>
-    <string name="voicemail_action_turn_archive_on">Aktivera</string>
     <string name="voicemail_action_turn_off_airplane_mode">Inställningar för flygplansläge</string>
     <string name="voicemail_activating_summary_info">Aktiverar röstbrevlåda</string>
     <string name="voicemail_advanced_settings_title">Avancerade inställningar</string>
@@ -1530,7 +1532,7 @@ Dataanvändning gäller om du fortsätter samtalet."</string>
     <string name="voicemail_change_pin_preference_summary_disable">Visuell röstbrevlåda måste vara aktiverad för att ändra pinkoden</string>
     <string name="voicemail_change_pin_preference_summary_not_activated">Visuell röstbrevlåda är ännu inte aktiverad, försök igen senare</string>
     <string name="voicemail_change_pin_preference_title">Ändra pinkod</string>
-    <string name="voicemail_donate_preference_summary_info">Låt Google granska dina röstmeddelanden för att förbättra transkriptionsnoggrannheten. Röstmeddelandena lagras anonymt. %1$s</string>
+    <string name="voicemail_donate_preference_summary_info">Låt Google granska dina röstmeddelanden för att förbättra transkriptionsnoggrannheten. Röstmeddelandena lagras anonymt. ^1</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">Använda visuell röstbrevlåda för SIM-kort utan data kan orsaka operatörsavgifter</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">Visuell röstbrevlåda är endast tillgänglig för valt data-SIM</string>
     <string name="voicemail_error_activating_message">Du får kanske inte röstmeddelanden tills visuell röstbrevlåda är helt aktiverad. Ring röstbrevlådan för att hämta nya meddelanden innan den är helt aktiverad.</string>
@@ -1543,12 +1545,8 @@ Dataanvändning gäller om du fortsätter samtalet."</string>
     <string name="voicemail_error_bad_config_title">Det går inte att uppdatera den visuella röstbrevlådan</string>
     <string name="voicemail_error_communication_message">Du kan fortfarande lyssna av röstbrevlådan genom att ringa.</string>
     <string name="voicemail_error_communication_title">Det går inte att uppdatera den visuella röstbrevlådan</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_message">Din postlåda är nästan full. Frigör utrymme genom att aktivera extra lagringsutrymme så att Google kan hantera och säkerhetskopiera dina röstmeddelanden.</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_title">Aktivera extra lagring och säkerhetskopiering</string>
     <string name="voicemail_error_inbox_full_message">Inkorgen är full. Radera några meddelanden om du vill ta emot nya röstmeddelanden.</string>
     <string name="voicemail_error_inbox_full_title">Du kan inte ta emot nya röstmeddelanden.</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_message">Din postlåda är full. Frigör utrymme genom att aktivera extra lagringsutrymme så att Google kan hantera och säkerhetskopiera dina röstmeddelanden.</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_title">Aktivera extra lagring och säkerhetskopiering</string>
     <string name="voicemail_error_inbox_near_full_message">Du kan inte ta emot nya röstmeddelanden om inkorgen är full.</string>
     <string name="voicemail_error_inbox_near_full_title">Inkorgen nästan full</string>
     <string name="voicemail_error_no_data_cellular_required_message">Försök igen när du har en bättre mobildataanslutning. Det går fortfarande att lyssna av röstbrevlådan.</string>
@@ -1581,7 +1579,7 @@ Dataanvändning gäller om du fortsätter samtalet."</string>
     <string name="voicemail_transcription_failed_language_not_supported">Transkription inte tillgänglig. Språket stöds inte.</string>
     <string name="voicemail_transcription_failed_no_speech">Transkription inte tillgänglig. Inget tal identifierat.</string>
     <string name="voicemail_transcription_in_progress">Transkriberar …</string>
-    <string name="voicemail_transcription_preference_summary_info">Transkribera röstmeddelanden med Googles kostnadsfria transkriberingstjänst. %1$s</string>
+    <string name="voicemail_transcription_preference_summary_info">Transkribera röstmeddelanden med Googles kostnadsfria transkriberingstjänst. ^1</string>
     <string name="voicemail_visual_voicemail_auto_archive_switch_title">Extra säkerhetskopiering och lagring</string>
     <string name="voicemail_visual_voicemail_donation_switch_title">Transkriptionsanalys för röstbrevlåda</string>
     <string name="voicemail_visual_voicemail_switch_title">Visuell röstbrevlåda</string>
@@ -1637,7 +1635,7 @@ Dataanvändning gäller om du fortsätter samtalet."</string>
     <string name="wait_prompt_str">"Skicka följande toner?
 "</string>
     <string name="was_this_a_business_chip_text">Var det ett företag?</string>
-    <string name="was_this_a_business_dialog_body">Bekräfta taggen för att hjälpa Google att förbättra nummerpresentatören</string>
+    <string name="was_this_a_business_dialog_body">Bekräfta det här hjälper Google att förbättra nummerpresentatören</string>
     <string name="was_this_a_business_dialog_negative_response">Nej</string>
     <string name="was_this_a_business_dialog_positive_response">Ja</string>
     <string name="was_this_a_business_dialog_snackbar">Tack för din feedback</string>

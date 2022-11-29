@@ -28,7 +28,6 @@
     <string name="about_application_pp_tos_settings">Основни подаци, услови коришћења и приватност</string>
     <string name="accessbility_suggestion_dropdown_closed">Нема доступних предлога</string>
     <string name="accessbility_suggestion_dropdown_opened">Предлози за контакте су отворени</string>
-    <string name="acs_url_dropdown_hint">Подесите URL за ACS</string>
     <string name="action_add_contact">Додај контакт</string>
     <string name="action_advanced_feedback">Пошаљите повратне информације</string>
     <string name="action_archive">Архивирај</string>
@@ -47,18 +46,19 @@
     <string name="action_help_and_feedback">Помоћ и повратне информације</string>
     <string name="action_info_and_options">Информације и опције</string>
     <string name="action_jump_to_chat">Прикажи у ћаскању</string>
+    <string name="action_meet_video_call">Meet видео позив</string>
     <string name="action_menu_mark_all_as_read">Означи све као прочитано</string>
     <string name="action_menu_show_archived">Архивирано</string>
     <string name="action_menu_show_spam_folder">Непожељно и блокирано</string>
     <string name="action_notification_off">Искључи обавештења</string>
     <string name="action_notification_on">Укључи обавештења</string>
     <string name="action_notification_settings">Игнориши обавештења</string>
+    <string name="action_off">Искључи</string>
     <string name="action_pair_device">Упаривање уређаја</string>
     <string name="action_people_and_options">Детаљи</string>
     <string name="action_people_and_options_group">Детаљи о групи</string>
     <string name="action_pin_to_top">Закачи на врх</string>
     <string name="action_report_spam">Пријави као непожељно</string>
-    <string name="action_scan_qr_code">Messages за веб</string>
     <string name="action_search">Претражи</string>
     <string name="action_search_gifs">Претражите GIF-ове</string>
     <string name="action_search_messages">Претражи поруке</string>
@@ -77,6 +77,7 @@
     <string name="action_viLTE_video_call">Видео позив преко мобилног оператера</string>
     <string name="action_video_call">Упути видео позив</string>
     <string name="actionbar_subtitle_name_prefix">са %s</string>
+    <string name="active_reminder">Подсетник</string>
     <string name="active_sim_content_message">Изабрано је %s</string>
     <string name="activity_not_found_message">Проналажење одговарајуће апликације није успело</string>
     <string name="add_area_code_banner_button">Додај позивни број</string>
@@ -90,6 +91,7 @@
     <string name="add_contact_confirmation_dialog_title">Желите ли да додате у контакте?</string>
     <string name="add_country_code_banner_button">Додај позивни број за земљу</string>
     <string name="add_more_participants_button_content_description">Додај још учесника</string>
+    <string name="add_reaction_content_description">Реагујте прилагођеном реакцијом</string>
     <string name="add_reaction_for_assistant_card_rcs_fallback_text">​%1$s​ за картицу помоћника</string>
     <string name="add_reaction_for_audio_rcs_fallback_text">​%1$s​ за аудио датотеку</string>
     <string name="add_reaction_for_contact_rcs_fallback_text">​%1$s​ за контакт</string>
@@ -97,7 +99,7 @@
     <string name="add_reaction_for_gif_rcs_fallback_text">​%1$s​ за GIF</string>
     <string name="add_reaction_for_link_rcs_fallback_text">​%1$s​ за линк</string>
     <string name="add_reaction_for_photo_rcs_fallback_text">​%1$s​ за слику</string>
-    <string name="add_reaction_for_text_message_rcs_fallback_text">​%1$s​ за „%2$s“</string>
+    <string name="add_reaction_for_text_message_rcs_fallback_text">​%1$s​ за „ %2$s “</string>
     <string name="add_reaction_for_unknown_message_type_rcs_fallback_text">​%1$s​ за непознату врсту поруке</string>
     <string name="add_reaction_for_video_rcs_fallback_text">​%1$s​ за видео</string>
     <string name="advanced_feedback_activity_disclaimer">Садржај и текст порука, изузев са снимака екрана, не шаљу се Google-у</string>
@@ -134,14 +136,13 @@
     <string name="apn_mnc">MNC</string>
     <string name="app_name">Messages</string>
     <string name="app_settings_conversation_pref_title">Подешавања апликације</string>
-    <string name="apply_button">Примени</string>
     <string name="archived_activity_title">Архивирано</string>
     <string name="archived_conversation_list_empty_text">Овде се појављују архивиране преписке</string>
     <string name="area_code_banner_description">@string/banner_description</string>
     <string name="assistant_movies_shortcut_title">Филмови</string>
+    <string name="assistant_preference_summary">Прикажи релевантне информације о ресторанима, филмовима и другом</string>
     <string name="assistant_preference_title">Предлози Помоћника</string>
     <string name="assistant_restaurants_shortcut_title">Ресторани</string>
-    <string name="assistant_send_to_chip_default_group_name">групу</string>
     <string name="assistant_suggestions_tooltip_text">Messages прави предлоге задржавајући конверзацију на уређају. Можете да додирнете предлоге да бисте видели и делили информације из Google помоћника. &lt;br/> &lt;br/> &lt;a href>Сазнајте више&lt;/a> и управљајте предлозима у &lt;a href>Подешавањима&lt;/a></string>
     <string name="assistant_suggestions_tooltip_title_text">Дођите до информација једним додиром</string>
     <string name="assistant_weather_shortcut_title">Време</string>
@@ -157,12 +158,18 @@
     <string name="attachment_location">Локација</string>
     <string name="attachment_picture">Слика</string>
     <string name="attachment_preview_close_content_description">Одбаците прилог</string>
+    <string name="attachment_preview_photos_link_share_getting_link">Преузимамо линк…</string>
+    <string name="attachment_preview_photos_link_share_no_upload_needed">Претходно отпремљено</string>
+    <string name="attachment_preview_photos_link_share_upload_size">%s Отпремање</string>
+    <string name="attachment_preview_photos_link_share_upload_size_failure">Непознато</string>
+    <string name="attachment_preview_photos_link_share_upload_size_placeholder">Израчунава се…</string>
     <string name="attachment_unsupported_file">Неподржана датотека</string>
     <string name="attachment_vcard">Картица контакта</string>
     <string name="attachment_video">Видео</string>
     <string name="audio_attachment_content_description">Аудио прилог</string>
     <string name="audio_attachment_seek_playback_description">Репродукција звука</string>
     <string name="audio_button_view_content_description">Двапут додирните и задржите да бисте снимили звук, превуците налево да бисте отказали</string>
+    <string name="audio_format_type">звук</string>
     <string name="audio_pause_content_description">Пауза</string>
     <string name="audio_play_content_description">Пусти аудио прилог</string>
     <string name="audio_recorder_call_in_progress">Не можете да снимате звук за време позива</string>
@@ -181,6 +188,8 @@
     <string name="auto_selected_country_summary">Аутоматски изабрано (%1$s)</string>
     <string name="automoved_spam_notification_action_dismiss">Одбаци</string>
     <string name="automoved_spam_notification_action_view">Прикажи</string>
+    <string name="automoved_spam_notification_content_text">Долазни непожељни садржај је премештен у Непожељно и блокирано</string>
+    <string name="automoved_spam_notification_content_title">Откривен је непожељан садржај</string>
     <string name="avatar_no_connection_msg">Нема интернет везе</string>
     <string name="avatar_promo_create">Направи</string>
     <string name="avatar_promo_see_all">Прикажи све</string>
@@ -192,12 +201,13 @@
     <string name="birthday_banner_description">@string/banner_description</string>
     <string name="birthday_banner_dismiss_button_text">Одбаци</string>
     <string name="birthday_banner_settings_button_text">Управљајте тиме у подешавањима</string>
-    <string name="birthday_info_text">Messages прави подсетнике на рођендане контаката чији рођендани су сачувани на уређају</string>
+    <string name="birthday_info_text">Ови подсетници су засновани на подацима о рођендану из апликације Контакти вашег уређаја.</string>
+    <string name="birthday_info_text_with_settings">Ови подсетници су засновани на подацима о рођендану из апликације Контакти вашег уређаја. &lt;a href>%1$s&lt;/a></string>
     <string name="birthday_nudge_enabled_pref_summary">Примајте подсетнике за рођендане које сте додали у контакте на уређају</string>
     <string name="birthday_nudge_enabled_pref_title">Подсетници за рођендане</string>
     <string name="block_confirmation_message_spam_folder">И даље ћете добијати поруке од %1$s, али више нећете примати обавештења. Ова конверзација се премешта у „Непожељно и блокирано“.</string>
     <string name="block_confirmation_message_system_spam_folder">Нећете примати позиве ни SMS-ове од %1$s. Ова конверзација се премешта у „Непожељно и блокирано“.</string>
-    <string name="block_confirmation_title">Блокирајте и пријављујте непожељан садржај</string>
+    <string name="block_confirmation_title">Блокирајте и пријавите непожељан садржај</string>
     <string name="block_contact_title">Блокирај и пријави као непожељно</string>
     <string name="blocked_and_reported_toast_message">%s је блокиран/а и пријављен/а</string>
     <string name="blocked_contacts_title">Блокирани контакти</string>
@@ -212,9 +222,13 @@
     <string name="boew_promo_text">Да бисте користили функције ћаскања, нпр. размену порука преко Wi‑Fi-ја и мобилних података, дозволите Messages-у да ради у позадини</string>
     <string name="boew_promo_title">Урадите више помоћу Messages-а</string>
     <string name="bottomsheet_action_expand_halfway">Проширите до пола</string>
+    <string name="bottomsheet_drag_handle_content_description">Ручица за превлачење</string>
     <string name="broadcast_receiver_notification_text_extra_info">Messages изводи операције у позадини. Пошаљите извештај о грешци ако се ово обавештење приказује дуже од минута. Име примаоца: %1$s</string>
     <string name="broadcast_sms_text">Слање масовних SMS-ова</string>
     <string name="bubble_settings_title">Облачићи</string>
+    <string name="bugle_add_account_error">Додавање налога није успело. Пробајте поново.</string>
+    <string name="bugle_fix_it">Реши проблем</string>
+    <string name="bugle_load_account_failure">Учитавање налога није успело.</string>
     <string name="bugle_notification_category_conversations">Конверзације</string>
     <string name="bugle_notification_category_default_settings">Подразумевана подешавања</string>
     <string name="bugle_notification_category_reminders">Подсетници</string>
@@ -226,6 +240,8 @@
     <string name="bugle_notification_reminders_channel_name">Подсетници</string>
     <string name="bugle_notification_report_issue_channel_name">Захтев за утиске о Messages-у</string>
     <string name="bugle_notification_silent_default_channel_name">Добијајте обавештења док користите веб</string>
+    <string name="bugle_play_services_error">Није успело при слању упита за Google Play услуге.</string>
+    <string name="bugle_retry">Пробај поново</string>
     <string name="business_action_call_full_content_description">Позовите %1$s (%2$s)</string>
     <string name="business_action_call_short_content_description">Позовите</string>
     <string name="business_action_call_short_text_m2">Позови</string>
@@ -287,6 +303,7 @@
     <string name="c2o_single_file_attachment_size_limit_exceed">Прилог је превелик за слање. Пробајте да пошаљете датотеку мању од %s.</string>
     <string name="c2o_storage_permissions_text">Додирните да бисте одобрили приступ медијима</string>
     <string name="c2o_video_button_text">Видео</string>
+    <string name="calendar_badge_content_description">Значка календара</string>
     <string name="calendar_event_added">Догађај је сачуван</string>
     <string name="calendar_file_content_description">Датотека календара</string>
     <string name="calendar_suggestion_event_chat_title">Android Messages ћаскање</string>
@@ -297,6 +314,7 @@
     <string name="camera_attach_media">Приложи</string>
     <string name="camera_attach_media_description">Приложите поруци</string>
     <string name="camera_back_switch_button">Пребачено на задњу камеру</string>
+    <string name="camera_capture_button_label">Снимите слику</string>
     <string name="camera_flash_off">Блиц је искључен</string>
     <string name="camera_flash_on">Блиц је укључен</string>
     <string name="camera_front_switch_button">Пребачено на предњу камеру</string>
@@ -397,6 +415,11 @@
     <string name="common_google_play_services_update_text">%1$s не може да се покрене ако не ажурирате Google Play услуге.</string>
     <string name="common_google_play_services_update_title">Ажурирајте Google Play услуге</string>
     <string name="common_google_play_services_updating_text">%1$s не може да се покрене без Google Play услуга, које се тренутно ажурирају.</string>
+    <string name="common_google_play_services_wear_update_text">Потребна је нова верзија Google Play услуга. Ускоро ће се ажурирати.</string>
+    <string name="common_open_on_phone">Отвори на телефону</string>
+    <string name="complete_photos_app_onboarding">Отвори Google слике</string>
+    <string name="complete_photos_app_onboarding_title">Да бисте наставили, одобрите приступ Google сликама</string>
+    <string name="complete_photos_app_onboarding_to_continue">Почните да користите апликацију Google слике</string>
     <string name="compose_message_view_hint_text">Порука ћаскања</string>
     <string name="compose_message_view_hint_text_multi_sim_rcs">Ћаскајте (%s)</string>
     <string name="compose_message_view_hint_text_multi_sim_sms_mms">Пошаљите текстуалну поруку (%s)</string>
@@ -418,15 +441,12 @@
     <string name="contact_has_multiple_destinations_phone">%1$s (+ још %2$s)</string>
     <string name="contact_has_multiple_destinations_type">Више</string>
     <string name="contact_list_add_people">Додај %s</string>
-    <string name="contact_list_empty_text">Унесите име или број телефона контакта да бисте започели нову поруку</string>
     <string name="contact_list_send_to_text">Пошаљи на %s</string>
     <string name="contact_picker_autocomplete_added">Додат је контакт %1$s и тренутно уноси измене</string>
     <string name="contact_picker_autocomplete_deleted">%1$s је избрисан/а, тренутно се уносе измене</string>
-    <string name="contact_picker_cant_add_destination_twice">Тај број је већ у групи</string>
     <string name="contact_picker_cant_remove_from_existing">Уклањање броја из постојеће конверзације није успело</string>
     <string name="contact_picker_cant_remove_from_screen">Да бисте уклонили људе, идите у &lt;b>Детаље групе&lt;/b></string>
     <string name="contact_picker_confirm_participants_button_label">Даље</string>
-    <string name="contact_picker_group_create_label">Направите групу</string>
     <string name="contact_picker_group_v2_create_label">Направите групу</string>
     <string name="contact_picker_message_a_business_label">Ћаскајте са предузећем</string>
     <string name="contact_picker_title_add_people">Додајте људе</string>
@@ -449,10 +469,14 @@
     <string name="content_description_link_to_settings">Управљајте у Подешавањима</string>
     <string name="contextual_action_bar_description_prefix">Приказује се трака с алаткама за радње: %s. Идите нагоре да бисте изабрали радњу или затворите.</string>
     <string name="conversation_area_code_popup_paragraph">Ако позивни број није познат, Messages ће покушати да пошаље на %1$s. Додајте позивни број овог контакта због будућих порука. %2$s</string>
+    <string name="conversation_block_failed_message">Није блокирано, проверите везу</string>
+    <string name="conversation_blocking_message">Блокира се…</string>
     <string name="conversation_country_code_popup_paragraph">Додајте позивни број за земљу (+%1$s за %2$s) за овај контакт како бисте послали поруку правој особи. %3$s</string>
     <string name="conversation_creation_failed">Прављење конверзације није успело. Пробајте поново касније.</string>
     <string name="conversation_creation_failure">Започињање преписке није успело</string>
+    <string name="conversation_deleting_message">Брише се…</string>
     <string name="conversation_deletion_failed">Брисање конверзације није успело</string>
+    <string name="conversation_deletion_failed_message">Није избрисано, проверите везу</string>
     <string name="conversation_empty_name">Празно</string>
     <string name="conversation_label_all">Све</string>
     <string name="conversation_label_business_updates">Пословање</string>
@@ -479,7 +503,6 @@
     <string name="conversation_list_item_view_draft_message">Недовршена порука</string>
     <string name="conversation_list_item_view_sent_from_other_prefix">%s:</string>
     <string name="conversation_list_item_view_sent_from_you_prefix">"Ви: "</string>
-    <string name="conversation_list_loading_item_description">Учитава се конверзација</string>
     <string name="conversation_list_message_fail_to_decrypt">Дешифровање није успело</string>
     <string name="conversation_list_rcs_promo_button_negative">Немој да надоградиш апликацију</string>
     <string name="conversation_list_rcs_promo_button_positive">Надогради</string>
@@ -491,7 +514,6 @@
     <string name="conversation_list_snippet_link">Линк</string>
     <string name="conversation_list_spam_popup_negative">Управљајте у Подешавањима</string>
     <string name="conversation_list_spam_popup_paragraph">Да би спречио непожељан садржај, Google користи бројеве телефона непознатих пошиљалаца и прималаца. Google-у се не шаљу ваше поруке и контакти. %1$s</string>
-    <string name="conversation_list_spam_popup_paragraph_on_device">Messages користи интелигенцију на уређају за откривање непожељних порука и слање података о њима Google-у без вашег броја телефона или садржаја поруке. %1$s</string>
     <string name="conversation_list_spam_popup_positive">Потврди</string>
     <string name="conversation_list_spam_popup_title">Заштита од непожељног садржаја</string>
     <string name="conversation_list_terms_and_conditions_promo_subtitle">Завршите укључивање функција ћаскања да бисте размењивали поруке преко WiFi-а и друго</string>
@@ -514,6 +536,7 @@
     <string name="conversation_suggestion_set_reminder_action">Предложена радња подешавања подсетника</string>
     <string name="conversation_suggestion_share_location_action">Предложена радња дељења локације</string>
     <string name="conversation_suggestion_share_location_action_failure">Нешто није у реду. Да бисте делили локацију, додајте је у нову поруку.</string>
+    <string name="conversation_suggestion_star_action">Предложена радња за додавање звездице</string>
     <string name="conversation_suggestion_sticker">Предложена налепница</string>
     <string name="copy">Копирај</string>
     <string name="copy_to_clipboard">Копирај</string>
@@ -523,12 +546,13 @@
     <string name="create_group_info_title">Додајте име групе</string>
     <string name="create_new_group_message">Ако додате ову особу, направићете нову групу без функција ћаскања</string>
     <string name="current_country_pref_title">Тренутно сте у земљи</string>
+    <string name="custom_reaction_selection_prompt">Изаберите емоџи</string>
     <string name="dark_mode_disable_title">Онемогућите тамни режим</string>
     <string name="dark_mode_enable_title">Омогућите тамни режим</string>
     <string name="dasher_disabled_notification_body">Обратите се администратору система или се пријавите помоћу другог налога.</string>
     <string name="dasher_disabled_notification_title">Налог %s је уклоњен</string>
-    <string name="data_required_download_snackbar_message">Да бисте преузели овај фајл, укључите мобилне податке или Wi-Fi</string>
-    <string name="data_required_send_snackbar_message">Да бисте послали овај фајл, укључите мобилне податке или Wi-Fi</string>
+    <string name="data_required_download_snackbar_message">Да бисте преузели овај фајл, укључите мобилне податке или WiFi</string>
+    <string name="data_required_send_snackbar_message">Да бисте послали овај фајл, укључите мобилне податке или WiFi</string>
     <string name="data_required_snackbar_action">Укључи</string>
     <string name="datetime_picker_back_button">Назад</string>
     <string name="datetime_picker_cancel_button">Откажи</string>
@@ -584,18 +608,15 @@
     <string name="disable_multidevice_dialog_title">Синхронизујете SMS-ове, позиве и говорну пошту?</string>
     <string name="disable_rcs_warning_accept_text">Искључи</string>
     <string name="disable_rcs_warning_text">Бићете уклоњени из свих група које користе функције ћаскања</string>
-    <string name="disable_rcs_warning_title">Желите ли да искључите функције ћаскања?</string>
+    <string name="disable_rcs_warning_title">Желите да искључите функције ћаскања?</string>
     <string name="discard">Одбаци</string>
-    <string name="dismiss_button">Одбиј</string>
+    <string name="dismiss_button">Одбаци</string>
     <string name="ditto_activity_label">Упаривање уређаја</string>
     <string name="ditto_foreground_service_device_pairing_notification_text">Поруке су доступне на рачунару који сте упарили</string>
     <string name="ditto_foreground_service_device_pairing_notification_title">Упаривање уређаја</string>
-    <string name="ditto_foreground_service_notification_text">Поруке су доступне на рачунару који сте упарили</string>
-    <string name="ditto_foreground_service_notification_title">Messages за веб</string>
     <string name="ditto_foreground_service_sign_out">Опозови упаривање</string>
     <string name="ditto_persistent_notification_settings">Обавештења</string>
     <string name="ditto_settings_action_bar_title">Обавештења</string>
-    <string name="ditto_settings_connected_to_web_notification_description">„Messages за веб“ се појављује кад вам је уређај онлајн</string>
     <string name="ditto_settings_connected_to_web_notification_title">Приказуј трајно обавештење</string>
     <string name="ditto_settings_device_paired_notification_description">„Упаривање уређаја“ се појављује када је уређај онлајн</string>
     <string name="ditto_settings_while_using_web_notification_description">Искључи мелодију звона и вибрацију кад је уређај онлајн</string>
@@ -636,6 +657,7 @@
     <string name="dump_mms_pref_title">Направи сирову копију MMS-а</string>
     <string name="dump_sms_pref_summary">Направи сирову копију необрађених података примљеног SMS-а у датотеци спољног меморијског простора</string>
     <string name="dump_sms_pref_title">Направи сирову копију SMS-а</string>
+    <string name="duplicate_upload_snackbar">Неки дупликати нису уврштени</string>
     <string name="e2ee_conversation_tombstone">Ћаскање шифровано с краја на крај са: %1$s</string>
     <string name="e2ee_conversation_tombstone_with_learn_more">Ћаскање са: %1$s шифровано је с краја на крај. %2$s</string>
     <string name="e2ee_fail_to_send_retry_description">Поново пошаљи као ћаскање</string>
@@ -674,7 +696,6 @@
 Поруке ће се поново укључити када се функције ћаскања поново повежу."</string>
     <string name="enable_rcs_auto_fallback_dialog_title">Аутоматски поново послати као текстуалну поруку (SMS/MMS)?</string>
     <string name="enable_rcs_auto_fallback_title">Аутоматски поново шаљи као текстуалну поруку (SMS/MMS)</string>
-    <string name="enable_rcs_fallback_to_sms_title">Поново пошаљите неиспоручене поруке</string>
     <string name="enable_rcs_fallback_to_xms_title">Поново пошаљите неиспоручене поруке</string>
     <string name="enable_rcs_summary_off">Користите WiFi или везу за пренос података за размену порука кад су доступни</string>
     <string name="enable_rcs_summary_on">За размену порука се користе мобилни подаци кад су доступни</string>
@@ -686,9 +707,13 @@
     <string name="enter_phone_number_title">Потврдите број телефона</string>
     <string name="enter_phone_number_title_for_sim">Потврдите број телефона за %1$s</string>
     <string name="enumeration_comma">", "</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_failed_to_save_setting">Проблем при чувању. Пробајте поново.</string>
     <string name="error_icon_content_description">Грешка</string>
     <string name="error_premium_sms_needs_permission">Да бисте послали ову поруку, идите у подешавања уређаја и укључите приступ премијум SMS-овима</string>
+    <string name="error_text_draft_is_reply_to_missing_message">Не можете да одговорите на избрисану поруку</string>
+    <string name="error_text_draft_is_reply_without_rcs">Дошло је до проблема са функцијама ћаскања. Пробајте да пошаљете без одговора.</string>
+    <string name="error_text_scheduled_send_with_draft_reply">Тренутно не можете да закажете одговор</string>
     <string name="etouffee_to_rcs_notification">Messages је открио да је шифровање с краја на крај прекинуто у конверзацији. Додирните да бисте послали повратне информације.</string>
     <string name="etouffee_to_telephony_setting">Приватност</string>
     <string name="etouffee_to_telephony_setting_description">"Дозволе за SMS обухватају поруке шифроване с краја на крај, што значи да за њих могу да се праве резервне копије помоћу Android-а, да се читају наглас у аутомобилу или на пратећем уређају и друго. Прегледајте апликације са дозволама за SMS и управљајте њима у подешавањима Android-а.
@@ -714,19 +739,24 @@
     <string name="exo_controls_pause_description">Паузирај</string>
     <string name="exo_controls_play_description">Пусти</string>
     <string name="exo_controls_previous_description">Претходна</string>
-    <string name="exo_controls_repeat_all_description">Понови све</string>
-    <string name="exo_controls_repeat_off_description">Не понављај ниједну</string>
-    <string name="exo_controls_repeat_one_description">Понови једну</string>
+    <string name="exo_controls_repeat_all_description">Ваш режим: Понови све. Укључите/искључите.</string>
+    <string name="exo_controls_repeat_off_description">Ваш режим: Без понављања. Укључите/искључите.</string>
+    <string name="exo_controls_repeat_one_description">Ваш режим: Понови једно. Укључите/искључите.</string>
     <string name="exo_controls_rewind_description">Премотај уназад</string>
     <string name="exo_controls_show">Прикажи контроле плејера</string>
-    <string name="exo_controls_shuffle_off_description">Насумично пуштање је искључено</string>
-    <string name="exo_controls_shuffle_on_description">Насумично пуштање је укључено</string>
+    <string name="exo_controls_shuffle_off_description">Омогућите насумични режим</string>
+    <string name="exo_controls_shuffle_on_description">Онемогућите насумични режим</string>
     <string name="exo_controls_vr_description">ВР режим</string>
     <string name="exo_track_selection_auto">Аутоматски</string>
     <string name="exo_track_selection_none">Ниједна</string>
     <string name="expand_attach_button_content_description">Дугмад за проширење прилога</string>
     <string name="expand_button_title">Напредно</string>
     <string name="exposed_dropdown_menu_content_description">Прикажи падајући мени</string>
+    <string name="express_sign_in_illustration_content_description">Илустрација функције за дељење медија</string>
+    <string name="express_sign_in_sub_title">"Очувајте оштрину видео снимка кад се
+пријавите и пошаљете линкове Google слика."</string>
+    <string name="express_sign_in_title">"Делите видео снимке онако
+како је предвиђено да се приказују"</string>
     <string name="fail_to_decrypt_message_metadata">Дешифровање није успело, додирните за опције</string>
     <string name="fail_to_load_dialog_negative_button">Пошаљи поруку преко SIM картице уређаја</string>
     <string name="fail_to_load_dialog_positive_button">Пробај поново</string>
@@ -740,6 +770,7 @@
     <string name="failed_message_content_description">Слање поруке није успело. Додирните да бисте покушали поново.</string>
     <string name="failed_qr_pairing_dialog_message">Нешто није у реду. Пробајте поново за пар минута.</string>
     <string name="failed_qr_pairing_dialog_positive_button_text">Потврди</string>
+    <string name="failed_to_select_attachment_from_system_picker">Бирање овог прилога није успело</string>
     <string name="fast_track_negative_button_text">Не, хвала</string>
     <string name="fast_track_popup_accepted_snack_bar_text">Подешавају се функције ћаскања. Обавестићемо вас кад буду спремне.</string>
     <string name="fast_track_popup_declined_snack_bar_text">Функције ћаскања увек можете да укључите у Подешавањима.</string>
@@ -805,6 +836,9 @@
     <string name="fi_settings_download_over_wifi_title">Синхронизуј медије само преко WiFi-а</string>
     <string name="fi_settings_opt_out_failed">Тренутно не можемо да зауставимо синхронизацију и да вас одјавимо. Пробајте поново.</string>
     <string name="fi_settings_opt_out_in_progress">Зауставља се синхронизација и одјављујемо вас</string>
+    <string name="fi_settings_redirect_button">Управљај резервним копијама</string>
+    <string name="fi_settings_redirect_summary">Пронађите их у менију налога</string>
+    <string name="fi_settings_redirect_title">Подешавања Резервних копија и синхронизације су премештена</string>
     <string name="fi_settings_sync_preference_backup_in_progress">Прављење резервних копија је у току: %1$d%%</string>
     <string name="fi_settings_sync_preference_restore_in_progress">Враћање је у току: %1$d%%</string>
     <string name="fi_settings_sync_preference_summary">Поруке, позиви и говорна пошта су ажурирани на свим екранима</string>
@@ -822,6 +856,7 @@
     <string name="file_transfer_via_sms_other">Делим датотеку са вама</string>
     <string name="file_transfer_via_sms_video">Делим видео са вама</string>
     <string name="files_shortcut_title">Фајлови</string>
+    <string name="flip_camera_button_label">Обрни камеру</string>
     <string name="floating_toolbar_close_overflow_description">Затворите преклопни мени</string>
     <string name="floating_toolbar_open_overflow_description">Још опција</string>
     <string name="foreground_service_notification_generic_text">Messages изводи операције у позадини</string>
@@ -835,12 +870,27 @@
     <string name="full_banner_expand_chip_description">Дугме за проширивање чипа</string>
     <string name="full_screen_gallery_action_attach">Додај</string>
     <string name="fullscreen_button_description">Отворите преко целог екрана</string>
+    <string name="gaia_auth_failure_dialog_body">Неке функције које омогућава Google налог неће радити док се не пријавите</string>
+    <string name="gaia_auth_failure_dialog_title">Поново се пријавите да бисте потврдили да сте то ви</string>
+    <string name="gallery_google_photos_option_tray_button_add">Додај</string>
+    <string name="gallery_google_photos_option_tray_button_always">Увек</string>
+    <string name="gallery_google_photos_option_tray_button_cancel">Откажи</string>
+    <string name="gallery_google_photos_option_tray_button_just_once">Само једном</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_image">Слика мале јасноће</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_unknown">Медији ниског квалитета</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_video">Видео ниског квалитета</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_image">Слика</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_unknown">Медији</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_video">Видео</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_body">Оштра јасноћа. Управљајте дељеним линковима у Google сликама.</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_learn_more">Сазнајте више</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_title">Линк Google слика</string>
+    <string name="gallery_item_content_description_selected_state">Двапут додирните да бисте поништили избор ставке %1$s на положају %2$s</string>
+    <string name="gallery_item_content_description_unselected_state">Двапут додирните ову ставку (%1$s) снимљену %2$s да бисте је изабрали</string>
     <string name="general_settings">Општа</string>
     <string name="general_settings_activity_title">Општа подешавања</string>
     <string name="general_settings_title_m2">Опције</string>
     <string name="generic_issue_text">Друго</string>
-    <string name="get_messenger_notification_body">Читајте и шаљите SMS-ове са сата или телефона</string>
-    <string name="get_messenger_notification_header">Преузмите Messages</string>
     <string name="get_sticker_packs_error_msg">Учитавање налепница није успело.</string>
     <string name="gif_screen_no_result">Не можемо да пронађемо подударање. Проверите претрагу и пробајте поново.</string>
     <string name="gif_screen_title">GIF-ови</string>
@@ -848,10 +898,23 @@
     <string name="gif_search_hint">Претражите GIF-ове</string>
     <string name="gifs_shortcut_title">GIF-ови</string>
     <string name="go_to_top">Погледајте најновије</string>
-    <string name="google_account_pref_title">Google налог</string>
     <string name="google_assistant_verification_channel_name">Верификатор Помоћника</string>
     <string name="google_assistant_verification_notification_title">Google помоћник шаље поруку</string>
     <string name="google_fi_text">Google Fi</string>
+    <string name="google_photos_onboarding_close_button_description">Затвори картицу Google слике</string>
+    <string name="google_photos_onboarding_ineligible_title">Пријавите се у Google слике да би видео снимци били оштри</string>
+    <string name="google_photos_onboarding_ineligible_title_photos_and_videos">Пријавите се у Google слике да би слике и видео снимци били оштри</string>
+    <string name="google_photos_onboarding_learn_more">Сазнајте више</string>
+    <string name="google_photos_onboarding_next">Даље</string>
+    <string name="google_photos_onboarding_ok">Потврди</string>
+    <string name="google_photos_onboarding_signed_in_title_photos_and_videos">Пријавите се да бисте слали оштре слике и видео снимке</string>
+    <string name="google_photos_onboarding_signed_out_title">Пријавите се да бисте слали оштре видео снимке</string>
+    <string name="google_photos_onboarding_text_body">Задржите јасноћу видео снимака при слању линкова Google слика у MMS конверзацијама</string>
+    <string name="google_photos_onboarding_text_body_photos_and_videos_xms">Задржите јасноћу оштрих медија при слању линкова Google слика у MMS конверзацијама</string>
+    <string name="google_photos_onboarding_title">Делите видео снимке онако како је предвиђено да се приказују</string>
+    <string name="google_photos_onboarding_title_photos_and_videos">Делите слике и видео снимке онако како је предвиђено да се приказују</string>
+    <string name="google_photos_option_tray">Пријавите се да бисте слали оштрије видео снимке</string>
+    <string name="google_photos_option_tray_photos_and_videos">Пријавите се да бисте слали оштре слике и видео снимке</string>
     <string name="google_play_protect_title">Google Play заштита</string>
     <string name="google_tos_chat_features_tooltip">"Видите кад неко уноси текст, добијте потврде читања и шаљите поруке, фајлове и слике у високој резолуцији помоћу функција ћаскања преко протокола Rich Communication Services (RCS). Оне користе мобилне податке за слање порука.
 
@@ -865,8 +928,9 @@
 
 Подразумевану SIM картицу за позиве можете да промените у системским подешавањима. %1$s"</string>
     <string name="google_tos_multisim_view_accessibility_description">Сазнајте више</string>
+    <string name="google_tos_negative_link_text">Не, хвала</string>
     <string name="group_conversation_title_everyone_else_left">Ја</string>
-    <string name="group_limit_alert_dialog_message">{max_group_size_including_self,plural, =1{Може да садржи највише # особу}one{Може да садржи највише # особу}few{Може да садржи највише # особе}other{Може да садржи највише # особа}}</string>
+    <string name="group_limit_alert_dialog_message">{max_group_size_excluding_self,plural, =1{Може да садржи још највише # особу}one{Може да садржи још највише # особу}few{Може да садржи још највише # особе}other{Може да садржи још највише # особа}}</string>
     <string name="group_mms_pref_title">Групна размена порука</string>
     <string name="group_name_edit_text_label">Име групе</string>
     <string name="guest_cloud_preview">ПРЕГЛЕД</string>
@@ -876,14 +940,19 @@
     <string name="happy_birthday_no_name">Пожелите овој особи срећан рођендан.</string>
     <string name="hidden_sender_address">Скривена адреса пошиљаоца</string>
     <string name="highlighter">Маркер</string>
+    <string name="how_it_works_link_text">Принцип рада</string>
+    <string name="hqms_always_send_image_as_link_pref_title">Увек шаљи слике преко линка у поруци (SMS/MMS)</string>
+    <string name="hqms_always_send_video_as_link_pref_title">Увек шаљи видео снимке преко линка у поруци (SMS/MMS)</string>
+    <string name="hqms_settings_gaia_card_text">Управљајте линковима у Google сликама</string>
+    <string name="hqms_settings_info_text">Поруке се отпремају у Google слике где можете да управљате дељењем помоћу линка за видео. %1$s</string>
+    <string name="hqms_settings_sign_in_prompt_text">Пријавите се на Google налог да бисте користили ову функцију</string>
     <string name="hqms_settings_summary">Делите видео снимке оштре јасноће у поруци (SMS/MMS)</string>
     <string name="hqms_settings_title">Google слике</string>
     <string name="identity_verification_notification_text">Messages верификује долазну поруку</string>
     <string name="ignore">Игнориши</string>
     <string name="image_attachment_content_description">Приложена слика</string>
     <string name="image_compress_info">Примаоци ће видети лошији квалитет слике због ограничења мобилног оператера која се односе на MMS-ове</string>
-    <string name="imei_format_dropdown_hint">Подесите формат IMEI-а</string>
-    <string name="imsi_format_dropdown_hint">Подесите формат IMSI-ја</string>
+    <string name="image_format_type">слика</string>
     <string name="in_conversation_blocked_contact_text">Можда нећете видети све поруке зато што овај разговор садржи блокиране контакте.</string>
     <string name="in_conversation_notify_new_message_action">Прикажи</string>
     <string name="in_conversation_notify_new_message_text">Нова порука</string>
@@ -893,7 +962,7 @@
     <string name="incoming_message_for_secondary_user_notification_title">Нова порука</string>
     <string name="incoming_message_foreground_notification_text">Messages обрађује долазну поруку</string>
     <string name="incoming_mms_disabled_by_company_pref_summary">Ваше предузеће не дозвољава долазне MMS поруке</string>
-    <string name="indeterminate">Није означено нити поништено</string>
+    <string name="indeterminate">Делимично означено</string>
     <string name="info_and_options_activity_business_tab_list_header">Пословна</string>
     <string name="info_and_options_activity_info_tab_content_description">Информације</string>
     <string name="info_and_options_activity_info_tab_title">Информације</string>
@@ -904,6 +973,9 @@
     <string name="info_and_options_view_terms_of_service">Погледајте Услове коришћења услуге</string>
     <string name="inline_playback_error">Не можемо да пустимо овај видео у Messages-у</string>
     <string name="inline_playback_pause_content_description">Паузирајте видео</string>
+    <string name="install_photos_app">Преузми Google слике</string>
+    <string name="install_photos_app_title">Да бисте наставили, преузмите апликацију Google слике</string>
+    <string name="install_photos_app_to_continue">Инсталирајте апликацију да бисте слали оштре видео снимке</string>
     <string name="invalid_qr_code_dialog_message">Да бисте се пријавили, скенирајте QR кôд на %s</string>
     <string name="invalid_qr_code_dialog_positive_button_text">Потврди</string>
     <string name="invalid_qr_code_dialog_title">Нетачан кôд</string>
@@ -917,14 +989,12 @@
     <string name="leave_confirmation_text">Желите ли стварно да зауставите пријем порука из ове групе?</string>
     <string name="leave_confirmation_title">Трајно ћете изаћи из групе</string>
     <string name="libraries_material_featurehighlight_dismiss">Одбаци</string>
-    <string name="link_preview_enabled_pref_summary">Прикажи прегледе у порукама</string>
+    <string name="lighter_account_sign_out_snackbar_text">Пријавите се да бисте видели пословне преписке</string>
+    <string name="lighter_block_report_spam_body">Назив предузећа и ваш разговор са овим предузећем пријавите Google-у (могу да се примењују тарифе мобилног оператера).</string>
     <string name="link_preview_enabled_pref_summary_off">Искључено</string>
     <string name="link_preview_failed">Преглед није доступан</string>
     <string name="link_preview_google_photos_display_name">Google слике</string>
-    <string name="link_preview_preference_info_text">Google добија садржај прегледа са повезаних сајтова. Само линкови познатих пошиљалаца обухватају прегледе. %1$s</string>
-    <string name="link_preview_preference_title">Аутоматски прегледи линкова</string>
     <string name="link_preview_tap_to_load">Додирните да бисте учитали преглед</string>
-    <string name="link_preview_wifi_only_pref_summary">Преузимај прегледе само преко WiFi-а</string>
     <string name="link_to_settings"><u>Управљајте у Подешавањима</u></string>
     <string name="listify_many">%1$s и још %2$d</string>
     <string name="listify_one">%s</string>
@@ -971,13 +1041,13 @@
     <string name="manual_msisdn_skipped_snack_bar_text">Побољшане функције ћаскања нису омогућене. Увек можете да их омогућите у подешавањима.</string>
     <string name="manual_msisdn_skipped_snack_bar_text_b155475148">Messages ће пробати да верификује број телефона код мобилног оператера. Управљајте у Подешавањима.</string>
     <string name="manual_msisdn_verify_now_snack_bar_text_b155475148">Messages ће пробати да верификује број телефона код мобилног оператера. Управљајте у Подешавањима.</string>
-    <string name="manually_override_rcs_flags">Ручно замените RCS ознаке</string>
     <string name="mark_all_messages_as_read_confirmation">Све поруке су означене као прочитане</string>
     <string name="mdd_download_notification_channel_name">Канал за обавештења за преузимање података</string>
     <string name="mdd_foreground_service_notification_title">Преузима се</string>
     <string name="mdd_notification_action_cancel">Откажи</string>
     <string name="mdd_notification_download_failed">Преузимање није успело</string>
     <string name="mdd_notification_download_paused">Чека се мрежна веза</string>
+    <string name="mdd_notification_download_paused_wifi">Чека се WiFi веза</string>
     <string name="media_compress_info">Примаоци ће видети лошији квалитет медија због ограничења мобилног оператера која се односе на MMS-ове</string>
     <string name="media_compress_tooltip_info_icon_text">информације</string>
     <string name="media_viewer_close_button_description">Затвори</string>
@@ -1076,6 +1146,8 @@
     <string name="message_type_vcard">Картица контакта</string>
     <string name="message_type_video">Видео</string>
     <string name="message_video_content_description">Видео</string>
+    <string name="message_with_deleted_snippet_talk_back_announcement">%1$s као одговор на избрисану поруку</string>
+    <string name="message_with_reply_snippet_talk_back_announcement">%1$s као одговор на поруку %2$s од %3$s</string>
     <string name="messages_for_web_preference_summary">Идите на %1$s</string>
     <string name="messages_for_web_preference_title">Шаљите SMS-ове, упућујте позиве и проверавајте говорну пошту на вебу</string>
     <string name="messages_status_feedback_data_description">"Све препоручене информације су корисне за откривање скривених проблема, различитих узрока, начина на који су повезани и места где треба решавати проблеме.
@@ -1129,11 +1201,15 @@
     <string name="mms_text">MMS</string>
     <string name="more_string">+%1$d</string>
     <string name="mtrl_badge_numberless_content_description">Ново обавештење</string>
+    <string name="mtrl_checkbox_state_description_checked">Checked</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Indeterminate</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Not checked</string>
     <string name="mtrl_chip_close_icon_content_description">Уклоните %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Нових обавештења: више од %1$d</string>
     <string name="mtrl_picker_a11y_next_month">Пређите на следећи месец</string>
     <string name="mtrl_picker_a11y_prev_month">Пређите на претходни месец</string>
     <string name="mtrl_picker_announce_current_selection">Актуелни избор: %1$s</string>
+    <string name="mtrl_picker_cancel">Откажи</string>
     <string name="mtrl_picker_confirm">Потврди</string>
     <string name="mtrl_picker_day_of_week_column_header">Колона са данима: %1$s</string>
     <string name="mtrl_picker_navigate_to_year_description">Идите на годину %1$s</string>
@@ -1145,11 +1221,24 @@
     <string name="multimedia_message">Мултимедијална порука</string>
     <string name="muted_conversation_content_description">Обавештења су онемогућена.</string>
     <string name="nav_app_bar_navigate_up_description">Идите нагоре</string>
+    <string name="nav_archived_messages_folder_title">Архивирано</string>
+    <string name="nav_choose_theme_title">Изаберите тему</string>
+    <string name="nav_choose_theme_title_disable_dark_mode">Онемогући тамни режим</string>
+    <string name="nav_choose_theme_title_enable_dark_mode">Омогући тамни режим</string>
+    <string name="nav_device_pairing_title">Упаривање уређаја</string>
+    <string name="nav_mark_all_as_read_title">Означи све као прочитано</string>
+    <string name="nav_messages_folder_title">Поруке</string>
+    <string name="nav_spam_and_blocked_messages_folder_title">Непожељно и блокирано</string>
+    <string name="nav_starred_folder_title">Са звездицом</string>
     <string name="navigate_up_button_content_description">Иди нагоре</string>
     <string name="new_message_label">{count,plural, =1{1 нова порука}one{# нова порука}few{# нове поруке}other{# нових порука}}</string>
     <string name="new_pill_label">Ново</string>
     <string name="new_rich_cards_preference_info_text">Да би правио све прегледе и препознавао штетан садржај, Google скенира неке информације (на пример, места или линкове) из историје ћаскања, али вас том приликом не идентификује. %1$s</string>
-    <string name="no_google_account">Ништа</string>
+    <string name="no_business_name_fallback">ово предузеће</string>
+    <string name="no_connection">Веза није успостављена</string>
+    <string name="no_media_button">Прикажи опције</string>
+    <string name="no_media_caption">Пробајте са другим извором медија или другим профилом</string>
+    <string name="no_media_description">На овом уређају нема сачуваних медија за овај профил</string>
     <string name="no_reply_pinned_message_text">Пошиљалац не подржава одговоре</string>
     <string name="no_sim_message">Нема порука на SIM картици</string>
     <string name="not_selected">Није изабрано</string>
@@ -1205,31 +1294,51 @@
     <string name="nudge_learn_more_info_text">Више о аутоматским подсетницима</string>
     <string name="nudge_reply_enabled_pref_summary">Поруке на које можда треба да одговорите преместиће се на врх</string>
     <string name="nudge_reply_enabled_pref_title">Предложи подсетнике за одговоре</string>
+    <string name="nudge_settings_page_description">Прикажи подсетнике за одговоре и рођендане</string>
     <string name="nudge_settings_page_title">Аутоматски подсетници</string>
     <string name="numeric_text_keyboard_toggle_button_content_description">Пребацивање између уноса текста и бројева</string>
     <string name="off">Искључено</string>
     <string name="og_a11y_close">Затворите</string>
     <string name="og_account_and_settings">Налог и подешавања.</string>
+    <string name="og_account_particle_disc_no_accounts_available_a11y">Пријави ме</string>
     <string name="og_add_another_account">Додај још један налог</string>
+    <string name="og_app_settings">Подешавања за: %1$s</string>
     <string name="og_choose_an_account_title">Одаберите налог</string>
     <string name="og_collapse_account_list_a11y">Скупите листу налога.</string>
     <string name="og_continue">Настави</string>
     <string name="og_continue_as">Настави као %1$s</string>
     <string name="og_expand_account_list_a11y">Проширите листу налога.</string>
+    <string name="og_get_storage_action">Набави меморију</string>
+    <string name="og_get_storage_action_short">Купите још</string>
     <string name="og_google_one_account_a11y">Google One налог.</string>
+    <string name="og_help_feedback">Помоћ и повратне информације</string>
     <string name="og_loading_a11y">Учитава се</string>
     <string name="og_manage_accounts">Управљај налозима на овом уређају</string>
+    <string name="og_manage_storage_action">Управљајте</string>
+    <string name="og_manage_storage_action_short">Управљајте</string>
+    <string name="og_minimized_storage_card_title">У употреби је %1$s од %2$s GB меморијског простора</string>
+    <string name="og_more_options_action">Још опција</string>
+    <string name="og_more_options_action_short">Опције</string>
     <string name="og_my_account_desc_long_length">Управљајте Google налогом</string>
     <string name="og_my_account_desc_meduim_length">Google налог</string>
     <string name="og_my_account_desc_short_length">Налог</string>
+    <string name="og_privacy_advisor">Подаци у %1$s</string>
     <string name="og_privacy_policy">Политика приватности</string>
     <string name="og_selected_account_a11y">Изабран је налог %1$s.</string>
     <string name="og_sign_in_">Пријавите се</string>
     <string name="og_signed_in_as_account">Пријављени сте као %1$s</string>
+    <string name="og_storage_card_almost_full_a11y_label">Меморијски простор за ваш налог је скоро пун</string>
+    <string name="og_storage_card_full_a11y_label">Меморијски простор за ваш налог је попуњен</string>
+    <string name="og_storage_card_title">Меморијски простор налога</string>
+    <string name="og_storage_card_title_almost_full">У употреби је %1$s меморијског простора</string>
+    <string name="og_storage_card_title_full">Меморијски простор је пун</string>
+    <string name="og_storage_progress_subtitle">Користите %1$s GB од%2$s GB</string>
     <string name="og_terms_of_service">Услови коришћења услуге</string>
     <string name="og_use_account_a11y_no_period">Користићете %1$s</string>
+    <string name="og_use_without_an_account">Користите без налога</string>
     <string name="on">Укључено</string>
     <string name="onboarding_google_tos_with_sms_charges_and_learn_more">Да бисте укључили Google функције ћаскања, треба да прихватите %1$s и %2$s. Google ће повремено верификовати ваш број путем размене информација о уређају са вашим мобилним оператером (SMS може да се наплаћује). %3$s.</string>
+    <string name="open_full_screen_camera_button_label">Отворите камеру преко целог екрана</string>
     <string name="open_video_trimmer_dialog_negative">Откажи</string>
     <string name="open_video_trimmer_dialog_positive">Скрати</string>
     <string name="organization">Организација</string>
@@ -1243,8 +1352,6 @@
     <string name="otp_auto_deletion_promo_banner_positive_button_text">Настави</string>
     <string name="otp_auto_deletion_promo_banner_title_text">Аутоматски брисати OTP-ове после 24 сата?</string>
     <string name="otp_copied_to_clipboard">Кôд је копиран</string>
-    <string name="otp_pattern_dropdown_hint">Подесите OTP шаблон</string>
-    <string name="otp_port_dropdown_hint">Подесите OTP порт</string>
     <string name="outgoing_message_foreground_notification_text">Messages обрађује одлазну поруку</string>
     <string name="outgoing_mms_disabled_by_carrier_pref_summary">Ваш мобилни оператер не дозвољава одлазне MMS поруке</string>
     <string name="outgoing_mms_disabled_by_company_pref_summary">Ваше предузеће не дозвољава одлазне MMS поруке</string>
@@ -1270,6 +1377,7 @@
     <string name="paired_desktops_last_connection_time">Последња активност: %s</string>
     <string name="paired_desktops_last_connection_time_unknown">непознато</string>
     <string name="participant_joined_group">%s је ушао/ла у ову групу</string>
+    <string name="participant_joined_with_learn_more">%1$s је ушао/ла у ову групу. %2$s</string>
     <string name="participant_left_group">%s је изашао/ла из ове групе</string>
     <string name="participant_list_add">Додајте људе</string>
     <string name="participant_list_count_title_icu">{count,plural, =0{0 других особа}=1{Још 1 особа}one{Још # особа}few{Још # особе}other{Још # особа}}</string>
@@ -1287,8 +1395,9 @@
     <string name="permission_promo_continue_button_text">Настави</string>
     <string name="permission_promo_settings_button_text">Подешавања</string>
     <string name="phone_number_input_body_for_mo_text">То можете и да прескочите и добијете функције ћаскања касније, а Messages ће пробати да верификује ваш број преко мобилног оператера</string>
-    <string name="phone_number_input_body_text">Да бисте добили функције ћаскања, Messages верификује ваш број</string>
+    <string name="phone_number_input_body_text">Да би се уверио да ћете добити функције ћаскања, Messages ће верификовати ваш број</string>
     <string name="phone_number_input_hint">Број телефона</string>
+    <string name="phone_number_input_invalid_number_text">Неважећи број телефона</string>
     <string name="phone_number_input_negative_button_for_mo_text">Прескочи за сада</string>
     <string name="phone_number_input_negative_button_for_mt_text">Подсети ме касније</string>
     <string name="phone_number_input_positive_button_text">Додај број</string>
@@ -1305,10 +1414,25 @@
     <string name="phone_number_input_title_text">Да бисте брже добили функције ћаскања, одмах додајте број</string>
     <string name="phone_number_input_tos_reminder_text">Раније сте прихватили %1$s за функције ћаскања</string>
     <string name="phone_number_input_tos_text">Услове коришћења услуге</string>
+    <string name="phone_number_promo_banner_body_text">Да бисте слали оштре видео снимке, анимиране реакције и друго преко WiFi-а или мобилних података, потврдите број телефона</string>
+    <string name="phone_number_promo_banner_negative_button_text">Одбаци</string>
+    <string name="phone_number_promo_banner_positive_button_text">Даље</string>
+    <string name="phone_number_promo_banner_title_text">Следећи корак ка бољим функцијама Messages-а</string>
+    <string name="phone_number_promo_body_text">Почните одмах помоћу верификованог броја телефона. Увек можете да управљате функцијама ћаскања у подешавањима.</string>
+    <string name="phone_number_promo_body_text_mo">Почните одмах помоћу верификованог броја телефона. То можете и да прескочите и добијете функције ћаскања касније, а Messages ће пробати да верификује ваш број.</string>
+    <string name="phone_number_promo_negative_button_text">Подсети ме касније</string>
+    <string name="phone_number_promo_negative_button_text_mo">Прескочи за сада</string>
+    <string name="phone_number_promo_positive_button_text">Преузми функције ћаскања</string>
+    <string name="phone_number_promo_title_text">Да ли сте спремни за дељење слика, видео снимака и других садржаја преко WiFi-ја или мобилних података?</string>
+    <string name="phone_number_ui_accepted_snackbar_text">Добићете обавештење кад функције ћаскања постану доступне</string>
+    <string name="phone_number_ui_dismissed_snackbar_action_text">Подешавања</string>
+    <string name="phone_number_ui_dismissed_snackbar_text">Да бисте одмах преузели функције ћаскања, додајте број телефона или управљајте опцијама у Подешавањима</string>
     <string name="photo_taken">Усликали сте</string>
+    <string name="photos_app_installation_required">Да бисте слали оштре видео снимке, инсталирајте апликацију Google слике</string>
+    <string name="photos_app_onboarding_required">Да бисте слали оштре видео снимке, дозволите приступ Google сликама</string>
+    <string name="photos_app_sharing_unavailable_try_again_later">Линк до оштрог видеа тренутно није доступан. Видео слабијег квалитета је спреман за слање.</string>
+    <string name="photos_app_sign_in_required">Да бисте слали оштре видео снимке, пријавите се у Google слике</string>
     <string name="picker_disambiguation_title">Изаберите број телефона</string>
-    <string name="pin_limit_message">Можете да закачите до %1$d конверзације(а)</string>
-    <string name="pin_success_message">Закачено %1$d од %2$d конверзације(а)</string>
     <string name="pinch_zoom_pref_title">Уштините да бисте зумирали текст конверзације</string>
     <string name="places_autocomplete_clear_button">Обришите претрагу</string>
     <string name="places_autocomplete_label">Изаберите место</string>
@@ -1328,7 +1452,7 @@
     <string name="posted_this_year">%1$s%2$s%3$s</string>
     <string name="posted_yesterday">Јуче%1$s%2$s</string>
     <string name="preference_copied">Резиме „%1$s“ је копиран у привремену меморију.</string>
-    <string name="preferences_license_title">Лиценце отвореног кода</string>
+    <string name="preferences_license_title">Обавештења треће стране</string>
     <string name="premium_sms_banner_body">Да бисте послали на %s и друге премијум SMS бројеве, укључите ово у Подешавањима.</string>
     <string name="premium_sms_banner_body_saved_contact">Да бисте послали контакту %1$s (%2$s) и на друге премијум SMS бројеве, укључите ово у Подешавањима.</string>
     <string name="premium_sms_banner_description">@string/banner_description</string>
@@ -1359,10 +1483,11 @@
 На основу ових информација се потврђују претпоставке и идентификују чиниоци који доприносе проблему ради његовог бржег и ефикаснијег разумевања."</string>
     <string name="problematic_message_feedback_data_rationale_title">Како помажу информације о порукама и конверзацијама</string>
     <string name="promotion_content_description">Ова порука је категоризована као понуда</string>
+    <string name="prompt_button_action_not_now">Не сада</string>
+    <string name="prompt_button_action_sign_in">Пријави ме</string>
     <string name="proxy_screen_clear_search">Обришите претрагу</string>
     <string name="proxy_screen_search">Претраживање</string>
     <string name="qr_action_bar_device_pairing_title">Упаривање уређаја</string>
-    <string name="qr_action_bar_title">Messages за веб</string>
     <string name="qr_code_scanner_hint_text">Скенирајте QR кôд приказан на&lt;br/><b>%s</b></string>
     <string name="qr_code_scanner_preference_button">Скенер QR кода</string>
     <string name="qr_delete_all_paired_desktops_button_text">Опозови упаривање свих уређаја</string>
@@ -1377,6 +1502,8 @@
     <string name="qr_welcome_privacy">политику приватности</string>
     <string name="qr_welcome_terms_of_service">услове коришћења услуге</string>
     <string name="rbm_block_confirmation_message_spam_folder">Више нећете добијати обавештења када примите поруке од %1$s. Ова конверзација се премешта у „Непожељно и блокирано“. %2$s</string>
+    <string name="rbm_block_dialog_body">Нећете добијати поруке од овог пошиљаоца. Овај разговор се премешта у „Непожељно и блокирано“, где увек можете да га одблокирате.</string>
+    <string name="rbm_block_dialog_positive_button_label">Блокирај</string>
     <string name="rbm_business_logo_icon_content_description">Икона логотипа предузећа</string>
     <string name="rbm_platform_generalized_verifier_title">Верификовао је %s</string>
     <string name="rbm_platform_verified_by_google">Верификовао је Google</string>
@@ -1396,6 +1523,7 @@
     <string name="rcs_learn_more_title">%1$s о функцијама ћаскања</string>
     <string name="rcs_learn_more_title_with_no_link">Сазнајте више о функцијама ћаскања</string>
     <string name="rcs_message">RCS порука (порука услуге обогаћене комуникације)</string>
+    <string name="rcs_message_failed_recipient_lost_encryption_content_description">Испорука није успела, додирните за опције</string>
     <string name="rcs_message_failed_recipient_lost_rcs_content_description">Испорука није успела, додирните за опције</string>
     <string name="rcs_mobile_data_auto_download_carrier_format_entry">Подразумевано (%1$s)</string>
     <string name="rcs_mobile_data_auto_download_limit_disable_entry_text">Онемогући</string>
@@ -1478,11 +1606,12 @@
     <string name="reaction_surprised_content_description">Лице са отвореним устима</string>
     <string name="reactions_promo_announcement">Притисните и задржите да бисте реаговали</string>
     <string name="reactions_promo_text">Додирните и задржите да бисте реаговали</string>
-    <string name="read_external_storage_permission_description">Да бисте директно одавде видели садржај галерије, потребан је приступ меморијском простору телефона.</string>
+    <string name="read_media_storage_permission_description">Да бисте директно одавде видели садржај галерије, потребан је приступ меморијском простору за медије на телефону.</string>
     <string name="received_label">Примљено:</string>
     <string name="recipient_hint">Унесите име, број телефона или имејл</string>
     <string name="recipient_label">Коме</string>
     <string name="recipient_offline_description">Чека се да %s буде онлајн…</string>
+    <string name="reminder_badge_content_description">Значка подсетника</string>
     <string name="reminder_datetime_picker_dialog_delete_button">Избриши</string>
     <string name="reminder_datetime_picker_dialog_menu_title_add">Подесите подсетник</string>
     <string name="reminder_datetime_picker_dialog_menu_title_update">Ажурирајте подсетник</string>
@@ -1503,7 +1632,7 @@
     <string name="reminder_suggestions_tooltip_text">Додирните и изаберите време када желите да се вратите на поруку. Искључите предлоге у &lt;a href>Подешавањима&lt;/a></string>
     <string name="reminder_suggestions_tooltip_title_text">Подешавајте подсетнике</string>
     <string name="reminders_banner_body">%1$s: %2$s</string>
-    <string name="reminders_banner_description">@string/banner_description</string>
+    <string name="reminders_banner_description">Reminder conversation banner</string>
     <string name="reminders_banner_done_button">Готово</string>
     <string name="reminders_banner_remind_button">Подсети за 1 с</string>
     <string name="reminders_banner_self_sender_name">Ви</string>
@@ -1516,7 +1645,7 @@
     <string name="remove_reaction_from_gif_rcs_fallback_text">‌%1$s‌ је уклоњено са GIF-а</string>
     <string name="remove_reaction_from_link_rcs_fallback_text">‌%1$s‌ је уклоњено са линка</string>
     <string name="remove_reaction_from_photo_rcs_fallback_text">‌%1$s‌ је уклоњено са слике</string>
-    <string name="remove_reaction_from_text_message_rcs_fallback_text">‌%1$s‌ је уклоњено са „%2$s“</string>
+    <string name="remove_reaction_from_text_message_rcs_fallback_text">‌%1$s‌ је уклоњено са „ %2$s “</string>
     <string name="remove_reaction_from_unknown_message_type_rcs_fallback_text">‌%1$s‌ је уклоњено са непознатог типа поруке</string>
     <string name="remove_reaction_from_video_rcs_fallback_text">‌%1$s‌ је уклоњено са видеа</string>
     <string name="remove_user_dialog_cancel">Откажи</string>
@@ -1525,14 +1654,17 @@
     <string name="rename_group_title_m2">Име групе</string>
     <string name="reply_activity_title">Одговорите</string>
     <string name="reply_button_label">Одговорите</string>
-    <string name="reply_icon_content_description">Одговор на поруку</string>
+    <string name="reply_icon_content_description">Одговорите</string>
     <string name="report_contact_title">Пријави као непожељно</string>
     <string name="report_failed_rcs_group_creation">Дошло је до проблема и један или већи број учесника није додат.</string>
     <string name="report_group_spam_body_spam_folder">Бројеви и недавни SMS-ови других чланова групе се шаљу Google-у на преглед, а можда и вашем мобилном оператеру (важе накнаде). Ова конверзација остаје у „Непожељно и блокирано“, без обавештења. %1$s</string>
+    <string name="report_invalid_thread_id_issue_description">Неважећи ИД нити. Више детаља потражите у евиденцијама.</string>
     <string name="report_issue_action_text">Пошаљите повратне информације</string>
+    <string name="report_issue_description">Messages је аутоматски открио грешку. Више детаља потражите у евиденцијама.</string>
     <string name="report_issue_notification_text">Messages је открио грешку. Додирните да бисте послали повратне информације.</string>
     <string name="report_not_spam_snackbar_message">Пријављено је да %1$s није непожељан</string>
     <string name="report_person_delivered">%1$s је примио/ла: %2$s</string>
+    <string name="report_person_ftd">%1$s Дешифровање није успело: %2$s</string>
     <string name="report_person_read">%1$s је прочитао/ла: %2$s</string>
     <string name="report_person_sent">%s није примио/ла</string>
     <string name="report_receive_issue_notification_message">Android не може да прими поруку која вам је послата. Додирните да бисте послали повратне информације.</string>
@@ -1545,6 +1677,7 @@
     <string name="report_spam_snackbar_message">%1$s је пријављен као непожељан</string>
     <string name="report_spam_toast_title">Непожељна порука је пријављена</string>
     <string name="report_telephone_db_recreation_message">Проблем при преузимање порука. Додирните да бисте послали повратне информације.</string>
+    <string name="report_thread_id_not_found_description">ИД нити недостаје. Више детаља потражите у евиденцијама.</string>
     <string name="required_permissions_no_promptable_promo">Промените дозволе у подешавањима апликације на уређају. Дозволите да Messages приступа SMS-у, Телефону и Контактима.</string>
     <string name="required_permissions_no_promptable_title">Одобрите приступ</string>
     <string name="required_permissions_promptable_promo">Да бисте завршили подешавање подразумеване апликације, дозволите Messages-у да види SMS, Телефон и Контакте</string>
@@ -1564,6 +1697,11 @@
     <string name="samsung_setting_search_title">Подешавања за Messages</string>
     <string name="save">Сачувај</string>
     <string name="save_attachment">Сачувај</string>
+    <string name="save_banner_body">Сачувајте овај рођендан у апликацији Контакти и Messages ће вас подсетити следеће године</string>
+    <string name="save_banner_positive_button">Сачувај рођендан</string>
+    <string name="save_banner_title_name">Не заборавите да %1$s слави рођендан</string>
+    <string name="save_banner_title_no_name">Запамтите тај рођендан</string>
+    <string name="save_birthday_banner_description">@string/banner_description</string>
     <string name="save_otp_confirm_button">Сачувај OTP</string>
     <string name="save_otp_dialog_message">Овај OTP ће бити сачуван док ће други OTP-ови наставити да се аутоматски бришу после 24 сата. Управљајте овом опцијом у подешавањима.</string>
     <string name="save_otp_dialog_title">Желите ли да сачувате овај OTP?</string>
@@ -1582,6 +1720,7 @@
     <string name="scheduled_send_announcement_scheduling_failed">Заказивање поруке није успело.</string>
     <string name="scheduled_send_announcement_scheduling_started">Порука се заказује.</string>
     <string name="scheduled_send_announcement_scheduling_succeeded">Порука је заказана.</string>
+    <string name="scheduled_send_badge_content_description">Значка заказаног слања</string>
     <string name="scheduled_send_compose_label_close_content_description">Уклоните заказивање.</string>
     <string name="scheduled_send_datetime_picker_subtitle">Да бисте послали поруку, телефон треба да остане укључен и повезан са WiFi мрежом или мрежом за пренос података</string>
     <string name="scheduled_send_datetime_picker_title">Закажите слање (%1$s)</string>
@@ -1609,6 +1748,7 @@
     <string name="security_key_top_level_title">Потврдите шифровање</string>
     <string name="see_gallery">Прикажи галерију</string>
     <string name="selected">Изабрано</string>
+    <string name="selection_position_text">%1$d</string>
     <string name="self_left_group_conversation_failed">Излазак из групе није успео. Пробајте поново.</string>
     <string name="self_participant_reaction_name">Ви</string>
     <string name="self_person_name">Ви</string>
@@ -1658,7 +1798,6 @@
     <string name="sending_timeout_failure_dialog_title">Порука није послата</string>
     <string name="sent_label">Послато:</string>
     <string name="set_message_priority_description">Подесите хитан статус</string>
-    <string name="set_rcs_flags">Подесите RCS ознаке</string>
     <string name="set_rcs_mobile_data_auto_download_limit_title">Аутоматски преузимајте примљене датотеке преко мобилних података</string>
     <string name="setting_fast_track_body_with_cost">Ако наставите, прихватате %1$s и %2$s. Код испоруке порука на број телефона, Google може повремено да верификује ваш број путем размене информација о уређају са мобилним оператером или SMS-ом (може да се наплаћује). Увек можете да онемогућите функције ћаскања у Подешавањима. %3$s</string>
     <string name="settings_activity_title">Подешавања</string>
@@ -1681,6 +1820,13 @@
     <string name="shortcuts_screen_title">Пречице</string>
     <string name="show_sms_link_warning_change_label">Промени</string>
     <string name="show_sms_link_warning_text">Прилози се шаљу као SMS-ови који садрже линк до прилога</string>
+    <string name="sign_in_app_name_without_account">Користи %1$s без налога</string>
+    <string name="sign_in_cancel">Откажи</string>
+    <string name="sign_in_without_account">Користи без налога</string>
+    <string name="sign_in_without_account_short">Без налога</string>
+    <string name="sign_into_photos_app">Пријави ме</string>
+    <string name="sign_into_photos_app_title">Да бисте наставили, пријавите се у Google слике</string>
+    <string name="sign_into_photos_app_with_x_to_continue">Тренутно шаљете са %1$s</string>
     <string name="signature_banner_description">@string/banner_description</string>
     <string name="silent_ringtone">Нечујно</string>
     <string name="sim_label">SIM картица:</string>
@@ -1699,9 +1845,13 @@
     <string name="sim_storage_full_title">Меморијски простор SIM картице је пун</string>
     <string name="sim_storage_pref_title">Поруке на SIM картици</string>
     <string name="simple_fail_to_decrypt_message_dialog_body">Да бисте дешифровали будуће поруке, пробајте да ажурирате апликацију Messages</string>
+    <string name="smart_action_settings_page_description">Прикажи одговарајуће пречице за календар, претрагу GIF-ова, дељење локације и друго</string>
+    <string name="smart_action_settings_page_title">Радње</string>
+    <string name="smart_actions_preference_summary_shortcuts">Прикажи релевантне пречице за календар, претрагу GIF-ова, дељење локације и друго</string>
     <string name="smart_actions_preference_title">Предложене радње</string>
     <string name="smart_compose_preference_summary">Прикажи предвиђене предлоге</string>
     <string name="smart_compose_preference_title">Паметно писање</string>
+    <string name="smart_reply_preference_summary">Прикажи опције одговора у ћаскању</string>
     <string name="smarts_preference_info_text">Паметан одговор и предложене радње видите само ви све док не одлучите да их додирнете и делите. &lt;br/> &lt;br/> Предлози се разликују у зависности од конверзације, а генеришу се на уређају. %1$s</string>
     <string name="smarts_preference_info_text_with_assistant">Messages генерише Паметан одговор, предложене радње и предлоге Помоћника помоћу интелигенције на уређају. &lt;br/> &lt;br/>Предлози се не деле са Google-ом ни другом особом док их не додирнете. &lt;br/> &lt;br/> Ако дозволите Messages-у да приступа локацији уређаја, видећете више локалних предлога. %1$s</string>
     <string name="smarts_settings_page_summary">Паметан одговор, предложене радње и друго</string>
@@ -1728,19 +1878,18 @@
     <string name="snackbar_text_label_rcs_group_created_too_large">{max_group_size_including_self,plural, =1{Може да садржи највише # особу}one{Може да садржи највише # особу}few{Може да садржи највише # особе}other{Може да садржи највише # особа}}</string>
     <string name="snackbar_text_label_rcs_group_self_only">Ова група је празна. Додајте људе у ову групу пре него што пошаљете поруке у ово ћаскање.</string>
     <string name="snippet">%1$s: %2$s</string>
-    <string name="snippet_assistant_card_text">Картица Помоћника</string>
-    <string name="snippet_attachment_icon_content_description">Икона прилога исечка одговора</string>
     <string name="snippet_audio_attachment_text">Звук</string>
     <string name="snippet_deleted_message_text">Порука је избрисана</string>
-    <string name="snippet_dismiss_icon_content_description">Икона одбацивања одговора</string>
+    <string name="snippet_dismiss_icon_content_description">Избришите</string>
     <string name="snippet_file_attachment_text">Фајл</string>
     <string name="snippet_from_you">Ви: %s</string>
     <string name="snippet_image_attachment_text">Слика</string>
-    <string name="snippet_media_thumbnail_content_description">Сличица медија исечка одговора</string>
     <string name="snippet_self_participant_header">Ви</string>
     <string name="snippet_video_attachment_text">Видео</string>
     <string name="soft_num_key_pad_backspace_content_description">Backspace</string>
     <string name="someone_added_participant">%1$s је додао/ла %2$s у ову групу</string>
+    <string name="someone_added_participant_with_learn_more">%1$s је додао/ла %2$s у ову групу. %3$s</string>
+    <string name="someone_else_created_encrypted_rcs_group">%1$s је направио/ла ово групно ћаскање са: %2$s. %3$s</string>
     <string name="someone_else_created_mms_group">%1$s је направио/ла овај групни MMS са: %2$s</string>
     <string name="someone_else_created_rcs_group">%1$s је направио/ла ово групно ћаскање са: %2$s</string>
     <string name="someone_joined_group">Неко је ушао у ову групу</string>
@@ -1764,7 +1913,6 @@
     <string name="spam_dialog_title_spam_folder">Желите ли да пријавите непожељан садржај?</string>
     <string name="spam_folder_activity_title">Непожељно и блокирано</string>
     <string name="spam_folder_conversation_list_empty_text_v2">Овде се приказују непожељне и блокиране конверзације</string>
-    <string name="spam_preference_info_text_on_device">Messages користи интелигенцију на уређају за откривање непожељних порука и слање података о њима Google-у без вашег броја телефона или садржаја поруке. %1$s</string>
     <string name="spam_protection_consent_string">Да би помогао у откривању непожељног садржаја, Messages шаље неке податке о порукама Google-у без навођења броја телефона или садржаја порука. %1$s</string>
     <string name="spam_reporting_from">Пријављивање непожељне поруке</string>
     <string name="spam_settings">Заштита од непожељног садржаја</string>
@@ -1773,6 +1921,8 @@
     <string name="split_view_pref_title">Детаљан приказ листе</string>
     <string name="stacked_banner_count_text">1 од %1$d</string>
     <string name="star_badge_content_description">значка са звездицом</string>
+    <string name="star_badge_menu_remove_action">Уклони</string>
+    <string name="star_badge_menu_view_all_action">Прикажи све</string>
     <string name="star_badge_on_click_snackbar_action">Опозови</string>
     <string name="star_badge_on_click_snackbar_message">Звездица је уклоњена</string>
     <string name="sticker_content_description">Налепница: %s</string>
@@ -1809,10 +1959,12 @@
     <string name="subject_with_label">Наслов: %1$s</string>
     <string name="subject_with_urgent_label">[ХИТНО] %1$s</string>
     <string name="success_message_format">%1$s %2$s %3$s %4$s %5$s %6$s.</string>
+    <string name="success_message_self_sender">Рекли сте: %1$s %2$s %3$s %4$s.</string>
     <string name="success_message_self_sender_format_with_multiple_attachments">Послали сте више прилога %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_self_sender_format_with_single_attachment">Послали сте прилог %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_specified_sender_format_with_multiple_attachments">%1$s је послао/ла више прилога %2$s %3$s %4$s %5$s %6$s.</string>
     <string name="success_message_specified_sender_format_with_single_attachment">%1$s је послао/ла прилог %2$s %3$s %4$s %5$s %6$s.</string>
+    <string name="success_message_unspecified_sender">Пошиљалац је рекао: %1$s %2$s %3$s %4$s.</string>
     <string name="success_message_unspecified_sender_format_with_multiple_attachments">Пошиљалац је послао више прилога %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_unspecified_sender_format_with_single_attachment">Пошиљалац је послао прилог %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_sent_to_message_format">Послато је за: %1$s %2$s %3$s %4$s.</string>
@@ -1821,10 +1973,18 @@
     <string name="sud_back_button_label">Назад</string>
     <string name="sud_more_button_label">Још</string>
     <string name="sud_next_button_label">Даље</string>
-    <string name="suggested_stickers_preference_summary">Прегледајте предложене налепнице</string>
+    <string name="suggested_stickers_preference_summary">Прикажи опције одговора помоћу налепнице</string>
     <string name="suggested_stickers_preference_title">Предложене налепнице</string>
+    <string name="suggestion_shortcut_dialog_body_text">Додајте звездицу поруци, закажите у тренутку и још много тога уз брзе и лаке пречице.</string>
+    <string name="suggestion_shortcut_dialog_positive_button">Потврди</string>
+    <string name="suggestion_shortcut_dialog_subsection_body_text">До пречица доводе ствари као што су бројеви телефона и датуми. %1$s</string>
+    <string name="suggestion_shortcut_dialog_subsection_title_text">Принцип рада</string>
+    <string name="suggestion_shortcut_dialog_title">Предложене пречице којима ћете брже стићи тамо</string>
+    <string name="suggestion_shortcut_search_title">Претражите</string>
+    <string name="suggestion_shortcut_star_toolstone">Додајте порукама звездицe и лако их пронађите у опцији: %1$s</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_notification_inbox_style_summary_text">Још +%d</string>
+    <string name="super_sort_pref_title">Организација порука</string>
     <string name="super_sort_settings_title">Организација порука</string>
     <string name="supersort_conversation_list_empty_text_business_update">Овде се аутоматски приказују ажурирања за предузећа</string>
     <string name="supersort_conversation_list_empty_text_manage_in_settings">Управљајте у Подешавањима</string>
@@ -1887,6 +2047,11 @@
     <string name="survey_user_agent">Кориснички агент</string>
     <string name="survey_very_dissatisfied">Врло незадовољан/на</string>
     <string name="survey_very_satisfied">Врло задовољан/на</string>
+    <string name="swipe_actions">Радње превлачења</string>
+    <string name="swipe_actions_summary">Изаберите Архивирај или Избриши, удесно или улево или искључите превлачење</string>
+    <string name="swipe_customize">Прилагоди</string>
+    <string name="swipe_left">Превуци улево</string>
+    <string name="swipe_right">Превуци удесно</string>
     <string name="switcher_no_phone_number">SIM картица није пронађена</string>
     <string name="switcher_pair_device_title_text">Шаљите поруке помоћу упареног телефона</string>
     <string name="switcher_positive_button_text">Настави</string>
@@ -1894,6 +2059,7 @@
     <string name="switcher_use_device_sim_number">(%s)</string>
     <string name="switcher_use_device_sim_title_text">Шаљите поруке помоћу SIM картице овог уређаја</string>
     <string name="syncing_with_device_foreground_notification_text">Messages синхронизује уређај</string>
+    <string name="system_picker_button_label">Фолдери</string>
     <string name="t_mobile_tos_pref_link_text">Услови и одредбе</string>
     <string name="t_mobile_tos_pref_text">Google функције ћаскања које омогућава T-Mobile. Погледајте %1$s.</string>
     <string name="t_mobile_tos_pref_url">https://www.t-mobile.com/responsibility/legal/terms-and-conditions</string>
@@ -1918,6 +2084,7 @@
     <string name="theme_setting_dialog_options_light_mode">Светла</string>
     <string name="theme_setting_dialog_options_system_default_mode">Подразумевана системска</string>
     <string name="theme_setting_dialog_title">Изаберите тему</string>
+    <string name="tiktok_account_login_failure">Пријављивање изабраног налога није успело.</string>
     <string name="tiktok_add_account_error">Додавање налога није успело. Пробајте поново.</string>
     <string name="tiktok_fix_it">Реши проблем</string>
     <string name="tiktok_load_account_failure">Учитавање налога није успело.</string>
@@ -1943,6 +2110,18 @@
     <string name="tombstone_self_removed_from_group_referrer_known">%1$s вас је уклонио/ла из ове групе</string>
     <string name="tombstone_self_removing_others_from_group">Уклонили сте %1$s из ове групе</string>
     <string name="tombstone_show_link_previews">Прегледи линкова су укључени.&lt;br />Сазнајте више или их искључите у &lt;u>Подешавањима&lt;/u>.</string>
+    <string name="tombstone_show_link_previews_disabled">Прегледи линкова су искључени.&lt;br />Сазнајте више или их укључите у &lt;u>Подешавањима&lt;/u>.</string>
+    <string name="tooltip_content">"Ваш Google налог омогућава
+функције као што су дељење линкова Google слика
+у Messages-у без
+приступања разговорима.
+
+Messages и даље шаље поруке са вашег
+броја телефона. Сазнајте више"</string>
+    <string name="tooltip_content_with_line_break_fix">"Google налог обухвата функције попут дељења линкова Google слика у апликацији Messages без приступа конверзацијама.
+
+Поруке се и даље шаљу са вашег броја телефона. Сазнајте више"</string>
+    <string name="tooltip_link">Сазнајте више</string>
     <string name="top_contacts_grid_name">★</string>
     <string name="top_contacts_title">Најважнији контакти</string>
     <string name="transaction_content_description">Ова порука је категоризована као трансакција</string>
@@ -1952,6 +2131,7 @@
     <string name="unblock_and_report_not_spam_snackbar_message">%1$s је одблокиран и пријављено је да није непожељан</string>
     <string name="unblock_banner_body">Да бисте ову конверзацију преместили из архивираних и поново добијали поруке, одблокирајте %s</string>
     <string name="unblock_banner_body_spam_folder">Да бисте ову конверзацију преместили из „Непожељно и блокирано“ и поново добијали поруке, одблокирајте %s</string>
+    <string name="unblock_banner_body_v2">Unblock to receive messages from this sender</string>
     <string name="unblock_banner_description">@string/banner_description</string>
     <string name="unblock_banner_positive_button">Одблокирај</string>
     <string name="unblock_banner_title">Блокиран је</string>
@@ -1987,6 +2167,7 @@
     <string name="unsent">Непослато</string>
     <string name="unspam_banner_body">Да бисте ову конверзацију преместили из архивираних и поново добијали обавештења, пријавите да %s није непожељан</string>
     <string name="unspam_banner_body_spam_folder">Да бисте ову конверзацију преместили из „Непожељно и блокирано“ и поново добијали обавештења, пријавите да %s није непожељно</string>
+    <string name="unspam_banner_body_v2">Report as not spam to receive messages from this sender</string>
     <string name="unspam_banner_description">@string/banner_description</string>
     <string name="unspam_banner_end_button">Није непожељно</string>
     <string name="unspam_banner_title">Пријављено је као непожељно</string>
@@ -2002,6 +2183,8 @@
     <string name="unsupported_file_save_alert">Желите ли да сачувате прилог у Преузимањима?</string>
     <string name="unsupported_file_save_cancel">Откажи</string>
     <string name="unverified_sms_banner_description">@string/banner_description</string>
+    <string name="unwanted_messages_toolstone_link">блокирај и пријави</string>
+    <string name="unwanted_messages_toolstone_text">За нежељене поруке, %1$s</string>
     <string name="upcoming_reminder">Предстојећи подсетник</string>
     <string name="update_content_description">Ова порука је категоризована као новост</string>
     <string name="update_donation_banner_body_v2">Ваш идентитет остаје приватан и можете да уклоните жељени садржај порука</string>
@@ -2044,6 +2227,7 @@
     <string name="video_attachment_content_description">Приложени видео</string>
     <string name="video_attachment_limit_exceeded_when_sending">Можете да пошаљете само један видео по поруци. Уклоните друге видео снимке и покушајте поново.</string>
     <string name="video_compress_info">Примаоци ће видети лошији квалитет видеа због ограничења мобилног оператера која се односе на MMS-ове</string>
+    <string name="video_format_type">видео</string>
     <string name="video_media_failure">Да бисте направили видео, пробајте да снимате дуже</string>
     <string name="video_taken">Видео је снимљен</string>
     <string name="video_thumbnail_view_play_button_content_description">Пусти видео</string>
@@ -2090,19 +2274,20 @@ Google је потврдио да је последњу примљену пор�
     <string name="websiteTypeWork">Посао</string>
     <string name="welcome_agree_button_text">Прихватам</string>
     <string name="welcome_chat_features_decline">Користи Messages без функција ћаскања</string>
-    <string name="welcome_chat_features_learn_more">Сазнајте више о функцијама ћаскања</string>
     <string name="welcome_chat_features_legal">Ако користите функције ћаскања, прихватате %1$s и %2$s. Google ће повремено верификовати ваш број преко мобилног оператера (SMS може да се наплаћује).</string>
+    <string name="welcome_chat_features_text">"· Шаљите преко WiFi-ја или мобилних података
+· Делите фајлове и медије
+· Сачувајте приватност порука"</string>
     <string name="welcome_chat_features_title">Брже, богатије, квалитетније ћаскање преко WiFi-а или мобилних података</string>
+    <string name="welcome_chat_features_title_experiment_0">Урадите више него икад уз Messages</string>
+    <string name="welcome_chat_features_title_experiment_1">Урадите више помоћу функција ћаскања у Messages-у</string>
     <string name="welcome_consent_button_text">Даље</string>
-    <string name="welcome_finish_button_text">Заврши</string>
     <string name="welcome_smarts_notice_description">"Поједноставите ћаскања помоћу разних функција, на пример Google помоћника и Паметног одговора. Ћаскања се безбедно чувају на уређају.
 %1$s и %2$s"</string>
     <string name="welcome_smarts_notice_title">Корисне паметне функције</string>
     <string name="welcome_spam_description">"Да би спречио непожељан садржај, Google користи бројеве телефона који вам нису у контактима без идентификовања вас или вашег броја.
 %1$s и %2$s"</string>
     <string name="welcome_spam_title">Заштита од непожељног садржаја</string>
-    <string name="welcome_splash_tagline">"Једноставна, паметна Google размена
-порука"</string>
     <string name="widget_reply_exit_content_description">Назад</string>
     <string name="widget_reply_open">ОТВОРИ MESSAGES</string>
     <string name="widget_reply_to">Одговорите особи %s</string>
@@ -2110,9 +2295,14 @@ Google је потврдио да је последњу примљену пор�
     <string name="work_directory_display_name">Контакти пословног профила</string>
     <string name="xms_send_mode_pref_title">Шаљи само SMS и MMS поруке</string>
     <string name="you_added_participant">Додали сте %s у ову групу</string>
+    <string name="you_added_participant_with_learn_more">Додали сте %1$s у ову групу. %2$s</string>
+    <string name="you_created_encrypted_rcs_group">Направили сте ово групно ћаскање са: %1$s. %2$s</string>
     <string name="you_created_mms_group">Направили сте овај групни MMS са: %s</string>
     <string name="you_created_rcs_group">Направили сте ово групно ћаскање са: %s</string>
     <string name="you_left_group">Изашли сте из ове групе</string>
+    <string name="youtube_dismissal_prompt">Додирните и превуците да бисте затворили</string>
+    <string name="youtube_drag_prompt">Превуците да бисте преместили плејер</string>
+    <string name="youtube_pip_playing">Видео се тренутно репродукује</string>
     <string name="zero_connectivity_failure_announcement">Порука није послата</string>
     <string name="zero_state_search_action_copy">Копирај</string>
     <string name="zero_state_search_action_jump_to_chat">Прикажи у ћаскању</string>
@@ -2132,6 +2322,7 @@ Google је потврдио да је последњу примљену пор�
     <string name="zero_state_search_details_image_accessibility">Слику је послао/ла %1$s %2$s</string>
     <string name="zero_state_search_details_video_accessibility">Видео је послао/ла %1$s %2$s</string>
     <string name="zero_state_search_dropdown_free_text">Потражите „%s“</string>
+    <string name="zero_state_search_empty_results_text">Овде ће се приказати ваше поруке са звездицом, медијски садржаји и линкови из овог разговора</string>
     <string name="zero_state_search_images">Слике</string>
     <string name="zero_state_search_link_copied">Линк је копиран</string>
     <string name="zero_state_search_links">Линкови</string>

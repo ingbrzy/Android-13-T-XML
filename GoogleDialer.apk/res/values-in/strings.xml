@@ -63,7 +63,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript">^1, ^2, ^3.</string>
     <string name="a11y_new_call_log_entry_phone_account">pada ^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">lakukan panggilan RTT dengan ^1</string>
-    <string name="a11y_new_call_log_entry_tap_action">luaskan menu</string>
+    <string name="a11y_new_call_log_entry_tap_action">luaskan atau ciutkan menu</string>
     <string name="a11y_new_call_log_entry_video_call">lakukan panggilan video dengan ^1</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">lakukan panggilan video ke ^1 menggunakan wifi</string>
     <string name="a11y_new_call_log_entry_voice_call">telepon ^1</string>
@@ -191,6 +191,7 @@ Rekaman hanya disimpan di ponsel Anda. ^1"</string>
     <string name="atlas_soda_banner_feature_text">Hold for Me</string>
     <string name="atlas_temp_service_notification_title">Menginisialisasi panggilan Hold for Me</string>
     <string name="atlas_warning_text_for_second_incoming_call">Menjawab panggilan ini akan mengakhiri Hold for Me</string>
+    <string name="audio_route_item_checked_description">Dicentang</string>
     <string name="audioroute_bluetooth">Bluetooth</string>
     <string name="audioroute_headset">Headset berkabel</string>
     <string name="audioroute_phone">Telepon</string>
@@ -235,6 +236,7 @@ Rekaman hanya disimpan di ponsel Anda. ^1"</string>
     <string name="bm_suggest_wait_time_estimating">"Chat
 Bekerja…"</string>
     <string name="bottomsheet_action_expand_halfway">Luaskan setengah</string>
+    <string name="bottomsheet_drag_handle_content_description">Handel geser</string>
     <string name="bubble_bottom_action_end_call">Akhiri panggilan</string>
     <string name="bubble_bottom_action_hide">Sembunyikan</string>
     <string name="bubble_return_to_call">Kembali ke panggilan</string>
@@ -582,10 +584,8 @@ Harap kirim bantuan."</string>
     <string name="copy_number">Salin nomor</string>
     <string name="create_new_contact">Buat kontak baru</string>
     <string name="crosby_setting_title">Perekaman panggilan</string>
-    <string name="crystal_clear_audio_setting_title">Panggilan telepon jernih</string>
     <string name="current_voicemail_greeting_record_instruction">Rekam salam</string>
     <string name="current_voicemail_greeting_recording_title">Salam untuk pesan suara</string>
-    <string name="custom_message_hint">Tulis pesan khusus</string>
     <string name="custom_prefix_add_prefix_to_call_entry_always_add_prefix">Selalu tambahkan awalan</string>
     <string name="custom_prefix_add_prefix_to_call_entry_ask_before_dialing">Tanya sebelum memanggil</string>
     <string name="custom_prefix_add_prefix_to_call_entry_never_add_prefix">Jangan pernah tambahkan awalan</string>
@@ -670,11 +670,11 @@ Harap kirim bantuan."</string>
     <string name="display_options_view_given_name_first">Nama depan terlebih dulu</string>
     <string name="display_options_view_names_as">Format nama</string>
     <string name="do_not_show_again">Jangan tampilkan lagi</string>
-    <string name="duo_fallback_dialog_do_not_show_again_label">Ingat pilihan ini</string>
-    <string name="duo_fallback_dialog_message">Panggilan video Anda tidak dapat dilakukan menggunakan panggilan video dengan layanan operator. Coba lakukan panggilan dengan Duo.</string>
-    <string name="duo_fallback_dialog_negative_button_label">Batal</string>
-    <string name="duo_fallback_dialog_positive_button_label">Gunakan Duo</string>
-    <string name="duo_fallback_dialog_title">Coba dengan Google Duo?</string>
+    <string name="duo_fallback_dialog_do_not_show_again_label">Ingat Duo sebagai cadangan untuk setiap panggilan. Kelola kapan saja di setelan.</string>
+    <string name="duo_fallback_dialog_message">Duo akan otomatis mencoba menelepon jika operator Anda tidak dapat melakukan panggilan video.</string>
+    <string name="duo_fallback_dialog_negative_button_label">Lain kali</string>
+    <string name="duo_fallback_dialog_positive_button_label">Cadangkan dengan Duo</string>
+    <string name="duo_fallback_dialog_title">Cadangkan panggilan dengan Google Duo?</string>
     <string name="edit_number_before_call">Edit nomor sebelum menelepon</string>
     <string name="emergency_assist_address_sentence">Lokasi saya di %1$s.</string>
     <string name="emergency_assist_button_fire">Pemadam Kebakaran</string>
@@ -696,6 +696,7 @@ Harap kirim bantuan."</string>
     <string name="emergency_voice_assist_dialog_button_close">Batal</string>
     <string name="emergency_voice_assist_dialog_title">Operator layanan darurat akan mendengarkan teks ini</string>
     <string name="end_call_with_default_message_description">Akhiri panggilan</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_icon_content_description">Error</string>
     <string name="error_unable_to_get_audio">Tidak dapat mengambil audio contoh</string>
     <string name="error_unable_to_play_audio">Tidak dapat memutar audio contoh</string>
@@ -740,7 +741,7 @@ Harap kirim bantuan."</string>
     <string name="first_time_dialog_duo_video_call_label">Google Duo</string>
     <string name="first_time_dialog_negative_button_label">Batal</string>
     <string name="first_time_dialog_positive_button_label">Pilih</string>
-    <string name="first_time_dialog_remember_this_choice_label">Ingat pilihan ini</string>
+    <string name="first_time_dialog_remember_this_choice_label">Ingat untuk setiap panggilan. Kelola kapan saja di setelan.</string>
     <string name="first_time_dialog_title">Pilih layanan panggilan video</string>
     <string name="flip_to_shush_title">Balik Untuk Ssst</string>
     <string name="flip_to_silence_summary">Untuk mematikan suara panggilan masuk, letakkan ponsel menghadap ke bawah pada permukaan yang datar</string>
@@ -788,6 +789,8 @@ Harap kirim bantuan."</string>
     <string name="incall_content_description_hold">Tahan panggilan</string>
     <string name="incall_content_description_merge_calls">Gabungkan panggilan</string>
     <string name="incall_content_description_muted">Dibisukan</string>
+    <string name="incall_content_description_show_less">Tampilkan lebih sedikit</string>
+    <string name="incall_content_description_show_more">Tampilkan lebih banyak</string>
     <string name="incall_content_description_speaker">Speaker</string>
     <string name="incall_content_description_swap_calls">Tukar panggilan</string>
     <string name="incall_content_description_swap_sim">Ubah SIM</string>
@@ -803,6 +806,7 @@ Harap kirim bantuan."</string>
     <string name="incall_label_hold">Tahan</string>
     <string name="incall_label_manage">Kelola</string>
     <string name="incall_label_merge">Gabungkan</string>
+    <string name="incall_label_more">Lainnya</string>
     <string name="incall_label_mute">Bisukan</string>
     <string name="incall_label_record">Rekam</string>
     <string name="incall_label_record_checked">Berhenti merekam</string>
@@ -835,15 +839,9 @@ Harap kirim bantuan."</string>
     <string name="join_call_with_default_message_description">Gabung dengan panggilan</string>
     <string name="just_now">Baru saja</string>
     <string name="lat_long_format">%1$f, %2$f</string>
+    <string name="launch_application_settings">Setelan</string>
     <string name="launcherActivityLabel">Telepon</string>
     <string name="learn_more_text_for_tmo">Buka T-Mobile untuk mempelajari lebih lanjut</string>
-    <string name="legacy_post_call_message">Jelaskan alasan Anda menelepon</string>
-    <string name="legacy_post_call_message_1">Penting. Telepon saya balik.</string>
-    <string name="legacy_post_call_message_2">Telepon saya balik kalau Anda sudah ada waktu.</string>
-    <string name="legacy_post_call_message_3">Tidak penting, kita bisa chatting nanti.</string>
-    <string name="legacy_post_call_message_sent">Pesan terkirim</string>
-    <string name="legacy_post_call_send_message">Kirim pesan</string>
-    <string name="legacy_post_call_view">Lihat</string>
     <string name="libraries_material_featurehighlight_dismiss">Tutup</string>
     <string name="license_activity_label">Lisensi open source</string>
     <string name="light_theme_label">Terang</string>
@@ -868,6 +866,7 @@ Harap kirim bantuan."</string>
     <string name="mdd_notification_action_cancel">Batal</string>
     <string name="mdd_notification_download_failed">Download gagal</string>
     <string name="mdd_notification_download_paused">Menunggu koneksi internet</string>
+    <string name="mdd_notification_download_paused_wifi">Menunggu koneksi Wi-Fi</string>
     <string name="meid_number">MEID %s</string>
     <string name="menu_callNumber">Telepon %s</string>
     <string name="merge_calls_confirm_message">Gabungkan panggilan hanya jika Anda yakin orang yang akan terlibat di dalamnya saling mengenal</string>
@@ -907,11 +906,9 @@ Harap kirim bantuan."</string>
     <string name="nearbyplaces_account_setting_title">Akun Google</string>
     <string name="new_call_log_activity_title">Histori panggilan</string>
     <string name="new_call_log_all_title">Semua</string>
-    <string name="new_call_log_carrier_video">Video operator</string>
     <string name="new_call_log_clear_call_log_confirmation">Tindakan ini akan menghapus semua panggilan telepon dari histori Anda</string>
     <string name="new_call_log_clear_call_log_confirmation_title">Hapus histori panggilan?</string>
     <string name="new_call_log_delete_all">Hapus histori panggilan</string>
-    <string name="new_call_log_duo_video">Video duo</string>
     <string name="new_call_log_empty">Panggilan yang Anda lakukan akan muncul di sini</string>
     <string name="new_call_log_generic_video">Video</string>
     <string name="new_call_log_header_older">Lebih lama</string>
@@ -929,6 +926,7 @@ Harap kirim bantuan."</string>
     <string name="new_permission_no_search">Untuk menelusuri kontak, aktifkan izin Kontak.</string>
     <string name="non_contact_always_record_dialog_title">Selalu rekam telepon dengan nomor yang tidak ada di kontak Anda?</string>
     <string name="non_contact_toggle_label">Nomor yang tidak ada di kontak</string>
+    <string name="non_spam_aftercall_notification_title">Tahu nomor %1$s?</string>
     <string name="non_spam_notification_title">Tahu nomor %1$s?</string>
     <string name="not_set">Belum disetel</string>
     <string name="notification_action_accept">Terima</string>
@@ -979,7 +977,7 @@ Harap kirim bantuan."</string>
     <string name="notification_ongoing_call">Panggilan sedang berlangsung</string>
     <string name="notification_ongoing_call_multi_sim">Panggilan sedang berlangsung via %1$s</string>
     <string name="notification_ongoing_call_wifi_template">%1$s sedang berlangsung</string>
-    <string name="notification_ongoing_call_wifi_template_multi_sim">Panggilan %1$s berlangsung via %1$s</string>
+    <string name="notification_ongoing_call_wifi_template_multi_sim">Ongoing %1$s via %2$s</string>
     <string name="notification_ongoing_paused_video_call">Panggilan video operator berlangsung ‑ video dijeda</string>
     <string name="notification_ongoing_paused_video_call_multi_sim">Panggilan video dengan layanan operator berlangsung via %1$s ‑ video dijeda</string>
     <string name="notification_ongoing_video_call">Panggilan video operator berlangsung</string>
@@ -992,7 +990,7 @@ Harap kirim bantuan."</string>
     <string name="notification_take_call">Panggil</string>
     <string name="notification_take_video_call">Lakukan Panggilan Video</string>
     <string name="notification_voicemail_callers_list">%1$s, %2$s</string>
-    <string name="notification_voicemail_no_vm_number">Nomor pesan suara tidak dikenal</string>
+    <string name="notification_voicemail_no_vm_number">Untuk menyiapkan pesan suara, buka Menu > Setelan.</string>
     <string name="notification_voicemail_text_format">Telepon %s</string>
     <string name="old_block_number_confirmation_title">Blokir%1$s?</string>
     <string name="openhistory_button_label">Histori</string>
@@ -1033,6 +1031,7 @@ Harap kirim bantuan."</string>
     <string name="precall_dialpad_chat_button">Chat</string>
     <string name="precall_dialpad_chat_wait_min">Waktu tunggu %1$d mnt</string>
     <string name="preference_copied">\"%1$s\" disalin ke papan klip.</string>
+    <string name="preferences_license_title">Pemberitahuan Pihak Ketiga</string>
     <string name="presence_optin_dialog_do_not_show_again_label">Jangan tampilkan lagi</string>
     <string name="presence_optin_dialog_message">"Sebelum memulai panggilan video, Verizon ingin mengonfirmasi nomor telepon mana yang dapat menerima panggilan video Verizon.
 
@@ -1047,7 +1046,7 @@ Anda masih dapat melakukan panggilan video ke beberapa nomor tanpa memperbarui s
     <string name="private_num_non_verizon">Nomor pribadi</string>
     <string name="private_num_verizon">Dibatasi</string>
     <string name="private_or_hidden_action_preference_description">Penelepon menyembunyikan ID penelepon mereka</string>
-    <string name="private_or_hidden_action_preference_title">Pribadi atau tersembunyi</string>
+    <string name="private_or_hidden_action_preference_title">Nomor pribadi &amp; tersembunyi</string>
     <string name="quick_contact_checkbox_description">Pilih kontak</string>
     <string name="ready_for_recording">Siap...</string>
     <string name="record_audio_pre_call_dialog_got_it">Oke</string>
@@ -1094,7 +1093,7 @@ Penyaringan Panggilan tidak menggunakan data atau Wi-Fi, tetapi menggunakan pang
     <string name="revelio_end_call_user_missed_internal_message">Panggilan tidak terjawab</string>
     <string name="revelio_pref_title">Penyaringan Panggilan</string>
     <string name="revelio_preference_summary_automatic_screening_off">Penyaringan otomatis nonaktif</string>
-    <string name="revelio_preference_summary_screening">Penyaringan %1$s</string>
+    <string name="revelio_preference_summary_screening">Saring %1$s</string>
     <string name="revelio_save_audio_setting_summary">Simpan audio dari panggilan yang dijawab oleh Asisten Anda</string>
     <string name="revelio_save_audio_setting_title">Simpan audio Penyaringan Panggilan</string>
     <string name="revelio_setting_title">Penyaringan Panggilan</string>
@@ -1168,7 +1167,6 @@ Penyaringan Panggilan tidak menggunakan data atau Wi-Fi, tetapi menggunakan pang
     <string name="set_default_account_description">Preferensi kartu SIM akan disimpan dengan kontak Anda.</string>
     <string name="set_phone_as_default_explanation_text">Telepon hanya dapat memulai dan menerima panggilan jika menjadi aplikasi telepon default Anda</string>
     <string name="set_phone_as_default_request_text">Setel Telepon sebagai default</string>
-    <string name="settings">Setelan</string>
     <string name="settings_page_call_recording_feature_not_available_text">Perekaman panggilan tidak tersedia di lokasi Anda</string>
     <string name="settings_page_crosby_feature_not_available_text">Tidak tersedia di lokasi Anda</string>
     <string name="setup_duo_button_long_text">Siapkan panggilan video Duo</string>
@@ -1218,6 +1216,9 @@ Penyaringan Panggilan tidak menggunakan data atau Wi-Fi, tetapi menggunakan pang
     <string name="sounds_and_vibration_title">Suara dan getaran</string>
     <string name="spam_action_preference_description">Nomor yang cocok dengan database spam Google</string>
     <string name="spam_action_preference_title">Spam</string>
+    <string name="spam_after_call_notification_add_contact_action_text">Tambahkan kontak</string>
+    <string name="spam_after_call_notification_report_spam_action_text">Blokir &amp; laporkan</string>
+    <string name="spam_aftercall_notification_unknown">Tidak diketahui</string>
     <string name="spam_and_call_screen_settings_title">Spam dan Penyaringan Panggilan</string>
     <string name="spam_blocking_promo_action_dismiss">Tutup</string>
     <string name="spam_blocking_promo_action_filter_spam">Filter Spam</string>
@@ -1229,6 +1230,9 @@ Penyaringan Panggilan tidak menggunakan data atau Wi-Fi, tetapi menggunakan pang
     <string name="spam_blocking_settings_enable_error_text">Masalah saat mengaktifkan pemfilteran spam</string>
     <string name="spam_blocking_settings_summary">Cegah panggilan yang dicurigai sebagai spam agar tidak mengganggu Anda</string>
     <string name="spam_blocking_settings_title">Filter panggilan spam</string>
+    <string name="spam_dialog_add_contact_action">Tambahkan ke kontak</string>
+    <string name="spam_dialog_dismiss_action">Tutup</string>
+    <string name="spam_notification_action_block_spam">Ya, blokir nomor</string>
     <string name="spam_notification_action_dismiss">Tutup</string>
     <string name="spam_notification_add_contact_action_text">Tambahkan kontak</string>
     <string name="spam_notification_block_spam_action_text">Ya, blokir nomor</string>
@@ -1468,27 +1472,27 @@ Data akan digunakan jika panggilan dilanjutkan."</string>
     <string name="videocall_remotely_resumed">Panggilan dilanjutkan</string>
     <string name="videocall_settings_default_ask_every_time">Selalu tanya</string>
     <string name="videocall_settings_default_carrier">Panggilan video dengan layanan operator</string>
-    <string name="videocall_settings_default_caution">This feature allows a user to choose a preferred video call solution and indicate the receiver’s video capability when it’s available. ^1</string>
-    <string name="videocall_settings_default_caution_learn_more">Learn more about preferred video services</string>
+    <string name="videocall_settings_default_caution">Pilih cara Anda melakukan panggilan video dan ketahui apakah orang yang Anda telepon dapat menerimanya. ^1</string>
+    <string name="videocall_settings_default_caution_learn_more">Pelajari panggilan video lebih lanjut</string>
     <string name="videocall_settings_default_duo">Google Duo</string>
     <string name="videocall_settings_default_title">Layanan panggilan video pilihan</string>
-    <string name="videocall_settings_fallback_caution">"When “Use Google Duo as backup” (if applicable) is on and a call can't be completed using your preferred service, the call will automatically be attempted on Duo. ^1"</string>
-    <string name="videocall_settings_fallback_caution_learn_more">Learn more about Duo backup calling</string>
-    <string name="videocall_settings_fallback_summary">Beralih ke Duo jika layanan pilihan tidak tersedia</string>
-    <string name="videocall_settings_fallback_title">Gunakan Google Duo sebagai cadangan</string>
+    <string name="videocall_settings_fallback_caution">Jika Anda sudah mengaktifkan Google Duo sebagai cadangan, Duo akan otomatis mencoba menelepon saat operator tidak dapat melakukan panggilan video. ^1</string>
+    <string name="videocall_settings_fallback_caution_learn_more">Pelajari Duo sebagai cadangan lebih lanjut</string>
+    <string name="videocall_settings_fallback_summary">Beralih ke Duo jika layanan pilihan Anda tidak tersedia</string>
+    <string name="videocall_settings_fallback_title">Gunakan Duo sebagai cadangan</string>
     <string name="videocall_settings_title">Melakukan Panggilan Video</string>
     <string name="videocall_show_preview_button_description">Tampilkan feed video lokal</string>
     <string name="view_location_settings">Setelan lokasi</string>
     <string name="vitle_label">Video melalui LTE</string>
     <string name="viwifi_label">Video melalui Wi-Fi</string>
     <string name="vm_change_pin_error_invalid">PIN baru berisi karakter yang tidak valid.</string>
-    <string name="vm_change_pin_error_last_4_digits_msisdn">PIN baru tidak boleh berupa empat digit terakhir nomor telepon Anda.</string>
+    <string name="vm_change_pin_error_last_4_digits_msisdn">PIN tidak boleh sama dengan 4 digit terakhir nomor telepon Anda.</string>
     <string name="vm_change_pin_error_mismatch">PIN lama tidak cocok.</string>
     <string name="vm_change_pin_error_system_error">Tidak dapat mengubah PIN</string>
     <string name="vm_change_pin_error_too_long">PIN baru terlalu panjang.</string>
     <string name="vm_change_pin_error_too_short">PIN baru terlalu pendek.</string>
     <string name="vm_change_pin_error_too_weak">PIN baru terlalu lemah. Sandi yang kuat tidak boleh memiliki urutan karakter kontinu atau digit berulang.</string>
-    <string name="vm_change_pin_error_unchanged_pin">PIN baru sama dengan PIN Anda saat ini. Masukkan PIN lainnya.</string>
+    <string name="vm_change_pin_error_unchanged_pin">PIN baru Anda tidak boleh sama dengan PIN saat ini.</string>
     <string name="vm_change_pin_progress_message">Harap tunggu.</string>
     <string name="voice_call">Panggilan suara</string>
     <string name="voice_call_button">Telepon</string>
@@ -1510,11 +1514,9 @@ Data akan digunakan jika panggilan dilanjutkan."</string>
     <string name="voicemailMultiSelectDeleteConfirm">Hapus</string>
     <string name="voicemail_action_call_customer_support">Hubungi dukungan pelanggan</string>
     <string name="voicemail_action_call_voicemail">Panggil pesan suara</string>
-    <string name="voicemail_action_dimiss">Tidak</string>
     <string name="voicemail_action_retry">Coba lagi</string>
     <string name="voicemail_action_set_pin">Setel PIN</string>
     <string name="voicemail_action_sync">Sinkronkan</string>
-    <string name="voicemail_action_turn_archive_on">Aktifkan</string>
     <string name="voicemail_action_turn_off_airplane_mode">Setelan mode pesawat</string>
     <string name="voicemail_activating_summary_info">Mengaktifkan pesan suara</string>
     <string name="voicemail_advanced_settings_title">Setelan Lanjutan</string>
@@ -1529,7 +1531,7 @@ Data akan digunakan jika panggilan dilanjutkan."</string>
     <string name="voicemail_change_pin_preference_summary_disable">Pesan suara visual harus diaktifkan untuk mengubah PIN</string>
     <string name="voicemail_change_pin_preference_summary_not_activated">Pesan suara visual belum diaktifkan, coba lagi nanti</string>
     <string name="voicemail_change_pin_preference_title">Ubah PIN</string>
-    <string name="voicemail_donate_preference_summary_info">Izinkan Google meninjau pesan suara Anda untuk menyempurnakan akurasi transkripsi. Pesan suara akan disimpan secara anonim. %1$s</string>
+    <string name="voicemail_donate_preference_summary_info">Izinkan Google meninjau pesan suara Anda untuk menyempurnakan akurasi transkripsi. Pesan suara akan disimpan secara anonim. ^1</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">Menggunakan pesan suara visual untuk SIM tanpa data mungkin akan dikenai biaya operator</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">Pesan suara visual hanya tersedia untuk SIM data tertentu</string>
     <string name="voicemail_error_activating_message">Anda mungkin tidak menerima notifikasi pesan suara hingga pesan suara visual sepenuhnya diaktifkan. Panggil pesan suara untuk mengambil pesan baru sampai pesan suara sepenuhnya diaktifkan.</string>
@@ -1542,12 +1544,8 @@ Data akan digunakan jika panggilan dilanjutkan."</string>
     <string name="voicemail_error_bad_config_title">Tidak dapat memperbarui pesan suara visual</string>
     <string name="voicemail_error_communication_message">Anda masih dapat menelepon untuk memeriksa pesan suara.</string>
     <string name="voicemail_error_communication_title">Tidak dapat memperbarui pesan suara visual</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_message">Kotak surat Anda hampir penuh. Untuk mengosongkan ruang, aktifkan penyimpanan ekstra sehingga Google dapat mengelola dan mencadangkan pesan suara Anda.</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_title">Aktifkan penyimpanan dan pencadangan ekstra</string>
     <string name="voicemail_error_inbox_full_message">Kotak masuk Anda penuh. Coba hapus beberapa pesan untuk menerima pesan suara baru.</string>
     <string name="voicemail_error_inbox_full_title">Tidak dapat menerima pesan suara baru</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_message">Kotak surat Anda sudah penuh. Untuk mengosongkan ruang, aktifkan penyimpanan ekstra sehingga Google dapat mengelola dan mencadangkan pesan suara Anda.</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_title">Aktifkan penyimpanan dan pencadangan ekstra</string>
     <string name="voicemail_error_inbox_near_full_message">Pesan suara tidak dapat diterima jika kotak masuk Anda penuh.</string>
     <string name="voicemail_error_inbox_near_full_title">Kotak masuk hampir penuh</string>
     <string name="voicemail_error_no_data_cellular_required_message">Coba lagi ketika koneksi data seluler lebih baik. Anda masih dapat menelepon untuk memeriksa pesan suara.</string>
@@ -1580,7 +1578,7 @@ Data akan digunakan jika panggilan dilanjutkan."</string>
     <string name="voicemail_transcription_failed_language_not_supported">Transkrip tidak tersedia. Bahasa tidak didukung.</string>
     <string name="voicemail_transcription_failed_no_speech">Transkrip tidak tersedia. Tidak ada ucapan yang terdeteksi.</string>
     <string name="voicemail_transcription_in_progress">Mentranskripsikan...</string>
-    <string name="voicemail_transcription_preference_summary_info">Dapatkan transkrip pesan suara Anda menggunakan layanan transkripsi Google. %1$s</string>
+    <string name="voicemail_transcription_preference_summary_info">Dapatkan transkrip pesan suara Anda menggunakan layanan transkripsi Google. ^1</string>
     <string name="voicemail_visual_voicemail_auto_archive_switch_title">Penyimpanan dan pencadangan ekstra</string>
     <string name="voicemail_visual_voicemail_donation_switch_title">Analisis transkripsi pesan suara</string>
     <string name="voicemail_visual_voicemail_switch_title">Pesan suara visual</string>
@@ -1636,7 +1634,7 @@ Data akan digunakan jika panggilan dilanjutkan."</string>
     <string name="wait_prompt_str">"Kirimkan nada berikut?
 "</string>
     <string name="was_this_a_business_chip_text">Apa panggilan ini dari bisnis?</string>
-    <string name="was_this_a_business_dialog_body">Mengonfirmasi tag ini membantu Google meningkatkan fitur ID penelepon</string>
+    <string name="was_this_a_business_dialog_body">Dengan mengonfirmasi ini, Anda membantu Google meningkatkan fitur ID penelepon</string>
     <string name="was_this_a_business_dialog_negative_response">Tidak</string>
     <string name="was_this_a_business_dialog_positive_response">Ya</string>
     <string name="was_this_a_business_dialog_snackbar">Terima kasih atas masukan Anda</string>

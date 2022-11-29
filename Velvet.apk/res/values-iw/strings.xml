@@ -81,8 +81,6 @@
     <string name="accessibility_switch_to_oem_minus_one_button">מעבר אל %1$s</string>
     <string name="accessibility_voice_search_button">חיפוש קולי</string>
     <string name="accessibility_voice_search_visual_aid_text">יש לדבר אל הטלפון כדי לשאול אותי שאלה.</string>
-    <string name="account_item">עבור אל %1$s</string>
-    <string name="account_list">רשימת חשבונות</string>
     <string name="account_loading">בטעינה…</string>
     <string name="account_particle_disc_description">פתיחת תפריט החשבון</string>
     <string name="acessibility_recurrence_choose_end_date_description">שינוי של תאריך הסיום</string>
@@ -148,7 +146,6 @@
     <string name="ad_badge">מודעה</string>
     <string name="ad_badge_text">מודעה</string>
     <string name="ad_dismiss_survey_skip">דילוג</string>
-    <string name="add_account">הוסף חשבון</string>
     <string name="add_button_content_description">הוספה</string>
     <string name="add_custom_feed">‏הוספה לפי פיד RSS</string>
     <string name="add_custom_feed_url_hint">https://www.example.org/podcast.xml</string>
@@ -174,8 +171,6 @@
     <string name="add_salsa_card_title">הוספת ביטויים מהירים שמשמשים אותך בתדירות גבוהה</string>
     <string name="add_shortcut_dismiss_button_description">סגירה</string>
     <string name="add_shortcut_text">הוספת מצב נהיגה למסך הבית</string>
-    <string name="add_snackbar_action">הוספה</string>
-    <string name="add_this_location_to_your_list_snackbar_text">להוסיף את המיקום הזה לרשימה?</string>
     <string name="add_to_folder">הוספה לתיקייה: %1$s</string>
     <string name="add_to_folder_with_app">הוספה לתיקייה עם %1$s</string>
     <string name="add_to_home_screen">הוספה למסך הבית</string>
@@ -281,9 +276,12 @@
     <string name="all_salsas_section_subtitle">‏Assistant תעבור למצב המתנה כדי לזהות את הביטויים המהירים שבחרת. אפשר להשתמש גם בווריאציות מקובלות.</string>
     <string name="all_set_title">‏Assistant מוכנה לפעולה</string>
     <string name="all_settings_title">כל ההגדרות</string>
+    <string name="allow_access">מתן גישה</string>
     <string name="allow_bluetooth_button_with_device_locked_notification_body">‏כשהטלפון נעול, באפשרותך להשתמש בקולך כדי להתקשר ולבצע פעולות נוספות באמצעות התקן Bluetooth</string>
     <string name="allow_bluetooth_button_with_device_locked_notification_title">‏שימוש בקול עם התקן Bluetooth</string>
     <string name="allow_button_text">אישור</string>
+    <string name="allow_calls_toggle_description">בזמן הנהיגה, יתקבלו התראות לגבי שיחות נכנסות</string>
+    <string name="allow_calls_toggle_title">אישור של שיחות נכנסות</string>
     <string name="allow_rotation_title">אפשרות סיבוב</string>
     <string name="allow_wired_headsets_button_with_device_locked_notification_body">כשהטלפון נעול, יש לך אפשרות להשתמש בקולך כדי להתקשר ולבצע פעולות נוספות באמצעות אוזניות חוטיות</string>
     <string name="allow_wired_headsets_button_with_device_locked_notification_title">שימוש בקול עם אוזניות חוטיות</string>
@@ -359,11 +357,10 @@
     <string name="ambient_settings_bc_page_desc">‏Assistant מציגה את כל מה שצריך, מתי שצריך, במסך הבית ובמסך הנעילה שלך.</string>
     <string name="ambient_settings_bc_title">Live Space</string>
     <string name="ambient_settings_commute_and_ttl_subtitle">הצגת מצב התנועה וזמן ההגעה המשוער</string>
-    <string name="ambient_settings_commute_and_ttl_title">"התכונות 'נסיעה יומית' ו'זמן לצאת'"</string>
+    <string name="ambient_settings_commute_subtitle">הצגת נתוני תנועה</string>
+    <string name="ambient_settings_commute_title">נסיעה יומית</string>
     <string name="ambient_settings_device_location_subtitle">הצגת תוכן רלוונטי על סמך המיקום שלך</string>
     <string name="ambient_settings_device_location_title">מיקום</string>
-    <string name="ambient_settings_grocery_subtitle" />
-    <string name="ambient_settings_grocery_title">משלוחים ואיסופים</string>
     <string name="ambient_settings_home_and_work_location_subtitle">קבלת מידע רלוונטי לנסיעה היומית כמו זמן ההגעה המשוער ומצב התנועה על סמך הכתובת שלך בבית ובעבודה</string>
     <string name="ambient_settings_home_and_work_location_title">בית ועבודה</string>
     <string name="ambient_settings_hotel_subtitle">"מידע בנושא צ'ק אין וצ'ק אאוט"</string>
@@ -376,6 +373,7 @@
     <string name="ambient_settings_title">בקצרה</string>
     <string name="ambient_settings_travel_bundle_subtitle">‏טיסות מ-Gmail</string>
     <string name="ambient_settings_travel_bundle_title">נסיעות</string>
+    <string name="ambient_settings_ttl_subtitle">הצגת זמן ההגעה המשוער</string>
     <string name="ambient_settings_ttl_title">זמן לצאת</string>
     <string name="ambient_settings_upcoming_bundle_subtitle">אירועים מהיומן ותזכורות</string>
     <string name="ambient_settings_upcoming_bundle_title">בקרוב</string>
@@ -452,7 +450,10 @@
     <string name="ar_permissions_screen_title">Get a better look</string>
     <string name="ar_session_error_dialog_body">An error has occurred when trying to view this object in your space.</string>
     <string name="ar_session_error_dialog_title">Unable to view in your space</string>
+    <string name="ar_triggering_description">‏בעזרת חיישני תנועה וחיבורי Bluetooth, המכשיר מזהה מצב שבו נמצאים ברכב נוסע</string>
+    <string name="ar_triggering_title">בזיהוי נהיגה</string>
     <string name="ask_assistant">‏לשאול את Assistant</string>
+    <string name="ask_before_launching">יש לשאול לפני הפעלה</string>
     <string name="ask_for_message_to_number">בטח, ברצונך לשלוח הודעה. מה ההודעה?</string>
     <string name="ask_for_text_message_contact_first_time">טוב, ברצונך לשלוח הודעת טקסט אל %1$s. מה ההודעה?</string>
     <string name="ask_to_confirm_3p_chat_message">הנה הודעת %1$s אל %2$s: %3$s. ברצונך לשלוח את ההודעה או לשנות אותה?</string>
@@ -460,10 +461,10 @@
     <string name="ask_to_confirm_message_reprompt">סליחה, לשלוח או לשנות אותה?</string>
     <string name="ask_to_confirm_sms">‏הנה הודעת ה-SMS שלך אל %1$s: %2$s. ברצונך לשלוח את ההודעה או לשנות אותה?</string>
     <string name="assistant">Assistant</string>
-    <string name="assistant_aa_loyalty_card_title">Loyalty Card</string>
+    <string name="assistant_aa_loyalty_card_title">כרטיס מועדון לקוחות</string>
     <string name="assistant_accessibility_voice_typing_stopped">ההַכְתָּבָה הופסקה</string>
     <string name="assistant_add_item_app_control_suggestion">הוספה</string>
-    <string name="assistant_ama_media_only_chip">Listen</string>
+    <string name="assistant_ama_media_only_chip">להאזנה</string>
     <string name="assistant_android_settings_access_assistant_category_title">‏גישה אל Google Assistant ב-Pixel</string>
     <string name="assistant_android_settings_active_edge_summary">‏כדי לדבר עם Assistant, לוחצים משני צדי המכשיר בחלק התחתון שלו ומשחררים במהירות</string>
     <string name="assistant_android_settings_active_edge_title">‏לחיצה משני צדי המכשיר ל-Assistant</string>
@@ -482,7 +483,8 @@
     <string name="assistant_android_settings_see_all_title">‏הצגת כל ההגדרות של Assistant</string>
     <string name="assistant_android_settings_voice_match_summary">‏בעזרת Voice Match אפשר לגשת ל-Assistant באמצעות הקול, גם כשהטלפון נעול</string>
     <string name="assistant_android_settings_voice_match_title">‏פשוט אומרים “Ok Google”</string>
-    <string name="assistant_at_store">At Store</string>
+    <string name="assistant_at_store">בחנות</string>
+    <string name="assistant_avatar_icon_description">סמל הדמות של המשתמש</string>
     <string name="assistant_bit_action_card_link">‏מעבר לדף של Google Assistant</string>
     <string name="assistant_bit_action_card_negative">לא תודה</string>
     <string name="assistant_bit_action_card_positive">הפעלה</string>
@@ -498,10 +500,15 @@
     <string name="assistant_bit_alert_on_text">"‏כדי ש-Google Assistant תוכל לענות על שאלות שלך ולעזור לך בביצוע משימות, נשלח ממנה מידע, כמו בקשות קוליות, אל Google.
 אפשר לבדוק או למחוק את ההיסטוריה של Assistant בכל שלב בכתובת myactivity.google.com."</string>
     <string name="assistant_bit_alert_on_title">‏להפעיל את Google Assistant?</string>
-    <string name="assistant_calendar_event_during">%1$s now</string>
-    <string name="assistant_calendar_event_pre">%1$s in %2$s</string>
-    <string name="assistant_calendar_event_pre_static">%1$s at %2$s</string>
+    <string name="assistant_calendar_event_during">%1$s עכשיו</string>
+    <string name="assistant_calendar_event_pre">%1$s בעוד %2$s</string>
+    <string name="assistant_calendar_event_pre_static">%1$s בשעה %2$s</string>
     <string name="assistant_calendar_event_time_range">%1$s – %2$s</string>
+    <string name="assistant_canvas_logo_view_description">חיפוש קולי</string>
+    <string name="assistant_canvas_opa_keyboard_indicator_content_description">מצב הקלדה</string>
+    <string name="assistant_canvas_opa_send_button_content_description">שליחה</string>
+    <string name="assistant_canvas_opa_text_input_hint">כאן מקלידים הודעה</string>
+    <string name="assistant_canvas_transcription_bar_description">עמודת התמליל</string>
     <string name="assistant_create_doc_app_control_suggestion">יצירת מסמך</string>
     <string name="assistant_custodio_activity_menu_help">עזרה</string>
     <string name="assistant_custodio_activity_menu_send_feedback">שליחת משוב</string>
@@ -732,6 +739,7 @@
     <string name="assistant_custodio_youtube_media_provider_name">YouTube</string>
     <string name="assistant_default_error_message">משהו השתבש. יש לנסות שוב</string>
     <string name="assistant_dictation_ineligible_aiai_version">כדי להשתמש בהכתבה בקול עם Assistant, צריך לעדכן את אפליקציית Android System Intelligence ב-Google Play. &lt;a href=\"https://play.google.com/store/apps/details?id=com.google.android.as\">עדכון&lt;/a> &lt;br> &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#update_app\">מידע נוסף&lt;/a></string>
+    <string name="assistant_dictation_ineligible_android_old_version">"כדי להשתמש ב'הכתבה בקול עם Assistant', עליך לעדכן את מערכת Android. &lt;a href=\"intent:#Intent;action=android.settings.SYSTEM_UPDATE_SETTINGS;end\">עדכון&lt;/a> &lt;br> &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#update_app\">מידע נוסף&lt;/a>"</string>
     <string name="assistant_dictation_ineligible_download_needed">נדרש עדכון של ההכתבה בקול עם Assistant. צריך להתחבר לרשת Wi-Fi כדי שההורדה תתבצע אוטומטית. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#update_to_use\">מידע נוסף&lt;/a></string>
     <string name="assistant_dictation_ineligible_generic">בשלב זה, אין לך אפשרות להשתמש בהכתבה בקול עם Assistant. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#fix_issues_assistant_voice_typing\">מידע נוסף&lt;/a></string>
     <string name="assistant_dictation_ineligible_locale_mismatch">כדי להשתמש בהכתבה בקול עם Assistant, צריך להגדיר את אותה שפה ראשית במכשיר וב-Gboard. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#device_language\">מידע נוסף&lt;/a></string>
@@ -741,29 +749,25 @@
     <string name="assistant_dictation_ineligible_work_profile">"בשלב זה, התכונה 'הכתבה בקול עם Assistant' לא זמינה לאפליקציות בפרופיל העבודה. כדי להשתמש בה, צריך לעבור לאפליקציות לשימוש אישי. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#not_available_work_profile\">מידע נוסף&lt;/a>"</string>
     <string name="assistant_edit_app_control_suggestion">עריכה</string>
     <string name="assistant_features_title">ביצוע משימות נדרשות</string>
-    <string name="assistant_flight_chip_boarding_pass">Boarding Pass</string>
-    <string name="assistant_flight_chip_check_in">Check in for your flight</string>
-    <string name="assistant_flight_chip_more_info">More Flight Info</string>
-    <string name="assistant_flight_departure_gate_info">Gate %1$s</string>
-    <string name="assistant_flight_departure_info">%1$s to %2$s departs in %3$s</string>
-    <string name="assistant_flight_departure_info_now">%1$s to %2$s departs now</string>
-    <string name="assistant_flight_departure_info_static_time">%1$s to %2$s departs at %3$s</string>
-    <string name="assistant_flight_departure_info_static_without_time">%1$s to %2$s</string>
-    <string name="assistant_flight_departure_terminal_info">Terminal %1$s</string>
-    <string name="assistant_flight_departure_time_delayed_info">Departs %1$s (<strike>%2$s</strike>)</string>
-    <string name="assistant_flight_departure_time_info">Departs %1$s</string>
-    <string name="assistant_flight_seat_info">Seat %1$s</string>
-    <string name="assistant_flight_to_delayed_info">Delayed: Flight to %1$s</string>
-    <string name="assistant_flight_to_info">Flight to %1$s</string>
+    <string name="assistant_flight_chip_boarding_pass">כרטיס עלייה למטוס</string>
+    <string name="assistant_flight_chip_check_in">"צ'ק-אין לטיסה שלך"</string>
+    <string name="assistant_flight_chip_more_info">פרטי טיסה נוספים</string>
+    <string name="assistant_flight_departure_gate_info">שער %1$s</string>
+    <string name="assistant_flight_departure_info">הטיסה מ-%1$s אל %2$s ממריאה בעוד %3$s</string>
+    <string name="assistant_flight_departure_info_now">הטיסה מ-%1$s אל %2$s ממריאה עכשיו</string>
+    <string name="assistant_flight_departure_info_static_time">הטיסה מ-%1$s אל %2$s יוצאת בשעה %3$s</string>
+    <string name="assistant_flight_departure_info_static_without_time">מ-%1$s אל %2$s</string>
+    <string name="assistant_flight_departure_terminal_info">טרמינל %1$s</string>
+    <string name="assistant_flight_departure_time_delayed_info">ממריאה בשעה %1$s (<strike>%2$s</strike>)</string>
+    <string name="assistant_flight_departure_time_info">ממריאה בשעה %1$s</string>
+    <string name="assistant_flight_seat_info">מושב %1$s</string>
+    <string name="assistant_flight_to_delayed_info">באיחור: טיסה אל %1$s</string>
+    <string name="assistant_flight_to_info">טיסה אל %1$s</string>
     <string name="assistant_grocery_delivery_completed">%1$s order delivered</string>
-    <string name="assistant_grocery_delivery_during">%1$s delivery now</string>
-    <string name="assistant_grocery_delivery_pre">%1$s delivery in %2$s</string>
-    <string name="assistant_grocery_delivery_pre_static">%1$s delivery at %2$s</string>
+    <string name="assistant_grocery_delivery_scheduled">%1$s delivery scheduled</string>
     <string name="assistant_grocery_pickup_completed">%1$s order picked up</string>
-    <string name="assistant_grocery_pickup_during">%1$s pickup now</string>
-    <string name="assistant_grocery_pickup_pre">%1$s pickup in %2$s</string>
-    <string name="assistant_grocery_pickup_pre_static">%1$s pickup at %2$s</string>
-    <string name="assistant_grocery_pickup_ready">%1$s pickup now</string>
+    <string name="assistant_grocery_pickup_ready">%1$s order ready for pickup</string>
+    <string name="assistant_grocery_pickup_scheduled">%1$s pickup scheduled</string>
     <string name="assistant_grocery_time_range">%1$s – %2$s</string>
     <string name="assistant_guacamole_answer_call_announce">מתבצע מענה…</string>
     <string name="assistant_guacamole_closed_popup_pill_content_description">אומרים \"%1$s\". לוחצים לחיצה כפולה על הלחצן בצורת הגלולה כדי להציג מידע נוסף.</string>
@@ -818,6 +822,9 @@
     <string name="assistant_keyboard_first_one_text">הפריט הראשון</string>
     <string name="assistant_keyboard_firstrun_text">&lt;linkable>ניהול ההגדרות&lt;/linkable></string>
     <string name="assistant_keyboard_icon_label">מקלדת</string>
+    <string name="assistant_keyboard_input_clear_button_content_description">Click to clear text input</string>
+    <string name="assistant_keyboard_input_mic_button_content_description">Click the mic icon to start voice query</string>
+    <string name="assistant_keyboard_input_text_hint">Type a text input here</string>
     <string name="assistant_keyboard_learning_center_category_compose">הקלדה ושליחה</string>
     <string name="assistant_keyboard_learning_center_category_emojis">"הוספת אמוג'י"</string>
     <string name="assistant_keyboard_learning_center_category_forms">טפסים ואימיילים</string>
@@ -901,12 +908,14 @@
     <string name="assistant_keyboard_sticky_mic_education_tip_text">לוחצים פעמיים כדי שהמיקרופון ימשיך לפעול&lt;br>עד לסגירת המקלדת</string>
     <string name="assistant_keyboard_stop_button_description">הפסקת ההכתבה</string>
     <string name="assistant_keyboard_stop_text">הפסקה</string>
+    <string name="assistant_keyboard_suggestion_query_builder_button_content_description">Click to edit in input box</string>
     <string name="assistant_keyboard_undo_button_description">ביטול</string>
     <string name="assistant_keyboard_undo_text">ביטול</string>
     <string name="assistant_keyboard_voice_command_not_supported">הפקודה לא זמינה באפליקציה הזו</string>
     <string name="assistant_keyboard_voice_corrections_tip_text">אומרים את המילים שרוצים&lt;br>שיחליפו את המילה שנבחרה</string>
     <string name="assistant_language_not_supported">‏Google Assistant עדיין לא תומכת ב%s</string>
     <string name="assistant_learning_center_data_error">Sorry, something went wrong while loading data.</string>
+    <string name="assistant_learning_center_detailed_page_data_error">Sorry, something went wrong while loading data.</string>
     <string name="assistant_logo_a11y">‏יש להקיש כדי לפתוח את Google Assistant</string>
     <string name="assistant_logo_content_description">‏הלוגו של Google Assistant</string>
     <string name="assistant_long_press_power_action_button_text">הבנתי</string>
@@ -948,7 +957,7 @@
     <string name="assistant_my_actions_unpin_confirmation_dialog_title">לתשומת ליבך!</string>
     <string name="assistant_my_actions_unpinned_action_row_add_button_content_description">הוספת הפעולה הזו</string>
     <string name="assistant_my_actions_unpinned_actions_header">פעולות שעשויות לעניין אותך</string>
-    <string name="assistant_my_flights_query">My Flights</string>
+    <string name="assistant_my_flights_query">הטיסות שלי</string>
     <string name="assistant_on_lockscreen_desc">‏Assistant תוכל להגיב כשהטלפון נעול. כדי לקבל תוצאות מותאמות אישית, כגון אנשי קשר או הודעות, יש לומר \"%1$s\" כדי ש-Assistant תוכל לזהות את הקול שלך.</string>
     <string name="assistant_on_lockscreen_description">‏Assistant תוכל להגיב כשהטלפון נעול. כדי לקבל תוצאות מותאמות אישית, כגון אנשי קשר והודעות, יש לומר \"Hey Google\" ואז Assistant תוכל לזהות את הקול שלך.</string>
     <string name="assistant_on_lockscreen_title">‏קבלת תשובות מ-Assistant במסך הנעילה</string>
@@ -1592,7 +1601,7 @@
     <string name="assistant_settings_proactive_personalization_frame_title">התאמה אישית</string>
     <string name="assistant_settings_productivity_title">חשבונות</string>
     <string name="assistant_settings_profile_proactive_card_image_content_description">תמונה בכרטיס</string>
-    <string name="assistant_settings_pronunciation_audio_learnt_summary">‏אפשר ללמד את Assistant איך לבטא את השם שלך על-ידי הקלטה שלו.</string>
+    <string name="assistant_settings_pronunciation_audio_learnt_summary">‏אפשר להקליט את השם כדי ללמד את Assistant לבטא אותו נכון</string>
     <string name="assistant_settings_pronunciation_audio_learnt_title">הקלטה עצמית</string>
     <string name="assistant_settings_pronunciation_default_name_title">שימוש בברירת המחדל</string>
     <string name="assistant_settings_pronunciation_spell_out_hint">‏למשל Ayva</string>
@@ -1775,21 +1784,38 @@
     <string name="assistant_suw_intro_screen_action_button_text">אני מסכים/ה</string>
     <string name="assistant_suw_intro_screen_cancel_button_text">דילוג</string>
     <string name="assistant_suw_intro_screen_default_x_google_hotword">Hey Google</string>
+    <string name="assistant_suw_intro_screen_hint1_for_unicorn_vm3">{GENDER,select, male{כדי שאמירת \"%1$s\" תפעל, נדרשת הגדרה של Voice Match, כדי ש-Assistant של {GIVEN_NAME} תוכל לזהות אותו.}female{כדי שאמירת \"%1$s\" תפעל, נדרשת הגדרה של Voice Match, כדי ש-Assistant של {GIVEN_NAME} תוכל לזהות אותה.}other{כדי שאמירת \"%1$s\" תפעל, נדרשת הגדרה של Voice Match, כדי ש-Assistant תוכל לזהות את {GIVEN_NAME}.}}</string>
+    <string name="assistant_suw_intro_screen_hint1_vm3">כדי שאמירת \"%1$s\" תפעל, נדרשת הגדרה של Voice Match, כדי ש-Assistant תוכל לזהות אותך.</string>
+    <string name="assistant_suw_intro_screen_hint2_for_unicorn_vm3">Assistant עשויה לפעול בלי כוונה אצל %1$s. לדוגמה, כשיש רעש שנשמע כמו \"%2$s\".</string>
+    <string name="assistant_suw_intro_screen_hint2_vm3">Assistant עשויה לפעול בלי שהתכוונת לכך. לדוגמה, כשיש רעש שנשמע כמו \"%1$s\".</string>
+    <string name="assistant_suw_intro_screen_hint3_for_unicorn_vm3">אפשר להשבית את \"%1$s\" בהגדרות Assistant של %2$s.</string>
+    <string name="assistant_suw_intro_screen_hint3_vm3">ניתן להשבית את \"%1$s\" בהגדרות של Assistant.</string>
     <string name="assistant_suw_intro_screen_item_summary_1">“What’s the weather this weekend?‎”</string>
+    <string name="assistant_suw_intro_screen_item_summary_1_for_unicorn">\"Do I need an umbrella?‎\" (יש צורך במטרייה?)</string>
     <string name="assistant_suw_intro_screen_item_summary_2">“Where’s the nearest coffee shop?‎”</string>
+    <string name="assistant_suw_intro_screen_item_summary_2_for_unicorn">\"What does a hippo sound like?‎\" (איך נשמע היפופוטם?)</string>
     <string name="assistant_suw_intro_screen_item_summary_3">“Set an alarm for 5:00am tomorrow.‎“</string>
+    <string name="assistant_suw_intro_screen_item_summary_3_for_unicorn">\"Set a homework timer for 20 minutes\" (הגדרת טיימר לשיעורי בית למשך 20 דקות)</string>
     <string name="assistant_suw_intro_screen_item_title_1">איך לשאול שאלות</string>
     <string name="assistant_suw_intro_screen_item_title_2">קבלת מסלול</string>
+    <string name="assistant_suw_intro_screen_item_title_2_for_unicorn">לומדים דברים חדשים</string>
     <string name="assistant_suw_intro_screen_item_title_3">ביצוע משימות נדרשות</string>
     <string name="assistant_suw_intro_screen_subtitle_v2">אם תתקבל ממך הסכמה, Google Assistant תהיה במצב המתנה עד לאמירת \"%1$s\".</string>
+    <string name="assistant_suw_intro_screen_subtitle_v2_for_unicorn_vm3">אם תתקבל ממך הסכמה, Google Assistant תהיה במצב המתנה עד שתזהה את האמירה \"%2$s\" מפי %1$s.</string>
     <string name="assistant_suw_intro_screen_title">גישה אל Assistant באמצעות “%1$s”</string>
     <string name="assistant_suw_intro_screen_title_for_unicorn">הענקת גישה ל-Google Assistant ל%1$s באמצעות הביטוי \"%2$s\"</string>
-    <string name="assistant_suw_intro_screen_with_ww_hint">ניתן לעדכן את הבחירה הזו בהגדרות Assistant.</string>
+    <string name="assistant_suw_intro_screen_title_for_unicorn_vm3">איך לתת ל%1$s לדבר אל Google בהפעלה קולית</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint2_for_unicorn_vm3">Assistant עשויה לפעול בלי כוונה אצל %1$s. לדוגמה, כשיש רעש שנשמע כמו \"%2$s\" או פקודה מהירה.</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint2_vm3">Assistant עשויה לפעול בלי שהתכוונת לכך. לדוגמה, כשיש רעש שנשמע כמו \"%1$s\" או פקודה מהירה.</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint3_for_unicorn_vm3">אפשר להשבית את \"%1$s\" ואת הפקודות המהירות בהגדרות Assistant של %2$s.</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint3_vm3">אפשר להשבית את \"%1$s\" ופקודות מהירות בהגדרות Assistant.</string>
     <string name="assistant_suw_intro_screen_with_ww_item_summary_1">אפשר לשאול שאלות ולקבל עזרה בביצוע משימות.</string>
     <string name="assistant_suw_intro_screen_with_ww_item_summary_2">יש לנסות לומר מילים כמו “stop“ או “snooze“ (לדוגמה, כשהשעון המעורר מצלצל).</string>
+    <string name="assistant_suw_intro_screen_with_ww_item_summary_2_for_unicorn_vm3">ל%1$s יש אפשרות להגיד מילים כמו \"stop\" או \"snooze\" (לדוגמה, כשנשמעת אזעקה).</string>
     <string name="assistant_suw_intro_screen_with_ww_item_title_1">“%1$s”</string>
     <string name="assistant_suw_intro_screen_with_ww_item_title_2">ביטויים פשוטים</string>
     <string name="assistant_suw_intro_screen_with_ww_subtitle">אם תתקבל ממך הסכמה, Google Assistant תהיה במצב המתנה עד לאמירת “%1$s“ וביטויים פשוטים מסוימים.</string>
+    <string name="assistant_suw_intro_screen_with_ww_subtitle_for_unicorn_vm3">אם תתקבל ממך הסכמה, Google Assistant תהיה במצב המתנה עד שתזהה את האמירה \"%2$s\" ופקודות מהירות מסוימות מפי %1$s.</string>
     <string name="assistant_suw_intro_screen_with_ww_title">הפעלה קולית של Google Assistant</string>
     <string name="assistant_suw_loading_screen_title">בבדיקה…</string>
     <string name="assistant_suw_more_button_text">עוד</string>
@@ -1805,8 +1831,8 @@
     <string name="assistant_suw_settings_screen_title">גישה ל-Assistant בלי ביטול הנעילה של %1$s</string>
     <string name="assistant_suw_settings_screen_title_for_unicorn">{GENDER,select, male{ההגדרה הזו מעניקה ל{GIVEN_NAME} גישה ל-Google Assistant בלי שהוא יצטרך לבטל את נעילת %1$s שלו}female{ההגדרה הזו מעניקה ל{GIVEN_NAME} גישה ל-Google Assistant בלי שהיא תצטרך לבטל את נעילת %1$s שלה}other{ההגדרה הזו מעניקה ל{GIVEN_NAME} גישה ל-Google Assistant ללא צורך בביטול הנעילה של %1$s}}</string>
     <string name="assistant_take_note_app_control_suggestion">Take a note</string>
-    <string name="assistant_tap_to_check_in">Tap to check-in</string>
-    <string name="assistant_tomorrow_time">Tomorrow, %1$s</string>
+    <string name="assistant_tap_to_check_in">"יש להקיש כדי לבצע צ'ק אין"</string>
+    <string name="assistant_tomorrow_time">מחר, %1$s</string>
     <string name="assistant_ui_learn_more_link">מידע נוסף</string>
     <string name="assistant_unicorn_get_your_parent_subtitle">‏קל יותר להגדיר ביחד את Voice Match.</string>
     <string name="assistant_unicorn_get_your_parent_subtitle_shared_devices">‏תוכלו להגדיר את Google Assistant ביחד.</string>
@@ -1814,6 +1840,8 @@
     <string name="assistant_voice_plate_avatar_label">פתיחת ההגדרות</string>
     <string name="assistant_voice_plate_greeting_hi_text">היי, איך אפשר לעזור?</string>
     <string name="assistant_voice_plate_keyboard_icon_label">מקלדת</string>
+    <string name="assistant_voice_plate_onboarding_oauth_recovery_button">כניסה</string>
+    <string name="assistant_voice_plate_onboarding_oauth_recovery_text">כדי להשתמש ב-Assistant, עליך להיכנס מחדש לחשבון Google</string>
     <string name="assistant_voice_plate_onboarding_oobe_button">שנתחיל?</string>
     <string name="assistant_voice_plate_onboarding_oobe_text">הפעלת תכונות נוספות ב-Assistant</string>
     <string name="assistant_voice_speech_output_title">‏פלט קול ודיבור של Assistant</string>
@@ -1836,7 +1864,7 @@
     <string name="assistant_weather_widget_preview_condition">בהיר</string>
     <string name="assistant_weather_widget_preview_loading">מתבצעת טעינה…</string>
     <string name="assistant_weather_widget_preview_location">סן פרנסיסקו</string>
-    <string name="assistant_yesterday_time">Yesterday, %1$s</string>
+    <string name="assistant_yesterday_time">אתמול ב-%1$s</string>
     <string name="assistantactions_alarm_confirmation_card_button_text">הצגת התראות</string>
     <string name="assistantactions_call_confirmation_card_button">התקשרות</string>
     <string name="assistantactions_confirmation_card_cancel_text">הפעולה בוטלה</string>
@@ -1951,7 +1979,9 @@
 
 Assistant משתמשת גם ב-Face Match וב-Voice Match כדי שהתכונה 'מסתכלים ומדברים' תותאם אליך. אם אנשים אחרים רוצים להשתמש ב'מסתכלים ומדברים', הם יכולים להגדיר את התכונה בהגדרות של אפליקציית Assistant או אפליקציית Home.
 
-תמיד אפשר להשבית את התכונה הזו בהגדרות של Face Match."</string>
+תמיד אפשר להשבית את התכונה הזו בהגדרות של Face Match.
+
+הערה: אפשר להמשיך לומר “Ok Google” גם אם 'מסתכלים ומדברים' מופעלת."</string>
     <string name="blue_steel_consent_title">מסתכלים ומדברים ב%1$s</string>
     <string name="blue_steel_learn_more">&lt;a href=%1$s>מידע נוסף&lt;/a></string>
     <string name="blue_steel_turn_on">הפעלה</string>
@@ -1968,7 +1998,6 @@ Assistant משתמשת גם ב-Face Match וב-Voice Match כדי שהתכונה
     <string name="bottom_navigation_collections_label">אוספים</string>
     <string name="bottom_navigation_drawer_label">עוד</string>
     <string name="bottom_navigation_search_label">חיפוש</string>
-    <string name="bottom_navigation_snapshot_label">תמונת מצב</string>
     <string name="bottom_navigation_spark_label">Discover</string>
     <string name="bottom_navigation_tabs_label">כרטיסיות</string>
     <string name="bottomsheet_action_expand_halfway">הרחבה עד האמצע</string>
@@ -1976,6 +2005,8 @@ Assistant משתמשת גם ב-Face Match וב-Voice Match כדי שהתכונה
     <string name="brightness">בהירות המסך</string>
     <string name="broken_google_play_services_text">‏כדי להשלים את הבקשה, יש צורך בשירותי Google Play. צריך להפעיל את המכשיר מחדש.</string>
     <string name="bt_auto_trigger_title">הפעלת מצב הנהיגה ב-Assistant כשיש חיבור לרכב</string>
+    <string name="bt_triggering_description">בעזרת ההגדרה הזו מפעילים את מצב הנהיגה כשנכנסים לרכב</string>
+    <string name="bt_triggering_title">‏כשיש חיבור ל-Bluetooth של הרכב</string>
     <string name="bubble_cancel_button_text">ביטול</string>
     <string name="bubble_dismiss_text">יש לגרור מטה כדי לסגור</string>
     <string name="bubble_feedback_link">משוב</string>
@@ -2083,7 +2114,6 @@ Assistant משתמשת גם ב-Face Match וב-Voice Match כדי שהתכונה
     <string name="cct_account_mismatch_card_button_text">‏פתיחה של %1$s</string>
     <string name="cct_account_mismatch_card_header">תצוגה של דפי האינטרנט שלך</string>
     <string name="cct_account_mismatch_card_text">‏כדי לראות את הדפים שמצאת כאן, יש לעדכן את ה&lt;b>ההגדרות של %1$s‏&lt;/b> ולהפעיל סנכרון עבור &lt;b>%2$s&lt;/b></string>
-    <string name="chance_of_precipitation_label">סיכוי למשקעים: %s</string>
     <string name="change_button_text">שינוי</string>
     <string name="change_speed_button">שינוי קצב ההקראה</string>
     <string name="channel_description">כדי לעזור לך להתמקד בכביש, שיפרנו את אפשרות השליטה באמצעות הקול והוספנו לחצנים שקל ללחוץ עליהם.</string>
@@ -2197,6 +2227,7 @@ Assistant משתמשת גם ב-Face Match וב-Voice Match כדי שהתכונה
     <string name="common_google_play_services_update_text">‏%1$s לא יפעל אם לא תעדכן את שירותי Google Play.</string>
     <string name="common_google_play_services_update_title">‏עדכון שירותי Google Play</string>
     <string name="common_google_play_services_updating_text">‏האפליקציה %1$s לא תפעל ללא שירותי Google Play, שמתעדכנים כרגע.</string>
+    <string name="common_google_play_services_wear_update_text">‏דרושה גרסה חדשה של שירותי Google Play. הגרסה תתעדכן בעצמה תוך זמן קצר.</string>
     <string name="common_google_search_hint">‏חיפוש Google</string>
     <string name="common_google_search_label">Google</string>
     <string name="common_learn_more">למידע נוסף</string>
@@ -2204,6 +2235,7 @@ Assistant משתמשת גם ב-Face Match וב-Voice Match כדי שהתכונה
     <string name="common_open_on_phone">פתח בטלפון</string>
     <string name="common_see_updates">הצגת עדכונים</string>
     <string name="common_yes">אישור</string>
+    <string name="comms_center_close_button_description">סגירת הדף</string>
     <string name="commute_eta_msg">ל-%2$s: ‏%1$s</string>
     <string name="commute_eta_time_hour">"%1$s שע'"</string>
     <string name="commute_eta_time_hour_minute">"%1$s שע' %2$s דק'"</string>
@@ -2349,16 +2381,16 @@ Assistant משתמשת גם ב-Face Match וב-Voice Match כדי שהתכונה
     <string name="cricket_second_innings">סיבובים שניים</string>
     <string name="crop_wallpaper">חתוך את הטפט</string>
     <string name="cross_profile_meta_data">"יוצגו אירועי עבודה קרובים בווידג'ט האישי 'בקצרה'"</string>
-    <string name="current_conditions_temperature" formatted="false">טמפרטורה: %s %s</string>
     <string name="current_inning">אינינג %1$d</string>
-    <string name="current_location_searchbox">מיקום נוכחי</string>
     <string name="current_period">מערכה %1$d</string>
     <string name="custom">מותאם אישית (לא ניתן לבצע התאמה אישית בטלפון)</string>
+    <string name="custom_reply_button_string">תשובה בהתאמה אישית</string>
     <string name="custom_tabs_explore_action_button_desc">הצגת דפים קשורים</string>
     <string name="custom_tabs_link_copied">הקישור הועתק ללוח</string>
     <string name="custom_tabs_menu_item_copy_link">העתקת קישור</string>
     <string name="custom_tabs_menu_item_help">עזרה</string>
     <string name="custom_tabs_menu_item_open_in_browser_generic">פתיחה בדפדפן האינטרנט</string>
+    <string name="custom_tabs_menu_item_personal_info_removal">הסרת תוצאות עם מידע עליך</string>
     <string name="custom_tabs_menu_item_recent">אחרונים</string>
     <string name="custom_tabs_menu_item_share">שיתוף קישור…</string>
     <string name="custom_tabs_share_via">שיתוף באמצעות</string>
@@ -2370,7 +2402,6 @@ Assistant משתמשת גם ב-Face Match וב-Voice Match כדי שהתכונה
     <string name="cw_chip_icon_description">"סמל של צ'יפ פעולה"</string>
     <string name="cw_disabled_message">לא זמין באופן זמני. יחזור בקרוב!</string>
     <string name="cw_feedback_chip_text">שליחת משוב</string>
-    <string name="daily_conditions_sky_condition">מצב השמיים: %s</string>
     <string name="dangerous_or_harmful_activity">פעילות מסוכנת או מזיקה</string>
     <string name="data_in_assistant">‏הנתונים שלך ב-Assistant</string>
     <string name="data_sharing_action_button">אישור</string>
@@ -2381,6 +2412,7 @@ Assistant משתמשת גם ב-Face Match וב-Voice Match כדי שהתכונה
     <string name="data_sharing_title_text">חיפוש בכל אפליקציות הטלוויזיה</string>
     <string name="date_at_time">%1$s ב-%2$s</string>
     <string name="date_in_the_past">%1$s &lt;font color=#9E9E9E>חל בעבר&lt;/font></string>
+    <string name="day_picker_description">טבלה לבחירת ימים בחודש</string>
     <string name="decline_button_description">דחיית השיחה</string>
     <string name="decline_permissions">Not Now</string>
     <string name="deeplink_default_promocard_more_ways_to_search">‏דרכים נוספות לחפש באפליקציית Google</string>
@@ -2390,7 +2422,6 @@ Assistant משתמשת גם ב-Face Match וב-Voice Match כדי שהתכונה
     <string name="default_error">אופס. משהו השתבש.</string>
     <string name="default_error_msg">שגיאה לא ידועה</string>
     <string name="default_group_name">"צ'אט קבוצתי"</string>
-    <string name="default_location_name">סן פרנסיסקו</string>
     <string name="default_media_selection_description">‏אם מבקשים מ-Assistant להשמיע מוזיקה, השירות הזה ייבחר כברירת מחדל</string>
     <string name="default_media_selection_title">בחירת שירות המוזיקה המוגדר כברירת מחדל</string>
     <string name="default_microphone_error">אופס. משהו השתבש. יש לנסות שוב.</string>
@@ -2724,9 +2755,12 @@ Assistant עדיין תוכל לעזור לך
     <string name="dnd_setting_title">הצגת התראות בעדיפות בלבד</string>
     <string name="dnd_title_off">כבוי</string>
     <string name="dnd_title_on">פועל</string>
+    <string name="dnd_toggle_description">התראות שאינן בעדיפות גבוהה מאפליקציות יושתקו בזמן הנהיגה</string>
+    <string name="dnd_toggle_title">הגבלת התראות בזמן נהיגה</string>
     <string name="do_not_disturb_desc">נא לא להפריע</string>
     <string name="do_not_show_fewer_like_this">איני רוצה להציג פחות תוכן כזה</string>
     <string name="do_not_show_more_like_this">אני לא רוצה לראות עוד תוכן כזה</string>
+    <string name="do_nothing">אין לעשות דבר</string>
     <string name="done_button_text">סיום</string>
     <string name="done_label">סיום</string>
     <string name="doodle_content_description">‏תמונת דודל של Google</string>
@@ -2754,8 +2788,11 @@ Assistant עדיין תוכל לעזור לך
     <string name="dreamliner_dock_trusted_item_summary">"‏ניתן לאפשר תוצאות אישיות במכשיר הזה, כמו תמונות, הודעות אימייל, יומן, אנשי קשר ותזכורות כשהטלפון נעול ב-Pixel Stand. ההגדרה הזו גם מאפשרת ביצוע תשלומים אם האפשרות לביצוע תשלומים באמצעות Assistant מופעלת. &lt;a href='https://support.google.com/assistant/answer/7684543?hl=en&amp;co=GENIE.Platform=Android'>מידע נוסף&lt;/a>"</string>
     <string name="dreamliner_dock_trusted_item_title">‏תוצאות אישיות ל-Pixel Stand</string>
     <string name="drive_mode_dedup_string">מצב נהיגה</string>
+    <string name="driving_general_settings_header">כללי</string>
     <string name="driving_screen_not_driving_description">יציאה ממצב נהיגה ב-Assistant</string>
     <string name="driving_screen_not_driving_label">אני לא בנהיגה</string>
+    <string name="driving_settings_subtitle">‏כאן אפשר לנהל את האופן שבו Assistant עוזרת לך בנהיגה</string>
+    <string name="driving_settings_title">מצב נהיגה</string>
     <string name="drl_nga_mic_button">מיקרופון</string>
     <string name="dsc_illustration_description">סמלי הלוגו של אפליקציות הטלוויזיה שלך</string>
     <string name="dt_promocard_icon_description">עיצוב כהה</string>
@@ -2807,6 +2844,9 @@ Assistant עדיין תוכל לעזור לך
     <string name="enable_google_play_services_link">הפעלה</string>
     <string name="enable_google_play_services_text">‏כדי להשלים את הבקשה, יש להפעיל את שירותי Google Play.</string>
     <string name="enable_google_search_restriction">‏הפעלת חיפוש Google</string>
+    <string name="enable_mini_toggle_description">מצב הנהיגה יופעל כשהניווט יתחיל</string>
+    <string name="enable_mini_toggle_title">‏בזמן ניווט במפות Google</string>
+    <string name="enable_mini_toggle_waiting_period_description">בקרוב מצב הנהיגה יופעל כשהניווט יתחיל</string>
     <string name="enable_video_preview_autoplay">הפעלה אוטומטית</string>
     <string name="enable_video_preview_autoplay_on_mobile_data">אפשר ברשתות סלולריות</string>
     <string name="enable_web_history_toast">היסטוריית האתרים פועלת</string>
@@ -2833,22 +2873,17 @@ Assistant עדיין תוכל לעזור לך
     <string name="episode_sort">מיון</string>
     <string name="episode_sort_option_newest_first">החדשים ביותר תחילה</string>
     <string name="episode_sort_option_oldest_first">הישנים ביותר תחילה</string>
-    <string name="error_adding_location_snackbar_text">שגיאה בהוספת המיקום</string>
     <string name="error_assist_app_step_1_text"><b>1.</b> יש להקיש על הלחצן <b>הגדרות</b> בהמשך</string>
     <string name="error_assist_app_step_2_text">‏<b>2.</b> יש להקיש על הקטע <b>אפליקציית Assist</b></string>
     <string name="error_assist_app_step_3_text">‏<b>3.</b> יש להקיש על <b>Google</b> כדי להגדיר כברירת מחדל</string>
     <string name="error_card_title_text_something_went_wrong">משהו השתבש</string>
     <string name="error_connecting_to_server">אין חיבור</string>
-    <string name="error_fetching_suggestions_status_text">שגיאה באחזור הצעות</string>
-    <string name="error_getting_current_location_status_text">אירעה שגיאה בקבלת מידע על המיקום הנוכחי</string>
-    <string name="error_getting_location_info_status_text">אירעה שגיאה בקבלת מידע על המיקום שנבחר</string>
     <string name="error_icon_content_description">שגיאה</string>
     <string name="error_loading_content">לא ניתן לטעון את הדף.</string>
     <string name="error_media_info">אירעה שגיאה במהלך ההפעלה של קובץ המדיה.</string>
     <string name="error_no_connection_text">"אין רשת זמינה
 מומלץ לבדוק את החיבור ולנסות שוב"</string>
     <string name="error_no_match_text">לקבלת תשובות מהירות, יש להקיש על סמל המיקרופון ולדבר לכיוון הטלפון</string>
-    <string name="error_removing_location_snackbar_text">שגיאה בהסרת המיקום</string>
     <string name="error_unreliable_network">משהו השתבש. כדאי לבדוק את החיבור ולנסות שוב.</string>
     <string name="errors_header">פסילות</string>
     <string name="errors_header_full_length">טעויות</string>
@@ -2902,6 +2937,53 @@ Assistant עדיין תוכל לעזור לך
     <string name="explore_tab_shortcut_section_subtitle">על סמך האפליקציות שמשמשות אותך לעיתים קרובות</string>
     <string name="explore_tab_shortcut_section_title">קיצורי דרך שעשויים לעניין אותך</string>
     <string name="exposed_dropdown_menu_content_description">הצגת התפריט הנפתח</string>
+    <string name="fa_alarm_instance_default_label">לא הוגדרה התראה</string>
+    <string name="fa_alarm_instance_filled_bullet">●</string>
+    <string name="fa_alarm_instance_switch_off_label">הושבתה התראה לשעה %1$s</string>
+    <string name="fa_alarm_instance_switch_on_label">הופעלה התראה לשעה %1$s</string>
+    <string name="fa_audio_recorder_audio_recording_text">מקליט…</string>
+    <string name="fa_audio_recorder_default_play_record_time_text">00:00</string>
+    <string name="fa_audio_recorder_delete_audio_message">מחיקה של ההודעה הקולית</string>
+    <string name="fa_audio_recorder_pause_audio_playback">השהיה</string>
+    <string name="fa_audio_recorder_playback_audio">הפעלה</string>
+    <string name="fa_audio_recorder_recording_audio">מתבצעת הקלטה</string>
+    <string name="fa_audio_recorder_stop_recording_audio">הפסקת ההקלטה</string>
+    <string name="fa_cancel_button_description">לחצן ביטול</string>
+    <string name="fa_confirm_button_description">לחצן אישור</string>
+    <string name="fa_contact_selection_contact_icon_description">סמל של איש קשר</string>
+    <string name="fa_contact_selection_pick_another_contact_view_hint">בחירת איש קשר נוסף</string>
+    <string name="fa_contact_selection_view_hint">בחירת איש קשר</string>
+    <string name="fa_device_setting_toggle_icon_description">סמל ההגדרה</string>
+    <string name="fa_device_setting_toggle_off_description">ההגדרה %1$s מושבתת</string>
+    <string name="fa_device_setting_toggle_on_description">ההגדרה %1$s פועלת</string>
+    <string name="fa_duration_hours_minutes_seconds">"%1$02d שע' %2$02d דק' %3$02d שנ'"</string>
+    <string name="fa_duration_minutes_seconds">"%1$02d דק' %2$02d שנ'"</string>
+    <string name="fa_duration_picker_confirm_button_text">סיום</string>
+    <string name="fa_duration_picker_hour_unit_label">שעות</string>
+    <string name="fa_duration_picker_minute_unit_label">דקות</string>
+    <string name="fa_duration_picker_second_unit_label">שניות</string>
+    <string name="fa_duration_picker_title">הגדרת משך זמן</string>
+    <string name="fa_duration_seconds">%1$02d שנ׳</string>
+    <string name="fa_empty_time">--:--</string>
+    <string name="fa_family_info_broadcast_settings_button">הלחצן להגדרות של שליחת הודעה לכולם</string>
+    <string name="fa_family_info_collapse_button">כיווץ הלחצן להצגת אנשים</string>
+    <string name="fa_family_info_uncollapse_button">הרחבת הלחצן להצגת אנשים</string>
+    <string name="fa_filled_bullet">●</string>
+    <string name="fa_hour_unit_label">שע‘</string>
+    <string name="fa_list_item_picker_title">יש לבחור אפשרות אחת</string>
+    <string name="fa_minute_unit_label">"דק'"</string>
+    <string name="fa_playback_audio">הפעלה</string>
+    <string name="fa_recurrence_custom">מותאם אישית (לא ניתן לבצע התאמה אישית בטלפון)</string>
+    <string name="fa_recurrence_do_not_repeat">ללא חזרות</string>
+    <string name="fa_recurrence_none">ללא</string>
+    <string name="fa_remaining_duration_hours_minutes_seconds">"הזמן שנותר: %1$02d שע', %2$02d דק' ו-%3$02d שנ'"</string>
+    <string name="fa_remaining_duration_minutes_seconds">"הזמן שנותר: %1$02d דק' ו-%2$02d שנ'"</string>
+    <string name="fa_remaining_duration_seconds">"הזמן שנותר: %1$02d שנ'"</string>
+    <string name="fa_second_unit_label">"שנ'"</string>
+    <string name="fa_timer_status_active">פעיל</string>
+    <string name="fa_timer_status_paused">מושהה</string>
+    <string name="fa_timer_status_reset">מאופס</string>
+    <string name="fa_timer_status_unknown">לא ידוע</string>
     <string name="facade_search_box_content_description">חיפוש…</string>
     <string name="face_match_enabled_devices_section_subtitle">‏התכונה Face Match הופעלה במכשירים האלה</string>
     <string name="face_match_enabled_devices_section_title">‏מכשירים עם Face Match</string>
@@ -2955,7 +3037,6 @@ Assistant עדיין תוכל לעזור לך
     <string name="feedback_unsuccessful_snackbar_hint">אירעה שגיאה. מומלץ לנסות שוב.</string>
     <string name="feedback_verify_location">אימות המיקום שלך</string>
     <string name="feedtooltip_video">‏סרטונים יופעלו כעת באופן אוטומטי בחיבור לחבילת גלישה. &lt;u>הגדרות&lt;/u></string>
-    <string name="fetching_suggestions_status_text">מאחזר הצעות...</string>
     <string name="filled_bullet">●</string>
     <string name="final_notification_no_reply_prompt">האם ברצונך לחזור עליה או שסיימת בינתיים?</string>
     <string name="final_notification_no_reply_reprompt">ברצונך לחזור עליה או שסיימת לבינתיים?</string>
@@ -3253,7 +3334,7 @@ Assistant עדיין תוכל לעזור לך
     <string name="googleapp_accountmenu_chrome_incognito">כרטיסיית מצב אנונימי חדשה ב-Chrome</string>
     <string name="googleapp_accountmenu_data_in_search">חיפוש</string>
     <string name="googleapp_accountmenu_passwords">סיסמאות</string>
-    <string name="googleapp_accountmenu_personal_info_removal">הסרה של הפרטים האישיים</string>
+    <string name="googleapp_accountmenu_personal_info_removal">Results about you</string>
     <string name="googleapp_accountmenu_quick_delete_education_easy">ניקוי 15 הדקות האחרונות של היסטוריית החיפושים בהקשה אחת</string>
     <string name="googleapp_accountmenu_quickdelete_cancel">ביטול</string>
     <string name="googleapp_accountmenu_quickdelete_error">לא ניתן היה למחוק את ההיסטוריה</string>
@@ -3269,7 +3350,7 @@ Assistant עדיין תוכל לעזור לך
     <string name="googleapp_accountmenu_search_history">היסטוריית חיפושים</string>
     <string name="googleapp_accountmenu_your_contributions">תוכן שהוספת</string>
     <string name="googleapp_actionbutton_listen">הקראה בקול</string>
-    <string name="googleapp_ads_personalization_settings_title">Ads personalization</string>
+    <string name="googleapp_ads_personalization_settings_title">התאמה אישית של מודעות</string>
     <string name="googleapp_amp_security_button_description">החיבור מאובטח</string>
     <string name="googleapp_app_suggestions_summary">שמות האפליקציות המותקנות.</string>
     <string name="googleapp_app_suggestions_title">אפליקציות</string>
@@ -3281,6 +3362,10 @@ Assistant עדיין תוכל לעזור לך
     <string name="googleapp_autocomplete_with_trending_searches_header_title">שאילתות חיפוש פופולריות</string>
     <string name="googleapp_autocomplete_with_trending_searches_summary">שאילתות חיפוש פופולריות כוללות חיפושים נפוצים באזור שלך</string>
     <string name="googleapp_autocomplete_with_trending_searches_title">השלמה אוטומטית בעזרת שאילתות חיפוש פופולריות</string>
+    <string name="googleapp_autoplay_video_previews_always">ב-Wi-Fi ובחבילת הגלישה</string>
+    <string name="googleapp_autoplay_video_previews_never">אף פעם</string>
+    <string name="googleapp_autoplay_video_previews_setting_title">הפעלה אוטומטית של תצוגה מקדימה לסרטונים</string>
+    <string name="googleapp_autoplay_video_previews_wifi">רק ב-Wi-Fi</string>
     <string name="googleapp_back_arrow_description">חזרה</string>
     <string name="googleapp_bar_color_title">הצבע של הסרגל</string>
     <string name="googleapp_bar_logo_title">הלוגו של הסרגל</string>
@@ -3292,12 +3377,6 @@ Assistant עדיין תוכל לעזור לך
     <string name="googleapp_boc_tooltip_tap_to_manage_your_preferences">ניתן להקיש כדי לנהל את ההעדפות ולשלוח משוב</string>
     <string name="googleapp_books_mode_landing_text">חיפוש ספרים</string>
     <string name="googleapp_bottom_navigation_collections_label_content_description">לחצן האוספים</string>
-    <string name="googleapp_broad_queries_topbar_mic_description">חיפוש קולי</string>
-    <string name="googleapp_broad_queries_topbar_search_description">חיפוש</string>
-    <string name="googleapp_broad_queries_topbar_up_content_description">חזרה</string>
-    <string name="googleapp_broadqueries_error_message">צריך לוודא שהחיבור לאינטרנט פועל</string>
-    <string name="googleapp_broadqueries_error_title">משהו השתבש</string>
-    <string name="googleapp_broadqueries_loading_indicator_desc">תוכן בטעינה</string>
     <string name="googleapp_browser_actionbutton_ampinfo">מידע נוסף על AMP</string>
     <string name="googleapp_browser_actionbutton_overflowmenu">עוד פעולות</string>
     <string name="googleapp_browser_actionbutton_tabs">כרטיסיות</string>
@@ -3310,8 +3389,8 @@ Assistant עדיין תוכל לעזור לך
     <string name="googleapp_browser_clear_error">משהו השתבש בניסיון לנקות את נתוני הגלישה.</string>
     <string name="googleapp_browser_contextmenu_open_in_new_tab_title">פתיחה בכרטיסייה חדשה</string>
     <string name="googleapp_browser_contextmenu_previewimage_description">תצוגה מקדימה של תמונה</string>
-    <string name="googleapp_browser_contextmenu_previewimage_scrolllabel">Scroll for more of image</string>
-    <string name="googleapp_browser_contextmenu_previewimage_smalllabel">Image preview enlarged from original size</string>
+    <string name="googleapp_browser_contextmenu_previewimage_scrolllabel">אפשר להציג חלקים נוספים של התמונה בעזרת גלילה</string>
+    <string name="googleapp_browser_contextmenu_previewimage_smalllabel">התצוגה המקדימה של התמונה הוגדלה מהגודל המקורי</string>
     <string name="googleapp_browser_download_blocker_incognito_continue_btn">הורדה</string>
     <string name="googleapp_browser_download_blocker_incognito_message">קבצים שהורדו נשמרים במכשיר. ניתן יהיה לגשת אליהם גם לאחר כיבוי המצב האנונימי.</string>
     <string name="googleapp_browser_enable_title">פתיחת דפי אינטרנט באפליקציית Google</string>
@@ -3321,28 +3400,27 @@ Assistant עדיין תוכל לעזור לך
     <string name="googleapp_browser_firstrun_summary">"אפליקציית Google עודכנה ועכשיו אפשר לעיין בתוכן מהאינטרנט כמו כתבות, סרטונים וסטוריז – הכול באפליקציה.
 
 עדיין תהיה לך אפשרות להתחבר לאתרים מסוימים, ואולי כדאי לבדוק את הגדרות הדפדפן."</string>
-    <string name="googleapp_browser_firstrun_summary_v2">"Now you can view pages faster and enjoy an improved search experience.
+    <string name="googleapp_browser_firstrun_summary_v2">"עכשיו אפשר להציג דפים מהר יותר וליהנות מחוויית חיפוש משופרת.
 
-You may need to log back in to some sites."</string>
+יכול להיות שיהיה צורך להתחבר מחדש באתרים מסוימים."</string>
     <string name="googleapp_browser_firstrun_summary_v2_part2">"
 
-Manage your new browser security and privacy settings in the app."</string>
+באפליקציה אפשר לנהל את ההגדרות החדשות של אבטחה ופרטיות בדפדפן."</string>
     <string name="googleapp_browser_firstrun_title">מעכשיו, תוכן מהאינטרנט ייפתח באפליקציה</string>
-    <string name="googleapp_browser_firstrun_title_v2">Browse without leaving the app</string>
+    <string name="googleapp_browser_firstrun_title_v2">גולשים בלי לצאת מהאפליקציה</string>
     <string name="googleapp_browser_setting_clear_cache_title"><b>תמונות וקבצים ששמורים במטמון</b>"
 יכול להיות שחלק מהאתרים ייטענו לאט יותר בפעם הבאה שתיכנסו אליהם."</string>
     <string name="googleapp_browser_setting_clear_data_title"><b>קובצי cookie ונתונים מאתרים</b>"
 הפעולה תביא ליציאה מרוב האתרים. לא תתבצע יציאה מחשבון Google שלך."</string>
     <string name="googleapp_browser_settings_browser_privacy_category_title">פרטיות בדפדפן</string>
     <string name="googleapp_browser_settings_browser_safety_category_title">בטיחות הדפדפן</string>
-    <string name="googleapp_browser_settings_browsing_history_summary">Manage your browsing history at My Activity</string>
+    <string name="googleapp_browser_settings_browsing_history_summary">"יש לך אפשרות לנהל את היסטוריית הגלישה בדף 'הפעילות שלי'"</string>
     <string name="googleapp_browser_settings_browsing_history_title">היסטוריית הגלישה</string>
     <string name="googleapp_browser_settings_clear_browsing_data_summary">הסרת קובצי cookie ונתונים הנשמרים במטמון</string>
     <string name="googleapp_browser_settings_clear_browsing_data_title">מחיקת נתוני הגלישה</string>
     <string name="googleapp_browser_settings_cleardata_button_text">ניקוי הנתונים</string>
     <string name="googleapp_browser_settings_extended_safe_browsing_summary">מידע על הדפדפן יישלח אל Google כדי לעזור בזיהוי אפליקציות ואתרים מסוכנים, כולל כתובות URL של דפים מסוימים שביקרת בהם, פרטי מערכת מוגבלים וחלק מתוכן הדפים.</string>
     <string name="googleapp_browser_settings_extended_safe_browsing_title">רוצה לעזור בשיפור אבטחת הדפדפן?</string>
-    <string name="googleapp_browser_settings_link">הגדרות הדפדפן</string>
     <string name="googleapp_browser_settings_real_time_safe_browsing_summary">יתבצע חיפוש של בעיות אבטחה חדשות בכל ביקור באתר כלשהו. כתובות ה-URL של הדפים שבהם ביקרת יישלחו אל Google.</string>
     <string name="googleapp_browser_settings_real_time_safe_browsing_title">בדיקה של אבטחת אתרים בזמן אמת</string>
     <string name="googleapp_browser_settings_safe_browsing_summary">תוצג אזהרה לפני שנכנסים לאתר עם בעיות אבטחה ידועות. כתובות URL לא בטוחות שנכנסת אליהן עשויות להישלח אל Google.</string>
@@ -3409,10 +3487,10 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_covid_vaccine_register_25_subheader">כל האנשים בגיל 25 ומעלה יכולים לקבל את החיסון</string>
     <string name="googleapp_covid_vaccine_register_header">הרשמה לקבלת חיסון קורונה עוד היום</string>
     <string name="googleapp_custom_color_description">"עיצוב צבעים מותאם אישית בווידג'ט החיפוש"</string>
-    <string name="googleapp_custom_color_hue_slider_description">Custom hue slider</string>
-    <string name="googleapp_custom_color_hue_slider_label">Hue</string>
-    <string name="googleapp_custom_color_saturation_slider_description">Custom saturation slider</string>
-    <string name="googleapp_custom_color_saturation_slider_label">Saturation</string>
+    <string name="googleapp_custom_color_hue_slider_description">פס הזזה להתאמה אישית של הגוון</string>
+    <string name="googleapp_custom_color_hue_slider_label">גוון</string>
+    <string name="googleapp_custom_color_saturation_slider_description">פס הזזה להתאמה אישית של הרוויה</string>
+    <string name="googleapp_custom_color_saturation_slider_label">רוויה</string>
     <string name="googleapp_custom_tabs_collections_menu_item_title">הצגת אוספים</string>
     <string name="googleapp_custom_tabs_copy_link_menu_item_title">העתקת הקישור</string>
     <string name="googleapp_custom_tabs_copy_link_toast_text">הקישור הועתק ללוח</string>
@@ -3424,6 +3502,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_custom_tabs_enabled_setting_unavailable_need_first_run_done">כדי להפעיל את האפשרות הזו, עליך לפתוח את Chrome ולהגדיר אותו</string>
     <string name="googleapp_custom_tabs_enabled_setting_unavailable_update_chrome">כדי להפעיל את האפשרות הזו, צריך להתקין את הגרסה האחרונה של Chrome</string>
     <string name="googleapp_custom_tabs_help_menu_item_title">עזרה</string>
+    <string name="googleapp_custom_tabs_piros_menu_item_title">הסרת תוצאות עם מידע עליך</string>
     <string name="googleapp_custom_tabs_recently_menu_item_title">אחרונים</string>
     <string name="googleapp_customize_text">התאמה אישית</string>
     <string name="googleapp_disco_channels_and_interests_tng_setting">ערוצים ותחומי עניין</string>
@@ -3535,7 +3614,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_general_settings_title">כללי</string>
     <string name="googleapp_go_to_discover_content_description">מעבר אל Discover</string>
     <string name="googleapp_goc_bottombar_close_description">הסתרת הדפים הקשורים</string>
-    <string name="googleapp_google_app_browser_instacart_button_content_description">Instacart button</string>
+    <string name="googleapp_google_app_browser_instacart_button_content_description">לחצן Instacart</string>
     <string name="googleapp_hide_explicit_results_settings_title">הסתרת תוצאות בוטות</string>
     <string name="googleapp_images_mode_landing_text">חיפוש תמונות</string>
     <string name="googleapp_incognito_app_strip_header">מהאפליקציות שלך (ייתכן שלא יהיו זמינות במצב אנונימי)</string>
@@ -3569,7 +3648,6 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_incognito_setup_device_biometrics_dialog_title">הגדרת מידע ביומטרי</string>
     <string name="googleapp_incognito_signpost_button_text">כיבוי</string>
     <string name="googleapp_incognito_signpost_icon_description">הסמל של המצב האנונימי</string>
-    <string name="googleapp_incognito_signpost_message_assistant">התכונות של Assistant לא זמינות במצב אנונימי – יש לצאת ממנו כדי לגשת ל-Assistant</string>
     <string name="googleapp_incognito_signpost_message_collections">אוספים אינם זמינים במצב אנונימי – יש לצאת ממנו כדי לגשת אליהם</string>
     <string name="googleapp_incognito_signpost_message_default">התכונה אינה זמינה במצב אנונימי – יש לצאת ממנו כדי לגשת אליה</string>
     <string name="googleapp_incognito_signpost_message_discover">פיד Discover לא זמין במצב אנונימי</string>
@@ -3592,7 +3670,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_interstitial_visibility_warning_isp">ספק האינטרנט שלך</string>
     <string name="googleapp_interstitial_visibility_warning_websites">אתרים שנכנסת אליהם</string>
     <string name="googleapp_language_setting_title">שפת החיפוש</string>
-    <string name="googleapp_language_switcher_auto_option">Auto-switch</string>
+    <string name="googleapp_language_switcher_auto_option">כל שפה</string>
     <string name="googleapp_lens_button_content_description">חיפוש באמצעות המצלמה</string>
     <string name="googleapp_lens_explainer">אפשר לצלם כל דבר כדי לחפש אותו</string>
     <string name="googleapp_lens_icon_content_description">חיפוש באמצעות המצלמה</string>
@@ -3671,7 +3749,14 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_recent_pages_enabled_setting_title">הדפים האחרונים</string>
     <string name="googleapp_region_setting_title">אזור חיפוש</string>
     <string name="googleapp_reset_style_text">איפוס לסגנון ברירת המחדל</string>
-    <string name="googleapp_save_button_text">Save</string>
+    <string name="googleapp_save_button_text">שמירה</string>
+    <string name="googleapp_save_feature_default_collection_label">דפים מועדפים</string>
+    <string name="googleapp_save_feature_error_title">אופס, משהו השתבש</string>
+    <string name="googleapp_save_feature_share_close_button_description">סגירה</string>
+    <string name="googleapp_save_feature_share_receiver_subject_and_text">"%1$s
+
+%2$s"</string>
+    <string name="googleapp_save_feature_share_save">שמירה</string>
     <string name="googleapp_search_a_song_content_description">יש להקיש כדי להתחיל בזיהוי שיר</string>
     <string name="googleapp_search_bar_radius_24dp_description">מעוגל</string>
     <string name="googleapp_search_bar_radius_2dp_description">מלבן</string>
@@ -3701,26 +3786,27 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_second_screen_manage_interests_menu_label">ניהול תחומי עניין</string>
     <string name="googleapp_second_screen_settings_menu_label">הגדרות</string>
     <string name="googleapp_see_updates">הצגת העדכונים</string>
-    <string name="googleapp_settings_about_link">מידע כללי</string>
+    <string name="googleapp_setting_error_card_icon_content_description">שגיאה</string>
+    <string name="googleapp_setting_error_card_message_explanation">לא ניתן היה לטעון את דף האינטרנט</string>
+    <string name="googleapp_setting_error_card_message_title">משהו השתבש</string>
     <string name="googleapp_settings_about_title">מידע כללי</string>
-    <string name="googleapp_settings_general_link">כללי</string>
-    <string name="googleapp_settings_language_and_region_link">שפה ואזור</string>
     <string name="googleapp_settings_language_and_region_title">שפה ואזור</string>
     <string name="googleapp_settings_legal_notices_title">הודעות משפטיות</string>
     <string name="googleapp_settings_location_terms_of_service_title">התנאים וההגבלות לגבי מיקום של משתמש</string>
+    <string name="googleapp_settings_nav_up">ניווט למעלה</string>
     <string name="googleapp_settings_open_source_licenses_title">הודעות של צדדים שלישיים</string>
     <string name="googleapp_settings_privacy_and_security_link">פרטיות ואבטחה</string>
     <string name="googleapp_settings_privacy_policy_title">מדיניות הפרטיות</string>
-    <string name="googleapp_settings_search_widget_link">"ווידג'ט חיפוש"</string>
+    <string name="googleapp_settings_search">חיפוש</string>
+    <string name="googleapp_settings_search_hint">חיפוש בהגדרות</string>
     <string name="googleapp_settings_terms_of_service_title">התנאים וההגבלות</string>
-    <string name="googleapp_settings_voice_link">קול</string>
     <string name="googleapp_settings_voice_title">קול</string>
     <string name="googleapp_shopping_mode_landing_text">חיפוש קניות</string>
     <string name="googleapp_show_waiting_text">רק עוד רגע…</string>
-    <string name="googleapp_sign_in_tout_header">Sign in to personalize Discover</string>
-    <string name="googleapp_sign_in_tout_negative_text">Cancel</string>
-    <string name="googleapp_sign_in_tout_positive_text">Sign in</string>
-    <string name="googleapp_sign_in_tout_subheader">Control what you see in the Google app by signing in</string>
+    <string name="googleapp_sign_in_tout_header">כניסה לצורך התאמה אישית של Discover</string>
+    <string name="googleapp_sign_in_tout_negative_text">ביטול</string>
+    <string name="googleapp_sign_in_tout_positive_text">כניסה</string>
+    <string name="googleapp_sign_in_tout_subheader">כניסה לחשבון מאפשרת לך לקבוע מה יוצג באפליקציית Google</string>
     <string name="googleapp_signed_out_pq_based_suggestion_message">החיזוי הזה קשור לחיפושים שבוצעו בתקופה האחרונה.</string>
     <string name="googleapp_silk_pane_close_button">סגירה</string>
     <string name="googleapp_silk_pane_dismiss_message">סגירה</string>
@@ -3728,6 +3814,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_sno_subscriptions_internal_error_header">משהו השתבש</string>
     <string name="googleapp_sno_subscriptions_offline_error_message">צריך להתחבר לרשת כדי להציג ולערוך את המינויים שלך</string>
     <string name="googleapp_sound_search_search_a_song_hint">חיפוש שיר</string>
+    <string name="googleapp_srp_query_tiger">טיגריס</string>
     <string name="googleapp_stamp_viewer_actionbutton_feedback">שליחת משוב</string>
     <string name="googleapp_stamp_viewer_actionbutton_heart">לב</string>
     <string name="googleapp_stamp_viewer_actionbutton_help_center">מרכז העזרה</string>
@@ -3742,7 +3829,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_stamp_viewer_error_title">משהו השתבש</string>
     <string name="googleapp_stamp_viewer_overflow_menu_button_content_description">אפשרויות נוספות.</string>
     <string name="googleapp_stamp_viewer_overflow_menu_close">סגירה</string>
-    <string name="googleapp_stamp_viewer_preview_button_text">המשך הכתבה המלאה</string>
+    <string name="googleapp_stamp_viewer_preview_button_text">המשך הצפייה</string>
     <string name="googleapp_stamp_viewer_preview_label">מקדימה</string>
     <string name="googleapp_stamp_viewer_publisher_cta">כניסה</string>
     <string name="googleapp_stamp_viewer_retry_button_text">ניסיון חוזר</string>
@@ -3759,7 +3846,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_tabs_manager_close_all_tabs_dialog_confirmation_button_label">סגירת כל הכרטיסיות</string>
     <string name="googleapp_tabs_manager_close_all_tabs_dialog_confirmation_message">בחרת לסגור את כל הכרטיסיות הפתוחות. להמשיך?</string>
     <string name="googleapp_tabs_manager_close_tab_button_default_description">סגירת הכרטיסייה</string>
-    <string name="googleapp_tabs_manager_close_tab_button_description">הלחצן לסגירת האתר %s</string>
+    <string name="googleapp_tabs_manager_close_tab_button_description">סגירת האתר %s</string>
     <string name="googleapp_tabs_manager_empty_state_title">אין לך כרגע כרטיסיות פתוחות</string>
     <string name="googleapp_tabs_manager_new_tab_button_description">התחלת חיפוש חדש</string>
     <string name="googleapp_tabs_manager_new_tab_button_text">כרטיסייה חדשה</string>
@@ -3777,18 +3864,19 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_voice_search_humming">מזמזמים ומחפשים שירים</string>
     <string name="googleapp_voice_search_tired_of_typing">נמאס לך להקליד? יש לך אפשרות לחפש באמצעות הקול.</string>
     <string name="googleapp_voice_search_with_voice">יש לך אפשרות לחפש באמצעות הקול.</string>
+    <string name="googleapp_voice_settings_assistant_title">Google Assistant</string>
     <string name="googleapp_voice_settings_languages_setting_check_content_description">נבחרה</string>
     <string name="googleapp_voice_settings_languages_setting_limit_reached_notice">הגעת למגבלה. לא ניתן לבחור שפות נוספות.</string>
     <string name="googleapp_voice_settings_languages_setting_no_selection_notice">לא נבחרה שפה.</string>
     <string name="googleapp_voice_settings_languages_setting_save_button_text">שמירה</string>
+    <string name="googleapp_voice_settings_languages_setting_summary_text_others">Others:</string>
+    <string name="googleapp_voice_settings_languages_setting_summary_text_primary">Primary:</string>
     <string name="googleapp_voice_settings_languages_setting_title">שפות</string>
     <string name="googleapp_voice_settings_offline_speech_recognition_setting_summary">ניהול השפות שהורדת</string>
     <string name="googleapp_voice_settings_offline_speech_recognition_setting_title">זיהוי דיבור במצב אופליין</string>
     <string name="googleapp_voice_settings_spoken_results_setting_title">תוצאות מוקראות בקול</string>
-    <string name="googleapp_voice_settings_spoken_results_value_all_voices">כל החיפושים הקוליים</string>
-    <string name="googleapp_voice_settings_spoken_results_value_hands_free_only">חיפושים בדיבורית בלבד</string>
-    <string name="googleapp_voice_settings_voice_match_setting_summary">מדברים עם Google Assistant כדי לבצע משימות</string>
-    <string name="googleapp_voice_settings_voice_match_setting_title">Voice Match</string>
+    <string name="googleapp_voice_settings_spoken_results_value_all_voices">On</string>
+    <string name="googleapp_voice_settings_spoken_results_value_hands_free_only">Off</string>
     <string name="googleapp_waa_disabled_tout_promo_description">הגדרות הפרטיות של חיפוש Google</string>
     <string name="googleapp_waa_disabled_tout_promo_header">הפיד שלך לא מבוסס על ההיסטוריה</string>
     <string name="googleapp_waa_disabled_tout_promo_subheader">"הפיד שלך ב-Discover לא מבוסס על ההיסטוריה שלך מכיוון שההגדרה 'פעילות באינטרנט ובאפליקציות' כבויה"</string>
@@ -3861,6 +3949,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="help_and_feedback">עזרה ומשוב</string>
     <string name="help_quoted_example_query">“%s”</string>
     <string name="heres_the_message">הנה ההודעה:</string>
+    <string name="hey_google_title">‏זיהוי של \"Ok Google\"</string>
     <string name="hide_account_list">הסתר חשבונות</string>
     <string name="hide_completed_episodes">הסתרה של פרקים שהושלמו</string>
     <string name="hide_debug_info">הסתרת מידע על תוצאות ניפוי באגים</string>
@@ -3901,6 +3990,8 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="hotseat_out_of_space">אין עוד מקום במגש המועדפים</string>
     <string name="hotword_disabled">הפקודה \"%1$s\" מושבתת</string>
     <string name="hotword_disabled_motorola_aov">‏תכונה אחרת משתמשת במיקרופון במקום \"%1$s\". כדי להפעיל את \"%1$s\" מחדש, צריך להשבית את Moto Voice.</string>
+    <string name="hotword_enrollment_battery_impact_disclosure_wear_os">‏בעת הפעלה של “%1$s”, יש צריכה מוגברת של סוללת השעון. אפשר להשבית את “%2$s” בהגדרות של Assistant.</string>
+    <string name="hotword_enrollment_battery_impact_disclosure_wear_os_for_unicorn">‏בעת הפעלה של “%1$s”, יש צריכה מוגברת של סוללת השעון. אפשר להשבית את “%2$s” בהגדרות Assistant של %3$s.</string>
     <string name="hotword_enrollment_button_more">עוד</string>
     <string name="hotword_enrollment_delete_voice_model">מחיקת תבנית הקול</string>
     <string name="hotword_enrollment_device_fast_update_progress_summary">‏Assistant משתמשת בקטעי קול שהקלטת בעבר כדי ליצור תבנית קול למכשיר הזה.</string>
@@ -3920,7 +4011,10 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="hotword_enrollment_enroll_text_opa_talkback">‏עליך להפעיל את לחצן %1$s שלמטה ולאחר מכן לומר \"%2$s\" כדי ללמד את Assistant לזהות את הקול שלך.</string>
     <string name="hotword_enrollment_enroll_text_opa_talkback_assistant_device">"‏כדי ללמד את Assistant לזהות את הקול שלך, צריך להקיש על הלחצן 'התחלת הקלטה' שלמטה, לחכות שתופיע הוראה להתחיל לדבר ואז לומר:
 %1$s"</string>
+    <string name="hotword_enrollment_enroll_text_opa_tisid_talkback_assistant_device">"‏במסך הבא, Assistant תלמד לזהות את הקול שלך על ידי אמירת ביטוי והאזנה לדרך שלך לומר אותו. מאזינים לביטוי ש-Assistant אומרת. אחר כך לוחצים על הלחצן 'התחלת ההקלטה' ואומרים את הביטוי בקול. כדי להתחיל, מקישים על %1$s."</string>
+    <string name="hotword_enrollment_enroll_tisid_talkback_next">הבא</string>
     <string name="hotword_enrollment_fast_update_header_title">‏המערכת מפעילה את Voice Match</string>
+    <string name="hotword_enrollment_feature_disabled">התכונה הזו הושבתה</string>
     <string name="hotword_enrollment_feature_disabled_by_admin">התכונה הזו הושבתה על ידי מנהל המערכת</string>
     <string name="hotword_enrollment_from_fdl_google_home_share_screen_done">סיום</string>
     <string name="hotword_enrollment_google_home_enrollment_intro_title_activate">‏הפעלת Voice Match במכשיר הזה</string>
@@ -3948,8 +4042,8 @@ Manage your new browser security and privacy settings in the app."</string>
 רוצה תשובות שהותאמו במיוחד בשבילך? צריך להקיש כדי להיכנס אל המכשיר: g.co/voicematch"</string>
     <string name="hotword_enrollment_google_home_share_message_subject">‏רוצה ללמד את Assistant לזהות את הקול שלך?</string>
     <string name="hotword_enrollment_google_home_share_screen_done">להזמנה</string>
-    <string name="hotword_enrollment_google_home_skip_dialog_negative_button">‏הגדרת Voice Match</string>
-    <string name="hotword_enrollment_google_home_skip_dialog_positive_button">סיום</string>
+    <string name="hotword_enrollment_google_home_skip_dialog_negative_button">הסרה</string>
+    <string name="hotword_enrollment_google_home_skip_dialog_positive_button">‏הגדרת Voice Match</string>
     <string name="hotword_enrollment_google_home_skip_dialog_title">‏החשבון של {PERSON} יוסר מהמכשיר הזה</string>
     <string name="hotword_enrollment_google_home_summary_footer_text">‏ניתן לעיין בפעילות הקולית ולמחוק אותה ב-%1$s. ניתן גם להשבית את Voice Match בהגדרות של Assistant.</string>
     <string name="hotword_enrollment_google_home_tisid_enrollment_devices">"‏
@@ -3967,7 +4061,16 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="hotword_enrollment_intro_get_started_unicorn">הבא</string>
     <string name="hotword_enrollment_intro_header_summary">‏קבלת עזרה מ-Google Assistant באמצעות הפעלה קולית</string>
     <string name="hotword_enrollment_intro_header_summary_oobe">{GENDER,select, male{%1$s יוכל לקבל עזרה באמצעות הקול בלבד (ללא שימוש בידיים).}female{%1$s תוכל לקבל עזרה באמצעות הקול בלבד (ללא שימוש בידיים).}other{ל%1$s תהיה אפשרות לקבל עזרה באמצעות הקול בלבד (ללא שימוש בידיים).}}</string>
-    <string name="hotword_enrollment_intro_header_summary_wear_os_battery_disclosure">השעון שלך יישאר במצב המתנה כדי לעזור לך באמצעות הפעלה קולית</string>
+    <string name="hotword_enrollment_intro_header_summary_wear_os">"‏אם מקישים על %1$s, Assistant תעבור למצב המתנה כדי לזהות את “%2$s” כשהשעון לא במצב שינה.
+
+להפעלת “%3$s” נדרש גם Voice Match כדי ש-Assistant תזהה אותך."</string>
+    <string name="hotword_enrollment_intro_header_summary_wear_os_for_unicorn">"{GENDER,select, male{‏אם מקישים על %1$s, Assistant של %2$s תעבור למצב המתנה כדי לזהות את “%3$s” כשהשעון שלו לא במצב שינה.
+
+להפעלת “%4$s” נדרש גם Voice Match כדי ש-Assistant של %5$s תזהה אותו.}female{‏אם מקישים על %1$s, Assistant של %2$s תעבור למצב המתנה כדי לזהות את “%3$s” כשהשעון שלה לא במצב שינה.
+
+להפעלת “%4$s” נדרש גם Voice Match כדי ש-Assistant של %5$s תזהה אותה.}other{‏אם מקישים על %1$s, Assistant של %2$s תעבור למצב המתנה כדי לזהות את “%3$s” כשהשעון לא במצב שינה.
+
+להפעלת “%4$s” נדרש גם Voice Match כדי לאפשר זיהוי של %5$s על ידי Assistant.}}"</string>
     <string name="hotword_enrollment_intro_header_title">‏גישה אל Assistant באמצעות “%1$s”</string>
     <string name="hotword_enrollment_intro_header_title_glif_non_opa">חיפוש קולי בכל עת.</string>
     <string name="hotword_enrollment_intro_header_title_oobe">‏רוצה לאפשר ל%1$s לגשת אל Google Assistant באמצעות הפקודה \"%2$s\"?</string>
@@ -3990,6 +4093,8 @@ Manage your new browser security and privacy settings in the app."</string>
 החלטת שהתכונה Voice Match לא מתאימה יותר ל%1$s? תמיד אפשר להסיר אותה בהגדרות של Assistant. כדי להציג את קטעי האודיו שהוקלטו על ידי %1$s במהלך ההגדרה של Voice Match או למחוק אותם, צריך לעבור לכתובת activity.google.com מהחשבון של %1$s. 
 
 הערה: גם קול דומה או הקלטת קול עשויים לאפשר גישה לתוצאות האישיות של %1$s ב-Assistant.}}"</string>
+    <string name="hotword_enrollment_intro_misactivation_disclaimer_wear_os">‏Assistant עשויה להתחיל לפעול כשלא התכוונת לכך – לדוגמה, כשיש רעש שנשמע כמו \"%1$s\".</string>
+    <string name="hotword_enrollment_intro_misactivation_disclaimer_wear_os_for_unicorn">‏Assistant עשויה להתחיל לפעול במקרים שבהם ל%1$s לא הייתה כוונה לכך – לדוגמה, כשיש רעש שנשמע כמו “%2$s”.</string>
     <string name="hotword_enrollment_intro_summary_glif_non_opa">‏אפשר לומר \"%1$s\" כדי לדבר עם המכשיר בכל רגע: גם אם המסך כבוי או כשאפליקציות נמצאות בשימוש.&lt;br/>&lt;br/>תבנית ייחודית של הקול שלך תיווצר במכשיר הזה והיא תעזור לחיפוש הקולי של Google לזהות אותך ולהבדיל בינך לבין אנשים אחרים.&lt;br/>&lt;br/>&lt;b>חשוב לזכור:&lt;/b> גם הקלטה או קול דומה עשויים לאפשר גישה אל החיפוש הקולי. ניתן להסיר הרשאה במועד מאוחר יותר על ידי כיבוי ההרשאה באפליקציית Google.</string>
     <string name="hotword_enrollment_intro_title_activate_hey_google">‏הפעלת Voice Match עבור %1$s</string>
     <string name="hotword_enrollment_intro_title_activate_hey_google_for_unicorn">‏הפעלת Voice Match של %1$s</string>
@@ -4083,7 +4188,6 @@ Assistant משתמשת בקטעי הקול שלך כדי ליצור תבנית �
     <string name="hotword_enrollment_voice_match_next">הבא</string>
     <string name="hotword_enrollment_voice_match_no_thanks">לא תודה</string>
     <string name="hotword_enrollment_voice_match_skip">דילוג</string>
-    <string name="hotword_enrollment_wear_os_battery_impact_disclosure">במצב המתנה יש צריכה מוגברת של סוללת השעון</string>
     <string name="hotword_enrollment_wrong_query">רוצה לנסות לומר את זה שוב?</string>
     <string name="hotword_model_download_notification_content">מתבצע עדכון של תבנית הקול כדי לזהות בצורה טובה יותר את הביטוי \"%1$s\"</string>
     <string name="hotword_model_download_notification_title">עדכון תבנית הקול של \"%1$s\"</string>
@@ -4350,11 +4454,12 @@ Assistant משתמשת בקטעי הקול שלך כדי ליצור תבנית �
     <string name="language_settings_suggested_languages_header">הצעות</string>
     <string name="language_settings_title">שפה ואזור מועדפים</string>
     <string name="language_supported_introduction">ברוך שובך. למדתי %1$s. אפשר להמשיך לדבר אליי ב%2$s או שנוכל לעבור ל%1$s.</string>
-    <string name="language_switcher_auto_option">כל שפה</string>
+    <string name="language_switcher_auto_option">מעבר אוטומטי</string>
     <string name="language_switcher_close_icon_description">סמל סגירה</string>
     <string name="language_switcher_nudge_string">יש ללחוץ על הלחצן הזה כדי לשנות שפה</string>
     <string name="language_unsupported_text">יש לשנות את השפה של Assistant</string>
     <string name="language_unsupported_tts">"I dont speak the language you selected for your car. If you'd still like me to help, you can choose another language just for our conversations. When it's safe, you can do so in the Assistant settings of your car."</string>
+    <string name="launch_driving_mode">הפעלת מצב הנהיגה</string>
     <string name="launcher_name">‏מפעיל אפליקציית Google Now</string>
     <string name="launcher_shortcut_assistant_short">Google Assistant</string>
     <string name="launcher_shortcut_text_search_short">חיפוש</string>
@@ -4510,14 +4615,13 @@ Assistant משתמשת בקטעי הקול שלך כדי ליצור תבנית �
     <string name="lens_info_panel_on_device_chip_share_translate_content_description">תמונה של שיתוף הטקסט המתורגם</string>
     <string name="lens_info_panel_on_device_chip_translate">תרגום</string>
     <string name="lens_info_panel_on_device_chip_translate_content_description">תרגום הטקסט שנבחר</string>
-    <string name="lens_info_panel_on_device_no_text_header_title">לא נמצא טקסט</string>
     <string name="lens_info_panel_on_device_results_header_limited_functionality">תכונות מסוימות אינן זמינות</string>
     <string name="lens_info_panel_on_device_results_header_offline">אופליין</string>
     <string name="lens_info_panel_on_device_text_header_title">טקסט שמופיע בתמונה</string>
     <string name="lens_info_panel_on_device_translation_header_title">טקסט מתורגם</string>
+    <string name="lens_info_panel_partial_translate_enabled_header_title">טקסט מקור</string>
     <string name="lens_info_panel_processing_message">בטעינה…</string>
     <string name="lens_info_panel_quoted_title">\"%1$s\"</string>
-    <string name="lens_info_panel_select_text_to_translate_header_title">יש לבחור טקסט לתרגום</string>
     <string name="lens_kilometers_indicator">%s ק\"מ</string>
     <string name="lens_latex_input_hint">יש להקליד משוואה מתמטית</string>
     <string name="lens_launcher_description">חיפוש באמצעות המצלמה</string>
@@ -4613,6 +4717,7 @@ Assistant משתמשת בקטעי הקול שלך כדי ליצור תבנית �
     <string name="lens_sample_images_translate_card_text_short">תרגום תמונות</string>
     <string name="lens_search_bar_hint">יש להזין את שם המסעדה</string>
     <string name="lens_search_filter_name">חיפוש</string>
+    <string name="lens_selection_state_guidance_message_on_device_translation">כדי לתרגם טקסט יש להקיש עליו</string>
     <string name="lens_share_to_lens_label">חיפוש תמונה</string>
     <string name="lens_share_translate_message">תורגם באמצעות Google Lens. רוצה לנסות?</string>
     <string name="lens_shopping_filter_guidance_message">יש לצלם תמונה של מוצרים או ברקודים</string>
@@ -4726,14 +4831,10 @@ Assistant משתמשת בקטעי הקול שלך כדי ליצור תבנית �
     <string name="local_intent_search">נראה שנעשה ניסיון למצוא מיקום במצב אופליין.</string>
     <string name="local_results_map_description">מפה של %1$s</string>
     <string name="location">מיקום</string>
-    <string name="location_added_snackbar_text">המיקום נוסף</string>
-    <string name="location_default_error">משהו השתבש. אפשר לנסות שוב מאוחר יותר.</string>
     <string name="location_feedback_button_heading">להצגת כרטיס המיקום, צריך ללחוץ על \"טופס המשוב של כרטיס המיקום\".</string>
     <string name="location_feedback_button_text">טופס המשוב של כרטיס המיקום</string>
     <string name="location_name">שם</string>
-    <string name="location_not_saved_snackbar_text">%s לא נשמר.</string>
     <string name="location_permission_toast">‏ייתכן שייעשה שימוש במיקום שלך (גם ברקע) על ידי חיפוש Google ו-Assistant, כדי להציג תוצאות ותכונות שרלוונטיות למיקום.</string>
-    <string name="location_removed_snackbar_text">המיקום הוסר</string>
     <string name="location_setting_title">מיקום</string>
     <string name="lockscreen_close_icon_description">סגירה</string>
     <string name="lockscreen_consent_action">כן, אני רוצה</string>
@@ -4764,7 +4865,6 @@ Assistant משתמשת בקטעי הקול שלך כדי ליצור תבנית �
     <string name="main_page_subtitle">‏יצירת קיצורי דרך תאפשר ל-Assistant לעזור בשימוש באפליקציות שלך לאחר אמירת \"Hey Google\"</string>
     <string name="main_page_title">קיצורי דרך</string>
     <string name="make_a_call_text">להתקשרות</string>
-    <string name="manage_accounts">נהל חשבונות</string>
     <string name="manage_activity_button_text">ניהול היסטוריה</string>
     <string name="manage_all_assistant_settings">‏ניהול של כל הגדרות Assistant</string>
     <string name="manage_apps_title">ניהול האפליקציות והשירותים</string>
@@ -4823,6 +4923,7 @@ Assistant משתמשת בקטעי הקול שלך כדי ליצור תבנית �
     <string name="mdd_notification_action_cancel">ביטול</string>
     <string name="mdd_notification_download_failed">ההורדה נכשלה</string>
     <string name="mdd_notification_download_paused">בהמתנה לחיבור רשת</string>
+    <string name="mdd_notification_download_paused_wifi">Waiting for WiFi connection</string>
     <string name="mdd_notification_download_success">הורדו</string>
     <string name="media_artist_a11y">%1$s, אומן</string>
     <string name="media_assistant_logo_a11y">יש ללחוץ כדי לדבר</string>
@@ -4887,6 +4988,10 @@ play %s”"</string>
     <string name="menu_overlay_reset_to_default_style">איפוס לסגנון בברירת המחדל</string>
     <string name="menu_refresh">רענון</string>
     <string name="menu_send_button_content_description">לחצן השליחה לשליחת משוב.</string>
+    <string name="message_alert_hear_contact">שם איש הקשר יוקרא בקול</string>
+    <string name="message_alert_hear_message">כל ההודעה תוקרא בקול</string>
+    <string name="message_alert_notification_only">התראה בלבד</string>
+    <string name="message_alert_title">בחירה של אופן ההתראה לגבי הודעות</string>
     <string name="message_announce_title">התראה על קבלת הודעה</string>
     <string name="message_card_feedback">משוב</string>
     <string name="message_center_auto_read_setting_turn_on">הפעלת הקראה אוטומטית</string>
@@ -4907,6 +5012,9 @@ play %s”"</string>
     <string name="message_sound_search_result_tts">הטראק הנוכחי הוא %s</string>
     <string name="message_sound_search_result_with_artist_tts" formatted="false">הטראק הנוכחי הוא %s של %s</string>
     <string name="message_who_initial_prompt">למי ברצונך לשלוח הודעה?</string>
+    <string name="messaging_settings_header">שיחות והודעות</string>
+    <string name="messaging_toggle_description">באמצעות העוזר הדיגיטלי, אפשר להאזין להודעות ולשלוח להן תשובות בזמן הנהיגה</string>
+    <string name="messaging_toggle_title">שמיעת הודעות ומענה עליהן בעזרת הקול</string>
     <string name="mic_button_content_description">חיפוש קולי</string>
     <string name="mic_button_description">‏לחצן להפעלת המיקרופון ב%1$s</string>
     <string name="mic_fab_content_description">‏צריך ללחוץ כדי לדבר עם Google Assistant.</string>
@@ -5034,7 +5142,7 @@ play %s”"</string>
     <string name="mtrl_picker_toggle_to_day_selection">יש להקיש כדי להחליף לבחירת יום</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">החלפה לשיטת קלט של טקסט</string>
     <string name="mtrl_picker_toggle_to_year_selection">יש להקיש כדי להחליף לבחירת שנה</string>
-    <string name="mtrl_timepicker_cancel">Cancel</string>
+    <string name="mtrl_timepicker_cancel">ביטול</string>
     <string name="mtrl_timepicker_confirm">אישור</string>
     <string name="multiple_devices_cant_find_device">המכשיר לא מופיע ברשימה</string>
     <string name="multiple_devices_found_explanation">‏ניתן להגדיר מכשיר אחד בכל פעם. יש לבחור את המכשיר שברצונך לחבר ל-Assistant.</string>
@@ -5069,7 +5177,6 @@ play %s”"</string>
     <string name="network_connection_unstable">נראה שהחיבור שלך לרשת לא יציב. צר לי, כדאי לנסות שוב.</string>
     <string name="network_error">‏לא ניתן לתקשר עם Google כרגע.</string>
     <string name="network_error_airplane_mode_tts">אין כרגע חיבור אינטרנט מפני שהמכשיר במצב טיסה.</string>
-    <string name="network_error_fetching_weather_data_status_text">הרשת לא זמינה עכשיו</string>
     <string name="network_error_no_connection_tts">אין כרגע חיבור אינטרנט.</string>
     <string name="network_error_try_again">ניסיון חוזר</string>
     <string name="never">אף פעם</string>
@@ -5573,6 +5680,8 @@ play %s”"</string>
     <string name="notification_heading">‏Assistant תקריא לך את ההתראות</string>
     <string name="notification_modal_text">התראות על פרקים חדשים</string>
     <string name="notification_okay">בסדר</string>
+    <string name="notification_permission_modal_description">‏כדי לשמוע את ההודעות ולהשתיק את השיחות, צריך לתת לאפליקציית Google גישה להתראות.</string>
+    <string name="notification_permission_modal_title">‏לתת ל-Google גישה להתראות?</string>
     <string name="notification_permissions_button">מתן גישה</string>
     <string name="notification_permissions_description">"לתת לאפליקציית Google הרשאת גישה להגדרות של ההודעות ושל 'נא לא להפריע'?"</string>
     <string name="notification_settings">הגדרות</string>
@@ -5838,12 +5947,6 @@ play %s”"</string>
     <string name="opa_consent_check_error_title">משהו השתבש</string>
     <string name="opa_consent_check_error_title_confirmreject">‏מומלץ להשתמש ב-Assistant עם ההגדרות האלה</string>
     <string name="opa_consent_check_error_title_notavailable">‏Google Assistant לא זמינה עבור חשבון זה</string>
-    <string name="opa_contextual_cards_found_message">הנה מידע מסוים הקשור למסך זה:</string>
-    <string name="opa_contextual_cards_found_proactive_message">דרך אגב, מצאתי תוצאות שקשורות למה שמופיע במסך:</string>
-    <string name="opa_contextual_cards_network_error">‏כרגע לא ניתן להתחבר ל-Google.</string>
-    <string name="opa_contextual_cards_no_cards_message">לא מצאתי במסך שום דבר שאוכל לעזור בו. כדאי לנסות להקיש על המיקרופון ולשאול אותי משהו.</string>
-    <string name="opa_contextual_cards_nothing_found_card_text">לא נמצא תוכן במסך</string>
-    <string name="opa_contextual_cards_offline_indicator">הטלפון שלך אופליין ולכן לא ניתן לעזור לך כרגע.</string>
     <string name="opa_contextual_cards_share_screenshot_error">נראה שמשהו השתבש. כדאי לנסות שוב.</string>
     <string name="opa_continued_conversation_optin_screen_allow_button_text">כן, מתאים לי</string>
     <string name="opa_continued_conversation_optin_screen_disallow_button_text">לא, תודה</string>
@@ -6071,10 +6174,6 @@ Assistant יכולה להציג את התוצאות האישיות במסך הב
     <string name="opa_pre_upgrade_notifs_disabled_toast_text">עדכנו את ההגדרות והשבתנו את ההתראות האלה</string>
     <string name="opa_privacy_policy_chip_text">מדיניות פרטיות</string>
     <string name="opa_proactive_notification_subtext">Assistant</string>
-    <string name="opa_screen_read_it">הקראה</string>
-    <string name="opa_screen_read_this_page">קריאת הדף הזה</string>
-    <string name="opa_screen_search_more_screen_context_action">תוצאות נוספות מהמסך שלי</string>
-    <string name="opa_screen_search_screen_context_action">מה יש במסך שלי?</string>
     <string name="opa_screen_search_share_screenshot_action">שיתוף צילום מסך</string>
     <string name="opa_screenless_nav_opt_in_notification_body">‏אפשר להשתמש בקול בעת ניווט כדי לדבר עם Google Assistant</string>
     <string name="opa_screenless_nav_opt_in_notification_title">‏שימוש ב-Google Assistant בשעת ניווט</string>
@@ -6246,6 +6345,7 @@ Assistant יכולה להציג את התוצאות האישיות במסך הב
     <string name="payments_auth_too_many_fingerprint_retries_should_use_password">ניסית יותר מדי פעמים. יש להזין סיסמה.</string>
     <string name="payments_auth_use_biometric_checkbox_hint">יש להשתמש במכשיר הזה כדי לאשר תשלומים עתידיים באמצעות טביעת האצבע, הפנים או בשיטה דומה.</string>
     <string name="payments_auth_use_fingerprint_checkbox_hint">שימוש בטביעות אצבע לאישורים עתידיים</string>
+    <string name="pending_fragment_error_toast">משהו השתבש. כדאי לנסות שוב מאוחר יותר</string>
     <string name="peoplekit_about_suggested_people_hide_info">אפשר להסתיר הצעות שלא רוצים לראות.</string>
     <string name="peoplekit_about_suggested_people_info">Google מציעה אנשים על סמך האינטראקציות שלך.</string>
     <string name="peoplekit_about_top_suggestions">מידע על הצעות לאנשים</string>
@@ -6445,6 +6545,7 @@ Assistant יכולה להציג את התוצאות האישיות במסך הב
     <string name="phone_pr_title">הטלפון שלך</string>
     <string name="phone_voice_match_settings_delete_voice_model_summary">‏הסרת התבנית של Voice Match מהמכשיר הזה. הפעולה הזו גם תשבית את מילות ההפעלה \"%1$s\".</string>
     <string name="phone_voice_match_settings_delete_voice_model_title">‏מחיקת התבנית של Voice Match</string>
+    <string name="phone_voice_match_settings_not_supported_error">‏אין תמיכה ב-Ok Google במכשיר הזה.</string>
     <string name="phone_voice_match_settings_retrain_summary">‏אימון Assistant לזיהוי הקול שלך מחדש</string>
     <string name="phone_voice_match_settings_retrain_title">‏שמירת התבנית של Voice Match</string>
     <string name="photo_downloading_error_toast_text">שגיאה בהורדת תמונות</string>
@@ -6840,13 +6941,13 @@ Assistant יכולה להציג את התוצאות האישיות במסך הב
     <string name="punt_for_personal_results">כדי שאוכל לעזור לך בכך, עליך להתיר תוצאות אישיות במכונית הזו. כשיהיה בטוח לעשות זאת, ניתן להגדיר זאת בהגדרות Assistant.</string>
     <string name="punt_for_signed_out">לשם כך, צריך להיכנס לחשבון Google. כשיהיה בטוח לעשות זאת, יש לבדוק את ההתראה במכונית כדי לעבור לשלב הבא.</string>
     <string name="punt_home_alias_unset">נראה שאין לי את כתובת המגורים שלך. ניתן לקבל מסלול הביתה לפי הכתובת.</string>
-    <string name="punt_max_volume">מצטערים. בשלב זה, אין במכשיר הזה תמיכה בהגברה של עוצמת הקול למקסימום או ל-100%.</string>
     <string name="punt_missing_call_permission">‏נראה שהאפשרות להתקשר לא מופעלת. כשיהיה בטוח לעשות זאת, יש לחפש את הגדרות ה-Bluetooth בטלפון ולבחור במכונית שלך כדי להפעיל את האפשרות.</string>
     <string name="punt_missing_message_permission">‏נראה שהאפשרות לשליחת הודעות טקסט לא מופעלת. כשיהיה בטוח לעשות זאת, יש לחפש את הגדרות ה-Bluetooth בטלפון ולבחור במכונית שלך כדי להפעיל את האפשרות.</string>
     <string name="punt_non_percentage_volume_control">ברכב, ההגדרה של עוצמת הקול נקבעת לפי אחוזים, אז צריך לומר משהו כמו \"Set the volume to 25%\".</string>
     <string name="punt_offline_music">נראה שאין חיבור, אז אי אפשר להפעיל זאת בשבילך.</string>
     <string name="punt_open_app">לצערנו, האפליקציה הזו לא מותקנת או שהיא לא זמינה כרגע.</string>
     <string name="punt_open_unsafe_for_drving_app">מצטערים, האפליקציה הזו לא בטוחה לשימוש בזמן נהיגה.</string>
+    <string name="punt_set_volume_beyond_threshold">מטעמי בטיחות, אין לי אפשרות להגדיר עוצמת קול כל כך גבוהה ברכב. אפשר לבקש ממני להגביר את העוצמה עד %1$d%%</string>
     <string name="punt_work_alias_unset">נראה שאין לי את הכתובת שלך בעבודה. ניתן לקבל מסלול לעבודה לפי הכתובת.</string>
     <string name="qp_bottom_baseball_inning">תחתית אינינג %1$d</string>
     <string name="qp_precip">משקעים %1$s</string>
@@ -6858,7 +6959,6 @@ Assistant יכולה להציג את התוצאות האישיות במסך הב
     <string name="qp_weather_unit_abbrev_celsius">"צ'"</string>
     <string name="qp_weather_unit_abbrev_fahrenheit">"פ'"</string>
     <string name="qp_wind_speed">רוח %1$d%2$s</string>
-    <string name="qpf_label">תחזית משקעים כמותית: %s</string>
     <string name="qsb_promocard_icon_description">Google</string>
     <string name="qsb_promocard_negative_button_text">לא תודה</string>
     <string name="qsb_promocard_positive_button_text">הוספה</string>
@@ -6901,7 +7001,6 @@ Assistant יכולה להציג את התוצאות האישיות במסך הב
     <string name="rating_very_dissatisfied">לא מרוצה במידה רבה</string>
     <string name="rating_very_satisfied">מרוצה במידה רבה</string>
     <string name="rating_views_content_description">%1$d מתוך 5</string>
-    <string name="reached_max_locations_removal_dialog_title">ניתן לשמור עד שמונה מיקומים. כדי לשמור מיקום חדש עליך להסיר מיקום אחר.</string>
     <string name="reaction_ads_show_more">עוד <b>מודעות</b> כאלה בדרך אליך</string>
     <string name="reaction_modal_close_action">סגירה</string>
     <string name="reaction_show_more">עוד כאלה בדרך אליך</string>
@@ -7035,7 +7134,6 @@ Assistant יכולה להציג את התוצאות האישיות במסך הב
     <string name="remove_all_devices_button_text">‏הסרת Face Match מכל המכשירים</string>
     <string name="remove_all_played">הסרת פרקים שהופעלו</string>
     <string name="remove_all_week_old">הסרת פרקים לאחר יותר מ-%1$d ימים</string>
-    <string name="remove_button_text">הסרה</string>
     <string name="remove_completed_episodes">הסרה של פרקים שהושלמו</string>
     <string name="remove_download">הסרת ההורדה</string>
     <string name="remove_from_history_failed">לא ניתן להסיר את הפריט מההיסטוריה.</string>
@@ -7052,6 +7150,7 @@ Assistant יכולה להציג את התוצאות האישיות במסך הב
     <string name="repeat_notification">בסדר, אקריא אותה שוב. תוכן ההודעה:</string>
     <string name="replay_count_down">ההפעלה מחדש תתבצע בעוד &lt;b>%1$d&lt;/b>…</string>
     <string name="reply">מענה</string>
+    <string name="reply_button_string">תשובה</string>
     <string name="reply_button_text">מענה</string>
     <string name="reply_message_notice">שליחת ההודעה מתבצעת</string>
     <string name="report_other_option">אחר</string>
@@ -7143,7 +7242,7 @@ Assistant יכולה להציג את התוצאות האישיות במסך הב
     <string name="sceneviewer_get_help">Get help</string>
     <string name="sceneviewer_get_help_button_content_description">Get Help</string>
     <string name="sceneviewer_immersive_edge_fallback_dialog_confirm_button">Go</string>
-    <string name="sceneviewer_immersive_edge_fallback_dialog_message">No connection. You will be redirected to &lt;b> %1$s &lt;/b></string>
+    <string name="sceneviewer_immersive_edge_fallback_dialog_message">No connections available. Redirecting you to &lt;b>%1$s&lt;/b>. Please try again in a few minutes.</string>
     <string name="sceneviewer_immersive_edge_fallback_dialog_title">Connection lost</string>
     <string name="sceneviewer_immersive_edge_redirect_dialog_cancel_button">Cancel</string>
     <string name="sceneviewer_immersive_edge_redirect_dialog_confirm_button">OK</string>
@@ -7173,7 +7272,6 @@ Assistant יכולה להציג את התוצאות האישיות במסך הב
     <string name="search_apps_web_and_more">חיפוש אפליקציות, חיפוש באינטרנט ועוד…</string>
     <string name="search_box_content_description">יש להקליד מונח חיפוש…</string>
     <string name="search_box_hint">חיפוש…</string>
-    <string name="search_box_hint_for_places_and_web">חיפוש מקומות</string>
     <string name="search_bubble_notification_description">‏כדי להמשיך להציג את הבועה של חיפוש Google.</string>
     <string name="search_bubble_notification_header">‏הבועה של חיפוש Google</string>
     <string name="search_bubble_optin_prompt_cancel_text">הסרה</string>
@@ -7205,7 +7303,6 @@ Assistant יכולה להציג את התוצאות האישיות במסך הב
     <string name="search_maps">חיפוש במפות</string>
     <string name="search_menu_title">חיפוש</string>
     <string name="search_notifications">התראות</string>
-    <string name="search_plate_accessibility_voice_search_button">חיפוש</string>
     <string name="search_region_default">האזור הנוכחי (ברירת מחדל)</string>
     <string name="search_region_setting_summary">האזור הנוכחי</string>
     <string name="search_restriction">אין לך הרשאה להשתמש בחיפוש Google</string>
@@ -7254,6 +7351,7 @@ Assistant יכולה להציג את התוצאות האישיות במסך הב
     <string name="select_address_title">בחירת כתובת למשלוח</string>
     <string name="select_all_episodes">בחירת הכול</string>
     <string name="select_assistant_language">‏יש לבחור את השפה של Assistant.</string>
+    <string name="select_day">בחירת חודש ויום</string>
     <string name="select_feedback_category">בחירת קטגוריה למשוב</string>
     <string name="select_google_account">‏חשבון Google</string>
     <string name="select_google_account_add_account">הוספת חשבון</string>
@@ -7265,6 +7363,7 @@ Assistant יכולה להציג את התוצאות האישיות במסך הב
     <string name="select_instrument_message">‏בעזרת Google Pay, פרטי התשלום שלך נשמרים בבטחה, כך שניתן לשלם באמצעות Assistant בכל זמן ובכל מקום</string>
     <string name="select_instrument_title">בחירת אמצעי תשלום</string>
     <string name="select_wifi_network_button_text">‏בחירת רשת Wi-Fi</string>
+    <string name="select_year">בחירת שנה</string>
     <string name="selectable_search_widget_initializing">מתבצע אתחול…</string>
     <string name="selected_account">נכנס אל %1$s</string>
     <string name="selected_interest">התווסף לתחומי העניין שלך</string>
@@ -7290,7 +7389,6 @@ Assistant יכולה להציג את התוצאות האישיות במסך הב
     <string name="sending_audio_to_account_toast">האודיו נשלח עכשיו אל %1$s…</string>
     <string name="sensitive_or_disparaging_for_individuals">תוכן רגיש או זלזול באנשים פרטיים</string>
     <string name="server_error">‏לא ניתן לתקשר עם Google כרגע.</string>
-    <string name="server_error_fetching_weather_data_status_text">משהו השתבש. כדאי לנסות שוב מאוחר יותר.</string>
     <string name="set_alarm">הגדרת התראה</string>
     <string name="set_duration">הגדרת משך זמן</string>
     <string name="set_reminder_saved">התזכורת נשמרה</string>
@@ -7374,11 +7472,6 @@ Assistant יכולה להציג את התוצאות האישיות במסך הב
 רשימות הקניות יישמרו על ידי Assistant (בניהול של Google שופינג)."</string>
     <string name="shopping_list_category_title_v2">שירותי שופינג</string>
     <string name="shopping_mode_landing_text">חיפוש קניות</string>
-    <string name="short_google_play_services_enable_required">‏יש להפעיל את שירותי Google Play</string>
-    <string name="short_google_play_services_install_required">‏יש להתקין את שירותי Google Play</string>
-    <string name="short_google_play_services_missing_permission">‏לשירות Google Play חסרה הרשאה נדרשת אחת או יותר.</string>
-    <string name="short_google_play_services_unsupported">‏שירותי Google Play לא נתמכים במכשיר שלך</string>
-    <string name="short_google_play_services_update_required">‏יש לעדכן את שירותי Google Play</string>
     <string name="shortcut_not_available">קיצור הדרך אינו זמין</string>
     <string name="shortcut_phrase_label">כשאומרים:</string>
     <string name="shortcuts_link_description">כאן אפשר לראות פעולות שניתן לבצע באפליקציות שהתקנת באמצעות קיצורי דרך</string>
@@ -7407,7 +7500,6 @@ Assistant יכולה להציג את התוצאות האישיות במסך הב
     <string name="show_proactively_on_displays">הצגה באופן יזום במסכים</string>
     <string name="show_results">הצגת תוצאות</string>
     <string name="sidekick_network_error">שגיאת רשת. כדאי לבדוק את חיבורי הרשת ולנסות שוב.</string>
-    <string name="sign_in">היכנס</string>
     <string name="sign_in_accept">כניסה</string>
     <string name="sign_in_error_description">נראה שאירעה שגיאה בכניסה לחשבון</string>
     <string name="sign_in_message">יש להיכנס לחשבון כדי לגשת לפודקאסטים ולהיסטוריית ההאזנה ממכשירים אחרים</string>
@@ -7492,6 +7584,7 @@ Assistant יכולה להציג את התוצאות האישיות במסך הב
     <string name="snowman_content">אפשר להסתיר כתבות או נושאים שלא מעניינים אותך</string>
     <string name="soccer_shootout">בעיטות עונשין</string>
     <string name="solid">אטום</string>
+    <string name="someone_else_text">מישהו אחר</string>
     <string name="sorry_string">מה אמרת?</string>
     <string name="sort_description">במיון לפי: %1$s</string>
     <string name="sound_search_hint">מה השיר הזה?</string>
@@ -7521,6 +7614,7 @@ Assistant יכולה להציג את התוצאות האישיות במסך הב
     <string name="speech_output_keywords">פלט דיבור, דיבורית, הפעלה קולית, ללא מגע יד</string>
     <string name="speech_output_subtitle">‏ניתן לבחור עד כמה מדוברת תהיה השפה של Assistant</string>
     <string name="speech_output_title">פלט בדיבור</string>
+    <string name="speedbump_prompt_text">אפשר להקיש על המיקרופון כדי להתחיל</string>
     <string name="spinner_request_completed">הפיד מעודכן</string>
     <string name="spinner_request_failed">לא ניתן לעדכן את הפיד</string>
     <string name="spinner_requesting_new_content">הפיד מתעדכן</string>
@@ -7826,9 +7920,6 @@ Assistant יכולה להציג את התוצאות האישיות במסך הב
     <string name="switch_on">פועל</string>
     <string name="switcher_description">בורר השפות של החיפוש הקולי</string>
     <string name="switcher_language_description">השפה הנוכחית היא %1$s</string>
-    <string name="tab_title_10_days">10 ימים</string>
-    <string name="tab_title_today">היום</string>
-    <string name="tab_title_tomorrow">מחר</string>
     <string name="tactile_add_action_button_title">הוספת פעולה</string>
     <string name="tactile_all_results_title">כל התוצאות</string>
     <string name="tactile_answers_on_the_go_suggestion_2">סרטים שמגיעים השבוע לקולנוע</string>
@@ -8031,6 +8122,7 @@ Assistant יכולה להציג את התוצאות האישיות במסך הב
     <string name="transparency_seek_bar_description">הצללה של הסרגל</string>
     <string name="transparent">שקוף</string>
     <string name="trends_suggestion_message">החיפוש הזה פופולרי באזור שלך.</string>
+    <string name="triggering_settings_header">הפעלת מצב הנהיגה</string>
     <string name="trim_silence">חיתוך קטעי שתיקה</string>
     <string name="trim_silence_disable">השבתה של חיתוך קטעי שתיקה</string>
     <string name="trim_silence_enable">הפעלה של חיתוך קטעי שתיקה</string>
@@ -8179,41 +8271,35 @@ Assistant יכולה להציג את התוצאות האישיות במסך הב
     <string name="twslang_zh_CN">‏סינית (פשוטה)</string>
     <string name="twslang_zh_TW">סינית (מסורתית)</string>
     <string name="twslang_zu">זולו</string>
-    <string name="unable_to_save_location_snackbar_text">לא ניתן לשמור את המיקום. כדאי לנסות שוב מאוחר יותר.</string>
-    <string name="unable_to_show_locations_text">לא ניתן להציג מיקומים</string>
-    <string name="unable_to_show_weather_for_location_error">לא ניתן להציג מידע על מזג האוויר במיקום הזה.</string>
-    <string name="unable_to_show_weather_for_specific_location_error">לא ניתן להציג מידע על מזג האוויר ב-%s.</string>
     <string name="unblock_show_from_recommendations">ביטול חסימת התוכנית בהמלצות</string>
     <string name="undo">ביטול</string>
     <string name="undo_action">ביטול</string>
     <string name="undo_dismiss_message_default">סיום</string>
-    <string name="undo_snackbar_action">ביטול</string>
     <string name="undo_string">ביטול</string>
     <string name="unicorn_consent_screen_message">‏Assistant משתמשת ב-Face Match כדי להבדיל בין %1$s לבין אחרים. כשמישהו ניגש אל Nest Hub Max, באמצעות הפנים אנחנו מתאימים אישית את החוויה שלו.</string>
     <string name="unicorn_consent_screen_title">‏מתן הרשאה ל-Assistant לזהות את הפנים של %1$s</string>
     <string name="unicorn_hand_off_screen_message">{GENDER,select, male{כדי ליצור דגם של הפנים שלו, יש להעביר את המכשיר אל {PERSON} ולהישאר בסביבה כדי לעזור בשלבים הבאים.}female{כדי ליצור דגם של הפנים שלה, יש להעביר את המכשיר אל {PERSON} ולהישאר בסביבה כדי לעזור בשלבים הבאים.}other{כדי ליצור דגם של הפנים, יש להעביר את המכשיר אל {PERSON} ולהישאר בסביבה כדי לעזור בשלבים הבאים.}}</string>
     <string name="unicorn_hand_off_screen_title">‏מתן הרשאה ל-Assistant לזהות את הפנים של %1$s</string>
-    <string name="unicorn_handoff_img_content_desc">יד מעל המכשיר</string>
     <string name="unicorn_hotword_enrollment_google_home_oobe_skip_dialog_message">‏אם מדלגים על השלב הזה, Google Home לא יכול להבדיל בין {PERSON} לאנשים אחרים בבית.</string>
-    <string name="unicorn_hotword_enrollment_google_home_skip_dialog_message">"{GENDER,select, male{‏בלי Voice Match, ינותק הקישור של חשבון Google של {PERSON} מהמכשיר הזה והחוויה שלו לא תהיה מותאמת אישית. 
+    <string name="unicorn_hotword_enrollment_google_home_skip_dialog_message">"{GENDER,select, male{‏בלי Voice Match, ינותק הקישור של חשבון Google של {PERSON} למכשיר הזה, אמצעי בקרת ההורים שהוגדרו לו יבוטלו והחוויה שלו לא תהיה מותאמת אישית. 
 
 בכל שלב אפשר להפעיל את Voice Match במכשיר הזה באמצעות Family Link או דרך ההגדרות באפליקציית Google Home או באפליקציית Google Assistant של {PERSON}. 
 
-אחרי ש-Assistant תלמד לזהות את הקול של {PERSON}, הוא יקבל חוויה מותאמת אישית יותר ו-Google תוכל לאכוף הגבלות תוכן מסוימות. הוא יוכל לראות במכשירים ביתיים פרטים שונים, כמו היומן ואנשי הקשר שלו. 
+Assistant לא תוכל יותר לזהות את {PERSON}, לכן היא תתייחס אליו כמו לאורחים או לכל אדם אחר ש-Assistant לא מזהה. כתוצאה מכך, Assistant גם לא תוכל להשתמש באמצעי בקרת ההורים, אם הם הוגדרו עבור {PERSON}. 
 
-כדי להוסיף שוב את {PERSON} למכשירים הביתיים, עליך ללמד את Google לזהות את הקול של {PERSON}.}female{‏בלי Voice Match, ינותק הקישור של חשבון Google של {PERSON} מהמכשיר הזה והחוויה שלה לא תהיה מותאמת אישית. 
-
-בכל שלב אפשר להפעיל את Voice Match במכשיר הזה באמצעות Family Link או דרך ההגדרות באפליקציית Google Home או באפליקציית Google Assistant של {PERSON}. 
-
-אחרי ש-Assistant תלמד לזהות את הקול של {PERSON}, היא תקבל חוויה מותאמת אישית יותר ו-Google תוכל לאכוף הגבלות תוכן מסוימות. היא תוכל לראות במכשירים ביתיים פרטים שונים, כמו היומן ואנשי הקשר שלה. 
-
-כדי להוסיף שוב את {PERSON} למכשירים הביתיים, עליך ללמד את Google לזהות את הקול של {PERSON}.}other{‏בלי Voice Match, ינותק הקישור של חשבון Google של {PERSON} מהמכשיר הזה והחוויה לא תהיה מותאמת אישית. 
+כדי להוסיף שוב את {PERSON} למכשירים הביתיים, צריך ללמד את Google לזהות את הקול של {PERSON}.}female{‏בלי Voice Match, ינותק הקישור של חשבון Google של {PERSON} למכשיר הזה, אמצעי בקרת ההורים שהוגדרו לה יבוטלו והחוויה שלה לא תהיה מותאמת אישית. 
 
 בכל שלב אפשר להפעיל את Voice Match במכשיר הזה באמצעות Family Link או דרך ההגדרות באפליקציית Google Home או באפליקציית Google Assistant של {PERSON}. 
 
-אחרי ש-Assistant תלמד לזהות את הקול של {PERSON}, תתקבל חוויה מותאמת אישית יותר ו-Google תוכל לאכוף הגבלות תוכן מסוימות. ניתן יהיה לראות במכשירים ביתיים פרטים שונים, כמו היומן ואנשי הקשר. 
+Assistant לא תוכל יותר לזהות את {PERSON}, לכן היא תתייחס אליה כמו לאורחים או לכל אדם אחר ש-Assistant לא מזהה. כתוצאה מכך, Assistant גם לא תוכל להשתמש באמצעי בקרת ההורים, אם הם הוגדרו עבור {PERSON}. 
 
-כדי להוסיף שוב את {PERSON} למכשירים הביתיים, עליך ללמד את Google לזהות את הקול של {PERSON}.}}"</string>
+כדי להוסיף שוב את {PERSON} למכשירים הביתיים, צריך ללמד את Google לזהות את הקול של {PERSON}.}other{‏בלי Voice Match, ינותק הקישור של חשבון Google של {PERSON} למכשיר הזה, אמצעי בקרת ההורים שהוגדרו לחשבון יבוטלו והחוויה לא תהיה מותאמת אישית. 
+
+בכל שלב אפשר להפעיל את Voice Match במכשיר הזה באמצעות Family Link או דרך ההגדרות באפליקציית Google Home או באפליקציית Google Assistant של {PERSON}. 
+
+Assistant לא תוכל יותר לזהות את {PERSON}, לכן היא תגיב כמו שהיא מגיבה לאורחים או לכל אדם אחר ש-Assistant לא מזהה. כתוצאה מכך, Assistant גם לא תוכל להשתמש באמצעי בקרת ההורים, אם הם הוגדרו עבור {PERSON}. 
+
+כדי להוסיף שוב את {PERSON} למכשירים הביתיים, צריך ללמד את Google לזהות את הקול של {PERSON}.}}"</string>
     <string name="unified_ime_recognition_locale_toast">נעשה שימוש ב-%1$s לזיהוי</string>
     <string name="uninstall">הסרה (%1$s)</string>
     <string name="uninstall_or_update">הסרה או עדכון (%1$s)</string>
@@ -8440,12 +8526,8 @@ Voice Match"</string>
     <string name="warning_unsupported_music_provider_dialog_negative_button_text">לא</string>
     <string name="warning_unsupported_music_provider_dialog_positive_button_text">כן</string>
     <string name="warning_unsupported_music_provider_dialog_title">להמשיך עם שירות מוזיקה שלא נתמך?</string>
-    <string name="weather_accessibility_search_plate_back_button">חזרה</string>
-    <string name="weather_accessibility_search_plate_menu_button">תפריט</string>
-    <string name="weather_add_to_home_screen">הוספה למסך דף הבית</string>
     <string name="weather_add_to_homescreen">הוספה למסך הראשי</string>
     <string name="weather_button_ok">אישור</string>
-    <string name="weather_cancel_button_text">ביטול</string>
     <string name="weather_celsius">צלזיוס</string>
     <string name="weather_current_location">המיקום הנוכחי</string>
     <string name="weather_error_background_content_description">שגיאה</string>
@@ -8459,7 +8541,6 @@ Voice Match"</string>
     <string name="weather_search_query">מזג האוויר</string>
     <string name="weather_search_text">מזג אוויר</string>
     <string name="weather_send_feedback">שליחת משוב</string>
-    <string name="weather_shortcut_icon_label">מזג אוויר</string>
     <string name="weather_temperature_units">יחידות טמפרטורה</string>
     <string name="weather_title">%1$s ב-%2$s</string>
     <string name="weather_today_tab_name">היום</string>
@@ -8518,8 +8599,6 @@ Voice Match"</string>
     <string name="widget_resized">"גודל הווידג'ט שונה - רוחב %1$s גובה %2$s"</string>
     <string name="wifi_off">‏Wi-Fi כבוי</string>
     <string name="wifi_on">‏Wi-Fi פועל</string>
-    <string name="wind_current_time_and_direction_template_with_bullet_separator" formatted="false">%s • %s</string>
-    <string name="wind_speed_with_unit" formatted="false">%d %s</string>
     <string name="wired_headset_icon_description">אוזניות חוטיות</string>
     <string name="wired_headset_off_label">האוזניות החוטיות כבויות</string>
     <string name="wired_headset_on_label">האוזניות החוטיות פועלות</string>
@@ -8533,6 +8612,7 @@ Voice Match"</string>
     <string name="workspace_scroll_format">‏מסך הבית %1$d מתוך %2$d</string>
     <string name="wrong_account_selected_error_message">‏Google Assistant משתמשת בחשבון שונה מזה שמשויך למכשיר שלך. עליך להתחבר אל Google Assistant באמצעות החשבון %1$s.</string>
     <string name="wrong_account_selected_error_title">חוסר התאמה בין החשבונות</string>
+    <string name="year_picker_description">רשימת שנים</string>
     <string name="yes_button_text">כן, אני רוצה</string>
     <string name="yesterday">אתמול</string>
     <string name="yesterday_at_time">אתמול ב-%1$s</string>
@@ -8544,7 +8624,6 @@ Voice Match"</string>
     <string name="your_information_link_subtitle">‏התאמה אישית של Assistant</string>
     <string name="your_information_page_subtitle">‏אפשר לקבוע איזה מידע ישמש להתאמה אישית של Google Assistant</string>
     <string name="your_information_title">הפרטים שלך</string>
-    <string name="your_location_search_menu_text">המיקום שלך</string>
     <string name="your_news_update_load_error">משהו השתבש במהלך הטעינה של עדכוני החדשות שלך.</string>
     <string name="your_news_update_title">עדכון החדשות שלך</string>
     <string name="your_salsas_section_header">הביטויים המהירים שלך</string>

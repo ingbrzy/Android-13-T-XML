@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="custom_cards_view_description_items_left">
-        <item quantity="other">%1$d itens restantes</item>
-        <item quantity="one">%1$d item restante</item>
-    </plurals>
     <plurals name="dlg_message_deletion_confirmation">
         <item quantity="other">Suas gravações serão excluídas permanentemente. Não é possível desfazer essa ação.</item>
         <item quantity="one">Sua gravação será excluída permanentemente. Não é possível desfazer essa ação.</item>
@@ -20,25 +16,33 @@
         <item quantity="other">Excluir estas gravações permanentemente?</item>
         <item quantity="one">Excluir esta gravação permanentemente?</item>
     </plurals>
-    <plurals name="download_unsuccessful_description_storage_full">
-        <item quantity="other">Não é possível fazer o download das gravações porque o armazenamento do dispositivo está cheio. Toque para revisar.</item>
-        <item quantity="one">Não é possível fazer o download da gravação porque o armazenamento do dispositivo está cheio. Toque para revisar.</item>
-    </plurals>
-    <plurals name="downloaded_description">
-        <item quantity="other">%1$d gravações transferidas por download</item>
-        <item quantity="one">%1$d gravação transferida por download</item>
+    <plurals name="download_failure_description_storage_full">
+        <item quantity="other">Não é possível fazer o download das gravações porque o armazenamento do dispositivo está cheio. Toque para analisar.</item>
+        <item quantity="one">Não é possível fazer o download da gravação porque o armazenamento do dispositivo está cheio. Toque para analisar.</item>
     </plurals>
     <plurals name="downloading_description">
         <item quantity="other">Fazendo o download de %1$d gravações</item>
         <item quantity="one">Fazendo o download de %1$d gravação</item>
+    </plurals>
+    <plurals name="og_backup_failed_title">
+        <item quantity="other">Não foi possível fazer o backup de %1$d itens</item>
+        <item quantity="one">Não foi possível fazer o backup de %1$d item</item>
+    </plurals>
+    <plurals name="og_backup_items_left">
+        <item quantity="other">%1$d itens restantes</item>
+        <item quantity="one">%1$d item restante</item>
+    </plurals>
+    <plurals name="og_backup_items_stopped_title">
+        <item quantity="other">%1$d itens não foram salvos em backup</item>
+        <item quantity="one">%1$d item não foi salvo em backup</item>
     </plurals>
     <plurals name="search_results_count">
         <item quantity="other">%1$d resultados</item>
         <item quantity="one">%1$d resultado</item>
     </plurals>
     <plurals name="search_results_position">
-        <item quantity="other">%1$d/%2$d resultados</item>
-        <item quantity="one">%1$d/%2$d resultado</item>
+        <item quantity="other">^1/^2 resultados</item>
+        <item quantity="one">^1/^2 resultado</item>
     </plurals>
     <plurals name="search_results_position_content_description">
         <item quantity="other">%1$d de %2$d resultados</item>
@@ -51,10 +55,6 @@
     <plurals name="snackbar_message_download_failed_storage_full">
         <item quantity="other">O armazenamento do dispositivo está cheio. Não é possível fazer o download das gravações.</item>
         <item quantity="one">O armazenamento do dispositivo está cheio. Não é possível fazer o download da gravação.</item>
-    </plurals>
-    <plurals name="uploaded_description">
-        <item quantity="other">Upload de %1$d gravações concluído</item>
-        <item quantity="one">Upload de %1$d gravação concluído</item>
     </plurals>
     <plurals name="uploading_description">
         <item quantity="other">Fazendo upload de %1$d gravações</item>

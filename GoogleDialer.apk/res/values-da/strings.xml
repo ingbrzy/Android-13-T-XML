@@ -63,7 +63,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript">^1, ^2, ^3.</string>
     <string name="a11y_new_call_log_entry_phone_account">på ^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">foretag et RTT-opkald til ^1</string>
-    <string name="a11y_new_call_log_entry_tap_action">udvid menu</string>
+    <string name="a11y_new_call_log_entry_tap_action">udvid eller skjul menu</string>
     <string name="a11y_new_call_log_entry_video_call">foretag et videoopkald til ^1</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">foretag et videoopkald til ^1 via Wi-Fi</string>
     <string name="a11y_new_call_log_entry_voice_call">ring til ^1</string>
@@ -191,6 +191,7 @@ Optagelser gemmes kun på din telefon. ^1"</string>
     <string name="atlas_soda_banner_feature_text">Hold for Me</string>
     <string name="atlas_temp_service_notification_title">Hold for Me-opkaldet initialiseres</string>
     <string name="atlas_warning_text_for_second_incoming_call">Hold for Me afsluttes, hvis du besvarer dette opkald</string>
+    <string name="audio_route_item_checked_description">Markeret</string>
     <string name="audioroute_bluetooth">Bluetooth</string>
     <string name="audioroute_headset">Headset med ledning</string>
     <string name="audioroute_phone">Telefon</string>
@@ -235,6 +236,7 @@ Optagelser gemmes kun på din telefon. ^1"</string>
     <string name="bm_suggest_wait_time_estimating">"Chat
 Arbejder…"</string>
     <string name="bottomsheet_action_expand_halfway">Udvid halvdelen</string>
+    <string name="bottomsheet_drag_handle_content_description">Håndtag</string>
     <string name="bubble_bottom_action_end_call">Læg på</string>
     <string name="bubble_bottom_action_hide">Skjul</string>
     <string name="bubble_return_to_call">Tilbage til opkald</string>
@@ -582,10 +584,8 @@ Send hjælp."</string>
     <string name="copy_number">Kopiér nummer</string>
     <string name="create_new_contact">Opret ny kontakt</string>
     <string name="crosby_setting_title">Optagelse af opkald</string>
-    <string name="crystal_clear_audio_setting_title">Krystalklare opkald</string>
     <string name="current_voicemail_greeting_record_instruction">Optag en hilsen</string>
     <string name="current_voicemail_greeting_recording_title">Min telefonsvarerhilsen</string>
-    <string name="custom_message_hint">Skriv en tilpasset besked</string>
     <string name="custom_prefix_add_prefix_to_call_entry_always_add_prefix">Tilføj altid præfiks</string>
     <string name="custom_prefix_add_prefix_to_call_entry_ask_before_dialing">Spørg, inden der ringes</string>
     <string name="custom_prefix_add_prefix_to_call_entry_never_add_prefix">Tilføj aldrig præfiks</string>
@@ -670,11 +670,11 @@ Send hjælp."</string>
     <string name="display_options_view_given_name_first">Fornavn først</string>
     <string name="display_options_view_names_as">Navneformat</string>
     <string name="do_not_show_again">Vis ikke igen</string>
-    <string name="duo_fallback_dialog_do_not_show_again_label">Husk dette valg</string>
-    <string name="duo_fallback_dialog_message">Dit videoopkald kan ikke udføres via videoopkald via mobilnetværk. Prøv at foretage opkaldet via Duo i stedet.</string>
-    <string name="duo_fallback_dialog_negative_button_label">Luk</string>
-    <string name="duo_fallback_dialog_positive_button_label">Brug Duo</string>
-    <string name="duo_fallback_dialog_title">Vil du prøve med Google Duo?</string>
+    <string name="duo_fallback_dialog_do_not_show_again_label">Husk Duo som backup ved hvert opkald. Du kan til enhver tid administrere dette i indstillingerne.</string>
+    <string name="duo_fallback_dialog_message">Duo vil automatisk prøve at ringe, hvis dit mobilselskab ikke kan foretage videoopkaldet.</string>
+    <string name="duo_fallback_dialog_negative_button_label">Nej tak</string>
+    <string name="duo_fallback_dialog_positive_button_label">Sikkerhedskopiér med Duo</string>
+    <string name="duo_fallback_dialog_title">Vil du sikkerhedskopiere opkald med Google Duo?</string>
     <string name="edit_number_before_call">Rediger nummer før opkald</string>
     <string name="emergency_assist_address_sentence">Min lokation er %1$s.</string>
     <string name="emergency_assist_button_fire">Brandvæsen</string>
@@ -696,6 +696,7 @@ Telefonen tilhørenden den, der ringer, registrerede en nødsituation. Send hjæ
     <string name="emergency_voice_assist_dialog_button_close">Annuller</string>
     <string name="emergency_voice_assist_dialog_title">Alarmcentralen hører dette</string>
     <string name="end_call_with_default_message_description">Læg på</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_icon_content_description">Fejl</string>
     <string name="error_unable_to_get_audio">Eksempellyden kunne ikke hentes</string>
     <string name="error_unable_to_play_audio">Eksempellyden kunne ikke afspilles</string>
@@ -740,7 +741,7 @@ Telefonen tilhørenden den, der ringer, registrerede en nødsituation. Send hjæ
     <string name="first_time_dialog_duo_video_call_label">Google Duo</string>
     <string name="first_time_dialog_negative_button_label">Annuller</string>
     <string name="first_time_dialog_positive_button_label">Vælg</string>
-    <string name="first_time_dialog_remember_this_choice_label">Husk dette valg</string>
+    <string name="first_time_dialog_remember_this_choice_label">Husk for hvert opkald. Du kan til enhver tid administrere dette i indstillingerne.</string>
     <string name="first_time_dialog_title">Vælg tjeneste til videoopkald</string>
     <string name="flip_to_shush_title">Vend og tys</string>
     <string name="flip_to_silence_summary">Hvis du vil sætte et indgående opkald på lydløs, skal du lægge din telefon ned på en plan overflade med bagsiden opad.</string>
@@ -788,6 +789,8 @@ Telefonen tilhørenden den, der ringer, registrerede en nødsituation. Send hjæ
     <string name="incall_content_description_hold">Sæt opkald på hold</string>
     <string name="incall_content_description_merge_calls">Flet opkald</string>
     <string name="incall_content_description_muted">Lyde blev slået fra</string>
+    <string name="incall_content_description_show_less">Vis mindre</string>
+    <string name="incall_content_description_show_more">Vis mere</string>
     <string name="incall_content_description_speaker">Højttaler</string>
     <string name="incall_content_description_swap_calls">Byt opkald</string>
     <string name="incall_content_description_swap_sim">Skift SIM-kort</string>
@@ -803,6 +806,7 @@ Telefonen tilhørenden den, der ringer, registrerede en nødsituation. Send hjæ
     <string name="incall_label_hold">Sæt på hold</string>
     <string name="incall_label_manage">Administrer</string>
     <string name="incall_label_merge">Flet</string>
+    <string name="incall_label_more">Mere</string>
     <string name="incall_label_mute">Sluk mikrofon</string>
     <string name="incall_label_record">Optag</string>
     <string name="incall_label_record_checked">Stop optagelse</string>
@@ -835,15 +839,9 @@ Telefonen tilhørenden den, der ringer, registrerede en nødsituation. Send hjæ
     <string name="join_call_with_default_message_description">Deltag i opkaldet</string>
     <string name="just_now">Lige nu</string>
     <string name="lat_long_format">%1$f, %2$f</string>
+    <string name="launch_application_settings">Indstillinger</string>
     <string name="launcherActivityLabel">Opkald</string>
     <string name="learn_more_text_for_tmo">Gå til T-Mobile for at få flere oplysninger</string>
-    <string name="legacy_post_call_message">Fortæl, hvorfor du har ringet</string>
-    <string name="legacy_post_call_message_1">Det haster. Ring tilbage til mig.</string>
-    <string name="legacy_post_call_message_2">Ring tilbage til mig, når du har tid.</string>
-    <string name="legacy_post_call_message_3">Det haster ikke. Vi kan tale sammen senere.</string>
-    <string name="legacy_post_call_message_sent">Beskeden er sendt</string>
-    <string name="legacy_post_call_send_message">Send besked</string>
-    <string name="legacy_post_call_view">Se</string>
     <string name="libraries_material_featurehighlight_dismiss">Afvis</string>
     <string name="license_activity_label">Open source-licenser</string>
     <string name="light_theme_label">Lyst</string>
@@ -868,6 +866,7 @@ Telefonen tilhørenden den, der ringer, registrerede en nødsituation. Send hjæ
     <string name="mdd_notification_action_cancel">Luk</string>
     <string name="mdd_notification_download_failed">Downloaden mislykkedes</string>
     <string name="mdd_notification_download_paused">Venter på netværksforbindelse</string>
+    <string name="mdd_notification_download_paused_wifi">Venter på Wi-Fi-forbindelse</string>
     <string name="meid_number">MEID %s</string>
     <string name="menu_callNumber">Ring til %s</string>
     <string name="merge_calls_confirm_message">Flet kun dine opkald, hvis du er sikker på, at alle ved, hvem der er i det flettede opkald</string>
@@ -907,11 +906,9 @@ Telefonen tilhørenden den, der ringer, registrerede en nødsituation. Send hjæ
     <string name="nearbyplaces_account_setting_title">Google-konto</string>
     <string name="new_call_log_activity_title">Opkaldshistorik</string>
     <string name="new_call_log_all_title">Alle</string>
-    <string name="new_call_log_carrier_video">Video via mobilselskab</string>
     <string name="new_call_log_clear_call_log_confirmation">Dette vil slette alle opkald fra din historik</string>
     <string name="new_call_log_clear_call_log_confirmation_title">Vil du rydde opkaldshistorikken?</string>
     <string name="new_call_log_delete_all">Ryd opkaldshistorik</string>
-    <string name="new_call_log_duo_video">Video via Duo</string>
     <string name="new_call_log_empty">Her vises de opkald, du foretager</string>
     <string name="new_call_log_generic_video">Video</string>
     <string name="new_call_log_header_older">Ældre</string>
@@ -929,6 +926,7 @@ Telefonen tilhørenden den, der ringer, registrerede en nødsituation. Send hjæ
     <string name="new_permission_no_search">Slå tilladelser til Kontakter til for at søge i dine kontakter.</string>
     <string name="non_contact_always_record_dialog_title">Vil du altid optage opkald med numre, der ikke er i dine kontakter?</string>
     <string name="non_contact_toggle_label">Numre, der ikke er i dine kontakter</string>
+    <string name="non_spam_aftercall_notification_title">Kender du %1$s?</string>
     <string name="non_spam_notification_title">Kender du %1$s?</string>
     <string name="not_set">Ikke angivet</string>
     <string name="notification_action_accept">Besvar</string>
@@ -979,7 +977,7 @@ Telefonen tilhørenden den, der ringer, registrerede en nødsituation. Send hjæ
     <string name="notification_ongoing_call">Igangværende opkald</string>
     <string name="notification_ongoing_call_multi_sim">Igangværende opkald via %1$s</string>
     <string name="notification_ongoing_call_wifi_template">Igangværende %1$s</string>
-    <string name="notification_ongoing_call_wifi_template_multi_sim">Igangværende %1$s via %1$s</string>
+    <string name="notification_ongoing_call_wifi_template_multi_sim">Ongoing %1$s via %2$s</string>
     <string name="notification_ongoing_paused_video_call">Igangværende videoopkald via mobilnetværk – video på pause</string>
     <string name="notification_ongoing_paused_video_call_multi_sim">Igangværende videoopkald via mobilnetværk %1$s – video på pause</string>
     <string name="notification_ongoing_video_call">Igangværende videoopkald via mobilnetværk</string>
@@ -992,7 +990,7 @@ Telefonen tilhørenden den, der ringer, registrerede en nødsituation. Send hjæ
     <string name="notification_take_call">Besvar opkald</string>
     <string name="notification_take_video_call">Besvar videoopkald</string>
     <string name="notification_voicemail_callers_list">%1$s, %2$s</string>
-    <string name="notification_voicemail_no_vm_number">Nummeret til telefonsvareren er ukendt</string>
+    <string name="notification_voicemail_no_vm_number">Gå til Menu > Indstillinger for at konfigurere telefonsvareren.</string>
     <string name="notification_voicemail_text_format">Ring til %s</string>
     <string name="old_block_number_confirmation_title">Vil du blokere %1$s?</string>
     <string name="openhistory_button_label">Historik</string>
@@ -1033,6 +1031,7 @@ Telefonen tilhørenden den, der ringer, registrerede en nødsituation. Send hjæ
     <string name="precall_dialpad_chat_button">Chat</string>
     <string name="precall_dialpad_chat_wait_min">%1$d min. ventetid</string>
     <string name="preference_copied">\"%1$s\" blev kopieret til udklipsholderen.</string>
+    <string name="preferences_license_title">Meddelelser til tredjeparter</string>
     <string name="presence_optin_dialog_do_not_show_again_label">Vis ikke igen</string>
     <string name="presence_optin_dialog_message">"Inden du starter et videoopkald, vil Verizon bekræfte, hvilke telefonnumre der kan modtage Verizon-videoopkald.
 
@@ -1047,7 +1046,7 @@ Du kan stadig foretage videoopkald til visse numre uden at opdatere indstillinge
     <string name="private_num_non_verizon">Privat nummer</string>
     <string name="private_num_verizon">Privat</string>
     <string name="private_or_hidden_action_preference_description">Opkald fra skjulte numre</string>
-    <string name="private_or_hidden_action_preference_title">Private eller skjulte numre</string>
+    <string name="private_or_hidden_action_preference_title">Private og skjulte numre</string>
     <string name="quick_contact_checkbox_description">Vælg kontakt</string>
     <string name="ready_for_recording">Klar…</string>
     <string name="record_audio_pre_call_dialog_got_it">OK</string>
@@ -1094,7 +1093,7 @@ Call Screen bruger ikke data eller Wi-Fi, men bruger minutter i dit mobilabonnem
     <string name="revelio_end_call_user_missed_internal_message">Opkaldet blev ikke besvaret</string>
     <string name="revelio_pref_title">Call Screen</string>
     <string name="revelio_preference_summary_automatic_screening_off">Automatisk screening er deaktiveret</string>
-    <string name="revelio_preference_summary_screening">Screening %1$s</string>
+    <string name="revelio_preference_summary_screening">Skærm %1$s</string>
     <string name="revelio_save_audio_setting_summary">Gem lyden fra opkald, der besvares af din assistent</string>
     <string name="revelio_save_audio_setting_title">Gem Call Screen-lyd</string>
     <string name="revelio_setting_title">Call Screen</string>
@@ -1168,7 +1167,6 @@ Call Screen bruger ikke data eller Wi-Fi, men bruger minutter i dit mobilabonnem
     <string name="set_default_account_description">SIM-præferencen er gemt med dine kontakter.</string>
     <string name="set_phone_as_default_explanation_text">Opkaldsappen kan kun foretage og modtage opkald, hvis den er din standardapp til opkald</string>
     <string name="set_phone_as_default_request_text">Angiv opkaldsappen som standardapp</string>
-    <string name="settings">Indstillinger</string>
     <string name="settings_page_call_recording_feature_not_available_text">Optagelse af opkald er ikke tilgængeligt på din lokation</string>
     <string name="settings_page_crosby_feature_not_available_text">Ikke tilgængeligt på din lokation</string>
     <string name="setup_duo_button_long_text">Konfigurer Duo-videoopkald</string>
@@ -1218,6 +1216,9 @@ Call Screen bruger ikke data eller Wi-Fi, men bruger minutter i dit mobilabonnem
     <string name="sounds_and_vibration_title">Lyde og vibration</string>
     <string name="spam_action_preference_description">Numre, der findes i Googles spamdatabase</string>
     <string name="spam_action_preference_title">Spam</string>
+    <string name="spam_after_call_notification_add_contact_action_text">Tilføj kontakt</string>
+    <string name="spam_after_call_notification_report_spam_action_text">Bloker og rapportér</string>
+    <string name="spam_aftercall_notification_unknown">Ukendt</string>
     <string name="spam_and_call_screen_settings_title">Spam og Call Screen</string>
     <string name="spam_blocking_promo_action_dismiss">Afvis</string>
     <string name="spam_blocking_promo_action_filter_spam">Filtrér spam</string>
@@ -1229,6 +1230,9 @@ Call Screen bruger ikke data eller Wi-Fi, men bruger minutter i dit mobilabonnem
     <string name="spam_blocking_settings_enable_error_text">Der opstod et problem, da filtrering af spamopkald skulle aktiveres</string>
     <string name="spam_blocking_settings_summary">Undgå at blive forstyrret af formodede spamopkald</string>
     <string name="spam_blocking_settings_title">Filtrér spamopkald</string>
+    <string name="spam_dialog_add_contact_action">Føj til kontakter</string>
+    <string name="spam_dialog_dismiss_action">Luk</string>
+    <string name="spam_notification_action_block_spam">Ja, bloker nummer</string>
     <string name="spam_notification_action_dismiss">Afvis</string>
     <string name="spam_notification_add_contact_action_text">Tilføj kontakt</string>
     <string name="spam_notification_block_spam_action_text">Ja, bloker nummer</string>
@@ -1468,27 +1472,27 @@ Der bruges data, hvis du fortsætter opkaldet."</string>
     <string name="videocall_remotely_resumed">Opkaldet er genoptaget</string>
     <string name="videocall_settings_default_ask_every_time">Spørg hver gang</string>
     <string name="videocall_settings_default_carrier">Videoopkald via mobilnetværk</string>
-    <string name="videocall_settings_default_caution">This feature allows a user to choose a preferred video call solution and indicate the receiver’s video capability when it’s available. ^1</string>
-    <string name="videocall_settings_default_caution_learn_more">Learn more about preferred video services</string>
+    <string name="videocall_settings_default_caution">Vælg, hvordan du vil foretage et videoopkald, og find ud af, om den person, du ringer til, kan modtage det. ^1</string>
+    <string name="videocall_settings_default_caution_learn_more">Få flere oplysninger om videoopkald</string>
     <string name="videocall_settings_default_duo">Google Duo</string>
     <string name="videocall_settings_default_title">Foretrukken tjeneste til videoopkald</string>
-    <string name="videocall_settings_fallback_caution">"When “Use Google Duo as backup” (if applicable) is on and a call can't be completed using your preferred service, the call will automatically be attempted on Duo. ^1"</string>
-    <string name="videocall_settings_fallback_caution_learn_more">Learn more about Duo backup calling</string>
-    <string name="videocall_settings_fallback_summary">Skift til Duo, hvis den foretrukne tjeneste ikke er tilgængelig</string>
-    <string name="videocall_settings_fallback_title">Brug Google Duo som backup</string>
+    <string name="videocall_settings_fallback_caution">Hvis du har Google Duo som backup, og det er aktiveret, forsøger Duo automatisk at ringe, hvis dit mobilselskab ikke kan gennemføre videoopkaldet. ^1</string>
+    <string name="videocall_settings_fallback_caution_learn_more">Få flere oplysninger om Duo som backup</string>
+    <string name="videocall_settings_fallback_summary">Skift til Duo, hvis din foretrukne tjeneste ikke er tilgængelig</string>
+    <string name="videocall_settings_fallback_title">Brug Duo som backup</string>
     <string name="videocall_settings_title">Videoopkald</string>
     <string name="videocall_show_preview_button_description">Vis lokalt videofeed</string>
     <string name="view_location_settings">Lokationsindstillinger</string>
     <string name="vitle_label">Video via LTE</string>
     <string name="viwifi_label">Video via Wi-Fi</string>
     <string name="vm_change_pin_error_invalid">Den nye pinkode har ugyldige tegn.</string>
-    <string name="vm_change_pin_error_last_4_digits_msisdn">Den nye pinkode må ikke være de sidste fire cifre i dit telefonnummer.</string>
+    <string name="vm_change_pin_error_last_4_digits_msisdn">"Your PIN can't be the last 4 digits of your phone number."</string>
     <string name="vm_change_pin_error_mismatch">Den gamle pinkode er forkert.</string>
     <string name="vm_change_pin_error_system_error">Pinkoden kunne ikke ændres</string>
     <string name="vm_change_pin_error_too_long">Den nye pinkode er for lang.</string>
     <string name="vm_change_pin_error_too_short">Den nye pinkode er for kort.</string>
     <string name="vm_change_pin_error_too_weak">Denne pinkode er for svag. En stærk adgangskode består ikke af en række tal og har ikke flere af de samme tal efter hinanden.</string>
-    <string name="vm_change_pin_error_unchanged_pin">Den nye pinkode er den samme som din aktuelle pinkode. Angiv en anden pinkode.</string>
+    <string name="vm_change_pin_error_unchanged_pin">"Your new PIN can't be the same as your current PIN."</string>
     <string name="vm_change_pin_progress_message">Vent et øjeblik.</string>
     <string name="voice_call">Foretag et taleopkald</string>
     <string name="voice_call_button">Ring</string>
@@ -1510,11 +1514,9 @@ Der bruges data, hvis du fortsætter opkaldet."</string>
     <string name="voicemailMultiSelectDeleteConfirm">Slet</string>
     <string name="voicemail_action_call_customer_support">Ring til kundesupport</string>
     <string name="voicemail_action_call_voicemail">Ring til telefonsvarer</string>
-    <string name="voicemail_action_dimiss">Nej tak</string>
     <string name="voicemail_action_retry">Prøv igen</string>
     <string name="voicemail_action_set_pin">Angiv pinkode</string>
     <string name="voicemail_action_sync">Synkroniser</string>
-    <string name="voicemail_action_turn_archive_on">Aktivér</string>
     <string name="voicemail_action_turn_off_airplane_mode">Indstillinger for flytilstand</string>
     <string name="voicemail_activating_summary_info">Telefonsvareren aktiveres</string>
     <string name="voicemail_advanced_settings_title">Avancerede indstillinger</string>
@@ -1529,7 +1531,7 @@ Der bruges data, hvis du fortsætter opkaldet."</string>
     <string name="voicemail_change_pin_preference_summary_disable">Visuel telefonsvarer skal være aktiveret, for at du kan skifte pinkode</string>
     <string name="voicemail_change_pin_preference_summary_not_activated">Visuel telefonsvarer er ikke aktiveret endnu. Prøv igen senere</string>
     <string name="voicemail_change_pin_preference_title">Skift pinkode</string>
-    <string name="voicemail_donate_preference_summary_info">Tillad, at Google gennemgår dine talebeskeder for at forbedre nøjagtigheden af transskriptioner. Dine talebeskeder gemmes anonymt. %1$s</string>
+    <string name="voicemail_donate_preference_summary_info">Tillad, at Google gennemgår dine talebeskeder for at forbedre nøjagtigheden af transskriptioner. Dine talebeskeder gemmes anonymt. ^1</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">Når du bruger visuel telefonsvarer til SIM-kort uden data, skal du muligvis betale et gebyr til dit mobilselskab</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">Visuel telefonsvarer er kun tilgængelig for udvalgte SIM-kort med data</string>
     <string name="voicemail_error_activating_message">Du modtager muligvis ikke notifikationer om talebeskeder, før den visuelle telefonsvarer er fuldt aktiveret. Ring til telefonsvareren for hente nye beskeder, indtil telefonsvareren er fuldt aktiveret.</string>
@@ -1542,12 +1544,8 @@ Der bruges data, hvis du fortsætter opkaldet."</string>
     <string name="voicemail_error_bad_config_title">Den visuelle telefonsvarer kunne ikke opdateres</string>
     <string name="voicemail_error_communication_message">Du kan stadig ringe op for at tjekke din telefonsvarer.</string>
     <string name="voicemail_error_communication_title">Den visuelle telefonsvarer kunne ikke opdateres</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_message">Din telefonsvarer er næsten fuld. Du kan frigøre plads ved at slå ekstra lagerplads til, så Google kan administrere og sikkerhedskopiere dine talebeskeder.</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_title">Slå ekstra lagerplads til, og foretag en sikkerhedskopiering</string>
     <string name="voicemail_error_inbox_full_message">Din indbakke er fuld. Prøv at slette nogle beskeder for at modtage nye talebeskeder.</string>
     <string name="voicemail_error_inbox_full_title">Du kan ikke modtage nye talebeskeder</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_message">Din telefonsvarer er fuld. Du kan frigøre plads ved at slå ekstra lagerplads til, så Google kan administrere og sikkerhedskopiere dine talebeskeder.</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_title">Slå ekstra lagerplads til, og foretag en sikkerhedskopiering</string>
     <string name="voicemail_error_inbox_near_full_message">Du kan ikke modtage nye talebeskeder, hvis din indbakke er fuld.</string>
     <string name="voicemail_error_inbox_near_full_title">Indbakken er næsten fuld</string>
     <string name="voicemail_error_no_data_cellular_required_message">Prøv igen, når din mobildataforbindelse er bedre. Du kan stadig ringe for at tjekke, om der er talebeskeder.</string>
@@ -1580,7 +1578,7 @@ Der bruges data, hvis du fortsætter opkaldet."</string>
     <string name="voicemail_transcription_failed_language_not_supported">Ingen transskription. Sproget understøttes ikke.</string>
     <string name="voicemail_transcription_failed_no_speech">Ingen transskription. Ingen tale er registreret.</string>
     <string name="voicemail_transcription_in_progress">Transskriberer…</string>
-    <string name="voicemail_transcription_preference_summary_info">Få transskription af dine talebeskeder ved hjælp af Googles transskriptionstjeneste. %1$s</string>
+    <string name="voicemail_transcription_preference_summary_info">Få transskription af dine talebeskeder ved hjælp af Googles transskriptionstjeneste. ^1</string>
     <string name="voicemail_visual_voicemail_auto_archive_switch_title">Ekstra sikkerhedskopiering og lagerplads</string>
     <string name="voicemail_visual_voicemail_donation_switch_title">Analyse af talebeskedstransskription</string>
     <string name="voicemail_visual_voicemail_switch_title">Visuel telefonsvarer</string>
@@ -1636,7 +1634,7 @@ Der bruges data, hvis du fortsætter opkaldet."</string>
     <string name="wait_prompt_str">"Send følgende toner?
 "</string>
     <string name="was_this_a_business_chip_text">Var det en virksomhed?</string>
-    <string name="was_this_a_business_dialog_body">Ved at bekræfte dette tag hjælper du Google med at forbedre Vis nummer</string>
+    <string name="was_this_a_business_dialog_body">Ved at bekræfte dette hjælper du Google med at forbedre tjenesten Vis nummer</string>
     <string name="was_this_a_business_dialog_negative_response">Nej</string>
     <string name="was_this_a_business_dialog_positive_response">Ja</string>
     <string name="was_this_a_business_dialog_snackbar">Tak for din feedback</string>

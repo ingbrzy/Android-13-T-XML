@@ -19,7 +19,6 @@
     <string name="abc_searchview_description_search">Издөө</string>
     <string name="abc_searchview_description_submit">Сурам тапшыруу</string>
     <string name="abc_searchview_description_voice">Айтып издөө</string>
-    <string name="abc_slices_permission_request">%1$s колдонмосу %2$s үлгүлөрүн көрсөткөнү жатат</string>
     <string name="abc_toolbar_collapse_description">Жыйыштыруу</string>
     <string name="action_label_move_down">Төмөн жылдыруу</string>
     <string name="action_label_move_to_bottom">Аягына жылдыруу</string>
@@ -41,8 +40,19 @@
     <string name="alarm_is_dismissed">Саат %s коюлган ойготкуч өчүрүлдү</string>
     <string name="alarm_is_set">Ойготкуч саат %s коюлган</string>
     <string name="alarm_is_snoozed">Саат %1$s коюлган ойготкуч %2$s жылдырылды</string>
-    <string name="alarm_missed_text">%1$s – %2$s</string>
+    <string name="alarm_label_edit_dialog_pane_title">Энбелгини түзөтүү</string>
+    <string name="alarm_missed_app_notifications_blocked">Сааттын билдирмелери өчүк болчу</string>
+    <string name="alarm_missed_battery_saver">Батареяны үнөмдөгүч ойготкучту иштеткен жок окшойт</string>
+    <string name="alarm_missed_blocked_by_dnd">\"Тынчымды алба\" режими ойготкучтун үнүн басты</string>
+    <string name="alarm_missed_clock_background_restricted">Фондогу аракеттерге чектөө коюлгандыктан, ойготкучтун үнү угулган жок</string>
+    <string name="alarm_missed_firing_notifications_blocked">Ойготкучтун жана таймердин билдирмелери өчүк болчу</string>
+    <string name="alarm_missed_in_vr">Ойготкутчу виртуалдык чындык режими бөгөттөдү</string>
+    <string name="alarm_missed_low_volume">Ойготкучтун үнү кичирейтилген болчу: %d%%</string>
+    <string name="alarm_missed_overlapping_alarms">Бул ойготкучтун ордуна саат %s ойготкуч иштеди</string>
+    <string name="alarm_missed_setting_exact_alarm_blocked">Саатка ойготкучтарды коюуга уруксат берүү керек</string>
+    <string name="alarm_missed_silent_default_alarm_ringtone">Ойготкуч \"Үнсүз\" режимине коюлган болчу</string>
     <string name="alarm_missed_title">Көз жаздымда калган ойготкуч</string>
+    <string name="alarm_missed_volume_muted">Ойготкучтун үнү басылган болчу</string>
     <string name="alarm_not_scheduled">Коюлган эмес</string>
     <string name="alarm_promo">Кийинки жолу \"Окей Google, ойготкучту кой\" деп айтып көрүңүз.</string>
     <string name="alarm_service_desc">Ойготкуч эскертмелериндеги аракеттерди иштетет.</string>
@@ -52,8 +62,10 @@
     <string name="alarm_tomorrow">Эртең</string>
     <string name="alarm_undo">кайтаруу</string>
     <string name="alarm_vibrate">Дирилдейт</string>
+    <string name="alarm_volume_increased">Ойготкучтун үнү %d%% көтөрүлдү</string>
     <string name="alarm_volume_muted">Ойготкучтун үнү өчүрүлдү</string>
     <string name="alarm_volume_title">Ойготкучтун катуулугу</string>
+    <string name="alarm_wakeup_not_set">Ойготкуч коюлган жок</string>
     <string name="alarms_blocked_by_dnd">Түзмөк \"Тыптынч\" режимине коюлган</string>
     <string name="alarms_not_prioritized">\"Тынчымды алба\" режими ойготкучтардын үнүн басууда</string>
     <string name="all_results">Бардык жыйынтыктар</string>
@@ -61,13 +73,14 @@
     <string name="analog_clock_widget_promo">Аналог саатынын виджетин Башкы экраныңызга кошуп көрүңүз.</string>
     <string name="analog_gadget">Аналог саат</string>
     <string name="app_label">Саат</string>
-    <string name="app_notifications_blocked">Саат билдирмелери өчүрүлгөн</string>
+    <string name="app_notifications_blocked">Ойготкуч жана таймер билдирмелерин иштетүү талап кылынат</string>
     <string name="assistant_channel_name">Google Жардамчынын иш тартиптери</string>
     <string name="authorization_required">%1$s колдонмосунун Саат менен иштегенге уруксаты жок</string>
     <string name="auto_silence_entry_never">Эч качан</string>
     <string name="auto_silence_title">Канчадан кийин үнү басылсын</string>
     <string name="automatic_home_clock">Үйдөгү убакытты көрсөтүү</string>
     <string name="automatic_home_clock_summary">Башка убакыт алкагында саякаттап жүргөндө, үйдөгү убакыт көрүнүп турат</string>
+    <string name="battery_saver">Батареяны үнөмдөгүч режими ойготкуч менен таймерди иштетпеши мүмкүн</string>
     <string name="bedtime_activity_tomorrow">Уйку учурундагы аракеттериңиз эртең ушул жерде көрүнөт</string>
     <string name="bedtime_card_consent_no_thanks">Жок, рахмат</string>
     <string name="bedtime_card_hide_activity_sleep">Соңку аракеттерди жашыруу</string>
@@ -85,9 +98,9 @@
     <string name="bedtime_card_title_sleep_sounds_onboarding">Уйку аудиолорун угуу</string>
     <string name="bedtime_channel_name">Уктаар маал</string>
     <string name="bedtime_data_consent_description">Түзмөктү канча убакыт колдонуп, болжол менен канча убакыт уктаганыңызга көз салыңыз. Бул маалымат телефонуңуздун караңгы бөлмөдө канча убакыт кыймылсыз жатканына негизделет.</string>
-    <string name="bedtime_disabled_explanation"><b>Уйку режими жөндөлгөн жок</b>"
+    <string name="bedtime_disabled_explanation"><b>Уйку режими коюлган жок</b>"
 
-Эстеткич жана Уйку режими өчүк. Тандалган убакыт уйку учурундагы соңку аракеттер үчүн колдонулат."</string>
+Эстеткич жана Уйку режими өчүк. Ушуга карабастан, тандалган убакыт аралыгындагы уйку учурундагы соңку аракеттериңизди көрө аласыз."</string>
     <string name="bedtime_disabled_explanation_no_wellbeing_app"><b>Уйку режими жөндөлгөн жок.</b></string>
     <string name="bedtime_mode_label">Уйку режими</string>
     <string name="bedtime_morning_onboarding_title">Ойготкучту такай бир убакытка коюп алыңыз</string>
@@ -146,7 +159,7 @@
     <string name="common_google_play_services_update_text">Google Play кызматтары жаңыртылмайынча %1$s иштебейт.</string>
     <string name="common_google_play_services_update_title">Google Play кызматтарын жаңыртуу</string>
     <string name="common_google_play_services_updating_text">Google Play кызматтарысыз %1$s иштебейт, алар учурда жаңыртылууда.</string>
-    <string name="common_google_play_services_wear_update_text">Google Play кызматтарынын жаңы версиясы талап кылынат. Бир аздан кийин ал өзү эле жаңыртылат.</string>
+    <string name="common_google_play_services_wear_update_text">Google Play кызматтарынын жаңы версиясы талап кылынат. Бир аздан кийин ал өзү эле жаңырат.</string>
     <string name="common_open_on_phone">Телефондо ачык</string>
     <string name="concat">", "</string>
     <string name="copy">Көчүрүү</string>
@@ -173,7 +186,8 @@
     <string name="expand_button_title">Өркүндөтүлгөн</string>
     <string name="exposed_dropdown_menu_content_description">Түрүлмө менюну көрсөтүү</string>
     <string name="firing_channel_name">Иштеп жаткан ойготкучтар жана таймерлер</string>
-    <string name="firing_notifications_blocked">Ойготкуч жана таймер билдирмелери өчүрүлгөн</string>
+    <string name="firing_notification_channels_blocked">@string/app_notifications_blocked</string>
+    <string name="fix_alarm_volume">Оңдоо</string>
     <string name="for_premium_members_only">Демөөрчүлөргө гана арналган колдонмо</string>
     <string name="get_it_on_google_play">"Аны Google Play'де жүктөп алыңыз"</string>
     <string name="get_ready_for_bed">Уктаар маал болуп калды</string>
@@ -188,8 +202,8 @@
     <string name="home_time_zone_title">Үйдөгү убакыт аймагы</string>
     <string name="hours_label">с</string>
     <string name="hours_minutes_seconds">%1$d:%2$02d:%3$02d</string>
-    <string name="icon_content_description">Диалог сүрөтчөсү</string>
     <string name="in_bed">Керебеттеги убакыт</string>
+    <string name="in_vr">Ойготкучтарды виртулдык чындык режими бөгөттөдү</string>
     <string name="install_provider_menu_item">%1$s колдонмосун орнотуу</string>
     <string name="installation_required">%1$s орнотулган эмес</string>
     <string name="internet_connection_required">%1$s колдонмосундагы мазмунду көрүү үчүн Интернет керек</string>
@@ -203,6 +217,7 @@
     <string name="learn_more">Кеңири маалымат</string>
     <string name="loading_widget">Жүктөлүүдө…</string>
     <string name="login_required">%1$s колдономосуна кирген жоксуз</string>
+    <string name="low_volume">Ойготкучтун үнү кичирейтилген</string>
     <string name="manage_data">Маалыматты башкаруу</string>
     <string name="material_clock_toggle_content_description">Тандоо: AM же PM</string>
     <string name="material_hour_selection">Саат тандоо</string>
@@ -237,6 +252,8 @@
     <string name="mtrl_badge_numberless_content_description">Жаңы билдирме</string>
     <string name="mtrl_chip_close_icon_content_description">Мазмунду алып салуу (%1$s)</string>
     <string name="mtrl_exceed_max_badge_number_content_description">%1$d ашуун жаңы билдирме</string>
+    <string name="mtrl_timepicker_cancel">Жокко чыгаруу</string>
+    <string name="mtrl_timepicker_confirm">Жарайт</string>
     <string name="music_alert_description">Музыкалык ойготкучтарды пайдалануу үчүн колдонмо тандап алыңыз</string>
     <string name="music_alert_header">Музыка менен ойгонсоңуз болот</string>
     <string name="music_promo_body_four">Эми музыканы %1$s, %2$s, %3$s жана %4$s колдонмолорунан тандап алсаңыз болот</string>
@@ -257,6 +274,7 @@
     <string name="no_data">Маалымат жок</string>
     <string name="no_firing_alarms">Иштеп жаткан ойготкучтар жок</string>
     <string name="no_label_specified">Эч энбелги көрсөтүлгөн жок</string>
+    <string name="no_laps">Айлануулар жок</string>
     <string name="no_scheduled_alarms">Коюлган ойготкучтар жок</string>
     <string name="no_usage">Телефон колдонулган жок</string>
     <string name="no_wakeup_alarm">Ойготкуч коюлган жок</string>
@@ -333,7 +351,7 @@
     <string name="shortcut_start_stopwatch_long">Секундомерди иштетүү</string>
     <string name="shortcut_start_stopwatch_short">Иштетүү</string>
     <string name="show_provider_menu_item">%1$s колдонмосун көрсөтүү</string>
-    <string name="silent_default_alarm_ringtone">Демейки ойготкуч рингтону - үнсүз</string>
+    <string name="silent_default_alarm_ringtone">Ойготкуучтун демейки жөндөөсү үнсүзгө коюлган</string>
     <string name="silent_ringtone_title">Үнсүз</string>
     <string name="skip">Өткөрүп жиберүү</string>
     <string name="sleep_sound">Уйку аудиолору</string>
@@ -345,16 +363,6 @@
     <string name="sleep_sound_title_contemplation">Ниеттенүү</string>
     <string name="sleep_sound_title_deep_space">Алыскы космос</string>
     <string name="sleep_sound_title_waves">Толкундар</string>
-    <string name="slice_alarm_button_toggle_enable">Ойготкучту өчүрүү/күйгүзүү которгучу</string>
-    <string name="slice_alarm_button_view_alarm">Жаңы ойготкуч</string>
-    <string name="slice_alarm_button_view_all">Баарын көрүү</string>
-    <string name="slice_alarm_create_header">Ойготкучту коюу</string>
-    <string name="slice_alarm_no_alarm">Ойготкучтар жок.</string>
-    <string name="slice_alarm_save">Сактоо</string>
-    <string name="slice_alarm_view_header">Ойготкучтар</string>
-    <string name="slice_timer_create_header">Таймерди иштетүү</string>
-    <string name="slice_timer_start">Баштоо</string>
-    <string name="slice_timer_view">Таймерди көрүү</string>
     <string name="snooze_duration_title">Тындыруунун узактыгы</string>
     <string name="snoozed_alarms_channel_name">Ойготкучтар тындырылды</string>
     <string name="sounds">Аудиолор</string>
@@ -380,12 +388,12 @@
     <string name="timer_accessibility_stopped">Таймер тындырылды, %1$s</string>
     <string name="timer_add_minute">+ 1:00</string>
     <string name="timer_add_timer">Таймер кошуу</string>
-    <string name="timer_cancel">Жокко чыгаруу</string>
+    <string name="timer_backspace">Артка өчүрүү</string>
     <string name="timer_canceled">Таймер жокко чыгарылды</string>
     <string name="timer_created">Таймер түзүлдү</string>
     <string name="timer_delete">Жок кылуу</string>
     <string name="timer_deleted">Таймер өчүрүлдү</string>
-    <string name="timer_descriptive_delete">Жок кылуу %s</string>
+    <string name="timer_descriptive_backspace">%s артка өчүрүү</string>
     <string name="timer_dismissed">Таймер четке кагылды</string>
     <string name="timer_multi_missed">%d таймер байкалбай калган</string>
     <string name="timer_multi_times_up">%d таймердин мөөнөтү бүттү</string>
@@ -431,10 +439,13 @@
     <string name="volume_button_setting_title">Үндү катуулатуучу баскычтар</string>
     <string name="wake_up_alarm">Ойгонуу</string>
     <string name="wake_up_to_music">Музыка менен ойгонуңуз</string>
-    <string name="wakeup_disabled_explanation"><b>Ойготкуч жөндөлгөн жок</b>"
+    <string name="wakeup_card_onboard_bedtime">Кадимки ойгонуу графигин тууралап алыңыз</string>
+    <string name="wakeup_card_start_bedtime_onboarding">Баштоо</string>
+    <string name="wakeup_disabled_explanation"><b>Ойготкуч коюлган жок</b>"
 
-Ойготкуч жөндөлбөсө да, уйку учурундагы соңку аракеттерди көрсөтүү максатында, тандалган убакыт "<annotation type="app_link">Уйку режимин</annotation> өчүрүү үчүн колдонулат.</string>
-    <string name="wakeup_disabled_explanation_no_wellbeing_app"><b>Ойготкуч жөндөлгөн жок.</b></string>
+Ойготкуч коюлбаса да, тандалган убакыт "<annotation type="app_link">уйку режимин</annotation> өчүрүү жана уктап жаткандагы соңку аракеттерди көрсөтүү үчүн колдонулат.</string>
+    <string name="wakeup_disabled_explanation_no_wellbeing_app"><b>Ойготкуч коюлган жок.</b></string>
+    <string name="wakeup_schedule_change_button">Графикти өзгөртүү</string>
     <string name="week_start_title">Апта башталчу күн</string>
     <string name="widget_alarm_content_description">Ойготкуч саат %s коюлган</string>
     <string name="work_profile_disabled_message">Жумуш профилиңиздеги сааттын бардык ойготкучтары өчүрүлдү. Жеке профилиңиздеги саатты колдоно берсеңиз болот.</string>

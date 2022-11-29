@@ -28,7 +28,6 @@
     <string name="about_application_pp_tos_settings">Informació, condicions i privadesa</string>
     <string name="accessbility_suggestion_dropdown_closed">No hi ha cap suggeriment disponible</string>
     <string name="accessbility_suggestion_dropdown_opened">"S'han obert els suggeriments de contactes."</string>
-    <string name="acs_url_dropdown_hint">"Estableix l'URL ACS"</string>
     <string name="action_add_contact">Afegeix un contacte</string>
     <string name="action_advanced_feedback">Envia suggeriments</string>
     <string name="action_archive">Arxiva</string>
@@ -47,18 +46,19 @@
     <string name="action_help_and_feedback">Ajuda i suggeriments</string>
     <string name="action_info_and_options">Informació i opcions</string>
     <string name="action_jump_to_chat">Mostra al xat</string>
+    <string name="action_meet_video_call">Videotrucada de Meet</string>
     <string name="action_menu_mark_all_as_read">Marca-ho tot com a llegit</string>
     <string name="action_menu_show_archived">Arxivats</string>
     <string name="action_menu_show_spam_folder">Brossa i bloquejats</string>
     <string name="action_notification_off">Desactiva les notificacions</string>
     <string name="action_notification_on">Activa les notificacions</string>
     <string name="action_notification_settings">Silencia notificacions</string>
+    <string name="action_off">Desactivat</string>
     <string name="action_pair_device">Vinculació de dispositius</string>
     <string name="action_people_and_options">Detalls</string>
     <string name="action_people_and_options_group">Detalls del grup</string>
     <string name="action_pin_to_top">Fixa a la part superior</string>
     <string name="action_report_spam">Marca com a brossa</string>
-    <string name="action_scan_qr_code">Missatges per al web</string>
     <string name="action_search">Cerca</string>
     <string name="action_search_gifs">Cerca GIF</string>
     <string name="action_search_messages">Cerca missatges</string>
@@ -77,6 +77,7 @@
     <string name="action_viLTE_video_call">"Videotrucada per mitjà de l'operador"</string>
     <string name="action_video_call">Fes una videotrucada</string>
     <string name="actionbar_subtitle_name_prefix">amb %s</string>
+    <string name="active_reminder">Recordatori</string>
     <string name="active_sim_content_message">SIM %s seleccionada</string>
     <string name="activity_not_found_message">"No s'ha pogut trobar una aplicació adequada"</string>
     <string name="add_area_code_banner_button">Afegeix el prefix</string>
@@ -90,6 +91,7 @@
     <string name="add_contact_confirmation_dialog_title">Vols afegir-lo a Contactes?</string>
     <string name="add_country_code_banner_button">Afegeix el codi de país</string>
     <string name="add_more_participants_button_content_description">Afegeix més participants</string>
+    <string name="add_reaction_content_description">Afegeix una reacció personalitzada</string>
     <string name="add_reaction_for_assistant_card_rcs_fallback_text">"​%1$s​ a una targeta de l'Assistent"</string>
     <string name="add_reaction_for_audio_rcs_fallback_text">"​%1$s​ a un fitxer d'àudio"</string>
     <string name="add_reaction_for_contact_rcs_fallback_text">​%1$s​ a un contacte</string>
@@ -97,7 +99,7 @@
     <string name="add_reaction_for_gif_rcs_fallback_text">​%1$s​ a un GIF</string>
     <string name="add_reaction_for_link_rcs_fallback_text">​%1$s​ a un enllaç</string>
     <string name="add_reaction_for_photo_rcs_fallback_text">​%1$s​ a una foto</string>
-    <string name="add_reaction_for_text_message_rcs_fallback_text">​%1$s​ a \"%2$s\"</string>
+    <string name="add_reaction_for_text_message_rcs_fallback_text">​%1$s​ a \" %2$s \"</string>
     <string name="add_reaction_for_unknown_message_type_rcs_fallback_text">​%1$s​ a un tipus de missatge desconegut</string>
     <string name="add_reaction_for_video_rcs_fallback_text">​%1$s​ a un vídeo</string>
     <string name="advanced_feedback_activity_disclaimer">"El contingut i el text del missatge, excepte el de les captures de pantalla, no s'envien a Google"</string>
@@ -134,14 +136,13 @@
     <string name="apn_mnc">MNC</string>
     <string name="app_name">Missatges</string>
     <string name="app_settings_conversation_pref_title">"Configuració de l'aplicació"</string>
-    <string name="apply_button">Aplica</string>
     <string name="archived_activity_title">Arxivats</string>
     <string name="archived_conversation_list_empty_text">Les converses arxivades es mostren aquí</string>
     <string name="area_code_banner_description">@string/banner_description</string>
     <string name="assistant_movies_shortcut_title">Pel·lícules</string>
+    <string name="assistant_preference_summary">Mostra informació rellevant sobre restaurants, pel·lícules i més</string>
     <string name="assistant_preference_title">"Suggeriments de l'Assistent"</string>
     <string name="assistant_restaurants_shortcut_title">Restaurants</string>
-    <string name="assistant_send_to_chip_default_group_name">grup</string>
     <string name="assistant_suggestions_tooltip_text">"Missatges crea suggeriments i, alhora, manté la conversa al dispositiu. Pots tocar aquests suggeriments per veure i compartir informació de l'Assistent de Google. &lt;br/> &lt;br/> &lt;a href>Obtén més informació&lt;/a> i gestiona aquestes opcions a &lt;a href>Configuració&lt;/a>"</string>
     <string name="assistant_suggestions_tooltip_title_text">Obtén informació amb un toc</string>
     <string name="assistant_weather_shortcut_title">Temps</string>
@@ -157,12 +158,18 @@
     <string name="attachment_location">Ubicació</string>
     <string name="attachment_picture">Imatge</string>
     <string name="attachment_preview_close_content_description">Descarta el fitxer adjunt</string>
+    <string name="attachment_preview_photos_link_share_getting_link">"S'està obtenint l'enllaç…"</string>
+    <string name="attachment_preview_photos_link_share_no_upload_needed">Penjat anteriorment</string>
+    <string name="attachment_preview_photos_link_share_upload_size">Pujada: %s</string>
+    <string name="attachment_preview_photos_link_share_upload_size_failure">Desconegut</string>
+    <string name="attachment_preview_photos_link_share_upload_size_placeholder">"S'està calculant…"</string>
     <string name="attachment_unsupported_file">Fitxer no compatible</string>
     <string name="attachment_vcard">Targeta de contacte</string>
     <string name="attachment_video">Vídeo</string>
     <string name="audio_attachment_content_description">Àudio adjunt</string>
     <string name="audio_attachment_seek_playback_description">"Reproducció d'àudio"</string>
     <string name="audio_button_view_content_description">"Fes doble toc i mantén premut per gravar àudio; llisca cap a l'esquerra per cancel·lar"</string>
+    <string name="audio_format_type">àudio</string>
     <string name="audio_pause_content_description">Atura</string>
     <string name="audio_play_content_description">"Reprodueix l'àudio adjunt"</string>
     <string name="audio_recorder_call_in_progress">No es pot gravar àudio durant una trucada</string>
@@ -181,6 +188,8 @@
     <string name="auto_selected_country_summary">Detectat automàticament (%1$s)</string>
     <string name="automoved_spam_notification_action_dismiss">Ignora</string>
     <string name="automoved_spam_notification_action_view">Mostra</string>
+    <string name="automoved_spam_notification_content_text">"La conversa brossa entrant s'ha mogut a Brossa i bloquejats"</string>
+    <string name="automoved_spam_notification_content_title">"S'ha detectat una conversa brossa"</string>
     <string name="avatar_no_connection_msg">No hi ha connexió a Internet</string>
     <string name="avatar_promo_create">Crea</string>
     <string name="avatar_promo_see_all">Mostra-ho tot</string>
@@ -192,8 +201,9 @@
     <string name="birthday_banner_description">@string/banner_description</string>
     <string name="birthday_banner_dismiss_button_text">Ignora</string>
     <string name="birthday_banner_settings_button_text">Gestiona a la configuració</string>
-    <string name="birthday_info_text">"Missatges crea recordatoris d'aniversari a partir dels contactes amb aniversaris del teu dispositiu"</string>
-    <string name="birthday_nudge_enabled_pref_summary">Rep recordatoris sobre els aniversaris que has afegit als contactes del teu dispositiu</string>
+    <string name="birthday_info_text">"Aquests recordatoris es basen en la informació de la data de naixement inclosa a l'aplicació Contactes del teu dispositiu."</string>
+    <string name="birthday_info_text_with_settings">"Aquests recordatoris es basen en la informació de la data de naixement inclosa a l'aplicació Contactes del teu dispositiu. &lt;a href>%1$s&lt;/a>"</string>
+    <string name="birthday_nudge_enabled_pref_summary">Rep recordatoris dels aniversaris que has afegit als contactes del teu dispositiu</string>
     <string name="birthday_nudge_enabled_pref_title">"Recordatoris d'aniversari"</string>
     <string name="block_confirmation_message_spam_folder">"Continuaràs rebent els missatges que t'enviï %1$s, però ja no se t'enviarà cap notificació. Aquesta conversa es mourà a Converses brossa i bloquejades."</string>
     <string name="block_confirmation_message_system_spam_folder">%1$s no et podrà trucar ni enviar missatges de text. Aquesta conversa es mourà a Converses brossa i bloquejades.</string>
@@ -212,9 +222,13 @@
     <string name="boew_promo_text">"Per gaudir de funcions de xat, com ara de l'enviament de missatges per Wi‑Fi i dades, permet que Missatges funcioni en segon pla"</string>
     <string name="boew_promo_title">Treu més partit de Missatges</string>
     <string name="bottomsheet_action_expand_halfway">Desplega fins a la meitat</string>
+    <string name="bottomsheet_drag_handle_content_description">Ansa per arrossegar</string>
     <string name="broadcast_receiver_notification_text_extra_info">"Missatges està treballant en segon pla. Envia un informe d'errors si se't mostra aquesta notificació durant més d'un minut. Nom del receptor: %1$s"</string>
     <string name="broadcast_sms_text">SMS massiu</string>
     <string name="bubble_settings_title">Bombolles</string>
+    <string name="bugle_add_account_error">"No s'ha pogut afegir el compte. Torna-ho a provar."</string>
+    <string name="bugle_fix_it">Corregeix-ho</string>
+    <string name="bugle_load_account_failure">"No s'han pogut carregar els comptes."</string>
     <string name="bugle_notification_category_conversations">Converses</string>
     <string name="bugle_notification_category_default_settings">Configuració predeterminada</string>
     <string name="bugle_notification_category_reminders">Recordatoris</string>
@@ -226,6 +240,8 @@
     <string name="bugle_notification_reminders_channel_name">Recordatoris</string>
     <string name="bugle_notification_report_issue_channel_name">Sol·licitud de suggeriments de Missatges</string>
     <string name="bugle_notification_silent_default_channel_name">Obtén notificacions en fer servir el web</string>
+    <string name="bugle_play_services_error">"No s'ha pogut fer una consulta a Serveis de Google Play."</string>
+    <string name="bugle_retry">Torna-ho a provar</string>
     <string name="business_action_call_full_content_description">Truca al número %1$s (%2$s)</string>
     <string name="business_action_call_short_content_description">Truca</string>
     <string name="business_action_call_short_text_m2">Truca</string>
@@ -287,6 +303,7 @@
     <string name="c2o_single_file_attachment_size_limit_exceed">"El fitxer adjunt és massa gran per enviar-lo. Prova d'enviar-ne un que tingui una mida inferior a %s."</string>
     <string name="c2o_storage_permissions_text">Toca per donar accés al contingut multimèdia</string>
     <string name="c2o_video_button_text">Vídeo</string>
+    <string name="calendar_badge_content_description">Insígnia del calendari</string>
     <string name="calendar_event_added">Esdeveniment desat</string>
     <string name="calendar_file_content_description">Fitxer de calendari</string>
     <string name="calendar_suggestion_event_chat_title">Xat de Missatges Android</string>
@@ -297,6 +314,7 @@
     <string name="camera_attach_media">Adjunta</string>
     <string name="camera_attach_media_description">Adjunta al missatge</string>
     <string name="camera_back_switch_button">Opció de càmera posterior</string>
+    <string name="camera_capture_button_label">Fes una foto</string>
     <string name="camera_flash_off">Flaix desactivat</string>
     <string name="camera_flash_on">Flaix activat</string>
     <string name="camera_front_switch_button">Opció de càmera frontal</string>
@@ -397,6 +415,11 @@ Pots desactivar les funcions de xat a Configuració. %1$s"</string>
     <string name="common_google_play_services_update_text">"%1$s no s'executarà si no actualitzes Serveis de Google Play."</string>
     <string name="common_google_play_services_update_title">Actualitza Serveis de Google Play</string>
     <string name="common_google_play_services_updating_text">"%1$s no s'executarà sense Serveis de Google Play, que s'està actualitzant en aquest moment."</string>
+    <string name="common_google_play_services_wear_update_text">"Cal una nova versió de Serveis de Google Play. S'actualitzarà automàticament aviat."</string>
+    <string name="common_open_on_phone">Obre al telèfon</string>
+    <string name="complete_photos_app_onboarding">Obre Google Fotos</string>
+    <string name="complete_photos_app_onboarding_title">"Per continuar, permet l'accés a Google Fotos"</string>
+    <string name="complete_photos_app_onboarding_to_continue">"Comença a fer servir l'aplicació Google Fotos"</string>
     <string name="compose_message_view_hint_text">Missatge de xat</string>
     <string name="compose_message_view_hint_text_multi_sim_rcs">Xateja (%s)</string>
     <string name="compose_message_view_hint_text_multi_sim_sms_mms">Envia un missatge de text (%s)</string>
@@ -418,15 +441,12 @@ Pots desactivar les funcions de xat a Configuració. %1$s"</string>
     <string name="contact_has_multiple_destinations_phone">%1$s (i %2$s més)</string>
     <string name="contact_has_multiple_destinations_type">Diversos</string>
     <string name="contact_list_add_people">Afegeix %s</string>
-    <string name="contact_list_empty_text">"Introdueix el nom d'un contacte o el número de telèfon per escriure un missatge nou."</string>
     <string name="contact_list_send_to_text">Envia al %s</string>
     <string name="contact_picker_autocomplete_added">"S'ha afegit %1$s i s'està editant"</string>
     <string name="contact_picker_autocomplete_deleted">"S'ha suprimit %1$s; edició en curs"</string>
-    <string name="contact_picker_cant_add_destination_twice">Aquest número ja participa al grup</string>
     <string name="contact_picker_cant_remove_from_existing">"No es pot suprimir el número d'una conversa existent"</string>
     <string name="contact_picker_cant_remove_from_screen">Per suprimir persones, ves a &lt;b>Detalls del grup&lt;/b></string>
     <string name="contact_picker_confirm_participants_button_label">Seg.</string>
-    <string name="contact_picker_group_create_label">Crea un grup</string>
     <string name="contact_picker_group_v2_create_label">Crea un grup</string>
     <string name="contact_picker_message_a_business_label">Xateja amb una empresa</string>
     <string name="contact_picker_title_add_people">Afegeix persones</string>
@@ -449,10 +469,14 @@ Pots desactivar les funcions de xat a Configuració. %1$s"</string>
     <string name="content_description_link_to_settings">Gestiona a Configuració</string>
     <string name="contextual_action_bar_description_prefix">"Es mostra una barra d'eines per a aquestes accions: %s. Desplaça't cap amunt per seleccionar una acció o tanca la barra."</string>
     <string name="conversation_area_code_popup_paragraph">"Si no hi ha cap prefix conegut, Missatges provarà d'enviar el missatge al número %1$s. Afegeix el prefix d'aquest contacte per als propers missatges. %2$s"</string>
+    <string name="conversation_block_failed_message">"No s'ha bloquejat; comprova la connexió"</string>
+    <string name="conversation_blocking_message">"S'està bloquejant…"</string>
     <string name="conversation_country_code_popup_paragraph">"Afegeix el codi de país (+%1$s per a %2$s) a aquest contacte perquè el missatge s'enviï a la persona correcta. %3$s"</string>
     <string name="conversation_creation_failed">"No s'ha pogut crear la conversa; torna-ho a provar més tard."</string>
     <string name="conversation_creation_failure">"No s'ha pogut iniciar la conversa"</string>
+    <string name="conversation_deleting_message">"S'està suprimint…"</string>
     <string name="conversation_deletion_failed">"No s'ha pogut suprimir la conversa"</string>
+    <string name="conversation_deletion_failed_message">"No s'ha suprimit; comprova la connexió"</string>
     <string name="conversation_empty_name">Buit</string>
     <string name="conversation_label_all">Tot</string>
     <string name="conversation_label_business_updates">Empresa</string>
@@ -479,7 +503,6 @@ Pots desactivar les funcions de xat a Configuració. %1$s"</string>
     <string name="conversation_list_item_view_draft_message">Esborrany</string>
     <string name="conversation_list_item_view_sent_from_other_prefix">%s:</string>
     <string name="conversation_list_item_view_sent_from_you_prefix">"Tu: "</string>
-    <string name="conversation_list_loading_item_description">"S'està carregant la conversa"</string>
     <string name="conversation_list_message_fail_to_decrypt">No es pot desencriptar</string>
     <string name="conversation_list_rcs_promo_button_negative">"No actualitzis l'aplicació"</string>
     <string name="conversation_list_rcs_promo_button_positive">Actualitza ara</string>
@@ -491,7 +514,6 @@ Pots desactivar les funcions de xat a Configuració. %1$s"</string>
     <string name="conversation_list_snippet_link">Enllaç</string>
     <string name="conversation_list_spam_popup_negative">Gestiona a Configuració</string>
     <string name="conversation_list_spam_popup_paragraph">"Per evitar el correu brossa, Google utilitza els números de telèfon dels remitents i destinataris desconeguts. Els teus missatges i contactes no s'envien a Google. %1$s"</string>
-    <string name="conversation_list_spam_popup_paragraph_on_device">Missatges utilitza la intel·ligència del dispositiu per detectar missatges brossa, i envia a Google determinades dades sobre aquests missatges sense incloure-hi el contingut ni el teu número de telèfon. %1$s</string>
     <string name="conversation_list_spam_popup_positive">"D'acord"</string>
     <string name="conversation_list_spam_popup_title">Protecció contra missatges brossa</string>
     <string name="conversation_list_terms_and_conditions_promo_subtitle">"Acaba d'activar les funcions de xat per gaudir de missatges per Wi-Fi i molt més."</string>
@@ -514,6 +536,7 @@ Pots desactivar les funcions de xat a Configuració. %1$s"</string>
     <string name="conversation_suggestion_set_reminder_action">"S'ha suggerit l'acció de definir un recordatori"</string>
     <string name="conversation_suggestion_share_location_action">"Acció de compartició d'ubicació suggerida"</string>
     <string name="conversation_suggestion_share_location_action_failure">"S'ha produït un error. Per compartir la teva ubicació, afegeix-la a un missatge nou."</string>
+    <string name="conversation_suggestion_star_action">"Acció d'estrella suggerida"</string>
     <string name="conversation_suggestion_sticker">Adhesiu suggerit</string>
     <string name="copy">Copia</string>
     <string name="copy_to_clipboard">Copia</string>
@@ -523,6 +546,7 @@ Pots desactivar les funcions de xat a Configuració. %1$s"</string>
     <string name="create_group_info_title">Afegeix un nom al grup</string>
     <string name="create_new_group_message">En afegir aquesta persona, es crearà un grup sense funcions de xat</string>
     <string name="current_country_pref_title">País actual</string>
+    <string name="custom_reaction_selection_prompt">Selecciona un emoji</string>
     <string name="dark_mode_disable_title">Desactiva el mode fosc</string>
     <string name="dark_mode_enable_title">Activa el mode fosc</string>
     <string name="dasher_disabled_notification_body">"Contacta amb l'administrador del sistema o inicia la sessió amb un altre compte."</string>
@@ -590,12 +614,9 @@ Pots desactivar les funcions de xat a Configuració. %1$s"</string>
     <string name="ditto_activity_label">Vinculació de dispositius</string>
     <string name="ditto_foreground_service_device_pairing_notification_text">Els missatges estan disponibles al dispositiu que has vinculat</string>
     <string name="ditto_foreground_service_device_pairing_notification_title">Vinculació de dispositius</string>
-    <string name="ditto_foreground_service_notification_text">"Els teus missatges estan disponibles a l'ordinador que has vinculatYour messages are available on the computer you've paired"</string>
-    <string name="ditto_foreground_service_notification_title">Missatges per al web</string>
     <string name="ditto_foreground_service_sign_out">Desvincula</string>
     <string name="ditto_persistent_notification_settings">Notificacions</string>
     <string name="ditto_settings_action_bar_title">Notificacions</string>
-    <string name="ditto_settings_connected_to_web_notification_description">\"Missatges per al web\" es mostra quan el dispositiu està en línia</string>
     <string name="ditto_settings_connected_to_web_notification_title">Mostra la notificació persistent</string>
     <string name="ditto_settings_device_paired_notification_description">"L'opció Vinculació del dispositiu es mostra quan el dispositiu està en línia"</string>
     <string name="ditto_settings_while_using_web_notification_description">Atura el so de trucada i la vibració quan el dispositiu està en línia</string>
@@ -636,6 +657,7 @@ Un equip de persones revisa els teus missatges, inclòs el número de l'empresa 
     <string name="dump_mms_pref_title">Aboca els MMS</string>
     <string name="dump_sms_pref_summary">"Aboca les dades sense processar dels SMS rebuts en un fitxer d'emmagatzematge extern"</string>
     <string name="dump_sms_pref_title">Aboca els SMS</string>
+    <string name="duplicate_upload_snackbar">"No s'han inclòs alguns duplicats"</string>
     <string name="e2ee_conversation_tombstone">"Xateges amb encriptació d'extrem a extrem amb %1$s"</string>
     <string name="e2ee_conversation_tombstone_with_learn_more">"Xateges amb encriptació d'extrem a extrem amb %1$s. %2$s"</string>
     <string name="e2ee_fail_to_send_retry_description">Torna a enviar com a xat</string>
@@ -674,7 +696,6 @@ Un equip de persones revisa els teus missatges, inclòs el número de l'empresa 
 Els missatges tornaran a canviar quan les funcions de xat es connectin de nou."</string>
     <string name="enable_rcs_auto_fallback_dialog_title">Vols tornar-ho a enviar com a missatge de text (SMS/MMS)?</string>
     <string name="enable_rcs_auto_fallback_title">Torna a enviar automàticament com a missatge de text (SMS/MMS)</string>
-    <string name="enable_rcs_fallback_to_sms_title">Torna a enviar els missatges no entregats</string>
     <string name="enable_rcs_fallback_to_xms_title">Torna a enviar els missatges no entregats</string>
     <string name="enable_rcs_summary_off">Utilitza la Wi-Fi o dades per enviar missatges quan estiguin disponibles</string>
     <string name="enable_rcs_summary_on">Utilitza dades per enviar missatges quan estiguin disponibles</string>
@@ -686,9 +707,13 @@ Els missatges tornaran a canviar quan les funcions de xat es connectin de nou."<
     <string name="enter_phone_number_title">Confirma el teu número de telèfon</string>
     <string name="enter_phone_number_title_for_sim">Confirma el número de telèfon de la SIM %1$s</string>
     <string name="enumeration_comma">", "</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_failed_to_save_setting">No es pot desar. Torna-ho a provar.</string>
     <string name="error_icon_content_description">Error</string>
     <string name="error_premium_sms_needs_permission">"Per enviar aquest missatge, ves a la configuració del dispositiu i activa l'accés als SMS prèmium"</string>
+    <string name="error_text_draft_is_reply_to_missing_message">No es pot respondre a un missatge suprimit</string>
+    <string name="error_text_draft_is_reply_without_rcs">"Hi ha problemes amb les funcions de xat. Prova d'enviar el missatge sense respondre."</string>
+    <string name="error_text_scheduled_send_with_draft_reply">No es pot programar una resposta en aquest moment</string>
     <string name="etouffee_to_rcs_notification">"Missatges ha detectat que no s'ha utilitzat l'encriptació d'extrem a extrem en una conversa. Toca per enviar suggeriments."</string>
     <string name="etouffee_to_telephony_setting">Privadesa</string>
     <string name="etouffee_to_telephony_setting_description">"Entre els permisos d'SMS s'inclouen els teus missatges encriptats d'extrem a extrem perquè Android en pugui crear una còpia de seguretat i es puguin llegir en veu alta al cotxe o en un dispositiu complementari, entre d'altres. Pots veure i gestionar les aplicacions amb permisos d'SMS a la configuració d'Android.
@@ -714,19 +739,24 @@ Si canvies aquesta opció, això no afectarà els missatges d'aquest tipus que j
     <string name="exo_controls_pause_description">Posa en pausa</string>
     <string name="exo_controls_play_description">Reprodueix</string>
     <string name="exo_controls_previous_description">Anterior</string>
-    <string name="exo_controls_repeat_all_description">Repeteix tot</string>
-    <string name="exo_controls_repeat_off_description">No en repeteixis cap</string>
-    <string name="exo_controls_repeat_one_description">Repeteix una</string>
+    <string name="exo_controls_repeat_all_description">Actual: repeteix tot. Commuta mode repetició.</string>
+    <string name="exo_controls_repeat_off_description">Actual: no repeteixis. Commuta mode repetició.</string>
+    <string name="exo_controls_repeat_one_description">Actual: repeteix un. Commuta mode repetició.</string>
     <string name="exo_controls_rewind_description">Rebobina</string>
     <string name="exo_controls_show">Mostra els controls del reproductor</string>
-    <string name="exo_controls_shuffle_off_description">Desactiva reproducció aleatòria</string>
-    <string name="exo_controls_shuffle_on_description">Activa reproducció aleatòria</string>
+    <string name="exo_controls_shuffle_off_description">Activa el mode aleatori</string>
+    <string name="exo_controls_shuffle_on_description">Desactiva el mode aleatori</string>
     <string name="exo_controls_vr_description">Mode RV</string>
     <string name="exo_track_selection_auto">Automàtica</string>
     <string name="exo_track_selection_none">Cap</string>
     <string name="expand_attach_button_content_description">Amplia els botons dels fitxers adjunts</string>
     <string name="expand_button_title">Opcions avançades</string>
     <string name="exposed_dropdown_menu_content_description">Mostra el menú desplegable</string>
+    <string name="express_sign_in_illustration_content_description">Il·lustració de la funció de compartir contingut multimèdia</string>
+    <string name="express_sign_in_sub_title">"Inicia la sessió i envia enllaços de Google Fotos
+per preservar la nitidesa dels vídeos."</string>
+    <string name="express_sign_in_title">"Comparteix vídeos
+amb la qualitat esperada"</string>
     <string name="fail_to_decrypt_message_metadata">No es pot desencriptar; toca per veure opcions</string>
     <string name="fail_to_load_dialog_negative_button">Envia un missatge amb la SIM del dispositiu</string>
     <string name="fail_to_load_dialog_positive_button">Torna-ho a provar</string>
@@ -740,6 +770,7 @@ Si canvies aquesta opció, això no afectarà els missatges d'aquest tipus que j
     <string name="failed_message_content_description">"S'ha produït un error en enviar el missatge. Toca per tornar-ho a provar."</string>
     <string name="failed_qr_pairing_dialog_message">"S'ha produït un error. Torna-ho a provar d'aquí a uns quants minuts."</string>
     <string name="failed_qr_pairing_dialog_positive_button_text">"D'acord"</string>
+    <string name="failed_to_select_attachment_from_system_picker">"No s'ha pogut seleccionar aquest fitxer adjunt"</string>
     <string name="fast_track_negative_button_text">No, gràcies</string>
     <string name="fast_track_popup_accepted_snack_bar_text">"S'estan configurant les funcions de xat. T'avisarem quan estiguin a punt."</string>
     <string name="fast_track_popup_declined_snack_bar_text">Pots activar les funcions de xat a Configuració en qualsevol moment.</string>
@@ -805,6 +836,9 @@ Si canvies aquesta opció, això no afectarà els missatges d'aquest tipus que j
     <string name="fi_settings_download_over_wifi_title">Sincronitza el contingut multimèdia només per Wi-Fi</string>
     <string name="fi_settings_opt_out_failed">Ara mateix no es pot aturar la sincronització i tancar la sessió. Torna-ho a provar més tard.</string>
     <string name="fi_settings_opt_out_in_progress">"S'està aturant la sincronització i tancant la sessió"</string>
+    <string name="fi_settings_redirect_button">Gestiona la còpia de seguretat</string>
+    <string name="fi_settings_redirect_summary">La trobaràs al menú del compte</string>
+    <string name="fi_settings_redirect_title">"La configuració de Còpia de seguretat i sincronització s'ha mogut"</string>
     <string name="fi_settings_sync_preference_backup_in_progress">Còpia de seguretat en curs: %1$d%%</string>
     <string name="fi_settings_sync_preference_restore_in_progress">Restauració en curs: %1$d%%</string>
     <string name="fi_settings_sync_preference_summary">Els missatges, les trucades i els missatges de veu es mantenen actualitzats en totes les pantalles</string>
@@ -822,6 +856,7 @@ Si canvies aquesta opció, això no afectarà els missatges d'aquest tipus que j
     <string name="file_transfer_via_sms_other">He compartit un fitxer amb tu</string>
     <string name="file_transfer_via_sms_video">He compartit un vídeo amb tu</string>
     <string name="files_shortcut_title">Fitxers</string>
+    <string name="flip_camera_button_label">Canvia de càmera</string>
     <string name="floating_toolbar_close_overflow_description">Tanca el menú addicional</string>
     <string name="floating_toolbar_open_overflow_description">Més opcions</string>
     <string name="foreground_service_notification_generic_text">Missatges està treballant en segon pla</string>
@@ -835,12 +870,27 @@ Si canvies aquesta opció, això no afectarà els missatges d'aquest tipus que j
     <string name="full_banner_expand_chip_description">"Botó Desplega l'etiqueta"</string>
     <string name="full_screen_gallery_action_attach">Afegeix</string>
     <string name="fullscreen_button_description">Obre en pantalla completa</string>
+    <string name="gaia_auth_failure_dialog_body">Si no inicies la sessió, no podràs fer servir algunes funcions proporcionades pel teu Compte de Google</string>
+    <string name="gaia_auth_failure_dialog_title">Per verificar la teva identitat, torna a iniciar la sessió</string>
+    <string name="gallery_google_photos_option_tray_button_add">Afegeix</string>
+    <string name="gallery_google_photos_option_tray_button_always">Sempre</string>
+    <string name="gallery_google_photos_option_tray_button_cancel">Cancel·la</string>
+    <string name="gallery_google_photos_option_tray_button_just_once">Només una vegada</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_image">Imatge de menor claredat</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_unknown">Fitxers multimèdia de baixa qualitat</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_video">Vídeo de baixa qualitat</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_image">Imatge</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_unknown">Multimèdia</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_video">Vídeo</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_body">Nitidesa excepcional. Gestiona els enllaços compartits a Google Fotos.</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_learn_more">Més informació</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_title">Enllaç de Google Fotos</string>
+    <string name="gallery_item_content_description_selected_state">Desselecciona aquest element (%1$s) adjunt a la posició %2$s fent-hi doble toc</string>
+    <string name="gallery_item_content_description_unselected_state">Fes doble toc per seleccionar aquest element (%1$s), fet a les %2$s</string>
     <string name="general_settings">General</string>
     <string name="general_settings_activity_title">Configuració general</string>
     <string name="general_settings_title_m2">Opcions</string>
     <string name="generic_issue_text">Altres</string>
-    <string name="get_messenger_notification_body">Llegeix i envia missatges de text des del rellotge o el telèfon</string>
-    <string name="get_messenger_notification_header">Baixa Missatges</string>
     <string name="get_sticker_packs_error_msg">"No s'han pogut carregar els adhesius."</string>
     <string name="gif_screen_no_result">"No s'ha trobat cap resultat. Comprova la cerca i torna-ho a provar."</string>
     <string name="gif_screen_title">GIF</string>
@@ -848,10 +898,23 @@ Si canvies aquesta opció, això no afectarà els missatges d'aquest tipus que j
     <string name="gif_search_hint">Cerca GIF</string>
     <string name="gifs_shortcut_title">GIF</string>
     <string name="go_to_top">Mostra el més recent</string>
-    <string name="google_account_pref_title">Compte de Google</string>
     <string name="google_assistant_verification_channel_name">"Verificador de l'Assistent"</string>
     <string name="google_assistant_verification_notification_title">"L'Assistent de Google està enviant el missatge"</string>
     <string name="google_fi_text">Google Fi</string>
+    <string name="google_photos_onboarding_close_button_description">Tanca la targeta de Google Fotos</string>
+    <string name="google_photos_onboarding_ineligible_title">Inicia la sessió a Google Fotos per enviar vídeos amb molta nitidesa</string>
+    <string name="google_photos_onboarding_ineligible_title_photos_and_videos">Inicia la sessió a Google Fotos per enviar fotos i vídeos amb molta nitidesa</string>
+    <string name="google_photos_onboarding_learn_more">Més informació</string>
+    <string name="google_photos_onboarding_next">Següent</string>
+    <string name="google_photos_onboarding_ok">D’acord</string>
+    <string name="google_photos_onboarding_signed_in_title_photos_and_videos">Inicia la sessió per enviar fotos i vídeos amb molta nitidesa</string>
+    <string name="google_photos_onboarding_signed_out_title">Inicia la sessió per enviar vídeos amb molta nitidesa</string>
+    <string name="google_photos_onboarding_text_body">Envia enllaços de Google Fotos en converses per MMS perquè els vídeos no perdin nitidesa</string>
+    <string name="google_photos_onboarding_text_body_photos_and_videos_xms">Envia enllaços de Google Fotos en converses per MMS perquè els fitxers multimèdia no perdin nitidesa</string>
+    <string name="google_photos_onboarding_title">Comparteix vídeos amb la qualitat original</string>
+    <string name="google_photos_onboarding_title_photos_and_videos">Comparteix fotos i vídeos amb la qualitat original</string>
+    <string name="google_photos_option_tray">Inicia la sessió per enviar vídeos més nítids</string>
+    <string name="google_photos_option_tray_photos_and_videos">Inicia la sessió per enviar fotos i vídeos amb molta nitidesa</string>
     <string name="google_play_protect_title">Google Play Protect</string>
     <string name="google_tos_chat_features_tooltip">"Mira si algú està escrivint, rep confirmacions de lectura i envia missatges, fitxers i fotos en alta resolució utilitzant les funcions de xat mitjançant el protocol Rich Communication Services (RCS). S'utilitzen dades per enviar els missatges.
 
@@ -865,8 +928,9 @@ Pots desactivar-ho a Configuració. %1$s"</string>
 
 Pots canviar la targeta SIM predeterminada per a les trucades des de Configuració del sistema. %1$s"</string>
     <string name="google_tos_multisim_view_accessibility_description">Més informació</string>
+    <string name="google_tos_negative_link_text">No, gràcies</string>
     <string name="group_conversation_title_everyone_else_left">Jo</string>
-    <string name="group_limit_alert_dialog_message">{max_group_size_including_self,plural, =1{No hi pot haver més d’# persona}other{No hi pot haver més de # persones}}</string>
+    <string name="group_limit_alert_dialog_message">{max_group_size_excluding_self,plural, =1{No hi pot haver més d’# persona addicional}other{No hi pot haver més de # persones addicionals}}</string>
     <string name="group_mms_pref_title">Missatge de grup</string>
     <string name="group_name_edit_text_label">Nom del grup</string>
     <string name="guest_cloud_preview">PREVISUALITZACIÓ</string>
@@ -876,14 +940,19 @@ Pots canviar la targeta SIM predeterminada per a les trucades des de Configuraci
     <string name="happy_birthday_no_name">"Felicita-li l'aniversari!"</string>
     <string name="hidden_sender_address">"Amaga l'adreça del remitent"</string>
     <string name="highlighter">Retolador fluorescent</string>
+    <string name="how_it_works_link_text">Com funciona</string>
+    <string name="hqms_always_send_image_as_link_pref_title">Envia sempre les imatges mitjançant un enllaç als missatges de text (SMS/MMS)</string>
+    <string name="hqms_always_send_video_as_link_pref_title">Envia sempre els vídeos mitjançant un enllaç als missatges de text (SMS/MMS)</string>
+    <string name="hqms_settings_gaia_card_text">Gestiona els enllaços a Google Fotos</string>
+    <string name="hqms_settings_info_text">"Missatges penja el contingut a Google Fotos, des d'on pots gestionar la compartició d'enllaços de vídeo. %1$s"</string>
+    <string name="hqms_settings_sign_in_prompt_text">Inicia la sessió al teu Compte de Google per utilitzar aquesta funció</string>
     <string name="hqms_settings_summary">Comparteix vídeos amb una nitidesa excepcional en missatges de text (SMS/MMS)</string>
     <string name="hqms_settings_title">Google Fotos</string>
     <string name="identity_verification_notification_text">Missatges està verificant un missatge entrant</string>
     <string name="ignore">Ignora</string>
     <string name="image_attachment_content_description">Imatge adjunta</string>
     <string name="image_compress_info">"El destinatari veurà les imatges en una qualitat inferior a causa de les limitacions de l'operador de telefonia mòbil pel que fa als MMS"</string>
-    <string name="imei_format_dropdown_hint">Defineix el format IMEI</string>
-    <string name="imsi_format_dropdown_hint">Defineix el format IMSI</string>
+    <string name="image_format_type">imatge</string>
     <string name="in_conversation_blocked_contact_text">És possible que no vegis tots els missatges, perquè en aquesta conversa hi ha contactes bloquejats.</string>
     <string name="in_conversation_notify_new_message_action">Mostra</string>
     <string name="in_conversation_notify_new_message_text">Missatge nou</string>
@@ -893,7 +962,7 @@ Pots canviar la targeta SIM predeterminada per a les trucades des de Configuraci
     <string name="incoming_message_for_secondary_user_notification_title">Missatge nou</string>
     <string name="incoming_message_foreground_notification_text">Missatges està processant un missatge entrant</string>
     <string name="incoming_mms_disabled_by_company_pref_summary">La teva empresa no permet els missatges MMS entrants</string>
-    <string name="indeterminate">Ni marcada ni desmarcada</string>
+    <string name="indeterminate">Marcat parcialment</string>
     <string name="info_and_options_activity_business_tab_list_header">Empresa</string>
     <string name="info_and_options_activity_info_tab_content_description">Informació</string>
     <string name="info_and_options_activity_info_tab_title">Informació</string>
@@ -904,6 +973,9 @@ Pots canviar la targeta SIM predeterminada per a les trucades des de Configuraci
     <string name="info_and_options_view_terms_of_service">Consulta les condicions del servei</string>
     <string name="inline_playback_error">No es pot reproduir aquest vídeo a Missatges</string>
     <string name="inline_playback_pause_content_description">Posa en pausa el vídeo</string>
+    <string name="install_photos_app">Baixa Google Fotos</string>
+    <string name="install_photos_app_title">"Per continuar, baixa l'aplicació Google Fotos"</string>
+    <string name="install_photos_app_to_continue">"Instal·la l'aplicació per enviar vídeos amb molta nitidesa"</string>
     <string name="invalid_qr_code_dialog_message">Per iniciar la sessió, escaneja el codi QR de la pàgina %s</string>
     <string name="invalid_qr_code_dialog_positive_button_text">"D'acord"</string>
     <string name="invalid_qr_code_dialog_title">El codi no és correcte</string>
@@ -917,14 +989,12 @@ Pots canviar la targeta SIM predeterminada per a les trucades des de Configuraci
     <string name="leave_confirmation_text">"Confirmes que vols deixar de rebre missatges d'aquest grup?"</string>
     <string name="leave_confirmation_title">Surt del grup definitivament</string>
     <string name="libraries_material_featurehighlight_dismiss">Ignora</string>
-    <string name="link_preview_enabled_pref_summary">Mostra previsualitzacions als missatges</string>
+    <string name="lighter_account_sign_out_snackbar_text">"Inicia la sessió per veure les teves converses d'empresa"</string>
+    <string name="lighter_block_report_spam_body">"El nom de l'empresa i la conversa que hi has mantingut s'envien a Google (l'operador pot aplicar càrrecs)."</string>
     <string name="link_preview_enabled_pref_summary_off">Desactivat</string>
     <string name="link_preview_failed">La previsualització no està disponible</string>
     <string name="link_preview_google_photos_display_name">Google Fotos</string>
-    <string name="link_preview_preference_info_text">Google obté contingut de previsualització de llocs web enllaçats. Només els enllaços de remitents coneguts inclouen previsualitzacions. %1$s</string>
-    <string name="link_preview_preference_title">"Previsualització automàtica d'enllaços"</string>
     <string name="link_preview_tap_to_load">Toca per carregar la previsualització</string>
-    <string name="link_preview_wifi_only_pref_summary">Baixa les previsualitzacions només per Wi-Fi</string>
     <string name="link_to_settings"><u>Gestiona a Configuració</u></string>
     <string name="listify_many">%1$s i %2$d més</string>
     <string name="listify_one">%s</string>
@@ -971,13 +1041,13 @@ Compartir aquesta informació, que no inclou ni el contingut ni el text dels mis
     <string name="manual_msisdn_skipped_snack_bar_text">"Les funcions de xat millorades no s'han activat. Pots activar-les en qualsevol moment des de Configuració."</string>
     <string name="manual_msisdn_skipped_snack_bar_text_b155475148">"Missatges provarà de verificar el teu número amb l'operador. Pots gestionar-ho a Configuració."</string>
     <string name="manual_msisdn_verify_now_snack_bar_text_b155475148">"Missatges provarà de verificar el teu número amb l'operador. Pots gestionar-ho a Configuració."</string>
-    <string name="manually_override_rcs_flags">"Substitueix manualment les marques d'RCS"</string>
     <string name="mark_all_messages_as_read_confirmation">"S'han marcat tots els missatges com a llegits"</string>
     <string name="mdd_download_notification_channel_name">Canal de notificacions de Data Download</string>
     <string name="mdd_foreground_service_notification_title">"S'està baixant"</string>
     <string name="mdd_notification_action_cancel">Cancel·la</string>
     <string name="mdd_notification_download_failed">Ha fallat la baixada</string>
     <string name="mdd_notification_download_paused">"S'està esperant la connexió a la xarxa"</string>
+    <string name="mdd_notification_download_paused_wifi">"S'està esperant la connexió Wi-Fi"</string>
     <string name="media_compress_info">"El destinatari veurà els elements multimèdia en una qualitat inferior a causa de les limitacions de l'operador de telefonia mòbil pel que fa als MMS"</string>
     <string name="media_compress_tooltip_info_icon_text">informació</string>
     <string name="media_viewer_close_button_description">Tanca</string>
@@ -1076,6 +1146,8 @@ Compartir aquesta informació, que no inclou ni el contingut ni el text dels mis
     <string name="message_type_vcard">Targeta de contacte</string>
     <string name="message_type_video">Vídeo</string>
     <string name="message_video_content_description">Vídeo</string>
+    <string name="message_with_deleted_snippet_talk_back_announcement">%1$s en resposta a un missatge suprimit</string>
+    <string name="message_with_reply_snippet_talk_back_announcement">%1$s en resposta al missatge %2$s enviat per %3$s</string>
     <string name="messages_for_web_preference_summary">Ves a %1$s</string>
     <string name="messages_for_web_preference_title">Envia missatges de text, truca i consulta els missatges de veu al web</string>
     <string name="messages_status_feedback_data_description">"Tota la informació recomanada ens resulta útil per detectar problemes amagats, les seves causes i la seva interrelació, i per saber on cal aplicar la resolució de problemes.
@@ -1129,11 +1201,15 @@ Pots respondre als codis curts que només tinguin números, però no als que tin
     <string name="mms_text">MMS</string>
     <string name="more_string">+%1$d</string>
     <string name="mtrl_badge_numberless_content_description">Notificació nova</string>
+    <string name="mtrl_checkbox_state_description_checked">Checked</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Indeterminate</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Not checked</string>
     <string name="mtrl_chip_close_icon_content_description">Suprimeix %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Més de %1$d notificacions noves</string>
     <string name="mtrl_picker_a11y_next_month">Canvia al mes següent</string>
     <string name="mtrl_picker_a11y_prev_month">Canvia al mes anterior</string>
     <string name="mtrl_picker_announce_current_selection">Selecció actual: %1$s</string>
+    <string name="mtrl_picker_cancel">Cancel·la</string>
     <string name="mtrl_picker_confirm">D’acord</string>
     <string name="mtrl_picker_day_of_week_column_header">Columna de dies: %1$s</string>
     <string name="mtrl_picker_navigate_to_year_description">"Canvia a l'any %1$s"</string>
@@ -1145,11 +1221,24 @@ Pots respondre als codis curts que només tinguin números, però no als que tin
     <string name="multimedia_message">Missatge multimèdia</string>
     <string name="muted_conversation_content_description">Notificacions desactivades.</string>
     <string name="nav_app_bar_navigate_up_description">Navega cap amunt</string>
+    <string name="nav_archived_messages_folder_title">Arxivats</string>
+    <string name="nav_choose_theme_title">Selecciona un tema</string>
+    <string name="nav_choose_theme_title_disable_dark_mode">Desactiva el mode fosc</string>
+    <string name="nav_choose_theme_title_enable_dark_mode">Activa el mode fosc</string>
+    <string name="nav_device_pairing_title">Vinculació de dispositius</string>
+    <string name="nav_mark_all_as_read_title">Marca-ho tot com a llegit</string>
+    <string name="nav_messages_folder_title">Missatges</string>
+    <string name="nav_spam_and_blocked_messages_folder_title">Brossa i bloquejats</string>
+    <string name="nav_starred_folder_title">Destacats</string>
     <string name="navigate_up_button_content_description">Navega cap amunt</string>
     <string name="new_message_label">{count,plural, =1{1 missatge nou}other{# missatges nous}}</string>
     <string name="new_pill_label">Nou</string>
     <string name="new_rich_cards_preference_info_text">Google analitza determinada informació (com ara llocs o enllaços) del teu historial de xat sense identificar-te per crear previsualitzacions i detectar contingut perjudicial. %1$s</string>
-    <string name="no_google_account">Cap</string>
+    <string name="no_business_name_fallback">aquesta empresa</string>
+    <string name="no_connection">No hi ha connexió</string>
+    <string name="no_media_button">Mostra les opcions</string>
+    <string name="no_media_caption">Prova una altra font o perfil multimèdia</string>
+    <string name="no_media_description">No hi ha cap font multimèdia desada en aquest dispositiu per a aquest perfil</string>
     <string name="no_reply_pinned_message_text">El remitent no admet respostes</string>
     <string name="no_sim_message">No hi ha cap missatge a la SIM</string>
     <string name="not_selected">No seleccionat</string>
@@ -1205,31 +1294,51 @@ Pots respondre als codis curts que només tinguin números, però no als que tin
     <string name="nudge_learn_more_info_text">Més informació sobre els tocs</string>
     <string name="nudge_reply_enabled_pref_summary">Els missatges que possiblement has de respondre es col·locaran al començament</string>
     <string name="nudge_reply_enabled_pref_title">Suggereix recordatoris de resposta</string>
+    <string name="nudge_settings_page_description">"Mostra recordatoris de resposta i d'aniversaris"</string>
     <string name="nudge_settings_page_title">Tocs</string>
     <string name="numeric_text_keyboard_toggle_button_content_description">Alterna entre escriure lletres i números</string>
     <string name="off">Desactivat</string>
     <string name="og_a11y_close">Tanca</string>
     <string name="og_account_and_settings">Compte i configuració.</string>
+    <string name="og_account_particle_disc_no_accounts_available_a11y">Inicia la sessió</string>
     <string name="og_add_another_account">Afegeix un altre compte</string>
+    <string name="og_app_settings">Configuració de %1$s</string>
     <string name="og_choose_an_account_title">Tria un compte</string>
     <string name="og_collapse_account_list_a11y">Replega la llista de comptes.</string>
     <string name="og_continue">Continua</string>
     <string name="og_continue_as">Continua com a %1$s</string>
     <string name="og_expand_account_list_a11y">Desplega la llista de comptes.</string>
+    <string name="og_get_storage_action">Obtén emmagatzematge</string>
+    <string name="og_get_storage_action_short">"Compra'n més"</string>
     <string name="og_google_one_account_a11y">Compte de Google One.</string>
+    <string name="og_help_feedback">Ajuda i suggeriments</string>
     <string name="og_loading_a11y">"S'està carregant"</string>
     <string name="og_manage_accounts">Gestiona comptes en aquest dispositiu</string>
+    <string name="og_manage_storage_action">"Gestiona l'emmagatzematge"</string>
+    <string name="og_manage_storage_action_short">Gestiona</string>
+    <string name="og_minimized_storage_card_title">Emmagatzematge utilitzat: %1$s de %2$s GB</string>
+    <string name="og_more_options_action">Més opcions</string>
+    <string name="og_more_options_action_short">Opcions</string>
     <string name="og_my_account_desc_long_length">Gestiona el teu Compte de Google</string>
     <string name="og_my_account_desc_meduim_length">Compte de Google</string>
     <string name="og_my_account_desc_short_length">Compte</string>
+    <string name="og_privacy_advisor">Les teves dades a %1$s</string>
     <string name="og_privacy_policy">Política de privadesa</string>
     <string name="og_selected_account_a11y">"S'ha seleccionat %1$s."</string>
     <string name="og_sign_in_">Inicia la sessió</string>
     <string name="og_signed_in_as_account">Has iniciat la sessió com a %1$s</string>
+    <string name="og_storage_card_almost_full_a11y_label">"L'emmagatzematge del teu compte és gairebé ple"</string>
+    <string name="og_storage_card_full_a11y_label">"L'emmagatzematge del teu compte és ple"</string>
+    <string name="og_storage_card_title">Emmagatzematge del compte</string>
+    <string name="og_storage_card_title_almost_full">"%1$s d'emmagatzematge utilitzat"</string>
+    <string name="og_storage_card_title_full">Sense emmagatzematge</string>
+    <string name="og_storage_progress_subtitle">%1$s de %2$s GB en ús</string>
     <string name="og_terms_of_service">Condicions del servei</string>
     <string name="og_use_account_a11y_no_period">Utilitza %1$s</string>
+    <string name="og_use_without_an_account">Utilitza sense cap compte</string>
     <string name="on">Activat</string>
     <string name="onboarding_google_tos_with_sms_charges_and_learn_more">"Per activar les funcions de xat de Google, has d'acceptar les %1$s i la %2$s. Google intercanviarà la informació del dispositiu amb l'operador de telefonia mòbil per verificar el teu número de tant en tant (es poden aplicar càrrecs de missatges SMS). %3$s."</string>
+    <string name="open_full_screen_camera_button_label">Obre la càmera a pantalla completa</string>
     <string name="open_video_trimmer_dialog_negative">Cancel·la</string>
     <string name="open_video_trimmer_dialog_positive">Retalla</string>
     <string name="organization">Organització</string>
@@ -1243,8 +1352,6 @@ Pots respondre als codis curts que només tinguin números, però no als que tin
     <string name="otp_auto_deletion_promo_banner_positive_button_text">Continua</string>
     <string name="otp_auto_deletion_promo_banner_title_text">Vols que les OTP se suprimeixin automàticament al cap de 24 hores?</string>
     <string name="otp_copied_to_clipboard">"El codi s'ha copiat"</string>
-    <string name="otp_pattern_dropdown_hint">Defineix el patró OTP</string>
-    <string name="otp_port_dropdown_hint">Defineix el port OTP</string>
     <string name="outgoing_message_foreground_notification_text">Missatges està processant un missatge sortint</string>
     <string name="outgoing_mms_disabled_by_carrier_pref_summary">El teu operador no permet els missatges MMS sortints</string>
     <string name="outgoing_mms_disabled_by_company_pref_summary">La teva empresa no permet els missatges MMS sortints</string>
@@ -1270,6 +1377,7 @@ Pots respondre als codis curts que només tinguin números, però no als que tin
     <string name="paired_desktops_last_connection_time">Última activitat: %s</string>
     <string name="paired_desktops_last_connection_time_unknown">desconeguda</string>
     <string name="participant_joined_group">"%s s'ha unit al grup"</string>
+    <string name="participant_joined_with_learn_more">"%1$s s'han unit a aquest grup. %2$s"</string>
     <string name="participant_left_group">%s ha sortit del grup</string>
     <string name="participant_list_add">Afegeix persones</string>
     <string name="participant_list_count_title_icu">{count,plural, =0{Cap persona més}=1{1 persona més}other{# persones més}}</string>
@@ -1289,6 +1397,7 @@ Pots respondre als codis curts que només tinguin números, però no als que tin
     <string name="phone_number_input_body_for_mo_text">"També pots ometre aquest pas per obtenir les funcions de xat més endavant i Missatges provarà de verificar el teu número amb l'operador"</string>
     <string name="phone_number_input_body_text">Per garantir que rebis les funcions de xat, Missatges verifica el teu número</string>
     <string name="phone_number_input_hint">El teu número de telèfon</string>
+    <string name="phone_number_input_invalid_number_text">Número de telèfon no vàlid</string>
     <string name="phone_number_input_negative_button_for_mo_text">Omet per ara</string>
     <string name="phone_number_input_negative_button_for_mt_text">"Recorda-m'ho més tard"</string>
     <string name="phone_number_input_positive_button_text">Afegeix el número</string>
@@ -1305,10 +1414,25 @@ Pots respondre als codis curts que només tinguin números, però no als que tin
     <string name="phone_number_input_title_text">Per obtenir més ràpidament les funcions de xat, afegeix ara el teu número</string>
     <string name="phone_number_input_tos_reminder_text">Anteriorment, vas acceptar les %1$s de les funcions de xat</string>
     <string name="phone_number_input_tos_text">condicions del servei</string>
+    <string name="phone_number_promo_banner_body_text">Per enviar vídeos amb molta nitidesa, reaccions animades i més a través de la Wi‐Fi o les dades mòbils, confirma el teu número de telèfon</string>
+    <string name="phone_number_promo_banner_negative_button_text">Ignora</string>
+    <string name="phone_number_promo_banner_positive_button_text">Següent</string>
+    <string name="phone_number_promo_banner_title_text">Proper pas per gaudir de millors funcions de Missatges</string>
+    <string name="phone_number_promo_body_text">Comença verificant el teu número de telèfon. Pots gestionar les funcions de xat en qualsevol moment des de la configuració.</string>
+    <string name="phone_number_promo_body_text_mo">Comença verificant el teu número de telèfon. També pots ometre aquest pas per obtenir les funcions de xat més endavant i Missatges provarà de verificar el teu número per tu.</string>
+    <string name="phone_number_promo_negative_button_text">"Recorda-m'ho més tard"</string>
+    <string name="phone_number_promo_negative_button_text_mo">Omet per ara</string>
+    <string name="phone_number_promo_positive_button_text">Obtén les funcions de xat</string>
+    <string name="phone_number_promo_title_text">Vols compartir fotos, vídeos i més mitjançant la Wi-Fi o les dades?</string>
+    <string name="phone_number_ui_accepted_snackbar_text">Quan les funcions de xat estiguin disponibles, rebràs una notificació</string>
+    <string name="phone_number_ui_dismissed_snackbar_action_text">Configuració</string>
+    <string name="phone_number_ui_dismissed_snackbar_text">Per gaudir de les funcions de xat ara, afegeix el teu número de telèfon o gestiona-ho a Configuració</string>
     <string name="photo_taken">"S'ha fet una foto"</string>
+    <string name="photos_app_installation_required">"Per enviar vídeos amb molta nitidesa, obtén l'aplicació Google Fotos"</string>
+    <string name="photos_app_onboarding_required">"Per enviar vídeos amb molta nitidesa, permet l'accés a Google Fotos"</string>
+    <string name="photos_app_sharing_unavailable_try_again_later">Els enllaços de vídeo amb molta nitidesa no estan disponibles temporalment, però ja pots enviar vídeos amb menys nitidesa.</string>
+    <string name="photos_app_sign_in_required">Per enviar vídeos amb molta nitidesa, inicia la sessió a Google Fotos</string>
     <string name="picker_disambiguation_title">Selecciona el número de destinació</string>
-    <string name="pin_limit_message">Pots fixar un màxim de %1$d converses</string>
-    <string name="pin_success_message">Converses fixades: %1$d de %2$d</string>
     <string name="pinch_zoom_pref_title">Pinça per ampliar el text de la conversa</string>
     <string name="places_autocomplete_clear_button">Esborra la cerca</string>
     <string name="places_autocomplete_label">Tria un lloc</string>
@@ -1328,7 +1452,7 @@ Pots respondre als codis curts que només tinguin números, però no als que tin
     <string name="posted_this_year">%1$s%2$s%3$s</string>
     <string name="posted_yesterday">Ahir%1$s%2$s</string>
     <string name="preference_copied">"\"%1$s\" s'ha copiat al porta-retalls"</string>
-    <string name="preferences_license_title">Llicències de programari lliure</string>
+    <string name="preferences_license_title">Avisos de tercers</string>
     <string name="premium_sms_banner_body">"Per enviar missatges a %s i altres números d'SMS prèmium, activa aquesta opció a Configuració."</string>
     <string name="premium_sms_banner_body_saved_contact">"Per enviar missatges a %1$s (%2$s) i altres números d'SMS prèmium, activa aquesta opció a Configuració."</string>
     <string name="premium_sms_banner_description">@string/banner_description</string>
@@ -1359,10 +1483,11 @@ La informació sobre els missatges i les converses inclou el número de telèfon
 Aquesta informació ens ajuda a validar suposicions i identificar els factors que poden provocar el problema per entendre'l de manera més ràpida i eficaç."</string>
     <string name="problematic_message_feedback_data_rationale_title">Per a què ens serveix la informació sobre missatges i converses</string>
     <string name="promotion_content_description">Aquest missatge està classificat com a oferta</string>
+    <string name="prompt_button_action_not_now">Ara no</string>
+    <string name="prompt_button_action_sign_in">Inicia la sessió</string>
     <string name="proxy_screen_clear_search">Esborra la cerca</string>
     <string name="proxy_screen_search">Cerca</string>
     <string name="qr_action_bar_device_pairing_title">Vinculació de dispositius</string>
-    <string name="qr_action_bar_title">Missatges per al web</string>
     <string name="qr_code_scanner_hint_text">Escaneja el codi QR que es mostra a&lt;br/><b>%s</b></string>
     <string name="qr_code_scanner_preference_button">Escàner de codis QR</string>
     <string name="qr_delete_all_paired_desktops_button_text">Desvincula tots els dispositius</string>
@@ -1376,7 +1501,9 @@ Aquesta informació ens ajuda a validar suposicions i identificar els factors qu
     <string name="qr_welcome_hangouts_unpair_devices_text">Desvincula tots els dispositius</string>
     <string name="qr_welcome_privacy">política de privadesa</string>
     <string name="qr_welcome_terms_of_service">condicions del servei</string>
-    <string name="rbm_block_confirmation_message_spam_folder">"Ja no rebràs més notificacions dels missatges que t'enviï %1$s. Aquesta conversa es mourà a Converses brossa i bloquejades. %2$s"</string>
+    <string name="rbm_block_confirmation_message_spam_folder">Deixaràs de rebre notificacions quan rebis missatges de %1$s. Aquesta conversa es mourà a Converses brossa i bloquejades. %2$s</string>
+    <string name="rbm_block_dialog_body">"No rebràs missatges d'aquest remitent. Aquesta conversa es mourà a \"Converses brossa i bloquejades\", des d'on la podràs desbloquejar en qualsevol moment."</string>
+    <string name="rbm_block_dialog_positive_button_label">Bloqueja</string>
     <string name="rbm_business_logo_icon_content_description">"Icona amb el logotip de l'empresa"</string>
     <string name="rbm_platform_generalized_verifier_title">Amb la verificació de %s</string>
     <string name="rbm_platform_verified_by_google">Verificat per Google</string>
@@ -1396,6 +1523,7 @@ Aquesta informació ens ajuda a validar suposicions i identificar els factors qu
     <string name="rcs_learn_more_title">%1$s sobre les funcions de xat</string>
     <string name="rcs_learn_more_title_with_no_link">Més informació sobre les funcions de xat</string>
     <string name="rcs_message">Missatge de Rich Communication Service</string>
+    <string name="rcs_message_failed_recipient_lost_encryption_content_description">No es pot entregar; toca per veure les opcions</string>
     <string name="rcs_message_failed_recipient_lost_rcs_content_description">No es pot entregar; toca per veure les opcions</string>
     <string name="rcs_mobile_data_auto_download_carrier_format_entry">Predeterminat (%1$s)</string>
     <string name="rcs_mobile_data_auto_download_limit_disable_entry_text">Desactiva</string>
@@ -1478,11 +1606,12 @@ Aquesta informació ens ajuda a validar suposicions i identificar els factors qu
     <string name="reaction_surprised_content_description">Cara amb la boca oberta</string>
     <string name="reactions_promo_announcement">Mantén premut per reaccionar</string>
     <string name="reactions_promo_text">Mantén premut per reaccionar</string>
-    <string name="read_external_storage_permission_description">"Per veure el contingut de la galeria directament des d'aquí, es necessita permís per accedir a l'emmagatzematge del telèfon."</string>
+    <string name="read_media_storage_permission_description">"Per veure el contingut de la galeria directament des d'aquí, es necessita permís per accedir a l'emmagatzematge multimèdia del telèfon."</string>
     <string name="received_label">Rebut:</string>
     <string name="recipient_hint">Escriu un nom, un número de telèfon o una adreça electrònica</string>
     <string name="recipient_label">Per a</string>
     <string name="recipient_offline_description">"S'està esperant que %s estigui en línia…"</string>
+    <string name="reminder_badge_content_description">Insígnia de recordatori</string>
     <string name="reminder_datetime_picker_dialog_delete_button">Suprimeix</string>
     <string name="reminder_datetime_picker_dialog_menu_title_add">Defineix un recordatori</string>
     <string name="reminder_datetime_picker_dialog_menu_title_update">Actualitza el recordatori</string>
@@ -1503,7 +1632,7 @@ Aquesta informació ens ajuda a validar suposicions i identificar els factors qu
     <string name="reminder_suggestions_tooltip_text">Toca la pantalla i tria una hora per fer-ne un seguiment més endavant. Pots desactivar els suggeriments a &lt;a href>Configuració&lt;/a>.</string>
     <string name="reminder_suggestions_tooltip_title_text">Definir recordatoris</string>
     <string name="reminders_banner_body">%1$s: %2$s</string>
-    <string name="reminders_banner_description">@string/banner_description</string>
+    <string name="reminders_banner_description">Reminder conversation banner</string>
     <string name="reminders_banner_done_button">Fet</string>
     <string name="reminders_banner_remind_button">Posposa 1 h</string>
     <string name="reminders_banner_self_sender_name">Tu</string>
@@ -1516,7 +1645,7 @@ Aquesta informació ens ajuda a validar suposicions i identificar els factors qu
     <string name="remove_reaction_from_gif_rcs_fallback_text">"S'ha suprimit ‌%1$s‌ d'un GIF"</string>
     <string name="remove_reaction_from_link_rcs_fallback_text">"S'ha suprimit ‌%1$s‌ d'un enllaç"</string>
     <string name="remove_reaction_from_photo_rcs_fallback_text">"S'ha suprimit ‌%1$s‌ d'una foto"</string>
-    <string name="remove_reaction_from_text_message_rcs_fallback_text">"S'ha suprimit ‌%1$s‌ del missatge \"%2$s\""</string>
+    <string name="remove_reaction_from_text_message_rcs_fallback_text">"S'ha suprimit ‌%1$s‌ del missatge \" %2$s \""</string>
     <string name="remove_reaction_from_unknown_message_type_rcs_fallback_text">"S'ha suprimit ‌%1$s‌ d'un tipus de missatge desconegut"</string>
     <string name="remove_reaction_from_video_rcs_fallback_text">"S'ha suprimit ‌%1$s‌ d'un vídeo"</string>
     <string name="remove_user_dialog_cancel">Cancel·la</string>
@@ -1525,14 +1654,17 @@ Aquesta informació ens ajuda a validar suposicions i identificar els factors qu
     <string name="rename_group_title_m2">Nom del grup</string>
     <string name="reply_activity_title">Respon</string>
     <string name="reply_button_label">Respon</string>
-    <string name="reply_icon_content_description">Respon al missatge</string>
+    <string name="reply_icon_content_description">Respon</string>
     <string name="report_contact_title">Marca com a brossa</string>
     <string name="report_failed_rcs_group_creation">"S'ha produït un error i no s'han afegit un o més participants."</string>
     <string name="report_group_spam_body_spam_folder">"Els números i els missatges de text recents d'altres membres del grup s'enviaran a Google per revisar-los, i també és possible que s'enviïn al teu operador (s'hi poden aplicar càrrecs). Aquesta conversa es desarà a Converses brossa i bloquejades, sense notificacions. %1$s"</string>
+    <string name="report_invalid_thread_id_issue_description">"L'identificador de la conversa no és vàlid. Consulta els registres per obtenir informació."</string>
     <string name="report_issue_action_text">Envia suggeriments</string>
+    <string name="report_issue_description">Missatges ha detectat un error de manera automàtica. Consulta els registres per obtenir informació.</string>
     <string name="report_issue_notification_text">Missatges ha detectat un error. Toca per enviar suggeriments.</string>
     <string name="report_not_spam_snackbar_message">"S'ha indicat que %1$s no és brossa"</string>
     <string name="report_person_delivered">"%1$s l'ha rebut: %2$s"</string>
+    <string name="report_person_ftd">%1$s no ha pogut fer la desencriptació: %2$s</string>
     <string name="report_person_read">"%1$s l'ha llegit: %2$s"</string>
     <string name="report_person_sent">"%s no l'ha rebut"</string>
     <string name="report_receive_issue_notification_message">"Android no pot rebre un missatge que t'han enviat. Toca per enviar suggeriments."</string>
@@ -1545,6 +1677,7 @@ Aquesta informació ens ajuda a validar suposicions i identificar els factors qu
     <string name="report_spam_snackbar_message">"S'ha indicat que %1$s és brossa"</string>
     <string name="report_spam_toast_title">"S'han marcat elements com a contingut brossa"</string>
     <string name="report_telephone_db_recreation_message">Hi ha hagut un error en recuperar els missatges. Toca per enviar suggeriments.</string>
+    <string name="report_thread_id_not_found_description">"Falta l'identificador de la conversa. Consulta els registres per obtenir informació."</string>
     <string name="required_permissions_no_promptable_promo">"Canvia els permisos a la configuració de l'aplicació del dispositiu. Permet que Missatges accedeixi als SMS, al telèfon i als contactes."</string>
     <string name="required_permissions_no_promptable_title">Concedeix accés</string>
     <string name="required_permissions_promptable_promo">Per acabar de configurar la teva aplicació predeterminada, permet que Missatges accedeixi als teus SMS, a Telèfon i a Contactes</string>
@@ -1564,6 +1697,11 @@ Aquesta informació ens ajuda a validar suposicions i identificar els factors qu
     <string name="samsung_setting_search_title">Configuració de Missatges</string>
     <string name="save">Desa</string>
     <string name="save_attachment">Desa</string>
+    <string name="save_banner_body">"Desa aquest aniversari a l'aplicació Contactes i Missatges t'enviarà un recordatori l'any que ve"</string>
+    <string name="save_banner_positive_button">"Desa l'aniversari"</string>
+    <string name="save_banner_title_name">"Recorda't de l'aniversari de %1$s"</string>
+    <string name="save_banner_title_no_name">"Recorda't del seu aniversari"</string>
+    <string name="save_birthday_banner_description">@string/banner_description</string>
     <string name="save_otp_confirm_button">"Desa l'OTP"</string>
     <string name="save_otp_dialog_message">Es desarà aquesta OTP, mentre que la resta continuarà suprimint-se automàticament al cap de 24 hores. Gestiona aquesta funció a Configuració.</string>
     <string name="save_otp_dialog_title">Vols desar aquesta OTP?</string>
@@ -1582,6 +1720,7 @@ Aquesta informació ens ajuda a validar suposicions i identificar els factors qu
     <string name="scheduled_send_announcement_scheduling_failed">"No s'ha pogut programar el missatge."</string>
     <string name="scheduled_send_announcement_scheduling_started">"S'està programant el missatge."</string>
     <string name="scheduled_send_announcement_scheduling_succeeded">"S'ha programat el missatge."</string>
+    <string name="scheduled_send_badge_content_description">"Insígnia d'enviament programat"</string>
     <string name="scheduled_send_compose_label_close_content_description">Suprimeix la programació.</string>
     <string name="scheduled_send_datetime_picker_subtitle">"Per enviar-lo, deixa el telèfon encès i connecta'l a la Wi-Fi o les dades"</string>
     <string name="scheduled_send_datetime_picker_title">"Programa l'enviament (%1$s)"</string>
@@ -1609,6 +1748,7 @@ Aquesta informació ens ajuda a validar suposicions i identificar els factors qu
     <string name="security_key_top_level_title">"Verifica l'encriptació"</string>
     <string name="see_gallery">Mostra la galeria</string>
     <string name="selected">Seleccionat</string>
+    <string name="selection_position_text">%1$d</string>
     <string name="self_left_group_conversation_failed">"No s'ha pogut sortir del grup. Torna-ho a provar més tard."</string>
     <string name="self_participant_reaction_name">Tu</string>
     <string name="self_person_name">Tu</string>
@@ -1658,7 +1798,6 @@ El número de telèfon només s'utilitza per resoldre problemes. Google no conta
     <string name="sending_timeout_failure_dialog_title">"No s'ha enviat el missatge"</string>
     <string name="sent_label">Enviat:</string>
     <string name="set_message_priority_description">"Defineix l'estat com a urgent"</string>
-    <string name="set_rcs_flags">"Defineix les marques d'RCS"</string>
     <string name="set_rcs_mobile_data_auto_download_limit_title">Baixa automàticament els fitxers rebuts mitjançant dades mòbils</string>
     <string name="setting_fast_track_body_with_cost">"En continuar, acceptes les %1$s i la %2$s. Per a l'entrega de missatges basada en un número de telèfon, és possible que Google verifiqui ocasionalment el teu número intercanviant la informació del dispositiu amb l'operador de telefonia mòbil o per SMS (es poden aplicar càrrecs). Pots desactivar les funcions de xat des de Configuració. %3$s"</string>
     <string name="settings_activity_title">Configuració</string>
@@ -1681,6 +1820,13 @@ El número de telèfon només s'utilitza per resoldre problemes. Google no conta
     <string name="shortcuts_screen_title">Dreceres</string>
     <string name="show_sms_link_warning_change_label">Canvia</string>
     <string name="show_sms_link_warning_text">"Els fitxers adjunts s'enviaran com a missatges SMS que inclouran un enllaç al fitxer"</string>
+    <string name="sign_in_app_name_without_account">Utilitza %1$s sense cap compte</string>
+    <string name="sign_in_cancel">Cancel·la</string>
+    <string name="sign_in_without_account">Utilitza sense cap compte</string>
+    <string name="sign_in_without_account_short">Sense compte</string>
+    <string name="sign_into_photos_app">Inicia la sessió</string>
+    <string name="sign_into_photos_app_title">Per continuar, inicia la sessió a Google Fotos</string>
+    <string name="sign_into_photos_app_with_x_to_continue">Actualment envies els enllaços des del compte %1$s</string>
     <string name="signature_banner_description">@string/banner_description</string>
     <string name="silent_ringtone">Silenciós</string>
     <string name="sim_label">SIM:</string>
@@ -1699,9 +1845,13 @@ El número de telèfon només s'utilitza per resoldre problemes. Google no conta
     <string name="sim_storage_full_title">"L'emmagatzematge de la targeta SIM és ple"</string>
     <string name="sim_storage_pref_title">Missatges de la targeta SIM</string>
     <string name="simple_fail_to_decrypt_message_dialog_body">"Per desencriptar els missatges futurs, actualitza l'aplicació Missatges"</string>
+    <string name="smart_action_settings_page_description">Mostra dreceres rellevants per accedir al calendari, a la cerca de GIF, a la compartició de la ubicació i més</string>
+    <string name="smart_action_settings_page_title">Accions</string>
+    <string name="smart_actions_preference_summary_shortcuts">Mostra dreceres rellevants per accedir al calendari, a la cerca de GIF, a la compartició de la ubicació i més</string>
     <string name="smart_actions_preference_title">Accions suggerides</string>
     <string name="smart_compose_preference_summary">"Mostra suggeriments d'escriptura predictius"</string>
     <string name="smart_compose_preference_title">Redacció intel·ligent</string>
+    <string name="smart_reply_preference_summary">Mostra les opcions de resposta de xat</string>
     <string name="smarts_preference_info_text">Només tu pots veure la resposta intel·ligent i les accions suggerides fins que no toquis un element i el comparteixis. &lt;br/> &lt;br/> Els suggeriments varien en funció de la conversa i es generen al dispositiu. %1$s</string>
     <string name="smarts_preference_info_text_with_assistant">"Missatges genera les respostes intel·ligents, les accions suggerides i els suggeriments de l'Assistent mitjançant la intel·ligència del dispositiu. &lt;br/> &lt;br/>Els suggeriments no es comparteixen amb Google ni amb ningú més fins que no els toquis. &lt;br/> &lt;br/> Si permets que Missatges accedeixi a la ubicació del dispositiu, se't mostraran més suggeriments locals. %1$s"</string>
     <string name="smarts_settings_page_summary">Resposta intel·ligent, accions suggerides i més</string>
@@ -1728,19 +1878,18 @@ Les respostes es mostraran en converses individuals"</string>
     <string name="snackbar_text_label_rcs_group_created_too_large">{max_group_size_including_self,plural, =1{No hi pot haver més d’# persona}other{No hi pot haver més de # persones}}</string>
     <string name="snackbar_text_label_rcs_group_self_only">"Aquest grup és buit. Afegeix-hi persones abans d'enviar missatges al xat."</string>
     <string name="snippet">%1$s: %2$s</string>
-    <string name="snippet_assistant_card_text">"Targeta d'assistència"</string>
-    <string name="snippet_attachment_icon_content_description">Icona de resposta al fragment de fitxer adjunt</string>
     <string name="snippet_audio_attachment_text">Àudio</string>
     <string name="snippet_deleted_message_text">Missatge suprimit</string>
-    <string name="snippet_dismiss_icon_content_description">Icona per ignorar la resposta</string>
+    <string name="snippet_dismiss_icon_content_description">Suprimeix</string>
     <string name="snippet_file_attachment_text">Fitxer</string>
     <string name="snippet_from_you">Tu: %s</string>
-    <string name="snippet_image_attachment_text">Imatge</string>
-    <string name="snippet_media_thumbnail_content_description">Miniatura de resposta al fragment de contingut multimèdia</string>
+    <string name="snippet_image_attachment_text">Foto</string>
     <string name="snippet_self_participant_header">Tu</string>
     <string name="snippet_video_attachment_text">Vídeo</string>
     <string name="soft_num_key_pad_backspace_content_description">Retrocés</string>
     <string name="someone_added_participant">%1$s ha afegit %2$s al grup</string>
+    <string name="someone_added_participant_with_learn_more">%1$s ha afegit %2$s a aquest grup. %3$s</string>
+    <string name="someone_else_created_encrypted_rcs_group">%1$s ha creat aquest xat de grup amb %2$s. %3$s</string>
     <string name="someone_else_created_mms_group">%1$s ha creat aquest MMS de grup amb %2$s</string>
     <string name="someone_else_created_rcs_group">%1$s ha creat aquest xat de grup amb %2$s</string>
     <string name="someone_joined_group">"Algú s'ha unit al grup"</string>
@@ -1764,7 +1913,6 @@ Les respostes es mostraran en converses individuals"</string>
     <string name="spam_dialog_title_spam_folder">Marcar com a brossa?</string>
     <string name="spam_folder_activity_title">Brossa i bloquejats</string>
     <string name="spam_folder_conversation_list_empty_text_v2">Les converses brossa i bloquejades es mostren aquí</string>
-    <string name="spam_preference_info_text_on_device">Missatges utilitza la intel·ligència del dispositiu per detectar missatges brossa, i envia a Google determinades dades sobre aquests missatges sense incloure-hi el contingut ni el teu número de telèfon. %1$s</string>
     <string name="spam_protection_consent_string">"Per detectar el contingut brossa, Missatges envia algunes dades sobre els teus missatges a Google sense incloure'n el contingut ni el teu número de telèfon. %1$s"</string>
     <string name="spam_reporting_from">Notificació de contingut brossa</string>
     <string name="spam_settings">Protecció contra contingut brossa</string>
@@ -1773,6 +1921,8 @@ Les respostes es mostraran en converses individuals"</string>
     <string name="split_view_pref_title">Visualització detallada de la llista</string>
     <string name="stacked_banner_count_text">1 de %1$d</string>
     <string name="star_badge_content_description">"Insígnia de l'estrella"</string>
+    <string name="star_badge_menu_remove_action">Suprimeix</string>
+    <string name="star_badge_menu_view_all_action">Mostra-ho tot</string>
     <string name="star_badge_on_click_snackbar_action">Desfés</string>
     <string name="star_badge_on_click_snackbar_message">"S'ha eliminat l'estrella"</string>
     <string name="sticker_content_description">Adhesiu de: %s</string>
@@ -1809,10 +1959,12 @@ Les respostes es mostraran en converses individuals"</string>
     <string name="subject_with_label">Assumpte: %1$s</string>
     <string name="subject_with_urgent_label">[URGENT] %1$s</string>
     <string name="success_message_format">%1$s %2$s %3$s %4$s %5$s %6$s.</string>
+    <string name="success_message_self_sender">Has dit: %1$s %2$s %3$s %4$s.</string>
     <string name="success_message_self_sender_format_with_multiple_attachments">Has enviat diversos fitxers adjunts %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_self_sender_format_with_single_attachment">Has enviat un fitxer adjunt %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_specified_sender_format_with_multiple_attachments">%1$s ha enviat diversos fitxers adjunts %2$s %3$s %4$s %5$s %6$s.</string>
     <string name="success_message_specified_sender_format_with_single_attachment">%1$s ha enviat un fitxer adjunt %2$s %3$s %4$s %5$s %6$s.</string>
+    <string name="success_message_unspecified_sender">El remitent ha dit: %1$s %2$s %3$s %4$s.</string>
     <string name="success_message_unspecified_sender_format_with_multiple_attachments">El remitent ha enviat diversos fitxers adjunts %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_unspecified_sender_format_with_single_attachment">El remitent ha enviat un fitxer adjunt %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_sent_to_message_format">"S'ha enviat a %1$s %2$s %3$s %4$s."</string>
@@ -1821,10 +1973,18 @@ Les respostes es mostraran en converses individuals"</string>
     <string name="sud_back_button_label">Enrere</string>
     <string name="sud_more_button_label">Més</string>
     <string name="sud_next_button_label">Següent</string>
-    <string name="suggested_stickers_preference_summary">Mostra els adhesius suggerits</string>
+    <string name="suggested_stickers_preference_summary">Mostra les opcions de resposta amb adhesius</string>
     <string name="suggested_stickers_preference_title">Adhesius suggerits</string>
+    <string name="suggestion_shortcut_dialog_body_text">Fes servir dreceres ràpides i senzilles per destacar un missatge, programar un esdeveniment al moment i més.</string>
+    <string name="suggestion_shortcut_dialog_positive_button">D’acord</string>
+    <string name="suggestion_shortcut_dialog_subsection_body_text">"Les dreceres s'activen amb coses com números de telèfon i dates. %1$s"</string>
+    <string name="suggestion_shortcut_dialog_subsection_title_text">Com funciona</string>
+    <string name="suggestion_shortcut_dialog_title">"Gaudeix d'un accés ràpid amb les dreceres suggerides"</string>
+    <string name="suggestion_shortcut_search_title">Cerca</string>
+    <string name="suggestion_shortcut_star_toolstone">"Destaca missatges i troba'ls fàcilment a %1$s"</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_notification_inbox_style_summary_text">+%d més</string>
+    <string name="super_sort_pref_title">Organització de missatges</string>
     <string name="super_sort_settings_title">Organització de missatges</string>
     <string name="supersort_conversation_list_empty_text_business_update">"Les novetats d'empreses es mostren automàticament aquí"</string>
     <string name="supersort_conversation_list_empty_text_manage_in_settings">Gestiona a Configuració</string>
@@ -1887,6 +2047,11 @@ Troba qualsevol conversa a Tot"</string>
     <string name="survey_user_agent">"Agent d'usuari"</string>
     <string name="survey_very_dissatisfied">Molt insatisfet</string>
     <string name="survey_very_satisfied">Molt satisfet</string>
+    <string name="swipe_actions">Accions en lliscar</string>
+    <string name="swipe_actions_summary">"Tria Arxiva o Suprimeix, a la dreta o l'esquerra, o desactiva l'opció de lliscar"</string>
+    <string name="swipe_customize">Personalitza</string>
+    <string name="swipe_left">"Llisca cap a l'esquerra"</string>
+    <string name="swipe_right">Llisca cap a la dreta</string>
     <string name="switcher_no_phone_number">No es troba la targeta SIM</string>
     <string name="switcher_pair_device_title_text">Envia missatges amb el telèfon vinculat</string>
     <string name="switcher_positive_button_text">Continua</string>
@@ -1894,6 +2059,7 @@ Troba qualsevol conversa a Tot"</string>
     <string name="switcher_use_device_sim_number">(%s)</string>
     <string name="switcher_use_device_sim_title_text">"Envia missatges amb la SIM d'aquest dispositiu"</string>
     <string name="syncing_with_device_foreground_notification_text">"Missatges s'està sincronitzant amb el teu dispositiu"</string>
+    <string name="system_picker_button_label">Carpetes</string>
     <string name="t_mobile_tos_pref_link_text">termes i condicions</string>
     <string name="t_mobile_tos_pref_text">Funcions de xat de Google amb la tecnologia de T-Mobile. Consulta els %1$s.</string>
     <string name="t_mobile_tos_pref_url">https://www.t-mobile.com/responsibility/legal/terms-and-conditions</string>
@@ -1918,6 +2084,7 @@ Configuració > %1$s"</string>
     <string name="theme_setting_dialog_options_light_mode">Clar</string>
     <string name="theme_setting_dialog_options_system_default_mode">Predeterminat del sistema</string>
     <string name="theme_setting_dialog_title">Selecciona un tema</string>
+    <string name="tiktok_account_login_failure">"No s'ha pogut iniciar la sessió al compte seleccionat."</string>
     <string name="tiktok_add_account_error">"No s'ha pogut afegir el compte. Torna-ho a provar."</string>
     <string name="tiktok_fix_it">Corregeix-ho</string>
     <string name="tiktok_load_account_failure">"No s'han pogut carregar els comptes."</string>
@@ -1943,6 +2110,18 @@ Només tu pots veure aquest nom"</string>
     <string name="tombstone_self_removed_from_group_referrer_known">"%1$s t'ha suprimit del grup"</string>
     <string name="tombstone_self_removing_others_from_group">"Has suprimit %1$s d'aquest grup"</string>
     <string name="tombstone_show_link_previews">"La previsualització d'enllaços està activada.&lt;br />Obtén més informació o desactiva-la a &lt;u>Configuració&lt;/u>."</string>
+    <string name="tombstone_show_link_previews_disabled">"Les previsualitzacions d'enllaços estan desactivades.&lt;br />Obtén més informació o activa-les a &lt;u>Configuració&lt;/u>."</string>
+    <string name="tooltip_content">"El teu Compte de Google ofereix
+funcions com ara la compartició d'enllaços
+de Google Fotos a Missatges sense
+accedir a les teves converses.
+
+Els missatges s'envien des del teu
+número de telèfon. Més informació"</string>
+    <string name="tooltip_content_with_line_break_fix">"El teu Compte de Google possibilita funcions com ara la compartició d'enllaços de Google Fotos a Missatges, sense accedir a les teves converses.
+
+Els missatges es continuen enviant des del teu número de telèfon. Més informació"</string>
+    <string name="tooltip_link">Més informació</string>
     <string name="top_contacts_grid_name">★</string>
     <string name="top_contacts_title">Contactes principals</string>
     <string name="transaction_content_description">Aquest missatge està classificat com a transacció</string>
@@ -1952,6 +2131,7 @@ Només tu pots veure aquest nom"</string>
     <string name="unblock_and_report_not_spam_snackbar_message">"S'ha desbloquejat %1$s i s'ha indicat que no és brossa"</string>
     <string name="unblock_banner_body">"Per treure aquesta conversa de l'arxiu i tornar-ne a rebre missatges, desbloqueja %s"</string>
     <string name="unblock_banner_body_spam_folder">Per treure aquesta conversa de Converses brossa i bloquejades i tornar-ne a rebre missatges, desbloqueja %s</string>
+    <string name="unblock_banner_body_v2">Unblock to receive messages from this sender</string>
     <string name="unblock_banner_description">@string/banner_description</string>
     <string name="unblock_banner_positive_button">Desbloqueja</string>
     <string name="unblock_banner_title">Bloquejat</string>
@@ -1987,6 +2167,7 @@ Els números de telèfon només s'utilitzen per resoldre problemes. Google no co
     <string name="unsent">No enviat</string>
     <string name="unspam_banner_body">"Per treure aquesta conversa de l'arxiu i tornar-ne a rebre notificacions, indica que %s no és brossa"</string>
     <string name="unspam_banner_body_spam_folder">Per treure aquesta conversa de Converses brossa i bloquejades i tornar-ne a rebre notificacions, indica que %s no és brossa</string>
+    <string name="unspam_banner_body_v2">Report as not spam to receive messages from this sender</string>
     <string name="unspam_banner_description">@string/banner_description</string>
     <string name="unspam_banner_end_button">No és brossa</string>
     <string name="unspam_banner_title">Marcat com a brossa</string>
@@ -2002,6 +2183,8 @@ Els números de telèfon només s'utilitzen per resoldre problemes. Google no co
     <string name="unsupported_file_save_alert">Vols desar el fitxer adjunt a Baixades?</string>
     <string name="unsupported_file_save_cancel">Cancel·la</string>
     <string name="unverified_sms_banner_description">@string/banner_description</string>
+    <string name="unwanted_messages_toolstone_link">"bloqueja'ls i informa'n"</string>
+    <string name="unwanted_messages_toolstone_text">Si reps missatges no desitjats, %1$s</string>
     <string name="upcoming_reminder">Recordatori pròxim</string>
     <string name="update_content_description">Aquest missatge està classificat com a actualització</string>
     <string name="update_donation_banner_body_v2">La teva identitat es manté privada i pots eliminar contingut dels missatges</string>
@@ -2044,6 +2227,7 @@ Els números de telèfon només s'utilitzen per resoldre problemes. Google no co
     <string name="video_attachment_content_description">Vídeo adjunt</string>
     <string name="video_attachment_limit_exceeded_when_sending">Només pots enviar un vídeo per missatge. Suprimeix els vídeos addicionals i torna-ho a provar.</string>
     <string name="video_compress_info">"El destinatari veurà els vídeos en una qualitat inferior a causa de les limitacions de l'operador de telefonia mòbil pel que fa als MMS"</string>
+    <string name="video_format_type">vídeo</string>
     <string name="video_media_failure">Per crear un vídeo, prova de fer gravacions més llargues</string>
     <string name="video_taken">"S'ha enregistrat un vídeo"</string>
     <string name="video_thumbnail_view_play_button_content_description">Reprodueix el vídeo.</string>
@@ -2090,19 +2274,20 @@ Segueix el teu criteri pel que fa al contingut d'aquest missatge."</string>
     <string name="websiteTypeWork">Feina</string>
     <string name="welcome_agree_button_text">Accepta</string>
     <string name="welcome_chat_features_decline">Utilitza Missatges sense funcions de xat</string>
-    <string name="welcome_chat_features_learn_more">Més informació sobre les funcions de xat</string>
     <string name="welcome_chat_features_legal">"En utilitzar les funcions de xat, acceptes les %1$s i la %2$s. Google verificarà el teu número de tant en tant amb l'operador (es poden aplicar càrrecs d'SMS)."</string>
+    <string name="welcome_chat_features_text">"Envia contingut per Wi‐Fi o dades mòbils.
+· Comparteix fitxers i contingut multimèdia.
+· Mantén els teus missatges privats."</string>
     <string name="welcome_chat_features_title">Xats més ràpids, més complets i de més qualitat a través de la Wi-Fi o les dades</string>
+    <string name="welcome_chat_features_title_experiment_0">Fes molt més amb Missatges</string>
+    <string name="welcome_chat_features_title_experiment_1">Fes molt més amb les funcions de xat de Missatges</string>
     <string name="welcome_consent_button_text">Següent</string>
-    <string name="welcome_finish_button_text">Finalitza</string>
     <string name="welcome_smarts_notice_description">"Simplifica els xats amb funcions com ara l'Assistent de Google i Resposta intel·ligent. Els xats es mantenen de manera segura al teu dispositiu.
 %1$s i %2$s"</string>
     <string name="welcome_smarts_notice_title">"Opcions intel·ligents d'allò més útils"</string>
     <string name="welcome_spam_description">"Per evitar el contingut brossa, Google utilitza números de telèfon que no són dels teus contactes, sense identificar-te a tu ni al teu número.
 %1$s i %2$s"</string>
     <string name="welcome_spam_title">Protecció contra el contingut brossa</string>
-    <string name="welcome_splash_tagline">"Missatgeria senzilla i intel·ligent
-de Google"</string>
     <string name="widget_reply_exit_content_description">Enrere</string>
     <string name="widget_reply_open">OBRE A MISSATGES</string>
     <string name="widget_reply_to">Respon a %s</string>
@@ -2110,9 +2295,14 @@ de Google"</string>
     <string name="work_directory_display_name">Contactes del perfil de treball</string>
     <string name="xms_send_mode_pref_title">Envia només SMS i MMS</string>
     <string name="you_added_participant">Has afegit %s al grup</string>
+    <string name="you_added_participant_with_learn_more">Has afegit %1$s a aquest grup. %2$s</string>
+    <string name="you_created_encrypted_rcs_group">Has creat aquest grup de xat amb %1$s. %2$s</string>
     <string name="you_created_mms_group">Has creat aquest MMS de grup amb %s</string>
     <string name="you_created_rcs_group">Has creat aquest grup de xat amb %s</string>
     <string name="you_left_group">Has sortit del grup</string>
+    <string name="youtube_dismissal_prompt">Toca i arrossega per tancar</string>
+    <string name="youtube_drag_prompt">Arrossega per moure el reproductor</string>
+    <string name="youtube_pip_playing">"S'està reproduint el vídeo"</string>
     <string name="zero_connectivity_failure_announcement">"No s'ha enviat el missatge"</string>
     <string name="zero_state_search_action_copy">Copia</string>
     <string name="zero_state_search_action_jump_to_chat">Mostra al xat</string>
@@ -2132,6 +2322,7 @@ de Google"</string>
     <string name="zero_state_search_details_image_accessibility">Imatge enviada per %1$s el dia %2$s</string>
     <string name="zero_state_search_details_video_accessibility">Vídeo enviat per %1$s el dia %2$s</string>
     <string name="zero_state_search_dropdown_free_text">Cerca \"%s\"</string>
+    <string name="zero_state_search_empty_results_text">Els missatges, el contingut multimèdia i els enllaços que hagis destacat en aquesta conversa es mostraran aquí</string>
     <string name="zero_state_search_images">Imatges</string>
     <string name="zero_state_search_link_copied">"L'enllaç s'ha copiat"</string>
     <string name="zero_state_search_links">Enllaços</string>

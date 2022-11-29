@@ -28,7 +28,6 @@
     <string name="about_application_pp_tos_settings">Om, villkor och integritet</string>
     <string name="accessbility_suggestion_dropdown_closed">Det finns inga tillgängliga förslag</string>
     <string name="accessbility_suggestion_dropdown_opened">Kontaktförslag har öppnats</string>
-    <string name="acs_url_dropdown_hint">Ställ in ACS-webbadress</string>
     <string name="action_add_contact">Lägg till kontakt</string>
     <string name="action_advanced_feedback">Skicka feedback</string>
     <string name="action_archive">Arkivera</string>
@@ -47,18 +46,19 @@
     <string name="action_help_and_feedback">Hjälp och feedback</string>
     <string name="action_info_and_options">Information och alternativ</string>
     <string name="action_jump_to_chat">Visa i chatt</string>
+    <string name="action_meet_video_call">Videosamtal i Meet</string>
     <string name="action_menu_mark_all_as_read">Markera alla som lästa</string>
     <string name="action_menu_show_archived">Arkiverade</string>
     <string name="action_menu_show_spam_folder">Spam och blockerade nummer</string>
     <string name="action_notification_off">Inaktivera aviseringar</string>
     <string name="action_notification_on">Aktivera aviseringar</string>
     <string name="action_notification_settings">Dölj aviseringar</string>
+    <string name="action_off">Av</string>
     <string name="action_pair_device">Enhetskoppling</string>
     <string name="action_people_and_options">Information</string>
     <string name="action_people_and_options_group">Gruppinformation</string>
     <string name="action_pin_to_top">Fäst längst upp</string>
     <string name="action_report_spam">Rapportera spam</string>
-    <string name="action_scan_qr_code">Messages för webben</string>
     <string name="action_search">Sök</string>
     <string name="action_search_gifs">Sök efter GIF-filer</string>
     <string name="action_search_messages">Sök i meddelanden</string>
@@ -77,6 +77,7 @@
     <string name="action_viLTE_video_call">Videosamtal genom operatören</string>
     <string name="action_video_call">Ringa ett videosamtal</string>
     <string name="actionbar_subtitle_name_prefix">med %s</string>
+    <string name="active_reminder">Påminnelse</string>
     <string name="active_sim_content_message">%s valt</string>
     <string name="activity_not_found_message">Ingen app för detta hittades</string>
     <string name="add_area_code_banner_button">Lägg till riktnummer</string>
@@ -90,6 +91,7 @@
     <string name="add_contact_confirmation_dialog_title">Vill du lägga till detta i Kontakter?</string>
     <string name="add_country_code_banner_button">Lägg till landskod</string>
     <string name="add_more_participants_button_content_description">Lägg till fler deltagare</string>
+    <string name="add_reaction_content_description">Reagera med anpassad reaktion</string>
     <string name="add_reaction_for_assistant_card_rcs_fallback_text">​%1$s​ om ett Assistent-kort</string>
     <string name="add_reaction_for_audio_rcs_fallback_text">​%1$s​ på en ljudfil</string>
     <string name="add_reaction_for_contact_rcs_fallback_text">​%1$s​ på en kontakt</string>
@@ -97,7 +99,7 @@
     <string name="add_reaction_for_gif_rcs_fallback_text">​%1$s​ på en GIF</string>
     <string name="add_reaction_for_link_rcs_fallback_text">​%1$s​ om en länk</string>
     <string name="add_reaction_for_photo_rcs_fallback_text">​%1$s​ på ett foto</string>
-    <string name="add_reaction_for_text_message_rcs_fallback_text">​%1$s​ till %2$s</string>
+    <string name="add_reaction_for_text_message_rcs_fallback_text">​%1$s​ till  %2$s </string>
     <string name="add_reaction_for_unknown_message_type_rcs_fallback_text">​%1$s​ på en okänd meddelandetyp</string>
     <string name="add_reaction_for_video_rcs_fallback_text">​%1$s​ på en video</string>
     <string name="advanced_feedback_activity_disclaimer">Meddelandets innehåll och text, förutom på skärmbilder, skickas inte till Google</string>
@@ -134,14 +136,13 @@
     <string name="apn_mnc">MNC</string>
     <string name="app_name">Messages</string>
     <string name="app_settings_conversation_pref_title">Appinställningar</string>
-    <string name="apply_button">Använd</string>
     <string name="archived_activity_title">Arkiverade</string>
     <string name="archived_conversation_list_empty_text">Arkiverade konversationer visas här</string>
     <string name="area_code_banner_description">@string/banner_description</string>
     <string name="assistant_movies_shortcut_title">Filmer</string>
+    <string name="assistant_preference_summary">Visa relevant information om restauranger, filmer med mera</string>
     <string name="assistant_preference_title">Förslag från assistenten</string>
     <string name="assistant_restaurants_shortcut_title">Restauranger</string>
-    <string name="assistant_send_to_chip_default_group_name">grupp</string>
     <string name="assistant_suggestions_tooltip_text">Messages skapar förslag samtidigt som den behåller konversationen på enheten. Tryck på dem för att visa och dela mer information från Google Assistent. &lt;br/> &lt;br/> &lt;a href>Läs mer&lt;/a> och hantera i &lt;a href>Inställningar&lt;/a></string>
     <string name="assistant_suggestions_tooltip_title_text">Få information med en tryckning</string>
     <string name="assistant_weather_shortcut_title">Väder</string>
@@ -157,12 +158,18 @@
     <string name="attachment_location">Plats</string>
     <string name="attachment_picture">Bild</string>
     <string name="attachment_preview_close_content_description">Släng bifogad fil</string>
+    <string name="attachment_preview_photos_link_share_getting_link">Hämtar länk …</string>
+    <string name="attachment_preview_photos_link_share_no_upload_needed">Tidigare uppladdade</string>
+    <string name="attachment_preview_photos_link_share_upload_size">%s uppladdning</string>
+    <string name="attachment_preview_photos_link_share_upload_size_failure">Okänt</string>
+    <string name="attachment_preview_photos_link_share_upload_size_placeholder">Beräknar …</string>
     <string name="attachment_unsupported_file">Filen stöds inte</string>
     <string name="attachment_vcard">Kontaktkort</string>
     <string name="attachment_video">Video</string>
     <string name="audio_attachment_content_description">Ljudbilaga</string>
     <string name="audio_attachment_seek_playback_description">Ljuduppspelning</string>
     <string name="audio_button_view_content_description">Tryck snabbt två gånger och tryck länge för att spela in ljud, dra åt vänster för att avbryta</string>
+    <string name="audio_format_type">ljudet</string>
     <string name="audio_pause_content_description">Pausa</string>
     <string name="audio_play_content_description">Spela upp ljudbilaga</string>
     <string name="audio_recorder_call_in_progress">Det går inte att spela in ljud medan du deltar i ett samtal</string>
@@ -181,6 +188,8 @@
     <string name="auto_selected_country_summary">Automatiskt identifierat (%1$s)</string>
     <string name="automoved_spam_notification_action_dismiss">Ignorera</string>
     <string name="automoved_spam_notification_action_view">Visa</string>
+    <string name="automoved_spam_notification_content_text">Inkommande skräppost har flyttats till Skräppost och blockera</string>
+    <string name="automoved_spam_notification_content_title">Skräppost har upptäckts</string>
     <string name="avatar_no_connection_msg">Ingen internetanslutning</string>
     <string name="avatar_promo_create">Skapa</string>
     <string name="avatar_promo_see_all">Visa alla</string>
@@ -192,7 +201,8 @@
     <string name="birthday_banner_description">@string/banner_description</string>
     <string name="birthday_banner_dismiss_button_text">Stäng</string>
     <string name="birthday_banner_settings_button_text">Hantera i Inställningar</string>
-    <string name="birthday_info_text">Messages skapar födelsedagspåminnelser för kontakter med födelsedagar på enheten</string>
+    <string name="birthday_info_text">Dessa påminnelser grundas på födelsedagsinformation från enhetens kontaktapp.</string>
+    <string name="birthday_info_text_with_settings">Dessa påminnelser grundas på födelsedagsinformation från enhetens kontaktapp. &lt;a href>%1$s&lt;/a></string>
     <string name="birthday_nudge_enabled_pref_summary">Få påminnelser om födelsedagar tillagda i kontakterna på enheten</string>
     <string name="birthday_nudge_enabled_pref_title">Påminnelser om födelsedagar</string>
     <string name="block_confirmation_message_spam_folder">Du får fortfarande meddelanden från %1$s, men får inga fler aviseringar. Den här konversationen flyttas till Spam och blockerat.</string>
@@ -212,9 +222,13 @@
     <string name="boew_promo_text">Tillåt att Messages fortsätter i bakgrunden för att få chattfunktioner såsom meddelanden över Wi‑Fi och data</string>
     <string name="boew_promo_title">Gör mer med Messages</string>
     <string name="bottomsheet_action_expand_halfway">Utöka till hälften</string>
+    <string name="bottomsheet_drag_handle_content_description">Handtag</string>
     <string name="broadcast_receiver_notification_text_extra_info">Messages arbetar i bakgrunden. Skicka en felanmälan om du ser den här aviseringen i över en minut. Mottagarnamn: %1$s</string>
     <string name="broadcast_sms_text">Mass-sms</string>
     <string name="bubble_settings_title">Bubblor</string>
+    <string name="bugle_add_account_error">Det gick inte att lägga till konto. Försök igen.</string>
+    <string name="bugle_fix_it">Åtgärda</string>
+    <string name="bugle_load_account_failure">Det gick inte att läsa in konton.</string>
     <string name="bugle_notification_category_conversations">Konversationer</string>
     <string name="bugle_notification_category_default_settings">Standardinställningar</string>
     <string name="bugle_notification_category_reminders">Påminnelser</string>
@@ -226,6 +240,8 @@
     <string name="bugle_notification_reminders_channel_name">Påminnelser</string>
     <string name="bugle_notification_report_issue_channel_name">Messages begäran om feedback</string>
     <string name="bugle_notification_silent_default_channel_name">Få aviseringar när du surfar</string>
+    <string name="bugle_play_services_error">Det gick inte att fråga Google Play-tjänster.</string>
+    <string name="bugle_retry">Försök igen</string>
     <string name="business_action_call_full_content_description">Ring %1$s (%2$s)</string>
     <string name="business_action_call_short_content_description">Ring</string>
     <string name="business_action_call_short_text_m2">Ring</string>
@@ -287,6 +303,7 @@
     <string name="c2o_single_file_attachment_size_limit_exceed">Bilagan är för stor att skicka. Skicka en fil mindre än %s.</string>
     <string name="c2o_storage_permissions_text">Tryck för att ge åtkomst till Media</string>
     <string name="c2o_video_button_text">Video</string>
+    <string name="calendar_badge_content_description">Kalendermärke</string>
     <string name="calendar_event_added">Händelsen har sparats</string>
     <string name="calendar_file_content_description">Kalender-fil</string>
     <string name="calendar_suggestion_event_chat_title">Android Messages chatt</string>
@@ -297,6 +314,7 @@
     <string name="camera_attach_media">Bifoga</string>
     <string name="camera_attach_media_description">Bifoga till meddelande</string>
     <string name="camera_back_switch_button">Kameraläge bakåt</string>
+    <string name="camera_capture_button_label">Ta ett foto</string>
     <string name="camera_flash_off">Blixt av</string>
     <string name="camera_flash_on">Blixt på</string>
     <string name="camera_front_switch_button">Kameraläge framåt</string>
@@ -397,6 +415,11 @@ Du kan stänga av chattfunktionerna i inställningarna. %1$s"</string>
     <string name="common_google_play_services_update_text">%1$s kan inte köras om du inte uppdaterar Google Play-tjänsterna.</string>
     <string name="common_google_play_services_update_title">Uppdatera Google Play-tjänster</string>
     <string name="common_google_play_services_updating_text">%1$s kan inte köras utan Google Play-tjänster, och dessa uppdateras för närvarande.</string>
+    <string name="common_google_play_services_wear_update_text">En ny version av Google Play-tjänster krävs. Den uppdateras automatiskt inom kort.</string>
+    <string name="common_open_on_phone">Öppna på mobilen</string>
+    <string name="complete_photos_app_onboarding">Öppna Google Foto</string>
+    <string name="complete_photos_app_onboarding_title">Fortsätt genom att ge åtkomst till Google Foto</string>
+    <string name="complete_photos_app_onboarding_to_continue">Kom igång med appen Google Foto</string>
     <string name="compose_message_view_hint_text">Chattmeddelande</string>
     <string name="compose_message_view_hint_text_multi_sim_rcs">Chatt (%s)</string>
     <string name="compose_message_view_hint_text_multi_sim_sms_mms">Text (%s)</string>
@@ -418,15 +441,12 @@ Du kan stänga av chattfunktionerna i inställningarna. %1$s"</string>
     <string name="contact_has_multiple_destinations_phone">%1$s (+ %2$s till)</string>
     <string name="contact_has_multiple_destinations_type">Flera</string>
     <string name="contact_list_add_people">Lägg till %s</string>
-    <string name="contact_list_empty_text">Ange namnet på en kontakt eller ett telefonnummer för att starta ett nytt meddelande</string>
     <string name="contact_list_send_to_text">Skicka till %s</string>
     <string name="contact_picker_autocomplete_added">%1$s har lagts till, redigeras nu</string>
     <string name="contact_picker_autocomplete_deleted">%1$s raderad, redigeras nu</string>
-    <string name="contact_picker_cant_add_destination_twice">Det numret finns redan i gruppen</string>
     <string name="contact_picker_cant_remove_from_existing">Det går inte att ta bort nummer från en befintlig konversation</string>
     <string name="contact_picker_cant_remove_from_screen">Ta bort personer genom att öppna &lt;b>Gruppinformation&lt;/b></string>
     <string name="contact_picker_confirm_participants_button_label">Nästa</string>
-    <string name="contact_picker_group_create_label">Skapa grupp</string>
     <string name="contact_picker_group_v2_create_label">Skapa grupp</string>
     <string name="contact_picker_message_a_business_label">Chatta med ett företag</string>
     <string name="contact_picker_title_add_people">Lägg till personer</string>
@@ -449,10 +469,14 @@ Du kan stänga av chattfunktionerna i inställningarna. %1$s"</string>
     <string name="content_description_link_to_settings">Hantera i Inställningar</string>
     <string name="contextual_action_bar_description_prefix">Visar verktygsfält för åtgärder: %s. Navigera uppåt för att välja en åtgärd.</string>
     <string name="conversation_area_code_popup_paragraph">Utan känt riktnummer försöker Messages skicka till %1$s. Lägg till den här kontaktens riktnummer för framtida meddelanden. %2$s</string>
+    <string name="conversation_block_failed_message">Ej blockerad, kontrollera anslutningen</string>
+    <string name="conversation_blocking_message">Blockerar …</string>
     <string name="conversation_country_code_popup_paragraph">Lägg till landskoden (+%1$s för %2$s) i den här kontakten för att skicka meddelandet till rätt person. %3$s</string>
     <string name="conversation_creation_failed">Det gick inte att skapa konversationen, försök igen senare.</string>
     <string name="conversation_creation_failure">Det gick inte att starta en konversation</string>
+    <string name="conversation_deleting_message">Raderar …</string>
     <string name="conversation_deletion_failed">Det gick inte att radera konversationen</string>
+    <string name="conversation_deletion_failed_message">Ej raderad, kontrollera anslutningen</string>
     <string name="conversation_empty_name">Tom</string>
     <string name="conversation_label_all">Alla</string>
     <string name="conversation_label_business_updates">Ekonomi</string>
@@ -479,7 +503,6 @@ Du kan stänga av chattfunktionerna i inställningarna. %1$s"</string>
     <string name="conversation_list_item_view_draft_message">Utkast</string>
     <string name="conversation_list_item_view_sent_from_other_prefix">%s:</string>
     <string name="conversation_list_item_view_sent_from_you_prefix">Du:</string>
-    <string name="conversation_list_loading_item_description">Konversationen läses in</string>
     <string name="conversation_list_message_fail_to_decrypt">Det går inte att dekryptera</string>
     <string name="conversation_list_rcs_promo_button_negative">Uppgradera inte appen</string>
     <string name="conversation_list_rcs_promo_button_positive">Uppgradera nu</string>
@@ -491,7 +514,6 @@ Du kan stänga av chattfunktionerna i inställningarna. %1$s"</string>
     <string name="conversation_list_snippet_link">Länk</string>
     <string name="conversation_list_spam_popup_negative">Hantera det i Inställningar</string>
     <string name="conversation_list_spam_popup_paragraph">Google använder telefonnumren för okända avsändare och mottagare för att motverka spam. Dina meddelanden och kontakter skickas inte till Google. %1$s</string>
-    <string name="conversation_list_spam_popup_paragraph_on_device">Messages använder enhetens funktioner till att identifiera spam. En del information om dina meddelanden skickas till Google, men utan det faktiska innehållet eller telefonnumret. %1$s</string>
     <string name="conversation_list_spam_popup_positive">OK</string>
     <string name="conversation_list_spam_popup_title">Skräppostskydd</string>
     <string name="conversation_list_terms_and_conditions_promo_subtitle">Slutför aktivering av chattfunktioner för meddelanden över wifi med mera</string>
@@ -514,6 +536,7 @@ Du kan stänga av chattfunktionerna i inställningarna. %1$s"</string>
     <string name="conversation_suggestion_set_reminder_action">Föreslagen åtgärd Ställ in påminnelse</string>
     <string name="conversation_suggestion_share_location_action">Föreslagen platsdelningsåtgärd</string>
     <string name="conversation_suggestion_share_location_action_failure">Något gick fel. Dela din plats genom att lägga till den i ett nytt meddelande.</string>
+    <string name="conversation_suggestion_star_action">Föreslagen stjärnmärkningsåtgärd</string>
     <string name="conversation_suggestion_sticker">Föreslagen dekal</string>
     <string name="copy">Kopiera</string>
     <string name="copy_to_clipboard">Kopiera</string>
@@ -523,6 +546,7 @@ Du kan stänga av chattfunktionerna i inställningarna. %1$s"</string>
     <string name="create_group_info_title">Lägg till gruppnamn</string>
     <string name="create_new_group_message">Läggs den här personen till startas en ny grupp utan chattfunktioner</string>
     <string name="current_country_pref_title">Aktuellt land</string>
+    <string name="custom_reaction_selection_prompt">Välj en emoji</string>
     <string name="dark_mode_disable_title">Inaktivera mörkt läge</string>
     <string name="dark_mode_enable_title">Aktivera mörkt läge</string>
     <string name="dasher_disabled_notification_body">Kontakta systemadministratören eller logga in med ett annat konto.</string>
@@ -590,12 +614,9 @@ Du kan stänga av chattfunktionerna i inställningarna. %1$s"</string>
     <string name="ditto_activity_label">Enhetskoppling</string>
     <string name="ditto_foreground_service_device_pairing_notification_text">Dina meddelanden finns tillgängliga på den parkopplade enheten</string>
     <string name="ditto_foreground_service_device_pairing_notification_title">Enhetskoppling</string>
-    <string name="ditto_foreground_service_notification_text">Ditt meddelande finns tillgänglig på den parkopplade datorn</string>
-    <string name="ditto_foreground_service_notification_title">Messages för webben</string>
     <string name="ditto_foreground_service_sign_out">Koppla från</string>
     <string name="ditto_persistent_notification_settings">Aviseringar</string>
     <string name="ditto_settings_action_bar_title">Aviseringar</string>
-    <string name="ditto_settings_connected_to_web_notification_description">Messages för webben visas när enheten är online</string>
     <string name="ditto_settings_connected_to_web_notification_title">Visa beständig avisering</string>
     <string name="ditto_settings_device_paired_notification_description">Enhetskoppling visas när enheten är online</string>
     <string name="ditto_settings_while_using_web_notification_description">Stoppa ringsignal och vibrationer när enheten är online</string>
@@ -636,6 +657,7 @@ Andra personer granskar dina meddelanden som innehåller företagsavsändarens n
     <string name="dump_mms_pref_title">Dumpa mms</string>
     <string name="dump_sms_pref_summary">Dumpa rådata för mottagna sms i en extern lagringsfil</string>
     <string name="dump_sms_pref_title">Dumpa sms</string>
+    <string name="duplicate_upload_snackbar">Vissa dubbletter inkluderades inte</string>
     <string name="e2ee_conversation_tombstone">Chattar slutpunktskrypterat med %1$s</string>
     <string name="e2ee_conversation_tombstone_with_learn_more">Chattar end-to-end-krypterat med %1$s. %2$s</string>
     <string name="e2ee_fail_to_send_retry_description">Skicka igen som chatt</string>
@@ -674,7 +696,6 @@ Andra personer granskar dina meddelanden som innehåller företagsavsändarens n
 Meddelanden växlar tillbaka när chattfunktionerna återansluter."</string>
     <string name="enable_rcs_auto_fallback_dialog_title">Skicka om automatiskt som sms/mms?</string>
     <string name="enable_rcs_auto_fallback_title">Skicka om automatiskt som sms/mms</string>
-    <string name="enable_rcs_fallback_to_sms_title">Skicka meddelanden på nytt om ej levererade</string>
     <string name="enable_rcs_fallback_to_xms_title">Skicka meddelanden på nytt om ej levererade</string>
     <string name="enable_rcs_summary_off">Använd wifi eller data för meddelanden om tillgängligt</string>
     <string name="enable_rcs_summary_on">Använder data för meddelanden om tillgängligt</string>
@@ -686,9 +707,13 @@ Meddelanden växlar tillbaka när chattfunktionerna återansluter."</string>
     <string name="enter_phone_number_title">Bekräfta ditt telefonnummer</string>
     <string name="enter_phone_number_title_for_sim">Bekräfta telefonnumret för %1$s</string>
     <string name="enumeration_comma">", "</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_failed_to_save_setting">Det gick inte att spara. Försök igen.</string>
     <string name="error_icon_content_description">Fel</string>
     <string name="error_premium_sms_needs_permission">Skicka det här meddelandet genom att öppna enhetens inställningar och aktivera åtkomst till premium-sms</string>
+    <string name="error_text_draft_is_reply_to_missing_message">Det går inte att svara på ett borttaget meddelande</string>
+    <string name="error_text_draft_is_reply_without_rcs">Problem med chattfunktionerna. Försök skicka utan svar.</string>
+    <string name="error_text_scheduled_send_with_draft_reply">Det går inte att schemalägga ett svar just nu</string>
     <string name="etouffee_to_rcs_notification">Messages identifierade att end-to-end-kryptering inaktiverades i en konversation. Tryck för att skicka feedback.</string>
     <string name="etouffee_to_telephony_setting">Integritet</string>
     <string name="etouffee_to_telephony_setting_description">"SMS-behörigheter inkluderar dina end-to-end-krypterade meddelanden så att Android kan säkerhetskopiera dem, högläsa dem i bilen eller på en hjälpenhet, med mera. Visa och hantera dina appar med sms-behörigheter i Android-inställningarna.
@@ -714,19 +739,24 @@ När du eller appen rensar data återställer Messages historiken från lokal la
     <string name="exo_controls_pause_description">Pausa</string>
     <string name="exo_controls_play_description">Spela upp</string>
     <string name="exo_controls_previous_description">Föregående</string>
-    <string name="exo_controls_repeat_all_description">Upprepa alla</string>
-    <string name="exo_controls_repeat_off_description">Upprepa inga</string>
-    <string name="exo_controls_repeat_one_description">Upprepa en</string>
+    <string name="exo_controls_repeat_all_description">Aktuellt läge: Upprepa alla. Ändra läge för upprepning.</string>
+    <string name="exo_controls_repeat_off_description">Aktuellt läge: Upprepa inga. Ändra läge för upprepning.</string>
+    <string name="exo_controls_repeat_one_description">Aktuellt läge: Upprepa en. Ändra läge för upprepning.</string>
     <string name="exo_controls_rewind_description">Spola tillbaka</string>
     <string name="exo_controls_show">Visa spelarkontroller</string>
-    <string name="exo_controls_shuffle_off_description">Blanda inte spår</string>
-    <string name="exo_controls_shuffle_on_description">Blanda spår</string>
+    <string name="exo_controls_shuffle_off_description">Aktivera blandningsläget</string>
+    <string name="exo_controls_shuffle_on_description">Inaktivera blandningsläget</string>
     <string name="exo_controls_vr_description">VR-läge</string>
     <string name="exo_track_selection_auto">Automatiskt</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="expand_attach_button_content_description">Utöka bilageknappar</string>
     <string name="expand_button_title">Avancerat</string>
     <string name="exposed_dropdown_menu_content_description">Visa rullgardinsmenyn</string>
+    <string name="express_sign_in_illustration_content_description">Bild på mediedelningsfunktionen</string>
+    <string name="express_sign_in_sub_title">"Bibehåll videons skärpa när du
+loggar in och skickar Google Foto-länkar."</string>
+    <string name="express_sign_in_title">"Dela videor när de är
+klara för visning"</string>
     <string name="fail_to_decrypt_message_metadata">Det går inte att dekryptera, tryck för alternativ</string>
     <string name="fail_to_load_dialog_negative_button">Skicka sms med enhetens SIM-kort</string>
     <string name="fail_to_load_dialog_positive_button">Försök igen</string>
@@ -740,6 +770,7 @@ När du eller appen rensar data återställer Messages historiken från lokal la
     <string name="failed_message_content_description">Meddelandet gick inte att skicka. Tryck för att försöka igen.</string>
     <string name="failed_qr_pairing_dialog_message">Det uppstod ett fel. Prova igen om några minuter.</string>
     <string name="failed_qr_pairing_dialog_positive_button_text">OK</string>
+    <string name="failed_to_select_attachment_from_system_picker">Det gick inte att välja den här bilagan</string>
     <string name="fast_track_negative_button_text">Nej tack</string>
     <string name="fast_track_popup_accepted_snack_bar_text">Chattfunktionerna konfigureras. Vi meddelar dig när de är klara.</string>
     <string name="fast_track_popup_declined_snack_bar_text">Du kan när som helst aktivera chattfunktioner i Inställningar.</string>
@@ -805,6 +836,9 @@ När du eller appen rensar data återställer Messages historiken från lokal la
     <string name="fi_settings_download_over_wifi_title">Synkronisera media endast med wifi</string>
     <string name="fi_settings_opt_out_failed">Det går för närvarande inte att stoppa synkronisering logga ut. Försök igen senare.</string>
     <string name="fi_settings_opt_out_in_progress">Stoppar synkronisering och loggar ut</string>
+    <string name="fi_settings_redirect_button">Hantera säkerhetskopia</string>
+    <string name="fi_settings_redirect_summary">De finns under kontomenyn</string>
+    <string name="fi_settings_redirect_title">Säkerhetskopierings- och synkroniseringsinställningarna har flyttats</string>
     <string name="fi_settings_sync_preference_backup_in_progress">Säkerhetskopiering pågår: %1$d %%</string>
     <string name="fi_settings_sync_preference_restore_in_progress">Återställning pågår: %1$d %%</string>
     <string name="fi_settings_sync_preference_summary">Meddelanden, samtal och röstbrevlåda är aktuella på skärmarna</string>
@@ -822,6 +856,7 @@ När du eller appen rensar data återställer Messages historiken från lokal la
     <string name="file_transfer_via_sms_other">Jag har delat en fil med dig</string>
     <string name="file_transfer_via_sms_video">Jag har delat en video med dig</string>
     <string name="files_shortcut_title">Filer</string>
+    <string name="flip_camera_button_label">Vänd kameran</string>
     <string name="floating_toolbar_close_overflow_description">Dölj utökat verktygsfält</string>
     <string name="floating_toolbar_open_overflow_description">Fler alternativ</string>
     <string name="foreground_service_notification_generic_text">Messages arbetar i bakgrunden</string>
@@ -835,12 +870,27 @@ När du eller appen rensar data återställer Messages historiken från lokal la
     <string name="full_banner_expand_chip_description">Knappen Utöka bricka</string>
     <string name="full_screen_gallery_action_attach">Lägg till</string>
     <string name="fullscreen_button_description">Öppna helskärm</string>
+    <string name="gaia_auth_failure_dialog_body">En del funktioner som drivs av ditt Google-konto fungerar inte förrän du loggar in</string>
+    <string name="gaia_auth_failure_dialog_title">Logga in igen för att verifiera att det är du</string>
+    <string name="gallery_google_photos_option_tray_button_add">Lägg till</string>
+    <string name="gallery_google_photos_option_tray_button_always">Alltid</string>
+    <string name="gallery_google_photos_option_tray_button_cancel">Avbryt</string>
+    <string name="gallery_google_photos_option_tray_button_just_once">Bara en gång</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_image">Bild med lägre skärpa</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_unknown">Media med låg kvalitet</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_video">Video med låg kvalitet</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_image">Bild</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_unknown">Media</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_video">Video</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_body">Högre kvalitet. Hantera delade länkar i Google Foto.</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_learn_more">Läs mer</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_title">Google Foto-länk</string>
+    <string name="gallery_item_content_description_selected_state">Avmarkera den/det här %1$s bifogad i position %2$s med två snabba tryckningar</string>
+    <string name="gallery_item_content_description_unselected_state">Markera den/det här %1$s som togs eller spelades in %2$s genom att trycka snabbt två gånger</string>
     <string name="general_settings">Allmänt</string>
     <string name="general_settings_activity_title">Allmänna inställningar</string>
     <string name="general_settings_title_m2">Alternativ</string>
     <string name="generic_issue_text">Annan</string>
-    <string name="get_messenger_notification_body">Läs och skicka sms från klockan eller mobilen</string>
-    <string name="get_messenger_notification_header">Ladda ned Messages</string>
     <string name="get_sticker_packs_error_msg">Det gick inte att läsa in dekalerna.</string>
     <string name="gif_screen_no_result">Inga träffar. Kontrollera sökningen och försök igen.</string>
     <string name="gif_screen_title">GIF-bilder</string>
@@ -848,10 +898,23 @@ När du eller appen rensar data återställer Messages historiken från lokal la
     <string name="gif_search_hint">Sök efter GIF-filer</string>
     <string name="gifs_shortcut_title">GIF-bilder</string>
     <string name="go_to_top">Visa senaste</string>
-    <string name="google_account_pref_title">Google-konto</string>
     <string name="google_assistant_verification_channel_name">Verifierare för Google-assistenten</string>
     <string name="google_assistant_verification_notification_title">Google-assistenten skickar meddelandet</string>
     <string name="google_fi_text">Google Fi</string>
+    <string name="google_photos_onboarding_close_button_description">Stäng kortet Google Foto</string>
+    <string name="google_photos_onboarding_ineligible_title">Logga in på Google Foto för videor med högre kvalitet</string>
+    <string name="google_photos_onboarding_ineligible_title_photos_and_videos">Logga in på Google Foto för foton och videor med högre kvalitet</string>
+    <string name="google_photos_onboarding_learn_more">Läs mer</string>
+    <string name="google_photos_onboarding_next">Nästa</string>
+    <string name="google_photos_onboarding_ok">OK</string>
+    <string name="google_photos_onboarding_signed_in_title_photos_and_videos">Logga in och skicka foton och videor med högre kvalitet</string>
+    <string name="google_photos_onboarding_signed_out_title">Logga in och skicka videor med högre kvalitet</string>
+    <string name="google_photos_onboarding_text_body">Bibehåll videons kvalitet när du skickar Google Foto-länkar i mms-konversationer</string>
+    <string name="google_photos_onboarding_text_body_photos_and_videos_xms">Bibehåll videons höga kvalitet när du skickar Google Foto-länkar i mms-konversationer</string>
+    <string name="google_photos_onboarding_title">Dela videor som de är avsedda att visas</string>
+    <string name="google_photos_onboarding_title_photos_and_videos">Dela foton och videor som de är avsedda att visas</string>
+    <string name="google_photos_option_tray">Logga in för att skicka videor med mer skärpa</string>
+    <string name="google_photos_option_tray_photos_and_videos">Logga in och skicka foton och videor med högre kvalitet</string>
     <string name="google_play_protect_title">Google Play Protect</string>
     <string name="google_tos_chat_features_tooltip">"Se när någon skriver, få läskvitton och skicka meddelanden, filer och högupplösta foton med chattfunktioner genom Rich Communication Services (RCS). Det här använder data för att skicka meddelanden.
 
@@ -865,8 +928,9 @@ Det går att stänga av i inställningarna. %1$s"</string>
 
 Det går att ändra standard-SIM för samtal i Systeminställningar: %1$s"</string>
     <string name="google_tos_multisim_view_accessibility_description">Läs mer</string>
+    <string name="google_tos_negative_link_text">Nej tack</string>
     <string name="group_conversation_title_everyone_else_left">Jag</string>
-    <string name="group_limit_alert_dialog_message">{max_group_size_including_self,plural, =1{Du får inte ha fler än # person}other{Du får inte ha fler än # personer}}</string>
+    <string name="group_limit_alert_dialog_message">{max_group_size_excluding_self,plural, =1{Du får inte ha fler än # annan person}other{Du får inte ha fler än # andra personer}}</string>
     <string name="group_mms_pref_title">Gruppmeddelanden</string>
     <string name="group_name_edit_text_label">Gruppnamn</string>
     <string name="guest_cloud_preview">FÖRHANDSGRANSKA</string>
@@ -888,14 +952,19 @@ Det går att ändra standard-SIM för samtal i Systeminställningar: %1$s"</stri
     <string name="hats_lib_thank_you_followup_message">Hjälp oss att förbättra produkten genom att svara på fler frågor</string>
     <string name="hidden_sender_address">Avsändaradress dold</string>
     <string name="highlighter">Markering</string>
+    <string name="how_it_works_link_text">Så fungerar det</string>
+    <string name="hqms_always_send_image_as_link_pref_title">Skicka alltid bilder med länk i sms/mms</string>
+    <string name="hqms_always_send_video_as_link_pref_title">Skicka alltid videor med länk i sms/mms</string>
+    <string name="hqms_settings_gaia_card_text">Hantera länkar i Google Foto</string>
+    <string name="hqms_settings_info_text">Messages laddar upp till Google Foto, där du kan hantera videolänkdelning. %1$s</string>
+    <string name="hqms_settings_sign_in_prompt_text">Logga in på ditt Google-konto för att använda den här funktionen.</string>
     <string name="hqms_settings_summary">Dela video med högre kvalitet i sms/mms</string>
     <string name="hqms_settings_title">Google Foto</string>
     <string name="identity_verification_notification_text">Messages verifierar ett inkommande meddelande</string>
     <string name="ignore">Ignorera</string>
     <string name="image_attachment_content_description">Bifogad bild</string>
     <string name="image_compress_info">Mottagaren får lägre bildkvalitet på grund av operatörens mms-begränsningar</string>
-    <string name="imei_format_dropdown_hint">Ange IMEI-format</string>
-    <string name="imsi_format_dropdown_hint">Ange IMSI-format</string>
+    <string name="image_format_type">bilden</string>
     <string name="in_conversation_blocked_contact_text">Det kan hända att du inte ser alla meddelanden eftersom konversationen innehåller blockerade kontakter.</string>
     <string name="in_conversation_notify_new_message_action">Visa</string>
     <string name="in_conversation_notify_new_message_text">Nytt meddelande</string>
@@ -905,7 +974,7 @@ Det går att ändra standard-SIM för samtal i Systeminställningar: %1$s"</stri
     <string name="incoming_message_for_secondary_user_notification_title">Nytt meddelande</string>
     <string name="incoming_message_foreground_notification_text">Messages bearbetar ett inkommande meddelande</string>
     <string name="incoming_mms_disabled_by_company_pref_summary">Ditt företag tillåter inte inkommande MMS-meddelanden</string>
-    <string name="indeterminate">Varken markerad eller avmarkerad</string>
+    <string name="indeterminate">Delvis markerad</string>
     <string name="info_and_options_activity_business_tab_list_header">Företag</string>
     <string name="info_and_options_activity_info_tab_content_description">Information</string>
     <string name="info_and_options_activity_info_tab_title">Information</string>
@@ -916,6 +985,9 @@ Det går att ändra standard-SIM för samtal i Systeminställningar: %1$s"</stri
     <string name="info_and_options_view_terms_of_service">Visa användarvillkor</string>
     <string name="inline_playback_error">Det går inte att spela upp den här videon i Messages</string>
     <string name="inline_playback_pause_content_description">Pausa video</string>
+    <string name="install_photos_app">Ladda ned Google Foto</string>
+    <string name="install_photos_app_title">Fortsätt genom att ladda ned appen Google Foto</string>
+    <string name="install_photos_app_to_continue">Installera appen och skicka videor med högre kvalitet</string>
     <string name="invalid_qr_code_dialog_message">Logga in genom att skanna QR-koden på %s</string>
     <string name="invalid_qr_code_dialog_positive_button_text">OK</string>
     <string name="invalid_qr_code_dialog_title">Fel kod</string>
@@ -929,14 +1001,12 @@ Det går att ändra standard-SIM för samtal i Systeminställningar: %1$s"</stri
     <string name="leave_confirmation_text">Vill du sluta ta emot meddelanden från den här gruppen?</string>
     <string name="leave_confirmation_title">Lämna gruppen permanent</string>
     <string name="libraries_material_featurehighlight_dismiss">Ignorera</string>
-    <string name="link_preview_enabled_pref_summary">Visa förhandsgranskningar i meddelanden</string>
+    <string name="lighter_account_sign_out_snackbar_text">Logga in för att visa dina företagskonversationer</string>
+    <string name="lighter_block_report_spam_body">Företagets namn och din konversation med det skickas till Google (mobiloperatörens avgifter kan tillkomma).</string>
     <string name="link_preview_enabled_pref_summary_off">Av</string>
     <string name="link_preview_failed">Ingen förhandsgranskning</string>
     <string name="link_preview_google_photos_display_name">Google Foto</string>
-    <string name="link_preview_preference_info_text">Google hämtar förhandsgranskningar från länkade webbplatser. Endast länkar från kända avsändare inkluderar förhandsgranskningar. %1$s</string>
-    <string name="link_preview_preference_title">Automatisk förhandsgranskning av länkar</string>
     <string name="link_preview_tap_to_load">Tryck för att läsa in förhandsgranskning</string>
-    <string name="link_preview_wifi_only_pref_summary">Ladda endast ned förhandsgranskningar via wifi</string>
     <string name="link_to_settings"><u>Hantera i Inställningar</u></string>
     <string name="listify_many">%1$s och %2$d andra</string>
     <string name="listify_one">%s</string>
@@ -983,13 +1053,13 @@ Rekommenderad information är valfri att dela och inkluderar inte textinnehålle
     <string name="manual_msisdn_skipped_snack_bar_text">Utökade chattfunktioner har inte aktiverats. Du kan aktivera dem när du vill i Inställningar.</string>
     <string name="manual_msisdn_skipped_snack_bar_text_b155475148">Messages försöker verifiera ditt nummer hos operatören. Hantera i Inställningar.</string>
     <string name="manual_msisdn_verify_now_snack_bar_text_b155475148">Messages försöker verifiera ditt nummer hos operatören. Hantera i Inställningar.</string>
-    <string name="manually_override_rcs_flags">Åsidosätt RCS-flaggor manuellt</string>
     <string name="mark_all_messages_as_read_confirmation">Alla meddelanden markerade som lästa</string>
     <string name="mdd_download_notification_channel_name">Aviseringskanal för Mobile Data Download</string>
     <string name="mdd_foreground_service_notification_title">Laddar ned</string>
     <string name="mdd_notification_action_cancel">Avbryt</string>
     <string name="mdd_notification_download_failed">Nedladdningen misslyckades</string>
     <string name="mdd_notification_download_paused">Väntar på nätverksanslutning</string>
+    <string name="mdd_notification_download_paused_wifi">Väntar på wifi-anslutning</string>
     <string name="media_compress_info">Mottagaren får lägre mediekvalitet på grund av operatörens mms-begränsningar</string>
     <string name="media_compress_tooltip_info_icon_text">information</string>
     <string name="media_viewer_close_button_description">Stäng</string>
@@ -1088,6 +1158,8 @@ Rekommenderad information är valfri att dela och inkluderar inte textinnehålle
     <string name="message_type_vcard">Kontaktkort</string>
     <string name="message_type_video">Video</string>
     <string name="message_video_content_description">Video</string>
+    <string name="message_with_deleted_snippet_talk_back_announcement">%1$s som svar på ett raderat meddelande</string>
+    <string name="message_with_reply_snippet_talk_back_announcement">%1$s som svar på %2$s från %3$s</string>
     <string name="messages_for_web_preference_summary">Besök %1$s</string>
     <string name="messages_for_web_preference_title">Skicka sms, ring och öppna röstbrevlådan på webben</string>
     <string name="messages_status_feedback_data_description">"All rekommenderad information hjälper till att avslöja dolda problem, de olika fallen, hur de är relaterade och var att felsöka.
@@ -1138,14 +1210,18 @@ Det går endast att svara på kortnummer med siffror, men inte på kortnummer me
     <string name="mms_group_conversation_changed_to">Den här konversationen är nu ett grupp-mms</string>
     <string name="mms_group_conversation_details">Alla kan besvara och se varandras meddelanden</string>
     <string name="mms_phone_number_pref_title">Telefonnummer</string>
-    <string name="mms_text">Mms</string>
+    <string name="mms_text">MMS</string>
     <string name="more_string">+%1$d</string>
     <string name="mtrl_badge_numberless_content_description">Ny avisering</string>
+    <string name="mtrl_checkbox_state_description_checked">Checked</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Indeterminate</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Not checked</string>
     <string name="mtrl_chip_close_icon_content_description">Ta bort (%1$s)</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Fler än %1$d nya aviseringar</string>
     <string name="mtrl_picker_a11y_next_month">Ändra till nästa månad</string>
     <string name="mtrl_picker_a11y_prev_month">Ändra till föregående månad</string>
     <string name="mtrl_picker_announce_current_selection">Aktuellt val: %1$s</string>
+    <string name="mtrl_picker_cancel">Avbryt</string>
     <string name="mtrl_picker_confirm">OK</string>
     <string name="mtrl_picker_day_of_week_column_header">Kolumn med dagar: %1$s</string>
     <string name="mtrl_picker_navigate_to_year_description">Navigera till år %1$s</string>
@@ -1157,11 +1233,24 @@ Det går endast att svara på kortnummer med siffror, men inte på kortnummer me
     <string name="multimedia_message">Mms</string>
     <string name="muted_conversation_content_description">Aviseringar har inaktiverats.</string>
     <string name="nav_app_bar_navigate_up_description">Navigera uppåt</string>
+    <string name="nav_archived_messages_folder_title">Arkiverat</string>
+    <string name="nav_choose_theme_title">Välj tema</string>
+    <string name="nav_choose_theme_title_disable_dark_mode">Inaktivera mörkt läge</string>
+    <string name="nav_choose_theme_title_enable_dark_mode">Aktivera mörkt läge</string>
+    <string name="nav_device_pairing_title">Enhetskoppling</string>
+    <string name="nav_mark_all_as_read_title">Markera alla som lästa</string>
+    <string name="nav_messages_folder_title">Meddelanden</string>
+    <string name="nav_spam_and_blocked_messages_folder_title">Spam och blockerat</string>
+    <string name="nav_starred_folder_title">Stjärnmärkt</string>
     <string name="navigate_up_button_content_description">Navigera uppåt</string>
     <string name="new_message_label">{count,plural, =1{Ett nytt meddelande}other{# nya meddelanden}}</string>
     <string name="new_pill_label">Ny</string>
     <string name="new_rich_cards_preference_info_text">Google genomsöker viss information (såsom platser eller länkar) i din chatthistorik utan att identifiera dig för att skapa alla förhandsgranskningar och identifiera skadligt innehåll. %1$s</string>
-    <string name="no_google_account">Inget</string>
+    <string name="no_business_name_fallback">det här företaget</string>
+    <string name="no_connection">Ingen anslutning</string>
+    <string name="no_media_button">Visa alternativ</string>
+    <string name="no_media_caption">Prova med en annan mediekälla eller profil</string>
+    <string name="no_media_description">Det finns ingen media sparad på den här enheten för den här profilen</string>
     <string name="no_reply_pinned_message_text">Avsändare stöder inte svar</string>
     <string name="no_sim_message">Inga meddelanden på SIM</string>
     <string name="not_selected">Inte vald</string>
@@ -1217,31 +1306,51 @@ Det går endast att svara på kortnummer med siffror, men inte på kortnummer me
     <string name="nudge_learn_more_info_text">Mer om puffar</string>
     <string name="nudge_reply_enabled_pref_summary">Meddelanden som kanske kräver svar från dig flyttas högst upp</string>
     <string name="nudge_reply_enabled_pref_title">Föreslå påminnelser om svar</string>
+    <string name="nudge_settings_page_description">Visa svar och påminnelser om födelsedagar</string>
     <string name="nudge_settings_page_title">Puffar</string>
     <string name="numeric_text_keyboard_toggle_button_content_description">Växla mellan att ange text och siffror</string>
     <string name="off">Av</string>
     <string name="og_a11y_close">Stäng</string>
     <string name="og_account_and_settings">Konto och inställningar.</string>
+    <string name="og_account_particle_disc_no_accounts_available_a11y">Logga in</string>
     <string name="og_add_another_account">Lägg till ytterligare ett konto</string>
+    <string name="og_app_settings">Inställningar för %1$s</string>
     <string name="og_choose_an_account_title">Välj ett konto</string>
     <string name="og_collapse_account_list_a11y">Komprimera kontolistan.</string>
     <string name="og_continue">Fortsätt</string>
     <string name="og_continue_as">Fortsätt som %1$s</string>
     <string name="og_expand_account_list_a11y">Utöka kontolistan.</string>
+    <string name="og_get_storage_action">Skaffa mer utrymme</string>
+    <string name="og_get_storage_action_short">Köp mer utrymme</string>
     <string name="og_google_one_account_a11y">Konto i Google One.</string>
+    <string name="og_help_feedback">Hjälp och feedback</string>
     <string name="og_loading_a11y">Läser in</string>
     <string name="og_manage_accounts">Hantera konton på den här enheten</string>
+    <string name="og_manage_storage_action">Hantera lagring</string>
+    <string name="og_manage_storage_action_short">Hantera</string>
+    <string name="og_minimized_storage_card_title">Lagringsutrymme som används: %1$s av %2$s GB</string>
+    <string name="og_more_options_action">Fler alternativ</string>
+    <string name="og_more_options_action_short">Alternativ</string>
     <string name="og_my_account_desc_long_length">Hantera ditt Google-konto</string>
     <string name="og_my_account_desc_meduim_length">Google-konto</string>
     <string name="og_my_account_desc_short_length">Konto</string>
+    <string name="og_privacy_advisor">Din data i %1$s</string>
     <string name="og_privacy_policy">Integritetspolicy</string>
     <string name="og_selected_account_a11y">%1$s har valts.</string>
     <string name="og_sign_in_">Logga in</string>
     <string name="og_signed_in_as_account">Du är inloggad som %1$s</string>
+    <string name="og_storage_card_almost_full_a11y_label">Kontots lagringsutrymme är nästan fullt</string>
+    <string name="og_storage_card_full_a11y_label">Kontots lagringsutrymme är fullt</string>
+    <string name="og_storage_card_title">Lagringsutrymme på kontot</string>
+    <string name="og_storage_card_title_almost_full">%1$s av lagringsutrymmet används</string>
+    <string name="og_storage_card_title_full">Slut på lagringsutrymme</string>
+    <string name="og_storage_progress_subtitle">%1$s GB av %2$s GB används</string>
     <string name="og_terms_of_service">Användarvillkor</string>
     <string name="og_use_account_a11y_no_period">Använd %1$s</string>
+    <string name="og_use_without_an_account">Använd utan konto</string>
     <string name="on">På</string>
     <string name="onboarding_google_tos_with_sms_charges_and_learn_more">Aktivera chattfunktioner från Google genom att godkänna %1$s och %2$s. Google verifierar ibland ditt nummer genom att utbyta enhetsinformation med operatören (sms-avgifter kan tillkomma). %3$s.</string>
+    <string name="open_full_screen_camera_button_label">Öppna helskärmskamera</string>
     <string name="open_video_trimmer_dialog_negative">Avbryt</string>
     <string name="open_video_trimmer_dialog_positive">Trimma</string>
     <string name="organization">Organisation</string>
@@ -1255,8 +1364,6 @@ Det går endast att svara på kortnummer med siffror, men inte på kortnummer me
     <string name="otp_auto_deletion_promo_banner_positive_button_text">Fortsätt</string>
     <string name="otp_auto_deletion_promo_banner_title_text">Vill du radera engångslösenord automatiskt efter 24 timmar?</string>
     <string name="otp_copied_to_clipboard">Koden kopierade</string>
-    <string name="otp_pattern_dropdown_hint">Ange OTP-mönster</string>
-    <string name="otp_port_dropdown_hint">Ange OTP-port</string>
     <string name="outgoing_message_foreground_notification_text">Messages bearbetar ett utgående meddelande</string>
     <string name="outgoing_mms_disabled_by_carrier_pref_summary">Din operatör tillåter inte utgående MMS-meddelanden</string>
     <string name="outgoing_mms_disabled_by_company_pref_summary">Ditt företag tillåter inte utgående MMS-meddelanden</string>
@@ -1282,6 +1389,7 @@ Det går endast att svara på kortnummer med siffror, men inte på kortnummer me
     <string name="paired_desktops_last_connection_time">Senast aktiv för %s sedan</string>
     <string name="paired_desktops_last_connection_time_unknown">okänt</string>
     <string name="participant_joined_group">%s gick med i gruppen</string>
+    <string name="participant_joined_with_learn_more">%1$s gick med i gruppen. %2$s</string>
     <string name="participant_left_group">%s lämnade gruppen</string>
     <string name="participant_list_add">Lägg till personer</string>
     <string name="participant_list_count_title_icu">{count,plural, =0{0 andra personer}=1{En annan person}other{# andra personer}}</string>
@@ -1301,8 +1409,9 @@ Det går endast att svara på kortnummer med siffror, men inte på kortnummer me
     <string name="phone_number_input_body_for_mo_text">Eller hoppa över för att få chattfunktioner senare medan Messages försöker att verifiera ditt nummer hos operatören</string>
     <string name="phone_number_input_body_text">Messages verifierar ditt nummer för att säkerställa att du får chattfunktioner</string>
     <string name="phone_number_input_hint">Ditt telefonnummer</string>
+    <string name="phone_number_input_invalid_number_text">Ogiltigt telefonnummer</string>
     <string name="phone_number_input_negative_button_for_mo_text">Hoppa över</string>
-    <string name="phone_number_input_negative_button_for_mt_text">Påminn senare</string>
+    <string name="phone_number_input_negative_button_for_mt_text">Påminn mig senare</string>
     <string name="phone_number_input_positive_button_text">Lägg till telefonnummer</string>
     <string name="phone_number_input_streamlined_body_for_mo_text">Dela foton, videor, med mera över wifi- eller dataanslutning. Lägg till ditt nummer nu för att få chattfunktioner snabbare. Eller hoppa över det här steget och låt Messages identifiera och try to discover and verify your number.</string>
     <string name="phone_number_input_streamlined_body_text">Dela foton, videor, med mera över wifi- eller dataanslutning. Lägg till ditt nummer nu för att få chattfunktioner.</string>
@@ -1317,10 +1426,25 @@ Det går endast att svara på kortnummer med siffror, men inte på kortnummer me
     <string name="phone_number_input_title_text">Lägg till ditt nummer nu för att få chattfunktioner snabbare</string>
     <string name="phone_number_input_tos_reminder_text">Du godkände %1$s för chattfunktioner tidigare.</string>
     <string name="phone_number_input_tos_text">Användarvillkor</string>
+    <string name="phone_number_promo_banner_body_text">Bekräfta ditt telefonnummer om du vill skicka videor med högre kvalitet, animerade reaktioner och annat via wifi eller mobildata</string>
+    <string name="phone_number_promo_banner_negative_button_text">Stäng</string>
+    <string name="phone_number_promo_banner_positive_button_text">Nästa</string>
+    <string name="phone_number_promo_banner_title_text">Nästa steg för att förbättra Messages-funktioner</string>
+    <string name="phone_number_promo_body_text">Kom i gång nu med ditt verifierade telefonnummer. Hantera chattfunktioner i Inställningar när som helst.</string>
+    <string name="phone_number_promo_body_text_mo">Kom i gång nu med ditt verifierade telefonnummer. Eller hoppa över för att få chattfunktioner senare medan Messages försöker verifiera ditt nummer åt dig.</string>
+    <string name="phone_number_promo_negative_button_text">Påminn mig senare</string>
+    <string name="phone_number_promo_negative_button_text_mo">Hoppa över</string>
+    <string name="phone_number_promo_positive_button_text">Hämta chattfunktioner.</string>
+    <string name="phone_number_promo_title_text">Är du redo att dela foton, videor, med mera över wifi eller data?</string>
+    <string name="phone_number_ui_accepted_snackbar_text">Du får ett meddelande när chattfunktionerna är tillgängliga</string>
+    <string name="phone_number_ui_dismissed_snackbar_action_text">Inställningar</string>
+    <string name="phone_number_ui_dismissed_snackbar_text">Skaffa chattfunktioner nu genom att lägga till ditt telefonnummer eller hantera i inställningarna</string>
     <string name="photo_taken">Ett foto har tagits</string>
+    <string name="photos_app_installation_required">Hämta appen Google Foto för att skicka videor med högre kvalitet</string>
+    <string name="photos_app_onboarding_required">Ge Google Foto åtkomst för att skicka videor med högre kvalitet</string>
+    <string name="photos_app_sharing_unavailable_try_again_later">Länken till video med högre kvalitet är för tillfället inte tillgänglig. Det går att skicka video i lägre kvalitet.</string>
+    <string name="photos_app_sign_in_required">Logga in på Google Foto för att skicka videor med högre kvalitet.</string>
     <string name="picker_disambiguation_title">Välj destination</string>
-    <string name="pin_limit_message">Det går att fästa upp till %1$d konversationer</string>
-    <string name="pin_success_message">Fäste %1$d av %2$d konversationer</string>
     <string name="pinch_zoom_pref_title">Nyp för att zooma konversationstext</string>
     <string name="places_autocomplete_clear_button">Rensa sökning</string>
     <string name="places_autocomplete_label">Välj en plats</string>
@@ -1340,7 +1464,7 @@ Det går endast att svara på kortnummer med siffror, men inte på kortnummer me
     <string name="posted_this_year">%1$s%2$s%3$s</string>
     <string name="posted_yesterday">Igår%1$s%2$s</string>
     <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
-    <string name="preferences_license_title">Licenser för öppen källkod</string>
+    <string name="preferences_license_title">Meddelande för tredje part</string>
     <string name="premium_sms_banner_body">Aktivera det här i Inställningar för att skicka till %s och andra premium-sms-nummer.</string>
     <string name="premium_sms_banner_body_saved_contact">Aktivera det här i Inställningar för att skicka till %1$s (%2$s) och andra premium-sms-nummer.</string>
     <string name="premium_sms_banner_description">@string/banner_description</string>
@@ -1371,10 +1495,11 @@ Information om dina meddelanden och konversationer inkluderar mottagarnas och av
 Den här informationen hjälper oss att identifiera faktorer som bidrar till problemet för att snabbare och effektivare förstå det."</string>
     <string name="problematic_message_feedback_data_rationale_title">Hur information om dina meddelanden och konversationer hjälper oss</string>
     <string name="promotion_content_description">Det här meddelandet kategoriseras som ett erbjudande</string>
+    <string name="prompt_button_action_not_now">Inte nu</string>
+    <string name="prompt_button_action_sign_in">Logga in</string>
     <string name="proxy_screen_clear_search">Rensa sökning</string>
     <string name="proxy_screen_search">Sök</string>
     <string name="qr_action_bar_device_pairing_title">Enhetskoppling</string>
-    <string name="qr_action_bar_title">Messages för webben</string>
     <string name="qr_code_scanner_hint_text">Skanna QR-koden som visas på &lt;br/><b>%s</b></string>
     <string name="qr_code_scanner_preference_button">QR-skanner</string>
     <string name="qr_delete_all_paired_desktops_button_text">Koppla från alla enheter</string>
@@ -1389,6 +1514,8 @@ Den här informationen hjälper oss att identifiera faktorer som bidrar till pro
     <string name="qr_welcome_privacy">Integritetspolicy</string>
     <string name="qr_welcome_terms_of_service">Användarvillkor</string>
     <string name="rbm_block_confirmation_message_spam_folder">Du aviseras inte längre när du får meddelanden från %1$s. Den här konversationen flyttas till Spam och blockerat. %2$s</string>
+    <string name="rbm_block_dialog_body">Du får inga meddelanden från den här avsändaren. Den här konversationen flyttas till Spam och blockerat, där det går att återaktivera blockeringen när som helst.</string>
+    <string name="rbm_block_dialog_positive_button_label">Blockera</string>
     <string name="rbm_business_logo_icon_content_description">Ikonen Företagslogotyp</string>
     <string name="rbm_platform_generalized_verifier_title">Verifierad av %s</string>
     <string name="rbm_platform_verified_by_google">Verifierat av Google</string>
@@ -1408,6 +1535,7 @@ Den här informationen hjälper oss att identifiera faktorer som bidrar till pro
     <string name="rcs_learn_more_title">%1$s om chattfunktioner</string>
     <string name="rcs_learn_more_title_with_no_link">Läs mer om chattfunktioner</string>
     <string name="rcs_message">Rich Communication Service-meddelande</string>
+    <string name="rcs_message_failed_recipient_lost_encryption_content_description">Det går inte att leverera, tryck för alternativ</string>
     <string name="rcs_message_failed_recipient_lost_rcs_content_description">Det går inte att leverera, tryck för alternativ</string>
     <string name="rcs_mobile_data_auto_download_carrier_format_entry">Standardinställning (%1$s)</string>
     <string name="rcs_mobile_data_auto_download_limit_disable_entry_text">Inaktivera</string>
@@ -1490,11 +1618,12 @@ Den här informationen hjälper oss att identifiera faktorer som bidrar till pro
     <string name="reaction_surprised_content_description">Ansikte med öppen mun</string>
     <string name="reactions_promo_announcement">Tryck länge för att reagera</string>
     <string name="reactions_promo_text">Tryck länge för att reagera</string>
-    <string name="read_external_storage_permission_description">Åtkomst till telefonens lagring krävs för att visa galleriet här.</string>
+    <string name="read_media_storage_permission_description">Åtkomst till telefonens medialagring krävs för att visa galleriet här.</string>
     <string name="received_label">Mottaget:</string>
-    <string name="recipient_hint">Skriv ett namn, ett telefonnummer eller en e-postadress</string>
+    <string name="recipient_hint">Skriv namn, telefonnummer eller e-postadress</string>
     <string name="recipient_label">Till</string>
     <string name="recipient_offline_description">Väntar tills %s är online ...</string>
+    <string name="reminder_badge_content_description">Påminnelse</string>
     <string name="reminder_datetime_picker_dialog_delete_button">Radera</string>
     <string name="reminder_datetime_picker_dialog_menu_title_add">Ställ in påminnelse</string>
     <string name="reminder_datetime_picker_dialog_menu_title_update">Påminnelse om uppdatering</string>
@@ -1515,7 +1644,7 @@ Den här informationen hjälper oss att identifiera faktorer som bidrar till pro
     <string name="reminder_suggestions_tooltip_text">Tryck och välj en tid för uppföljning senare. Stäng av förslag i &lt;a href>Inställningar&lt;/a></string>
     <string name="reminder_suggestions_tooltip_title_text">Ange påminnelser</string>
     <string name="reminders_banner_body">%1$s: %2$s</string>
-    <string name="reminders_banner_description">@string/banner_description</string>
+    <string name="reminders_banner_description">Reminder conversation banner</string>
     <string name="reminders_banner_done_button">Klar</string>
     <string name="reminders_banner_remind_button">Påminn 1 tim</string>
     <string name="reminders_banner_self_sender_name">Du</string>
@@ -1528,7 +1657,7 @@ Den här informationen hjälper oss att identifiera faktorer som bidrar till pro
     <string name="remove_reaction_from_gif_rcs_fallback_text">Tog bort ‌%1$s‌ från en GIF</string>
     <string name="remove_reaction_from_link_rcs_fallback_text">Tog bort ‌%1$s‌ från en länk</string>
     <string name="remove_reaction_from_photo_rcs_fallback_text">Tog bort ‌%1$s‌ från ett foto</string>
-    <string name="remove_reaction_from_text_message_rcs_fallback_text">Tog bort ‌%1$s‌ från %2$s</string>
+    <string name="remove_reaction_from_text_message_rcs_fallback_text">Tog bort ‌%1$s‌ från  %2$s </string>
     <string name="remove_reaction_from_unknown_message_type_rcs_fallback_text">Tog bort ‌%1$s‌ från en okänd meddelandetyp</string>
     <string name="remove_reaction_from_video_rcs_fallback_text">Tog bort ‌%1$s‌ från en video</string>
     <string name="remove_user_dialog_cancel">Avbryt</string>
@@ -1537,14 +1666,17 @@ Den här informationen hjälper oss att identifiera faktorer som bidrar till pro
     <string name="rename_group_title_m2">Gruppnamn</string>
     <string name="reply_activity_title">Svara</string>
     <string name="reply_button_label">Svara</string>
-    <string name="reply_icon_content_description">Svara på meddelande</string>
+    <string name="reply_icon_content_description">Svara</string>
     <string name="report_contact_title">Rapportera spam</string>
     <string name="report_failed_rcs_group_creation">Ett fel inträffade och en eller flera deltagare lades inte till.</string>
     <string name="report_group_spam_body_spam_folder">Andra gruppmedlemmars nummer och senaste sms skickas till Google för granskning och går kanske till operatören (avgifter kan tillkomma). Den här konversationen stannar i Spam och blockerat utan aviseringar. %1$s</string>
+    <string name="report_invalid_thread_id_issue_description">Ogiltigt tråd-id. Se loggar för mer information.</string>
     <string name="report_issue_action_text">Skicka feedback</string>
+    <string name="report_issue_description">Messages identifierade ett fel automatiskt. Se loggen för mer information.</string>
     <string name="report_issue_notification_text">Messages identifierade ett fel. Tryck för att skicka feedback.</string>
     <string name="report_not_spam_snackbar_message">%1$s rapporterad som inte spam</string>
     <string name="report_person_delivered">%1$s Mottaget: %2$s</string>
+    <string name="report_person_ftd">%1$s Det gick inte att dekryptera: %2$s</string>
     <string name="report_person_read">%1$s Läst: %2$s</string>
     <string name="report_person_sent">%s har inte mottagit</string>
     <string name="report_receive_issue_notification_message">Android kan inte ta emot meddelande skickat till dig. Tryck för att skicka feedback.</string>
@@ -1557,6 +1689,7 @@ Den här informationen hjälper oss att identifiera faktorer som bidrar till pro
     <string name="report_spam_snackbar_message">%1$s rapporterad som spam</string>
     <string name="report_spam_toast_title">Spam rapporterat</string>
     <string name="report_telephone_db_recreation_message">Det går inte att hämta meddelanden. Tryck för att skicka feedback.</string>
+    <string name="report_thread_id_not_found_description">Tråd-id saknas. Se loggar för mer information.</string>
     <string name="required_permissions_no_promptable_promo">Ändra behörigheter i enhetens appinställningar. Ge Messages åtkomst till Sms/meddelanden, Telefon och Kontakter.</string>
     <string name="required_permissions_no_promptable_title">Ge åtkomst</string>
     <string name="required_permissions_promptable_promo">Slutför konfiguration av standardappen genom att ge Messages åtkomst till sms, mobil och kontakter.</string>
@@ -1572,10 +1705,15 @@ Den här informationen hjälper oss att identifiera faktorer som bidrar till pro
     <string name="rich_cards_settings_enable_link_preview_title">Visa endast förhandsgranskningar av webblänkar</string>
     <string name="rich_cards_settings_root_title">Automatiska förhandsgranskningar</string>
     <string name="said">sade</string>
-    <string name="same_birthday_nudge_text">De har födelsedag i dag!</string>
+    <string name="same_birthday_nudge_text">Den här personen fyller år i dag!</string>
     <string name="samsung_setting_search_title">Messages-inställningar</string>
     <string name="save">Spara</string>
     <string name="save_attachment">Spara</string>
+    <string name="save_banner_body">Spara den här födelsedagen i appen Kontakter så påminner Messages dig nästa år</string>
+    <string name="save_banner_positive_button">Spara födelsedag</string>
+    <string name="save_banner_title_name">Kom ihåg när %1$s fyller år</string>
+    <string name="save_banner_title_no_name">Kom ihåg födelsedagen</string>
+    <string name="save_birthday_banner_description">@string/banner_description</string>
     <string name="save_otp_confirm_button">Spara engångslösenord</string>
     <string name="save_otp_dialog_message">Det här engångslösenordet sparas medan dina övriga engångslösenord raderas automatiskt efter 24 timmar. Hantera i inställningarna.</string>
     <string name="save_otp_dialog_title">Spara det här engångslösenordet?</string>
@@ -1594,6 +1732,7 @@ Den här informationen hjälper oss att identifiera faktorer som bidrar till pro
     <string name="scheduled_send_announcement_scheduling_failed">Det gick inte att schemalägga meddelande.</string>
     <string name="scheduled_send_announcement_scheduling_started">Schemalägger meddelande.</string>
     <string name="scheduled_send_announcement_scheduling_succeeded">Meddelandet schemalagt.</string>
+    <string name="scheduled_send_badge_content_description">Märket Schemalagd att skicka</string>
     <string name="scheduled_send_compose_label_close_content_description">Ta bort schemaläggning.</string>
     <string name="scheduled_send_datetime_picker_subtitle">Skicka genom att behålla telefonen på och ansluta till wifi eller data</string>
     <string name="scheduled_send_datetime_picker_title">Skicka med schemaläggning (%1$s)</string>
@@ -1621,6 +1760,7 @@ Den här informationen hjälper oss att identifiera faktorer som bidrar till pro
     <string name="security_key_top_level_title">Verifiera kryptering</string>
     <string name="see_gallery">Visa galleri</string>
     <string name="selected">Valt</string>
+    <string name="selection_position_text">%1$d</string>
     <string name="self_left_group_conversation_failed">Det gick inte att lämna gruppen. Försök igen senare.</string>
     <string name="self_participant_reaction_name">Du</string>
     <string name="self_person_name">Du</string>
@@ -1670,7 +1810,6 @@ Ditt telefonnummer används endast för felsökning och problemlösning. Google 
     <string name="sending_timeout_failure_dialog_title">Meddelandet skickades inte</string>
     <string name="sent_label">Skickat:</string>
     <string name="set_message_priority_description">Ställ in brådskande status</string>
-    <string name="set_rcs_flags">Ställ in RCS-flaggor</string>
     <string name="set_rcs_mobile_data_auto_download_limit_title">Ladda automatiskt ned filer du får över mobildata</string>
     <string name="setting_fast_track_body_with_cost">Genom att fortsätta godkänner du %1$s och %2$s. För telefonnummerbaserad meddelandeleverans kan Google ibland verifiera ditt nummer genom att utbyta enhetsinformation med din operatör eller via sms (avgifter kan tillkomma). Du kan inaktivera chattfunktioner i inställningarna. %3$s</string>
     <string name="settings_activity_title">Inställningar</string>
@@ -1693,6 +1832,13 @@ Ditt telefonnummer används endast för felsökning och problemlösning. Google 
     <string name="shortcuts_screen_title">Genvägar</string>
     <string name="show_sms_link_warning_change_label">Ändra</string>
     <string name="show_sms_link_warning_text">Bilagor skickas som sms med en länk till bilagan</string>
+    <string name="sign_in_app_name_without_account">Använd %1$s utan konto</string>
+    <string name="sign_in_cancel">Avbryt</string>
+    <string name="sign_in_without_account">Använd utan konto</string>
+    <string name="sign_in_without_account_short">Utan konto</string>
+    <string name="sign_into_photos_app">Logga in</string>
+    <string name="sign_into_photos_app_title">Fortsätt genom att logga in på Google Foto</string>
+    <string name="sign_into_photos_app_with_x_to_continue">Du skickar för närvarande från %1$s</string>
     <string name="signature_banner_description">@string/banner_description</string>
     <string name="silent_ringtone">Tyst</string>
     <string name="sim_label">SIM:</string>
@@ -1711,9 +1857,13 @@ Ditt telefonnummer används endast för felsökning och problemlösning. Google 
     <string name="sim_storage_full_title">SIM-kortets lagringsutrymme är fullt</string>
     <string name="sim_storage_pref_title">Meddelanden på SIM-kort</string>
     <string name="simple_fail_to_decrypt_message_dialog_body">Prova att uppdatera appen Messages för att dekryptera framtida meddelanden</string>
+    <string name="smart_action_settings_page_description">Visa relevanta genvägar till kalender, GIF-sökning, platsdelning med mera</string>
+    <string name="smart_action_settings_page_title">Åtgärder</string>
+    <string name="smart_actions_preference_summary_shortcuts">Visa relevanta genvägar till kalender, GIF-sökning, platsdelning med mera</string>
     <string name="smart_actions_preference_title">Rekommenderade åtgärder</string>
     <string name="smart_compose_preference_summary">Visa skrivförslag</string>
     <string name="smart_compose_preference_title">Smartskrivning</string>
+    <string name="smart_reply_preference_summary">Visa svarsalternativ i chatten</string>
     <string name="smarts_preference_info_text">Smartsvar och rekommenderade åtgärder visas endast tills du trycker och delar. &lt;br/> &lt;br/> Förslag varierar beroende på konversationen och genereras på enheten. %1$s</string>
     <string name="smarts_preference_info_text_with_assistant">Messages använder enhetens intelligens för att generera Smartsvar, rekommenderade åtgärder och förslag från assistenten. &lt;br/> &lt;br/>Förslag delas inte med Google eller någon annan förrän du trycker på dem. &lt;br/> &lt;br/> Om du tillåter att Messages kommer åt enhetens plats visas mer lokala förslag. %1$s</string>
     <string name="smarts_settings_page_summary">Smartsvar, rekommenderade åtgärder med mera</string>
@@ -1729,8 +1879,8 @@ Svar visas i enskilda konversationer"</string>
     <string name="sms_encoding_pref_summary">Omvandla specialtecken i dina sms</string>
     <string name="sms_encoding_pref_title">Använd enkla tecken</string>
     <string name="sms_error_template">%1$s (Felkod %2$d)</string>
-    <string name="sms_protocol_label">Sms</string>
-    <string name="sms_text">sms</string>
+    <string name="sms_protocol_label">SMS</string>
+    <string name="sms_text">SMS</string>
     <string name="smsc_number_pref_summary">SMS kan sluta fungera om du ändrar eller tar bort det här numret</string>
     <string name="smsc_number_pref_title_pre_r">Anpassad SMSC</string>
     <string name="smsc_number_pref_title_r_plus">SMSC</string>
@@ -1740,19 +1890,18 @@ Svar visas i enskilda konversationer"</string>
     <string name="snackbar_text_label_rcs_group_created_too_large">{max_group_size_including_self,plural, =1{Du får inte ha fler än # person}other{Du får inte ha fler än # personer}}</string>
     <string name="snackbar_text_label_rcs_group_self_only">Den här gruppen är tom. Lägg till personer i den här gruppen innan du skickar meddelanden till den här chatten.</string>
     <string name="snippet">%1$s: %2$s</string>
-    <string name="snippet_assistant_card_text">Assistent-kort</string>
-    <string name="snippet_attachment_icon_content_description">Bilageikon med svarsutdrag</string>
     <string name="snippet_audio_attachment_text">Ljud</string>
     <string name="snippet_deleted_message_text">Meddelande raderat</string>
-    <string name="snippet_dismiss_icon_content_description">Ikonen Ignorera svar</string>
+    <string name="snippet_dismiss_icon_content_description">Radera</string>
     <string name="snippet_file_attachment_text">Fil</string>
     <string name="snippet_from_you">Du: %s</string>
     <string name="snippet_image_attachment_text">Bild</string>
-    <string name="snippet_media_thumbnail_content_description">Medieminiatyr med svarsutdrag</string>
     <string name="snippet_self_participant_header">Du</string>
     <string name="snippet_video_attachment_text">Video</string>
     <string name="soft_num_key_pad_backspace_content_description">Backsteg</string>
     <string name="someone_added_participant">%1$s lade till %2$s i gruppen</string>
+    <string name="someone_added_participant_with_learn_more">%1$s lade till %2$s i gruppen. %3$s</string>
+    <string name="someone_else_created_encrypted_rcs_group">%1$s skapade gruppchatten med %2$s %3$s</string>
     <string name="someone_else_created_mms_group">%1$s skapade grupp-MMS med %2$s</string>
     <string name="someone_else_created_rcs_group">%1$s skapade gruppchatten med %2$s</string>
     <string name="someone_joined_group">Någon gick med i gruppen</string>
@@ -1776,7 +1925,6 @@ Svar visas i enskilda konversationer"</string>
     <string name="spam_dialog_title_spam_folder">Rapportera som spam?</string>
     <string name="spam_folder_activity_title">Spam och blockerat</string>
     <string name="spam_folder_conversation_list_empty_text_v2">Spam och blockerade konversationer visas här</string>
-    <string name="spam_preference_info_text_on_device">Messages använder enhetens funktioner till att identifiera spam. En del information om dina meddelanden skickas till Google, men utan det faktiska innehållet eller telefonnumret. %1$s</string>
     <string name="spam_protection_consent_string">För att bidra till att identifiera spam skickar Messages viss data om dina meddelanden till Google. Detta inkluderar inte ditt telefonnummer eller innehållet i dina meddelanden. %1$s</string>
     <string name="spam_reporting_from">Rapportera spam</string>
     <string name="spam_settings">Spamskydd</string>
@@ -1785,6 +1933,8 @@ Svar visas i enskilda konversationer"</string>
     <string name="split_view_pref_title">Detaljerad lista</string>
     <string name="stacked_banner_count_text">En av %1$d</string>
     <string name="star_badge_content_description">Stjärnmärke</string>
+    <string name="star_badge_menu_remove_action">Ta bort</string>
+    <string name="star_badge_menu_view_all_action">Visa alla</string>
     <string name="star_badge_on_click_snackbar_action">Ångra</string>
     <string name="star_badge_on_click_snackbar_message">Stjärnan har tagits bort</string>
     <string name="sticker_content_description">Dekal med %s</string>
@@ -1821,10 +1971,12 @@ Svar visas i enskilda konversationer"</string>
     <string name="subject_with_label">Ämne: %1$s</string>
     <string name="subject_with_urgent_label">[BRÅDSKANDE] %1$s</string>
     <string name="success_message_format">%1$s %2$s %3$s %4$s %5$s %6$s.</string>
+    <string name="success_message_self_sender">Du sade %1$s %2$s %3$s %4$s.</string>
     <string name="success_message_self_sender_format_with_multiple_attachments">Du skickade flera bilagor %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_self_sender_format_with_single_attachment">Du skickade en bilaga %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_specified_sender_format_with_multiple_attachments">%1$s skickade flera bilagor %2$s %3$s %4$s %5$s %6$s.</string>
     <string name="success_message_specified_sender_format_with_single_attachment">%1$s skickade en bilaga %2$s %3$s %4$s %5$s %6$s.</string>
+    <string name="success_message_unspecified_sender">Avsändaren sade %1$s %2$s %3$s %4$s.</string>
     <string name="success_message_unspecified_sender_format_with_multiple_attachments">Avsändaren skickade flera bilagor %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_unspecified_sender_format_with_single_attachment">Avsändaren skickade en bilaga %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_sent_to_message_format">Skickat till %1$s %2$s %3$s %4$s.</string>
@@ -1833,10 +1985,18 @@ Svar visas i enskilda konversationer"</string>
     <string name="sud_back_button_label">Tillbaka</string>
     <string name="sud_more_button_label">Mer</string>
     <string name="sud_next_button_label">Nästa</string>
-    <string name="suggested_stickers_preference_summary">Visa föreslagna dekaler</string>
+    <string name="suggested_stickers_preference_summary">Visa dekaler som svarsalternativ</string>
     <string name="suggested_stickers_preference_title">Föreslagna dekaler</string>
+    <string name="suggestion_shortcut_dialog_body_text">Stjärnmärk ett meddelande, schemalägg direkt, med mera, med snabba och enkla genvägar.</string>
+    <string name="suggestion_shortcut_dialog_positive_button">OK</string>
+    <string name="suggestion_shortcut_dialog_subsection_body_text">Genvägar föreslås av telefonnummer, datum, osv. %1$s</string>
+    <string name="suggestion_shortcut_dialog_subsection_title_text">Så fungerar det</string>
+    <string name="suggestion_shortcut_dialog_title">Föreslagna genvägar som tar dig dit fortare</string>
+    <string name="suggestion_shortcut_search_title">Sök</string>
+    <string name="suggestion_shortcut_star_toolstone">Stjärnmärk meddelanden och hitta dem enkelt i %1$s</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_notification_inbox_style_summary_text">+%d till</string>
+    <string name="super_sort_pref_title">Ordna meddelanden</string>
     <string name="super_sort_settings_title">Ordna meddelanden</string>
     <string name="supersort_conversation_list_empty_text_business_update">Verksamhetsuppdateringar visas automatiskt här</string>
     <string name="supersort_conversation_list_empty_text_manage_in_settings">Hantera i Inställningar</string>
@@ -1899,6 +2059,11 @@ Sök konversation i Alla"</string>
     <string name="survey_user_agent">Användaragent</string>
     <string name="survey_very_dissatisfied">Mycket missnöjd</string>
     <string name="survey_very_satisfied">Mycket nöjd</string>
+    <string name="swipe_actions">Svepningsåtgärder</string>
+    <string name="swipe_actions_summary">Välj Arkivera eller Radera till höger eller vänster eller inaktivera svepning</string>
+    <string name="swipe_customize">Anpassa</string>
+    <string name="swipe_left">Svep åt vänster</string>
+    <string name="swipe_right">Svep åt höger</string>
     <string name="switcher_no_phone_number">SIM-kortet hittades inte</string>
     <string name="switcher_pair_device_title_text">Skicka sms med parkopplad telefon</string>
     <string name="switcher_positive_button_text">Fortsätt</string>
@@ -1906,11 +2071,12 @@ Sök konversation i Alla"</string>
     <string name="switcher_use_device_sim_number">(%s)</string>
     <string name="switcher_use_device_sim_title_text">Skicka sms med enhetens SIM-kort</string>
     <string name="syncing_with_device_foreground_notification_text">Messages synkroniseras med enheten</string>
+    <string name="system_picker_button_label">Mappar</string>
     <string name="t_mobile_tos_pref_link_text">Terms and Conditions</string>
     <string name="t_mobile_tos_pref_text">Chattfunktionerna från Google tillhandahålls av T-Mobile. Se %1$s.</string>
     <string name="t_mobile_tos_pref_url">https://www.t-mobile.com/responsibility/legal/terms-and-conditions</string>
     <string name="tab">Flik</string>
-    <string name="tap_to_unblock_message">ÅTERAKTIVERA</string>
+    <string name="tap_to_unblock_message">AVBLOCKERA</string>
     <string name="template_percent">%1$d procent.</string>
     <string name="terms_and_conditions_double_check_dialog_negative_button_text">AVBRYT</string>
     <string name="terms_and_conditions_double_check_dialog_positive_button_text">AVVISA</string>
@@ -1930,6 +2096,7 @@ Inställningar > %1$s"</string>
     <string name="theme_setting_dialog_options_light_mode">Ljust</string>
     <string name="theme_setting_dialog_options_system_default_mode">Standardinställning</string>
     <string name="theme_setting_dialog_title">Välj tema</string>
+    <string name="tiktok_account_login_failure">Det gick inte att logga in på det valda kontot.</string>
     <string name="tiktok_add_account_error">Det gick inte att lägga till kontot. Försök igen.</string>
     <string name="tiktok_fix_it">Åtgärda det</string>
     <string name="tiktok_load_account_failure">Det gick inte att läsa in konton.</string>
@@ -1955,6 +2122,18 @@ Endast du ser det här namnet"</string>
     <string name="tombstone_self_removed_from_group_referrer_known">%1$s tog bort dig från den här gruppen</string>
     <string name="tombstone_self_removing_others_from_group">Du tog bort %1$s från den här gruppen</string>
     <string name="tombstone_show_link_previews">Förhandsgranskning av länkar aktiverad.&lt;br />Läs mer eller stäng av i &lt;u>Inställningar&lt;/u>.</string>
+    <string name="tombstone_show_link_previews_disabled">Förhandsgranskning av länkar har inaktiverats.&lt;br />Läs mer eller aktivera i &lt;u>Inställningar&lt;/u>.</string>
+    <string name="tooltip_content">"Ditt Google-konto har
+funktioner såsom Google Foto
+länkdelning i Messages utan
+åtkomst till sina konversationer.
+
+Messages skickar fortfarande från
+ditt telefonnummer. Läs mer"</string>
+    <string name="tooltip_content_with_line_break_fix">"Ditt Google-konto har funktioner såsom Google Foto länkdelning i Messages utan åtkomst till dina konversationer.
+
+Messages skickar fortfarande från telefonnumret. Läs mer"</string>
+    <string name="tooltip_link">Läs mer</string>
     <string name="top_contacts_grid_name">★</string>
     <string name="top_contacts_title">Toppkontakter</string>
     <string name="transaction_content_description">Det här meddelandet kategoriseras som en transaktion</string>
@@ -1964,10 +2143,11 @@ Endast du ser det här namnet"</string>
     <string name="unblock_and_report_not_spam_snackbar_message">%1$s återaktiverad och rapporterad som inte spam</string>
     <string name="unblock_banner_body">Avblockera %s om du vill flytta konversationen från arkivet och få aviseringar igen</string>
     <string name="unblock_banner_body_spam_folder">Återaktivera %s för att flytta den här konversationen från Spam och blockerat och ta emot meddelanden igen.</string>
+    <string name="unblock_banner_body_v2">Unblock to receive messages from this sender</string>
     <string name="unblock_banner_description">@string/banner_description</string>
     <string name="unblock_banner_positive_button">Avblockera</string>
     <string name="unblock_banner_title">Blockerat</string>
-    <string name="unblock_contact_title">Återaktivera</string>
+    <string name="unblock_contact_title">Avblockera</string>
     <string name="unblock_snackbar">%s återaktiverad</string>
     <string name="unblock_snackbar_message">%1$s återaktiverad</string>
     <string name="unblock_unarchived_banner_body">Om du vill få meddelanden igen avblockerar du %s</string>
@@ -1999,6 +2179,7 @@ Telefonnummer används endast för felsökning och problemlösning. Google konta
     <string name="unsent">Ej skickad</string>
     <string name="unspam_banner_body">Om du vill flytta bort den här konversationen från Arkiverat och få aviseringar igen rapporterar du %s som Ej spam</string>
     <string name="unspam_banner_body_spam_folder">Rapportera %s som inte spam för att flytta den här konversationen från Spam och blockerat och ta emot aviseringar igen.</string>
+    <string name="unspam_banner_body_v2">Report as not spam to receive messages from this sender</string>
     <string name="unspam_banner_description">@string/banner_description</string>
     <string name="unspam_banner_end_button">Inte spam</string>
     <string name="unspam_banner_title">Rapporterad som spam</string>
@@ -2014,6 +2195,8 @@ Telefonnummer används endast för felsökning och problemlösning. Google konta
     <string name="unsupported_file_save_alert">Vill du spara bilagan i Nedladdningar?</string>
     <string name="unsupported_file_save_cancel">Avbryt</string>
     <string name="unverified_sms_banner_description">@string/banner_description</string>
+    <string name="unwanted_messages_toolstone_link">Blockera och anmäl</string>
+    <string name="unwanted_messages_toolstone_text">%1$s för oönskade meddelanden</string>
     <string name="upcoming_reminder">Kommande påminnelse</string>
     <string name="update_content_description">Det här meddelandet kategoriseras som en uppdatering</string>
     <string name="update_donation_banner_body_v2">Din identitet skyddas och du kan ta bort meddelandeinnehåll</string>
@@ -2056,6 +2239,7 @@ Telefonnummer används endast för felsökning och problemlösning. Google konta
     <string name="video_attachment_content_description">Bifogad video</string>
     <string name="video_attachment_limit_exceeded_when_sending">Det går bara att skicka en video per meddelande. Ta bort ytterligare videor och försök igen.</string>
     <string name="video_compress_info">Mottagaren får lägre videokvalitet på grund av operatörens mms-begränsningar</string>
+    <string name="video_format_type">videon</string>
     <string name="video_media_failure">Skapa en video genom att spela in längre</string>
     <string name="video_taken">En video har spelats in</string>
     <string name="video_thumbnail_view_play_button_content_description">Spela upp video</string>
@@ -2102,19 +2286,20 @@ Använd innehållet i det här meddelandet med omdöme."</string>
     <string name="websiteTypeWork">Arbete</string>
     <string name="welcome_agree_button_text">Jag godkänner</string>
     <string name="welcome_chat_features_decline">Använd Messages utan chattfunktioner</string>
-    <string name="welcome_chat_features_learn_more">Läs mer om chattfunktioner</string>
     <string name="welcome_chat_features_legal">Genom att aktivera chattfunktioner godkänner du %1$s och %2$s. Google verifierar ibland ditt nummer med operatören (sms-avgifter kan tillkomma).</string>
+    <string name="welcome_chat_features_text">"· Skicka genom wifi eller mobildata
+· Dela filer och media
+· Håll dina meddelanden privata"</string>
     <string name="welcome_chat_features_title">Snabbare, bättre chatt med högre kvalitet på wifi eller data</string>
+    <string name="welcome_chat_features_title_experiment_0">Gör mer än någonsin med Messages</string>
+    <string name="welcome_chat_features_title_experiment_1">Gör mer än någonsin med chattfunktioner i Messages</string>
     <string name="welcome_consent_button_text">Nästa</string>
-    <string name="welcome_finish_button_text">Slutför</string>
     <string name="welcome_smarts_notice_description">"Chatta enklare med funktioner som Google Assistant och Smartsvar. Chattarna är skyddade på enheten.
 %1$s och %2$s"</string>
     <string name="welcome_smarts_notice_title">Praktiska smarta funktioner</string>
     <string name="welcome_spam_description">"Google använder telefonnumren som inte är sparade i dina kontakter, utan att identifiera dig eller ditt nummer, för att motverka spam.
 %1$s och %2$s"</string>
     <string name="welcome_spam_title">Skräppostskydd</string>
-    <string name="welcome_splash_tagline">"Enkla, smarta meddelanden
-med Google"</string>
     <string name="widget_reply_exit_content_description">Tillbaka</string>
     <string name="widget_reply_open">ÖPPNA MESSAGES</string>
     <string name="widget_reply_to">Svara till %s</string>
@@ -2122,9 +2307,14 @@ med Google"</string>
     <string name="work_directory_display_name">Kontakter i jobbprofilen</string>
     <string name="xms_send_mode_pref_title">Skicka endast sms och mms</string>
     <string name="you_added_participant">Du lade till %s i gruppen</string>
+    <string name="you_added_participant_with_learn_more">Du lade till %1$s i gruppen. %2$s</string>
+    <string name="you_created_encrypted_rcs_group">Du skapade gruppchatten med %1$s %2$s</string>
     <string name="you_created_mms_group">Du skapade detta grupp-mms med %s</string>
     <string name="you_created_rcs_group">Du skapade gruppchatten med %s</string>
     <string name="you_left_group">Du lämnade gruppen</string>
+    <string name="youtube_dismissal_prompt">Stäng genom att trycka och dra</string>
+    <string name="youtube_drag_prompt">Flytta spelaren genom att dra</string>
+    <string name="youtube_pip_playing">Videon spelas för närvarande upp</string>
     <string name="zero_connectivity_failure_announcement">Meddelandet skickades inte</string>
     <string name="zero_state_search_action_copy">Kopiera</string>
     <string name="zero_state_search_action_jump_to_chat">Visa i chatt</string>
@@ -2144,6 +2334,7 @@ med Google"</string>
     <string name="zero_state_search_details_image_accessibility">Bilden skickades av %1$s den %2$s</string>
     <string name="zero_state_search_details_video_accessibility">Videon skickades av %1$s av %2$s</string>
     <string name="zero_state_search_dropdown_free_text">Sök efter \"%s\"</string>
+    <string name="zero_state_search_empty_results_text">Här visas dina stjärnmärkta meddelanden, media och länkar från konversationen</string>
     <string name="zero_state_search_images">Bilder</string>
     <string name="zero_state_search_link_copied">Länken har kopierats</string>
     <string name="zero_state_search_links">Länkar</string>

@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="custom_cards_view_description_items_left">
-        <item quantity="other">%1$d वटा वस्तु बाँकी छन्</item>
-        <item quantity="one">%1$d वस्तु बाँकी छ</item>
-    </plurals>
     <plurals name="dlg_message_deletion_confirmation">
         <item quantity="other">तपाईंका रेकर्डिङ फाइलहरू सदाका लागि मेटाइने छन्। यो कार्य अन्डू गर्न सकिँदैन।</item>
         <item quantity="one">तपाईंको रेकर्डिङ फाइल सदाका लागि मेटाइने छ। यो कार्य अन्डू गर्न सकिँदैन।</item>
@@ -20,25 +16,33 @@
         <item quantity="other">यी रेकर्डिङहरू सदाका लागि मेट्ने हो?</item>
         <item quantity="one">यो रेकर्डिङ सदाका लागि मेट्ने हो?</item>
     </plurals>
-    <plurals name="download_unsuccessful_description_storage_full">
-        <item quantity="other">यन्त्रको भण्डारण भरिएकाले रेकर्डिङहरू डाउनलोड गर्न सकिएन। समीक्षा गर्न ट्याप गर्नुहोस्।</item>
-        <item quantity="one">यन्त्रको भण्डारण भरिएको छ। समीक्षा गर्न ट्याप गर्नुहोस्।</item>
-    </plurals>
-    <plurals name="downloaded_description">
-        <item quantity="other">%1$d वटा रेकर्डिङ डाउनलोड गरिए</item>
-        <item quantity="one">%1$d रेकर्डिङ डाउनलोड गरियो</item>
+    <plurals name="download_failure_description_storage_full">
+        <item quantity="other">डिभाइसको भण्डारण भरिएकाले रेकर्डिङहरू डाउनलोड गर्न सकिएन। समीक्षा गर्न ट्याप गर्नुहोस्।</item>
+        <item quantity="one">डिभाइसको भण्डारण भरिएको छ। समीक्षा गर्न ट्याप गर्नुहोस्।</item>
     </plurals>
     <plurals name="downloading_description">
         <item quantity="other">%1$d रेकर्डिङहरू डाउनलोड गर्दै</item>
         <item quantity="one">%1$d रेकर्डिङ डाउनलोड गर्दै</item>
+    </plurals>
+    <plurals name="og_backup_failed_title">
+        <item quantity="other">%1$d वटा वस्तु ब्याकअप गर्न सकिएन</item>
+        <item quantity="one">%1$d वस्तु ब्याकअप गर्न सकिएन</item>
+    </plurals>
+    <plurals name="og_backup_items_left">
+        <item quantity="other">%1$d वटा वस्तु ब्याकअप गर्न बाँकी छन्</item>
+        <item quantity="one">%1$d वस्तु ब्याकअप गर्न बाँकी छ</item>
+    </plurals>
+    <plurals name="og_backup_items_stopped_title">
+        <item quantity="other">%1$d वटा वस्तु ब्याकअप गर्न सकिएन</item>
+        <item quantity="one">%1$d वटा वस्तु ब्याकअप गर्न सकिएन</item>
     </plurals>
     <plurals name="search_results_count">
         <item quantity="other">%1$d परिणामहरू</item>
         <item quantity="one">%1$d परिणाम</item>
     </plurals>
     <plurals name="search_results_position">
-        <item quantity="other">%1$d/%2$d परिणामहरू</item>
-        <item quantity="one">%1$d/%2$d परिणाम</item>
+        <item quantity="other">^1/^2 परिणामहरू</item>
+        <item quantity="one">^1/^2 परिणाम</item>
     </plurals>
     <plurals name="search_results_position_content_description">
         <item quantity="other">%2$d परिणामहरूमध्ये %1$d</item>
@@ -51,10 +55,6 @@
     <plurals name="snackbar_message_download_failed_storage_full">
         <item quantity="other">यन्त्रको भण्डारण भरिएको छ। रेकर्डिङहरू डाउनलोड गर्न सकिँदैन।</item>
         <item quantity="one">यन्त्रको भण्डारण भरिएको छ। रेकर्डिङ डाउनलोड गर्न सकिँदैन।</item>
-    </plurals>
-    <plurals name="uploaded_description">
-        <item quantity="other">%1$d वटा रेकर्डिङ अपलोड गरिए</item>
-        <item quantity="one">%1$d रेकर्डिङ अपलोड गरियो</item>
     </plurals>
     <plurals name="uploading_description">
         <item quantity="other">%1$d वटा रेकर्डिङ अपलोड गरिँदै छन्</item>

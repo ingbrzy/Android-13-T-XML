@@ -87,15 +87,21 @@
     <string name="ar_permissions_screen_title">Get a better look</string>
     <string name="ar_session_error_dialog_body">An error has occurred when trying to view this object in your space.</string>
     <string name="ar_session_error_dialog_title">Unable to view in your space</string>
-    <string name="assistant_aa_loyalty_card_title">Loyalty Card</string>
+    <string name="assistant_aa_loyalty_card_title">Kliendikaart</string>
     <string name="assistant_accessibility_voice_typing_stopped">Häälsisestus peatati</string>
     <string name="assistant_add_item_app_control_suggestion">Lisa</string>
-    <string name="assistant_ama_media_only_chip">Listen</string>
-    <string name="assistant_at_store">At Store</string>
-    <string name="assistant_calendar_event_during">%1$s now</string>
-    <string name="assistant_calendar_event_pre">%1$s in %2$s</string>
-    <string name="assistant_calendar_event_pre_static">%1$s at %2$s</string>
-    <string name="assistant_calendar_event_time_range">%1$s – %2$s</string>
+    <string name="assistant_ama_media_only_chip">Kuulake</string>
+    <string name="assistant_at_store">Poes</string>
+    <string name="assistant_avatar_icon_description">Kasutaja avatari ikoon</string>
+    <string name="assistant_calendar_event_during">%1$s toimub praegu</string>
+    <string name="assistant_calendar_event_pre">%1$s – %2$s</string>
+    <string name="assistant_calendar_event_pre_static">%1$s – %2$s</string>
+    <string name="assistant_calendar_event_time_range">%1$s–%2$s</string>
+    <string name="assistant_canvas_logo_view_description">Häälotsing</string>
+    <string name="assistant_canvas_opa_keyboard_indicator_content_description">Sisestusrežiim</string>
+    <string name="assistant_canvas_opa_send_button_content_description">Saada</string>
+    <string name="assistant_canvas_opa_text_input_hint">Sisestage sõnum</string>
+    <string name="assistant_canvas_transcription_bar_description">Transkriptsiooniriba</string>
     <string name="assistant_create_doc_app_control_suggestion">Loo dokument</string>
     <string name="assistant_custodio_activity_menu_help">Abi</string>
     <string name="assistant_custodio_activity_menu_send_feedback">Tagasiside saatmine</string>
@@ -325,6 +331,7 @@
     <string name="assistant_custodio_youtube_media_provider_link">Sisu seaded</string>
     <string name="assistant_custodio_youtube_media_provider_name">YouTube</string>
     <string name="assistant_dictation_ineligible_aiai_version">Assistendi häälsisestuse kasutamiseks värskendage Google Plays rakendust Android System Intelligence. &lt;a href=\"https://play.google.com/store/apps/details?id=com.google.android.as\">Värskenda&lt;/a> &lt;br> &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#update_app\">Lisateave&lt;/a></string>
+    <string name="assistant_dictation_ineligible_android_old_version">Assistendi häälsisestuse kasutamiseks värskendage oma Androidi operatsioonisüsteemi. &lt;a href=\"intent:#Intent;action=android.settings.SYSTEM_UPDATE_SETTINGS;end\">Värskenda&lt;/a> &lt;br> &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#update_app\">Lisateave&lt;/a></string>
     <string name="assistant_dictation_ineligible_download_needed">Assistendi häälsisestus vajab värskendamist. Automaatselt allalaadimiseks looge ühendus WiFi-ga. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#update_to_use\">Lisateave&lt;/a></string>
     <string name="assistant_dictation_ineligible_generic">Te ei saa praegu assistendi häälsisestust kasutada. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#fix_issues_assistant_voice_typing\">Lisateave&lt;/a></string>
     <string name="assistant_dictation_ineligible_locale_mismatch">Assistendi häälsisestuse kasutamiseks peavad teie Gboardi ja seadme peamised keeled olema samad. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#device_language\">Lisateave&lt;/a></string>
@@ -333,29 +340,25 @@
     <string name="assistant_dictation_ineligible_unsupported_system_language">Pole teie seadme praeguses keeles saadaval. Selle kasutamiseks muutke oma seadme keelt, et see ühtiks teie Gboardi keelega. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#device_language\">Lisateave&lt;/a></string>
     <string name="assistant_dictation_ineligible_work_profile">Assistendi häälsisestus pole praegu tööprofiili rakenduste jaoks saadaval. Selle kasutamiseks avage mõni isiklik rakendus. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#not_available_work_profile\">Lisateave&lt;/a></string>
     <string name="assistant_edit_app_control_suggestion">Muuda</string>
-    <string name="assistant_flight_chip_boarding_pass">Boarding Pass</string>
-    <string name="assistant_flight_chip_check_in">Check in for your flight</string>
-    <string name="assistant_flight_chip_more_info">More Flight Info</string>
-    <string name="assistant_flight_departure_gate_info">Gate %1$s</string>
-    <string name="assistant_flight_departure_info">%1$s to %2$s departs in %3$s</string>
-    <string name="assistant_flight_departure_info_now">%1$s to %2$s departs now</string>
-    <string name="assistant_flight_departure_info_static_time">%1$s to %2$s departs at %3$s</string>
-    <string name="assistant_flight_departure_info_static_without_time">%1$s to %2$s</string>
+    <string name="assistant_flight_chip_boarding_pass">Pardakaart</string>
+    <string name="assistant_flight_chip_check_in">Lennule registreerimine</string>
+    <string name="assistant_flight_chip_more_info">Rohkem lennuteavet</string>
+    <string name="assistant_flight_departure_gate_info">Värav %1$s</string>
+    <string name="assistant_flight_departure_info">Lennu %1$s – %2$s väljumiseni on %3$s</string>
+    <string name="assistant_flight_departure_info_now">Lend %1$s – %2$s väljub praegu</string>
+    <string name="assistant_flight_departure_info_static_time">Lend %1$s – %2$s väljub kell %3$s</string>
+    <string name="assistant_flight_departure_info_static_without_time">%1$s – %2$s</string>
     <string name="assistant_flight_departure_terminal_info">Terminal %1$s</string>
-    <string name="assistant_flight_departure_time_delayed_info">Departs %1$s (<strike>%2$s</strike>)</string>
-    <string name="assistant_flight_departure_time_info">Departs %1$s</string>
-    <string name="assistant_flight_seat_info">Seat %1$s</string>
-    <string name="assistant_flight_to_delayed_info">Delayed: Flight to %1$s</string>
-    <string name="assistant_flight_to_info">Flight to %1$s</string>
+    <string name="assistant_flight_departure_time_delayed_info">Väljub kell %1$s (<strike>%2$s</strike>)</string>
+    <string name="assistant_flight_departure_time_info">Väljub kell %1$s</string>
+    <string name="assistant_flight_seat_info">Iste %1$s</string>
+    <string name="assistant_flight_to_delayed_info">Hilinev: lend sihtkohta %1$s</string>
+    <string name="assistant_flight_to_info">Lend sihtkohta %1$s</string>
     <string name="assistant_grocery_delivery_completed">%1$s order delivered</string>
-    <string name="assistant_grocery_delivery_during">%1$s delivery now</string>
-    <string name="assistant_grocery_delivery_pre">%1$s delivery in %2$s</string>
-    <string name="assistant_grocery_delivery_pre_static">%1$s delivery at %2$s</string>
+    <string name="assistant_grocery_delivery_scheduled">%1$s delivery scheduled</string>
     <string name="assistant_grocery_pickup_completed">%1$s order picked up</string>
-    <string name="assistant_grocery_pickup_during">%1$s pickup now</string>
-    <string name="assistant_grocery_pickup_pre">%1$s pickup in %2$s</string>
-    <string name="assistant_grocery_pickup_pre_static">%1$s pickup at %2$s</string>
-    <string name="assistant_grocery_pickup_ready">%1$s pickup now</string>
+    <string name="assistant_grocery_pickup_ready">%1$s order ready for pickup</string>
+    <string name="assistant_grocery_pickup_scheduled">%1$s pickup scheduled</string>
     <string name="assistant_grocery_time_range">%1$s – %2$s</string>
     <string name="assistant_guacamole_closed_popup_pill_content_description">Öelge „%1$s“. Lisateabe saamiseks topeltpuudutage ümarat nuppu.</string>
     <string name="assistant_guacamole_opened_popup_pill_content_description">Öelge „%1$s“. Selleks, et näha vähem teavet, topeltpuudutage ümarat nuppu.</string>
@@ -404,6 +407,9 @@
     <string name="assistant_keyboard_first_one_text">Esimene</string>
     <string name="assistant_keyboard_firstrun_text">&lt;linkable>Seadete haldamine&lt;/linkable></string>
     <string name="assistant_keyboard_icon_label">Klaviatuur</string>
+    <string name="assistant_keyboard_input_clear_button_content_description">Click to clear text input</string>
+    <string name="assistant_keyboard_input_mic_button_content_description">Click the mic icon to start voice query</string>
+    <string name="assistant_keyboard_input_text_hint">Type a text input here</string>
     <string name="assistant_keyboard_learning_center_category_compose">Sisestamine ja saatmine</string>
     <string name="assistant_keyboard_learning_center_category_emojis">Emotikonide lisamine</string>
     <string name="assistant_keyboard_learning_center_category_forms">Vormid ja meilid</string>
@@ -487,11 +493,13 @@
     <string name="assistant_keyboard_sticky_mic_education_tip_text">Topeltpuudutage, et hoida mikrofoni&lt;br>kuni klaviatuuri sulgemiseni lahti</string>
     <string name="assistant_keyboard_stop_button_description">Dikteerimise peatamine</string>
     <string name="assistant_keyboard_stop_text">Peata</string>
+    <string name="assistant_keyboard_suggestion_query_builder_button_content_description">Click to edit in input box</string>
     <string name="assistant_keyboard_undo_button_description">Tagasivõtmine</string>
     <string name="assistant_keyboard_undo_text">Võta tagasi</string>
     <string name="assistant_keyboard_voice_command_not_supported">Käsk pole selles rakenduses saadaval</string>
     <string name="assistant_keyboard_voice_corrections_tip_text">Öelge sõna, millega valiku&lt;br>asendada soovite</string>
     <string name="assistant_learning_center_data_error">Sorry, something went wrong while loading data.</string>
+    <string name="assistant_learning_center_detailed_page_data_error">Sorry, something went wrong while loading data.</string>
     <string name="assistant_long_press_power_action_button_text">Selge</string>
     <string name="assistant_long_press_power_action_description">Väljalülitamine</string>
     <string name="assistant_long_press_power_button_1">toitenupp</string>
@@ -531,7 +539,7 @@
     <string name="assistant_my_actions_unpin_confirmation_dialog_title">Tähelepanu!</string>
     <string name="assistant_my_actions_unpinned_action_row_add_button_content_description">Selle toimingu lisamine</string>
     <string name="assistant_my_actions_unpinned_actions_header">Toimingud, mis võiksid teile meeldida</string>
-    <string name="assistant_my_flights_query">My Flights</string>
+    <string name="assistant_my_flights_query">Minu lennud</string>
     <string name="assistant_preloaded_fre_homescreen_suggestion_1">Määra taimeri ajaks 2 minutit</string>
     <string name="assistant_preloaded_fre_homescreen_suggestion_11">Määra meeldetuletus</string>
     <string name="assistant_preloaded_fre_homescreen_suggestion_12">Ava Gmail</string>
@@ -591,21 +599,38 @@
     <string name="assistant_suw_intro_screen_action_button_text">Nõustun</string>
     <string name="assistant_suw_intro_screen_cancel_button_text">Jäta vahele</string>
     <string name="assistant_suw_intro_screen_default_x_google_hotword">Ok Google</string>
+    <string name="assistant_suw_intro_screen_hint1_for_unicorn_vm3">{GENDER,select, male{„%1$s“ nõuab ka Voice Matchi kasutamist, et kasutaja {GIVEN_NAME} assistent tema ära tunneks.}female{„%1$s“ nõuab ka Voice Matchi kasutamist, et kasutaja {GIVEN_NAME} assistent tema ära tunneks.}other{„%1$s“ nõuab ka Voice Matchi kasutamist, et kasutaja {GIVEN_NAME} assistent tema ära tunneks.}}</string>
+    <string name="assistant_suw_intro_screen_hint1_vm3">„%1$s“ nõuab ka Voice Matchi kasutamist, et assistent teid ära tunneks.</string>
+    <string name="assistant_suw_intro_screen_hint2_for_unicorn_vm3">Assistent võib aktiveeruda, kui %1$s ei kavatsenud seda aktiveerida – näiteks kui kostab müra, mis sarnaneb otsetee sõnale „%2$s“.</string>
+    <string name="assistant_suw_intro_screen_hint2_vm3">Assistent võib aktiveeruda, kui te ei kavatsenud seda aktiveerida – näiteks kui kostab müra, mis sarnaneb otsetee sõnale „%1$s“.</string>
+    <string name="assistant_suw_intro_screen_hint3_for_unicorn_vm3">Saate otsetee sõna „%1$s“ kasutaja %2$s assistendi seadetes välja lülitada.</string>
+    <string name="assistant_suw_intro_screen_hint3_vm3">Saate otsetee sõna „%1$s“ assistendi seadetes välja lülitada.</string>
     <string name="assistant_suw_intro_screen_item_summary_1">„Milline on ilm sel nädalavahetusel?“</string>
+    <string name="assistant_suw_intro_screen_item_summary_1_for_unicorn">„Kas mul on vihmavarju vaja?“</string>
     <string name="assistant_suw_intro_screen_item_summary_2">„Kus asub lähim kohvik?“</string>
+    <string name="assistant_suw_intro_screen_item_summary_2_for_unicorn">„Mis häält jõehobu teeb?“</string>
     <string name="assistant_suw_intro_screen_item_summary_3">„Määra äratus homme kella 5-ks.“</string>
+    <string name="assistant_suw_intro_screen_item_summary_3_for_unicorn">„Määra kodutöö taimeriks 20 minutit.“</string>
     <string name="assistant_suw_intro_screen_item_title_1">Küsimuste esitamine</string>
     <string name="assistant_suw_intro_screen_item_title_2">Juhiste hankimine</string>
+    <string name="assistant_suw_intro_screen_item_title_2_for_unicorn">Õppige uusi asju</string>
     <string name="assistant_suw_intro_screen_item_title_3">Toimingute tegemine</string>
     <string name="assistant_suw_intro_screen_subtitle_v2">"Kui nõustute, ootab Google'i assistent ooterežiimis, et tuvastada otsetee sõna „%1$s“."</string>
+    <string name="assistant_suw_intro_screen_subtitle_v2_for_unicorn_vm3">"Kui nõustute, ootab Google'i assistent ooterežiimis, et tuvastada, kui %1$s ütleb „%2$s“."</string>
     <string name="assistant_suw_intro_screen_title">Juurdepääs assistendile otsetee sõnaga „%1$s“</string>
     <string name="assistant_suw_intro_screen_title_for_unicorn">"Lubage kasutajal %1$s Google'i assistendile otsetee sõnaga „%2$s” juurde pääseda"</string>
-    <string name="assistant_suw_intro_screen_with_ww_hint">Seda valikut saate assistendi seadetes värskendada.</string>
+    <string name="assistant_suw_intro_screen_title_for_unicorn_vm3">"Lubage kasutajal %1$s Google'iga käsi kasutamata rääkida"</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint2_for_unicorn_vm3">Assistent võib aktiveeruda, kui %1$s ei kavatsenud seda aktiveerida – näiteks kui kostab müra, mis sarnaneb otsetee sõnale „%2$s“ või mõnele kiirfraasile.</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint2_vm3">Assistent võib aktiveeruda, kui te ei kavatsenud seda aktiveerida – näiteks kui kostab müra, mis sarnaneb otsetee sõnale „%1$s“ või mõnele kiirfraasile.</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint3_for_unicorn_vm3">Saate otsetee sõna „%1$s“ ja kiirfraasid kasutaja %2$s assistendi seadetes välja lülitada.</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint3_vm3">Saate otsetee sõna „%1$s“ ja kiirfraasid assistendi seadetes välja lülitada.</string>
     <string name="assistant_suw_intro_screen_with_ww_item_summary_1">Esitage küsimusi ja hankige toimingutel abi.</string>
     <string name="assistant_suw_intro_screen_with_ww_item_summary_2">Proovige selliseid käske nagu „peata“ või „lükka edasi“ (nt kui äratus heliseb).</string>
+    <string name="assistant_suw_intro_screen_with_ww_item_summary_2_for_unicorn_vm3">%1$s võib öelda sõnu, nagu „peata“ või „lükka edasi“ (nt kui äratus heliseb).</string>
     <string name="assistant_suw_intro_screen_with_ww_item_title_1">„%1$s”</string>
     <string name="assistant_suw_intro_screen_with_ww_item_title_2">Kiirfraasid</string>
     <string name="assistant_suw_intro_screen_with_ww_subtitle">"Kui nõustute, ootab Google'i assistent ooterežiimis, et tuvastada otsetee sõna „%1$s“ ja teatud kiirfraasid."</string>
+    <string name="assistant_suw_intro_screen_with_ww_subtitle_for_unicorn_vm3">"Kui nõustute, ootab Google'i assistent ooterežiimis, et tuvastada, kui %1$s ütleb „%2$s“ ja teatud kiirfraasid."</string>
     <string name="assistant_suw_intro_screen_with_ww_title">"Rääkige Google'iga käed vabalt"</string>
     <string name="assistant_suw_loading_screen_title">Kontrollimine …</string>
     <string name="assistant_suw_more_button_text">Rohkem</string>
@@ -621,11 +646,13 @@
     <string name="assistant_suw_settings_screen_title">Juurdepääs assistendile ilma, et %1$s tuleks avada</string>
     <string name="assistant_suw_settings_screen_title_for_unicorn">"{GENDER,select, male{Lubage kasutajal {GIVEN_NAME} Google'i assistendile juurde pääseda ilma, et %1$s tuleks avada}female{Lubage kasutajal {GIVEN_NAME} Google'i assistendile juurde pääseda ilma, et %1$s tuleks avada}other{Lubage kasutajal {GIVEN_NAME} Google'i assistendile juurde pääseda ilma, et %1$s tuleks avada}}"</string>
     <string name="assistant_take_note_app_control_suggestion">Kirjuta märkus</string>
-    <string name="assistant_tap_to_check_in">Tap to check-in</string>
-    <string name="assistant_tomorrow_time">Tomorrow, %1$s</string>
+    <string name="assistant_tap_to_check_in">Puudutage lennule registreerimiseks</string>
+    <string name="assistant_tomorrow_time">Homme kell %1$s</string>
     <string name="assistant_voice_plate_avatar_label">Ava seaded</string>
     <string name="assistant_voice_plate_greeting_hi_text">Tere! Kuidas saan aidata?</string>
     <string name="assistant_voice_plate_keyboard_icon_label">Klaviatuur</string>
+    <string name="assistant_voice_plate_onboarding_oauth_recovery_button">Logi sisse</string>
+    <string name="assistant_voice_plate_onboarding_oauth_recovery_text">"Assistendi kasutamiseks logige oma Google'i kontole uuesti sisse"</string>
     <string name="assistant_voice_plate_onboarding_oobe_button">Alustage</string>
     <string name="assistant_voice_plate_onboarding_oobe_text">Avage rohkem assistendi funktsioone</string>
     <string name="assistant_vs_ui_education_tooltip_caption">Assistendiga vestluse lõpetamiseks lohistage mull ekraanikuva allossa</string>
@@ -647,7 +674,7 @@ Puudutage menüüs Seaded valikuid Load > Asukoht > Luba alati."</string>
     <string name="assistant_weather_widget_preview_condition">Päikeseline</string>
     <string name="assistant_weather_widget_preview_loading">Laadimine …</string>
     <string name="assistant_weather_widget_preview_location">San Francisco</string>
-    <string name="assistant_yesterday_time">Yesterday, %1$s</string>
+    <string name="assistant_yesterday_time">Eile kell %1$s</string>
     <string name="assistantactions_alarm_confirmation_card_button_text">Kuva alarmid</string>
     <string name="assistantactions_call_confirmation_card_button">Helista</string>
     <string name="assistantactions_confirmation_card_cancel_text">Toiming tühistati</string>
@@ -696,7 +723,6 @@ Puudutage menüüs Seaded valikuid Load > Asukoht > Luba alati."</string>
     <string name="bottom_navigation_collections_label">Kogud</string>
     <string name="bottom_navigation_drawer_label">Rohkem</string>
     <string name="bottom_navigation_search_label">Otsi</string>
-    <string name="bottom_navigation_snapshot_label">Ülevaade</string>
     <string name="bottom_navigation_spark_label">Discover</string>
     <string name="bottom_navigation_tabs_label">Vahelehed</string>
     <string name="bottomsheet_action_expand_halfway">Laiendamine poolenisti</string>
@@ -757,7 +783,9 @@ Puudutage menüüs Seaded valikuid Load > Asukoht > Luba alati."</string>
     <string name="common_google_play_services_update_text">Rakenduse %1$s töötamiseks peate värskendama Google Play teenuseid.</string>
     <string name="common_google_play_services_update_title">Google Play teenuste värskendamine</string>
     <string name="common_google_play_services_updating_text">Rakendus %1$s töötab ainult koos Google Play teenustega, mida praegu värskendatakse.</string>
+    <string name="common_google_play_services_wear_update_text">Vajalik on Google Play teenuste uus versioon. See värskendab end peagi.</string>
     <string name="common_open_on_phone">Ava telefonis</string>
+    <string name="comms_center_close_button_description">Sule leht</string>
     <string name="confirm_device_credential_password">Kasuta parooli</string>
     <string name="confirm_not_driving_button">Ma ei sõida</string>
     <string name="confirm_not_driving_description">Kas te ei sõida? Väljuge sõidurežiimist.</string>
@@ -767,6 +795,8 @@ Puudutage menüüs Seaded valikuid Load > Asukoht > Luba alati."</string>
     <string name="copy">Kopeerimine</string>
     <string name="create_folder_with">Kausta loomine nimega %1$s</string>
     <string name="crop_wallpaper">Taustapildi kärpimine</string>
+    <string name="custom_reply_button_string">Kohandatud vastus</string>
+    <string name="day_picker_description">Päevad kuuruudustiku vaates</string>
     <string name="decline_button_description">Keeldu kõnest</string>
     <string name="decline_permissions">Not Now</string>
     <string name="default_error">Vabandust! Midagi läks valesti.</string>
@@ -839,6 +869,53 @@ Puudutage menüüs Seaded valikuid Load > Asukoht > Luba alati."</string>
     <string name="experimental_mode_unexpectedly_disconnected_warning">Ootamatu serveriviga. Sulgege rakendus ja proovige hiljem uuesti.</string>
     <string name="experimental_test_in_progress">Seadme testimine …</string>
     <string name="exposed_dropdown_menu_content_description">Kuva rippmenüü</string>
+    <string name="fa_alarm_instance_default_label">Äratust pole määratud</string>
+    <string name="fa_alarm_instance_filled_bullet">●</string>
+    <string name="fa_alarm_instance_switch_off_label">Äratus ajaks %1$s on välja lülitatud</string>
+    <string name="fa_alarm_instance_switch_on_label">Äratus ajaks %1$s on sisse lülitatud</string>
+    <string name="fa_audio_recorder_audio_recording_text">Salvestamine …</string>
+    <string name="fa_audio_recorder_default_play_record_time_text">00:00</string>
+    <string name="fa_audio_recorder_delete_audio_message">Kustuta helisõnum</string>
+    <string name="fa_audio_recorder_pause_audio_playback">Peata</string>
+    <string name="fa_audio_recorder_playback_audio">Taasesita</string>
+    <string name="fa_audio_recorder_recording_audio">Salvestamine</string>
+    <string name="fa_audio_recorder_stop_recording_audio">Peata salvestamine</string>
+    <string name="fa_cancel_button_description">Nupp Tühista</string>
+    <string name="fa_confirm_button_description">Nupp Kinnita</string>
+    <string name="fa_contact_selection_contact_icon_description">Kontakti ikoon</string>
+    <string name="fa_contact_selection_pick_another_contact_view_hint">Valige veel üks kontakt</string>
+    <string name="fa_contact_selection_view_hint">Valige kontakt</string>
+    <string name="fa_device_setting_toggle_icon_description">Seadete ikoon</string>
+    <string name="fa_device_setting_toggle_off_description">%1$s on välja lülitatud</string>
+    <string name="fa_device_setting_toggle_on_description">%1$s on sisse lülitatud</string>
+    <string name="fa_duration_hours_minutes_seconds">%1$02d h %2$02d min %3$02d s</string>
+    <string name="fa_duration_minutes_seconds">%1$02d min %2$02d s</string>
+    <string name="fa_duration_picker_confirm_button_text">Valmis</string>
+    <string name="fa_duration_picker_hour_unit_label">Tunnid</string>
+    <string name="fa_duration_picker_minute_unit_label">Minutid</string>
+    <string name="fa_duration_picker_second_unit_label">Sekundid</string>
+    <string name="fa_duration_picker_title">Kestuse määramine</string>
+    <string name="fa_duration_seconds">%1$02d s</string>
+    <string name="fa_empty_time">--:--</string>
+    <string name="fa_family_info_broadcast_settings_button">Teadaannete seadete nupp</string>
+    <string name="fa_family_info_collapse_button">Nupp jaotise Kuva inimesed ahendamiseks</string>
+    <string name="fa_family_info_uncollapse_button">Nupp jaotise Kuva inimesed laiendamiseks</string>
+    <string name="fa_filled_bullet">●</string>
+    <string name="fa_hour_unit_label">h</string>
+    <string name="fa_list_item_picker_title">Tehke üks valik</string>
+    <string name="fa_minute_unit_label">m</string>
+    <string name="fa_playback_audio">Taasesita</string>
+    <string name="fa_recurrence_custom">Kohandatud (ei saa kohandada telefonis)</string>
+    <string name="fa_recurrence_do_not_repeat">Ära korda</string>
+    <string name="fa_recurrence_none">Puudub</string>
+    <string name="fa_remaining_duration_hours_minutes_seconds">Jäänud on %1$02d h %2$02d min %3$02d s</string>
+    <string name="fa_remaining_duration_minutes_seconds">Jäänud on %1$02d min %2$02d s</string>
+    <string name="fa_remaining_duration_seconds">Jäänud on %1$02d s</string>
+    <string name="fa_second_unit_label">s</string>
+    <string name="fa_timer_status_active">AKTIIVNE</string>
+    <string name="fa_timer_status_paused">PEATATUD</string>
+    <string name="fa_timer_status_reset">LÄHTESTATUD</string>
+    <string name="fa_timer_status_unknown">TEADMATA</string>
     <string name="facade_search_box_content_description">Otsing …</string>
     <string name="filled_bullet">●</string>
     <string name="find_something_else_button_text">Otsi midagi muud</string>
@@ -994,7 +1071,7 @@ Puudutage menüüs Seaded valikuid Load > Asukoht > Luba alati."</string>
     <string name="googleapp_accountmenu_chrome_incognito">"Uus Chrome'i inkognito vaheleht"</string>
     <string name="googleapp_accountmenu_data_in_search">Otsing</string>
     <string name="googleapp_accountmenu_passwords">Paroolid</string>
-    <string name="googleapp_accountmenu_personal_info_removal">Isikuandmete eemaldamine</string>
+    <string name="googleapp_accountmenu_personal_info_removal">Results about you</string>
     <string name="googleapp_accountmenu_quick_delete_education_easy">Puhastage otsinguajaloo viimased 15 minutit ühe puudutusega</string>
     <string name="googleapp_accountmenu_quickdelete_cancel">Loobu</string>
     <string name="googleapp_accountmenu_quickdelete_error">Ajalugu ei saanud kustutada</string>
@@ -1010,7 +1087,7 @@ Puudutage menüüs Seaded valikuid Load > Asukoht > Luba alati."</string>
     <string name="googleapp_accountmenu_search_history">Otsinguajalugu</string>
     <string name="googleapp_accountmenu_your_contributions">Teie panused</string>
     <string name="googleapp_actionbutton_listen">Loe ette</string>
-    <string name="googleapp_ads_personalization_settings_title">Ads personalization</string>
+    <string name="googleapp_ads_personalization_settings_title">Reklaamide isikupärastamine</string>
     <string name="googleapp_amp_security_button_description">Ühendus on turvaline</string>
     <string name="googleapp_app_suggestions_summary">Installitud rakenduste nimed.</string>
     <string name="googleapp_app_suggestions_title">Rakendused</string>
@@ -1022,6 +1099,10 @@ Puudutage menüüs Seaded valikuid Load > Asukoht > Luba alati."</string>
     <string name="googleapp_autocomplete_with_trending_searches_header_title">Populaarsust koguvad otsingud</string>
     <string name="googleapp_autocomplete_with_trending_searches_summary">Populaarsust koguvad otsingud hõlmavad teie asukoha populaarseid otsinguid</string>
     <string name="googleapp_autocomplete_with_trending_searches_title">Automaatselt täitmine populaarsete otsingutega</string>
+    <string name="googleapp_autoplay_video_previews_always">WiFi- ja mobiilsidevõrgus</string>
+    <string name="googleapp_autoplay_video_previews_never">Mitte kunagi</string>
+    <string name="googleapp_autoplay_video_previews_setting_title">Video eelvaadete automaatesitus</string>
+    <string name="googleapp_autoplay_video_previews_wifi">Ainult WiFi-võrgus</string>
     <string name="googleapp_back_arrow_description">Tagasi</string>
     <string name="googleapp_bar_color_title">Riba värv</string>
     <string name="googleapp_bar_logo_title">Riba logo</string>
@@ -1033,12 +1114,6 @@ Puudutage menüüs Seaded valikuid Load > Asukoht > Luba alati."</string>
     <string name="googleapp_boc_tooltip_tap_to_manage_your_preferences">Puudutage oma eelistuste ja tagasiside haldamiseks</string>
     <string name="googleapp_books_mode_landing_text">Otsige raamatuid</string>
     <string name="googleapp_bottom_navigation_collections_label_content_description">Kogude nupp</string>
-    <string name="googleapp_broad_queries_topbar_mic_description">Häälotsing</string>
-    <string name="googleapp_broad_queries_topbar_search_description">Otsi</string>
-    <string name="googleapp_broad_queries_topbar_up_content_description">Tagasi</string>
-    <string name="googleapp_broadqueries_error_message">Kontrollige, kas internetiühendus töötab</string>
-    <string name="googleapp_broadqueries_error_title">Midagi läks valesti</string>
-    <string name="googleapp_broadqueries_loading_indicator_desc">Sisu laaditakse</string>
     <string name="googleapp_browser_actionbutton_ampinfo">Lisateave AMP kohta</string>
     <string name="googleapp_browser_actionbutton_overflowmenu">Veel toiminguid</string>
     <string name="googleapp_browser_actionbutton_tabs">Vahelehed</string>
@@ -1051,8 +1126,8 @@ Puudutage menüüs Seaded valikuid Load > Asukoht > Luba alati."</string>
     <string name="googleapp_browser_clear_error">Midagi läks sirvimisandmete puhastamisel valesti.</string>
     <string name="googleapp_browser_contextmenu_open_in_new_tab_title">Ava uuel vahelehel</string>
     <string name="googleapp_browser_contextmenu_previewimage_description">Pildi eelvaade</string>
-    <string name="googleapp_browser_contextmenu_previewimage_scrolllabel">Scroll for more of image</string>
-    <string name="googleapp_browser_contextmenu_previewimage_smalllabel">Image preview enlarged from original size</string>
+    <string name="googleapp_browser_contextmenu_previewimage_scrolllabel">Kerige, et näha pilti tervikuna</string>
+    <string name="googleapp_browser_contextmenu_previewimage_smalllabel">Pildi eelvaade on originaalist suurem</string>
     <string name="googleapp_browser_download_blocker_incognito_continue_btn">Laadi alla</string>
     <string name="googleapp_browser_download_blocker_incognito_message">Allalaaditud failid salvestatakse teie seadmesse. Need on pärast inkognito režiimi väljalülitamist endiselt kättesaadavad.</string>
     <string name="googleapp_browser_enable_title">"Ava veebilehed Google'i rakenduses"</string>
@@ -1062,28 +1137,27 @@ Puudutage menüüs Seaded valikuid Load > Asukoht > Luba alati."</string>
     <string name="googleapp_browser_firstrun_summary">"Teie Google'i rakendust on uuendatud ja te saate nüüd rakenduses sirvida veebisisu, nagu artiklid, videod ja lood.
 
 Võib-olla peate mõnele veebisaidile sisse logima ja vaatama üle oma brauseri seaded."</string>
-    <string name="googleapp_browser_firstrun_summary_v2">"Now you can view pages faster and enjoy an improved search experience.
+    <string name="googleapp_browser_firstrun_summary_v2">"Nüüd saate lehti kiiremini vaadata ja nautida täiustatud otsingukogemust.
 
-You may need to log back in to some sites."</string>
+Võimalik, et teil tuleb mõnele saidile uuesti sisse logida."</string>
     <string name="googleapp_browser_firstrun_summary_v2_part2">"
 
-Manage your new browser security and privacy settings in the app."</string>
+Hallake rakenduses oma uusi brauseri turva- ja privaatsusseadeid."</string>
     <string name="googleapp_browser_firstrun_title">Rakenduses saab nüüd avada veebisisu</string>
-    <string name="googleapp_browser_firstrun_title_v2">Browse without leaving the app</string>
+    <string name="googleapp_browser_firstrun_title_v2">Sirvige rakendusest lahkumata</string>
     <string name="googleapp_browser_setting_clear_cache_title"><b>Vahemällu salvestatud kujutised ja failid</b>"
 Mõned saidid võivad teie järgmise külastuse ajal aeglasemalt laadida."</string>
     <string name="googleapp_browser_setting_clear_data_title"><b>Küpsisefailid ja saidi andmed</b>"
 Logib teid enamikult saitidelt välja. Teid ei logita teie Google'i kontolt välja."</string>
     <string name="googleapp_browser_settings_browser_privacy_category_title">Brauseri privaatsus</string>
     <string name="googleapp_browser_settings_browser_safety_category_title">Brauseri ohutus</string>
-    <string name="googleapp_browser_settings_browsing_history_summary">Manage your browsing history at My Activity</string>
+    <string name="googleapp_browser_settings_browsing_history_summary">Hallake oma sirvimisajalugu lehel Minu toimingud</string>
     <string name="googleapp_browser_settings_browsing_history_title">Sirvimisajalugu</string>
     <string name="googleapp_browser_settings_clear_browsing_data_summary">Küpsiste ja vahemälu andmete puhastamine</string>
     <string name="googleapp_browser_settings_clear_browsing_data_title">Sirvimisandmete kustutamine</string>
     <string name="googleapp_browser_settings_cleardata_button_text">Kustuta andmed</string>
     <string name="googleapp_browser_settings_extended_safe_browsing_summary">"Saatke Google'ile brauseri teavet, et aidata tuvastada ohtlikke rakendusi ja saite. See hõlmab mõne teie külastatud lehe URL-e, piiratud süsteemiteavet ja mõne lehe sisu."</string>
     <string name="googleapp_browser_settings_extended_safe_browsing_title">Aidake muuta brauser turvalisemaks</string>
-    <string name="googleapp_browser_settings_link">Brauseri seaded</string>
     <string name="googleapp_browser_settings_real_time_safe_browsing_summary">"Kontrollige uusi turvaprobleeme iga kord, kui külastate saiti. Teie külastatud saitide URL-id saadetakse Google'ile."</string>
     <string name="googleapp_browser_settings_real_time_safe_browsing_title">Kontrolli saidi turvalisust reaalajas</string>
     <string name="googleapp_browser_settings_safe_browsing_summary">"Näete hoiatust, kui proovite külastada saiti, millel on tuntud turvaprobleemid. Ohtlikud URLid, mida külastate, võidakse saata Google'ile."</string>
@@ -1150,10 +1224,10 @@ Logib teid enamikult saitidelt välja. Teid ei logita teie Google'i kontolt väl
     <string name="googleapp_covid_vaccine_register_25_subheader">Kõike 25-aastased ja vanemad on sobilikud vaktsiini saamiseks</string>
     <string name="googleapp_covid_vaccine_register_header">Registreeruge COVID-i vaktsiini saamiseks täna</string>
     <string name="googleapp_custom_color_description">Otsinguvidina kohandatud värviteema</string>
-    <string name="googleapp_custom_color_hue_slider_description">Custom hue slider</string>
-    <string name="googleapp_custom_color_hue_slider_label">Hue</string>
-    <string name="googleapp_custom_color_saturation_slider_description">Custom saturation slider</string>
-    <string name="googleapp_custom_color_saturation_slider_label">Saturation</string>
+    <string name="googleapp_custom_color_hue_slider_description">Kohandatud toonide liugur</string>
+    <string name="googleapp_custom_color_hue_slider_label">Värvitoon</string>
+    <string name="googleapp_custom_color_saturation_slider_description">Kohandatud küllastuse liugur</string>
+    <string name="googleapp_custom_color_saturation_slider_label">Küllastus</string>
     <string name="googleapp_custom_tabs_collections_menu_item_title">Kuva kogud</string>
     <string name="googleapp_custom_tabs_copy_link_menu_item_title">Kopeeri link</string>
     <string name="googleapp_custom_tabs_copy_link_toast_text">Link on lõikelauale kopeeritud</string>
@@ -1165,6 +1239,7 @@ Sisse logitud kontoga %1$s"</string>
     <string name="googleapp_custom_tabs_enabled_setting_unavailable_need_first_run_done">Selle valiku lubamiseks avage ja seadistage Chrome</string>
     <string name="googleapp_custom_tabs_enabled_setting_unavailable_update_chrome">"Lubamiseks installige Chrome'i uusim versioon"</string>
     <string name="googleapp_custom_tabs_help_menu_item_title">Abi</string>
+    <string name="googleapp_custom_tabs_piros_menu_item_title">Eemaldage teie andmeid sisaldavad tulemused</string>
     <string name="googleapp_custom_tabs_recently_menu_item_title">Hiljutised</string>
     <string name="googleapp_customize_text">Kohandamine</string>
     <string name="googleapp_disco_channels_and_interests_tng_setting">Kanalid ja huvid</string>
@@ -1276,7 +1351,7 @@ Sisse logitud kontoga %1$s"</string>
     <string name="googleapp_general_settings_title">Üldine</string>
     <string name="googleapp_go_to_discover_content_description">Ava Discover</string>
     <string name="googleapp_goc_bottombar_close_description">Peida seotud lehed</string>
-    <string name="googleapp_google_app_browser_instacart_button_content_description">Instacart button</string>
+    <string name="googleapp_google_app_browser_instacart_button_content_description">"Instacart'i nupp"</string>
     <string name="googleapp_hide_explicit_results_settings_title">Peida vulgaarsed tulemused</string>
     <string name="googleapp_images_mode_landing_text">Otsige pilte</string>
     <string name="googleapp_incognito_app_strip_header">Teie rakendustest (ei pruugi olla inkognito režiimis)</string>
@@ -1310,7 +1385,6 @@ Sisse logitud kontoga %1$s"</string>
     <string name="googleapp_incognito_setup_device_biometrics_dialog_title">Biomeetria seadistamine</string>
     <string name="googleapp_incognito_signpost_button_text">Lülita välja</string>
     <string name="googleapp_incognito_signpost_icon_description">Inkognito teeviida ikoon</string>
-    <string name="googleapp_incognito_signpost_message_assistant">Assistendi funktsioonid ei ole inkognito režiimis sirvides saadaval – assistendile juurde pääsemiseks väljuge inkognito režiimist</string>
     <string name="googleapp_incognito_signpost_message_collections">Kogud ei ole inkognito režiimis sirvides saadaval – nendele juurde pääsemiseks väljuge inkognito režiimist</string>
     <string name="googleapp_incognito_signpost_message_default">See funktsioon ei ole inkognito režiimis sirvides saadaval – sellele juurdepääsemiseks väljuge inkognito režiimist</string>
     <string name="googleapp_incognito_signpost_message_discover">Discoveri voog ei ole inkognito režiimis olles saadaval</string>
@@ -1333,7 +1407,7 @@ Sisse logitud kontoga %1$s"</string>
     <string name="googleapp_interstitial_visibility_warning_isp">Teie internetiteenuse osutaja</string>
     <string name="googleapp_interstitial_visibility_warning_websites">Veebisaidid, mida külastate</string>
     <string name="googleapp_language_setting_title">Otsingukeel</string>
-    <string name="googleapp_language_switcher_auto_option">Auto-switch</string>
+    <string name="googleapp_language_switcher_auto_option">Automaatne vahetus</string>
     <string name="googleapp_lens_button_content_description">Kaameraotsing</string>
     <string name="googleapp_lens_explainer">Pildistage ükskõik mida ja otsige seda</string>
     <string name="googleapp_lens_icon_content_description">Kaameraotsing</string>
@@ -1412,7 +1486,14 @@ Nendest rakendustest ja teenustest näete personaalseid seadmepõhiseid otsingut
     <string name="googleapp_recent_pages_enabled_setting_title">Hiljutised lehed</string>
     <string name="googleapp_region_setting_title">Otsingupiirkond</string>
     <string name="googleapp_reset_style_text">Lähtesta vaikestiilile</string>
-    <string name="googleapp_save_button_text">Save</string>
+    <string name="googleapp_save_button_text">Salvesta</string>
+    <string name="googleapp_save_feature_default_collection_label">Lemmiklehed</string>
+    <string name="googleapp_save_feature_error_title">Vabandust, midagi läks valesti</string>
+    <string name="googleapp_save_feature_share_close_button_description">Sule</string>
+    <string name="googleapp_save_feature_share_receiver_subject_and_text">"%1$s
+
+%2$s"</string>
+    <string name="googleapp_save_feature_share_save">Salvesta</string>
     <string name="googleapp_search_a_song_content_description">Puudutage laulu tuvastamise alustamiseks</string>
     <string name="googleapp_search_bar_radius_24dp_description">Ümardatud</string>
     <string name="googleapp_search_bar_radius_2dp_description">Ristkülik</string>
@@ -1442,26 +1523,27 @@ Nendest rakendustest ja teenustest näete personaalseid seadmepõhiseid otsingut
     <string name="googleapp_second_screen_manage_interests_menu_label">Huvide haldamine</string>
     <string name="googleapp_second_screen_settings_menu_label">Seaded</string>
     <string name="googleapp_see_updates">Kuva värskendused</string>
-    <string name="googleapp_settings_about_link">Teave</string>
+    <string name="googleapp_setting_error_card_icon_content_description">Viga</string>
+    <string name="googleapp_setting_error_card_message_explanation">Veebilehte ei saanud laadida</string>
+    <string name="googleapp_setting_error_card_message_title">Midagi läks valesti</string>
     <string name="googleapp_settings_about_title">Teave</string>
-    <string name="googleapp_settings_general_link">Üldine</string>
-    <string name="googleapp_settings_language_and_region_link">Keel ja piirkond</string>
     <string name="googleapp_settings_language_and_region_title">Keel ja piirkond</string>
     <string name="googleapp_settings_legal_notices_title">Õigusalane teave</string>
     <string name="googleapp_settings_location_terms_of_service_title">Asukohateenuse tingimused</string>
+    <string name="googleapp_settings_nav_up">Navigeeri üles</string>
     <string name="googleapp_settings_open_source_licenses_title">Kolmanda osapoole teatised</string>
     <string name="googleapp_settings_privacy_and_security_link">Privaatsus ja turvalisus</string>
     <string name="googleapp_settings_privacy_policy_title">Privaatsuseeskirjad</string>
-    <string name="googleapp_settings_search_widget_link">Otsinguvidin</string>
+    <string name="googleapp_settings_search">Otsi</string>
+    <string name="googleapp_settings_search_hint">Otsige seadetest</string>
     <string name="googleapp_settings_terms_of_service_title">Teenusetingimused</string>
-    <string name="googleapp_settings_voice_link">Hääl</string>
     <string name="googleapp_settings_voice_title">Hääl</string>
     <string name="googleapp_shopping_mode_landing_text">Otsige ostude hulgast</string>
     <string name="googleapp_show_waiting_text">Üks hetk …</string>
-    <string name="googleapp_sign_in_tout_header">Sign in to personalize Discover</string>
-    <string name="googleapp_sign_in_tout_negative_text">Cancel</string>
-    <string name="googleapp_sign_in_tout_positive_text">Sign in</string>
-    <string name="googleapp_sign_in_tout_subheader">Control what you see in the Google app by signing in</string>
+    <string name="googleapp_sign_in_tout_header">"Discover'i isikupärastamiseks logige sisse"</string>
+    <string name="googleapp_sign_in_tout_negative_text">Loobu</string>
+    <string name="googleapp_sign_in_tout_positive_text">Logi sisse</string>
+    <string name="googleapp_sign_in_tout_subheader">"Logige sisse, et kontrollida, mida Google'i rakenduses näete"</string>
     <string name="googleapp_signed_out_pq_based_suggestion_message">See ennustus on seotud hiljutiste otsingutega.</string>
     <string name="googleapp_silk_pane_close_button">Sule</string>
     <string name="googleapp_silk_pane_dismiss_message">Sule</string>
@@ -1469,6 +1551,7 @@ Nendest rakendustest ja teenustest näete personaalseid seadmepõhiseid otsingut
     <string name="googleapp_sno_subscriptions_internal_error_header">Midagi läks valesti</string>
     <string name="googleapp_sno_subscriptions_offline_error_message">Tellimuste vaatamiseks ja muutmiseks tuleb teil võrguga ühendus luua</string>
     <string name="googleapp_sound_search_search_a_song_hint">Otsi lugu</string>
+    <string name="googleapp_srp_query_tiger">tiiger</string>
     <string name="googleapp_stamp_viewer_actionbutton_feedback">Tagasiside saatmine</string>
     <string name="googleapp_stamp_viewer_actionbutton_heart">Süda</string>
     <string name="googleapp_stamp_viewer_actionbutton_help_center">Abikeskus</string>
@@ -1483,7 +1566,7 @@ Nendest rakendustest ja teenustest näete personaalseid seadmepõhiseid otsingut
     <string name="googleapp_stamp_viewer_error_title">Midagi läks valesti</string>
     <string name="googleapp_stamp_viewer_overflow_menu_button_content_description">Rohkem valikuid.</string>
     <string name="googleapp_stamp_viewer_overflow_menu_close">Sule</string>
-    <string name="googleapp_stamp_viewer_preview_button_text">Ava terve lugu</string>
+    <string name="googleapp_stamp_viewer_preview_button_text">Jätkake vaatamist</string>
     <string name="googleapp_stamp_viewer_preview_label">Eelvaade</string>
     <string name="googleapp_stamp_viewer_publisher_cta">Külasta</string>
     <string name="googleapp_stamp_viewer_retry_button_text">Proovi uuesti</string>
@@ -1500,7 +1583,7 @@ Nendest rakendustest ja teenustest näete personaalseid seadmepõhiseid otsingut
     <string name="googleapp_tabs_manager_close_all_tabs_dialog_confirmation_button_label">Sule kõik</string>
     <string name="googleapp_tabs_manager_close_all_tabs_dialog_confirmation_message">Kas soovite kindlasti kõik avatud vahelehed sulgeda?</string>
     <string name="googleapp_tabs_manager_close_tab_button_default_description">vahelehe sulgemine</string>
-    <string name="googleapp_tabs_manager_close_tab_button_description">veebisaidi %s sulgemine – nupp</string>
+    <string name="googleapp_tabs_manager_close_tab_button_description">sulge veebisait %s</string>
     <string name="googleapp_tabs_manager_empty_state_title">Teil ei ole avatud avalehti</string>
     <string name="googleapp_tabs_manager_new_tab_button_description">uue otsingu alustamine</string>
     <string name="googleapp_tabs_manager_new_tab_button_text">Uus vaheleht</string>
@@ -1518,18 +1601,19 @@ Nendest rakendustest ja teenustest näete personaalseid seadmepõhiseid otsingut
     <string name="googleapp_voice_search_humming">Otsige lugusid ümisedes</string>
     <string name="googleapp_voice_search_tired_of_typing">Kas olete teksti sisestamisest tüdinud? Otsige oma häälega</string>
     <string name="googleapp_voice_search_with_voice">Otsige oma häälega</string>
+    <string name="googleapp_voice_settings_assistant_title">Google’i assistent</string>
     <string name="googleapp_voice_settings_languages_setting_check_content_description">Valitud</string>
     <string name="googleapp_voice_settings_languages_setting_limit_reached_notice">Jõuti limiidini. Rohkem keeli pole võimalik valida.</string>
     <string name="googleapp_voice_settings_languages_setting_no_selection_notice">Ühtegi keelt pole valitud.</string>
     <string name="googleapp_voice_settings_languages_setting_save_button_text">SALVESTA</string>
+    <string name="googleapp_voice_settings_languages_setting_summary_text_others">Others:</string>
+    <string name="googleapp_voice_settings_languages_setting_summary_text_primary">Primary:</string>
     <string name="googleapp_voice_settings_languages_setting_title">Keeled</string>
     <string name="googleapp_voice_settings_offline_speech_recognition_setting_summary">Allalaaditud keelte haldamine</string>
     <string name="googleapp_voice_settings_offline_speech_recognition_setting_title">Võrguühenduseta kõnetuvastus</string>
     <string name="googleapp_voice_settings_spoken_results_setting_title">Suulised tulemused</string>
-    <string name="googleapp_voice_settings_spoken_results_value_all_voices">Kõik häälotsingud</string>
-    <string name="googleapp_voice_settings_spoken_results_value_hands_free_only">Ainult vabakäerežiimi otsingud</string>
-    <string name="googleapp_voice_settings_voice_match_setting_summary">"Rääkige Google'i assistendiga, et asjad tehtud saaks"</string>
-    <string name="googleapp_voice_settings_voice_match_setting_title">Voice Match</string>
+    <string name="googleapp_voice_settings_spoken_results_value_all_voices">On</string>
+    <string name="googleapp_voice_settings_spoken_results_value_hands_free_only">Off</string>
     <string name="googleapp_waa_disabled_tout_promo_description">"Google'i otsingu privaatsusseaded"</string>
     <string name="googleapp_waa_disabled_tout_promo_header">Teie voog ei põhine teie ajalool</string>
     <string name="googleapp_waa_disabled_tout_promo_subheader">Teie Discoveri voog ei põhine teie ajalool, sest veebi- ja rakendustegevused on välja lülitatud</string>
@@ -1736,14 +1820,13 @@ Nendest rakendustest ja teenustest näete personaalseid seadmepõhiseid otsingut
     <string name="lens_info_panel_on_device_chip_share_translate_content_description">Saate jagada tõlgitud pilti</string>
     <string name="lens_info_panel_on_device_chip_translate">Tõlgi</string>
     <string name="lens_info_panel_on_device_chip_translate_content_description">Saate tõlkida valitud teksti</string>
-    <string name="lens_info_panel_on_device_no_text_header_title">Teksti ei leitud</string>
     <string name="lens_info_panel_on_device_results_header_limited_functionality">Mõned funktsioonid ei ole saadaval</string>
     <string name="lens_info_panel_on_device_results_header_offline">Võrguühenduseta</string>
     <string name="lens_info_panel_on_device_text_header_title">Pildilt leitud tekst</string>
     <string name="lens_info_panel_on_device_translation_header_title">Tõlgitud tekst</string>
+    <string name="lens_info_panel_partial_translate_enabled_header_title">Algtekst</string>
     <string name="lens_info_panel_processing_message">Laadimine …</string>
     <string name="lens_info_panel_quoted_title">„%1$s”</string>
-    <string name="lens_info_panel_select_text_to_translate_header_title">Valige tõlgitav tekst</string>
     <string name="lens_kilometers_indicator">%s km</string>
     <string name="lens_latex_input_hint">Sisestage matemaatiline tehe</string>
     <string name="lens_living_surface_audio_button_mute">Vaigista</string>
@@ -1838,6 +1921,7 @@ Nendest rakendustest ja teenustest näete personaalseid seadmepõhiseid otsingut
     <string name="lens_sample_images_translate_card_text_short">Tõlkige pilte</string>
     <string name="lens_search_bar_hint">Sisestage restorani nimi</string>
     <string name="lens_search_filter_name">Otsing</string>
+    <string name="lens_selection_state_guidance_message_on_device_translation">Puudutage tõlgitavat teksti</string>
     <string name="lens_share_to_lens_label">Otsi pilti</string>
     <string name="lens_share_translate_message">Tõlgitud teenusega Google Lens. Proovige järele!</string>
     <string name="lens_shopping_filter_guidance_message">Pildistage tooteid või vöötkoode</string>
@@ -1953,6 +2037,7 @@ Nendest rakendustest ja teenustest näete personaalseid seadmepõhiseid otsingut
     <string name="mdd_notification_action_cancel">Loobu</string>
     <string name="mdd_notification_download_failed">Allalaadimine ebaõnnestus</string>
     <string name="mdd_notification_download_paused">Võrguühenduse ootel</string>
+    <string name="mdd_notification_download_paused_wifi">Waiting for WiFi connection</string>
     <string name="mdd_notification_download_success">Alla laaditud</string>
     <string name="media_browser_youtube_premium_warning_text">Soovituste nägemiseks on vaja tasulist kontot</string>
     <string name="media_empty_state_task_hey_google_play_music">"„Ok Google,
@@ -2518,11 +2603,11 @@ sulandudes."</string>
     <string name="punt_for_personal_results">Selleks et saaksin teid aidata, peate selles autos lubama personaalsed tulemused. Kui see on ohutu, saate seda teha assistendi seadetes.</string>
     <string name="punt_for_signed_out">"Selleks peate oma Google'i kontoga sisse logima. Kui see on ohutu, vaadake auto märguandest järgmist toimingut."</string>
     <string name="punt_home_alias_unset">Näib, et mul puudub teie kodune aadress. Juhiseid koju jõudmiseks saate, kui ütlete mulle oma aadressi.</string>
-    <string name="punt_max_volume">Vabandust. Helitugevuse määramist maksimumile või suurendamist 100 protsendini selles seadmes praegu ei toetata.</string>
     <string name="punt_non_percentage_volume_control">Autos toimib helitugevuse määramine protsendipõhiselt, nii et võite näiteks öelda „Määra helitugevus 25 protsendile“.</string>
     <string name="punt_offline_music">Näib, et ühendus puudub, mistõttu ei saa ma seda teile esitada.</string>
     <string name="punt_open_app">Kahjuks pole seda rakendust installitud või see pole praegu saadaval.</string>
     <string name="punt_open_unsafe_for_drving_app">Vabandust! Seda rakendust pole ohutu sõidu ajal kasutada.</string>
+    <string name="punt_set_volume_beyond_threshold">Ohutuse huvides ei saa ma helitugevust teie autos nii kõrgele seada. Saate paluda helitugevuseks määrata kuni %1$d%%</string>
     <string name="punt_work_alias_unset">Näib, et mul puudub teie töökoha aadress. Juhiseid tööle jõudmiseks saate, kui ütlete mulle oma aadressi.</string>
     <string name="query_suggestion_header_text">Öelge</string>
     <string name="recurrence_dialog_title">Kordub</string>
@@ -2534,6 +2619,7 @@ sulandudes."</string>
     <string name="recurrence_month_pattern_last_day">kuu viimasel päeval</string>
     <string name="refresh_bt_latency_button_description">Kontrolli Bluetoothi latentsusaega uuesti</string>
     <string name="replay_count_down">Taasesitatakse &lt;b>%1$d&lt;/b> pärast</string>
+    <string name="reply_button_string">Vasta</string>
     <string name="reply_button_text">Vasta</string>
     <string name="reset_settings">Lähtesta seaded</string>
     <string name="resume_label">Kõne jätkamine</string>
@@ -2559,7 +2645,7 @@ sulandudes."</string>
     <string name="sceneviewer_get_help">Get help</string>
     <string name="sceneviewer_get_help_button_content_description">Get Help</string>
     <string name="sceneviewer_immersive_edge_fallback_dialog_confirm_button">Go</string>
-    <string name="sceneviewer_immersive_edge_fallback_dialog_message">No connection. You will be redirected to &lt;b> %1$s &lt;/b></string>
+    <string name="sceneviewer_immersive_edge_fallback_dialog_message">No connections available. Redirecting you to &lt;b>%1$s&lt;/b>. Please try again in a few minutes.</string>
     <string name="sceneviewer_immersive_edge_fallback_dialog_title">Connection lost</string>
     <string name="sceneviewer_immersive_edge_redirect_dialog_cancel_button">Cancel</string>
     <string name="sceneviewer_immersive_edge_redirect_dialog_confirm_button">OK</string>
@@ -2577,6 +2663,8 @@ sulandudes."</string>
     <string name="search_box_content_description">Otsing …</string>
     <string name="search_menu_title">Otsing</string>
     <string name="search_restriction">"Teil ei ole Google'i otsingu kasutamiseks luba"</string>
+    <string name="select_day">Kuu ja päeva valimine</string>
+    <string name="select_year">Aasta valimine</string>
     <string name="send_a_message">Saada sõnum kontaktile %1$s</string>
     <string name="send_a_message_no_contact">Saada sõnum</string>
     <string name="send_a_message_text">Saada sõnum</string>
@@ -2605,6 +2693,7 @@ sulandudes."</string>
     <string name="signed_out_account_particle_disc_state_description">Välja logitud</string>
     <string name="six_dof_guidance">Suunake telefoni kaamera alla tühjale pinnale ja liigutage aeglaselt.</string>
     <string name="smartaction_button_icon_content_description">Valitud nutitoiminguga seotud ikoon.</string>
+    <string name="someone_else_text">Keegi teine</string>
     <string name="soundsearch_close_content_description">Sule</string>
     <string name="soundsearch_label_almost_there">Peaaegu valmis …</string>
     <string name="soundsearch_label_keep_going">Jätkake…</string>
@@ -2940,5 +3029,6 @@ sulandudes."</string>
     <string name="workspace_cling_longpress_title">Taustapildid, vidinad ja seaded</string>
     <string name="workspace_new_page">Uus avakuva leht</string>
     <string name="workspace_scroll_format">Avakuva %1$d/%2$d</string>
+    <string name="year_picker_description">Aastate loend</string>
     <string name="yes_button_text">Jah, sobib</string>
 </resources>

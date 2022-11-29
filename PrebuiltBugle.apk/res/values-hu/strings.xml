@@ -28,7 +28,6 @@
     <string name="about_application_pp_tos_settings">Névjegy, feltételek és adatvédelem</string>
     <string name="accessbility_suggestion_dropdown_closed">Nincs elérhető javaslat</string>
     <string name="accessbility_suggestion_dropdown_opened">Névjegyjavaslatok megnyitva</string>
-    <string name="acs_url_dropdown_hint">ACS URL beállítása</string>
     <string name="action_add_contact">Névjegy hozzáadása</string>
     <string name="action_advanced_feedback">Visszajelzés küldése</string>
     <string name="action_archive">Archiválás</string>
@@ -47,18 +46,19 @@
     <string name="action_help_and_feedback">Súgó és visszajelzés</string>
     <string name="action_info_and_options">Információ és lehetőségek</string>
     <string name="action_jump_to_chat">Ugrás a csevegésre</string>
+    <string name="action_meet_video_call">Meet-videohívás</string>
     <string name="action_menu_mark_all_as_read">Az összes megjelölése olvasottként</string>
     <string name="action_menu_show_archived">Archiválva</string>
     <string name="action_menu_show_spam_folder">Spam és letiltott</string>
     <string name="action_notification_off">Értesítések kikapcsolása</string>
     <string name="action_notification_on">Értesítések bekapcsolása</string>
     <string name="action_notification_settings">Értesítések elnémítása</string>
+    <string name="action_off">Ki</string>
     <string name="action_pair_device">Eszközpárosítás</string>
     <string name="action_people_and_options">Részletek</string>
     <string name="action_people_and_options_group">Csoport részletei</string>
     <string name="action_pin_to_top">Kitűzés felül</string>
     <string name="action_report_spam">Ez spam</string>
-    <string name="action_scan_qr_code">Messages a weben</string>
     <string name="action_search">Keresés</string>
     <string name="action_search_gifs">GIF-keresés</string>
     <string name="action_search_messages">Keresés az üzenetek között</string>
@@ -77,6 +77,7 @@
     <string name="action_viLTE_video_call">Szolgáltatói videohívás</string>
     <string name="action_video_call">Videohívás indítása</string>
     <string name="actionbar_subtitle_name_prefix">vele: %s</string>
+    <string name="active_reminder">Emlékeztető</string>
     <string name="active_sim_content_message">%s kiválasztva</string>
     <string name="activity_not_found_message">Nem található megfelelő alkalmazás</string>
     <string name="add_area_code_banner_button">Körzetszám megadása</string>
@@ -90,6 +91,7 @@
     <string name="add_contact_confirmation_dialog_title">Hozzáadja a névjegyekhez?</string>
     <string name="add_country_code_banner_button">Országkód megadása</string>
     <string name="add_more_participants_button_content_description">További résztvevők hozzáadása</string>
+    <string name="add_reaction_content_description">Reagálás egyéni reakcióval</string>
     <string name="add_reaction_for_assistant_card_rcs_fallback_text">​%1$s​ egy Segéd-kártyára</string>
     <string name="add_reaction_for_audio_rcs_fallback_text">​%1$s​ egy hangfájlra</string>
     <string name="add_reaction_for_contact_rcs_fallback_text">​%1$s​ egy névjegyre</string>
@@ -97,7 +99,7 @@
     <string name="add_reaction_for_gif_rcs_fallback_text">​%1$s​ egy GIF-re</string>
     <string name="add_reaction_for_link_rcs_fallback_text">​%1$s​ egy linkre</string>
     <string name="add_reaction_for_photo_rcs_fallback_text">​%1$s​ egy fotóra</string>
-    <string name="add_reaction_for_text_message_rcs_fallback_text">​%1$s​ erre: %2$s</string>
+    <string name="add_reaction_for_text_message_rcs_fallback_text">​%1$s​ erre:  %2$s </string>
     <string name="add_reaction_for_unknown_message_type_rcs_fallback_text">​%1$s​ egy ismeretlen típusú üzenetre</string>
     <string name="add_reaction_for_video_rcs_fallback_text">​%1$s​ egy videóra</string>
     <string name="advanced_feedback_activity_disclaimer">Az üzenet tartalmát és szövegét – a képernyőképeken láthatókat kivéve – nem küldi el a rendszer a Google-nak</string>
@@ -134,14 +136,13 @@
     <string name="apn_mnc">MNC</string>
     <string name="app_name">Messages</string>
     <string name="app_settings_conversation_pref_title">Alkalmazásbeállítások</string>
-    <string name="apply_button">Alkalmazás</string>
     <string name="archived_activity_title">Archiválva</string>
     <string name="archived_conversation_list_empty_text">Itt jelennek meg az archivált beszélgetések</string>
     <string name="area_code_banner_description">@string/banner_description</string>
     <string name="assistant_movies_shortcut_title">Filmek</string>
+    <string name="assistant_preference_summary">Releváns információk megjelenítése az étkezéssel, filmekkel és más tartalmakkal kapcsolatban</string>
     <string name="assistant_preference_title">Segédtől kapott javaslatok</string>
     <string name="assistant_restaurants_shortcut_title">Éttermek</string>
-    <string name="assistant_send_to_chip_default_group_name">csoport</string>
     <string name="assistant_suggestions_tooltip_text">A Messages javaslatokat hoz létre, és biztonságban megőrzi a beszélgetést az eszközön. A javaslatokra koppintva megjelenítheti őket, és információkat oszthat meg a Google Segédből. &lt;br/> &lt;br/> &lt;a href>További információt&lt;/a> a &lt;a href>beállításoknál&lt;/a> talál, ahol konfigurálhatja is a funkciót.</string>
     <string name="assistant_suggestions_tooltip_title_text">Információ egy koppintásnyira</string>
     <string name="assistant_weather_shortcut_title">Időjárás</string>
@@ -157,12 +158,18 @@
     <string name="attachment_location">Hely</string>
     <string name="attachment_picture">Kép</string>
     <string name="attachment_preview_close_content_description">Melléklet elvetése</string>
+    <string name="attachment_preview_photos_link_share_getting_link">Link lekérése…</string>
+    <string name="attachment_preview_photos_link_share_no_upload_needed">Korábban feltöltött</string>
+    <string name="attachment_preview_photos_link_share_upload_size">%s feltöltése</string>
+    <string name="attachment_preview_photos_link_share_upload_size_failure">Ismeretlen</string>
+    <string name="attachment_preview_photos_link_share_upload_size_placeholder">Számítás…</string>
     <string name="attachment_unsupported_file">Nem támogatott fájl</string>
     <string name="attachment_vcard">Névjegykártya</string>
     <string name="attachment_video">Videó</string>
     <string name="audio_attachment_content_description">Hangmelléklet</string>
     <string name="audio_attachment_seek_playback_description">Hanglejátszás</string>
     <string name="audio_button_view_content_description">Koppintson duplán, és tartsa lenyomva az ujját a hang rögzítéséhez, csúsztassa el balra a visszavonáshoz</string>
+    <string name="audio_format_type">hang</string>
     <string name="audio_pause_content_description">Szünet</string>
     <string name="audio_play_content_description">Hangmelléklet lejátszása</string>
     <string name="audio_recorder_call_in_progress">Hívás közben nem lehet hangot felvenni</string>
@@ -181,6 +188,8 @@
     <string name="auto_selected_country_summary">Automatikus észlelés (%1$s)</string>
     <string name="automoved_spam_notification_action_dismiss">Elvetés</string>
     <string name="automoved_spam_notification_action_view">Megtekintés</string>
+    <string name="automoved_spam_notification_content_text">A bejövő spamet áthelyeztük a „Spam és letiltott” mappába</string>
+    <string name="automoved_spam_notification_content_title">Spam észlelhető</string>
     <string name="avatar_no_connection_msg">Nincs internetkapcsolat</string>
     <string name="avatar_promo_create">Létrehozás</string>
     <string name="avatar_promo_see_all">Az összes megtekintése</string>
@@ -192,7 +201,8 @@
     <string name="birthday_banner_description">@string/banner_description</string>
     <string name="birthday_banner_dismiss_button_text">Bezárás</string>
     <string name="birthday_banner_settings_button_text">A Beállítások között kezelheti</string>
-    <string name="birthday_info_text">A Messages születésnapi emlékeztetőket hoz létre az eszközén tárolt névjegyekben szereplő születésnapok alapján</string>
+    <string name="birthday_info_text">Ezek az emlékeztetők az eszköz névjegykezelő alkalmazásában szereplő születésnapadatokon alapulnak.</string>
+    <string name="birthday_info_text_with_settings">Ezek az emlékeztetők az eszköz névjegykezelő alkalmazásában szereplő születésnapadatokon alapulnak. &lt;a href>%1$s&lt;/a></string>
     <string name="birthday_nudge_enabled_pref_summary">Emlékeztetőt kaphat az eszközére mentett névjegyekben szereplő születésnapokon</string>
     <string name="birthday_nudge_enabled_pref_title">Születésnapi emlékeztetők</string>
     <string name="block_confirmation_message_spam_folder">Továbbra is kap üzeneteket a következőtől: %1$s, de a rendszer nem küld róluk értesítést. A beszélgetés átkerül a „Spam és letiltott” mappába.</string>
@@ -212,9 +222,13 @@
     <string name="boew_promo_text">A csevegési funkciók használatához (például a Wi-Fi-hálózaton és mobil-adatkapcsolaton keresztüli üzenetküldéshez) engedélyezze a Messages alkalmazásnak a kapcsolat fenntartását a háttérben.</string>
     <string name="boew_promo_title">Legyen hatékonyabb a Messages alkalmazással</string>
     <string name="bottomsheet_action_expand_halfway">Kibontás félig</string>
+    <string name="bottomsheet_drag_handle_content_description">Csúszka</string>
     <string name="broadcast_receiver_notification_text_extra_info">A Messages a háttérben dolgozik. Nyújtson be egy hibajelentést, ha több mint egy percig látható ez az értesítés. A fogadó neve: %1$s</string>
     <string name="broadcast_sms_text">Tömeges SMS</string>
     <string name="bubble_settings_title">Buborékok</string>
+    <string name="bugle_add_account_error">Nem sikerült hozzáadni a fiókot. Próbálkozzon újra.</string>
+    <string name="bugle_fix_it">Javítás</string>
+    <string name="bugle_load_account_failure">Nem sikerült betölteni a fiókokat.</string>
     <string name="bugle_notification_category_conversations">Beszélgetések</string>
     <string name="bugle_notification_category_default_settings">Alapértelmezett beállítások</string>
     <string name="bugle_notification_category_reminders">Emlékeztetők</string>
@@ -226,6 +240,8 @@
     <string name="bugle_notification_reminders_channel_name">Emlékeztetők</string>
     <string name="bugle_notification_report_issue_channel_name">Visszajelzés kérése a Messagesről</string>
     <string name="bugle_notification_silent_default_channel_name">Kérjen értesítést webes használatkor</string>
+    <string name="bugle_play_services_error">Hiba történt a Google Play-szolgáltatások lekérdezésekor.</string>
+    <string name="bugle_retry">Újra</string>
     <string name="business_action_call_full_content_description">Hívás: %1$s (%2$s)</string>
     <string name="business_action_call_short_content_description">Hívás</string>
     <string name="business_action_call_short_text_m2">Hívás</string>
@@ -287,6 +303,7 @@
     <string name="c2o_single_file_attachment_size_limit_exceed">A melléklet túl nagy, ezért nem küldhető el. A küldött fájlok méretének kisebbnek kell lennie, mint %s.</string>
     <string name="c2o_storage_permissions_text">Koppintson a médiatartalomhoz való hozzáféréshez.</string>
     <string name="c2o_video_button_text">Videó</string>
+    <string name="calendar_badge_content_description">Naptár jelvény</string>
     <string name="calendar_event_added">Az esemény mentve</string>
     <string name="calendar_file_content_description">Naptárfájl</string>
     <string name="calendar_suggestion_event_chat_title">Android Messages-csevegés</string>
@@ -297,6 +314,7 @@
     <string name="camera_attach_media">Csatolás</string>
     <string name="camera_attach_media_description">Csatolás üzenethez</string>
     <string name="camera_back_switch_button">Hátsó kamera kapcsolója</string>
+    <string name="camera_capture_button_label">Fotó készítése</string>
     <string name="camera_flash_off">Vaku kikapcsolva</string>
     <string name="camera_flash_on">Vaku bekapcsolva</string>
     <string name="camera_front_switch_button">Első kamera kapcsolója</string>
@@ -397,6 +415,11 @@ A csevegési funkciókat a beállítások között kapcsolhatja ki. %1$s"</strin
     <string name="common_google_play_services_update_text">A(z) %1$s alkalmazás csak akkor fog működni, ha frissíti a Google Play-szolgáltatásokat.</string>
     <string name="common_google_play_services_update_title">A Google Play-szolgáltatások frissítése</string>
     <string name="common_google_play_services_updating_text">A(z) %1$s alkalmazás nem fut a Google Play-szolgáltatások nélkül, amelyek frissítése folyamatban van.</string>
+    <string name="common_google_play_services_wear_update_text">A Google Play-szolgáltatások új verziójára van szükség. A szolgáltatás hamarosan frissíti önmagát.</string>
+    <string name="common_open_on_phone">Megnyitás a telefonon</string>
+    <string name="complete_photos_app_onboarding">A Google Fotók megnyitása</string>
+    <string name="complete_photos_app_onboarding_title">A továbblépéshez engedélyeznie kell a hozzáférést a Google Fotókhoz</string>
+    <string name="complete_photos_app_onboarding_to_continue">A Google Fotók alkalmazás használatbavétele</string>
     <string name="compose_message_view_hint_text">Csevegőüzenet</string>
     <string name="compose_message_view_hint_text_multi_sim_rcs">Csevegés (%s)</string>
     <string name="compose_message_view_hint_text_multi_sim_sms_mms">Szöveg (%s)</string>
@@ -418,15 +441,12 @@ A csevegési funkciókat a beállítások között kapcsolhatja ki. %1$s"</strin
     <string name="contact_has_multiple_destinations_phone">%1$s (+%2$s további elem)</string>
     <string name="contact_has_multiple_destinations_type">Több</string>
     <string name="contact_list_add_people">Hozzáadás: %s</string>
-    <string name="contact_list_empty_text">Új üzenet létrehozásához adjon meg egy névjegyet vagy telefonszámot</string>
     <string name="contact_list_send_to_text">Küldés: %s</string>
     <string name="contact_picker_autocomplete_added">%1$s hozzáadva, jelenleg szerkesztés alatt</string>
     <string name="contact_picker_autocomplete_deleted">%1$s törölve, jelenleg szerkesztés alatt</string>
-    <string name="contact_picker_cant_add_destination_twice">A szám már szerepel a csoportban</string>
     <string name="contact_picker_cant_remove_from_existing">Meglévő beszélgetésekből nem távolítható el szám</string>
     <string name="contact_picker_cant_remove_from_screen">Ha el szeretne távolítani valakit, nyissa meg a &lt;b>Csoport részletei&lt;/b> képernyőt</string>
     <string name="contact_picker_confirm_participants_button_label">Tovább</string>
-    <string name="contact_picker_group_create_label">Csoport létrehozása</string>
     <string name="contact_picker_group_v2_create_label">Csoport létrehozása</string>
     <string name="contact_picker_message_a_business_label">Csevegés céggel</string>
     <string name="contact_picker_title_add_people">Új személy</string>
@@ -449,10 +469,14 @@ A csevegési funkciókat a beállítások között kapcsolhatja ki. %1$s"</strin
     <string name="content_description_link_to_settings">Kezelés a beállításoknál</string>
     <string name="contextual_action_bar_description_prefix">A következő műveletek eszköztárának megjelenítése: %s. Adott művelet kiválasztásához vagy a bezáráshoz navigáljon felfelé.</string>
     <string name="conversation_area_code_popup_paragraph">A körzetszám hiányában a Messages ide próbálja meg elküldeni: %1$s. Adja meg a névjegyben a körzetszámot, hogy ezentúl ne legyen probléma az üzenetekkel. %2$s</string>
+    <string name="conversation_block_failed_message">Nincs letiltva, ellenőrizze a kapcsolatot</string>
+    <string name="conversation_blocking_message">Letöltés…</string>
     <string name="conversation_country_code_popup_paragraph">Adja meg a névjegy országkódját (%2$s esetében +%1$s), hogy a kívánt címzettnek küldje el a rendszer az üzenetet. %3$s</string>
     <string name="conversation_creation_failed">Nem sikerült létrehozni a beszélgetést. Próbálja újra később.</string>
     <string name="conversation_creation_failure">Nem sikerült elindítani a beszélgetést</string>
+    <string name="conversation_deleting_message">Törlés…</string>
     <string name="conversation_deletion_failed">Nem sikerült törölni a beszélgetést</string>
+    <string name="conversation_deletion_failed_message">Nincs törölve, ellenőrizze a kapcsolatot</string>
     <string name="conversation_empty_name">Üres</string>
     <string name="conversation_label_all">Mind</string>
     <string name="conversation_label_business_updates">Üzleti</string>
@@ -479,7 +503,6 @@ A csevegési funkciókat a beállítások között kapcsolhatja ki. %1$s"</strin
     <string name="conversation_list_item_view_draft_message">Piszkozat</string>
     <string name="conversation_list_item_view_sent_from_other_prefix">%s:</string>
     <string name="conversation_list_item_view_sent_from_you_prefix">"Ön:  "</string>
-    <string name="conversation_list_loading_item_description">Beszélgetés betöltése</string>
     <string name="conversation_list_message_fail_to_decrypt">Nem fejthető vissza</string>
     <string name="conversation_list_rcs_promo_button_negative">Ne frissítse az alkalmazást</string>
     <string name="conversation_list_rcs_promo_button_positive">Frissítés most</string>
@@ -491,7 +514,6 @@ A csevegési funkciókat a beállítások között kapcsolhatja ki. %1$s"</strin
     <string name="conversation_list_snippet_link">Link</string>
     <string name="conversation_list_spam_popup_negative">Kezelés a beállításoknál</string>
     <string name="conversation_list_spam_popup_paragraph">A spammel szembeni védelem fejlesztése érdekében a Google felhasználja az ismeretlen feladók és címzettek telefonszámát. Az üzeneteket és a névjegyeket nem küldjük el a Google-nak. %1$s</string>
-    <string name="conversation_list_spam_popup_paragraph_on_device">A Messages az eszközön futó intelligens algoritmusokkal észleli a spamet, és elküld a Google-nak bizonyos adatokat az ilyen üzenetekről, de nem küldi el sem az Ön telefonszámát, sem az üzenet tartalmát. %1$s</string>
     <string name="conversation_list_spam_popup_positive">OK</string>
     <string name="conversation_list_spam_popup_title">Spammel szembeni védelem</string>
     <string name="conversation_list_terms_and_conditions_promo_subtitle">Fejezze be a csevegési funkciók engedélyezését, hogy akár Wi-Fi-n keresztül is küldhessen üzeneteket</string>
@@ -514,6 +536,7 @@ A csevegési funkciókat a beállítások között kapcsolhatja ki. %1$s"</strin
     <string name="conversation_suggestion_set_reminder_action">Javasolt emlékeztetőbeállítási művelet</string>
     <string name="conversation_suggestion_share_location_action">Javasolt helymegosztási művelet</string>
     <string name="conversation_suggestion_share_location_action_failure">Hiba történt. A helyadatok megosztásához adja hozzá őket egy új üzenethez.</string>
+    <string name="conversation_suggestion_star_action">Javasolt megcsillagozott művelet</string>
     <string name="conversation_suggestion_sticker">Javasolt matrica</string>
     <string name="copy">Másolás</string>
     <string name="copy_to_clipboard">Másolás</string>
@@ -523,6 +546,7 @@ A csevegési funkciókat a beállítások között kapcsolhatja ki. %1$s"</strin
     <string name="create_group_info_title">A csoportnév megadása</string>
     <string name="create_new_group_message">A személy hozzáadásával új, csevegési funkciók nélküli csoportot nyit</string>
     <string name="current_country_pref_title">Aktuális ország</string>
+    <string name="custom_reaction_selection_prompt">Select an emoji</string>
     <string name="dark_mode_disable_title">Sötét mód letiltása</string>
     <string name="dark_mode_enable_title">Sötét mód engedélyezése</string>
     <string name="dasher_disabled_notification_body">Forduljon az adminisztrátorhoz, vagy jelentkezzen be egy másik fiókkal.</string>
@@ -590,12 +614,9 @@ A csevegési funkciókat a beállítások között kapcsolhatja ki. %1$s"</strin
     <string name="ditto_activity_label">Eszközpárosítás</string>
     <string name="ditto_foreground_service_device_pairing_notification_text">Az üzenetei rendelkezésre állnak a párosított eszközön</string>
     <string name="ditto_foreground_service_device_pairing_notification_title">Eszközpárosítás</string>
-    <string name="ditto_foreground_service_notification_text">Az üzenetei rendelkezésre állnak a párosított számítógépen</string>
-    <string name="ditto_foreground_service_notification_title">Messages a weben</string>
     <string name="ditto_foreground_service_sign_out">Párosítás megszakítása</string>
     <string name="ditto_persistent_notification_settings">Értesítések</string>
     <string name="ditto_settings_action_bar_title">Értesítések</string>
-    <string name="ditto_settings_connected_to_web_notification_description">A „Messages a weben” üzenet jelenik meg, ha az eszköznek van internetkapcsolata</string>
     <string name="ditto_settings_connected_to_web_notification_title">Állandó értesítés megjelenítése</string>
     <string name="ditto_settings_device_paired_notification_description">Az „Eszközpárosítás” felirat jelenik meg, ha online az eszköz</string>
     <string name="ditto_settings_while_using_web_notification_description">Ne legyen csengőhangos vagy rezgő értesítés, amikor van internetkapcsolat</string>
@@ -636,6 +657,7 @@ Az üzeneteit emberek nézik át, és az üzleti feladó számát is látják. A
     <string name="dump_mms_pref_title">MMS kiírása</string>
     <string name="dump_sms_pref_summary">Beérkező nyers SMS-adatok kiírása külső tárolófájlba</string>
     <string name="dump_sms_pref_title">SMS kiírása</string>
+    <string name="duplicate_upload_snackbar">Egyes ismétlődések nem jelennek meg</string>
     <string name="e2ee_conversation_tombstone">Végpontok közötti titkosítású csevegés vele: %1$s</string>
     <string name="e2ee_conversation_tombstone_with_learn_more">Végpontok közötti titkosítású csevegés vele: %1$s %2$s</string>
     <string name="e2ee_fail_to_send_retry_description">Újraküldés csevegésként</string>
@@ -674,7 +696,6 @@ Az üzeneteit emberek nézik át, és az üzleti feladó számát is látják. A
 Amikor újra létrejön a kapcsolat a csevegőfunkcióval, visszaváltanak az üzenetek."</string>
     <string name="enable_rcs_auto_fallback_dialog_title">Automatikusan újraküldi szöveges üzenetként (SMS/MMS)?</string>
     <string name="enable_rcs_auto_fallback_title">Automatikus újraküldés szöveges üzenetként (SMS/MMS)</string>
-    <string name="enable_rcs_fallback_to_sms_title">Üzenetek újraküldése sikertelen kézbesítés esetén</string>
     <string name="enable_rcs_fallback_to_xms_title">Üzenetek újraküldése sikertelen kézbesítés esetén</string>
     <string name="enable_rcs_summary_off">Wi-Fi- vagy adatkapcsolat használata az üzenetküldéshez, ha lehetséges</string>
     <string name="enable_rcs_summary_on">Adatkapcsolat használata az üzenetküldéshez, ha lehetséges</string>
@@ -686,9 +707,13 @@ Amikor újra létrejön a kapcsolat a csevegőfunkcióval, visszaváltanak az ü
     <string name="enter_phone_number_title">Telefonszám megerősítése</string>
     <string name="enter_phone_number_title_for_sim">A következő SIM telefonszámának megerősítése: %1$s</string>
     <string name="enumeration_comma">", "</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_failed_to_save_setting">Hiba történt a mentéskor. Próbálkozzon újra.</string>
     <string name="error_icon_content_description">Hiba</string>
     <string name="error_premium_sms_needs_permission">Az üzenet elküldéséhez kapcsolja be a hozzáférést az emelt díjas SMS-ekhez az eszköz beállításai között.</string>
+    <string name="error_text_draft_is_reply_to_missing_message">Törölt üzenetre nem lehet válaszolni</string>
+    <string name="error_text_draft_is_reply_without_rcs">Probléma áll fenn a csevegési funkciókkal. Próbálja meg válasz nélkül elküldeni.</string>
+    <string name="error_text_scheduled_send_with_draft_reply">Most nem lehet választ beütemezni</string>
     <string name="etouffee_to_rcs_notification">A Messages azt észlelte, hogy egy beszélgetésben kikapcsolt a végpontok közötti titkosítás. Visszajelzés küldéséhez koppintson ide.</string>
     <string name="etouffee_to_telephony_setting">Adatvédelem</string>
     <string name="etouffee_to_telephony_setting_description">"Az SMS-engedélyek kiterjednek a végpontok közötti titkosítású üzenetekre is, így az Android biztonsági másolatot tud készíteni róluk, fel lehet őket olvasni az autóban vagy egy társeszközön, és így tovább. Az SMS-engedélyekkel rendelkező alkalmazásokat az Android beállításai között tekintheti meg és kezelheti.
@@ -714,19 +739,24 @@ A beállítás módosítása nincs hatással a már elküldött vagy fogadott, v
     <string name="exo_controls_pause_description">Szüneteltetés</string>
     <string name="exo_controls_play_description">Lejátszás</string>
     <string name="exo_controls_previous_description">Előző</string>
-    <string name="exo_controls_repeat_all_description">Összes szám ismétlése</string>
-    <string name="exo_controls_repeat_off_description">Nincs ismétlés</string>
-    <string name="exo_controls_repeat_one_description">Egy szám ismétlése</string>
+    <string name="exo_controls_repeat_all_description">Jelenlegi: Összes ismétlése. Ismétlés mód be/ki.</string>
+    <string name="exo_controls_repeat_off_description">Jelenlegi: Nincs ismétlés. Ismétlés mód be/ki.</string>
+    <string name="exo_controls_repeat_one_description">Jelenlegi: Egy ismétlése. Ismétlés mód be/ki.</string>
     <string name="exo_controls_rewind_description">Visszatekerés</string>
     <string name="exo_controls_show">Lejátszásvezérlők mutatása</string>
-    <string name="exo_controls_shuffle_off_description">Keverés kikapcsolva</string>
-    <string name="exo_controls_shuffle_on_description">Keverés bekapcsolva</string>
+    <string name="exo_controls_shuffle_off_description">Keverés mód bekapcsolása</string>
+    <string name="exo_controls_shuffle_on_description">Keverés mód kikapcsolása</string>
     <string name="exo_controls_vr_description">VR-mód</string>
     <string name="exo_track_selection_auto">Automatikus</string>
     <string name="exo_track_selection_none">Nincs</string>
     <string name="expand_attach_button_content_description">Mellékletkibontási gombok</string>
     <string name="expand_button_title">Speciális</string>
     <string name="exposed_dropdown_menu_content_description">Legördülő menü megjelenítése</string>
+    <string name="express_sign_in_illustration_content_description">A médiamegosztási funkció illusztrációja</string>
+    <string name="express_sign_in_sub_title">"Megőrizheti a videók élességét,
+ha bejelentkezik, és Google Fotók-linkként küldi el őket."</string>
+    <string name="express_sign_in_title">"A videók megosztása
+látványos minőségben"</string>
     <string name="fail_to_decrypt_message_metadata">Nem fejthető vissza, a lehetőségekért koppintson ide</string>
     <string name="fail_to_load_dialog_negative_button">SMS az eszköz SIM-kártyájával</string>
     <string name="fail_to_load_dialog_positive_button">Újra</string>
@@ -740,6 +770,7 @@ A beállítás módosítása nincs hatással a már elküldött vagy fogadott, v
     <string name="failed_message_content_description">Sikertelen üzenet. Koppintson az újrapróbáláshoz.</string>
     <string name="failed_qr_pairing_dialog_message">Sajnos valami elromlott. Próbálkozzon néhány perc múlva.</string>
     <string name="failed_qr_pairing_dialog_positive_button_text">OK</string>
+    <string name="failed_to_select_attachment_from_system_picker">Ennek a mellékletnek a kiválasztása nem sikerült</string>
     <string name="fast_track_negative_button_text">Nem, köszönöm</string>
     <string name="fast_track_popup_accepted_snack_bar_text">A csevegőfunkciók beállítása. Értesítjük, be befejeztük a beállítást.</string>
     <string name="fast_track_popup_declined_snack_bar_text">A beállítások oldalán bármikor engedélyezheti a csevegési funkciókat.</string>
@@ -805,6 +836,9 @@ A beállítás módosítása nincs hatással a már elküldött vagy fogadott, v
     <string name="fi_settings_download_over_wifi_title">Szinkronizálás csak Wi-Fi-n keresztül</string>
     <string name="fi_settings_opt_out_failed">Most nem lehet leállítani a szinkronizálást és kijelentkezni. Próbálkozzon újra később.</string>
     <string name="fi_settings_opt_out_in_progress">Szinkronizálás leállítása, kijelentkezés.</string>
+    <string name="fi_settings_redirect_button">Biztonsági mentés kezelése</string>
+    <string name="fi_settings_redirect_summary">A fiókmenüben megtalálja őket.</string>
+    <string name="fi_settings_redirect_title">Áthelyeztük máshová a biztonsági mentés és szinkronizálás beállításait</string>
     <string name="fi_settings_sync_preference_backup_in_progress">Biztonsági mentés folyamatban: %1$d%%</string>
     <string name="fi_settings_sync_preference_restore_in_progress">Visszaállítás folyamatban: %1$d%%</string>
     <string name="fi_settings_sync_preference_summary">Az üzenetek, a hívások és a hangposta-üzenetek aktuálisak maradnak minden képernyőn</string>
@@ -822,6 +856,7 @@ A beállítás módosítása nincs hatással a már elküldött vagy fogadott, v
     <string name="file_transfer_via_sms_other">Megosztottam Önnel egy fájlt</string>
     <string name="file_transfer_via_sms_video">Megosztottam veled egy videót</string>
     <string name="files_shortcut_title">Fájlok</string>
+    <string name="flip_camera_button_label">Kameraváltás</string>
     <string name="floating_toolbar_close_overflow_description">További elemeket tartalmazó eszköztár bezárása</string>
     <string name="floating_toolbar_open_overflow_description">További lehetőségek</string>
     <string name="foreground_service_notification_generic_text">A Messages a háttérben dolgozik</string>
@@ -835,12 +870,27 @@ A beállítás módosítása nincs hatással a már elküldött vagy fogadott, v
     <string name="full_banner_expand_chip_description">Szelvény kibontása gomb</string>
     <string name="full_screen_gallery_action_attach">Hozzáadás</string>
     <string name="fullscreen_button_description">Teljes képernyős nézet megnyitása</string>
+    <string name="gaia_auth_failure_dialog_body">Egyes, a Google-fiókja által vezérelt funkciók csak akkor fognak működni, ha bejelentkezik.</string>
+    <string name="gaia_auth_failure_dialog_title">A személyazonossága igazolásához újra be kell jelentkeznie</string>
+    <string name="gallery_google_photos_option_tray_button_add">Hozzáadás</string>
+    <string name="gallery_google_photos_option_tray_button_always">Mindig</string>
+    <string name="gallery_google_photos_option_tray_button_cancel">Mégse</string>
+    <string name="gallery_google_photos_option_tray_button_just_once">Csak egyszer</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_image">Elmosódottabb kép</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_unknown">Gyenge minőségű médiatartalom</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_video">Gyenge minőségű videó</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_image">Kép</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_unknown">Média</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_video">Videó</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_body">Éles kép. A megosztott linkeket a Google Fotókban kezelheti.</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_learn_more">További információ</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_title">Google Fotók-link</string>
+    <string name="gallery_item_content_description_selected_state">A(z) %2$s. pozícióban található %1$s kijelölése dupla koppintással szüntethető meg</string>
+    <string name="gallery_item_content_description_unselected_state">A(z) %1$s (készítés ideje: %2$s) dupla koppintással választható ki</string>
     <string name="general_settings">Általános</string>
     <string name="general_settings_activity_title">Általános beállítások</string>
     <string name="general_settings_title_m2">Beállítások</string>
     <string name="generic_issue_text">Egyéb</string>
-    <string name="get_messenger_notification_body">Szöveges üzeneteket küldhet és olvashat óráján és telefonján</string>
-    <string name="get_messenger_notification_header">A Messages letöltése</string>
     <string name="get_sticker_packs_error_msg">Nem sikerült betölteni a matricákat.</string>
     <string name="gif_screen_no_result">Nincs találat. Ellenőrizze a keresést, és próbálkozzon újra.</string>
     <string name="gif_screen_title">GIF-ek</string>
@@ -848,10 +898,23 @@ A beállítás módosítása nincs hatással a már elküldött vagy fogadott, v
     <string name="gif_search_hint">GIF-keresés</string>
     <string name="gifs_shortcut_title">GIF-ek</string>
     <string name="go_to_top">Legújabb megtekintése</string>
-    <string name="google_account_pref_title">Google-fiók</string>
     <string name="google_assistant_verification_channel_name">Segéd-hitelesítő</string>
     <string name="google_assistant_verification_notification_title">A Google Segéd üzenetet küld</string>
     <string name="google_fi_text">Google Fi</string>
+    <string name="google_photos_onboarding_close_button_description">Google Fotók-kártya bezárása</string>
+    <string name="google_photos_onboarding_ineligible_title">Jelentkezzen be a Google Fotókba, hogy élesebb videókat küldhessen</string>
+    <string name="google_photos_onboarding_ineligible_title_photos_and_videos">Jelentkezzen be a Google Fotókba, hogy élesebb fotókat és videókat küldhessen</string>
+    <string name="google_photos_onboarding_learn_more">További információ</string>
+    <string name="google_photos_onboarding_next">Tovább</string>
+    <string name="google_photos_onboarding_ok">OK</string>
+    <string name="google_photos_onboarding_signed_in_title_photos_and_videos">Jelentkezzen be, hogy élesebb fotókat és videókat küldhessen</string>
+    <string name="google_photos_onboarding_signed_out_title">Jelentkezzen be, hogy élesebb videókat küldhessen</string>
+    <string name="google_photos_onboarding_text_body">Élesebb marad a videók képe, ha Google Fotók-linkeket küld az MMS-beszélgetésekben</string>
+    <string name="google_photos_onboarding_text_body_photos_and_videos_xms">Élesebb marad a médiatartalmak képe, ha Google Fotók-linkeket küld az MMS-beszélgetésekben</string>
+    <string name="google_photos_onboarding_title">A videók megosztása látványos minőségben</string>
+    <string name="google_photos_onboarding_title_photos_and_videos">A fotók és a videók megosztása látványos minőségben</string>
+    <string name="google_photos_option_tray">Jelentkezzen be, hogy élesebb videót küldhessen</string>
+    <string name="google_photos_option_tray_photos_and_videos">Jelentkezzen be, hogy élesebb fotókat és videókat küldhessen</string>
     <string name="google_play_protect_title">Google Play Protect</string>
     <string name="google_tos_chat_features_tooltip">"Láthatja, amikor valaki gépel, olvasási értesítéseket kaphat, valamint üzeneteket, fájlokat és nagy felbontású fotókat küldhet a csevegőfunkciókkal a Rich Communication Services (RCS) rendszeren keresztül. Az így folytatott üzenetküldés adatforgalommal jár.
 
@@ -865,8 +928,9 @@ Ezt a beállítások között kapcsolhatja ki. %1$s"</string>
 
 Az alapértelmezett hívási SIM-kártya a Rendszerbeállításokban módosítható. %1$s"</string>
     <string name="google_tos_multisim_view_accessibility_description">További információ</string>
+    <string name="google_tos_negative_link_text">Most nem</string>
     <string name="group_conversation_title_everyone_else_left">Én</string>
-    <string name="group_limit_alert_dialog_message">{max_group_size_including_self,plural, =1{Legfeljebb # főt tartalmazhat}other{Legfeljebb # főt tartalmazhat}}</string>
+    <string name="group_limit_alert_dialog_message">{max_group_size_excluding_self,plural, =1{Legfeljebb további # főt tartalmazhat}other{Legfeljebb további # főt tartalmazhat}}</string>
     <string name="group_mms_pref_title">Csoportos üzenetküldés</string>
     <string name="group_name_edit_text_label">Csoportnév</string>
     <string name="guest_cloud_preview">ELŐNÉZET</string>
@@ -876,14 +940,19 @@ Az alapértelmezett hívási SIM-kártya a Rendszerbeállításokban módosítha
     <string name="happy_birthday_no_name">Kívánjon neki boldog születésnapot!</string>
     <string name="hidden_sender_address">A küldő címe elrejtve</string>
     <string name="highlighter">Kiemelő</string>
+    <string name="how_it_works_link_text">Hogyan működik?</string>
+    <string name="hqms_always_send_image_as_link_pref_title">A szöveges üzenetekben (SMS/MMS) mindig link formájában küldje el a képeket</string>
+    <string name="hqms_always_send_video_as_link_pref_title">A szöveges üzenetekben (SMS/MMS) mindig link formájában küldje el a videókat</string>
+    <string name="hqms_settings_gaia_card_text">A linkek kezelése a Google Fotókban</string>
+    <string name="hqms_settings_info_text">A Messages feltölti az elemeket a Google Fotókba, és Ön ott kezelheti a videólinkek megosztását. %1$s</string>
+    <string name="hqms_settings_sign_in_prompt_text">A funkció használatához jelentkezzen be a Google-fiókjába</string>
     <string name="hqms_settings_summary">Éles képű videót oszthat meg szöveges üzenetekben (SMS/MMS)</string>
     <string name="hqms_settings_title">Google Fotók</string>
     <string name="identity_verification_notification_text">A Messages ellenőriz egy bejövő üzenetet</string>
     <string name="ignore">Mellőzés</string>
     <string name="image_attachment_content_description">Képmelléklet</string>
     <string name="image_compress_info">A címzett számára megjelenített kép minősége a szolgáltatói MMS-korlátok miatt gyengébb lesz.</string>
-    <string name="imei_format_dropdown_hint">IMEI-formátum beállítása</string>
-    <string name="imsi_format_dropdown_hint">IMSI-formátum beállítása</string>
+    <string name="image_format_type">kép</string>
     <string name="in_conversation_blocked_contact_text">Előfordulhat, hogy nem látja az összes üzenetet, mert ez a beszélgetés letiltott névjegyeket tartalmaz.</string>
     <string name="in_conversation_notify_new_message_action">Megtekintés</string>
     <string name="in_conversation_notify_new_message_text">Új üzenet</string>
@@ -893,7 +962,7 @@ Az alapértelmezett hívási SIM-kártya a Rendszerbeállításokban módosítha
     <string name="incoming_message_for_secondary_user_notification_title">Új üzenet</string>
     <string name="incoming_message_foreground_notification_text">A Messages jelenleg egy bejövő üzenetet dolgoz fel</string>
     <string name="incoming_mms_disabled_by_company_pref_summary">A cége nem engedélyezi a bejövő MMS-üzeneteket</string>
-    <string name="indeterminate">Sem bejelöléssel, sem bejelölés nélkül</string>
+    <string name="indeterminate">Részlegesen ellenőrizve</string>
     <string name="info_and_options_activity_business_tab_list_header">Cég</string>
     <string name="info_and_options_activity_info_tab_content_description">Információ</string>
     <string name="info_and_options_activity_info_tab_title">Információ</string>
@@ -904,6 +973,9 @@ Az alapértelmezett hívási SIM-kártya a Rendszerbeállításokban módosítha
     <string name="info_and_options_view_terms_of_service">Feltételek megtekintése</string>
     <string name="inline_playback_error">Ez a videó nem játszható le a Messages appban</string>
     <string name="inline_playback_pause_content_description">Videó szüneteltetése</string>
+    <string name="install_photos_app">A Google Fotók letöltése</string>
+    <string name="install_photos_app_title">A folytatáshoz töltse le a Google Fotók alkalmazást</string>
+    <string name="install_photos_app_to_continue">Telepítse az alkalmazást, hogy élesebb képű videókat küldhessen</string>
     <string name="invalid_qr_code_dialog_message">A bejelentkezéshez szkennelje be a következő címen található QR-kódot: %s</string>
     <string name="invalid_qr_code_dialog_positive_button_text">OK</string>
     <string name="invalid_qr_code_dialog_title">Hibás kód</string>
@@ -917,14 +989,12 @@ Az alapértelmezett hívási SIM-kártya a Rendszerbeállításokban módosítha
     <string name="leave_confirmation_text">Biztosan kilép a csoportból?</string>
     <string name="leave_confirmation_title">Kilépés a csoportból</string>
     <string name="libraries_material_featurehighlight_dismiss">Elvetés</string>
-    <string name="link_preview_enabled_pref_summary">Előnézetek megjelenítése az üzenetekben</string>
+    <string name="lighter_account_sign_out_snackbar_text">Jelentkezzen be az üzleti beszélgetések megtekintéséhez</string>
+    <string name="lighter_block_report_spam_body">A cégnevet és az ezzel a céggel folytatott beszélgetést elküldi az alkalmazás a Google-nak (a szolgáltató díjat számíthat fel értük).</string>
     <string name="link_preview_enabled_pref_summary_off">Ki</string>
     <string name="link_preview_failed">Nem áll rendelkezésre előnézet</string>
     <string name="link_preview_google_photos_display_name">Google Fotók</string>
-    <string name="link_preview_preference_info_text">A Google előnézetet jelenít meg a linkelt webhelyekről. Csak az ismert feladóktól kapott linkek tartalmaznak előnézetet. %1$s</string>
-    <string name="link_preview_preference_title">Automatikus linkelőnézetek</string>
     <string name="link_preview_tap_to_load">Koppintson az előnézet betöltéséhez</string>
-    <string name="link_preview_wifi_only_pref_summary">Az előnézetek letöltése csak Wi-Fi-n</string>
     <string name="link_to_settings"><u>Kezelés a beállításoknál</u></string>
     <string name="listify_many">%1$s és további %2$d</string>
     <string name="listify_one">%s</string>
@@ -971,13 +1041,13 @@ Az ajánlott információkat nem kötelező elküldeni, és nem szerepel közöt
     <string name="manual_msisdn_skipped_snack_bar_text">A speciális csevegési funkciók nincsenek engedélyezve. Ezeket bármikor engedélyezheti a beállításoknál.</string>
     <string name="manual_msisdn_skipped_snack_bar_text_b155475148">A Messages megpróbálja visszaigazoltatni a számot a szolgáltatónál. A Beállítások között kezelheti.</string>
     <string name="manual_msisdn_verify_now_snack_bar_text_b155475148">A Messages megpróbálja visszaigazoltatni a számot a szolgáltatónál. A Beállítások között kezelheti.</string>
-    <string name="manually_override_rcs_flags">Az RCS-jelzők manuális felülírása</string>
     <string name="mark_all_messages_as_read_confirmation">Az összes üzenet megjelölve olvasottként</string>
     <string name="mdd_download_notification_channel_name">Adatletöltési értesítési csatorna</string>
     <string name="mdd_foreground_service_notification_title">Letöltés</string>
     <string name="mdd_notification_action_cancel">Mégse</string>
     <string name="mdd_notification_download_failed">Sikertelen letöltés</string>
     <string name="mdd_notification_download_paused">Várakozás hálózati kapcsolatra</string>
+    <string name="mdd_notification_download_paused_wifi">Wi-Fi-kapcsolatra vár</string>
     <string name="media_compress_info">A címzett számára megjelenített médiafájl minősége a szolgáltatói MMS-korlátok miatt gyengébb lesz.</string>
     <string name="media_compress_tooltip_info_icon_text">információ</string>
     <string name="media_viewer_close_button_description">Bezár</string>
@@ -1076,6 +1146,8 @@ Az ajánlott információkat nem kötelező elküldeni, és nem szerepel közöt
     <string name="message_type_vcard">Névjegykártya</string>
     <string name="message_type_video">Videó</string>
     <string name="message_video_content_description">Videó</string>
+    <string name="message_with_deleted_snippet_talk_back_announcement">%1$s válaszul egy törölt üzenetre</string>
+    <string name="message_with_reply_snippet_talk_back_announcement">%1$s válaszul %3$s következő üzenetére: %2$s</string>
     <string name="messages_for_web_preference_summary">Ugrás ide: %1$s</string>
     <string name="messages_for_web_preference_title">SMS, telefonálás és a hangposta lekérése az interneten</string>
     <string name="messages_status_feedback_data_description">"Minden ajánlott információ segít felderíteni a rejtett problémákat, a különféle okokat, összefüggéseket, és azt, hogy hol érdemes keresni a problémát.
@@ -1098,7 +1170,7 @@ A rövid kódok helyi vagy személyre szabott számok, amelyekkel nemzetközi SM
 
 A csak számokból álló rövid kódokra lehet válaszolni, de a betűkből és számokból állókra (például MSG007) nem."</string>
     <string name="messaging_not_supported_with_short_code_dialog_dismiss_button">OK</string>
-    <string name="messaging_not_supported_with_short_code_snackbar_body">Nem lehet válaszolni erre a rövid kóra</string>
+    <string name="messaging_not_supported_with_short_code_snackbar_body">Nem lehet válaszolni erre a rövid kódra</string>
     <string name="metadata_encryption_status">Végpontok közötti titkosítású üzenet</string>
     <string name="microphone_permission_denied_text">A hangfelvétel készítéséhez engedélyre van szükség.</string>
     <string name="migrate_block_confirmation_button">Engedélyezés</string>
@@ -1129,11 +1201,15 @@ A csak számokból álló rövid kódokra lehet válaszolni, de a betűkből és
     <string name="mms_text">MMS</string>
     <string name="more_string">+%1$d</string>
     <string name="mtrl_badge_numberless_content_description">Új értesítés</string>
+    <string name="mtrl_checkbox_state_description_checked">Checked</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Indeterminate</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Not checked</string>
     <string name="mtrl_chip_close_icon_content_description">Eltávolítás (%1$s)</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Több mint %1$d új értesítés</string>
     <string name="mtrl_picker_a11y_next_month">Váltás a következő hónapra</string>
     <string name="mtrl_picker_a11y_prev_month">Váltás az előző hónapra</string>
     <string name="mtrl_picker_announce_current_selection">Jelenleg kiválasztva: %1$s</string>
+    <string name="mtrl_picker_cancel">Mégse</string>
     <string name="mtrl_picker_confirm">OK</string>
     <string name="mtrl_picker_day_of_week_column_header">Napok oszlopa: %1$s</string>
     <string name="mtrl_picker_navigate_to_year_description">Ugrás ehhez az évhez: %1$s</string>
@@ -1145,11 +1221,24 @@ A csak számokból álló rövid kódokra lehet válaszolni, de a betűkből és
     <string name="multimedia_message">Multimédiás üzenet</string>
     <string name="muted_conversation_content_description">Értesítések letiltva.</string>
     <string name="nav_app_bar_navigate_up_description">Navigálás felfelé</string>
+    <string name="nav_archived_messages_folder_title">Archiválva</string>
+    <string name="nav_choose_theme_title">Téma kiválasztása</string>
+    <string name="nav_choose_theme_title_disable_dark_mode">Sötét mód letiltása</string>
+    <string name="nav_choose_theme_title_enable_dark_mode">Sötét mód engedélyezése</string>
+    <string name="nav_device_pairing_title">Eszközpárosítás</string>
+    <string name="nav_mark_all_as_read_title">Az összes megjelölése olvasottként</string>
+    <string name="nav_messages_folder_title">Üzenetek</string>
+    <string name="nav_spam_and_blocked_messages_folder_title">Spam és letiltott</string>
+    <string name="nav_starred_folder_title">Megcsillagozva</string>
     <string name="navigate_up_button_content_description">Fel</string>
     <string name="new_message_label">{count,plural, =1{1 új üzenet}other{# új üzenet}}</string>
     <string name="new_pill_label">Új</string>
     <string name="new_rich_cards_preference_info_text">A Google a személyazonossága megállapítása nélkül ellenőrzi a csevegési előzményekben található adatok egy részét (például a helyeket és linkeket). Ez az előnézetek létrehozásához és a veszélyes tartalmak azonosításához szükséges. %1$s</string>
-    <string name="no_google_account">Nincs</string>
+    <string name="no_business_name_fallback">ez a cég</string>
+    <string name="no_connection">Nincs kapcsolat</string>
+    <string name="no_media_button">Lehetőségek megtekintése</string>
+    <string name="no_media_caption">Próbálkozzon másik médiaforrással vagy profillal</string>
+    <string name="no_media_description">Ebben a profilban nincsenek médiaelemek mentve erre az eszközre</string>
     <string name="no_reply_pinned_message_text">A feladó nem támogatja a válaszokat.</string>
     <string name="no_sim_message">A SIM-kártyán nem találhatók üzenetek</string>
     <string name="not_selected">Nincs kijelölve</string>
@@ -1205,31 +1294,51 @@ A csak számokból álló rövid kódokra lehet válaszolni, de a betűkből és
     <string name="nudge_learn_more_info_text">További információ a megbökésekről</string>
     <string name="nudge_reply_enabled_pref_summary">Felülre kerülnek azok az üzenetek, amelyeket vélhetően meg kell válaszolni</string>
     <string name="nudge_reply_enabled_pref_title">Válaszra emlékeztető javaslatok</string>
+    <string name="nudge_settings_page_description">Válasz- és születésnapi emlékeztetők megjelenítése</string>
     <string name="nudge_settings_page_title">Megbökések</string>
     <string name="numeric_text_keyboard_toggle_button_content_description">Váltás szöveg és számok bevitele között</string>
     <string name="off">Ki</string>
     <string name="og_a11y_close">Bezárás</string>
     <string name="og_account_and_settings">Fiók és beállítások.</string>
+    <string name="og_account_particle_disc_no_accounts_available_a11y">Bejelentkezés</string>
     <string name="og_add_another_account">Másik fiók hozzáadása</string>
+    <string name="og_app_settings">%1$s-beállítások</string>
     <string name="og_choose_an_account_title">Válasszon fiókot</string>
     <string name="og_collapse_account_list_a11y">Fióklista összecsukása.</string>
     <string name="og_continue">Tovább</string>
     <string name="og_continue_as">Folytatás mint %1$s</string>
     <string name="og_expand_account_list_a11y">Fióklista kibontása.</string>
+    <string name="og_get_storage_action">Tárhely vásárlása</string>
+    <string name="og_get_storage_action_short">Több vásárlása</string>
     <string name="og_google_one_account_a11y">Google One-fiók.</string>
+    <string name="og_help_feedback">Súgó és visszajelzés</string>
     <string name="og_loading_a11y">Betöltés</string>
     <string name="og_manage_accounts">Fiókok kezelése ezen az eszközön</string>
+    <string name="og_manage_storage_action">Tárhely kezelése</string>
+    <string name="og_manage_storage_action_short">Kezelés</string>
+    <string name="og_minimized_storage_card_title">Foglalt tárhely: %2$s GB %1$s-a</string>
+    <string name="og_more_options_action">További lehetőségek</string>
+    <string name="og_more_options_action_short">Lehetőségek</string>
     <string name="og_my_account_desc_long_length">Google-fiók kezelése</string>
     <string name="og_my_account_desc_meduim_length">Google-fiók</string>
     <string name="og_my_account_desc_short_length">Fiók</string>
+    <string name="og_privacy_advisor">Az Ön adatai itt: %1$s</string>
     <string name="og_privacy_policy">Adatvédelmi irányelvek</string>
     <string name="og_selected_account_a11y">%1$s kiválasztva.</string>
     <string name="og_sign_in_">Bejelentkezés</string>
     <string name="og_signed_in_as_account">Bejelentkezve mint %1$s</string>
+    <string name="og_storage_card_almost_full_a11y_label">A fióktárhely majdnem megtelt</string>
+    <string name="og_storage_card_full_a11y_label">A fióktárhely megtelt</string>
+    <string name="og_storage_card_title">Fióktárhely</string>
+    <string name="og_storage_card_title_almost_full">A tárhely %1$s-a foglalt</string>
+    <string name="og_storage_card_title_full">A tárhely megtelt</string>
+    <string name="og_storage_progress_subtitle">%2$s/%1$s GB használatban</string>
     <string name="og_terms_of_service">Általános Szerződési Feltételek</string>
     <string name="og_use_account_a11y_no_period">A következő használata: %1$s</string>
+    <string name="og_use_without_an_account">Fiók nélküli használat</string>
     <string name="on">Be</string>
     <string name="onboarding_google_tos_with_sms_charges_and_learn_more">A Google csevegőfunkcióinak bekapcsolásával elfogadja a következőket: %1$s és %2$s A Google alkalmanként elküldi az eszköz adatait a szolgáltatónak, így ellenőrizve az Ön telefonszámát (ezért a szolgáltató SMS-díjat számíthat fel). %3$s.</string>
+    <string name="open_full_screen_camera_button_label">Teljes képernyős kamera megnyitása</string>
     <string name="open_video_trimmer_dialog_negative">Mégse</string>
     <string name="open_video_trimmer_dialog_positive">Vágás</string>
     <string name="organization">Szervezet</string>
@@ -1243,8 +1352,6 @@ A csak számokból álló rövid kódokra lehet válaszolni, de a betűkből és
     <string name="otp_auto_deletion_promo_banner_positive_button_text">Tovább</string>
     <string name="otp_auto_deletion_promo_banner_title_text">Törölje a rendszer az egyszer használatos jelszavakat 24 óra elteltével?</string>
     <string name="otp_copied_to_clipboard">Kód lemásolva</string>
-    <string name="otp_pattern_dropdown_hint">Egyszer használatos jelszó mintájának beállítása</string>
-    <string name="otp_port_dropdown_hint">Egyszer használatos jelszó portjának beállítása</string>
     <string name="outgoing_message_foreground_notification_text">A Messages jelenleg egy kimenő üzenetet dolgoz fel</string>
     <string name="outgoing_mms_disabled_by_carrier_pref_summary">A szolgáltató nem engedélyezi a kimenő MMS-üzeneteket</string>
     <string name="outgoing_mms_disabled_by_company_pref_summary">A cége nem engedélyezi a kimenő MMS-üzeneteket</string>
@@ -1270,6 +1377,7 @@ A csak számokból álló rövid kódokra lehet válaszolni, de a betűkből és
     <string name="paired_desktops_last_connection_time">Utoljára aktív: %s</string>
     <string name="paired_desktops_last_connection_time_unknown">ismeretlen</string>
     <string name="participant_joined_group">%s csatlakozott a csoporthoz</string>
+    <string name="participant_joined_with_learn_more">%1$s csatlakozott a csoporthoz. %2$s</string>
     <string name="participant_left_group">%s kilépett a csoportból</string>
     <string name="participant_list_add">Személyek hozzáadása</string>
     <string name="participant_list_count_title_icu">{count,plural, =0{0 további személy}=1{1 további személy}other{# további személy}}</string>
@@ -1289,6 +1397,7 @@ A csak számokból álló rövid kódokra lehet válaszolni, de a betűkből és
     <string name="phone_number_input_body_for_mo_text">Ki is hagyhatja, akkor később kapja meg a funkciókat, a Messages pedig megpróbálja ellenőrizni a számát a szolgáltatójánál</string>
     <string name="phone_number_input_body_text">A Messages ellenőrzi a számát, hogy Ön biztosan megkapja a csevegési funkciókat</string>
     <string name="phone_number_input_hint">Saját telefonszám</string>
+    <string name="phone_number_input_invalid_number_text">Érvénytelen telefonszám</string>
     <string name="phone_number_input_negative_button_for_mo_text">Most kihagyom</string>
     <string name="phone_number_input_negative_button_for_mt_text">Emlékeztessen később</string>
     <string name="phone_number_input_positive_button_text">Szám hozzáadása</string>
@@ -1305,10 +1414,25 @@ A csak számokból álló rövid kódokra lehet válaszolni, de a betűkből és
     <string name="phone_number_input_title_text">Gyorsabban veheti használatba a csevegési funkciókat, ha most megadja a számát</string>
     <string name="phone_number_input_tos_reminder_text">Korábban már elfogadta az %1$s rendelkezéseit a csevegési funkciókra vonatkozóan.</string>
     <string name="phone_number_input_tos_text">Általános Szerződési Feltételek</string>
+    <string name="phone_number_promo_banner_body_text">Élesebb videókat, animált reakciókat és egyebeket küldhet Wi-Fi- vagy mobiladat-kapcsolaton keresztül, ha megerősíti a telefonszámát</string>
+    <string name="phone_number_promo_banner_negative_button_text">Elvetés</string>
+    <string name="phone_number_promo_banner_positive_button_text">Tovább</string>
+    <string name="phone_number_promo_banner_title_text">Következő lépés a jobb Messages-funkciók érdekében</string>
+    <string name="phone_number_promo_body_text">A száma átesett az ellenőrzésen, így már el is kezdheti. A beállítások között bármikor kezelheti a csevegési funkciókat.</string>
+    <string name="phone_number_promo_body_text_mo">A száma átesett az ellenőrzésen, így már el is kezdheti. Ki is hagyhatja, akkor később kapja meg a funkciókat, a Messages pedig megpróbálja ellenőrizni a számát a szolgáltatójánál</string>
+    <string name="phone_number_promo_negative_button_text">Emlékeztessen később</string>
+    <string name="phone_number_promo_negative_button_text_mo">Most kihagyom</string>
+    <string name="phone_number_promo_positive_button_text">Csevegés igénylése</string>
+    <string name="phone_number_promo_title_text">Készen áll rá, hogy Wi-Fi- vagy mobiladat-kapcsolaton fotókat, videókat és egyebeket osszon meg?</string>
+    <string name="phone_number_ui_accepted_snackbar_text">Értesítjük, amikor már rendelkezésére állnak a csevegési funkciók</string>
+    <string name="phone_number_ui_dismissed_snackbar_action_text">Beállítások</string>
+    <string name="phone_number_ui_dismissed_snackbar_text">Ha most szeretne hozzájutni a csevegési funkciókhoz, adja meg a telefonszámát, vagy kezelje a beállításokban</string>
     <string name="photo_taken">Fotó elkészítve</string>
+    <string name="photos_app_installation_required">Élesebb képű videókat küldhet, ha letölti a Google Fotók alkalmazást</string>
+    <string name="photos_app_onboarding_required">Engedélyeznie kell a hozzáférést a Google Fotókhoz, hogy élesebb képű videókat küldhessen</string>
+    <string name="photos_app_sharing_unavailable_try_again_later">Az élesebb képű videó linkje átmenetileg nem áll rendelkezésre. A kevésbé éles képű videó készen áll a küldésre.</string>
+    <string name="photos_app_sign_in_required">Élesebb képű videókat küldhet, ha bejelentkezik a Google Fotókba</string>
     <string name="picker_disambiguation_title">Céltelefonszám kiválasztása</string>
-    <string name="pin_limit_message">%1$d beszélgetést tűzhet ki</string>
-    <string name="pin_success_message">Kitűzött %1$d beszélgetést a lehetséges %2$d közül</string>
     <string name="pinch_zoom_pref_title">Két ujjával felnagyíthatja a beszélgetés szövegét</string>
     <string name="places_autocomplete_clear_button">Keresés törlése</string>
     <string name="places_autocomplete_label">Válasszon egy helyet</string>
@@ -1328,7 +1452,7 @@ A csak számokból álló rövid kódokra lehet válaszolni, de a betűkből és
     <string name="posted_this_year">%1$s%2$s%3$s</string>
     <string name="posted_yesterday">Tegnap%1$s%2$s</string>
     <string name="preference_copied">„%1$s” a vágólapra lett másolva.</string>
-    <string name="preferences_license_title">Nyílt forráskódú licencek</string>
+    <string name="preferences_license_title">Harmadik fél tájékoztatója</string>
     <string name="premium_sms_banner_body">Kapcsolja be ezt a Beállítások között, hogy küldhessen a(z) %s számra és más Prémium SMS-számokra.</string>
     <string name="premium_sms_banner_body_saved_contact">Kapcsolja be ezt a Beállítások között, hogy küldhessen %1$s (%2$s) részére és más Prémium SMS-számokra.</string>
     <string name="premium_sms_banner_description">@string/banner_description</string>
@@ -1359,10 +1483,11 @@ Az üzenetekre és a beszélgetésekre vonatkozó információk között szerepe
 Ezek az információk segítenek ellenőriznünk az előfeltevéseink helyességét és azonosítanunk a problémában szerepet játszó tényezőket, hogy gyorsabban és hatékonyabban láthassuk át a problémát."</string>
     <string name="problematic_message_feedback_data_rationale_title">Így segítenek az üzenetekre és a beszélgetésekre vonatkozó információk</string>
     <string name="promotion_content_description">Ez az üzenet ajánlatként van kategorizálva</string>
+    <string name="prompt_button_action_not_now">Most nem</string>
+    <string name="prompt_button_action_sign_in">Bejelentkezés</string>
     <string name="proxy_screen_clear_search">Keresés törlése</string>
     <string name="proxy_screen_search">Keresés</string>
     <string name="qr_action_bar_device_pairing_title">Eszközpárosítás</string>
-    <string name="qr_action_bar_title">Messages a weben</string>
     <string name="qr_code_scanner_hint_text">Szkennelje be az itt található QR-kódot:&lt;br/><b>%s</b></string>
     <string name="qr_code_scanner_preference_button">QR-kód-szkennelő</string>
     <string name="qr_delete_all_paired_desktops_button_text">Az összes eszköz párosításának megszakítása</string>
@@ -1377,6 +1502,8 @@ Ezek az információk segítenek ellenőriznünk az előfeltevéseink helyesség
     <string name="qr_welcome_privacy">Adatvédelmi irányelvek</string>
     <string name="qr_welcome_terms_of_service">Általános Szerződési Feltételek</string>
     <string name="rbm_block_confirmation_message_spam_folder">Ezentúl nem kap értesítést, ha üzenete érkezik tőle: %1$s. Ez a beszélgetés átkerül a „Levélszemét és letiltott” mappába. %2$s</string>
+    <string name="rbm_block_dialog_body">Nem fog üzeneteket kapni ettől a feladótól. Ez a beszélgetés a „Spam és letiltott” mappába kerül. Ott Ön bármikor feloldhatja a tiltást.</string>
+    <string name="rbm_block_dialog_positive_button_label">Letiltás</string>
     <string name="rbm_business_logo_icon_content_description">Cég logójának ikonja</string>
     <string name="rbm_platform_generalized_verifier_title">Ellenőrizte: %s</string>
     <string name="rbm_platform_verified_by_google">A Google által ellenőrizve</string>
@@ -1396,6 +1523,7 @@ Ezek az információk segítenek ellenőriznünk az előfeltevéseink helyesség
     <string name="rcs_learn_more_title">%1$s a csevegési funkciókról</string>
     <string name="rcs_learn_more_title_with_no_link">További információ a csevegési funkciókról.</string>
     <string name="rcs_message">RCS-üzenet</string>
+    <string name="rcs_message_failed_recipient_lost_encryption_content_description">Nem kézbesíthető, koppintson ide a lehetőségekért</string>
     <string name="rcs_message_failed_recipient_lost_rcs_content_description">Nem kézbesíthető. Koppintson ide a lehetőségekért.</string>
     <string name="rcs_mobile_data_auto_download_carrier_format_entry">Alapértelmezett (%1$s)</string>
     <string name="rcs_mobile_data_auto_download_limit_disable_entry_text">Letiltás</string>
@@ -1478,11 +1606,12 @@ Ezek az információk segítenek ellenőriznünk az előfeltevéseink helyesség
     <string name="reaction_surprised_content_description">Tátott szájú arc</string>
     <string name="reactions_promo_announcement">Ha reagálni szeretne, nyomja meg hosszan</string>
     <string name="reactions_promo_text">Ha reagálni szeretne, nyomja meg hosszan</string>
-    <string name="read_external_storage_permission_description">Ha közvetlenül innen szeretné megtekinteni a galéria tartalmát, hozzáférésre van szükség a telefon tárhelyéhez.</string>
+    <string name="read_media_storage_permission_description">Ha közvetlenül innen szeretné megtekinteni a galéria tartalmát, hozzáférésre van szükség a telefon médiatárhelyéhez.</string>
     <string name="received_label">Érkezett:</string>
     <string name="recipient_hint">Név, tel.szám vagy e-mail-cím</string>
     <string name="recipient_label">Címzett</string>
     <string name="recipient_offline_description">Várakozás %s online állapotára…</string>
+    <string name="reminder_badge_content_description">Emlékeztető jelvény</string>
     <string name="reminder_datetime_picker_dialog_delete_button">Törlés</string>
     <string name="reminder_datetime_picker_dialog_menu_title_add">Emlékeztető beállítása</string>
     <string name="reminder_datetime_picker_dialog_menu_title_update">Emlékeztető frissítése</string>
@@ -1503,7 +1632,7 @@ Ezek az információk segítenek ellenőriznünk az előfeltevéseink helyesség
     <string name="reminder_suggestions_tooltip_text">Koppintson, és válassza ki az emlékeztető időpontját. A javaslatokat a &lt;a href>beállításoknál&lt;/a> kapcsolhatja ki.</string>
     <string name="reminder_suggestions_tooltip_title_text">Emlékeztetők beállítása</string>
     <string name="reminders_banner_body">%1$s: %2$s</string>
-    <string name="reminders_banner_description">@string/banner_description</string>
+    <string name="reminders_banner_description">Reminder conversation banner</string>
     <string name="reminders_banner_done_button">Kész</string>
     <string name="reminders_banner_remind_button">Eml.: 1 ó múlva</string>
     <string name="reminders_banner_self_sender_name">Ön</string>
@@ -1516,7 +1645,7 @@ Ezek az információk segítenek ellenőriznünk az előfeltevéseink helyesség
     <string name="remove_reaction_from_gif_rcs_fallback_text">‌%1$s‌ törölve egy GIF-ről</string>
     <string name="remove_reaction_from_link_rcs_fallback_text">Törölte egy linkről: ‌%1$s‌</string>
     <string name="remove_reaction_from_photo_rcs_fallback_text">‌%1$s‌ törölve egy fotóról</string>
-    <string name="remove_reaction_from_text_message_rcs_fallback_text">‌%1$s‌ törölve erről: %2$s</string>
+    <string name="remove_reaction_from_text_message_rcs_fallback_text">‌%1$s‌ törölve erről:  %2$s </string>
     <string name="remove_reaction_from_unknown_message_type_rcs_fallback_text">‌%1$s‌ eltávolítva egy ismeretlen típusú üzenetről</string>
     <string name="remove_reaction_from_video_rcs_fallback_text">‌%1$s‌ törölve egy videóról</string>
     <string name="remove_user_dialog_cancel">Mégse</string>
@@ -1525,14 +1654,17 @@ Ezek az információk segítenek ellenőriznünk az előfeltevéseink helyesség
     <string name="rename_group_title_m2">Csoport neve</string>
     <string name="reply_activity_title">Válasz</string>
     <string name="reply_button_label">Válasz</string>
-    <string name="reply_icon_content_description">Válasz az üzenetre</string>
+    <string name="reply_icon_content_description">Válasz</string>
     <string name="report_contact_title">Bejelentés spamként</string>
     <string name="report_failed_rcs_group_creation">Valamilyen hiba történt, és emiatt legalább egy résztvevőt nem sikerült hozzáadni.</string>
     <string name="report_group_spam_body_spam_folder">A többi tag számát és a legutóbbi SMS-eit elküldjük a Google-nak, és elküldhetjük a szolgáltatónak is (ez díjköteles lehet). Ez a beszélgetés a „Spam és letiltott” mappában marad, és Ön nem kap értesítést róla. %1$s</string>
+    <string name="report_invalid_thread_id_issue_description">Érvénytelen témaszál-azonosító. Részleteket a naplóban talál.</string>
     <string name="report_issue_action_text">Visszajelzés</string>
+    <string name="report_issue_description">A Messages automatikusan észlelt egy hibát. Részleteket a naplóban talál.</string>
     <string name="report_issue_notification_text">A Messages alkalmazás hibát észlelt. Visszajelzés küldéséhez koppintson ide.</string>
     <string name="report_not_spam_snackbar_message">%1$s bejelentve nem spamként</string>
     <string name="report_person_delivered">%1$s Kézbesítve: %2$s</string>
+    <string name="report_person_ftd">%1$s Nem sikerült visszafejteni: %2$s</string>
     <string name="report_person_read">%1$s Elolvasva: %2$s</string>
     <string name="report_person_sent">%s még nem kapta meg az üzenetet</string>
     <string name="report_receive_issue_notification_message">Az Android nem tud fogadni egy Önnek küldött üzenetet. Visszajelzés küldéséhez koppintson ide.</string>
@@ -1545,6 +1677,7 @@ Ezek az információk segítenek ellenőriznünk az előfeltevéseink helyesség
     <string name="report_spam_snackbar_message">%1$s bejelentve spamként</string>
     <string name="report_spam_toast_title">Spam bejelentve</string>
     <string name="report_telephone_db_recreation_message">Hiba történt az üzenetek lekérésekor. Visszajelzés küldéséhez koppintson ide.</string>
+    <string name="report_thread_id_not_found_description">A témaszál azonosítója hiányzik. Részleteket a naplóban talál.</string>
     <string name="required_permissions_no_promptable_promo">Az engedélyeket az eszköz alkalmazásbeállításai között módosíthatja. Biztosítson hozzáférést a Messages számára az SMS-ekhez, a Telefonhoz és a Névjegyekhez.</string>
     <string name="required_permissions_no_promptable_title">Hozzáférés biztosítása</string>
     <string name="required_permissions_promptable_promo">Az alapértelmezett alkalmazás beállításának befejezéséhez engedélyezze a Messagesnek az SMS-ekhez, a telefonhoz és a névjegyekhez való hozzáférést.</string>
@@ -1564,6 +1697,11 @@ Ezek az információk segítenek ellenőriznünk az előfeltevéseink helyesség
     <string name="samsung_setting_search_title">A Messages beállításai</string>
     <string name="save">Mentés</string>
     <string name="save_attachment">Mentés</string>
+    <string name="save_banner_body">Mentse el ezt a születésnapot a névjegyeket kezelő alkalmazásába, és jövőre emlékeztetni fogja rá a Messages</string>
+    <string name="save_banner_positive_button">A születésnap mentése</string>
+    <string name="save_banner_title_name">%1$s születésnapjának megjegyzése</string>
+    <string name="save_banner_title_no_name">Születésnap megjegyzése</string>
+    <string name="save_birthday_banner_description">@string/banner_description</string>
     <string name="save_otp_confirm_button">Egyszer használatos jelszó mentése</string>
     <string name="save_otp_dialog_message">A rendszer menti ezt az egyszer használatos jelszót, de a többi egyszer használatos jelszava 24 óra elteltével továbbra is automatikusan törlődik. A funkciót a beállítások között kezelheti.</string>
     <string name="save_otp_dialog_title">Menti ezt az egyszer használatos jelszót?</string>
@@ -1582,6 +1720,7 @@ Ezek az információk segítenek ellenőriznünk az előfeltevéseink helyesség
     <string name="scheduled_send_announcement_scheduling_failed">Az üzenet ütemezése sikertelen.</string>
     <string name="scheduled_send_announcement_scheduling_started">Üzenet ütemezése.</string>
     <string name="scheduled_send_announcement_scheduling_succeeded">Az üzenet ütemezve.</string>
+    <string name="scheduled_send_badge_content_description">Ütemezett küldés jelvénye</string>
     <string name="scheduled_send_compose_label_close_content_description">Az ütemezés törlése.</string>
     <string name="scheduled_send_datetime_picker_subtitle">Hagyd bekapcsolva a telefont, és csatlakozz egy Wi-Fi- vagy mobiladat-hálózathoz, hogy elküldje a készülék az üzenetet</string>
     <string name="scheduled_send_datetime_picker_title">Küldés ütemezése (%1$s)</string>
@@ -1609,6 +1748,7 @@ Ezek az információk segítenek ellenőriznünk az előfeltevéseink helyesség
     <string name="security_key_top_level_title">Titkosítás ellenőrzése</string>
     <string name="see_gallery">Galéria megtekintése</string>
     <string name="selected">Kijelölve</string>
+    <string name="selection_position_text">%1$d</string>
     <string name="self_left_group_conversation_failed">Nem sikerült kilépni a csoportból. Próbálja újrakésőbb.</string>
     <string name="self_participant_reaction_name">Ön</string>
     <string name="self_person_name">Ön</string>
@@ -1658,7 +1798,6 @@ A telefonszámot csak hibaelhárításra és a problémák megoldására haszná
     <string name="sending_timeout_failure_dialog_title">A rendszer nem küldte el az üzenetet</string>
     <string name="sent_label">Elküldve:</string>
     <string name="set_message_priority_description">Sürgős állapot beállítása</string>
-    <string name="set_rcs_flags">RCS-jelzők beállítása</string>
     <string name="set_rcs_mobile_data_auto_download_limit_title">A beérkező fájlok automatikus letöltése mobiladat-kapcsolaton keresztül</string>
     <string name="setting_fast_track_body_with_cost">A továbblépéssel elfogadja a következőket: %1$s és %2$s. A telefonszám-alapú üzenetkézbesítéshez a Google rendszeres időközönként ellenőrizheti a telefonszámát az eszközadatoknak a szolgáltatóval való megosztásával vagy SMS-en keresztül (ezért a szolgáltató díjat számíthat fel). A csevegési funkciókat bármikor letilthatja a beállításoknál. %3$s.</string>
     <string name="settings_activity_title">Beállítások</string>
@@ -1681,6 +1820,13 @@ A telefonszámot csak hibaelhárításra és a problémák megoldására haszná
     <string name="shortcuts_screen_title">Parancsikonok</string>
     <string name="show_sms_link_warning_change_label">Módosítás</string>
     <string name="show_sms_link_warning_text">A mellékleteket a rendszer egy, a mellékletre mutató linket tartalmazó SMS-ként küldi el</string>
+    <string name="sign_in_app_name_without_account">%1$s használata fiók nélkül</string>
+    <string name="sign_in_cancel">Mégse</string>
+    <string name="sign_in_without_account">Fiók nélküli használat</string>
+    <string name="sign_in_without_account_short">Fiók nélkül</string>
+    <string name="sign_into_photos_app">Bejelentkezés</string>
+    <string name="sign_into_photos_app_title">A folytatáshoz jelentkezzen be a Google Fotókba</string>
+    <string name="sign_into_photos_app_with_x_to_continue">Most ebből a fiókból küld: %1$s</string>
     <string name="signature_banner_description">@string/banner_description</string>
     <string name="silent_ringtone">Néma</string>
     <string name="sim_label">SIM:</string>
@@ -1699,9 +1845,13 @@ A telefonszámot csak hibaelhárításra és a problémák megoldására haszná
     <string name="sim_storage_full_title">A SIM-kártya tárhelye megtelt</string>
     <string name="sim_storage_pref_title">SIM-kártyán lévő üzenetek</string>
     <string name="simple_fail_to_decrypt_message_dialog_body">Próbálkozzon a Messages alkalmazás frissítésével, hogy visszafejthesse a jövőbeli üzeneteket</string>
+    <string name="smart_action_settings_page_description">A naptárra, a GIF-keresésre, a helymegosztásra és egyebekre mutató parancsikonok megjelenítése a kontextusnak megfelelően</string>
+    <string name="smart_action_settings_page_title">Műveletek</string>
+    <string name="smart_actions_preference_summary_shortcuts">A naptárra, a GIF-keresésre, a helymegosztásra és egyebekre mutató parancsikonok megjelenítése a kontextusnak megfelelően</string>
     <string name="smart_actions_preference_title">Javasolt műveletek</string>
     <string name="smart_compose_preference_summary">Prediktív írási javaslatok megjelenítése</string>
     <string name="smart_compose_preference_title">Okos levélírás</string>
+    <string name="smart_reply_preference_summary">Csevegéses válaszadási lehetőségek megjelenítése</string>
     <string name="smarts_preference_info_text">Az intelligens válaszokat és a javasolt műveleteket csak Ön láthatja, amíg rájuk koppintva meg nem osztja őket. &lt;br/> &lt;br/> A javaslatok a beszélgetései alapján eltérhetnek, és a rendszer az eszközön állítja elő őket. %1$s</string>
     <string name="smarts_preference_info_text_with_assistant">Az intelligens válaszokat, a javasolt műveleteket és a Segéd javaslatait a Messages intelligens rendszere az eszközön hozza létre. &lt;br/> &lt;br/>A javaslatokat a rendszer nem osztja meg sem a Google-lal, sem másokkal, amíg rájuk nem koppint. &lt;br/> &lt;br/> Ha engedélyezi a Messages számára, hogy hozzáférjen az eszköz helyadataihoz, több helyjavaslatot kaphat. %1$s</string>
     <string name="smarts_settings_page_summary">Intelligens válasz, javasolt műveletek és más funkciók</string>
@@ -1728,19 +1878,18 @@ A válaszok külön beszélgetésben jelennek meg."</string>
     <string name="snackbar_text_label_rcs_group_created_too_large">{max_group_size_including_self,plural, =1{Legfeljebb # főt tartalmazhat}other{Legfeljebb # főt tartalmazhat}}</string>
     <string name="snackbar_text_label_rcs_group_self_only">Ez a csoport üres. Vegyen fel embereket a csoportba, mielőtt üzenetet küld ebben a csevegésben.</string>
     <string name="snippet">%1$s: %2$s</string>
-    <string name="snippet_assistant_card_text">Segédkártya</string>
-    <string name="snippet_attachment_icon_content_description">Válaszrészlet mellékletikonja</string>
     <string name="snippet_audio_attachment_text">Hang</string>
     <string name="snippet_deleted_message_text">Az üzenet törölve</string>
-    <string name="snippet_dismiss_icon_content_description">Válasz elvetésének ikonja</string>
+    <string name="snippet_dismiss_icon_content_description">Törlés</string>
     <string name="snippet_file_attachment_text">Fájl</string>
     <string name="snippet_from_you">Ön: %s</string>
-    <string name="snippet_image_attachment_text">Kép</string>
-    <string name="snippet_media_thumbnail_content_description">Válaszrészlet indexképe</string>
+    <string name="snippet_image_attachment_text">Profilkép</string>
     <string name="snippet_self_participant_header">Ön</string>
     <string name="snippet_video_attachment_text">Videó</string>
     <string name="soft_num_key_pad_backspace_content_description">Backspace</string>
     <string name="someone_added_participant">%1$s hozzáadta a következőt a csoporthoz: %2$s</string>
+    <string name="someone_added_participant_with_learn_more">%1$s hozzáadta a következőt a csoporthoz: %2$s. %3$s</string>
+    <string name="someone_else_created_encrypted_rcs_group">%1$s létrehozta ezt a csoportot %2$s résztvevővel. %3$s</string>
     <string name="someone_else_created_mms_group">%1$s létrehozta ezt az MMS-csoportot %2$s résztvevővel</string>
     <string name="someone_else_created_rcs_group">%1$s létrehozta ezt a csoportot %2$s résztvevővel</string>
     <string name="someone_joined_group">Egy felhasználó csatlakozott a csoporthoz</string>
@@ -1764,7 +1913,6 @@ A válaszok külön beszélgetésben jelennek meg."</string>
     <string name="spam_dialog_title_spam_folder">Bejelenti spamként?</string>
     <string name="spam_folder_activity_title">Spam és letiltott</string>
     <string name="spam_folder_conversation_list_empty_text_v2">Itt láthatók a spamet tartalmazó és a letiltott beszélgetések.</string>
-    <string name="spam_preference_info_text_on_device">A Messages az eszközön futó intelligens algoritmusokkal észleli a spamet, és elküld a Google-nak bizonyos adatokat az ilyen üzenetekről, de nem küldi el sem az Ön telefonszámát, sem az üzenet tartalmát. %1$s</string>
     <string name="spam_protection_consent_string">A spamészlelés megkönnyítése érdekében a Messages elküld bizonyos adatokat az üzeneteiről a Google-nak, de nem szerepel köztük sem a telefonszáma, sem az üzenet tartalma. %1$s</string>
     <string name="spam_reporting_from">Spam bejelentése</string>
     <string name="spam_settings">Spammel szembeni védelem</string>
@@ -1773,6 +1921,8 @@ A válaszok külön beszélgetésben jelennek meg."</string>
     <string name="split_view_pref_title">Részletes listanézet</string>
     <string name="stacked_banner_count_text">%1$d/1. emlékeztető</string>
     <string name="star_badge_content_description">Csillag jelvény</string>
+    <string name="star_badge_menu_remove_action">Eltávolítás</string>
+    <string name="star_badge_menu_view_all_action">Az összes megtekintése</string>
     <string name="star_badge_on_click_snackbar_action">Mégse</string>
     <string name="star_badge_on_click_snackbar_message">Csillag eltávolítva</string>
     <string name="sticker_content_description">A következőbe tartozó matrica: %s</string>
@@ -1809,10 +1959,12 @@ A válaszok külön beszélgetésben jelennek meg."</string>
     <string name="subject_with_label">Tárgy: %1$s</string>
     <string name="subject_with_urgent_label">[SÜRGŐS] %1$s</string>
     <string name="success_message_format">%1$s %2$s %3$s %4$s %5$s %6$s.</string>
+    <string name="success_message_self_sender">Ön ezt mondta: %1$s %2$s %3$s %4$s.</string>
     <string name="success_message_self_sender_format_with_multiple_attachments">Ön több mellékletet küldött: %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_self_sender_format_with_single_attachment">Ön mellékletet küldött: %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_specified_sender_format_with_multiple_attachments">%1$s több mellékletet küldött: %2$s %3$s %4$s %5$s %6$s.</string>
     <string name="success_message_specified_sender_format_with_single_attachment">%1$s mellékletet küldött: %2$s %3$s %4$s %5$s %6$s.</string>
+    <string name="success_message_unspecified_sender">A küldő fél ezt mondta: %1$s %2$s %3$s %4$s.</string>
     <string name="success_message_unspecified_sender_format_with_multiple_attachments">A feladó több mellékletet küldött: %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_unspecified_sender_format_with_single_attachment">A feladó mellékletet küldött: %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_sent_to_message_format">Elküldve neki: %1$s %2$s %3$s %4$s .</string>
@@ -1821,10 +1973,18 @@ A válaszok külön beszélgetésben jelennek meg."</string>
     <string name="sud_back_button_label">Vissza</string>
     <string name="sud_more_button_label">Bővebben</string>
     <string name="sud_next_button_label">Tovább</string>
-    <string name="suggested_stickers_preference_summary">A javasolt matricák megjelenítése</string>
+    <string name="suggested_stickers_preference_summary">Matricás válaszadási lehetőségek megjelenítése</string>
     <string name="suggested_stickers_preference_title">Javasolt matricák</string>
+    <string name="suggestion_shortcut_dialog_body_text">A parancsikonokkal gyorsan és könnyen megcsillagozhatja az üzeneteket, és egy pillanat alatt ütemezhet be dolgokat, stb.</string>
+    <string name="suggestion_shortcut_dialog_positive_button">OK</string>
+    <string name="suggestion_shortcut_dialog_subsection_body_text">A javasolt parancsikonokat a telefonszámok, a dátumok és más hasonló dolgok aktiválják. %1$s</string>
+    <string name="suggestion_shortcut_dialog_subsection_title_text">Hogyan működik?</string>
+    <string name="suggestion_shortcut_dialog_title">Gyorsabban célba érhet a javasolt parancsikonokkal</string>
+    <string name="suggestion_shortcut_search_title">Keresés</string>
+    <string name="suggestion_shortcut_star_toolstone">A megcsillagozott üzeneteket egyszerűen megtalálhatja a %1$s funkcióban</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_notification_inbox_style_summary_text">+%d további</string>
+    <string name="super_sort_pref_title">Üzenetek rendszerezése</string>
     <string name="super_sort_settings_title">Üzenetek rendszerezése</string>
     <string name="supersort_conversation_list_empty_text_business_update">Itt automatikusan megjelennek az üzleti hírek</string>
     <string name="supersort_conversation_list_empty_text_manage_in_settings">Kezelés a beállításoknál</string>
@@ -1887,6 +2047,11 @@ A Mind nézetben minden beszélgetést megtalál"</string>
     <string name="survey_user_agent">Felhasználói ügynök</string>
     <string name="survey_very_dissatisfied">Nagyon elégedetlen</string>
     <string name="survey_very_satisfied">Nagyon elégedett</string>
+    <string name="swipe_actions">Csúsztatási műveletek</string>
+    <string name="swipe_actions_summary">Válassza az Archiválás vagy a Törlés lehetőséget, a jobbra vagy a balra lehetőséget, illetve kapcsolja ki a csúsztatást.</string>
+    <string name="swipe_customize">Személyre szabás</string>
+    <string name="swipe_left">Csúsztatás balra</string>
+    <string name="swipe_right">Csúsztatás jobbra</string>
     <string name="switcher_no_phone_number">Nem található SIM kártya</string>
     <string name="switcher_pair_device_title_text">SMS-küldés a párosított telefonnal</string>
     <string name="switcher_positive_button_text">Tovább</string>
@@ -1894,6 +2059,7 @@ A Mind nézetben minden beszélgetést megtalál"</string>
     <string name="switcher_use_device_sim_number">(%s)</string>
     <string name="switcher_use_device_sim_title_text">SMS-küldés az eszköz SIM-kártyájával</string>
     <string name="syncing_with_device_foreground_notification_text">A Messages szinkronizálódik az eszközével</string>
+    <string name="system_picker_button_label">Mappák</string>
     <string name="t_mobile_tos_pref_link_text">Általános Szerződési Feltételek</string>
     <string name="t_mobile_tos_pref_text">A Google csevegési funkcióit a T-Mobile szolgáltatja. Az %1$s megtekintése.</string>
     <string name="t_mobile_tos_pref_url">https://www.t-mobile.com/responsibility/legal/terms-and-conditions</string>
@@ -1918,6 +2084,7 @@ Beállítások > %1$s"</string>
     <string name="theme_setting_dialog_options_light_mode">Világos</string>
     <string name="theme_setting_dialog_options_system_default_mode">Alapértelmezett</string>
     <string name="theme_setting_dialog_title">Téma kiválasztása</string>
+    <string name="tiktok_account_login_failure">Nem sikerült bejelentkezni a kiválasztott fiókba.</string>
     <string name="tiktok_add_account_error">Nem sikerült hozzáadni a fiókot. Próbálkozzon újra.</string>
     <string name="tiktok_fix_it">Javítás</string>
     <string name="tiktok_load_account_failure">Nem sikerült betölteni a fiókokat.</string>
@@ -1943,6 +2110,18 @@ Csak Ön láthatja ezt a nevet"</string>
     <string name="tombstone_self_removed_from_group_referrer_known">%1$s eltávolította Önt a csoportból</string>
     <string name="tombstone_self_removing_others_from_group">Eltávolította őt vagy őket a csoportból: %1$s</string>
     <string name="tombstone_show_link_previews">A linkelőnézetek be vannak kapcsolva.&lt;br />Tudjon meg többet, vagy kapcsolja ki őket a &lt;u>beállításoknál&lt;/u>.</string>
+    <string name="tombstone_show_link_previews_disabled">A linkek előnézete ki van kapcsolva.&lt;br />Tájékozódjon bővebben, vagy kapcsolja be a &lt;u>Beállítások&lt;/u> között.</string>
+    <string name="tooltip_content">"A Google-fiókján alapulnak
+olyan funkciók, mint a Google Fotók-linkek
+megosztása a Messagesben
+a beszélgetések megnyitása nélkül.
+
+A Messages így is a telefonszámáról
+küldi el az üzeneteket. További információ"</string>
+    <string name="tooltip_content_with_line_break_fix">"A Google-fiókjára épülnek egyes funkciók, például az, hogy a beszélgetésekhez való hozzáférés nélkül oszthat meg Google Fotók-linkeket a Messages alkalmazásban.
+
+Az üzeneteket továbbra is a telefonszámáról küldjük el. További információ"</string>
+    <string name="tooltip_link">További információ</string>
     <string name="top_contacts_grid_name">★</string>
     <string name="top_contacts_title">Leggyakrabban megkeresett ismerősök</string>
     <string name="transaction_content_description">Ez az üzenet tranzakcióként van kategorizálva</string>
@@ -1952,6 +2131,7 @@ Csak Ön láthatja ezt a nevet"</string>
     <string name="unblock_and_report_not_spam_snackbar_message">%1$s letiltása visszavonva, bejelentve nem spamként</string>
     <string name="unblock_banner_body">Ha át szeretné helyezni ezt a beszélgetést az archívumból, és újra meg szeretné kapni az üzeneteket, oldja fel a következő tiltását: %s</string>
     <string name="unblock_banner_body_spam_folder">Ha át szeretné helyezni a beszélgetést a „Levélszemét és letiltott” mappából, és újra meg szeretné kapni az üzeneteket, oldja fel %s letiltását.</string>
+    <string name="unblock_banner_body_v2">Unblock to receive messages from this sender</string>
     <string name="unblock_banner_description">@string/banner_description</string>
     <string name="unblock_banner_positive_button">Letiltás feloldása</string>
     <string name="unblock_banner_title">Letiltva</string>
@@ -1987,6 +2167,7 @@ A telefonszámokat csak hibaelhárításra és a problémák megoldására haszn
     <string name="unsent">Nincs elküldve</string>
     <string name="unspam_banner_body">Ha át szeretné helyezni ezt a beszélgetést az archívumból, és újra meg szeretné kapni az értesítéseket, jelentse be a következőt nem spamként: %s</string>
     <string name="unspam_banner_body_spam_folder">Ha át szeretné helyezni ezt a beszélgetést a „Spam és letiltott” mappából, és újra meg szeretné kapni az értesítéseket, jelentse be nem spamként ezt: %s.</string>
+    <string name="unspam_banner_body_v2">Report as not spam to receive messages from this sender</string>
     <string name="unspam_banner_description">@string/banner_description</string>
     <string name="unspam_banner_end_button">Nem spam</string>
     <string name="unspam_banner_title">Bejelentve spamként</string>
@@ -2002,6 +2183,8 @@ A telefonszámokat csak hibaelhárításra és a problémák megoldására haszn
     <string name="unsupported_file_save_alert">Menti a mellékletet a letöltések közé?</string>
     <string name="unsupported_file_save_cancel">Mégse</string>
     <string name="unverified_sms_banner_description">@string/banner_description</string>
+    <string name="unwanted_messages_toolstone_link">letilthatja és bejelentheti</string>
+    <string name="unwanted_messages_toolstone_text">A nem kívánt üzeneteket %1$s</string>
     <string name="upcoming_reminder">Közelgő emlékeztető</string>
     <string name="update_content_description">Ez az üzenet értesítésként van kategorizálva</string>
     <string name="update_donation_banner_body_v2">A személyazonosságod titokban marad, és bármilyen tartalmat törölhetsz az üzenetekből</string>
@@ -2044,6 +2227,7 @@ A telefonszámokat csak hibaelhárításra és a problémák megoldására haszn
     <string name="video_attachment_content_description">Videómelléklet</string>
     <string name="video_attachment_limit_exceeded_when_sending">Üzenetenként csak egy videót lehet küldeni. Távolítsa el a többi videót, és próbálja újra.</string>
     <string name="video_compress_info">A címzett számára megjelenített videó minősége a szolgáltatói MMS-korlátok miatt gyengébb lesz.</string>
+    <string name="video_format_type">videó</string>
     <string name="video_media_failure">Ha videót szeretne készíteni, próbálkozzon hosszabb felvétellel.</string>
     <string name="video_taken">A videó elkészült</string>
     <string name="video_thumbnail_view_play_button_content_description">Videó lejátszása</string>
@@ -2090,19 +2274,20 @@ Saját belátása szerint kezelje az üzenet tartalmát."</string>
     <string name="websiteTypeWork">Munkahely</string>
     <string name="welcome_agree_button_text">Elfogadás</string>
     <string name="welcome_chat_features_decline">Messages csevegőfunkciók nélkül</string>
-    <string name="welcome_chat_features_learn_more">További információ a csevegési funkciókról.</string>
     <string name="welcome_chat_features_legal">A csevegőfunkciók használatával elfogadja az %1$s és az %2$s rendelkezéseit. A Google alkalmanként elküldi az eszköz adatait az Ön szolgáltatójának, így ellenőrizve az Ön telefonszámát (ezért a szolgáltató SMS-díjat számíthat fel).</string>
+    <string name="welcome_chat_features_text">"· Küldés Wi-Fi-n vagy mobiladat-kapcsolaton
+- Fájlok és médiatartalmak megosztása
+- Az üzenetek bizalmas jellegének megőrzése"</string>
     <string name="welcome_chat_features_title">Gyorsabb, sokoldalúbb és jobb minőségű csevegés Wi-Fi- és adatkapcsolaton</string>
+    <string name="welcome_chat_features_title_experiment_0">Minden eddiginél több lehetőség a Messagesben</string>
+    <string name="welcome_chat_features_title_experiment_1">Minden eddiginél több lehetőség a Messages csevegési funkcióival</string>
     <string name="welcome_consent_button_text">Tovább</string>
-    <string name="welcome_finish_button_text">Befejezés</string>
     <string name="welcome_smarts_notice_description">"Egyszerűbben cseveghet a Google Segéd, az intelligens válasz és a többi hasznos funkció révén. A beszélgetéseket biztonságban, a saját eszközén tárolhatja.
 %1$s, %2$s"</string>
     <string name="welcome_smarts_notice_title">Hatékony okosságok</string>
     <string name="welcome_spam_description">"A spam megelőzésének megkönnyítésére a Google felhasználja azokat a telefonszámokat, amelyek nincsenek mentve a névjegyei közé, de nem azonosítja sem Önt, sem a számát.
 %1$s, %2$s"</string>
     <string name="welcome_spam_title">Spammel szembeni védelem</string>
-    <string name="welcome_splash_tagline">"Egyszerű és intelligens csevegés
-a Google-tól"</string>
     <string name="widget_reply_exit_content_description">Vissza</string>
     <string name="widget_reply_open">A MESSAGES MEGNYITÁSA</string>
     <string name="widget_reply_to">Válasz a következőnek: %s</string>
@@ -2110,9 +2295,14 @@ a Google-tól"</string>
     <string name="work_directory_display_name">Munkaprofilban lévő névjegyek</string>
     <string name="xms_send_mode_pref_title">Csak SMS- és MMS-üzenetek küldése</string>
     <string name="you_added_participant">Hozzáadta a következőt a csoporthoz: %s</string>
+    <string name="you_added_participant_with_learn_more">Hozzáadta a következőt a csoporthoz: %1$s. %2$s</string>
+    <string name="you_created_encrypted_rcs_group">Létrehozta ezt a csoportot %1$s résztvevővel. %2$s</string>
     <string name="you_created_mms_group">Létrehozta ezt az MMS-csoportot %s résztvevővel</string>
     <string name="you_created_rcs_group">Létrehozta ezt a csoportot %s résztvevővel</string>
     <string name="you_left_group">Kilépett a csoportból</string>
+    <string name="youtube_dismissal_prompt">Koppintással és húzással bezárhatja</string>
+    <string name="youtube_drag_prompt">Húzással áthelyezheti a lejátszót</string>
+    <string name="youtube_pip_playing">Most lejátszott videó</string>
     <string name="zero_connectivity_failure_announcement">Az üzenet nincs elküldve</string>
     <string name="zero_state_search_action_copy">Másolás</string>
     <string name="zero_state_search_action_jump_to_chat">Ugrás a csevegésre</string>
@@ -2132,6 +2322,7 @@ a Google-tól"</string>
     <string name="zero_state_search_details_image_accessibility">Kép, feladó: %1$s, %2$s</string>
     <string name="zero_state_search_details_video_accessibility">Videó, feladó: %1$s, %2$s</string>
     <string name="zero_state_search_dropdown_free_text">Keresés a következőre: „%s”</string>
+    <string name="zero_state_search_empty_results_text">Itt fognak megjelenni a csillaggal megjelölt üzenetei, médiatartalmai és az ebből a beszélgetésből származó linkek</string>
     <string name="zero_state_search_images">Képek</string>
     <string name="zero_state_search_link_copied">Link másolva</string>
     <string name="zero_state_search_links">Linkek</string>

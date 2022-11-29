@@ -63,7 +63,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript">^1, ^2, ^3.</string>
     <string name="a11y_new_call_log_entry_phone_account">na računu ^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">upućivanje RTT poziva osobi ^1</string>
-    <string name="a11y_new_call_log_entry_tap_action">proširite meni</string>
+    <string name="a11y_new_call_log_entry_tap_action">proširivanje ili sužavanje menija</string>
     <string name="a11y_new_call_log_entry_video_call">uputite video poziv osobi ^1</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">uputite video poziv osobi ^1 putem WiFi-ja</string>
     <string name="a11y_new_call_log_entry_voice_call">nazovite osobu ^1</string>
@@ -191,6 +191,7 @@ Snimci se pohranjuju samo na vašem telefonu. ^1"</string>
     <string name="atlas_soda_banner_feature_text">Čekaj za mene</string>
     <string name="atlas_temp_service_notification_title">Pokretanje poziva Čekaj za mene</string>
     <string name="atlas_warning_text_for_second_incoming_call">Prihvatanjem ovog poziva će se prekinuti funkcija Čekaj za mene</string>
+    <string name="audio_route_item_checked_description">Označeno</string>
     <string name="audioroute_bluetooth">Bluetooth</string>
     <string name="audioroute_headset">Žičane slušalice</string>
     <string name="audioroute_phone">Telefon</string>
@@ -235,6 +236,7 @@ Snimci se pohranjuju samo na vašem telefonu. ^1"</string>
     <string name="bm_suggest_wait_time_estimating">"Chat
 Obrada…"</string>
     <string name="bottomsheet_action_expand_halfway">Proširivanje dopola</string>
+    <string name="bottomsheet_drag_handle_content_description">Ručica za prevlačenje</string>
     <string name="bubble_bottom_action_end_call">Prekini poziv</string>
     <string name="bubble_bottom_action_hide">Sakrij</string>
     <string name="bubble_return_to_call">Nazad na poziv</string>
@@ -582,10 +584,8 @@ Pošaljite pomoć."</string>
     <string name="copy_number">Kopiraj broj</string>
     <string name="create_new_contact">Kreiraj novi kontakt</string>
     <string name="crosby_setting_title">Snimanje poziva</string>
-    <string name="crystal_clear_audio_setting_title">Jasan poziv</string>
     <string name="current_voicemail_greeting_record_instruction">Snimite pozdravnu poruku</string>
     <string name="current_voicemail_greeting_recording_title">Moja pozdravna poruka govorne pošte</string>
-    <string name="custom_message_hint">Napišite prilagođenu poruku</string>
     <string name="custom_prefix_add_prefix_to_call_entry_always_add_prefix">Uvijek dodaj prefiks</string>
     <string name="custom_prefix_add_prefix_to_call_entry_ask_before_dialing">Pitaj prije pozivanja</string>
     <string name="custom_prefix_add_prefix_to_call_entry_never_add_prefix">Nikad ne dodaj prefiks</string>
@@ -670,11 +670,11 @@ Pošaljite pomoć."</string>
     <string name="display_options_view_given_name_first">Ime prvo</string>
     <string name="display_options_view_names_as">Format imena</string>
     <string name="do_not_show_again">Ne prikazuj ponovo</string>
-    <string name="duo_fallback_dialog_do_not_show_again_label">Zapamti ovaj odabir</string>
-    <string name="duo_fallback_dialog_message">Vaš video poziv se ne može obaviti koristeći video poziv putem mobilnog operatera. Umjesto toga isprobajte poziv u aplikaciji Duo.</string>
-    <string name="duo_fallback_dialog_negative_button_label">Otkaži</string>
-    <string name="duo_fallback_dialog_positive_button_label">Koristi Duo</string>
-    <string name="duo_fallback_dialog_title">Isprobati u aplikaciji Google Duo?</string>
+    <string name="duo_fallback_dialog_do_not_show_again_label">Zapamti Duo kao aplikaciju za pomoćno pozivanje za svaki poziv. Upravljajte opcijom bilo kada u postavkama.</string>
+    <string name="duo_fallback_dialog_message">Duo će automatski pokušati pozvati ako vaš operater ne može završiti video poziv.</string>
+    <string name="duo_fallback_dialog_negative_button_label">Ne, hvala</string>
+    <string name="duo_fallback_dialog_positive_button_label">Umjesto toga zovi s Duom</string>
+    <string name="duo_fallback_dialog_title">Umjesto toga uputiti pozive uz Google Duo?</string>
     <string name="edit_number_before_call">Uredi broj prije poziva</string>
     <string name="emergency_assist_address_sentence">Moja lokacije se nalazi na adresi %1$s.</string>
     <string name="emergency_assist_button_fire">Vatra</string>
@@ -696,6 +696,7 @@ Pošaljite pomoć."</string>
     <string name="emergency_voice_assist_dialog_button_close">Otkaži</string>
     <string name="emergency_voice_assist_dialog_title">Operater hitne pomoći čuje ovo</string>
     <string name="end_call_with_default_message_description">Prekinite poziv</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_icon_content_description">Greška</string>
     <string name="error_unable_to_get_audio">Nije moguće preuzeti primjer zvučnog zapisa</string>
     <string name="error_unable_to_play_audio">Nije moguće reproducirati primjer zvučnog zapisa</string>
@@ -740,7 +741,7 @@ Pošaljite pomoć."</string>
     <string name="first_time_dialog_duo_video_call_label">Google Duo</string>
     <string name="first_time_dialog_negative_button_label">Otkaži</string>
     <string name="first_time_dialog_positive_button_label">Odaberi</string>
-    <string name="first_time_dialog_remember_this_choice_label">Zapamti ovaj odabir</string>
+    <string name="first_time_dialog_remember_this_choice_label">Zapamti za svaki poziv. Upravljajte opcijom bilo kada u postavkama.</string>
     <string name="first_time_dialog_title">Odaberite uslugu za video pozive</string>
     <string name="flip_to_shush_title">Obrtanje za Psst</string>
     <string name="flip_to_silence_summary">Da utišate dolazni poziv, postavite telefon na ravnu površinu s ekranom okrenutim prema dolje</string>
@@ -788,6 +789,8 @@ Pošaljite pomoć."</string>
     <string name="incall_content_description_hold">Stavi poziv na čekanje</string>
     <string name="incall_content_description_merge_calls">Spoji pozive</string>
     <string name="incall_content_description_muted">Isključen zvuk</string>
+    <string name="incall_content_description_show_less">Manje</string>
+    <string name="incall_content_description_show_more">Prikaži više</string>
     <string name="incall_content_description_speaker">Zvučnik</string>
     <string name="incall_content_description_swap_calls">Zamijeni pozive</string>
     <string name="incall_content_description_swap_sim">Promijeni SIM</string>
@@ -803,6 +806,7 @@ Pošaljite pomoć."</string>
     <string name="incall_label_hold">Na čekanju</string>
     <string name="incall_label_manage">Upravljaj</string>
     <string name="incall_label_merge">Spoji</string>
+    <string name="incall_label_more">Više</string>
     <string name="incall_label_mute">Isključi zvuk</string>
     <string name="incall_label_record">Snimaj</string>
     <string name="incall_label_record_checked">Prekid snimanja</string>
@@ -835,15 +839,9 @@ Pošaljite pomoć."</string>
     <string name="join_call_with_default_message_description">Pridružite se pozivu</string>
     <string name="just_now">Upravo</string>
     <string name="lat_long_format">%1$f, %2$f</string>
+    <string name="launch_application_settings">Postavke</string>
     <string name="launcherActivityLabel">Telefon</string>
     <string name="learn_more_text_for_tmo">Posjetite T-Mobile da saznate više</string>
-    <string name="legacy_post_call_message">Recite zašto ste zvali</string>
-    <string name="legacy_post_call_message_1">Hitno je. Nazovi me.</string>
-    <string name="legacy_post_call_message_2">Nazovi me kad mogneš.</string>
-    <string name="legacy_post_call_message_3">Nije hitno, možemo razgovarati kasnije.</string>
-    <string name="legacy_post_call_message_sent">Poruka je poslana</string>
-    <string name="legacy_post_call_send_message">Pošaljite poruku</string>
-    <string name="legacy_post_call_view">Prikaži</string>
     <string name="libraries_material_featurehighlight_dismiss">Odbaci</string>
     <string name="license_activity_label">Licence otvorenog koda</string>
     <string name="light_theme_label">Svijetlo</string>
@@ -868,6 +866,7 @@ Pošaljite pomoć."</string>
     <string name="mdd_notification_action_cancel">Otkaži</string>
     <string name="mdd_notification_download_failed">Preuzimanje nije uspjelo</string>
     <string name="mdd_notification_download_paused">Čeka se mrežna veza</string>
+    <string name="mdd_notification_download_paused_wifi">Čekanje na WiFi vezu</string>
     <string name="meid_number">MEID %s</string>
     <string name="menu_callNumber">Pozivanje broja %s</string>
     <string name="merge_calls_confirm_message">Spojite pozive samo ako ste sigurni da sve osobe znaju ko će učestvovati u spojenom pozivu</string>
@@ -907,11 +906,9 @@ Pošaljite pomoć."</string>
     <string name="nearbyplaces_account_setting_title">Google račun</string>
     <string name="new_call_log_activity_title">Historija poziva</string>
     <string name="new_call_log_all_title">Sve</string>
-    <string name="new_call_log_carrier_video">Video poziv putem operatera</string>
     <string name="new_call_log_clear_call_log_confirmation">Ovo će izbrisati sve pozive iz historije</string>
     <string name="new_call_log_clear_call_log_confirmation_title">Obrisati historiju poziva?</string>
     <string name="new_call_log_delete_all">Obriši historiju poziva</string>
-    <string name="new_call_log_duo_video">Duo video poziv</string>
     <string name="new_call_log_empty">Ovdje će se prikazati pozivi koje uputite</string>
     <string name="new_call_log_generic_video">Videozapis</string>
     <string name="new_call_log_header_older">Starije</string>
@@ -929,6 +926,7 @@ Pošaljite pomoć."</string>
     <string name="new_permission_no_search">Da pretražujete kontakte, uključite odobrenja za Kontakte.</string>
     <string name="non_contact_always_record_dialog_title">Uvijek snimati pozive s brojevima koji nisu u vašim kontaktima?</string>
     <string name="non_contact_toggle_label">Brojevi nisu u vašim kontaktima</string>
+    <string name="non_spam_aftercall_notification_title">Poznajete %1$s?</string>
     <string name="non_spam_notification_title">Poznajete %1$s?</string>
     <string name="not_set">Nije postavljeno</string>
     <string name="notification_action_accept">Prihvati</string>
@@ -979,7 +977,7 @@ Pošaljite pomoć."</string>
     <string name="notification_ongoing_call">Poziv u toku</string>
     <string name="notification_ongoing_call_multi_sim">Odlazni poziv koristeći %1$s</string>
     <string name="notification_ongoing_call_wifi_template">%1$s poziv u toku</string>
-    <string name="notification_ongoing_call_wifi_template_multi_sim">U toku je poziv %1$s koristeći %1$s</string>
+    <string name="notification_ongoing_call_wifi_template_multi_sim">U toku je poziv %1$s koristeći %2$s</string>
     <string name="notification_ongoing_paused_video_call">Video poziv putem operatera u toku ‑ video je pauziran</string>
     <string name="notification_ongoing_paused_video_call_multi_sim">Video poziv putem operatera koristeći %1$s ‑ video je pauziran</string>
     <string name="notification_ongoing_video_call">Video poziv putem mobilnog operatera je u toku</string>
@@ -992,7 +990,7 @@ Pošaljite pomoć."</string>
     <string name="notification_take_call">Primi poziv</string>
     <string name="notification_take_video_call">Primi video poziv</string>
     <string name="notification_voicemail_callers_list">%1$s, %2$s</string>
-    <string name="notification_voicemail_no_vm_number">Nepoznat broj govorne pošte</string>
+    <string name="notification_voicemail_no_vm_number">Da postavite govornu poštu, idite na Meni > Postavke.</string>
     <string name="notification_voicemail_text_format">Pozovi %s</string>
     <string name="old_block_number_confirmation_title">Blokirati broj %1$s?</string>
     <string name="openhistory_button_label">Historija</string>
@@ -1047,7 +1045,7 @@ Na neke brojeve telefona možete uputiti video poziv i bez ažuriranja postavki.
     <string name="private_num_non_verizon">Privatni broj</string>
     <string name="private_num_verizon">Ograničeno</string>
     <string name="private_or_hidden_action_preference_description">Pozivaoci koji skrivaju svoj ID</string>
-    <string name="private_or_hidden_action_preference_title">Privatno ili skriveno</string>
+    <string name="private_or_hidden_action_preference_title">Privatni i sakriveni brojevi</string>
     <string name="quick_contact_checkbox_description">Odaberite kontakt</string>
     <string name="ready_for_recording">Priprema…</string>
     <string name="record_audio_pre_call_dialog_got_it">Razumijem</string>
@@ -1094,7 +1092,7 @@ Call Screen ne koristi prijenos podataka na mobilnoj mreži ni WiFi, ali koristi
     <string name="revelio_end_call_user_missed_internal_message">Poziv je propušten</string>
     <string name="revelio_pref_title">Call Screen</string>
     <string name="revelio_preference_summary_automatic_screening_off">Automatsko filtriranje je isključeno</string>
-    <string name="revelio_preference_summary_screening">Filtriranje %1$s</string>
+    <string name="revelio_preference_summary_screening">Ekran %1$s</string>
     <string name="revelio_save_audio_setting_summary">Sačuvajte zvuk iz poziva na koje je odgovorio asistent</string>
     <string name="revelio_save_audio_setting_title">Sačuvajte zvuk Call Screena</string>
     <string name="revelio_setting_title">Call Screen</string>
@@ -1168,7 +1166,6 @@ Call Screen ne koristi prijenos podataka na mobilnoj mreži ni WiFi, ali koristi
     <string name="set_default_account_description">Postavka SIM-a je sačuvana s kontaktima.</string>
     <string name="set_phone_as_default_explanation_text">Telefon može upućivati i primati pozive ako je postavljen kao vaša zadana aplikacija za telefon</string>
     <string name="set_phone_as_default_request_text">Postavite Telefon kao zadanu aplikaciju</string>
-    <string name="settings">Postavke</string>
     <string name="settings_page_call_recording_feature_not_available_text">Snimanje poziva nije dostupno na vašoj lokaciji</string>
     <string name="settings_page_crosby_feature_not_available_text">Nije dostupno na vašoj lokaciji</string>
     <string name="setup_duo_button_long_text">Postavi Duo video pozive</string>
@@ -1218,6 +1215,9 @@ Call Screen ne koristi prijenos podataka na mobilnoj mreži ni WiFi, ali koristi
     <string name="sounds_and_vibration_title">Zvukovi i vibracija</string>
     <string name="spam_action_preference_description">Brojevi koji se podudaraju s Googleovom bazom podataka o neželjenim pozivima</string>
     <string name="spam_action_preference_title">Neželjeno</string>
+    <string name="spam_after_call_notification_add_contact_action_text">Dodaj kontakt</string>
+    <string name="spam_after_call_notification_report_spam_action_text">Blokiraj i prijavi</string>
+    <string name="spam_aftercall_notification_unknown">Nepoznato</string>
     <string name="spam_and_call_screen_settings_title">Neželjeno i funkcija Call Screen</string>
     <string name="spam_blocking_promo_action_dismiss">Odbaci</string>
     <string name="spam_blocking_promo_action_filter_spam">Filtriraj neželjene pozive</string>
@@ -1229,6 +1229,9 @@ Call Screen ne koristi prijenos podataka na mobilnoj mreži ni WiFi, ali koristi
     <string name="spam_blocking_settings_enable_error_text">Problem prilikom uključivanja filtriranja neželjenih poziva</string>
     <string name="spam_blocking_settings_summary">Izbjegnite uznemiravanje potencijalno neželjenim pozivima</string>
     <string name="spam_blocking_settings_title">Filtriraj neželjene pozive</string>
+    <string name="spam_dialog_add_contact_action">Dodaj u kontakte</string>
+    <string name="spam_dialog_dismiss_action">Odbaci</string>
+    <string name="spam_notification_action_block_spam">Da, blokiraj broj</string>
     <string name="spam_notification_action_dismiss">Odbaci</string>
     <string name="spam_notification_add_contact_action_text">Dodaj kontakt</string>
     <string name="spam_notification_block_spam_action_text">Da, blokiraj broj</string>
@@ -1428,27 +1431,27 @@ Ako nastavite poziv, mogu nastati troškovi prijenosa podataka."</string>
     <string name="videocall_remotely_resumed">Poziv je nastavljen</string>
     <string name="videocall_settings_default_ask_every_time">Pitaj svaki put</string>
     <string name="videocall_settings_default_carrier">Video poziv putem mobilnog operatera</string>
-    <string name="videocall_settings_default_caution">This feature allows a user to choose a preferred video call solution and indicate the receiver’s video capability when it’s available. ^1</string>
-    <string name="videocall_settings_default_caution_learn_more">Learn more about preferred video services</string>
+    <string name="videocall_settings_default_caution">Odaberite način upućivanja video poziva i saznajte može li osoba koju zovete primiti poziv. ^1</string>
+    <string name="videocall_settings_default_caution_learn_more">Više o video pozivima</string>
     <string name="videocall_settings_default_duo">Google Duo</string>
     <string name="videocall_settings_default_title">Preferirana usluga video poziva</string>
-    <string name="videocall_settings_fallback_caution">"When “Use Google Duo as backup” (if applicable) is on and a call can't be completed using your preferred service, the call will automatically be attempted on Duo. ^1"</string>
-    <string name="videocall_settings_fallback_caution_learn_more">Learn more about Duo backup calling</string>
-    <string name="videocall_settings_fallback_summary">Prebaci na Duo ako preferirana usluga nije dostupna</string>
-    <string name="videocall_settings_fallback_title">Koristi Google Duo kao rezervnu uslugu</string>
+    <string name="videocall_settings_fallback_caution">Ako Google Duo koristite kao aplikaciju za pomoćno pozivanje i uključen je, Duo će automatski pokušati pozvati ako vaš operater ne može završiti video poziv. ^1</string>
+    <string name="videocall_settings_fallback_caution_learn_more">Više o Duu kao aplikaciji za pomoćno pozivanje</string>
+    <string name="videocall_settings_fallback_summary">Prebacite na Duo ako preferirana usluga nije dostupna</string>
+    <string name="videocall_settings_fallback_title">Koristite Duo kao rezervu</string>
     <string name="videocall_settings_title">Video pozivi</string>
     <string name="videocall_show_preview_button_description">Prikazivanje lokalnog sažetka sadržaja videozapisa</string>
     <string name="view_location_settings">Postavke lokacije</string>
     <string name="vitle_label">Video poz. putem LTE-a</string>
     <string name="viwifi_label">Video poziv putem WiFi-ja</string>
     <string name="vm_change_pin_error_invalid">Novi PIN sadrži nevažeće znakove.</string>
-    <string name="vm_change_pin_error_last_4_digits_msisdn">Novi PIN ne smije sadržavati zadnje četiri cifre vašeg broja telefona.</string>
+    <string name="vm_change_pin_error_last_4_digits_msisdn">PIN ne mogu biti zadnje 4 cifre vašeg broja telefona.</string>
     <string name="vm_change_pin_error_mismatch">Stari PIN se ne podudara.</string>
     <string name="vm_change_pin_error_system_error">Nije moguće promijeniti PIN</string>
     <string name="vm_change_pin_error_too_long">Novi PIN je predug.</string>
     <string name="vm_change_pin_error_too_short">Novi PIN je prekratak.</string>
     <string name="vm_change_pin_error_too_weak">Novi PIN je preslab. Jaka lozinka ne smije sadržavati uzastopni niz cifri ili ponovljene cifre.</string>
-    <string name="vm_change_pin_error_unchanged_pin">Novi PIN je isti kao trenutni. Unesite drugi PIN.</string>
+    <string name="vm_change_pin_error_unchanged_pin">Novi PIN ne može biti isti kao trenutni PIN.</string>
     <string name="vm_change_pin_progress_message">Pričekajte.</string>
     <string name="voice_call">Glasovni poziv</string>
     <string name="voice_call_button">Pozovi</string>
@@ -1470,11 +1473,9 @@ Ako nastavite poziv, mogu nastati troškovi prijenosa podataka."</string>
     <string name="voicemailMultiSelectDeleteConfirm">Izbriši</string>
     <string name="voicemail_action_call_customer_support">Pozovi podršku korisnicima</string>
     <string name="voicemail_action_call_voicemail">Pozovi govornu poštu</string>
-    <string name="voicemail_action_dimiss">Ne, hvala</string>
     <string name="voicemail_action_retry">Pokušaj ponovo</string>
     <string name="voicemail_action_set_pin">Postavi PIN</string>
     <string name="voicemail_action_sync">Sinhroniziraj</string>
-    <string name="voicemail_action_turn_archive_on">Uključi</string>
     <string name="voicemail_action_turn_off_airplane_mode">Postavke načina rada u avionu</string>
     <string name="voicemail_activating_summary_info">Aktiviranje govorne pošte</string>
     <string name="voicemail_advanced_settings_title">Napredne postavke</string>
@@ -1489,7 +1490,7 @@ Ako nastavite poziv, mogu nastati troškovi prijenosa podataka."</string>
     <string name="voicemail_change_pin_preference_summary_disable">Vizuelna govorna pošta mora biti omogućena za promjenu PIN-a</string>
     <string name="voicemail_change_pin_preference_summary_not_activated">Vizuelna govorna pošta još uvijek nije aktivirana, pokušajte ponovo kasnije</string>
     <string name="voicemail_change_pin_preference_title">Promijenite PIN</string>
-    <string name="voicemail_donate_preference_summary_info">Dozvolite da Google pregleda vaše poruke govorne pošte kako bi se poboljšala tačnost transkripcije. Poruke govorne pošte se pohranjuju anonimno. %1$s</string>
+    <string name="voicemail_donate_preference_summary_info">Dozvolite da Google pregleda vaše poruke govorne pošte kako bi se poboljšala tačnost transkripcije. Poruke govorne pošte se pohranjuju anonimno. ^1</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">Zbog korištenja vizuelne govorne pošte za SIM kartice bez prijenosa podataka mogu nastati troškovi mobilnog operatera</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">Vizuelna govorna pošta je dostupna samo za odabrane SIM-ove za prijenos podataka</string>
     <string name="voicemail_error_activating_message">Možda nećete primati obavještenja o govornoj pošti dok se vizuelna govorna pošta ne aktivira u potpunosti. U međuvremenu pozovite govornu poštu za preuzimanje novih poruka.</string>
@@ -1502,12 +1503,8 @@ Ako nastavite poziv, mogu nastati troškovi prijenosa podataka."</string>
     <string name="voicemail_error_bad_config_title">Nije moguće ažurirati vizuelnu govornu poštu</string>
     <string name="voicemail_error_communication_message">I dalje možete nazvati za provjeru govorne pošte.</string>
     <string name="voicemail_error_communication_title">Nije moguće ažurirati vizuelnu govornu poštu</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_message">Poštansko sanduče je skoro puno. Da oslobodite prostor, uključite dodatnu pohranu tako da Google može upravljati vašim porukama govorne pošte i praviti njihovu sigurnosnu kopiju.</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_title">Uključivanje dodatne pohrane i izrade sigurnosne kopije</string>
     <string name="voicemail_error_inbox_full_message">Vaša pristigla pošta je puna. Pokušajte izbrisati neke poruke da primite novu govornu poštu.</string>
     <string name="voicemail_error_inbox_full_title">Nije moguće primiti novu govornu poštu</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_message">Poštansko sanduče je puno. Da oslobodite prostor, uključite dodatnu pohranu tako da Google može upravljati vašim porukama govorne pošte i praviti njihovu sigurnosnu kopiju.</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_title">Uključivanje dodatne pohrane i sigurnosne kopije</string>
     <string name="voicemail_error_inbox_near_full_message">Nećete moći primati novu govornu poštu ako je vam je pristigla pošta puna.</string>
     <string name="voicemail_error_inbox_near_full_title">Pristigla pošta je skoro puna</string>
     <string name="voicemail_error_no_data_cellular_required_message">Pokušajte ponovo kada veza za prijenos podataka na mobilnoj mreži bude bolja. I dalje možete nazvati za provjeru govorne pošte.</string>
@@ -1540,7 +1537,7 @@ Ako nastavite poziv, mogu nastati troškovi prijenosa podataka."</string>
     <string name="voicemail_transcription_failed_language_not_supported">Transkript nije dostupan jer nije podržan jezik.</string>
     <string name="voicemail_transcription_failed_no_speech">Transkript nije dostupan jer nije prepoznat govor.</string>
     <string name="voicemail_transcription_in_progress">Transkripcija...</string>
-    <string name="voicemail_transcription_preference_summary_info">Preuzmite transkripte govorne pošte putem Googleove usluge transkripcije. %1$s</string>
+    <string name="voicemail_transcription_preference_summary_info">Preuzmite transkripte govorne pošte putem Googleove usluge transkripcije. ^1</string>
     <string name="voicemail_visual_voicemail_auto_archive_switch_title">Dodatna sigurnosna kopija i pohrana</string>
     <string name="voicemail_visual_voicemail_donation_switch_title">Analiza transkripcije govorne pošte</string>
     <string name="voicemail_visual_voicemail_switch_title">Vizuelna govorna pošta</string>
@@ -1596,7 +1593,7 @@ Ako nastavite poziv, mogu nastati troškovi prijenosa podataka."</string>
     <string name="wait_prompt_str">"Poslati sljedeće tonove?
 "</string>
     <string name="was_this_a_business_chip_text">Je li ovo preduzeće?</string>
-    <string name="was_this_a_business_dialog_body">Potvrđivanjem ove oznake pomažete Googleu da poboljša ID pozivaoca</string>
+    <string name="was_this_a_business_dialog_body">Potvrđivanjem ovog podatka pomažete Googleu da poboljša ID pozivaoca</string>
     <string name="was_this_a_business_dialog_negative_response">Ne</string>
     <string name="was_this_a_business_dialog_positive_response">Da</string>
     <string name="was_this_a_business_dialog_snackbar">Hvala vam na povratnim informacijama</string>

@@ -33,7 +33,7 @@
     <string name="add_another_carrier_msg1">သင့်ဝန်ဆောင်မှုပေးသူကို မတွေ့ဘူးလား။ %1$s</string>
     <string name="add_another_carrier_msg2">နောက်တစ်ခု ထည့်ရန်</string>
     <string name="add_profile_title">ဝန်ဆောင်မှုပေးသူကို ထည့်ရန်</string>
-    <string name="asked_for_eid">စတိုးတစ်ခုတွင် စဖွင့်သတ်မှတ်နေပါသလား။ ကိုယ်စားလှယ်တစ်ဦးက သင့် EID ကို မေးလျှင် သင်သည် %1$s ပြုလုပ်နိုင်ပါသည်။</string>
+    <string name="asked_for_eid">စတိုးတစ်ခုတွင် စဖွင့်သတ်မှတ်နေပါသလား။ ကိုယ်စားလှယ်တစ်ဦးက သင့် EID ကို မေးလျှင် %1$s။</string>
     <string name="available_space">နေရာလွတ်</string>
     <string name="back_button_error_msg">အမှားများမဖြစ်စေရန် စနစ်ထည့်သွင်းနေစဉ် ဤမျက်နှာပြင်မှ မထွက်ပါနှင့်</string>
     <string name="body_check_qr_code_or_go_back">မှန်ကန်သော QR ကုဒ်ကို စကင်ဖတ်နေခြင်း ရှိမရှိ စစ်ဆေးပါ။ ထပ်မံ စကင်ဖတ်ရန် ယခင်ဖန်သားပြင်သို့ ပြန်သွားပါ။</string>
@@ -259,6 +259,7 @@
     <string name="erase_sim_fail_title">ဆင်းမ်ကတ်ကို ဖျက်၍မရပါ</string>
     <string name="erasing_carriers">ဝန်ဆောင်မှုပေးသူများကို ပြင်ဆင်သတ်မှတ်နေပါသည်…</string>
     <string name="erasing_sim">ဆင်းမ်ကတ်ကို ဖျက်နေသည်…</string>
+    <string name="error_code_text">အမှားကုဒ်</string>
     <string name="error_icon_content_description">အမှား</string>
     <string name="error_screen_title_multiple_carrier">ကွန်ရက်ကို ဖွင့်မထားပါ</string>
     <string name="error_screen_title_single_carrier">%1$s ကို ဖွင့်မထားပါ</string>
@@ -344,6 +345,7 @@
     <string name="notification_single_carrier_name_known">{count,plural, =1{သင်၏ %1$s နံပါတ်ကို ထည့်ရန်အသင့်ဖြစ်ပါပြီ}other{သင်၏ %1$s နံပါတ်များကို ထည့်ရန်အသင့်ဖြစ်ပါပြီ}}</string>
     <string name="notification_tap_setup">စနစ်ထည့်သွင်းရန် တို့ပါ</string>
     <string name="open_source_licenses">အခမဲ့ရင်းမြစ်လိုင်စင်များ</string>
+    <string name="operation_code_text">လုပ်ငန်းဆောင်ရွက်မှုကုဒ်</string>
     <string name="os_version">OS ဗားရှင်း</string>
     <string name="ota_error_notification_msg">ပိတ်ပြီးပြန်ဖွင့်ပါက မိုဘိုင်းဝန်ဆောင်မှု ပြန်စပါလိမ့်မည်။</string>
     <string name="ota_error_notification_title">ဝန်ဆောင်မှုပေးသူ အပ်ဒိတ် မအောင်မြင်ပါ</string>
@@ -414,6 +416,7 @@
     <string name="reactivate_error_dialog_body">သင့်နံပါတ်ကို စဖွင့်နေစဉ် တစ်စုံတစ်ခုမှားသွားသည်။ နောက်မှ ထပ်စမ်းကြည့်ပါ သို့မဟုတ် သင့်ဆင်းမ်ကတ်ကို ပြန်ထည့်ပါ။</string>
     <string name="reactivate_error_dialog_title_with_carrier_name">%1$s ကို စဖွင့်အသုံးပြုခြင်း မရှိသေးပါ</string>
     <string name="reactivate_error_dialog_title_without_carrier_name">ဆင်းမ်ကတ်ကို စဖွင့်အသုံးပြုခြင်း မရှိသေးပါ</string>
+    <string name="reason_code_text">အကြောင်းပြချက်ကုဒ်</string>
     <string name="reboot_button_title">ဖုန်းကို ပြန်စရန်</string>
     <string name="remove_carrier_dialog_text_disabled">"ဤစက်က %1$s နှင့် ချိတ်ဆက်တော့မည် မဟုတ်ပါ။
 
@@ -475,11 +478,14 @@
     <string name="sim_missing_activity_reactivate_subtitle">လောလောဆယ် ထည့်သွင်းထားသည့် ဆင်းမ်ကတ်ကို ပြန်လည်၍ စဖွင့်အသုံးပြုပါ။ အခြားဆင်းမ်ကတ်တစ်ခုကို အသုံးပြုလိုလျှင် လက်ရှိဆင်းမ်ကတ်ကို ထုတ်ပြီး အသစ်တစ်ခုထည့်ပါ။</string>
     <string name="sim_missing_activity_reactivate_with_carrier_name">%1$s ကို ပြန်လည်၍ စဖွင့်အသုံးပြုရန်</string>
     <string name="sim_missing_activity_reactivate_without_carrier_name">ဆင်းမ်ကတ်ကို ပြန်လည်၍ စဖွင့်အသုံးပြုရန်</string>
+    <string name="sim_missing_activity_subtitle_with_esim_primary">သင့်ဆင်းမ်ကို ဒေါင်းလုဒ်လုပ်နိုင်သည် (သို့) ဆင်းမ်ကတ်ရှိပါက ယခုထည့်ပါ</string>
     <string name="sim_missing_activity_subtitle_with_psim">ဆင်းမ်ကတ်အသစ် အသုံးပြုရန် စက်အတွင်းရှိနေသည့်ကတ်ကို ဖယ်ရှားပါ။</string>
     <string name="sim_missing_activity_text_no_psim">သင့်တွင် ဆင်းမ်ကတ်ရှိလျှင် ယခုပင်ထည့်လိုက်ပါ</string>
+    <string name="sim_missing_activity_with_esim_primary_button_title">ဆင်းမ်ကတ် ဒေါင်းလုဒ်လုပ်ရန်</string>
     <string name="skip_button">ကျော်ရန်</string>
     <string name="status_bar_notification_info_overflow">၉၉၉+</string>
     <string name="status_title">အခြေအနေ</string>
+    <string name="subject_code_text">အကြောင်းအရာကုဒ်</string>
     <string name="sud_back_button_label">နောက်သို့</string>
     <string name="sud_more_button_label">နောက်ထပ်</string>
     <string name="sud_next_button_label">ရှေ့သို့</string>

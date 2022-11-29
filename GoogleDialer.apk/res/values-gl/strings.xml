@@ -63,7 +63,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript">^1, ^2, ^3.</string>
     <string name="a11y_new_call_log_entry_phone_account">no ^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">facer unha chamada RTT a ^1</string>
-    <string name="a11y_new_call_log_entry_tap_action">desprega o menú</string>
+    <string name="a11y_new_call_log_entry_tap_action">desprega ou contrae o menú</string>
     <string name="a11y_new_call_log_entry_video_call">fai unha videochamada a ^1</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">fai unha videochamada a ^1 a través de redes wifi</string>
     <string name="a11y_new_call_log_entry_voice_call">chama a ^1</string>
@@ -191,6 +191,7 @@ As gravacións almacénanse só no teu teléfono. ^1"</string>
     <string name="atlas_soda_banner_feature_text">Hold for Me</string>
     <string name="atlas_temp_service_notification_title">Iniciando unha chamada con Hold for Me</string>
     <string name="atlas_warning_text_for_second_incoming_call">Se respondes a esta chamada, cerrarase Hold for Me</string>
+    <string name="audio_route_item_checked_description">Marcado</string>
     <string name="audioroute_bluetooth">Bluetooth</string>
     <string name="audioroute_headset">Auriculares con cable</string>
     <string name="audioroute_phone">Teléfono</string>
@@ -235,6 +236,7 @@ As gravacións almacénanse só no teu teléfono. ^1"</string>
     <string name="bm_suggest_wait_time_estimating">"Chat
 funcionando…"</string>
     <string name="bottomsheet_action_expand_halfway">Despregar ata a metade</string>
+    <string name="bottomsheet_drag_handle_content_description">Controlador de arrastre</string>
     <string name="bubble_bottom_action_end_call">Finalizar chamada</string>
     <string name="bubble_bottom_action_hide">Ocultar</string>
     <string name="bubble_return_to_call">Volver á chamada</string>
@@ -582,10 +584,8 @@ Envía axuda."</string>
     <string name="copy_number">Copiar número</string>
     <string name="create_new_contact">Crear novo contacto</string>
     <string name="crosby_setting_title">Gravación de chamadas</string>
-    <string name="crystal_clear_audio_setting_title">Chamadas de audio nítido</string>
     <string name="current_voicemail_greeting_record_instruction">Grava un saúdo</string>
     <string name="current_voicemail_greeting_recording_title">O meu saúdo do correo de voz</string>
-    <string name="custom_message_hint">Escribe unha mensaxe personalizada</string>
     <string name="custom_prefix_add_prefix_to_call_entry_always_add_prefix">Engadir prefixo sempre</string>
     <string name="custom_prefix_add_prefix_to_call_entry_ask_before_dialing">Preguntar antes de marcar</string>
     <string name="custom_prefix_add_prefix_to_call_entry_never_add_prefix">Non engadir prefixo nunca</string>
@@ -670,11 +670,11 @@ Envía axuda."</string>
     <string name="display_options_view_given_name_first">Primeiro o nome</string>
     <string name="display_options_view_names_as">Formato do nome</string>
     <string name="do_not_show_again">Non mostrar de novo</string>
-    <string name="duo_fallback_dialog_do_not_show_again_label">Lembrar esta opción</string>
-    <string name="duo_fallback_dialog_message">Non se puido facer a videochamada a través do operador. Proba a usar Duo.</string>
-    <string name="duo_fallback_dialog_negative_button_label">Cancelar</string>
-    <string name="duo_fallback_dialog_positive_button_label">Usar Duo</string>
-    <string name="duo_fallback_dialog_title">Queres probar con Google Duo?</string>
+    <string name="duo_fallback_dialog_do_not_show_again_label">Recordar Duo como método alternativo para todas as chamadas. Podes xestionala na configuración cando queiras.</string>
+    <string name="duo_fallback_dialog_message">Duo tentará facer a chamada automaticamente se o teu operador non pode.</string>
+    <string name="duo_fallback_dialog_negative_button_label">Non, grazas</string>
+    <string name="duo_fallback_dialog_positive_button_label">Definir Duo como método alternativo</string>
+    <string name="duo_fallback_dialog_title">Queres usar Google Duo como método alternativo para facer chamadas?</string>
     <string name="edit_number_before_call">Editar número antes de chamar</string>
     <string name="emergency_assist_address_sentence">A miña localización é %1$s.</string>
     <string name="emergency_assist_button_fire">Lume</string>
@@ -696,6 +696,7 @@ O teléfono desta persoa detectou unha emerxencia. Envía axuda. É posible que 
     <string name="emergency_voice_assist_dialog_button_close">Cancelar</string>
     <string name="emergency_voice_assist_dialog_title">Isto é o que escoita o operador do servizo de urxencias</string>
     <string name="end_call_with_default_message_description">Finaliza a chamada</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_icon_content_description">Produciuse un erro</string>
     <string name="error_unable_to_get_audio">Non se puido obter un audio de mostra</string>
     <string name="error_unable_to_play_audio">Non se puido reproducir o audio de mostra</string>
@@ -740,7 +741,7 @@ O teléfono desta persoa detectou unha emerxencia. Envía axuda. É posible que 
     <string name="first_time_dialog_duo_video_call_label">Google Duo</string>
     <string name="first_time_dialog_negative_button_label">Cancelar</string>
     <string name="first_time_dialog_positive_button_label">Seleccionar</string>
-    <string name="first_time_dialog_remember_this_choice_label">Lembrar esta opción</string>
+    <string name="first_time_dialog_remember_this_choice_label">Recordar esta opción para todas as chamadas. Podes xestionala na configuración cando queiras.</string>
     <string name="first_time_dialog_title">Seleccionar servizo de videochamadas</string>
     <string name="flip_to_shush_title">Voltear para silenciar</string>
     <string name="flip_to_silence_summary">Para silenciar unha chamada entrante, pon o teléfono cara abaixo nunha superficie plana</string>
@@ -788,6 +789,8 @@ O teléfono desta persoa detectou unha emerxencia. Envía axuda. É posible que 
     <string name="incall_content_description_hold">Poñer en espera</string>
     <string name="incall_content_description_merge_calls">Combinar chamadas</string>
     <string name="incall_content_description_muted">Ignorada</string>
+    <string name="incall_content_description_show_less">Mostrar menos</string>
+    <string name="incall_content_description_show_more">Mostrar máis</string>
     <string name="incall_content_description_speaker">Altofalante</string>
     <string name="incall_content_description_swap_calls">Alternar chamadas</string>
     <string name="incall_content_description_swap_sim">Cambia a SIM</string>
@@ -803,6 +806,7 @@ O teléfono desta persoa detectou unha emerxencia. Envía axuda. É posible que 
     <string name="incall_label_hold">En espera</string>
     <string name="incall_label_manage">Xestionar</string>
     <string name="incall_label_merge">Combinar</string>
+    <string name="incall_label_more">Máis</string>
     <string name="incall_label_mute">Silenciar</string>
     <string name="incall_label_record">Gravar</string>
     <string name="incall_label_record_checked">Deter gravación</string>
@@ -835,15 +839,9 @@ O teléfono desta persoa detectou unha emerxencia. Envía axuda. É posible que 
     <string name="join_call_with_default_message_description">Úneste á chamada</string>
     <string name="just_now">Agora mesmo</string>
     <string name="lat_long_format">%1$f, %2$f</string>
+    <string name="launch_application_settings">Configuración</string>
     <string name="launcherActivityLabel">Teléfono</string>
     <string name="learn_more_text_for_tmo">Vai a T-Mobile para obter máis información</string>
-    <string name="legacy_post_call_message">Di por que chamaches</string>
-    <string name="legacy_post_call_message_1">É urxente. Chámame.</string>
-    <string name="legacy_post_call_message_2">Chámame cando teñas tempo.</string>
-    <string name="legacy_post_call_message_3">Non é urxente. Podemos falar máis tarde.</string>
-    <string name="legacy_post_call_message_sent">Enviouse a mensaxe</string>
-    <string name="legacy_post_call_send_message">Envía a mensaxe</string>
-    <string name="legacy_post_call_view">Ver</string>
     <string name="libraries_material_featurehighlight_dismiss">Ignorar</string>
     <string name="license_activity_label">Licenzas de código aberto</string>
     <string name="light_theme_label">Luz</string>
@@ -868,6 +866,7 @@ O teléfono desta persoa detectou unha emerxencia. Envía axuda. É posible que 
     <string name="mdd_notification_action_cancel">Cancelar</string>
     <string name="mdd_notification_download_failed">Produciuse un erro durante a descarga</string>
     <string name="mdd_notification_download_paused">Agardando pola conexión de rede</string>
+    <string name="mdd_notification_download_paused_wifi">Esperando pola conexión wifi</string>
     <string name="meid_number">MEID, %s</string>
     <string name="menu_callNumber">Chamar ao %s</string>
     <string name="merge_calls_confirm_message">Combina as túas chamadas só tes a certeza de que todos saben quen estará na chamada combinada</string>
@@ -907,11 +906,9 @@ O teléfono desta persoa detectou unha emerxencia. Envía axuda. É posible que 
     <string name="nearbyplaces_account_setting_title">Conta de Google</string>
     <string name="new_call_log_activity_title">Historial de chamadas</string>
     <string name="new_call_log_all_title">Todo</string>
-    <string name="new_call_log_carrier_video">Vídeo do operador</string>
     <string name="new_call_log_clear_call_log_confirmation">Esta acción eliminará todas as chamadas do teu historial</string>
     <string name="new_call_log_clear_call_log_confirmation_title">Queres borrar o historial de chamadas?</string>
     <string name="new_call_log_delete_all">Borrar historial de chamadas</string>
-    <string name="new_call_log_duo_video">Vídeo de Duo</string>
     <string name="new_call_log_empty">As chamadas que fagas mostraranse aquí</string>
     <string name="new_call_log_generic_video">Vídeo</string>
     <string name="new_call_log_header_older">Anteriores</string>
@@ -929,6 +926,7 @@ O teléfono desta persoa detectou unha emerxencia. Envía axuda. É posible que 
     <string name="new_permission_no_search">Para buscar os teus contactos, activa os permisos de Contactos.</string>
     <string name="non_contact_always_record_dialog_title">Queres gravar sempre as chamadas dos números que non aparecen nos teus contactos?</string>
     <string name="non_contact_toggle_label">Números que non aparecen nos teus contactos</string>
+    <string name="non_spam_aftercall_notification_title">Coñeces o %1$s?</string>
     <string name="non_spam_notification_title">Coñeces o %1$s?</string>
     <string name="not_set">Sen configurar</string>
     <string name="notification_action_accept">Aceptar</string>
@@ -979,7 +977,7 @@ O teléfono desta persoa detectou unha emerxencia. Envía axuda. É posible que 
     <string name="notification_ongoing_call">Chamada en curso</string>
     <string name="notification_ongoing_call_multi_sim">Chamada en curso a través de %1$s</string>
     <string name="notification_ongoing_call_wifi_template">%1$s en curso</string>
-    <string name="notification_ongoing_call_wifi_template_multi_sim">Chamada por %1$s en curso a través de %1$s</string>
+    <string name="notification_ongoing_call_wifi_template_multi_sim">Ongoing %1$s via %2$s</string>
     <string name="notification_ongoing_paused_video_call">Videochamada a través do operador en curso: vídeo en pausa</string>
     <string name="notification_ongoing_paused_video_call_multi_sim">Videochamada en curso a través do operador (%1$s): vídeo pausado</string>
     <string name="notification_ongoing_video_call">Videochamada a través do operador en curso</string>
@@ -992,7 +990,7 @@ O teléfono desta persoa detectou unha emerxencia. Envía axuda. É posible que 
     <string name="notification_take_call">Contestar a chamada</string>
     <string name="notification_take_video_call">Contestar a videochamada</string>
     <string name="notification_voicemail_callers_list">%1$s, %2$s</string>
-    <string name="notification_voicemail_no_vm_number">Número de correo de voz descoñecido</string>
+    <string name="notification_voicemail_no_vm_number">Para configurar o correo de voz, accede a Menú > Configuración.</string>
     <string name="notification_voicemail_text_format">Marca o %s</string>
     <string name="old_block_number_confirmation_title">Queres bloquear o %1$s?</string>
     <string name="openhistory_button_label">Historial</string>
@@ -1047,7 +1045,7 @@ Con todo, podes facer videochamadas con algúns números sen actualizar a config
     <string name="private_num_non_verizon">Número privado</string>
     <string name="private_num_verizon">Restrinxido</string>
     <string name="private_or_hidden_action_preference_description">Emisores da chamada que ocultan o seu identificador de chamada</string>
-    <string name="private_or_hidden_action_preference_title">Privado ou oculto</string>
+    <string name="private_or_hidden_action_preference_title">Números privados e ocultos</string>
     <string name="quick_contact_checkbox_description">Selecciona un contacto</string>
     <string name="ready_for_recording">Listo!</string>
     <string name="record_audio_pre_call_dialog_got_it">Entendido</string>
@@ -1094,7 +1092,7 @@ Co filtrado de chamadas non se usan datos nin wifi, pero si minutos de chamada a
     <string name="revelio_end_call_user_missed_internal_message">Perdeuse a chamada</string>
     <string name="revelio_pref_title">Filtrado de chamadas</string>
     <string name="revelio_preference_summary_automatic_screening_off">Filtrado automático desactivado</string>
-    <string name="revelio_preference_summary_screening">Filtrado de %1$s</string>
+    <string name="revelio_preference_summary_screening">Pantalla %1$s</string>
     <string name="revelio_save_audio_setting_summary">Gardar o audio das chamadas que responda o asistente</string>
     <string name="revelio_save_audio_setting_title">Gardar audio do filtrado de chamadas</string>
     <string name="revelio_setting_title">Filtrado de chamadas</string>
@@ -1168,7 +1166,6 @@ Co filtrado de chamadas non se usan datos nin wifi, pero si minutos de chamada a
     <string name="set_default_account_description">A preferencia de SIM gárdase cos teus contactos.</string>
     <string name="set_phone_as_default_explanation_text">Teléfono só pode iniciar e recibir chamadas se é a aplicación de telefonía predeterminada</string>
     <string name="set_phone_as_default_request_text">Definir a aplicación Teléfono como predeterminada</string>
-    <string name="settings">Configuración</string>
     <string name="settings_page_call_recording_feature_not_available_text">A gravación de chamadas non está dispoñible na túa localización</string>
     <string name="settings_page_crosby_feature_not_available_text">Non está dispoñible na túa localización</string>
     <string name="setup_duo_button_long_text">Configurar videochamadas Duo</string>
@@ -1218,6 +1215,9 @@ Co filtrado de chamadas non se usan datos nin wifi, pero si minutos de chamada a
     <string name="sounds_and_vibration_title">Sons e vibración</string>
     <string name="spam_action_preference_description">Números que coinciden coa base de datos de spam de Google</string>
     <string name="spam_action_preference_title">Spam</string>
+    <string name="spam_after_call_notification_add_contact_action_text">Engadir contacto</string>
+    <string name="spam_after_call_notification_report_spam_action_text">Bloquear e informar</string>
+    <string name="spam_aftercall_notification_unknown">Descoñecido</string>
     <string name="spam_and_call_screen_settings_title">Filtrado de chamadas e de spam</string>
     <string name="spam_blocking_promo_action_dismiss">Ignorar</string>
     <string name="spam_blocking_promo_action_filter_spam">Filtrar spam</string>
@@ -1229,6 +1229,9 @@ Co filtrado de chamadas non se usan datos nin wifi, pero si minutos de chamada a
     <string name="spam_blocking_settings_enable_error_text">Produciuse un problema ao activar o filtrado de spam</string>
     <string name="spam_blocking_settings_summary">Evitar que che molesten posibles chamadas de spam</string>
     <string name="spam_blocking_settings_title">Filtrar chamadas de spam</string>
+    <string name="spam_dialog_add_contact_action">Engadir aos contactos</string>
+    <string name="spam_dialog_dismiss_action">Ignorar</string>
+    <string name="spam_notification_action_block_spam">Si, bloquear número</string>
     <string name="spam_notification_action_dismiss">Ignorar</string>
     <string name="spam_notification_add_contact_action_text">Engadir contacto</string>
     <string name="spam_notification_block_spam_action_text">Si, bloquear número</string>
@@ -1428,27 +1431,27 @@ Neste caso, aplicarase o uso de datos."</string>
     <string name="videocall_remotely_resumed">Retomouse a chamada</string>
     <string name="videocall_settings_default_ask_every_time">Preguntar sempre</string>
     <string name="videocall_settings_default_carrier">Videochamada a través do operador</string>
-    <string name="videocall_settings_default_caution">This feature allows a user to choose a preferred video call solution and indicate the receiver’s video capability when it’s available. ^1</string>
-    <string name="videocall_settings_default_caution_learn_more">Learn more about preferred video services</string>
+    <string name="videocall_settings_default_caution">Selecciona como queres facer as videochamadas e saber se a persoa que estás chamando pode recibila. ^1</string>
+    <string name="videocall_settings_default_caution_learn_more">Máis información sobre as videochamadas</string>
     <string name="videocall_settings_default_duo">Google Duo</string>
     <string name="videocall_settings_default_title">Servizo de videochamadas preferido</string>
-    <string name="videocall_settings_fallback_caution">"When “Use Google Duo as backup” (if applicable) is on and a call can't be completed using your preferred service, the call will automatically be attempted on Duo. ^1"</string>
-    <string name="videocall_settings_fallback_caution_learn_more">Learn more about Duo backup calling</string>
+    <string name="videocall_settings_fallback_caution">Se tes Google Duo como método alternativo para facer videochamadas e está activado, Duo tentará chamar automaticamente cando o operador non poida. ^1</string>
+    <string name="videocall_settings_fallback_caution_learn_more">Máis información sobre Duo como método de chamadas alternativo</string>
     <string name="videocall_settings_fallback_summary">Cambia a Duo se o servizo preferido non está dispoñible</string>
-    <string name="videocall_settings_fallback_title">Usar Google Duo como método alternativo</string>
+    <string name="videocall_settings_fallback_title">Usa Duo como alternativa</string>
     <string name="videocall_settings_title">Videochamadas</string>
     <string name="videocall_show_preview_button_description">Mostra o feed de vídeo local</string>
     <string name="view_location_settings">Configuración de localización</string>
     <string name="vitle_label">Vídeo por LTE</string>
     <string name="viwifi_label">Vídeo por wifi</string>
     <string name="vm_change_pin_error_invalid">O novo PIN contén caracteres non válidos.</string>
-    <string name="vm_change_pin_error_last_4_digits_msisdn">O PIN novo non pode ser os últimos catro díxitos do teu número de teléfono.</string>
+    <string name="vm_change_pin_error_last_4_digits_msisdn">"Your PIN can't be the last 4 digits of your phone number."</string>
     <string name="vm_change_pin_error_mismatch">O PIN antigo non coincide.</string>
     <string name="vm_change_pin_error_system_error">Non se puido cambiar o PIN</string>
     <string name="vm_change_pin_error_too_long">O novo PIN é demasiado longo.</string>
     <string name="vm_change_pin_error_too_short">O novo PIN é demasiado curto.</string>
     <string name="vm_change_pin_error_too_weak">O novo PIN é pouco seguro. Para que sexa seguro, non debe conter secuencias continuas nin díxitos repetidos.</string>
-    <string name="vm_change_pin_error_unchanged_pin">O PIN novo é o mesmo que o actual. Introduce outro PIN.</string>
+    <string name="vm_change_pin_error_unchanged_pin">"Your new PIN can't be the same as your current PIN."</string>
     <string name="vm_change_pin_progress_message">Agarda.</string>
     <string name="voice_call">Chamada de voz</string>
     <string name="voice_call_button">Chamar</string>
@@ -1470,11 +1473,9 @@ Neste caso, aplicarase o uso de datos."</string>
     <string name="voicemailMultiSelectDeleteConfirm">Eliminar</string>
     <string name="voicemail_action_call_customer_support">Chamar a Atención ao cliente</string>
     <string name="voicemail_action_call_voicemail">Chamar ao correo de voz</string>
-    <string name="voicemail_action_dimiss">Non, grazas</string>
     <string name="voicemail_action_retry">Tentar de novo</string>
     <string name="voicemail_action_set_pin">Establecer PIN</string>
     <string name="voicemail_action_sync">Sincronizar</string>
-    <string name="voicemail_action_turn_archive_on">Activar</string>
     <string name="voicemail_action_turn_off_airplane_mode">Configuración do modo avión</string>
     <string name="voicemail_activating_summary_info">Activando correo de voz</string>
     <string name="voicemail_advanced_settings_title">Configuración avanzada</string>
@@ -1489,7 +1490,7 @@ Neste caso, aplicarase o uso de datos."</string>
     <string name="voicemail_change_pin_preference_summary_disable">Para poder cambiar o PIN, o correo de voz visual ten que estar activado</string>
     <string name="voicemail_change_pin_preference_summary_not_activated">O correo de voz visual aínda non está activado. Téntao de novo máis tarde</string>
     <string name="voicemail_change_pin_preference_title">Cambiar PIN</string>
-    <string name="voicemail_donate_preference_summary_info">Permite que Google revise as mensaxes do teu correo de voz para poder mellorar a precisión das transcricións. As mensaxes do teu correo de voz almacénanse de maneira anónima. %1$s</string>
+    <string name="voicemail_donate_preference_summary_info">Permite que Google revise as mensaxes do teu correo de voz para poder mellorar a precisión das transcricións. As mensaxes do teu correo de voz almacénanse de maneira anónima. ^1</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">O operador pode aplicar cargos polo uso do correo de voz visual con SIM sen datos</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">O correo de voz visual só está dispoñible para a SIM de datos seleccionada</string>
     <string name="voicemail_error_activating_message">É posible que non recibas notificacións do correo de voz ata que se active por completo o correo de voz visual. Mentres tanto, podes chamar ao correo de voz para consultar as mensaxes novas.</string>
@@ -1502,12 +1503,8 @@ Neste caso, aplicarase o uso de datos."</string>
     <string name="voicemail_error_bad_config_title">Non se puido actualizar o correo de voz visual</string>
     <string name="voicemail_error_communication_message">Así e todo podes chamar para comprobar o correo de voz.</string>
     <string name="voicemail_error_communication_title">Non se puido actualizar o correo de voz visual</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_message">A túa caixa de correo está case chea. Para liberar espazo, activa o almacenamento adicional, de modo que Google poida xestionar as túas mensaxes do correo de voz e facer unha copia de seguranza.</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_title">Activa o almacenamento adicional e a copia de seguranza</string>
     <string name="voicemail_error_inbox_full_message">A caixa de entrada está chea. Proba a eliminar algunhas mensaxes para recibir correos de voz novos.</string>
     <string name="voicemail_error_inbox_full_title">Non se pode recibir ningún correo de voz novo</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_message">A túa caixa de correo está chea. Para liberar espazo, activa o almacenamento adicional, de modo que Google poida xestionar as túas mensaxes do correo de voz e facer unha copia de seguranza.</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_title">Activa o almacenamento adicional e a copia de seguranza</string>
     <string name="voicemail_error_inbox_near_full_message">Non poderás recibir ningún correo de voz novo se a caixa de entrada está chea.</string>
     <string name="voicemail_error_inbox_near_full_title">A caixa de entrada está case chea</string>
     <string name="voicemail_error_no_data_cellular_required_message">Téntao de novo cando a túa conexión de datos móbiles sexa mellor. Así e todo podes chamar para comprobar o correo de voz.</string>
@@ -1540,7 +1537,7 @@ Neste caso, aplicarase o uso de datos."</string>
     <string name="voicemail_transcription_failed_language_not_supported">Transcrición non dispoñible. Non se admite o idioma.</string>
     <string name="voicemail_transcription_failed_no_speech">Transcrición non dispoñible. Non se detectou ningunha voz.</string>
     <string name="voicemail_transcription_in_progress">Transcribindo…</string>
-    <string name="voicemail_transcription_preference_summary_info">Obtén transcricións dos teus correos de voz co servizo de transcrición de Google. %1$s</string>
+    <string name="voicemail_transcription_preference_summary_info">Obtén transcricións dos teus correos de voz co servizo de transcrición de Google. ^1</string>
     <string name="voicemail_visual_voicemail_auto_archive_switch_title">Copia de seguranza e almacenamento extra</string>
     <string name="voicemail_visual_voicemail_donation_switch_title">Análise dos correos de voz transcritos</string>
     <string name="voicemail_visual_voicemail_switch_title">Correo de voz visual</string>
@@ -1596,7 +1593,7 @@ Neste caso, aplicarase o uso de datos."</string>
     <string name="wait_prompt_str">"Enviar os seguintes tons?
 "</string>
     <string name="was_this_a_business_chip_text">Era unha empresa?</string>
-    <string name="was_this_a_business_dialog_body">Se confirmas esta etiqueta, axudas a Google a mellorar o identificador de chamada</string>
+    <string name="was_this_a_business_dialog_body">Se confirmas este número, axudas a Google a mellorar o identificador de chamada</string>
     <string name="was_this_a_business_dialog_negative_response">Non</string>
     <string name="was_this_a_business_dialog_positive_response">Si</string>
     <string name="was_this_a_business_dialog_snackbar">Grazas polos teus comentarios</string>

@@ -32,6 +32,21 @@
         <item>@id/cast_button_type_skip_next</item>
         <item>@id/cast_button_type_mute_toggle</item>
     </array>
+    <string-array name="chime_environment_entries">
+        <item>Dev</item>
+        <item>Staging</item>
+        <item>Autopush Proddata</item>
+        <item>Autopush Qual Playground</item>
+        <item>Autopush</item>
+        <item>Production</item>
+    </string-array>
+    <string-array name="chime_environment_values">
+        <item>DEV</item>
+        <item>STAGING</item>
+        <item>AUTOPUSH_QUAL_PLAYGROUND</item>
+        <item>AUTOPUSH</item>
+        <item>PRODUCTION</item>
+    </string-array>
     <array name="com_google_android_gms_fonts_certs">
         <item>@array/com_google_android_gms_fonts_certs_dev</item>
         <item>@array/com_google_android_gms_fonts_certs_prod</item>
@@ -46,8 +61,18 @@
         <item>@string/download_when_on_wifi</item>
         <item>@string/download_on_any_network</item>
     </string-array>
+    <string-array name="download_network_entries_v2">
+        <item>@string/download_when_on_wifi</item>
+        <item>@string/download_when_on_wifi_and_unrestricted_data</item>
+        <item>@string/download_on_any_network</item>
+    </string-array>
     <string-array name="download_network_values">
         <item>@string/wifi</item>
+        <item>@string/any</item>
+    </string-array>
+    <string-array name="download_network_values_v2">
+        <item>@string/wifi</item>
+        <item>@string/wifi_and_unrestricted</item>
         <item>@string/any</item>
     </string-array>
     <string-array name="download_quality_entries">
@@ -68,6 +93,120 @@
         <item>1</item>
         <item>2</item>
     </string-array>
+    <string-array name="gtv_launched_countries">
+        <item>US</item>
+        <item>NL</item>
+        <item>NO</item>
+        <item>SE</item>
+        <item>DK</item>
+        <item>FI</item>
+        <item>TW</item>
+        <item>AM</item>
+        <item>AZ</item>
+        <item>KH</item>
+        <item>FJ</item>
+        <item>HK</item>
+        <item>ID</item>
+        <item>KZ</item>
+        <item>KG</item>
+        <item>LA</item>
+        <item>MY</item>
+        <item>NP</item>
+        <item>PG</item>
+        <item>PH</item>
+        <item>SG</item>
+        <item>LK</item>
+        <item>TJ</item>
+        <item>TH</item>
+        <item>TM</item>
+        <item>UZ</item>
+        <item>VN</item>
+        <item>AL</item>
+        <item>AO</item>
+        <item>BH</item>
+        <item>BY</item>
+        <item>BJ</item>
+        <item>BA</item>
+        <item>BW</item>
+        <item>BF</item>
+        <item>CV</item>
+        <item>HR</item>
+        <item>CY</item>
+        <item>CZ</item>
+        <item>EG</item>
+        <item>EE</item>
+        <item>GA</item>
+        <item>GR</item>
+        <item>HU</item>
+        <item>IS</item>
+        <item>CI</item>
+        <item>JO</item>
+        <item>KW</item>
+        <item>LV</item>
+        <item>LB</item>
+        <item>LT</item>
+        <item>LU</item>
+        <item>MK</item>
+        <item>ML</item>
+        <item>MT</item>
+        <item>MU</item>
+        <item>MD</item>
+        <item>NA</item>
+        <item>NE</item>
+        <item>OM</item>
+        <item>PL</item>
+        <item>PT</item>
+        <item>QA</item>
+        <item>RU</item>
+        <item>RW</item>
+        <item>SA</item>
+        <item>SN</item>
+        <item>SK</item>
+        <item>SI</item>
+        <item>TZ</item>
+        <item>TG</item>
+        <item>TR</item>
+        <item>UG</item>
+        <item>UA</item>
+        <item>AE</item>
+        <item>ZM</item>
+        <item>ZW</item>
+        <item>AG</item>
+        <item>AR</item>
+        <item>BZ</item>
+        <item>BO</item>
+        <item>CL</item>
+        <item>CO</item>
+        <item>CR</item>
+        <item>DO</item>
+        <item>EC</item>
+        <item>SV</item>
+        <item>GT</item>
+        <item>HT</item>
+        <item>HN</item>
+        <item>JM</item>
+        <item>NI</item>
+        <item>PA</item>
+        <item>PY</item>
+        <item>PE</item>
+        <item>TT</item>
+        <item>UY</item>
+        <item>VE</item>
+        <item>AT</item>
+        <item>AU</item>
+        <item>BE</item>
+        <item>CA</item>
+        <item>CH</item>
+        <item>DE</item>
+        <item>ES</item>
+        <item>FR</item>
+        <item>GB</item>
+        <item>IE</item>
+        <item>IN</item>
+        <item>IT</item>
+        <item>JP</item>
+        <item>MX</item>
+    </string-array>
     <string-array name="nur_hostname_entries">
         <item>"Don't Override"</item>
         <item>Autopush</item>
@@ -85,6 +224,30 @@
         <item>staging-playmoviesdfe-pa.sandbox.googleapis.com</item>
         <item>playmoviesdfe-pa.googleapis.com</item>
         <item>qa-playmoviesdfe-pa.sandbox.googleapis.com</item>
+    </string-array>
+    <string-array name="slendro_hostname_entries">
+        <item>"Don't Override"</item>
+        <item>Autopush</item>
+        <item>Daily 0</item>
+        <item>Daily 1</item>
+        <item>Daily 2</item>
+        <item>Daily 3</item>
+        <item>Daily 4</item>
+        <item>Daily 5</item>
+        <item>Daily 6</item>
+        <item>Prod</item>
+    </string-array>
+    <string-array name="slendro_hostname_values">
+        <item>DONT_OVERRIDE</item>
+        <item>autopush-androidtvgtvmfe-pa.sandbox.googleapis.com</item>
+        <item>daily0-androidtvgtvmfe-pa.sandbox.googleapis.com</item>
+        <item>daily1-androidtvgtvmfe-pa.sandbox.googleapis.com</item>
+        <item>daily2-androidtvgtvmfe-pa.sandbox.googleapis.com</item>
+        <item>daily3-androidtvgtvmfe-pa.sandbox.googleapis.com</item>
+        <item>daily4-androidtvgtvmfe-pa.sandbox.googleapis.com</item>
+        <item>daily5-androidtvgtvmfe-pa.sandbox.googleapis.com</item>
+        <item>daily6-androidtvgtvmfe-pa.sandbox.googleapis.com</item>
+        <item>androidtvgtvmfe-pa.googleapis.com</item>
     </string-array>
     <array name="storage_bar_colors">
         <item>@color/storage_bar_other</item>

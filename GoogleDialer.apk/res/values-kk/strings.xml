@@ -63,7 +63,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript">^1, ^2, ^3.</string>
     <string name="a11y_new_call_log_entry_phone_account">^1 аккаунтында</string>
     <string name="a11y_new_call_log_entry_rtt_call">RTT қоңырауын шалу: ^1</string>
-    <string name="a11y_new_call_log_entry_tap_action">мәзірді жаю</string>
+    <string name="a11y_new_call_log_entry_tap_action">мәзірді жаю немесе жию</string>
     <string name="a11y_new_call_log_entry_video_call">бейне қоңырау шалу: ^1</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">контактіге (^1) Wi-Fi арқылы бейнеқоңырау шалу</string>
     <string name="a11y_new_call_log_entry_voice_call">қоңырау шалу: ^1</string>
@@ -191,6 +191,7 @@
     <string name="atlas_soda_banner_feature_text">Hold for Me</string>
     <string name="atlas_temp_service_notification_title">Hold for Me қоңырауы дайындалуда</string>
     <string name="atlas_warning_text_for_second_incoming_call">Бұл қоңырауға жауап берсеңіз, Hold for Me мүмкіндігі өшіріледі.</string>
+    <string name="audio_route_item_checked_description">Белгіленді</string>
     <string name="audioroute_bluetooth">Bluetooth</string>
     <string name="audioroute_headset">Сымды гарнитура</string>
     <string name="audioroute_phone">Телефон</string>
@@ -235,6 +236,7 @@
     <string name="bm_suggest_wait_time_estimating">"Чат
 Жүктелуде…"</string>
     <string name="bottomsheet_action_expand_halfway">Жартылай кеңейту</string>
+    <string name="bottomsheet_drag_handle_content_description">Сүйрейтін тетік</string>
     <string name="bubble_bottom_action_end_call">Қоңырауды аяқтау</string>
     <string name="bubble_bottom_action_hide">Жасыру</string>
     <string name="bubble_return_to_call">Қоңырауға оралу</string>
@@ -582,10 +584,8 @@
     <string name="copy_number">Нөмірді көшіру</string>
     <string name="create_new_contact">Жаңа контакт қосу</string>
     <string name="crosby_setting_title">Қоңырауды жазу</string>
-    <string name="crystal_clear_audio_setting_title">Дыбысы анық қоңырау</string>
     <string name="current_voicemail_greeting_record_instruction">Сәлемдесу мәтінін жазу</string>
     <string name="current_voicemail_greeting_recording_title">Дауыстық поштаның сәлемдесу мәтіні</string>
-    <string name="custom_message_hint">Арнаулы хабар жазу</string>
     <string name="custom_prefix_add_prefix_to_call_entry_always_add_prefix">Префиксті әрдайым қосу</string>
     <string name="custom_prefix_add_prefix_to_call_entry_ask_before_dialing">Терудің алдында сұрау</string>
     <string name="custom_prefix_add_prefix_to_call_entry_never_add_prefix">Префиксті ешқашан қоспау</string>
@@ -670,11 +670,11 @@
     <string name="display_options_view_given_name_first">Алдымен аты</string>
     <string name="display_options_view_names_as">Ат пішімі</string>
     <string name="do_not_show_again">Қайта көрсету қажет емес</string>
-    <string name="duo_fallback_dialog_do_not_show_again_label">Таңдауды есте сақтау</string>
-    <string name="duo_fallback_dialog_message">Оператор желісі арқылы бейнеқоңырау шалу мүмкін болмады. Оның орнына Duo арқылы қоңырау шалып көріңіз.</string>
-    <string name="duo_fallback_dialog_negative_button_label">Бас тарту</string>
-    <string name="duo_fallback_dialog_positive_button_label">Duo пайдалану</string>
-    <string name="duo_fallback_dialog_title">Google Duo-мен пайдаланып көресіз бе?</string>
+    <string name="duo_fallback_dialog_do_not_show_again_label">Әр қоңырау үшін cақтық көшірме жасау орны ретінде Duo пайдаланылады. Мұны кез келген уақытта параметрлерден өзгерте аласыз.</string>
+    <string name="duo_fallback_dialog_message">Операторыңыз бейнеқоңырау шала алмаған жағдайда Duo қызметі автоматты түрде қоңырау шалып көреді.</string>
+    <string name="duo_fallback_dialog_negative_button_label">Жоқ, рақмет</string>
+    <string name="duo_fallback_dialog_positive_button_label">Duo арқылы сақтық көшірме жасау</string>
+    <string name="duo_fallback_dialog_title">Google Duo арқылы қоңыраулардың сақтық көшірмесін жасау керек пе?</string>
     <string name="edit_number_before_call">Қоңырау алдында нөмірді өзгерту</string>
     <string name="emergency_assist_address_sentence">Менің орналасқан жерім: %1$s.</string>
     <string name="emergency_assist_button_fire">Өрт сөндіру қызметі</string>
@@ -696,6 +696,7 @@
     <string name="emergency_voice_assist_dialog_button_close">Бас тарту</string>
     <string name="emergency_voice_assist_dialog_title">Төтенше жағдай қызметінің операторына айтылатын сөздер:</string>
     <string name="end_call_with_default_message_description">Қоңырауды аяқтау</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_icon_content_description">Қате</string>
     <string name="error_unable_to_get_audio">Аудио үлгісі алынбады.</string>
     <string name="error_unable_to_play_audio">Аудио үлгісі ойнатылмады.</string>
@@ -740,7 +741,7 @@
     <string name="first_time_dialog_duo_video_call_label">Google Duo</string>
     <string name="first_time_dialog_negative_button_label">Бас тарту</string>
     <string name="first_time_dialog_positive_button_label">Таңдау</string>
-    <string name="first_time_dialog_remember_this_choice_label">Таңдауды есте сақтау</string>
+    <string name="first_time_dialog_remember_this_choice_label">Әр қоңырау үшін есте сақталады. Мұны кез келген уақытта параметрлерден өзгерте аласыз.</string>
     <string name="first_time_dialog_title">Бейнеқоңырау шалу қызметін таңдау</string>
     <string name="flip_to_shush_title">Тыныш режимге өту үшін аудару</string>
     <string name="flip_to_silence_summary">Кіріс қоңыраудың дыбысын өшіру үшін телефон дисплейін төмен қаратып, оны тегіс жерге қойыңыз.</string>
@@ -788,6 +789,8 @@
     <string name="incall_content_description_hold">Күттіру</string>
     <string name="incall_content_description_merge_calls">Қоңырауларды біріктіру</string>
     <string name="incall_content_description_muted">Дыбысы өшірулі</string>
+    <string name="incall_content_description_show_less">Жию</string>
+    <string name="incall_content_description_show_more">Жаю</string>
     <string name="incall_content_description_speaker">Динамик</string>
     <string name="incall_content_description_swap_calls">Қоңырауларды ауыстыру</string>
     <string name="incall_content_description_swap_sim">SIM ауыстыру</string>
@@ -803,6 +806,7 @@
     <string name="incall_label_hold">Күттіру</string>
     <string name="incall_label_manage">Басқару</string>
     <string name="incall_label_merge">Біріктіру</string>
+    <string name="incall_label_more">Жаю</string>
     <string name="incall_label_mute">Дыбысын өшіру</string>
     <string name="incall_label_record">Жазу</string>
     <string name="incall_label_record_checked">Жазуды тоқтату</string>
@@ -835,15 +839,9 @@
     <string name="join_call_with_default_message_description">Қоңырауға қосылу</string>
     <string name="just_now">Қазір ғана</string>
     <string name="lat_long_format">%1$f, %2$f</string>
+    <string name="launch_application_settings">Параметрлер</string>
     <string name="launcherActivityLabel">Телефон</string>
     <string name="learn_more_text_for_tmo">Толығырақ ақпарат алу үшін T-Mobile веб-сайтына өтіңіз.</string>
-    <string name="legacy_post_call_message">Неге қоңырау шалғаныңызды айтыңыз</string>
-    <string name="legacy_post_call_message_1">Шұғыл шаруа. Маған қайта қоңырау шалыңыз.</string>
-    <string name="legacy_post_call_message_2">Уақытыңыз болғанда, маған қайта қоңырау шалыңыз.</string>
-    <string name="legacy_post_call_message_3">Шұғыл емес, кейінірек сөйлесерміз.</string>
-    <string name="legacy_post_call_message_sent">Хабар жіберілді</string>
-    <string name="legacy_post_call_send_message">Хабар жіберу</string>
-    <string name="legacy_post_call_view">Көру</string>
     <string name="libraries_material_featurehighlight_dismiss">Жабу</string>
     <string name="license_activity_label">Ашық кодты бағдарлама лицензиялары</string>
     <string name="light_theme_label">Жарық</string>
@@ -868,6 +866,7 @@
     <string name="mdd_notification_action_cancel">Бас тарту</string>
     <string name="mdd_notification_download_failed">Жүктеп алынбады</string>
     <string name="mdd_notification_download_paused">Желі байланысын күту</string>
+    <string name="mdd_notification_download_paused_wifi">Wi-Fi желісіне қосылайын деп жатыр…</string>
     <string name="meid_number">MEID %s</string>
     <string name="menu_callNumber">%s нөміріне қоңырау шалу</string>
     <string name="merge_calls_confirm_message">Біріктірілген қоңырауға қатысатын адамдар туралы барлығы білген жағдайда ғана, қоңырауларды біріктіріңіз.</string>
@@ -907,11 +906,9 @@
     <string name="nearbyplaces_account_setting_title">Google аккаунты</string>
     <string name="new_call_log_activity_title">Қоңыраулар тарихы</string>
     <string name="new_call_log_all_title">Барлығы</string>
-    <string name="new_call_log_carrier_video">Оператор бейне қоңырауы</string>
     <string name="new_call_log_clear_call_log_confirmation">Бұл тарихтан барлық қоңырауларды жояды</string>
     <string name="new_call_log_clear_call_log_confirmation_title">Қоңыраулар тарихын өшіру керек пе?</string>
     <string name="new_call_log_delete_all">Қоңыраулар тарихын өшіру</string>
-    <string name="new_call_log_duo_video">Duo бейне қоңырауы</string>
     <string name="new_call_log_empty">Шалған қоңырауларыңыз осы жерде көрсетіледі</string>
     <string name="new_call_log_generic_video">Бейне</string>
     <string name="new_call_log_header_older">Ескілеу</string>
@@ -929,6 +926,7 @@
     <string name="new_permission_no_search">Контактілерді іздеу мүмкін болуы үшін, \"Контактілер\" рұқсаттарын қосыңыз.</string>
     <string name="non_contact_always_record_dialog_title">Контактілерде сақталмаған нөмірлердің қоңырауларын әрдайым жазу қажет пе?</string>
     <string name="non_contact_toggle_label">Контактілерде сақталмаған нөмірлер</string>
+    <string name="non_spam_aftercall_notification_title">%1$s таныс па?</string>
     <string name="non_spam_notification_title">%1$s таныс па?</string>
     <string name="not_set">Орнатылмаған</string>
     <string name="notification_action_accept">Қабылдау</string>
@@ -979,7 +977,7 @@
     <string name="notification_ongoing_call">Ағымдағы қоңырау</string>
     <string name="notification_ongoing_call_multi_sim">%1$s арқылы жүріп жатқан қоңырау</string>
     <string name="notification_ongoing_call_wifi_template">%1$s қазіргі қоңырауы</string>
-    <string name="notification_ongoing_call_wifi_template_multi_sim">%1$s арқылы жүріп жатқан %1$s қоңырауы</string>
+    <string name="notification_ongoing_call_wifi_template_multi_sim">Ongoing %1$s via %2$s</string>
     <string name="notification_ongoing_paused_video_call">Жүріп жатқан оператор бейнеқоңырауы ‑ бейне кідіртілді</string>
     <string name="notification_ongoing_paused_video_call_multi_sim">%1$s арқылы оператор желісімен жүріп жатқан бейнеқоңырау‑ бейнесі кідіртілді</string>
     <string name="notification_ongoing_video_call">Жүріп жатқан оператор бейнеқоңырауы</string>
@@ -992,7 +990,7 @@
     <string name="notification_take_call">Қоңырауды бері бұру</string>
     <string name="notification_take_video_call">Бейне қоңырауды бері бұру</string>
     <string name="notification_voicemail_callers_list">%1$s, %2$s</string>
-    <string name="notification_voicemail_no_vm_number">Дауыстық пошта нөмірі белгісіз</string>
+    <string name="notification_voicemail_no_vm_number">Дауыстық поштаны реттеу үшін \"Мәзір > Параметрлер\" тармағына өтіңіз.</string>
     <string name="notification_voicemail_text_format">%s нөмірін теру</string>
     <string name="old_block_number_confirmation_title">%1$s нөмірін бөгеу қажет пе?</string>
     <string name="openhistory_button_label">Тарих</string>
@@ -1047,7 +1045,7 @@
     <string name="private_num_non_verizon">Жеке нөмір</string>
     <string name="private_num_verizon">Шектелген</string>
     <string name="private_or_hidden_action_preference_description">Өздерінің қоңырау шалушы идентификаторын жасыратын қоңырау шалушылар.</string>
-    <string name="private_or_hidden_action_preference_title">Құпия немесе жасырын</string>
+    <string name="private_or_hidden_action_preference_title">Жеке және жасырылған нөмірлер</string>
     <string name="quick_contact_checkbox_description">Контактіні таңдау</string>
     <string name="ready_for_recording">Дайын…</string>
     <string name="record_audio_pre_call_dialog_got_it">Түсінікті</string>
@@ -1094,7 +1092,7 @@ Call Screen мүмкіндігі мобильді интернет немесе 
     <string name="revelio_end_call_user_missed_internal_message">Қоңырау қабылданбаған</string>
     <string name="revelio_pref_title">Call Screen</string>
     <string name="revelio_preference_summary_automatic_screening_off">Автоматты тексеру өшірулі</string>
-    <string name="revelio_preference_summary_screening">Тексеру: %1$s</string>
+    <string name="revelio_preference_summary_screening">Экран: %1$s</string>
     <string name="revelio_save_audio_setting_summary">Assistant қызметі жауап берген қоңыраулардың аудиосын сақтау</string>
     <string name="revelio_save_audio_setting_title">Call Screen аудиосын сақтау</string>
     <string name="revelio_setting_title">Call Screen</string>
@@ -1168,7 +1166,6 @@ Call Screen мүмкіндігі мобильді интернет немесе 
     <string name="set_default_account_description">Контактіге қоңырау шалатын кезде таңдалған SIM картасы сақталып, кейін таңдау сұралмайды.</string>
     <string name="set_phone_as_default_explanation_text">\"Телефон\" қолданбасы әдепкі ретінде орнатылған болса, тек қоңырау шалып, қабылдай аласыз.</string>
     <string name="set_phone_as_default_request_text">\"Телефон\" қолданбасын әдепкі ретінде орнату</string>
-    <string name="settings">Параметрлер</string>
     <string name="settings_page_call_recording_feature_not_available_text">Қоңырауды жазу мүмкіндігі сіз орналасқан аймақта қолжетімсіз.</string>
     <string name="settings_page_crosby_feature_not_available_text">Орналасқан аймағыңызда қолжетімсіз</string>
     <string name="setup_duo_button_long_text">Duo бейнеқоңырауын реттеу</string>
@@ -1218,6 +1215,9 @@ Call Screen мүмкіндігі мобильді интернет немесе 
     <string name="sounds_and_vibration_title">Дыбыстар мен діріл</string>
     <string name="spam_action_preference_description">Google-дың спам дерекқорына сәйкес келетін нөмірлер.</string>
     <string name="spam_action_preference_title">Спам</string>
+    <string name="spam_after_call_notification_add_contact_action_text">Контакт қосу</string>
+    <string name="spam_after_call_notification_report_spam_action_text">Бөгеу және хабарлау</string>
+    <string name="spam_aftercall_notification_unknown">Белгісіз</string>
     <string name="spam_and_call_screen_settings_title">Спам және Call Screen</string>
     <string name="spam_blocking_promo_action_dismiss">Жабу</string>
     <string name="spam_blocking_promo_action_filter_spam">Спам сүзу</string>
@@ -1229,6 +1229,9 @@ Call Screen мүмкіндігі мобильді интернет немесе 
     <string name="spam_blocking_settings_enable_error_text">Спам сүзгісі қосылмады</string>
     <string name="spam_blocking_settings_summary">Мазаны алатын күдікті спам қоңырауларды тоқтату</string>
     <string name="spam_blocking_settings_title">Спам қоңырауларды бөгеу</string>
+    <string name="spam_dialog_add_contact_action">Контактілерге қосу</string>
+    <string name="spam_dialog_dismiss_action">Жабу</string>
+    <string name="spam_notification_action_block_spam">Иә, нөмірді бөгеу</string>
     <string name="spam_notification_action_dismiss">Жабу</string>
     <string name="spam_notification_add_contact_action_text">Контакт қосу</string>
     <string name="spam_notification_block_spam_action_text">Иә, нөмірді бөгеу</string>
@@ -1468,27 +1471,27 @@ Call Screen мүмкіндігі мобильді интернет немесе 
     <string name="videocall_remotely_resumed">Қоңырауды жалғастырды</string>
     <string name="videocall_settings_default_ask_every_time">Әрдайым сұрау</string>
     <string name="videocall_settings_default_carrier">Оператор желісімен жасалатын бейнеқоңырау</string>
-    <string name="videocall_settings_default_caution">This feature allows a user to choose a preferred video call solution and indicate the receiver’s video capability when it’s available. ^1</string>
-    <string name="videocall_settings_default_caution_learn_more">Learn more about preferred video services</string>
+    <string name="videocall_settings_default_caution">Бейнеқоңырау шалу жолын таңдаңыз және сіз қоңырау шалып жатқан адамның оны қабылдай алатынын анықтаңыз. ^1</string>
+    <string name="videocall_settings_default_caution_learn_more">Бейнеқоңыраулар туралы ақпарат</string>
     <string name="videocall_settings_default_duo">Google Duo</string>
     <string name="videocall_settings_default_title">Таңдалған бейнеқоңырау шалу қызметі</string>
-    <string name="videocall_settings_fallback_caution">"When “Use Google Duo as backup” (if applicable) is on and a call can't be completed using your preferred service, the call will automatically be attempted on Duo. ^1"</string>
-    <string name="videocall_settings_fallback_caution_learn_more">Learn more about Duo backup calling</string>
-    <string name="videocall_settings_fallback_summary">Таңдалған қызмет қолжетімсіз болған кезде Duo қызметін пайдалану</string>
-    <string name="videocall_settings_fallback_title">Қосалқы қызмет ретінде Google Duo-ны пайдалану</string>
+    <string name="videocall_settings_fallback_caution">Сақтық көшірме жасау орны ретінде Google Duo-ны пайдалансаңыз және ол қосулы болса, операторыңыз бейнеқоңырау шала алмаған жағдайда Duo қызметі автоматты түрде қоңырау шалып көреді. ^1</string>
+    <string name="videocall_settings_fallback_caution_learn_more">Сақтық көшірме жасау орны ретінде Duo-ны пайдалану туралы ақпарат</string>
+    <string name="videocall_settings_fallback_summary">Таңдалған қызмет қолжетімсіз болған кезде Duo-ны пайдалану</string>
+    <string name="videocall_settings_fallback_title">Duo-ны қосалқы қызмет ретінде пайдалану</string>
     <string name="videocall_settings_title">Бейнеқоңырау шалынуда…</string>
     <string name="videocall_show_preview_button_description">Жергілікті бейне фидін көрсету</string>
     <string name="view_location_settings">Орын параметрлері</string>
     <string name="vitle_label">Бейнеқоңырау (LTE)</string>
     <string name="viwifi_label">Wi-Fi бейнеқоңырауы</string>
     <string name="vm_change_pin_error_invalid">Жаңа PIN кодының құрамында жарамсыз таңбалар бар.</string>
-    <string name="vm_change_pin_error_last_4_digits_msisdn">Жаңа PIN коды телефон нөміріңіздің соңғы төрт санымен бірдей болмауы керек.</string>
+    <string name="vm_change_pin_error_last_4_digits_msisdn">"Your PIN can't be the last 4 digits of your phone number."</string>
     <string name="vm_change_pin_error_mismatch">Ескі PIN коды сәйкес емес.</string>
     <string name="vm_change_pin_error_system_error">PIN кодын өзгерту мүмкін емес</string>
     <string name="vm_change_pin_error_too_long">Жаңа PIN коды тым ұзын.</string>
     <string name="vm_change_pin_error_too_short">Жаңа PIN коды тым қысқа.</string>
     <string name="vm_change_pin_error_too_weak">Жаңа PIN коды тым әлсіз. Күшті құпия сөзде сандарды ретімен немесе қайталап қолдануға болмайды.</string>
-    <string name="vm_change_pin_error_unchanged_pin">Жаңа PIN коды сіздің қазіргі PIN кодыңызбен бірдей. Басқа PIN кодын енгізіңіз.</string>
+    <string name="vm_change_pin_error_unchanged_pin">"Your new PIN can't be the same as your current PIN."</string>
     <string name="vm_change_pin_progress_message">Күте тұрыңыз.</string>
     <string name="voice_call">Дауыстық қоңырау</string>
     <string name="voice_call_button">Қоңырау шалу</string>
@@ -1510,11 +1513,9 @@ Call Screen мүмкіндігі мобильді интернет немесе 
     <string name="voicemailMultiSelectDeleteConfirm">Жою</string>
     <string name="voicemail_action_call_customer_support">Тұтынушыларға қолдау көрсету орталығына қоңырау шалу</string>
     <string name="voicemail_action_call_voicemail">Дауыстық поштаға қоңырау шалу</string>
-    <string name="voicemail_action_dimiss">Жоқ, рақмет</string>
     <string name="voicemail_action_retry">Қайталау</string>
     <string name="voicemail_action_set_pin">PIN кодын орнату</string>
     <string name="voicemail_action_sync">Синхрондау</string>
-    <string name="voicemail_action_turn_archive_on">Қосу</string>
     <string name="voicemail_action_turn_off_airplane_mode">Ұшақ режимінің параметрлері</string>
     <string name="voicemail_activating_summary_info">Дауыстық хабарды қосу</string>
     <string name="voicemail_advanced_settings_title">Қосымша параметрлер</string>
@@ -1529,7 +1530,7 @@ Call Screen мүмкіндігі мобильді интернет немесе 
     <string name="voicemail_change_pin_preference_summary_disable">PIN кодын өзгерту үшін, визуалды дауыстық хабар функциясын қосу қажет</string>
     <string name="voicemail_change_pin_preference_summary_not_activated">Визуалды дауыстық хабар функциясы әлі қосылмаған. Кейінірек қайталап көріңіз</string>
     <string name="voicemail_change_pin_preference_title">PIN кодын өзгерту</string>
-    <string name="voicemail_donate_preference_summary_info">Транскрипция сапасын арттыру мақсатында дауыстық хабарлардың Google тарапынан тексерілуіне рұқсат беріңіз. Дауыстық хабарлардың құпиялылығы сақталады.%1$s</string>
+    <string name="voicemail_donate_preference_summary_info">Транскрипция сапасын арттыру мақсатында дауыстық хабарлардың Google тарапынан тексерілуіне рұқсат беріңіз. Дауыстық хабарлардың құпиялылығы сақталады.^1</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">Визуалды дауыстық поштаны тарифке қосылмаған SIM карталарымен пайдаланған жағдайда, оператор төлемі алынуы мүмкін.</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">Визуалдық дауыстық хабар тек таңдалған SIM картасына қолжетімді.</string>
     <string name="voicemail_error_activating_message">Визуалдық дауыстық хабар қызметі толығымен қосылмаса, дауыстық хабарларды қабылдай алмайсыз. Дауыстық хабар қызметі толығымен қосылғанша, жаңа хабарларды дауыстық поштаға қоңырау шалу арқылы тексеріңіз.</string>
@@ -1542,12 +1543,8 @@ Call Screen мүмкіндігі мобильді интернет немесе 
     <string name="voicemail_error_bad_config_title">Визуалдық дауыстық хабар қызметі жаңартылмады</string>
     <string name="voicemail_error_communication_message">Дауыстық хабарларды қоңырау шалып та тексеруіңізге болады.</string>
     <string name="voicemail_error_communication_title">Визуалдық дауыстық хабар қызметі жаңартылмады</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_message">Кіріс жәшігі толы. Орын босату үшін қосымша жад функциясын қосып, Google-ға дауыстық хабарларыңызды басқарып, сақтық көшірмесін жасауға рұқсат беріңіз.</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_title">Қосымша жадты қосып, сақтық көшірме жасау</string>
     <string name="voicemail_error_inbox_full_message">Кіріс қалтасы толы. Жаңа дауыстық хабарды қабылдау үшін кейбір хабарларды жойып көріңіз.</string>
     <string name="voicemail_error_inbox_full_title">Жаңа дауыстық хабар қабылданбайды</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_message">Кіріс жәшігі толы. Орын босату үшін қосымша жадты қосып, Google-ға дауыстық хабарларыңызды басқарып, сақтық көшірмесін жасауға рұқсат беріңіз.</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_title">Қосымша жадты қосып, сақтық көшірме жасау</string>
     <string name="voicemail_error_inbox_near_full_message">Кіріс қалтасы толы болса, жаңа дауыстық хабар алу мүмкін болмайды.</string>
     <string name="voicemail_error_inbox_near_full_title">Кіріс қалтасы толуға жақын</string>
     <string name="voicemail_error_no_data_cellular_required_message">Мобильдік байланыс жақсарғанда қайталап көріңіз. Дауыстық хабарларды қоңырау шалып та тексеруіңізге болады.</string>
@@ -1580,7 +1577,7 @@ Call Screen мүмкіндігі мобильді интернет немесе 
     <string name="voicemail_transcription_failed_language_not_supported">Tранскрипция жасау мүмкіндігі жоқ. Бұл тіл қолданылмайды.</string>
     <string name="voicemail_transcription_failed_no_speech">Tранскрипция жасау мүмкіндігі жоқ. Аудио табылмады.</string>
     <string name="voicemail_transcription_in_progress">Транскрипциясы жасалуда...</string>
-    <string name="voicemail_transcription_preference_summary_info">Google транскрипция қызметінің көмегімен дауыстық хабар транскрипцияларын оқыңыз.%1$s</string>
+    <string name="voicemail_transcription_preference_summary_info">Google транскрипция қызметінің көмегімен дауыстық хабар транскрипцияларын оқыңыз.^1</string>
     <string name="voicemail_visual_voicemail_auto_archive_switch_title">Қосымша сақтық көшірме және жад орны</string>
     <string name="voicemail_visual_voicemail_donation_switch_title">Дауыстық хабар транскрипциясын сараптау</string>
     <string name="voicemail_visual_voicemail_switch_title">Визуалды дауыстық хабар</string>
@@ -1636,7 +1633,7 @@ Call Screen мүмкіндігі мобильді интернет немесе 
     <string name="wait_prompt_str">"Келесі әуендер жіберілсін бе?
 "</string>
     <string name="was_this_a_business_chip_text">Компания қоңырау жалған ба?</string>
-    <string name="was_this_a_business_dialog_body">Осы тэгті растап, Google-дың нөмірді автоматты анықтау қызметін жақсартуға үлес қосыңыз.</string>
+    <string name="was_this_a_business_dialog_body">Осыны растап, Google-дың нөмірді автоматты анықтау қызметін жақсартуға үлес қосыңыз.</string>
     <string name="was_this_a_business_dialog_negative_response">Жоқ</string>
     <string name="was_this_a_business_dialog_positive_response">Иә</string>
     <string name="was_this_a_business_dialog_snackbar">Пікіріңіз үшін рақмет</string>

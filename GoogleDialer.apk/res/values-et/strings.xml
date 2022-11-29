@@ -63,7 +63,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript">^1, ^2, ^3.</string>
     <string name="a11y_new_call_log_entry_phone_account">– ^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">tehke RTT-kõne kasutajale ^1</string>
-    <string name="a11y_new_call_log_entry_tap_action">laiendatakse menüüd</string>
+    <string name="a11y_new_call_log_entry_tap_action">menüü laiendamine või ahendamine</string>
     <string name="a11y_new_call_log_entry_video_call">tehakse videokõne kasutajale ^1</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">tee kasutajale ^1 WiFi kaudu videokõne</string>
     <string name="a11y_new_call_log_entry_voice_call">helistatakse kasutajale ^1</string>
@@ -191,6 +191,7 @@ Salvestised salvestatakse ainult teie telefoni. ^1"</string>
     <string name="atlas_soda_banner_feature_text">Oota minu eest</string>
     <string name="atlas_temp_service_notification_title">Funktsiooniga Oota minu eest tehtud kõne lähtestamine</string>
     <string name="atlas_warning_text_for_second_incoming_call">Sellele kõnele vastamisel lülitatakse funktsioon Oota minu eest välja</string>
+    <string name="audio_route_item_checked_description">Märgitud</string>
     <string name="audioroute_bluetooth">Bluetooth</string>
     <string name="audioroute_headset">Juhtmega peakomplekt</string>
     <string name="audioroute_phone">Telefon</string>
@@ -235,6 +236,7 @@ Ooteaeg %1$d min"</string>
     <string name="bm_suggest_wait_time_estimating">"Vestlus
 Töötlemine …"</string>
     <string name="bottomsheet_action_expand_halfway">Laiendamine poolenisti</string>
+    <string name="bottomsheet_drag_handle_content_description">Lohistamispide</string>
     <string name="bubble_bottom_action_end_call">Lõpeta kõne</string>
     <string name="bubble_bottom_action_hide">Peida</string>
     <string name="bubble_return_to_call">Tagasi kõne juurde</string>
@@ -582,10 +584,8 @@ Saatke abi."</string>
     <string name="copy_number">Kopeeri number</string>
     <string name="create_new_contact">Uue kontakti loomine</string>
     <string name="crosby_setting_title">Kõne salvestamine</string>
-    <string name="crystal_clear_audio_setting_title">Selged kõned</string>
     <string name="current_voicemail_greeting_record_instruction">Salvestage tervitus</string>
     <string name="current_voicemail_greeting_recording_title">Minu kõneposti tervitus</string>
-    <string name="custom_message_hint">Kirjutage kohandatud sõnum</string>
     <string name="custom_prefix_add_prefix_to_call_entry_always_add_prefix">Lisa alati prefiks</string>
     <string name="custom_prefix_add_prefix_to_call_entry_ask_before_dialing">Küsi enne valimist</string>
     <string name="custom_prefix_add_prefix_to_call_entry_never_add_prefix">Ära kunagi lisa prefiksit</string>
@@ -670,11 +670,11 @@ Saatke abi."</string>
     <string name="display_options_view_given_name_first">Eesnimi enne</string>
     <string name="display_options_view_names_as">Nimevorming</string>
     <string name="do_not_show_again">Ära enam kuva</string>
-    <string name="duo_fallback_dialog_do_not_show_again_label">Jäta valik meelde</string>
-    <string name="duo_fallback_dialog_message">Teie videokõne tegemiseks ei saa kasutada operaatori videokõnet. Proovige teha kõne Duoga.</string>
-    <string name="duo_fallback_dialog_negative_button_label">Loobu</string>
-    <string name="duo_fallback_dialog_positive_button_label">Kasuta Duot</string>
-    <string name="duo_fallback_dialog_title">Kas proovida Google Duoga?</string>
+    <string name="duo_fallback_dialog_do_not_show_again_label">Pea rakendust Duo varuvariandina meeles iga kõne jaoks. Saate igal ajal seadetes hallata.</string>
+    <string name="duo_fallback_dialog_message">Duo proovib automaatselt helistada, kui teie operaator ei saa videokõnet lõpule viia.</string>
+    <string name="duo_fallback_dialog_negative_button_label">Tänan, ei</string>
+    <string name="duo_fallback_dialog_positive_button_label">Duo varuvariandina</string>
+    <string name="duo_fallback_dialog_title">Kas soovite kasutada kõnede tegemiseks varuvariandina rakendust Google Duo?</string>
     <string name="edit_number_before_call">Muuda numbrit enne helistamist</string>
     <string name="emergency_assist_address_sentence">Minu asukoht on %1$s.</string>
     <string name="emergency_assist_button_fire">Tulekahju</string>
@@ -696,6 +696,7 @@ Saatke abi."</string>
     <string name="emergency_voice_assist_dialog_button_close">Tühista</string>
     <string name="emergency_voice_assist_dialog_title">Hädaabiteenuse operaator kuuleb seda</string>
     <string name="end_call_with_default_message_description">Lõpeta kõne</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_icon_content_description">Viga</string>
     <string name="error_unable_to_get_audio">Näidisheli ei saa laadida</string>
     <string name="error_unable_to_play_audio">Näidisheli ei saa esitada</string>
@@ -740,7 +741,7 @@ Saatke abi."</string>
     <string name="first_time_dialog_duo_video_call_label">Google Duo</string>
     <string name="first_time_dialog_negative_button_label">Tühista</string>
     <string name="first_time_dialog_positive_button_label">Vali</string>
-    <string name="first_time_dialog_remember_this_choice_label">Jäta valik meelde</string>
+    <string name="first_time_dialog_remember_this_choice_label">Pea meeles iga kõne jaoks. Saate igal ajal seadetes hallata.</string>
     <string name="first_time_dialog_title">Videokõneteenuse valimine</string>
     <string name="flip_to_shush_title">Vaigistamiseks ümberpööramine</string>
     <string name="flip_to_silence_summary">Sissetuleva kõne vaigistamiseks asetage telefoni esikülg siledal pinnal allapoole.</string>
@@ -788,6 +789,8 @@ Saatke abi."</string>
     <string name="incall_content_description_hold">Kõne ootele</string>
     <string name="incall_content_description_merge_calls">Kõnede ühendamine</string>
     <string name="incall_content_description_muted">Vaigistatud</string>
+    <string name="incall_content_description_show_less">Kuva vähem</string>
+    <string name="incall_content_description_show_more">Kuva rohkem</string>
     <string name="incall_content_description_speaker">Kõlar</string>
     <string name="incall_content_description_swap_calls">Kõne vahetamine</string>
     <string name="incall_content_description_swap_sim">SIM-kaardi muutmine</string>
@@ -803,6 +806,7 @@ Saatke abi."</string>
     <string name="incall_label_hold">Ootele</string>
     <string name="incall_label_manage">Halda</string>
     <string name="incall_label_merge">Ühenda</string>
+    <string name="incall_label_more">Rohkem</string>
     <string name="incall_label_mute">Vaigista</string>
     <string name="incall_label_record">Salvesta</string>
     <string name="incall_label_record_checked">Peata salvestamine</string>
@@ -835,15 +839,9 @@ Saatke abi."</string>
     <string name="join_call_with_default_message_description">Liitu kõnega</string>
     <string name="just_now">Äsja</string>
     <string name="lat_long_format">%1$f, %2$f</string>
+    <string name="launch_application_settings">Seaded</string>
     <string name="launcherActivityLabel">Telefon</string>
     <string name="learn_more_text_for_tmo">"Lisateavet vaadake T-Mobile'i veebisaidilt"</string>
-    <string name="legacy_post_call_message">Öelge, miks te helistasite</string>
-    <string name="legacy_post_call_message_1">Asjaga on kiire. Helista tagasi.</string>
-    <string name="legacy_post_call_message_2">Helista tagasi, kui sul on aega.</string>
-    <string name="legacy_post_call_message_3">Asjaga pole kiiret, võime hiljem vestelda.</string>
-    <string name="legacy_post_call_message_sent">Sõnum on saadetud</string>
-    <string name="legacy_post_call_send_message">Saada sõnum</string>
-    <string name="legacy_post_call_view">Kuva</string>
     <string name="libraries_material_featurehighlight_dismiss">Loobu</string>
     <string name="license_activity_label">Avatud lähtekoodi litsentsid</string>
     <string name="light_theme_label">Hele</string>
@@ -868,6 +866,7 @@ Saatke abi."</string>
     <string name="mdd_notification_action_cancel">Loobu</string>
     <string name="mdd_notification_download_failed">Allalaadimine ebaõnnestus</string>
     <string name="mdd_notification_download_paused">Võrguühenduse ootel</string>
+    <string name="mdd_notification_download_paused_wifi">WiFi-ühenduse ootel</string>
     <string name="meid_number">MEID %s</string>
     <string name="menu_callNumber">Helistamine numbrile %s</string>
     <string name="merge_calls_confirm_message">Ühendage kõned ainult juhul, kui kõik teavad, kes ühendatud kõnes osalevad</string>
@@ -907,11 +906,9 @@ Saatke abi."</string>
     <string name="nearbyplaces_account_setting_title">"Google'i konto"</string>
     <string name="new_call_log_activity_title">Kõneajalugu</string>
     <string name="new_call_log_all_title">Kõik</string>
-    <string name="new_call_log_carrier_video">Operaatori video</string>
     <string name="new_call_log_clear_call_log_confirmation">See kustutab teie ajaloost kõik kõned</string>
     <string name="new_call_log_clear_call_log_confirmation_title">Kas kustutada kõneajalugu?</string>
     <string name="new_call_log_delete_all">Kustuta kõneajalugu</string>
-    <string name="new_call_log_duo_video">Duo video</string>
     <string name="new_call_log_empty">Siin kuvatakse teie tehtud kõned</string>
     <string name="new_call_log_generic_video">Video</string>
     <string name="new_call_log_header_older">Vanemad</string>
@@ -929,6 +926,7 @@ Saatke abi."</string>
     <string name="new_permission_no_search">Kontaktide otsimiseks lülitage sisse kontaktiload.</string>
     <string name="non_contact_always_record_dialog_title">Kas soovite alati salvestada nende numbrite kõned, mis ei kuulu teie kontaktide hulka?</string>
     <string name="non_contact_toggle_label">Numbrid, mis ei ole teie kontaktide hulgas</string>
+    <string name="non_spam_aftercall_notification_title">Kas teate numbrit %1$s?</string>
     <string name="non_spam_notification_title">Kas teate numbrit %1$s?</string>
     <string name="not_set">Määramata</string>
     <string name="notification_action_accept">Nõustu</string>
@@ -979,7 +977,7 @@ Saatke abi."</string>
     <string name="notification_ongoing_call">Käimasolev kõne</string>
     <string name="notification_ongoing_call_multi_sim">Käimasolev kõne %1$s kaudu</string>
     <string name="notification_ongoing_call_wifi_template">Käimasolev %1$s</string>
-    <string name="notification_ongoing_call_wifi_template_multi_sim">Käimasolev %1$s-kõne %1$s kaudu</string>
+    <string name="notification_ongoing_call_wifi_template_multi_sim">Ongoing %1$s via %2$s</string>
     <string name="notification_ongoing_paused_video_call">Käimasolev operaatori videokõne ‑ video on peatatud</string>
     <string name="notification_ongoing_paused_video_call_multi_sim">Käimasoleva operaatori videokõne %1$s ‑ kaudu video on peatatud</string>
     <string name="notification_ongoing_video_call">Käimasolev operaatori videokõne</string>
@@ -992,7 +990,7 @@ Saatke abi."</string>
     <string name="notification_take_call">Alusta helistamist</string>
     <string name="notification_take_video_call">Alusta videokõnet</string>
     <string name="notification_voicemail_callers_list">%1$s, %2$s</string>
-    <string name="notification_voicemail_no_vm_number">Kõneposti number on teadmata</string>
+    <string name="notification_voicemail_no_vm_number">Kõneposti seadistamiseks tehke valikud Menüü > Seaded.</string>
     <string name="notification_voicemail_text_format">Valige %s</string>
     <string name="old_block_number_confirmation_title">Kas soovite blokeerida numbri %1$s?</string>
     <string name="openhistory_button_label">Ajalugu</string>
@@ -1033,6 +1031,7 @@ Saatke abi."</string>
     <string name="precall_dialpad_chat_button">Vestlus</string>
     <string name="precall_dialpad_chat_wait_min">%1$d min järjekord</string>
     <string name="preference_copied">„%1$s” on lõikelauale kopeeritud.</string>
+    <string name="preferences_license_title">Kolmanda osapoole teatised</string>
     <string name="presence_optin_dialog_do_not_show_again_label">Ära enam kuva</string>
     <string name="presence_optin_dialog_message">"Enne videokõne alustamist soovib Verizon kontrollida, millised telefoninumbrid saavad Verizoni videokõnesid vastu võtta.
 
@@ -1047,7 +1046,7 @@ Kui te seadeid ei värskenda, saate siiski osadele numbritele videokõnesid teha
     <string name="private_num_non_verizon">Varjatud number</string>
     <string name="private_num_verizon">Piiratud</string>
     <string name="private_or_hidden_action_preference_description">Helistajad, kes oma helistaja ID-d varjavad</string>
-    <string name="private_or_hidden_action_preference_title">Privaatne või varjatud</string>
+    <string name="private_or_hidden_action_preference_title">Privaatsed ja peidetud numbrid</string>
     <string name="quick_contact_checkbox_description">Kontakti valimine</string>
     <string name="ready_for_recording">Valmis …</string>
     <string name="record_audio_pre_call_dialog_got_it">Selge</string>
@@ -1094,7 +1093,7 @@ Kõnede filtreerimine ei kasuta andmesidet ega WiFit-t, aga kasutab operaatori k
     <string name="revelio_end_call_user_missed_internal_message">Kõnele ei vastatud</string>
     <string name="revelio_pref_title">Kõnede filtreerimine</string>
     <string name="revelio_preference_summary_automatic_screening_off">Automaatne filtreerimine välja lülitatud</string>
-    <string name="revelio_preference_summary_screening">%1$s filtreerimine</string>
+    <string name="revelio_preference_summary_screening">Kuva %1$s</string>
     <string name="revelio_save_audio_setting_summary">Saate salvestada assistendi vastatud kõnede heli</string>
     <string name="revelio_save_audio_setting_title">Salvesta filtreeritud kõnede heli</string>
     <string name="revelio_setting_title">Kõnede filtreerimine</string>
@@ -1168,7 +1167,6 @@ Kõnede filtreerimine ei kasuta andmesidet ega WiFit-t, aga kasutab operaatori k
     <string name="set_default_account_description">SIM-i eelistus salvestatakse teie kontaktidesse.</string>
     <string name="set_phone_as_default_explanation_text">Telefoni abil saab helistada ja kõnesid vastu võtta vaid juhul, kui see on telefoni vaikerakendus</string>
     <string name="set_phone_as_default_request_text">Määra rakendus Telefon vaikeseadeks</string>
-    <string name="settings">Seaded</string>
     <string name="settings_page_call_recording_feature_not_available_text">Kõne salvestamine ei ole teie asukohas saadaval</string>
     <string name="settings_page_crosby_feature_not_available_text">Pole teie asukohas saadaval</string>
     <string name="setup_duo_button_long_text">Seadista Duo videokõne</string>
@@ -1218,6 +1216,9 @@ Kõnede filtreerimine ei kasuta andmesidet ega WiFit-t, aga kasutab operaatori k
     <string name="sounds_and_vibration_title">Helid ja vibreerimine</string>
     <string name="spam_action_preference_description">"Numbrid, mis vastavad Google'i rämpskõnede andmebaasile"</string>
     <string name="spam_action_preference_title">Rämpskõne</string>
+    <string name="spam_after_call_notification_add_contact_action_text">Lisa kontakt</string>
+    <string name="spam_after_call_notification_report_spam_action_text">Blokeeri ja teavita</string>
+    <string name="spam_aftercall_notification_unknown">Tundmatu</string>
     <string name="spam_and_call_screen_settings_title">Rämpspost ja kõnede filtreerimine</string>
     <string name="spam_blocking_promo_action_dismiss">Loobu</string>
     <string name="spam_blocking_promo_action_filter_spam">Filtreeri rämpskõned</string>
@@ -1229,6 +1230,9 @@ Kõnede filtreerimine ei kasuta andmesidet ega WiFit-t, aga kasutab operaatori k
     <string name="spam_blocking_settings_enable_error_text">Rämpskõnede filtreerimise sisselülitamisel tekkis probleem</string>
     <string name="spam_blocking_settings_summary">Arvatavate rämpskõnede puhul välditakse teie segamist</string>
     <string name="spam_blocking_settings_title">Filtreeri rämpskõned</string>
+    <string name="spam_dialog_add_contact_action">Lisa kontaktide hulka</string>
+    <string name="spam_dialog_dismiss_action">Loobu</string>
+    <string name="spam_notification_action_block_spam">Jah, blokeeri number</string>
     <string name="spam_notification_action_dismiss">Loobu</string>
     <string name="spam_notification_add_contact_action_text">Lisa kontakt</string>
     <string name="spam_notification_block_spam_action_text">Jah, blokeeri number</string>
@@ -1468,27 +1472,27 @@ Kõne jätkamisel rakendub andmekasutus."</string>
     <string name="videocall_remotely_resumed">Kõne jätkub</string>
     <string name="videocall_settings_default_ask_every_time">Küsi iga kord</string>
     <string name="videocall_settings_default_carrier">Operaatori videokõne</string>
-    <string name="videocall_settings_default_caution">This feature allows a user to choose a preferred video call solution and indicate the receiver’s video capability when it’s available. ^1</string>
-    <string name="videocall_settings_default_caution_learn_more">Learn more about preferred video services</string>
+    <string name="videocall_settings_default_caution">Saate valida, kuidas videokõne teete, ja teada, kas inimene, kellele helistate, saab kõne vastu võtta. ^1</string>
+    <string name="videocall_settings_default_caution_learn_more">Lisateave videokõnede kohta</string>
     <string name="videocall_settings_default_duo">Google Duo</string>
     <string name="videocall_settings_default_title">Eelistatud videokõneteenus</string>
-    <string name="videocall_settings_fallback_caution">"When “Use Google Duo as backup” (if applicable) is on and a call can't be completed using your preferred service, the call will automatically be attempted on Duo. ^1"</string>
-    <string name="videocall_settings_fallback_caution_learn_more">Learn more about Duo backup calling</string>
+    <string name="videocall_settings_fallback_caution">Kui teil on varuvariandina Google Duo ja see on sisse lülitatud, proovib Duo automaatselt helistada, kui teie operaator ei saa videokõnet lõpule viia. ^1</string>
+    <string name="videocall_settings_fallback_caution_learn_more">Lisateave varuvariandina Duo kohta</string>
     <string name="videocall_settings_fallback_summary">Kui eelistatud teenus pole saadaval, lülitutakse Duole</string>
-    <string name="videocall_settings_fallback_title">Kasuta varuvariandina Google Duot</string>
+    <string name="videocall_settings_fallback_title">Kasuta varuvariandina Duot</string>
     <string name="videocall_settings_title">Videokõne</string>
     <string name="videocall_show_preview_button_description">Kuva kohalik videovoog</string>
     <string name="view_location_settings">Asukohaseaded</string>
     <string name="vitle_label">Video LTE kaudu</string>
     <string name="viwifi_label">Videokõne WiFi kaudu</string>
     <string name="vm_change_pin_error_invalid">Uus PIN-kood sisaldab sobimatuid tähemärke.</string>
-    <string name="vm_change_pin_error_last_4_digits_msisdn">Uus PIN-kood ei tohi ühtida teie telefoninumbri nelja viimase numbriga.</string>
+    <string name="vm_change_pin_error_last_4_digits_msisdn">"Your PIN can't be the last 4 digits of your phone number."</string>
     <string name="vm_change_pin_error_mismatch">Vana PIN-kood ei ühti.</string>
     <string name="vm_change_pin_error_system_error">PIN-koodi ei õnnestu muuta</string>
     <string name="vm_change_pin_error_too_long">Uus PIN-kood on liiga pikk.</string>
     <string name="vm_change_pin_error_too_short">Uus PIN-kood on liiga lühike.</string>
     <string name="vm_change_pin_error_too_weak">Uus PIN-kood on liiga nõrk. Tugevas paroolis ei tohi olla mitut järjestikust samasugust tähemärki ega korduvaid numbreid.</string>
-    <string name="vm_change_pin_error_unchanged_pin">Uus PIN-kood ühtib teie praeguse PIN-koodiga. Sisestage teine PIN-kood.</string>
+    <string name="vm_change_pin_error_unchanged_pin">"Your new PIN can't be the same as your current PIN."</string>
     <string name="vm_change_pin_progress_message">Oodake.</string>
     <string name="voice_call">Häälkõne</string>
     <string name="voice_call_button">Helista</string>
@@ -1510,11 +1514,9 @@ Kõne jätkamisel rakendub andmekasutus."</string>
     <string name="voicemailMultiSelectDeleteConfirm">Kustuta</string>
     <string name="voicemail_action_call_customer_support">Helista klienditoele</string>
     <string name="voicemail_action_call_voicemail">Helista kõneposti</string>
-    <string name="voicemail_action_dimiss">Tänan, ei</string>
     <string name="voicemail_action_retry">Proovi uuesti</string>
     <string name="voicemail_action_set_pin">Määra PIN-kood</string>
     <string name="voicemail_action_sync">Sünkrooni</string>
-    <string name="voicemail_action_turn_archive_on">Lülita sisse</string>
     <string name="voicemail_action_turn_off_airplane_mode">Lennukirežiimi seaded</string>
     <string name="voicemail_activating_summary_info">Kõneposti aktiveerimine</string>
     <string name="voicemail_advanced_settings_title">Täpsemad seaded</string>
@@ -1529,7 +1531,7 @@ Kõne jätkamisel rakendub andmekasutus."</string>
     <string name="voicemail_change_pin_preference_summary_disable">PIN-koodi muutmiseks peab olema lubatud visuaalne kõnepost</string>
     <string name="voicemail_change_pin_preference_summary_not_activated">Visuaalne kõnepost pole veel aktiveeritud, proovige hiljem uuesti</string>
     <string name="voicemail_change_pin_preference_title">PIN-koodi muutmine</string>
-    <string name="voicemail_donate_preference_summary_info">"Lubage Google'il transkribeerimise täpsuse parandamiseks oma kõnepostisõnumid üle vaadata. Teie kõnepostisõnumid salvestatakse anonüümselt. %1$s"</string>
+    <string name="voicemail_donate_preference_summary_info">"Lubage Google'il transkribeerimise täpsuse parandamiseks oma kõnepostisõnumid üle vaadata. Teie kõnepostisõnumid salvestatakse anonüümselt. ^1"</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">Ilma andmesideta SIM-kaartidega visuaalse kõneposti kasutamisel võivad rakenduda operaatoritasud</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">Visuaalne kõnepost on saadaval ainult valitud andmeside SIM-kaartide puhul</string>
     <string name="voicemail_error_activating_message">Te ei pruugi kõneposti märguandeid saada enne, kui visuaalne kõnepost on täielikult aktiveeritud. Kuni kõneposti täieliku aktiveerimiseni helistage uute sõnumite hankimiseks kõneposti.</string>
@@ -1542,12 +1544,8 @@ Kõne jätkamisel rakendub andmekasutus."</string>
     <string name="voicemail_error_bad_config_title">Visuaalset kõneposti ei saa värskendada</string>
     <string name="voicemail_error_communication_message">Võite siiski helistada, et kõneposti kontrollida.</string>
     <string name="voicemail_error_communication_title">Visuaalset kõneposti ei saa värskendada</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_message">Teie postkast on peaaegu täis. Ruumi vabastamiseks lülitage sisse lisasalvestusruum, et Google saaks teie kõnepostisõnumeid hallata ja varundada.</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_title">Lisasalvestusruumi ja varundamise sisselülitamine</string>
     <string name="voicemail_error_inbox_full_message">Teie postkast on täis. Uute kõnepostisõnumite vastuvõtmiseks kustutage mõned sõnumid.</string>
     <string name="voicemail_error_inbox_full_title">Uusi kõnepostisõnumeid ei saa vastu võtta</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_message">Teie postkast on täis. Ruumi vabastamiseks lülitage sisse lisasalvestusruum, et Google saaks teie kõnepostisõnumeid hallata ja varundada.</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_title">Lisasalvestusruumi ja varundamise sisselülitamine</string>
     <string name="voicemail_error_inbox_near_full_message">Kui teie postkast on täis, ei saa te uusi kõnepostisõnumeid vastu võtta.</string>
     <string name="voicemail_error_inbox_near_full_title">Postkast on peaaegu täis</string>
     <string name="voicemail_error_no_data_cellular_required_message">Proovige uuesti, kui mobiilne andmesideühendus on parem. Võite siiski helistada, et kõneposti kontrollida.</string>
@@ -1580,7 +1578,7 @@ Kõne jätkamisel rakendub andmekasutus."</string>
     <string name="voicemail_transcription_failed_language_not_supported">Transkribeerimine pole saadaval. Keelt ei toetata.</string>
     <string name="voicemail_transcription_failed_no_speech">Transkribeerimine pole saadaval. Kõnet ei tuvastatud.</string>
     <string name="voicemail_transcription_in_progress">Transkribeerimine …</string>
-    <string name="voicemail_transcription_preference_summary_info">"Hankige oma kõnepostisõnumite transkriptsioonid, kasutades Google'i transkribeerimisteenust. %1$s"</string>
+    <string name="voicemail_transcription_preference_summary_info">"Hankige oma kõnepostisõnumite transkriptsioonid, kasutades Google'i transkribeerimisteenust. ^1"</string>
     <string name="voicemail_visual_voicemail_auto_archive_switch_title">Lisavarundus ja -salvestusruum</string>
     <string name="voicemail_visual_voicemail_donation_switch_title">Kõnepostisõn. transkribeerimise analüüs</string>
     <string name="voicemail_visual_voicemail_switch_title">Visuaalne kõnepost</string>
@@ -1636,7 +1634,7 @@ Kõne jätkamisel rakendub andmekasutus."</string>
     <string name="wait_prompt_str">"Kas saata järgmised toonid?
 "</string>
     <string name="was_this_a_business_chip_text">Kas see oli ettevõte?</string>
-    <string name="was_this_a_business_dialog_body">Selle märgendi kinnitamine aitab Google’il helistaja ID-d täiustada</string>
+    <string name="was_this_a_business_dialog_body">Selle kinnitamine aitab Google’il helistaja ID-d täiustada</string>
     <string name="was_this_a_business_dialog_negative_response">Ei</string>
     <string name="was_this_a_business_dialog_positive_response">Jah</string>
     <string name="was_this_a_business_dialog_snackbar">Suur tänu tagasiside eest</string>

@@ -63,7 +63,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript">^1, ^2, ^3.</string>
     <string name="a11y_new_call_log_entry_phone_account">– ^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">RTT-hívás indítása neki: ^1</string>
-    <string name="a11y_new_call_log_entry_tap_action">menü kibontása</string>
+    <string name="a11y_new_call_log_entry_tap_action">menü kibontása vagy összecsukása</string>
     <string name="a11y_new_call_log_entry_video_call">videohívás indítása vele: ^1</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">videohívás indítása Wi-Fi-n vele: ^1</string>
     <string name="a11y_new_call_log_entry_voice_call">^1 hívása</string>
@@ -192,6 +192,7 @@ A felvételeket csak az Ön telefonján tároljuk. ^1"</string>
     <string name="atlas_soda_banner_feature_text">Hold for Me</string>
     <string name="atlas_temp_service_notification_title">Hold for Me-hívás kezdeményezése</string>
     <string name="atlas_warning_text_for_second_incoming_call">Ha fogadja ezt a hívást, azzal leállítja a Hold for Me funkciót</string>
+    <string name="audio_route_item_checked_description">Bejelölve</string>
     <string name="audioroute_bluetooth">Bluetooth</string>
     <string name="audioroute_headset">Vezetékes headset</string>
     <string name="audioroute_phone">Telefon</string>
@@ -236,6 +237,7 @@ A felvételeket csak az Ön telefonján tároljuk. ^1"</string>
     <string name="bm_suggest_wait_time_estimating">"Chat
 Már készül…"</string>
     <string name="bottomsheet_action_expand_halfway">Kibontás félig</string>
+    <string name="bottomsheet_drag_handle_content_description">Csúszka</string>
     <string name="bubble_bottom_action_end_call">Hívás vége</string>
     <string name="bubble_bottom_action_hide">Elrejtés</string>
     <string name="bubble_return_to_call">Vissza a híváshoz</string>
@@ -583,10 +585,8 @@ Kérem, küldjön segítséget."</string>
     <string name="copy_number">Szám másolása</string>
     <string name="create_new_contact">Új névjegy</string>
     <string name="crosby_setting_title">Hívásrögzítés</string>
-    <string name="crystal_clear_audio_setting_title">Tiszta hangzás</string>
     <string name="current_voicemail_greeting_record_instruction">Üdvözlőüzenet rögzítése</string>
     <string name="current_voicemail_greeting_recording_title">Üdvözlőüzenetem</string>
-    <string name="custom_message_hint">Egyéni üzenet írása</string>
     <string name="custom_prefix_add_prefix_to_call_entry_always_add_prefix">Mindig kell előtag</string>
     <string name="custom_prefix_add_prefix_to_call_entry_ask_before_dialing">Kérdés a hívás előtt</string>
     <string name="custom_prefix_add_prefix_to_call_entry_never_add_prefix">Sosem kell előtag</string>
@@ -671,11 +671,11 @@ Kérem, küldjön segítséget."</string>
     <string name="display_options_view_given_name_first">Utónév elöl</string>
     <string name="display_options_view_names_as">Névformátum</string>
     <string name="do_not_show_again">Ne jelenjen meg újra</string>
-    <string name="duo_fallback_dialog_do_not_show_again_label">Választás megjegyzése</string>
-    <string name="duo_fallback_dialog_message">Nem sikerült felépíteni a videohívást a szolgáltató videohívási funkciójával. A Duo segítségével sikeres lehet a hívás. Próbálja meg vele.</string>
-    <string name="duo_fallback_dialog_negative_button_label">Mégse</string>
-    <string name="duo_fallback_dialog_positive_button_label">A Duo használata</string>
-    <string name="duo_fallback_dialog_title">Megpróbálja a Google Duóval?</string>
+    <string name="duo_fallback_dialog_do_not_show_again_label">Beállíthatja tartaléknak a Duót minden hívás esetére. A beállítások között bármikor módosíthatja.</string>
+    <string name="duo_fallback_dialog_message">Ha a szolgáltató nem tudja felépíteni a videohívást, a Duo automatikusan megpróbál videohívást indítani.</string>
+    <string name="duo_fallback_dialog_negative_button_label">Most nem</string>
+    <string name="duo_fallback_dialog_positive_button_label">A Duo legyen a tartalék</string>
+    <string name="duo_fallback_dialog_title">A Google Duót használja tartalék hívóalkalmazásként?</string>
     <string name="edit_number_before_call">Szám szerkesztése hívás előtt</string>
     <string name="emergency_assist_address_sentence">Tartózkodási helyem: %1$s.</string>
     <string name="emergency_assist_button_fire">Tűz</string>
@@ -697,6 +697,7 @@ Kérem, küldjön segítséget."</string>
     <string name="emergency_voice_assist_dialog_button_close">Mégse</string>
     <string name="emergency_voice_assist_dialog_title">A segélyhívó operátora hallja ezt</string>
     <string name="end_call_with_default_message_description">Hívás vége</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_icon_content_description">Hiba</string>
     <string name="error_unable_to_get_audio">Nem sikerült lekérni a hangmintát</string>
     <string name="error_unable_to_play_audio">Nem sikerült lejátszani a hangmintát</string>
@@ -741,7 +742,7 @@ Kérem, küldjön segítséget."</string>
     <string name="first_time_dialog_duo_video_call_label">Google Duo</string>
     <string name="first_time_dialog_negative_button_label">Mégse</string>
     <string name="first_time_dialog_positive_button_label">Kiválasztás</string>
-    <string name="first_time_dialog_remember_this_choice_label">Választás megjegyzése</string>
+    <string name="first_time_dialog_remember_this_choice_label">Megjegyzés minden hívás esetére. A beállítások között bármikor módosíthatja.</string>
     <string name="first_time_dialog_title">Videohívási szolgáltatás kiválasztása</string>
     <string name="flip_to_shush_title">Elnémítás lefordítással</string>
     <string name="flip_to_silence_summary">Ha el szeretne halkítani egy bejövő hívást, helyezze a telefont az előlapjával lefelé egy sík felületre.</string>
@@ -789,6 +790,8 @@ Kérem, küldjön segítséget."</string>
     <string name="incall_content_description_hold">Hívás tartása</string>
     <string name="incall_content_description_merge_calls">Hívások egyesítése</string>
     <string name="incall_content_description_muted">Némítva</string>
+    <string name="incall_content_description_show_less">Kevesebb</string>
+    <string name="incall_content_description_show_more">Továbbiak</string>
     <string name="incall_content_description_speaker">Hangszóró</string>
     <string name="incall_content_description_swap_calls">Hívások cseréje</string>
     <string name="incall_content_description_swap_sim">SIM-kártya módosítása</string>
@@ -804,6 +807,7 @@ Kérem, küldjön segítséget."</string>
     <string name="incall_label_hold">Várakoztatás</string>
     <string name="incall_label_manage">Kezelés</string>
     <string name="incall_label_merge">Egyesítés</string>
+    <string name="incall_label_more">Több</string>
     <string name="incall_label_mute">Némítás</string>
     <string name="incall_label_record">Felvétel</string>
     <string name="incall_label_record_checked">Felv. leállítása</string>
@@ -836,15 +840,9 @@ Kérem, küldjön segítséget."</string>
     <string name="join_call_with_default_message_description">Csatlakozás a híváshoz</string>
     <string name="just_now">Éppen most</string>
     <string name="lat_long_format">%1$f, %2$f</string>
+    <string name="launch_application_settings">Beállítások</string>
     <string name="launcherActivityLabel">Telefon</string>
     <string name="learn_more_text_for_tmo">További tájékoztatást a T-Mobile webhelyén talál</string>
-    <string name="legacy_post_call_message">Mondja el, miért hívta</string>
-    <string name="legacy_post_call_message_1">Sürgős. Hívjon vissza.</string>
-    <string name="legacy_post_call_message_2">Hívjon vissza, ha alkalmas.</string>
-    <string name="legacy_post_call_message_3">Nem sürgős, ráér később.</string>
-    <string name="legacy_post_call_message_sent">Üzenet elküldve</string>
-    <string name="legacy_post_call_send_message">Üzenet küldése</string>
-    <string name="legacy_post_call_view">Megnyitás</string>
     <string name="libraries_material_featurehighlight_dismiss">Elvetés</string>
     <string name="license_activity_label">Nyílt forráskódú licencek</string>
     <string name="light_theme_label">Világos</string>
@@ -869,6 +867,7 @@ Kérem, küldjön segítséget."</string>
     <string name="mdd_notification_action_cancel">Mégse</string>
     <string name="mdd_notification_download_failed">Sikertelen letöltés</string>
     <string name="mdd_notification_download_paused">Várakozás hálózati kapcsolatra</string>
+    <string name="mdd_notification_download_paused_wifi">Wi-Fi-kapcsolatra vár</string>
     <string name="meid_number">MEID: %s</string>
     <string name="menu_callNumber">Hívás: %s</string>
     <string name="merge_calls_confirm_message">Csak akkor egyesítse a hívásait, ha biztos benne, hogy mindenki más tudja, ki fog részt venni az egyesített hívásban</string>
@@ -908,11 +907,9 @@ Kérem, küldjön segítséget."</string>
     <string name="nearbyplaces_account_setting_title">Google-fiók</string>
     <string name="new_call_log_activity_title">Híváslista</string>
     <string name="new_call_log_all_title">Mind</string>
-    <string name="new_call_log_carrier_video">Szolgáltatói videohívás</string>
     <string name="new_call_log_clear_call_log_confirmation">Ezzel törli az összes hívást a híváslistából</string>
     <string name="new_call_log_clear_call_log_confirmation_title">Törli a híváslistát?</string>
     <string name="new_call_log_delete_all">A híváslista törlése</string>
-    <string name="new_call_log_duo_video">Duo-videohívás</string>
     <string name="new_call_log_empty">Itt lesznek láthatók a lebonyolított hívásai</string>
     <string name="new_call_log_generic_video">Videó</string>
     <string name="new_call_log_header_older">Korábbi</string>
@@ -930,6 +927,7 @@ Kérem, küldjön segítséget."</string>
     <string name="new_permission_no_search">A névjegyek kereséséhez engedélyezze a névjegyhozzáférést.</string>
     <string name="non_contact_always_record_dialog_title">Mindig rögzíti az olyan hívásokat, amelyek a névjegyei között nem szereplő számról érkeznek?</string>
     <string name="non_contact_toggle_label">A névjegyek között nem szereplő számok</string>
+    <string name="non_spam_aftercall_notification_title">Ismeri ezt a számot: %1$s?</string>
     <string name="non_spam_notification_title">Ismeri a következő számot: %1$s?</string>
     <string name="not_set">Nincs beállítva</string>
     <string name="notification_action_accept">Elfogadás</string>
@@ -980,7 +978,7 @@ Kérem, küldjön segítséget."</string>
     <string name="notification_ongoing_call">Hívás folyamatban</string>
     <string name="notification_ongoing_call_multi_sim">Folyamatban lévő hívás ezen: %1$s</string>
     <string name="notification_ongoing_call_wifi_template">Folyamatban lévő %1$s</string>
-    <string name="notification_ongoing_call_wifi_template_multi_sim">Folyamatban lévő %1$s ezen: %1$s</string>
+    <string name="notification_ongoing_call_wifi_template_multi_sim">Ongoing %1$s via %2$s</string>
     <string name="notification_ongoing_paused_video_call">Szolgáltatói videohívás folyamatban – a videó szüneteltetve</string>
     <string name="notification_ongoing_paused_video_call_multi_sim">Szolgáltatói videohívás ezen: %1$s – a videó szüneteltetve</string>
     <string name="notification_ongoing_video_call">Szolgáltatói videohívás van folyamatban</string>
@@ -993,7 +991,7 @@ Kérem, küldjön segítséget."</string>
     <string name="notification_take_call">Hívás fogadása</string>
     <string name="notification_take_video_call">Videohívás fogadása</string>
     <string name="notification_voicemail_callers_list">%1$s, %2$s</string>
-    <string name="notification_voicemail_no_vm_number">A hangposta száma ismeretlen</string>
+    <string name="notification_voicemail_no_vm_number">A hangposta beállításához válassza a Menü > Beállítások pontot.</string>
     <string name="notification_voicemail_text_format">Tárcsázás: %s</string>
     <string name="old_block_number_confirmation_title">Letiltja a következő számot: %1$s?</string>
     <string name="openhistory_button_label">Előzmények</string>
@@ -1034,6 +1032,7 @@ Kérem, küldjön segítséget."</string>
     <string name="precall_dialpad_chat_button">Csevegés</string>
     <string name="precall_dialpad_chat_wait_min">%1$d perc várakozás</string>
     <string name="preference_copied">„%1$s” a vágólapra lett másolva.</string>
+    <string name="preferences_license_title">Harmadik fél tájékoztatója</string>
     <string name="presence_optin_dialog_do_not_show_again_label">Ne jelenjen meg többé</string>
     <string name="presence_optin_dialog_message">"Videohívás indítása előtt a Verizon ellenőrizni szeretné, hogy mely telefonszámok képesek a Verizon-videohívások fogadására.
 
@@ -1048,7 +1047,7 @@ A beállítások módosítása nélkül is kezdeményezhet videohívásokat."</s
     <string name="private_num_non_verizon">Magántelefonszám</string>
     <string name="private_num_verizon">Korlátozott</string>
     <string name="private_or_hidden_action_preference_description">A hívóazonosítójukat elrejtő hívók</string>
-    <string name="private_or_hidden_action_preference_title">Privát vagy rejtett</string>
+    <string name="private_or_hidden_action_preference_title">Privát és rejtett számok</string>
     <string name="quick_contact_checkbox_description">Névjegy kijelölése</string>
     <string name="ready_for_recording">Előkészítés…</string>
     <string name="record_audio_pre_call_dialog_got_it">Értem</string>
@@ -1169,7 +1168,6 @@ A Call Screen nem használ adat- vagy Wi-Fi-kapcsolatot, szolgáltatói hívásp
     <string name="set_default_account_description">Preferált SIM-kártya mentve a névjegyekkel.</string>
     <string name="set_phone_as_default_explanation_text">A Telefon csak akkor tud hívást indítani és fogadni, ha ő az alapértelmezett telefonos alkalmazás.</string>
     <string name="set_phone_as_default_request_text">Telefon beállítása alapértelmezettként</string>
-    <string name="settings">Beállítások</string>
     <string name="settings_page_call_recording_feature_not_available_text">A hívásrögzítés nem vehető igénybe a tartózkodási helyén</string>
     <string name="settings_page_crosby_feature_not_available_text">Nem áll rendelkezésre az Ön tartózkodási helyén</string>
     <string name="setup_duo_button_long_text">A Duo-videohívás beállítása</string>
@@ -1219,6 +1217,9 @@ A Call Screen nem használ adat- vagy Wi-Fi-kapcsolatot, szolgáltatói hívásp
     <string name="sounds_and_vibration_title">Hangok és rezgés</string>
     <string name="spam_action_preference_description">A Google spamadatbázisával egyezést mutató számok</string>
     <string name="spam_action_preference_title">Spam</string>
+    <string name="spam_after_call_notification_add_contact_action_text">Névjegy hozzáadása</string>
+    <string name="spam_after_call_notification_report_spam_action_text">Tiltás és bejelentés</string>
+    <string name="spam_aftercall_notification_unknown">Ismeretlen</string>
     <string name="spam_and_call_screen_settings_title">Spam- és hívásszűrés</string>
     <string name="spam_blocking_promo_action_dismiss">Bezárás</string>
     <string name="spam_blocking_promo_action_filter_spam">Spamszűrés</string>
@@ -1230,6 +1231,9 @@ A Call Screen nem használ adat- vagy Wi-Fi-kapcsolatot, szolgáltatói hívásp
     <string name="spam_blocking_settings_enable_error_text">Hiba történt a spamszűrés bekapcsolásakor</string>
     <string name="spam_blocking_settings_summary">Megakadályozza, hogy gyanús spamhívásokkal zavarják Önt.</string>
     <string name="spam_blocking_settings_title">Spamhívások szűrése</string>
+    <string name="spam_dialog_add_contact_action">Hozzáadás a névjegyekhez</string>
+    <string name="spam_dialog_dismiss_action">Bezárás</string>
+    <string name="spam_notification_action_block_spam">Igen, tiltsa le a számot</string>
     <string name="spam_notification_action_dismiss">Elvetés</string>
     <string name="spam_notification_add_contact_action_text">Névjegy hozzáadása</string>
     <string name="spam_notification_block_spam_action_text">Igen, tiltsa le a számot</string>
@@ -1469,27 +1473,27 @@ Ha folytatja a hívást, az adatkapcsolat használata díjköteles lehet."</stri
     <string name="videocall_remotely_resumed">Hívás folytatva</string>
     <string name="videocall_settings_default_ask_every_time">Mindig kérdezzen rá</string>
     <string name="videocall_settings_default_carrier">Szolgáltatói videohívás</string>
-    <string name="videocall_settings_default_caution">This feature allows a user to choose a preferred video call solution and indicate the receiver’s video capability when it’s available. ^1</string>
-    <string name="videocall_settings_default_caution_learn_more">Learn more about preferred video services</string>
+    <string name="videocall_settings_default_caution">Válassza ki a videohívás módját, és megtudja, hogy a hívott fél képes-e fogadni. ^1,</string>
+    <string name="videocall_settings_default_caution_learn_more">További információ a videohívásokról</string>
     <string name="videocall_settings_default_duo">Google Duo</string>
     <string name="videocall_settings_default_title">Preferált videohívási szolgáltatás</string>
-    <string name="videocall_settings_fallback_caution">"When “Use Google Duo as backup” (if applicable) is on and a call can't be completed using your preferred service, the call will automatically be attempted on Duo. ^1"</string>
-    <string name="videocall_settings_fallback_caution_learn_more">Learn more about Duo backup calling</string>
+    <string name="videocall_settings_fallback_caution">Ha a Google Duo van beállítva tartaléknak, akkor a Duo automatikusan megkísérli a hívást, ha a szolgáltató nem tudja felépíteni a videohívást. ^1,</string>
+    <string name="videocall_settings_fallback_caution_learn_more">További információ a Duo tartalékként való használatáról</string>
     <string name="videocall_settings_fallback_summary">Átváltás a Duóra, ha a preferált szolgáltatás nem áll rendelkezésre</string>
-    <string name="videocall_settings_fallback_title">A Google Duo használata tartalékként</string>
+    <string name="videocall_settings_fallback_title">A Duo használata tartalékként</string>
     <string name="videocall_settings_title">Videohívás</string>
     <string name="videocall_show_preview_button_description">Helyi videokép megjelenítése</string>
     <string name="view_location_settings">Helybeállítások</string>
     <string name="vitle_label">LTE fölötti videó</string>
     <string name="viwifi_label">WiFi-n keresztüli videó</string>
     <string name="vm_change_pin_error_invalid">Az új PIN-kódban érvénytelen karakterek vannak.</string>
-    <string name="vm_change_pin_error_last_4_digits_msisdn">Az új PIN-kód nem lehet a telefonszám utolsó négy számjegye.</string>
+    <string name="vm_change_pin_error_last_4_digits_msisdn">A PIN-kód nem lehet a telefonszám utolsó 4 számjegye.</string>
     <string name="vm_change_pin_error_mismatch">A régi PIN-kód nem egyezik a tárolttal.</string>
     <string name="vm_change_pin_error_system_error">Nem sikerült módosítani a PIN-kódot</string>
     <string name="vm_change_pin_error_too_long">Az új PIN-kód túl hosszú.</string>
     <string name="vm_change_pin_error_too_short">Az új PIN-kód túl rövid.</string>
     <string name="vm_change_pin_error_too_weak">Az új PIN-kód túl gyenge. Az erős jelszavakban nincsenek egymás után következő számok vagy ismétlődő számjegyek.</string>
-    <string name="vm_change_pin_error_unchanged_pin">Az új PIN-kód ugyanaz, mint a jelenlegi PIN-kód. Adjon meg eltérő PIN-kódot.</string>
+    <string name="vm_change_pin_error_unchanged_pin">Az új PIN-kód nem lehet ugyanaz, mint a jelenlegi PIN-kód.</string>
     <string name="vm_change_pin_progress_message">Kérjük, várjon.</string>
     <string name="voice_call">Hanghívás</string>
     <string name="voice_call_button">Hívás</string>
@@ -1511,11 +1515,9 @@ Ha folytatja a hívást, az adatkapcsolat használata díjköteles lehet."</stri
     <string name="voicemailMultiSelectDeleteConfirm">Törlés</string>
     <string name="voicemail_action_call_customer_support">Ügyfélszolgálat hívása</string>
     <string name="voicemail_action_call_voicemail">Hangposta hívása</string>
-    <string name="voicemail_action_dimiss">Nem</string>
     <string name="voicemail_action_retry">Újra</string>
     <string name="voicemail_action_set_pin">PIN-kód beállítása</string>
     <string name="voicemail_action_sync">Szinkronizálás</string>
-    <string name="voicemail_action_turn_archive_on">Bekapcsolás</string>
     <string name="voicemail_action_turn_off_airplane_mode">A repülős üzemmód beállításai</string>
     <string name="voicemail_activating_summary_info">Hangposta aktiválása</string>
     <string name="voicemail_advanced_settings_title">Speciális beállítások</string>
@@ -1530,7 +1532,7 @@ Ha folytatja a hívást, az adatkapcsolat használata díjköteles lehet."</stri
     <string name="voicemail_change_pin_preference_summary_disable">A PIN-kód módosításához engedélyezni kell a vizuális hangpostát.</string>
     <string name="voicemail_change_pin_preference_summary_not_activated">A vizuális hangposta még nincs aktiválva. Engedélyezze később.</string>
     <string name="voicemail_change_pin_preference_title">PIN-kód módosítása</string>
-    <string name="voicemail_donate_preference_summary_info">Engedélyezze, hogy a Google áttekinthesse a hangpostaüzeneteit az átiratok pontosságának javítása érdekében. A hangpostaüzeneteket anonim módon tároljuk. %1$s</string>
+    <string name="voicemail_donate_preference_summary_info">Engedélyezze, hogy a Google áttekinthesse a hangpostaüzeneteit az átiratok pontosságának javítása érdekében. A hangpostaüzeneteket anonim módon tároljuk. ^1</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">Ha adatcsomag nélküli SIM-kártyán használ vizuális hangpostát, azért a szolgáltató díjat számíthat fel.</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">A vizuális hangposta csak a kiválasztott adat SIM-kártya esetén áll rendelkezésre</string>
     <string name="voicemail_error_activating_message">A vizuális hangposta teljes aktiválásáig nem feltétlenül kap értesítést a hangpostaüzenetekről. A szolgáltatás teljes aktiválásáig a hangpostát felhívva kérheti le új üzeneteit.</string>
@@ -1543,12 +1545,8 @@ Ha folytatja a hívást, az adatkapcsolat használata díjköteles lehet."</stri
     <string name="voicemail_error_bad_config_title">Nem sikerült frissíteni a vizuális hangpostát</string>
     <string name="voicemail_error_communication_message">Hívással továbbra is lekérheti a hangpostaüzeneteket.</string>
     <string name="voicemail_error_communication_title">Nem sikerült frissíteni a vizuális hangpostát</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_message">A postaláda majdnem megtelt. Ha szeretne helyet felszabadítani, kapcsolja be az extra tárhely funkciót, hogy a Google kezelhesse a hangpostaüzeneteket, és biztonsági mentést készíthessen róluk.</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_title">Az extra tárhely és biztonsági mentés bekapcsolása</string>
     <string name="voicemail_error_inbox_full_message">A postaláda megtelt. Ha meg szeretné kapni az új hangpostaüzeneteket, töröljön néhány üzenetet.</string>
     <string name="voicemail_error_inbox_full_title">Nem tud új hangpostaüzeneteket fogadni</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_message">A postaláda megtelt. Ha szeretne helyet felszabadítani, kapcsolja be az extra tárhely funkciót, hogy a Google kezelhesse a hangpostaüzeneteket, és biztonsági mentést készíthessen róluk.</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_title">Az extra tárhely és biztonsági mentés bekapcsolása</string>
     <string name="voicemail_error_inbox_near_full_message">Ha a postaláda megtelt, nem fogadhat új hangpostaüzeneteket.</string>
     <string name="voicemail_error_inbox_near_full_title">Hangpostafiókja majdnem megtelt</string>
     <string name="voicemail_error_no_data_cellular_required_message">Próbálja újra, amikor a mobil-adatkapcsolat erősebb lesz. Hívással továbbra is lekérheti a hangpostaüzeneteket.</string>
@@ -1581,7 +1579,7 @@ Ha folytatja a hívást, az adatkapcsolat használata díjköteles lehet."</stri
     <string name="voicemail_transcription_failed_language_not_supported">Sikertelen átírás. A nyelv nem támogatott.</string>
     <string name="voicemail_transcription_failed_no_speech">Sikertelen átírás. Nem észlelhető beszéd.</string>
     <string name="voicemail_transcription_in_progress">Átírás…</string>
-    <string name="voicemail_transcription_preference_summary_info">A Google átírási szolgáltatásával lekérheti a hangpostaüzenetek átiratát. %1$s</string>
+    <string name="voicemail_transcription_preference_summary_info">A Google átírási szolgáltatásával lekérheti a hangpostaüzenetek átiratát. ^1</string>
     <string name="voicemail_visual_voicemail_auto_archive_switch_title">Extra tárhely és biztonsági mentés</string>
     <string name="voicemail_visual_voicemail_donation_switch_title">Hangpostaüzenet-átirás elemzése</string>
     <string name="voicemail_visual_voicemail_switch_title">Vizuális hangposta</string>
@@ -1637,7 +1635,7 @@ Ha folytatja a hívást, az adatkapcsolat használata díjköteles lehet."</stri
     <string name="wait_prompt_str">"Elküldi a következő hangjelzéseket?
 "</string>
     <string name="was_this_a_business_chip_text">Cég volt?</string>
-    <string name="was_this_a_business_dialog_body">A címke megerősítése segít a Google-nak a hívóazonosító szolgáltatás fejlesztésében</string>
+    <string name="was_this_a_business_dialog_body">A megerősítés segít a Google-nak a hívóazonosító szolgáltatás fejlesztésében</string>
     <string name="was_this_a_business_dialog_negative_response">Nem</string>
     <string name="was_this_a_business_dialog_positive_response">Igen</string>
     <string name="was_this_a_business_dialog_snackbar">Köszönjük a visszajelzését!</string>

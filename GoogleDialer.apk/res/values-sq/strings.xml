@@ -63,7 +63,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript">^1, ^2, ^3.</string>
     <string name="a11y_new_call_log_entry_phone_account">në ^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">bëj një telefonatë RTT me ^1</string>
-    <string name="a11y_new_call_log_entry_tap_action">zgjero menynë</string>
+    <string name="a11y_new_call_log_entry_tap_action">zgjero ose palos menynë</string>
     <string name="a11y_new_call_log_entry_video_call">bëj një telefonatë me video me ^1</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">bëj një telefonatë me video me ^1 duke përdorur Wi-Fi</string>
     <string name="a11y_new_call_log_entry_voice_call">telefono ^1</string>
@@ -191,6 +191,7 @@ Regjistrimet ruhen vetëm në telefonin tënd. ^1"</string>
     <string name="atlas_soda_banner_feature_text">Prit në vendin tim</string>
     <string name="atlas_temp_service_notification_title">Po niset një telefonatë me \"Prit në vendin tim\"</string>
     <string name="atlas_warning_text_for_second_incoming_call">Përgjigjja për këtë telefonatë do ta mbyllë veçorinë \"Prit në vendin tim\"</string>
+    <string name="audio_route_item_checked_description">U zgjodh</string>
     <string name="audioroute_bluetooth">Bluetooth-i</string>
     <string name="audioroute_headset">Kufje me tel</string>
     <string name="audioroute_phone">Telefoni</string>
@@ -235,6 +236,7 @@ Prit %1$d min."</string>
     <string name="bm_suggest_wait_time_estimating">"Bisedo
 Po punon…"</string>
     <string name="bottomsheet_action_expand_halfway">Zgjeroje deri në gjysmë</string>
+    <string name="bottomsheet_drag_handle_content_description">Doreza e zvarritjes</string>
     <string name="bubble_bottom_action_end_call">Mbyll telefonatën</string>
     <string name="bubble_bottom_action_hide">Fshih</string>
     <string name="bubble_return_to_call">Kthehu te telefonata</string>
@@ -582,10 +584,8 @@ Dërgo ndihmë."</string>
     <string name="copy_number">Kopjo numrin</string>
     <string name="create_new_contact">Krijo një kontakt të ri</string>
     <string name="crosby_setting_title">Regjistrimi i telefonatës</string>
-    <string name="crystal_clear_audio_setting_title">Telefonata të qarta</string>
     <string name="current_voicemail_greeting_record_instruction">Regjistro një përshëndetje</string>
     <string name="current_voicemail_greeting_recording_title">Përshëndetja e postës zanore</string>
-    <string name="custom_message_hint">Shkruaj mesazh të person.</string>
     <string name="custom_prefix_add_prefix_to_call_entry_always_add_prefix">Shto gjithmonë prefiksin</string>
     <string name="custom_prefix_add_prefix_to_call_entry_ask_before_dialing">Pyet përpara telefonatës</string>
     <string name="custom_prefix_add_prefix_to_call_entry_never_add_prefix">Mos shto asnjëherë prefiksin</string>
@@ -670,11 +670,11 @@ Dërgo ndihmë."</string>
     <string name="display_options_view_given_name_first">Emri në fillim</string>
     <string name="display_options_view_names_as">Formati i emrit</string>
     <string name="do_not_show_again">Mos e shfaq më</string>
-    <string name="duo_fallback_dialog_do_not_show_again_label">Kujtoje këtë zgjedhje</string>
-    <string name="duo_fallback_dialog_message">Videotelefonata jote nuk mund të kryhet duke përdorur videotelefonatat nëpërmjet operatorit celular. Provo ta kryesh telefonatën duke përdorur Duo më mirë.</string>
-    <string name="duo_fallback_dialog_negative_button_label">Anulo</string>
-    <string name="duo_fallback_dialog_positive_button_label">Përdor Duo</string>
-    <string name="duo_fallback_dialog_title">Do ta provosh me Google Duo?</string>
+    <string name="duo_fallback_dialog_do_not_show_again_label">Kujto zgjedhjen e Duo si rezervë për çdo telefonatë. Menaxhoje në çdo kohë te cilësimet.</string>
+    <string name="duo_fallback_dialog_message">Duo do të përpiqet automatikisht të kryejë një telefonatë nëse operatori celular nuk mund ta kryejë videotelefonatën.</string>
+    <string name="duo_fallback_dialog_negative_button_label">Jo, faleminderit</string>
+    <string name="duo_fallback_dialog_positive_button_label">Përdor Duo si rezervë</string>
+    <string name="duo_fallback_dialog_title">Të përdoret Google Duo si rezervë për telefonatat?</string>
     <string name="edit_number_before_call">Modifiko numrin para telefonatës</string>
     <string name="emergency_assist_address_sentence">Vendndodhja ime është %1$s.</string>
     <string name="emergency_assist_button_fire">Zjarr</string>
@@ -696,6 +696,7 @@ Dërgo ndihmë."</string>
     <string name="emergency_voice_assist_dialog_button_close">Anulo</string>
     <string name="emergency_voice_assist_dialog_title">Operatori i urgjencës dëgjon këtë</string>
     <string name="end_call_with_default_message_description">Mbyll telefonatën</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_icon_content_description">Gabim</string>
     <string name="error_unable_to_get_audio">Audioja e shembullit nuk mund të merret</string>
     <string name="error_unable_to_play_audio">Audioja e shembullit nuk mund të luhet</string>
@@ -740,7 +741,7 @@ Dërgo ndihmë."</string>
     <string name="first_time_dialog_duo_video_call_label">Google Duo</string>
     <string name="first_time_dialog_negative_button_label">Anulo</string>
     <string name="first_time_dialog_positive_button_label">Zgjidh</string>
-    <string name="first_time_dialog_remember_this_choice_label">Kujtoje këtë zgjedhje</string>
+    <string name="first_time_dialog_remember_this_choice_label">Kujtoje për çdo telefonatë. Menaxhoje në çdo kohë te cilësimet.</string>
     <string name="first_time_dialog_title">Zgjidh shërbimin e videotelefonatave</string>
     <string name="flip_to_shush_title">Përmbyse për Shhh</string>
     <string name="flip_to_silence_summary">Për ta vendosur në heshtje një telefonatë hyrëse, ktheje telefonin përmbys mbi një sipërfaqe të sheshtë</string>
@@ -788,6 +789,8 @@ Dërgo ndihmë."</string>
     <string name="incall_content_description_hold">Vendos në pritje telefonatën</string>
     <string name="incall_content_description_merge_calls">Shkri telefonatat</string>
     <string name="incall_content_description_muted">Zëri i çaktivizuar</string>
+    <string name="incall_content_description_show_less">Shfaq më pak</string>
+    <string name="incall_content_description_show_more">Shfaq më shumë</string>
     <string name="incall_content_description_speaker">Altoparlant</string>
     <string name="incall_content_description_swap_calls">Shkëmbe telefonata</string>
     <string name="incall_content_description_swap_sim">Ndrysho kartën SIM</string>
@@ -803,6 +806,7 @@ Dërgo ndihmë."</string>
     <string name="incall_label_hold">Në pritje</string>
     <string name="incall_label_manage">Menaxho</string>
     <string name="incall_label_merge">Shkri</string>
+    <string name="incall_label_more">Më shumë</string>
     <string name="incall_label_mute">Hiqi zërin</string>
     <string name="incall_label_record">Regjistro</string>
     <string name="incall_label_record_checked">Ndalo regjistrimin</string>
@@ -835,15 +839,9 @@ Dërgo ndihmë."</string>
     <string name="join_call_with_default_message_description">Bashkohu në telefonatë</string>
     <string name="just_now">Pikërisht tani</string>
     <string name="lat_long_format">%1$f, %2$f</string>
+    <string name="launch_application_settings">Cilësimet</string>
     <string name="launcherActivityLabel">Telefoni</string>
     <string name="learn_more_text_for_tmo">Vizito T-Mobile për të mësuar më shumë</string>
-    <string name="legacy_post_call_message">Thuaj pse telefonove</string>
-    <string name="legacy_post_call_message_1">Është urgjente. Më telefono.</string>
-    <string name="legacy_post_call_message_2">Më telefono kur të kesh kohë.</string>
-    <string name="legacy_post_call_message_3">Nuk është urgjente, mund të bisedojmë më vonë.</string>
-    <string name="legacy_post_call_message_sent">Mesazhi u dërgua</string>
-    <string name="legacy_post_call_send_message">Dërgo mesazh</string>
-    <string name="legacy_post_call_view">Shiko</string>
     <string name="libraries_material_featurehighlight_dismiss">Injoro</string>
     <string name="license_activity_label">Licencat me burim të hapur</string>
     <string name="light_theme_label">E ndriçuar</string>
@@ -868,6 +866,7 @@ Dërgo ndihmë."</string>
     <string name="mdd_notification_action_cancel">Anulo</string>
     <string name="mdd_notification_download_failed">Shkarkimi dështoi</string>
     <string name="mdd_notification_download_paused">Në pritje të lidhjes së rrjetit</string>
+    <string name="mdd_notification_download_paused_wifi">Në pritje të lidhjes Wi-Fi</string>
     <string name="meid_number">MEID %s</string>
     <string name="menu_callNumber">Telefono %s</string>
     <string name="merge_calls_confirm_message">Shkriji telefonatat vetëm nëse je i sigurt se të gjithë e dinë se kush do të jetë në telefonatën e shkrirë</string>
@@ -907,11 +906,9 @@ Dërgo ndihmë."</string>
     <string name="nearbyplaces_account_setting_title">Llogaria e Google</string>
     <string name="new_call_log_activity_title">Historiku i telefonatave</string>
     <string name="new_call_log_all_title">Të gjitha</string>
-    <string name="new_call_log_carrier_video">Video e operatorit celular</string>
     <string name="new_call_log_clear_call_log_confirmation">Kjo do të fshijë të gjitha telefonatat nga historiku yt</string>
     <string name="new_call_log_clear_call_log_confirmation_title">Të pastrohet historiku i telefonatave?</string>
     <string name="new_call_log_delete_all">Pastro historikun e telefonatave</string>
-    <string name="new_call_log_duo_video">Video e Duo</string>
     <string name="new_call_log_empty">Telefonatat që ti bën do të shfaqen këtu</string>
     <string name="new_call_log_generic_video">Video</string>
     <string name="new_call_log_header_older">Më të vjetra</string>
@@ -929,6 +926,7 @@ Dërgo ndihmë."</string>
     <string name="new_permission_no_search">Për të kërkuar te kontaktet, aktivizo lejet e \"Kontakteve\"</string>
     <string name="non_contact_always_record_dialog_title">Të regjistrohen gjithmonë telefonatat me numra që nuk janë në kontaktet e tua?</string>
     <string name="non_contact_toggle_label">Numrat që nuk janë në kontaktet e tua</string>
+    <string name="non_spam_aftercall_notification_title">E njeh %1$s?</string>
     <string name="non_spam_notification_title">E njeh %1$s?</string>
     <string name="not_set">Nuk është caktuar</string>
     <string name="notification_action_accept">Prano</string>
@@ -979,7 +977,7 @@ Dërgo ndihmë."</string>
     <string name="notification_ongoing_call">Telefonatë në vazhdim</string>
     <string name="notification_ongoing_call_multi_sim">Telefonatë dalëse nëpërmjet %1$s</string>
     <string name="notification_ongoing_call_wifi_template">%1$s në vazhdim</string>
-    <string name="notification_ongoing_call_wifi_template_multi_sim">%1$s (në vazhdim) nëpërmjet %1$s</string>
+    <string name="notification_ongoing_call_wifi_template_multi_sim">Ongoing %1$s via %2$s</string>
     <string name="notification_ongoing_paused_video_call">Videotelefonata e rrjetit në vazhdim e sipër ‑ u ndalua</string>
     <string name="notification_ongoing_paused_video_call_multi_sim">Videotel. dalëse e operatorit me %1$s ‑ videoja në pauzë</string>
     <string name="notification_ongoing_video_call">Videotelefonatë rrjeti në vazhdim e sipër</string>
@@ -992,7 +990,7 @@ Dërgo ndihmë."</string>
     <string name="notification_take_call">Prano telefonatën</string>
     <string name="notification_take_video_call">Prano telefonatën me video</string>
     <string name="notification_voicemail_callers_list">%1$s, %2$s</string>
-    <string name="notification_voicemail_no_vm_number">Numri i postës zanore është i panjohur</string>
+    <string name="notification_voicemail_no_vm_number">Për të konfiguruar postën zanore, shko te Menyja > Cilësimet.</string>
     <string name="notification_voicemail_text_format">Formo numrin %s</string>
     <string name="old_block_number_confirmation_title">Të bllokohet %1$s?</string>
     <string name="openhistory_button_label">Historiku</string>
@@ -1047,7 +1045,7 @@ Mund të kryesh përsëri telefonata me video në disa numra pa i përditësuar 
     <string name="private_num_non_verizon">Numër privat</string>
     <string name="private_num_verizon">I kufizuar</string>
     <string name="private_or_hidden_action_preference_description">Telefonuesit që fshehin ID-në e telefonuesit</string>
-    <string name="private_or_hidden_action_preference_title">Privat ose i fshehur</string>
+    <string name="private_or_hidden_action_preference_title">Numrat privatë dhe të fshehur</string>
     <string name="quick_contact_checkbox_description">Zgjidh një kontakt</string>
     <string name="ready_for_recording">Gati…</string>
     <string name="record_audio_pre_call_dialog_got_it">E kuptova</string>
@@ -1094,7 +1092,7 @@ Call Screen nuk përdorë të dhënat ose Wi-Fi, por përdor minutat e telefonat
     <string name="revelio_end_call_user_missed_internal_message">Nuk iu përgjigje telefonatës</string>
     <string name="revelio_pref_title">Call Screen</string>
     <string name="revelio_preference_summary_automatic_screening_off">Filtrimi automatik është joaktiv</string>
-    <string name="revelio_preference_summary_screening">Po filtrohet: %1$s</string>
+    <string name="revelio_preference_summary_screening">Filtro %1$s</string>
     <string name="revelio_save_audio_setting_summary">Ruaj audion nga telefonatat e përgjigjura nga \"Asistenti\" yt</string>
     <string name="revelio_save_audio_setting_title">Ruaj audion e Call Screen</string>
     <string name="revelio_setting_title">Call Screen</string>
@@ -1168,7 +1166,6 @@ Call Screen nuk përdorë të dhënat ose Wi-Fi, por përdor minutat e telefonat
     <string name="set_default_account_description">Preferenca e kartës SIM është ruajtur me kontaktet e tua.</string>
     <string name="set_phone_as_default_explanation_text">\"Telefoni\" mund të kryejë dhe të marrë telefonata vetëm nëse është aplikacioni yt i parazgjedhur</string>
     <string name="set_phone_as_default_request_text">Caktoje \"Telefonin\" si parazgjedhje</string>
-    <string name="settings">Cilësimet</string>
     <string name="settings_page_call_recording_feature_not_available_text">Regjistrimi i telefonatave nuk ofrohet në vendndodhjen tënde</string>
     <string name="settings_page_crosby_feature_not_available_text">Nuk ofrohet në vendndodhjen tënde</string>
     <string name="setup_duo_button_long_text">Konfiguro videotel. e Duo</string>
@@ -1218,6 +1215,9 @@ Call Screen nuk përdorë të dhënat ose Wi-Fi, por përdor minutat e telefonat
     <string name="sounds_and_vibration_title">Tingujt dhe dridhjet</string>
     <string name="spam_action_preference_description">Numrat që përputhen me bazën e të dhënave të numrave të bezdisshëm të Google</string>
     <string name="spam_action_preference_title">Të bezdisshëm</string>
+    <string name="spam_after_call_notification_add_contact_action_text">Shto një kontakt</string>
+    <string name="spam_after_call_notification_report_spam_action_text">Blloko dhe raporto</string>
+    <string name="spam_aftercall_notification_unknown">I panjohur</string>
     <string name="spam_and_call_screen_settings_title">Telefonatat e bezdisshme dhe Call Screen</string>
     <string name="spam_blocking_promo_action_dismiss">Hiq</string>
     <string name="spam_blocking_promo_action_filter_spam">Filtro të padëshiruarat</string>
@@ -1229,6 +1229,9 @@ Call Screen nuk përdorë të dhënat ose Wi-Fi, por përdor minutat e telefonat
     <string name="spam_blocking_settings_enable_error_text">Problem me aktivizimin e filtrimit për të padëshiruarat</string>
     <string name="spam_blocking_settings_summary">Parandalo telefonatat e padëshiruara që mos të të shqetësojnë</string>
     <string name="spam_blocking_settings_title">Filtro telefonatat e padëshiruara</string>
+    <string name="spam_dialog_add_contact_action">Shto te kontaktet</string>
+    <string name="spam_dialog_dismiss_action">Hiq</string>
+    <string name="spam_notification_action_block_spam">Po, bllokoje numrin</string>
     <string name="spam_notification_action_dismiss">Hiq</string>
     <string name="spam_notification_add_contact_action_text">Shto një kontakt</string>
     <string name="spam_notification_block_spam_action_text">Po, bllokoje numrin</string>
@@ -1468,27 +1471,27 @@ Nëse e vazhdon telefonatën, do të zbatohet përdorimi i të dhënave."</strin
     <string name="videocall_remotely_resumed">Telefonata vazhdoi</string>
     <string name="videocall_settings_default_ask_every_time">Pyet çdo herë</string>
     <string name="videocall_settings_default_carrier">Videotelefonatë nëpërmjet operatorit</string>
-    <string name="videocall_settings_default_caution">This feature allows a user to choose a preferred video call solution and indicate the receiver’s video capability when it’s available. ^1</string>
-    <string name="videocall_settings_default_caution_learn_more">Learn more about preferred video services</string>
+    <string name="videocall_settings_default_caution">Zgjidh se si do ta kryesh videotelefonatën dhe mëso nëse personi që po telefonon mund ta marrë atë. ^1</string>
+    <string name="videocall_settings_default_caution_learn_more">Më shumë rreth videotelefonatave</string>
     <string name="videocall_settings_default_duo">Google Duo</string>
     <string name="videocall_settings_default_title">Shërbimi i preferuar i videotelefonatave</string>
-    <string name="videocall_settings_fallback_caution">"When “Use Google Duo as backup” (if applicable) is on and a call can't be completed using your preferred service, the call will automatically be attempted on Duo. ^1"</string>
-    <string name="videocall_settings_fallback_caution_learn_more">Learn more about Duo backup calling</string>
+    <string name="videocall_settings_fallback_caution">Nëse ke Google Duo si rezervë dhe ai është aktiv, Duo do të përpiqet automatikisht të kryejë një telefonatë nëse operatori celular nuk mund ta kryejë videotelefonatën. ^1</string>
+    <string name="videocall_settings_fallback_caution_learn_more">Më shumë rreth Duo si rezervë</string>
     <string name="videocall_settings_fallback_summary">Kalo te Duo nëse shërbimi i preferuar nuk ofrohet</string>
-    <string name="videocall_settings_fallback_title">Përdor Google Duo si rezervë</string>
+    <string name="videocall_settings_fallback_title">Përdor Duo si rezervë</string>
     <string name="videocall_settings_title">Videotelefonatë</string>
     <string name="videocall_show_preview_button_description">Shfaq furnizimin e videos lokale</string>
     <string name="view_location_settings">Cilësimet e vendndodhjes</string>
     <string name="vitle_label">Video nëpërmjet LTE</string>
     <string name="viwifi_label">Video nëpërmjet WiFi</string>
     <string name="vm_change_pin_error_invalid">Kodi PIN i ri përmban karaktere të pavlefshme.</string>
-    <string name="vm_change_pin_error_last_4_digits_msisdn">Kodi i ri PIN nuk duhet të jetë i njëjtë me katër shifrat e fundit të numrit tënd të telefonit.</string>
+    <string name="vm_change_pin_error_last_4_digits_msisdn">"Your PIN can't be the last 4 digits of your phone number."</string>
     <string name="vm_change_pin_error_mismatch">Kodi PIN i vjetër nuk përputhet.</string>
     <string name="vm_change_pin_error_system_error">Kodi PIN nuk mund të ndryshohet.</string>
     <string name="vm_change_pin_error_too_long">Kodi i ri PIN është shumë i gjatë.</string>
     <string name="vm_change_pin_error_too_short">Kodi i ri PIN është shumë i shkurtër.</string>
     <string name="vm_change_pin_error_too_weak">Kodi i ri PIN është shumë i dobët. Një fjalëkalim i fortë nuk duhet të ketë shifra të përsëritura ose në rend të vazhduar.</string>
-    <string name="vm_change_pin_error_unchanged_pin">Kodi i ri PIN është i njëjtë me kodin aktual PIN. Fut një kod tjetër PIN.</string>
+    <string name="vm_change_pin_error_unchanged_pin">"Your new PIN can't be the same as your current PIN."</string>
     <string name="vm_change_pin_progress_message">Prit...</string>
     <string name="voice_call">Telefonatë zanore</string>
     <string name="voice_call_button">Telefono</string>
@@ -1510,11 +1513,9 @@ Nëse e vazhdon telefonatën, do të zbatohet përdorimi i të dhënave."</strin
     <string name="voicemailMultiSelectDeleteConfirm">Fshi</string>
     <string name="voicemail_action_call_customer_support">Telefono \"Mbështetjen e klientit\"</string>
     <string name="voicemail_action_call_voicemail">Telefono postën zanore</string>
-    <string name="voicemail_action_dimiss">Jo, faleminderit</string>
     <string name="voicemail_action_retry">Provo përsëri</string>
     <string name="voicemail_action_set_pin">Cakto kodin PIN</string>
     <string name="voicemail_action_sync">Sinkronizo</string>
-    <string name="voicemail_action_turn_archive_on">Aktivizo</string>
     <string name="voicemail_action_turn_off_airplane_mode">Cilësimet e modalitetit të aeroplanit</string>
     <string name="voicemail_activating_summary_info">Posta zanore po aktivizohet</string>
     <string name="voicemail_advanced_settings_title">Cilësimet e përparuara</string>
@@ -1529,7 +1530,7 @@ Nëse e vazhdon telefonatën, do të zbatohet përdorimi i të dhënave."</strin
     <string name="voicemail_change_pin_preference_summary_disable">Duhet të aktivizohet posta zanore vizuale për të ndryshuar kodin PIN</string>
     <string name="voicemail_change_pin_preference_summary_not_activated">Posta zanore vizuale nuk është aktivizuar ende. Provo përsëri më vonë</string>
     <string name="voicemail_change_pin_preference_title">Ndrysho kodin PIN</string>
-    <string name="voicemail_donate_preference_summary_info">Lejo që Google të rishikojë mesazhet e postës zanore për të përmirësuar saktësinë e transkriptimit. Mesazhet e tua të postës zanore ruhen në mënyrë anonime. %1$s</string>
+    <string name="voicemail_donate_preference_summary_info">Lejo që Google të rishikojë mesazhet e postës zanore për të përmirësuar saktësinë e transkriptimit. Mesazhet e tua të postës zanore ruhen në mënyrë anonime. ^1</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">Përdorimi i postës vizuale për kartat SIM pa të dhëna mund të shkaktojë tarifa nga operatori celular</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">Posta zanore vizuale ofrohet vetëm për kartën SIM të zgjedhur të të dhënave</string>
     <string name="voicemail_error_activating_message">Mund të mos marrësh njoftime të postës zanore derisa posta zanore vizuale të aktivizohet plotësisht. Merr në telefon te posta zanore për të marrë mesazhet e reja derisa posta zanore të aktivizohet plotësisht.</string>
@@ -1542,12 +1543,8 @@ Nëse e vazhdon telefonatën, do të zbatohet përdorimi i të dhënave."</strin
     <string name="voicemail_error_bad_config_title">Posta zanore vizuale nuk mund të përditësohet</string>
     <string name="voicemail_error_communication_message">Mund të telefonosh përsëri për të kontrolluar postën zanore.</string>
     <string name="voicemail_error_communication_title">Posta zanore vizuale nuk mund të përditësohet</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_message">Kutia jote postare është thuajse plot. Për të liruar hapësirën, aktivizo hapësirën ruajtëse shtesë që Google të mund të menaxhojë dhe të rezervojë mesazhet e tua të postës zanore.</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_title">Aktivizo hapësirën ruajtëse shtesë dhe rezervimin</string>
     <string name="voicemail_error_inbox_full_message">Kutia hyrëse është plot. Provo të fshish disa mesazhe për të marrë postë zanore të re.</string>
     <string name="voicemail_error_inbox_full_title">Posta zanore e re nuk mund të merret</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_message">Kutia jote postare është plot. Për të liruar hapësirën, aktivizo hapësirën ruajtëse shtesë që Google të mund të menaxhojë dhe të rezervojë mesazhet e tua të postës zanore.</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_title">Aktivizo hapësirën ruajtëse shtesë dhe rezervimin</string>
     <string name="voicemail_error_inbox_near_full_message">Nuk do të mund të marrësh postë zanore të re nëse kutia hyrëse është plot.</string>
     <string name="voicemail_error_inbox_near_full_title">Kutia hyrëse është pothuajse plot</string>
     <string name="voicemail_error_no_data_cellular_required_message">Provo përsëri kur lidhja e të dhënave celulare të jetë më e mirë. Mund të telefonosh përsëri për të kontrolluar postën zanore.</string>
@@ -1580,7 +1577,7 @@ Nëse e vazhdon telefonatën, do të zbatohet përdorimi i të dhënave."</strin
     <string name="voicemail_transcription_failed_language_not_supported">Transkripti nuk ofrohet. Gjuha nuk mbështetet.</string>
     <string name="voicemail_transcription_failed_no_speech">Transkripti nuk ofrohet. Nuk u zbulua asnjë e folur.</string>
     <string name="voicemail_transcription_in_progress">Po transkriptohet…</string>
-    <string name="voicemail_transcription_preference_summary_info">Merr transkriptet e postës zanore duke përdorur shërbimin e transkriptimit të Google. %1$s</string>
+    <string name="voicemail_transcription_preference_summary_info">Merr transkriptet e postës zanore duke përdorur shërbimin e transkriptimit të Google. ^1</string>
     <string name="voicemail_visual_voicemail_auto_archive_switch_title">Rezervimi dhe hapësira ruajtëse shtesë</string>
     <string name="voicemail_visual_voicemail_donation_switch_title">Analiza e transkriptimit të postës zanore</string>
     <string name="voicemail_visual_voicemail_switch_title">Posta zanore vizuale</string>
@@ -1636,7 +1633,7 @@ Nëse e vazhdon telefonatën, do të zbatohet përdorimi i të dhënave."</strin
     <string name="wait_prompt_str">"Dëshiron t'i dërgosh tonet e mëposhtme?
 "</string>
     <string name="was_this_a_business_chip_text">A ishte një biznes?</string>
-    <string name="was_this_a_business_dialog_body">Konfirmimi i kësaj etikete e ndihmon Google të përmirësojë shërbimin e ID-së së telefonuesit</string>
+    <string name="was_this_a_business_dialog_body">Konfirmimi i kësaj e ndihmon Google të përmirësojë shërbimin e ID-së së telefonuesit</string>
     <string name="was_this_a_business_dialog_negative_response">Jo</string>
     <string name="was_this_a_business_dialog_positive_response">Po</string>
     <string name="was_this_a_business_dialog_snackbar">Faleminderit për komentet e tua</string>

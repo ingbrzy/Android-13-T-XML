@@ -63,7 +63,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript">^1, ^2, ^3।</string>
     <string name="a11y_new_call_log_entry_phone_account">^1-এ</string>
     <string name="a11y_new_call_log_entry_rtt_call">^1-এ RTT কল করুন</string>
-    <string name="a11y_new_call_log_entry_tap_action">মেনু বড় করে দেখুন</string>
+    <string name="a11y_new_call_log_entry_tap_action">মেনু বড় করুন বা আড়াল করুন</string>
     <string name="a11y_new_call_log_entry_video_call">^1-কে ভিডিও কল করুন</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">ওয়াই-ফাই ব্যবহার করে ^1-কে ভিডিও কল করুন</string>
     <string name="a11y_new_call_log_entry_voice_call">^1-কে কল করুন</string>
@@ -192,6 +192,7 @@
     <string name="atlas_soda_banner_feature_text">আমার হয়ে হোল্ডে থাকো</string>
     <string name="atlas_temp_service_notification_title">"'আমার হয়ে হোল্ডে থাকো' কল চালু করা হচ্ছে"</string>
     <string name="atlas_warning_text_for_second_incoming_call">"অন্য কলটিতে উত্তর দিলে 'আমার হয়ে হোল্ডে থাকো' ফিচার বন্ধ হয়ে যাবে"</string>
+    <string name="audio_route_item_checked_description">টিক চিহ্ন দেওয়া হয়েছে</string>
     <string name="audioroute_bluetooth">ব্লুটুথ</string>
     <string name="audioroute_headset">তারযুক্ত হেডসেট</string>
     <string name="audioroute_phone">ফোন</string>
@@ -236,6 +237,7 @@
     <string name="bm_suggest_wait_time_estimating">"চ্যাট
 প্রসেস হচ্ছে…"</string>
     <string name="bottomsheet_action_expand_halfway">অর্ধেক প্রসারিত করুন</string>
+    <string name="bottomsheet_drag_handle_content_description">টেনে আনার হ্যান্ডেল</string>
     <string name="bubble_bottom_action_end_call">রেখে দিন</string>
     <string name="bubble_bottom_action_hide">লুকান</string>
     <string name="bubble_return_to_call">কলে ফিরে যান</string>
@@ -583,10 +585,8 @@
     <string name="copy_number">নম্বর কপি করুন</string>
     <string name="create_new_contact">নতুন পরিচিতি তৈরি করুন</string>
     <string name="crosby_setting_title">কল রেকর্ডিং</string>
-    <string name="crystal_clear_audio_setting_title">স্পষ্ট কলিং</string>
     <string name="current_voicemail_greeting_record_instruction">অভিবাদন রেকর্ড করুন</string>
     <string name="current_voicemail_greeting_recording_title">আমার ভয়েসমেলের অভিবাদন</string>
-    <string name="custom_message_hint">একটি কাস্টম মেসেজ লিখুন</string>
     <string name="custom_prefix_add_prefix_to_call_entry_always_add_prefix">সব সময় প্রিফিক্স যোগ করুন</string>
     <string name="custom_prefix_add_prefix_to_call_entry_ask_before_dialing">ডায়াল করার আগে জিজ্ঞাসা করুন</string>
     <string name="custom_prefix_add_prefix_to_call_entry_never_add_prefix">প্রিফিক্স কখনও যোগ করবেন না</string>
@@ -671,11 +671,11 @@
     <string name="display_options_view_given_name_first">প্রথমে নামটি</string>
     <string name="display_options_view_names_as">নামের ফর্ম্যাট</string>
     <string name="do_not_show_again">আর দেখতে চাই না</string>
-    <string name="duo_fallback_dialog_do_not_show_again_label">এই পছন্দ মনে রাখবেন</string>
-    <string name="duo_fallback_dialog_message">আপনার পরিষেবা প্রদানকারীর নেটওয়ার্ক ব্যবহার করে করা ভিডিও কল ব্যবহার করে ভিডিও কল করা যাচ্ছে না। পরিবর্তে, Duo ব্যবহার করে কল করে দেখুন।</string>
-    <string name="duo_fallback_dialog_negative_button_label">বাতিল করুন</string>
-    <string name="duo_fallback_dialog_positive_button_label">Duo ব্যবহার করুন</string>
-    <string name="duo_fallback_dialog_title">Google Duo ব্যবহার করে দেখবেন?</string>
+    <string name="duo_fallback_dialog_do_not_show_again_label">প্রতিটি কলের জন্য Duo-কে ব্যাক-আপ হিসেবে রাখতে চাই। সেটিংস থেকে যেকোনও সময় ম্যানেজ করুন।</string>
+    <string name="duo_fallback_dialog_message">আপনার পরিষেবা প্রদানকারী ভিডিও কল সম্পূর্ণ করতে না পারলে, Duo অটোমেটিক কল করার চেষ্টা করবে।</string>
+    <string name="duo_fallback_dialog_negative_button_label">না থাক</string>
+    <string name="duo_fallback_dialog_positive_button_label">Duo-এর মাধ্যমে ব্যাক-আপ নিন</string>
+    <string name="duo_fallback_dialog_title">Google Duo-এর মাধ্যমে ব্যাক-আপ কল করবেন?</string>
     <string name="edit_number_before_call">কল করার আগে নম্বর এডিট করুন</string>
     <string name="emergency_assist_address_sentence">আমার লোকেশন %1$s।</string>
     <string name="emergency_assist_button_fire">আগুন</string>
@@ -697,6 +697,7 @@
     <string name="emergency_voice_assist_dialog_button_close">বাতিল করুন</string>
     <string name="emergency_voice_assist_dialog_title">এমার্জেন্সি অপারেটর এটি শুনতে পান</string>
     <string name="end_call_with_default_message_description">কল শেষ করুন</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_icon_content_description">সমস্যা</string>
     <string name="error_unable_to_get_audio">নমুনা অডিওটি পাওয়া যায়নি</string>
     <string name="error_unable_to_play_audio">নমুনা অডিওটি চালানো যায়নি</string>
@@ -741,7 +742,7 @@
     <string name="first_time_dialog_duo_video_call_label">Google Duo</string>
     <string name="first_time_dialog_negative_button_label">বাতিল করুন</string>
     <string name="first_time_dialog_positive_button_label">বেছে নিন</string>
-    <string name="first_time_dialog_remember_this_choice_label">এই পছন্দ মনে রাখবেন</string>
+    <string name="first_time_dialog_remember_this_choice_label">প্রতিটি কলের জন্য রাখতে চাই। সেটিংস থেকে যেকোনও সময় ম্যানেজ করুন।</string>
     <string name="first_time_dialog_title">ভিডিও কলিং পরিষেবা বেছে নিন</string>
     <string name="flip_to_shush_title">চুপ করাতে উল্টে দিন</string>
     <string name="flip_to_silence_summary">ইনকামিং কলকে সাইলেন্ট করার জন্য, আপনার ফোনের মুখটি সমতল পৃষ্ঠের দিকে রাখুন</string>
@@ -789,6 +790,8 @@
     <string name="incall_content_description_hold">কল হোল্ডে রাখুন</string>
     <string name="incall_content_description_merge_calls">কলগুলি মার্জ করুন</string>
     <string name="incall_content_description_muted">মিউট করা হয়েছে</string>
+    <string name="incall_content_description_show_less">কম দেখুন</string>
+    <string name="incall_content_description_show_more">আরও দেখুন</string>
     <string name="incall_content_description_speaker">স্পিকার</string>
     <string name="incall_content_description_swap_calls">কল অদল বদল করুন</string>
     <string name="incall_content_description_swap_sim">সিম পাল্টান</string>
@@ -804,6 +807,7 @@
     <string name="incall_label_hold">ধরে থাকুন</string>
     <string name="incall_label_manage">পরিচালনা করুন</string>
     <string name="incall_label_merge">মার্জ করুন</string>
+    <string name="incall_label_more">আরও</string>
     <string name="incall_label_mute">মিউট করুন</string>
     <string name="incall_label_record">রেকর্ড করুন</string>
     <string name="incall_label_record_checked">রেকর্ডিং থামান</string>
@@ -836,15 +840,9 @@
     <string name="join_call_with_default_message_description">কলে যোগ দিন</string>
     <string name="just_now">এখনই</string>
     <string name="lat_long_format">%1$f, %2$f</string>
+    <string name="launch_application_settings">সেটিংস</string>
     <string name="launcherActivityLabel">ফোন</string>
     <string name="learn_more_text_for_tmo">আরও জানতে T-Mobile দেখুন</string>
-    <string name="legacy_post_call_message">আপনি কেন কল করেছেন তা বলুন</string>
-    <string name="legacy_post_call_message_1">এটি জরুরি বিষয়। আমায় ফোন করুন।</string>
-    <string name="legacy_post_call_message_2">আপনার যখন সময় হবে তখন ফোন করুন।</string>
-    <string name="legacy_post_call_message_3">জরুরি বিষয় নয়, আমরা পরেও চ্যাট করতে পারি।</string>
-    <string name="legacy_post_call_message_sent">মেসেজ পাঠানো হয়েছে</string>
-    <string name="legacy_post_call_send_message">মেসেজ পাঠান</string>
-    <string name="legacy_post_call_view">দেখুন</string>
     <string name="libraries_material_featurehighlight_dismiss">খারিজ করুন</string>
     <string name="license_activity_label">ওপেন সোর্স লাইসেন্স</string>
     <string name="light_theme_label">হালকা</string>
@@ -869,6 +867,7 @@
     <string name="mdd_notification_action_cancel">বাতিল করুন</string>
     <string name="mdd_notification_download_failed">ডাউনলোড করা যায়নি</string>
     <string name="mdd_notification_download_paused">নেটওয়ার্ক কানেকশনের জন্য অপেক্ষা করা হচ্ছে</string>
+    <string name="mdd_notification_download_paused_wifi">ওয়াই-ফাই কানেকশনের জন্য অপেক্ষা করা হচ্ছে</string>
     <string name="meid_number">MEID %s</string>
     <string name="menu_callNumber">%s নম্বরে কল করুন</string>
     <string name="merge_calls_confirm_message">মার্জ কলে কারা কারা থাকছে তা সবাই জানে কিনা সে বিষয়ে নিশ্চিত হয়ে তবেই কল মার্জ করুন</string>
@@ -908,11 +907,9 @@
     <string name="nearbyplaces_account_setting_title">Google অ্যাকাউন্ট</string>
     <string name="new_call_log_activity_title">কলের ইতিহাস</string>
     <string name="new_call_log_all_title">সব</string>
-    <string name="new_call_log_carrier_video">পরিষেবা প্রদানকারীতে ভিডিও</string>
     <string name="new_call_log_clear_call_log_confirmation">এটি ইতিহাস থেকে সমস্ত কল মুছে দেবে</string>
     <string name="new_call_log_clear_call_log_confirmation_title">কলের ইতিহাস মুছতে চান?</string>
     <string name="new_call_log_delete_all">কলের ইতিহাস মুছে ফেলুন</string>
-    <string name="new_call_log_duo_video">Duo ভিডিও</string>
     <string name="new_call_log_empty">আপনি যে কলগুলি করেছেন সেগুলি এখানে দেখা যাবে</string>
     <string name="new_call_log_generic_video">ভিডিও</string>
     <string name="new_call_log_header_older">পুরনো</string>
@@ -930,6 +927,7 @@
     <string name="new_permission_no_search">আপনার পরিচিতিগুলি সার্চ করতে, পরিচিতির অনুমতিগুলি চালু করুন।</string>
     <string name="non_contact_always_record_dialog_title">আপনার পরিচিতি সার্কেলের বাইরের নম্বর সহ সমস্ত কল সবসময় রেকর্ড করতে চান?</string>
     <string name="non_contact_toggle_label">পরিচিতিতে নেই এমন নম্বর</string>
+    <string name="non_spam_aftercall_notification_title">%1$s নম্বরটি চেনেন?</string>
     <string name="non_spam_notification_title">%1$s নম্বরটি জানেন?</string>
     <string name="not_set">সেট করা হয়নি</string>
     <string name="notification_action_accept">স্বীকার করুন</string>
@@ -980,7 +978,7 @@
     <string name="notification_ongoing_call">চালু থাকা কল</string>
     <string name="notification_ongoing_call_multi_sim">%1$s দিয়ে কল চলছে</string>
     <string name="notification_ongoing_call_wifi_template">%1$s চালু আছে</string>
-    <string name="notification_ongoing_call_wifi_template_multi_sim">%1$s দিয়ে %1$s চলছে</string>
+    <string name="notification_ongoing_call_wifi_template_multi_sim">%1$s, %2$s-এর মাধ্যমে চলছে</string>
     <string name="notification_ongoing_paused_video_call">পরিষেবা প্রদানকারীর ভিডিও কল চলছে ‑ ভিডিও পজ হয়ে গেছে</string>
     <string name="notification_ongoing_paused_video_call_multi_sim">%1$s দিয়ে পরিষেবা প্রদানকারীর ভিডিও কল চলছে ‑ ভিডিও পজ হয়ে গেছে</string>
     <string name="notification_ongoing_video_call">পরিষেবা প্রদানকারীর ভিডিও কল চলছে</string>
@@ -993,7 +991,7 @@
     <string name="notification_take_call">কলটি নিন</string>
     <string name="notification_take_video_call">ভিডিও কলটি নিন</string>
     <string name="notification_voicemail_callers_list">%1$s, %2$s</string>
-    <string name="notification_voicemail_no_vm_number">ভয়েসমেল নম্বর অজানা</string>
+    <string name="notification_voicemail_no_vm_number">"ভয়েসমেল সেট-আপ করতে, 'মেনু > সেটিংসে' যান।"</string>
     <string name="notification_voicemail_text_format">%s এ ডায়াল করুন</string>
     <string name="old_block_number_confirmation_title">%1$s ব্লক করবেন?</string>
     <string name="openhistory_button_label">ইতিহাস</string>
@@ -1034,6 +1032,7 @@
     <string name="precall_dialpad_chat_button">চ্যাট করুন</string>
     <string name="precall_dialpad_chat_wait_min">%1$dমিঃ অপেক্ষা করুন</string>
     <string name="preference_copied">\"%1$s\" ক্লিপবোর্ডে লিঙ্কটি কপি করা হয়েছে।</string>
+    <string name="preferences_license_title">থার্ড-পার্টি নোটিশ</string>
     <string name="presence_optin_dialog_do_not_show_again_label">আর দেখতে চাই না</string>
     <string name="presence_optin_dialog_message">"ভিডিও কল শুরু করার আগে, Verizon এটি কনফার্ম করে নিতে চায় কোন কোন ফোন নম্বর Verizon ভিডিও কল রিসিভ করতে পারবে।
 
@@ -1048,7 +1047,7 @@
     <string name="private_num_non_verizon">ব্যক্তিগত নম্বর</string>
     <string name="private_num_verizon">বিধিনিষেধযুক্ত</string>
     <string name="private_or_hidden_action_preference_description">কলাররা তাদের কলার আইডি লুকাচ্ছেন</string>
-    <string name="private_or_hidden_action_preference_title">ব্যক্তিগত বা লুকানো</string>
+    <string name="private_or_hidden_action_preference_title">ব্যক্তিগত ও লুকানো নম্বর</string>
     <string name="quick_contact_checkbox_description">পরিচিতি বেছে নিন</string>
     <string name="ready_for_recording">প্রস্তুত…</string>
     <string name="record_audio_pre_call_dialog_got_it">বুঝেছি</string>
@@ -1095,7 +1094,7 @@
     <string name="revelio_end_call_user_missed_internal_message">কল রিসিভ করা হয়নি</string>
     <string name="revelio_pref_title">"'কল স্ক্রিন'"</string>
     <string name="revelio_preference_summary_automatic_screening_off">অটোমেটিক স্ক্রিনিং করার সুবিধা বন্ধ করা আছে</string>
-    <string name="revelio_preference_summary_screening">%1$s স্ক্রিন করা হচ্ছে</string>
+    <string name="revelio_preference_summary_screening">স্ক্রিন %1$s</string>
     <string name="revelio_save_audio_setting_summary">যে কলটির উত্তর আপনার Assistant দিয়েছে তার অডিও সেভ করুন</string>
     <string name="revelio_save_audio_setting_title">"'কল স্ক্রিন' অডিও সেভ করুন"</string>
     <string name="revelio_setting_title">"'কল স্ক্রিন'"</string>
@@ -1169,7 +1168,6 @@
     <string name="set_default_account_description">আপনার যোগাযোগে সিমের অভিরুচি সেভ আছে।</string>
     <string name="set_phone_as_default_explanation_text">এটি আপনার ডিফল্ট ফোন অ্যাপ হলে, তবেই ফোন শুধুমাত্র কল করতে এবং রিসিভ করতে পারে</string>
     <string name="set_phone_as_default_request_text">ডিফল্ট হিসেবে ফোন সেট করুন</string>
-    <string name="settings">সেটিংস</string>
     <string name="settings_page_call_recording_feature_not_available_text">কল রেকর্ডিংয়ের সুবিধা আপনার লোকেশনে উপলভ্য নেই</string>
     <string name="settings_page_crosby_feature_not_available_text">আপনার লোকেশনে উপলভ্য নেই</string>
     <string name="setup_duo_button_long_text">Duo ভিডিও কল সেট-আপ করুন</string>
@@ -1219,6 +1217,9 @@
     <string name="sounds_and_vibration_title">শব্দ এবং কম্পন</string>
     <string name="spam_action_preference_description">Google-এর স্প্যাম ডেটাবেসের সাথে মানানসই নম্বর</string>
     <string name="spam_action_preference_title">স্প্যাম</string>
+    <string name="spam_after_call_notification_add_contact_action_text">পরিচিতি যোগ করুন</string>
+    <string name="spam_after_call_notification_report_spam_action_text">ব্লক ও রিপোর্ট করুন</string>
+    <string name="spam_aftercall_notification_unknown">অজানা</string>
     <string name="spam_and_call_screen_settings_title">স্প্যাম এবং কল স্ক্রিন</string>
     <string name="spam_blocking_promo_action_dismiss">খারিজ</string>
     <string name="spam_blocking_promo_action_filter_spam">স্প্যাম ফিল্টার করুন</string>
@@ -1230,6 +1231,9 @@
     <string name="spam_blocking_settings_enable_error_text">স্প্যাম ফিল্টার করার বৈশিষ্ট্য চালু করতে সমস্যা হয়েছে</string>
     <string name="spam_blocking_settings_summary">স্প্যাম হতে পারে এমন কল ব্লক করুন</string>
     <string name="spam_blocking_settings_title">স্প্যাম কল ফিল্টার করুন</string>
+    <string name="spam_dialog_add_contact_action">পরিচিতিতে যোগ করুন</string>
+    <string name="spam_dialog_dismiss_action">বাতিল করুন</string>
+    <string name="spam_notification_action_block_spam">হ্যাঁ, নম্বর ব্লক করুন</string>
     <string name="spam_notification_action_dismiss">খারিজ করুন</string>
     <string name="spam_notification_add_contact_action_text">পরিচিতি যোগ করুন</string>
     <string name="spam_notification_block_spam_action_text">হ্যাঁ, নম্বর ব্লক করুন</string>
@@ -1469,27 +1473,27 @@
     <string name="videocall_remotely_resumed">কল পুনরায় শুরু করা হয়েছে</string>
     <string name="videocall_settings_default_ask_every_time">প্রত্যেকবার জিজ্ঞাসা করো</string>
     <string name="videocall_settings_default_carrier">ফোনের নেটওয়ার্কের মাধ্যমে করা ভিডিও কল</string>
-    <string name="videocall_settings_default_caution">This feature allows a user to choose a preferred video call solution and indicate the receiver’s video capability when it’s available. ^1</string>
-    <string name="videocall_settings_default_caution_learn_more">Learn more about preferred video services</string>
+    <string name="videocall_settings_default_caution">কীভাবে আপনি ভিডিও কল করবেন তা বেছে নিন এবং যাকে কল করছেন তিনি পেতে পারবেন কিনা তা জানুন। ^1</string>
+    <string name="videocall_settings_default_caution_learn_more">ভিডিও কল সম্পর্কে আরও জানুন</string>
     <string name="videocall_settings_default_duo">Google Duo</string>
     <string name="videocall_settings_default_title">পছন্দের ভিডিও কল পরিষেবা</string>
-    <string name="videocall_settings_fallback_caution">"When “Use Google Duo as backup” (if applicable) is on and a call can't be completed using your preferred service, the call will automatically be attempted on Duo. ^1"</string>
-    <string name="videocall_settings_fallback_caution_learn_more">Learn more about Duo backup calling</string>
+    <string name="videocall_settings_fallback_caution">যদি ব্যাক-আপ হিসেবে Google Duo থাকে ও তা চালু থাকলে, আপনার পরিষেবা প্রদানকারী ভিডিও কল সম্পূর্ণ করতে না পারলে, Duo অটোমেটিক কল করার চেষ্টা করবে। ^1</string>
+    <string name="videocall_settings_fallback_caution_learn_more">কীভাবে ব্যাক-আপ হিসেবে Duo কাজ করে তা আরও জানুন</string>
     <string name="videocall_settings_fallback_summary">পছন্দের পরিষেবা উপলভ্য না থাকলে Duo-তে পাল্টে নিন</string>
-    <string name="videocall_settings_fallback_title">ব্যাক-আপ হিসেবে Google Duo ব্যবহার করুন</string>
+    <string name="videocall_settings_fallback_title">ব্যাক-আপ হিসেবে Duo ব্যবহার করুন</string>
     <string name="videocall_settings_title">ভিডিও কল</string>
     <string name="videocall_show_preview_button_description">স্থানীয় ভিডিও ফিড দেখুন</string>
     <string name="view_location_settings">অবস্থানের সেটিংস</string>
     <string name="vitle_label">LTE কলে ভিডিও</string>
     <string name="viwifi_label">ওয়াই-ফাই ব্যবহার করে ভিডিও</string>
     <string name="vm_change_pin_error_invalid">নতুন পিনে এমন অক্ষর রয়েছে যা ব্যবহার করা যাবে না৷</string>
-    <string name="vm_change_pin_error_last_4_digits_msisdn">নতুন পিন যেন কখনই আপনার ফোন নম্বরের শেষ চারটি সংখ্যা না হয়।</string>
+    <string name="vm_change_pin_error_last_4_digits_msisdn">আপনার পিন ও ফোন নম্বরের শেষ ৪টি সংখ্যা এক হলে চলবে না।</string>
     <string name="vm_change_pin_error_mismatch">পুরনো পিনটি মিলছে না৷</string>
     <string name="vm_change_pin_error_system_error">পিন পরিবর্তন করা যায়নি</string>
     <string name="vm_change_pin_error_too_long">নতুন পিনটি বেশি বড়৷</string>
     <string name="vm_change_pin_error_too_short">নতুন পিনটি খুব ছোট৷</string>
     <string name="vm_change_pin_error_too_weak">নতুন পিনটি খুবই দুর্বল৷ শক্তিশালী পাসওয়ার্ডে ধারাবাহিক ক্রম বা একই সংখ্যা বারবার থাকা উচিত নয়৷</string>
-    <string name="vm_change_pin_error_unchanged_pin">আপনার নতুন পিন, বর্তমান পিনের সাথে একই হয়ে গেছে। অন্য কোনও পিন লিখুন।</string>
+    <string name="vm_change_pin_error_unchanged_pin">আপনার নতুন পিন ও বর্তমান পিন এক হলে চলবে না।</string>
     <string name="vm_change_pin_progress_message">অনুগ্রহ করে অপেক্ষা করুন৷</string>
     <string name="voice_call">ভয়েস কল</string>
     <string name="voice_call_button">কল করুন</string>
@@ -1511,11 +1515,9 @@
     <string name="voicemailMultiSelectDeleteConfirm">মুছুন</string>
     <string name="voicemail_action_call_customer_support">গ্রাহক সহায়তায় কল করুন</string>
     <string name="voicemail_action_call_voicemail">ভয়েসমেলে কল করুন</string>
-    <string name="voicemail_action_dimiss">না থাক</string>
     <string name="voicemail_action_retry">আবার চেষ্টা করুন</string>
     <string name="voicemail_action_set_pin">পিন সেট করুন</string>
     <string name="voicemail_action_sync">সিঙ্ক করুন</string>
-    <string name="voicemail_action_turn_archive_on">চালু করুন</string>
     <string name="voicemail_action_turn_off_airplane_mode">বিমান মোড সেটিংস</string>
     <string name="voicemail_activating_summary_info">ভয়েসমেল অ্যাক্টিভেট হচ্ছে</string>
     <string name="voicemail_advanced_settings_title">উন্নত সেটিংস</string>
@@ -1530,7 +1532,7 @@
     <string name="voicemail_change_pin_preference_summary_disable">পিন পরিবর্তন করতে হলে ভিজুয়াল ভয়েসমেল অবশ্যই সক্ষম করতে হবে</string>
     <string name="voicemail_change_pin_preference_summary_not_activated">ভিজুয়াল ভয়েসমেল এখনও সক্রিয় করা হয়নি, অনুগ্রহ করে পরে আবার চেষ্টা করুন</string>
     <string name="voicemail_change_pin_preference_title">পিন পরিবর্তন করুন</string>
-    <string name="voicemail_donate_preference_summary_info">ট্রান্সক্রিপশনের গুণমান আরও উন্নত করতে Google-কে আপনার ভয়েসমেল মেসেজগুলি পর্যালোচনা করতে দিন। আপনার পরিচয় গোপন রেখে মেসেজগুলি স্টোর করা হবে। %1$s</string>
+    <string name="voicemail_donate_preference_summary_info">ট্রান্সক্রিপশনের গুণমান আরও উন্নত করতে Google-কে আপনার ভয়েসমেল মেসেজগুলি পর্যালোচনা করতে দিন। আপনার পরিচয় গোপন রেখে মেসেজগুলি স্টোর করা হবে। ^1</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">ডেটা ছাড়াই সিমগুলির জন্য ভিজ্যুয়াল ভয়েসমেল ব্যবহারে পরিষেবা প্রদানকারীর চার্জ লাগতে পারে</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">ভিজুয়াল ভয়েসমেল শুধুমাত্র বেছে নেওয়া ডেটা সিমের জন্য পাওয়া যাবে</string>
     <string name="voicemail_error_activating_message">ভিজুয়াল ভয়েসমেল সম্পূর্ণরূপে সক্রিয় না করা পর্যন্ত আপনি ভয়েসমেল সংক্রান্ত কোনও বিজ্ঞপ্তি নাও পেতে পারেন৷ ভয়েসমেল সম্পূর্ণরূপে সক্রিয় না হওয়া পর্যন্ত নতুন মেসেজ ফিরিয়ে আনতে ভয়েসমেলে কল করুন৷</string>
@@ -1543,12 +1545,8 @@
     <string name="voicemail_error_bad_config_title">ভিজুয়াল ভয়েসমেল আপডেট করা যাচ্ছে না</string>
     <string name="voicemail_error_communication_message">আপনি এখনও ভয়েসমেল চেক করার জন্য কল করতে পারেন।</string>
     <string name="voicemail_error_communication_title">ভিজুয়াল ভয়েসমেল আপডেট করা যাচ্ছে না</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_message">আপনার মেলবক্স প্রায় ভর্তি। স্টোরেজ খালি করতে, অতিরিক্ত স্টোরেজ চালু করুন যাতে Google আপনার ভয়েসমেল মেসেজ পরিচালনা করতে এবং ব্যাক-আপ নিতে পারে।</string>
-    <string name="voicemail_error_inbox_almost_full_turn_archive_on_title">অতিরিক্ত স্টোরেজ এবং ব্যাক-আপ চালু করুন</string>
     <string name="voicemail_error_inbox_full_message">আপনার ইনবক্স ভর্তি। নতুন ভয়েসমেল পেতে কিছু মেসেজ মুছে ফেলার চেষ্টা করুন।</string>
     <string name="voicemail_error_inbox_full_title">নতুন ভয়েসমেল পাবেন না</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_message">আপনার মেলবক্স ভর্তি। স্টোরেজ খালি করতে, অতিরিক্ত স্টোরেজ চালু করুন যাতে Google আপনার ভয়েসমেল মেসেজ পরিচালনা করতে এবং ব্যাক-আপ নিতে পারে।</string>
-    <string name="voicemail_error_inbox_full_turn_archive_on_title">অতিরিক্ত স্টোরেজ এবং ব্যাক-আপ চালু করুন</string>
     <string name="voicemail_error_inbox_near_full_message">যদি আপনার ইনবক্সে ভর্তি থাকে তাহলে আপনি নতুন ভয়েসমেল পাবেন না।</string>
     <string name="voicemail_error_inbox_near_full_title">ইনবক্স প্রায় ভর্তি হয়ে গেছে</string>
     <string name="voicemail_error_no_data_cellular_required_message">মোবাইল ডেটা সংযোগ ভাল থাকবে তখন আবার চেষ্টা করুন। আপনি এখনও ভয়েসমেল চেক করার জন্য কল করতে পারেন।</string>
@@ -1581,7 +1579,7 @@
     <string name="voicemail_transcription_failed_language_not_supported">এই ভাষাটি সমর্থিত নয়। ক্যাপশন তৈরি করা যায়নি।</string>
     <string name="voicemail_transcription_failed_no_speech">কোনও ভাষ্য শনাক্ত করা যায়নি। ক্যাপশন তৈরি করা যাবে না।</string>
     <string name="voicemail_transcription_in_progress">ট্রান্সক্রাইব করা হচ্ছে...</string>
-    <string name="voicemail_transcription_preference_summary_info">Google-এর ট্রান্সক্রিপশন পরিষেবা ব্যবহার করে ভয়েসমেলের ট্রান্সক্রিপ্ট পান। %1$s</string>
+    <string name="voicemail_transcription_preference_summary_info">Google-এর ট্রান্সক্রিপশন পরিষেবা ব্যবহার করে ভয়েসমেলের ট্রান্সক্রিপ্ট পান। ^1</string>
     <string name="voicemail_visual_voicemail_auto_archive_switch_title">অতিরিক্ত ব্যাক-আপ এবং স্টোরেজ</string>
     <string name="voicemail_visual_voicemail_donation_switch_title">ভয়েসমেল ট্রান্সক্রিপশনের বিশ্লেষণ</string>
     <string name="voicemail_visual_voicemail_switch_title">ভিজুয়াল ভয়েসমেল</string>
@@ -1637,7 +1635,7 @@
     <string name="wait_prompt_str">"নিম্নলিখিত টোনগুলি পাঠাবেন?
 "</string>
     <string name="was_this_a_business_chip_text">কলটি কি ব্যবসার থেকে ছিল?</string>
-    <string name="was_this_a_business_dialog_body">এই ট্যাগ কনফার্ম করলে কলার আইডি উন্নত করার ব্যাপারে Google-এর সুবিধা হবে</string>
+    <string name="was_this_a_business_dialog_body">এটি কনফার্ম করলে কলার আইডি উন্নত করতে Google-কে তা সাহায্য করে</string>
     <string name="was_this_a_business_dialog_negative_response">না</string>
     <string name="was_this_a_business_dialog_positive_response">হ্যাঁ</string>
     <string name="was_this_a_business_dialog_snackbar">মতামত জানানোর জন্য ধন্যবাদ</string>

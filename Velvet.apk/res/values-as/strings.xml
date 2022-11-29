@@ -114,8 +114,6 @@
     <string name="add_relationship_subject_last_tts_eyes_free">এতিয়াও শুনা পোৱা নাই। বাতিল কৰি থকা হৈছে।</string>
     <string name="add_shortcut_dismiss_button_description">Dismiss</string>
     <string name="add_shortcut_text">Add driving mode to Home screen</string>
-    <string name="add_snackbar_action">যোগ কৰক</string>
-    <string name="add_this_location_to_your_list_snackbar_text">এই অৱস্থানটো আপোনাৰ সূচীত যোগ কৰিবনে?</string>
     <string name="add_to_folder">"ফ'ল্ডাৰত যোগ কৰক: %1$s"</string>
     <string name="add_to_folder_with_app">"%1$sসহ ফ'ল্ডাৰত যোগ কৰক"</string>
     <string name="add_your_relationship_subject">%2$sক আপোনাৰ %1$s হিচাপে মনত ৰাখিবনে?</string>
@@ -142,7 +140,6 @@
     <string name="already_consented_message">আপুনি ইতিমধ্যে এই ছেটিংটো অন কৰিছে</string>
     <string name="ambient_mode_promotion_card_learn_more">অধিক জানক</string>
     <string name="ambient_mode_promotion_card_no_thanks">নালাগে, ধন্যবাদ</string>
-    <string name="ambient_settings_grocery_subtitle" />
     <string name="ambient_settings_travel_bundle_title">ভ্ৰমণ</string>
     <string name="amp_cache_source_header">From %1$s</string>
     <string name="amp_source_header">%1$sৰ পৰা</string>
@@ -167,11 +164,17 @@
     <string name="assistant_add_item_app_control_suggestion">Add</string>
     <string name="assistant_ama_media_only_chip">Listen</string>
     <string name="assistant_at_store">At Store</string>
+    <string name="assistant_avatar_icon_description">User avatar icon</string>
     <string name="assistant_bit_action_card_negative">নালাগে, ধন্যবাদ</string>
     <string name="assistant_calendar_event_during">%1$s now</string>
     <string name="assistant_calendar_event_pre">%1$s in %2$s</string>
     <string name="assistant_calendar_event_pre_static">%1$s at %2$s</string>
     <string name="assistant_calendar_event_time_range">%1$s – %2$s</string>
+    <string name="assistant_canvas_logo_view_description">Voice search</string>
+    <string name="assistant_canvas_opa_keyboard_indicator_content_description">Type mode</string>
+    <string name="assistant_canvas_opa_send_button_content_description">Send</string>
+    <string name="assistant_canvas_opa_text_input_hint">Type a message</string>
+    <string name="assistant_canvas_transcription_bar_description">Transcription bar</string>
     <string name="assistant_create_doc_app_control_suggestion">Create a document</string>
     <string name="assistant_custodio_activity_menu_help">Help</string>
     <string name="assistant_custodio_activity_menu_send_feedback">Send feedback</string>
@@ -401,6 +404,7 @@
     <string name="assistant_custodio_youtube_media_provider_link">Content settings</string>
     <string name="assistant_custodio_youtube_media_provider_name">YouTube</string>
     <string name="assistant_dictation_ineligible_aiai_version">To use Assistant voice typing, update your Android System Intelligence app on Google Play. &lt;a href=\"https://play.google.com/store/apps/details?id=com.google.android.as\">Update&lt;/a> &lt;br> &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#update_app\">Learn more&lt;/a></string>
+    <string name="assistant_dictation_ineligible_android_old_version">To use Assistant voice typing, update your Android System. &lt;a href=\"intent:#Intent;action=android.settings.SYSTEM_UPDATE_SETTINGS;end\">Update&lt;/a> &lt;br> &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#update_app\">Learn more&lt;/a></string>
     <string name="assistant_dictation_ineligible_download_needed">Assistant voice typing needs an update. Connect to Wi-Fi to automatically download. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#update_to_use\">Learn more&lt;/a></string>
     <string name="assistant_dictation_ineligible_generic">"You can't currently use Assistant voice typing. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#fix_issues_assistant_voice_typing\">Learn more&lt;/a>"</string>
     <string name="assistant_dictation_ineligible_locale_mismatch">To use Assistant voice typing, your primary Gboard and device languages must be the same. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#device_language\">Learn more&lt;/a></string>
@@ -424,14 +428,10 @@
     <string name="assistant_flight_to_delayed_info">Delayed: Flight to %1$s</string>
     <string name="assistant_flight_to_info">Flight to %1$s</string>
     <string name="assistant_grocery_delivery_completed">%1$s order delivered</string>
-    <string name="assistant_grocery_delivery_during">%1$s delivery now</string>
-    <string name="assistant_grocery_delivery_pre">%1$s delivery in %2$s</string>
-    <string name="assistant_grocery_delivery_pre_static">%1$s delivery at %2$s</string>
+    <string name="assistant_grocery_delivery_scheduled">%1$s delivery scheduled</string>
     <string name="assistant_grocery_pickup_completed">%1$s order picked up</string>
-    <string name="assistant_grocery_pickup_during">%1$s pickup now</string>
-    <string name="assistant_grocery_pickup_pre">%1$s pickup in %2$s</string>
-    <string name="assistant_grocery_pickup_pre_static">%1$s pickup at %2$s</string>
-    <string name="assistant_grocery_pickup_ready">%1$s pickup now</string>
+    <string name="assistant_grocery_pickup_ready">%1$s order ready for pickup</string>
+    <string name="assistant_grocery_pickup_scheduled">%1$s pickup scheduled</string>
     <string name="assistant_grocery_time_range">%1$s – %2$s</string>
     <string name="assistant_guacamole_closed_popup_pill_content_description">Say “%1$s”. Double tap on the pill for more information.</string>
     <string name="assistant_guacamole_opened_popup_pill_content_description">Say “%1$s”. Double tap on the pill for less information.</string>
@@ -481,6 +481,9 @@
     <string name="assistant_keyboard_first_one_text">First one</string>
     <string name="assistant_keyboard_firstrun_text">&lt;linkable>Manage settings&lt;/linkable></string>
     <string name="assistant_keyboard_icon_label">Keyboard</string>
+    <string name="assistant_keyboard_input_clear_button_content_description">Click to clear text input</string>
+    <string name="assistant_keyboard_input_mic_button_content_description">Click the mic icon to start voice query</string>
+    <string name="assistant_keyboard_input_text_hint">Type a text input here</string>
     <string name="assistant_keyboard_learning_center_category_compose">Type and send</string>
     <string name="assistant_keyboard_learning_center_category_emojis">Add emojis</string>
     <string name="assistant_keyboard_learning_center_category_forms">Forms and emails</string>
@@ -564,12 +567,14 @@
     <string name="assistant_keyboard_sticky_mic_education_tip_text">Double-tap to keep mic open&lt;br>until you close the keyboard</string>
     <string name="assistant_keyboard_stop_button_description">Stop dictation</string>
     <string name="assistant_keyboard_stop_text">Stop</string>
+    <string name="assistant_keyboard_suggestion_query_builder_button_content_description">Click to edit in input box</string>
     <string name="assistant_keyboard_undo_button_description">Undo</string>
     <string name="assistant_keyboard_undo_text">Undo</string>
     <string name="assistant_keyboard_voice_command_not_supported">Command not available in this app</string>
     <string name="assistant_keyboard_voice_corrections_tip_text">Say the word you’d like to&lt;br>replace the selection with</string>
     <string name="assistant_language_not_supported">Google সহায়ক বৰ্তমানলৈকে %sৰ বাবে উপলব্ধ নহয়</string>
     <string name="assistant_learning_center_data_error">Sorry, something went wrong while loading data.</string>
+    <string name="assistant_learning_center_detailed_page_data_error">Sorry, something went wrong while loading data.</string>
     <string name="assistant_long_press_power_action_button_text">Got it</string>
     <string name="assistant_long_press_power_action_description">Powering off</string>
     <string name="assistant_long_press_power_button_1">the Power button</string>
@@ -718,21 +723,38 @@
     <string name="assistant_suw_intro_screen_action_button_text">I agree</string>
     <string name="assistant_suw_intro_screen_cancel_button_text">Skip</string>
     <string name="assistant_suw_intro_screen_default_x_google_hotword">Hey Google</string>
+    <string name="assistant_suw_intro_screen_hint1_for_unicorn_vm3">{GENDER, select, male {“%1$s” also requires Voice Match so {GIVEN_NAME}’s Assistant can recognize him.} female {“%1$s” also requires Voice Match so {GIVEN_NAME}’s Assistant can recognize her.} other {“%1$s” also requires Voice Match so {GIVEN_NAME}’s Assistant can recognize them.}}</string>
+    <string name="assistant_suw_intro_screen_hint1_vm3">“%1$s” also requires Voice Match so your Assistant can recognize you.</string>
+    <string name="assistant_suw_intro_screen_hint2_for_unicorn_vm3">Assistant may activate when %1$s didn’t intend it to—for instance, when there is a noise that sounds like “%2$s.”</string>
+    <string name="assistant_suw_intro_screen_hint2_vm3">Assistant may activate when you didn’t intend it to—for instance, when there is a noise that sounds like “%1$s.”</string>
+    <string name="assistant_suw_intro_screen_hint3_for_unicorn_vm3">You can turn off “%1$s” in %2$s’s Assistant settings.</string>
+    <string name="assistant_suw_intro_screen_hint3_vm3">You can turn off “%1$s” in Assistant settings.</string>
     <string name="assistant_suw_intro_screen_item_summary_1">“What’s the weather this weekend?”</string>
+    <string name="assistant_suw_intro_screen_item_summary_1_for_unicorn">“Do I need an umbrella?”</string>
     <string name="assistant_suw_intro_screen_item_summary_2">“Where’s the nearest coffee shop?”</string>
+    <string name="assistant_suw_intro_screen_item_summary_2_for_unicorn">“What does a hippo sound like?”</string>
     <string name="assistant_suw_intro_screen_item_summary_3">“Set an alarm for 5:00am tomorrow.”</string>
+    <string name="assistant_suw_intro_screen_item_summary_3_for_unicorn">“Set a homework timer for 20 minutes.”</string>
     <string name="assistant_suw_intro_screen_item_title_1">Ask questions</string>
     <string name="assistant_suw_intro_screen_item_title_2">Get directions</string>
+    <string name="assistant_suw_intro_screen_item_title_2_for_unicorn">Learn new things</string>
     <string name="assistant_suw_intro_screen_item_title_3">Get things done</string>
     <string name="assistant_suw_intro_screen_subtitle_v2">If you agree, Google Assistant will wait in standby mode to detect “%1$s.”</string>
+    <string name="assistant_suw_intro_screen_subtitle_v2_for_unicorn_vm3">If you agree, Google Assistant will wait in standby mode to detect when %1$s says “%2$s.”</string>
     <string name="assistant_suw_intro_screen_title">Access your Assistant with “%1$s”</string>
     <string name="assistant_suw_intro_screen_title_for_unicorn">Let %1$s access Google Assistant with “%2$s”</string>
-    <string name="assistant_suw_intro_screen_with_ww_hint">You can update this choice in Assistant settings.</string>
+    <string name="assistant_suw_intro_screen_title_for_unicorn_vm3">Let %1$s talk to Google hands-free</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint2_for_unicorn_vm3">Assistant may activate when %1$s didn’t intend it to—for instance, when there is a noise that sounds like “%2$s” or a quick phrase.</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint2_vm3">Assistant may activate when you didn’t intend it to—for instance, when there is a noise that sounds like “%1$s” or a quick phrase.</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint3_for_unicorn_vm3">You can turn off “%1$s” and quick phrases in %2$s’s Assistant settings.</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint3_vm3">You can turn off “%1$s” and quick phrases in Assistant settings.</string>
     <string name="assistant_suw_intro_screen_with_ww_item_summary_1">Ask questions and get help with tasks.</string>
     <string name="assistant_suw_intro_screen_with_ww_item_summary_2">Try words like “stop” or “snooze” (for example, when an alarm is ringing).</string>
+    <string name="assistant_suw_intro_screen_with_ww_item_summary_2_for_unicorn_vm3">%1$s can say words like “stop” or “snooze” (for example, when an alarm is ringing).</string>
     <string name="assistant_suw_intro_screen_with_ww_item_title_1">“%1$s”</string>
     <string name="assistant_suw_intro_screen_with_ww_item_title_2">Quick phrases</string>
     <string name="assistant_suw_intro_screen_with_ww_subtitle">If you agree, Google Assistant will wait in standby mode to detect “%1$s” and certain quick phrases.</string>
+    <string name="assistant_suw_intro_screen_with_ww_subtitle_for_unicorn_vm3">If you agree, Google Assistant will wait in standby mode to detect when %1$s says “%2$s” and certain quick phrases.</string>
     <string name="assistant_suw_intro_screen_with_ww_title">Talk to Google hands-free</string>
     <string name="assistant_suw_loading_screen_title">Checking…</string>
     <string name="assistant_suw_more_button_text">More</string>
@@ -754,6 +776,8 @@
     <string name="assistant_voice_plate_avatar_label">Open settings</string>
     <string name="assistant_voice_plate_greeting_hi_text">Hi, how can I help?</string>
     <string name="assistant_voice_plate_keyboard_icon_label">Keyboard</string>
+    <string name="assistant_voice_plate_onboarding_oauth_recovery_button">Sign in</string>
+    <string name="assistant_voice_plate_onboarding_oauth_recovery_text">Sign in to your Google Account again to use Assistant</string>
     <string name="assistant_voice_plate_onboarding_oobe_button">Get started</string>
     <string name="assistant_voice_plate_onboarding_oobe_text">Unlock more Assistant features</string>
     <string name="assistant_vs_ui_education_tooltip_caption">To end this conversation with your Assistant, drag the bubble to the bottom of the screen</string>
@@ -803,7 +827,6 @@ In Settings, tap Permissions > Location > Allow all the time."</string>
     <string name="bottom_navigation_collections_label">সংগ্রহ</string>
     <string name="bottom_navigation_drawer_label">অধিক</string>
     <string name="bottom_navigation_search_label">Search</string>
-    <string name="bottom_navigation_snapshot_label">Snapshot</string>
     <string name="bottom_navigation_spark_label">Discover</string>
     <string name="bottom_navigation_tabs_label">Tabs</string>
     <string name="bottomsheet_action_expand_halfway">Expand halfway</string>
@@ -855,7 +878,6 @@ In Settings, tap Permissions > Location > Allow all the time."</string>
     <string name="cast_skip_next">পৰৱৰ্তী বস্তুটোলৈ যাওক</string>
     <string name="cast_skip_prev">পূৰ্বৱৰ্তী বস্তুটোলৈ যাওক</string>
     <string name="cast_stop_live_stream">লাইভ ষ্ট্ৰীম বন্ধ কৰক</string>
-    <string name="chance_of_precipitation_label">বৃষ্টিপাতৰ সম্ভাৱনা: %s</string>
     <string name="change_button_text">Change</string>
     <string name="character_counter_content_description">%2$dটাৰ ভিতৰত %1$dটা বৰ্ণ লিখা হৈছে</string>
     <string name="character_counter_overflowed_content_description">%2$dটাৰ ভিতৰত %1$dটা বৰ্ণৰ সীমা অতিক্ৰম কৰিছে</string>
@@ -889,6 +911,7 @@ In Settings, tap Permissions > Location > Allow all the time."</string>
     <string name="common_google_play_services_update_text">আপুনি Google Play সেৱাবোৰ আপডে’ট নকৰালৈকে %1$s নচলিব।</string>
     <string name="common_google_play_services_update_title">Google Play সেৱা আপডে’ট কৰক</string>
     <string name="common_google_play_services_updating_text">বৰ্তমান আপডে’ট হৈ থকা Google Play সেৱাসমূহৰ অবিহনে %1$s নচলিব৷</string>
+    <string name="common_google_play_services_wear_update_text">Google Play সেৱাসমূহৰ নতুন সংস্কৰণৰ প্ৰয়োজন৷ এইটো শীঘ্ৰেই নিজে-নিজে আপডে’ট হ’ব৷</string>
     <string name="common_google_search_hint">Google Search</string>
     <string name="common_google_search_label">Google</string>
     <string name="common_learn_more">অধিক জানক</string>
@@ -896,6 +919,7 @@ In Settings, tap Permissions > Location > Allow all the time."</string>
     <string name="common_open_on_phone">"ফ'নত খোলক"</string>
     <string name="common_see_updates">আপডেটবোৰ চাওক</string>
     <string name="common_yes">ঠিক আছে</string>
+    <string name="comms_center_close_button_description">Close page</string>
     <string name="commute_eta_msg">%1$sৰ পৰা %2$sলৈ</string>
     <string name="commute_eta_time_hour_minute">%1$s ঘ %2$s মি</string>
     <string name="commute_eta_time_minute">%1$s মিনিট</string>
@@ -978,9 +1002,7 @@ In Settings, tap Permissions > Location > Allow all the time."</string>
     <string name="cricket_first_innings">১ম ইনিংগ</string>
     <string name="cricket_score_description">%1$s %2$s</string>
     <string name="cricket_second_innings">২য় ইনিংছ</string>
-    <string name="current_conditions_temperature" formatted="false">তাপমাত্ৰা: %s %s</string>
     <string name="current_inning">ইনিং %1$d</string>
-    <string name="current_location_searchbox">বৰ্তমানৰ অৱস্থান</string>
     <string name="current_period">পিৰিয়ড %1$d</string>
     <string name="custom">নিজৰ উপযোগিতা অনুসৰি (ফ’নত নিজৰ উপযোগিতা অনুসৰি সৃষ্টি কৰিব পৰা নাযায়)</string>
     <string name="custom_tabs_link_copied">লিংক ক্লিপব’ৰ্ডত প্ৰতিলিপি কৰা হ’ল</string>
@@ -992,13 +1014,12 @@ In Settings, tap Permissions > Location > Allow all the time."</string>
     <string name="custom_tabs_share_via">ইয়াৰ জৰিয়তে শ্বেয়াৰ কৰক</string>
     <string name="customization_feedback">মতামত</string>
     <string name="customize_title">নিজৰ উপযোগিতা অনুসৰি কৰক</string>
-    <string name="daily_conditions_sky_condition">আকাশৰ অৱস্থা: %s</string>
     <string name="data_sharing_cancel_button">নালাগে, ধন্যবাদ</string>
     <string name="date_at_time">%1$s তাৰিখে %2$s বজাত</string>
     <string name="date_in_the_past">%1$s &lt;font color=#9E9E9E> আগৰ তাৰিখ আছিল&lt;/font></string>
+    <string name="day_picker_description">দিনৰ সৈতে মাহৰ গ্ৰিড</string>
     <string name="decline_button_description">Decline call</string>
     <string name="default_error_msg">অজ্ঞাত আসোঁৱাহ</string>
-    <string name="default_location_name">ছান ফ্ৰান্সিস্ক’</string>
     <string name="default_scroll_format">%2$dৰ %1$d পৃষ্ঠা</string>
     <string name="define_query">%1$s সংজ্ঞাবদ্ধ কৰক</string>
     <string name="delete">মচক</string>
@@ -1076,18 +1097,13 @@ In Settings, tap Permissions > Location > Allow all the time."</string>
     <string name="end_call_button_description">Disconnect call</string>
     <string name="end_of_sentence">।</string>
     <string name="entity_suggestion_message">আপুনি টাইপ কৰি থকাটোৰ সৈতে এই সন্ধানৰ সাদৃশ্য আছে।</string>
-    <string name="error_adding_location_snackbar_text">অৱস্থান যোগ কৰোঁতে আঁসোৱাহ</string>
     <string name="error_card_title_text_something_went_wrong">কিবা ভুল হ’ল</string>
     <string name="error_connecting_to_server">সংযোগ নহ’ল</string>
-    <string name="error_fetching_suggestions_status_text">পৰামৰ্শবোৰ বিচৰাত আসোঁৱাহৰ সৃষ্টি হৈছে</string>
-    <string name="error_getting_current_location_status_text">ছাৰ্ভাৰৰ পৰা বৰ্তমানৰ অৱস্থানৰ তথ্য সংগ্ৰহ কৰাত আসোঁৱাহৰ সৃষ্টি হৈছে</string>
-    <string name="error_getting_location_info_status_text">বাছনি কৰা অৱস্থানটোৰ বাবে তথ্য সংগ্ৰহ কৰাত আসোঁৱাহৰ সৃষ্টি হৈছে</string>
     <string name="error_icon_content_description">Error</string>
     <string name="error_loading_content">পৃষ্ঠা ল’ড কৰিব পৰা নাই৷</string>
     <string name="error_no_connection_text">"কোনো নেটৱৰ্ক সংযোগ নাই
 আপোনাৰ নেটৱৰ্ক সংযোগ পৰীক্ষা কৰি আকৌ চেষ্টা কৰক"</string>
     <string name="error_no_match_text">Tap the mic, then speak into your phone for quick answers</string>
-    <string name="error_removing_location_snackbar_text">অৱস্থান আঁতৰোৱাত আসোঁৱাহৰ সৃষ্টি হৈছে</string>
     <string name="error_unreliable_network">কিবা এটা ভুল হ’ল। আপোনাৰ সংযোগ পৰীক্ষা কৰক আৰু আকৌ চেষ্টা কৰক।</string>
     <string name="errors_header">E</string>
     <string name="errors_header_full_length">আঁসোৱাহসমূহ</string>
@@ -1105,11 +1121,57 @@ In Settings, tap Permissions > Location > Allow all the time."</string>
     <string name="experience_launcher_messages_button_text">Messages</string>
     <string name="explore_bottombar_header_title">মানুহে এইবোৰো চায়</string>
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
+    <string name="fa_alarm_instance_default_label">No alarm set</string>
+    <string name="fa_alarm_instance_filled_bullet">●</string>
+    <string name="fa_alarm_instance_switch_off_label">%1$s alarm has been turned off</string>
+    <string name="fa_alarm_instance_switch_on_label">%1$s alarm has been turned on</string>
+    <string name="fa_audio_recorder_audio_recording_text">Recording…</string>
+    <string name="fa_audio_recorder_default_play_record_time_text">00:00</string>
+    <string name="fa_audio_recorder_delete_audio_message">Delete audio message</string>
+    <string name="fa_audio_recorder_pause_audio_playback">Pause</string>
+    <string name="fa_audio_recorder_playback_audio">Playback</string>
+    <string name="fa_audio_recorder_recording_audio">Recording</string>
+    <string name="fa_audio_recorder_stop_recording_audio">Stop recording</string>
+    <string name="fa_cancel_button_description">Cancel button</string>
+    <string name="fa_confirm_button_description">Confirm button</string>
+    <string name="fa_contact_selection_contact_icon_description">Contact icon</string>
+    <string name="fa_contact_selection_pick_another_contact_view_hint">Pick another contact</string>
+    <string name="fa_contact_selection_view_hint">Pick a contact</string>
+    <string name="fa_device_setting_toggle_icon_description">Setting icon</string>
+    <string name="fa_device_setting_toggle_off_description">%1$s is off</string>
+    <string name="fa_device_setting_toggle_on_description">%1$s is on</string>
+    <string name="fa_duration_hours_minutes_seconds">%1$02dh %2$02dm %3$02ds</string>
+    <string name="fa_duration_minutes_seconds">%1$02dm %2$02ds</string>
+    <string name="fa_duration_picker_confirm_button_text">Done</string>
+    <string name="fa_duration_picker_hour_unit_label">Hours</string>
+    <string name="fa_duration_picker_minute_unit_label">Minutes</string>
+    <string name="fa_duration_picker_second_unit_label">Seconds</string>
+    <string name="fa_duration_picker_title">Set duration</string>
+    <string name="fa_duration_seconds">%1$02ds</string>
+    <string name="fa_empty_time">--:--</string>
+    <string name="fa_family_info_broadcast_settings_button">Broadcast settings button</string>
+    <string name="fa_family_info_collapse_button">Show people button collapsed</string>
+    <string name="fa_family_info_uncollapse_button">Show people button expanded</string>
+    <string name="fa_filled_bullet">●</string>
+    <string name="fa_hour_unit_label">h</string>
+    <string name="fa_list_item_picker_title">Please select one option</string>
+    <string name="fa_minute_unit_label">m</string>
+    <string name="fa_playback_audio">Playback</string>
+    <string name="fa_recurrence_custom">"Custom (can't customize on phone)"</string>
+    <string name="fa_recurrence_do_not_repeat">"Don't repeat"</string>
+    <string name="fa_recurrence_none">None</string>
+    <string name="fa_remaining_duration_hours_minutes_seconds">%1$02dh %2$02dm %3$02ds remaining</string>
+    <string name="fa_remaining_duration_minutes_seconds">%1$02dm %2$02ds remaining</string>
+    <string name="fa_remaining_duration_seconds">%1$02ds remaining</string>
+    <string name="fa_second_unit_label">s</string>
+    <string name="fa_timer_status_active">ACTIVE</string>
+    <string name="fa_timer_status_paused">PAUSED</string>
+    <string name="fa_timer_status_reset">RESET</string>
+    <string name="fa_timer_status_unknown">UNKNOWN</string>
     <string name="facade_search_box_content_description">Search…</string>
     <string name="failed_to_open_webview">পৃষ্ঠাটো খুলিব পৰা নগ’ল</string>
     <string name="family_card_create_negative_button_text">নালাগে, ধন্যবাদ</string>
     <string name="feedback">সঁহাৰি পঠাওক</string>
-    <string name="fetching_suggestions_status_text">পৰামৰ্শবোৰ আনি থকা হৈছে...</string>
     <string name="final_score">মুঠ</string>
     <string name="find_something_else_button_text">Find something else</string>
     <string name="find_something_else_context_text">"Looks like recommendations aren't available right now"</string>
@@ -1249,7 +1311,7 @@ In Settings, tap Permissions > Location > Allow all the time."</string>
     <string name="googleapp_accountmenu_chrome_incognito">New Chrome incognito tab</string>
     <string name="googleapp_accountmenu_data_in_search">Search</string>
     <string name="googleapp_accountmenu_passwords">Passwords</string>
-    <string name="googleapp_accountmenu_personal_info_removal">Remove your personal info</string>
+    <string name="googleapp_accountmenu_personal_info_removal">Results about you</string>
     <string name="googleapp_accountmenu_quick_delete_education_easy">Clear the last 15 minutes of Search history with one tap</string>
     <string name="googleapp_accountmenu_quickdelete_cancel">Cancel</string>
     <string name="googleapp_accountmenu_quickdelete_error">"Couldn't delete history"</string>
@@ -1277,6 +1339,10 @@ In Settings, tap Permissions > Location > Allow all the time."</string>
     <string name="googleapp_autocomplete_with_trending_searches_header_title">Trending searches</string>
     <string name="googleapp_autocomplete_with_trending_searches_summary">Trending searches include popular searches in your area</string>
     <string name="googleapp_autocomplete_with_trending_searches_title">Autocomplete with trending searches</string>
+    <string name="googleapp_autoplay_video_previews_always">On Wi-Fi &amp; mobile data</string>
+    <string name="googleapp_autoplay_video_previews_never">Never</string>
+    <string name="googleapp_autoplay_video_previews_setting_title">Autoplay video previews</string>
+    <string name="googleapp_autoplay_video_previews_wifi">Only on Wi-Fi</string>
     <string name="googleapp_back_arrow_description">Back</string>
     <string name="googleapp_bar_color_title">Bar color</string>
     <string name="googleapp_bar_logo_title">Bar logo</string>
@@ -1288,12 +1354,6 @@ In Settings, tap Permissions > Location > Allow all the time."</string>
     <string name="googleapp_boc_tooltip_tap_to_manage_your_preferences">Tap to manage your preferences &amp; feedback</string>
     <string name="googleapp_books_mode_landing_text">Search books</string>
     <string name="googleapp_bottom_navigation_collections_label_content_description">Collections Button</string>
-    <string name="googleapp_broad_queries_topbar_mic_description">Voice search</string>
-    <string name="googleapp_broad_queries_topbar_search_description">Search</string>
-    <string name="googleapp_broad_queries_topbar_up_content_description">Back</string>
-    <string name="googleapp_broadqueries_error_message">Check if the internet connection is working</string>
-    <string name="googleapp_broadqueries_error_title">Something went wrong</string>
-    <string name="googleapp_broadqueries_loading_indicator_desc">Content loading</string>
     <string name="googleapp_browser_actionbutton_ampinfo">More info about AMP</string>
     <string name="googleapp_browser_actionbutton_overflowmenu">More actions</string>
     <string name="googleapp_browser_actionbutton_tabs">Tabs</string>
@@ -1338,7 +1398,6 @@ Signs you out of most sites. You won't be signed out of your Google Account."</s
     <string name="googleapp_browser_settings_cleardata_button_text">Clear data</string>
     <string name="googleapp_browser_settings_extended_safe_browsing_summary">Send browser information to Google to help detect dangerous apps and sites. This includes URLs of some pages you visit, limited system information and some page content.</string>
     <string name="googleapp_browser_settings_extended_safe_browsing_title">Help improve browser security</string>
-    <string name="googleapp_browser_settings_link">Browser settings</string>
     <string name="googleapp_browser_settings_real_time_safe_browsing_summary">Check for new security issues each time you visit a site. URLs of pages you visit will be sent to Google.</string>
     <string name="googleapp_browser_settings_real_time_safe_browsing_title">Check site security in real time</string>
     <string name="googleapp_browser_settings_safe_browsing_summary">See a warning when you try to visit a site that has known security issues. Unsafe URLs you visit may be sent to Google.</string>
@@ -1420,6 +1479,7 @@ Signed in as %1$s"</string>
     <string name="googleapp_custom_tabs_enabled_setting_unavailable_need_first_run_done">Open and set up Chrome to enable this option</string>
     <string name="googleapp_custom_tabs_enabled_setting_unavailable_update_chrome">Install the latest version of Chrome to enable</string>
     <string name="googleapp_custom_tabs_help_menu_item_title">Help</string>
+    <string name="googleapp_custom_tabs_piros_menu_item_title">Remove results about you</string>
     <string name="googleapp_custom_tabs_recently_menu_item_title">Recent</string>
     <string name="googleapp_customize_text">Customize</string>
     <string name="googleapp_disco_channels_and_interests_tng_setting">Channels &amp; Interests</string>
@@ -1565,7 +1625,6 @@ Signed in as %1$s"</string>
     <string name="googleapp_incognito_setup_device_biometrics_dialog_title">Set up biometrics</string>
     <string name="googleapp_incognito_signpost_button_text">Turn off</string>
     <string name="googleapp_incognito_signpost_icon_description">Incognito signpost icon</string>
-    <string name="googleapp_incognito_signpost_message_assistant">Assistant features are not available while browsing in Incognito mode - exit to access Assistant</string>
     <string name="googleapp_incognito_signpost_message_collections">Collections are unavailable while browsing in Incognito mode - exit to access them</string>
     <string name="googleapp_incognito_signpost_message_default">The feature is not available while browsing in Incognito mode - exit to access it</string>
     <string name="googleapp_incognito_signpost_message_discover">"Your Discover feed isn't available when you're in Incognito mode"</string>
@@ -1668,6 +1727,13 @@ You'll see personal on-device search results from these apps and services. Only 
     <string name="googleapp_region_setting_title">Search Region</string>
     <string name="googleapp_reset_style_text">Reset To Default Style</string>
     <string name="googleapp_save_button_text">Save</string>
+    <string name="googleapp_save_feature_default_collection_label">Favorite pages</string>
+    <string name="googleapp_save_feature_error_title">Oops, something went wrong</string>
+    <string name="googleapp_save_feature_share_close_button_description">Close</string>
+    <string name="googleapp_save_feature_share_receiver_subject_and_text">"%1$s
+
+%2$s"</string>
+    <string name="googleapp_save_feature_share_save">Save</string>
     <string name="googleapp_search_a_song_content_description">Tap to start song recognition</string>
     <string name="googleapp_search_bar_radius_24dp_description">Rounded</string>
     <string name="googleapp_search_bar_radius_2dp_description">Rectangle</string>
@@ -1697,19 +1763,20 @@ You'll see personal on-device search results from these apps and services. Only 
     <string name="googleapp_second_screen_manage_interests_menu_label">Manage Interests</string>
     <string name="googleapp_second_screen_settings_menu_label">Settings</string>
     <string name="googleapp_see_updates">See Updates</string>
-    <string name="googleapp_settings_about_link">About</string>
+    <string name="googleapp_setting_error_card_icon_content_description">Error</string>
+    <string name="googleapp_setting_error_card_message_explanation">"The web page couldn't be loaded"</string>
+    <string name="googleapp_setting_error_card_message_title">Something went wrong</string>
     <string name="googleapp_settings_about_title">About</string>
-    <string name="googleapp_settings_general_link">General</string>
-    <string name="googleapp_settings_language_and_region_link">Language &amp; region</string>
     <string name="googleapp_settings_language_and_region_title">Language &amp; region</string>
     <string name="googleapp_settings_legal_notices_title">Legal notices</string>
     <string name="googleapp_settings_location_terms_of_service_title">Location terms of service</string>
+    <string name="googleapp_settings_nav_up">Navigate up</string>
     <string name="googleapp_settings_open_source_licenses_title">Third Party Notices</string>
     <string name="googleapp_settings_privacy_and_security_link">Privacy &amp; Security</string>
     <string name="googleapp_settings_privacy_policy_title">Privacy policy</string>
-    <string name="googleapp_settings_search_widget_link">Search Widget</string>
+    <string name="googleapp_settings_search">Search</string>
+    <string name="googleapp_settings_search_hint">Search in settings</string>
     <string name="googleapp_settings_terms_of_service_title">Terms of service</string>
-    <string name="googleapp_settings_voice_link">Voice</string>
     <string name="googleapp_settings_voice_title">Voice</string>
     <string name="googleapp_shopping_mode_landing_text">Search shopping</string>
     <string name="googleapp_show_waiting_text">Just a moment…</string>
@@ -1724,6 +1791,7 @@ You'll see personal on-device search results from these apps and services. Only 
     <string name="googleapp_sno_subscriptions_internal_error_header">Something went wrong</string>
     <string name="googleapp_sno_subscriptions_offline_error_message">To view and edit your subscriptions, you’ll need to connect to the network</string>
     <string name="googleapp_sound_search_search_a_song_hint">Search a song</string>
+    <string name="googleapp_srp_query_tiger">tiger</string>
     <string name="googleapp_stamp_viewer_actionbutton_feedback">Send feedback</string>
     <string name="googleapp_stamp_viewer_actionbutton_heart">Heart</string>
     <string name="googleapp_stamp_viewer_actionbutton_help_center">Help center</string>
@@ -1738,7 +1806,7 @@ You'll see personal on-device search results from these apps and services. Only 
     <string name="googleapp_stamp_viewer_error_title">Something went wrong</string>
     <string name="googleapp_stamp_viewer_overflow_menu_button_content_description">More options.</string>
     <string name="googleapp_stamp_viewer_overflow_menu_close">Close</string>
-    <string name="googleapp_stamp_viewer_preview_button_text">Continue full story</string>
+    <string name="googleapp_stamp_viewer_preview_button_text">Continue viewing</string>
     <string name="googleapp_stamp_viewer_preview_label">Preview</string>
     <string name="googleapp_stamp_viewer_publisher_cta">Visit</string>
     <string name="googleapp_stamp_viewer_retry_button_text">Try again</string>
@@ -1755,7 +1823,7 @@ You'll see personal on-device search results from these apps and services. Only 
     <string name="googleapp_tabs_manager_close_all_tabs_dialog_confirmation_button_label">Close all</string>
     <string name="googleapp_tabs_manager_close_all_tabs_dialog_confirmation_message">Are you sure you want to close all open tabs?</string>
     <string name="googleapp_tabs_manager_close_tab_button_default_description">close tab</string>
-    <string name="googleapp_tabs_manager_close_tab_button_description">close website %s - button</string>
+    <string name="googleapp_tabs_manager_close_tab_button_description">close website %s</string>
     <string name="googleapp_tabs_manager_empty_state_title">"You don't have any open tabs"</string>
     <string name="googleapp_tabs_manager_new_tab_button_description">start new search</string>
     <string name="googleapp_tabs_manager_new_tab_button_text">New tab</string>
@@ -1773,18 +1841,19 @@ You'll see personal on-device search results from these apps and services. Only 
     <string name="googleapp_voice_search_humming">Search songs by humming</string>
     <string name="googleapp_voice_search_tired_of_typing">Tired of typing? Search with your voice</string>
     <string name="googleapp_voice_search_with_voice">Search with your voice</string>
+    <string name="googleapp_voice_settings_assistant_title">Google Assistant</string>
     <string name="googleapp_voice_settings_languages_setting_check_content_description">Selected</string>
     <string name="googleapp_voice_settings_languages_setting_limit_reached_notice">"Limit reached. You can't select more languages."</string>
     <string name="googleapp_voice_settings_languages_setting_no_selection_notice">No language is selected.</string>
     <string name="googleapp_voice_settings_languages_setting_save_button_text">SAVE</string>
+    <string name="googleapp_voice_settings_languages_setting_summary_text_others">Others:</string>
+    <string name="googleapp_voice_settings_languages_setting_summary_text_primary">Primary:</string>
     <string name="googleapp_voice_settings_languages_setting_title">Languages</string>
     <string name="googleapp_voice_settings_offline_speech_recognition_setting_summary">Manage downloaded languages</string>
     <string name="googleapp_voice_settings_offline_speech_recognition_setting_title">Offline speech recognition</string>
     <string name="googleapp_voice_settings_spoken_results_setting_title">Spoken results</string>
-    <string name="googleapp_voice_settings_spoken_results_value_all_voices">All voice searches</string>
-    <string name="googleapp_voice_settings_spoken_results_value_hands_free_only">Hands-free searches only</string>
-    <string name="googleapp_voice_settings_voice_match_setting_summary">Talk to the Google Assistant to get things done</string>
-    <string name="googleapp_voice_settings_voice_match_setting_title">Voice Match</string>
+    <string name="googleapp_voice_settings_spoken_results_value_all_voices">On</string>
+    <string name="googleapp_voice_settings_spoken_results_value_hands_free_only">Off</string>
     <string name="googleapp_waa_disabled_tout_promo_description">Google Search privacy settings</string>
     <string name="googleapp_waa_disabled_tout_promo_header">"Your feed isn't based on your history"</string>
     <string name="googleapp_waa_disabled_tout_promo_subheader">Your Discover feed isn’t based on your history because your Web &amp; App Activity setting is off</string>
@@ -2118,14 +2187,13 @@ You'll see personal on-device search results from these apps and services. Only 
     <string name="lens_info_panel_on_device_chip_share_translate_content_description">Share translated image</string>
     <string name="lens_info_panel_on_device_chip_translate">Translate</string>
     <string name="lens_info_panel_on_device_chip_translate_content_description">Translate selected text</string>
-    <string name="lens_info_panel_on_device_no_text_header_title">No text found</string>
     <string name="lens_info_panel_on_device_results_header_limited_functionality">Some features not available</string>
     <string name="lens_info_panel_on_device_results_header_offline">Offline</string>
     <string name="lens_info_panel_on_device_text_header_title">Text found in image</string>
     <string name="lens_info_panel_on_device_translation_header_title">Translated text</string>
+    <string name="lens_info_panel_partial_translate_enabled_header_title">Original text</string>
     <string name="lens_info_panel_processing_message">Loading…</string>
     <string name="lens_info_panel_quoted_title">\"%1$s\"</string>
-    <string name="lens_info_panel_select_text_to_translate_header_title">Select text to translate</string>
     <string name="lens_kilometers_indicator">%s km</string>
     <string name="lens_latex_input_hint">Type a math problem</string>
     <string name="lens_living_surface_audio_button_mute">Mute</string>
@@ -2220,6 +2288,7 @@ You'll see personal on-device search results from these apps and services. Only 
     <string name="lens_sample_images_translate_card_text_short">Translate images</string>
     <string name="lens_search_bar_hint">Enter restaurant name</string>
     <string name="lens_search_filter_name">Search</string>
+    <string name="lens_selection_state_guidance_message_on_device_translation">Tap on text to translate</string>
     <string name="lens_share_to_lens_label">Search image</string>
     <string name="lens_share_translate_message">Translated with Google Lens. Try it yourself!</string>
     <string name="lens_shopping_filter_guidance_message">Take a photo of products or barcodes</string>
@@ -2317,10 +2386,7 @@ You'll see personal on-device search results from these apps and services. Only 
     <string name="loading_failed_error_message">কিবা বিজুতি ঘটিছে</string>
     <string name="loading_failed_retry_button_text">আকৌ চেষ্টা কৰক</string>
     <string name="local_results_map_description">%1$sৰ মেপ</string>
-    <string name="location_added_snackbar_text">অৱস্থান যোগ কৰা হ’ল</string>
     <string name="location_name">নাম</string>
-    <string name="location_not_saved_snackbar_text">%s ছেভ কৰা হোৱা নাই।</string>
-    <string name="location_removed_snackbar_text">অৱস্থান আঁতৰোৱা হ’ল</string>
     <string name="lockscreen_consent_cancel">নালাগে, ধন্যবাদ</string>
     <string name="lockscreen_notification_learn_more">অধিক জানক</string>
     <string name="long_accessible_way_to_add">কোনো ৱিজেট বাছনি কৰিবলৈ অথবা উপযোগিতা অনুসৰি কাৰ্যবিলাক ব্যৱহাৰ কৰিবলৈ দুবাৰ টিপি থাকক।</string>
@@ -2361,6 +2427,7 @@ call"</string>
     <string name="mdd_notification_action_cancel">বাতিল কৰক</string>
     <string name="mdd_notification_download_failed">ডাউনল’ড বিফল হৈছে</string>
     <string name="mdd_notification_download_paused">নেটৱৰ্ক সংযোগৰ বাবে অপেক্ষা কৰি আছে</string>
+    <string name="mdd_notification_download_paused_wifi">Waiting for WiFi connection</string>
     <string name="mdd_notification_download_success">ডাউনল’ড কৰা হৈছে</string>
     <string name="media_browser_youtube_premium_warning_text">To see recommendations, you need a premium account</string>
     <string name="media_content_image">মিডিয়াৰ সমলৰ সৈতে সাদৃশ্য থকা ছবিখন এই কাৰ্ডখনত প্ৰদৰ্শিত হৈ আছে</string>
@@ -2506,7 +2573,6 @@ play %s”"</string>
     <string name="navigation_tile_title">Where to?</string>
     <string name="network_error">এই মুহূৰ্তত Googleৰ সৈতে সংযোগ স্থাপন কৰিব নোৱাৰি।</string>
     <string name="network_error_airplane_mode_tts">আপুনি এয়াৰপ্লেইন ম’ডত থকাৰ কাৰণে এই মুহূৰ্তত ইণ্টাৰনেট সংযোগ নাই৷</string>
-    <string name="network_error_fetching_weather_data_status_text">বৰ্তমান কোনো নেটৱৰ্ক নাই</string>
     <string name="network_error_no_connection_tts">এই মুহূৰ্তত কোনো ইণ্টাৰনেট সংযোগ নাই৷</string>
     <string name="new_message_text">{count, plural, =1{# new message} other{# new messages}}</string>
     <string name="new_messages_short_text">{message, plural, =1{# unread} other{# unread}}</string>
@@ -3126,13 +3192,11 @@ play %s”"</string>
     <string name="qp_weather_unit_abbrev_celsius">C</string>
     <string name="qp_weather_unit_abbrev_fahrenheit">ফা.</string>
     <string name="qp_wind_speed">বতাহৰ বেগ %1$d%2$s</string>
-    <string name="qpf_label">বৃষ্টিপাতৰ পৰিমাণৰ পূর্বানুমান: %s</string>
     <string name="qsb_promocard_negative_button_text">নালাগে, ধন্যবাদ</string>
     <string name="qsb_promocard_positive_button_text">যোগ দিয়ক</string>
     <string name="query_suggestion_content_description">সন্ধান %s।</string>
     <string name="rating_accessible">Rating: %1$s তৰা</string>
     <string name="rating_source_imdb">IMDb</string>
-    <string name="reached_max_locations_removal_dialog_title">আপুনি ৮টা অৱস্থান হে ছেভ কৰিব পাৰে। নতুন অৱস্থান ছেভ কৰিবলৈ পুৰণি অৱস্থান এটা আঁতৰাওক।</string>
     <string name="reaction_text_less">কম</string>
     <string name="reaction_text_more">অধিক</string>
     <string name="recently">শেহতীয়া</string>
@@ -3162,7 +3226,6 @@ play %s”"</string>
     <string name="reminder_deleted">ৰিমাইণ্ডাৰ মচা হ’ল</string>
     <string name="reminders">ৰিমাইণ্ডাৰ</string>
     <string name="remove">আঁতৰাওক</string>
-    <string name="remove_button_text">আঁতৰাওক</string>
     <string name="remove_from_history_failed">ইতিহাসৰ পৰা আঁতৰাব পৰা নগ’ল</string>
     <string name="remove_pnav_title">আপোনাৰ ইতিহাসৰ পৰা এই URL টো মচিবনে?</string>
     <string name="remove_psuggest_message">"আপুনি আগতেই এইটো সন্ধান কৰিছিল। &lt;b>%s&lt;/b>ক আপোনাৰ ইতিহাসৰ পৰা মচিলে ইয়াক আপোনাৰ সকলো ডিভাইচত থকা আপোনাৰ একাউণ্টৰ পৰাও চিৰকালৰ বাবে আঁতৰোৱা হ'ব।"</string>
@@ -3226,7 +3289,6 @@ play %s”"</string>
     <string name="search_lockscreen_headsets_confirmation_title">ডিভাইচ লক হৈ থাকোঁতে অনুৰোধ পঠিয়াবনে?</string>
     <string name="search_lockscreen_pref_header">ডিভাইচ লক থকা অৱস্থাত অনুৰোধ কৰিবলৈ দিয়ক</string>
     <string name="search_menu_title">সন্ধান</string>
-    <string name="search_plate_accessibility_voice_search_button">Search</string>
     <string name="search_region_default">"সাম্প্ৰতিক অঞ্চল (ডিফ'ল্ট)"</string>
     <string name="search_restriction">"You don't have permission to use Google Search"</string>
     <string name="search_service_account_change_hotword_retraining_notification_content">\"%1$s\"ক আকৌ অন কৰিবলৈ টিপক।</string>
@@ -3254,19 +3316,20 @@ play %s”"</string>
     <string name="seconds">ছেকেণ্ড</string>
     <string name="see_results_on_google">Googleত ফলাফল চাওক</string>
     <string name="select_assistant_language">আপোনাৰ Assistantৰ ভাষা বাছনি কৰক।</string>
+    <string name="select_day">মাহ আৰু দিন বাছনি কৰক</string>
     <string name="select_google_account">Google একাউণ্ট</string>
     <string name="select_google_account_add_account">একাউণ্ট যোগ কৰক</string>
     <string name="select_google_account_sign_out">ছাইন আউট কৰক</string>
     <string name="select_google_account_summary_no_accounts">কোনো একাউণ্ট ছেট আপ কৰা হোৱা নাই</string>
     <string name="select_google_account_summary_signing_out">ছাইন আউট কৰি থকা হৈছে…</string>
     <string name="select_wifi_network_button_text">কোনো ৱাই-ফাই নেটৱৰ্ক বাছনি কৰক</string>
+    <string name="select_year">বছৰ বাছনি কৰক</string>
     <string name="send_a_message">Send a message to %1$s</string>
     <string name="send_a_message_no_contact">Send a message</string>
     <string name="send_a_message_text">Send a message</string>
     <string name="send_button_text">Send</string>
     <string name="sending_audio_to_account_toast">%1$sলৈ অডিঅ’ পঠিয়াই থকা হৈছে…</string>
     <string name="server_error">এই মুহূৰ্তত Googleৰ লগত সংযোগ কৰিব পৰা নাই।</string>
-    <string name="server_error_fetching_weather_data_status_text">কিবা ভুল হ’ল৷ অনুগ্ৰহ কৰি পিছত আকৌ চেষ্টা কৰক।</string>
     <string name="set_duration">সময়সীমা ছেট কৰক</string>
     <string name="set_reminder_saved">ৰিমাইণ্ডাৰ ছেভ কৰা হ’ল</string>
     <string name="set_reminder_saving">ৰিমাইণ্ডাৰ ছেভ কৰি থকা হৈছে …</string>
@@ -3296,11 +3359,6 @@ play %s”"</string>
     <string name="setup_complete_manage_task_category_name">কার্যসমূহ পৰিচালনা কৰক</string>
     <string name="shootout_abbreviation">SO</string>
     <string name="shopping_mode_landing_text">শ্বপিং কৰিবলৈ সন্ধান কৰক</string>
-    <string name="short_google_play_services_enable_required">Google প্লে সেৱাসমূহ সক্ৰিয় কৰিব লাগিব</string>
-    <string name="short_google_play_services_install_required">Google Play সেৱাসমূহ ইনষ্টল কৰাৰ প্ৰয়োজন</string>
-    <string name="short_google_play_services_missing_permission">Google Play সেৱাক প্ৰয়োজনীয়া এটা বা একাধিক অনুমতি নাই।</string>
-    <string name="short_google_play_services_unsupported">Google প্লেৰ সেৱাবোৰ আপোনাৰ ডিভাইচত নচলে</string>
-    <string name="short_google_play_services_update_required">Google প্লেৰ সেৱাসমূহ আপডে’ট কৰিব লাগিব</string>
     <string name="shortcut_not_available">শ্বৰ্টকাট নাই</string>
     <string name="shortcuts_menu_description">%2$sৰ %1$dটা শ্বৰ্টকাট</string>
     <string name="show_contact_information_edit_contact">সবিশেষ সম্পাদনা কৰক</string>
@@ -3341,6 +3399,7 @@ play %s”"</string>
     <string name="snooze_until_tomorrow_short">কাইলৈ</string>
     <string name="soccer_shootout">শ্বুটআউট</string>
     <string name="solid">গাঢ়</string>
+    <string name="someone_else_text">Someone else</string>
     <string name="sound_search_hint">এইটো কোনটো গান?</string>
     <string name="soundsearch_close_content_description">বন্ধ কৰক</string>
     <string name="soundsearch_label_almost_there">প্রায় সম্পূৰ্ণ হৈছে…</string>
@@ -3416,9 +3475,6 @@ play %s”"</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="swc_settings_positive_button">বুজি পালোঁ</string>
     <string name="swc_title">আপোনাৰ ৱিজেট পুনৰ সম্পাদনা কৰিবলৈ</string>
-    <string name="tab_title_10_days">১০ দিন</string>
-    <string name="tab_title_today">আজি</string>
-    <string name="tab_title_tomorrow">কাইলৈ</string>
     <string name="thank_you_dialog_body">আপোনাৰ সঁহাৰিসমূহে Google সন্ধানৰ অভিজ্ঞতা উন্নত কৰাত সহায় কৰে।</string>
     <string name="thank_you_dialog_tilte">আপোনাৰ ফীডবেকৰ বাবে ধন্যবাদ।</string>
     <string name="third_party_auth_action_button">ছাইন ইন কৰক</string>
@@ -3500,14 +3556,9 @@ play %s”"</string>
     <string name="turn_on_data_roaming_button_text">ডেটা ৰ’মিং অন কৰক</string>
     <string name="turn_on_mobile_data_button_text">ম’বাইল ডেটা অন কৰক</string>
     <string name="turn_on_wifi_and_select_network_button_text">ৱাই-ফাই অন কৰি কোনো নেটৱৰ্ক বাছনি কৰক</string>
-    <string name="unable_to_save_location_snackbar_text">অৱস্থান ছেভ কৰিব পৰা নগ’ল। অনুগ্ৰহ কৰি পিছত আকৌ চেষ্টা কৰক।</string>
-    <string name="unable_to_show_locations_text">অৱস্থান দেখুওৱাব পৰা নাই</string>
-    <string name="unable_to_show_weather_for_location_error">"এই অৱস্থানৰ বতৰৰ তথ্য দেখুৱাব পৰা নগ'ল।"</string>
-    <string name="unable_to_show_weather_for_specific_location_error">%sৰ বাবে বতৰৰ তথ্য দেখুৱাব পৰা নগ’ল৷</string>
     <string name="undo">পূৰ্বৰ দৰে কৰক</string>
     <string name="undo_action">আনডু কৰক</string>
     <string name="undo_dismiss_message_default">সম্পন্ন হ’ল</string>
-    <string name="undo_snackbar_action">আনডু কৰক</string>
     <string name="undo_string">আনডু কৰক</string>
     <string name="unicorn_hotword_enrollment_google_home_oobe_skip_dialog_message">আপুনি যদি এই পদক্ষেপটো এৰি যায়, Google হ’মএ {PERSON}ক আপোনাৰ ঘৰৰ আন লোকসকলৰ পৰা পৃথক কৰিবলৈ সক্ষম নহ’ব।</string>
     <string name="unified_ime_recognition_locale_toast">চিনাক্ত কৰিবলৈ %1$s ব্যৱহাৰ কৰি থকা হৈছে</string>
@@ -3588,9 +3639,6 @@ play %s”"</string>
     <string name="vs_hint_tap_to_finish">সম্পূর্ণ কৰিবলৈ টিপক</string>
     <string name="vs_hint_tap_to_speak">কণ্ঠস্বৰেৰে সন্ধান বুটাম, কথা ক’বলৈ টিপক</string>
     <string name="wallpaper_button_text">ৱালপেপাৰসমূহ</string>
-    <string name="weather_accessibility_search_plate_back_button">উভতি যাওক</string>
-    <string name="weather_accessibility_search_plate_menu_button">মেনু</string>
-    <string name="weather_add_to_home_screen">হ’ম স্ক্ৰীণত যোগ কৰক</string>
     <string name="weather_add_to_homescreen">গৃহ স্ক্ৰীনত যোগ দিয়ক</string>
     <string name="weather_button_ok">ঠিক আছে</string>
     <string name="weather_celsius">চেলছিয়াছ</string>
@@ -3605,7 +3653,6 @@ play %s”"</string>
     <string name="weather_search_query">বতৰ</string>
     <string name="weather_search_text">weather</string>
     <string name="weather_send_feedback">মতামত পঠিয়াওক</string>
-    <string name="weather_shortcut_icon_label">বতৰ</string>
     <string name="weather_temperature_units">তাপমাত্ৰাৰ একক</string>
     <string name="weather_title">%2$sত %1$s</string>
     <string name="weather_today_tab_name">আজি</string>
@@ -3624,8 +3671,6 @@ play %s”"</string>
     <string name="widget_resized">ৱিজেটৰ আকাৰ সলনি কৰি প্ৰস্থ %1$s আৰু উচ্চতা %2$s কৰা হ’ল</string>
     <string name="wifi_off">ৱাই-ফাই অফ হৈ আছে</string>
     <string name="wifi_on">ৱাই-ফাই অন হৈ আছে</string>
-    <string name="wind_current_time_and_direction_template_with_bullet_separator" formatted="false">%s • %s</string>
-    <string name="wind_speed_with_unit" formatted="false">%d %s</string>
     <string name="wired_headset_icon_description">Wired headset</string>
     <string name="wired_headset_off_label">Wired headset is off</string>
     <string name="wired_headset_on_label">Wired headset is on</string>
@@ -3633,10 +3678,10 @@ play %s”"</string>
     <string name="work_folder_name">কৰ্মস্থান</string>
     <string name="workspace_new_page">গৃহ স্ক্ৰীনৰ নতুন পৃষ্ঠা</string>
     <string name="workspace_scroll_format">গৃহ স্ক্ৰীন %2$dৰ %1$d</string>
+    <string name="year_picker_description">বছৰৰ সূচী</string>
     <string name="yes_button_text">"Yes, I'm in"</string>
     <string name="yesterday">কালি</string>
     <string name="yesterday_at_time">কালি %1$s বজাত</string>
     <string name="yesterday_time">কালি, %1$s</string>
-    <string name="your_location_search_menu_text">আপোনাৰ অৱস্থান</string>
     <string name="zero_state_fab_add_item_button_desc">যোগ দিয়ক</string>
 </resources>

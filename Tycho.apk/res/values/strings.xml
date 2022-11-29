@@ -120,7 +120,6 @@ You can manage your other preferences with the Google Fi app that's already on y
     <string name="activation_error_cant_request_required_permissions_phone_body">"Unfortunately, calls and texts won't work on Google Fi until you go to Settings and turn on phone permissions."</string>
     <string name="activation_error_cant_request_required_permissions_phone_sms_body">"Unfortunately, calls and texts won't work on Google Fi until you go to Settings and turn on phone and SMS permissions."</string>
     <string name="activation_error_chat_with_us">Chat with us</string>
-    <string name="activation_error_chat_with_us_details">Estimate wait: %1$s minutes</string>
     <string name="activation_error_code">Your error code is %1$s</string>
     <string name="activation_error_contact_us_details">Tell us about your issue</string>
     <string name="activation_error_generic_error">"Unfortunately, your Google Fi service can't be activated right now."</string>
@@ -818,7 +817,8 @@ Delayed charge"</string>
     <string name="device_protection_info_button">Device protection&amp;nbsp;&lt;a href=#info_button>More info&lt;/a></string>
     <string name="device_protection_intro_header">Keep your phone covered in the event of:</string>
     <string name="device_protection_learn_more">%1$s &lt;a href=\"#clickify\">Learn&amp;nbsp;more&lt;/a></string>
-    <string name="device_protection_loss_theft_bullet">%1$s&lt;br>&lt;a href=#list_item> Loss or theft&lt;/a></string>
+    <string name="device_protection_loss_theft_bullet">%1$s&lt;br>&lt;a href=#list_item>Loss or theft&lt;/a></string>
+    <string name="device_protection_loss_theft_mixed_bullet">%1$s&lt;br>&lt;a href=#list_item> Loss or theft, except for NY residents&lt;/a></string>
     <string name="device_protection_non_owner_claim">Only the person who purchased this device can file a claim. %1$s %2$s</string>
     <string name="device_protection_non_owner_enroll">Only the person who purchased this device can enroll in protection. %1$s %2$s</string>
     <string name="device_protection_report">To report a damaged or defective phone, &lt;a href=\"#clickify\">contact&amp;nbsp;us&lt;/a>.</string>
@@ -865,9 +865,9 @@ Delayed charge"</string>
     <string name="download">Download</string>
     <string name="download_complete">Download complete.</string>
     <string name="downloading_voicemail">Downloading Voicemail</string>
-    <string name="dpp_billed_to_owner">Billed to the group plan owner %1$s</string>
     <string name="dpp_cancel_by_other">Only %1$s can unenroll</string>
     <string name="dpp_cancel_by_self">Only you can unenroll</string>
+    <string name="dpp_description_enrolled_billed_to_cost">Enrolled for %1$s/﻿month, billed to %2$s</string>
     <string name="dpp_description_enrolled_cost">Enrolled for %1$s/﻿month</string>
     <string name="dpp_description_ineligible_shipped">"Google Fi couldn't process your account's last payment. Resolve any payment issues, then enroll by %1$s."</string>
     <string name="dpp_description_ineligible_unshipped">"Google Fi couldn't process your account's last payment. Resolve any payment issues, then enroll up to %1$d days after device shipment."</string>
@@ -910,8 +910,11 @@ Delayed charge"</string>
     <string name="enroll_device_error">"Couldn't enroll this device"</string>
     <string name="enroll_in_insurance">Enroll in device protection</string>
     <string name="enroll_insurance_details_bullets">&lt;a href=#list_item>Device protection is %1$s/﻿month, billed to the group plan owner %2$s&lt;/a>&lt;br> &lt;a href=#list_item>%3$s&lt;/a>&lt;br> &lt;a href=#list_item>Deductibles apply&lt;/a>&lt;br> &lt;a href=#list_item>Device protection is provided by Assurant, who will receive your phone info, email address, and service address&lt;/a></string>
+    <string name="enroll_insurance_details_no_cost_bullets">&lt;a href=#list_item>%1$s&lt;/a>&lt;br> &lt;a href=#list_item>Deductibles apply&lt;/a>&lt;br> &lt;a href=#list_item>Device protection is provided by Assurant, who will receive your phone info, email address, and service address&lt;/a></string>
     <string name="enroll_insurance_details_non_group_bullets">&lt;a href=#list_item>Device protection is %1$s/﻿month&lt;/a>&lt;br> &lt;a href=#list_item>%2$s&lt;/a>&lt;br> &lt;a href=#list_item>Deductibles apply&lt;/a>&lt;br> &lt;a href=#list_item>Device protection is provided by Assurant, who will receive your phone info, email address, and service address&lt;/a></string>
-    <string name="enroll_launch_error">"Can't enroll this device right now"</string>
+    <string name="enroll_insurance_launch_error">"Can't enroll this device right now"</string>
+    <string name="enroll_insurance_success">The %1$s is successfully enrolled in device protection</string>
+    <string name="enroll_link">&lt;a href=\"#clickify\">Enroll&amp;nbsp;for&amp;nbsp;%1$s/﻿month&lt;/a></string>
     <string name="enrolled">Enrolled</string>
     <string name="enter_a_city">Enter a city</string>
     <string name="enter_a_description">Enter a description</string>
@@ -1105,7 +1108,6 @@ Delayed charge"</string>
     <string name="info_button_content_description">More info</string>
     <string name="info_button_wrapper">%1$s&amp;nbsp;&lt;a href=#info_button>More info&lt;/a></string>
     <string name="inline_credit_title">Credit details</string>
-    <string name="insurance_enroll_success">Successfully enrolled in insurance.</string>
     <string name="international">International</string>
     <string name="international_call_detail">%1$d min at %2$s/min</string>
     <string name="international_call_detail_wifi">%1$d min at %2$s/min (Wi‑Fi)</string>
@@ -1226,13 +1228,18 @@ You can change this any time in Google Fi settings."</string>
     <string name="location_sharing_dialog_title">Location sharing</string>
     <string name="location_sharing_maps">Powered by Google Maps. &lt;a href=\"#clickify\">How&amp;nbsp;it&amp;nbsp;works&lt;/a></string>
     <string name="location_title">Turn on network diagnostics?</string>
+    <string name="login_family_description">Limit contact from strangers, set data budgets, and use location sharing to know where your family is in real-time</string>
+    <string name="login_family_header">Protect your family</string>
+    <string name="login_international_description">On most plans, stay connected automatically when you travel outside the US, without additional setup or cost</string>
+    <string name="login_international_header">Stay connected globally</string>
     <string name="login_primary_button_text">Log in</string>
+    <string name="login_privacy_description">Browse privately with a built-in VPN, secure calls with end-to-end encryption and stop unwanted calls from reaching you</string>
+    <string name="login_privacy_header">Get more privacy</string>
     <string name="login_secondary_button_text">Learn more and sign up</string>
-    <string name="login_welcome_details_text">A different kind of phone plan</string>
-    <string name="login_welcome_text">Welcome to Google Fi</string>
-    <string name="m3_ref_typeface_brand_regular">sans-serif</string>
-    <string name="m3_ref_typeface_plain_medium">sans-serif-medium</string>
-    <string name="m3_ref_typeface_plain_regular">sans-serif</string>
+    <string name="login_welcome_description">A phone plan, by Google</string>
+    <string name="login_welcome_description_old">A different kind of phone plan</string>
+    <string name="login_welcome_header">Welcome to Google Fi</string>
+    <string name="login_welcome_header_old">Welcome to Google Fi</string>
     <string name="m3_sys_motion_easing_emphasized">path(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1)</string>
     <string name="m3_sys_motion_easing_emphasized_path_data">M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1</string>
     <string name="m3_sys_motion_easing_legacy_accelerate">cubic-bezier(0.4, 0.0, 1.0, 1.0)</string>
@@ -1291,6 +1298,11 @@ These features are only available to plan owners."</string>
     <string name="microsite_highlight_body">Play the game to reach our gift to you</string>
     <string name="microsite_highlight_header">Happy holidays from Google Fi!</string>
     <string name="minor_role_dialog">You can only change permissions for members who are 18 or older.</string>
+    <string name="misconfig_airplane_mode_switch_action_fail">"Airplane mode couldn't be turned off"</string>
+    <string name="misconfig_airplane_mode_switch_action_success">Airplane mode is off</string>
+    <string name="misconfig_airplane_mode_switch_consent_button_description">Turn it off</string>
+    <string name="misconfig_airplane_mode_switch_description">Turn it off now to get connected.</string>
+    <string name="misconfig_airplane_mode_switch_title">Airplane mode is on</string>
     <string name="misconfig_international_roaming_action_fail">"Service outside the US couldn't be turned on"</string>
     <string name="misconfig_international_roaming_action_offline">Connect to Wi‑Fi to turn it on</string>
     <string name="misconfig_international_roaming_action_success">Service outside the US is on</string>
@@ -2237,7 +2249,6 @@ The process takes around 30 seconds, sometimes longer. You can exit the process 
     <string name="we_are_here_for_you">"We're here for you 24/7"</string>
     <string name="webrtc_process">:webrtc</string>
     <string name="welcome_to_google_fi">Welcome to Google Fi</string>
-    <string name="wfa_starting_notification_title">Determining Wi-Fi network quality…</string>
     <string name="whats_this">"What's this?"</string>
     <string name="where_can_i_find">Where can I find this?</string>
     <string name="widget_name">Data Usage Widget</string>
@@ -2262,7 +2273,6 @@ The process takes around 30 seconds, sometimes longer. You can exit the process 
     <string name="work_account_tycho_error">Try signing in again.</string>
     <string name="work_account_tycho_error_title">Sorry, something went wrong</string>
     <string name="work_profile_please_use_personal">Please use your personal profile</string>
-    <string name="wormhole_opt_out_toggle_text">Disable wormhole temporarily</string>
     <string name="x_credit">%2$s has %1$s in credit to come</string>
     <string name="x_credit_group">Your group has %1$s in credit to come</string>
     <string name="x_credit_self">You have %1$s in credit to come</string>
@@ -2271,6 +2281,7 @@ The process takes around 30 seconds, sometimes longer. You can exit the process 
     <string name="yes_replace">Yes, replace</string>
     <string name="yes_uninvite">Yes, uninvite</string>
     <string name="you">You</string>
+    <string name="your_eligible_devices">Your eligible devices</string>
     <string name="your_referral_code">Your referral code</string>
     <string name="youtube_music_premium">YouTube Music Premium</string>
     <string name="youtube_premium">YouTube Premium</string>

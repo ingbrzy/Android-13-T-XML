@@ -87,15 +87,21 @@
     <string name="ar_permissions_screen_title">Get a better look</string>
     <string name="ar_session_error_dialog_body">An error has occurred when trying to view this object in your space.</string>
     <string name="ar_session_error_dialog_title">Unable to view in your space</string>
-    <string name="assistant_aa_loyalty_card_title">Loyalty Card</string>
+    <string name="assistant_aa_loyalty_card_title">Tryggðarkort</string>
     <string name="assistant_accessibility_voice_typing_stopped">Raddinnsláttur stöðvaðist</string>
     <string name="assistant_add_item_app_control_suggestion">Bæta við</string>
-    <string name="assistant_ama_media_only_chip">Listen</string>
-    <string name="assistant_at_store">At Store</string>
-    <string name="assistant_calendar_event_during">%1$s now</string>
-    <string name="assistant_calendar_event_pre">%1$s in %2$s</string>
-    <string name="assistant_calendar_event_pre_static">%1$s at %2$s</string>
+    <string name="assistant_ama_media_only_chip">Hlusta</string>
+    <string name="assistant_at_store">Í verslun</string>
+    <string name="assistant_avatar_icon_description">Notandamyndartákn notanda</string>
+    <string name="assistant_calendar_event_during">%1$s núna</string>
+    <string name="assistant_calendar_event_pre">%1$s í %2$s</string>
+    <string name="assistant_calendar_event_pre_static">%1$s kl. %2$s</string>
     <string name="assistant_calendar_event_time_range">%1$s – %2$s</string>
+    <string name="assistant_canvas_logo_view_description">Raddleit</string>
+    <string name="assistant_canvas_opa_keyboard_indicator_content_description">Innsláttarstilling</string>
+    <string name="assistant_canvas_opa_send_button_content_description">Senda</string>
+    <string name="assistant_canvas_opa_text_input_hint">Sláðu inn skilaboð</string>
+    <string name="assistant_canvas_transcription_bar_description">Umritunarstika</string>
     <string name="assistant_create_doc_app_control_suggestion">„Create a document“ (búa til skjal)</string>
     <string name="assistant_custodio_activity_menu_help">Hjálp</string>
     <string name="assistant_custodio_activity_menu_send_feedback">Senda ábendingu</string>
@@ -325,6 +331,7 @@
     <string name="assistant_custodio_youtube_media_provider_link">Efnisstillingar</string>
     <string name="assistant_custodio_youtube_media_provider_name">YouTube</string>
     <string name="assistant_dictation_ineligible_aiai_version">Uppfærðu Android System Intelligence forritið á Google Play til að nota raddinnslátt Hjálparans. &lt;a href=\"https://play.google.com/store/apps/details?id=com.google.android.as\">Uppfæra&lt;/a> &lt;br> &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#update_app\">Nánar&lt;/a></string>
+    <string name="assistant_dictation_ineligible_android_old_version">Uppfærðu Android-kerfið til að nota raddinnslátt Hjálparans. &lt;a href=\"intent:#Intent;action=android.settings.SYSTEM_UPDATE_SETTINGS;end\">Uppfæra&lt;/a> &lt;br> &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#update_app\">Nánar&lt;/a></string>
     <string name="assistant_dictation_ineligible_download_needed">Uppfæra verður raddinnslátt Hjálparans. Tengstu WiFi til að sækja sjálfkrafa. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#update_to_use\">Nánar&lt;/a></string>
     <string name="assistant_dictation_ineligible_generic">Þú getur ekki notað raddinnslátt Hjálparans eins og stendur. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#fix_issues_assistant_voice_typing\">Nánar&lt;/a></string>
     <string name="assistant_dictation_ineligible_locale_mismatch">Aðaltungumál Gboard og tækisins verður að vera það sama til að hægt sé að nota raddinnslátt Hjálparans. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#device_language\">Nánar&lt;/a></string>
@@ -333,29 +340,25 @@
     <string name="assistant_dictation_ineligible_unsupported_system_language">Ekki tiltækt á núverandi tungumáli tækisins. Til að nota þetta skaltu breyta tungumáli tækisins í það sama og er stillt á Gboard. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#device_language\">Nánar&lt;/a></string>
     <string name="assistant_dictation_ineligible_work_profile">Raddinnsláttur Hjálparans er ekki í boði fyrir forrit í vinnusniði eins og stendur. Skiptu yfir í forrit til einkanota til að nota þetta. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#not_available_work_profile\">Nánar&lt;/a></string>
     <string name="assistant_edit_app_control_suggestion">Breyta</string>
-    <string name="assistant_flight_chip_boarding_pass">Boarding Pass</string>
-    <string name="assistant_flight_chip_check_in">Check in for your flight</string>
-    <string name="assistant_flight_chip_more_info">More Flight Info</string>
-    <string name="assistant_flight_departure_gate_info">Gate %1$s</string>
-    <string name="assistant_flight_departure_info">%1$s to %2$s departs in %3$s</string>
-    <string name="assistant_flight_departure_info_now">%1$s to %2$s departs now</string>
-    <string name="assistant_flight_departure_info_static_time">%1$s to %2$s departs at %3$s</string>
-    <string name="assistant_flight_departure_info_static_without_time">%1$s to %2$s</string>
-    <string name="assistant_flight_departure_terminal_info">Terminal %1$s</string>
-    <string name="assistant_flight_departure_time_delayed_info">Departs %1$s (<strike>%2$s</strike>)</string>
-    <string name="assistant_flight_departure_time_info">Departs %1$s</string>
-    <string name="assistant_flight_seat_info">Seat %1$s</string>
-    <string name="assistant_flight_to_delayed_info">Delayed: Flight to %1$s</string>
-    <string name="assistant_flight_to_info">Flight to %1$s</string>
+    <string name="assistant_flight_chip_boarding_pass">Brottfararspjald</string>
+    <string name="assistant_flight_chip_check_in">Innritaðu þig í flugið</string>
+    <string name="assistant_flight_chip_more_info">Meiri upplýsingar um flug</string>
+    <string name="assistant_flight_departure_gate_info">Hlið %1$s</string>
+    <string name="assistant_flight_departure_info">Flug frá %1$s til %2$s fer í loftið eftir %3$s</string>
+    <string name="assistant_flight_departure_info_now">Flug frá %1$s til %2$s fer í loftið núna</string>
+    <string name="assistant_flight_departure_info_static_time">Flug frá %1$s til %2$s fer í loftið kl. %3$s</string>
+    <string name="assistant_flight_departure_info_static_without_time">Frá %1$s til %2$s</string>
+    <string name="assistant_flight_departure_terminal_info">Flugstöð %1$s</string>
+    <string name="assistant_flight_departure_time_delayed_info">Fer kl. %1$s (<strike>%2$s</strike>)</string>
+    <string name="assistant_flight_departure_time_info">Fer kl. %1$s</string>
+    <string name="assistant_flight_seat_info">Sæti %1$s</string>
+    <string name="assistant_flight_to_delayed_info">Seinkun: Flug til %1$s</string>
+    <string name="assistant_flight_to_info">Flug til %1$s</string>
     <string name="assistant_grocery_delivery_completed">%1$s order delivered</string>
-    <string name="assistant_grocery_delivery_during">%1$s delivery now</string>
-    <string name="assistant_grocery_delivery_pre">%1$s delivery in %2$s</string>
-    <string name="assistant_grocery_delivery_pre_static">%1$s delivery at %2$s</string>
+    <string name="assistant_grocery_delivery_scheduled">%1$s delivery scheduled</string>
     <string name="assistant_grocery_pickup_completed">%1$s order picked up</string>
-    <string name="assistant_grocery_pickup_during">%1$s pickup now</string>
-    <string name="assistant_grocery_pickup_pre">%1$s pickup in %2$s</string>
-    <string name="assistant_grocery_pickup_pre_static">%1$s pickup at %2$s</string>
-    <string name="assistant_grocery_pickup_ready">%1$s pickup now</string>
+    <string name="assistant_grocery_pickup_ready">%1$s order ready for pickup</string>
+    <string name="assistant_grocery_pickup_scheduled">%1$s pickup scheduled</string>
     <string name="assistant_grocery_time_range">%1$s – %2$s</string>
     <string name="assistant_guacamole_closed_popup_pill_content_description">Segðu „%1$s“. Ýttu tvisvar á pilluna til að fá frekari upplýsingar.</string>
     <string name="assistant_guacamole_opened_popup_pill_content_description">Segðu „%1$s“. Ýttu tvisvar á pilluna til að fá minni upplýsingar.</string>
@@ -404,6 +407,9 @@
     <string name="assistant_keyboard_first_one_text">Fyrsta</string>
     <string name="assistant_keyboard_firstrun_text">&lt;linkable>Stjórna stillingum&lt;/linkable></string>
     <string name="assistant_keyboard_icon_label">Lyklaborð</string>
+    <string name="assistant_keyboard_input_clear_button_content_description">Click to clear text input</string>
+    <string name="assistant_keyboard_input_mic_button_content_description">Click the mic icon to start voice query</string>
+    <string name="assistant_keyboard_input_text_hint">Type a text input here</string>
     <string name="assistant_keyboard_learning_center_category_compose">Slá inn og senda</string>
     <string name="assistant_keyboard_learning_center_category_emojis">Bæta við emoji</string>
     <string name="assistant_keyboard_learning_center_category_forms">Eyðublöð og tölvupóstar</string>
@@ -487,11 +493,13 @@
     <string name="assistant_keyboard_sticky_mic_education_tip_text">Ýttu tvisvar til að hafa kveikt&lt;br>á hljóðnemanum þar til þú lokar lyklaborðinu</string>
     <string name="assistant_keyboard_stop_button_description">Stöðva raddinnslátt</string>
     <string name="assistant_keyboard_stop_text">Stöðva</string>
+    <string name="assistant_keyboard_suggestion_query_builder_button_content_description">Click to edit in input box</string>
     <string name="assistant_keyboard_undo_button_description">Afturkalla</string>
     <string name="assistant_keyboard_undo_text">Afturkalla</string>
     <string name="assistant_keyboard_voice_command_not_supported">Skipunin er ekki tiltæk í þessu forriti</string>
     <string name="assistant_keyboard_voice_corrections_tip_text">Segðu orðið sem þú vilt skipta&lt;br>út fyrir valið orð</string>
     <string name="assistant_learning_center_data_error">Sorry, something went wrong while loading data.</string>
+    <string name="assistant_learning_center_detailed_page_data_error">Sorry, something went wrong while loading data.</string>
     <string name="assistant_long_press_power_action_button_text">Ég skil</string>
     <string name="assistant_long_press_power_action_description">Slekkur</string>
     <string name="assistant_long_press_power_button_1">Aflrofinn</string>
@@ -531,7 +539,7 @@
     <string name="assistant_my_actions_unpin_confirmation_dialog_title">Athugaðu þetta vel!</string>
     <string name="assistant_my_actions_unpinned_action_row_add_button_content_description">Bæta þessari aðgerð við</string>
     <string name="assistant_my_actions_unpinned_actions_header">Aðgerðir sem gætu hentað þér</string>
-    <string name="assistant_my_flights_query">My Flights</string>
+    <string name="assistant_my_flights_query">Flugin mín</string>
     <string name="assistant_preloaded_fre_homescreen_suggestion_1">Stilla teljara á 2 mínútur</string>
     <string name="assistant_preloaded_fre_homescreen_suggestion_11">Stilla áminningu</string>
     <string name="assistant_preloaded_fre_homescreen_suggestion_12">Opna Gmail</string>
@@ -591,21 +599,38 @@
     <string name="assistant_suw_intro_screen_action_button_text">Ég samþykki</string>
     <string name="assistant_suw_intro_screen_cancel_button_text">Sleppa</string>
     <string name="assistant_suw_intro_screen_default_x_google_hotword">Ok Google</string>
+    <string name="assistant_suw_intro_screen_hint1_for_unicorn_vm3">{GENDER,select, male{„%1$s“ krefst einnig Voice Match svo Hjálparinn hjá {GIVEN_NAME} geti borið kennsl á hann.}female{„%1$s“ krefst einnig Voice Match svo Hjálparinn hjá {GIVEN_NAME} geti borið kennsl á hana.}other{„%1$s“ krefst einnig Voice Match svo Hjálparinn hjá {GIVEN_NAME} geti borið kennsl á barnið.}}</string>
+    <string name="assistant_suw_intro_screen_hint1_vm3">„%1$s“ krefst einnig Voice Match svo Hjálparinn geti borið kennsl á þig.</string>
+    <string name="assistant_suw_intro_screen_hint2_for_unicorn_vm3">Hjálparinn gæti virkjast óvart hjá %1$s, t.d. þegar hann greinir hljóð sem líkist „%2$s“.</string>
+    <string name="assistant_suw_intro_screen_hint2_vm3">Hjálparinn gæti virkjast óvart, t.d. þegar hann greinir hljóð sem líkist „%1$s“.</string>
+    <string name="assistant_suw_intro_screen_hint3_for_unicorn_vm3">Þú getur slökkt á „%1$s“ í stillingum Hjálparans hjá %2$s.</string>
+    <string name="assistant_suw_intro_screen_hint3_vm3">Þú getur slökkt á „%1$s“ í stillingum Hjálparans.</string>
     <string name="assistant_suw_intro_screen_item_summary_1">„Hvernig verður veðrið um helgina?“</string>
+    <string name="assistant_suw_intro_screen_item_summary_1_for_unicorn">„Þarf ég regnhlíf?“</string>
     <string name="assistant_suw_intro_screen_item_summary_2">„Hvar er næsta kaffihús?“</string>
+    <string name="assistant_suw_intro_screen_item_summary_2_for_unicorn">„Hvernig hljómar flóðhestur?“</string>
     <string name="assistant_suw_intro_screen_item_summary_3">„Stilla vekjara klukkan 05:00 í fyrramálið.“</string>
+    <string name="assistant_suw_intro_screen_item_summary_3_for_unicorn">„Stilla teljara heimanáms á 20 mínútur.“</string>
     <string name="assistant_suw_intro_screen_item_title_1">Spyrðu spurninga</string>
     <string name="assistant_suw_intro_screen_item_title_2">Fáðu leiðarlýsingu</string>
+    <string name="assistant_suw_intro_screen_item_title_2_for_unicorn">Lærðu eitthvað nýtt</string>
     <string name="assistant_suw_intro_screen_item_title_3">Komdu hlutunum í verk</string>
     <string name="assistant_suw_intro_screen_subtitle_v2">Ef þú samþykkir verður Google hjálparinn í biðstöðu til að geta greint „%1$s“.</string>
+    <string name="assistant_suw_intro_screen_subtitle_v2_for_unicorn_vm3">Ef þú samþykkir verður Google hjálparinn í biðstöðu til að greina þegar %1$s segir: „%2$s.“</string>
     <string name="assistant_suw_intro_screen_title">Opnaðu Hjálparann með „%1$s“</string>
     <string name="assistant_suw_intro_screen_title_for_unicorn">Leyfa %1$s að nota „%2$s“ til að opna Google hjálparann</string>
-    <string name="assistant_suw_intro_screen_with_ww_hint">Þú getur uppfært þetta val í stillingum Hjálparans.</string>
+    <string name="assistant_suw_intro_screen_title_for_unicorn_vm3">Leyfa að %1$s tali handfrjálst við Google</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint2_for_unicorn_vm3">%1$s gæti virkjað Hjálparann óvart, t.d. þegar hann greinir hljóð sem líkist „%2$s“ eða flýtiskipun.</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint2_vm3">Hjálparinn gæti virkjast óvart, t.d. þegar hann greinir hljóð sem líkist „%1$s“ eða flýtiskipun.</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint3_for_unicorn_vm3">Þú getur slökkt á „%1$s“ og flýtiskipunum hvenær sem er í stillingum Hjálparans hjá %2$s.</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint3_vm3">Þú getur slökkt á „%1$s“ og flýtiskipunum í stillingum Hjálparans.</string>
     <string name="assistant_suw_intro_screen_with_ww_item_summary_1">Spyrðu spurninga til að fá aðstoð við verkefni.</string>
     <string name="assistant_suw_intro_screen_with_ww_item_summary_2">Prófaðu að nota orð eins og „stop“ eða „snooze“ (t.d. þegar vekjarinn hringir).</string>
+    <string name="assistant_suw_intro_screen_with_ww_item_summary_2_for_unicorn_vm3">%1$s getur notað orð eins og „stop“ eða „snooze“ (t.d. þegar vekjarinn hringir).</string>
     <string name="assistant_suw_intro_screen_with_ww_item_title_1">„%1$s“</string>
     <string name="assistant_suw_intro_screen_with_ww_item_title_2">Snarsetningar</string>
     <string name="assistant_suw_intro_screen_with_ww_subtitle">Ef þú samþykkir verður Google hjálparinn í biðstöðu til að geta greint „%1$s“ og tilteknar snarsetningar.</string>
+    <string name="assistant_suw_intro_screen_with_ww_subtitle_for_unicorn_vm3">Ef þú samþykkir verður Google hjálparinn í biðstöðu til að greina þegar %1$s segir „%2$s“ og tilteknar flýtiskipanir.</string>
     <string name="assistant_suw_intro_screen_with_ww_title">Tala handfrjálst við Google</string>
     <string name="assistant_suw_loading_screen_title">Athugar…</string>
     <string name="assistant_suw_more_button_text">Meira</string>
@@ -621,11 +646,13 @@
     <string name="assistant_suw_settings_screen_title">Opnaðu Hjálparann án þess að taka %1$s úr lás</string>
     <string name="assistant_suw_settings_screen_title_for_unicorn">{GENDER,select, male{Leyfa að {GIVEN_NAME} opni Google hjálparann án þess að taka %1$s úr lás}female{Leyfa að {GIVEN_NAME} opni Google hjálparann án þess að taka %1$s úr lás}other{Leyfa að {GIVEN_NAME} opni Google hjálparann án þess að taka %1$s úr lás}}</string>
     <string name="assistant_take_note_app_control_suggestion">Taka niður glósu</string>
-    <string name="assistant_tap_to_check_in">Tap to check-in</string>
-    <string name="assistant_tomorrow_time">Tomorrow, %1$s</string>
+    <string name="assistant_tap_to_check_in">Ýttu til að innrita þig</string>
+    <string name="assistant_tomorrow_time">Á morgun kl. %1$s</string>
     <string name="assistant_voice_plate_avatar_label">Opna stillingar</string>
     <string name="assistant_voice_plate_greeting_hi_text">Hæ, hvernig get ég aðstoðað?</string>
     <string name="assistant_voice_plate_keyboard_icon_label">Lyklaborð</string>
+    <string name="assistant_voice_plate_onboarding_oauth_recovery_button">Skrá inn</string>
+    <string name="assistant_voice_plate_onboarding_oauth_recovery_text">Skráðu þig aftur inn á Google reikninginn þinn til að nota Hjálparann</string>
     <string name="assistant_voice_plate_onboarding_oobe_button">Byrja</string>
     <string name="assistant_voice_plate_onboarding_oobe_text">Opnaðu fyrir fleiri eiginleika Hjálparans</string>
     <string name="assistant_vs_ui_education_tooltip_caption">Dragðu blöðruna neðst á skjáinn til að ljúka þessu samtali við Hjálparann.</string>
@@ -647,7 +674,7 @@ Opnaðu stillingar og ýttu á Heimildir > Staðsetning > Leyfa alltaf."</string
     <string name="assistant_weather_widget_preview_condition">Sólríkt</string>
     <string name="assistant_weather_widget_preview_loading">Hleður…</string>
     <string name="assistant_weather_widget_preview_location">San Francisco</string>
-    <string name="assistant_yesterday_time">Yesterday, %1$s</string>
+    <string name="assistant_yesterday_time">Í gær kl. %1$s</string>
     <string name="assistantactions_alarm_confirmation_card_button_text">View alarms</string>
     <string name="assistantactions_call_confirmation_card_button">Call</string>
     <string name="assistantactions_confirmation_card_cancel_text">Operation canceled</string>
@@ -696,7 +723,6 @@ Opnaðu stillingar og ýttu á Heimildir > Staðsetning > Leyfa alltaf."</string
     <string name="bottom_navigation_collections_label">Söfn</string>
     <string name="bottom_navigation_drawer_label">Meira</string>
     <string name="bottom_navigation_search_label">Leit</string>
-    <string name="bottom_navigation_snapshot_label">Skyndimynd</string>
     <string name="bottom_navigation_spark_label">Tillögur</string>
     <string name="bottom_navigation_tabs_label">Flipar</string>
     <string name="bottomsheet_action_expand_halfway">Stækka til hálfs</string>
@@ -757,7 +783,9 @@ Opnaðu stillingar og ýttu á Heimildir > Staðsetning > Leyfa alltaf."</string
     <string name="common_google_play_services_update_text">%1$s getur ekki keyrt nema þú uppfærir þjónustu Google Play.</string>
     <string name="common_google_play_services_update_title">Uppfæra þjónustu Google Play</string>
     <string name="common_google_play_services_updating_text">%1$s getur ekki keyrt án þjónustu Google Play, sem verið er að uppfæra.</string>
+    <string name="common_google_play_services_wear_update_text">Nýja útgáfu af þjónustu Google Play vantar. Hún uppfærir sig sjálf innan skamms.</string>
     <string name="common_open_on_phone">Opna í símanum</string>
+    <string name="comms_center_close_button_description">Loka síðu</string>
     <string name="confirm_device_credential_password">Nota aðgangsorð</string>
     <string name="confirm_not_driving_button">Ég er ekki að keyra</string>
     <string name="confirm_not_driving_description">Ekki að keyra? Loka akstursstillingu í bili</string>
@@ -767,6 +795,8 @@ Opnaðu stillingar og ýttu á Heimildir > Staðsetning > Leyfa alltaf."</string
     <string name="copy">Afrita</string>
     <string name="create_folder_with">Búa til möppu með: %1$s</string>
     <string name="crop_wallpaper">Skera veggfóður</string>
+    <string name="custom_reply_button_string">Sérsniðið svar</string>
+    <string name="day_picker_description">Mánaðartafla með dögum</string>
     <string name="decline_button_description">Hafna símtali</string>
     <string name="decline_permissions">Not Now</string>
     <string name="default_error">Úbbs, eitthvað fór úrskeiðis.</string>
@@ -839,6 +869,53 @@ Opnaðu stillingar og ýttu á Heimildir > Staðsetning > Leyfa alltaf."</string
     <string name="experimental_mode_unexpectedly_disconnected_warning">Óvænt bilun í vefþjóni. Lokaðu forritinu og reyndu aftur síðar.</string>
     <string name="experimental_test_in_progress">Prófar getu tækis…</string>
     <string name="exposed_dropdown_menu_content_description">Sýna fellivalmynd</string>
+    <string name="fa_alarm_instance_default_label">Enginn vekjari er stilltur</string>
+    <string name="fa_alarm_instance_filled_bullet">●</string>
+    <string name="fa_alarm_instance_switch_off_label">Slökkt var á vekjaranum %1$s</string>
+    <string name="fa_alarm_instance_switch_on_label">Kveikt var á vekjaranum %1$s</string>
+    <string name="fa_audio_recorder_audio_recording_text">Upptaka í gangi…</string>
+    <string name="fa_audio_recorder_default_play_record_time_text">00:00</string>
+    <string name="fa_audio_recorder_delete_audio_message">Eyða hljóðskilaboðunum</string>
+    <string name="fa_audio_recorder_pause_audio_playback">Hlé</string>
+    <string name="fa_audio_recorder_playback_audio">Spilun</string>
+    <string name="fa_audio_recorder_recording_audio">Upptaka í gangi</string>
+    <string name="fa_audio_recorder_stop_recording_audio">Stöðva upptöku</string>
+    <string name="fa_cancel_button_description">Hnappur til að hætta við</string>
+    <string name="fa_confirm_button_description">Staðfestingarhnappur</string>
+    <string name="fa_contact_selection_contact_icon_description">Tákn tengiliðar</string>
+    <string name="fa_contact_selection_pick_another_contact_view_hint">Velja annan tengilið</string>
+    <string name="fa_contact_selection_view_hint">Velja tengilið</string>
+    <string name="fa_device_setting_toggle_icon_description">Stillingatákn</string>
+    <string name="fa_device_setting_toggle_off_description">Slökkt er á %1$s</string>
+    <string name="fa_device_setting_toggle_on_description">Kveikt er á %1$s</string>
+    <string name="fa_duration_hours_minutes_seconds">%1$02d klst. %2$02d mín. %3$02d sek.</string>
+    <string name="fa_duration_minutes_seconds">%1$02dmín. %2$02dsek.</string>
+    <string name="fa_duration_picker_confirm_button_text">Lokið</string>
+    <string name="fa_duration_picker_hour_unit_label">Klukkustundir</string>
+    <string name="fa_duration_picker_minute_unit_label">Mínútur</string>
+    <string name="fa_duration_picker_second_unit_label">Sekúndur</string>
+    <string name="fa_duration_picker_title">Stilla tímalengd</string>
+    <string name="fa_duration_seconds">%1$02d sek.</string>
+    <string name="fa_empty_time">--:--</string>
+    <string name="fa_family_info_broadcast_settings_button">Hnappur til að stilla útsendingu</string>
+    <string name="fa_family_info_collapse_button">Hnappur til að minnka lista yfir fólk</string>
+    <string name="fa_family_info_uncollapse_button">Hnappur til að stækka lista yfir fólk</string>
+    <string name="fa_filled_bullet">●</string>
+    <string name="fa_hour_unit_label">k</string>
+    <string name="fa_list_item_picker_title">Veldu einn valkost</string>
+    <string name="fa_minute_unit_label">m</string>
+    <string name="fa_playback_audio">Spilun</string>
+    <string name="fa_recurrence_custom">Sérsniðið (ekki er hægt að sérsníða í síma)</string>
+    <string name="fa_recurrence_do_not_repeat">Ekki endurtaka</string>
+    <string name="fa_recurrence_none">Engin</string>
+    <string name="fa_remaining_duration_hours_minutes_seconds">%1$02d klst. %2$02d mín. %3$02d sek. eftir</string>
+    <string name="fa_remaining_duration_minutes_seconds">%1$02d mín. %2$02d sek. eftir</string>
+    <string name="fa_remaining_duration_seconds">%1$02d sek. eftir</string>
+    <string name="fa_second_unit_label">s</string>
+    <string name="fa_timer_status_active">Í GANGI</string>
+    <string name="fa_timer_status_paused">HLÉ</string>
+    <string name="fa_timer_status_reset">ENDURSTILLA</string>
+    <string name="fa_timer_status_unknown">ÓÞEKKT</string>
     <string name="facade_search_box_content_description">Leita…</string>
     <string name="filled_bullet">●</string>
     <string name="find_something_else_button_text">Finna eitthvað annað</string>
@@ -994,7 +1071,7 @@ Opnaðu stillingar og ýttu á Heimildir > Staðsetning > Leyfa alltaf."</string
     <string name="googleapp_accountmenu_chrome_incognito">Nýr huliðsflipi í Chrome</string>
     <string name="googleapp_accountmenu_data_in_search">Leit</string>
     <string name="googleapp_accountmenu_passwords">Aðgangsorð</string>
-    <string name="googleapp_accountmenu_personal_info_removal">Fjarlægja persónuupplýsingar þínar</string>
+    <string name="googleapp_accountmenu_personal_info_removal">Results about you</string>
     <string name="googleapp_accountmenu_quick_delete_education_easy">Hreinsaðu síðustu 15 mínútur leitarferilsins með einni snertingu</string>
     <string name="googleapp_accountmenu_quickdelete_cancel">Hætta við</string>
     <string name="googleapp_accountmenu_quickdelete_error">Ekki tókst að eyða ferli</string>
@@ -1010,7 +1087,7 @@ Opnaðu stillingar og ýttu á Heimildir > Staðsetning > Leyfa alltaf."</string
     <string name="googleapp_accountmenu_search_history">Leitarferill</string>
     <string name="googleapp_accountmenu_your_contributions">Framlög þín</string>
     <string name="googleapp_actionbutton_listen">Lesa upphátt</string>
-    <string name="googleapp_ads_personalization_settings_title">Ads personalization</string>
+    <string name="googleapp_ads_personalization_settings_title">Sérsniðnar auglýsingar</string>
     <string name="googleapp_amp_security_button_description">Tengingin er örugg</string>
     <string name="googleapp_app_suggestions_summary">Heiti uppsettra forrita.</string>
     <string name="googleapp_app_suggestions_title">Forrit</string>
@@ -1022,6 +1099,10 @@ Opnaðu stillingar og ýttu á Heimildir > Staðsetning > Leyfa alltaf."</string
     <string name="googleapp_autocomplete_with_trending_searches_header_title">Vinsælar leitir</string>
     <string name="googleapp_autocomplete_with_trending_searches_summary">Vinsælar leitir fela í sér vinsæl leitarorð á þínu svæði</string>
     <string name="googleapp_autocomplete_with_trending_searches_title">Sjálfvirk útfylling með vinsælum leitarorðum</string>
+    <string name="googleapp_autoplay_video_previews_always">Á Wi-Fi og með farsímagögnum</string>
+    <string name="googleapp_autoplay_video_previews_never">Aldrei</string>
+    <string name="googleapp_autoplay_video_previews_setting_title">Spila forskoðun myndskeiða sjálfkrafa</string>
+    <string name="googleapp_autoplay_video_previews_wifi">Aðeins á Wi-Fi</string>
     <string name="googleapp_back_arrow_description">Til baka</string>
     <string name="googleapp_bar_color_title">Litur stiku</string>
     <string name="googleapp_bar_logo_title">Merki stiku</string>
@@ -1033,12 +1114,6 @@ Opnaðu stillingar og ýttu á Heimildir > Staðsetning > Leyfa alltaf."</string
     <string name="googleapp_boc_tooltip_tap_to_manage_your_preferences">Ýttu til að stjórna kjörstillingum þínum og ábendingum</string>
     <string name="googleapp_books_mode_landing_text">Leita að bókum</string>
     <string name="googleapp_bottom_navigation_collections_label_content_description">Hnappurinn „Söfn“</string>
-    <string name="googleapp_broad_queries_topbar_mic_description">Raddleit</string>
-    <string name="googleapp_broad_queries_topbar_search_description">Leit</string>
-    <string name="googleapp_broad_queries_topbar_up_content_description">Til baka</string>
-    <string name="googleapp_broadqueries_error_message">Athugaðu hvort nettengingin sé virk</string>
-    <string name="googleapp_broadqueries_error_title">Eitthvað fór úrskeiðis</string>
-    <string name="googleapp_broadqueries_loading_indicator_desc">Hleður efni</string>
     <string name="googleapp_browser_actionbutton_ampinfo">Nánar um AMP</string>
     <string name="googleapp_browser_actionbutton_overflowmenu">Fleiri aðgerðir</string>
     <string name="googleapp_browser_actionbutton_tabs">Flipar</string>
@@ -1051,8 +1126,8 @@ Opnaðu stillingar og ýttu á Heimildir > Staðsetning > Leyfa alltaf."</string
     <string name="googleapp_browser_clear_error">Eitthvað fór úrskeiðis við að hreinsa vafragögn.</string>
     <string name="googleapp_browser_contextmenu_open_in_new_tab_title">Opna á nýjum flipa</string>
     <string name="googleapp_browser_contextmenu_previewimage_description">Forskoðun myndar</string>
-    <string name="googleapp_browser_contextmenu_previewimage_scrolllabel">Scroll for more of image</string>
-    <string name="googleapp_browser_contextmenu_previewimage_smalllabel">Image preview enlarged from original size</string>
+    <string name="googleapp_browser_contextmenu_previewimage_scrolllabel">Flettu til að sjá meira af myndinni</string>
+    <string name="googleapp_browser_contextmenu_previewimage_smalllabel">Forskoðun myndar stækkuð úr upprunalegri stærð</string>
     <string name="googleapp_browser_download_blocker_incognito_continue_btn">Sækja</string>
     <string name="googleapp_browser_download_blocker_incognito_message">Sóttar skrár eru vistaðar í tækinu þínu. Þú getur opnað þær þótt þú slökkvir á huliðsstillingu.</string>
     <string name="googleapp_browser_enable_title">Opna vefsíður í Google app</string>
@@ -1062,28 +1137,27 @@ Opnaðu stillingar og ýttu á Heimildir > Staðsetning > Leyfa alltaf."</string
     <string name="googleapp_browser_firstrun_summary">"Google app var uppfært og núna geturðu skoðað efni á vefnum, svo sem greinar, myndskeið og sögur, í forritinu.
 
 Þú þarft hugsanlega að skrá þig inn á tiltekin vefsvæði og þú ættir að athuga vafrastillingarnar."</string>
-    <string name="googleapp_browser_firstrun_summary_v2">"Now you can view pages faster and enjoy an improved search experience.
+    <string name="googleapp_browser_firstrun_summary_v2">"Nú geturðu skoðað síður hraðar og notið betri leitarupplifunar.
 
-You may need to log back in to some sites."</string>
+Hugsanlega þarftu að skrá þig aftur inn á sum vefsvæði."</string>
     <string name="googleapp_browser_firstrun_summary_v2_part2">"
 
-Manage your new browser security and privacy settings in the app."</string>
+Stjórnaðu öryggis- og persónuverndarstillingum nýja vafrans í forritinu."</string>
     <string name="googleapp_browser_firstrun_title">Núna er hægt að opna efni af vefnum í forritinu</string>
-    <string name="googleapp_browser_firstrun_title_v2">Browse without leaving the app</string>
+    <string name="googleapp_browser_firstrun_title_v2">Skoða án þess að fara úr forritinu</string>
     <string name="googleapp_browser_setting_clear_cache_title"><b>Myndir og skrár í skyndiminni</b>"
 Sum vefsvæði kunna að hlaðast hægar í næstu heimsókn."</string>
     <string name="googleapp_browser_setting_clear_data_title"><b>Fótspor og vefsvæðagögn</b>"
 Skráir þig út af flestum vefsvæðum. Þú verður ekki skráð(ur) út af Google reikningnum þínum."</string>
     <string name="googleapp_browser_settings_browser_privacy_category_title">Persónuvernd vafra</string>
     <string name="googleapp_browser_settings_browser_safety_category_title">Vafraöryggi</string>
-    <string name="googleapp_browser_settings_browsing_history_summary">Manage your browsing history at My Activity</string>
+    <string name="googleapp_browser_settings_browsing_history_summary">Stjórnaðu vafraferlinum í „Mínar aðgerðir“</string>
     <string name="googleapp_browser_settings_browsing_history_title">Vafraferill</string>
     <string name="googleapp_browser_settings_clear_browsing_data_summary">Hreinsa fótspor og gögn í skyndiminni</string>
     <string name="googleapp_browser_settings_clear_browsing_data_title">Hreinsa vafragögn</string>
     <string name="googleapp_browser_settings_cleardata_button_text">Hreinsa gögn</string>
     <string name="googleapp_browser_settings_extended_safe_browsing_summary">Senda Google vafraupplýsingar til að hjálpa okkur að greina skaðleg forrit og vefsvæði. Þetta felur í sér vefslóðir sumra síðna sem þú opnar, takmarkaðar kerfisupplýsingar og tiltekið síðuefni.</string>
     <string name="googleapp_browser_settings_extended_safe_browsing_title">Hjálpaðu okkur að bæta vafraöryggi</string>
-    <string name="googleapp_browser_settings_link">Vafrastillingar</string>
     <string name="googleapp_browser_settings_real_time_safe_browsing_summary">Leita að nýjum öryggisvandamálum í hvert skipti sem þú opnar vefsvæði. Vefslóðir síðna sem þú opnar verða sendar til Google.</string>
     <string name="googleapp_browser_settings_real_time_safe_browsing_title">Athuga öryggi vefsvæða í rauntíma</string>
     <string name="googleapp_browser_settings_safe_browsing_summary">Sjá viðvörun þegar þú reynir að opna vefsvæði sem er með þekkt öryggisvandamál. Ótraustar vefslóðir sem þú opnar kunna að verða sendar til Google.</string>
@@ -1150,10 +1224,10 @@ Skráir þig út af flestum vefsvæðum. Þú verður ekki skráð(ur) út af Go
     <string name="googleapp_covid_vaccine_register_25_subheader">Allir sem eru orðnir 25 ára geta fengið bóluefni</string>
     <string name="googleapp_covid_vaccine_register_header">Skráðu þig í COVID-bólusetningu í dag</string>
     <string name="googleapp_custom_color_description">Sérsniðinn litur leitargræju</string>
-    <string name="googleapp_custom_color_hue_slider_description">Custom hue slider</string>
-    <string name="googleapp_custom_color_hue_slider_label">Hue</string>
-    <string name="googleapp_custom_color_saturation_slider_description">Custom saturation slider</string>
-    <string name="googleapp_custom_color_saturation_slider_label">Saturation</string>
+    <string name="googleapp_custom_color_hue_slider_description">Sérsnið sleða fyrir litblæ</string>
+    <string name="googleapp_custom_color_hue_slider_label">Litblær</string>
+    <string name="googleapp_custom_color_saturation_slider_description">Sérsnið mettunarsleða</string>
+    <string name="googleapp_custom_color_saturation_slider_label">Mettun</string>
     <string name="googleapp_custom_tabs_collections_menu_item_title">Skoða söfn</string>
     <string name="googleapp_custom_tabs_copy_link_menu_item_title">Afrita tengil</string>
     <string name="googleapp_custom_tabs_copy_link_toast_text">Tengill afritaður á klippiborð</string>
@@ -1165,6 +1239,7 @@ Innskráð(ur) sem %1$s"</string>
     <string name="googleapp_custom_tabs_enabled_setting_unavailable_need_first_run_done">Opnaðu og settu upp Chrome til að virkja þennan valkost</string>
     <string name="googleapp_custom_tabs_enabled_setting_unavailable_update_chrome">Settu upp nýjustu útgáfu Chrome til að virkja</string>
     <string name="googleapp_custom_tabs_help_menu_item_title">Hjálp</string>
+    <string name="googleapp_custom_tabs_piros_menu_item_title">Fjarlægja niðurstöður um þig</string>
     <string name="googleapp_custom_tabs_recently_menu_item_title">Nýlegt</string>
     <string name="googleapp_customize_text">Sérsníða</string>
     <string name="googleapp_disco_channels_and_interests_tng_setting">Rásir og áhugamál</string>
@@ -1276,7 +1351,7 @@ Innskráð(ur) sem %1$s"</string>
     <string name="googleapp_general_settings_title">Almennt</string>
     <string name="googleapp_go_to_discover_content_description">Opna Tillögur</string>
     <string name="googleapp_goc_bottombar_close_description">Fela tengdar síður</string>
-    <string name="googleapp_google_app_browser_instacart_button_content_description">Instacart button</string>
+    <string name="googleapp_google_app_browser_instacart_button_content_description">Instacart-hnappur</string>
     <string name="googleapp_hide_explicit_results_settings_title">Fela óviðeigandi niðurstöður</string>
     <string name="googleapp_images_mode_landing_text">Leita að myndum</string>
     <string name="googleapp_incognito_app_strip_header">Úr forritunum þínum (eru e.t.v. ekki í huliðsstillingu)</string>
@@ -1310,7 +1385,6 @@ Innskráð(ur) sem %1$s"</string>
     <string name="googleapp_incognito_setup_device_biometrics_dialog_title">Skrá lífkenni</string>
     <string name="googleapp_incognito_signpost_button_text">Slökkva</string>
     <string name="googleapp_incognito_signpost_icon_description">Umferðarskiltistákn huliðsstillingar</string>
-    <string name="googleapp_incognito_signpost_message_assistant">Eiginleikar Hjálpara eru ekki tiltækir við vefskoðun í huliðsstillingu – lokaðu henni til að opna Hjálpara</string>
     <string name="googleapp_incognito_signpost_message_collections">Söfn eru ekki tiltæk við vefskoðun í huliðsstillingu – lokaðu henni til að opna þau</string>
     <string name="googleapp_incognito_signpost_message_default">Eiginleikinn er ekki tiltækur við vefskoðun í huliðsstillingu – lokaðu henni til að opna hann</string>
     <string name="googleapp_incognito_signpost_message_discover">Straumurinn Tillögur er ekki í boði þegar kveikt er á huliðsstillingu</string>
@@ -1333,7 +1407,7 @@ Innskráð(ur) sem %1$s"</string>
     <string name="googleapp_interstitial_visibility_warning_isp">Netþjónustan þín</string>
     <string name="googleapp_interstitial_visibility_warning_websites">Vefsvæði sem þú skoðar</string>
     <string name="googleapp_language_setting_title">Leitartungumál</string>
-    <string name="googleapp_language_switcher_auto_option">Auto-switch</string>
+    <string name="googleapp_language_switcher_auto_option">Sjálfv. skipti</string>
     <string name="googleapp_lens_button_content_description">Myndavélarleit</string>
     <string name="googleapp_lens_explainer">Taktu mynd af einhverju til að leita að því</string>
     <string name="googleapp_lens_icon_content_description">Myndavélarleit</string>
@@ -1412,7 +1486,14 @@ Innskráð(ur) sem %1$s"</string>
     <string name="googleapp_recent_pages_enabled_setting_title">Nýlegar síður</string>
     <string name="googleapp_region_setting_title">Leitarsvæði</string>
     <string name="googleapp_reset_style_text">Endurstilla á sjálfgefinn stíl</string>
-    <string name="googleapp_save_button_text">Save</string>
+    <string name="googleapp_save_button_text">Vista</string>
+    <string name="googleapp_save_feature_default_collection_label">Uppáhaldssíður</string>
+    <string name="googleapp_save_feature_error_title">Úbbs! Eitthvað fór úrskeiðis</string>
+    <string name="googleapp_save_feature_share_close_button_description">Loka</string>
+    <string name="googleapp_save_feature_share_receiver_subject_and_text">"%1$s
+
+%2$s"</string>
+    <string name="googleapp_save_feature_share_save">Vista</string>
     <string name="googleapp_search_a_song_content_description">Ýttu til að leita að lagi</string>
     <string name="googleapp_search_bar_radius_24dp_description">Ávalt</string>
     <string name="googleapp_search_bar_radius_2dp_description">Rétthyrningur</string>
@@ -1442,26 +1523,27 @@ Innskráð(ur) sem %1$s"</string>
     <string name="googleapp_second_screen_manage_interests_menu_label">Stjórna áhugasviðum</string>
     <string name="googleapp_second_screen_settings_menu_label">Stillingar</string>
     <string name="googleapp_see_updates">Sjá uppfærslur</string>
-    <string name="googleapp_settings_about_link">Um</string>
+    <string name="googleapp_setting_error_card_icon_content_description">Villa</string>
+    <string name="googleapp_setting_error_card_message_explanation">Ekki tókst að hlaða vefsíðunni</string>
+    <string name="googleapp_setting_error_card_message_title">Eitthvað fór úrskeiðis</string>
     <string name="googleapp_settings_about_title">Um</string>
-    <string name="googleapp_settings_general_link">Almennt</string>
-    <string name="googleapp_settings_language_and_region_link">Tungumál og svæði</string>
     <string name="googleapp_settings_language_and_region_title">Tungumál og svæði</string>
     <string name="googleapp_settings_legal_notices_title">Lagalegir skilmálar</string>
     <string name="googleapp_settings_location_terms_of_service_title">Þjónustuskilmálar staðsetningar</string>
+    <string name="googleapp_settings_nav_up">Fara upp</string>
     <string name="googleapp_settings_open_source_licenses_title">Tilkynningar þriðja aðila</string>
     <string name="googleapp_settings_privacy_and_security_link">Persónuvernd og öryggi</string>
     <string name="googleapp_settings_privacy_policy_title">Persónuverndarstefna</string>
-    <string name="googleapp_settings_search_widget_link">Leitargræja</string>
+    <string name="googleapp_settings_search">Leit</string>
+    <string name="googleapp_settings_search_hint">Leita í stillingum</string>
     <string name="googleapp_settings_terms_of_service_title">Þjónustuskilmálar</string>
-    <string name="googleapp_settings_voice_link">Rödd</string>
     <string name="googleapp_settings_voice_title">Rödd</string>
     <string name="googleapp_shopping_mode_landing_text">Leita í verslun</string>
     <string name="googleapp_show_waiting_text">Augnablik…</string>
-    <string name="googleapp_sign_in_tout_header">Sign in to personalize Discover</string>
-    <string name="googleapp_sign_in_tout_negative_text">Cancel</string>
-    <string name="googleapp_sign_in_tout_positive_text">Sign in</string>
-    <string name="googleapp_sign_in_tout_subheader">Control what you see in the Google app by signing in</string>
+    <string name="googleapp_sign_in_tout_header">Skráðu þig inn til að sérsníða Tillögur</string>
+    <string name="googleapp_sign_in_tout_negative_text">Hætta við</string>
+    <string name="googleapp_sign_in_tout_positive_text">Skrá inn</string>
+    <string name="googleapp_sign_in_tout_subheader">Stjórnaðu því sem þú sérð í Google forriti með því að innskrá þig</string>
     <string name="googleapp_signed_out_pq_based_suggestion_message">Þessi flýtiritun tengist nýlegum leitum.</string>
     <string name="googleapp_silk_pane_close_button">Loka</string>
     <string name="googleapp_silk_pane_dismiss_message">Hunsa</string>
@@ -1469,6 +1551,7 @@ Innskráð(ur) sem %1$s"</string>
     <string name="googleapp_sno_subscriptions_internal_error_header">Eitthvað fór úrskeiðis</string>
     <string name="googleapp_sno_subscriptions_offline_error_message">Þú verður að tengjast netinu til að skoða og breyta áskriftunum þínum</string>
     <string name="googleapp_sound_search_search_a_song_hint">Leita að lagi</string>
+    <string name="googleapp_srp_query_tiger">tígrisdýr</string>
     <string name="googleapp_stamp_viewer_actionbutton_feedback">Senda ábendingu</string>
     <string name="googleapp_stamp_viewer_actionbutton_heart">Hjarta</string>
     <string name="googleapp_stamp_viewer_actionbutton_help_center">Hjálparmiðstöð</string>
@@ -1483,7 +1566,7 @@ Innskráð(ur) sem %1$s"</string>
     <string name="googleapp_stamp_viewer_error_title">Eitthvað fór úrskeiðis</string>
     <string name="googleapp_stamp_viewer_overflow_menu_button_content_description">Fleiri valkostir.</string>
     <string name="googleapp_stamp_viewer_overflow_menu_close">Loka</string>
-    <string name="googleapp_stamp_viewer_preview_button_text">Skoða alla fréttina</string>
+    <string name="googleapp_stamp_viewer_preview_button_text">Halda áfram að horfa</string>
     <string name="googleapp_stamp_viewer_preview_label">Forskoðun</string>
     <string name="googleapp_stamp_viewer_publisher_cta">Opna</string>
     <string name="googleapp_stamp_viewer_retry_button_text">Reyna aftur</string>
@@ -1500,7 +1583,7 @@ Innskráð(ur) sem %1$s"</string>
     <string name="googleapp_tabs_manager_close_all_tabs_dialog_confirmation_button_label">Loka öllum</string>
     <string name="googleapp_tabs_manager_close_all_tabs_dialog_confirmation_message">Viltu örugglega loka öllum opnum flipum?</string>
     <string name="googleapp_tabs_manager_close_tab_button_default_description">loka flipa</string>
-    <string name="googleapp_tabs_manager_close_tab_button_description">loka vefsvæði %s – hnappur</string>
+    <string name="googleapp_tabs_manager_close_tab_button_description">loka vefsvæði %s</string>
     <string name="googleapp_tabs_manager_empty_state_title">Þú ert ekki með neina opna flipa</string>
     <string name="googleapp_tabs_manager_new_tab_button_description">hefja nýja leit</string>
     <string name="googleapp_tabs_manager_new_tab_button_text">Nýr flipi</string>
@@ -1518,18 +1601,19 @@ Innskráð(ur) sem %1$s"</string>
     <string name="googleapp_voice_search_humming">Hummaðu til að finna lög</string>
     <string name="googleapp_voice_search_tired_of_typing">Nennirðu ekki að skrifa? Notaðu raddleit</string>
     <string name="googleapp_voice_search_with_voice">Notaðu raddleit</string>
+    <string name="googleapp_voice_settings_assistant_title">Google hjálpari</string>
     <string name="googleapp_voice_settings_languages_setting_check_content_description">Valið</string>
     <string name="googleapp_voice_settings_languages_setting_limit_reached_notice">Hámarki náð. Þú getur ekki valið fleiri tungumál.</string>
     <string name="googleapp_voice_settings_languages_setting_no_selection_notice">Ekkert tungumál er valið.</string>
     <string name="googleapp_voice_settings_languages_setting_save_button_text">VISTA</string>
+    <string name="googleapp_voice_settings_languages_setting_summary_text_others">Others:</string>
+    <string name="googleapp_voice_settings_languages_setting_summary_text_primary">Primary:</string>
     <string name="googleapp_voice_settings_languages_setting_title">Tungumál</string>
     <string name="googleapp_voice_settings_offline_speech_recognition_setting_summary">Stjórna sóttum tungumálum</string>
     <string name="googleapp_voice_settings_offline_speech_recognition_setting_title">Raddgreining án nettengingar</string>
     <string name="googleapp_voice_settings_spoken_results_setting_title">Niðurstöður lesnar upphátt</string>
-    <string name="googleapp_voice_settings_spoken_results_value_all_voices">Allar raddleitir</string>
-    <string name="googleapp_voice_settings_spoken_results_value_hands_free_only">Aðeins handfrjáls leit</string>
-    <string name="googleapp_voice_settings_voice_match_setting_summary">Talaðu við Google hjálparann til að koma hlutunum í verk</string>
-    <string name="googleapp_voice_settings_voice_match_setting_title">Voice Match</string>
+    <string name="googleapp_voice_settings_spoken_results_value_all_voices">On</string>
+    <string name="googleapp_voice_settings_spoken_results_value_hands_free_only">Off</string>
     <string name="googleapp_waa_disabled_tout_promo_description">Persónuverndarstillingar Google leitar</string>
     <string name="googleapp_waa_disabled_tout_promo_header">Straumurinn þinn byggist ekki á ferlinum þínum</string>
     <string name="googleapp_waa_disabled_tout_promo_subheader">Straumurinn „Tillögur“ byggist ekki á ferlinum þínum þar sem slökkt er á „Vef- og forritavirkni“</string>
@@ -1660,7 +1744,7 @@ Innskráð(ur) sem %1$s"</string>
     <string name="lens_education_filter_guidance_message">Beindu myndavél að heimavinnu og taktu mynd til að fá hjálp</string>
     <string name="lens_empty_latex_snackbar">Sláðu inn stærðfræðiformúlu til að sjá útkomu</string>
     <string name="lens_error_please_try_again">Reyndu aftur</string>
-    <string name="lens_failed_to_open_3rd_party_content">Unable to load content</string>
+    <string name="lens_failed_to_open_3rd_party_content">Ekki tókst að hlaða efni</string>
     <string name="lens_failed_to_open_image">Ekki tókst að opna mynd.</string>
     <string name="lens_failure_info_card_compact_text_filter_description">Taktu mynd af hvaða orðum sem er til að afrita eða leita</string>
     <string name="lens_failure_info_card_compact_translate_filter_description">Taktu mynd af texta til að þýða</string>
@@ -1736,14 +1820,13 @@ Innskráð(ur) sem %1$s"</string>
     <string name="lens_info_panel_on_device_chip_share_translate_content_description">Deila þýddri mynd</string>
     <string name="lens_info_panel_on_device_chip_translate">Þýða</string>
     <string name="lens_info_panel_on_device_chip_translate_content_description">Þýða valinn texta</string>
-    <string name="lens_info_panel_on_device_no_text_header_title">Enginn texti fannst</string>
     <string name="lens_info_panel_on_device_results_header_limited_functionality">Sumir eiginleikar eru ekki tiltækir</string>
     <string name="lens_info_panel_on_device_results_header_offline">Án nettengingar</string>
     <string name="lens_info_panel_on_device_text_header_title">Texti fannst á mynd</string>
     <string name="lens_info_panel_on_device_translation_header_title">Þýddur texti</string>
+    <string name="lens_info_panel_partial_translate_enabled_header_title">Frumtexti</string>
     <string name="lens_info_panel_processing_message">Hleður…</string>
     <string name="lens_info_panel_quoted_title">„%1$s“</string>
-    <string name="lens_info_panel_select_text_to_translate_header_title">Veldu texta til að þýða</string>
     <string name="lens_kilometers_indicator">%s km</string>
     <string name="lens_latex_input_hint">Slá inn stærðfræðidæmi</string>
     <string name="lens_living_surface_audio_button_mute">Þagga</string>
@@ -1838,6 +1921,7 @@ Innskráð(ur) sem %1$s"</string>
     <string name="lens_sample_images_translate_card_text_short">Þýða myndir</string>
     <string name="lens_search_bar_hint">Sláðu inn heiti veitingastaðarins</string>
     <string name="lens_search_filter_name">Leit</string>
+    <string name="lens_selection_state_guidance_message_on_device_translation">Ýttu á texta til að þýða</string>
     <string name="lens_share_to_lens_label">Mynd fyrir leit</string>
     <string name="lens_share_translate_message">Þýtt með Google linsu. Prófaðu!</string>
     <string name="lens_shopping_filter_guidance_message">Taktu mynd af vörum eða strikamerkjum</string>
@@ -1953,6 +2037,7 @@ Innskráð(ur) sem %1$s"</string>
     <string name="mdd_notification_action_cancel">Hætta við</string>
     <string name="mdd_notification_download_failed">Niðurhal mistókst</string>
     <string name="mdd_notification_download_paused">Beðið eftir nettengingu</string>
+    <string name="mdd_notification_download_paused_wifi">Waiting for WiFi connection</string>
     <string name="mdd_notification_download_success">Sótt</string>
     <string name="media_browser_youtube_premium_warning_text">Þú þarft að vera með Premium-reikning til að fá tillögur</string>
     <string name="media_empty_state_task_hey_google_play_music">"„Ok Google,
@@ -2076,7 +2161,7 @@ play %s“"</string>
     <string name="mtrl_picker_toggle_to_day_selection">Ýttu til að skipta yfir í að velja dag</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Skipta yfir í innfærsluaðferð fyrir texta</string>
     <string name="mtrl_picker_toggle_to_year_selection">Ýttu til að skipta yfir í að velja ár</string>
-    <string name="mtrl_timepicker_cancel">Cancel</string>
+    <string name="mtrl_timepicker_cancel">Hætta við</string>
     <string name="mtrl_timepicker_confirm">Í lagi</string>
     <string name="mute_mic_control_button_text">Þagga</string>
     <string name="mute_off_label">Slökkt er á þöggun</string>
@@ -2518,11 +2603,11 @@ raunheimum."</string>
     <string name="punt_for_personal_results">Ef ég á að hjálpa þér með þetta þarftu að leyfa persónulegar niðurstöður í þessum bíl. Þú getur gert það í stillingum Hjálparans þegar það er öruggt.</string>
     <string name="punt_for_signed_out">Þú þarft að skrá þig inn með Google reikningnum til að gera þetta. Þegar það er óhætt skaltu athuga tilkynninguna í bílnum til að framkvæma næsta skref.</string>
     <string name="punt_home_alias_unset">Ég virðist ekki vera með heimilisfangið þitt. Þú getur fengið leiðarlýsingu heim með því að segja mér heimilisfangið.</string>
-    <string name="punt_max_volume">Því miður styður þetta tæki ekki stillingu á hljóðstyrk á hæsta styrk eða upp í 100%.</string>
     <string name="punt_non_percentage_volume_control">Í bílnum er stilling hljóðstyrks í prósentum svo þú getur sagt setningar á borð við „Set the volume to 25%“.</string>
     <string name="punt_offline_music">Engin tenging virðist vera til staðar svo ég get ekki spilað þetta fyrir þig.</string>
     <string name="punt_open_app">Því miður er þetta forrit ekki uppsett eða í boði núna.</string>
     <string name="punt_open_unsafe_for_drving_app">Því miður er ekki öruggt að nota þetta forrit við akstur.</string>
+    <string name="punt_set_volume_beyond_threshold">Af öryggisástæðum er ekki hægt að stilla hljóðið þetta hátt í ökutækinu. Þú getur beðið um að það sé stillt á allt að %1$d%%</string>
     <string name="punt_work_alias_unset">Ég virðist ekki vera með heimilisfang vinnunnar þinnar. Þú getur fengið leiðarlýsingu til vinnu með því að segja mér heimilisfangið.</string>
     <string name="query_suggestion_header_text">Prófaðu að segja:</string>
     <string name="recurrence_dialog_title">Endurtaka</string>
@@ -2534,6 +2619,7 @@ raunheimum."</string>
     <string name="recurrence_month_pattern_last_day">síðasta dag mánaðar</string>
     <string name="refresh_bt_latency_button_description">Prófa Bluetooth-biðtíma aftur</string>
     <string name="replay_count_down">Spilast aftur eftir &lt;b>%1$d&lt;/b>…</string>
+    <string name="reply_button_string">Svara</string>
     <string name="reply_button_text">Svara</string>
     <string name="reset_settings">Endurstilla</string>
     <string name="resume_label">Halda símtali áfram</string>
@@ -2559,7 +2645,7 @@ raunheimum."</string>
     <string name="sceneviewer_get_help">Get help</string>
     <string name="sceneviewer_get_help_button_content_description">Get Help</string>
     <string name="sceneviewer_immersive_edge_fallback_dialog_confirm_button">Go</string>
-    <string name="sceneviewer_immersive_edge_fallback_dialog_message">No connection. You will be redirected to &lt;b> %1$s &lt;/b></string>
+    <string name="sceneviewer_immersive_edge_fallback_dialog_message">No connections available. Redirecting you to &lt;b>%1$s&lt;/b>. Please try again in a few minutes.</string>
     <string name="sceneviewer_immersive_edge_fallback_dialog_title">Connection lost</string>
     <string name="sceneviewer_immersive_edge_redirect_dialog_cancel_button">Cancel</string>
     <string name="sceneviewer_immersive_edge_redirect_dialog_confirm_button">OK</string>
@@ -2577,6 +2663,8 @@ raunheimum."</string>
     <string name="search_box_content_description">Leita…</string>
     <string name="search_menu_title">Leit</string>
     <string name="search_restriction">Þú hefur ekki heimild til að nota Google leit</string>
+    <string name="select_day">Velja mánuð og dag</string>
+    <string name="select_year">Velja ár</string>
     <string name="send_a_message">Senda skilaboð til %1$s</string>
     <string name="send_a_message_no_contact">Senda skilaboð</string>
     <string name="send_a_message_text">Senda skilaboð</string>
@@ -2605,6 +2693,7 @@ raunheimum."</string>
     <string name="signed_out_account_particle_disc_state_description">Útskráð(ur)</string>
     <string name="six_dof_guidance">Beindu símanum þínum niður að auðu svæði og færðu hann hægt</string>
     <string name="smartaction_button_icon_content_description">Tákn sem tengist valinni snjallaðgerð.</string>
+    <string name="someone_else_text">Einhver annar</string>
     <string name="soundsearch_close_content_description">Loka</string>
     <string name="soundsearch_label_almost_there">Næstum komið…</string>
     <string name="soundsearch_label_keep_going">Haltu áfram…</string>
@@ -2940,5 +3029,6 @@ raunheimum."</string>
     <string name="workspace_cling_longpress_title">Veggfóður, græjur og stillingar</string>
     <string name="workspace_new_page">Ný síða á heimaskjá</string>
     <string name="workspace_scroll_format">Heimaskjár %1$d af %2$d</string>
+    <string name="year_picker_description">Áralisti</string>
     <string name="yes_button_text">Já, ég er með</string>
 </resources>

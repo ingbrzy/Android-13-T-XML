@@ -28,7 +28,6 @@
     <string name="about_application_pp_tos_settings">Par, noteikumi un konfidencialitāte</string>
     <string name="accessbility_suggestion_dropdown_closed">Nav pieejams neviens ieteikums.</string>
     <string name="accessbility_suggestion_dropdown_opened">Kontaktpersonu iestatījumi ir atvērti.</string>
-    <string name="acs_url_dropdown_hint">Iestatīt ACS URL</string>
     <string name="action_add_contact">Pievienot kontaktpersonu</string>
     <string name="action_advanced_feedback">Sūtīt atsauksmes</string>
     <string name="action_archive">Arhivēt</string>
@@ -47,18 +46,19 @@
     <string name="action_help_and_feedback">Palīdzība un atsauksmes</string>
     <string name="action_info_and_options">Informācija un opcijas</string>
     <string name="action_jump_to_chat">Skatīt tērzēšanas sarunā</string>
+    <string name="action_meet_video_call">Meet videozvans</string>
     <string name="action_menu_mark_all_as_read">Atzīmēt kā izlasītu</string>
     <string name="action_menu_show_archived">Arhīvs</string>
     <string name="action_menu_show_spam_folder">Nevēlamās un bloķētās sarunas</string>
     <string name="action_notification_off">Izslēgt paziņojumus</string>
     <string name="action_notification_on">Ieslēgt paziņojumus</string>
     <string name="action_notification_settings">Izslēgt paziņojumu skaņu</string>
+    <string name="action_off">Izslēgt</string>
     <string name="action_pair_device">Ierīces savienošana pārī</string>
     <string name="action_people_and_options">Detalizēta informācija</string>
     <string name="action_people_and_options_group">Detalizēta informācija par grupu</string>
     <string name="action_pin_to_top">Piespraust augšdaļā</string>
     <string name="action_report_spam">Ziņot par mēstuli</string>
-    <string name="action_scan_qr_code">Ziņojumi tīmeklim</string>
     <string name="action_search">Meklēt</string>
     <string name="action_search_gifs">Meklēt GIF attēlus</string>
     <string name="action_search_messages">Meklēt ziņojumos</string>
@@ -77,6 +77,7 @@
     <string name="action_viLTE_video_call">Mobilo sakaru operatora videozvans</string>
     <string name="action_video_call">Veikt videozvanu</string>
     <string name="actionbar_subtitle_name_prefix">ar kontaktpersonu %s</string>
+    <string name="active_reminder">Atgādinājums</string>
     <string name="active_sim_content_message">SIM karte %s atlasīta</string>
     <string name="activity_not_found_message">Neizdevās atrast atbilstošu lietojumprogrammu.</string>
     <string name="add_area_code_banner_button">Pievienot apgabala kodu</string>
@@ -90,6 +91,7 @@
     <string name="add_contact_confirmation_dialog_title">Vai pievienot kontaktpersonām?</string>
     <string name="add_country_code_banner_button">Pievienot valsts kodu</string>
     <string name="add_more_participants_button_content_description">Pievienot vēl dalībniekus</string>
+    <string name="add_reaction_content_description">Reaģējiet, izmantojot pielāgotu reakciju</string>
     <string name="add_reaction_for_assistant_card_rcs_fallback_text">Reakcija ​%1$s​ uz asistenta kartīti</string>
     <string name="add_reaction_for_audio_rcs_fallback_text">Reakcija ​%1$s​ uz audio failu</string>
     <string name="add_reaction_for_contact_rcs_fallback_text">Reakcija ​%1$s​ uz kontaktpersonu</string>
@@ -97,7 +99,7 @@
     <string name="add_reaction_for_gif_rcs_fallback_text">Reakcija ​%1$s​ uz GIF attēlu</string>
     <string name="add_reaction_for_link_rcs_fallback_text">Reakcija ​%1$s​ uz saiti</string>
     <string name="add_reaction_for_photo_rcs_fallback_text">Reakcija ​%1$s​ uz fotoattēlu</string>
-    <string name="add_reaction_for_text_message_rcs_fallback_text">Reakcija ​%1$s​ uz “%2$s”</string>
+    <string name="add_reaction_for_text_message_rcs_fallback_text">Reakcija ​%1$s​ uz “ %2$s ”</string>
     <string name="add_reaction_for_unknown_message_type_rcs_fallback_text">Reakcija ​%1$s​ uz nezināmu ziņojuma veidu</string>
     <string name="add_reaction_for_video_rcs_fallback_text">Reakcija ​%1$s​ uz videoklipu</string>
     <string name="advanced_feedback_activity_disclaimer">Jūsu ziņojuma saturs un teksts (izņemot ekrānuzņēmumos redzamo) netiek sūtīti uzņēmumam Google.</string>
@@ -134,14 +136,13 @@
     <string name="apn_mnc">MNC</string>
     <string name="app_name">Ziņojumi</string>
     <string name="app_settings_conversation_pref_title">Lietotnes iestatījumi</string>
-    <string name="apply_button">Lietot</string>
     <string name="archived_activity_title">Arhīvs</string>
     <string name="archived_conversation_list_empty_text">Šeit tiek rādītas arhivētās sarunas.</string>
     <string name="area_code_banner_description">@string/banner_description</string>
     <string name="assistant_movies_shortcut_title">Filmas</string>
+    <string name="assistant_preference_summary">Rādīt atbilstošu informāciju par vakariņošanu, filmām un citus ieteikumus</string>
     <string name="assistant_preference_title">Asistenta ieteikumi</string>
     <string name="assistant_restaurants_shortcut_title">Restorāni</string>
-    <string name="assistant_send_to_chip_default_group_name">grupai</string>
     <string name="assistant_suggestions_tooltip_text">Lietotnē Ziņojumi tiek izveidoti ieteikumi, vienlaikus paturot sarunu ierīcē. Varat pieskarties ieteikumiem, lai tos skatītu un lai kopīgotu informāciju no Google asistenta. &lt;br/> &lt;br/> &lt;a href>Uzziniet vairāk&lt;/a> un pārvaldiet šo opciju &lt;a href>iestatījumos&lt;/a>.</string>
     <string name="assistant_suggestions_tooltip_title_text">Informācijas iegūšana ar vienu pieskārienu</string>
     <string name="assistant_weather_shortcut_title">Laikapstākļi</string>
@@ -157,12 +158,18 @@
     <string name="attachment_location">Atrašanās vieta</string>
     <string name="attachment_picture">Attēls</string>
     <string name="attachment_preview_close_content_description">Atmest pielikumu</string>
+    <string name="attachment_preview_photos_link_share_getting_link">Notiek saites iegūšana…</string>
+    <string name="attachment_preview_photos_link_share_no_upload_needed">Jau augšupielādēts</string>
+    <string name="attachment_preview_photos_link_share_upload_size">Augšupielāde: %s</string>
+    <string name="attachment_preview_photos_link_share_upload_size_failure">Nezināms</string>
+    <string name="attachment_preview_photos_link_share_upload_size_placeholder">Notiek aprēķināšana…</string>
     <string name="attachment_unsupported_file">Neatbalstīts fails</string>
     <string name="attachment_vcard">Kontaktpersonas kartīte</string>
     <string name="attachment_video">Videoklips</string>
     <string name="audio_attachment_content_description">Audio pielikums</string>
     <string name="audio_attachment_seek_playback_description">Audio atskaņošana</string>
     <string name="audio_button_view_content_description">Veiciet dubultskārienu un turiet, lai ierakstītu audio; velciet pa kreisi, lai atceltu.</string>
+    <string name="audio_format_type">audio</string>
     <string name="audio_pause_content_description">Pārtraukt</string>
     <string name="audio_play_content_description">Atskaņot audio pielikumu</string>
     <string name="audio_recorder_call_in_progress">Zvana laikā nevar ierakstīt audio.</string>
@@ -181,6 +188,8 @@
     <string name="auto_selected_country_summary">Noteikta automātiski (%1$s)</string>
     <string name="automoved_spam_notification_action_dismiss">Nerādīt</string>
     <string name="automoved_spam_notification_action_view">Skatīt</string>
+    <string name="automoved_spam_notification_content_text">Ienākošās mēstules tika pārvietotas uz mapi “Nevēlamās un bloķētās sarunas”</string>
+    <string name="automoved_spam_notification_content_title">Konstatēts nevēlams saturs</string>
     <string name="avatar_no_connection_msg">Nav interneta savienojuma</string>
     <string name="avatar_promo_create">Izveidot</string>
     <string name="avatar_promo_see_all">Skatīt visus</string>
@@ -192,12 +201,13 @@
     <string name="birthday_banner_description">@string/banner_description</string>
     <string name="birthday_banner_dismiss_button_text">Nerādīt</string>
     <string name="birthday_banner_settings_button_text">Pārvaldīt iestatījumos</string>
-    <string name="birthday_info_text">Lietotne Ziņojumi izveido dzimšanas dienas atgādinājumus no kontaktpersonām, kurām jūsu ierīcē ir norādītas dzimšanas dienas.</string>
+    <string name="birthday_info_text">Šie atgādinājumi tiek veidoti no jūsu ierīces kontaktpersonu lietotnē pieejamās informācijas par dzimšanas dienām.</string>
+    <string name="birthday_info_text_with_settings">Šie atgādinājumi tiek veidoti no jūsu ierīces kontaktpersonu lietotnē pieejamās informācijas par dzimšanas dienām. &lt;a href>%1$s&lt;/a></string>
     <string name="birthday_nudge_enabled_pref_summary">Saņemiet paziņojumus par dzimšanas dienām, kuras pievienojāt ierīcē saglabātajām kontaktpersonām.</string>
     <string name="birthday_nudge_enabled_pref_title">Atgādinājumi par dzimšanas dienām</string>
     <string name="block_confirmation_message_spam_folder">Jūs arī turpmāk saņemsiet ziņojumus no lietotāja %1$s, taču vairs nesaņemsiet par tiem paziņojumus. Šī saruna tiks pārvietota uz mapi “Nevēlamās un bloķētās sarunas”.</string>
     <string name="block_confirmation_message_system_spam_folder">Jūs nesaņemsiet zvanus vai īsziņas no lietotāja %1$s. Šī saruna tiks pārvietota uz mapi “Nevēlamās un bloķētās sarunas”.</string>
-    <string name="block_confirmation_title">Numura bloķēšana un ziņošana par to</string>
+    <string name="block_confirmation_title">Bloķēt un ziņot par numuru</string>
     <string name="block_contact_title">Bloķēt numuru un ziņot par to</string>
     <string name="blocked_and_reported_toast_message">Kontaktpersona %s ir bloķēta un par to ir ziņots</string>
     <string name="blocked_contacts_title">Bloķētās kontaktpersonas</string>
@@ -212,9 +222,13 @@
     <string name="boew_promo_text">Lai iegūtu tērzēšanas funkcijas, piemēram, ziņojumapmaiņu, izmantojot Wi‑Fi un datu savienojumu, ļaujiet lietotnei Ziņojumi turpināt darbību fonā.</string>
     <string name="boew_promo_title">Papildu darbības lietotnē Ziņojumi</string>
     <string name="bottomsheet_action_expand_halfway">Izvērst līdz pusei</string>
+    <string name="bottomsheet_drag_handle_content_description">Vilkšanas turis</string>
     <string name="broadcast_receiver_notification_text_extra_info">Lietotnes Ziņojumi darbība notiek fonā. Ja šis paziņojums tiek rādīts ilgāk nekā minūti, lūdzu, iesniedziet kļūdas pārskatu. Saņēmēja nosaukums: %1$s</string>
     <string name="broadcast_sms_text">Lielapjoma īsziņa</string>
     <string name="bubble_settings_title">Burbuļi</string>
+    <string name="bugle_add_account_error">Neizdevās pievienot kontu. Lūdzu, mēģiniet vēlreiz.</string>
+    <string name="bugle_fix_it">Novērst problēmu</string>
+    <string name="bugle_load_account_failure">Neizdevās ielādēt kontus.</string>
     <string name="bugle_notification_category_conversations">Sarunas</string>
     <string name="bugle_notification_category_default_settings">Noklusējuma iestatījumi</string>
     <string name="bugle_notification_category_reminders">Atgādinājumi</string>
@@ -226,6 +240,8 @@
     <string name="bugle_notification_reminders_channel_name">Atgādinājumi</string>
     <string name="bugle_notification_report_issue_channel_name">Atsauksmes pieprasījums par Ziņojumiem</string>
     <string name="bugle_notification_silent_default_channel_name">Saņemiet paziņojumus, kad izmantojat tīmekli</string>
+    <string name="bugle_play_services_error">Neizdevās izpildīt Google Play pakalpojumu vaicājumu.</string>
+    <string name="bugle_retry">Mēģināt vēlreiz</string>
     <string name="business_action_call_full_content_description">Zvanīt: %1$s (%2$s)</string>
     <string name="business_action_call_short_content_description">Zvanīt</string>
     <string name="business_action_call_short_text_m2">Zvanīt</string>
@@ -287,6 +303,7 @@
     <string name="c2o_single_file_attachment_size_limit_exceed">Pielikums ir pārāk liels, un to nevar nosūtīt. Mēģiniet sūtīt failu, kas ir mazāks par %s.</string>
     <string name="c2o_storage_permissions_text">Pieskarieties, lai piešķirtu piekļuvi multividei</string>
     <string name="c2o_video_button_text">Video</string>
+    <string name="calendar_badge_content_description">Kalendāra emblēma</string>
     <string name="calendar_event_added">Pasākums ir saglabāts.</string>
     <string name="calendar_file_content_description">Kalendāra fails</string>
     <string name="calendar_suggestion_event_chat_title">Tērzēšana lietotnē Android ziņojumi</string>
@@ -297,6 +314,7 @@
     <string name="camera_attach_media">Pievienot</string>
     <string name="camera_attach_media_description">Pievienot ziņojumam</string>
     <string name="camera_back_switch_button">Aizmugurējās kameras slēdzis</string>
+    <string name="camera_capture_button_label">Fotografēt</string>
     <string name="camera_flash_off">Zibspuldze izslēgta</string>
     <string name="camera_flash_on">Zibspuldze ieslēgta</string>
     <string name="camera_front_switch_button">Priekšējās kameras slēdzis</string>
@@ -369,7 +387,7 @@ Iestatījumos varat izslēgt tērzēšanas funkcijas. %1$s"</string>
     <string name="cms_download_media_button_content_description">Lejupielādēt pielikumu</string>
     <string name="cms_no_qr_welcome_bottom_text">"Sāciet darbu
 1. Atveriet vietni %s
-2. Pierakstieties pakalpojumā Google Fi (varat izlaist ātrās atbildes koda skenēšanu)."</string>
+2. Pierakstieties pakalpojumā Google Fi (varat izlaist kvadrātkoda skenēšanu)."</string>
     <string name="cms_no_qr_welcome_title_text">Izmantojiet īsziņas, zvanus un balss pastu tīmeklī, pat ja tālrunis ir izslēgts</string>
     <string name="cms_restore_worker_foreground_notification_text">Lietotnē Ziņojumi tiek sinhronizētas jūsu sarunas.</string>
     <string name="cms_vital_error_notification_message">Apturiet sinhronizāciju un vēlāk mēģiniet vēlreiz.</string>
@@ -397,13 +415,18 @@ Iestatījumos varat izslēgt tērzēšanas funkcijas. %1$s"</string>
     <string name="common_google_play_services_update_text">Lai lietotne %1$s darbotos, jums ir jāatjaunina Google Play pakalpojumi.</string>
     <string name="common_google_play_services_update_title">Google Play pakalpojumu atjaunināšana</string>
     <string name="common_google_play_services_updating_text">Lai lietotne %1$s darbotos, ir jāinstalē Google Play pakalpojumi. Pašlaik notiek to atjaunināšana.</string>
+    <string name="common_google_play_services_wear_update_text">Ir nepieciešama jauna Google Play pakalpojumu versija. Drīzumā tā tiks instalēta.</string>
+    <string name="common_open_on_phone">Atvērt tālrunī</string>
+    <string name="complete_photos_app_onboarding">Atvērt lietotni Google fotoattēli</string>
+    <string name="complete_photos_app_onboarding_title">Lai turpinātu, atļaujiet piekļuvi lietotnei Google fotoattēli</string>
+    <string name="complete_photos_app_onboarding_to_continue">Sāciet darbu lietotnē Google fotoattēli</string>
     <string name="compose_message_view_hint_text">Tērzēšanas ziņojums</string>
     <string name="compose_message_view_hint_text_multi_sim_rcs">Tērzēt (%s)</string>
     <string name="compose_message_view_hint_text_multi_sim_sms_mms">Sūtīt ziņu (%s)</string>
     <string name="compose_message_view_hint_text_with_attachment">Pievienot tekstu</string>
     <string name="compose_message_view_small_screen_hint_text">Tērzēt</string>
     <string name="compose_message_view_sms_broadcast_hint_text">Sūtiet atsevišķus teksta ziņojumus</string>
-    <string name="compose_message_view_sms_mms_hint_text">Teksta ziņojums</string>
+    <string name="compose_message_view_sms_mms_hint_text">Īsziņa</string>
     <string name="compose_message_view_sms_mms_small_screen_hint_text">Teksts</string>
     <string name="compose_message_view_subject_hint_text">Temats</string>
     <string name="confirm_close_message">Labojumi netiks saglabāti, ja pāriesiet atpakaļ.</string>
@@ -418,15 +441,12 @@ Iestatījumos varat izslēgt tērzēšanas funkcijas. %1$s"</string>
     <string name="contact_has_multiple_destinations_phone">%1$s (un vēl %2$s)</string>
     <string name="contact_has_multiple_destinations_type">Vairāki</string>
     <string name="contact_list_add_people">Pievienot numuru %s</string>
-    <string name="contact_list_empty_text">Ievadiet kontaktpersonas vārdu vai tālruņa numuru, lai sāktu rakstīt jaunu ziņojumu.</string>
     <string name="contact_list_send_to_text">Nosūtīt uz tālruņa numuru %s</string>
     <string name="contact_picker_autocomplete_added">Personas %1$s kontaktinformācija ir pievienota un pašlaik tiek rediģēta.</string>
     <string name="contact_picker_autocomplete_deleted">Kontaktpersona %1$s dzēsta, pašlaik notiek rediģēšana</string>
-    <string name="contact_picker_cant_add_destination_twice">Šis numurs jau ir pievienots grupai</string>
     <string name="contact_picker_cant_remove_from_existing">Nevar noņemt numuru no esošas sarunas.</string>
     <string name="contact_picker_cant_remove_from_screen">Lai noņemtu personas, pārejiet uz sadaļu &lt;b>Detalizēta informācija par grupu&lt;/b>.</string>
     <string name="contact_picker_confirm_participants_button_label">Tālāk</string>
-    <string name="contact_picker_group_create_label">Izveidot grupu</string>
     <string name="contact_picker_group_v2_create_label">Izveidot grupu</string>
     <string name="contact_picker_message_a_business_label">Tērzēt ar uzņēmuma pārstāvi</string>
     <string name="contact_picker_title_add_people">Personu pievienošana</string>
@@ -449,10 +469,14 @@ Iestatījumos varat izslēgt tērzēšanas funkcijas. %1$s"</string>
     <string name="content_description_link_to_settings">Pārvaldīt to iestatījumos</string>
     <string name="contextual_action_bar_description_prefix">Tiek rādīta rīkjosla šādu darbību veikšanai: %s. Pārejiet augšup, lai atlasītu darbību vai aizvērtu rīkjoslu.</string>
     <string name="conversation_area_code_popup_paragraph">Ja apgabala kods nav norādīts, lietotnē Ziņojumi tiks mēģināts sūtīt ziņojumus uz %1$s. Pievienojiet šīs kontaktpersonas apgabala kodu turpmākajiem ziņojumiem. %2$s</string>
+    <string name="conversation_block_failed_message">Nav bloķēta. Pārbaudiet savienojumu.</string>
+    <string name="conversation_blocking_message">Tiek bloķēta…</string>
     <string name="conversation_country_code_popup_paragraph">Pievienojiet šai kontaktpersonai valsts kodu (+%1$s valstij %2$s), lai jūsu ziņojums tiktu nosūtīts pareizajam adresātam. %3$s</string>
     <string name="conversation_creation_failed">Neizdevās izveidot sarunu. Lūdzu, vēlāk mēģiniet vēlreiz.</string>
     <string name="conversation_creation_failure">Nevarēja sākt sarunu</string>
+    <string name="conversation_deleting_message">Tiek dzēsta…</string>
     <string name="conversation_deletion_failed">Nevarēja dzēst sarunu.</string>
+    <string name="conversation_deletion_failed_message">Nav izdzēsta. Pārbaudiet savienojumu.</string>
     <string name="conversation_empty_name">Tukšs</string>
     <string name="conversation_label_all">Visi</string>
     <string name="conversation_label_business_updates">Darbs</string>
@@ -479,7 +503,6 @@ Iestatījumos varat izslēgt tērzēšanas funkcijas. %1$s"</string>
     <string name="conversation_list_item_view_draft_message">Melnraksts</string>
     <string name="conversation_list_item_view_sent_from_other_prefix">%s:</string>
     <string name="conversation_list_item_view_sent_from_you_prefix">Jūs:</string>
-    <string name="conversation_list_loading_item_description">Notiek sarunas ielāde</string>
     <string name="conversation_list_message_fail_to_decrypt">Nevar atšifrēt</string>
     <string name="conversation_list_rcs_promo_button_negative">Nejaunināt lietotni</string>
     <string name="conversation_list_rcs_promo_button_positive">Jaunināt tūlīt</string>
@@ -491,7 +514,6 @@ Iestatījumos varat izslēgt tērzēšanas funkcijas. %1$s"</string>
     <string name="conversation_list_snippet_link">Saite</string>
     <string name="conversation_list_spam_popup_negative">Pārvaldīt to iestatījumos</string>
     <string name="conversation_list_spam_popup_paragraph">Lai novērstu mēstuļu saņemšanu, Google izmanto nezināmo sūtītāju un saņēmēju tālruņa numurus. Uzņēmumam Google netiek sūtīti jūsu ziņojumi un kontaktpersonas. %1$s</string>
-    <string name="conversation_list_spam_popup_paragraph_on_device">Lietotnē Ziņojumi tiek izmantots ierīcē iebūvēts intelekts, lai konstatētu mēstules, un uzņēmumam Google tiek nosūtīti noteikti dati par šiem ziņojumiem (neietverot jūsu tālruņa numuru vai ziņojumu saturu). %1$s</string>
     <string name="conversation_list_spam_popup_positive">Labi</string>
     <string name="conversation_list_spam_popup_title">Aizsardzība pret mēstulēm</string>
     <string name="conversation_list_terms_and_conditions_promo_subtitle">Pabeidziet tērzēšanas funkciju ieslēgšanu, lai veiktu ziņojumapmaiņu, izmantojot Wi-Fi, un citas darbības</string>
@@ -514,6 +536,7 @@ Iestatījumos varat izslēgt tērzēšanas funkcijas. %1$s"</string>
     <string name="conversation_suggestion_set_reminder_action">Iestatītā atgādinājuma ieteiktā darbība</string>
     <string name="conversation_suggestion_share_location_action">Ieteiktā atrašanās vietas kopīgošanas darbība</string>
     <string name="conversation_suggestion_share_location_action_failure">Radās problēma. Lai kopīgotu informāciju par atrašanās vietu, pievienojiet to jaunam ziņojumam.</string>
+    <string name="conversation_suggestion_star_action">Ieteicamā darbība Atzīmēt ar zvaigznīti</string>
     <string name="conversation_suggestion_sticker">Ieteiktā uzlīme</string>
     <string name="copy">Kopēt</string>
     <string name="copy_to_clipboard">Kopēt</string>
@@ -523,6 +546,7 @@ Iestatījumos varat izslēgt tērzēšanas funkcijas. %1$s"</string>
     <string name="create_group_info_title">Grupas nosaukuma pievienošana</string>
     <string name="create_new_group_message">Pievienojot šo personu, tiks izveidota jauna grupa bez tērzēšanas funkcijām.</string>
     <string name="current_country_pref_title">Jūsu pašreizējā valsts</string>
+    <string name="custom_reaction_selection_prompt">Select an emoji</string>
     <string name="dark_mode_disable_title">Atspējot tumšo režīmu</string>
     <string name="dark_mode_enable_title">Iespējot tumšo režīmu</string>
     <string name="dasher_disabled_notification_body">Sazinieties ar sistēmas administratoru vai pierakstieties citā kontā.</string>
@@ -590,12 +614,9 @@ Iestatījumos varat izslēgt tērzēšanas funkcijas. %1$s"</string>
     <string name="ditto_activity_label">Ierīces savienošana pārī</string>
     <string name="ditto_foreground_service_device_pairing_notification_text">Jūsu ziņojumi ir pieejami ierīcē, kuru esat savienojis pārī.</string>
     <string name="ditto_foreground_service_device_pairing_notification_title">Ierīces savienošana pārī</string>
-    <string name="ditto_foreground_service_notification_text">Jūsu ziņojumi ir pieejami datorā, kuru esat savienojis pārī.</string>
-    <string name="ditto_foreground_service_notification_title">Ziņojumi tīmeklim</string>
     <string name="ditto_foreground_service_sign_out">Atcelt savienošanu pārī</string>
     <string name="ditto_persistent_notification_settings">Paziņojumi</string>
     <string name="ditto_settings_action_bar_title">Paziņojumi</string>
-    <string name="ditto_settings_connected_to_web_notification_description">Kad jūsu ierīce ir tiešsaistē, tiek rādīts statuss “Ziņojumi tīmeklim”.</string>
     <string name="ditto_settings_connected_to_web_notification_title">Rādīt pastāvīgu paziņojumu</string>
     <string name="ditto_settings_device_paired_notification_description">Opcija “Ierīces savienošana pārī” tiek rādīta tikai tad, kad ierīce ir tiešsaistē.</string>
     <string name="ditto_settings_while_using_web_notification_description">Pārtraukt zvana signālu un vibrāciju, kad ierīce ir tiešsaistē</string>
@@ -636,6 +657,7 @@ Ziņojumus pārskatīs cilvēki, un ziņojumos ir ietverts uzņēmuma sūtītāj
     <string name="dump_mms_pref_title">Multiziņu novietne</string>
     <string name="dump_sms_pref_summary">Noglabājiet saņemto īsziņu jēldatus ārējā krātuves failā.</string>
     <string name="dump_sms_pref_title">Īsziņu novietne</string>
+    <string name="duplicate_upload_snackbar">Daži dublikāti netika iekļauti.</string>
     <string name="e2ee_conversation_tombstone">Pilnīgi šifrēta tērzēšana ar: %1$s</string>
     <string name="e2ee_conversation_tombstone_with_learn_more">Pilnīgi šifrēta tērzēšana ar lietotāju %1$s. %2$s</string>
     <string name="e2ee_fail_to_send_retry_description">Vēlreiz sūtīt kā tērzēšanas ziņojumu</string>
@@ -674,7 +696,6 @@ Ziņojumus pārskatīs cilvēki, un ziņojumos ir ietverts uzņēmuma sūtītāj
 Kad tērzēšanas funkcijas atkal būs pievienotas, tiks atjaunots iepriekšējais ziņojumu formāts."</string>
     <string name="enable_rcs_auto_fallback_dialog_title">Vai automātiski sūtīt vēlreiz kā īsziņu/multiziņu?</string>
     <string name="enable_rcs_auto_fallback_title">Automātiski sūtīt vēlreiz kā īsziņu/multiziņu</string>
-    <string name="enable_rcs_fallback_to_sms_title">Nepiegādātu ziņojumu atkārtota sūtīšana</string>
     <string name="enable_rcs_fallback_to_xms_title">Nepiegādātu ziņojumu atkārtota sūtīšana</string>
     <string name="enable_rcs_summary_off">Ziņojumapmaiņai izmantot Wi-Fi vai datus, kad iespējams</string>
     <string name="enable_rcs_summary_on">Ziņojumapmaiņai tiek izmantoti dati, kad iespējams</string>
@@ -686,9 +707,13 @@ Kad tērzēšanas funkcijas atkal būs pievienotas, tiks atjaunots iepriekšēja
     <string name="enter_phone_number_title">Tālruņa numura apstiprināšana</string>
     <string name="enter_phone_number_title_for_sim">Apstiprināt tālruņa numuru SIM kartei %1$s</string>
     <string name="enumeration_comma">", "</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_failed_to_save_setting">Nevar saglabāt. Mēģiniet vēlreiz.</string>
     <string name="error_icon_content_description">Kļūda</string>
     <string name="error_premium_sms_needs_permission">Lai nosūtītu šo ziņojumu, ierīces iestatījumos ieslēdziet vienumu Piekļuve maksas īsziņām.</string>
+    <string name="error_text_draft_is_reply_to_missing_message">Nevar atbildēt uz dzēstu ziņojumu.</string>
+    <string name="error_text_draft_is_reply_without_rcs">Radās problēma ar tērzēšanas funkcijām. Mēģiniet sūtīt, tieši neatbildot.</string>
+    <string name="error_text_scheduled_send_with_draft_reply">Pašlaik nevar ieplānot atbildi.</string>
     <string name="etouffee_to_rcs_notification">Lietotnē Ziņojumi tika konstatēts, ka sarunā nedarbojas pilnīga šifrēšana. Pieskarieties, lai nosūtītu atsauksmes.</string>
     <string name="etouffee_to_telephony_setting">Konfidencialitāte</string>
     <string name="etouffee_to_telephony_setting_description">"Īsziņu atļaujas attiecas uz pilnīgi šifrētajiem ziņojumiem, lai tos varētu dublēt operētājsistēmā Android, lasīt skaļi automašīnā vai kādā palīgierīcē, kā arī varētu veikt citas darbības ar tiem. Android iestatījumos varat skatīt un pārvaldīt lietotnes, kurām ir īsziņu atļaujas.
@@ -714,19 +739,24 @@ Ja mainīsiet šo iestatījumu, tas neietekmēs jūsu jau nosūtītos vai saņem
     <string name="exo_controls_pause_description">Pauzēt</string>
     <string name="exo_controls_play_description">Atskaņot</string>
     <string name="exo_controls_previous_description">Iepriekšējais</string>
-    <string name="exo_controls_repeat_all_description">Atkārtot visu</string>
-    <string name="exo_controls_repeat_off_description">Neatkārtot nevienu</string>
-    <string name="exo_controls_repeat_one_description">Atkārtot vienu</string>
+    <string name="exo_controls_repeat_all_description">Iesl.: atkārtot visu. Pārslēdziet režīmu.</string>
+    <string name="exo_controls_repeat_off_description">Iesl.: neatkārtot nevienu. Pārslēdziet režīmu.</string>
+    <string name="exo_controls_repeat_one_description">Iesl.: atkārtot vienu. Pārslēdziet režīmu.</string>
     <string name="exo_controls_rewind_description">Attīt atpakaļ</string>
     <string name="exo_controls_show">Rādīt atskaņotāja vadīklas</string>
-    <string name="exo_controls_shuffle_off_description">Atsk. jauktā secībā izslēgta</string>
-    <string name="exo_controls_shuffle_on_description">Atsk. jauktā secībā ieslēgta</string>
+    <string name="exo_controls_shuffle_off_description">Iespējot atskaņošanu jauktā secībā</string>
+    <string name="exo_controls_shuffle_on_description">Atspējot atskaņošanu jauktā secībā</string>
     <string name="exo_controls_vr_description">VR režīms</string>
     <string name="exo_track_selection_auto">Automātisks</string>
     <string name="exo_track_selection_none">Nav</string>
     <string name="expand_attach_button_content_description">Pielikumu izvēršanas pogas</string>
     <string name="expand_button_title">Papildu iestatījumi</string>
     <string name="exposed_dropdown_menu_content_description">Rādīt nolaižamo izvēlni</string>
+    <string name="express_sign_in_illustration_content_description">Ilustrācija, kā darbojas multivides satura kopīgošanas funkcija</string>
+    <string name="express_sign_in_sub_title">"Ja pierakstāties un sūtāt Google fotoattēlu saites,
+saņēmējs var skatīties videoklipus to sākotnējā kvalitātē."</string>
+    <string name="express_sign_in_title">"Kopīgojiet videoklipus
+skatīšanai piemērotā kvalitātē"</string>
     <string name="fail_to_decrypt_message_metadata">Nevar atšifrēt; pieskarieties, lai skatītu opcijas</string>
     <string name="fail_to_load_dialog_negative_button">Sūtīt īsziņu, izmantojot ierīces SIM karti</string>
     <string name="fail_to_load_dialog_positive_button">Mēģināt vēlreiz</string>
@@ -740,6 +770,7 @@ Ja mainīsiet šo iestatījumu, tas neietekmēs jūsu jau nosūtītos vai saņem
     <string name="failed_message_content_description">Radās problēma ar ziņojumu. Pieskarieties, lai mēģinātu vēlreiz.</string>
     <string name="failed_qr_pairing_dialog_message">Radās problēma. Pēc dažām minūtēm mēģiniet vēlreiz.</string>
     <string name="failed_qr_pairing_dialog_positive_button_text">Labi</string>
+    <string name="failed_to_select_attachment_from_system_picker">Neizdevās atlasīt šo pielikumu.</string>
     <string name="fast_track_negative_button_text">Nē, paldies</string>
     <string name="fast_track_popup_accepted_snack_bar_text">Notiek tērzēšanas funkciju iestatīšana. Mēs paziņosim jums, kad tās būs pieejamas.</string>
     <string name="fast_track_popup_declined_snack_bar_text">Iestatījumos varat jebkurā laikā ieslēgt tērzēšanas funkcijas.</string>
@@ -805,6 +836,9 @@ Ja mainīsiet šo iestatījumu, tas neietekmēs jūsu jau nosūtītos vai saņem
     <string name="fi_settings_download_over_wifi_title">Sinhronizēt multivides saturu, tikai izmantojot Wi-Fi</string>
     <string name="fi_settings_opt_out_failed">Pašlaik nevar apturēt sinhronizāciju un izrakstīties. Vēlāk mēģiniet vēlreiz.</string>
     <string name="fi_settings_opt_out_in_progress">Notiek sinhronizācijas apturēšana un izrakstīšanās.</string>
+    <string name="fi_settings_redirect_button">Pārvaldīt dublēšanu</string>
+    <string name="fi_settings_redirect_summary">Meklējiet tos konta izvēlnē.</string>
+    <string name="fi_settings_redirect_title">Dublēšanas un sinhronizēšanas iestatījumi ir pārvietoti</string>
     <string name="fi_settings_sync_preference_backup_in_progress">Notiek dublēšana: %1$d%%</string>
     <string name="fi_settings_sync_preference_restore_in_progress">Notiek atjaunošana: %1$d%%</string>
     <string name="fi_settings_sync_preference_summary">Ziņojumi, zvani un balss pasts tiek sinhronizēti dažādās ierīcēs.</string>
@@ -822,6 +856,7 @@ Ja mainīsiet šo iestatījumu, tas neietekmēs jūsu jau nosūtītos vai saņem
     <string name="file_transfer_via_sms_other">Es kopīgoju ar jums failu</string>
     <string name="file_transfer_via_sms_video">Es kopīgoju ar jums videoklipu</string>
     <string name="files_shortcut_title">Faili</string>
+    <string name="flip_camera_button_label">Pārslēgt kameru</string>
     <string name="floating_toolbar_close_overflow_description">Aizvērt pārpildes izvēlni</string>
     <string name="floating_toolbar_open_overflow_description">Citas opcijas</string>
     <string name="foreground_service_notification_generic_text">Lietotnes Ziņojumi darbība notiek fonā</string>
@@ -835,12 +870,27 @@ Ja mainīsiet šo iestatījumu, tas neietekmēs jūsu jau nosūtītos vai saņem
     <string name="full_banner_expand_chip_description">Poga Izvērst</string>
     <string name="full_screen_gallery_action_attach">Pievienot</string>
     <string name="fullscreen_button_description">Atvērt pilnekrāna režīmā</string>
+    <string name="gaia_auth_failure_dialog_body">Noteiktas funkcijas, kas tiek nodrošinātas jūsu Google kontā, nedarbosies, kamēr nebūsiet pierakstījies.</string>
+    <string name="gaia_auth_failure_dialog_title">Lai verificētu savu identitāti, pierakstieties vēlreiz</string>
+    <string name="gallery_google_photos_option_tray_button_add">Pievienot</string>
+    <string name="gallery_google_photos_option_tray_button_always">Vienmēr</string>
+    <string name="gallery_google_photos_option_tray_button_cancel">Atcelt</string>
+    <string name="gallery_google_photos_option_tray_button_just_once">Tikai vienreiz</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_image">Zemākas izšķirtspējas attēls</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_unknown">Zemas kvalitātes multivide</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_video">Zemas kvalitātes video</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_image">Attēls</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_unknown">Multivide</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_video">Video</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_body">Asi un skaidri attēli. Pārvaldiet kopīgotās saites pakalpojumā Google fotoattēli.</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_learn_more">Uzzināt vairāk</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_title">Google fotoattēlu saite</string>
+    <string name="gallery_item_content_description_selected_state">Veicot dubultskārienu, noņemiet atlasi šim vienumam: %1$s, kas pievienots %2$s. pozīcijā</string>
+    <string name="gallery_item_content_description_unselected_state">Šis %1$s ir uzņemts %2$s. Varat to atlasīt, veicot dubultskārienu.</string>
     <string name="general_settings">Vispārīgi</string>
     <string name="general_settings_activity_title">Vispārīgi iestatījumi</string>
     <string name="general_settings_title_m2">Opcijas</string>
     <string name="generic_issue_text">Cita</string>
-    <string name="get_messenger_notification_body">Lasiet un sūtiet īsziņas no pulksteņa vai tālruņa.</string>
-    <string name="get_messenger_notification_header">Lietotnes Ziņojumi iegūšana</string>
     <string name="get_sticker_packs_error_msg">Neizdevās ielādēt uzlīmes.</string>
     <string name="gif_screen_no_result">Nevar atrast atbilstību. Pārbaudiet meklēšanas nosacījumus un mēģiniet vēlreiz.</string>
     <string name="gif_screen_title">GIF attēli</string>
@@ -848,10 +898,23 @@ Ja mainīsiet šo iestatījumu, tas neietekmēs jūsu jau nosūtītos vai saņem
     <string name="gif_search_hint">Meklēt GIF attēlus</string>
     <string name="gifs_shortcut_title">GIF attēli</string>
     <string name="go_to_top">Skatiet pēdējos</string>
-    <string name="google_account_pref_title">Google konts</string>
     <string name="google_assistant_verification_channel_name">Asistenta verifikators</string>
     <string name="google_assistant_verification_notification_title">Google asistents sūta ziņojumu</string>
     <string name="google_fi_text">Google Fi</string>
+    <string name="google_photos_onboarding_close_button_description">Aizvērt kartīti Google fotoattēli</string>
+    <string name="google_photos_onboarding_ineligible_title">Lai kopīgotu asus un skaidrus videoklipus, pierakstieties pakalpojumā Google fotoattēli</string>
+    <string name="google_photos_onboarding_ineligible_title_photos_and_videos">Lai kopīgotu asus un skaidrus fotoattēlus un videoklipus, pierakstieties pakalpojumā Google fotoattēli</string>
+    <string name="google_photos_onboarding_learn_more">Uzzināt vairāk</string>
+    <string name="google_photos_onboarding_next">Tālāk</string>
+    <string name="google_photos_onboarding_ok">Labi</string>
+    <string name="google_photos_onboarding_signed_in_title_photos_and_videos">Pierakstieties, lai sūtītu asus un skaidrus fotoattēlus un videoklipus</string>
+    <string name="google_photos_onboarding_signed_out_title">Pierakstieties, lai sūtītu asus un skaidrus videoklipus</string>
+    <string name="google_photos_onboarding_text_body">Saglabājiet videoklipu skaidrību, multiziņu sarunās nosūtot Google fotoattēlu saites.</string>
+    <string name="google_photos_onboarding_text_body_photos_and_videos_xms">Saglabājiet multivides skaidrību, multiziņu sarunās nosūtot Google fotoattēlu saites.</string>
+    <string name="google_photos_onboarding_title">Kopīgojiet videoklipus skatīšanai piemērotā kvalitātē</string>
+    <string name="google_photos_onboarding_title_photos_and_videos">Kopīgojiet fotoattēlus un videoklipus skatīšanai piemērotā kvalitātē</string>
+    <string name="google_photos_option_tray">Lai sūtītu video ar lielāku asumu, pierakstieties</string>
+    <string name="google_photos_option_tray_photos_and_videos">Pierakstieties, lai sūtītu asus un skaidrus fotoattēlus un videoklipus</string>
     <string name="google_play_protect_title">Google Play Protect</string>
     <string name="google_tos_chat_features_tooltip">"Skatiet, kad kāds raksta, saņemiet lasīšanas apliecinājumus un sūtiet ziņojumus, failus un augstas izšķirtspējas fotoattēlus, izmantojot tērzēšanas funkcijas ar protokolu RCS. Ziņojumu sūtīšanai šajās funkcijās tiek patērēti dati.
 
@@ -865,8 +928,9 @@ Iestatījumos varat izslēgt šīs funkcijas. %1$s"</string>
 
 Sistēmas iestatījumos varat mainīt savu noklusējuma zvanu SIM karti. %1$s"</string>
     <string name="google_tos_multisim_view_accessibility_description">Uzzināt vairāk</string>
+    <string name="google_tos_negative_link_text">Nē, paldies</string>
     <string name="group_conversation_title_everyone_else_left">Es</string>
-    <string name="group_limit_alert_dialog_message">{max_group_size_including_self,plural, =1{Nedrīkst būt vairāk par # personu}zero{Nedrīkst būt vairāk par # personām}one{Nedrīkst būt vairāk par # personu}other{Nedrīkst būt vairāk par # personām}}</string>
+    <string name="group_limit_alert_dialog_message">{max_group_size_excluding_self,plural, =1{Nedrīkst būt vairāk par # citu personu}zero{Nedrīkst būt vairāk par # citām personām}one{Nedrīkst būt vairāk par # citu personu}other{Nedrīkst būt vairāk par # citām personām}}</string>
     <string name="group_mms_pref_title">Grupas ziņojumapmaiņa</string>
     <string name="group_name_edit_text_label">Grupas nosaukums</string>
     <string name="guest_cloud_preview">PRIEKŠSKATĪJUMS</string>
@@ -876,14 +940,19 @@ Sistēmas iestatījumos varat mainīt savu noklusējuma zvanu SIM karti. %1$s"<
     <string name="happy_birthday_no_name">Apsveiciet šo personu dzimšanas dienā!</string>
     <string name="hidden_sender_address">Sūtītāja adrese ir slēpta</string>
     <string name="highlighter">Izcelšanas rīks</string>
+    <string name="how_it_works_link_text">Kā tā darbojas</string>
+    <string name="hqms_always_send_image_as_link_pref_title">Attēlus vienmēr sūtīt, izmantojot saiti īsziņā/multiziņā</string>
+    <string name="hqms_always_send_video_as_link_pref_title">Videoklipus vienmēr sūtīt, izmantojot saiti īsziņā/multiziņā</string>
+    <string name="hqms_settings_gaia_card_text">Pārvaldiet saites pakalpojumā Google fotoattēli</string>
+    <string name="hqms_settings_info_text">Lietotne Ziņojumi veic augšupielādi pakalpojumā Google fotoattēli, kur varat pārvaldīt videoklipu saišu kopīgošanu. %1$s</string>
+    <string name="hqms_settings_sign_in_prompt_text">Pierakstieties savā Google kontā, lai izmantotu šo funkciju.</string>
     <string name="hqms_settings_summary">Kopīgot asus un skaidrus videoklipus īsziņās/multiziņās</string>
     <string name="hqms_settings_title">Google fotoattēli</string>
     <string name="identity_verification_notification_text">Lietotne Ziņojumi verificē ienākošu ziņojumu</string>
     <string name="ignore">Ignorēt</string>
     <string name="image_attachment_content_description">Pielikuma attēls</string>
     <string name="image_compress_info">Adresātam tiks rādīts zemākas kvalitātes attēls mobilo sakaru operatora multiziņu ierobežojumu dēļ.</string>
-    <string name="imei_format_dropdown_hint">Iestatiet IMEI formātu</string>
-    <string name="imsi_format_dropdown_hint">Iestatiet IMSI formātu</string>
+    <string name="image_format_type">attēls</string>
     <string name="in_conversation_blocked_contact_text">Iespējams, neredzēsiet visus ziņojumus, jo šajā sarunā piedalās bloķētas kontaktpersonas.</string>
     <string name="in_conversation_notify_new_message_action">Skatīt</string>
     <string name="in_conversation_notify_new_message_text">Jauns ziņojums</string>
@@ -893,7 +962,7 @@ Sistēmas iestatījumos varat mainīt savu noklusējuma zvanu SIM karti. %1$s"<
     <string name="incoming_message_for_secondary_user_notification_title">Jauns ziņojums</string>
     <string name="incoming_message_foreground_notification_text">Lietotne Ziņojumi apstrādā ienākošu īsziņu</string>
     <string name="incoming_mms_disabled_by_company_pref_summary">Jūsu uzņēmums neatļauj ienākošās multiziņas.</string>
-    <string name="indeterminate">Nav ne atzīmēta, ne neatzīmēta</string>
+    <string name="indeterminate">Daļēji atzīmēta</string>
     <string name="info_and_options_activity_business_tab_list_header">Uzņēmums</string>
     <string name="info_and_options_activity_info_tab_content_description">Informācija</string>
     <string name="info_and_options_activity_info_tab_title">Informācija</string>
@@ -904,7 +973,10 @@ Sistēmas iestatījumos varat mainīt savu noklusējuma zvanu SIM karti. %1$s"<
     <string name="info_and_options_view_terms_of_service">Skatiet pakalpojumu sniegšanas noteikumus</string>
     <string name="inline_playback_error">Lietotnē Ziņojumi šo videoklipu nevar atskaņot</string>
     <string name="inline_playback_pause_content_description">Pārtraukt video rādīšanu</string>
-    <string name="invalid_qr_code_dialog_message">Lai pierakstītos, skenējiet ātrās atbildes kodu vietnē %s.</string>
+    <string name="install_photos_app">Iegūt lietotni Google fotoattēli</string>
+    <string name="install_photos_app_title">Lai turpinātu, iegūstiet lietotni Google fotoattēli</string>
+    <string name="install_photos_app_to_continue">Instalējiet lietotni, lai sūtītu asus un skaidrus videoklipus</string>
+    <string name="invalid_qr_code_dialog_message">Lai pierakstītos, skenējiet kvadrātkodu vietnē %s.</string>
     <string name="invalid_qr_code_dialog_positive_button_text">Labi</string>
     <string name="invalid_qr_code_dialog_title">Nepareizs kods</string>
     <string name="ios_reaction_classification_pref_title">Rādīt iPhone reakcijas kā emocijzīmes</string>
@@ -917,14 +989,12 @@ Sistēmas iestatījumos varat mainīt savu noklusējuma zvanu SIM karti. %1$s"<
     <string name="leave_confirmation_text">Vai tiešām vēlaties pārtraukt saņemt ziņojumus no šīs grupas?</string>
     <string name="leave_confirmation_title">Neatgriezeniski pamest grupu</string>
     <string name="libraries_material_featurehighlight_dismiss">Nerādīt</string>
-    <string name="link_preview_enabled_pref_summary">Rādīt priekšskatījumus ziņojumos</string>
+    <string name="lighter_account_sign_out_snackbar_text">Pierakstieties, lai skatītu uzņēmuma sarunas.</string>
+    <string name="lighter_block_report_spam_body">Uzņēmuma nosaukums un jūsu saruna ar šo uzņēmumu tiek nosūtīta uz Google (var tikt piemērota mobilo sakaru operatora noteiktā maksa).</string>
     <string name="link_preview_enabled_pref_summary_off">Izslēgti</string>
     <string name="link_preview_failed">Priekšskatījums nav pieejams</string>
     <string name="link_preview_google_photos_display_name">Google fotoattēli</string>
-    <string name="link_preview_preference_info_text">Google iegūst priekšskatījuma saturu no saistītām vietnēm. Priekšskatījumi ir ietverti tikai saitēs no zināmiem sūtītājiem. %1$s</string>
-    <string name="link_preview_preference_title">Automātiski saišu priekšskatījumi</string>
     <string name="link_preview_tap_to_load">Pieskarties, lai ielādētu priekšskatījumu</string>
-    <string name="link_preview_wifi_only_pref_summary">Lejupielādēt priekšskatījumus tikai Wi-Fi tīklā</string>
     <string name="link_to_settings"><u>Pārvaldīt to iestatījumos</u></string>
     <string name="listify_many">%1$s un %2$d citi</string>
     <string name="listify_one">%s</string>
@@ -971,13 +1041,13 @@ Ieteicamo informāciju varat kopīgot pēc izvēles, un tajā nav ietverts jūsu
     <string name="manual_msisdn_skipped_snack_bar_text">Uzlabotās tērzēšanas funkcijas nav iespējotas. Jebkurā brīdī varat tās iespējot iestatījumos.</string>
     <string name="manual_msisdn_skipped_snack_bar_text_b155475148">Lietotne Ziņojumi mēģinās verificēt jūsu numuru, sazinoties ar jūsu mobilo sakaru operatoru. Pārvaldiet to iestatījumos.</string>
     <string name="manual_msisdn_verify_now_snack_bar_text_b155475148">Lietotne Ziņojumi mēģinās verificēt jūsu numuru, sazinoties ar jūsu mobilo sakaru operatoru. Pārvaldiet to iestatījumos.</string>
-    <string name="manually_override_rcs_flags">Manuāli pārrakstīt RCS atzīmes</string>
     <string name="mark_all_messages_as_read_confirmation">Visi ziņojumi atzīmēti kā izlasīti</string>
     <string name="mdd_download_notification_channel_name">Datu lejupielādes paziņojumu kanāls</string>
     <string name="mdd_foreground_service_notification_title">Notiek lejupielāde</string>
     <string name="mdd_notification_action_cancel">Atcelt</string>
     <string name="mdd_notification_download_failed">Lejupielāde neizdevās</string>
     <string name="mdd_notification_download_paused">Gaida tīkla savienojumu</string>
+    <string name="mdd_notification_download_paused_wifi">Tiek gaidīts Wi-Fi savienojums</string>
     <string name="media_compress_info">Adresātam tiks rādīta zemākas kvalitātes multivide mobilo sakaru operatora multiziņu ierobežojumu dēļ.</string>
     <string name="media_compress_tooltip_info_icon_text">informācija</string>
     <string name="media_viewer_close_button_description">Aizvērt</string>
@@ -1076,6 +1146,8 @@ Ieteicamo informāciju varat kopīgot pēc izvēles, un tajā nav ietverts jūsu
     <string name="message_type_vcard">Kontaktpersonas kartīte</string>
     <string name="message_type_video">Video</string>
     <string name="message_video_content_description">Videoklips</string>
+    <string name="message_with_deleted_snippet_talk_back_announcement">%1$s, atbildot uz izdzēstu ziņojumu</string>
+    <string name="message_with_reply_snippet_talk_back_announcement">%1$s, atbildot uz ziņojumu “%2$s” no kontaktpersonas %3$s</string>
     <string name="messages_for_web_preference_summary">Pāriet uz: %1$s</string>
     <string name="messages_for_web_preference_title">Īsziņu sūtīšana, zvanu veikšana un balss pasta pārbaude tīmeklī</string>
     <string name="messages_status_feedback_data_description">"Visa ieteicamā informācija ir noderīga, lai atklātu slēptās problēmas, dažādos cēloņus, to saistību un problēmu novēršanas vietas.
@@ -1126,14 +1198,18 @@ Varat atbildēt uz īsajiem kodiem, kas satur tikai ciparus, bet ne uz kodiem, k
     <string name="mms_group_conversation_changed_to">Šī saruna tika pārveidota par grupas multiziņu</string>
     <string name="mms_group_conversation_details">Ikviens var atbildēt un skatīt citu dalībnieku ziņojumus</string>
     <string name="mms_phone_number_pref_title">Tālruņa numurs</string>
-    <string name="mms_text">Multiziņa</string>
+    <string name="mms_text">MMS</string>
     <string name="more_string">Vairāk nekā %1$d</string>
     <string name="mtrl_badge_numberless_content_description">Jauns paziņojums</string>
+    <string name="mtrl_checkbox_state_description_checked">Checked</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Indeterminate</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Not checked</string>
     <string name="mtrl_chip_close_icon_content_description">Noņemt: %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Vairāk nekā %1$d jauni paziņojumi</string>
     <string name="mtrl_picker_a11y_next_month">Pāriet uz nākamo mēnesi</string>
     <string name="mtrl_picker_a11y_prev_month">Pāriet uz iepriekšējo mēnesi</string>
     <string name="mtrl_picker_announce_current_selection">Pašreizējā atlase: %1$s</string>
+    <string name="mtrl_picker_cancel">Atcelt</string>
     <string name="mtrl_picker_confirm">Labi</string>
     <string name="mtrl_picker_day_of_week_column_header">Dienu sleja: %1$s</string>
     <string name="mtrl_picker_navigate_to_year_description">Pāriet uz šo gadu: %1$s</string>
@@ -1145,11 +1221,24 @@ Varat atbildēt uz īsajiem kodiem, kas satur tikai ciparus, bet ne uz kodiem, k
     <string name="multimedia_message">Multiziņa</string>
     <string name="muted_conversation_content_description">Paziņojumi ir atspējoti.</string>
     <string name="nav_app_bar_navigate_up_description">Pārvietoties augšup</string>
+    <string name="nav_archived_messages_folder_title">Arhivētie</string>
+    <string name="nav_choose_theme_title">Izvēlēties motīvu</string>
+    <string name="nav_choose_theme_title_disable_dark_mode">Atspējot tumšo režīmu</string>
+    <string name="nav_choose_theme_title_enable_dark_mode">Iespējot tumšo režīmu</string>
+    <string name="nav_device_pairing_title">Ierīces savienošana pārī</string>
+    <string name="nav_mark_all_as_read_title">Atzīmēt visu kā izlasītu</string>
+    <string name="nav_messages_folder_title">Ziņojumi</string>
+    <string name="nav_spam_and_blocked_messages_folder_title">Nevēlamie un bloķētie</string>
+    <string name="nav_starred_folder_title">Ar zvaigznīti</string>
     <string name="navigate_up_button_content_description">Pārvietoties augšup</string>
     <string name="new_message_label">{count,plural, =1{1 jauns ziņojums}zero{# jaunu ziņojumu}one{# jauns ziņojums}other{# jauni ziņojumi}}</string>
     <string name="new_pill_label">Jaunums</string>
     <string name="new_rich_cards_preference_info_text">Google pārbauda noteiktu informāciju (piemēram, vietas vai saites) no jūsu tērzēšanas vēstures, jūs neidentificējot, lai izveidotu priekšskatījumus un konstatētu kaitīgu saturu. %1$s</string>
-    <string name="no_google_account">Nav</string>
+    <string name="no_business_name_fallback">šī uzņēmuma</string>
+    <string name="no_connection">Nav savienojuma</string>
+    <string name="no_media_button">Skatīt opcijas</string>
+    <string name="no_media_caption">Mēģiniet izmantot citu multivides avotu vai profilu</string>
+    <string name="no_media_description">Šim profilam šajā ierīcē nav saglabāts nekāds multivides saturs</string>
     <string name="no_reply_pinned_message_text">Sūtītājs neatbalsta atbildes</string>
     <string name="no_sim_message">SIM kartē nav neviena ziņojuma.</string>
     <string name="not_selected">Nav atlasīts</string>
@@ -1205,31 +1294,51 @@ Varat atbildēt uz īsajiem kodiem, kas satur tikai ciparus, bet ne uz kodiem, k
     <string name="nudge_learn_more_info_text">Papildinformācija par atgādinājumiem</string>
     <string name="nudge_reply_enabled_pref_summary">Ziņojumi, uz kuriem, iespējams, jums jāatbild, tiks pārvietoti uz sākumu.</string>
     <string name="nudge_reply_enabled_pref_title">Atgādinājumi ar ieteikumu atbildēt</string>
+    <string name="nudge_settings_page_description">Rādīt atgādinājumus atbildēt un par dzimšanas dienām</string>
     <string name="nudge_settings_page_title">Atgādinājumi</string>
     <string name="numeric_text_keyboard_toggle_button_content_description">Pārslēgties starp teksta un ciparu ievadīšanu</string>
     <string name="off">Izslēgts</string>
     <string name="og_a11y_close">Aizvērt</string>
     <string name="og_account_and_settings">Konts un iestatījumi.</string>
+    <string name="og_account_particle_disc_no_accounts_available_a11y">Pierakstīties</string>
     <string name="og_add_another_account">Pievienot citu kontu</string>
+    <string name="og_app_settings">Lietotnes %1$s iestatījumi</string>
     <string name="og_choose_an_account_title">Izvēlieties kontu</string>
     <string name="og_collapse_account_list_a11y">Sakļaujiet kontu sarakstu.</string>
     <string name="og_continue">Turpināt</string>
     <string name="og_continue_as">Turpināt kā: %1$s</string>
     <string name="og_expand_account_list_a11y">Izvērsiet kontu sarakstu.</string>
+    <string name="og_get_storage_action">Iegādāties krātuvi</string>
+    <string name="og_get_storage_action_short">Iegādāties vēl</string>
     <string name="og_google_one_account_a11y">Google One konts.</string>
+    <string name="og_help_feedback">Palīdzība un atsauksmes</string>
     <string name="og_loading_a11y">Notiek ielāde…</string>
     <string name="og_manage_accounts">Pārvaldīt kontus šajā ierīcē</string>
+    <string name="og_manage_storage_action">Pārvaldīt krātuvi</string>
+    <string name="og_manage_storage_action_short">Pārvaldīt</string>
+    <string name="og_minimized_storage_card_title">Izmantotais krātuves apjoms: %1$s no %2$s GB</string>
+    <string name="og_more_options_action">Papildu opcijas</string>
+    <string name="og_more_options_action_short">Opcijas</string>
     <string name="og_my_account_desc_long_length">Pārvaldīt Google kontu</string>
     <string name="og_my_account_desc_meduim_length">Google konts</string>
     <string name="og_my_account_desc_short_length">Konts</string>
+    <string name="og_privacy_advisor">Jūsu dati lietotnē %1$s</string>
     <string name="og_privacy_policy">Konfidencialitātes politika</string>
     <string name="og_selected_account_a11y">Atlasīts konts %1$s.</string>
     <string name="og_sign_in_">Pierakstīties</string>
     <string name="og_signed_in_as_account">Pierakstījies kā %1$s</string>
+    <string name="og_storage_card_almost_full_a11y_label">Jūsu konta krātuve ir gandrīz pilna</string>
+    <string name="og_storage_card_full_a11y_label">Jūsu konta krātuve ir pilna</string>
+    <string name="og_storage_card_title">Konta krātuve</string>
+    <string name="og_storage_card_title_almost_full">Izmantotais krātuves apjoms: %1$s</string>
+    <string name="og_storage_card_title_full">Krātuvē nav vietas</string>
+    <string name="og_storage_progress_subtitle">Izmantotā krātuve: %1$s GB no %2$s GB</string>
     <string name="og_terms_of_service">Pakalpojumu sniegšanas noteikumi</string>
     <string name="og_use_account_a11y_no_period">Izmantot kontu %1$s</string>
+    <string name="og_use_without_an_account">Izmantot bez konta</string>
     <string name="on">Ieslēgts</string>
     <string name="onboarding_google_tos_with_sms_charges_and_learn_more">Lai ieslēgtu Google piedāvātās tērzēšanas funkcijas, jums jāpiekrīt šādiem noteikumiem: %1$s un %2$s. Google laiku pa laikam verificēs jūsu numuru, kopīgojot jūsu ierīces informāciju ar jūsu mobilo sakaru operatoru (var tikt piemērota maksa par īsziņu). %3$s.</string>
+    <string name="open_full_screen_camera_button_label">Atvērt pilnekrāna kameru</string>
     <string name="open_video_trimmer_dialog_negative">Atcelt</string>
     <string name="open_video_trimmer_dialog_positive">Apgriezt</string>
     <string name="organization">Organizācija</string>
@@ -1243,8 +1352,6 @@ Varat atbildēt uz īsajiem kodiem, kas satur tikai ciparus, bet ne uz kodiem, k
     <string name="otp_auto_deletion_promo_banner_positive_button_text">Turpināt</string>
     <string name="otp_auto_deletion_promo_banner_title_text">Vai automātiski dzēst vienreizējās paroles pēc 24 stundām?</string>
     <string name="otp_copied_to_clipboard">Kods ir nokopēts</string>
-    <string name="otp_pattern_dropdown_hint">Iestatiet VRP modeli</string>
-    <string name="otp_port_dropdown_hint">Iestatiet VRP portu</string>
     <string name="outgoing_message_foreground_notification_text">Lietotne Ziņojumi apstrādā izejošu īsziņu</string>
     <string name="outgoing_mms_disabled_by_carrier_pref_summary">Jūsu mobilo sakaru operators neatļauj izejošās multiziņas.</string>
     <string name="outgoing_mms_disabled_by_company_pref_summary">Jūsu uzņēmums neatļauj izejošās multiziņas.</string>
@@ -1270,6 +1377,7 @@ Varat atbildēt uz īsajiem kodiem, kas satur tikai ciparus, bet ne uz kodiem, k
     <string name="paired_desktops_last_connection_time">Pēdējoreiz aktīvs: %s</string>
     <string name="paired_desktops_last_connection_time_unknown">nezināms</string>
     <string name="participant_joined_group">%s pievienojās šai grupai</string>
+    <string name="participant_joined_with_learn_more">%1$s pievienojās šai grupai. %2$s</string>
     <string name="participant_left_group">%s pameta šo grupu</string>
     <string name="participant_list_add">Personu pievienošana</string>
     <string name="participant_list_count_title_icu">{count,plural, =0{Vēl 0 personu}=1{Vēl 1 persona}zero{Vēl # personu}one{Vēl # persona}other{Vēl # personas}}</string>
@@ -1289,6 +1397,7 @@ Varat atbildēt uz īsajiem kodiem, kas satur tikai ciparus, bet ne uz kodiem, k
     <string name="phone_number_input_body_for_mo_text">Varat arī izlaist šo darbību, lai piekļuvi tērzēšanas funkcijām iegūtu vēlāk, un lietotne Ziņojumi mēģinās verificēt jūsu numuru, sazinoties ar mobilo sakaru operatoru.</string>
     <string name="phone_number_input_body_text">Lai jūs varētu izmantot tērzēšanas funkcijas, lietotnē Ziņojumi tiek verificēts jūsu tālruņa numurs.</string>
     <string name="phone_number_input_hint">Jūsu tālruņa numurs</string>
+    <string name="phone_number_input_invalid_number_text">Nederīgs tālruņa numurs</string>
     <string name="phone_number_input_negative_button_for_mo_text">Pagaidām izlaist</string>
     <string name="phone_number_input_negative_button_for_mt_text">Atgādināt vēlāk</string>
     <string name="phone_number_input_positive_button_text">Pievienot numuru</string>
@@ -1305,10 +1414,25 @@ Varat atbildēt uz īsajiem kodiem, kas satur tikai ciparus, bet ne uz kodiem, k
     <string name="phone_number_input_title_text">Lai ātrāk piekļūtu tērzēšanas funkcijām, pievienojiet tālruņa numuru tūlīt</string>
     <string name="phone_number_input_tos_reminder_text">Iepriekš jūs piekritāt tērzēšanas funkciju %1$s.</string>
     <string name="phone_number_input_tos_text">pakalpojumu sniegšanas noteikumiem</string>
+    <string name="phone_number_promo_banner_body_text">Lai varētu sūtīt asus videoklipus, animētas reakcijas un citu saturu, izmantojot Wi-Fi vai mobilos datus, apstipriniet savu tālruņa numuru</string>
+    <string name="phone_number_promo_banner_negative_button_text">Nerādīt</string>
+    <string name="phone_number_promo_banner_positive_button_text">Tālāk</string>
+    <string name="phone_number_promo_banner_title_text">Nākamais solis pretī labākām funkcijām lietotnē Ziņojumi</string>
+    <string name="phone_number_promo_body_text">Sāciet tūlīt, izmantojot verificētu tālruņa numuru. Iestatījumos varat jebkurā laikā pārvaldīt tērzēšanas funkcijas.</string>
+    <string name="phone_number_promo_body_text_mo">Sāciet tūlīt, izmantojot verificētu tālruņa numuru. Varat arī izlaist šo darbību, lai piekļuvi tērzēšanas funkcijām iegūtu vēlāk, un lietotne Ziņojumi mēģinās verificēt jūsu numuru.</string>
+    <string name="phone_number_promo_negative_button_text">Atgādināt vēlāk</string>
+    <string name="phone_number_promo_negative_button_text_mo">Pagaidām izlaist</string>
+    <string name="phone_number_promo_positive_button_text">Sākt tērzēšanas funkcijas</string>
+    <string name="phone_number_promo_title_text">Vai vēlaties kopīgot fotoattēlus, videoklipus un citus failus, izmantojot Wi-Fi vai datu savienojumu?</string>
+    <string name="phone_number_ui_accepted_snackbar_text">Jūs saņemsiet paziņojumu, kad tērzēšanas funkcijas būs pieejamas.</string>
+    <string name="phone_number_ui_dismissed_snackbar_action_text">Iestatījumi</string>
+    <string name="phone_number_ui_dismissed_snackbar_text">Lai tūlīt varētu izmantot tērzēšanas funkcijas, pievienojiet savu tālruņa numuru vai pārvaldiet to iestatījumos.</string>
     <string name="photo_taken">Fotoattēls uzņemts</string>
+    <string name="photos_app_installation_required">Lai sūtītu asus un skaidrus videoklipus, iegūstiet lietotni Google fotoattēli</string>
+    <string name="photos_app_onboarding_required">Lai sūtītu asus un skaidrus videoklipus, atļaujiet piekļuvi lietotnei Google fotoattēli</string>
+    <string name="photos_app_sharing_unavailable_try_again_later">Asa un skaidra videoklipa saite īslaicīgi nav pieejama. Varat nosūtīt zemas izšķirtspējas videoklipu.</string>
+    <string name="photos_app_sign_in_required">Lai sūtītu asus un skaidrus videoklipus, pierakstieties pakalpojumā Google fotoattēli</string>
     <string name="picker_disambiguation_title">Mērķa atlase</string>
-    <string name="pin_limit_message">Varat piespraust līdz %1$d sarunām</string>
-    <string name="pin_success_message">Piespraustas sarunas: %1$d no %2$d</string>
     <string name="pinch_zoom_pref_title">Sarunas teksta tālummaiņa savelkot</string>
     <string name="places_autocomplete_clear_button">Notīrīt meklēšanas vaicājumu</string>
     <string name="places_autocomplete_label">Vietas izvēle</string>
@@ -1328,7 +1452,7 @@ Varat atbildēt uz īsajiem kodiem, kas satur tikai ciparus, bet ne uz kodiem, k
     <string name="posted_this_year">%1$s%2$s%3$s</string>
     <string name="posted_yesterday">Vakar%1$s%2$s</string>
     <string name="preference_copied">Preference “%1$s” ir kopēta starpliktuvē.</string>
-    <string name="preferences_license_title">Atklātā pirmkoda licences</string>
+    <string name="preferences_license_title">Trešās puses paziņojumi</string>
     <string name="premium_sms_banner_body">Lai sūtītu īsziņas uz tālruņa numuru %s un uz citiem maksas īsziņu numuriem, ieslēdziet šo opciju sadaļā Iestatījumi.</string>
     <string name="premium_sms_banner_body_saved_contact">Lai sūtītu īsziņas adresātam %1$s (%2$s) un uz citiem maksas īsziņu numuriem, ieslēdziet šo opciju sadaļā Iestatījumi.</string>
     <string name="premium_sms_banner_description">@string/banner_description</string>
@@ -1359,24 +1483,27 @@ Informācija par jūsu ziņojumiem un sarunām ietver sūtītāju un saņēmēju
 Šī informācija palīdz pārbaudīt pieņēmumus un identificēt problēmu veicinošos faktorus, lai ātrāk un efektīvāk izprastu šo problēmu."</string>
     <string name="problematic_message_feedback_data_rationale_title">Kā var noderēt informācija par ziņojumiem un sarunām</string>
     <string name="promotion_content_description">Šis ziņojums ir klasificēts kā piedāvājums</string>
+    <string name="prompt_button_action_not_now">Vēlāk</string>
+    <string name="prompt_button_action_sign_in">Pierakstīties</string>
     <string name="proxy_screen_clear_search">Notīrīt meklēšanas vaicājumu</string>
     <string name="proxy_screen_search">Meklēt</string>
     <string name="qr_action_bar_device_pairing_title">Ierīces savienošana pārī</string>
-    <string name="qr_action_bar_title">Ziņojumi tīmeklim</string>
-    <string name="qr_code_scanner_hint_text">Skenējiet ātrās atbildes kodu, kas redzams šeit:&lt;br/><b>%s</b></string>
-    <string name="qr_code_scanner_preference_button">Ātrās atbildes koda skeneris</string>
+    <string name="qr_code_scanner_hint_text">Skenējiet kvadrātkodu, kas redzams šeit:&lt;br/><b>%s</b></string>
+    <string name="qr_code_scanner_preference_button">Kvadrātkoda skeneris</string>
     <string name="qr_delete_all_paired_desktops_button_text">Atcelt visu ierīču savienošanu pārī</string>
     <string name="qr_simplified_welcome_banner_url_text">Ierīcē atveriet <b>%s</b></string>
     <string name="qr_success_text_view">Gatavs!</string>
     <string name="qr_welcome_banner_url_text">Sūtiet un saņemiet ziņojumus ierīcē</string>
-    <string name="qr_welcome_bottom_text">Vispirms savienojiet pārī ierīci ar tālruni, skenējot QR kodu, kas pieejams tikai vietnē %s</string>
-    <string name="qr_welcome_button_text">Ātrās atbildes koda skeneris</string>
+    <string name="qr_welcome_bottom_text">Vispirms savienojiet pārī ierīci ar tālruni, skenējot kvadrātkodu, kas pieejams tikai vietnē %s</string>
+    <string name="qr_welcome_button_text">Kvadrātkoda skeneris</string>
     <string name="qr_welcome_footer_text">"Turpinot jūs piekrītat šādiem Google noteikumiem: 
 %1$s un %2$s."</string>
     <string name="qr_welcome_hangouts_unpair_devices_text">Atcelt visu ierīču savienošanu pārī</string>
     <string name="qr_welcome_privacy">Konfidencialitātes politika</string>
     <string name="qr_welcome_terms_of_service">Pakalpojumu sniegšanas noteikumi</string>
     <string name="rbm_block_confirmation_message_spam_folder">Jūs vairs nesaņemsiet paziņojumus, kad pienāks ziņojumi no: %1$s. Šī saruna tiks pārvietota uz mapi “Nevēlamās un bloķētās sarunas”. %2$s</string>
+    <string name="rbm_block_dialog_body">Jūs nesaņemsiet ziņojumus no šī sūtītāja. Šī saruna tiks pārvietota uz sadaļu “Nevēlamās un bloķētās sarunas”, un jūs jebkurā laikā varēsiet to atbloķēt.</string>
+    <string name="rbm_block_dialog_positive_button_label">Bloķēt</string>
     <string name="rbm_business_logo_icon_content_description">Uzņēmuma logotipa ikona</string>
     <string name="rbm_platform_generalized_verifier_title">Apstiprināja %s</string>
     <string name="rbm_platform_verified_by_google">Google verificēts</string>
@@ -1396,6 +1523,7 @@ Informācija par jūsu ziņojumiem un sarunām ietver sūtītāju un saņēmēju
     <string name="rcs_learn_more_title">%1$s par tērzēšanas funkcijām</string>
     <string name="rcs_learn_more_title_with_no_link">Plašāka informācija par tērzēšanas funkcijām</string>
     <string name="rcs_message">Bagātināto saziņas pakalpojumu (Rich Communication Service) ziņojums</string>
+    <string name="rcs_message_failed_recipient_lost_encryption_content_description">Nevar piegādāt. Pieskarieties, lai skatītu iespējas.</string>
     <string name="rcs_message_failed_recipient_lost_rcs_content_description">Nevar piegādāt. Pieskarieties, lai skatītu opcijas.</string>
     <string name="rcs_mobile_data_auto_download_carrier_format_entry">Noklusējums (%1$s)</string>
     <string name="rcs_mobile_data_auto_download_limit_disable_entry_text">Atspējot</string>
@@ -1478,11 +1606,12 @@ Informācija par jūsu ziņojumiem un sarunām ietver sūtītāju un saņēmēju
     <string name="reaction_surprised_content_description">Seja ar atvērtu muti</string>
     <string name="reactions_promo_announcement">Nospiediet un turiet, lai pievienotu reakciju</string>
     <string name="reactions_promo_text">Pieskarieties un turiet, lai pievienotu reakciju</string>
-    <string name="read_external_storage_permission_description">Lai galerijas saturu skatītu tieši no šejienes, ir nepieciešama piekļuve jūsu tālruņa krātuvei.</string>
+    <string name="read_media_storage_permission_description">Lai varētu skatīt galerijas saturu tieši šeit, ir nepieciešama piekļuve jūsu tālruņa multivides satura krātuvei.</string>
     <string name="received_label">Saņemts:</string>
     <string name="recipient_hint">Ierakstiet vārdu, tālruņa numuru vai e-pasta adresi.</string>
     <string name="recipient_label">Kam</string>
     <string name="recipient_offline_description">Tiek gaidīts, kad %s būs tiešsaistē…</string>
+    <string name="reminder_badge_content_description">Atgādinājuma emblēma</string>
     <string name="reminder_datetime_picker_dialog_delete_button">Dzēst</string>
     <string name="reminder_datetime_picker_dialog_menu_title_add">Atgādinājuma iestatīšana</string>
     <string name="reminder_datetime_picker_dialog_menu_title_update">Atgādinājuma atjaunināšana</string>
@@ -1503,7 +1632,7 @@ Informācija par jūsu ziņojumiem un sarunām ietver sūtītāju un saņēmēju
     <string name="reminder_suggestions_tooltip_text">Pieskarieties un izvēlieties laiku, kad saņemt atgādinājumu. Izslēdziet ieteikumus sadaļā &lt;a href>Iestatījumi&lt;/a>.</string>
     <string name="reminder_suggestions_tooltip_title_text">Atgādinājumu iestatīšana</string>
     <string name="reminders_banner_body">%1$s: %2$s</string>
-    <string name="reminders_banner_description">@string/banner_description</string>
+    <string name="reminders_banner_description">Reminder conversation banner</string>
     <string name="reminders_banner_done_button">Gatavs</string>
     <string name="reminders_banner_remind_button">Atgādināt 1 h</string>
     <string name="reminders_banner_self_sender_name">Jūs</string>
@@ -1516,7 +1645,7 @@ Informācija par jūsu ziņojumiem un sarunām ietver sūtītāju un saņēmēju
     <string name="remove_reaction_from_gif_rcs_fallback_text">Noņēma reakciju ‌%1$s‌ no GIF attēla</string>
     <string name="remove_reaction_from_link_rcs_fallback_text">Reakcija ‌%1$s‌ noņemta no saites</string>
     <string name="remove_reaction_from_photo_rcs_fallback_text">Noņēma reakciju ‌%1$s‌ no fotoattēla</string>
-    <string name="remove_reaction_from_text_message_rcs_fallback_text">Noņēma reakciju ‌%1$s‌ no ziņojuma “%2$s”</string>
+    <string name="remove_reaction_from_text_message_rcs_fallback_text">Noņēma reakciju ‌%1$s‌ no ziņojuma “ %2$s ”</string>
     <string name="remove_reaction_from_unknown_message_type_rcs_fallback_text">Noņēma reakciju ‌%1$s‌ no nezināma veida ziņojuma</string>
     <string name="remove_reaction_from_video_rcs_fallback_text">Noņēma reakciju ‌%1$s‌ no videoklipa</string>
     <string name="remove_user_dialog_cancel">Atcelt</string>
@@ -1525,14 +1654,17 @@ Informācija par jūsu ziņojumiem un sarunām ietver sūtītāju un saņēmēju
     <string name="rename_group_title_m2">Grupas nosaukums</string>
     <string name="reply_activity_title">Atbildēt</string>
     <string name="reply_button_label">Atbildēt</string>
-    <string name="reply_icon_content_description">Atbildēt uz ziņojumu</string>
+    <string name="reply_icon_content_description">Atbildēt</string>
     <string name="report_contact_title">Ziņot par nevēlamu kontaktpersonu</string>
     <string name="report_failed_rcs_group_creation">Radās kļūda, un viens vai vairāki dalībnieki netika pievienoti.</string>
     <string name="report_group_spam_body_spam_folder">Numuri un pēdējās īsziņas no citiem grupas dalībniekiem tiks pārsūtītas uzņēmumam Google pārskatīšanai, kā arī var tikt pārsūtītas jūsu mobilo sakaru operatoram (var tikt piemērota maksa). Šī saruna tiks glabāta mapē “Nevēlamās un bloķētās sarunas”, un jūs nesaņemsiet paziņojumus. %1$s</string>
+    <string name="report_invalid_thread_id_issue_description">Nederīgs pavediena ID. Plašāku informāciju skatiet žurnālos.</string>
     <string name="report_issue_action_text">Sūtīt atsauksmes</string>
+    <string name="report_issue_description">Lietotnē Ziņojumi automātiski tika konstatēta kļūda. Plašāku informāciju skatiet žurnālos.</string>
     <string name="report_issue_notification_text">Lietotnē Ziņojumi tika konstatēta kļūda. Pieskarieties, lai nosūtītu atsauksmes.</string>
     <string name="report_not_spam_snackbar_message">%1$s: atzīmēts, ka nav nevēlams</string>
     <string name="report_person_delivered">%1$s saņēma: %2$s</string>
+    <string name="report_person_ftd">%1$s neizdevās atšifrēt: %2$s</string>
     <string name="report_person_read">%1$s izlasīja: %2$s</string>
     <string name="report_person_sent">%s nesaņēma</string>
     <string name="report_receive_issue_notification_message">Sistēmā Android nevar saņemt jums nosūtīto ziņojumu. Pieskarieties, lai nosūtītu atsauksmes.</string>
@@ -1541,10 +1673,11 @@ Informācija par jūsu ziņojumiem un sarunām ietver sūtītāju un saņēmēju
     <string name="report_spam_banner_spam_button">Nē, ziņot un bloķēt</string>
     <string name="report_spam_banner_title">Vai pazīstat %s?</string>
     <string name="report_spam_checkbox_body">Mēstuļu sūtītāja numurs un pēdējās īsziņas tiek pārsūtītas uzņēmumam Google, kā arī var tikt pārsūtītas jūsu mobilo sakaru operatoram (var tikt piemērota maksa). %1$s</string>
-    <string name="report_spam_checkbox_title">Ziņošana par nevēlamu saturu</string>
+    <string name="report_spam_checkbox_title">Ziņot par nevēlamu saturu</string>
     <string name="report_spam_snackbar_message">%1$s: atzīmēts kā nevēlams</string>
     <string name="report_spam_toast_title">Ziņots par nevēlamu saturu</string>
     <string name="report_telephone_db_recreation_message">Radās problēma ar ziņojumu izgūšanu. Pieskarieties, lai nosūtītu atsauksmes.</string>
+    <string name="report_thread_id_not_found_description">Trūkst pavediena ID. Plašāku informāciju skatiet žurnālos.</string>
     <string name="required_permissions_no_promptable_promo">Mainiet atļaujas ierīces lietotnes iestatījumos. Piešķiriet lietotnei Ziņojumi piekļuvi īsziņām, kā arī lietotnēm Tālrunis un Kontaktinformācija.</string>
     <string name="required_permissions_no_promptable_title">Piekļuves piešķiršana</string>
     <string name="required_permissions_promptable_promo">Lai pabeigtu iestatīt noklusējuma lietotni, atļaujiet lietotnei Ziņojumi piekļūt jūsu īsziņām, tālruņa datiem un kontaktpersonām.</string>
@@ -1564,6 +1697,11 @@ Informācija par jūsu ziņojumiem un sarunām ietver sūtītāju un saņēmēju
     <string name="samsung_setting_search_title">Ziņojumu iestatījumi</string>
     <string name="save">Saglabāt</string>
     <string name="save_attachment">Saglabāt</string>
+    <string name="save_banner_body">Saglabājiet šo dzimšanas dienu kontaktpersonu lietotnē, un nākamajā gadā lietotne Ziņojumi jums par to atgādinās.</string>
+    <string name="save_banner_positive_button">Saglabāt dzimšanas dienu</string>
+    <string name="save_banner_title_name">Atgādinājums par kontaktpersonas %1$s dzimšanas dienu</string>
+    <string name="save_banner_title_no_name">Atgādinājums par kontaktpersonas dzimšanas dienu</string>
+    <string name="save_birthday_banner_description">@string/banner_description</string>
     <string name="save_otp_confirm_button">Saglabāt VRP</string>
     <string name="save_otp_dialog_message">Šī VRP tiks saglabāta, kamēr citas VRP joprojām tiks automātiski dzēstas pēc 24 stundām. Šo funkciju varat pārvaldīt iestatījumu sadaļā.</string>
     <string name="save_otp_dialog_title">Vai saglabāt šo vienreizējo paroli (VRP)?</string>
@@ -1582,6 +1720,7 @@ Informācija par jūsu ziņojumiem un sarunām ietver sūtītāju un saņēmēju
     <string name="scheduled_send_announcement_scheduling_failed">Neizdevās ieplānot ziņojumu.</string>
     <string name="scheduled_send_announcement_scheduling_started">Notiek ziņojuma ieplānošana.</string>
     <string name="scheduled_send_announcement_scheduling_succeeded">Ziņojums ir ieplānots.</string>
+    <string name="scheduled_send_badge_content_description">Ieplānotas nosūtīšanas emblēma</string>
     <string name="scheduled_send_compose_label_close_content_description">Atcelt plānošanu.</string>
     <string name="scheduled_send_datetime_picker_subtitle">Lai sūtītu, atstājiet tālruni ieslēgtu un izveidojiet Wi-Fi vai datu savienojumu</string>
     <string name="scheduled_send_datetime_picker_title">Sūtīšanas ieplānošana (%1$s)</string>
@@ -1609,6 +1748,7 @@ Informācija par jūsu ziņojumiem un sarunām ietver sūtītāju un saņēmēju
     <string name="security_key_top_level_title">Šifrējuma pārbaude</string>
     <string name="see_gallery">Skatīt galeriju</string>
     <string name="selected">Atlasīts</string>
+    <string name="selection_position_text">%1$d</string>
     <string name="self_left_group_conversation_failed">Neizdevās pamest grupu. Lūdzu, vēlāk mēģiniet vēlreiz.</string>
     <string name="self_participant_reaction_name">Jūs</string>
     <string name="self_person_name">Jūs</string>
@@ -1658,7 +1798,6 @@ Jūsu tālruņa numurs tiek izmantots tikai problēmu novēršanai un risināša
     <string name="sending_timeout_failure_dialog_title">Ziņojums nav nosūtīts</string>
     <string name="sent_label">Nosūtīts:</string>
     <string name="set_message_priority_description">Iestatīt steidzama ziņojuma statusu</string>
-    <string name="set_rcs_flags">RCS atzīmju iestatīšana</string>
     <string name="set_rcs_mobile_data_auto_download_limit_title">Automātiski lejupielādēt saņemtos failus, izmantojot mobilos datus</string>
     <string name="setting_fast_track_body_with_cost">Turpinot jūs piekrītat šādiem noteikumiem: %1$s un %2$s. Lai nosūtītu ziņojumus, izmantojot tālruņa numuru, Google var laiku pa laikam verificēt jūsu numuru, veicot jūsu ierīces informācijas apmaiņu ar jūsu mobilo sakaru operatoru vai izmantojot īsziņas (var tikt piemērota atbilstoša maksa). Tērzēšanas funkcijas varat atspējot iestatījumos. %3$s</string>
     <string name="settings_activity_title">Iestatījumi</string>
@@ -1681,6 +1820,13 @@ Jūsu tālruņa numurs tiek izmantots tikai problēmu novēršanai un risināša
     <string name="shortcuts_screen_title">Saīsnes</string>
     <string name="show_sms_link_warning_change_label">Mainīt</string>
     <string name="show_sms_link_warning_text">Pielikumi tiks nosūtīti kā īsziņas ar ietvertu saiti uz attiecīgo pielikumu.</string>
+    <string name="sign_in_app_name_without_account">Izmantot lietotni %1$s bez konta</string>
+    <string name="sign_in_cancel">Atcelt</string>
+    <string name="sign_in_without_account">Izmantot bez konta</string>
+    <string name="sign_in_without_account_short">Bez konta</string>
+    <string name="sign_into_photos_app">Pierakstīties</string>
+    <string name="sign_into_photos_app_title">Lai turpinātu, pierakstieties pakalpojumā Google fotoattēli</string>
+    <string name="sign_into_photos_app_with_x_to_continue">Pašlaik jūs sūtāt no konta %1$s</string>
     <string name="signature_banner_description">@string/banner_description</string>
     <string name="silent_ringtone">Klusums</string>
     <string name="sim_label">SIM:</string>
@@ -1699,9 +1845,13 @@ Jūsu tālruņa numurs tiek izmantots tikai problēmu novēršanai un risināša
     <string name="sim_storage_full_title">SIM kartes krātuve ir pilna</string>
     <string name="sim_storage_pref_title">SIM kartes ziņojumi</string>
     <string name="simple_fail_to_decrypt_message_dialog_body">Lai atšifrētu turpmākos ziņojumus, atjauniniet lietotni Ziņojumi.</string>
+    <string name="smart_action_settings_page_description">Rādīt atbilstošas saīsnes uz kalendāru, meklēt GIF attēlus, kopīgot atrašanās vietu un veikt citas darbības</string>
+    <string name="smart_action_settings_page_title">Darbības</string>
+    <string name="smart_actions_preference_summary_shortcuts">Rādīt atbilstošas saīsnes uz kalendāru, meklēt GIF attēlus, kopīgot atrašanās vietu un veikt citas darbības</string>
     <string name="smart_actions_preference_title">Ieteicamās darbības</string>
     <string name="smart_compose_preference_summary">Rādīt prognozētus rakstīšanas ieteikumus</string>
     <string name="smart_compose_preference_title">Viedā rakstīšana</string>
+    <string name="smart_reply_preference_summary">Rādīt tērzēšanas atbilžu opcijas</string>
     <string name="smarts_preference_info_text">Viedā atbildēšana un ieteicamās darbības būs redzamas tikai jums, līdz pieskarsieties saitei un kopīgosiet šo informāciju. &lt;br/> &lt;br/> Ieteikumi ir atšķirīgi katrai sarunai un tiek ģenerēti ierīcē. %1$s</string>
     <string name="smarts_preference_info_text_with_assistant">Viedā atbildēšana, ieteicamās darbības un Asistenta ieteikumi tiek ģenerēti lietotnē Ziņojumi, izmantojot ierīcē iebūvētu intelektu. &lt;br/> &lt;br/>Ieteikumi netiks kopīgoti ne ar Google, ne ar kādu citu, kamēr tiem nepieskarsieties. &lt;br/> &lt;br/> Ja atļausiet lietotnei Ziņojumi piekļūt jūsu ierīces atrašanās vietai, tiks rādīts vairāk vietējo ieteikumu. %1$s</string>
     <string name="smarts_settings_page_summary">Viedā atbildēšana, ieteicamās darbības un citi iestatījumi</string>
@@ -1717,8 +1867,8 @@ Atbildes tiks parādītas atsevišķās sarunās."</string>
     <string name="sms_encoding_pref_summary">Konvertējiet īpašās rakstzīmes savās īsziņās.</string>
     <string name="sms_encoding_pref_title">Vienkāršo rakstzīmju izmantošana</string>
     <string name="sms_error_template">%1$s (kļūdas kods: %2$d)</string>
-    <string name="sms_protocol_label">Īsziņa</string>
-    <string name="sms_text">Īsziņas</string>
+    <string name="sms_protocol_label">SMS</string>
+    <string name="sms_text">SMS</string>
     <string name="smsc_number_pref_summary">Ja nomainīsiet vai izdzēsīsiet šo numuru, iespējams, vairs nevarēsiet sūtīt un saņemt īsziņas</string>
     <string name="smsc_number_pref_title_pre_r">Pielāgots īsziņu centra numurs</string>
     <string name="smsc_number_pref_title_r_plus">Īsziņu centra numurs</string>
@@ -1728,19 +1878,18 @@ Atbildes tiks parādītas atsevišķās sarunās."</string>
     <string name="snackbar_text_label_rcs_group_created_too_large">{max_group_size_including_self,plural, =1{Nedrīkst būt vairāk par # personu}zero{Nedrīkst būt vairāk par # personām}one{Nedrīkst būt vairāk par # personu}other{Nedrīkst būt vairāk par # personām}}</string>
     <string name="snackbar_text_label_rcs_group_self_only">Šī grupa ir tukša. Lai rakstītu šajā tērzēšanas sarunā, vispirms pievienojiet personas šai grupai.</string>
     <string name="snippet">%1$s: %2$s</string>
-    <string name="snippet_assistant_card_text">Asistenta kartīte</string>
-    <string name="snippet_attachment_icon_content_description">Pielikuma ikona atbildes fragmentā</string>
     <string name="snippet_audio_attachment_text">Audio</string>
     <string name="snippet_deleted_message_text">Ziņojums ir izdzēsts</string>
-    <string name="snippet_dismiss_icon_content_description">Ikona “Atcelt atbildi”</string>
+    <string name="snippet_dismiss_icon_content_description">Dzēst</string>
     <string name="snippet_file_attachment_text">Fails</string>
     <string name="snippet_from_you">Jūs: %s</string>
-    <string name="snippet_image_attachment_text">Attēls</string>
-    <string name="snippet_media_thumbnail_content_description">Multivides sīktēls atbildes fragmentā</string>
+    <string name="snippet_image_attachment_text">Fotoattēls</string>
     <string name="snippet_self_participant_header">Jūs</string>
     <string name="snippet_video_attachment_text">Video</string>
     <string name="soft_num_key_pad_backspace_content_description">Atkāpšanās taustiņš</string>
     <string name="someone_added_participant">%1$s pievienoja šai grupai šos dalībniekus: %2$s</string>
+    <string name="someone_added_participant_with_learn_more">%1$s pievienoja šai grupai šos dalībniekus: %2$s. %3$s</string>
+    <string name="someone_else_created_encrypted_rcs_group">%1$s izveidoja šo grupas tērzēšanu ar šiem dalībniekiem: %2$s. %3$s</string>
     <string name="someone_else_created_mms_group">%1$s izveidoja šo grupas multiziņu sarunu ar šiem dalībniekiem: %2$s</string>
     <string name="someone_else_created_rcs_group">%1$s izveidoja šo grupas tērzēšanu ar šiem dalībniekiem: %2$s</string>
     <string name="someone_joined_group">Kāds pievienojās šai grupai</string>
@@ -1764,7 +1913,6 @@ Atbildes tiks parādītas atsevišķās sarunās."</string>
     <string name="spam_dialog_title_spam_folder">Vai ziņot par nevēlamu sarunu?</string>
     <string name="spam_folder_activity_title">Nevēlamās un bloķētās sarunas</string>
     <string name="spam_folder_conversation_list_empty_text_v2">Šeit tiek rādītas nevēlamās un bloķētās sarunas.</string>
-    <string name="spam_preference_info_text_on_device">Lietotnē Ziņojumi tiek izmantots ierīcē iebūvēts intelekts, lai konstatētu mēstules, un uzņēmumam Google tiek nosūtīti noteikti dati par šiem ziņojumiem (neietverot jūsu tālruņa numuru vai ziņojumu saturu). %1$s</string>
     <string name="spam_protection_consent_string">Lai palīdzētu konstatēt mēstules, lietotne Ziņojumi nosūta Google serveriem noteiktus datus par jūsu ziņojumiem, neiekļaujot jūsu tālruņa numuru un ziņojuma saturu. %1$s</string>
     <string name="spam_reporting_from">Ziņojums par nevēlamu saturu</string>
     <string name="spam_settings">Aizsardzība pret mēstulēm</string>
@@ -1773,6 +1921,8 @@ Atbildes tiks parādītas atsevišķās sarunās."</string>
     <string name="split_view_pref_title">Detalizēts saraksta skatījums</string>
     <string name="stacked_banner_count_text">1 no %1$d</string>
     <string name="star_badge_content_description">Zvaigznītes emblēma</string>
+    <string name="star_badge_menu_remove_action">Noņemt</string>
+    <string name="star_badge_menu_view_all_action">Skatīt visu</string>
     <string name="star_badge_on_click_snackbar_action">Atsaukt</string>
     <string name="star_badge_on_click_snackbar_message">Zvaigznīte ir noņemta</string>
     <string name="sticker_content_description">Uzlīme “%s”</string>
@@ -1809,10 +1959,12 @@ Atbildes tiks parādītas atsevišķās sarunās."</string>
     <string name="subject_with_label">Temats: %1$s</string>
     <string name="subject_with_urgent_label">[STEIDZAMS] %1$s</string>
     <string name="success_message_format">%1$s %2$s %3$s %4$s %5$s %6$s.</string>
+    <string name="success_message_self_sender">Jūs rakstījāt: %1$s %2$s %3$s %4$s.</string>
     <string name="success_message_self_sender_format_with_multiple_attachments">Jūs nosūtījāt vairākus pielikumus %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_self_sender_format_with_single_attachment">Jūs nosūtījāt pielikumu %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_specified_sender_format_with_multiple_attachments">%1$s nosūtīja vairākus pielikumus %2$s %3$s %4$s %5$s %6$s.</string>
     <string name="success_message_specified_sender_format_with_single_attachment">%1$s nosūtīja pielikumu %2$s %3$s %4$s %5$s %6$s.</string>
+    <string name="success_message_unspecified_sender">Sūtītājs rakstīja: %1$s %2$s %3$s %4$s.</string>
     <string name="success_message_unspecified_sender_format_with_multiple_attachments">Sūtītājs nosūtīja vairākus pielikumus %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_unspecified_sender_format_with_single_attachment">Sūtītājs nosūtīja pielikumu %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_sent_to_message_format">Nosūtīts adresātam %1$s %2$s %3$s %4$s.</string>
@@ -1821,10 +1973,18 @@ Atbildes tiks parādītas atsevišķās sarunās."</string>
     <string name="sud_back_button_label">Atpakaļ</string>
     <string name="sud_more_button_label">Vairāk</string>
     <string name="sud_next_button_label">Tālāk</string>
-    <string name="suggested_stickers_preference_summary">Rādīt ieteiktās uzlīmes</string>
+    <string name="suggested_stickers_preference_summary">Rādīt uzlīmju atbilžu opcijas</string>
     <string name="suggested_stickers_preference_title">Ieteiktās uzlīmes</string>
+    <string name="suggestion_shortcut_dialog_body_text">Atzīmējiet ziņojumu ar zvaigznīti, acumirklī ieplānojiet sapulci un veiciet citas darbības, izmantojot ātras un vienkāršas saīsnes.</string>
+    <string name="suggestion_shortcut_dialog_positive_button">Labi</string>
+    <string name="suggestion_shortcut_dialog_subsection_body_text">Saīsnes tiek ieteiktas, piemēram, pamatojoties uz tālruņa numuriem un datumiem. %1$s</string>
+    <string name="suggestion_shortcut_dialog_subsection_title_text">Darbības pamatprincipi</string>
+    <string name="suggestion_shortcut_dialog_title">Ieteicamās saīsnes ātrākai darbību veikšanai</string>
+    <string name="suggestion_shortcut_search_title">Meklēšana</string>
+    <string name="suggestion_shortcut_star_toolstone">Atzīmējiet ziņojumus ar zvaigznīti un ērti atrodiet tos sadaļā %1$s</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_notification_inbox_style_summary_text">Vēl +%d</string>
+    <string name="super_sort_pref_title">Ziņojumu kārtošana</string>
     <string name="super_sort_settings_title">Ziņojumu kārtošana</string>
     <string name="supersort_conversation_list_empty_text_business_update">Ziņas no uzņēmuma tiek automātiski rādītas šeit</string>
     <string name="supersort_conversation_list_empty_text_manage_in_settings">Pārvaldīt to iestatījumos</string>
@@ -1887,6 +2047,11 @@ Atrodiet jebkuru sarunu skatā Visi"</string>
     <string name="survey_user_agent">Lietotāja aģents</string>
     <string name="survey_very_dissatisfied">Ļoti neapmierināts</string>
     <string name="survey_very_satisfied">Ļoti apmierināts</string>
+    <string name="swipe_actions">Vilkšanas darbības</string>
+    <string name="swipe_actions_summary">Varat izvēlēties opciju Arhivēt vai Dzēst, vilkt pa labi vai pa kreisi vai izslēgt vilkšanu.</string>
+    <string name="swipe_customize">Pielāgot</string>
+    <string name="swipe_left">Vilkt pa kreisi</string>
+    <string name="swipe_right">Vilkt pa labi</string>
     <string name="switcher_no_phone_number">SIM karte nav atrasta.</string>
     <string name="switcher_pair_device_title_text">Īsziņu sūtīšana, izmantojot pārī savienoto tālruni</string>
     <string name="switcher_positive_button_text">Turpināt</string>
@@ -1894,6 +2059,7 @@ Atrodiet jebkuru sarunu skatā Visi"</string>
     <string name="switcher_use_device_sim_number">(%s)</string>
     <string name="switcher_use_device_sim_title_text">Īsziņu sūtīšana, izmantojot šīs ierīces SIM</string>
     <string name="syncing_with_device_foreground_notification_text">Lietotnē Ziņojumi notiek sinhronizācija ar ierīci</string>
+    <string name="system_picker_button_label">Mapes</string>
     <string name="t_mobile_tos_pref_link_text">pakalpojumu sniegšanas noteikumus</string>
     <string name="t_mobile_tos_pref_text">Google tērzēšanas funkcijas nodrošina uzņēmums T-Mobile. Skatiet %1$s.</string>
     <string name="t_mobile_tos_pref_url">https://www.t-mobile.com/responsibility/legal/terms-and-conditions</string>
@@ -1918,6 +2084,7 @@ Iestatījumi > %1$s"</string>
     <string name="theme_setting_dialog_options_light_mode">Gaišais</string>
     <string name="theme_setting_dialog_options_system_default_mode">Sistēmas noklusējums</string>
     <string name="theme_setting_dialog_title">Motīva izvēle</string>
+    <string name="tiktok_account_login_failure">Neizdevās pieteikties atlasītajā kontā.</string>
     <string name="tiktok_add_account_error">Neizdevās pievienot kontu. Lūdzu, mēģiniet vēlreiz.</string>
     <string name="tiktok_fix_it">Novērst problēmu</string>
     <string name="tiktok_load_account_failure">Neizdevās ielādēt kontus.</string>
@@ -1943,6 +2110,18 @@ Iestatījumi > %1$s"</string>
     <string name="tombstone_self_removed_from_group_referrer_known">%1$s noņēma jūs no šīs grupas</string>
     <string name="tombstone_self_removing_others_from_group">Jūs noņēmāt no šīs grupas šos lietotājus: %1$s</string>
     <string name="tombstone_show_link_previews">Saišu priekšskatījumi ir ieslēgti.&lt;br />Uzziniet vairāk vai izslēdziet šo funkciju &lt;u>iestatījumos&lt;/u>.</string>
+    <string name="tombstone_show_link_previews_disabled">Saišu priekšskatījumi ir izslēgti.&lt;br />Uzziniet vairāk vai &lt;u>iestatījumos&lt;/u> ieslēdziet tos.</string>
+    <string name="tooltip_content">"Jūsu Google konts nodrošina
+tādas funkcijas kā Google fotoattēlu
+saišu kopīgošana lietotnē Ziņojumi,
+nepiekļūstot jūsu sarunām.
+
+Ziņojumi joprojām tiek sūtīti
+no jūsu tālruņa numura. Uzzināt vairāk"</string>
+    <string name="tooltip_content_with_line_break_fix">"Jūsu Google kontā tiek nodrošinātas tādas funkcijas kā Google fotoattēlu saišu kopīgošana lietotnē Ziņojumi, nepiekļūstot jūsu sarunām.
+
+Ziņojumi joprojām tiek sūtīti no jūsu tālruņa numura. Uzzināt vairāk"</string>
+    <string name="tooltip_link">Uzzināt vairāk</string>
     <string name="top_contacts_grid_name">★</string>
     <string name="top_contacts_title">Svarīgākās kontaktpersonas</string>
     <string name="transaction_content_description">Šis ziņojums ir klasificēts kā darījums</string>
@@ -1952,6 +2131,7 @@ Iestatījumi > %1$s"</string>
     <string name="unblock_and_report_not_spam_snackbar_message">%1$s: atbloķēts un atzīmēts, ka nav nevēlams</string>
     <string name="unblock_banner_body">Lai izņemtu šo sarunu no arhīva un atkal saņemtu ziņojumus, atbloķējiet sūtītāju %s.</string>
     <string name="unblock_banner_body_spam_folder">Lai izņemtu šo sarunu no mapes “Nevēlamās un bloķētās sarunas” un atkal saņemtu ziņojumus, atbloķējiet lietotāju %s.</string>
+    <string name="unblock_banner_body_v2">Unblock to receive messages from this sender</string>
     <string name="unblock_banner_description">@string/banner_description</string>
     <string name="unblock_banner_positive_button">Atbloķēt</string>
     <string name="unblock_banner_title">Bloķēta</string>
@@ -1987,6 +2167,7 @@ Tālruņa numuri tiek izmantoti tikai problēmu novēršanai un risināšanai. U
     <string name="unsent">Nenosūtītie</string>
     <string name="unspam_banner_body">Lai izņemtu šo sarunu no arhīva un atkal saņemtu paziņojumus, atzīmējiet, ka sūtītājs %s nav nevēlams.</string>
     <string name="unspam_banner_body_spam_folder">Lai izņemtu šo sarunu no mapes “Nevēlamās un bloķētās sarunas” un atkal saņemtu paziņojumus, atzīmējiet, ka lietotājs %s nav nevēlams.</string>
+    <string name="unspam_banner_body_v2">Report as not spam to receive messages from this sender</string>
     <string name="unspam_banner_description">@string/banner_description</string>
     <string name="unspam_banner_end_button">Nav mēstule</string>
     <string name="unspam_banner_title">Atzīmēta kā mēstule</string>
@@ -2002,6 +2183,8 @@ Tālruņa numuri tiek izmantoti tikai problēmu novēršanai un risināšanai. U
     <string name="unsupported_file_save_alert">Vai saglabāt pielikumu mapē “Lejupielādes”?</string>
     <string name="unsupported_file_save_cancel">Atcelt</string>
     <string name="unverified_sms_banner_description">@string/banner_description</string>
+    <string name="unwanted_messages_toolstone_link">bloķējiet tos un ziņojiet par tiem</string>
+    <string name="unwanted_messages_toolstone_text">Ja ziņojumi ir nevēlami, %1$s.</string>
     <string name="upcoming_reminder">Gaidāms atgādinājums</string>
     <string name="update_content_description">Šis ziņojums ir klasificēts kā atjauninājums</string>
     <string name="update_donation_banner_body_v2">Jūsu identitāte netiks izpausta, un varat noņemt jebkuru ziņojuma saturu.</string>
@@ -2044,6 +2227,7 @@ Tālruņa numuri tiek izmantoti tikai problēmu novēršanai un risināšanai. U
     <string name="video_attachment_content_description">Pielikuma videoklips</string>
     <string name="video_attachment_limit_exceeded_when_sending">Ziņojumam var pievienot tikai vienu videoklipu. Lūdzu, noņemiet liekos videoklipus un mēģiniet vēlreiz.</string>
     <string name="video_compress_info">Adresātam tiks rādīts zemākas kvalitātes video mobilo sakaru operatora multiziņu ierobežojumu dēļ.</string>
+    <string name="video_format_type">video</string>
     <string name="video_media_failure">Lai izveidotu videoklipu, mēģiniet veikt ierakstīšanu ilgāk.</string>
     <string name="video_taken">Videoklips uzņemts</string>
     <string name="video_thumbnail_view_play_button_content_description">Atskaņot videoklipu</string>
@@ -2090,19 +2274,20 @@ Rīkojieties ar šī ziņojuma saturu pēc saviem ieskatiem."</string>
     <string name="websiteTypeWork">Darba</string>
     <string name="welcome_agree_button_text">Piekrītu</string>
     <string name="welcome_chat_features_decline">Izmantot lietotni Ziņojumi bez tērzēšanas funkcijām</string>
-    <string name="welcome_chat_features_learn_more">Plašāka informācija par tērzēšanas funkcijām</string>
     <string name="welcome_chat_features_legal">Izmantojot tērzēšanas funkcijas, jūs piekrītat šādiem noteikumiem: %1$s un %2$s. Google laiku pa laikam verificēs jūsu numuru, sazinoties ar mobilo sakaru operatoru (var tikt piemērota maksa par īsziņu).</string>
+    <string name="welcome_chat_features_text">"· Sūtiet ziņojumus, izmantojot Wi-Fi tīklu vai mobilos datus.
+· Kopīgojiet failus un multivides saturu.
+· Saglabājiet ziņojumu konfidencialitāti."</string>
     <string name="welcome_chat_features_title">Ātrāka, efektīvāka, augstākas kvalitātes tērzēšana, izmantojot Wi-Fi vai datu savienojumu</string>
+    <string name="welcome_chat_features_title_experiment_0">Paveiciet vairāk nekā jebkad agrāk, izmantojot lietotni Ziņojumi</string>
+    <string name="welcome_chat_features_title_experiment_1">Paveiciet vairāk nekā jebkad agrāk, izmantojot tērzēšanas funkcijas lietotnē Ziņojumi</string>
     <string name="welcome_consent_button_text">Tālāk</string>
-    <string name="welcome_finish_button_text">Pabeigt</string>
     <string name="welcome_smarts_notice_description">"Vienkāršojiet tērzēšanu, izmantojot tādas funkcijas kā Google asistents un viedā atbildēšana. Tērzēšanas sarunas paliek drošībā — jūsu ierīcē.
 %1$s un %2$s"</string>
     <string name="welcome_smarts_notice_title">Noderīgas viedās iespējas</string>
     <string name="welcome_spam_description">"Lai pēc iespējas novērstu mēstuļu saņemšanu, Google izmanto tālruņa numurus, kas nav saglabāti jūsu kontaktpersonu sarakstā, un neidentificē ne jūs, ne jūsu numuru.
 %1$s and %2$s"</string>
     <string name="welcome_spam_title">Aizsardzība pret mēstulēm</string>
-    <string name="welcome_splash_tagline">"Vienkārša, vieda ziņojumapmaiņa,
-ko piedāvā Google"</string>
     <string name="widget_reply_exit_content_description">Atpakaļ</string>
     <string name="widget_reply_open">ATVĒRT ZIŅOJUMUS</string>
     <string name="widget_reply_to">Atbildēt: %s</string>
@@ -2110,9 +2295,14 @@ ko piedāvā Google"</string>
     <string name="work_directory_display_name">Kontaktpersonas darba profilā</string>
     <string name="xms_send_mode_pref_title">Sūtīt tikai īsziņas un multiziņas</string>
     <string name="you_added_participant">Jūs pievienojāt šai grupai šos dalībniekus: %s</string>
+    <string name="you_added_participant_with_learn_more">Jūs pievienojāt šai grupai šos dalībniekus: %1$s. %2$s</string>
+    <string name="you_created_encrypted_rcs_group">Jūs izveidojāt šo grupas tērzēšanu ar šiem dalībniekiem: %1$s. %2$s</string>
     <string name="you_created_mms_group">Jūs izveidojāt šo grupas multiziņu sarunu ar šiem dalībniekiem: %s</string>
     <string name="you_created_rcs_group">Jūs izveidojāt šo grupas tērzēšanu ar šiem dalībniekiem: %s</string>
     <string name="you_left_group">Jūs pametāt šo grupu</string>
+    <string name="youtube_dismissal_prompt">Pieskarieties un velciet, lai aizvērtu.</string>
+    <string name="youtube_drag_prompt">Velciet, lai pārvietotu atskaņotāju.</string>
+    <string name="youtube_pip_playing">Videoklips pašlaik tiek atskaņots</string>
     <string name="zero_connectivity_failure_announcement">Ziņojums netika nosūtīts.</string>
     <string name="zero_state_search_action_copy">Kopēt</string>
     <string name="zero_state_search_action_jump_to_chat">Skatīt tērzēšanas sarunā</string>
@@ -2132,6 +2322,7 @@ ko piedāvā Google"</string>
     <string name="zero_state_search_details_image_accessibility">Attēlu nosūtīja %1$s šādā datumā: %2$s</string>
     <string name="zero_state_search_details_video_accessibility">Videoklipu nosūtīja %1$s šādā datumā %2$s</string>
     <string name="zero_state_search_dropdown_free_text">Meklēt “%s”</string>
+    <string name="zero_state_search_empty_results_text">Šeit būs redzami jūsu ar zvaigznīti atzīmētie ziņojumi, multivides saturs un saites no šīs sarunas.</string>
     <string name="zero_state_search_images">Attēli</string>
     <string name="zero_state_search_link_copied">Saite nokopēta</string>
     <string name="zero_state_search_links">Saites</string>

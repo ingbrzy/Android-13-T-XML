@@ -7,24 +7,6 @@
         <item>accessibility_control_autoclick_1sec</item>
         <item>accessibility_control_autoclick_custom</item>
     </string-array>
-    <string-array name="screen_timeout_entries">
-        <item>15 seconds</item>
-        <item>30 seconds</item>
-        <item>1 minute</item>
-        <item>2 minutes</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>30 minutes</item>
-    </string-array>
-    <string-array name="screen_timeout_values">
-        <item>15000</item>
-        <item>30000</item>
-        <item>60000</item>
-        <item>120000</item>
-        <item>300000</item>
-        <item>600000</item>
-        <item>1800000</item>
-    </string-array>
     <integer-array name="accessibility_autoclick_selector_values">
         <item>0</item>
         <item>200</item>
@@ -841,6 +823,10 @@
         <item>com.google.TrafficMeasurementHub</item>
         <item>com.google.android.apps.wellbeing</item>
     </string-array>
+    <string-array name="config_exempt_wifi_permission_uid_name">
+        <item>@string/config_settingsintelligence_package_name</item>
+        <item>android.uid.system:1000</item>
+    </string-array>
     <string-array name="config_order_audio_services">
         <item>toggle_audio_description</item>
         <item>com.google.android.accessibility.soundamplifier/com.google.android.accessibility.soundamplifier.ui.SoundAmplifierSettingActivity</item>
@@ -1359,6 +1345,24 @@
         <item>@string/rtt_settings_no_visible</item>
         <item>@string/rtt_settings_visible_during_call</item>
         <item>@string/rtt_settings_always_visible</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>30 minutes</item>
+    </string-array>
+    <string-array name="screen_timeout_values">
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>1800000</item>
     </string-array>
     <string-array name="security_settings_premium_sms_values">
         <item>Ask</item>

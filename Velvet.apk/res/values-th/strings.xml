@@ -81,8 +81,6 @@
     <string name="accessibility_switch_to_oem_minus_one_button">ไปที่ %1$s</string>
     <string name="accessibility_voice_search_button">ค้นหาด้วยเสียง</string>
     <string name="accessibility_voice_search_visual_aid_text">พูดใส่โทรศัพท์เพื่อถามอะไรก็ได้</string>
-    <string name="account_item">เปลี่ยนเป็น %1$s</string>
-    <string name="account_list">รายการบัญชี</string>
     <string name="account_loading">กำลังโหลด…</string>
     <string name="account_particle_disc_description">เปิดเมนูบัญชี</string>
     <string name="acessibility_recurrence_choose_end_date_description">เปลี่ยนวันที่สิ้นสุด</string>
@@ -148,7 +146,6 @@
     <string name="ad_badge">โฆษณา</string>
     <string name="ad_badge_text">โฆษณา</string>
     <string name="ad_dismiss_survey_skip">ข้าม</string>
-    <string name="add_account">เพิ่มบัญชี</string>
     <string name="add_button_content_description">เพิ่ม</string>
     <string name="add_custom_feed">เพิ่มด้วยฟีด RSS</string>
     <string name="add_custom_feed_url_hint">https://www.example.org/podcast.xml</string>
@@ -174,8 +171,6 @@
     <string name="add_salsa_card_title">เพิ่มวลีด่วนที่คุณพูดบ่อยครั้ง</string>
     <string name="add_shortcut_dismiss_button_description">ปิด</string>
     <string name="add_shortcut_text">เพิ่มโหมดขับรถในหน้าจอหลัก</string>
-    <string name="add_snackbar_action">เพิ่ม</string>
-    <string name="add_this_location_to_your_list_snackbar_text">เพิ่มสถานที่นี้ในรายการของคุณไหม</string>
     <string name="add_to_folder">เพิ่มไปยังโฟลเดอร์: %1$s</string>
     <string name="add_to_folder_with_app">เพิ่มไปยังโฟลเดอร์ที่มี %1$s</string>
     <string name="add_to_home_screen">เพิ่มไปยังหน้าจอหลัก</string>
@@ -284,9 +279,12 @@
     <string name="all_salsas_section_subtitle">Assistant จะรออยู่ในโหมดสแตนด์บายเพื่อตรวจจับวลีด่วนที่คุณเลือก วลีที่ใช้ทั่วไปก็ใช้ได้เช่นกัน</string>
     <string name="all_set_title">Assistant พร้อมใช้งานแล้ว</string>
     <string name="all_settings_title">การตั้งค่าทั้งหมด</string>
+    <string name="allow_access">อนุญาตให้เข้าถึง</string>
     <string name="allow_bluetooth_button_with_device_locked_notification_body">เมื่อโทรศัพท์ล็อกอยู่ คุณสามารถใช้เสียงเพื่อโทรออกและทำงานอื่นๆ กับอุปกรณ์บลูทูธได้</string>
     <string name="allow_bluetooth_button_with_device_locked_notification_title">ใช้เสียงกับอุปกรณ์บลูทูธ</string>
     <string name="allow_button_text">อนุญาต</string>
+    <string name="allow_calls_toggle_description">คุณจะได้รับการแจ้งเตือนสายเรียกเข้าขณะขับรถ</string>
+    <string name="allow_calls_toggle_title">อนุญาตสายเรียกเข้า</string>
     <string name="allow_rotation_title">อนุญาตให้ใช้การหมุน</string>
     <string name="allow_wired_headsets_button_with_device_locked_notification_body">เมื่อโทรศัพท์ล็อกอยู่ คุณสามารถใช้เสียงเพื่อโทรออกและทำงานอื่นๆ กับชุดหูฟังแบบมีสายได้</string>
     <string name="allow_wired_headsets_button_with_device_locked_notification_title">ใช้เสียงกับชุดหูฟังแบบมีสาย</string>
@@ -362,11 +360,10 @@
     <string name="ambient_settings_bc_page_desc">Assistant จะแสดงสิ่งที่คุณต้องการได้ทันทีในหน้าจอหลักและหน้าจอล็อก</string>
     <string name="ambient_settings_bc_title">Live Space</string>
     <string name="ambient_settings_commute_and_ttl_subtitle">ดูการจราจรและเวลาถึงโดยประมาณ</string>
-    <string name="ambient_settings_commute_and_ttl_title">การเดินทางและเวลาออกเดินทาง</string>
+    <string name="ambient_settings_commute_subtitle">ดูสภาพการจราจร</string>
+    <string name="ambient_settings_commute_title">การเดินทาง</string>
     <string name="ambient_settings_device_location_subtitle">แสดงเนื้อหาที่เกี่ยวข้องโดยอิงตามตำแหน่งของคุณ</string>
     <string name="ambient_settings_device_location_title">ตำแหน่ง</string>
-    <string name="ambient_settings_grocery_subtitle" />
-    <string name="ambient_settings_grocery_title">การจัดส่งและรับสินค้า</string>
     <string name="ambient_settings_home_and_work_location_subtitle">รับข้อมูลการเดินทาง เช่น เวลาถึงโดยประมาณและการจราจรซึ่งอิงตามที่อยู่บ้านและที่ทำงาน</string>
     <string name="ambient_settings_home_and_work_location_title">บ้านและที่ทำงาน</string>
     <string name="ambient_settings_hotel_subtitle">ข้อมูลการเช็คอินและเช็คเอาต์</string>
@@ -379,6 +376,7 @@
     <string name="ambient_settings_title">ข้อมูลโดยย่อ</string>
     <string name="ambient_settings_travel_bundle_subtitle">ข้อมูลเที่ยวบินจาก Gmail</string>
     <string name="ambient_settings_travel_bundle_title">การเดินทาง</string>
+    <string name="ambient_settings_ttl_subtitle">ดูเวลาถึงโดยประมาณ</string>
     <string name="ambient_settings_ttl_title">ถึงเวลาออกเดินทาง</string>
     <string name="ambient_settings_upcoming_bundle_subtitle">กิจกรรมในปฏิทินและการช่วยเตือน</string>
     <string name="ambient_settings_upcoming_bundle_title">เร็วๆ นี้</string>
@@ -462,7 +460,10 @@
     <string name="ar_permissions_screen_title">Get a better look</string>
     <string name="ar_session_error_dialog_body">An error has occurred when trying to view this object in your space.</string>
     <string name="ar_session_error_dialog_title">Unable to view in your space</string>
+    <string name="ar_triggering_description">อุปกรณ์ใช้การเคลื่อนไหวและการเชื่อมต่อบลูทูธเพื่อตรวจจับเมื่อคุณอยู่ในรถที่เคลื่อนที่</string>
+    <string name="ar_triggering_title">เมื่อตรวจพบการขับรถ</string>
     <string name="ask_assistant">ถาม Assistant</string>
+    <string name="ask_before_launching">ถามก่อนเปิด</string>
     <string name="ask_for_message_to_number">ได้เลย ต้องการส่งข้อความนะ ให้ส่งว่าอะไร</string>
     <string name="ask_for_text_message_contact_first_time">ได้เลย ส่งข้อความถึง%1$sนะ ให้ส่งว่าอะไร</string>
     <string name="ask_to_confirm_3p_chat_message">ข้อความ %1$s ที่จะส่งถึง%2$sบอกว่า %3$s จะส่งเลยหรืออยากแก้ไขก่อน</string>
@@ -470,10 +471,10 @@
     <string name="ask_to_confirm_message_reprompt">ขอโทษนะ จะส่งเลยหรือแก้ไขก่อน</string>
     <string name="ask_to_confirm_sms">SMS ที่จะส่งถึง%1$sคือ %2$s จะส่งเลยหรืออยากแก้ไขก่อน</string>
     <string name="assistant">Assistant</string>
-    <string name="assistant_aa_loyalty_card_title">Loyalty Card</string>
+    <string name="assistant_aa_loyalty_card_title">บัตรสะสมคะแนน</string>
     <string name="assistant_accessibility_voice_typing_stopped">หยุดการพิมพ์ด้วยเสียงแล้ว</string>
     <string name="assistant_add_item_app_control_suggestion">เพิ่ม</string>
-    <string name="assistant_ama_media_only_chip">Listen</string>
+    <string name="assistant_ama_media_only_chip">ฟัง</string>
     <string name="assistant_android_settings_access_assistant_category_title">เข้าถึง Google Assistant ใน Pixel</string>
     <string name="assistant_android_settings_active_edge_summary">หากต้องการพูดกับ Assistant ให้บีบครึ่งล่างของโทรศัพท์เร็วๆ แล้วปล่อย</string>
     <string name="assistant_android_settings_active_edge_title">บีบเพื่อเรียกใช้ Assistant</string>
@@ -492,7 +493,8 @@
     <string name="assistant_android_settings_see_all_title">ดูการตั้งค่า Assistant ทั้งหมด</string>
     <string name="assistant_android_settings_voice_match_summary">ใช้ Voice Match เพื่อเข้าถึง Assistant โดยใช้เสียงแม้ในขณะที่โทรศัพท์ล็อกอยู่</string>
     <string name="assistant_android_settings_voice_match_title">พูดว่า “Ok Google”</string>
-    <string name="assistant_at_store">At Store</string>
+    <string name="assistant_at_store">ที่ร้าน</string>
+    <string name="assistant_avatar_icon_description">ไอคอนรูปโปรไฟล์ของผู้ใช้</string>
     <string name="assistant_bit_action_card_link">ไปที่หน้า Google Assistant</string>
     <string name="assistant_bit_action_card_negative">ไม่เป็นไร</string>
     <string name="assistant_bit_action_card_positive">เปิด</string>
@@ -509,10 +511,15 @@
 ดูและลบประวัติ Assistant ได้ทุกเมื่อที่ myactivity.google.com"</string>
     <string name="assistant_bit_alert_on_title">เปิด Google Assistant ใช่ไหม</string>
     <string name="assistant_branding">Assistant</string>
-    <string name="assistant_calendar_event_during">%1$s now</string>
-    <string name="assistant_calendar_event_pre">%1$s in %2$s</string>
-    <string name="assistant_calendar_event_pre_static">%1$s at %2$s</string>
+    <string name="assistant_calendar_event_during">ขณะนี้อยู่ที่ %1$s</string>
+    <string name="assistant_calendar_event_pre">%1$s ใน %2$s</string>
+    <string name="assistant_calendar_event_pre_static">%1$s ที่ %2$s</string>
     <string name="assistant_calendar_event_time_range">%1$s – %2$s</string>
+    <string name="assistant_canvas_logo_view_description">ค้นหาด้วยเสียง</string>
+    <string name="assistant_canvas_opa_keyboard_indicator_content_description">โหมดพิมพ์</string>
+    <string name="assistant_canvas_opa_send_button_content_description">ส่ง</string>
+    <string name="assistant_canvas_opa_text_input_hint">พิมพ์ข้อความ</string>
+    <string name="assistant_canvas_transcription_bar_description">แถบการถอดเสียงเป็นคำ</string>
     <string name="assistant_create_doc_app_control_suggestion">สร้างเอกสาร</string>
     <string name="assistant_custodio_activity_menu_help">ความช่วยเหลือ</string>
     <string name="assistant_custodio_activity_menu_send_feedback">ส่งความคิดเห็น</string>
@@ -606,17 +613,17 @@
     <string name="assistant_custodio_fatal_error_title">แก้ไขการควบคุมโดยผู้ปกครองไม่ได้</string>
     <string name="assistant_custodio_friday">วันศุกร์</string>
     <string name="assistant_custodio_friday_abbreviated">ศ</string>
-    <string name="assistant_custodio_how_assistant_features_settings_works_dialog_body">{GENDER,select, male{ &lt;b>การโทร&lt;/b>&lt;br/> คุณบล็อกไม่ให้ {PERSON} โทรวิดีโอคอลหรือโทรด้วยเสียงได้ แต่ยังคงรับสายที่โทรเข้ามาได้อยู่&lt;br/> &lt;br/> &lt;b>การตอบคำถาม&lt;/b>&lt;br/> คุณจำกัด Assistant ให้ช่วยเหลือได้เฉพาะคำขอพื้นฐานเท่านั้น เช่น บอกสภาพอากาศ เวลา หรือช่วยคำนวณ หากคุณอนุญาตคำถามทั้งหมด Assistant อาจตอบ {PERSON} แม้จะเป็นคำถามสำหรับผู้ใหญ่ก็ตาม&lt;br/> &lt;br/> &lt;b>การดำเนินการสำหรับครอบครัว&lt;/b>&lt;br/> ตัวอย่างการดำเนินการ เช่น เมื่อคุณพูดว่า “Ok Google เล่านิทานให้ฟังหน่อย” นักพัฒนาแอปที่ได้รับอนุมัติสามารถสร้างการดำเนินการสำหรับครอบครัวที่เหมาะกับครอบครัวเพิ่มขึ้นได้ คุณตั้งค่าไม่ให้เข้าถึงการดำเนินการเหล่านี้ได้หากต้องการให้ {PERSON} ใช้เฉพาะการดำเนินการที่ Google สร้างขึ้น&lt;br/> &lt;br/> &lt;b>เว็บไซต์&lt;/b>&lt;br/> โปรดทราบว่าเว็บไซต์อาจมีวิดีโอหรือเนื้อหาสำหรับผู้ใหญ่ คุณบล็อก {PERSON} ไม่ให้เปิดเว็บไซต์บนจอแสดงผลอัจฉริยะได้ ในกรณีส่วนใหญ่ บุตรหลานสามารถส่งลิงก์ไปยังเจ้าของจอแสดงผลแทน (โดยทั่วไปจะเป็นผู้ปกครองที่ตั้งค่าจอแสดงผล)&lt;br/> &lt;br/> &lt;a href=\"https://support.google.com/assistant/?p=parental_controls\">ข้อมูลเพิ่มเติม&lt;/a> }female{ &lt;b>การโทร&lt;/b>&lt;br/> คุณบล็อกไม่ให้ {PERSON} โทรวิดีโอคอลหรือโทรด้วยเสียงได้ แต่ยังคงรับสายที่โทรเข้ามาได้อยู่&lt;br/> &lt;br/> &lt;b>การตอบคำถาม&lt;/b>&lt;br/> คุณจำกัด Assistant ให้ช่วยเหลือได้เฉพาะคำขอพื้นฐานเท่านั้น เช่น บอกสภาพอากาศ เวลา หรือช่วยคำนวณ หากคุณอนุญาตคำถามทั้งหมด Assistant อาจตอบ {PERSON} แม้จะเป็นคำถามสำหรับผู้ใหญ่ก็ตาม&lt;br/> &lt;br/> &lt;b>การดำเนินการสำหรับครอบครัว&lt;/b>&lt;br/> ตัวอย่างการดำเนินการ เช่น เมื่อคุณพูดว่า “Ok Google เล่านิทานให้ฟังหน่อย” นักพัฒนาแอปที่ได้รับอนุมัติสามารถสร้างการดำเนินการสำหรับครอบครัวที่เหมาะกับครอบครัวเพิ่มขึ้นได้ คุณตั้งค่าไม่ให้เข้าถึงการดำเนินการเหล่านี้ได้หากต้องการให้ {PERSON} ใช้เฉพาะการดำเนินการที่ Google สร้างขึ้น&lt;br/> &lt;br/> &lt;b>เว็บไซต์&lt;/b>&lt;br/> โปรดทราบว่าเว็บไซต์อาจมีวิดีโอหรือเนื้อหาสำหรับผู้ใหญ่ คุณบล็อก {PERSON} ไม่ให้เปิดเว็บไซต์บนจอแสดงผลอัจฉริยะได้ ในกรณีส่วนใหญ่ บุตรหลานสามารถส่งลิงก์ไปยังเจ้าของจอแสดงผลแทน (โดยทั่วไปจะเป็นผู้ปกครองที่ตั้งค่าจอแสดงผล)&lt;br/> &lt;br/> &lt;a href=\"https://support.google.com/assistant/?p=parental_controls\">ข้อมูลเพิ่มเติม&lt;/a> }other{ &lt;b>การโทร&lt;/b>&lt;br/> คุณบล็อกไม่ให้ {PERSON} โทรวิดีโอคอลหรือโทรด้วยเสียงได้ แต่ยังคงรับสายที่โทรเข้ามาได้อยู่&lt;br/> &lt;br/> &lt;b>การตอบคำถาม&lt;/b>&lt;br/> คุณจำกัด Assistant ให้ช่วยเหลือได้เฉพาะคำขอพื้นฐานเท่านั้น เช่น บอกสภาพอากาศ เวลา หรือช่วยคำนวณ หากคุณอนุญาตคำถามทั้งหมด Assistant อาจตอบ {PERSON} แม้จะเป็นคำถามสำหรับผู้ใหญ่ก็ตาม&lt;br/> &lt;br/> &lt;b>การดำเนินการสำหรับครอบครัว&lt;/b>&lt;br/> ตัวอย่างการดำเนินการ เช่น เมื่อคุณพูดว่า “Ok Google เล่านิทานให้ฟังหน่อย” นักพัฒนาแอปที่ได้รับอนุมัติสามารถสร้างการดำเนินการสำหรับครอบครัวที่เหมาะกับครอบครัวเพิ่มขึ้นได้ คุณตั้งค่าไม่ให้เข้าถึงการดำเนินการเหล่านี้ได้หากต้องการให้ {PERSON} ใช้เฉพาะการดำเนินการที่ Google สร้างขึ้น&lt;br/> &lt;br/> &lt;b>เว็บไซต์&lt;/b>&lt;br/> โปรดทราบว่าเว็บไซต์อาจมีวิดีโอหรือเนื้อหาสำหรับผู้ใหญ่ คุณบล็อก {PERSON} ไม่ให้เปิดเว็บไซต์บนจอแสดงผลอัจฉริยะได้ ในกรณีส่วนใหญ่ บุตรหลานสามารถส่งลิงก์ไปยังเจ้าของจอแสดงผลแทน (โดยทั่วไปจะเป็นผู้ปกครองที่ตั้งค่าจอแสดงผล)&lt;br/> &lt;br/> &lt;a href=\"https://support.google.com/assistant/?p=parental_controls\">ข้อมูลเพิ่มเติม&lt;/a> }}</string>
+    <string name="assistant_custodio_how_assistant_features_settings_works_dialog_body">{GENDER,select, male{ &lt;b>การโทร&lt;/b>&lt;br/> คุณบล็อกไม่ให้ {PERSON} โทรวิดีโอคอลหรือโทรด้วยเสียงได้ แต่ยังคงรับสายที่โทรเข้ามาได้อยู่&lt;br/> &lt;br/> &lt;b>การตอบคำถาม&lt;/b>&lt;br/> คุณจำกัด Assistant ให้ช่วยเหลือได้เฉพาะคำขอพื้นฐานเท่านั้น เช่น บอกสภาพอากาศ เวลา หรือช่วยคำนวณ หากคุณอนุญาตคำถามทั้งหมด Assistant อาจตอบ {PERSON} แม้จะเป็นคำถามสำหรับผู้ใหญ่ก็ตาม&lt;br/> &lt;br/> &lt;b>การดำเนินการสำหรับครอบครัว&lt;/b>&lt;br/> ตัวอย่างการดำเนินการ เช่น เมื่อคุณพูดว่า “Ok Google เล่านิทานให้ฟังหน่อย” นักพัฒนาแอปที่ได้รับอนุมัติสามารถสร้างการดำเนินการสำหรับครอบครัวที่เหมาะกับครอบครัวเพิ่มขึ้นได้ คุณตั้งค่าไม่ให้เข้าถึงการดำเนินการเหล่านี้ได้หากต้องการให้ {PERSON} ใช้เฉพาะการดำเนินการที่ Google สร้างขึ้น&lt;br/> &lt;br/> &lt;b>เว็บไซต์&lt;/b>&lt;br/> โปรดทราบว่าเว็บไซต์อาจมีวิดีโอหรือเนื้อหาสำหรับผู้ใหญ่ คุณบล็อก {PERSON} ไม่ให้เปิดเว็บไซต์บนจออัจฉริยะได้ ในกรณีส่วนใหญ่ บุตรหลานสามารถส่งลิงก์ไปยังเจ้าของจอแทน (โดยทั่วไปจะเป็นผู้ปกครองที่ตั้งค่าจอ)&lt;br/> &lt;br/> &lt;a href=\"https://support.google.com/assistant/?p=parental_controls\">ข้อมูลเพิ่มเติม&lt;/a> }female{ &lt;b>การโทร&lt;/b>&lt;br/> คุณบล็อกไม่ให้ {PERSON} โทรวิดีโอคอลหรือโทรด้วยเสียงได้ แต่ยังคงรับสายที่โทรเข้ามาได้อยู่&lt;br/> &lt;br/> &lt;b>การตอบคำถาม&lt;/b>&lt;br/> คุณจำกัด Assistant ให้ช่วยเหลือได้เฉพาะคำขอพื้นฐานเท่านั้น เช่น บอกสภาพอากาศ เวลา หรือช่วยคำนวณ หากคุณอนุญาตคำถามทั้งหมด Assistant อาจตอบ {PERSON} แม้จะเป็นคำถามสำหรับผู้ใหญ่ก็ตาม&lt;br/> &lt;br/> &lt;b>การดำเนินการสำหรับครอบครัว&lt;/b>&lt;br/> ตัวอย่างการดำเนินการ เช่น เมื่อคุณพูดว่า “Ok Google เล่านิทานให้ฟังหน่อย” นักพัฒนาแอปที่ได้รับอนุมัติสามารถสร้างการดำเนินการสำหรับครอบครัวที่เหมาะกับครอบครัวเพิ่มขึ้นได้ คุณตั้งค่าไม่ให้เข้าถึงการดำเนินการเหล่านี้ได้หากต้องการให้ {PERSON} ใช้เฉพาะการดำเนินการที่ Google สร้างขึ้น&lt;br/> &lt;br/> &lt;b>เว็บไซต์&lt;/b>&lt;br/> โปรดทราบว่าเว็บไซต์อาจมีวิดีโอหรือเนื้อหาสำหรับผู้ใหญ่ คุณบล็อก {PERSON} ไม่ให้เปิดเว็บไซต์บนจออัจฉริยะได้ ในกรณีส่วนใหญ่ บุตรหลานสามารถส่งลิงก์ไปยังเจ้าของจอแทน (โดยทั่วไปจะเป็นผู้ปกครองที่ตั้งค่าจอ)&lt;br/> &lt;br/> &lt;a href=\"https://support.google.com/assistant/?p=parental_controls\">ข้อมูลเพิ่มเติม&lt;/a> }other{ &lt;b>การโทร&lt;/b>&lt;br/> คุณบล็อกไม่ให้ {PERSON} โทรวิดีโอคอลหรือโทรด้วยเสียงได้ แต่ยังคงรับสายที่โทรเข้ามาได้อยู่&lt;br/> &lt;br/> &lt;b>การตอบคำถาม&lt;/b>&lt;br/> คุณจำกัด Assistant ให้ช่วยเหลือได้เฉพาะคำขอพื้นฐานเท่านั้น เช่น บอกสภาพอากาศ เวลา หรือช่วยคำนวณ หากคุณอนุญาตคำถามทั้งหมด Assistant อาจตอบ {PERSON} แม้จะเป็นคำถามสำหรับผู้ใหญ่ก็ตาม&lt;br/> &lt;br/> &lt;b>การดำเนินการสำหรับครอบครัว&lt;/b>&lt;br/> ตัวอย่างการดำเนินการ เช่น เมื่อคุณพูดว่า “Ok Google เล่านิทานให้ฟังหน่อย” นักพัฒนาแอปที่ได้รับอนุมัติสามารถสร้างการดำเนินการสำหรับครอบครัวที่เหมาะกับครอบครัวเพิ่มขึ้นได้ คุณตั้งค่าไม่ให้เข้าถึงการดำเนินการเหล่านี้ได้หากต้องการให้ {PERSON} ใช้เฉพาะการดำเนินการที่ Google สร้างขึ้น&lt;br/> &lt;br/> &lt;b>เว็บไซต์&lt;/b>&lt;br/> โปรดทราบว่าเว็บไซต์อาจมีวิดีโอหรือเนื้อหาสำหรับผู้ใหญ่ คุณบล็อก {PERSON} ไม่ให้เปิดเว็บไซต์บนจออัจฉริยะได้ ในกรณีส่วนใหญ่ บุตรหลานสามารถส่งลิงก์ไปยังเจ้าของจอแทน (โดยทั่วไปจะเป็นผู้ปกครองที่ตั้งค่าจอ)&lt;br/> &lt;br/> &lt;a href=\"https://support.google.com/assistant/?p=parental_controls\">ข้อมูลเพิ่มเติม&lt;/a> }}</string>
     <string name="assistant_custodio_how_assistant_features_settings_works_dialog_body_no_webview">{GENDER,select, male{ &lt;b>การโทร&lt;/b>&lt;br/> คุณบล็อกไม่ให้ {PERSON} โทรวิดีโอคอลหรือโทรด้วยเสียงได้ แต่ยังคงรับสายที่โทรเข้ามาได้อยู่&lt;br/> &lt;br/> &lt;b>การตอบคำถาม&lt;/b>&lt;br/> คุณจำกัด Assistant ให้ช่วยเหลือได้เฉพาะคำขอพื้นฐานเท่านั้น เช่น บอกสภาพอากาศ เวลา หรือช่วยคำนวณ หากคุณอนุญาตคำถามทั้งหมด Assistant อาจตอบ {PERSON} แม้จะเป็นคำถามสำหรับผู้ใหญ่ก็ตาม&lt;br/> &lt;br/> &lt;b>การดำเนินการสำหรับครอบครัว&lt;/b>&lt;br/> ตัวอย่างการดำเนินการ เช่น เมื่อคุณพูดว่า “Ok Google เล่านิทานให้ฟังหน่อย” นักพัฒนาแอปที่ได้รับอนุมัติสามารถสร้างการดำเนินการสำหรับครอบครัวที่เหมาะกับครอบครัวเพิ่มขึ้นได้ คุณตั้งค่าไม่ให้เข้าถึงการดำเนินการเหล่านี้ได้หากต้องการให้ {PERSON} ใช้เฉพาะการดำเนินการที่ Google สร้างขึ้น&lt;br/> &lt;br/> &lt;a href=\"https://support.google.com/assistant/?p=parental_controls\">ข้อมูลเพิ่มเติม&lt;/a> }female{ &lt;b>การโทร&lt;/b>&lt;br/> คุณบล็อกไม่ให้ {PERSON} โทรวิดีโอคอลหรือโทรด้วยเสียงได้ แต่ยังคงรับสายที่โทรเข้ามาได้อยู่&lt;br/> &lt;br/> &lt;b>การตอบคำถาม&lt;/b>&lt;br/> คุณจำกัด Assistant ให้ช่วยเหลือได้เฉพาะคำขอพื้นฐานเท่านั้น เช่น บอกสภาพอากาศ เวลา หรือช่วยคำนวณ หากคุณอนุญาตคำถามทั้งหมด Assistant อาจตอบ {PERSON} แม้จะเป็นคำถามสำหรับผู้ใหญ่ก็ตาม&lt;br/> &lt;br/> &lt;b>การดำเนินการสำหรับครอบครัว&lt;/b>&lt;br/> ตัวอย่างการดำเนินการ เช่น เมื่อคุณพูดว่า “Ok Google เล่านิทานให้ฟังหน่อย” นักพัฒนาแอปที่ได้รับอนุมัติสามารถสร้างการดำเนินการสำหรับครอบครัวที่เหมาะกับครอบครัวเพิ่มขึ้นได้ คุณตั้งค่าไม่ให้เข้าถึงการดำเนินการเหล่านี้ได้หากต้องการให้ {PERSON} ใช้เฉพาะการดำเนินการที่ Google สร้างขึ้น&lt;br/> &lt;br/> &lt;a href=\"https://support.google.com/assistant/?p=parental_controls\">ข้อมูลเพิ่มเติม&lt;/a> }other{ &lt;b>การโทร&lt;/b>&lt;br/> คุณบล็อกไม่ให้ {PERSON} โทรวิดีโอคอลหรือโทรด้วยเสียงได้ แต่ยังคงรับสายที่โทรเข้ามาได้อยู่&lt;br/> &lt;br/> &lt;b>การตอบคำถาม&lt;/b>&lt;br/> คุณจำกัด Assistant ให้ช่วยเหลือได้เฉพาะคำขอพื้นฐานเท่านั้น เช่น บอกสภาพอากาศ เวลา หรือช่วยคำนวณ หากคุณอนุญาตคำถามทั้งหมด Assistant อาจตอบ {PERSON} แม้จะเป็นคำถามสำหรับผู้ใหญ่ก็ตาม&lt;br/> &lt;br/> &lt;b>การดำเนินการสำหรับครอบครัว&lt;/b>&lt;br/> ตัวอย่างการดำเนินการ เช่น เมื่อคุณพูดว่า “Ok Google เล่านิทานให้ฟังหน่อย” นักพัฒนาแอปที่ได้รับอนุมัติสามารถสร้างการดำเนินการสำหรับครอบครัวที่เหมาะกับครอบครัวเพิ่มขึ้นได้ คุณตั้งค่าไม่ให้เข้าถึงการดำเนินการเหล่านี้ได้หากต้องการให้ {PERSON} ใช้เฉพาะการดำเนินการที่ Google สร้างขึ้น&lt;br/> &lt;br/> &lt;a href=\"https://support.google.com/assistant/?p=parental_controls\">ข้อมูลเพิ่มเติม&lt;/a> }}</string>
     <string name="assistant_custodio_how_assistant_features_settings_works_dialog_title">ข้อมูลเพิ่มเติมเกี่ยวกับฟีเจอร์ของ Assistant</string>
     <string name="assistant_custodio_how_it_works_dialog_body">&lt;b>วิธีที่ Assistant จดจำบุตรหลานของคุณ&lt;/b>&lt;br/> คุณตั้งค่าการควบคุมโดยผู้ปกครองได้หลังจากสร้างบัญชี Google สำหรับบุตรหลาน (หากยังไม่มี) ซึ่งทำได้โดยใช้แอป Google Family Link&lt;br/> &lt;br/> จากนั้นตั้งค่า Voice Match และอาจตั้งค่า Face Match สำหรับอุปกรณ์บางเครื่อง (ไม่บังคับ) เพื่อให้ Assistant จดจำบุตรหลานได้ วิธีนี้ช่วยให้คุณตั้งค่าที่แตกต่างกันสำหรับบุตรหลานแต่ละคน และผู้ใหญ่ก็ยังคงได้รับประสบการณ์การใช้งานเหมือนอย่างที่เคยได้&lt;br/> &lt;br/> &lt;b>สิ่งที่คุณควบคุมได้&lt;/b>&lt;br/> คุณตั้งค่าตัวกรองสื่อให้บล็อกเพลงหรือวิดีโอที่อาจไม่เหมาะสมกับบุตรหลานของคุณได้ และอาจเลือกว่าจะให้บุตรหลานเข้าถึงฟีเจอร์บางอย่างของ Assistant หรือไม่ เช่น การโทรออก&lt;br/> &lt;br/> หากต้องการให้บุตรหลานพักจากการใช้งานจอแสดงผลและลำโพงอัจฉริยะ คุณก็กำหนดเวลาพักการใช้งานได้ด้วย&lt;br/> &lt;br/> &lt;b>ใช้งานได้กับจอแสดงผลและลำโพงอัจฉริยะ&lt;/b>&lt;br/> การตั้งค่าการควบคุมโดยผู้ปกครองเหล่านี้ใช้งานได้กับจอแสดงผลและลำโพงอัจฉริยะในบ้านของคุณเท่านั้น คุณตั้งค่าตัวควบคุมสำหรับอุปกรณ์อื่นๆ บางเครื่องที่บุตรหลานใช้ได้ผ่านแอป Family Link&lt;br/> &lt;br/> &lt;a href=\"https://support.google.com/assistant/?p=parental_controls\">ข้อมูลเพิ่มเติม&lt;/a></string>
     <string name="assistant_custodio_how_it_works_dialog_primary_button_text">กลับ</string>
     <string name="assistant_custodio_how_it_works_dialog_title">วิธีการทำงานของการควบคุมโดยผู้ปกครอง</string>
-    <string name="assistant_custodio_how_music_setting_works_dialog_body_no_youtube">{GENDER,select, male{ เลือกสิ่งที่จะเกิดขึ้นเมื่อ {PERSON} ขอให้ Assistant เปิดเพลงในจอแสดงผลหรือลำโพงอัจฉริยะ ตัวกรองเหล่านี้จะไม่ส่งผลกระทบไม่ว่าบุตรหลานจะสามารถแคสต์เพลงจากอุปกรณ์อื่นๆ ได้หรือไม่ก็ตาม และโปรดทราบว่าไม่มีตัวกรองใดที่แม่นยำ 100﹪ &lt;br/> &lt;br/> &lt;b>เปิดได้ทุกเพลง&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ {PERSON} จะเปิดเพลงเหมือนกับที่คนอื่นๆ ทุกคนในบ้านเปิดได้&lt;br/> &lt;br/> &lt;b>เปิดได้บางเพลง&lt;/b>&lt;br/> คุณสามารถเลือกจากบริการบางแห่งซึ่งกรองเพลงที่อาจไม่เหมาะสมออกได้&lt;br/> &lt;br/> &lt;b>ไม่ต้องเปิดเพลง&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ Assistant จะบอก {PERSON} ว่าเพลงไม่พร้อมใช้งานหากบุตรหลานขอให้เปิดเพลง&lt;br/> &lt;br/> &lt;a href=\"https://support.google.com/assistant/?p=parental_controls\">ข้อมูลเพิ่มเติม&lt;/a> }female{ เลือกสิ่งที่จะเกิดขึ้นเมื่อ {PERSON} ขอให้ Assistant เปิดเพลงในจอแสดงผลหรือลำโพงอัจฉริยะ ตัวกรองเหล่านี้จะไม่ส่งผลกระทบไม่ว่าบุตรหลานจะสามารถแคสต์เพลงจากอุปกรณ์อื่นๆ ได้หรือไม่ก็ตาม และโปรดทราบว่าไม่มีตัวกรองใดที่แม่นยำ 100﹪ &lt;br/> &lt;br/> &lt;b>เปิดได้ทุกเพลง&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ {PERSON} จะเปิดเพลงเหมือนกับที่คนอื่นๆ ทุกคนในบ้านเปิดได้&lt;br/> &lt;br/> &lt;b>เปิดได้บางเพลง&lt;/b>&lt;br/> คุณสามารถเลือกจากบริการบางแห่งซึ่งกรองเพลงที่อาจไม่เหมาะสมออกได้&lt;br/> &lt;br/> &lt;b>ไม่ต้องเปิดเพลง&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ Assistant จะบอก {PERSON} ว่าเพลงไม่พร้อมใช้งานหากบุตรหลานขอให้เปิดเพลง&lt;br/> &lt;br/> &lt;a href=\"https://support.google.com/assistant/?p=parental_controls\">ข้อมูลเพิ่มเติม&lt;/a> }other{ เลือกสิ่งที่จะเกิดขึ้นเมื่อ {PERSON} ขอให้ Assistant เปิดเพลงในจอแสดงผลหรือลำโพงอัจฉริยะ ตัวกรองเหล่านี้จะไม่ส่งผลกระทบไม่ว่าบุตรหลานจะสามารถแคสต์เพลงจากอุปกรณ์อื่นๆ ได้หรือไม่ก็ตาม และโปรดทราบว่าไม่มีตัวกรองใดที่แม่นยำ 100﹪ &lt;br/> &lt;br/> &lt;b>เปิดได้ทุกเพลง&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ {PERSON} จะเปิดเพลงเหมือนกับที่คนอื่นๆ ทุกคนในบ้านเปิดได้&lt;br/> &lt;br/> &lt;b>เปิดได้บางเพลง&lt;/b>&lt;br/> คุณสามารถเลือกจากบริการบางแห่งซึ่งกรองเพลงที่อาจไม่เหมาะสมออกได้&lt;br/> &lt;br/> &lt;b>ไม่ต้องเปิดเพลง&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ Assistant จะบอก {PERSON} ว่าเพลงไม่พร้อมใช้งานหากบุตรหลานขอให้เปิดเพลง&lt;br/> &lt;br/> &lt;a href=\"https://support.google.com/assistant/?p=parental_controls\">ข้อมูลเพิ่มเติม&lt;/a> }}</string>
-    <string name="assistant_custodio_how_music_setting_works_dialog_body_with_youtube">{GENDER,select, male{ เลือกสิ่งที่จะเกิดขึ้นเมื่อ {PERSON} ขอให้ Assistant เปิดเพลงในจอแสดงผลหรือลำโพงอัจฉริยะ ตัวกรองเหล่านี้จะไม่ส่งผลกระทบไม่ว่าบุตรหลานจะสามารถแคสต์เพลงจากอุปกรณ์อื่นๆ ได้หรือไม่ก็ตาม และโปรดทราบว่าไม่มีตัวกรองใดที่แม่นยำ 100﹪ &lt;br/> &lt;br/> &lt;b>เปิดได้ทุกเพลง&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ {PERSON} จะเปิดเพลงเหมือนกับที่คนอื่นๆ ทุกคนในบ้านเปิดได้&lt;br/> &lt;br/> &lt;b>เปิดได้บางเพลง&lt;/b>&lt;br/> คุณสามารถเลือกจากบริการบางแห่งซึ่งกรองเพลงที่อาจไม่เหมาะสมออกได้ YouTube มีตัวเลือกเนื้อหาที่หลากหลาย และจะมีการใช้ตัวกรองต่างๆ เช่นกันเมื่อ {PERSON} ใช้แอปหรือเว็บไซต์ YouTube ในอุปกรณ์ที่อยู่ภายใต้การควบคุมดูแล เช่น โทรศัพท์ แท็บเล็ต หรือทีวี คุณจะเห็นตัวเลือกการตั้งค่า \"เนื้อหา\" เมื่อเลือก YouTube&lt;br/> &lt;br/> &lt;b>ไม่ต้องเปิดเพลง&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ Assistant จะบอก {PERSON} ว่าเพลงไม่พร้อมใช้งานหากบุตรหลานขอให้เปิดเพลง&lt;br/> &lt;br/> &lt;a href=\"https://support.google.com/assistant/?p=parental_controls\">ข้อมูลเพิ่มเติม&lt;/a> }female{ เลือกสิ่งที่จะเกิดขึ้นเมื่อ {PERSON} ขอให้ Assistant เปิดเพลงในจอแสดงผลหรือลำโพงอัจฉริยะ ตัวกรองเหล่านี้จะไม่ส่งผลกระทบไม่ว่าบุตรหลานจะสามารถแคสต์เพลงจากอุปกรณ์อื่นๆ ได้หรือไม่ก็ตาม และโปรดทราบว่าไม่มีตัวกรองใดที่แม่นยำ 100﹪ &lt;br/> &lt;br/> &lt;b>เปิดได้ทุกเพลง&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ {PERSON} จะเปิดเพลงเหมือนกับที่คนอื่นๆ ทุกคนในบ้านเปิดได้&lt;br/> &lt;br/> &lt;b>เปิดได้บางเพลง&lt;/b>&lt;br/> คุณสามารถเลือกจากบริการบางแห่งซึ่งกรองเพลงที่อาจไม่เหมาะสมออกได้ YouTube มีตัวเลือกเนื้อหาที่หลากหลาย และจะมีการใช้ตัวกรองต่างๆ เช่นกันเมื่อ {PERSON} ใช้แอปหรือเว็บไซต์ YouTube ในอุปกรณ์ที่อยู่ภายใต้การควบคุมดูแล เช่น โทรศัพท์ แท็บเล็ต หรือทีวี คุณจะเห็นตัวเลือกการตั้งค่า \"เนื้อหา\" เมื่อเลือก YouTube&lt;br/> &lt;br/> &lt;b>ไม่ต้องเปิดเพลง&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ Assistant จะบอก {PERSON} ว่าเพลงไม่พร้อมใช้งานหากบุตรหลานขอให้เปิดเพลง&lt;br/> &lt;br/> &lt;a href=\"https://support.google.com/assistant/?p=parental_controls\">ข้อมูลเพิ่มเติม&lt;/a> }other{ เลือกสิ่งที่จะเกิดขึ้นเมื่อ {PERSON} ขอให้ Assistant เปิดเพลงในจอแสดงผลหรือลำโพงอัจฉริยะ ตัวกรองเหล่านี้จะไม่ส่งผลกระทบไม่ว่าบุตรหลานจะสามารถแคสต์เพลงจากอุปกรณ์อื่นๆ ได้หรือไม่ก็ตาม และโปรดทราบว่าไม่มีตัวกรองใดที่แม่นยำ 100﹪ &lt;br/> &lt;br/> &lt;b>เปิดได้ทุกเพลง&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ {PERSON} จะเปิดเพลงเหมือนกับที่คนอื่นๆ ทุกคนในบ้านเปิดได้&lt;br/> &lt;br/> &lt;b>เปิดได้บางเพลง&lt;/b>&lt;br/> คุณสามารถเลือกจากบริการบางแห่งซึ่งกรองเพลงที่อาจไม่เหมาะสมออกได้ YouTube มีตัวเลือกเนื้อหาที่หลากหลาย และจะมีการใช้ตัวกรองต่างๆ เช่นกันเมื่อ {PERSON} ใช้แอปหรือเว็บไซต์ YouTube ในอุปกรณ์ที่อยู่ภายใต้การควบคุมดูแล เช่น โทรศัพท์ แท็บเล็ต หรือทีวี คุณจะเห็นตัวเลือกการตั้งค่า \"เนื้อหา\" เมื่อเลือก YouTube&lt;br/> &lt;br/> &lt;b>ไม่ต้องเปิดเพลง&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ Assistant จะบอก {PERSON} ว่าเพลงไม่พร้อมใช้งานหากบุตรหลานขอให้เปิดเพลง&lt;br/> &lt;br/> &lt;a href=\"https://support.google.com/assistant/?p=parental_controls\">ข้อมูลเพิ่มเติม&lt;/a> }}</string>
+    <string name="assistant_custodio_how_music_setting_works_dialog_body_no_youtube">{GENDER,select, male{ เลือกสิ่งที่จะเกิดขึ้นเมื่อ {PERSON} ขอให้ Assistant เปิดเพลงในจอหรือลำโพงอัจฉริยะ ตัวกรองเหล่านี้จะไม่ส่งผลกระทบไม่ว่าบุตรหลานจะสามารถแคสต์เพลงจากอุปกรณ์อื่นๆ ได้หรือไม่ก็ตาม และโปรดทราบว่าไม่มีตัวกรองใดที่แม่นยำ 100﹪ &lt;br/> &lt;br/> &lt;b>เปิดได้ทุกเพลง&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ {PERSON} จะเปิดเพลงเหมือนกับที่คนอื่นๆ ทุกคนในบ้านเปิดได้&lt;br/> &lt;br/> &lt;b>เปิดได้บางเพลง&lt;/b>&lt;br/> คุณสามารถเลือกจากบริการบางแห่งซึ่งกรองเพลงที่อาจไม่เหมาะสมออกได้&lt;br/> &lt;br/> &lt;b>ไม่ต้องเปิดเพลง&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ Assistant จะบอก {PERSON} ว่าเพลงไม่พร้อมใช้งานหากบุตรหลานขอให้เปิดเพลง&lt;br/> &lt;br/> &lt;a href=\"https://support.google.com/assistant/?p=parental_controls\">ข้อมูลเพิ่มเติม&lt;/a> }female{ เลือกสิ่งที่จะเกิดขึ้นเมื่อ {PERSON} ขอให้ Assistant เปิดเพลงในจอหรือลำโพงอัจฉริยะ ตัวกรองเหล่านี้จะไม่ส่งผลกระทบไม่ว่าบุตรหลานจะสามารถแคสต์เพลงจากอุปกรณ์อื่นๆ ได้หรือไม่ก็ตาม และโปรดทราบว่าไม่มีตัวกรองใดที่แม่นยำ 100﹪ &lt;br/> &lt;br/> &lt;b>เปิดได้ทุกเพลง&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ {PERSON} จะเปิดเพลงเหมือนกับที่คนอื่นๆ ทุกคนในบ้านเปิดได้&lt;br/> &lt;br/> &lt;b>เปิดได้บางเพลง&lt;/b>&lt;br/> คุณสามารถเลือกจากบริการบางแห่งซึ่งกรองเพลงที่อาจไม่เหมาะสมออกได้&lt;br/> &lt;br/> &lt;b>ไม่ต้องเปิดเพลง&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ Assistant จะบอก {PERSON} ว่าเพลงไม่พร้อมใช้งานหากบุตรหลานขอให้เปิดเพลง&lt;br/> &lt;br/> &lt;a href=\"https://support.google.com/assistant/?p=parental_controls\">ข้อมูลเพิ่มเติม&lt;/a> }other{ เลือกสิ่งที่จะเกิดขึ้นเมื่อ {PERSON} ขอให้ Assistant เปิดเพลงในจอหรือลำโพงอัจฉริยะ ตัวกรองเหล่านี้จะไม่ส่งผลกระทบไม่ว่าบุตรหลานจะสามารถแคสต์เพลงจากอุปกรณ์อื่นๆ ได้หรือไม่ก็ตาม และโปรดทราบว่าไม่มีตัวกรองใดที่แม่นยำ 100﹪ &lt;br/> &lt;br/> &lt;b>เปิดได้ทุกเพลง&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ {PERSON} จะเปิดเพลงเหมือนกับที่คนอื่นๆ ทุกคนในบ้านเปิดได้&lt;br/> &lt;br/> &lt;b>เปิดได้บางเพลง&lt;/b>&lt;br/> คุณสามารถเลือกจากบริการบางแห่งซึ่งกรองเพลงที่อาจไม่เหมาะสมออกได้&lt;br/> &lt;br/> &lt;b>ไม่ต้องเปิดเพลง&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ Assistant จะบอก {PERSON} ว่าเพลงไม่พร้อมใช้งานหากบุตรหลานขอให้เปิดเพลง&lt;br/> &lt;br/> &lt;a href=\"https://support.google.com/assistant/?p=parental_controls\">ข้อมูลเพิ่มเติม&lt;/a> }}</string>
+    <string name="assistant_custodio_how_music_setting_works_dialog_body_with_youtube">{GENDER,select, male{ เลือกสิ่งที่จะเกิดขึ้นเมื่อ {PERSON} ขอให้ Assistant เปิดเพลงในจอหรือลำโพงอัจฉริยะ ตัวกรองเหล่านี้จะไม่ส่งผลกระทบไม่ว่าบุตรหลานจะสามารถแคสต์เพลงจากอุปกรณ์อื่นๆ ได้หรือไม่ก็ตาม และโปรดทราบว่าไม่มีตัวกรองใดที่แม่นยำ 100﹪ &lt;br/> &lt;br/> &lt;b>เปิดได้ทุกเพลง&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ {PERSON} จะเปิดเพลงเหมือนกับที่คนอื่นๆ ทุกคนในบ้านเปิดได้&lt;br/> &lt;br/> &lt;b>เปิดได้บางเพลง&lt;/b>&lt;br/> คุณสามารถเลือกจากบริการบางแห่งซึ่งกรองเพลงที่อาจไม่เหมาะสมออกได้ YouTube มีตัวเลือกเนื้อหาที่หลากหลาย และจะมีการใช้ตัวกรองต่างๆ เช่นกันเมื่อ {PERSON} ใช้แอปหรือเว็บไซต์ YouTube ในอุปกรณ์ที่อยู่ภายใต้การควบคุมดูแล เช่น โทรศัพท์ แท็บเล็ต หรือทีวี คุณจะเห็นตัวเลือกการตั้งค่า \"เนื้อหา\" เมื่อเลือก YouTube&lt;br/> &lt;br/> &lt;b>ไม่ต้องเปิดเพลง&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ Assistant จะบอก {PERSON} ว่าเพลงไม่พร้อมใช้งานหากบุตรหลานขอให้เปิดเพลง&lt;br/> &lt;br/> &lt;a href=\"https://support.google.com/assistant/?p=parental_controls\">ข้อมูลเพิ่มเติม&lt;/a> }female{ เลือกสิ่งที่จะเกิดขึ้นเมื่อ {PERSON} ขอให้ Assistant เปิดเพลงในจอหรือลำโพงอัจฉริยะ ตัวกรองเหล่านี้จะไม่ส่งผลกระทบไม่ว่าบุตรหลานจะสามารถแคสต์เพลงจากอุปกรณ์อื่นๆ ได้หรือไม่ก็ตาม และโปรดทราบว่าไม่มีตัวกรองใดที่แม่นยำ 100﹪ &lt;br/> &lt;br/> &lt;b>เปิดได้ทุกเพลง&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ {PERSON} จะเปิดเพลงเหมือนกับที่คนอื่นๆ ทุกคนในบ้านเปิดได้&lt;br/> &lt;br/> &lt;b>เปิดได้บางเพลง&lt;/b>&lt;br/> คุณสามารถเลือกจากบริการบางแห่งซึ่งกรองเพลงที่อาจไม่เหมาะสมออกได้ YouTube มีตัวเลือกเนื้อหาที่หลากหลาย และจะมีการใช้ตัวกรองต่างๆ เช่นกันเมื่อ {PERSON} ใช้แอปหรือเว็บไซต์ YouTube ในอุปกรณ์ที่อยู่ภายใต้การควบคุมดูแล เช่น โทรศัพท์ แท็บเล็ต หรือทีวี คุณจะเห็นตัวเลือกการตั้งค่า \"เนื้อหา\" เมื่อเลือก YouTube&lt;br/> &lt;br/> &lt;b>ไม่ต้องเปิดเพลง&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ Assistant จะบอก {PERSON} ว่าเพลงไม่พร้อมใช้งานหากบุตรหลานขอให้เปิดเพลง&lt;br/> &lt;br/> &lt;a href=\"https://support.google.com/assistant/?p=parental_controls\">ข้อมูลเพิ่มเติม&lt;/a> }other{ เลือกสิ่งที่จะเกิดขึ้นเมื่อ {PERSON} ขอให้ Assistant เปิดเพลงในจอหรือลำโพงอัจฉริยะ ตัวกรองเหล่านี้จะไม่ส่งผลกระทบไม่ว่าบุตรหลานจะสามารถแคสต์เพลงจากอุปกรณ์อื่นๆ ได้หรือไม่ก็ตาม และโปรดทราบว่าไม่มีตัวกรองใดที่แม่นยำ 100﹪ &lt;br/> &lt;br/> &lt;b>เปิดได้ทุกเพลง&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ {PERSON} จะเปิดเพลงเหมือนกับที่คนอื่นๆ ทุกคนในบ้านเปิดได้&lt;br/> &lt;br/> &lt;b>เปิดได้บางเพลง&lt;/b>&lt;br/> คุณสามารถเลือกจากบริการบางแห่งซึ่งกรองเพลงที่อาจไม่เหมาะสมออกได้ YouTube มีตัวเลือกเนื้อหาที่หลากหลาย และจะมีการใช้ตัวกรองต่างๆ เช่นกันเมื่อ {PERSON} ใช้แอปหรือเว็บไซต์ YouTube ในอุปกรณ์ที่อยู่ภายใต้การควบคุมดูแล เช่น โทรศัพท์ แท็บเล็ต หรือทีวี คุณจะเห็นตัวเลือกการตั้งค่า \"เนื้อหา\" เมื่อเลือก YouTube&lt;br/> &lt;br/> &lt;b>ไม่ต้องเปิดเพลง&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ Assistant จะบอก {PERSON} ว่าเพลงไม่พร้อมใช้งานหากบุตรหลานขอให้เปิดเพลง&lt;br/> &lt;br/> &lt;a href=\"https://support.google.com/assistant/?p=parental_controls\">ข้อมูลเพิ่มเติม&lt;/a> }}</string>
     <string name="assistant_custodio_how_music_setting_works_dialog_title">วิธีการทํางานของตัวกรองเพลง</string>
-    <string name="assistant_custodio_how_video_setting_works_dialog_body_no_providers">{GENDER,select, male{ เลือกสิ่งที่จะเกิดขึ้นเมื่อ {PERSON} ขอให้ Assistant เปิดวิดีโอในจอแสดงผลหรือลำโพงอัจฉริยะ ตัวกรองเหล่านี้จะไม่ส่งผลกระทบไม่ว่าบุตรหลานจะสามารถแคสต์วิดีโอจากอุปกรณ์อื่นๆ ได้หรือไม่ก็ตาม และโปรดทราบว่าไม่มีตัวกรองใดที่แม่นยำ 100﹪&lt;br/> &lt;br/> &lt;b>เปิดได้ทุกวิดีโอ&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ {PERSON} จะเปิดวิดีโอเหมือนกับที่คนอื่นๆ ทุกคนในบ้านเปิดได้&lt;br/> &lt;br/> &lt;b>ไม่ต้องเปิดวิดีโอ&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ Assistant จะบอก {PERSON} ว่าวิดีโอไม่พร้อมใช้งานหากบุตรหลานขอให้เปิดวิดีโอ โปรดทราบว่าหากคุณอนุญาตข่าว {PERSON} จะยังคงดูวิดีโอบนอุปกรณ์อย่างจอแสดงผลอัจฉริยะได้อยู่&lt;br/> &lt;br/> &lt;a href=\"https://support.google.com/assistant/?p=parental_controls\">ข้อมูลเพิ่มเติม&lt;/a> }female{ เลือกสิ่งที่จะเกิดขึ้นเมื่อ {PERSON} ขอให้ Assistant เปิดวิดีโอในจอแสดงผลหรือลำโพงอัจฉริยะ ตัวกรองเหล่านี้จะไม่ส่งผลกระทบไม่ว่าบุตรหลานจะสามารถแคสต์วิดีโอจากอุปกรณ์อื่นๆ ได้หรือไม่ก็ตาม และโปรดทราบว่าไม่มีตัวกรองใดที่แม่นยำ 100﹪&lt;br/> &lt;br/> &lt;b>เปิดได้ทุกวิดีโอ&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ {PERSON} จะเปิดวิดีโอเหมือนกับที่คนอื่นๆ ทุกคนในบ้านเปิดได้&lt;br/> &lt;br/> &lt;b>ไม่ต้องเปิดวิดีโอ&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ Assistant จะบอก {PERSON} ว่าวิดีโอไม่พร้อมใช้งานหากบุตรหลานขอให้เปิดวิดีโอ โปรดทราบว่าหากคุณอนุญาตข่าว {PERSON} จะยังคงดูวิดีโอบนอุปกรณ์อย่างจอแสดงผลอัจฉริยะได้อยู่&lt;br/> &lt;br/> &lt;a href=\"https://support.google.com/assistant/?p=parental_controls\">ข้อมูลเพิ่มเติม&lt;/a> }other{ เลือกสิ่งที่จะเกิดขึ้นเมื่อ {PERSON} ขอให้ Assistant เปิดวิดีโอในจอแสดงผลหรือลำโพงอัจฉริยะ ตัวกรองเหล่านี้จะไม่ส่งผลกระทบไม่ว่าบุตรหลานจะสามารถแคสต์วิดีโอจากอุปกรณ์อื่นๆ ได้หรือไม่ก็ตาม และโปรดทราบว่าไม่มีตัวกรองใดที่แม่นยำ 100﹪&lt;br/> &lt;br/> &lt;b>เปิดได้ทุกวิดีโอ&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ {PERSON} จะเปิดวิดีโอเหมือนกับที่คนอื่นๆ ทุกคนในบ้านเปิดได้&lt;br/> &lt;br/> &lt;b>ไม่ต้องเปิดวิดีโอ&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ Assistant จะบอก {PERSON} ว่าวิดีโอไม่พร้อมใช้งานหากบุตรหลานขอให้เปิดวิดีโอ โปรดทราบว่าหากคุณอนุญาตข่าว {PERSON} จะยังคงดูวิดีโอบนอุปกรณ์อย่างจอแสดงผลอัจฉริยะได้อยู่&lt;br/> &lt;br/> &lt;a href=\"https://support.google.com/assistant/?p=parental_controls\">ข้อมูลเพิ่มเติม&lt;/a> }}</string>
-    <string name="assistant_custodio_how_video_setting_works_dialog_body_with_youtube">{GENDER,select, male{ เลือกสิ่งที่จะเกิดขึ้นเมื่อ {PERSON} ขอให้ Assistant เปิดวิดีโอในจอแสดงผลหรือลำโพงอัจฉริยะ ตัวกรองเหล่านี้จะไม่ส่งผลกระทบไม่ว่าบุตรหลานจะสามารถแคสต์วิดีโอจากอุปกรณ์อื่นๆ ได้หรือไม่ก็ตาม และโปรดทราบว่าไม่มีตัวกรองใดที่แม่นยำ 100﹪&lt;br/> &lt;br/> &lt;b>เปิดได้ทุกวิดีโอ&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ {PERSON} จะเปิดวิดีโอเหมือนกับที่คนอื่นๆ ทุกคนในบ้านเปิดได้&lt;br/> &lt;br/> &lt;b>เปิดได้บางวิดีโอ&lt;/b>&lt;br/> YouTube มีตัวเลือกเนื้อหาที่หลากหลาย และจะมีการใช้ตัวกรองต่างๆ เช่นกันเมื่อ {PERSON} ใช้แอปหรือเว็บไซต์ YouTube ในอุปกรณ์ที่อยู่ภายใต้การควบคุมดูแล เช่น โทรศัพท์ แท็บเล็ต หรือทีวี คุณจะเห็นตัวเลือกการตั้งค่า \"เนื้อหา\" เมื่อเลือก YouTube&lt;br/> &lt;br/> &lt;b>ไม่ต้องเปิดวิดีโอ&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ Assistant จะบอก {PERSON} ว่าวิดีโอไม่พร้อมใช้งานหากบุตรหลานขอให้เปิดวิดีโอ โปรดทราบว่าหากคุณอนุญาต YouTube Music หรือข่าว {PERSON} จะยังคงดูวิดีโอบนอุปกรณ์อย่างจอแสดงผลอัจฉริยะได้อยู่&lt;br/> &lt;br/> &lt;a href=\"https://support.google.com/assistant/?p=parental_controls\">ข้อมูลเพิ่มเติม&lt;/a> }female{ เลือกสิ่งที่จะเกิดขึ้นเมื่อ {PERSON} ขอให้ Assistant เปิดวิดีโอในจอแสดงผลหรือลำโพงอัจฉริยะ ตัวกรองเหล่านี้จะไม่ส่งผลกระทบไม่ว่าบุตรหลานจะสามารถแคสต์วิดีโอจากอุปกรณ์อื่นๆ ได้หรือไม่ก็ตาม และโปรดทราบว่าไม่มีตัวกรองใดที่แม่นยำ 100﹪&lt;br/> &lt;br/> &lt;b>เปิดได้ทุกวิดีโอ&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ {PERSON} จะเปิดวิดีโอเหมือนกับที่คนอื่นๆ ทุกคนในบ้านเปิดได้&lt;br/> &lt;br/> &lt;b>เปิดได้บางวิดีโอ&lt;/b>&lt;br/> YouTube มีตัวเลือกเนื้อหาที่หลากหลาย และจะมีการใช้ตัวกรองต่างๆ เช่นกันเมื่อ {PERSON} ใช้แอปหรือเว็บไซต์ YouTube ในอุปกรณ์ที่อยู่ภายใต้การควบคุมดูแล เช่น โทรศัพท์ แท็บเล็ต หรือทีวี คุณจะเห็นตัวเลือกการตั้งค่า \"เนื้อหา\" เมื่อเลือก YouTube&lt;br/> &lt;br/> &lt;b>ไม่ต้องเปิดวิดีโอ&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ Assistant จะบอก {PERSON} ว่าวิดีโอไม่พร้อมใช้งานหากบุตรหลานขอให้เปิดวิดีโอ โปรดทราบว่าหากคุณอนุญาต YouTube Music หรือข่าว {PERSON} จะยังคงดูวิดีโอบนอุปกรณ์อย่างจอแสดงผลอัจฉริยะได้อยู่&lt;br/> &lt;br/> &lt;a href=\"https://support.google.com/assistant/?p=parental_controls\">ข้อมูลเพิ่มเติม&lt;/a> }other{ เลือกสิ่งที่จะเกิดขึ้นเมื่อ {PERSON} ขอให้ Assistant เปิดวิดีโอในจอแสดงผลหรือลำโพงอัจฉริยะ ตัวกรองเหล่านี้จะไม่ส่งผลกระทบไม่ว่าบุตรหลานจะสามารถแคสต์วิดีโอจากอุปกรณ์อื่นๆ ได้หรือไม่ก็ตาม และโปรดทราบว่าไม่มีตัวกรองใดที่แม่นยำ 100﹪&lt;br/> &lt;br/> &lt;b>เปิดได้ทุกวิดีโอ&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ {PERSON} จะเปิดวิดีโอเหมือนกับที่คนอื่นๆ ทุกคนในบ้านเปิดได้&lt;br/> &lt;br/> &lt;b>เปิดได้บางวิดีโอ&lt;/b>&lt;br/> YouTube มีตัวเลือกเนื้อหาที่หลากหลาย และจะมีการใช้ตัวกรองต่างๆ เช่นกันเมื่อ {PERSON} ใช้แอปหรือเว็บไซต์ YouTube ในอุปกรณ์ที่อยู่ภายใต้การควบคุมดูแล เช่น โทรศัพท์ แท็บเล็ต หรือทีวี คุณจะเห็นตัวเลือกการตั้งค่า \"เนื้อหา\" เมื่อเลือก YouTube&lt;br/> &lt;br/> &lt;b>ไม่ต้องเปิดวิดีโอ&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ Assistant จะบอก {PERSON} ว่าวิดีโอไม่พร้อมใช้งานหากบุตรหลานขอให้เปิดวิดีโอ โปรดทราบว่าหากคุณอนุญาต YouTube Music หรือข่าว {PERSON} จะยังคงดูวิดีโอบนอุปกรณ์อย่างจอแสดงผลอัจฉริยะได้อยู่&lt;br/> &lt;br/> &lt;a href=\"https://support.google.com/assistant/?p=parental_controls\">ข้อมูลเพิ่มเติม&lt;/a> }}</string>
+    <string name="assistant_custodio_how_video_setting_works_dialog_body_no_providers">{GENDER,select, male{ เลือกสิ่งที่จะเกิดขึ้นเมื่อ {PERSON} ขอให้ Assistant เปิดวิดีโอในจอหรือลำโพงอัจฉริยะ ตัวกรองเหล่านี้จะไม่ส่งผลกระทบไม่ว่าบุตรหลานจะสามารถแคสต์วิดีโอจากอุปกรณ์อื่นๆ ได้หรือไม่ก็ตาม และโปรดทราบว่าไม่มีตัวกรองใดที่แม่นยำ 100﹪&lt;br/> &lt;br/> &lt;b>เปิดได้ทุกวิดีโอ&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ {PERSON} จะเปิดวิดีโอเหมือนกับที่คนอื่นๆ ทุกคนในบ้านเปิดได้&lt;br/> &lt;br/> &lt;b>ไม่ต้องเปิดวิดีโอ&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ Assistant จะบอก {PERSON} ว่าวิดีโอไม่พร้อมใช้งานหากบุตรหลานขอให้เปิดวิดีโอ โปรดทราบว่าหากคุณอนุญาตข่าว {PERSON} จะยังคงดูวิดีโอบนอุปกรณ์อย่างจออัจฉริยะได้อยู่&lt;br/> &lt;br/> &lt;a href=\"https://support.google.com/assistant/?p=parental_controls\">ข้อมูลเพิ่มเติม&lt;/a> }female{ เลือกสิ่งที่จะเกิดขึ้นเมื่อ {PERSON} ขอให้ Assistant เปิดวิดีโอในจอหรือลำโพงอัจฉริยะ ตัวกรองเหล่านี้จะไม่ส่งผลกระทบไม่ว่าบุตรหลานจะสามารถแคสต์วิดีโอจากอุปกรณ์อื่นๆ ได้หรือไม่ก็ตาม และโปรดทราบว่าไม่มีตัวกรองใดที่แม่นยำ 100﹪&lt;br/> &lt;br/> &lt;b>เปิดได้ทุกวิดีโอ&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ {PERSON} จะเปิดวิดีโอเหมือนกับที่คนอื่นๆ ทุกคนในบ้านเปิดได้&lt;br/> &lt;br/> &lt;b>ไม่ต้องเปิดวิดีโอ&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ Assistant จะบอก {PERSON} ว่าวิดีโอไม่พร้อมใช้งานหากบุตรหลานขอให้เปิดวิดีโอ โปรดทราบว่าหากคุณอนุญาตข่าว {PERSON} จะยังคงดูวิดีโอบนอุปกรณ์อย่างจออัจฉริยะได้อยู่&lt;br/> &lt;br/> &lt;a href=\"https://support.google.com/assistant/?p=parental_controls\">ข้อมูลเพิ่มเติม&lt;/a> }other{ เลือกสิ่งที่จะเกิดขึ้นเมื่อ {PERSON} ขอให้ Assistant เปิดวิดีโอในจอหรือลำโพงอัจฉริยะ ตัวกรองเหล่านี้จะไม่ส่งผลกระทบไม่ว่าบุตรหลานจะสามารถแคสต์วิดีโอจากอุปกรณ์อื่นๆ ได้หรือไม่ก็ตาม และโปรดทราบว่าไม่มีตัวกรองใดที่แม่นยำ 100﹪&lt;br/> &lt;br/> &lt;b>เปิดได้ทุกวิดีโอ&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ {PERSON} จะเปิดวิดีโอเหมือนกับที่คนอื่นๆ ทุกคนในบ้านเปิดได้&lt;br/> &lt;br/> &lt;b>ไม่ต้องเปิดวิดีโอ&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ Assistant จะบอก {PERSON} ว่าวิดีโอไม่พร้อมใช้งานหากบุตรหลานขอให้เปิดวิดีโอ โปรดทราบว่าหากคุณอนุญาตข่าว {PERSON} จะยังคงดูวิดีโอบนอุปกรณ์อย่างจออัจฉริยะได้อยู่&lt;br/> &lt;br/> &lt;a href=\"https://support.google.com/assistant/?p=parental_controls\">ข้อมูลเพิ่มเติม&lt;/a> }}</string>
+    <string name="assistant_custodio_how_video_setting_works_dialog_body_with_youtube">{GENDER,select, male{ เลือกสิ่งที่จะเกิดขึ้นเมื่อ {PERSON} ขอให้ Assistant เปิดวิดีโอในจอหรือลำโพงอัจฉริยะ ตัวกรองเหล่านี้จะไม่ส่งผลกระทบไม่ว่าบุตรหลานจะสามารถแคสต์วิดีโอจากอุปกรณ์อื่นๆ ได้หรือไม่ก็ตาม และโปรดทราบว่าไม่มีตัวกรองใดที่แม่นยำ 100﹪&lt;br/> &lt;br/> &lt;b>เปิดได้ทุกวิดีโอ&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ {PERSON} จะเปิดวิดีโอเหมือนกับที่คนอื่นๆ ทุกคนในบ้านเปิดได้&lt;br/> &lt;br/> &lt;b>เปิดได้บางวิดีโอ&lt;/b>&lt;br/> YouTube มีตัวเลือกเนื้อหาที่หลากหลาย และจะมีการใช้ตัวกรองต่างๆ เช่นกันเมื่อ {PERSON} ใช้แอปหรือเว็บไซต์ YouTube ในอุปกรณ์ที่อยู่ภายใต้การควบคุมดูแล เช่น โทรศัพท์ แท็บเล็ต หรือทีวี คุณจะเห็นตัวเลือกการตั้งค่า \"เนื้อหา\" เมื่อเลือก YouTube&lt;br/> &lt;br/> &lt;b>ไม่ต้องเปิดวิดีโอ&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ Assistant จะบอก {PERSON} ว่าวิดีโอไม่พร้อมใช้งานหากบุตรหลานขอให้เปิดวิดีโอ โปรดทราบว่าหากคุณอนุญาต YouTube Music หรือข่าว {PERSON} จะยังคงดูวิดีโอบนอุปกรณ์อย่างจออัจฉริยะได้อยู่&lt;br/> &lt;br/> &lt;a href=\"https://support.google.com/assistant/?p=parental_controls\">ข้อมูลเพิ่มเติม&lt;/a> }female{ เลือกสิ่งที่จะเกิดขึ้นเมื่อ {PERSON} ขอให้ Assistant เปิดวิดีโอในจอหรือลำโพงอัจฉริยะ ตัวกรองเหล่านี้จะไม่ส่งผลกระทบไม่ว่าบุตรหลานจะสามารถแคสต์วิดีโอจากอุปกรณ์อื่นๆ ได้หรือไม่ก็ตาม และโปรดทราบว่าไม่มีตัวกรองใดที่แม่นยำ 100﹪&lt;br/> &lt;br/> &lt;b>เปิดได้ทุกวิดีโอ&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ {PERSON} จะเปิดวิดีโอเหมือนกับที่คนอื่นๆ ทุกคนในบ้านเปิดได้&lt;br/> &lt;br/> &lt;b>เปิดได้บางวิดีโอ&lt;/b>&lt;br/> YouTube มีตัวเลือกเนื้อหาที่หลากหลาย และจะมีการใช้ตัวกรองต่างๆ เช่นกันเมื่อ {PERSON} ใช้แอปหรือเว็บไซต์ YouTube ในอุปกรณ์ที่อยู่ภายใต้การควบคุมดูแล เช่น โทรศัพท์ แท็บเล็ต หรือทีวี คุณจะเห็นตัวเลือกการตั้งค่า \"เนื้อหา\" เมื่อเลือก YouTube&lt;br/> &lt;br/> &lt;b>ไม่ต้องเปิดวิดีโอ&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ Assistant จะบอก {PERSON} ว่าวิดีโอไม่พร้อมใช้งานหากบุตรหลานขอให้เปิดวิดีโอ โปรดทราบว่าหากคุณอนุญาต YouTube Music หรือข่าว {PERSON} จะยังคงดูวิดีโอบนอุปกรณ์อย่างจออัจฉริยะได้อยู่&lt;br/> &lt;br/> &lt;a href=\"https://support.google.com/assistant/?p=parental_controls\">ข้อมูลเพิ่มเติม&lt;/a> }other{ เลือกสิ่งที่จะเกิดขึ้นเมื่อ {PERSON} ขอให้ Assistant เปิดวิดีโอในจอหรือลำโพงอัจฉริยะ ตัวกรองเหล่านี้จะไม่ส่งผลกระทบไม่ว่าบุตรหลานจะสามารถแคสต์วิดีโอจากอุปกรณ์อื่นๆ ได้หรือไม่ก็ตาม และโปรดทราบว่าไม่มีตัวกรองใดที่แม่นยำ 100﹪&lt;br/> &lt;br/> &lt;b>เปิดได้ทุกวิดีโอ&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ {PERSON} จะเปิดวิดีโอเหมือนกับที่คนอื่นๆ ทุกคนในบ้านเปิดได้&lt;br/> &lt;br/> &lt;b>เปิดได้บางวิดีโอ&lt;/b>&lt;br/> YouTube มีตัวเลือกเนื้อหาที่หลากหลาย และจะมีการใช้ตัวกรองต่างๆ เช่นกันเมื่อ {PERSON} ใช้แอปหรือเว็บไซต์ YouTube ในอุปกรณ์ที่อยู่ภายใต้การควบคุมดูแล เช่น โทรศัพท์ แท็บเล็ต หรือทีวี คุณจะเห็นตัวเลือกการตั้งค่า \"เนื้อหา\" เมื่อเลือก YouTube&lt;br/> &lt;br/> &lt;b>ไม่ต้องเปิดวิดีโอ&lt;/b>&lt;br/> เมื่อใช้ตัวเลือกนี้ Assistant จะบอก {PERSON} ว่าวิดีโอไม่พร้อมใช้งานหากบุตรหลานขอให้เปิดวิดีโอ โปรดทราบว่าหากคุณอนุญาต YouTube Music หรือข่าว {PERSON} จะยังคงดูวิดีโอบนอุปกรณ์อย่างจออัจฉริยะได้อยู่&lt;br/> &lt;br/> &lt;a href=\"https://support.google.com/assistant/?p=parental_controls\">ข้อมูลเพิ่มเติม&lt;/a> }}</string>
     <string name="assistant_custodio_how_video_setting_works_dialog_title">วิธีการทํางานของตัวกรองวิดีโอ</string>
     <string name="assistant_custodio_media_provider_dot_text">•</string>
     <string name="assistant_custodio_media_settings_fragment_music_item_title">ดนตรี</string>
@@ -743,6 +750,7 @@
     <string name="assistant_custodio_youtube_media_provider_name">YouTube</string>
     <string name="assistant_default_error_message">เกิดข้อผิดพลาด โปรดลองอีกครั้ง</string>
     <string name="assistant_dictation_ineligible_aiai_version">ถ้าจะใช้การพิมพ์ด้วยเสียงจาก Assistant ให้อัปเดตแอป Android System Intelligence ของคุณใน Google Play &lt;a href=\"https://play.google.com/store/apps/details?id=com.google.android.as\">Update&lt;/a> &lt;br> &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#update_app\">ดูข้อมูลเพิ่มเติม&lt;/a></string>
+    <string name="assistant_dictation_ineligible_android_old_version">ถ้าจะใช้การพิมพ์ด้วยเสียงจาก Assistant ให้อัปเดตระบบ Android ของคุณ &lt;a href=\"intent:#Intent;action=android.settings.SYSTEM_UPDATE_SETTINGS;end\">อัปเดต&lt;/a> &lt;br> &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#update_app\">ดูข้อมูลเพิ่มเติม&lt;/a></string>
     <string name="assistant_dictation_ineligible_download_needed">การพิมพ์ด้วยเสียงจาก Assistant จำเป็นต้องอัปเดต เชื่อมต่อ Wi-Fi เพื่อดาวน์โหลดโดยอัตโนมัติ &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#update_to_use\">ดูข้อมูลเพิ่มเติม&lt;/a></string>
     <string name="assistant_dictation_ineligible_generic">คุณใช้การพิมพ์ด้วยเสียงจาก Assistant ไม่ได้ตอนนี้ &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#fix_issues_assistant_voice_typing\">ดูข้อมูลเพิ่มเติม&lt;/a></string>
     <string name="assistant_dictation_ineligible_locale_mismatch">ถ้าจะใช้การพิมพ์ด้วยเสียงจาก Assistant ภาษาหลักของ Gboard และอุปกรณ์ต้องเป็นภาษาเดียวกัน &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#device_language\">ดูข้อมูลเพิ่มเติม&lt;/a></string>
@@ -752,29 +760,25 @@
     <string name="assistant_dictation_ineligible_work_profile">การพิมพ์ด้วยเสียงจาก Assistant ไม่พร้อมให้บริการในตอนนี้สำหรับแอปในโปรไฟล์งาน เปลี่ยนไปใช้แอปส่วนตัวเพื่อใช้ฟีเจอร์นี้ &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#not_available_work_profile\">ดูข้อมูลเพิ่มเติม&lt;/a></string>
     <string name="assistant_edit_app_control_suggestion">แก้ไข</string>
     <string name="assistant_features_title">ทำสิ่งต่างๆ ให้เสร็จ</string>
-    <string name="assistant_flight_chip_boarding_pass">Boarding Pass</string>
-    <string name="assistant_flight_chip_check_in">Check in for your flight</string>
-    <string name="assistant_flight_chip_more_info">More Flight Info</string>
-    <string name="assistant_flight_departure_gate_info">Gate %1$s</string>
-    <string name="assistant_flight_departure_info">%1$s to %2$s departs in %3$s</string>
-    <string name="assistant_flight_departure_info_now">%1$s to %2$s departs now</string>
-    <string name="assistant_flight_departure_info_static_time">%1$s to %2$s departs at %3$s</string>
-    <string name="assistant_flight_departure_info_static_without_time">%1$s to %2$s</string>
-    <string name="assistant_flight_departure_terminal_info">Terminal %1$s</string>
-    <string name="assistant_flight_departure_time_delayed_info">Departs %1$s (<strike>%2$s</strike>)</string>
-    <string name="assistant_flight_departure_time_info">Departs %1$s</string>
-    <string name="assistant_flight_seat_info">Seat %1$s</string>
-    <string name="assistant_flight_to_delayed_info">Delayed: Flight to %1$s</string>
-    <string name="assistant_flight_to_info">Flight to %1$s</string>
+    <string name="assistant_flight_chip_boarding_pass">บอร์ดดิ้งพาส</string>
+    <string name="assistant_flight_chip_check_in">เช็คอินเที่ยวบิน</string>
+    <string name="assistant_flight_chip_more_info">ข้อมูลเพิ่มเติมเกี่ยวกับเที่ยวบิน</string>
+    <string name="assistant_flight_departure_gate_info">ประตูทางออก %1$s</string>
+    <string name="assistant_flight_departure_info">%1$s ไป %2$s จะออกเดินทางใน %3$s</string>
+    <string name="assistant_flight_departure_info_now">%1$s ไป %2$s กำลังออกเดินทาง</string>
+    <string name="assistant_flight_departure_info_static_time">%1$s ไป %2$s ออกเดินทางเวลา %3$s</string>
+    <string name="assistant_flight_departure_info_static_without_time">%1$s ไป %2$s</string>
+    <string name="assistant_flight_departure_terminal_info">อาคารผู้โดยสาร %1$s</string>
+    <string name="assistant_flight_departure_time_delayed_info">ออกเดินทาง %1$s (<strike>%2$s</strike>)</string>
+    <string name="assistant_flight_departure_time_info">ออกเดินทาง %1$s</string>
+    <string name="assistant_flight_seat_info">ที่นั่ง %1$s</string>
+    <string name="assistant_flight_to_delayed_info">ล่าช้า: เที่ยวบินไป %1$s</string>
+    <string name="assistant_flight_to_info">เที่ยวบินไป %1$s</string>
     <string name="assistant_grocery_delivery_completed">%1$s order delivered</string>
-    <string name="assistant_grocery_delivery_during">%1$s delivery now</string>
-    <string name="assistant_grocery_delivery_pre">%1$s delivery in %2$s</string>
-    <string name="assistant_grocery_delivery_pre_static">%1$s delivery at %2$s</string>
+    <string name="assistant_grocery_delivery_scheduled">%1$s delivery scheduled</string>
     <string name="assistant_grocery_pickup_completed">%1$s order picked up</string>
-    <string name="assistant_grocery_pickup_during">%1$s pickup now</string>
-    <string name="assistant_grocery_pickup_pre">%1$s pickup in %2$s</string>
-    <string name="assistant_grocery_pickup_pre_static">%1$s pickup at %2$s</string>
-    <string name="assistant_grocery_pickup_ready">%1$s pickup now</string>
+    <string name="assistant_grocery_pickup_ready">%1$s order ready for pickup</string>
+    <string name="assistant_grocery_pickup_scheduled">%1$s pickup scheduled</string>
     <string name="assistant_grocery_time_range">%1$s – %2$s</string>
     <string name="assistant_guacamole_answer_call_announce">กำลังจะรับสาย</string>
     <string name="assistant_guacamole_closed_popup_pill_content_description">พูดว่า \"%1$s\" แตะที่ปุ่มสองครั้งเพื่อแสดงข้อมูลเพิ่มเติม</string>
@@ -829,6 +833,9 @@
     <string name="assistant_keyboard_first_one_text">อันแรก</string>
     <string name="assistant_keyboard_firstrun_text">&lt;linkable>จัดการการตั้งค่า&lt;/linkable></string>
     <string name="assistant_keyboard_icon_label">แป้นพิมพ์</string>
+    <string name="assistant_keyboard_input_clear_button_content_description">Click to clear text input</string>
+    <string name="assistant_keyboard_input_mic_button_content_description">Click the mic icon to start voice query</string>
+    <string name="assistant_keyboard_input_text_hint">Type a text input here</string>
     <string name="assistant_keyboard_learning_center_category_compose">พิมพ์แล้วส่ง</string>
     <string name="assistant_keyboard_learning_center_category_emojis">เพิ่มอีโมจิ</string>
     <string name="assistant_keyboard_learning_center_category_forms">แบบฟอร์มและอีเมล</string>
@@ -912,12 +919,14 @@
     <string name="assistant_keyboard_sticky_mic_education_tip_text">แตะสองครั้งเพื่อเปิดไมค์ไว้&lt;br>จนกว่าคุณจะปิดแป้นพิมพ์</string>
     <string name="assistant_keyboard_stop_button_description">หยุดการพิมพ์ตามคำบอก</string>
     <string name="assistant_keyboard_stop_text">หยุด</string>
+    <string name="assistant_keyboard_suggestion_query_builder_button_content_description">Click to edit in input box</string>
     <string name="assistant_keyboard_undo_button_description">เลิกทำ</string>
     <string name="assistant_keyboard_undo_text">เลิกทำ</string>
     <string name="assistant_keyboard_voice_command_not_supported">คำสั่งไม่พร้อมใช้งานในแอปนี้</string>
     <string name="assistant_keyboard_voice_corrections_tip_text">พูดคำที่ต้องการใช้&lt;br>แทนที่ข้อความที่เลือกไว้</string>
     <string name="assistant_language_not_supported">Google Assistant ยังไม่รองรับภาษา %s</string>
     <string name="assistant_learning_center_data_error">Sorry, something went wrong while loading data.</string>
+    <string name="assistant_learning_center_detailed_page_data_error">Sorry, something went wrong while loading data.</string>
     <string name="assistant_logo_a11y">แตะเพื่อเปิด Google Assistant</string>
     <string name="assistant_logo_content_description">โลโก้ Google Assistant</string>
     <string name="assistant_long_press_power_action_button_text">รับทราบ</string>
@@ -959,7 +968,7 @@
     <string name="assistant_my_actions_unpin_confirmation_dialog_title">โปรดทราบ</string>
     <string name="assistant_my_actions_unpinned_action_row_add_button_content_description">เพิ่มการดำเนินการนี้</string>
     <string name="assistant_my_actions_unpinned_actions_header">การดำเนินการที่คุณอาจชอบ</string>
-    <string name="assistant_my_flights_query">My Flights</string>
+    <string name="assistant_my_flights_query">เที่ยวบินของฉัน</string>
     <string name="assistant_on_lockscreen_desc">อนุญาตให้ Assistant ตอบกลับเมื่อโทรศัพท์ล็อกอยู่ หากต้องการรับผลการค้นหาเฉพาะบุคคล เช่น รายชื่อติดต่อและข้อความ ให้พูดว่า \"%1$s\" เพื่อให้ Assistant จดจำเสียงของคุณได้</string>
     <string name="assistant_on_lockscreen_description">อนุญาตให้ Assistant ตอบกลับเมื่อโทรศัพท์ล็อกอยู่ หากต้องการรับผลการค้นหาเฉพาะบุคคล เช่น รายชื่อติดต่อและข้อความ ให้พูดว่า \"Ok Google\" เพื่อให้ Assistant จดจำเสียงของคุณได้</string>
     <string name="assistant_on_lockscreen_title">การตอบกลับของ Assistant บนหน้าจอล็อก</string>
@@ -1299,7 +1308,7 @@
     <string name="assistant_settings_indexing_continued_conversation_subtitle">ถาม Assistant ต่อเนื่อง</string>
     <string name="assistant_settings_indexing_continued_conversation_title">การสนทนาต่อ</string>
     <string name="assistant_settings_indexing_custodio_keywords">การควบคุมโดยผู้ปกครอง</string>
-    <string name="assistant_settings_indexing_custodio_subtitle">เลือกตัวกรอง ช่วงพัก และสิ่งที่บุตรหลานทำได้ด้วย Assistant ใน Smart Display และลำโพง</string>
+    <string name="assistant_settings_indexing_custodio_subtitle">เลือกตัวกรอง ช่วงพัก และสิ่งที่บุตรหลานทำได้ด้วย Assistant ในจอและลำโพงอัจฉริยะ</string>
     <string name="assistant_settings_indexing_default_keyword">การตั้งค่า Google Assistant</string>
     <string name="assistant_settings_indexing_device_and_call_settings_keywords">อุปกรณ์, การโทร, Smart Ring, การตั้งค่าอุปกรณ์และการโทร, การตั้งค่าการโทรและอุปกรณ์</string>
     <string name="assistant_settings_indexing_device_hub_keywords">อุปกรณ์ Assistant, การตั้งค่าอุปกรณ์ Assistant, จัดการอุปกรณ์, ลิงก์อุปกรณ์ Assistant, ลิงก์อุปกรณ์, ยกเลิกการลิงก์อุปกรณ์ Assistant, ยกเลิกการลิงก์อุปกรณ์, บ้านอัจฉริยะ, ระบบควบคุมอุปกรณ์ในบ้าน, ระบบอัตโนมัติในบ้าน</string>
@@ -1788,21 +1797,38 @@
     <string name="assistant_suw_intro_screen_action_button_text">ฉันยอมรับ</string>
     <string name="assistant_suw_intro_screen_cancel_button_text">ข้าม</string>
     <string name="assistant_suw_intro_screen_default_x_google_hotword">Ok Google</string>
+    <string name="assistant_suw_intro_screen_hint1_for_unicorn_vm3">{GENDER,select, male{\"%1$s\" ต้องใช้ Voice Match เช่นกัน เพื่อให้ Assistant ของ {GIVEN_NAME} จดจำเขาได้}female{\"%1$s\" ต้องใช้ Voice Match เช่นกัน เพื่อให้ Assistant ของ {GIVEN_NAME} จดจำเธอได้}other{\"%1$s\" ต้องใช้ Voice Match เช่นกัน เพื่อให้ Assistant ของ {GIVEN_NAME} จดจำพวกเขาได้}}</string>
+    <string name="assistant_suw_intro_screen_hint1_vm3">\"%1$s\" ต้องใช้ Voice Match เช่นกัน เพื่อให้ Assistant จดจำคุณได้</string>
+    <string name="assistant_suw_intro_screen_hint2_for_unicorn_vm3">Assistant อาจเปิดใช้งานโดยที่%1$sไม่ได้ตั้งใจ เช่น เมื่อมีเสียงรบกวนที่คล้ายกับคำว่า \"%2$s\"</string>
+    <string name="assistant_suw_intro_screen_hint2_vm3">Assistant อาจเปิดใช้งานโดยที่คุณไม่ได้ตั้งใจ เช่น เมื่อมีเสียงรบกวนที่คล้ายกับคำว่า \"%1$s\"</string>
+    <string name="assistant_suw_intro_screen_hint3_for_unicorn_vm3">คุณปิด \"%1$s\" ได้ในการตั้งค่า Assistant ของ%2$s</string>
+    <string name="assistant_suw_intro_screen_hint3_vm3">คุณปิด \"%1$s\" ได้ในการตั้งค่า Assistant</string>
     <string name="assistant_suw_intro_screen_item_summary_1">\"วันเสาร์อาทิตย์นี้อากาศจะเป็นยังไง\"</string>
+    <string name="assistant_suw_intro_screen_item_summary_1_for_unicorn">\"ต้องพกร่มไปไหม\"</string>
     <string name="assistant_suw_intro_screen_item_summary_2">\"ร้านกาแฟที่ใกล้ที่สุดอยู่ตรงไหน\"</string>
+    <string name="assistant_suw_intro_screen_item_summary_2_for_unicorn">\"ฮิปโปร้องยังไง\"</string>
     <string name="assistant_suw_intro_screen_item_summary_3">\"ตั้งปลุกตี 5 วันพรุ่งนี้\"</string>
+    <string name="assistant_suw_intro_screen_item_summary_3_for_unicorn">\"จับเวลาทำการบ้าน 20 นาที\"</string>
     <string name="assistant_suw_intro_screen_item_title_1">ตั้งคำถาม</string>
     <string name="assistant_suw_intro_screen_item_title_2">ขอเส้นทาง</string>
+    <string name="assistant_suw_intro_screen_item_title_2_for_unicorn">เรียนรู้สิ่งใหม่ๆ</string>
     <string name="assistant_suw_intro_screen_item_title_3">ทำสิ่งต่างๆ ให้เสร็จ</string>
     <string name="assistant_suw_intro_screen_subtitle_v2">หากคุณยอมรับ Google Assistant จะรอในโหมดสแตนด์บายเพื่อตรวจจับ \"%1$s\"</string>
+    <string name="assistant_suw_intro_screen_subtitle_v2_for_unicorn_vm3">หากคุณยอมรับ Google Assistant จะรอในโหมดสแตนด์บายเพื่อตรวจจับเมื่อ%1$sพูดว่า \"%2$s\"</string>
     <string name="assistant_suw_intro_screen_title">เข้าถึง Assistant โดยพูดว่า \"%1$s\"</string>
     <string name="assistant_suw_intro_screen_title_for_unicorn">ให้ %1$s เข้าถึง Google Assistant ได้ด้วยคำว่า \"%2$s\"</string>
-    <string name="assistant_suw_intro_screen_with_ww_hint">คุณสามารถอัปเดตตัวเลือกนี้ได้ในการตั้งค่า Assistant</string>
+    <string name="assistant_suw_intro_screen_title_for_unicorn_vm3">ให้ %1$s พูดกับ Google โดยไม่ต้องสัมผัส</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint2_for_unicorn_vm3">Assistant อาจเปิดใช้งานโดยที่%1$sไม่ได้ตั้งใจ เช่น เมื่อมีเสียงรบกวนที่คล้ายกับคำว่า \"%2$s\" หรือวลีสั้นๆ</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint2_vm3">Assistant อาจเปิดใช้งานโดยที่คุณไม่ได้ตั้งใจ เช่น เมื่อมีเสียงรบกวนที่คล้ายกับคำว่า \"%1$s\" หรือวลีสั้นๆ</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint3_for_unicorn_vm3">คุณปิด \"%1$s\" และวลีสั้นๆ ได้ในการตั้งค่า Assistant ของ%2$s</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint3_vm3">คุณปิด \"%1$s\" และวลีสั้นๆ ได้ในการตั้งค่า Assistant</string>
     <string name="assistant_suw_intro_screen_with_ww_item_summary_1">ถามคำถามและรับความช่วยเหลือเรื่องงานต่างๆ</string>
     <string name="assistant_suw_intro_screen_with_ww_item_summary_2">ลองใช้คำประมาณว่า \"หยุด\" หรือ \"เลื่อนการปลุก\" (เช่น ตอนที่นาฬิกาปลุกกำลังดัง)</string>
+    <string name="assistant_suw_intro_screen_with_ww_item_summary_2_for_unicorn_vm3">%1$s สามารถใช้คำอย่างเช่น \"หยุด\" หรือ \"เลื่อนการปลุก\" (เช่น ตอนที่นาฬิกาปลุกกำลังดัง)</string>
     <string name="assistant_suw_intro_screen_with_ww_item_title_1">\"%1$s\"</string>
     <string name="assistant_suw_intro_screen_with_ww_item_title_2">วลีสั้นๆ</string>
     <string name="assistant_suw_intro_screen_with_ww_subtitle">หากคุณยอมรับ Google Assistant จะรอในโหมดสแตนด์บายเพื่อตรวจจับ \"%1$s\" และวลีสั้นๆ บางวลี</string>
+    <string name="assistant_suw_intro_screen_with_ww_subtitle_for_unicorn_vm3">หากคุณยอมรับ Google Assistant จะรอในโหมดสแตนด์บายเพื่อตรวจจับเมื่อ %1$s พูดว่า \"%2$s\" และวลีสั้นๆ บางวลี</string>
     <string name="assistant_suw_intro_screen_with_ww_title">พูดคุยกับ Google แบบแฮนด์ฟรี</string>
     <string name="assistant_suw_loading_screen_title">กำลังตรวจสอบ…</string>
     <string name="assistant_suw_more_button_text">เพิ่มเติม</string>
@@ -1818,8 +1844,8 @@
     <string name="assistant_suw_settings_screen_title">เข้าถึง Assistant โดยไม่ต้องปลดล็อก%1$s</string>
     <string name="assistant_suw_settings_screen_title_for_unicorn">{GENDER,select, male{ให้ {GIVEN_NAME} เข้าถึง Google Assistant โดยไม่ต้องปลดล็อก%1$s}female{ให้ {GIVEN_NAME} เข้าถึง Google Assistant โดยไม่ต้องปลดล็อก%1$s}other{ให้ {GIVEN_NAME} เข้าถึง Google Assistant โดยไม่ต้องปลดล็อก%1$s}}</string>
     <string name="assistant_take_note_app_control_suggestion">จดโน้ต</string>
-    <string name="assistant_tap_to_check_in">Tap to check-in</string>
-    <string name="assistant_tomorrow_time">Tomorrow, %1$s</string>
+    <string name="assistant_tap_to_check_in">แตะเพื่อเช็คอิน</string>
+    <string name="assistant_tomorrow_time">พรุ่งนี้ %1$s</string>
     <string name="assistant_ui_learn_more_link">ดูข้อมูลเพิ่มเติม</string>
     <string name="assistant_unicorn_get_your_parent_subtitle">คุณตั้งค่า Voice Match ร่วมกันได้</string>
     <string name="assistant_unicorn_get_your_parent_subtitle_shared_devices">คุณตั้งค่า Google Assistant ร่วมกันได้</string>
@@ -1827,6 +1853,8 @@
     <string name="assistant_voice_plate_avatar_label">เปิดการตั้งค่า</string>
     <string name="assistant_voice_plate_greeting_hi_text">สวัสดี มีอะไรให้ช่วยไหม</string>
     <string name="assistant_voice_plate_keyboard_icon_label">แป้นพิมพ์</string>
+    <string name="assistant_voice_plate_onboarding_oauth_recovery_button">ลงชื่อเข้าใช้</string>
+    <string name="assistant_voice_plate_onboarding_oauth_recovery_text">ลงชื่อเข้าใช้บัญชี Google อีกครั้งเพื่อใช้ Assistant</string>
     <string name="assistant_voice_plate_onboarding_oobe_button">เริ่มต้น</string>
     <string name="assistant_voice_plate_onboarding_oobe_text">ปลดล็อกฟีเจอร์อื่นๆ ของ Assistant</string>
     <string name="assistant_voice_speech_output_title">เสียง Assistant และเอาต์พุตเสียงพูด</string>
@@ -1849,7 +1877,7 @@
     <string name="assistant_weather_widget_preview_condition">แดดจัด</string>
     <string name="assistant_weather_widget_preview_loading">กำลังโหลด…</string>
     <string name="assistant_weather_widget_preview_location">ซานฟรานซิสโก</string>
-    <string name="assistant_yesterday_time">Yesterday, %1$s</string>
+    <string name="assistant_yesterday_time">เมื่อวานนี้ %1$s</string>
     <string name="assistantactions_alarm_confirmation_card_button_text">ดูการปลุก</string>
     <string name="assistantactions_call_confirmation_card_button">โทร</string>
     <string name="assistantactions_confirmation_card_cancel_text">ยกเลิกการดำเนินการแล้ว</string>
@@ -1993,7 +2021,7 @@
     <string name="bisto_device_launch_oobe_pref_summary">ดูวิธีรับความช่วยเหลือจาก Google โดยใช้เสียงและหูฟังของคุณ</string>
     <string name="bisto_device_launch_oobe_pref_title">ดูข้อมูลเพิ่มเติม</string>
     <string name="bisto_device_make_and_model">ยี่ห้อและรุ่น</string>
-    <string name="bisto_device_notification_access_for_gestures_pref_summary">ถ้าจะฟังเสียงอ่านการแจ้งเตือนที่เข้ามาใหม่ ให้เปิด \"คุยกับ Assistant\" สำหรับหูฟังเอียร์บัดทั้ง 2 ข้างในการควบคุม \"แตะค้างไว้\"</string>
+    <string name="bisto_device_notification_access_for_gestures_pref_summary">ถ้าจะฟังเสียงอ่านการแจ้งเตือนที่เข้ามาใหม่ ให้เปิด \"คุยกับ Assistant\" สำหรับหูฟังเอียร์บัดอย่างน้อย 1 ข้างในการควบคุม \"แตะค้างไว้\"</string>
     <string name="bisto_device_notification_access_pref_summary">อนุญาตให้อ่านการแจ้งเตือนเมื่อใช้หูฟัง</string>
     <string name="bisto_device_notification_access_pref_title">เปิดการเข้าถึงการแจ้งเตือน</string>
     <string name="bisto_device_notifications_pref_title">การอ่านออกเสียงการแจ้งเตือน</string>
@@ -2008,7 +2036,6 @@
     <string name="bisto_device_tutorial_pref_title">บทแนะนำ</string>
     <string name="bisto_device_user_manual_pref">คู่มือผู้ใช้</string>
     <string name="bisto_downloading_device_customization">กำลังดาวน์โหลดข้อมูลอุปกรณ์</string>
-    <string name="bisto_end_sound_pref_title">เปิดเสียงสิ้นสุด</string>
     <string name="bisto_error_connect_device">เชื่อมต่อกับอุปกรณ์ไม่ได้ ตรวจสอบการเชื่อมต่อ แล้วลองอีกครั้ง</string>
     <string name="bisto_error_consent_retry_message">ตรวจสอบการเชื่อมต่อ แล้วลองอีกครั้ง</string>
     <string name="bisto_error_enable_opa">สื่อสารกับอุปกรณ์ไม่ได้ ตรวจสอบการเชื่อมต่อ แล้วลองอีกครั้ง</string>
@@ -2068,7 +2095,9 @@
 
 Assistant ยังใช้ Face Match และ Voice Match ด้วยเพื่อให้ฟีเจอร์ Look and Talk ทำงานเพื่อคุณโดยเฉพาะ หากคนอื่นต้องการใช้ Look and Talk ก็ตั้งค่าได้ในการตั้งค่าของแอป Home หรือแอป Assistant
 
-คุณปิดฟีเจอร์นี้ได้ทุกเมื่อในการตั้งค่า Face Match"</string>
+คุณปิดฟีเจอร์นี้ได้ทุกเมื่อในการตั้งค่า Face Match
+
+หมายเหตุ: คุณพูดว่า \"Ok Google\" ต่อได้แม้ว่า Look and Talk จะเปิดอยู่ก็ตาม"</string>
     <string name="blue_steel_consent_title">Look and Talk ใน %1$s</string>
     <string name="blue_steel_learn_more">&lt;a href=%1$s>ดูข้อมูลเพิ่มเติม&lt;/a></string>
     <string name="blue_steel_turn_on">เปิด</string>
@@ -2085,7 +2114,6 @@ Assistant ยังใช้ Face Match และ Voice Match ด้วยเพ
     <string name="bottom_navigation_collections_label">คอลเล็กชัน</string>
     <string name="bottom_navigation_drawer_label">เพิ่มเติม</string>
     <string name="bottom_navigation_search_label">ค้นหา</string>
-    <string name="bottom_navigation_snapshot_label">สแนปชอต</string>
     <string name="bottom_navigation_spark_label">Discover</string>
     <string name="bottom_navigation_tabs_label">แท็บ</string>
     <string name="bottomsheet_action_expand_halfway">ขยายรายการครึ่งหนึ่ง</string>
@@ -2093,10 +2121,12 @@ Assistant ยังใช้ Face Match และ Voice Match ด้วยเพ
     <string name="brightness">ความสว่างหน้าจอ</string>
     <string name="broken_google_play_services_text">ในการดำเนินการคำขอให้เสร็จสมบูรณ์ คุณต้องใช้บริการ Google Play โปรดรีสตาร์ทอุปกรณ์</string>
     <string name="bt_auto_trigger_title">เปิดโหมดขับรถของ Assistant เมื่อเชื่อมต่อกับรถยนต์</string>
+    <string name="bt_triggering_description">ใช้การตั้งค่านี้เพื่อเปิดโหมดขับรถเมื่อคุณขึ้นรถ</string>
+    <string name="bt_triggering_title">เมื่อเชื่อมต่อกับบลูทูธของรถยนต์</string>
     <string name="bubble_cancel_button_text">ยกเลิก</string>
     <string name="bubble_dismiss_text">ลากลงเพื่อปิด</string>
     <string name="bubble_feedback_link">แสดงความคิดเห็น</string>
-    <string name="bubble_pinned_live_updates">ข้อมูลอัปเดตล่าสุดที่ตรึงไว้</string>
+    <string name="bubble_pinned_live_updates">ข้อมูลอัปเดตล่าสุดที่ปักหมุดไว้</string>
     <string name="bundle_summary_app_and_app">การแจ้งเตือนจาก %1$s และ %2$s</string>
     <string name="bundle_summary_app_and_app_same_app">การแจ้งเตือนจาก %1$s</string>
     <string name="bundle_summary_app_and_event">การแจ้งเตือนจาก %1$s และ 1 กิจกรรมในปฏิทิน</string>
@@ -2218,7 +2248,6 @@ Assistant ยังใช้ Face Match และ Voice Match ด้วยเพ
     <string name="cct_account_mismatch_card_button_text">เปิด %1$s</string>
     <string name="cct_account_mismatch_card_header">ดูหน้าเว็บของคุณ</string>
     <string name="cct_account_mismatch_card_text">หากต้องการดูหน้าที่คุณพบที่นี่ ให้อัปเดต&lt;b>การตั้งค่าของ %1$s&lt;/b> และเปิดการซิงค์สำหรับ &lt;b>%2$s&lt;/b></string>
-    <string name="chance_of_precipitation_label">โอกาสเกิดฝน/ลูกเห็บ/หิมะ: %s</string>
     <string name="change_button_text">เปลี่ยน</string>
     <string name="change_speed_button">เปลี่ยนความเร็วในการอ่าน</string>
     <string name="channel_description">การควบคุมด้วยเสียงที่ได้รับการปรับปรุงและปุ่มต่างๆ ที่แตะได้ง่ายจะช่วยให้คุณมีสมาธิกับการขับขี่</string>
@@ -2332,6 +2361,7 @@ Assistant ยังใช้ Face Match และ Voice Match ด้วยเพ
     <string name="common_google_play_services_update_text">%1$s จะไม่ทำงานจนกว่าคุณจะอัปเดตบริการ Google Play</string>
     <string name="common_google_play_services_update_title">อัปเดตบริการ Google Play</string>
     <string name="common_google_play_services_updating_text">%1$s จะไม่ทำงานหากไม่มีบริการ Google Play ซึ่งกำลังอัปเดตอยู่ในขณะนี้</string>
+    <string name="common_google_play_services_wear_update_text">จำเป็นต้องใช้บริการ Google Play เวอร์ชันใหม่ ซึ่งจะอัปเดตอัตโนมัติในอีกไม่ช้า</string>
     <string name="common_google_search_hint">ค้นหาโดย Google</string>
     <string name="common_google_search_label">Google</string>
     <string name="common_learn_more">ดูข้อมูลเพิ่มเติม</string>
@@ -2339,6 +2369,7 @@ Assistant ยังใช้ Face Match และ Voice Match ด้วยเพ
     <string name="common_open_on_phone">เปิดบนโทรศัพท์</string>
     <string name="common_see_updates">ดูข้อมูลอัปเดต</string>
     <string name="common_yes">ตกลง</string>
+    <string name="comms_center_close_button_description">ปิดหน้า</string>
     <string name="commute_eta_msg">%1$s ถึง %2$s</string>
     <string name="commute_eta_time_hour">%1$s ชม.</string>
     <string name="commute_eta_time_hour_minute">%1$s ชม. %2$s นาที</string>
@@ -2516,16 +2547,16 @@ Assistant ยังใช้ Face Match และ Voice Match ด้วยเพ
     <string name="cricket_second_innings">อินนิงที่ 2</string>
     <string name="crop_wallpaper">ครอบตัดวอลเปเปอร์</string>
     <string name="cross_profile_meta_data">แสดงกิจกรรมของที่ทำงานที่จะเกิดขึ้นเร็วๆ นี้ในวิดเจ็ตข้อมูลโดยย่อส่วนตัว</string>
-    <string name="current_conditions_temperature" formatted="false">อุณหภูมิ: %s %s</string>
     <string name="current_inning">ช่วงเวลาในการทำแต้ม %1$d</string>
-    <string name="current_location_searchbox">ตำแหน่งปัจจุบัน</string>
     <string name="current_period">ระยะเวลา %1$d</string>
     <string name="custom">กำหนดเอง (ไม่สามารถกำหนดค่าบนโทรศัพท์)</string>
+    <string name="custom_reply_button_string">การตอบแบบกำหนดเอง</string>
     <string name="custom_tabs_explore_action_button_desc">ดูหน้าที่เกี่ยวข้อง</string>
     <string name="custom_tabs_link_copied">คัดลอกลิงก์ไปยังคลิปบอร์ดแล้ว</string>
     <string name="custom_tabs_menu_item_copy_link">คัดลอกลิงก์</string>
     <string name="custom_tabs_menu_item_help">ความช่วยเหลือ</string>
     <string name="custom_tabs_menu_item_open_in_browser_generic">เปิดในเว็บเบราว์เซอร์</string>
+    <string name="custom_tabs_menu_item_personal_info_removal">นำผลการค้นหาเกี่ยวกับคุณออก</string>
     <string name="custom_tabs_menu_item_recent">ล่าสุด</string>
     <string name="custom_tabs_menu_item_share">แชร์ลิงก์…</string>
     <string name="custom_tabs_share_via">แชร์ทาง</string>
@@ -2537,7 +2568,6 @@ Assistant ยังใช้ Face Match และ Voice Match ด้วยเพ
     <string name="cw_chip_icon_description">ไอคอนชิปการดำเนินการ</string>
     <string name="cw_disabled_message">ใช้งานไม่ได้ชั่วคราว โปรดรอสักครู่แล้วกลับมาดูใหม่</string>
     <string name="cw_feedback_chip_text">ส่งความคิดเห็น</string>
-    <string name="daily_conditions_sky_condition">สภาพท้องฟ้า: %s</string>
     <string name="dangerous_or_harmful_activity">กิจกรรมที่เป็นอันตรายหรือให้โทษ</string>
     <string name="data_in_assistant">ข้อมูลของคุณใน Assistant</string>
     <string name="data_sharing_action_button">อนุญาต</string>
@@ -2548,6 +2578,7 @@ Assistant ยังใช้ Face Match และ Voice Match ด้วยเพ
     <string name="data_sharing_title_text">ค้นหาจากแอปทีวีทั้งหมดของคุณ</string>
     <string name="date_at_time">%1$s เวลา %2$s</string>
     <string name="date_in_the_past">%1$s &lt;font color=#9E9E9E> เป็นวันที่ในอดีต&lt;/font></string>
+    <string name="day_picker_description">ตารางเดือนของวัน</string>
     <string name="decline_button_description">ปฏิเสธการรับสาย</string>
     <string name="decline_permissions">Not Now</string>
     <string name="deeplink_default_promocard_more_ways_to_search">ค้นหาได้หลากหลายวิธีในแอป Google</string>
@@ -2557,7 +2588,6 @@ Assistant ยังใช้ Face Match และ Voice Match ด้วยเพ
     <string name="default_error">อ๊ะ เกิดข้อผิดพลาดบางอย่าง</string>
     <string name="default_error_msg">ข้อผิดพลาดที่ไม่รู้จัก</string>
     <string name="default_group_name">แชทเป็นกลุ่ม</string>
-    <string name="default_location_name">ซานฟรานซิสโก</string>
     <string name="default_media_selection_description">เมื่อคุณขอให้ Assistant เปิดเพลง ระบบจะใช้บริการนี้เป็นค่าเริ่มต้น</string>
     <string name="default_media_selection_title">เลือกบริการเพลงเริ่มต้น</string>
     <string name="default_microphone_error">อ๊ะ เกิดข้อผิดพลาดบางอย่าง โปรดลองอีกครั้ง</string>
@@ -2901,9 +2931,12 @@ Assistant ยังช่วยคุณทำสิ่งต่อไปนี�
     <string name="dnd_setting_title">แสดงเฉพาะการแจ้งเตือนที่สำคัญ</string>
     <string name="dnd_title_off">ปิด</string>
     <string name="dnd_title_on">เปิด</string>
+    <string name="dnd_toggle_description">ระบบจะปิดเสียงการแจ้งเตือนของแอปที่ไม่สำคัญขณะขับรถ</string>
+    <string name="dnd_toggle_title">จำกัดการแจ้งเตือนขณะขับรถ</string>
     <string name="do_not_disturb_desc">ห้ามรบกวน</string>
     <string name="do_not_show_fewer_like_this">อย่าแสดงเนื้อหาแบบนี้น้อยลง</string>
     <string name="do_not_show_more_like_this">อย่าแสดงเนื้อหาแบบนี้อีก</string>
+    <string name="do_nothing">ไม่ดำเนินการใดๆ</string>
     <string name="done_button_text">เสร็จ</string>
     <string name="done_label">เสร็จสิ้น</string>
     <string name="doodle_content_description">ภาพ Google Doodle</string>
@@ -2932,8 +2965,11 @@ Assistant ยังช่วยคุณทำสิ่งต่อไปนี�
     <string name="dreamliner_dock_trusted_item_summary">"อนุญาตให้ใช้ฟีเจอร์ผลการค้นหาเฉพาะบุคคลในอุปกรณ์นี้ เช่น รูปภาพ อีเมล ปฏิทิน รายชื่อติดต่อ และการช่วยเตือนต่างๆ เมื่อล็อกโทรศัพท์ไว้บน Pixel Stand รวมถึงอนุญาตการชำระเงินด้วยหากเปิดใช้ฟีเจอร์ชำระด้วย Assistant &lt;a href='https://support.google.com/assistant/answer/7684543?hl=en&amp;co=GENIE.Platform=Android'>ดูข้อมูลเพิ่มเติม&lt;/a>"</string>
     <string name="dreamliner_dock_trusted_item_title">ผลการค้นหาเฉพาะบุคคลบน Pixel Stand</string>
     <string name="drive_mode_dedup_string">โหมดขับรถ</string>
+    <string name="driving_general_settings_header">ทั่วไป</string>
     <string name="driving_screen_not_driving_description">ออกจากโหมดขับรถของ Assistant</string>
     <string name="driving_screen_not_driving_label">ฉันไม่ได้ขับรถอยู่</string>
+    <string name="driving_settings_subtitle">จัดการวิธีช่วยเหลือของ Assistant ในการขับรถ</string>
+    <string name="driving_settings_title">โหมดขับรถ</string>
     <string name="drl_nga_mic_button">ไมค์</string>
     <string name="dsc_illustration_description">โลโก้แอปทีวี</string>
     <string name="dt_promocard_icon_description">ธีมสีเข้ม</string>
@@ -2988,6 +3024,9 @@ Assistant ยังช่วยคุณทำสิ่งต่อไปนี�
     <string name="enable_google_play_services_link">เปิดใช้</string>
     <string name="enable_google_play_services_text">หากต้องการดำเนินการคำขอให้เสร็จสมบูรณ์ คุณต้องเปิดใช้บริการ Google Play</string>
     <string name="enable_google_search_restriction">เปิดใช้ Google Search</string>
+    <string name="enable_mini_toggle_description">ระบบจะเปิดโหมดขับรถเมื่อคุณเริ่มการนำทาง</string>
+    <string name="enable_mini_toggle_title">เมื่อนำทางใน Google Maps</string>
+    <string name="enable_mini_toggle_waiting_period_description">จะเริ่มในไม่ช้า ระบบจะเปิดใช้โหมดขับรถเมื่อคุณเริ่มการนำทาง</string>
     <string name="enable_video_preview_autoplay">เล่นอัตโนมัติ</string>
     <string name="enable_video_preview_autoplay_on_mobile_data">ใช้ได้บนเครือข่ายมือถือ</string>
     <string name="enable_web_history_toast">เปิดใช้งานประวัติเว็บแล้ว</string>
@@ -3014,22 +3053,17 @@ Assistant ยังช่วยคุณทำสิ่งต่อไปนี�
     <string name="episode_sort">จัดเรียง</string>
     <string name="episode_sort_option_newest_first">เริ่มจากใหม่สุด</string>
     <string name="episode_sort_option_oldest_first">เริ่มจากเก่าสุด</string>
-    <string name="error_adding_location_snackbar_text">เกิดข้อผิดพลาดในการเพิ่มสถานที่</string>
     <string name="error_assist_app_step_1_text"><b>1.</b> แตะปุ่ม<b>การตั้งค่า</b>ด้านล่าง</string>
     <string name="error_assist_app_step_2_text"><b>2.</b> แตะส่วน<b>แอปผู้ช่วย</b></string>
     <string name="error_assist_app_step_3_text"><b>3.</b> แตะ <b>Google</b> เพื่อตั้งเป็นค่าเริ่มต้น</string>
     <string name="error_card_title_text_something_went_wrong">มีข้อผิดพลาดเกิดขึ้น</string>
     <string name="error_connecting_to_server">ไม่มีการเชื่อมต่อ</string>
-    <string name="error_fetching_suggestions_status_text">เกิดข้อผิดพลาดขณะดึงคำแนะนำ</string>
-    <string name="error_getting_current_location_status_text">เกิดข้อผิดพลาดขณะรับข้อมูลตำแหน่งปัจจุบัน</string>
-    <string name="error_getting_location_info_status_text">เกิดข้อผิดพลาดขณะรับข้อมูลตำแหน่งที่เลือก</string>
     <string name="error_icon_content_description">ข้อผิดพลาด</string>
     <string name="error_loading_content">ไม่สามารถโหลดหน้าเว็บ</string>
     <string name="error_media_info">เกิดข้อผิดพลาดขณะเล่นสื่อ</string>
     <string name="error_no_connection_text">"ไม่มีเครือข่ายพร้อมใช้งาน
 โปรดลองตรวจสอบการเชื่อมต่อแล้วลองอีกครั้ง"</string>
     <string name="error_no_match_text">แตะไมโครโฟนแล้วพูดใส่โทรศัพท์เพื่อรับคำตอบด่วน</string>
-    <string name="error_removing_location_snackbar_text">เกิดข้อผิดพลาดในการนำตำแหน่งออก</string>
     <string name="error_unreliable_network">มีบางอย่างผิดพลาด โปรดตรวจสอบการเชื่อมต่อและลองอีกครั้ง</string>
     <string name="errors_header">E</string>
     <string name="errors_header_full_length">ข้อผิดพลาด</string>
@@ -3090,6 +3124,53 @@ Assistant ยังช่วยคุณทำสิ่งต่อไปนี�
     <string name="explore_tab_shortcut_section_subtitle">อิงตามแอปที่คุณใช้บ่อย</string>
     <string name="explore_tab_shortcut_section_title">ทางลัดที่คุณอาจชอบ</string>
     <string name="exposed_dropdown_menu_content_description">แสดงเมนูแบบเลื่อนลง</string>
+    <string name="fa_alarm_instance_default_label">ไม่มีการตั้งปลุก</string>
+    <string name="fa_alarm_instance_filled_bullet">●</string>
+    <string name="fa_alarm_instance_switch_off_label">ปิดการตั้งปลุกตอน %1$s แล้ว</string>
+    <string name="fa_alarm_instance_switch_on_label">เปิดการตั้งปลุกตอน %1$s แล้ว</string>
+    <string name="fa_audio_recorder_audio_recording_text">กำลังบันทึก…</string>
+    <string name="fa_audio_recorder_default_play_record_time_text">00:00</string>
+    <string name="fa_audio_recorder_delete_audio_message">ลบข้อความเสียง</string>
+    <string name="fa_audio_recorder_pause_audio_playback">หยุดชั่วคราว</string>
+    <string name="fa_audio_recorder_playback_audio">เล่น</string>
+    <string name="fa_audio_recorder_recording_audio">กำลังบันทึก</string>
+    <string name="fa_audio_recorder_stop_recording_audio">หยุดบันทึก</string>
+    <string name="fa_cancel_button_description">ปุ่มยกเลิก</string>
+    <string name="fa_confirm_button_description">ปุ่มยืนยัน</string>
+    <string name="fa_contact_selection_contact_icon_description">ไอคอนรายชื่อติดต่อ</string>
+    <string name="fa_contact_selection_pick_another_contact_view_hint">เลือกรายชื่อติดต่ออื่น</string>
+    <string name="fa_contact_selection_view_hint">เลือกรายชื่อติดต่อ</string>
+    <string name="fa_device_setting_toggle_icon_description">ไอคอนการตั้งค่า</string>
+    <string name="fa_device_setting_toggle_off_description">%1$s ปิดอยู่</string>
+    <string name="fa_device_setting_toggle_on_description">%1$s เปิดอยู่</string>
+    <string name="fa_duration_hours_minutes_seconds">%1$02d ชม. %2$02d นาที %3$02d วินาที</string>
+    <string name="fa_duration_minutes_seconds">%1$02d นาที %2$02d วินาที</string>
+    <string name="fa_duration_picker_confirm_button_text">เสร็จ</string>
+    <string name="fa_duration_picker_hour_unit_label">ชั่วโมง</string>
+    <string name="fa_duration_picker_minute_unit_label">นาที</string>
+    <string name="fa_duration_picker_second_unit_label">วินาที</string>
+    <string name="fa_duration_picker_title">ตั้งระยะเวลา</string>
+    <string name="fa_duration_seconds">%1$02d วินาที</string>
+    <string name="fa_empty_time">--:--</string>
+    <string name="fa_family_info_broadcast_settings_button">ปุ่มการตั้งค่าประกาศ</string>
+    <string name="fa_family_info_collapse_button">ยุบปุ่มแสดงผู้คนแล้ว</string>
+    <string name="fa_family_info_uncollapse_button">ขยายปุ่มแสดงผู้คนแล้ว</string>
+    <string name="fa_filled_bullet">●</string>
+    <string name="fa_hour_unit_label">ชม.</string>
+    <string name="fa_list_item_picker_title">โปรดเลือก 1 ตัวเลือก</string>
+    <string name="fa_minute_unit_label">นาที</string>
+    <string name="fa_playback_audio">เล่น</string>
+    <string name="fa_recurrence_custom">กำหนดเอง (ปรับแต่งในโทรศัพท์ไม่ได้)</string>
+    <string name="fa_recurrence_do_not_repeat">ไม่ต้องเตือนซ้ำ</string>
+    <string name="fa_recurrence_none">ไม่มี</string>
+    <string name="fa_remaining_duration_hours_minutes_seconds">เหลืออีก %1$02d ชม. %2$02d นาที %3$02d วินาที</string>
+    <string name="fa_remaining_duration_minutes_seconds">เหลืออีก %1$02d นาที %2$02d วินาที</string>
+    <string name="fa_remaining_duration_seconds">เหลืออีก %1$02d วินาที</string>
+    <string name="fa_second_unit_label">วินาที</string>
+    <string name="fa_timer_status_active">ใช้งานอยู่</string>
+    <string name="fa_timer_status_paused">หยุดชั่วคราว</string>
+    <string name="fa_timer_status_reset">รีเซ็ต</string>
+    <string name="fa_timer_status_unknown">ไม่ทราบ</string>
     <string name="facade_search_box_content_description">ค้นหา…</string>
     <string name="face_match_enabled_devices_section_subtitle">คุณเปิดใช้ Face Match ในอุปกรณ์เหล่านี้แล้ว</string>
     <string name="face_match_enabled_devices_section_title">อุปกรณ์ที่เปิดใช้ Face Match</string>
@@ -3149,7 +3230,6 @@ Assistant ยังช่วยคุณทำสิ่งต่อไปนี�
     <string name="fetch_with_no_notification_access_dismiss">ปิด</string>
     <string name="fetch_with_no_notification_access_settings">การตั้งค่า</string>
     <string name="fetch_with_no_notification_access_title">ฟังการแจ้งเตือนใน %1$s</string>
-    <string name="fetching_suggestions_status_text">กำลังดึงคำแนะนำ...</string>
     <string name="filled_bullet">●</string>
     <string name="final_notification_no_reply_prompt">คุณต้องการฟังซ้ำหรือพอแค่นี้ก่อน</string>
     <string name="final_notification_no_reply_reprompt">ขอโทษนะ คุณต้องการฟังซ้ำหรือพอแค่นี้ก่อน</string>
@@ -3464,7 +3544,7 @@ Assistant ยังช่วยคุณทำสิ่งต่อไปนี�
     <string name="googleapp_accountmenu_chrome_incognito">แท็บที่ไม่ระบุตัวตนใหม่ของ Chrome</string>
     <string name="googleapp_accountmenu_data_in_search">ค้นหา</string>
     <string name="googleapp_accountmenu_passwords">รหัสผ่าน</string>
-    <string name="googleapp_accountmenu_personal_info_removal">นำข้อมูลส่วนบุคคลของคุณออก</string>
+    <string name="googleapp_accountmenu_personal_info_removal">Results about you</string>
     <string name="googleapp_accountmenu_quick_delete_education_easy">ล้างประวัติการค้นหา 15 นาทีสุดท้ายด้วยการแตะครั้งเดียว</string>
     <string name="googleapp_accountmenu_quickdelete_cancel">ยกเลิก</string>
     <string name="googleapp_accountmenu_quickdelete_error">ลบประวัติไม่ได้</string>
@@ -3480,7 +3560,7 @@ Assistant ยังช่วยคุณทำสิ่งต่อไปนี�
     <string name="googleapp_accountmenu_search_history">ประวัติการค้นหา</string>
     <string name="googleapp_accountmenu_your_contributions">การมีส่วนร่วมของคุณ</string>
     <string name="googleapp_actionbutton_listen">อ่านออกเสียง</string>
-    <string name="googleapp_ads_personalization_settings_title">Ads personalization</string>
+    <string name="googleapp_ads_personalization_settings_title">การปรับเปลี่ยนโฆษณาในแบบของคุณ</string>
     <string name="googleapp_amp_security_button_description">การเชื่อมต่อปลอดภัย</string>
     <string name="googleapp_app_suggestions_summary">ชื่อของแอปที่ติดตั้ง</string>
     <string name="googleapp_app_suggestions_title">แอป</string>
@@ -3492,6 +3572,10 @@ Assistant ยังช่วยคุณทำสิ่งต่อไปนี�
     <string name="googleapp_autocomplete_with_trending_searches_header_title">การค้นหาที่มาแรง</string>
     <string name="googleapp_autocomplete_with_trending_searches_summary">การค้นหาที่มาแรงจะรวมการค้นหายอดนิยมในพื้นที่ของคุณ</string>
     <string name="googleapp_autocomplete_with_trending_searches_title">เติมข้อความอัตโนมัติด้วยการค้นหาที่มาแรง</string>
+    <string name="googleapp_autoplay_video_previews_always">ผ่าน Wi-Fi และอินเทอร์เน็ตมือถือ</string>
+    <string name="googleapp_autoplay_video_previews_never">ไม่เลย</string>
+    <string name="googleapp_autoplay_video_previews_setting_title">เล่นพรีวิววิดีโออัตโนมัติ</string>
+    <string name="googleapp_autoplay_video_previews_wifi">Wi-Fi เท่านั้น</string>
     <string name="googleapp_back_arrow_description">กลับ</string>
     <string name="googleapp_bar_color_title">สีของแถบ</string>
     <string name="googleapp_bar_logo_title">โลโก้ที่แถบ</string>
@@ -3503,12 +3587,6 @@ Assistant ยังช่วยคุณทำสิ่งต่อไปนี�
     <string name="googleapp_boc_tooltip_tap_to_manage_your_preferences">แตะเพื่อจัดการความชอบและความคิดเห็น</string>
     <string name="googleapp_books_mode_landing_text">ค้นหาหนังสือ</string>
     <string name="googleapp_bottom_navigation_collections_label_content_description">ปุ่มคอลเล็กชัน</string>
-    <string name="googleapp_broad_queries_topbar_mic_description">ค้นหาด้วยเสียง</string>
-    <string name="googleapp_broad_queries_topbar_search_description">ค้นหา</string>
-    <string name="googleapp_broad_queries_topbar_up_content_description">กลับ</string>
-    <string name="googleapp_broadqueries_error_message">ตรวจสอบว่าการเชื่อมต่ออินเทอร์เน็ตใช้งานได้หรือไม่</string>
-    <string name="googleapp_broadqueries_error_title">เกิดข้อผิดพลาด</string>
-    <string name="googleapp_broadqueries_loading_indicator_desc">กำลังโหลดเนื้อหา</string>
     <string name="googleapp_browser_actionbutton_ampinfo">ข้อมูลเพิ่มเติมเกี่ยวกับ AMP</string>
     <string name="googleapp_browser_actionbutton_overflowmenu">การทำงานเพิ่มเติม</string>
     <string name="googleapp_browser_actionbutton_tabs">แท็บ</string>
@@ -3521,8 +3599,8 @@ Assistant ยังช่วยคุณทำสิ่งต่อไปนี�
     <string name="googleapp_browser_clear_error">เกิดข้อผิดพลาดขณะพยายามล้างข้อมูลการท่องเว็บ</string>
     <string name="googleapp_browser_contextmenu_open_in_new_tab_title">เปิดในแท็บใหม่</string>
     <string name="googleapp_browser_contextmenu_previewimage_description">ตัวอย่างรูปภาพ</string>
-    <string name="googleapp_browser_contextmenu_previewimage_scrolllabel">Scroll for more of image</string>
-    <string name="googleapp_browser_contextmenu_previewimage_smalllabel">Image preview enlarged from original size</string>
+    <string name="googleapp_browser_contextmenu_previewimage_scrolllabel">เลื่อนเพื่อดูรูปเพิ่มเติม</string>
+    <string name="googleapp_browser_contextmenu_previewimage_smalllabel">ตัวอย่างรูปภาพที่ขยายจากขนาดต้นฉบับ</string>
     <string name="googleapp_browser_download_blocker_incognito_continue_btn">ดาวน์โหลด</string>
     <string name="googleapp_browser_download_blocker_incognito_message">ไฟล์ที่ดาวน์โหลดจะบันทึกอยู่ในอุปกรณ์ ซึ่งคุณยังเข้าถึงได้อยู่หลังจากที่ปิดโหมดไม่ระบุตัวตน</string>
     <string name="googleapp_browser_enable_title">เปิดหน้าเว็บในแอป Google</string>
@@ -3532,28 +3610,27 @@ Assistant ยังช่วยคุณทำสิ่งต่อไปนี�
     <string name="googleapp_browser_firstrun_summary">"อัปเดตแอป Google แล้ว ตอนนี้คุณสามารถเรียกดูเนื้อหาเว็บ เช่น บทความ วิดีโอ และเรื่องราวทั้งหมดได้ภายในแอป
 
 คุณอาจต้องลงชื่อเข้าสู่ระบบบางเว็บไซต์และอาจต้องตรวจสอบการตั้งค่าเบราว์เซอร์"</string>
-    <string name="googleapp_browser_firstrun_summary_v2">"Now you can view pages faster and enjoy an improved search experience.
+    <string name="googleapp_browser_firstrun_summary_v2">"ตอนนี้คุณสามารถดูหน้าเว็บต่างๆ ได้เร็วขึ้นและเพลิดเพลินกับประสบการณ์การค้นหาที่ปรับปรุงให้ดีขึ้น
 
-You may need to log back in to some sites."</string>
+คุณอาจต้องกลับเข้าสู่ระบบบางเว็บไซต์"</string>
     <string name="googleapp_browser_firstrun_summary_v2_part2">"
 
-Manage your new browser security and privacy settings in the app."</string>
+จัดการความปลอดภัยของเบราว์เซอร์ใหม่และการตั้งค่าความเป็นส่วนตัวในแอป"</string>
     <string name="googleapp_browser_firstrun_title">เปิดดูเนื้อหาเว็บในแอปได้แล้ว</string>
-    <string name="googleapp_browser_firstrun_title_v2">Browse without leaving the app</string>
+    <string name="googleapp_browser_firstrun_title_v2">ท่องเว็บโดยไม่ต้องออกจากแอป</string>
     <string name="googleapp_browser_setting_clear_cache_title"><b>รูปภาพและไฟล์ที่แคชไว้</b>"
 บางเว็บไซต์อาจโหลดช้ากว่าเดิมเมื่อคุณเข้าชมครั้งถัดไป"</string>
     <string name="googleapp_browser_setting_clear_data_title"><b>ข้อมูลคุกกี้และเว็บไซต์</b>"
 นำคุณออกจากระบบของเว็บไซต์ส่วนใหญ่ คุณจะไม่ออกจากระบบบัญชี Google"</string>
     <string name="googleapp_browser_settings_browser_privacy_category_title">ความเป็นส่วนตัวในเบราว์เซอร์</string>
     <string name="googleapp_browser_settings_browser_safety_category_title">ความปลอดภัยของเบราว์เซอร์</string>
-    <string name="googleapp_browser_settings_browsing_history_summary">Manage your browsing history at My Activity</string>
+    <string name="googleapp_browser_settings_browsing_history_summary">จัดการประวัติการท่องเว็บที่กิจกรรมของฉัน</string>
     <string name="googleapp_browser_settings_browsing_history_title">ประวัติการท่องเว็บ</string>
     <string name="googleapp_browser_settings_clear_browsing_data_summary">ล้างคุกกี้และข้อมูลที่แคชไว้</string>
     <string name="googleapp_browser_settings_clear_browsing_data_title">ล้างข้อมูลการท่องเว็บ</string>
     <string name="googleapp_browser_settings_cleardata_button_text">ล้างข้อมูล</string>
     <string name="googleapp_browser_settings_extended_safe_browsing_summary">ส่งข้อมูลเบราว์เซอร์ไปยัง Google เพื่อช่วยตรวจหาแอปและเว็บไซต์ที่เป็นอันตราย ข้อมูลนี้รวมถึง URL ของบางหน้าที่คุณเข้าชม ข้อมูลระบบที่จำกัด และเนื้อหาบางส่วนของหน้า</string>
     <string name="googleapp_browser_settings_extended_safe_browsing_title">ช่วยปรับปรุงความปลอดภัยของเบราว์เซอร์</string>
-    <string name="googleapp_browser_settings_link">การตั้งค่าเบราว์เซอร์</string>
     <string name="googleapp_browser_settings_real_time_safe_browsing_summary">ตรวจหาปัญหาด้านความปลอดภัยใหม่ทุกครั้งที่คุณเข้าชมเว็บไซต์ ระบบจะส่ง URL ของหน้าที่เข้าชมไปยัง Google</string>
     <string name="googleapp_browser_settings_real_time_safe_browsing_title">ตรวจสอบความปลอดภัยของเว็บไซต์แบบเรียลไทม์</string>
     <string name="googleapp_browser_settings_safe_browsing_summary">เห็นคำเตือนเมื่อคุณพยายามเข้าชมเว็บไซต์ที่ทราบแล้วว่ามีปัญหาด้านความปลอดภัย ระบบอาจส่ง URL ที่ไม่ปลอดภัยที่คุณเข้าชมไปยัง Google</string>
@@ -3620,10 +3697,10 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_covid_vaccine_register_25_subheader">ทุกคนที่มีอายุ 25 ปีขึ้นไปมีสิทธิ์รับวัคซีน</string>
     <string name="googleapp_covid_vaccine_register_header">ลงทะเบียนรับวัคซีนโควิดวันนี้</string>
     <string name="googleapp_custom_color_description">สีของวิดเจ็ต Search ที่กำหนดเอง</string>
-    <string name="googleapp_custom_color_hue_slider_description">Custom hue slider</string>
-    <string name="googleapp_custom_color_hue_slider_label">Hue</string>
-    <string name="googleapp_custom_color_saturation_slider_description">Custom saturation slider</string>
-    <string name="googleapp_custom_color_saturation_slider_label">Saturation</string>
+    <string name="googleapp_custom_color_hue_slider_description">แถบเลื่อนโทนสีที่กำหนดเอง</string>
+    <string name="googleapp_custom_color_hue_slider_label">โทนสี</string>
+    <string name="googleapp_custom_color_saturation_slider_description">แถบเลื่อนความอิ่มตัวที่กำหนดเอง</string>
+    <string name="googleapp_custom_color_saturation_slider_label">ความอิ่มตัว</string>
     <string name="googleapp_custom_tabs_collections_menu_item_title">ดูหน้าที่รวบรวมไว้</string>
     <string name="googleapp_custom_tabs_copy_link_menu_item_title">คัดลอกลิงก์</string>
     <string name="googleapp_custom_tabs_copy_link_toast_text">คัดลอกลิงก์ไปยังคลิปบอร์ดแล้ว</string>
@@ -3635,6 +3712,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_custom_tabs_enabled_setting_unavailable_need_first_run_done">เปิดและตั้งค่า Chrome เพื่อเปิดใช้ตัวเลือกนี้</string>
     <string name="googleapp_custom_tabs_enabled_setting_unavailable_update_chrome">ติดตั้ง Chrome เวอร์ชันล่าสุดเพื่อเปิดใช้</string>
     <string name="googleapp_custom_tabs_help_menu_item_title">ความช่วยเหลือ</string>
+    <string name="googleapp_custom_tabs_piros_menu_item_title">นำผลการค้นหาเกี่ยวกับคุณออก</string>
     <string name="googleapp_custom_tabs_recently_menu_item_title">ล่าสุด</string>
     <string name="googleapp_customize_text">ปรับแต่ง</string>
     <string name="googleapp_disco_channels_and_interests_tng_setting">ช่องและความสนใจ</string>
@@ -3746,7 +3824,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_general_settings_title">ทั่วไป</string>
     <string name="googleapp_go_to_discover_content_description">ไปที่ Discover</string>
     <string name="googleapp_goc_bottombar_close_description">ซ่อนหน้าที่เกี่ยวข้อง</string>
-    <string name="googleapp_google_app_browser_instacart_button_content_description">Instacart button</string>
+    <string name="googleapp_google_app_browser_instacart_button_content_description">ปุ่ม Instacart</string>
     <string name="googleapp_hide_explicit_results_settings_title">ซ่อนผลการค้นหาที่อาจไม่เหมาะสม</string>
     <string name="googleapp_images_mode_landing_text">ค้นหาภาพ</string>
     <string name="googleapp_incognito_app_strip_header">จากแอปของคุณ (อาจไม่ได้อยู่ในโหมดไม่ระบุตัวตน)</string>
@@ -3780,7 +3858,6 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_incognito_setup_device_biometrics_dialog_title">ตั้งค่าข้อมูลไบโอเมตริก</string>
     <string name="googleapp_incognito_signpost_button_text">ปิด</string>
     <string name="googleapp_incognito_signpost_icon_description">ไอคอนป้ายแสดงโหมดไม่ระบุตัวตน</string>
-    <string name="googleapp_incognito_signpost_message_assistant">ฟีเจอร์ Assistant จะไม่พร้อมใช้งานขณะท่องเว็บในโหมดไม่ระบุตัวตน ออกจากโหมดนี้เพื่อเข้าถึง Assistant</string>
     <string name="googleapp_incognito_signpost_message_collections">คอลเล็กชันจะไม่พร้อมใช้งานขณะท่องเว็บในโหมดไม่ระบุตัวตน ออกจากโหมดนี้เพื่อเข้าถึงคอลเล็กชัน</string>
     <string name="googleapp_incognito_signpost_message_default">ฟีเจอร์ดังกล่าวจะไม่พร้อมใช้งานขณะท่องเว็บในโหมดไม่ระบุตัวตน ออกจากโหมดนี้เพื่อเข้าถึงฟีเจอร์</string>
     <string name="googleapp_incognito_signpost_message_discover">ฟีด Discover จะไม่พร้อมใช้งานเมื่อคุณอยู่ในโหมดไม่ระบุตัวตน</string>
@@ -3803,7 +3880,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_interstitial_visibility_warning_isp">ผู้ให้บริการอินเทอร์เน็ตของคุณ</string>
     <string name="googleapp_interstitial_visibility_warning_websites">เว็บไซต์ที่คุณเข้าชม</string>
     <string name="googleapp_language_setting_title">ภาษาในการค้นหา</string>
-    <string name="googleapp_language_switcher_auto_option">Auto-switch</string>
+    <string name="googleapp_language_switcher_auto_option">เปลี่ยนอัตโนมัติ</string>
     <string name="googleapp_lens_button_content_description">ค้นหาด้วยกล้อง</string>
     <string name="googleapp_lens_explainer">ถ่ายรูปสิ่งต่างๆ เพื่อค้นหา</string>
     <string name="googleapp_lens_icon_content_description">ค้นหาด้วยกล้อง</string>
@@ -3882,7 +3959,14 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_recent_pages_enabled_setting_title">หน้าล่าสุด</string>
     <string name="googleapp_region_setting_title">ภูมิภาคที่ค้นหา</string>
     <string name="googleapp_reset_style_text">รีเซ็ตเป็นรูปแบบเริ่มต้น</string>
-    <string name="googleapp_save_button_text">Save</string>
+    <string name="googleapp_save_button_text">บันทึก</string>
+    <string name="googleapp_save_feature_default_collection_label">หน้าเว็บโปรด</string>
+    <string name="googleapp_save_feature_error_title">อ๊ะ เกิดข้อผิดพลาด</string>
+    <string name="googleapp_save_feature_share_close_button_description">ปิด</string>
+    <string name="googleapp_save_feature_share_receiver_subject_and_text">"%1$s
+
+%2$s"</string>
+    <string name="googleapp_save_feature_share_save">บันทึก</string>
     <string name="googleapp_search_a_song_content_description">แตะเพื่อเริ่มใช้การจดจำเพลง</string>
     <string name="googleapp_search_bar_radius_24dp_description">วงกลม</string>
     <string name="googleapp_search_bar_radius_2dp_description">สี่เหลี่ยมผืนผ้า</string>
@@ -3912,26 +3996,27 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_second_screen_manage_interests_menu_label">จัดการความสนใจ</string>
     <string name="googleapp_second_screen_settings_menu_label">การตั้งค่า</string>
     <string name="googleapp_see_updates">ดูข้อมูลอัปเดต</string>
-    <string name="googleapp_settings_about_link">เกี่ยวกับ</string>
+    <string name="googleapp_setting_error_card_icon_content_description">ข้อผิดพลาด</string>
+    <string name="googleapp_setting_error_card_message_explanation">โหลดหน้าเว็บไม่ได้</string>
+    <string name="googleapp_setting_error_card_message_title">เกิดข้อผิดพลาด</string>
     <string name="googleapp_settings_about_title">เกี่ยวกับ</string>
-    <string name="googleapp_settings_general_link">ทั่วไป</string>
-    <string name="googleapp_settings_language_and_region_link">ภาษาและภูมิภาค</string>
     <string name="googleapp_settings_language_and_region_title">ภาษาและภูมิภาค</string>
     <string name="googleapp_settings_legal_notices_title">ประกาศทางกฎหมาย</string>
     <string name="googleapp_settings_location_terms_of_service_title">ข้อกำหนดในการให้บริการตำแหน่ง</string>
+    <string name="googleapp_settings_nav_up">กลับ</string>
     <string name="googleapp_settings_open_source_licenses_title">ประกาศจากบุคคลที่สาม</string>
     <string name="googleapp_settings_privacy_and_security_link">ความเป็นส่วนตัวและความปลอดภัย</string>
     <string name="googleapp_settings_privacy_policy_title">นโยบายความเป็นส่วนตัว</string>
-    <string name="googleapp_settings_search_widget_link">วิดเจ็ต Search</string>
+    <string name="googleapp_settings_search">ค้นหา</string>
+    <string name="googleapp_settings_search_hint">ค้นหาในการตั้งค่า</string>
     <string name="googleapp_settings_terms_of_service_title">ข้อกำหนดในการให้บริการ</string>
-    <string name="googleapp_settings_voice_link">เสียง</string>
     <string name="googleapp_settings_voice_title">เสียง</string>
     <string name="googleapp_shopping_mode_landing_text">ค้นหาการช็อปปิ้ง</string>
     <string name="googleapp_show_waiting_text">โปรดรอสักครู่…</string>
-    <string name="googleapp_sign_in_tout_header">Sign in to personalize Discover</string>
-    <string name="googleapp_sign_in_tout_negative_text">Cancel</string>
-    <string name="googleapp_sign_in_tout_positive_text">Sign in</string>
-    <string name="googleapp_sign_in_tout_subheader">Control what you see in the Google app by signing in</string>
+    <string name="googleapp_sign_in_tout_header">ลงชื่อเข้าใช้เพื่อปรับเปลี่ยน Discover ในแบบของคุณ</string>
+    <string name="googleapp_sign_in_tout_negative_text">ยกเลิก</string>
+    <string name="googleapp_sign_in_tout_positive_text">ลงชื่อเข้าใช้</string>
+    <string name="googleapp_sign_in_tout_subheader">ควบคุมสิ่งที่คุณจะเห็นในแอป Google โดยการลงชื่อเข้าใช้</string>
     <string name="googleapp_signed_out_pq_based_suggestion_message">การคาดคะเนนี้เกี่ยวข้องกับการค้นหาล่าสุด</string>
     <string name="googleapp_silk_pane_close_button">ปิด</string>
     <string name="googleapp_silk_pane_dismiss_message">ปิด</string>
@@ -3939,6 +4024,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_sno_subscriptions_internal_error_header">เกิดข้อผิดพลาด</string>
     <string name="googleapp_sno_subscriptions_offline_error_message">คุณจะต้องเชื่อมต่อเครือข่ายจึงจะดูและแก้ไขการสมัครรับข้อมูลได้</string>
     <string name="googleapp_sound_search_search_a_song_hint">ค้นหาเพลง</string>
+    <string name="googleapp_srp_query_tiger">เสือ</string>
     <string name="googleapp_stamp_viewer_actionbutton_feedback">ส่งความคิดเห็น</string>
     <string name="googleapp_stamp_viewer_actionbutton_heart">หัวใจ</string>
     <string name="googleapp_stamp_viewer_actionbutton_help_center">ศูนย์ช่วยเหลือ</string>
@@ -3953,7 +4039,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_stamp_viewer_error_title">เกิดข้อผิดพลาด</string>
     <string name="googleapp_stamp_viewer_overflow_menu_button_content_description">ตัวเลือกเพิ่มเติม</string>
     <string name="googleapp_stamp_viewer_overflow_menu_close">ปิด</string>
-    <string name="googleapp_stamp_viewer_preview_button_text">อ่านเรื่องราวทั้งหมด</string>
+    <string name="googleapp_stamp_viewer_preview_button_text">ดูต่อ</string>
     <string name="googleapp_stamp_viewer_preview_label">พรีวิว</string>
     <string name="googleapp_stamp_viewer_publisher_cta">ไปที่</string>
     <string name="googleapp_stamp_viewer_retry_button_text">ลองอีกครั้ง</string>
@@ -3970,7 +4056,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_tabs_manager_close_all_tabs_dialog_confirmation_button_label">ปิดทั้งหมด</string>
     <string name="googleapp_tabs_manager_close_all_tabs_dialog_confirmation_message">คุณแน่ใจไหมว่าต้องการปิดแท็บที่เปิดอยู่ทั้งหมด</string>
     <string name="googleapp_tabs_manager_close_tab_button_default_description">ปิดแท็บ</string>
-    <string name="googleapp_tabs_manager_close_tab_button_description">ปิดเว็บไซต์ %s - ปุ่ม</string>
+    <string name="googleapp_tabs_manager_close_tab_button_description">ปิดเว็บไซต์ %s</string>
     <string name="googleapp_tabs_manager_empty_state_title">คุณไม่ได้เปิดแท็บใดอยู่เลย</string>
     <string name="googleapp_tabs_manager_new_tab_button_description">เริ่มค้นหาใหม่</string>
     <string name="googleapp_tabs_manager_new_tab_button_text">แท็บใหม่</string>
@@ -3988,18 +4074,19 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_voice_search_humming">ค้นหาเพลงด้วยการฮัม</string>
     <string name="googleapp_voice_search_tired_of_typing">หากไม่ต้องการพิมพ์ ค้นหาด้วยเสียง</string>
     <string name="googleapp_voice_search_with_voice">ค้นหาด้วยเสียง</string>
+    <string name="googleapp_voice_settings_assistant_title">Google Assistant</string>
     <string name="googleapp_voice_settings_languages_setting_check_content_description">เลือกไว้</string>
     <string name="googleapp_voice_settings_languages_setting_limit_reached_notice">ถึงขีดจำกัดแล้ว เลือกภาษาเพิ่มอีกไม่ได้</string>
     <string name="googleapp_voice_settings_languages_setting_no_selection_notice">ไม่ได้เลือกภาษา</string>
     <string name="googleapp_voice_settings_languages_setting_save_button_text">บันทึก</string>
+    <string name="googleapp_voice_settings_languages_setting_summary_text_others">Others:</string>
+    <string name="googleapp_voice_settings_languages_setting_summary_text_primary">Primary:</string>
     <string name="googleapp_voice_settings_languages_setting_title">ภาษา</string>
     <string name="googleapp_voice_settings_offline_speech_recognition_setting_summary">จัดการภาษาที่ดาวน์โหลด</string>
     <string name="googleapp_voice_settings_offline_speech_recognition_setting_title">การจดจำคำพูดแบบออฟไลน์</string>
     <string name="googleapp_voice_settings_spoken_results_setting_title">พูดผลการค้นหา</string>
-    <string name="googleapp_voice_settings_spoken_results_value_all_voices">การค้นหาด้วยเสียงทั้งหมด</string>
-    <string name="googleapp_voice_settings_spoken_results_value_hands_free_only">การค้นหาแบบแฮนด์ฟรีเท่านั้น</string>
-    <string name="googleapp_voice_settings_voice_match_setting_summary">พูดกับ Google Assistant เพื่อสั่งงานต่างๆ</string>
-    <string name="googleapp_voice_settings_voice_match_setting_title">Voice Match</string>
+    <string name="googleapp_voice_settings_spoken_results_value_all_voices">On</string>
+    <string name="googleapp_voice_settings_spoken_results_value_hands_free_only">Off</string>
     <string name="googleapp_waa_disabled_tout_promo_description">การตั้งค่าความเป็นส่วนตัวของ Google Search</string>
     <string name="googleapp_waa_disabled_tout_promo_header">ฟีดของคุณไม่ได้อิงตามประวัติ</string>
     <string name="googleapp_waa_disabled_tout_promo_subheader">ฟีด Discover ไม่ได้อิงตามประวัติเนื่องจากการตั้งค่ากิจกรรมบนเว็บและแอปปิดอยู่</string>
@@ -4082,6 +4169,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="herbie_skip_ota_dialog_message">ถ้าดำเนินการต่อโดยที่อัปเดตไม่สำเร็จ %1$s อาจทำงานไม่ถูกต้อง</string>
     <string name="herbie_skip_ota_dialog_title">อุปกรณ์อาจทำงานไม่ถูกต้อง</string>
     <string name="heres_the_message">ข้อความมีดังนี้:</string>
+    <string name="hey_google_title">การตรวจหา \"Ok Google\"</string>
     <string name="hide_account_list">ซ่อนบัญชี</string>
     <string name="hide_completed_episodes">ซ่อนตอนที่ฟังจบแล้ว</string>
     <string name="hide_debug_info">ซ่อนข้อมูลการแก้ไขข้อบกพร่อง</string>
@@ -4126,6 +4214,8 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="hotword_disabled_motorola_aov">อีกฟีเจอร์หนึ่งกำลังใช้ไมโครโฟนอยู่ แทนที่จะเป็น \"%1$s\" ปิด Moto Voice เพื่อเปิด \"%1$s\" อีกครั้ง</string>
     <string name="hotword_disabled_text">\"Ok Google\" จะใช้งานไม่ได้ใน %1$s สำหรับภาษาของ Assistant ที่คุณเลือกไว้</string>
     <string name="hotword_disabled_title">\"Ok Google\" ไม่พร้อมใช้งานสำหรับ %1$s</string>
+    <string name="hotword_enrollment_battery_impact_disclosure_wear_os">\"%1$s\" จะใช้แบตเตอรี่ในนาฬิกามากขึ้น คุณปิด \"%2$s\" ได้ในการตั้งค่า Assistant</string>
+    <string name="hotword_enrollment_battery_impact_disclosure_wear_os_for_unicorn">\"%1$s\" จะใช้แบตเตอรี่ในนาฬิกามากขึ้น คุณปิด \"%2$s\" ได้ในการตั้งค่า Assistant ของ %3$s</string>
     <string name="hotword_enrollment_button_more">เพิ่มเติม</string>
     <string name="hotword_enrollment_delete_voice_model">ลบรูปแบบเสียง</string>
     <string name="hotword_enrollment_device_fast_update_progress_summary">Assistant กำลังใช้คลิปเสียงที่คุณบันทึกไว้ก่อนหน้าในการสร้างรูปแบบเสียงสำหรับอุปกรณ์นี้</string>
@@ -4145,7 +4235,10 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="hotword_enrollment_enroll_text_opa_talkback">เปิดใช้งานปุ่ม %1$s ด้านล่าง แล้วพูด \"%2$s\" เพื่อฝึก Assistant ให้จำเสียงของคุณ</string>
     <string name="hotword_enrollment_enroll_text_opa_talkback_assistant_device">"หากจะฝึก Assistant ให้จดจำเสียงของคุณ เพียงแตะปุ่ม \"เริ่มบันทึก\" ด้านล่างนี้ แล้วพูดวลีต่อไปนี้เมื่อมีข้อความแจ้ง
 %1$s"</string>
+    <string name="hotword_enrollment_enroll_text_opa_tisid_talkback_assistant_device">Assistant จะเรียนรู้จากเสียงของคุณในหน้าจอถัดไปโดยการพูดวลีหนึ่งและฟังวิธีการพูดของคุณ ฟัง Assistant พูดวลีนั้น จากนั้นกดปุ่ม \"เริ่มบันทึก\" และพูดออกเสียงวลีดังกล่าว แตะ%1$sเพื่อเริ่มขั้นตอน</string>
+    <string name="hotword_enrollment_enroll_tisid_talkback_next">ถัดไป</string>
     <string name="hotword_enrollment_fast_update_header_title">กำลังเปิดใช้งาน Voice Match</string>
+    <string name="hotword_enrollment_feature_disabled">ปิดใช้ฟีเจอร์นี้อยู่</string>
     <string name="hotword_enrollment_feature_disabled_by_admin">ผู้ดูแลระบบได้ปิดใช้ฟีเจอร์นี้</string>
     <string name="hotword_enrollment_from_fdl_google_home_share_screen_done">เสร็จ</string>
     <string name="hotword_enrollment_google_home_enrollment_intro_title_activate">เปิดใช้งาน Voice Match ในอุปกรณ์เครื่องนี้</string>
@@ -4173,8 +4266,8 @@ Manage your new browser security and privacy settings in the app."</string>
 คุณก็รับคำตอบเฉพาะสำหรับคุณได้เช่นกัน แตะเพื่อลงชื่อเข้าใช้อุปกรณ์: g.co/voicematch"</string>
     <string name="hotword_enrollment_google_home_share_message_subject">สอน Assistant ให้จดจำคุณ</string>
     <string name="hotword_enrollment_google_home_share_screen_done">เชิญ</string>
-    <string name="hotword_enrollment_google_home_skip_dialog_negative_button">ตั้งค่า Voice Match</string>
-    <string name="hotword_enrollment_google_home_skip_dialog_positive_button">เสร็จสิ้น</string>
+    <string name="hotword_enrollment_google_home_skip_dialog_negative_button">นำออก</string>
+    <string name="hotword_enrollment_google_home_skip_dialog_positive_button">ตั้งค่า Voice Match</string>
     <string name="hotword_enrollment_google_home_skip_dialog_title">ระบบจะนำบัญชีของ {PERSON} ออกจากอุปกรณ์นี้</string>
     <string name="hotword_enrollment_google_home_summary_footer_text">คุณดูหรือลบกิจกรรมเสียงได้ใน %1$s หรือปิด Voice Match ในการตั้งค่า Assistant</string>
     <string name="hotword_enrollment_google_home_tisid_enrollment_devices">"
@@ -4192,7 +4285,16 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="hotword_enrollment_intro_get_started_unicorn">ถัดไป</string>
     <string name="hotword_enrollment_intro_header_summary">รับความช่วยเหลือแบบแฮนด์ฟรีจาก Google Assistant</string>
     <string name="hotword_enrollment_intro_header_summary_oobe">{GENDER,select, male{%1$s จะพูดขอความช่วยเหลือได้แบบแฮนด์ฟรี}female{%1$s จะพูดขอความช่วยเหลือได้แบบแฮนด์ฟรี}other{%1$s จะพูดขอความช่วยเหลือได้แบบแฮนด์ฟรี}}</string>
-    <string name="hotword_enrollment_intro_header_summary_wear_os_battery_disclosure">นาฬิกาจะรอในโหมดสแตนด์บายเพื่อให้ความช่วยเหลือแบบแฮนด์ฟรี</string>
+    <string name="hotword_enrollment_intro_header_summary_wear_os">"หากแตะ \"%1$s\" Assistant จะสแตนด์บายเพื่อตรวจจับ \"%2$s\" เมื่อนาฬิกาทำงานอยู่อย่างสมบูรณ์
+
+\"%3$s\" จำเป็นต้องใช้ Voice Match ด้วยเพื่อให้ Assistant จดจำคุณได้"</string>
+    <string name="hotword_enrollment_intro_header_summary_wear_os_for_unicorn">"{GENDER,select, male{หากแตะ \"%1$s\" Assistant ของ %2$s จะสแตนด์บายเพื่อตรวจจับ \"%3$s\" เมื่อนาฬิกาทำงานอยู่อย่างสมบูรณ์
+
+\"%4$s\" จำเป็นต้องใช้ Voice Match ด้วยเพื่อให้ Assistant ของ %5$s จดจำได้}female{หากแตะ \"%1$s\" Assistant ของ %2$s จะสแตนด์บายเพื่อตรวจจับ \"%3$s\" เมื่อนาฬิกาทำงานอยู่อย่างสมบูรณ์
+
+\"%4$s\" จำเป็นต้องใช้ Voice Match ด้วยเพื่อให้ Assistant ของ %5$s จดจำได้}other{หากแตะ \"%1$s\" Assistant ของ %2$s จะสแตนด์บายเพื่อตรวจจับ \"%3$s\" เมื่อนาฬิกาทำงานอยู่อย่างสมบูรณ์
+
+\"%4$s\" จำเป็นต้องใช้ Voice Match ด้วยเพื่อให้ Assistant ของ %5$s จดจำได้}}"</string>
     <string name="hotword_enrollment_intro_header_title">เข้าถึง Assistant โดยพูดว่า “%1$s”</string>
     <string name="hotword_enrollment_intro_header_title_glif_non_opa">ค้นหาด้วยเสียงได้ทุกเวลา</string>
     <string name="hotword_enrollment_intro_header_title_oobe">อนุญาตให้ %1$s เข้าถึง Google Assistant ด้วย \"%2$s\"</string>
@@ -4215,6 +4317,8 @@ Voice Match ช่วยให้ Assistant ระบุว่าเป็น %1
 หากไม่อยากให้ %1$s ใช้ Voice Match แล้ว ก็นำออกได้ในการตั้งค่า Assistant หากต้องการดูหรือลบคลิปเสียงที่ %1$s บันทึกไว้ระหว่างการตั้งค่า Voice Match ให้ไปที่ activity.google.com จากบัญชีของ %1$s 
 
 หมายเหตุ: บุคคลหรือเสียงบันทึกที่มีเสียงคล้ายกันอาจเข้าถึงผลการค้นหาส่วนตัวของ %1$s ผ่านทาง Assistant ได้}}"</string>
+    <string name="hotword_enrollment_intro_misactivation_disclaimer_wear_os">Assistant อาจเปิดใช้งานโดยที่คุณไม่ได้ตั้งใจ เช่น เมื่อมีเสียงรบกวนที่ฟังดูคล้ายกับ \"%1$s\"</string>
+    <string name="hotword_enrollment_intro_misactivation_disclaimer_wear_os_for_unicorn">Assistant อาจเปิดใช้งานโดยที่ %1$s ไม่ได้ตั้งใจ เช่น เมื่อมีเสียงรบกวนที่ฟังดูคล้ายกับ \"%2$s\"</string>
     <string name="hotword_enrollment_intro_summary_glif_non_opa">พูดว่า %1$s เพื่อพูดคุยกับอุปกรณ์ได้ทุกเมื่อ แม้หน้าจอจะปิดอยู่หรือขณะที่คุณกำลังใช้แอปโปรดอยู่&lt;br/>&lt;br/>ระบบจะสร้างรูปแบบเสียงที่ไม่ซ้ำของคุณในอุปกรณ์นี้ ซึ่งจะช่วยให้ \"Google ค้นหาด้วยเสียง\" ระบุตัวตนและแยกแยะคุณออกจากบุคคลอื่นได้&lt;br/>&lt;br/>&lt;b>หมายเหตุ:&lt;/b> ผู้ที่มีเสียงคล้ายคลึงหรือมีเสียงบันทึกของคุณอาจเข้าถึงการค้นหาด้วยเสียงได้เช่นกัน คุณนำสิทธิ์ออกได้ในภายหลังด้วยการปิดใช้งานในแอป Google</string>
     <string name="hotword_enrollment_intro_title_activate_hey_google">เปิดใช้งาน Voice Match สำหรับ %1$s</string>
     <string name="hotword_enrollment_intro_title_activate_hey_google_for_unicorn">เปิดใช้งาน Voice Match ของ %1$s</string>
@@ -4308,7 +4412,6 @@ Assistant จะใช้คลิปเสียงของคุณเพื�
     <string name="hotword_enrollment_voice_match_next">ถัดไป</string>
     <string name="hotword_enrollment_voice_match_no_thanks">ไม่เป็นไร</string>
     <string name="hotword_enrollment_voice_match_skip">ข้าม</string>
-    <string name="hotword_enrollment_wear_os_battery_impact_disclosure">โหมดสแตนด์บายจะใช้แบตเตอรี่ในนาฬิกามากขึ้น</string>
     <string name="hotword_enrollment_wrong_query">ลองพูดอีกครั้งสิ</string>
     <string name="hotword_model_download_notification_content">กำลังอัปเดตรูปแบบเสียงเพื่อให้ระบบรู้จำได้ดีขึ้นเมื่อคุณพูดว่า \"%1$s\"</string>
     <string name="hotword_model_download_notification_title">การอัปเดตรูปแบบ \"%1$s\"</string>
@@ -4598,6 +4701,7 @@ Assistant จะใช้คลิปเสียงของคุณเพื�
     <string name="language_switcher_nudge_string">คลิกปุ่มนี้เพื่อเปลี่ยนภาษา</string>
     <string name="language_unsupported_text">เปลี่ยนภาษาของ Assistant</string>
     <string name="language_unsupported_tts">ฉันพูดภาษาที่คุณเลือกไว้สำหรับรถยนต์ไม่ได้ หากยังต้องการให้ฉันช่วยเหลือ คุณเลือกภาษาอื่นสำหรับการสนทนาของเราโดยเฉพาะได้ เมื่อใช้งานได้อย่างปลอดภัยแล้ว ให้เลือกในการตั้งค่า Assistant ของรถยนต์</string>
+    <string name="launch_driving_mode">เปิดโหมดขับรถ</string>
     <string name="launcher_name">Google Now Launcher</string>
     <string name="launcher_shortcut_assistant_short">Google Assistant</string>
     <string name="launcher_shortcut_text_search_short">ค้นหา</string>
@@ -4753,14 +4857,13 @@ Assistant จะใช้คลิปเสียงของคุณเพื�
     <string name="lens_info_panel_on_device_chip_share_translate_content_description">แชร์รูปภาพที่แปลแล้ว</string>
     <string name="lens_info_panel_on_device_chip_translate">แปล</string>
     <string name="lens_info_panel_on_device_chip_translate_content_description">แปลข้อความที่เลือก</string>
-    <string name="lens_info_panel_on_device_no_text_header_title">ไม่พบข้อความ</string>
     <string name="lens_info_panel_on_device_results_header_limited_functionality">บางฟีเจอร์ใช้งานไม่ได้</string>
     <string name="lens_info_panel_on_device_results_header_offline">ออฟไลน์</string>
     <string name="lens_info_panel_on_device_text_header_title">ข้อความที่พบในรูปภาพ</string>
     <string name="lens_info_panel_on_device_translation_header_title">ข้อความแปล</string>
+    <string name="lens_info_panel_partial_translate_enabled_header_title">ข้อความต้นฉบับ</string>
     <string name="lens_info_panel_processing_message">กำลังโหลด…</string>
     <string name="lens_info_panel_quoted_title">\"%1$s\"</string>
-    <string name="lens_info_panel_select_text_to_translate_header_title">เลือกข้อความเพื่อแปล</string>
     <string name="lens_kilometers_indicator">%s กม.</string>
     <string name="lens_latex_input_hint">พิมพ์โจทย์คณิตศาสตร์</string>
     <string name="lens_launcher_description">ค้นหาด้วยกล้อง</string>
@@ -4856,6 +4959,7 @@ Assistant จะใช้คลิปเสียงของคุณเพื�
     <string name="lens_sample_images_translate_card_text_short">แปลภาษาในรูปภาพ</string>
     <string name="lens_search_bar_hint">ป้อนชื่อร้านอาหาร</string>
     <string name="lens_search_filter_name">ค้นหา</string>
+    <string name="lens_selection_state_guidance_message_on_device_translation">แตะข้อความเพื่อแปล</string>
     <string name="lens_share_to_lens_label">ค้นหารูปภาพ</string>
     <string name="lens_share_translate_message">แปลภาษาด้วย Google Lens ลองใช้เลย</string>
     <string name="lens_shopping_filter_guidance_message">ถ่ายภาพผลิตภัณฑ์หรือบาร์โค้ด</string>
@@ -4970,14 +5074,10 @@ Assistant จะใช้คลิปเสียงของคุณเพื�
     <string name="local_intent_search">ดูเหมือนคุณกำลังพยายามหาตำแหน่งขณะออฟไลน์</string>
     <string name="local_results_map_description">แผนที่ของ %1$s</string>
     <string name="location">ตำแหน่ง</string>
-    <string name="location_added_snackbar_text">เพิ่มสถานที่แล้ว</string>
-    <string name="location_default_error">มีข้อผิดพลาดเกิดขึ้น โปรดลองอีกครั้งในภายหลัง</string>
     <string name="location_feedback_button_heading">สำหรับการ์ดสถานที่ โปรดคลิก \"แบบฟอร์มความคิดเห็นเกี่ยวกับการ์ดสถานที่\"</string>
     <string name="location_feedback_button_text">แบบฟอร์มความคิดเห็นเกี่ยวกับการ์ดสถานที่</string>
     <string name="location_name">ชื่อ</string>
-    <string name="location_not_saved_snackbar_text">ไม่ได้บันทึก %s</string>
     <string name="location_permission_toast">Google Search และ Assistant อาจใช้ตำแหน่งของคุณ (รวมถึงการใช้ในเบื้องหลัง) เพื่อแสดงผลการค้นหาและฟีเจอร์ที่เกี่ยวข้องในพื้นที่</string>
-    <string name="location_removed_snackbar_text">นำตำแหน่งออกแล้ว</string>
     <string name="location_setting_title">ตำแหน่ง</string>
     <string name="locked_fetch_requires_hpr">ถ้าจะฟังการแจ้งเตือนระหว่างที่โทรศัพท์ล็อกอยู่ คุณต้องเปิดผลการค้นหาเฉพาะบุคคลในหูฟัง ตรวจสอบการแจ้งเตือนในโทรศัพท์เพื่อดูข้อมูลเพิ่มเติม</string>
     <string name="locked_fetch_requires_unlock">ถ้าจะฟังการแจ้งเตือนและผลการค้นหาเฉพาะบุคคลอื่นๆ คุณจะต้องปลดล็อกโทรศัพท์ก่อน 1 ครั้ง</string>
@@ -5010,7 +5110,6 @@ Assistant จะใช้คลิปเสียงของคุณเพื�
     <string name="main_page_subtitle">สร้างทางลัดเพื่อให้ Assistant ช่วยทำงานในแอปต่างๆ เมื่อคุณพูดว่า \"Ok Google\"</string>
     <string name="main_page_title">ทางลัด</string>
     <string name="make_a_call_text">โทรออก</string>
-    <string name="manage_accounts">จัดการบัญชี</string>
     <string name="manage_activity_button_text">จัดการประวัติ</string>
     <string name="manage_all_assistant_settings">จัดการการตั้งค่า Assistant ทั้งหมด</string>
     <string name="manage_apps_title">จัดการแอปและบริการ</string>
@@ -5069,6 +5168,7 @@ Assistant จะใช้คลิปเสียงของคุณเพื�
     <string name="mdd_notification_action_cancel">ยกเลิก</string>
     <string name="mdd_notification_download_failed">ดาวน์โหลดไม่สำเร็จ</string>
     <string name="mdd_notification_download_paused">กำลังรอการเชื่อมต่อเครือข่าย</string>
+    <string name="mdd_notification_download_paused_wifi">Waiting for WiFi connection</string>
     <string name="mdd_notification_download_success">ดาวน์โหลดแล้ว</string>
     <string name="media_artist_a11y">%1$s, ศิลปิน</string>
     <string name="media_assistant_logo_a11y">คลิกเพื่อพูด</string>
@@ -5133,6 +5233,10 @@ Assistant จะใช้คลิปเสียงของคุณเพื�
     <string name="menu_overlay_reset_to_default_style">รีเซ็ตเป็นรูปแบบเริ่มต้น</string>
     <string name="menu_refresh">รีเฟรช</string>
     <string name="menu_send_button_content_description">ปุ่ม \"ส่ง\" เพื่อส่งความคิดเห็น</string>
+    <string name="message_alert_hear_contact">ฟังชื่อผู้ติดต่อ</string>
+    <string name="message_alert_hear_message">ฟังข้อความทั้งหมด</string>
+    <string name="message_alert_notification_only">การแจ้งเตือนเท่านั้น</string>
+    <string name="message_alert_title">เลือกการแจ้งเตือนข้อความ</string>
     <string name="message_announce_title">การแจ้งเตือนข้อความ</string>
     <string name="message_card_feedback">ความคิดเห็น</string>
     <string name="message_center_auto_read_setting_turn_on">เปิดการอ่านอัตโนมัติ</string>
@@ -5153,6 +5257,9 @@ Assistant จะใช้คลิปเสียงของคุณเพื�
     <string name="message_sound_search_result_tts">คุณกำลังฟัง %s</string>
     <string name="message_sound_search_result_with_artist_tts" formatted="false">คุณกำลังฟัง %s โดย %s</string>
     <string name="message_who_initial_prompt">คุณต้องการส่งข้อความถึงใคร</string>
+    <string name="messaging_settings_header">การโทรและข้อความ</string>
+    <string name="messaging_toggle_description">Assistant จะช่วยฟังและตอบกลับข้อความขณะขับรถ</string>
+    <string name="messaging_toggle_title">ฟังข้อความและตอบด้วยเสียง</string>
     <string name="mic_button_content_description">ค้นหาด้วยเสียง</string>
     <string name="mic_button_description">%1$s ปุ่มไมโครโฟน</string>
     <string name="mic_fab_content_description">คลิกเพื่อคุยกับ Google Assistant</string>
@@ -5322,7 +5429,6 @@ Assistant จะใช้คลิปเสียงของคุณเพื�
     <string name="network_connection_unstable">ดูเหมือนการเชื่อมต่อเครือข่ายของคุณไม่เสถียร ขอโทษนะ โปรดลองอีกครั้ง</string>
     <string name="network_error">ไม่สามารถเข้าถึง Google ได้ในขณะนี้</string>
     <string name="network_error_airplane_mode_tts">ไม่มีการเชื่อมต่ออินเทอร์เน็ตในขณะนี้เนื่องจากคุณอยู่ในโหมดบนเครื่องบิน</string>
-    <string name="network_error_fetching_weather_data_status_text">เครือข่ายไม่พร้อมใช้งานในขณะนี้</string>
     <string name="network_error_no_connection_tts">ไม่มีการเชื่อมต่ออินเทอร์เน็ตในขณะนี้</string>
     <string name="network_error_try_again">ลองอีกครั้ง</string>
     <string name="never">ไม่เลย</string>
@@ -5842,6 +5948,8 @@ Assistant จะใช้คลิปเสียงของคุณเพื�
     <string name="notification_heading">อนุญาตให้ Assistant อ่านการแจ้งเตือนให้คุณฟัง</string>
     <string name="notification_modal_text">การแจ้งเตือนตอนใหม่</string>
     <string name="notification_okay">ตกลง</string>
+    <string name="notification_permission_modal_description">อนุญาตให้แอป Google เข้าถึงการแจ้งเตือนเพื่อฟังข้อความและปิดเสียงสายเรียกเข้า</string>
+    <string name="notification_permission_modal_title">อนุญาตให้ Google เข้าถึงการแจ้งเตือนไหม</string>
     <string name="notification_permissions_button">อนุญาตให้เข้าถึง</string>
     <string name="notification_permissions_description">อนุญาตให้แอป Google เข้าถึงการตั้งค่าการรับส่งข้อความและการตั้งค่าโหมดห้ามรบกวนไหม</string>
     <string name="notification_settings">การตั้งค่า</string>
@@ -6109,12 +6217,6 @@ Assistant จะใช้คลิปเสียงของคุณเพื�
     <string name="opa_consent_check_error_title">มีข้อผิดพลาดเกิดขึ้น</string>
     <string name="opa_consent_check_error_title_confirmreject">ใช้งาน Assistant ได้อย่างเต็มรูปแบบด้วยการตั้งค่าเหล่านี้</string>
     <string name="opa_consent_check_error_title_notavailable">Google Assistant ใช้ไม่ได้กับบัญชีนี้</string>
-    <string name="opa_contextual_cards_found_message">นี่คือข้อมูลบางส่วนเกี่ยวกับหน้าจอนี้</string>
-    <string name="opa_contextual_cards_found_proactive_message">นอกจากนี้ นี่คือสิ่งที่ฉันพบว่าเกี่ยวข้องกับหน้าจอนี้</string>
-    <string name="opa_contextual_cards_network_error">ตอนนี้เข้าถึง Google ไม่ได้</string>
-    <string name="opa_contextual_cards_no_cards_message">ฉันไม่พบสิ่งที่จะช่วยได้บนหน้าจอ ลองแตะไมโครโฟนเพื่อถามเรื่องอะไรก็ได้</string>
-    <string name="opa_contextual_cards_nothing_found_card_text">ไม่พบสิ่งใดบนหน้าจอ</string>
-    <string name="opa_contextual_cards_offline_indicator">โทรศัพท์ออฟไลน์อยู่ เราจึงช่วยคุณไม่ได้ในขณะนี้</string>
     <string name="opa_contextual_cards_share_screenshot_error">ดูเหมือนมีข้อผิดพลาดเกิดขึ้น โปรดลองใหม่อีกครั้ง</string>
     <string name="opa_continued_conversation_optin_screen_allow_button_text">โอเค ใช้เลย</string>
     <string name="opa_continued_conversation_optin_screen_disallow_button_text">ไม่เป็นไร</string>
@@ -6342,10 +6444,6 @@ Assistant จะแสดงผลการค้นหาเฉพาะบุ�
     <string name="opa_pre_upgrade_notifs_disabled_toast_text">เราอัปเดตการตั้งค่าและปิดการแจ้งเตือนเหล่านี้แล้ว</string>
     <string name="opa_privacy_policy_chip_text">นโยบายความเป็นส่วนตัว</string>
     <string name="opa_proactive_notification_subtext">Assistant</string>
-    <string name="opa_screen_read_it">อ่าน</string>
-    <string name="opa_screen_read_this_page">อ่านหน้านี้</string>
-    <string name="opa_screen_search_more_screen_context_action">เพิ่มเติมจากหน้าจอของฉัน</string>
-    <string name="opa_screen_search_screen_context_action">รายการที่อยู่บนหน้าจอของฉัน</string>
     <string name="opa_screen_search_share_screenshot_action">แชร์ภาพหน้าจอ</string>
     <string name="opa_screenless_nav_opt_in_notification_body">ขณะนำทาง คุณสามารถใช้เสียงเพื่อคุยกับ Google Assistant</string>
     <string name="opa_screenless_nav_opt_in_notification_title">ใช้ Google Assistant ขณะนำทาง</string>
@@ -6538,6 +6636,7 @@ Assistant จะแสดงผลการค้นหาเฉพาะบุ�
     <string name="payments_auth_too_many_fingerprint_retries_should_use_password">ลองหลายครั้งมากเกินไป โปรดป้อนรหัสผ่านแทน</string>
     <string name="payments_auth_use_biometric_checkbox_hint">ใช้อุปกรณ์นี้เพื่อยืนยันการชำระเงินในอนาคตด้วยลายนิ้วมือหรือใบหน้าของคุณ หรือวิธีการที่คล้ายกัน</string>
     <string name="payments_auth_use_fingerprint_checkbox_hint">ใช้ลายนิ้วมือเพื่อการอนุมัติในอนาคต</string>
+    <string name="pending_fragment_error_toast">เกิดข้อผิดพลาด โปรดลองอีกครั้งภายหลัง</string>
     <string name="peoplekit_about_suggested_people_hide_info">คุณซ่อนคำแนะนำที่ไม่ต้องการเห็นได้</string>
     <string name="peoplekit_about_suggested_people_info">Google แนะนำผู้คนโดยดูจากการโต้ตอบของคุณ</string>
     <string name="peoplekit_about_top_suggestions">เกี่ยวกับผู้คนที่แนะนำ</string>
@@ -6738,6 +6837,7 @@ Assistant จะแสดงผลการค้นหาเฉพาะบุ�
     <string name="phone_pr_title">โทรศัพท์ของคุณ</string>
     <string name="phone_voice_match_settings_delete_voice_model_summary">นำโมเดล Voice Match ออกจากอุปกรณ์นี้ ซึ่งจะเป็นการปิด \"%1$s\" ด้วย</string>
     <string name="phone_voice_match_settings_delete_voice_model_title">ลบรูปแบบ Voice Match</string>
+    <string name="phone_voice_match_settings_not_supported_error">อุปกรณ์นี้ไม่รองรับ \"Ok Google\"</string>
     <string name="phone_voice_match_settings_retrain_summary">ฝึกให้ Assistant จดจำเสียงของคุณอีกครั้ง</string>
     <string name="phone_voice_match_settings_retrain_title">ฝึกรูปแบบ Voice Match อีกครั้ง</string>
     <string name="photo_downloading_error_toast_text">เกิดข้อผิดพลาดในการดาวน์โหลดรูปภาพ</string>
@@ -7139,13 +7239,13 @@ Assistant จะแสดงผลการค้นหาเฉพาะบุ�
     <string name="punt_for_personal_results">ถ้าจะให้ช่วยคุณเรื่องนั้น คุณต้องอนุญาตให้แสดงผลการค้นหาเฉพาะบุคคลในรถคันนี้ก่อน เมื่อใช้งานได้อย่างปลอดภัยแล้ว ให้อนุญาตในการตั้งค่า Assistant นะ</string>
     <string name="punt_for_signed_out">คุณต้องลงชื่อเข้าใช้ด้วยบัญชี Google ก่อนถึงจะทำแบบนั้นได้ เมื่อใช้งานได้อย่างปลอดภัยแล้ว ให้ตรวจสอบการแจ้งเตือนจากรถสำหรับขั้นตอนถัดไป</string>
     <string name="punt_home_alias_unset">ดูเหมือนฉันจะไม่มีที่อยู่บ้านของคุณ คุณขอเส้นทางกลับบ้านโดยบอกที่อยู่มาได้เลยนะ</string>
-    <string name="punt_max_volume">ขอโทษด้วย อุปกรณ์นี้ไม่รองรับการปรับระดับเสียงสูงสุด หรือเพิ่มไปจนถึง 100 เปอร์เซ็นต์</string>
     <string name="punt_missing_call_permission">ดูเหมือนว่าจะไม่ได้เปิดการโทรไว้ เมื่อใช้งานได้อย่างปลอดภัยแล้ว ให้มองหาการตั้งค่าบลูทูธในโทรศัพท์ แล้วเลือกรถยนต์ของคุณเพื่อเปิด</string>
     <string name="punt_missing_message_permission">ดูเหมือนว่าจะไม่ได้เปิดการส่ง SMS ไว้ เมื่อใช้งานได้อย่างปลอดภัยแล้ว ให้มองหาการตั้งค่าบลูทูธในโทรศัพท์ แล้วเลือกรถยนต์ของคุณเพื่อเปิด</string>
     <string name="punt_non_percentage_volume_control">การตั้งค่าระดับเสียงในรถจะใช้เป็นเปอร์เซ็นต์ จึงพูดประมาณว่า \"ปรับระดับเสียงไปที่ 25 เปอร์เซ็นต์\" ได้เลย</string>
     <string name="punt_offline_music">ดูเหมือนจะไม่มีการเชื่อมต่อ เลยเปิดให้ไม่ได้นะ</string>
     <string name="punt_open_app">ขอโทษนะ ไม่ได้ติดตั้งแอปนี้ไว้หรือใช้แอปไม่ได้ในตอนนี้</string>
     <string name="punt_open_unsafe_for_drving_app">ขอโทษนะ แอปนั้นไม่ปลอดภัยที่จะใช้ตอนขับรถ</string>
+    <string name="punt_set_volume_beyond_threshold">ตั้งระดับเสียงในรถให้ดังขนาดนั้นไม่ได้เนื่องจากเหตุผลด้านความปลอดภัย คุณขอให้ฉันเปิดเสียงดังสุดได้ %1$d%% นะ</string>
     <string name="punt_work_alias_unset">ดูเหมือนว่าฉันไม่มีที่อยู่ที่ทำงานของคุณ คุณขอเส้นทางไปที่ทำงานโดยบอกที่อยู่มาได้เลยนะ</string>
     <string name="qp_bottom_baseball_inning">ครึ่งหลังครั้งที่ %1$d</string>
     <string name="qp_precip">ฝน/หิมะ/ลูกเห็บ %1$s</string>
@@ -7157,7 +7257,6 @@ Assistant จะแสดงผลการค้นหาเฉพาะบุ�
     <string name="qp_weather_unit_abbrev_celsius">C</string>
     <string name="qp_weather_unit_abbrev_fahrenheit">F</string>
     <string name="qp_wind_speed">ลม %1$d%2$s</string>
-    <string name="qpf_label">การพยากรณ์ปริมาณฝน/ลูกเห็บ/หิมะ: %s</string>
     <string name="qsb_promocard_icon_description">Google</string>
     <string name="qsb_promocard_negative_button_text">ไม่เป็นไร</string>
     <string name="qsb_promocard_positive_button_text">เพิ่ม</string>
@@ -7200,7 +7299,6 @@ Assistant จะแสดงผลการค้นหาเฉพาะบุ�
     <string name="rating_very_dissatisfied">ไม่พอใจมาก</string>
     <string name="rating_very_satisfied">พอใจมาก</string>
     <string name="rating_views_content_description">%1$d จาก 5 คะแนน</string>
-    <string name="reached_max_locations_removal_dialog_title">คุณบันทึกได้สูงสุด 8 ตำแหน่ง โปรดนำออก 1 ตำแหน่งก่อนบันทึกตำแหน่งใหม่</string>
     <string name="reaction_ads_show_more">คุณจะเห็น<b>โฆษณา</b>ลักษณะนี้มากขึ้น</string>
     <string name="reaction_modal_close_action">ปิด</string>
     <string name="reaction_show_more">รอพบรายการลักษณะนี้มากขึ้นได้เลย</string>
@@ -7264,7 +7362,7 @@ Assistant จะแสดงผลการค้นหาเฉพาะบุ�
     <string name="recently_timeline_just_now">เมื่อสักครู่</string>
     <string name="recently_timeline_yesterday">เมื่อวานนี้</string>
     <string name="recipes_processing_message">กำลังดึงข้อมูลวิธีการ</string>
-    <string name="recognition_custodio_subtitle">เลือกตัวกรอง ช่วงพัก และสิ่งที่บุตรหลานทำได้ด้วย Assistant ใน Smart Display และลำโพง</string>
+    <string name="recognition_custodio_subtitle">เลือกตัวกรอง ช่วงพัก และสิ่งที่บุตรหลานทำได้ด้วย Assistant ในจอและลำโพงอัจฉริยะ</string>
     <string name="recognition_custodio_title">การควบคุมโดยผู้ปกครอง</string>
     <string name="recognition_face_match_subtitle">อนุญาตให้ Assistant จดจำใบหน้าของคุณ</string>
     <string name="recognition_face_match_title">Face Match</string>
@@ -7334,7 +7432,6 @@ Assistant จะแสดงผลการค้นหาเฉพาะบุ�
     <string name="remove_all_devices_button_text">นำ Face Match ออกจากอุปกรณ์ทั้งหมด</string>
     <string name="remove_all_played">นำรายการที่เล่นแล้วออก</string>
     <string name="remove_all_week_old">นำรายการที่อายุ %1$d วันขึ้นไปออก</string>
-    <string name="remove_button_text">นำออก</string>
     <string name="remove_completed_episodes">นำตอนที่ฟังจบแล้วออก</string>
     <string name="remove_download">นำตอนที่ดาวน์โหลดออก</string>
     <string name="remove_from_history_failed">ไม่สามารถนำรายการออกจากประวัติ</string>
@@ -7351,6 +7448,7 @@ Assistant จะแสดงผลการค้นหาเฉพาะบุ�
     <string name="repeat_notification">ตกลง จะอ่านให้ฟังอีกครั้ง การแจ้งเตือนบอกว่า</string>
     <string name="replay_count_down">กำลังจะเล่นซ้ำในอีก &lt;b>%1$d&lt;/b>…</string>
     <string name="reply">ตอบ</string>
+    <string name="reply_button_string">ตอบ</string>
     <string name="reply_button_text">ตอบ</string>
     <string name="reply_message_notice">กำลังส่งข้อความ</string>
     <string name="report_other_option">อื่นๆ</string>
@@ -7442,7 +7540,7 @@ Assistant จะแสดงผลการค้นหาเฉพาะบุ�
     <string name="sceneviewer_get_help">Get help</string>
     <string name="sceneviewer_get_help_button_content_description">Get Help</string>
     <string name="sceneviewer_immersive_edge_fallback_dialog_confirm_button">Go</string>
-    <string name="sceneviewer_immersive_edge_fallback_dialog_message">No connection. You will be redirected to &lt;b> %1$s &lt;/b></string>
+    <string name="sceneviewer_immersive_edge_fallback_dialog_message">No connections available. Redirecting you to &lt;b>%1$s&lt;/b>. Please try again in a few minutes.</string>
     <string name="sceneviewer_immersive_edge_fallback_dialog_title">Connection lost</string>
     <string name="sceneviewer_immersive_edge_redirect_dialog_cancel_button">Cancel</string>
     <string name="sceneviewer_immersive_edge_redirect_dialog_confirm_button">OK</string>
@@ -7472,7 +7570,6 @@ Assistant จะแสดงผลการค้นหาเฉพาะบุ�
     <string name="search_apps_web_and_more">ค้นหาแอป เว็บ และอื่นๆ…</string>
     <string name="search_box_content_description">ค้นหา…</string>
     <string name="search_box_hint">ค้นหา…</string>
-    <string name="search_box_hint_for_places_and_web">ค้นหาสถานที่</string>
     <string name="search_bubble_notification_description">เพื่อแสดงลูกโป่งสำหรับการค้นหาใน Google ต่อไป</string>
     <string name="search_bubble_notification_header">ลูกโป่งสำหรับการค้นหาใน Google</string>
     <string name="search_bubble_optin_prompt_cancel_text">นำออก</string>
@@ -7504,7 +7601,6 @@ Assistant จะแสดงผลการค้นหาเฉพาะบุ�
     <string name="search_maps">ค้นหา Maps</string>
     <string name="search_menu_title">ค้นหา</string>
     <string name="search_notifications">การแจ้งเตือน</string>
-    <string name="search_plate_accessibility_voice_search_button">ค้นหา</string>
     <string name="search_region_default">ภูมิภาคปัจจุบัน (ค่าเริ่มต้น)</string>
     <string name="search_region_setting_summary">ภูมิภาคปัจจุบัน</string>
     <string name="search_restriction">คุณไม่มีสิทธิ์ใช้ Google Search</string>
@@ -7553,6 +7649,7 @@ Assistant จะแสดงผลการค้นหาเฉพาะบุ�
     <string name="select_address_title">เลือกที่อยู่สำหรับจัดส่ง</string>
     <string name="select_all_episodes">เลือกทั้งหมด</string>
     <string name="select_assistant_language">เลือกภาษาของ Assistant</string>
+    <string name="select_day">เลือกเดือนและวัน</string>
     <string name="select_feedback_category">เลือกหมวดหมู่ความคิดเห็น</string>
     <string name="select_google_account">บัญชี Google</string>
     <string name="select_google_account_add_account">เพิ่มบัญชี</string>
@@ -7564,6 +7661,7 @@ Assistant จะแสดงผลการค้นหาเฉพาะบุ�
     <string name="select_instrument_message">Google Pay ช่วยรักษาข้อมูลการชำระเงินของคุณให้ปลอดภัย คุณจึงชำระเงินด้วย Assistant ได้ทุกที่ทุกเวลา</string>
     <string name="select_instrument_title">เลือกวิธีการชำระเงิน</string>
     <string name="select_wifi_network_button_text">เลือกเครือข่าย Wi-Fi</string>
+    <string name="select_year">เลือกปี</string>
     <string name="selectable_search_widget_initializing">กำลังเริ่มต้น…</string>
     <string name="selected_account">ลงชื่อเข้าใช้ %1$s</string>
     <string name="selected_interest">เพิ่มในสิ่งที่คุณสนใจแล้ว</string>
@@ -7590,7 +7688,6 @@ Assistant จะแสดงผลการค้นหาเฉพาะบุ�
     <string name="sending_audio_to_account_toast">กำลังส่งเสียงไปยัง %1$s…</string>
     <string name="sensitive_or_disparaging_for_individuals">มีความละเอียดอ่อนหรือดูหมิ่นบุคคล</string>
     <string name="server_error">ไม่สามารถเข้าถึง Google ได้ในขณะนี้</string>
-    <string name="server_error_fetching_weather_data_status_text">มีบางอย่างผิดพลาด โปรดลองอีกครั้งภายหลัง</string>
     <string name="set_alarm">ตั้งเวลาปลุก</string>
     <string name="set_duration">ตั้งค่าระยะเวลา</string>
     <string name="set_reminder_saved">บันทึกการแจ้งเตือนแล้ว</string>
@@ -7682,11 +7779,6 @@ Assistant จะแสดงผลการค้นหาเฉพาะบุ�
 Assistant จะบันทึกรายการช็อปปิ้งที่คุณสร้าง (จัดการโดย Google Shopping)"</string>
     <string name="shopping_list_category_title_v2">บริการช็อปปิ้ง</string>
     <string name="shopping_mode_landing_text">ค้นหาการช็อปปิ้ง</string>
-    <string name="short_google_play_services_enable_required">จำเป็นต้องเปิดใช้บริการ Google Play</string>
-    <string name="short_google_play_services_install_required">จำเป็นต้องติดตั้งบริการ Google Play</string>
-    <string name="short_google_play_services_missing_permission">บริการ Google Play ขาดสิทธิ์ที่ต้องการอย่างน้อย 1 สิทธิ์</string>
-    <string name="short_google_play_services_unsupported">อุปกรณ์ของคุณไม่รองรับบริการ Google Play</string>
-    <string name="short_google_play_services_update_required">จำเป็นต้องอัปเดตบริการ Google Play</string>
     <string name="shortcut_not_available">ทางลัดไม่พร้อมใช้งาน</string>
     <string name="shortcut_phrase_label">เมื่อคุณพูดว่า</string>
     <string name="shortcuts_link_description">ดูว่าคุณใช้แอปที่ติดตั้งไว้ทำอะไรได้บ้างจากแป้นพิมพ์ลัด</string>
@@ -7715,7 +7807,6 @@ Assistant จะบันทึกรายการช็อปปิ้งท�
     <string name="show_proactively_on_displays">แสดงโดยไม่ต้องขอในจอแสดงผล</string>
     <string name="show_results">แสดงผลลัพธ์</string>
     <string name="sidekick_network_error">ข้อผิดพลาดของเครือข่าย ตรวจสอบการเชื่อมต่อเครือข่ายของคุณและลองอีกครั้ง</string>
-    <string name="sign_in">ลงชื่อเข้าใช้</string>
     <string name="sign_in_accept">ลงชื่อเข้าใช้</string>
     <string name="sign_in_error_description">ดูเหมือนว่าเกิดข้อผิดพลาดในการลงชื่อเข้าใช้บัญชี</string>
     <string name="sign_in_message">ลงชื่อเข้าใช้เพื่อเข้าถึงพอดแคสต์และประวัติการฟังในอุปกรณ์เครื่องอื่นๆ</string>
@@ -7807,6 +7898,7 @@ Assistant จะบันทึกรายการช็อปปิ้งท�
     <string name="snowman_content">คุณซ่อนเรื่องราวหรือหัวข้อที่คุณไม่สนใจได้</string>
     <string name="soccer_shootout">การยิงจุดโทษตัดสิน</string>
     <string name="solid">ทึบ</string>
+    <string name="someone_else_text">บุคคลอื่น</string>
     <string name="sorry_string">อะไรนะ</string>
     <string name="sort_description">จัดเรียงตาม: %1$s</string>
     <string name="sound_search_hint">นี่เพลงอะไร</string>
@@ -7836,6 +7928,7 @@ Assistant จะบันทึกรายการช็อปปิ้งท�
     <string name="speech_output_keywords">เอาต์พุตเสียงพูด แฮนด์ฟรี แฮนด์ฟรี แฮนด์ฟรี</string>
     <string name="speech_output_subtitle">เลือกลักษณะการสนทนาของ Assistant</string>
     <string name="speech_output_title">เอาต์พุตเสียงพูด</string>
+    <string name="speedbump_prompt_text">แตะไมค์เพื่อเริ่มใช้งาน</string>
     <string name="spinner_request_completed">อัปเดตฟีดแล้ว</string>
     <string name="spinner_request_failed">อัปเดตฟีดไม่ได้</string>
     <string name="spinner_requesting_new_content">กำลังอัปเดตฟีด</string>
@@ -8141,9 +8234,6 @@ Assistant จะบันทึกรายการช็อปปิ้งท�
     <string name="switch_on">เปิด</string>
     <string name="switcher_description">ตัวเลือกภาษาสำหรับการค้นหาด้วยเสียง</string>
     <string name="switcher_language_description">ปัจจุบันใช้ภาษา%1$s</string>
-    <string name="tab_title_10_days">10 วัน</string>
-    <string name="tab_title_today">วันนี้</string>
-    <string name="tab_title_tomorrow">พรุ่งนี้</string>
     <string name="tactile_add_action_button_title">เพิ่มการทำงาน</string>
     <string name="tactile_all_results_title">ผลการค้นหาทั้งหมด</string>
     <string name="tactile_answers_on_the_go_suggestion_1">15%% ของ $48 เท่ากับเท่าไร</string>
@@ -8366,6 +8456,7 @@ Assistant จะบันทึกรายการช็อปปิ้งท�
     <string name="transparency_seek_bar_description">เฉดสีของแถบ</string>
     <string name="transparent">โปร่งใส</string>
     <string name="trends_suggestion_message">การค้นหานี้กำลังมาแรงในพื้นที่ของคุณ</string>
+    <string name="triggering_settings_header">เปิดโหมดขับรถ</string>
     <string name="trim_silence">ตัดส่วนที่ไม่มีเสียง</string>
     <string name="trim_silence_disable">ปิดใช้การตัดส่วนที่ไม่มีเสียง</string>
     <string name="trim_silence_enable">เปิดใช้การตัดส่วนที่ไม่มีเสียง</string>
@@ -8516,39 +8607,33 @@ Assistant จะบันทึกรายการช็อปปิ้งท�
     <string name="twslang_zh_CN">จีน (ตัวย่อ)</string>
     <string name="twslang_zh_TW">จีน (ตัวเต็ม)</string>
     <string name="twslang_zu">ซูลู</string>
-    <string name="unable_to_save_location_snackbar_text">ไม่สามารถบันทึกตำแหน่ง โปรดลองอีกครั้งในภายหลัง</string>
-    <string name="unable_to_show_locations_text">ไม่สามารถแสดงตำแหน่ง</string>
-    <string name="unable_to_show_weather_for_location_error">ไม่สามารถแสดงข้อมูลสภาพอากาศของสถานที่นี้</string>
-    <string name="unable_to_show_weather_for_specific_location_error">ไม่สามารถแสดงข้อมูลสภาพอากาศของ %s</string>
     <string name="unblock_show_from_recommendations">เลิกบล็อกรายการจากคำแนะนำ</string>
     <string name="undo">เลิกทำ</string>
     <string name="undo_action">เลิกทำ</string>
     <string name="undo_dismiss_message_default">เสร็จสิ้น</string>
-    <string name="undo_snackbar_action">เลิกทำ</string>
     <string name="undo_string">เลิกทำ</string>
     <string name="unicorn_consent_screen_message">Assistant ใช้ Face Match เพื่อแยกแยะ %1$s ออกจากผู้อื่น เมื่อบุตรหลานเข้าใกล้ Nest Hub Max เราจะใช้ใบหน้าของบุตรหลานเพื่อปรับเปลี่ยนประสบการณ์การใช้งานเฉพาะบุคคลให้แก่บุตรหลาน</string>
     <string name="unicorn_consent_screen_title">อนุญาตให้ Assistant จดจำใบหน้าของ %1$s</string>
     <string name="unicorn_hand_off_screen_message">{GENDER,select, male{เมื่อพร้อมแล้วก็ส่งอุปกรณ์ให้ {PERSON} สร้างรูปแบบใบหน้าได้เลย และรออยู่ก่อนเพื่อช่วยทำขั้นตอนถัดไป}female{เมื่อพร้อมแล้วก็ส่งอุปกรณ์ให้ {PERSON} สร้างรูปแบบใบหน้าได้เลย และรออยู่ก่อนเพื่อช่วยทำขั้นตอนถัดไป}other{เมื่อพร้อมแล้วก็ส่งอุปกรณ์ให้ {PERSON} สร้างรูปแบบใบหน้าได้เลย และรออยู่ก่อนเพื่อช่วยทำขั้นตอนถัดไป}}</string>
     <string name="unicorn_hand_off_screen_title">อนุญาตให้ Assistant จดจำใบหน้าของ %1$s</string>
-    <string name="unicorn_handoff_img_content_desc">ยื่นอุปกรณ์ให้</string>
     <string name="unicorn_hotword_enrollment_google_home_oobe_skip_dialog_message">หากคุณข้ามขั้นตอนนี้ Google Home จะแยกแยะ {PERSON} จากคนอื่นๆ ในบ้านไม่ได้</string>
-    <string name="unicorn_hotword_enrollment_google_home_skip_dialog_message">"{GENDER,select, male{หากไม่มี Voice Match ระบบจะยกเลิกการลิงก์บัญชี Google ของ {PERSON} จากอุปกรณ์นี้และผู้ใช้ดังกล่าวจะไม่ได้รับประสบการณ์ที่ปรับเปลี่ยนในแบบของตน 
+    <string name="unicorn_hotword_enrollment_google_home_skip_dialog_message">"{GENDER,select, male{หากไม่มี Voice Match ระบบจะยกเลิกการลิงก์บัญชี Google ของ {PERSON} จากอุปกรณ์นี้และผู้ใช้ดังกล่าวจะไม่ได้รับการควบคุมโดยผู้ปกครองหรือประสบการณ์ที่ปรับเปลี่ยนในแบบของตน 
 
 คุณเปิด Voice Match สำหรับอุปกรณ์นี้ได้ตลอดผ่าน Family Link หรือผ่านการตั้งค่าในแอป Google Home หรือ Google Assistant ของ {PERSON} 
 
-เมื่อคุณสอนให้ Assistant จดจำเสียงของ {PERSON} ผู้ใช้จะได้รับประสบการณ์ที่ปรับเปลี่ยนในแบบของตน และ Google จะสามารถบังคับใช้การจำกัดเนื้อหาบางประเภทได้ ผู้ใช้จะดูรายการต่างๆ ในอุปกรณ์ในบ้านได้ เช่น ปฏิทินและรายชื่อติดต่อของตน 
+เนื่องจาก Assistant จดจำ {PERSON} ไม่ได้แล้ว ระบบจึงจะปฏิบัติต่อผู้ใช้รายนี้ในฐานะผู้มาเยือนหรือบุคคลที่ Assistant ไม่รู้จัก ซึ่งหมายความว่า Assistant จะใช้การควบคุมโดยผู้ปกครองไม่ได้หากมีการตั้งค่าไว้สำหรับ {PERSON} 
 
-หากต้องการเพิ่ม {PERSON} กลับเข้าสู่อุปกรณ์ในบ้าน ให้สอนให้ Google จดจำเสียงของ {PERSON}}female{หากไม่มี Voice Match ระบบจะยกเลิกการลิงก์บัญชี Google ของ {PERSON} จากอุปกรณ์นี้และผู้ใช้ดังกล่าวจะไม่ได้รับประสบการณ์ที่ปรับเปลี่ยนในแบบของตน 
-
-คุณเปิด Voice Match สำหรับอุปกรณ์นี้ได้ตลอดผ่าน Family Link หรือผ่านการตั้งค่าในแอป Google Home หรือ Google Assistant ของ {PERSON} 
-
-เมื่อคุณสอนให้ Assistant จดจำเสียงของ {PERSON} ผู้ใช้จะได้รับประสบการณ์ที่ปรับเปลี่ยนในแบบของตน และ Google จะสามารถบังคับใช้การจำกัดเนื้อหาบางประเภทได้ ผู้ใช้จะดูรายการต่างๆ ในอุปกรณ์ในบ้านได้ เช่น ปฏิทินและรายชื่อติดต่อของตน 
-
-หากต้องการเพิ่ม {PERSON} กลับเข้าสู่อุปกรณ์ในบ้าน ให้สอนให้ Google จดจำเสียงของ {PERSON}}other{หากไม่มี Voice Match ระบบจะยกเลิกการลิงก์บัญชี Google ของ {PERSON} จากอุปกรณ์นี้และผู้ใช้ดังกล่าวจะไม่ได้รับประสบการณ์ที่ปรับเปลี่ยนในแบบของตน 
+หากต้องการเพิ่ม {PERSON} กลับเข้าสู่อุปกรณ์ในบ้าน ให้สอนให้ Google จดจำเสียงของ {PERSON}}female{หากไม่มี Voice Match ระบบจะยกเลิกการลิงก์บัญชี Google ของ {PERSON} จากอุปกรณ์นี้และผู้ใช้ดังกล่าวจะไม่ได้รับการควบคุมโดยผู้ปกครองหรือประสบการณ์ที่ปรับเปลี่ยนในแบบของตน 
 
 คุณเปิด Voice Match สำหรับอุปกรณ์นี้ได้ตลอดผ่าน Family Link หรือผ่านการตั้งค่าในแอป Google Home หรือ Google Assistant ของ {PERSON} 
 
-เมื่อคุณสอนให้ Assistant จดจำเสียงของ {PERSON} ผู้ใช้จะได้รับประสบการณ์ที่ปรับเปลี่ยนในแบบของตน และ Google จะสามารถบังคับใช้การจำกัดเนื้อหาบางประเภทได้ ผู้ใช้จะดูรายการต่างๆ ในอุปกรณ์ในบ้านได้ เช่น ปฏิทินและรายชื่อติดต่อของตน 
+เนื่องจาก Assistant จดจำ {PERSON} ไม่ได้แล้ว ระบบจึงจะปฏิบัติต่อผู้ใช้รายนี้ในฐานะผู้มาเยือนหรือบุคคลที่ Assistant ไม่รู้จัก ซึ่งหมายความว่า Assistant จะใช้การควบคุมโดยผู้ปกครองไม่ได้หากมีการตั้งค่าไว้สำหรับ {PERSON} 
+
+หากต้องการเพิ่ม {PERSON} กลับเข้าสู่อุปกรณ์ในบ้าน ให้สอนให้ Google จดจำเสียงของ {PERSON}}other{หากไม่มี Voice Match ระบบจะยกเลิกการลิงก์บัญชี Google ของ {PERSON} จากอุปกรณ์นี้และผู้ใช้ดังกล่าวจะไม่ได้รับการควบคุมโดยผู้ปกครองหรือประสบการณ์ที่ปรับเปลี่ยนในแบบของตน 
+
+คุณเปิด Voice Match สำหรับอุปกรณ์นี้ได้ตลอดผ่าน Family Link หรือผ่านการตั้งค่าในแอป Google Home หรือ Google Assistant ของ {PERSON} 
+
+เนื่องจาก Assistant จดจำ {PERSON} ไม่ได้แล้ว ระบบจึงจะปฏิบัติต่อผู้ใช้รายนี้ในฐานะผู้มาเยือนหรือบุคคลที่ Assistant ไม่รู้จัก ซึ่งหมายความว่า Assistant จะใช้การควบคุมโดยผู้ปกครองไม่ได้หากมีการตั้งค่าไว้สำหรับ {PERSON} 
 
 หากต้องการเพิ่ม {PERSON} กลับเข้าสู่อุปกรณ์ในบ้าน ให้สอนให้ Google จดจำเสียงของ {PERSON}}}"</string>
     <string name="unified_ime_recognition_locale_toast">กำลังใช้ %1$s สำหรับการจดจำเสียง</string>
@@ -8795,12 +8880,8 @@ Voice Match"</string>
     <string name="warning_unsupported_music_provider_dialog_negative_button_text">ไม่</string>
     <string name="warning_unsupported_music_provider_dialog_positive_button_text">ใช่</string>
     <string name="warning_unsupported_music_provider_dialog_title">ดำเนินการต่อโดยใช้บริการเพลงที่ไม่รองรับใช่ไหม</string>
-    <string name="weather_accessibility_search_plate_back_button">กลับ</string>
-    <string name="weather_accessibility_search_plate_menu_button">เมนู</string>
-    <string name="weather_add_to_home_screen">เพิ่มลงในหน้าจอหลัก</string>
     <string name="weather_add_to_homescreen">เพิ่มลงในหน้าจอหลัก</string>
     <string name="weather_button_ok">ตกลง</string>
-    <string name="weather_cancel_button_text">ยกเลิก</string>
     <string name="weather_celsius">เซลเซียส</string>
     <string name="weather_current_location">ตำแหน่งปัจจุบัน</string>
     <string name="weather_error_background_content_description">ข้อผิดพลาด</string>
@@ -8814,7 +8895,6 @@ Voice Match"</string>
     <string name="weather_search_query">พยากรณ์อากาศ</string>
     <string name="weather_search_text">สภาพอากาศ</string>
     <string name="weather_send_feedback">ส่งความคิดเห็น</string>
-    <string name="weather_shortcut_icon_label">สภาพอากาศ</string>
     <string name="weather_temperature_units">หน่วยวัดอุณหภูมิ</string>
     <string name="weather_title">%1$s ใน %2$s</string>
     <string name="weather_today_tab_name">วันนี้</string>
@@ -8873,8 +8953,6 @@ Voice Match"</string>
     <string name="widget_resized">ปรับขนาดของวิดเจ็ตเป็นกว้าง %1$s สูง %2$s แล้ว</string>
     <string name="wifi_off">Wi-Fi ปิดอยู่</string>
     <string name="wifi_on">Wi-Fi เปิดอยู่</string>
-    <string name="wind_current_time_and_direction_template_with_bullet_separator" formatted="false">%s • %s</string>
-    <string name="wind_speed_with_unit" formatted="false">%d %s</string>
     <string name="wired_headset_icon_description">ชุดหูฟังแบบมีสาย</string>
     <string name="wired_headset_off_label">ชุดหูฟังแบบมีสายปิดอยู่</string>
     <string name="wired_headset_on_label">ชุดหูฟังแบบมีสายเปิดอยู่</string>
@@ -8888,6 +8966,7 @@ Voice Match"</string>
     <string name="workspace_scroll_format">หน้าจอหลัก %1$d จาก %2$d</string>
     <string name="wrong_account_selected_error_message">Google Assistant กำลังใช้บัญชีอื่นที่ไม่ใช่บัญชีที่เชื่อมโยงกับอุปกรณ์ โปรดเข้าสู่ระบบ Google Assistant ด้วยบัญชีต่อไปนี้ %1$s</string>
     <string name="wrong_account_selected_error_title">บัญชีไม่ตรงกัน</string>
+    <string name="year_picker_description">รายการปี</string>
     <string name="yes_button_text">ได้สิ ตกลง</string>
     <string name="yesterday">เมื่อวานนี้</string>
     <string name="yesterday_at_time">เมื่อวานนี้เวลา %1$s</string>
@@ -8899,7 +8978,6 @@ Voice Match"</string>
     <string name="your_information_link_subtitle">สำหรับ Assistant ที่ปรับเปลี่ยนในแบบของคุณมากขึ้น</string>
     <string name="your_information_page_subtitle">ควบคุมข้อมูลที่ใช้เพื่อปรับเปลี่ยน Google Assistant ในแบบของคุณมากขึ้น</string>
     <string name="your_information_title">ข้อมูลของคุณ</string>
-    <string name="your_location_search_menu_text">ตำแหน่งของคุณ</string>
     <string name="your_news_update_load_error">เกิดข้อผิดพลาดในการโหลดข่าวสารอัปเดต</string>
     <string name="your_news_update_title">ข่าวสารอัปเดตของคุณ</string>
     <string name="your_salsas_section_header">วลีด่วนของคุณ</string>

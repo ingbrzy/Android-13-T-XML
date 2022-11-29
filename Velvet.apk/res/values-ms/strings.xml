@@ -87,15 +87,21 @@
     <string name="ar_permissions_screen_title">Get a better look</string>
     <string name="ar_session_error_dialog_body">An error has occurred when trying to view this object in your space.</string>
     <string name="ar_session_error_dialog_title">Unable to view in your space</string>
-    <string name="assistant_aa_loyalty_card_title">Loyalty Card</string>
+    <string name="assistant_aa_loyalty_card_title">Kad Kesetiaan</string>
     <string name="assistant_accessibility_voice_typing_stopped">Penaip suara dihentikan</string>
     <string name="assistant_add_item_app_control_suggestion">Tambah</string>
-    <string name="assistant_ama_media_only_chip">Listen</string>
-    <string name="assistant_at_store">At Store</string>
-    <string name="assistant_calendar_event_during">%1$s now</string>
-    <string name="assistant_calendar_event_pre">%1$s in %2$s</string>
-    <string name="assistant_calendar_event_pre_static">%1$s at %2$s</string>
+    <string name="assistant_ama_media_only_chip">Dengar</string>
+    <string name="assistant_at_store">Di Kedai</string>
+    <string name="assistant_avatar_icon_description">Ikon avatar pengguna</string>
+    <string name="assistant_calendar_event_during">%1$s sekarang</string>
+    <string name="assistant_calendar_event_pre">%1$s dalam %2$s</string>
+    <string name="assistant_calendar_event_pre_static">%1$s pada %2$s</string>
     <string name="assistant_calendar_event_time_range">%1$s – %2$s</string>
+    <string name="assistant_canvas_logo_view_description">Carian suara</string>
+    <string name="assistant_canvas_opa_keyboard_indicator_content_description">Mod taip</string>
+    <string name="assistant_canvas_opa_send_button_content_description">Hantar</string>
+    <string name="assistant_canvas_opa_text_input_hint">Taip mesej</string>
+    <string name="assistant_canvas_transcription_bar_description">Bar transkripsi</string>
     <string name="assistant_create_doc_app_control_suggestion">Buat dokumen</string>
     <string name="assistant_custodio_activity_menu_help">Bantuan</string>
     <string name="assistant_custodio_activity_menu_send_feedback">Hantar maklum balas</string>
@@ -325,6 +331,7 @@
     <string name="assistant_custodio_youtube_media_provider_link">Tetapan kandungan</string>
     <string name="assistant_custodio_youtube_media_provider_name">YouTube</string>
     <string name="assistant_dictation_ineligible_aiai_version">Untuk menggunakan penaipan suara Assistant, kemas kini apl Android System Intelligence anda di Google Play. &lt;a href=\"https://play.google.com/store/apps/details?id=com.google.android.as\">Kemas kini&lt;/a> &lt;br> &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#update_app\">Ketahui lebih lanjut&lt;/a></string>
+    <string name="assistant_dictation_ineligible_android_old_version">Untuk menggunakan penaipan suara Assistant, kemas kini Sistem Android anda. &lt;a href=\"intent:#Intent;action=android.settings.SYSTEM_UPDATE_SETTINGS;end\">Kemas kini&lt;/a> &lt;br> &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#update_app\">Ketahui lebih lanjut&lt;/a></string>
     <string name="assistant_dictation_ineligible_download_needed">Penaipan suara Assistant memerlukan kemaskinian. Sambung kepada Wi-Fi untuk memuat turun secara automatik. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#update_to_use\">Ketahui lebih lanjut&lt;/a></string>
     <string name="assistant_dictation_ineligible_generic">Pada masa ini, anda tidak boleh menggunakan penaipan suara Assistant. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#fix_issues_assistant_voice_typing\">Ketahui lebih lanjut&lt;/a></string>
     <string name="assistant_dictation_ineligible_locale_mismatch">Untuk menggunakan penaipan suara Assistant, bahasa Gboard dan peranti utama anda mestilah sama. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#device_language\">Ketahui lebih lanjut&lt;/a></string>
@@ -333,29 +340,25 @@
     <string name="assistant_dictation_ineligible_unsupported_system_language">Tidak tersedia dalam bahasa peranti semasa anda. Ubah bahasa peranti anda agar sepadan dengan bahasa Gboard anda bagi menggunakan ciri ini. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#device_language\">Ketahui lebih lanjut&lt;/a></string>
     <string name="assistant_dictation_ineligible_work_profile">Pada masa ini, penaipan suara Assistant tidak tersedia untuk apl dalam profil kerja. Bertukar kepada apl peribadi anda untuk menggunakan ciri ini. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#not_available_work_profile\">Ketahui lebih lanjut&lt;/a></string>
     <string name="assistant_edit_app_control_suggestion">Edit</string>
-    <string name="assistant_flight_chip_boarding_pass">Boarding Pass</string>
-    <string name="assistant_flight_chip_check_in">Check in for your flight</string>
-    <string name="assistant_flight_chip_more_info">More Flight Info</string>
-    <string name="assistant_flight_departure_gate_info">Gate %1$s</string>
-    <string name="assistant_flight_departure_info">%1$s to %2$s departs in %3$s</string>
-    <string name="assistant_flight_departure_info_now">%1$s to %2$s departs now</string>
-    <string name="assistant_flight_departure_info_static_time">%1$s to %2$s departs at %3$s</string>
-    <string name="assistant_flight_departure_info_static_without_time">%1$s to %2$s</string>
+    <string name="assistant_flight_chip_boarding_pass">Pas Masuk</string>
+    <string name="assistant_flight_chip_check_in">Daftar masuk untuk penerbangan anda</string>
+    <string name="assistant_flight_chip_more_info">Lagi Maklumat Penerbangan</string>
+    <string name="assistant_flight_departure_gate_info">Pintu %1$s</string>
+    <string name="assistant_flight_departure_info">%1$s ke %2$s berlepas dalam masa %3$s</string>
+    <string name="assistant_flight_departure_info_now">%1$s ke %2$s berlepas sekarang</string>
+    <string name="assistant_flight_departure_info_static_time">%1$s ke %2$s berlepas pada pukul %3$s</string>
+    <string name="assistant_flight_departure_info_static_without_time">%1$s ke %2$s</string>
     <string name="assistant_flight_departure_terminal_info">Terminal %1$s</string>
-    <string name="assistant_flight_departure_time_delayed_info">Departs %1$s (<strike>%2$s</strike>)</string>
-    <string name="assistant_flight_departure_time_info">Departs %1$s</string>
-    <string name="assistant_flight_seat_info">Seat %1$s</string>
-    <string name="assistant_flight_to_delayed_info">Delayed: Flight to %1$s</string>
-    <string name="assistant_flight_to_info">Flight to %1$s</string>
+    <string name="assistant_flight_departure_time_delayed_info">Berlepas %1$s (<strike>%2$s</strike>)</string>
+    <string name="assistant_flight_departure_time_info">Berlepas %1$s</string>
+    <string name="assistant_flight_seat_info">Tempat duduk %1$s</string>
+    <string name="assistant_flight_to_delayed_info">Ditangguhkan: Penerbangan ke %1$s</string>
+    <string name="assistant_flight_to_info">Penerbangan ke %1$s</string>
     <string name="assistant_grocery_delivery_completed">%1$s order delivered</string>
-    <string name="assistant_grocery_delivery_during">%1$s delivery now</string>
-    <string name="assistant_grocery_delivery_pre">%1$s delivery in %2$s</string>
-    <string name="assistant_grocery_delivery_pre_static">%1$s delivery at %2$s</string>
+    <string name="assistant_grocery_delivery_scheduled">%1$s delivery scheduled</string>
     <string name="assistant_grocery_pickup_completed">%1$s order picked up</string>
-    <string name="assistant_grocery_pickup_during">%1$s pickup now</string>
-    <string name="assistant_grocery_pickup_pre">%1$s pickup in %2$s</string>
-    <string name="assistant_grocery_pickup_pre_static">%1$s pickup at %2$s</string>
-    <string name="assistant_grocery_pickup_ready">%1$s pickup now</string>
+    <string name="assistant_grocery_pickup_ready">%1$s order ready for pickup</string>
+    <string name="assistant_grocery_pickup_scheduled">%1$s pickup scheduled</string>
     <string name="assistant_grocery_time_range">%1$s – %2$s</string>
     <string name="assistant_guacamole_closed_popup_pill_content_description">Sebut “%1$s”. Dwiketik pada pil untuk mendapatkan maklumat lanjut.</string>
     <string name="assistant_guacamole_opened_popup_pill_content_description">Sebut “%1$s”. Dwiketik pada pil untuk mendapatkan kurang maklumat.</string>
@@ -404,6 +407,9 @@
     <string name="assistant_keyboard_first_one_text">Yang pertama</string>
     <string name="assistant_keyboard_firstrun_text">&lt;linkable>Urus tetapan&lt;/linkable></string>
     <string name="assistant_keyboard_icon_label">Papan kekunci</string>
+    <string name="assistant_keyboard_input_clear_button_content_description">Click to clear text input</string>
+    <string name="assistant_keyboard_input_mic_button_content_description">Click the mic icon to start voice query</string>
+    <string name="assistant_keyboard_input_text_hint">Type a text input here</string>
     <string name="assistant_keyboard_learning_center_category_compose">Taip dan hantar</string>
     <string name="assistant_keyboard_learning_center_category_emojis">Tambah emoji</string>
     <string name="assistant_keyboard_learning_center_category_forms">Borang dan e-mel</string>
@@ -487,11 +493,13 @@
     <string name="assistant_keyboard_sticky_mic_education_tip_text">Ketik dua kali untuk membiarkan mikrofon terbuka&lt;br>sehingga anda menutup papan kekunci</string>
     <string name="assistant_keyboard_stop_button_description">Hentikan pengimlakan</string>
     <string name="assistant_keyboard_stop_text">Hentikan</string>
+    <string name="assistant_keyboard_suggestion_query_builder_button_content_description">Click to edit in input box</string>
     <string name="assistant_keyboard_undo_button_description">Buat asal</string>
     <string name="assistant_keyboard_undo_text">Buat asal</string>
     <string name="assistant_keyboard_voice_command_not_supported">Perintah tidak tersedia dalam apl ini</string>
     <string name="assistant_keyboard_voice_corrections_tip_text">Sebut perkataan yang’d ingin anda&lt;br>gantikan pilihan</string>
     <string name="assistant_learning_center_data_error">Sorry, something went wrong while loading data.</string>
+    <string name="assistant_learning_center_detailed_page_data_error">Sorry, something went wrong while loading data.</string>
     <string name="assistant_long_press_power_action_button_text">OK</string>
     <string name="assistant_long_press_power_action_description">Mematikan</string>
     <string name="assistant_long_press_power_button_1">Butang kuasa</string>
@@ -531,7 +539,7 @@
     <string name="assistant_my_actions_unpin_confirmation_dialog_title">Makluman!</string>
     <string name="assistant_my_actions_unpinned_action_row_add_button_content_description">Tambah tindakan ini</string>
     <string name="assistant_my_actions_unpinned_actions_header">Tindakan yang anda mungkin suka</string>
-    <string name="assistant_my_flights_query">My Flights</string>
+    <string name="assistant_my_flights_query">Penerbangan Saya</string>
     <string name="assistant_preloaded_fre_homescreen_suggestion_1">Tetapkan pemasa selama 2 minit</string>
     <string name="assistant_preloaded_fre_homescreen_suggestion_11">Tetapkan peringatan</string>
     <string name="assistant_preloaded_fre_homescreen_suggestion_12">Buka Gmail</string>
@@ -591,21 +599,38 @@
     <string name="assistant_suw_intro_screen_action_button_text">Saya setuju</string>
     <string name="assistant_suw_intro_screen_cancel_button_text">Langkau</string>
     <string name="assistant_suw_intro_screen_default_x_google_hotword">Ok Google</string>
+    <string name="assistant_suw_intro_screen_hint1_for_unicorn_vm3">{GENDER,select, male{“%1$s” juga memerlukan Voice Match supaya Assistant{GIVEN_NAME} boleh mengecamnya.}female{“%1$s” juga memerlukan Voice Match supaya Assistant{GIVEN_NAME} boleh mengecamnya.}other{“%1$s” juga memerlukan Voice Match supaya Assistant{GIVEN_NAME} boleh mengecam mereka.}}</string>
+    <string name="assistant_suw_intro_screen_hint1_vm3">“%1$s” juga memerlukan Voice Match supaya Assistant anda boleh mengecam anda.</string>
+    <string name="assistant_suw_intro_screen_hint2_for_unicorn_vm3">Assistant mungkin diaktifkan apabila %1$s tidak bermaksud untuk berbuat demikian—contohnya, apabila terdapat bunyi bising yang berbunyi seperti “%2$s”.</string>
+    <string name="assistant_suw_intro_screen_hint2_vm3">Assistant mungkin diaktifkan apabila anda tidak bermaksud untuk berbuat demikian—contohnya, apabila terdapat bunyi bising yang berbunyi seperti “%1$s”.</string>
+    <string name="assistant_suw_intro_screen_hint3_for_unicorn_vm3">Anda boleh mematikan “%1$s” dalam tetapan Assistant %2$s.</string>
+    <string name="assistant_suw_intro_screen_hint3_vm3">Anda boleh mematikan “%1$s” dalam tetapan Assistant.</string>
     <string name="assistant_suw_intro_screen_item_summary_1">\"Bagaimanakah cuaca pada hujung minggu ini?\"</string>
+    <string name="assistant_suw_intro_screen_item_summary_1_for_unicorn">“Adakah saya perlukan payung?”</string>
     <string name="assistant_suw_intro_screen_item_summary_2">“Di manakah kedai kopi yang terdekat?”</string>
+    <string name="assistant_suw_intro_screen_item_summary_2_for_unicorn">“Bagaimanakah bunyi badak air?”</string>
     <string name="assistant_suw_intro_screen_item_summary_3">“Tetapkan penggera pada pukul 5:00 pagi esok.”</string>
+    <string name="assistant_suw_intro_screen_item_summary_3_for_unicorn">“Tetapkan pemasa kerja rumah selama 20 minit”.</string>
     <string name="assistant_suw_intro_screen_item_title_1">Tanya soalan</string>
     <string name="assistant_suw_intro_screen_item_title_2">Dapatkan arah</string>
+    <string name="assistant_suw_intro_screen_item_title_2_for_unicorn">Ketahui perkara baharu</string>
     <string name="assistant_suw_intro_screen_item_title_3">Selesaikan kerja</string>
     <string name="assistant_suw_intro_screen_subtitle_v2">Jika anda bersetuju, Google Assistant akan menunggu dalam mod tunggu sedia untuk mengesan “%1$s”.</string>
+    <string name="assistant_suw_intro_screen_subtitle_v2_for_unicorn_vm3">Jika anda bersetuju, Google Assistant akan menunggu dalam mod tunggu sedia untuk mengesan apabila %1$s mengatakan “%2$s”.</string>
     <string name="assistant_suw_intro_screen_title">Akses Assistant anda dengan “%1$s”</string>
     <string name="assistant_suw_intro_screen_title_for_unicorn">Mari %1$s mengakses Google Assistant dengan “%2$s”</string>
-    <string name="assistant_suw_intro_screen_with_ww_hint">Anda boleh mengemas kini pilihan ini dalam tetapan Assistant.</string>
+    <string name="assistant_suw_intro_screen_title_for_unicorn_vm3">Benarkan %1$s bercakap dengan Google secara bebas tangan</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint2_for_unicorn_vm3">Assistant mungkin diaktifkan apabila %1$s tidak bermaksud untuk berbuat demikian—contohnya, apabila terdapat bunyi bising yang berbunyi seperti “%2$s” atau frasa ringkas.</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint2_vm3">Assistant mungkin diaktifkan apabila anda tidak bermaksud untuk berbuat demikian—contohnya, apabila terdapat bunyi bising yang berbunyi seperti “%1$s” atau frasa ringkas.</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint3_for_unicorn_vm3">Anda boleh mematikan “%1$s” dan frasa ringkas dalam tetapan Assistant %2$s.</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint3_vm3">Anda boleh mematikan “%1$s” dan frasa ringkas dalam tetapan Assistant.</string>
     <string name="assistant_suw_intro_screen_with_ww_item_summary_1">Tanya soalan dan dapatkan bantuan berkenaan tugas.</string>
     <string name="assistant_suw_intro_screen_with_ww_item_summary_2">Cuba perkataan seperti “berhenti” atau “tunda” (contohnya, apabila penggera berbunyi).</string>
+    <string name="assistant_suw_intro_screen_with_ww_item_summary_2_for_unicorn_vm3">%1$s boleh menyebut perkataan seperti \"henti\" atau \"tunda\" (contohnya, apabila penggera berdering).</string>
     <string name="assistant_suw_intro_screen_with_ww_item_title_1">“%1$s”</string>
     <string name="assistant_suw_intro_screen_with_ww_item_title_2">Frasa ringkas</string>
     <string name="assistant_suw_intro_screen_with_ww_subtitle">Jika anda bersetuju, Google Assistant akan menunggu dalam mod tunggu sedia untuk mengesan “%1$s” dan frasa ringkas tertentu.</string>
+    <string name="assistant_suw_intro_screen_with_ww_subtitle_for_unicorn_vm3">Jika anda bersetuju, Google Assistant akan menunggu dalam mod tunggu sedia untuk mengesan apabila %1$s mengatakan “%2$s” dan frasa ringkas yang tertentu.</string>
     <string name="assistant_suw_intro_screen_with_ww_title">Bercakap kepada bebas tangan Google</string>
     <string name="assistant_suw_loading_screen_title">Menyemak…</string>
     <string name="assistant_suw_more_button_text">Lagi</string>
@@ -621,11 +646,13 @@
     <string name="assistant_suw_settings_screen_title">Akses Assistant anda tanpa membuka kunci %1$s anda</string>
     <string name="assistant_suw_settings_screen_title_for_unicorn">{GENDER,select, male{Benarkan {GIVEN_NAME} mengakses Google Assistant tanpa membuka kunci %1$s miliknya}female{Benarkan {GIVEN_NAME} mengakses Google Assistant tanpa membuka kunci %1$s miliknya}other{Benarkan {GIVEN_NAME} mengakses Google Assistant tanpa membuka kunci %1$s milik mereka}}</string>
     <string name="assistant_take_note_app_control_suggestion">Ambil nota</string>
-    <string name="assistant_tap_to_check_in">Tap to check-in</string>
-    <string name="assistant_tomorrow_time">Tomorrow, %1$s</string>
+    <string name="assistant_tap_to_check_in">Ketik untuk mendaftar masuk</string>
+    <string name="assistant_tomorrow_time">Esok, %1$s</string>
     <string name="assistant_voice_plate_avatar_label">Buka tetapan</string>
     <string name="assistant_voice_plate_greeting_hi_text">Hai, boleh saya bantu?</string>
     <string name="assistant_voice_plate_keyboard_icon_label">Papan kekunci</string>
+    <string name="assistant_voice_plate_onboarding_oauth_recovery_button">Log masuk</string>
+    <string name="assistant_voice_plate_onboarding_oauth_recovery_text">Log masuk ke Google Account anda sekali lagi untuk gunakan Assistant</string>
     <string name="assistant_voice_plate_onboarding_oobe_button">Bermula</string>
     <string name="assistant_voice_plate_onboarding_oobe_text">Buka kunci lebih banyak ciri Assistant</string>
     <string name="assistant_vs_ui_education_tooltip_caption">Seret gelembung ke bahagian bawah skrin untuk menamatkan perbualan ini dengan Assistant anda</string>
@@ -647,7 +674,7 @@ Dalam Tetapan, ketik Kebenaran > Lokasi > Benarkan setiap masa."</string>
     <string name="assistant_weather_widget_preview_condition">Cerah</string>
     <string name="assistant_weather_widget_preview_loading">Memuatkan…</string>
     <string name="assistant_weather_widget_preview_location">San Francisco</string>
-    <string name="assistant_yesterday_time">Yesterday, %1$s</string>
+    <string name="assistant_yesterday_time">Semalam, %1$s</string>
     <string name="assistantactions_alarm_confirmation_card_button_text">Lihat penggera</string>
     <string name="assistantactions_call_confirmation_card_button">Panggil</string>
     <string name="assistantactions_confirmation_card_cancel_text">Pengendalian dibatalkan</string>
@@ -696,7 +723,6 @@ Dalam Tetapan, ketik Kebenaran > Lokasi > Benarkan setiap masa."</string>
     <string name="bottom_navigation_collections_label">Koleksi</string>
     <string name="bottom_navigation_drawer_label">Lagi</string>
     <string name="bottom_navigation_search_label">Cari</string>
-    <string name="bottom_navigation_snapshot_label">Inti Sari</string>
     <string name="bottom_navigation_spark_label">Discover</string>
     <string name="bottom_navigation_tabs_label">Tab</string>
     <string name="bottomsheet_action_expand_halfway">Kembangkan helaian bawah</string>
@@ -757,7 +783,9 @@ Dalam Tetapan, ketik Kebenaran > Lokasi > Benarkan setiap masa."</string>
     <string name="common_google_play_services_update_text">%1$s tidak akan berfungsi kecuali anda mengemas kini perkhidmatan Google Play.</string>
     <string name="common_google_play_services_update_title">Kemaskinikan perkhidmatan Google Play</string>
     <string name="common_google_play_services_updating_text">%1$s tidak akan berfungsi tanpa perkhidmatan Google Play dan perkhidmatan ini sedang dikemaskinikan.</string>
+    <string name="common_google_play_services_wear_update_text">Versi baharu perkhidmatan Google Play diperlukan. Kemas kini automatik akan dijalankan sebentar lagi.</string>
     <string name="common_open_on_phone">Buka pada telefon</string>
+    <string name="comms_center_close_button_description">Tutup halaman</string>
     <string name="confirm_device_credential_password">Guna kata laluan</string>
     <string name="confirm_not_driving_button">Saya tidak memandu</string>
     <string name="confirm_not_driving_description">Tidak memandu? Keluar daripada mod memandu sekarang</string>
@@ -767,6 +795,8 @@ Dalam Tetapan, ketik Kebenaran > Lokasi > Benarkan setiap masa."</string>
     <string name="copy">Salin</string>
     <string name="create_folder_with">Buat folder dengan: %1$s</string>
     <string name="crop_wallpaper">Pangkas kertas dinding</string>
+    <string name="custom_reply_button_string">Balasan Tersuai</string>
+    <string name="day_picker_description">Grid bulan hari</string>
     <string name="decline_button_description">Tolak panggilan</string>
     <string name="decline_permissions">Not Now</string>
     <string name="default_error">Op, kesilapan telah berlaku.</string>
@@ -839,6 +869,53 @@ Dalam Tetapan, ketik Kebenaran > Lokasi > Benarkan setiap masa."</string>
     <string name="experimental_mode_unexpectedly_disconnected_warning">Unexpected server failure. Please close the app and try again later.</string>
     <string name="experimental_test_in_progress">Testing device capability…</string>
     <string name="exposed_dropdown_menu_content_description">Tunjukkan menu lungsur</string>
+    <string name="fa_alarm_instance_default_label">Tiada penggera ditetapkan</string>
+    <string name="fa_alarm_instance_filled_bullet">●</string>
+    <string name="fa_alarm_instance_switch_off_label">%1$s penggera telah dimatikan</string>
+    <string name="fa_alarm_instance_switch_on_label">%1$s penggera telah dihidupkan</string>
+    <string name="fa_audio_recorder_audio_recording_text">Merakam…</string>
+    <string name="fa_audio_recorder_default_play_record_time_text">00:00</string>
+    <string name="fa_audio_recorder_delete_audio_message">Padamkan mesej audio</string>
+    <string name="fa_audio_recorder_pause_audio_playback">Jeda</string>
+    <string name="fa_audio_recorder_playback_audio">Main balik</string>
+    <string name="fa_audio_recorder_recording_audio">Merakam</string>
+    <string name="fa_audio_recorder_stop_recording_audio">Hentikan rakaman</string>
+    <string name="fa_cancel_button_description">Butang batal</string>
+    <string name="fa_confirm_button_description">Butang sahkan</string>
+    <string name="fa_contact_selection_contact_icon_description">Ikon kenalan</string>
+    <string name="fa_contact_selection_pick_another_contact_view_hint">Pilih kenalan lain</string>
+    <string name="fa_contact_selection_view_hint">Pilih kenalan</string>
+    <string name="fa_device_setting_toggle_icon_description">Ikon tetapan</string>
+    <string name="fa_device_setting_toggle_off_description">%1$s dimatikan</string>
+    <string name="fa_device_setting_toggle_on_description">%1$s dihidupkan</string>
+    <string name="fa_duration_hours_minutes_seconds">%1$02dj %2$02dm %3$02ds</string>
+    <string name="fa_duration_minutes_seconds">%1$02dm %2$02ds</string>
+    <string name="fa_duration_picker_confirm_button_text">Selesai</string>
+    <string name="fa_duration_picker_hour_unit_label">Jam</string>
+    <string name="fa_duration_picker_minute_unit_label">Minit</string>
+    <string name="fa_duration_picker_second_unit_label">Saat</string>
+    <string name="fa_duration_picker_title">Tetapkan tempoh</string>
+    <string name="fa_duration_seconds">%1$02ds</string>
+    <string name="fa_empty_time">--:--</string>
+    <string name="fa_family_info_broadcast_settings_button">Butang tetapan siaran</string>
+    <string name="fa_family_info_collapse_button">Butang tunjukkan orang diruntuhkan</string>
+    <string name="fa_family_info_uncollapse_button">Butang tunjukkan orang dikembangkan</string>
+    <string name="fa_filled_bullet">●</string>
+    <string name="fa_hour_unit_label">j</string>
+    <string name="fa_list_item_picker_title">Sila pilih satu pilihan</string>
+    <string name="fa_minute_unit_label">m</string>
+    <string name="fa_playback_audio">Main balik</string>
+    <string name="fa_recurrence_custom">Tersuai (tidak boleh disesuaikan pada telefon)</string>
+    <string name="fa_recurrence_do_not_repeat">Jangan ulang</string>
+    <string name="fa_recurrence_none">Tiada</string>
+    <string name="fa_remaining_duration_hours_minutes_seconds">%1$02dj %2$02dm %3$02ds lagi</string>
+    <string name="fa_remaining_duration_minutes_seconds">%1$02dm %2$02ds lagi</string>
+    <string name="fa_remaining_duration_seconds">%1$02ds lagi</string>
+    <string name="fa_second_unit_label">s</string>
+    <string name="fa_timer_status_active">AKTIF</string>
+    <string name="fa_timer_status_paused">DIJEDA</string>
+    <string name="fa_timer_status_reset">TETAPKAN SEMULA</string>
+    <string name="fa_timer_status_unknown">TIDAK DIKETAHUI</string>
     <string name="facade_search_box_content_description">Cari…</string>
     <string name="filled_bullet">●</string>
     <string name="find_something_else_button_text">Cari sesuatu yang lain</string>
@@ -994,7 +1071,7 @@ Dalam Tetapan, ketik Kebenaran > Lokasi > Benarkan setiap masa."</string>
     <string name="googleapp_accountmenu_chrome_incognito">Tab inkognito Chrome baharu</string>
     <string name="googleapp_accountmenu_data_in_search">Carian</string>
     <string name="googleapp_accountmenu_passwords">Kata laluan</string>
-    <string name="googleapp_accountmenu_personal_info_removal">Alih keluar maklumat peribadi anda</string>
+    <string name="googleapp_accountmenu_personal_info_removal">Results about you</string>
     <string name="googleapp_accountmenu_quick_delete_education_easy">Kosongkan 15 minit sejarah Carian dengan satu ketikan</string>
     <string name="googleapp_accountmenu_quickdelete_cancel">Batal</string>
     <string name="googleapp_accountmenu_quickdelete_error">Tidak dapat memadamkan sejarah</string>
@@ -1010,7 +1087,7 @@ Dalam Tetapan, ketik Kebenaran > Lokasi > Benarkan setiap masa."</string>
     <string name="googleapp_accountmenu_search_history">Sejarah carian</string>
     <string name="googleapp_accountmenu_your_contributions">Sumbangan anda</string>
     <string name="googleapp_actionbutton_listen">Baca dengan lantang</string>
-    <string name="googleapp_ads_personalization_settings_title">Ads personalization</string>
+    <string name="googleapp_ads_personalization_settings_title">Pemeribadian iklan</string>
     <string name="googleapp_amp_security_button_description">Sambungan selamat</string>
     <string name="googleapp_app_suggestions_summary">Nama aplikasi yang dipasang.</string>
     <string name="googleapp_app_suggestions_title">Apl</string>
@@ -1022,6 +1099,10 @@ Dalam Tetapan, ketik Kebenaran > Lokasi > Benarkan setiap masa."</string>
     <string name="googleapp_autocomplete_with_trending_searches_header_title">Carian sohor kini</string>
     <string name="googleapp_autocomplete_with_trending_searches_summary">Carian sohor kini termasuk carian popular di kawasan anda</string>
     <string name="googleapp_autocomplete_with_trending_searches_title">Autolengkap dengan carian sohor kini</string>
+    <string name="googleapp_autoplay_video_previews_always">Pada Wi-Fi &amp; data mudah alih</string>
+    <string name="googleapp_autoplay_video_previews_never">Jangan sekali-kali</string>
+    <string name="googleapp_autoplay_video_previews_setting_title">Automain pratonton video</string>
+    <string name="googleapp_autoplay_video_previews_wifi">Hanya pada Wi-Fi</string>
     <string name="googleapp_back_arrow_description">Kembali</string>
     <string name="googleapp_bar_color_title">Warna bar</string>
     <string name="googleapp_bar_logo_title">Logo bar</string>
@@ -1033,12 +1114,6 @@ Dalam Tetapan, ketik Kebenaran > Lokasi > Benarkan setiap masa."</string>
     <string name="googleapp_boc_tooltip_tap_to_manage_your_preferences">Ketik untuk mengurus pilihan &amp; maklum balas anda</string>
     <string name="googleapp_books_mode_landing_text">Cari buku</string>
     <string name="googleapp_bottom_navigation_collections_label_content_description">Butang Koleksi</string>
-    <string name="googleapp_broad_queries_topbar_mic_description">Carian suara</string>
-    <string name="googleapp_broad_queries_topbar_search_description">Cari</string>
-    <string name="googleapp_broad_queries_topbar_up_content_description">Kembali</string>
-    <string name="googleapp_broadqueries_error_message">Periksa sama ada sambungan Internet berfungsi atau tidak</string>
-    <string name="googleapp_broadqueries_error_title">Ralat telah berlaku</string>
-    <string name="googleapp_broadqueries_loading_indicator_desc">Kandungan sedang dimuatkan</string>
     <string name="googleapp_browser_actionbutton_ampinfo">Lagi maklumat tentang AMP</string>
     <string name="googleapp_browser_actionbutton_overflowmenu">Lagi tindakan</string>
     <string name="googleapp_browser_actionbutton_tabs">Tab</string>
@@ -1051,8 +1126,8 @@ Dalam Tetapan, ketik Kebenaran > Lokasi > Benarkan setiap masa."</string>
     <string name="googleapp_browser_clear_error">Kesilapan telah berlaku semasa cuba mengosongkan data semakan imbas.</string>
     <string name="googleapp_browser_contextmenu_open_in_new_tab_title">Buka dalam tab baharu</string>
     <string name="googleapp_browser_contextmenu_previewimage_description">Pratonton Imej</string>
-    <string name="googleapp_browser_contextmenu_previewimage_scrolllabel">Scroll for more of image</string>
-    <string name="googleapp_browser_contextmenu_previewimage_smalllabel">Image preview enlarged from original size</string>
+    <string name="googleapp_browser_contextmenu_previewimage_scrolllabel">Tatal untuk melihat lagi imej</string>
+    <string name="googleapp_browser_contextmenu_previewimage_smalllabel">Pratonton imej dibesarkan daripada saiz asal</string>
     <string name="googleapp_browser_download_blocker_incognito_continue_btn">Muat turun</string>
     <string name="googleapp_browser_download_blocker_incognito_message">Fail yang dimuat turun disimpan pada peranti anda. Fail masih dapat diakses setelah anda mematikan Mod inkognito.</string>
     <string name="googleapp_browser_enable_title">Buka halaman web dalam Google app</string>
@@ -1062,28 +1137,27 @@ Dalam Tetapan, ketik Kebenaran > Lokasi > Benarkan setiap masa."</string>
     <string name="googleapp_browser_firstrun_summary">"Google app anda telah dikemas kini dan kini anda boleh menyemak imbas kandungan web seperti artikel, video dan cerita–kesemuanya dalam apl.
 
 Anda mungkin perlu log masuk ke sesetengah laman web dan anda mungkin mahu menyemak tetapan penyemak imbas anda."</string>
-    <string name="googleapp_browser_firstrun_summary_v2">"Now you can view pages faster and enjoy an improved search experience.
+    <string name="googleapp_browser_firstrun_summary_v2">"Kini anda boleh melihat halaman dengan lebih pantas dan menikmati pengalaman carian yang dipertingkat.
 
-You may need to log back in to some sites."</string>
+Anda mungkin perlu log masuk kembali ke sesetengah laman."</string>
     <string name="googleapp_browser_firstrun_summary_v2_part2">"
 
-Manage your new browser security and privacy settings in the app."</string>
+Urus tetapan keselamatan dan privasi penyemak imbas baharu anda dalam apl."</string>
     <string name="googleapp_browser_firstrun_title">Kini kandungan web dibuka dalam apl</string>
-    <string name="googleapp_browser_firstrun_title_v2">Browse without leaving the app</string>
+    <string name="googleapp_browser_firstrun_title_v2">Semak imbas tanpa meninggalkan apl</string>
     <string name="googleapp_browser_setting_clear_cache_title"><b>Imej dan fail dicache</b>"
 Sesetengah laman mungkin dimuatkan lebih perlahan pada lawatan anda yang seterusnya."</string>
     <string name="googleapp_browser_setting_clear_data_title"><b>Kuki dan data laman</b>"
 Log anda keluar daripada kebanyakan laman. Anda tidak akan dilog keluar daripada Google Account anda."</string>
     <string name="googleapp_browser_settings_browser_privacy_category_title">Privasi penyemak imbas</string>
     <string name="googleapp_browser_settings_browser_safety_category_title">Keselamatan penyemak imbas</string>
-    <string name="googleapp_browser_settings_browsing_history_summary">Manage your browsing history at My Activity</string>
+    <string name="googleapp_browser_settings_browsing_history_summary">Urus sejarah penyemakan imbas anda di Aktiviti Saya</string>
     <string name="googleapp_browser_settings_browsing_history_title">Sejarah penyemakan imbas</string>
     <string name="googleapp_browser_settings_clear_browsing_data_summary">Kosongkan kuki dan data cache</string>
     <string name="googleapp_browser_settings_clear_browsing_data_title">Kosongkan data semakan imbas</string>
     <string name="googleapp_browser_settings_cleardata_button_text">Kosongkan data</string>
     <string name="googleapp_browser_settings_extended_safe_browsing_summary">Hantar maklumat penyemak imbas kepada Google untuk membantu kami mengesan apl dan laman yang berbahaya. Ini termasuk URL halaman yang dilawati, maklumat sistem yg terhad dan kandungan halaman.</string>
     <string name="googleapp_browser_settings_extended_safe_browsing_title">Bantu kami meningkatkan keselamatan penyemak imbas</string>
-    <string name="googleapp_browser_settings_link">Tetapan penyemak imbas</string>
     <string name="googleapp_browser_settings_real_time_safe_browsing_summary">Semak isu keselamatan baharu setiap kali anda melawati laman web. URL halaman yang anda lawati akan dihantar kepada Google.</string>
     <string name="googleapp_browser_settings_real_time_safe_browsing_title">Semak keselamatan laman web dalam masa nyata</string>
     <string name="googleapp_browser_settings_safe_browsing_summary">Lihat amaran apabila anda cuba melawati laman yang mempunyai isu keselamatan. URL tidak selamat yang anda lawati mungkin dihantar kepada Google.</string>
@@ -1150,10 +1224,10 @@ Log anda keluar daripada kebanyakan laman. Anda tidak akan dilog keluar daripada
     <string name="googleapp_covid_vaccine_register_25_subheader">Semua orang yang berumur 25 tahun ke atas layak mendapat vaksin</string>
     <string name="googleapp_covid_vaccine_register_header">Daftar untuk Vaksin COVID hari ini</string>
     <string name="googleapp_custom_color_description">Warna widget carian tersuai</string>
-    <string name="googleapp_custom_color_hue_slider_description">Custom hue slider</string>
-    <string name="googleapp_custom_color_hue_slider_label">Hue</string>
-    <string name="googleapp_custom_color_saturation_slider_description">Custom saturation slider</string>
-    <string name="googleapp_custom_color_saturation_slider_label">Saturation</string>
+    <string name="googleapp_custom_color_hue_slider_description">Peluncur rona tersuai</string>
+    <string name="googleapp_custom_color_hue_slider_label">Rona</string>
+    <string name="googleapp_custom_color_saturation_slider_description">Peluncur ketepuan tersuai</string>
+    <string name="googleapp_custom_color_saturation_slider_label">Ketepuan</string>
     <string name="googleapp_custom_tabs_collections_menu_item_title">Lihat koleksi</string>
     <string name="googleapp_custom_tabs_copy_link_menu_item_title">Salin pautan</string>
     <string name="googleapp_custom_tabs_copy_link_toast_text">Pautan disalin ke papan keratan</string>
@@ -1165,6 +1239,7 @@ Dilog masuk sebagai %1$s"</string>
     <string name="googleapp_custom_tabs_enabled_setting_unavailable_need_first_run_done">Buka dan sediakan Chrome untuk mendayakan pilihan ini</string>
     <string name="googleapp_custom_tabs_enabled_setting_unavailable_update_chrome">Pasang versi terbaharu Chrome untuk mendayakan tetapan</string>
     <string name="googleapp_custom_tabs_help_menu_item_title">Bantuan</string>
+    <string name="googleapp_custom_tabs_piros_menu_item_title">Alih keluar hasil carian tentang anda</string>
     <string name="googleapp_custom_tabs_recently_menu_item_title">Baru-baru ini</string>
     <string name="googleapp_customize_text">Sesuaikan</string>
     <string name="googleapp_disco_channels_and_interests_tng_setting">Saluran &amp; Minat</string>
@@ -1276,7 +1351,7 @@ Dilog masuk sebagai %1$s"</string>
     <string name="googleapp_general_settings_title">Umum</string>
     <string name="googleapp_go_to_discover_content_description">Pergi ke Discover</string>
     <string name="googleapp_goc_bottombar_close_description">Sembunyikan halaman yang berkaitan</string>
-    <string name="googleapp_google_app_browser_instacart_button_content_description">Instacart button</string>
+    <string name="googleapp_google_app_browser_instacart_button_content_description">Butang Instacart</string>
     <string name="googleapp_hide_explicit_results_settings_title">Sembunyikan hasil carian eksplisit</string>
     <string name="googleapp_images_mode_landing_text">Cari imej</string>
     <string name="googleapp_incognito_app_strip_header">Daripada apl anda (mungkin bukan dalam mod inkognito)</string>
@@ -1310,7 +1385,6 @@ Dilog masuk sebagai %1$s"</string>
     <string name="googleapp_incognito_setup_device_biometrics_dialog_title">Sediakan biometrik</string>
     <string name="googleapp_incognito_signpost_button_text">Matikan</string>
     <string name="googleapp_incognito_signpost_icon_description">Ikon tiang tanda inkognito</string>
-    <string name="googleapp_incognito_signpost_message_assistant">Ciri Assistant tidak tersedia semasa menyemak imbas dalam Mod inkognito - keluar untuk mengakses Assistant</string>
     <string name="googleapp_incognito_signpost_message_collections">Koleksi tidak tersedia semasa menyemak imbas dalam Mod inkognito - keluar untuk mengakses koleksi</string>
     <string name="googleapp_incognito_signpost_message_default">Ciri tidak tersedia semasa menyemak imbas dalam Mod inkognito - keluar untuk mengakses ciri</string>
     <string name="googleapp_incognito_signpost_message_discover">Suapan Discover anda tidak tersedia apabila anda menggunakan Mod inkognito</string>
@@ -1333,7 +1407,7 @@ Dilog masuk sebagai %1$s"</string>
     <string name="googleapp_interstitial_visibility_warning_isp">Penyedia perkhidmatan Internet anda</string>
     <string name="googleapp_interstitial_visibility_warning_websites">Laman web yang anda lawati</string>
     <string name="googleapp_language_setting_title">Bahasa carian</string>
-    <string name="googleapp_language_switcher_auto_option">Auto-switch</string>
+    <string name="googleapp_language_switcher_auto_option">Auto tukar</string>
     <string name="googleapp_lens_button_content_description">Carian kamera</string>
     <string name="googleapp_lens_explainer">Ambil foto apa-apa sahaja untuk mencari</string>
     <string name="googleapp_lens_icon_content_description">Carian kamera</string>
@@ -1412,7 +1486,14 @@ Anda dpt melihat hasil carian peribadi pd peranti drp apl &amp; perkhidmatan ini
     <string name="googleapp_recent_pages_enabled_setting_title">Halaman terbaharu</string>
     <string name="googleapp_region_setting_title">Rantau Carian</string>
     <string name="googleapp_reset_style_text">Tetapkan Semula Kepada Gaya Lalai</string>
-    <string name="googleapp_save_button_text">Save</string>
+    <string name="googleapp_save_button_text">Simpan</string>
+    <string name="googleapp_save_feature_default_collection_label">Halaman kegemaran</string>
+    <string name="googleapp_save_feature_error_title">Op, ralat telah berlaku</string>
+    <string name="googleapp_save_feature_share_close_button_description">Tutup</string>
+    <string name="googleapp_save_feature_share_receiver_subject_and_text">"%1$s
+
+%2$s"</string>
+    <string name="googleapp_save_feature_share_save">Simpan</string>
     <string name="googleapp_search_a_song_content_description">Ketik untuk memulakan pengecaman lagu</string>
     <string name="googleapp_search_bar_radius_24dp_description">Dibundarkan</string>
     <string name="googleapp_search_bar_radius_2dp_description">Segi empat tepat</string>
@@ -1442,26 +1523,27 @@ Anda dpt melihat hasil carian peribadi pd peranti drp apl &amp; perkhidmatan ini
     <string name="googleapp_second_screen_manage_interests_menu_label">Urus Minat</string>
     <string name="googleapp_second_screen_settings_menu_label">Tetapan</string>
     <string name="googleapp_see_updates">Lihat Kemaskinian</string>
-    <string name="googleapp_settings_about_link">Perihal</string>
+    <string name="googleapp_setting_error_card_icon_content_description">Ralat</string>
+    <string name="googleapp_setting_error_card_message_explanation">Halaman web ini tidak dapat dimuatkan</string>
+    <string name="googleapp_setting_error_card_message_title">Ralat telah berlaku</string>
     <string name="googleapp_settings_about_title">Perihal</string>
-    <string name="googleapp_settings_general_link">Umum</string>
-    <string name="googleapp_settings_language_and_region_link">Bahasa &amp; rantau</string>
     <string name="googleapp_settings_language_and_region_title">Bahasa &amp; rantau</string>
     <string name="googleapp_settings_legal_notices_title">Notis undang-undang</string>
     <string name="googleapp_settings_location_terms_of_service_title">Syarat perkhidmatan lokasi</string>
+    <string name="googleapp_settings_nav_up">Navigasi ke atas</string>
     <string name="googleapp_settings_open_source_licenses_title">Notis Pihak Ketiga</string>
     <string name="googleapp_settings_privacy_and_security_link">Privasi &amp; Keselamatan</string>
     <string name="googleapp_settings_privacy_policy_title">Dasar privasi</string>
-    <string name="googleapp_settings_search_widget_link">Widget Carian</string>
+    <string name="googleapp_settings_search">Cari</string>
+    <string name="googleapp_settings_search_hint">Cari dalam tetapan</string>
     <string name="googleapp_settings_terms_of_service_title">Syarat perkhidmatan</string>
-    <string name="googleapp_settings_voice_link">Suara</string>
     <string name="googleapp_settings_voice_title">Suara</string>
     <string name="googleapp_shopping_mode_landing_text">Cari di beli-belah</string>
     <string name="googleapp_show_waiting_text">Tunggu sebentar…</string>
-    <string name="googleapp_sign_in_tout_header">Sign in to personalize Discover</string>
-    <string name="googleapp_sign_in_tout_negative_text">Cancel</string>
-    <string name="googleapp_sign_in_tout_positive_text">Sign in</string>
-    <string name="googleapp_sign_in_tout_subheader">Control what you see in the Google app by signing in</string>
+    <string name="googleapp_sign_in_tout_header">Log masuk untuk memeribadikan Discover</string>
+    <string name="googleapp_sign_in_tout_negative_text">Batal</string>
+    <string name="googleapp_sign_in_tout_positive_text">Log masuk</string>
+    <string name="googleapp_sign_in_tout_subheader">Kawal perkara yang anda lihat dalam apl Google dengan log masuk</string>
     <string name="googleapp_signed_out_pq_based_suggestion_message">Ramalan ini berkaitan dengan carian terbaharu.</string>
     <string name="googleapp_silk_pane_close_button">Tutup</string>
     <string name="googleapp_silk_pane_dismiss_message">Ketepikan</string>
@@ -1469,6 +1551,7 @@ Anda dpt melihat hasil carian peribadi pd peranti drp apl &amp; perkhidmatan ini
     <string name="googleapp_sno_subscriptions_internal_error_header">Ralat telah berlaku</string>
     <string name="googleapp_sno_subscriptions_offline_error_message">Untuk melihat dan mengedit langganan, anda perlu menyambung ke rangkaian</string>
     <string name="googleapp_sound_search_search_a_song_hint">Cari lagu</string>
+    <string name="googleapp_srp_query_tiger">harimau</string>
     <string name="googleapp_stamp_viewer_actionbutton_feedback">Hantar maklum balas</string>
     <string name="googleapp_stamp_viewer_actionbutton_heart">Jantung</string>
     <string name="googleapp_stamp_viewer_actionbutton_help_center">Pusat bantuan</string>
@@ -1483,7 +1566,7 @@ Anda dpt melihat hasil carian peribadi pd peranti drp apl &amp; perkhidmatan ini
     <string name="googleapp_stamp_viewer_error_title">Ralat telah berlaku</string>
     <string name="googleapp_stamp_viewer_overflow_menu_button_content_description">Lagi pilihan.</string>
     <string name="googleapp_stamp_viewer_overflow_menu_close">Tutup</string>
-    <string name="googleapp_stamp_viewer_preview_button_text">Teruskan cerita penuh</string>
+    <string name="googleapp_stamp_viewer_preview_button_text">Teruskan melihat</string>
     <string name="googleapp_stamp_viewer_preview_label">Pratonton</string>
     <string name="googleapp_stamp_viewer_publisher_cta">Lawati</string>
     <string name="googleapp_stamp_viewer_retry_button_text">Cuba lagi</string>
@@ -1500,7 +1583,7 @@ Anda dpt melihat hasil carian peribadi pd peranti drp apl &amp; perkhidmatan ini
     <string name="googleapp_tabs_manager_close_all_tabs_dialog_confirmation_button_label">Tutup semua</string>
     <string name="googleapp_tabs_manager_close_all_tabs_dialog_confirmation_message">Adakah anda pasti mahu menutup semua tab yang terbuka?</string>
     <string name="googleapp_tabs_manager_close_tab_button_default_description">tutup tab</string>
-    <string name="googleapp_tabs_manager_close_tab_button_description">tutup laman web %s - butang</string>
+    <string name="googleapp_tabs_manager_close_tab_button_description">tutup laman web %s</string>
     <string name="googleapp_tabs_manager_empty_state_title">Anda tiada sebarang tab yang terbuka</string>
     <string name="googleapp_tabs_manager_new_tab_button_description">mulakan carian baharu</string>
     <string name="googleapp_tabs_manager_new_tab_button_text">Tab baharu</string>
@@ -1518,18 +1601,19 @@ Anda dpt melihat hasil carian peribadi pd peranti drp apl &amp; perkhidmatan ini
     <string name="googleapp_voice_search_humming">Cari lagu dengan mendendangkannya</string>
     <string name="googleapp_voice_search_tired_of_typing">Bosan menaip? Cari dengan suara anda</string>
     <string name="googleapp_voice_search_with_voice">Cari dengan suara anda</string>
+    <string name="googleapp_voice_settings_assistant_title">Google Assistant</string>
     <string name="googleapp_voice_settings_languages_setting_check_content_description">Dipilih</string>
     <string name="googleapp_voice_settings_languages_setting_limit_reached_notice">Had dicapai. Anda tidak boleh memilih lagi bahasa.</string>
     <string name="googleapp_voice_settings_languages_setting_no_selection_notice">Tiada bahasa yang dipilih.</string>
     <string name="googleapp_voice_settings_languages_setting_save_button_text">SIMPAN</string>
+    <string name="googleapp_voice_settings_languages_setting_summary_text_others">Others:</string>
+    <string name="googleapp_voice_settings_languages_setting_summary_text_primary">Primary:</string>
     <string name="googleapp_voice_settings_languages_setting_title">Bahasa</string>
     <string name="googleapp_voice_settings_offline_speech_recognition_setting_summary">Urus bahasa yang dimuat turun</string>
     <string name="googleapp_voice_settings_offline_speech_recognition_setting_title">Pengecaman pertuturan luar talian</string>
     <string name="googleapp_voice_settings_spoken_results_setting_title">Hasil carian tuturan</string>
-    <string name="googleapp_voice_settings_spoken_results_value_all_voices">Semua carian suara</string>
-    <string name="googleapp_voice_settings_spoken_results_value_hands_free_only">Carian bebas tangan sahaja</string>
-    <string name="googleapp_voice_settings_voice_match_setting_summary">Bercakap kpd Google Assistant utk melakukan pelbagai perkara</string>
-    <string name="googleapp_voice_settings_voice_match_setting_title">Voice Match</string>
+    <string name="googleapp_voice_settings_spoken_results_value_all_voices">On</string>
+    <string name="googleapp_voice_settings_spoken_results_value_hands_free_only">Off</string>
     <string name="googleapp_waa_disabled_tout_promo_description">Tetapan privasi Google Search</string>
     <string name="googleapp_waa_disabled_tout_promo_header">Suapan anda bukan berdasarkan sejarah</string>
     <string name="googleapp_waa_disabled_tout_promo_subheader">Suapan Discover anda bukan berdasarkan sejarah kerana tetapan Aktiviti Web &amp; Apl dimatikan</string>
@@ -1736,14 +1820,13 @@ Anda dpt melihat hasil carian peribadi pd peranti drp apl &amp; perkhidmatan ini
     <string name="lens_info_panel_on_device_chip_share_translate_content_description">Kongsi imej yang telah diterjemahkan</string>
     <string name="lens_info_panel_on_device_chip_translate">Terjemah</string>
     <string name="lens_info_panel_on_device_chip_translate_content_description">Terjemahkan teks yang dipilih</string>
-    <string name="lens_info_panel_on_device_no_text_header_title">Tiada teks ditemukan</string>
     <string name="lens_info_panel_on_device_results_header_limited_functionality">Sesetengah ciri tidak tersedia</string>
     <string name="lens_info_panel_on_device_results_header_offline">Luar talian</string>
     <string name="lens_info_panel_on_device_text_header_title">Teks yang ditemukan dalam imej</string>
     <string name="lens_info_panel_on_device_translation_header_title">Teks terjemahan</string>
+    <string name="lens_info_panel_partial_translate_enabled_header_title">Teks asal</string>
     <string name="lens_info_panel_processing_message">Memuatkan…</string>
     <string name="lens_info_panel_quoted_title">\"%1$s\"</string>
-    <string name="lens_info_panel_select_text_to_translate_header_title">Pilih teks untuk diterjemahkan</string>
     <string name="lens_kilometers_indicator">%s km</string>
     <string name="lens_latex_input_hint">Taip masalah matematik</string>
     <string name="lens_living_surface_audio_button_mute">Redam</string>
@@ -1838,6 +1921,7 @@ Anda dpt melihat hasil carian peribadi pd peranti drp apl &amp; perkhidmatan ini
     <string name="lens_sample_images_translate_card_text_short">Terjemahkan imej</string>
     <string name="lens_search_bar_hint">Masukkan nama restoran</string>
     <string name="lens_search_filter_name">Carian</string>
+    <string name="lens_selection_state_guidance_message_on_device_translation">Ketik teks untuk diterjemahkan</string>
     <string name="lens_share_to_lens_label">Cari imej</string>
     <string name="lens_share_translate_message">Diterjemahkan dengan Google Lens. Cubalah sendiri!</string>
     <string name="lens_shopping_filter_guidance_message">Ambil foto produk atau kod bar</string>
@@ -1954,6 +2038,7 @@ panggilan"</string>
     <string name="mdd_notification_action_cancel">Batal</string>
     <string name="mdd_notification_download_failed">Muat turun gagal</string>
     <string name="mdd_notification_download_paused">Menunggu sambungan rangkaian</string>
+    <string name="mdd_notification_download_paused_wifi">Waiting for WiFi connection</string>
     <string name="mdd_notification_download_success">Dimuat turun</string>
     <string name="media_browser_youtube_premium_warning_text">Untuk melihat syor, anda memerlukan akaun premium</string>
     <string name="media_empty_state_task_hey_google_play_music">"“Ok Google,
@@ -2519,11 +2604,11 @@ dengan alam nyata."</string>
     <string name="punt_for_personal_results">Bagi membolehkan saya membantu anda dengan perkara itu, anda perlu membenarkan hasil carian peribadi dalam kereta ini. Apabila selamat, anda boleh melakukannya dalam tetapan Assistant.</string>
     <string name="punt_for_signed_out">Untuk menggunakan ciri itu, anda perlu log masuk menggunakan akaun Google anda. Apabila selamat, semak pemberitahuan kereta anda untuk mengetahui langkah seterusnya.</string>
     <string name="punt_home_alias_unset">Nampaknya saya tidak mempunyai alamat rumah anda. Anda boleh mendapatkan arah ke rumah dengan memberitahu saya alamat anda.</string>
-    <string name="punt_max_volume">Maaf, menetapkan kelantangan kepada maksimum atau meningkatkan kelantangan kepada 100% tidak disokong pada peranti ini sekarang.</string>
     <string name="punt_non_percentage_volume_control">Tetapan kelantangan berfungsi mengikut peratusan di dalam kereta. Oleh itu, anda boleh menyebut arahan seperti Tetapkan kelantangan kepada 25%.</string>
     <string name="punt_offline_music">Nampaknya tiada sambungan, maka saya tidak dapat memainkan muzik itu untuk anda.</string>
     <string name="punt_open_app">Maaf, apl ini tidak dipasang atau tersedia pada masa ini.</string>
     <string name="punt_open_unsafe_for_drving_app">Maaf, apl itu tidak selamat untuk digunakan semasa memandu.</string>
+    <string name="punt_set_volume_beyond_threshold">Atas sebab keselamatan, saya tidak dapat menetapkan kelantangan setinggi itu di dalam kenderaan anda. Anda boleh meminta saya menetapkan kelantangan sehingga %1$d%%</string>
     <string name="punt_work_alias_unset">Nampaknya saya tiada alamat tempat kerja anda. Anda boleh mendapatkan arah ke tempat kerja dengan memberitahu saya alamat anda.</string>
     <string name="query_suggestion_header_text">Cuba sebut</string>
     <string name="recurrence_dialog_title">Ulang</string>
@@ -2535,6 +2620,7 @@ dengan alam nyata."</string>
     <string name="recurrence_month_pattern_last_day">pada hari terakhir bulan itu</string>
     <string name="refresh_bt_latency_button_description">Uji semula kependaman bluetooth</string>
     <string name="replay_count_down">Memainkan semula dalam &lt;b>%1$d&lt;/b>…</string>
+    <string name="reply_button_string">Balas</string>
     <string name="reply_button_text">Balas</string>
     <string name="reset_settings">Tetapkan semula tetapan</string>
     <string name="resume_label">Sambung panggilan</string>
@@ -2560,7 +2646,7 @@ dengan alam nyata."</string>
     <string name="sceneviewer_get_help">Get help</string>
     <string name="sceneviewer_get_help_button_content_description">Get Help</string>
     <string name="sceneviewer_immersive_edge_fallback_dialog_confirm_button">Go</string>
-    <string name="sceneviewer_immersive_edge_fallback_dialog_message">No connection. You will be redirected to &lt;b> %1$s &lt;/b></string>
+    <string name="sceneviewer_immersive_edge_fallback_dialog_message">No connections available. Redirecting you to &lt;b>%1$s&lt;/b>. Please try again in a few minutes.</string>
     <string name="sceneviewer_immersive_edge_fallback_dialog_title">Connection lost</string>
     <string name="sceneviewer_immersive_edge_redirect_dialog_cancel_button">Cancel</string>
     <string name="sceneviewer_immersive_edge_redirect_dialog_confirm_button">OK</string>
@@ -2578,6 +2664,8 @@ dengan alam nyata."</string>
     <string name="search_box_content_description">Cari…</string>
     <string name="search_menu_title">Cari</string>
     <string name="search_restriction">Anda tiada kebenaran untuk menggunakan Google Search</string>
+    <string name="select_day">Pilih bulan dan hari</string>
+    <string name="select_year">Pilih tahun</string>
     <string name="send_a_message">Hantar mesej kepada %1$s</string>
     <string name="send_a_message_no_contact">Hantar mesej</string>
     <string name="send_a_message_text">Hantar mesej</string>
@@ -2606,6 +2694,7 @@ dengan alam nyata."</string>
     <string name="signed_out_account_particle_disc_state_description">Dilog keluar</string>
     <string name="six_dof_guidance">Point your phone down at an empty space, and move it around slowly</string>
     <string name="smartaction_button_icon_content_description">Ikon yang dikaitkan dengan tindakan pintar yang dipilih.</string>
+    <string name="someone_else_text">Orang lain</string>
     <string name="soundsearch_close_content_description">Tutup</string>
     <string name="soundsearch_label_almost_there">Hampir selesai…</string>
     <string name="soundsearch_label_keep_going">Teruskan…</string>
@@ -2876,7 +2965,7 @@ dengan alam nyata."</string>
     <string name="voicemail_button_talkback_hint">dail mel suara</string>
     <string name="voicemail_contact_name">Mel suara</string>
     <string name="wallpaper_accessibility_name">Kertas dinding %1$d daripada %2$d</string>
-    <string name="wallpaper_button_text">Kertas dinding</string>
+    <string name="wallpaper_button_text">Hiasan latar</string>
     <string name="wallpaper_delete">Padam</string>
     <string name="wallpaper_instructions">Tetapkan kertas dinding</string>
     <string name="wallpaper_load_fail">Tidak dapat memuatkan imej sebagai kertas dinding</string>
@@ -2941,5 +3030,6 @@ dengan alam nyata."</string>
     <string name="workspace_cling_longpress_title">Kertas dinding, widget &amp; tetapan</string>
     <string name="workspace_new_page">Halaman skrin utama baharu</string>
     <string name="workspace_scroll_format">Skrin Laman Utama %1$d daripada %2$d</string>
+    <string name="year_picker_description">Senarai tahun</string>
     <string name="yes_button_text">Ya, saya setuju</string>
 </resources>

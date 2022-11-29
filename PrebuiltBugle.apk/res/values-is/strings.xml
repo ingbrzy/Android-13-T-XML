@@ -26,7 +26,6 @@
     <string name="abc_shareactionprovider_share_with_application">Deila með %s</string>
     <string name="abc_toolbar_collapse_description">Minnka</string>
     <string name="about_application_pp_tos_settings">Um, skilmálar og persónuvernd</string>
-    <string name="acs_url_dropdown_hint">Stilla ACS-vefslóð</string>
     <string name="action_add_contact">Bæta tengilið við</string>
     <string name="action_advanced_feedback">Senda ábendingu</string>
     <string name="action_archive">Setja í geymslu</string>
@@ -45,18 +44,19 @@
     <string name="action_help_and_feedback">Hjálp og ábendingar</string>
     <string name="action_info_and_options">Upplýsingar og valkostir</string>
     <string name="action_jump_to_chat">Sjá í spjalli</string>
+    <string name="action_meet_video_call">Meet myndsímtal</string>
     <string name="action_menu_mark_all_as_read">Merkja allt sem lesið</string>
     <string name="action_menu_show_archived">Geymsla</string>
     <string name="action_menu_show_spam_folder">Rusl og bannlisti</string>
     <string name="action_notification_off">Slökkva á tilkynningum</string>
     <string name="action_notification_on">Kveikja á tilkynningum</string>
     <string name="action_notification_settings">Þagga tilkynningar</string>
+    <string name="action_off">Slökkt</string>
     <string name="action_pair_device">Tækjapörun</string>
     <string name="action_people_and_options">Nánar</string>
     <string name="action_people_and_options_group">Upplýsingar um hóp</string>
     <string name="action_pin_to_top">Festa efst</string>
     <string name="action_report_spam">Tilkynna ruslefni</string>
-    <string name="action_scan_qr_code">Messages fyrir vefinn</string>
     <string name="action_search">Leita</string>
     <string name="action_search_gifs">Leita að GIF-myndum</string>
     <string name="action_search_messages">Leita í skilaboðum</string>
@@ -75,6 +75,7 @@
     <string name="action_viLTE_video_call">Myndsímtal í gegnum símafyrirtæki</string>
     <string name="action_video_call">Hringja myndsímtal</string>
     <string name="actionbar_subtitle_name_prefix">með %s</string>
+    <string name="active_reminder">Áminning</string>
     <string name="active_sim_content_message">%s valið</string>
     <string name="activity_not_found_message">Viðeigandi forrit fannst ekki</string>
     <string name="add_area_code_banner_button">Bæta svæðisnúmeri við</string>
@@ -88,6 +89,7 @@
     <string name="add_contact_confirmation_dialog_title">Bæta við tengiliði?</string>
     <string name="add_country_code_banner_button">Bæta við landskóða</string>
     <string name="add_more_participants_button_content_description">Bæta við fleiri þátttakendum</string>
+    <string name="add_reaction_content_description">Bregðast við með sérsniðnum viðbrögðum</string>
     <string name="add_reaction_for_assistant_card_rcs_fallback_text">​%1$s​ við spjald hjálpara</string>
     <string name="add_reaction_for_audio_rcs_fallback_text">​%1$s​ á hljóðskrá</string>
     <string name="add_reaction_for_contact_rcs_fallback_text">​%1$s​ á tengilið</string>
@@ -95,7 +97,7 @@
     <string name="add_reaction_for_gif_rcs_fallback_text">​%1$s​ á GIF</string>
     <string name="add_reaction_for_link_rcs_fallback_text">​%1$s​ við tengil</string>
     <string name="add_reaction_for_photo_rcs_fallback_text">​%1$s​ á mynd</string>
-    <string name="add_reaction_for_text_message_rcs_fallback_text">​%1$s​ til „%2$s“</string>
+    <string name="add_reaction_for_text_message_rcs_fallback_text">​%1$s​ til „ %2$s “</string>
     <string name="add_reaction_for_unknown_message_type_rcs_fallback_text">​%1$s​ á skilaboð af óþekktri tegund</string>
     <string name="add_reaction_for_video_rcs_fallback_text">​%1$s​ á myndskeið</string>
     <string name="advanced_feedback_activity_disclaimer">Hvorki efni skilaboða né texti er sendur til Google, nema það sem kemur fram á skjámyndum</string>
@@ -132,14 +134,13 @@
     <string name="apn_mnc">MNC</string>
     <string name="app_name">Messages</string>
     <string name="app_settings_conversation_pref_title">Stillingar forrits</string>
-    <string name="apply_button">Nota</string>
     <string name="archived_activity_title">Geymsla</string>
     <string name="archived_conversation_list_empty_text">Samtöl í geymslu birtast hér</string>
     <string name="area_code_banner_description">@string/banner_description</string>
     <string name="assistant_movies_shortcut_title">Kvikmyndir</string>
+    <string name="assistant_preference_summary">Sýna viðeigandi upplýsingar um veitingastaði, kvikmyndir og fleira</string>
     <string name="assistant_preference_title">Tillögur hjálparans</string>
     <string name="assistant_restaurants_shortcut_title">Veitingastaðir</string>
-    <string name="assistant_send_to_chip_default_group_name">hópur</string>
     <string name="assistant_suggestions_tooltip_text">Messages býr til tillögur og geymir samtalið í tækinu. Þú getur ýtt á tillögur til að sjá og deila upplýsingum frá Google hjálparanum. &lt;br/> &lt;br/> &lt;a href>Fáðu frekari upplýsingar&lt;/a> og stjórnaðu þessu í &lt;a href>stillingunum&lt;/a></string>
     <string name="assistant_suggestions_tooltip_title_text">Fáðu upplýsingar með einni snertingu</string>
     <string name="assistant_weather_shortcut_title">Veður</string>
@@ -155,12 +156,18 @@
     <string name="attachment_location">Staðsetning</string>
     <string name="attachment_picture">Mynd</string>
     <string name="attachment_preview_close_content_description">Fleygja viðhengi</string>
+    <string name="attachment_preview_photos_link_share_getting_link">Sækir tengil…</string>
+    <string name="attachment_preview_photos_link_share_no_upload_needed">Efninu var hlaðið upp áður</string>
+    <string name="attachment_preview_photos_link_share_upload_size">%s upphleðsla</string>
+    <string name="attachment_preview_photos_link_share_upload_size_failure">Óþekkt</string>
+    <string name="attachment_preview_photos_link_share_upload_size_placeholder">Reiknar út…</string>
     <string name="attachment_unsupported_file">Óstudd skrá</string>
     <string name="attachment_vcard">Tengiliðaspjald</string>
     <string name="attachment_video">Vídeó</string>
     <string name="audio_attachment_content_description">Hljóðviðhengi</string>
     <string name="audio_attachment_seek_playback_description">Hljóðspilun</string>
     <string name="audio_button_view_content_description">Ýttu tvisvar og haltu inni til að taka upp hljóð, renndu til vinstri til að hætta við</string>
+    <string name="audio_format_type">hljóð</string>
     <string name="audio_pause_content_description">Hlé</string>
     <string name="audio_play_content_description">Spila hljóðviðhengi</string>
     <string name="audio_recorder_call_in_progress">Ekki er hægt að taka upp hljóð meðan á símtali stendur</string>
@@ -179,6 +186,8 @@
     <string name="auto_selected_country_summary">Greint sjálfkrafa (%1$s)</string>
     <string name="automoved_spam_notification_action_dismiss">Hunsa</string>
     <string name="automoved_spam_notification_action_view">Skoða</string>
+    <string name="automoved_spam_notification_content_text">Ruslpóstur sem barst var færður í „Rusl og bannlisti“</string>
+    <string name="automoved_spam_notification_content_title">Ruslpóstur fannst</string>
     <string name="avatar_no_connection_msg">Engin nettenging</string>
     <string name="avatar_promo_create">Búa til</string>
     <string name="avatar_promo_see_all">Sjá allt</string>
@@ -190,7 +199,8 @@
     <string name="birthday_banner_description">@string/banner_description</string>
     <string name="birthday_banner_dismiss_button_text">Hunsa</string>
     <string name="birthday_banner_settings_button_text">Stjórna í stillingum</string>
-    <string name="birthday_info_text">Messages geta búið til áminningar um afmælisdaga tengiliða í tækinu sem eru með afmælisdaga</string>
+    <string name="birthday_info_text">Þessar áminningar miðast við afmælisupplýsingar frá tengiliðaforriti tækisins.</string>
+    <string name="birthday_info_text_with_settings">Þessar áminningar miðast við afmælisupplýsingar frá tengiliðaforriti tækisins. &lt;a href>%1$s&lt;/a></string>
     <string name="birthday_nudge_enabled_pref_summary">Fáðu áminningar um afmælisdaga sem þú hefur bætt við tengiliði í tækinu</string>
     <string name="birthday_nudge_enabled_pref_title">Áminningar um afmæli</string>
     <string name="block_confirmation_message_spam_folder">Þú heldur áfram að fá skilaboð frá %1$s en færð ekki lengur tilkynningar. Þetta samtal verður fært í „Rusl og bannlisti“.</string>
@@ -210,9 +220,13 @@
     <string name="boew_promo_text">Til að nota spjalleiginleika á borð við skilaboð með Wi‑Fi og gögnum skaltu leyfa Messages að halda áfram í bakgrunni</string>
     <string name="boew_promo_title">Gerðu meira með Messages</string>
     <string name="bottomsheet_action_expand_halfway">Stækka til hálfs</string>
+    <string name="bottomsheet_drag_handle_content_description">Dragkló</string>
     <string name="broadcast_receiver_notification_text_extra_info">Messages vinnur í bakgrunninum. Sendu inn villutilkynningu ef þú sérð þessa tilkynningu í meira en mínútu. Nafn viðtakanda: %1$s</string>
     <string name="broadcast_sms_text">SMS-hópskilaboð</string>
     <string name="bubble_settings_title">Blöðrur</string>
+    <string name="bugle_add_account_error">Ekki tókst að bæta við reikningi. Reyndu aftur.</string>
+    <string name="bugle_fix_it">Lagfæra</string>
+    <string name="bugle_load_account_failure">Ekki tókst að hlaða reikningum.</string>
     <string name="bugle_notification_category_conversations">Samtöl</string>
     <string name="bugle_notification_category_default_settings">Sjálfgefnar stillingar</string>
     <string name="bugle_notification_category_reminders">Áminningar</string>
@@ -224,6 +238,8 @@
     <string name="bugle_notification_reminders_channel_name">Áminningar</string>
     <string name="bugle_notification_report_issue_channel_name">Beiðni um álit vegna skilaboða</string>
     <string name="bugle_notification_silent_default_channel_name">Fáðu tilkynningar á meðan þú notar vefinn</string>
+    <string name="bugle_play_services_error">Ekki tókst að senda fyrirspurn til þjónustu Google Play.</string>
+    <string name="bugle_retry">Reyna aftur</string>
     <string name="business_action_call_full_content_description">Hringja í %1$s (%2$s)</string>
     <string name="business_action_call_short_content_description">Hringja</string>
     <string name="business_action_call_short_text_m2">Símtal</string>
@@ -285,6 +301,7 @@
     <string name="c2o_single_file_attachment_size_limit_exceed">Viðhengið er of stórt til að hægt sé að senda það. Prófaðu að senda skrá sem er minni en %s.</string>
     <string name="c2o_storage_permissions_text">Ýttu til að gefa aðgang að margmiðlunarefni</string>
     <string name="c2o_video_button_text">Vídeó</string>
+    <string name="calendar_badge_content_description">Dagatalsmerki</string>
     <string name="calendar_event_added">Viðburður vistaður</string>
     <string name="calendar_file_content_description">Dagatalsskrá</string>
     <string name="calendar_suggestion_event_chat_title">Spjall í Android Messages</string>
@@ -295,6 +312,7 @@
     <string name="camera_attach_media">Hengja við</string>
     <string name="camera_attach_media_description">Hengja við skilaboð</string>
     <string name="camera_back_switch_button">Rofi fyrir aftari myndavél</string>
+    <string name="camera_capture_button_label">Taka mynd</string>
     <string name="camera_flash_off">Slökkt á flassi</string>
     <string name="camera_flash_on">Kveikt á flassi</string>
     <string name="camera_front_switch_button">Rofi fyrir fremri myndavél</string>
@@ -392,6 +410,11 @@
     <string name="common_google_play_services_update_text">%1$s getur ekki keyrt nema þú uppfærir þjónustu Google Play.</string>
     <string name="common_google_play_services_update_title">Uppfæra þjónustu Google Play</string>
     <string name="common_google_play_services_updating_text">%1$s getur ekki keyrt án þjónustu Google Play, sem verið er að uppfæra.</string>
+    <string name="common_google_play_services_wear_update_text">Nýja útgáfu af þjónustu Google Play vantar. Hún uppfærir sig sjálf innan skamms.</string>
+    <string name="common_open_on_phone">Opna í símanum</string>
+    <string name="complete_photos_app_onboarding">Opna Google myndir</string>
+    <string name="complete_photos_app_onboarding_title">Veittu Google myndum aðgang til að halda áfram</string>
+    <string name="complete_photos_app_onboarding_to_continue">Hafist handa í forritinu Google myndir</string>
     <string name="compose_message_view_hint_text">Spjallskilaboð</string>
     <string name="compose_message_view_hint_text_multi_sim_rcs">Spjall (%s)</string>
     <string name="compose_message_view_hint_text_multi_sim_sms_mms">Senda skilaboð (%s)</string>
@@ -413,15 +436,12 @@
     <string name="contact_has_multiple_destinations_phone">%1$s (+%2$s í viðbót)</string>
     <string name="contact_has_multiple_destinations_type">Mörg</string>
     <string name="contact_list_add_people">Bæta %s við</string>
-    <string name="contact_list_empty_text">Sláðu inn nafn eða símanúmer tengiliðar til að búa til ný skilaboð</string>
     <string name="contact_list_send_to_text">Senda í %s</string>
     <string name="contact_picker_autocomplete_added">%1$s bætt við, verið að breyta</string>
     <string name="contact_picker_autocomplete_deleted">%1$s eyddi, er nú að breyta</string>
-    <string name="contact_picker_cant_add_destination_twice">Þetta númer er þegar í hópnum</string>
     <string name="contact_picker_cant_remove_from_existing">Ekki er hægt að fjarlægja númer úr fyrirliggjandi samtali</string>
     <string name="contact_picker_cant_remove_from_screen">Opnaðu &lt;b>Upplýsingar um hóp&lt;/b> til að fjarlægja fólk</string>
     <string name="contact_picker_confirm_participants_button_label">Áfr.</string>
-    <string name="contact_picker_group_create_label">Búa til hóp</string>
     <string name="contact_picker_group_v2_create_label">Búa til hóp</string>
     <string name="contact_picker_message_a_business_label">Spjalla við fyrirtæki</string>
     <string name="contact_picker_title_add_people">Bæta við fólki</string>
@@ -444,10 +464,14 @@
     <string name="content_description_link_to_settings">Stjórna í stillingum</string>
     <string name="contextual_action_bar_description_prefix">Tækjastika fyrir aðgerðir er sýnd: %s. Flettu upp til að velja aðgerð eða loka.</string>
     <string name="conversation_area_code_popup_paragraph">Ef þekkt svæðisnúmer kemur ekki fram reyna Messages að senda á %1$s. Bættu við svæðisnúmeri þessa tengiliðar til að senda skilaboð síðar meir. %2$s</string>
+    <string name="conversation_block_failed_message">Ekki á sett(ur) á bannlista, athugaðu tenginguna</string>
+    <string name="conversation_blocking_message">Setur á bannlista…</string>
     <string name="conversation_country_code_popup_paragraph">Bættu landskóða (+%1$s fyrir %2$s) við þennan tengilið til að skilaboðin berist til rétts aðila. %3$s</string>
     <string name="conversation_creation_failed">Ekki tókst að búa til samtal, reyndu aftur síðar.</string>
     <string name="conversation_creation_failure">Ekki tókst að hefja samtal</string>
+    <string name="conversation_deleting_message">Eyðir…</string>
     <string name="conversation_deletion_failed">Ekki var hægt að eyða samtali</string>
+    <string name="conversation_deletion_failed_message">Ekki eytt, athugaðu tenginguna</string>
     <string name="conversation_empty_name">Autt</string>
     <string name="conversation_label_all">Allt</string>
     <string name="conversation_label_business_updates">Fyrirtæki</string>
@@ -474,7 +498,6 @@
     <string name="conversation_list_item_view_draft_message">Drög</string>
     <string name="conversation_list_item_view_sent_from_other_prefix">%s:</string>
     <string name="conversation_list_item_view_sent_from_you_prefix">Þú:</string>
-    <string name="conversation_list_loading_item_description">Hleður samtali</string>
     <string name="conversation_list_message_fail_to_decrypt">Engin dulráðning</string>
     <string name="conversation_list_rcs_promo_button_negative">Ekki uppfæra forritið</string>
     <string name="conversation_list_rcs_promo_button_positive">Uppfæra núna</string>
@@ -486,7 +509,6 @@
     <string name="conversation_list_snippet_link">Tengja</string>
     <string name="conversation_list_spam_popup_negative">Stjórna í stillingum</string>
     <string name="conversation_list_spam_popup_paragraph">Til að koma í veg fyrir ruslefni notar Google símanúmer óþekktra sendenda og viðtakenda. Skilaboðin þín og tengiliðir eru ekki send til Google. %1$s</string>
-    <string name="conversation_list_spam_popup_paragraph_on_device">Messages notar gervigreind í tækinu til að greina ruslpóst og sendir einhver gögn um þau skilaboð til Google en ekki símanúmerið þitt eða innihald skilaboðanna. %1$s</string>
     <string name="conversation_list_spam_popup_positive">Í lagi</string>
     <string name="conversation_list_spam_popup_title">Ruslpóstvörn</string>
     <string name="conversation_list_terms_and_conditions_promo_subtitle">Ljúktu við að kveikja á spjalleiginleikum til að geta sent skilaboð með Wi-Fi o.fl.</string>
@@ -509,6 +531,7 @@
     <string name="conversation_suggestion_set_reminder_action">Tillaga að stillingu áminningar</string>
     <string name="conversation_suggestion_share_location_action">Tillaga um að deila staðsetningu</string>
     <string name="conversation_suggestion_share_location_action_failure">Eitthvað fór úrskeiðis. Deildu staðsetningu þinni með því að bæta henni við ný skilaboð.</string>
+    <string name="conversation_suggestion_star_action">Ráðlögð aðgerð stjörnu</string>
     <string name="conversation_suggestion_sticker">Tillaga að límmiða</string>
     <string name="copy">Afrita</string>
     <string name="copy_to_clipboard">Afrita</string>
@@ -518,6 +541,7 @@
     <string name="create_group_info_title">Gefa hópnum heiti</string>
     <string name="create_new_group_message">Ef þessum aðila er bætt við verður nýr hópur búinn til án spjalleiginleika</string>
     <string name="current_country_pref_title">Núverandi land</string>
+    <string name="custom_reaction_selection_prompt">Veldu emoji</string>
     <string name="dark_mode_disable_title">Slökkva á dökkri stillingu</string>
     <string name="dark_mode_enable_title">Kveikja á dökkri stillingu</string>
     <string name="dasher_disabled_notification_body">Hafðu samband við kerfisstjóra eða skráðu þig inn með öðrum reikningi.</string>
@@ -585,12 +609,9 @@
     <string name="ditto_activity_label">Tækjapörun</string>
     <string name="ditto_foreground_service_device_pairing_notification_text">Skilaboðin þín eru tiltæk í tækinu sem þú paraðir</string>
     <string name="ditto_foreground_service_device_pairing_notification_title">Tækjapörun</string>
-    <string name="ditto_foreground_service_notification_text">Skilaboðin þín eru tiltæk í tölvunni sem þú paraðir</string>
-    <string name="ditto_foreground_service_notification_title">Messages fyrir vefinn</string>
     <string name="ditto_foreground_service_sign_out">Aftengja</string>
     <string name="ditto_persistent_notification_settings">Tilkynningar</string>
     <string name="ditto_settings_action_bar_title">Tilkynningar</string>
-    <string name="ditto_settings_connected_to_web_notification_description">„Messages fyrir vefinn“ birtist þegar tækið þitt er tengt</string>
     <string name="ditto_settings_connected_to_web_notification_title">Sýna viðvarandi tilkynningu</string>
     <string name="ditto_settings_device_paired_notification_description">„Tækjapörun“ birtist þegar tækið þitt er nettengt</string>
     <string name="ditto_settings_while_using_web_notification_description">Slökkva á hringitóni og titringi þegar tækið er nettengt</string>
@@ -630,6 +651,7 @@ Skilaboðin þín eru yfirfarin af einstaklingum, þ.m.t. skilaboð sem innihald
     <string name="dump_mms_pref_title">Vista MMS-gögn</string>
     <string name="dump_sms_pref_summary">Vista ósniðin SMS-gögn í ytri geymsluskrá</string>
     <string name="dump_sms_pref_title">Vista SMS-gögn</string>
+    <string name="duplicate_upload_snackbar">Sumum afritum var sleppt</string>
     <string name="e2ee_conversation_tombstone">Spjall við %1$s dulkóðað frá upphafi til enda</string>
     <string name="e2ee_conversation_tombstone_with_learn_more">Spjall við %1$s dulkóðað frá upphafi til enda. %2$s</string>
     <string name="e2ee_fail_to_send_retry_description">Senda aftur sem spjall</string>
@@ -668,7 +690,6 @@ Skilaboðin þín eru yfirfarin af einstaklingum, þ.m.t. skilaboð sem innihald
 Skilaboð skipta aftur yfir í spjalleiginleika þegar tenging kemst aftur á."</string>
     <string name="enable_rcs_auto_fallback_dialog_title">Viltu senda aftur sjálfkrafa sem textaskilaboð (SMS/MMS)?</string>
     <string name="enable_rcs_auto_fallback_title">Senda aftur sjálfkrafa sem texta (SMS/MMS)</string>
-    <string name="enable_rcs_fallback_to_sms_title">Endursenda skilaboð ef sending tekst ekki</string>
     <string name="enable_rcs_fallback_to_xms_title">Endursenda skilaboð ef sending tekst ekki</string>
     <string name="enable_rcs_summary_off">Nota Wi-Fi eða gagnatengingu fyrir skilaboðasendingar þegar slíkt er í boði</string>
     <string name="enable_rcs_summary_on">Notar gagnamagn fyrir skilaboðasendingar þegar það er mögulegt</string>
@@ -680,9 +701,13 @@ Skilaboð skipta aftur yfir í spjalleiginleika þegar tenging kemst aftur á."<
     <string name="enter_phone_number_title">Staðfestu símanúmerið þitt</string>
     <string name="enter_phone_number_title_for_sim">Staðfestu símanúmerið fyrir %1$s</string>
     <string name="enumeration_comma">", "</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_failed_to_save_setting">Vandamál með að vista. Reyndu aftur.</string>
     <string name="error_icon_content_description">Villa</string>
     <string name="error_premium_sms_needs_permission">Til að senda þessi skilaboð skaltu opna stillingar tækisins og virkja aðgang að sérstökum SMS-aðgangi</string>
+    <string name="error_text_draft_is_reply_to_missing_message">Ekki er hægt að svara skilaboðum sem hefur verið eytt</string>
+    <string name="error_text_draft_is_reply_without_rcs">Vandamál varðandi spjalleiginleika. Prófaðu að senda án þess að svara.</string>
+    <string name="error_text_scheduled_send_with_draft_reply">Ekki er hægt að tímasetja svar núna</string>
     <string name="etouffee_to_rcs_notification">Messages greindi að dulkóðun frá upphafi til enda var hætt í samtali. Ýttu til að senda ábendingu.</string>
     <string name="etouffee_to_telephony_setting">Persónuvernd</string>
     <string name="etouffee_to_telephony_setting_description">"SMS-heimildir ná yfir skilaboðin þín sem eru dulkóðuð frá upphafi til enda svo Android geti tekið öryggisafrit af þeim, hægt sé að lesa þau upp í bílnum þínum eða í fylgitæki og fleira. Skoðaðu og stjórnaðu forritunum þínum með SMS-heimildum í stillingum Android.
@@ -708,19 +733,24 @@ Ef þessari stillingu er breytt hefur það engin áhrif á skilaboð sem eru du
     <string name="exo_controls_pause_description">Hlé</string>
     <string name="exo_controls_play_description">Spila</string>
     <string name="exo_controls_previous_description">Fyrri</string>
-    <string name="exo_controls_repeat_all_description">Endurtaka allt</string>
-    <string name="exo_controls_repeat_off_description">Endurtaka ekkert</string>
-    <string name="exo_controls_repeat_one_description">Endurtaka eitt</string>
+    <string name="exo_controls_repeat_all_description">Stilling nú: Endurtaka allt. Breyta endurtekningastillingu.</string>
+    <string name="exo_controls_repeat_off_description">Stilling nú: Endurtaka ekkert. Breyta endurtekningastillingu.</string>
+    <string name="exo_controls_repeat_one_description">Stilling nú: Endurtaka eitt. Breyta endurtekningastillingu.</string>
     <string name="exo_controls_rewind_description">Spóla til baka</string>
     <string name="exo_controls_show">Sýna spilunarstýringar</string>
-    <string name="exo_controls_shuffle_off_description">Slökkt á stokkun</string>
-    <string name="exo_controls_shuffle_on_description">Kveikt á stokkun</string>
+    <string name="exo_controls_shuffle_off_description">Kveikja á stokkun</string>
+    <string name="exo_controls_shuffle_on_description">Slökkva á stokkun</string>
     <string name="exo_controls_vr_description">sýndarveruleikastilling</string>
     <string name="exo_track_selection_auto">Sjálfvirkt</string>
     <string name="exo_track_selection_none">Ekkert</string>
     <string name="expand_attach_button_content_description">Sýna viðhengjahnappa</string>
     <string name="expand_button_title">Ítarlegt</string>
     <string name="exposed_dropdown_menu_content_description">Sýna fellivalmynd</string>
+    <string name="express_sign_in_illustration_content_description">Myndskreyting af eiginleika efnisdeilingar</string>
+    <string name="express_sign_in_sub_title">"Varðveittu skörp myndgæði þegar þú
+skráir þig inn og sendir tengla á Google myndir."</string>
+    <string name="express_sign_in_title">"Deildu myndskeiðum
+eins og þau eiga að vera"</string>
     <string name="fail_to_decrypt_message_metadata">Dulráðning tókst ekki, ýttu til að sjá valmöguleika</string>
     <string name="fail_to_load_dialog_negative_button">Senda SMS með SIM-korti tækisins</string>
     <string name="fail_to_load_dialog_positive_button">Reyna aftur</string>
@@ -734,6 +764,7 @@ Ef þessari stillingu er breytt hefur það engin áhrif á skilaboð sem eru du
     <string name="failed_message_content_description">Skilaboð mistókust. Ýttu til að reyna aftur.</string>
     <string name="failed_qr_pairing_dialog_message">Eitthvað fór úrskeiðis. Reyndu aftur eftir nokkrar mínútur.</string>
     <string name="failed_qr_pairing_dialog_positive_button_text">Í lagi</string>
+    <string name="failed_to_select_attachment_from_system_picker">Ekki tókst að velja þetta viðhengi</string>
     <string name="fast_track_negative_button_text">Nei, takk</string>
     <string name="fast_track_popup_accepted_snack_bar_text">Setur upp spjalleiginleika. Við látum þig vita þegar þeir eru tilbúnir.</string>
     <string name="fast_track_popup_declined_snack_bar_text">Þú getur kveikt á spjalleiginleikum hvenær sem er í stillingum.</string>
@@ -799,6 +830,9 @@ Ef þessari stillingu er breytt hefur það engin áhrif á skilaboð sem eru du
     <string name="fi_settings_download_over_wifi_title">Samstilla aðeins efni um Wi-Fi</string>
     <string name="fi_settings_opt_out_failed">Ekki er hægt að stöðva samstillingu og skrá út núna. Reyndu aftur síðar.</string>
     <string name="fi_settings_opt_out_in_progress">Hættir að samstilla og skráir út</string>
+    <string name="fi_settings_redirect_button">Stjórna öryggisafritun</string>
+    <string name="fi_settings_redirect_summary">Þú finnur þær í valmynd reikningsins</string>
+    <string name="fi_settings_redirect_title">Stillingar fyrir öryggisafritun og samstillingu hafa verið færðar</string>
     <string name="fi_settings_sync_preference_backup_in_progress">Afritun í gangi: %1$d%%</string>
     <string name="fi_settings_sync_preference_restore_in_progress">Endurheimt í gangi: %1$d%%</string>
     <string name="fi_settings_sync_preference_summary">Skilaboð, símtöl og talhólfsskilaboð samstillast milli skjáa</string>
@@ -816,6 +850,7 @@ Ef þessari stillingu er breytt hefur það engin áhrif á skilaboð sem eru du
     <string name="file_transfer_via_sms_other">Ég deildi skrá með þér</string>
     <string name="file_transfer_via_sms_video">Ég deildi myndskeiði með þér</string>
     <string name="files_shortcut_title">Skrár</string>
+    <string name="flip_camera_button_label">Skipta milli myndavéla</string>
     <string name="floating_toolbar_close_overflow_description">Loka viðbótaratriðum</string>
     <string name="floating_toolbar_open_overflow_description">Fleiri valkostir</string>
     <string name="foreground_service_notification_generic_text">Messages vinnur í bakgrunninum</string>
@@ -829,12 +864,27 @@ Ef þessari stillingu er breytt hefur það engin áhrif á skilaboð sem eru du
     <string name="full_banner_expand_chip_description">Hnappur til að stækka kubb</string>
     <string name="full_screen_gallery_action_attach">Bæta við</string>
     <string name="fullscreen_button_description">Opna á öllum skjánum</string>
+    <string name="gaia_auth_failure_dialog_body">Tilteknir eiginleikar knúnir af Google reikningnum þínum virka ekki fyrr en þú skráir þig inn</string>
+    <string name="gaia_auth_failure_dialog_title">Skráðu þig inn aftur til að staðfesta að þetta sért þú</string>
+    <string name="gallery_google_photos_option_tray_button_add">Bæta við</string>
+    <string name="gallery_google_photos_option_tray_button_always">Alltaf</string>
+    <string name="gallery_google_photos_option_tray_button_cancel">Hætta við</string>
+    <string name="gallery_google_photos_option_tray_button_just_once">Bara einu sinni</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_image">Mynd í minni skerpu</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_unknown">Efni í minni gæðum</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_video">Myndskeið í minni gæðum</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_image">Mynd</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_unknown">Efni</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_video">Myndskeið</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_body">Mikill skerpa. Stjórnaðu deildum tenglum í Google myndum.</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_learn_more">Nánar</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_title">Tengill á Google myndir</string>
+    <string name="gallery_item_content_description_selected_state">Afturkalla val á %1$s sem er viðhengi í stöðu %2$s með því að ýta tvisvar</string>
+    <string name="gallery_item_content_description_unselected_state">Veldu %1$s sem var tekin/tekið kl. %2$s með því að ýta tvisvar</string>
     <string name="general_settings">Almennt</string>
     <string name="general_settings_activity_title">Almennar stillingar</string>
     <string name="general_settings_title_m2">Valkostir</string>
     <string name="generic_issue_text">Annað</string>
-    <string name="get_messenger_notification_body">Lestu og sendu textaskilaboð úr úrinu eða símanum</string>
-    <string name="get_messenger_notification_header">Sækja Messages</string>
     <string name="get_sticker_packs_error_msg">Ekki tókst að hlaða límmiðum.</string>
     <string name="gif_screen_no_result">Engin samsvörun fannst. Athugaðu leitina og reyndu aftur.</string>
     <string name="gif_screen_title">GIF</string>
@@ -842,10 +892,23 @@ Ef þessari stillingu er breytt hefur það engin áhrif á skilaboð sem eru du
     <string name="gif_search_hint">Leita að GIF-myndum</string>
     <string name="gifs_shortcut_title">GIF</string>
     <string name="go_to_top">Skoða nýjast</string>
-    <string name="google_account_pref_title">Google reikningur</string>
     <string name="google_assistant_verification_channel_name">Staðfesting hjálpara</string>
     <string name="google_assistant_verification_notification_title">Google hjálpari sendir skilaboð</string>
     <string name="google_fi_text">Google Fi</string>
+    <string name="google_photos_onboarding_close_button_description">Loka spjaldi Google mynda</string>
+    <string name="google_photos_onboarding_ineligible_title">Skráðu þig inn á Google myndir til að senda skýrari myndskeið</string>
+    <string name="google_photos_onboarding_ineligible_title_photos_and_videos">Skráðu þig inn á Google myndir til að senda skýrari myndir og myndskeið</string>
+    <string name="google_photos_onboarding_learn_more">Nánar</string>
+    <string name="google_photos_onboarding_next">Áfram</string>
+    <string name="google_photos_onboarding_ok">Í lagi</string>
+    <string name="google_photos_onboarding_signed_in_title_photos_and_videos">Skráðu þig inn til að senda skýrari myndir og myndskeið</string>
+    <string name="google_photos_onboarding_signed_out_title">Skráðu þig inn til að senda skýrari myndskeið</string>
+    <string name="google_photos_onboarding_text_body">Myndskeiðin halda skýrleika sínum þegar þú sendir tengla á Google myndir í samtölum með MMS</string>
+    <string name="google_photos_onboarding_text_body_photos_and_videos_xms">Efnið heldur skýrleika sínum þegar þú sendir tengla á Google myndir í samtölum með MMS</string>
+    <string name="google_photos_onboarding_title">Deildu myndskeiðum eins og þau eiga að vera</string>
+    <string name="google_photos_onboarding_title_photos_and_videos">Deildu myndum og myndskeiðum eins og þau eiga að vera</string>
+    <string name="google_photos_option_tray">Skráðu þig inn til að senda myndskeið í meiri skerpu</string>
+    <string name="google_photos_option_tray_photos_and_videos">Skráðu þig inn til að senda skýrari myndir og myndskeið</string>
     <string name="google_play_protect_title">Google Play Protect</string>
     <string name="google_tos_chat_features_tooltip">"Sjáðu þegar einhver skrifar, fáðu senda staðfestingu á lestri og sendu skilaboð, skrár og myndir í mikilli upplausn með spjalleiginleikum í gegnum RCS-þjónustu. Gögn eru notuð til að senda skilaboð.
 
@@ -859,8 +922,9 @@ Ef þessari stillingu er breytt hefur það engin áhrif á skilaboð sem eru du
 
 Hægt er að skipta um sjálfgefið SIM-kort fyrir símtöl í kerfisstillingum. %1$s"</string>
     <string name="google_tos_multisim_view_accessibility_description">Frekari upplýsingar</string>
+    <string name="google_tos_negative_link_text">Nei, takk</string>
     <string name="group_conversation_title_everyone_else_left">Ég</string>
-    <string name="group_limit_alert_dialog_message">{max_group_size_including_self,plural, =1{Getur ekki innihaldið fleiri en #}one{Getur ekki innihaldið fleiri en #}other{Getur ekki innihaldið fleiri en #}}</string>
+    <string name="group_limit_alert_dialog_message">{max_group_size_excluding_self,plural, =1{Getur ekki innihaldið fleiri en # einstakling í viðbót}one{Getur ekki innihaldið fleiri en # einstakling í viðbót}other{Getur ekki innihaldið fleiri en # einstaklinga í viðbót}}</string>
     <string name="group_mms_pref_title">Hópskilaboð</string>
     <string name="group_name_edit_text_label">Heiti hóps</string>
     <string name="guest_cloud_preview">FORÚTGÁFA</string>
@@ -870,14 +934,19 @@ Hægt er að skipta um sjálfgefið SIM-kort fyrir símtöl í kerfisstillingum.
     <string name="happy_birthday_no_name">Sendu afmæliskveðju!</string>
     <string name="hidden_sender_address">Falið netfang sendanda</string>
     <string name="highlighter">Yfirstrikun</string>
+    <string name="how_it_works_link_text">Svona virkar þetta</string>
+    <string name="hqms_always_send_image_as_link_pref_title">Alltaf senda myndir með tengli í textaskilaboðum (SMS/MMS)</string>
+    <string name="hqms_always_send_video_as_link_pref_title">Alltaf senda myndskeið með tengli í textaskilaboðum (SMS/MMS)</string>
+    <string name="hqms_settings_gaia_card_text">Stjórna tenglum í Google myndum</string>
+    <string name="hqms_settings_info_text">Messages hleður efninu upp á Google myndir og þar geturðu stjórnað deilingu myndskeiða með tengli. %1$s</string>
+    <string name="hqms_settings_sign_in_prompt_text">Skráðu þig inn á Google reikninginn þinn til að nota þennan eiginleika</string>
     <string name="hqms_settings_summary">Deildu myndskeiðum í mikilli skerpu í textaskilaboðum (SMS/MMS)</string>
     <string name="hqms_settings_title">Google myndir</string>
     <string name="identity_verification_notification_text">Messages staðfestir móttekin skilaboð</string>
     <string name="ignore">Hunsa</string>
     <string name="image_attachment_content_description">Mynd í viðhengi</string>
     <string name="image_compress_info">Myndgæði verða minni hjá viðtakanda vegna takmarkana símafyrirtækis á MMS</string>
-    <string name="imei_format_dropdown_hint">Stilla IMEI-snið</string>
-    <string name="imsi_format_dropdown_hint">Stilla IMSI-snið</string>
+    <string name="image_format_type">mynd</string>
     <string name="in_conversation_blocked_contact_text">Hugsanlegt er að þú sjáir ekki öll skilaboðin þar sem í þessu samtali eru tengiliðir á bannlista.</string>
     <string name="in_conversation_notify_new_message_action">Skoða</string>
     <string name="in_conversation_notify_new_message_text">Ný skilaboð</string>
@@ -887,7 +956,7 @@ Hægt er að skipta um sjálfgefið SIM-kort fyrir símtöl í kerfisstillingum.
     <string name="incoming_message_for_secondary_user_notification_title">Ný skilaboð</string>
     <string name="incoming_message_foreground_notification_text">Messages vinnur úr mótteknum skilaboðum</string>
     <string name="incoming_mms_disabled_by_company_pref_summary">Fyrirtækið þitt leyfir ekki móttöku MMS-skilaboða</string>
-    <string name="indeterminate">Hvorki merkt né afmerkt</string>
+    <string name="indeterminate">Hakað við að hluta til</string>
     <string name="info_and_options_activity_business_tab_list_header">Fyrirtæki</string>
     <string name="info_and_options_activity_info_tab_content_description">Upplýsingar</string>
     <string name="info_and_options_activity_info_tab_title">Upplýsingar</string>
@@ -898,6 +967,9 @@ Hægt er að skipta um sjálfgefið SIM-kort fyrir símtöl í kerfisstillingum.
     <string name="info_and_options_view_terms_of_service">Skoða þjónustuskilmálana</string>
     <string name="inline_playback_error">Ekki er hægt að spila þetta vídeó í Messages</string>
     <string name="inline_playback_pause_content_description">Gera hlé á spilun</string>
+    <string name="install_photos_app">Sækja Google myndir</string>
+    <string name="install_photos_app_title">Þú verður að sækja forritið Google myndir til að halda áfram</string>
+    <string name="install_photos_app_to_continue">Settu upp forritið til að senda vídeó í háskerpu</string>
     <string name="invalid_qr_code_dialog_message">Skannaðu QR-kóðann á %s til að skrá þig inn</string>
     <string name="invalid_qr_code_dialog_positive_button_text">Í lagi</string>
     <string name="invalid_qr_code_dialog_title">Rangur kóði</string>
@@ -911,14 +983,12 @@ Hægt er að skipta um sjálfgefið SIM-kort fyrir símtöl í kerfisstillingum.
     <string name="leave_confirmation_text">Ertu viss um að þú viljir ekki lengur fá skilaboð frá þessum hópi?</string>
     <string name="leave_confirmation_title">Yfirgefa hóp fyrir fullt og allt</string>
     <string name="libraries_material_featurehighlight_dismiss">Hunsa</string>
-    <string name="link_preview_enabled_pref_summary">Sýna forskoðun í skilaboðum</string>
+    <string name="lighter_account_sign_out_snackbar_text">Skráðu þig inn til að skoða fyrirtækjasamtöl</string>
+    <string name="lighter_block_report_spam_body">Heiti fyrirtækisins og samtal þitt við fyrirtækið verða send til Google (gjöld símafyrirtækisins kunna að eiga við).</string>
     <string name="link_preview_enabled_pref_summary_off">Slökkt</string>
     <string name="link_preview_failed">Forskoðun ekki tiltæk</string>
     <string name="link_preview_google_photos_display_name">Google myndir</string>
-    <string name="link_preview_preference_info_text">Google sækir forskoðunarefni af vefsvæðum sem tengt er í. Forskoðun er aðeins sýnd fyrir tengla frá þekktum sendendum. %1$s</string>
-    <string name="link_preview_preference_title">Sjálfvirk forskoðun á tenglum</string>
     <string name="link_preview_tap_to_load">Ýttu til að hlaða forskoðun</string>
-    <string name="link_preview_wifi_only_pref_summary">Sækja forskoðun aðeins með Wi-Fi</string>
     <string name="link_to_settings"><u>Stjórna í stillingum</u></string>
     <string name="listify_many">%1$s og %2$d í viðbót</string>
     <string name="listify_one">%s</string>
@@ -965,13 +1035,13 @@ Valfrjálst er að deila ráðlögðum upplýsingum og þær innihalda hvorki ef
     <string name="manual_msisdn_skipped_snack_bar_text">Ekki hefur verið kveikt á ítarlegum spjalleiginleikum. Kveiktu á þeim hvenær sem er í stillingunum.</string>
     <string name="manual_msisdn_skipped_snack_bar_text_b155475148">Messages mun reyna að staðfesta númerið þitt hjá símafyrirtækinu þínu. Þú getur stjórnað þessu í stillingum.</string>
     <string name="manual_msisdn_verify_now_snack_bar_text_b155475148">Messages mun reyna að staðfesta númerið þitt hjá símafyrirtækinu þínu. Þú getur stjórnað þessu í stillingum.</string>
-    <string name="manually_override_rcs_flags">Hnekkja RCS-merkjum handvirkt</string>
     <string name="mark_all_messages_as_read_confirmation">Öll skilaboð merkt sem lesin</string>
     <string name="mdd_download_notification_channel_name">Tilkynningarás fyrir niðurhal gagna</string>
     <string name="mdd_foreground_service_notification_title">Sækir</string>
     <string name="mdd_notification_action_cancel">Hætta við</string>
     <string name="mdd_notification_download_failed">Niðurhal mistókst</string>
     <string name="mdd_notification_download_paused">Beðið eftir nettengingu</string>
+    <string name="mdd_notification_download_paused_wifi">Bíður eftir Wi-Fi tengingu</string>
     <string name="media_compress_info">Efni verður í minni gæðum hjá viðtakanda vegna takmarkana símafyrirtækis á MMS</string>
     <string name="media_compress_tooltip_info_icon_text">upplýsingar</string>
     <string name="media_viewer_close_button_description">Loka</string>
@@ -1070,6 +1140,8 @@ Valfrjálst er að deila ráðlögðum upplýsingum og þær innihalda hvorki ef
     <string name="message_type_vcard">Tengiliðaspjald</string>
     <string name="message_type_video">Myndskeið</string>
     <string name="message_video_content_description">Myndskeið</string>
+    <string name="message_with_deleted_snippet_talk_back_announcement">%1$s svar við skilaboðum sem hefur verið eytt</string>
+    <string name="message_with_reply_snippet_talk_back_announcement">%1$s sem svar við %2$s frá %3$s</string>
     <string name="messages_for_web_preference_summary">Opnaðu %1$s</string>
     <string name="messages_for_web_preference_title">Sendu SMS, hringdu og hlustaðu á talhólfið á netinu</string>
     <string name="messages_status_feedback_data_description">"Allar ráðlagðar upplýsingar koma að gagni við að leysa úr duldum vandamálum, sjá ólíkar orsakir þeirra, hvernig þau tengjast og hvar skuli leita úrræða.
@@ -1122,11 +1194,15 @@ Stuttir kóðar eru staðbundin eða sérsniðin númer til að senda SMS-skilab
     <string name="mms_phone_number_pref_title">Símanúmer</string>
     <string name="mms_text">MMS</string>
     <string name="mtrl_badge_numberless_content_description">Ný tilkynning</string>
+    <string name="mtrl_checkbox_state_description_checked">Checked</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Indeterminate</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Not checked</string>
     <string name="mtrl_chip_close_icon_content_description">Fjarlægja %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Yfir %1$d nýjar tilkynningar</string>
     <string name="mtrl_picker_a11y_next_month">Breyta í næsta mánuð</string>
     <string name="mtrl_picker_a11y_prev_month">Breyta í fyrri mánuð</string>
     <string name="mtrl_picker_announce_current_selection">Núverandi val: %1$s</string>
+    <string name="mtrl_picker_cancel">Hætta við</string>
     <string name="mtrl_picker_confirm">Í lagi</string>
     <string name="mtrl_picker_day_of_week_column_header">Dálkur með dögum: %1$s</string>
     <string name="mtrl_picker_navigate_to_year_description">Fara í árið %1$s</string>
@@ -1138,11 +1214,24 @@ Stuttir kóðar eru staðbundin eða sérsniðin númer til að senda SMS-skilab
     <string name="multimedia_message">Margmiðlunarskilaboð</string>
     <string name="muted_conversation_content_description">Tilkynningar eru óvirkar.</string>
     <string name="nav_app_bar_navigate_up_description">Fara upp</string>
+    <string name="nav_archived_messages_folder_title">Í geymslu</string>
+    <string name="nav_choose_theme_title">Velja þema</string>
+    <string name="nav_choose_theme_title_disable_dark_mode">Slökkva á dökkri stillingu</string>
+    <string name="nav_choose_theme_title_enable_dark_mode">Kveikja á dökkri stillingu</string>
+    <string name="nav_device_pairing_title">Tækjapörun</string>
+    <string name="nav_mark_all_as_read_title">Merkja allt sem lesið</string>
+    <string name="nav_messages_folder_title">Skilaboð</string>
+    <string name="nav_spam_and_blocked_messages_folder_title">Rusl og bannlisti</string>
+    <string name="nav_starred_folder_title">Stjörnumerkt</string>
     <string name="navigate_up_button_content_description">Fara upp</string>
     <string name="new_message_label">{count,plural, =1{1 ný skilaboð}one{# ný skilaboð}other{# ný skilaboð}}</string>
     <string name="new_pill_label">Nýtt</string>
     <string name="new_rich_cards_preference_info_text">Google skannar valdar upplýsingar (eins og staði eða tengla) í spjallferlinum án þess að auðkenna þig til að búa til allar forskoðanir og greina skaðlegt efni. %1$s</string>
-    <string name="no_google_account">Enginn</string>
+    <string name="no_business_name_fallback">þetta fyrirtæki</string>
+    <string name="no_connection">Engin tenging</string>
+    <string name="no_media_button">Skoða valkosti</string>
+    <string name="no_media_caption">Prófaðu aðra efnisveitu eða annan prófíl</string>
+    <string name="no_media_description">Ekkert efni fyrir þennan prófíl er vistað í þessu tæki</string>
     <string name="no_reply_pinned_message_text">Sendandi styður ekki svör</string>
     <string name="no_sim_message">Engin skilaboð á SIM-kortinu</string>
     <string name="not_selected">Ekki valið</string>
@@ -1198,31 +1287,51 @@ Stuttir kóðar eru staðbundin eða sérsniðin númer til að senda SMS-skilab
     <string name="nudge_learn_more_info_text">Frekari upplýsingar um að hnippa</string>
     <string name="nudge_reply_enabled_pref_summary">Skilaboð sem þú gætir þurft að svara munu birtast efst</string>
     <string name="nudge_reply_enabled_pref_title">Leggja til áminningar um að svara</string>
+    <string name="nudge_settings_page_description">Sýna svör og afmælisáminningar</string>
     <string name="nudge_settings_page_title">Hnippingar</string>
     <string name="numeric_text_keyboard_toggle_button_content_description">Skipta á milli innsláttar texta og talna</string>
     <string name="off">Slökkt</string>
     <string name="og_a11y_close">Loka</string>
     <string name="og_account_and_settings">Reikningur og stillingar.</string>
+    <string name="og_account_particle_disc_no_accounts_available_a11y">Skrá inn</string>
     <string name="og_add_another_account">Bæta öðrum reikningi við</string>
+    <string name="og_app_settings">Stillingar %1$s</string>
     <string name="og_choose_an_account_title">Veldu reikning</string>
     <string name="og_collapse_account_list_a11y">Minnka reikningalista.</string>
     <string name="og_continue">Halda áfram</string>
     <string name="og_continue_as">Halda áfram sem %1$s</string>
     <string name="og_expand_account_list_a11y">Stækka reikningalista.</string>
+    <string name="og_get_storage_action">Fá geymslurými</string>
+    <string name="og_get_storage_action_short">Kaupa meira</string>
     <string name="og_google_one_account_a11y">Google One reikningur.</string>
+    <string name="og_help_feedback">Hjálp og ábendingar</string>
     <string name="og_loading_a11y">Hleður</string>
     <string name="og_manage_accounts">Stjórna reikningum þessa tækis</string>
+    <string name="og_manage_storage_action">Stjórna geymslurými</string>
+    <string name="og_manage_storage_action_short">Stjórna</string>
+    <string name="og_minimized_storage_card_title">Notað geymslurými: %1$s af %2$s GB</string>
+    <string name="og_more_options_action">Fleiri valkostir</string>
+    <string name="og_more_options_action_short">Valkostir</string>
     <string name="og_my_account_desc_long_length">Stjórna Google reikningnum</string>
     <string name="og_my_account_desc_meduim_length">Google reikningur</string>
     <string name="og_my_account_desc_short_length">Reikningur</string>
+    <string name="og_privacy_advisor">Gögnin þín í %1$s</string>
     <string name="og_privacy_policy">Persónuvernd</string>
     <string name="og_selected_account_a11y">%1$s valið.</string>
     <string name="og_sign_in_">Skrá inn</string>
     <string name="og_signed_in_as_account">Þú skráðir þig inn sem %1$s</string>
+    <string name="og_storage_card_almost_full_a11y_label">Geymslurými reikningsins er næstum fullt</string>
+    <string name="og_storage_card_full_a11y_label">Geymslurými reikningsins er á þrotum</string>
+    <string name="og_storage_card_title">Geymslurými reiknings</string>
+    <string name="og_storage_card_title_almost_full">%1$s notuð af geymslurými</string>
+    <string name="og_storage_card_title_full">Geymslurými á þrotum</string>
+    <string name="og_storage_progress_subtitle">%1$s GB af %2$s GB í notkun</string>
     <string name="og_terms_of_service">Þjónustuskilmálar</string>
     <string name="og_use_account_a11y_no_period">Nota %1$s</string>
+    <string name="og_use_without_an_account">Nota án reiknings</string>
     <string name="on">Kveikt</string>
     <string name="onboarding_google_tos_with_sms_charges_and_learn_more">Til að kveikja á spjalleiginleikum frá Google samþykkirðu %1$s og %2$s. Google mun einstöku sinnum staðfesta númerið þitt með því að skiptast á upplýsingum um tækið við símafyrirtækið (SMS-gjöld kunna að eiga við). %3$s.</string>
+    <string name="open_full_screen_camera_button_label">Opna myndavél á öllum skjánum</string>
     <string name="open_video_trimmer_dialog_negative">Hætta við</string>
     <string name="open_video_trimmer_dialog_positive">Klippa</string>
     <string name="organization">Fyrirtæki</string>
@@ -1236,8 +1345,6 @@ Stuttir kóðar eru staðbundin eða sérsniðin númer til að senda SMS-skilab
     <string name="otp_auto_deletion_promo_banner_positive_button_text">Áfram</string>
     <string name="otp_auto_deletion_promo_banner_title_text">Eyða einnota aðgangsorðum sjálfkrafa eftir sólarhring?</string>
     <string name="otp_copied_to_clipboard">Kóði afritaður</string>
-    <string name="otp_pattern_dropdown_hint">Stilla OTP-mynstur</string>
-    <string name="otp_port_dropdown_hint">Stilla OTP-gátt</string>
     <string name="outgoing_message_foreground_notification_text">Messages vinnur úr sendum skilaboðum</string>
     <string name="outgoing_mms_disabled_by_carrier_pref_summary">Símafyrirtækið þitt leyfir ekki sendingu MMS-skilaboða</string>
     <string name="outgoing_mms_disabled_by_company_pref_summary">Fyrirtækið þitt leyfir ekki sendingu MMS-skilaboða</string>
@@ -1263,6 +1370,7 @@ Stuttir kóðar eru staðbundin eða sérsniðin númer til að senda SMS-skilab
     <string name="paired_desktops_last_connection_time">Síðasta virkni: %s</string>
     <string name="paired_desktops_last_connection_time_unknown">óþekkt</string>
     <string name="participant_joined_group">%s tengdist þessum hópi</string>
+    <string name="participant_joined_with_learn_more">%1$s tengdust þessum hópi. %2$s</string>
     <string name="participant_left_group">%s yfirgaf þennan hóp</string>
     <string name="participant_list_add">Bæta við fólki</string>
     <string name="participant_list_count_title_icu">{count,plural, =0{0 í viðbót}=1{1 í viðbót}one{# í viðbót}other{# í viðbót}}</string>
@@ -1282,8 +1390,9 @@ Stuttir kóðar eru staðbundin eða sérsniðin númer til að senda SMS-skilab
     <string name="phone_number_input_body_for_mo_text">Þú getur líka sleppt þessu til að fá aðgang að spjalleiginleikum síðar og þá reynir Messages að staðfesta númerið þitt hjá símafyrirtækinu þínu</string>
     <string name="phone_number_input_body_text">Messages staðfestir númerið þitt til að tryggja aðgang þinn að spjalleiginleikum</string>
     <string name="phone_number_input_hint">Símanúmerið þitt</string>
+    <string name="phone_number_input_invalid_number_text">Ógilt símanúmer</string>
     <string name="phone_number_input_negative_button_for_mo_text">Sleppa í bili</string>
-    <string name="phone_number_input_negative_button_for_mt_text">Áminna síðar</string>
+    <string name="phone_number_input_negative_button_for_mt_text">Minna mig á seinna</string>
     <string name="phone_number_input_positive_button_text">Bæta númeri við</string>
     <string name="phone_number_input_streamlined_body_for_mo_text">Deildu myndum, myndskeiðum og fleiru með Wi-Fi eða farsímagögnum. Bættu númerinu þínu við núna til að fá spjalleiginleika á skjótan hátt. Eða slepptu þessu skrefi og leyfðu Messages að uppgötva og staðfesta númerið þitt.</string>
     <string name="phone_number_input_streamlined_body_text">Deildu myndum, myndskeiðum og fleiru með Wi-Fi eða farsímagögnum. Bættu númerinu þínu við núna til að fá spjalleiginleika.</string>
@@ -1298,10 +1407,25 @@ Stuttir kóðar eru staðbundin eða sérsniðin númer til að senda SMS-skilab
     <string name="phone_number_input_title_text">Bættu númerinu þínu við núna til að fá spjalleiginleika á skjótan hátt</string>
     <string name="phone_number_input_tos_reminder_text">Þú hefur þegar samþykkt %1$s fyrir spjalleiginleika</string>
     <string name="phone_number_input_tos_text">þjónustuskilmálana</string>
+    <string name="phone_number_promo_banner_body_text">Staðfestu símanúmerið þitt til að senda myndskeið í háskerpu, hreyfimyndaviðbrögð og fleira með Wi-Fi eða farsímagögnum</string>
+    <string name="phone_number_promo_banner_negative_button_text">Hunsa</string>
+    <string name="phone_number_promo_banner_positive_button_text">Áfram</string>
+    <string name="phone_number_promo_banner_title_text">Taktu skrefið og nýttu þér betri eiginleika Messages</string>
+    <string name="phone_number_promo_body_text">Byrjaðu strax með staðfesta símanúmerinu þínu. Þú getur stjórnað spjalleiginleikum hvenær sem er í stillingunum</string>
+    <string name="phone_number_promo_body_text_mo">Byrjaðu strax með staðfesta símanúmerinu þínu. Þú getur líka sleppt þessu til að fá aðgang að spjalleiginleikum síðar og Messages reynir að staðfesta númerið fyrir þig.</string>
+    <string name="phone_number_promo_negative_button_text">Minna mig á seinna</string>
+    <string name="phone_number_promo_negative_button_text_mo">Sleppa í bili</string>
+    <string name="phone_number_promo_positive_button_text">Fá spjalleiginleika</string>
+    <string name="phone_number_promo_title_text">Ertu tilbúin(n) að deila myndum, myndskeiðum og fleira með Wi-Fi eða farsímagögnum?</string>
+    <string name="phone_number_ui_accepted_snackbar_text">Þú færð tilkynningu þegar spjalleiginleikar eru í boði</string>
+    <string name="phone_number_ui_dismissed_snackbar_action_text">Stillingar</string>
+    <string name="phone_number_ui_dismissed_snackbar_text">Til að fá aðgang að spjalleiginleikum strax skaltu bæta símanúmerinu þínu við eða stjórna þeim í stillingunum</string>
     <string name="photo_taken">Mynd tekin</string>
+    <string name="photos_app_installation_required">Sæktu forritið Google myndir til að senda vídeó í háskerpu</string>
+    <string name="photos_app_onboarding_required">Veittu Google myndum aðgang til að senda vídeó í háskerpu</string>
+    <string name="photos_app_sharing_unavailable_try_again_later">Tengill á vídeó í háskerpu er ekki tiltækur eins og er. Hægt er að senda vídeó í lágskerpu.</string>
+    <string name="photos_app_sign_in_required">Skráðu þig inn á Google myndir til að senda vídeó í háskerpu</string>
     <string name="picker_disambiguation_title">Velja áfangastað</string>
-    <string name="pin_limit_message">Þú getur fest allt að %1$d samtöl</string>
-    <string name="pin_success_message">Festi %1$d af %2$d samtölum</string>
     <string name="pinch_zoom_pref_title">Færa fingur saman til að stækka texta samtals</string>
     <string name="places_autocomplete_clear_button">Hreinsa leit</string>
     <string name="places_autocomplete_label">Velja stað</string>
@@ -1321,7 +1445,7 @@ Stuttir kóðar eru staðbundin eða sérsniðin númer til að senda SMS-skilab
     <string name="posted_this_year">%1$s%2$s%3$s</string>
     <string name="posted_yesterday">Í gær%1$s%2$s</string>
     <string name="preference_copied">„%1$s“ afritað á klippiborðið.</string>
-    <string name="preferences_license_title">Leyfi opins kóða</string>
+    <string name="preferences_license_title">Tilkynningar þriðja aðila</string>
     <string name="premium_sms_banner_body">Kveiktu á þessu í stillingum til að senda til %s og annarra sérstakra SMS-númera.</string>
     <string name="premium_sms_banner_body_saved_contact">Kveiktu á þessu í stillingum til að senda til %1$s (%2$s) og annarra sérstakra SMS-númera.</string>
     <string name="premium_sms_banner_description">@string/banner_description</string>
@@ -1352,10 +1476,11 @@ Upplýsingar um skilaboð og samtöl fela í sér símanúmer og netföng senden
 Þessar upplýsingar gagnast við að staðfesta tilgátur og auðkenna þætti sem eiga hlut í vandamálinu í því skyni að greina vandamálið hraðar og á skilvirkari hátt."</string>
     <string name="problematic_message_feedback_data_rationale_title">Svona gagnast upplýsingar um skilaboð og samtöl</string>
     <string name="promotion_content_description">Þessi skilaboð eru flokkuð sem tilboð</string>
+    <string name="prompt_button_action_not_now">Ekki núna</string>
+    <string name="prompt_button_action_sign_in">Skrá inn</string>
     <string name="proxy_screen_clear_search">Hreinsa leit</string>
     <string name="proxy_screen_search">Leita</string>
     <string name="qr_action_bar_device_pairing_title">Tækjapörun</string>
-    <string name="qr_action_bar_title">Messages fyrir vefinn</string>
     <string name="qr_code_scanner_hint_text">Skannaðu inn QR-kóðann á&lt;br/><b>%s</b></string>
     <string name="qr_code_scanner_preference_button">QR-kóðaskanni</string>
     <string name="qr_delete_all_paired_desktops_button_text">Aftengja öll tæki</string>
@@ -1370,6 +1495,8 @@ Upplýsingar um skilaboð og samtöl fela í sér símanúmer og netföng senden
     <string name="qr_welcome_privacy">persónuverndarstefnu</string>
     <string name="qr_welcome_terms_of_service">þjónustuskilmála</string>
     <string name="rbm_block_confirmation_message_spam_folder">Þú færð ekki lengur tilkynningar þegar þú færð skilaboð frá %1$s. Þetta samtal verður fært í „Rusl og bannlisti“. %2$s</string>
+    <string name="rbm_block_dialog_body">Þú færð ekki skilaboð frá þessum sendanda. Þetta samtal verður flutt yfir í „Rusl og bannlisti“ en þar er hægt að taka það af bannlista hvenær sem er.</string>
+    <string name="rbm_block_dialog_positive_button_label">Loka á</string>
     <string name="rbm_business_logo_icon_content_description">Tákn firmamerkis</string>
     <string name="rbm_platform_generalized_verifier_title">Staðfest af %s</string>
     <string name="rbm_platform_verified_by_google">Staðfest af Google</string>
@@ -1389,6 +1516,7 @@ Upplýsingar um skilaboð og samtöl fela í sér símanúmer og netföng senden
     <string name="rcs_learn_more_title">%1$s um spjalleiginleika</string>
     <string name="rcs_learn_more_title_with_no_link">Frekari upplýsingar um spjalleiginleika</string>
     <string name="rcs_message">Skilaboð í gegnum Rich Communication Service (RCS)</string>
+    <string name="rcs_message_failed_recipient_lost_encryption_content_description">Ekki hægt að senda, ýttu til að sjá valkosti</string>
     <string name="rcs_message_failed_recipient_lost_rcs_content_description">Ekki hægt að senda, ýttu til að sjá valkosti</string>
     <string name="rcs_mobile_data_auto_download_carrier_format_entry">Sjálfgefið (%1$s)</string>
     <string name="rcs_mobile_data_auto_download_limit_disable_entry_text">Gera óvirkt</string>
@@ -1471,11 +1599,12 @@ Upplýsingar um skilaboð og samtöl fela í sér símanúmer og netföng senden
     <string name="reaction_surprised_content_description">Andlit með opinn munn</string>
     <string name="reactions_promo_announcement">Haltu inni til að bregðast við</string>
     <string name="reactions_promo_text">Haltu inni til að bregðast við</string>
-    <string name="read_external_storage_permission_description">Til að skoða efni úr myndasafninu hér þarftu að veita aðgang að geymslurými símans.</string>
+    <string name="read_media_storage_permission_description">Til að skoða efni úr myndasafninu hér þarftu að veita aðgang að geymslurými efnis í símanum.</string>
     <string name="received_label">Móttekið:</string>
     <string name="recipient_hint">Sláðu inn nafn, símanúmer eða netfang</string>
     <string name="recipient_label">Til</string>
     <string name="recipient_offline_description">Bíður þar til %s tengist…</string>
+    <string name="reminder_badge_content_description">Áminningarmerki</string>
     <string name="reminder_datetime_picker_dialog_delete_button">Eyða</string>
     <string name="reminder_datetime_picker_dialog_menu_title_add">Stilla áminningu</string>
     <string name="reminder_datetime_picker_dialog_menu_title_update">Uppfæra áminningu</string>
@@ -1496,7 +1625,7 @@ Upplýsingar um skilaboð og samtöl fela í sér símanúmer og netföng senden
     <string name="reminder_suggestions_tooltip_text">Ýttu og veldu tíma til að fylgja eftir síðar. Slökktu á tillögum í &lt;a href>stillingunum&lt;/a></string>
     <string name="reminder_suggestions_tooltip_title_text">Stilltu áminningar</string>
     <string name="reminders_banner_body">%1$s: %2$s</string>
-    <string name="reminders_banner_description">@string/banner_description</string>
+    <string name="reminders_banner_description">Reminder conversation banner</string>
     <string name="reminders_banner_done_button">Lokið</string>
     <string name="reminders_banner_remind_button">Áminn. 1 klst.</string>
     <string name="reminders_banner_self_sender_name">Þú</string>
@@ -1509,7 +1638,7 @@ Upplýsingar um skilaboð og samtöl fela í sér símanúmer og netföng senden
     <string name="remove_reaction_from_gif_rcs_fallback_text">Fjarlægði ‌%1$s‌ af GIF</string>
     <string name="remove_reaction_from_link_rcs_fallback_text">Fjarlægði ‌%1$s‌ af tengli</string>
     <string name="remove_reaction_from_photo_rcs_fallback_text">Fjarlægði ‌%1$s‌ af mynd</string>
-    <string name="remove_reaction_from_text_message_rcs_fallback_text">Fjarlægði ‌%1$s‌ úr „%2$s“</string>
+    <string name="remove_reaction_from_text_message_rcs_fallback_text">Fjarlægði ‌%1$s‌ úr „ %2$s “</string>
     <string name="remove_reaction_from_unknown_message_type_rcs_fallback_text">Fjarlægði ‌%1$s‌ af skilaboðum af óþekktri tegund</string>
     <string name="remove_reaction_from_video_rcs_fallback_text">Fjarlægði ‌%1$s‌ af myndskeiði</string>
     <string name="remove_user_dialog_cancel">Hætta</string>
@@ -1518,14 +1647,17 @@ Upplýsingar um skilaboð og samtöl fela í sér símanúmer og netföng senden
     <string name="rename_group_title_m2">Heiti hóps</string>
     <string name="reply_activity_title">Svara</string>
     <string name="reply_button_label">Svara</string>
-    <string name="reply_icon_content_description">Svara skilaboðum</string>
+    <string name="reply_icon_content_description">Svara</string>
     <string name="report_contact_title">Tilkynna ruslefni</string>
     <string name="report_failed_rcs_group_creation">Eitthvað fór úrskeiðis og einum eða fleiri þátttakendum var ekki bætt við.</string>
     <string name="report_group_spam_body_spam_folder">Númer og nýleg textaskilaboð annarra hópmeðlima verða send til Google til yfirferðar og kunna að verða send til símafyrirtækisins þíns (gjöld kunna að eiga við). Þetta samtal verður áfram í „Rusl og bannlisti“, án tilkynninga. %1$s</string>
+    <string name="report_invalid_thread_id_issue_description">Ógilt kenni þráðar. Nánari upplýsingar eru í annálum.</string>
     <string name="report_issue_action_text">Senda ábendingu</string>
+    <string name="report_issue_description">Messages greindi villu sjálfkrafa. Nánari upplýsingar eru í annálum.</string>
     <string name="report_issue_notification_text">Skilaboð fundu villu. Ýttu til að senda ábendingu.</string>
     <string name="report_not_spam_snackbar_message">%1$s tilkynnt sem ekki rusl</string>
     <string name="report_person_delivered">%1$s Móttekið: %2$s</string>
+    <string name="report_person_ftd">%1$s Ekki tókst að afkóða: %2$s</string>
     <string name="report_person_read">%1$s Lesið: %2$s</string>
     <string name="report_person_sent">%s hefur ekki móttekið</string>
     <string name="report_receive_issue_notification_message">Android getur ekki sótt skilaboð sem þú fékkst send. Ýttu til að senda ábendingu.</string>
@@ -1538,6 +1670,7 @@ Upplýsingar um skilaboð og samtöl fela í sér símanúmer og netföng senden
     <string name="report_spam_snackbar_message">%1$s tilkynnt sem rusl</string>
     <string name="report_spam_toast_title">Ruslpóstur tilkynntur</string>
     <string name="report_telephone_db_recreation_message">Vandamál við að sækja skilaboð. Ýttu til að senda ábendingu.</string>
+    <string name="report_thread_id_not_found_description">Kenni þráðar vantar. Nánari upplýsingar eru í annálum.</string>
     <string name="required_permissions_no_promptable_promo">Breyttu heimildum í forritastillingum tækisins. Veittu Messages aðgang að SMS-skilaboðum, síma og tengiliðum.</string>
     <string name="required_permissions_no_promptable_title">Veita aðgang</string>
     <string name="required_permissions_promptable_promo">Til að ljúka við uppsetningu sjálfgefins forrits skaltu veita Messages aðgang að SMS-skilaboðum, síma og tengiliðum</string>
@@ -1557,6 +1690,11 @@ Upplýsingar um skilaboð og samtöl fela í sér símanúmer og netföng senden
     <string name="samsung_setting_search_title">Messages stillingar</string>
     <string name="save">Vista</string>
     <string name="save_attachment">Vista</string>
+    <string name="save_banner_body">Vistaðu þennan afmælisdag í tengiliðaforritinu og Messages mun minna þig á hann á næsta ári</string>
+    <string name="save_banner_positive_button">Vista afmælisdag</string>
+    <string name="save_banner_title_name">Muna eftir afmælisdegi %1$s</string>
+    <string name="save_banner_title_no_name">Muna eftir afmælisdegi viðkomandi</string>
+    <string name="save_birthday_banner_description">@string/banner_description</string>
     <string name="save_otp_confirm_button">Vista einnota aðgangsorð</string>
     <string name="save_otp_dialog_message">Þetta einnota aðgangsorð verður vistað á meðan öðrum einnota aðgangsorðum þínum verður eytt eftir sólarhring. Þú getur haft umsjón með þessu í stillingunum.</string>
     <string name="save_otp_dialog_title">Vista þetta einnota aðgangsorð?</string>
@@ -1575,6 +1713,7 @@ Upplýsingar um skilaboð og samtöl fela í sér símanúmer og netföng senden
     <string name="scheduled_send_announcement_scheduling_failed">Mistókst að tímasetja skilaboð.</string>
     <string name="scheduled_send_announcement_scheduling_started">Tímasetur skilaboð.</string>
     <string name="scheduled_send_announcement_scheduling_succeeded">Skilaboð tímasett.</string>
+    <string name="scheduled_send_badge_content_description">Áætluð sending merkis</string>
     <string name="scheduled_send_compose_label_close_content_description">Fjarlægja áætlun.</string>
     <string name="scheduled_send_datetime_picker_subtitle">Til að hægt sé að senda þarf að vera kveikt á símanum og hann tengdur við Wi-Fi eða farsímagögn</string>
     <string name="scheduled_send_datetime_picker_title">Tímasetja sendingu (%1$s)</string>
@@ -1602,6 +1741,7 @@ Upplýsingar um skilaboð og samtöl fela í sér símanúmer og netföng senden
     <string name="security_key_top_level_title">Staðfesta dulkóðun</string>
     <string name="see_gallery">Skoða myndasafn</string>
     <string name="selected">Valið</string>
+    <string name="selection_position_text">%1$d</string>
     <string name="self_left_group_conversation_failed">Ekki var hægt að aftengjast hópi, reyndu aftur síðar.</string>
     <string name="self_participant_reaction_name">Þú</string>
     <string name="self_person_name">Þú</string>
@@ -1651,7 +1791,6 @@ Símanúmerið þitt er eingöngu notað við úrræðaleit og til að leysa van
     <string name="sending_timeout_failure_dialog_title">Skilaboð ekki send</string>
     <string name="sent_label">Sent:</string>
     <string name="set_message_priority_description">Stilla sem áríðandi</string>
-    <string name="set_rcs_flags">RCS-merki</string>
     <string name="set_rcs_mobile_data_auto_download_limit_title">Sækja sjálfkrafa skrár sem þér berast með farsímagagnatengingu</string>
     <string name="setting_fast_track_body_with_cost">Með því að halda áfram samþykkirðu %1$s og %2$s. Fyrir móttöku skilaboða með símanúmeri kann Google að staðfesta númerið þitt öðru hverju með því að skiptast á upplýsingum um tækið við símafyrirtækið þitt eða með SMS-skilaboðum (gjöld kunna að eiga við). Þú getur slökkt á spjalleiginleikum í stillingum. %3$s</string>
     <string name="settings_activity_title">Stillingar</string>
@@ -1674,6 +1813,13 @@ Símanúmerið þitt er eingöngu notað við úrræðaleit og til að leysa van
     <string name="shortcuts_screen_title">Flýtileiðir</string>
     <string name="show_sms_link_warning_change_label">Breyta</string>
     <string name="show_sms_link_warning_text">Viðhengi verða send sem SMS-skilaboð sem innihalda tengil á viðhengið</string>
+    <string name="sign_in_app_name_without_account">Nota %1$s án reiknings</string>
+    <string name="sign_in_cancel">Hætta við</string>
+    <string name="sign_in_without_account">Nota án reiknings</string>
+    <string name="sign_in_without_account_short">Án reiknings</string>
+    <string name="sign_into_photos_app">Skrá inn</string>
+    <string name="sign_into_photos_app_title">Skráðu þig inn á Google myndir til að halda áfram</string>
+    <string name="sign_into_photos_app_with_x_to_continue">Þú ert að senda frá %1$s</string>
     <string name="signature_banner_description">@string/banner_description</string>
     <string name="silent_ringtone">Þögn</string>
     <string name="sim_label">SIM-kort:</string>
@@ -1692,9 +1838,13 @@ Símanúmerið þitt er eingöngu notað við úrræðaleit og til að leysa van
     <string name="sim_storage_full_title">Geymslurými SIM-kortsins er fullt</string>
     <string name="sim_storage_pref_title">Skilaboð á SIM-korti</string>
     <string name="simple_fail_to_decrypt_message_dialog_body">Prófaðu að uppfæra Messages forritið til að afkóða skilaboð í framtíðinni</string>
+    <string name="smart_action_settings_page_description">Sýna viðeigandi flýtileiðir fyrir dagatal, GIF-leit, staðsetningardeilingu og fleira</string>
+    <string name="smart_action_settings_page_title">Aðgerðir</string>
+    <string name="smart_actions_preference_summary_shortcuts">Sýna viðeigandi flýtileiðir fyrir dagatal, GIF-leit, staðsetningardeilingu og fleira</string>
     <string name="smart_actions_preference_title">Tillögur að aðgerðum</string>
     <string name="smart_compose_preference_summary">Sýna flýtitillögur innsláttar</string>
     <string name="smart_compose_preference_title">Snjallskrif</string>
+    <string name="smart_reply_preference_summary">Sýna valkosti fyrir svar í spjalli</string>
     <string name="smarts_preference_info_text">Snjallsvör og tillögur að aðgerðum eru aðeins sýnileg þér þangað til þú ýtir og deilir. &lt;br/> &lt;br/> Tillögur eru mismunandi eftir samtölum og eru búnar til í tækinu. %1$s</string>
     <string name="smarts_preference_info_text_with_assistant">Snjallsvar, tillögur að aðgerðum og tillögur hjálparans eru útbúin með gervigreind Messages í tækinu. &lt;br/> &lt;br/>Tillögum er ekki deilt með Google eða öðrum fyrr en þú ýtir á þær. &lt;br/> &lt;br/> Ef þú leyfir Messages að fá aðgang að staðsetningu tækisins færðu fleiri staðbundnar tillögur. %1$s</string>
     <string name="smarts_settings_page_summary">Snjallsvör, tillögur að aðgerðum og fleira</string>
@@ -1710,8 +1860,8 @@ Svör birtast í einstaklingssamtölum"</string>
     <string name="sms_encoding_pref_summary">Umbreyta sérstöfum í SMS-skilaboðum</string>
     <string name="sms_encoding_pref_title">Nota einfalda stafi</string>
     <string name="sms_error_template">%1$s (Villukóði %2$d)</string>
-    <string name="sms_protocol_label">SMS-skilaboð</string>
-    <string name="sms_text">SMS-skilaboð</string>
+    <string name="sms_protocol_label">SMS</string>
+    <string name="sms_text">SMS</string>
     <string name="smsc_number_pref_summary">SMS gæti hætt að virka ef þú breytir eða eyðir þessu númeri</string>
     <string name="smsc_number_pref_title_pre_r">Sérsniðið SMSC</string>
     <string name="smsc_number_pref_title_r_plus">SMSC</string>
@@ -1721,19 +1871,18 @@ Svör birtast í einstaklingssamtölum"</string>
     <string name="snackbar_text_label_rcs_group_created_too_large">{max_group_size_including_self,plural, =1{Getur ekki innihaldið fleiri en #}one{Getur ekki innihaldið fleiri en #}other{Getur ekki innihaldið fleiri en #}}</string>
     <string name="snackbar_text_label_rcs_group_self_only">Það er enginn í þessum hópi. Bættu fólki við þennan hóp áður en þú sendir skilaboð í þessu spjalli.</string>
     <string name="snippet">%1$s: %2$s</string>
-    <string name="snippet_assistant_card_text">Hjálparaspjald</string>
-    <string name="snippet_attachment_icon_content_description">Tákn viðhengis í sýnishorni af svari</string>
     <string name="snippet_audio_attachment_text">Hljóð</string>
     <string name="snippet_deleted_message_text">Skilaboðum eytt</string>
-    <string name="snippet_dismiss_icon_content_description">Tákn hunsunar á svari</string>
+    <string name="snippet_dismiss_icon_content_description">Eyða</string>
     <string name="snippet_file_attachment_text">Skrá</string>
     <string name="snippet_from_you">Þú: %s</string>
     <string name="snippet_image_attachment_text">Mynd</string>
-    <string name="snippet_media_thumbnail_content_description">Smámynd margmiðlunarefnis í sýnishorni af svari</string>
     <string name="snippet_self_participant_header">Þú</string>
     <string name="snippet_video_attachment_text">Myndskeið</string>
     <string name="soft_num_key_pad_backspace_content_description">Bakklykill</string>
     <string name="someone_added_participant">%1$s bætti %2$s í þennan hóp</string>
+    <string name="someone_added_participant_with_learn_more">%1$s bætti %2$s í þennan hóp. %3$s</string>
+    <string name="someone_else_created_encrypted_rcs_group">%1$s bjó til þetta hópspjall með %2$s. %3$s</string>
     <string name="someone_else_created_mms_group">%1$s bjó til þessi MMS-hópskilaboð með %2$s</string>
     <string name="someone_else_created_rcs_group">%1$s bjó til þetta hópspjall með %2$s</string>
     <string name="someone_joined_group">Einhver tengdist þessum hópi</string>
@@ -1757,7 +1906,6 @@ Svör birtast í einstaklingssamtölum"</string>
     <string name="spam_dialog_title_spam_folder">Tilkynna rusl?</string>
     <string name="spam_folder_activity_title">Rusl og bannlisti</string>
     <string name="spam_folder_conversation_list_empty_text_v2">Ruslefni og samtöl á bannlista birtast hér</string>
-    <string name="spam_preference_info_text_on_device">Messages notar gervigreind í tækinu til að greina ruslpóst og sendir einhver gögn um þau skilaboð til Google en ekki símanúmerið þitt eða innihald skilaboðanna. %1$s</string>
     <string name="spam_protection_consent_string">Messages sendir tiltekin gögn um skilaboð þín til Google til að greina ruslefni án þess að senda símanúmerið þitt eða innihald skilaboðanna. %1$s</string>
     <string name="spam_reporting_from">Tilkynning um ruslefni</string>
     <string name="spam_settings">Ruslpóstvörn</string>
@@ -1766,6 +1914,8 @@ Svör birtast í einstaklingssamtölum"</string>
     <string name="split_view_pref_title">Listayfirlit</string>
     <string name="stacked_banner_count_text">1 af %1$d</string>
     <string name="star_badge_content_description">Stjörnumerking</string>
+    <string name="star_badge_menu_remove_action">Fjarlægja</string>
+    <string name="star_badge_menu_view_all_action">Skoða allt</string>
     <string name="star_badge_on_click_snackbar_action">Afturkalla</string>
     <string name="star_badge_on_click_snackbar_message">Stjarna fjarlægð</string>
     <string name="sticker_content_description">Límmiði af %s</string>
@@ -1802,10 +1952,12 @@ Svör birtast í einstaklingssamtölum"</string>
     <string name="subject_with_label">Efni: %1$s</string>
     <string name="subject_with_urgent_label">[ÁRÍÐANDI] %1$s</string>
     <string name="success_message_format">%1$s %2$s %3$s %4$s %5$s %6$s.</string>
+    <string name="success_message_self_sender">Þú sagðir %1$s %2$s %3$s %4$s.</string>
     <string name="success_message_self_sender_format_with_multiple_attachments">Þú sendir mörg viðhengi %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_self_sender_format_with_single_attachment">Þú sendir viðhengi %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_specified_sender_format_with_multiple_attachments">%1$s sendi mörg viðhengi %2$s %3$s %4$s %5$s %6$s.</string>
     <string name="success_message_specified_sender_format_with_single_attachment">%1$s sendi viðhengi %2$s %3$s %4$s %5$s %6$s.</string>
+    <string name="success_message_unspecified_sender">Sendandinn sagði %1$s %2$s %3$s %4$s.</string>
     <string name="success_message_unspecified_sender_format_with_multiple_attachments">Sendandinn sendi mörg viðhengi %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_unspecified_sender_format_with_single_attachment">Sendandinn sendi viðhengi %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_sent_to_message_format">Sent til %1$s %2$s %3$s %4$s.</string>
@@ -1814,10 +1966,18 @@ Svör birtast í einstaklingssamtölum"</string>
     <string name="sud_back_button_label">Til baka</string>
     <string name="sud_more_button_label">Meira</string>
     <string name="sud_next_button_label">Áfram</string>
-    <string name="suggested_stickers_preference_summary">Sýna tillögur að límmiðum</string>
+    <string name="suggested_stickers_preference_summary">Sýna valkosti fyrir svar með límmiða</string>
     <string name="suggested_stickers_preference_title">Tillögur að límmiðum</string>
+    <string name="suggestion_shortcut_dialog_body_text">Notaðu fljótlegar og einfaldar flýtileiðir til að stjörnumerkja skilaboð, skipuleggja í skyndi og fleira.</string>
+    <string name="suggestion_shortcut_dialog_positive_button">Í lagi</string>
+    <string name="suggestion_shortcut_dialog_subsection_body_text">Símanúmer og dagsetningar eru meðal þess sem virkjar tillögur að flýtileiðum. %1$s</string>
+    <string name="suggestion_shortcut_dialog_subsection_title_text">Svona virkar þetta</string>
+    <string name="suggestion_shortcut_dialog_title">Ráðlagðar flýtileiðir til að spara þér tíma</string>
+    <string name="suggestion_shortcut_search_title">Leit</string>
+    <string name="suggestion_shortcut_star_toolstone">Stjörnumerktu skilaboð og notaðu %1$s til að finna þau á einfaldan hátt</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_notification_inbox_style_summary_text">+%d í viðbót</string>
+    <string name="super_sort_pref_title">Flokkun skilaboða</string>
     <string name="super_sort_settings_title">Skilaboðaskipulag</string>
     <string name="supersort_conversation_list_empty_text_business_update">Hér birtast sjálfkrafa uppfærslur frá fyrirtækjum</string>
     <string name="supersort_conversation_list_empty_text_manage_in_settings">Stjórna í stillingum</string>
@@ -1880,6 +2040,11 @@ Hægt er að leita að öllum samtölum í „Allt“"</string>
     <string name="survey_user_agent">Aðgangsbúnaður</string>
     <string name="survey_very_dissatisfied">Mjög óánægð(ur)</string>
     <string name="survey_very_satisfied">Mjög ánægð(ur)</string>
+    <string name="swipe_actions">Strokaðgerðir</string>
+    <string name="swipe_actions_summary">Veldu að „Setja í geymslu“ eða „Eyða“ með því að strjúka til hægri eða vinstri eða slökktu á skjástrokum</string>
+    <string name="swipe_customize">Sérsníða</string>
+    <string name="swipe_left">Strjúka til vinstri</string>
+    <string name="swipe_right">Strjúka til hægri</string>
     <string name="switcher_no_phone_number">SIM-kort fannst ekki</string>
     <string name="switcher_pair_device_title_text">Nota paraðan síma til að senda skilaboð</string>
     <string name="switcher_positive_button_text">Áfram</string>
@@ -1887,6 +2052,7 @@ Hægt er að leita að öllum samtölum í „Allt“"</string>
     <string name="switcher_use_device_sim_number">(%s)</string>
     <string name="switcher_use_device_sim_title_text">Nota SIM-kort þessa tækis til að senda skilaboð</string>
     <string name="syncing_with_device_foreground_notification_text">Messages er að samstilla við tækið þitt</string>
+    <string name="system_picker_button_label">Möppur</string>
     <string name="t_mobile_tos_pref_link_text">skilmála and </string>
     <string name="t_mobile_tos_pref_text">Spjalleiginleikar frá Google í boði T-Mobile. Sjá %1$s.</string>
     <string name="t_mobile_tos_pref_url">https://www.t-mobile.com/responsibility/legal/terms-and-conditions</string>
@@ -1911,6 +2077,7 @@ Stillingar > %1$s"</string>
     <string name="theme_setting_dialog_options_light_mode">Ljós</string>
     <string name="theme_setting_dialog_options_system_default_mode">Sjálfgildi kerfis</string>
     <string name="theme_setting_dialog_title">Velja þema</string>
+    <string name="tiktok_account_login_failure">Innskráning á valda reikninginn tókst ekki.</string>
     <string name="tiktok_add_account_error">Ekki tókst að bæta við reikningi. Reyndu aftur.</string>
     <string name="tiktok_fix_it">Lagfæra þetta</string>
     <string name="tiktok_load_account_failure">Ekki tókst að hlaða reikningum.</string>
@@ -1936,6 +2103,18 @@ Aðeins þú getur séð þetta heiti"</string>
     <string name="tombstone_self_removed_from_group_referrer_known">%1$s fjarlægði þig úr þessum hópi</string>
     <string name="tombstone_self_removing_others_from_group">Þú fjarlægðir %1$s úr þessum hópi</string>
     <string name="tombstone_show_link_previews">Kveikt er á forskoðun tengla.&lt;br />Fáðu nánari upplýsingar eða slökktu á henni í &lt;u>stillingunum&lt;/u>.</string>
+    <string name="tombstone_show_link_previews_disabled">Slökkt er á forskoðun tengla.&lt;br />Fáðu frekari upplýsingar eða kveiktu á eiginleikanum í &lt;u>stillingum&lt;/u>.</string>
+    <string name="tooltip_content">"Google reikningurinn þinn knýr
+eiginleika á borð við tengladeilingu Google mynda
+í Messages án þess
+að veita aðgang að samtölunum þínum.
+
+Messages sendir samt sem áður úr
+símanúmerinu þínu. Nánar"</string>
+    <string name="tooltip_content_with_line_break_fix">"Google reikningurinn þinn býður upp á eiginleika á borð við deilingu með tengli úr Google myndum í Messages án þess að opna samtöl.
+
+Messages halda áfram að senda úr símanúmerinu þínu. Nánar"</string>
+    <string name="tooltip_link">Nánar</string>
     <string name="top_contacts_grid_name">★</string>
     <string name="top_contacts_title">Vinsælustu tengiliðir</string>
     <string name="transaction_content_description">Þessi skilaboð eru flokkuð sem færsla</string>
@@ -1945,6 +2124,7 @@ Aðeins þú getur séð þetta heiti"</string>
     <string name="unblock_and_report_not_spam_snackbar_message">%1$s tekið af bannlista og tilkynnt sem ekki ruslnúmer</string>
     <string name="unblock_banner_body">Ef þú vilt færa þetta samtal úr geymslu og fá skilaboð aftur skaltu taka %s af bannlista</string>
     <string name="unblock_banner_body_spam_folder">Ef þú vilt færa þetta samtal úr „Rusl og bannlisti“ og fá skilaboð aftur skaltu taka %s af bannlista</string>
+    <string name="unblock_banner_body_v2">Unblock to receive messages from this sender</string>
     <string name="unblock_banner_description">@string/banner_description</string>
     <string name="unblock_banner_positive_button">Taka af bannlista</string>
     <string name="unblock_banner_title">Á bannlista</string>
@@ -1980,6 +2160,7 @@ Símanúmer eru eingöngu notuð við úrræðaleit og til að leysa vandamál. 
     <string name="unsent">Ósent</string>
     <string name="unspam_banner_body">Ef þú vilt færa þetta samtal úr geymslu og fá tilkynningar aftur skaltu tilkynna að %s sé ekki ruslnúmer</string>
     <string name="unspam_banner_body_spam_folder">Ef þú vilt færa þetta samtal úr „Rusl og bannlisti“ og fá tilkynningar aftur skaltu tilkynna að %s sé ekki rusl</string>
+    <string name="unspam_banner_body_v2">Report as not spam to receive messages from this sender</string>
     <string name="unspam_banner_description">@string/banner_description</string>
     <string name="unspam_banner_end_button">Ekki rusl</string>
     <string name="unspam_banner_title">Tilkynnt sem rusl</string>
@@ -1995,6 +2176,8 @@ Símanúmer eru eingöngu notuð við úrræðaleit og til að leysa vandamál. 
     <string name="unsupported_file_save_alert">Vista viðhengi í „Niðurhal“?</string>
     <string name="unsupported_file_save_cancel">Hætta við</string>
     <string name="unverified_sms_banner_description">@string/banner_description</string>
+    <string name="unwanted_messages_toolstone_link">Banna og tilkynna</string>
+    <string name="unwanted_messages_toolstone_text">%1$s óæskileg símtöl</string>
     <string name="upcoming_reminder">Væntanleg áminning</string>
     <string name="update_content_description">Þessi skilaboð eru flokkuð sem tilkynning</string>
     <string name="update_donation_banner_body_v2">Persónuvernd þín er tryggð og þú getur fjarlægt efni úr skilaboðunum</string>
@@ -2037,6 +2220,7 @@ Símanúmer eru eingöngu notuð við úrræðaleit og til að leysa vandamál. 
     <string name="video_attachment_content_description">Myndskeið í viðhengi</string>
     <string name="video_attachment_limit_exceeded_when_sending">Þú getur aðeins sent eitt myndskeið með hverjum skilaboðum. Fjarlægðu myndskeiðin sem eru umfram og reyndu aftur.</string>
     <string name="video_compress_info">Myndgæði verða minni hjá viðtakanda vegna takmarkana símafyrirtækis á MMS</string>
+    <string name="video_format_type">myndskeið</string>
     <string name="video_media_failure">Til að búa til myndskeið skaltu prófa að taka upp lengur</string>
     <string name="video_taken">Myndskeið tekið</string>
     <string name="video_thumbnail_view_play_button_content_description">Spila myndskeið</string>
@@ -2083,19 +2267,20 @@ Notaðu hyggjuvitið til að leggja mat á efni þessara skilaboða."</string>
     <string name="websiteTypeWork">Vinna</string>
     <string name="welcome_agree_button_text">Samþykkja</string>
     <string name="welcome_chat_features_decline">Nota Messages án spjalleiginleika</string>
-    <string name="welcome_chat_features_learn_more">Frekari upplýsingar um spjalleiginleika</string>
     <string name="welcome_chat_features_legal">Með því að nota spjalleiginleika samþykkirðu %1$s og %2$s. Google staðfestir stundum númerið þitt hjá símafyrirtækinu þínu (SMS-gjöld kunna að eiga við).</string>
+    <string name="welcome_chat_features_text">"- Sendu með Wi-Fi eða farsímagögnum
+· Deildu skrám og margmiðlunarefni
+· Tryggðu að aðrir komist ekki í skilaboðin þín"</string>
     <string name="welcome_chat_features_title">Hraðara, ríkara og betra spjall með Wi-Fi eða farsímagögnum</string>
+    <string name="welcome_chat_features_title_experiment_0">Gerðu enn meira með Messages</string>
+    <string name="welcome_chat_features_title_experiment_1">Gerðu enn meira með spjalleiginleikum Messages</string>
     <string name="welcome_consent_button_text">Áfram</string>
-    <string name="welcome_finish_button_text">Ljúka</string>
     <string name="welcome_smarts_notice_description">"Einfaldaðu spjall með eiginleikum á borð við Google hjálpara og Snjallsvar. Spjallið þitt er öruggt í tækinu þínu.
 %1$s og %2$s"</string>
     <string name="welcome_smarts_notice_title">Gagnlegar snjallaðgerðir</string>
     <string name="welcome_spam_description">"Til að koma í veg fyrir ruslefni notar Google símanúmer sem eru ekki tengiliðir þínir, án þess að auðkenna þig eða númerið þitt.
 %1$s og %2$s"</string>
     <string name="welcome_spam_title">Ruslpóstvörn</string>
-    <string name="welcome_splash_tagline">"Einföld og snjöll skilaboð
-frá Google"</string>
     <string name="widget_reply_exit_content_description">Til baka</string>
     <string name="widget_reply_open">OPNA MESSAGES</string>
     <string name="widget_reply_to">Svara %s</string>
@@ -2103,9 +2288,14 @@ frá Google"</string>
     <string name="work_directory_display_name">Tengiliðir í vinnusniði</string>
     <string name="xms_send_mode_pref_title">Senda aðeins SMS- og MMS-skilaboð</string>
     <string name="you_added_participant">Þú bættir %s í þennan hóp</string>
+    <string name="you_added_participant_with_learn_more">Þú bættir %1$s í þennan hóp. %2$s</string>
+    <string name="you_created_encrypted_rcs_group">Þú bjóst til þetta hópspjall með %1$s. %2$s</string>
     <string name="you_created_mms_group">Þú bjóst til þessi MMS-hópskilaboð með %s</string>
     <string name="you_created_rcs_group">Þú bjóst til þetta hópspjall með %s</string>
     <string name="you_left_group">Þú yfirgafst þennan hóp</string>
+    <string name="youtube_dismissal_prompt">Ýttu og dragðu til að loka</string>
+    <string name="youtube_drag_prompt">Dragðu spilarann til að færa hann</string>
+    <string name="youtube_pip_playing">Myndskeið er í spilun</string>
     <string name="zero_connectivity_failure_announcement">Skilaboð ekki send</string>
     <string name="zero_state_search_action_copy">Afrita</string>
     <string name="zero_state_search_action_jump_to_chat">Sjá í spjalli</string>
@@ -2125,6 +2315,7 @@ frá Google"</string>
     <string name="zero_state_search_details_image_accessibility">Mynd sem %1$s sendi %2$s</string>
     <string name="zero_state_search_details_video_accessibility">Myndskeið sem %1$s sendi %2$s</string>
     <string name="zero_state_search_dropdown_free_text">Leita að „%s“</string>
+    <string name="zero_state_search_empty_results_text">Hér birtast stjörnumerkt skilaboð, efni og tenglar úr þessu samtali</string>
     <string name="zero_state_search_images">Myndir</string>
     <string name="zero_state_search_link_copied">Tengill afritaður</string>
     <string name="zero_state_search_links">Tenglar</string>

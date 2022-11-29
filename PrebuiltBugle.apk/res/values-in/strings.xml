@@ -28,7 +28,6 @@
     <string name="about_application_pp_tos_settings">Tentang, persyaratan &amp; privasi</string>
     <string name="accessbility_suggestion_dropdown_closed">Saran tidak tersedia</string>
     <string name="accessbility_suggestion_dropdown_opened">Saran kontak dibuka</string>
-    <string name="acs_url_dropdown_hint">Setel URL ACS</string>
     <string name="action_add_contact">Tambahkan kontak</string>
     <string name="action_advanced_feedback">Kirim masukan</string>
     <string name="action_archive">Arsipkan</string>
@@ -47,18 +46,19 @@
     <string name="action_help_and_feedback">Bantuan &amp; masukan</string>
     <string name="action_info_and_options">Info &amp; opsi</string>
     <string name="action_jump_to_chat">Lihat di chat</string>
+    <string name="action_meet_video_call">Panggilan video Meet</string>
     <string name="action_menu_mark_all_as_read">Tandai semua sebagai telah dibaca</string>
     <string name="action_menu_show_archived">Diarsipkan</string>
     <string name="action_menu_show_spam_folder">Spam &amp; diblokir</string>
     <string name="action_notification_off">Nonaktifkan pemberitahuan</string>
     <string name="action_notification_on">Aktifkan pemberitahuan</string>
     <string name="action_notification_settings">Bisukan notifikasi</string>
+    <string name="action_off">Nonaktif</string>
     <string name="action_pair_device">Penyambungan perangkat</string>
     <string name="action_people_and_options">Detail</string>
     <string name="action_people_and_options_group">Detail grup</string>
     <string name="action_pin_to_top">Sematkan di atas</string>
     <string name="action_report_spam">Laporkan spam</string>
-    <string name="action_scan_qr_code">Message untuk web</string>
     <string name="action_search">Telusuri</string>
     <string name="action_search_gifs">Telusuri GIF</string>
     <string name="action_search_messages">Telusuri pesan</string>
@@ -77,6 +77,7 @@
     <string name="action_viLTE_video_call">Panggilan video dengan layanan operator</string>
     <string name="action_video_call">Lakukan panggilan video</string>
     <string name="actionbar_subtitle_name_prefix">dengan %s</string>
+    <string name="active_reminder">Pengingat</string>
     <string name="active_sim_content_message">%s dipilih</string>
     <string name="activity_not_found_message">Aplikasi yang sesuai tidak dapat ditemukan</string>
     <string name="add_area_code_banner_button">Tambahkan kode area</string>
@@ -90,6 +91,7 @@
     <string name="add_contact_confirmation_dialog_title">Tambahkan ke Kontak?</string>
     <string name="add_country_code_banner_button">Tambahkan kode negara</string>
     <string name="add_more_participants_button_content_description">Tambahkan peserta lainnya</string>
+    <string name="add_reaction_content_description">Bereaksi dengan Reaksi khusus</string>
     <string name="add_reaction_for_assistant_card_rcs_fallback_text">​%1$s​ untuk kartu asisten</string>
     <string name="add_reaction_for_audio_rcs_fallback_text">​%1$s​ untuk file audio</string>
     <string name="add_reaction_for_contact_rcs_fallback_text">​%1$s​ untuk kontak</string>
@@ -97,7 +99,7 @@
     <string name="add_reaction_for_gif_rcs_fallback_text">​%1$s​ untuk GIF</string>
     <string name="add_reaction_for_link_rcs_fallback_text">​%1$s​ untuk link</string>
     <string name="add_reaction_for_photo_rcs_fallback_text">​%1$s​ untuk foto</string>
-    <string name="add_reaction_for_text_message_rcs_fallback_text">​%1$s​ untuk \"%2$s\"</string>
+    <string name="add_reaction_for_text_message_rcs_fallback_text">​%1$s​ untuk \" %2$s \"</string>
     <string name="add_reaction_for_unknown_message_type_rcs_fallback_text">​%1$s​ untuk jenis pesan yang tidak dikenal</string>
     <string name="add_reaction_for_video_rcs_fallback_text">​%1$s​ untuk video</string>
     <string name="advanced_feedback_activity_disclaimer">Konten pesan dan teks Anda, kecuali yang ada di screenshot, tidak dikirim ke Google</string>
@@ -134,14 +136,13 @@
     <string name="apn_mnc">MNC</string>
     <string name="app_name">Message</string>
     <string name="app_settings_conversation_pref_title">Setelan aplikasi</string>
-    <string name="apply_button">Terapkan</string>
     <string name="archived_activity_title">Diarsipkan</string>
     <string name="archived_conversation_list_empty_text">Arsip percakapan muncul di sini</string>
     <string name="area_code_banner_description">@string/banner_description</string>
     <string name="assistant_movies_shortcut_title">Film</string>
+    <string name="assistant_preference_summary">Tampilkan informasi yang relevan tentang restoran, film &amp; lainnya</string>
     <string name="assistant_preference_title">Saran Asisten</string>
     <string name="assistant_restaurants_shortcut_title">Restoran</string>
-    <string name="assistant_send_to_chip_default_group_name">grup</string>
     <string name="assistant_suggestions_tooltip_text">Message menampilkan saran selagi Anda melakukan percakapan di perangkat. Anda dapat mengetuk saran untuk melihat &amp; membagikan info dari Asisten Google. &lt;br/> &lt;br/> &lt;a href>Pelajari lebih lanjut&lt;/a> &amp; kelola di &lt;a href>Setelan&lt;/a></string>
     <string name="assistant_suggestions_tooltip_title_text">Dapatkan info dengan sekali ketuk</string>
     <string name="assistant_weather_shortcut_title">Cuaca</string>
@@ -157,12 +158,18 @@
     <string name="attachment_location">Lokasi</string>
     <string name="attachment_picture">Foto</string>
     <string name="attachment_preview_close_content_description">Hapus lampiran</string>
+    <string name="attachment_preview_photos_link_share_getting_link">Mendapatkan link…</string>
+    <string name="attachment_preview_photos_link_share_no_upload_needed">Telah diupload</string>
+    <string name="attachment_preview_photos_link_share_upload_size">%s diupload</string>
+    <string name="attachment_preview_photos_link_share_upload_size_failure">Tidak diketahui</string>
+    <string name="attachment_preview_photos_link_share_upload_size_placeholder">Menghitung…</string>
     <string name="attachment_unsupported_file">File tidak didukung</string>
     <string name="attachment_vcard">Kartu kontak</string>
     <string name="attachment_video">Video</string>
     <string name="audio_attachment_content_description">Lampiran audio</string>
     <string name="audio_attachment_seek_playback_description">Pemutaran audio</string>
     <string name="audio_button_view_content_description">Ketuk dua kali lalu tahan untuk merekam audio, geser ke kiri untuk membatalkan</string>
+    <string name="audio_format_type">audio</string>
     <string name="audio_pause_content_description">Jeda</string>
     <string name="audio_play_content_description">Putar lampiran audio</string>
     <string name="audio_recorder_call_in_progress">Tidak dapat merekam audio saat dalam panggilan</string>
@@ -181,6 +188,8 @@
     <string name="auto_selected_country_summary">Terdeteksi otomatis (%1$s)</string>
     <string name="automoved_spam_notification_action_dismiss">Tutup</string>
     <string name="automoved_spam_notification_action_view">Lihat</string>
+    <string name="automoved_spam_notification_content_text">Spam yang masuk dipindahkan ke “Spam &amp; diblokir”</string>
+    <string name="automoved_spam_notification_content_title">Spam terdeteksi</string>
     <string name="avatar_no_connection_msg">Tidak ada koneksi internet</string>
     <string name="avatar_promo_create">Buat</string>
     <string name="avatar_promo_see_all">Lihat Semua</string>
@@ -192,7 +201,8 @@
     <string name="birthday_banner_description">@string/banner_description</string>
     <string name="birthday_banner_dismiss_button_text">Tutup</string>
     <string name="birthday_banner_settings_button_text">Kelola di setelan</string>
-    <string name="birthday_info_text">Message membuat pengingat ulang tahun kontak Anda menggunakan hari ulang tahun yang ada di perangkat</string>
+    <string name="birthday_info_text">Pengingat ini didasarkan pada info ulang tahun dari aplikasi kontak perangkat Anda.</string>
+    <string name="birthday_info_text_with_settings">Pengingat ini didasarkan pada info ulang tahun dari aplikasi kontak perangkat Anda. &lt;a href>%1$s&lt;/a></string>
     <string name="birthday_nudge_enabled_pref_summary">Dapatkan pengingat untuk ulang tahun yang telah ditambahkan ke kontak di perangkat Anda</string>
     <string name="birthday_nudge_enabled_pref_title">Pengingat ulang tahun</string>
     <string name="block_confirmation_message_spam_folder">Anda akan tetap menerima pesan dari %1$s, tetapi tidak akan mendapatkan notifikasi lagi. Percakapan ini akan dipindahkan ke “Spam &amp; diblokir”.</string>
@@ -212,9 +222,13 @@
     <string name="boew_promo_text">Untuk mendapatkan fitur chat seperti pengiriman pesan melalui Wi‑Fi dan data, izinkan Message tetap berjalan di latar belakang</string>
     <string name="boew_promo_title">Lakukan lebih banyak dengan Message</string>
     <string name="bottomsheet_action_expand_halfway">Luaskan setengah</string>
+    <string name="bottomsheet_drag_handle_content_description">Handel geser</string>
     <string name="broadcast_receiver_notification_text_extra_info">Message sedang berjalan di latar belakang. Kirimkan laporan bug jika Anda melihat notifikasi ini selama lebih dari satu menit. Nama penerima: %1$s</string>
     <string name="broadcast_sms_text">Teks massal SMS</string>
     <string name="bubble_settings_title">Balon</string>
+    <string name="bugle_add_account_error">Gagal menambahkan akun, harap coba lagi.</string>
+    <string name="bugle_fix_it">Perbaiki</string>
+    <string name="bugle_load_account_failure">Gagal memuat akun.</string>
     <string name="bugle_notification_category_conversations">Percakapan</string>
     <string name="bugle_notification_category_default_settings">Setelan default</string>
     <string name="bugle_notification_category_reminders">Pengingat</string>
@@ -226,6 +240,8 @@
     <string name="bugle_notification_reminders_channel_name">Pengingat</string>
     <string name="bugle_notification_report_issue_channel_name">Permintaan masukan Message</string>
     <string name="bugle_notification_silent_default_channel_name">Dapatkan notifikasi saat menggunakan web</string>
+    <string name="bugle_play_services_error">Gagal saat memuat layanan Google Play.</string>
+    <string name="bugle_retry">Coba lagi</string>
     <string name="business_action_call_full_content_description">Menelepon %1$s (%2$s)</string>
     <string name="business_action_call_short_content_description">Menelepon</string>
     <string name="business_action_call_short_text_m2">Panggil</string>
@@ -287,6 +303,7 @@
     <string name="c2o_single_file_attachment_size_limit_exceed">Ukuran lampiran terlalu besar untuk dikirim. Coba kirim file yang berukuran lebih kecil dari %s.</string>
     <string name="c2o_storage_permissions_text">Ketuk untuk memberikan akses ke Media</string>
     <string name="c2o_video_button_text">Video</string>
+    <string name="calendar_badge_content_description">Badge kalender</string>
     <string name="calendar_event_added">Acara disimpan</string>
     <string name="calendar_file_content_description">File kalender</string>
     <string name="calendar_suggestion_event_chat_title">Chat Android Message</string>
@@ -297,14 +314,15 @@
     <string name="camera_attach_media">Lampirkan</string>
     <string name="camera_attach_media_description">Lampirkan ke Pesan</string>
     <string name="camera_back_switch_button">Tombol kamera belakang</string>
+    <string name="camera_capture_button_label">Ambil Foto</string>
     <string name="camera_flash_off">Flash mati</string>
     <string name="camera_flash_on">Flash hidup</string>
     <string name="camera_front_switch_button">Tombol kamera depan</string>
     <string name="camera_fullscreen_does_not_work_in_split_screen">Kamera layar penuh tidak berfungsi dengan layar terpisah</string>
     <string name="camera_gallery_screen_title">Kamera &amp; Galeri</string>
-    <string name="camera_media_attach_failure">Terjadi masalah saat menambahkan media</string>
-    <string name="camera_media_capture_failure">Terjadi masalah. Coba lagi.</string>
-    <string name="camera_photo_capture_failure">Terjadi masalah saat mengambil foto. Coba lagi.</string>
+    <string name="camera_media_attach_failure">Terjadi error saat menambahkan media</string>
+    <string name="camera_media_capture_failure">Terjadi error. Coba lagi.</string>
+    <string name="camera_photo_capture_failure">Terjadi error saat mengambil foto. Coba lagi.</string>
     <string name="camera_photo_mode_button_description">Mode foto</string>
     <string name="camera_photo_mode_button_text">Foto</string>
     <string name="camera_save_media_description">Simpan ke Galeri</string>
@@ -314,7 +332,7 @@
     <string name="camera_switch_to_still_mode">Ambil gambar diam</string>
     <string name="camera_switch_to_video_mode">Ambil video</string>
     <string name="camera_take_photo">Ambil foto</string>
-    <string name="camera_video_capture_failure">Terjadi masalah saat merekam video. Coba lagi.</string>
+    <string name="camera_video_capture_failure">Terjadi error saat merekam video. Coba lagi.</string>
     <string name="camera_video_mode_button_description">Mode video</string>
     <string name="camera_video_mode_button_text">Video</string>
     <string name="cancel_send_to_emergency_number">Edit pesan</string>
@@ -397,6 +415,11 @@ Anda dapat menonaktifkan fitur chat di setelan. %1$s"</string>
     <string name="common_google_play_services_update_text">%1$s tidak akan berjalan jika layanan Google Play tidak diperbarui.</string>
     <string name="common_google_play_services_update_title">Perbarui layanan Google Play</string>
     <string name="common_google_play_services_updating_text">%1$s tidak akan berjalan tanpa layanan Google Play, yang saat ini sedang diperbarui.</string>
+    <string name="common_google_play_services_wear_update_text">Perlu versi baru layanan Google Play. Akan segera memperbarui sendiri.</string>
+    <string name="common_open_on_phone">Buka di ponsel</string>
+    <string name="complete_photos_app_onboarding">Buka Google Foto</string>
+    <string name="complete_photos_app_onboarding_title">Untuk melanjutkan, izinkan akses Google Foto</string>
+    <string name="complete_photos_app_onboarding_to_continue">Mulai di aplikasi Google Foto</string>
     <string name="compose_message_view_hint_text">Pesan chat</string>
     <string name="compose_message_view_hint_text_multi_sim_rcs">Chat (%s)</string>
     <string name="compose_message_view_hint_text_multi_sim_sms_mms">Pesan teks (%s)</string>
@@ -418,15 +441,12 @@ Anda dapat menonaktifkan fitur chat di setelan. %1$s"</string>
     <string name="contact_has_multiple_destinations_phone">%1$s (+%2$s lainnya)</string>
     <string name="contact_has_multiple_destinations_type">Beberapa</string>
     <string name="contact_list_add_people">Tambahkan %s</string>
-    <string name="contact_list_empty_text">Masukkan nama atau nomor telepon yang dapat dihubungi untuk memulai pesan baru</string>
     <string name="contact_list_send_to_text">Kirim ke %s</string>
     <string name="contact_picker_autocomplete_added">%1$s ditambahkan, saat ini mengedit</string>
     <string name="contact_picker_autocomplete_deleted">%1$s dihapus, saat ini mengedit</string>
-    <string name="contact_picker_cant_add_destination_twice">Nomor tersebut sudah ada dalam grup</string>
     <string name="contact_picker_cant_remove_from_existing">Tidak dapat menghapus nomor dari percakapan yang sudah ada</string>
     <string name="contact_picker_cant_remove_from_screen">Untuk menghapus orang, buka &lt;b>Detail Grup&lt;/b></string>
     <string name="contact_picker_confirm_participants_button_label">Berikutnya</string>
-    <string name="contact_picker_group_create_label">Buat grup</string>
     <string name="contact_picker_group_v2_create_label">Buat grup</string>
     <string name="contact_picker_message_a_business_label">Chat dengan bisnis</string>
     <string name="contact_picker_title_add_people">Tambahkan orang</string>
@@ -449,10 +469,14 @@ Anda dapat menonaktifkan fitur chat di setelan. %1$s"</string>
     <string name="content_description_link_to_settings">Kelola di Setelan</string>
     <string name="contextual_action_bar_description_prefix">Menampilkan toolbar untuk tindakan: %s. Navigasikan ke atas untuk memilih tindakan atau menutup.</string>
     <string name="conversation_area_code_popup_paragraph">Tanpa kode area yang diketahui, Message akan mencoba mengirim ke %1$s. Tambahkan kode area kontak ini untuk pesan berikutnya. %2$s</string>
+    <string name="conversation_block_failed_message">Tidak diblokir, periksa koneksi</string>
+    <string name="conversation_blocking_message">Memblokir…</string>
     <string name="conversation_country_code_popup_paragraph">Tambahkan kode negara (+%1$s untuk %2$s) ke kontak ini sehingga pesan Anda terkirim ke orang yang tepat. %3$s</string>
     <string name="conversation_creation_failed">Gagal membuat percakapan, coba lagi nanti.</string>
     <string name="conversation_creation_failure">Tidak dapat memulai percakapan</string>
+    <string name="conversation_deleting_message">Menghapus…</string>
     <string name="conversation_deletion_failed">Tidak dapat menghapus percakapan</string>
+    <string name="conversation_deletion_failed_message">Tidak dihapus, periksa koneksi</string>
     <string name="conversation_empty_name">Kosong</string>
     <string name="conversation_label_all">Semua</string>
     <string name="conversation_label_business_updates">Bisnis</string>
@@ -479,7 +503,6 @@ Anda dapat menonaktifkan fitur chat di setelan. %1$s"</string>
     <string name="conversation_list_item_view_draft_message">Draf</string>
     <string name="conversation_list_item_view_sent_from_other_prefix">%s:</string>
     <string name="conversation_list_item_view_sent_from_you_prefix">Anda:</string>
-    <string name="conversation_list_loading_item_description">Memuat percakapan</string>
     <string name="conversation_list_message_fail_to_decrypt">Tidak dapat mendekripsi</string>
     <string name="conversation_list_rcs_promo_button_negative">Jangan Upgrade Aplikasi</string>
     <string name="conversation_list_rcs_promo_button_positive">Upgrade Sekarang</string>
@@ -491,7 +514,6 @@ Anda dapat menonaktifkan fitur chat di setelan. %1$s"</string>
     <string name="conversation_list_snippet_link">Link</string>
     <string name="conversation_list_spam_popup_negative">Kelola di Setelan</string>
     <string name="conversation_list_spam_popup_paragraph">Untuk membantu mencegah spam, Google menggunakan nomor telepon milik pengirim dan penerima yang tidak dikenal. Pesan dan kontak Anda tidak akan dikirim ke Google. %1$s</string>
-    <string name="conversation_list_spam_popup_paragraph_on_device">Message menggunakan kecerdasan pada perangkat untuk mendeteksi spam serta mengirim beberapa data tentang pesan tersebut ke Google tanpa menyertakan nomor telepon Anda atau isi pesan. %1$s</string>
     <string name="conversation_list_spam_popup_positive">Oke</string>
     <string name="conversation_list_spam_popup_title">Perlindungan spam</string>
     <string name="conversation_list_terms_and_conditions_promo_subtitle">Selesaikan pengaktifan fitur chat untuk menerima/mengirim pesan melalui Wi-Fi dan lainnya</string>
@@ -513,7 +535,8 @@ Anda dapat menonaktifkan fitur chat di setelan. %1$s"</string>
     <string name="conversation_suggestion_send_reply">Balasan yang disarankan</string>
     <string name="conversation_suggestion_set_reminder_action">Tindakan setel pengingat yang disarankan</string>
     <string name="conversation_suggestion_share_location_action">Tindakan berbagi lokasi yang disarankan</string>
-    <string name="conversation_suggestion_share_location_action_failure">Ada yang salah. Untuk berbagi lokasi Anda, tambahkan ke pesan baru.</string>
+    <string name="conversation_suggestion_share_location_action_failure">Terjadi error. Untuk berbagi lokasi Anda, tambahkan ke pesan baru.</string>
+    <string name="conversation_suggestion_star_action">Saran tindakan yang berbintang</string>
     <string name="conversation_suggestion_sticker">Stiker yang disarankan</string>
     <string name="copy">Salin</string>
     <string name="copy_to_clipboard">Salin</string>
@@ -523,6 +546,7 @@ Anda dapat menonaktifkan fitur chat di setelan. %1$s"</string>
     <string name="create_group_info_title">Menambahkan nama grup</string>
     <string name="create_new_group_message">Menambahkan orang ini akan memulai grup baru tanpa fitur chat</string>
     <string name="current_country_pref_title">Negara Anda saat ini</string>
+    <string name="custom_reaction_selection_prompt">Select an emoji</string>
     <string name="dark_mode_disable_title">Nonaktifkan mode gelap</string>
     <string name="dark_mode_enable_title">Aktifkan mode gelap</string>
     <string name="dasher_disabled_notification_body">Hubungi administrator sistem atau login dengan akun lain.</string>
@@ -590,12 +614,9 @@ Anda dapat menonaktifkan fitur chat di setelan. %1$s"</string>
     <string name="ditto_activity_label">Penyambungan perangkat</string>
     <string name="ditto_foreground_service_device_pairing_notification_text">Pesan Anda tersedia di perangkat yang telah disambungkan</string>
     <string name="ditto_foreground_service_device_pairing_notification_title">Penyambungan perangkat</string>
-    <string name="ditto_foreground_service_notification_text">Pesan Anda tersedia di komputer yang telah disambungkan</string>
-    <string name="ditto_foreground_service_notification_title">Message untuk web</string>
     <string name="ditto_foreground_service_sign_out">Lepas sambungan</string>
     <string name="ditto_persistent_notification_settings">Notifikasi</string>
     <string name="ditto_settings_action_bar_title">Notifikasi</string>
-    <string name="ditto_settings_connected_to_web_notification_description">“Message untuk web” muncul saat perangkat Anda online</string>
     <string name="ditto_settings_connected_to_web_notification_title">Tampilkan notifikasi terus-menerus</string>
     <string name="ditto_settings_device_paired_notification_description">“Penyambungan perangkat” muncul jika perangkat Anda online</string>
     <string name="ditto_settings_while_using_web_notification_description">Hentikan nada dering &amp; getaran saat perangkat Anda online</string>
@@ -606,7 +627,7 @@ Anda dapat menonaktifkan fitur chat di setelan. %1$s"</string>
     <string name="donation_donate_dialog_body_text">Tindakan ini akan mengirim %1$s dari %2$s ke Google dan pengirimannya tidak dapat diurungkan. Terima kasih telah membantu menyempurnakan Message.</string>
     <string name="donation_donate_dialog_positive_button_label">Kirim</string>
     <string name="donation_donate_dialog_title">Kirim pesan sekarang?</string>
-    <string name="donation_donate_error">Terjadi masalah saat mengirim, coba lagi nanti</string>
+    <string name="donation_donate_error">Terjadi error saat mengirim, coba lagi nanti</string>
     <string name="donation_edit_button_content_description">Edit</string>
     <string name="donation_edit_dialog_body_text">Hapus info yang tidak ingin dikirim</string>
     <string name="donation_edit_dialog_positive_button_label">Simpan</string>
@@ -619,7 +640,7 @@ Orang lain dapat meninjau pesan Anda, yang menyertakan nomor pengirim bisnis. No
     <string name="donation_no_messages_error">Tidak ada pesan</string>
     <string name="donation_notification_body">Ketuk untuk memilih, mengedit &amp; mendonasikan pesan bisnis</string>
     <string name="donation_notification_title">[Googlers] Bantu meningkatkan aplikasi Message</string>
-    <string name="donation_query_error">Terjadi masalah saat memuat, coba lagi nanti</string>
+    <string name="donation_query_error">Terjadi error saat memuat, coba lagi nanti</string>
     <string name="donation_toolbar_deselect">Hapus semua centang</string>
     <string name="donation_toolbar_select">Centang semua</string>
     <string name="done">Selesai</string>
@@ -636,6 +657,7 @@ Orang lain dapat meninjau pesan Anda, yang menyertakan nomor pengirim bisnis. No
     <string name="dump_mms_pref_title">Buang MMS</string>
     <string name="dump_sms_pref_summary">Buang data mentah SMS yang diterima ke dalam file penyimpanan eksternal</string>
     <string name="dump_sms_pref_title">Buang SMS</string>
+    <string name="duplicate_upload_snackbar">Beberapa duplikat tidak disertakan</string>
     <string name="e2ee_conversation_tombstone">Chat dienkripsi menyeluruh dengan %1$s</string>
     <string name="e2ee_conversation_tombstone_with_learn_more">Chat dienkripsi menyeluruh dengan %1$s. %2$s</string>
     <string name="e2ee_fail_to_send_retry_description">Kirim ulang sebagai chat</string>
@@ -643,7 +665,7 @@ Orang lain dapat meninjau pesan Anda, yang menyertakan nomor pengirim bisnis. No
     <string name="edit_conversation_profile_fragment_menu_save">Simpan</string>
     <string name="edit_conversation_profile_fragment_menu_skip">Lewati</string>
     <string name="edit_conversation_profile_fragment_menu_waiting_content_description">Perubahan nama sedang diproses.</string>
-    <string name="edit_group_info_rcs_failure_message">Terjadi masalah saat menghubungkan, perubahan mungkin tidak terlihat oleh semua orang.</string>
+    <string name="edit_group_info_rcs_failure_message">Terjadi error saat menghubungkan, perubahan mungkin tidak terlihat oleh semua orang.</string>
     <string name="edit_group_info_rcs_failure_try_again_button">Coba lagi</string>
     <string name="edit_group_info_title">Mengubah nama grup</string>
     <string name="edit_group_title_description">Edit nama grup</string>
@@ -674,7 +696,6 @@ Orang lain dapat meninjau pesan Anda, yang menyertakan nomor pengirim bisnis. No
 Pesan dapat kembali digunakan saat fitur chat terhubung lagi."</string>
     <string name="enable_rcs_auto_fallback_dialog_title">Kirim ulang sebagai pesan teks (SMS/MMS) secara otomatis?</string>
     <string name="enable_rcs_auto_fallback_title">Kirim ulang sebagai pesan teks (SMS/MMS) secara otomatis</string>
-    <string name="enable_rcs_fallback_to_sms_title">Kirim ulang pesan jika tidak terkirim</string>
     <string name="enable_rcs_fallback_to_xms_title">Kirim ulang pesan jika tidak terkirim</string>
     <string name="enable_rcs_summary_off">Gunakan Wi-Fi atau kuota internet untuk pengiriman pesan jika tersedia</string>
     <string name="enable_rcs_summary_on">Menggunakan koneksi internet untuk berkirim pesan jika tersedia</string>
@@ -686,9 +707,13 @@ Pesan dapat kembali digunakan saat fitur chat terhubung lagi."</string>
     <string name="enter_phone_number_title">Konfirmasi nomor telepon Anda</string>
     <string name="enter_phone_number_title_for_sim">Konfirmasikan nomor telepon untuk %1$s</string>
     <string name="enumeration_comma">", "</string>
-    <string name="error_failed_to_save_setting">Terjadi masalah saat menyimpan. Coba lagi.</string>
+    <string name="error_a11y_label">Error: invalid</string>
+    <string name="error_failed_to_save_setting">Terjadi error saat menyimpan. Coba lagi.</string>
     <string name="error_icon_content_description">Error</string>
     <string name="error_premium_sms_needs_permission">Untuk mengirim pesan ini, buka setelan perangkat dan aktifkan Akses SMS premium</string>
+    <string name="error_text_draft_is_reply_to_missing_message">Tidak dapat membalas pesan yang dihapus</string>
+    <string name="error_text_draft_is_reply_without_rcs">Terjadi error pada fitur chat. Coba balas dengan pesan teks kosong.</string>
+    <string name="error_text_scheduled_send_with_draft_reply">Tidak dapat menjadwalkan balasan saat ini</string>
     <string name="etouffee_to_rcs_notification">Message mendeteksi enkripsi menyeluruh terputus di percakapan. Ketuk untuk mengirim masukan.</string>
     <string name="etouffee_to_telephony_setting">Privasi</string>
     <string name="etouffee_to_telephony_setting_description">"Izin SMS mencakup pesan terenkripsi menyeluruh sehingga pesan tersebut dapat dicadangkan oleh Android, dibacakan dengan keras di mobil atau di perangkat pendamping, dan lainnya. Lihat dan kelola aplikasi dengan izin SMS di setelan Android.
@@ -714,19 +739,24 @@ Perubahan setelan ini tidak akan memengaruhi pesan terenkripsi menyeluruh yang s
     <string name="exo_controls_pause_description">Jeda</string>
     <string name="exo_controls_play_description">Putar</string>
     <string name="exo_controls_previous_description">Sebelumnya</string>
-    <string name="exo_controls_repeat_all_description">Ulangi semua</string>
-    <string name="exo_controls_repeat_off_description">Jangan ulangi</string>
-    <string name="exo_controls_repeat_one_description">Ulangi 1</string>
+    <string name="exo_controls_repeat_all_description">Mode saat ini: Ulang semua. Alihkan mode berulang.</string>
+    <string name="exo_controls_repeat_off_description">Mode saat ini: Tidak berulang. Alihkan mode berulang.</string>
+    <string name="exo_controls_repeat_one_description">Mode saat ini: Ulang sekali. Alihkan mode berulang.</string>
     <string name="exo_controls_rewind_description">Putar Ulang</string>
     <string name="exo_controls_show">Menampilkan kontrol pemutar</string>
-    <string name="exo_controls_shuffle_off_description">Acak tidak aktif</string>
-    <string name="exo_controls_shuffle_on_description">Acak aktif</string>
+    <string name="exo_controls_shuffle_off_description">Aktifkan mode acak</string>
+    <string name="exo_controls_shuffle_on_description">Nonaktifkan mode acak</string>
     <string name="exo_controls_vr_description">Mode VR</string>
     <string name="exo_track_selection_auto">Otomatis</string>
     <string name="exo_track_selection_none">Tidak ada</string>
     <string name="expand_attach_button_content_description">Tombol luaskan lampiran</string>
     <string name="expand_button_title">Lanjutan</string>
     <string name="exposed_dropdown_menu_content_description">Tampilkan menu dropdown</string>
+    <string name="express_sign_in_illustration_content_description">Ilustrasi fitur berbagi media</string>
+    <string name="express_sign_in_sub_title">"Pertahankan kualitas video Anda yang tajam jika Anda
+login dan mengirimkan link Google Foto."</string>
+    <string name="express_sign_in_title">"Bagikan video dengan kualitas
+yang sama"</string>
     <string name="fail_to_decrypt_message_metadata">Tidak dapat mendekripsi, ketuk untuk melihat opsi</string>
     <string name="fail_to_load_dialog_negative_button">Pesan teks dengan SIM perangkat</string>
     <string name="fail_to_load_dialog_positive_button">Coba lagi</string>
@@ -738,8 +768,9 @@ Perubahan setelan ini tidak akan memengaruhi pesan terenkripsi menyeluruh yang s
     <string name="failed_loading_vcard">Tidak dapat memuat kartu kontak</string>
     <string name="failed_message">Gagal</string>
     <string name="failed_message_content_description">Pesan gagal. Ketuk untuk mencoba lagi.</string>
-    <string name="failed_qr_pairing_dialog_message">Terjadi kesalahan. Coba lagi dalam beberapa menit.</string>
+    <string name="failed_qr_pairing_dialog_message">Terjadi error. Coba lagi dalam beberapa menit.</string>
     <string name="failed_qr_pairing_dialog_positive_button_text">Oke</string>
+    <string name="failed_to_select_attachment_from_system_picker">Gagal memilih lampiran ini</string>
     <string name="fast_track_negative_button_text">Tidak</string>
     <string name="fast_track_popup_accepted_snack_bar_text">Menyiapkan fitur chat. Kami akan memberi tahu Anda saat fitur sudah siap.</string>
     <string name="fast_track_popup_declined_snack_bar_text">Anda dapat mengaktifkan fitur chat kapan saja di Setelan.</string>
@@ -805,6 +836,9 @@ Perubahan setelan ini tidak akan memengaruhi pesan terenkripsi menyeluruh yang s
     <string name="fi_settings_download_over_wifi_title">Sinkronkan media hanya melalui Wi-Fi</string>
     <string name="fi_settings_opt_out_failed">Tidak dapat menghentikan sinkronisasi &amp; logout sekarang juga. Coba lagi nanti.</string>
     <string name="fi_settings_opt_out_in_progress">Menghentikan sinkronisasi dan logout</string>
+    <string name="fi_settings_redirect_button">Kelola cadangan</string>
+    <string name="fi_settings_redirect_summary">Temukan setelan ini di menu akun</string>
+    <string name="fi_settings_redirect_title">Setelan pencadangan dan sinkronisasi telah dipindahkan</string>
     <string name="fi_settings_sync_preference_backup_in_progress">Pencadangan sedang berlangsung: %1$d%%</string>
     <string name="fi_settings_sync_preference_restore_in_progress">Pemulihan sedang berlangsung: %1$d%%</string>
     <string name="fi_settings_sync_preference_summary">Pesan, panggilan telepon &amp; pesan suara tetap diperbarui di semua layar</string>
@@ -822,6 +856,7 @@ Perubahan setelan ini tidak akan memengaruhi pesan terenkripsi menyeluruh yang s
     <string name="file_transfer_via_sms_other">Saya telah berbagi file dengan Anda</string>
     <string name="file_transfer_via_sms_video">Saya telah berbagi video dengan Anda</string>
     <string name="files_shortcut_title">File</string>
+    <string name="flip_camera_button_label">Balik Kamera</string>
     <string name="floating_toolbar_close_overflow_description">Tutup toolbar mengambang tambahan</string>
     <string name="floating_toolbar_open_overflow_description">Opsi lain</string>
     <string name="foreground_service_notification_generic_text">Message sedang memproses di latar belakang</string>
@@ -835,12 +870,27 @@ Perubahan setelan ini tidak akan memengaruhi pesan terenkripsi menyeluruh yang s
     <string name="full_banner_expand_chip_description">Tombol meluaskan chip</string>
     <string name="full_screen_gallery_action_attach">Tambahkan</string>
     <string name="fullscreen_button_description">Buka layar penuh</string>
+    <string name="gaia_auth_failure_dialog_body">Beberapa fitur yang didukung oleh Akun Google Anda tidak akan berfungsi sampai Anda login</string>
+    <string name="gaia_auth_failure_dialog_title">Untuk memverifikasi diri Anda, login kembali</string>
+    <string name="gallery_google_photos_option_tray_button_add">Tambahkan</string>
+    <string name="gallery_google_photos_option_tray_button_always">Selalu</string>
+    <string name="gallery_google_photos_option_tray_button_cancel">Batal</string>
+    <string name="gallery_google_photos_option_tray_button_just_once">Sekali ini saja</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_image">Gambar beresolusi lebih rendah</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_unknown">Media berkualitas rendah</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_video">Video berkualitas rendah</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_image">Gambar</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_unknown">Media</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_video">Video</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_body">Kualitas yang tinggi. Kelola link bersama di Google Foto.</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_learn_more">Pelajari lebih lanjut</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_title">Link Google Foto</string>
+    <string name="gallery_item_content_description_selected_state">Batalkan pilihan %1$s ini yang ada di posisi %2$s dengan mengetuk dua kali</string>
+    <string name="gallery_item_content_description_unselected_state">Pilih %1$s ini yang diambil pada %2$s dengan ketuk dua kali</string>
     <string name="general_settings">Umum</string>
     <string name="general_settings_activity_title">Setelan umum</string>
     <string name="general_settings_title_m2">Opsi</string>
     <string name="generic_issue_text">Lainnya</string>
-    <string name="get_messenger_notification_body">Baca dan kirim SMS dari jam tangan atau ponsel</string>
-    <string name="get_messenger_notification_header">Dapatkan Message</string>
     <string name="get_sticker_packs_error_msg">Gagal memuat stiker.</string>
     <string name="gif_screen_no_result">Tidak ditemukan kecocokan. Periksa penelusuran Anda dan coba lagi.</string>
     <string name="gif_screen_title">GIF</string>
@@ -848,10 +898,23 @@ Perubahan setelan ini tidak akan memengaruhi pesan terenkripsi menyeluruh yang s
     <string name="gif_search_hint">Telusuri GIF</string>
     <string name="gifs_shortcut_title">GIF</string>
     <string name="go_to_top">Lihat yang terbaru</string>
-    <string name="google_account_pref_title">Akun Google</string>
     <string name="google_assistant_verification_channel_name">Pemverifikasi Asisten</string>
     <string name="google_assistant_verification_notification_title">Pesan pengiriman Asisten Google</string>
     <string name="google_fi_text">Google Fi</string>
+    <string name="google_photos_onboarding_close_button_description">Tutup kartu Google Foto</string>
+    <string name="google_photos_onboarding_ineligible_title">Login ke Google Foto untuk mengirim video beresolusi tinggi</string>
+    <string name="google_photos_onboarding_ineligible_title_photos_and_videos">Login ke Google Foto untuk mengirim foto &amp; video beresolusi tinggi</string>
+    <string name="google_photos_onboarding_learn_more">Pelajari lebih lanjut</string>
+    <string name="google_photos_onboarding_next">Berikutnya</string>
+    <string name="google_photos_onboarding_ok">Oke</string>
+    <string name="google_photos_onboarding_signed_in_title_photos_and_videos">Login untuk mengirim foto &amp; video beresolusi tinggi</string>
+    <string name="google_photos_onboarding_signed_out_title">Login untuk mengirim video beresolusi tinggi</string>
+    <string name="google_photos_onboarding_text_body">Pertahankan resolusi tinggi video saat Anda mengirim link Google Foto melalui percakapan MMS</string>
+    <string name="google_photos_onboarding_text_body_photos_and_videos_xms">Pertahankan resolusi tinggi media saat Anda mengirim link Google Foto melalui percakapan MMS</string>
+    <string name="google_photos_onboarding_title">Bagikan video dengan kualitas yang sama</string>
+    <string name="google_photos_onboarding_title_photos_and_videos">Bagikan foto &amp; video dengan kualitas yang sama</string>
+    <string name="google_photos_option_tray">Login untuk mengirim video berkualitas lebih tinggi</string>
+    <string name="google_photos_option_tray_photos_and_videos">Login untuk mengirim foto &amp; video beresolusi tinggi</string>
     <string name="google_play_protect_title">Google Play Protect</string>
     <string name="google_tos_chat_features_tooltip">"Lihat saat seseorang mengetik, dapatkan tanda dibaca, dan kirim pesan, file &amp; foto resolusi tinggi dengan fitur chat melalui Rich Communication Services (RCS). Pengiriman pesan ini menggunakan data.
 
@@ -865,8 +928,9 @@ Anda dapat menonaktifkannya di setelan. %1$s"</string>
 
 Anda dapat mengubah SIM panggilan telepon default di setelan Sistem. %1$s"</string>
     <string name="google_tos_multisim_view_accessibility_description">Pelajari lebih lanjut</string>
+    <string name="google_tos_negative_link_text">Lain kali</string>
     <string name="group_conversation_title_everyone_else_left">Saya</string>
-    <string name="group_limit_alert_dialog_message">{max_group_size_including_self,plural, =1{Tidak dapat berisi lebih dari # orang}other{Tidak dapat berisi lebih dari # orang}}</string>
+    <string name="group_limit_alert_dialog_message">{max_group_size_excluding_self,plural, =1{Tidak dapat berisi lebih dari # orang lainnya}other{Tidak dapat berisi lebih dari # orang lainnya}}</string>
     <string name="group_mms_pref_title">Pesan grup</string>
     <string name="group_name_edit_text_label">Nama grup</string>
     <string name="guest_cloud_preview">PRATINJAU</string>
@@ -876,14 +940,19 @@ Anda dapat mengubah SIM panggilan telepon default di setelan Sistem. %1$s"</stri
     <string name="happy_birthday_no_name">Ucapkan Selamat Ulang Tahun.</string>
     <string name="hidden_sender_address">Alamat pengirim tersembunyi</string>
     <string name="highlighter">Stabilo</string>
+    <string name="how_it_works_link_text">Cara kerjanya</string>
+    <string name="hqms_always_send_image_as_link_pref_title">Selalu kirim gambar dengan link dalam pesan teks (SMS/MMS)</string>
+    <string name="hqms_always_send_video_as_link_pref_title">Selalu kirim video dengan link dalam pesan teks (SMS/MMS)</string>
+    <string name="hqms_settings_gaia_card_text">Kelola link di Google Foto</string>
+    <string name="hqms_settings_info_text">Message akan mengupload video ke Google Foto, tempat Anda dapat mengelola pembagian link video. %1$s</string>
+    <string name="hqms_settings_sign_in_prompt_text">Login ke Akun Google Anda untuk menggunakan fitur ini</string>
     <string name="hqms_settings_summary">Bagikan video berkualitas tinggi dalam pesan teks (SMS/MMS)</string>
     <string name="hqms_settings_title">Google Foto</string>
     <string name="identity_verification_notification_text">Message sedang memverifikasi pesan masuk</string>
     <string name="ignore">Abaikan</string>
     <string name="image_attachment_content_description">Lampiran gambar</string>
     <string name="image_compress_info">Penerima akan melihat kualitas gambar yang lebih rendah karena adanya pembatasan MMS dari operator</string>
-    <string name="imei_format_dropdown_hint">Setel Format IMEI</string>
-    <string name="imsi_format_dropdown_hint">Setel Format IMSI</string>
+    <string name="image_format_type">gambar</string>
     <string name="in_conversation_blocked_contact_text">Anda mungkin tidak melihat semua pesan karena percakapan ini berisi kontak yang diblokir.</string>
     <string name="in_conversation_notify_new_message_action">Lihat</string>
     <string name="in_conversation_notify_new_message_text">Pesan baru</string>
@@ -893,7 +962,7 @@ Anda dapat mengubah SIM panggilan telepon default di setelan Sistem. %1$s"</stri
     <string name="incoming_message_for_secondary_user_notification_title">Pesan baru</string>
     <string name="incoming_message_foreground_notification_text">Message sedang memproses pesan masuk</string>
     <string name="incoming_mms_disabled_by_company_pref_summary">Perusahaan Anda tidak mengizinkan pesan MMS masuk</string>
-    <string name="indeterminate">Tidak dicentang atau dihapus centangnya</string>
+    <string name="indeterminate">Diperiksa sebagian</string>
     <string name="info_and_options_activity_business_tab_list_header">Bisnis</string>
     <string name="info_and_options_activity_info_tab_content_description">Informasi</string>
     <string name="info_and_options_activity_info_tab_title">Info</string>
@@ -904,6 +973,9 @@ Anda dapat mengubah SIM panggilan telepon default di setelan Sistem. %1$s"</stri
     <string name="info_and_options_view_terms_of_service">Lihat Persyaratan Layanan</string>
     <string name="inline_playback_error">Tidak dapat memutar video ini di Message</string>
     <string name="inline_playback_pause_content_description">Jeda video</string>
+    <string name="install_photos_app">Dapatkan Google Foto</string>
+    <string name="install_photos_app_title">Untuk melanjutkan, dapatkan aplikasi Google Foto</string>
+    <string name="install_photos_app_to_continue">Instal aplikasi untuk mengirim video berkualitas tinggi</string>
     <string name="invalid_qr_code_dialog_message">Untuk login, pindai kode QR di %s</string>
     <string name="invalid_qr_code_dialog_positive_button_text">OK</string>
     <string name="invalid_qr_code_dialog_title">Kode salah</string>
@@ -917,14 +989,12 @@ Anda dapat mengubah SIM panggilan telepon default di setelan Sistem. %1$s"</stri
     <string name="leave_confirmation_text">Yakin ingin berhenti menerima pesan dari grup ini?</string>
     <string name="leave_confirmation_title">Keluar dari Grup secara Permanen</string>
     <string name="libraries_material_featurehighlight_dismiss">Tutup</string>
-    <string name="link_preview_enabled_pref_summary">Tampilkan pratinjau dalam pesan</string>
+    <string name="lighter_account_sign_out_snackbar_text">Login untuk melihat percakapan bisnis Anda</string>
+    <string name="lighter_block_report_spam_body">Nama bisnis dan percakapan Anda dengan bisnis ini dikirim ke Google (biaya operator mungkin berlaku).</string>
     <string name="link_preview_enabled_pref_summary_off">Nonaktif</string>
     <string name="link_preview_failed">Pratinjau tidak tersedia</string>
     <string name="link_preview_google_photos_display_name">Google Foto</string>
-    <string name="link_preview_preference_info_text">Google mendapatkan konten pratinjau dari situs yang ditautkan. Hanya link dari pengirim dikenal yang menyertakan pratinjau. %1$s</string>
-    <string name="link_preview_preference_title">Pratinjau link otomatis</string>
     <string name="link_preview_tap_to_load">Ketuk untuk memuat pratinjau</string>
-    <string name="link_preview_wifi_only_pref_summary">Hanya download pratinjau melalui Wi-Fi</string>
     <string name="link_to_settings"><u>Kelola di Setelan</u></string>
     <string name="listify_many">%1$s dan %2$d lainnya</string>
     <string name="listify_one">%s</string>
@@ -971,13 +1041,13 @@ Info yang direkomendasikan bersifat opsional untuk dibagikan dan tidak mencakup 
     <string name="manual_msisdn_skipped_snack_bar_text">Fitur chat lanjutan belum diaktifkan. Aktifkan kapan saja di setelan.</string>
     <string name="manual_msisdn_skipped_snack_bar_text_b155475148">Message akan mencoba memverifikasi nomor Anda dengan operator. Kelola di Setelan.</string>
     <string name="manual_msisdn_verify_now_snack_bar_text_b155475148">Message akan mencoba memverifikasi nomor Anda dengan operator. Kelola di Setelan.</string>
-    <string name="manually_override_rcs_flags">Ganti Tanda RCS secara manual</string>
     <string name="mark_all_messages_as_read_confirmation">Semua pesan ditandai sebagai telah dibaca</string>
     <string name="mdd_download_notification_channel_name">Saluran Notifikasi Download Data</string>
     <string name="mdd_foreground_service_notification_title">Mendownload</string>
     <string name="mdd_notification_action_cancel">Batal</string>
     <string name="mdd_notification_download_failed">Download gagal</string>
     <string name="mdd_notification_download_paused">Menunggu koneksi internet</string>
+    <string name="mdd_notification_download_paused_wifi">Menunggu koneksi Wi-Fi</string>
     <string name="media_compress_info">Penerima akan melihat kualitas media yang lebih rendah karena adanya pembatasan MMS dari operator</string>
     <string name="media_compress_tooltip_info_icon_text">info</string>
     <string name="media_viewer_close_button_description">Tutup</string>
@@ -1076,6 +1146,8 @@ Info yang direkomendasikan bersifat opsional untuk dibagikan dan tidak mencakup 
     <string name="message_type_vcard">Kartu kontak</string>
     <string name="message_type_video">Video</string>
     <string name="message_video_content_description">Video</string>
+    <string name="message_with_deleted_snippet_talk_back_announcement">%1$s untuk merespons pesan yang dihapus</string>
+    <string name="message_with_reply_snippet_talk_back_announcement">%1$s untuk merespons %2$s dari %3$s</string>
     <string name="messages_for_web_preference_summary">Buka %1$s</string>
     <string name="messages_for_web_preference_title">Mengirim SMS, melakukan panggilan &amp; memeriksa pesan suara di web</string>
     <string name="messages_status_feedback_data_description">"Semua info yang direkomendasikan berguna dalam mengungkap masalah tersembunyi, berbagai penyebab, bagaimana masalah tersebut terkait, dan tempat untuk memecahkan masalah.
@@ -1129,11 +1201,15 @@ Anda dapat membalas kode singkat yang hanya berisi angka, tetapi tidak dapat mem
     <string name="mms_text">MMS</string>
     <string name="more_string">+%1$d</string>
     <string name="mtrl_badge_numberless_content_description">Notifikasi baru</string>
+    <string name="mtrl_checkbox_state_description_checked">Checked</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Indeterminate</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Not checked</string>
     <string name="mtrl_chip_close_icon_content_description">Menghapus %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Lebih dari %1$d notifikasi baru</string>
     <string name="mtrl_picker_a11y_next_month">Ubah ke bulan berikutnya</string>
     <string name="mtrl_picker_a11y_prev_month">Ubah ke bulan sebelumnya</string>
     <string name="mtrl_picker_announce_current_selection">Pilihan saat ini: %1$s</string>
+    <string name="mtrl_picker_cancel">Batal</string>
     <string name="mtrl_picker_confirm">Oke</string>
     <string name="mtrl_picker_day_of_week_column_header">Kolom hari: %1$s</string>
     <string name="mtrl_picker_navigate_to_year_description">Buka tahun %1$s</string>
@@ -1145,11 +1221,24 @@ Anda dapat membalas kode singkat yang hanya berisi angka, tetapi tidak dapat mem
     <string name="multimedia_message">Pesan multimedia</string>
     <string name="muted_conversation_content_description">Notifikasi dimatikan.</string>
     <string name="nav_app_bar_navigate_up_description">Kembali ke atas</string>
-    <string name="navigate_up_button_content_description">Navigasi naik</string>
+    <string name="nav_archived_messages_folder_title">Diarsipkan</string>
+    <string name="nav_choose_theme_title">Pilih tema</string>
+    <string name="nav_choose_theme_title_disable_dark_mode">Nonaktifkan mode gelap</string>
+    <string name="nav_choose_theme_title_enable_dark_mode">Aktifkan mode gelap</string>
+    <string name="nav_device_pairing_title">Penyambungan perangkat</string>
+    <string name="nav_mark_all_as_read_title">Tandai semua telah dibaca</string>
+    <string name="nav_messages_folder_title">Pesan</string>
+    <string name="nav_spam_and_blocked_messages_folder_title">Spam &amp; diblokir</string>
+    <string name="nav_starred_folder_title">Berbintang</string>
+    <string name="navigate_up_button_content_description">Navigasi ke atas</string>
     <string name="new_message_label">{count,plural, =1{1 pesan baru}other{# pesan baru}}</string>
     <string name="new_pill_label">Baru</string>
     <string name="new_rich_cards_preference_info_text">Google memindai info tertentu (seperti tempat atau link) dari histori chat Anda, tanpa mengidentifikasi Anda, untuk membuat semua pratinjau dan mengidentifikasi konten berbahaya. %1$s</string>
-    <string name="no_google_account">Tidak Ada</string>
+    <string name="no_business_name_fallback">bisnis ini</string>
+    <string name="no_connection">Tidak ada koneksi</string>
+    <string name="no_media_button">Lihat opsi</string>
+    <string name="no_media_caption">Coba sumber media atau profil lainnya</string>
+    <string name="no_media_description">Tidak ada media yang disimpan di perangkat untuk profil ini</string>
     <string name="no_reply_pinned_message_text">Pengirim tidak mendukung balasan</string>
     <string name="no_sim_message">Tidak ada pesan di kartu SIM</string>
     <string name="not_selected">Tidak dipilih</string>
@@ -1205,31 +1294,51 @@ Anda dapat membalas kode singkat yang hanya berisi angka, tetapi tidak dapat mem
     <string name="nudge_learn_more_info_text">Info selengkapnya tentang saran tindak lanjut</string>
     <string name="nudge_reply_enabled_pref_summary">Pesan yang mungkin memerlukan balasan dari Anda akan dipindahkan ke bagian teratas</string>
     <string name="nudge_reply_enabled_pref_title">Sarankan pengingat untuk membalas pesan</string>
+    <string name="nudge_settings_page_description">Tampilkan pengingat untuk membalas pesan dan ulang tahun</string>
     <string name="nudge_settings_page_title">Saran tindak lanjut</string>
     <string name="numeric_text_keyboard_toggle_button_content_description">Beralih antara memasukkan teks dan angka</string>
     <string name="off">Nonaktif</string>
     <string name="og_a11y_close">Tutup</string>
     <string name="og_account_and_settings">Akun dan setelan.</string>
+    <string name="og_account_particle_disc_no_accounts_available_a11y">Login</string>
     <string name="og_add_another_account">Tambahkan akun lainnya</string>
+    <string name="og_app_settings">Setelan %1$s</string>
     <string name="og_choose_an_account_title">Pilih akun</string>
     <string name="og_collapse_account_list_a11y">Ciutkan daftar akun.</string>
     <string name="og_continue">Lanjutkan</string>
     <string name="og_continue_as">Lanjutkan sebagai %1$s</string>
     <string name="og_expand_account_list_a11y">Luaskan daftar akun.</string>
+    <string name="og_get_storage_action">Dapatkan penyimpanan</string>
+    <string name="og_get_storage_action_short">Beli lebih banyak</string>
     <string name="og_google_one_account_a11y">Akun Google One.</string>
+    <string name="og_help_feedback">Bantuan &amp; masukan</string>
     <string name="og_loading_a11y">Memuat</string>
     <string name="og_manage_accounts">Kelola akun di perangkat ini</string>
+    <string name="og_manage_storage_action">Kelola penyimpanan</string>
+    <string name="og_manage_storage_action_short">Kelola</string>
+    <string name="og_minimized_storage_card_title">Penyimpanan yang digunakan: %1$s dari %2$s GB</string>
+    <string name="og_more_options_action">Opsi lainnya</string>
+    <string name="og_more_options_action_short">Opsi</string>
     <string name="og_my_account_desc_long_length">Kelola Akun Google Anda</string>
     <string name="og_my_account_desc_meduim_length">Akun Google</string>
     <string name="og_my_account_desc_short_length">Akun</string>
+    <string name="og_privacy_advisor">Data Anda di %1$s</string>
     <string name="og_privacy_policy">Kebijakan Privasi</string>
     <string name="og_selected_account_a11y">%1$s dipilih.</string>
     <string name="og_sign_in_">Login</string>
     <string name="og_signed_in_as_account">Login sebagai %1$s</string>
+    <string name="og_storage_card_almost_full_a11y_label">Penyimpanan akun Anda hampir penuh</string>
+    <string name="og_storage_card_full_a11y_label">Penyimpanan akun Anda penuh</string>
+    <string name="og_storage_card_title">Penyimpanan akun</string>
+    <string name="og_storage_card_title_almost_full">%1$s penyimpanan digunakan</string>
+    <string name="og_storage_card_title_full">Penyimpanan habis</string>
+    <string name="og_storage_progress_subtitle">%1$s GB dari %2$s GB telah digunakan</string>
     <string name="og_terms_of_service">Persyaratan Layanan</string>
     <string name="og_use_account_a11y_no_period">Gunakan %1$s</string>
+    <string name="og_use_without_an_account">Gunakan tanpa akun</string>
     <string name="on">Aktif</string>
     <string name="onboarding_google_tos_with_sms_charges_and_learn_more">Untuk mengaktifkan fitur chat dari Google, Anda harus menyetujui %1$s dan %2$s. Google akan memverifikasi nomor Anda secara berkala dengan bertukar info perangkat dengan operator Anda (dapat dikenakan biaya SMS). %3$s.</string>
+    <string name="open_full_screen_camera_button_label">Buka Kamera Layar Penuh</string>
     <string name="open_video_trimmer_dialog_negative">Batal</string>
     <string name="open_video_trimmer_dialog_positive">Pangkas</string>
     <string name="organization">Organisasi</string>
@@ -1243,8 +1352,6 @@ Anda dapat membalas kode singkat yang hanya berisi angka, tetapi tidak dapat mem
     <string name="otp_auto_deletion_promo_banner_positive_button_text">Lanjutkan</string>
     <string name="otp_auto_deletion_promo_banner_title_text">Hapus otomatis OTP setelah 24 jam?</string>
     <string name="otp_copied_to_clipboard">Kode disalin</string>
-    <string name="otp_pattern_dropdown_hint">Setel Pola OTP</string>
-    <string name="otp_port_dropdown_hint">Setel Port OTP</string>
     <string name="outgoing_message_foreground_notification_text">Message sedang memproses pesan keluar</string>
     <string name="outgoing_mms_disabled_by_carrier_pref_summary">Operator Anda tidak mengizinkan pesan MMS keluar</string>
     <string name="outgoing_mms_disabled_by_company_pref_summary">Perusahaan Anda tidak mengizinkan pesan MMS keluar</string>
@@ -1270,6 +1377,7 @@ Anda dapat membalas kode singkat yang hanya berisi angka, tetapi tidak dapat mem
     <string name="paired_desktops_last_connection_time">Terakhir aktif: %s</string>
     <string name="paired_desktops_last_connection_time_unknown">tidak diketahui</string>
     <string name="participant_joined_group">%s bergabung ke grup ini</string>
+    <string name="participant_joined_with_learn_more">%1$s bergabung ke grup ini. %2$s</string>
     <string name="participant_left_group">%s keluar dari grup ini</string>
     <string name="participant_list_add">Tambahkan orang</string>
     <string name="participant_list_count_title_icu">{count,plural, =0{0 orang lainnya}=1{1 orang lainnya}other{# orang lainnya}}</string>
@@ -1289,8 +1397,9 @@ Anda dapat membalas kode singkat yang hanya berisi angka, tetapi tidak dapat mem
     <string name="phone_number_input_body_for_mo_text">Atau lewati untuk mendapatkan fitur chat di lain waktu dan Message akan mencoba memverifikasi nomor Anda dengan operator Anda</string>
     <string name="phone_number_input_body_text">Untuk memastikan Anda mendapatkan fitur chat, Message akan memverifikasi nomor Anda</string>
     <string name="phone_number_input_hint">Nomor telepon</string>
+    <string name="phone_number_input_invalid_number_text">Nomor telepon tidak valid</string>
     <string name="phone_number_input_negative_button_for_mo_text">Lewati dulu</string>
-    <string name="phone_number_input_negative_button_for_mt_text">Ingatkan nanti</string>
+    <string name="phone_number_input_negative_button_for_mt_text">Nanti saja</string>
     <string name="phone_number_input_positive_button_text">Tambahkan nomor</string>
     <string name="phone_number_input_streamlined_body_for_mo_text">Bagikan foto, video, dan banyak lagi melalui Wi-Fi atau data seluler. Untuk mendapatkan fitur chat lebih cepat, tambahkan nomor Anda sekarang. Atau lewati langkah ini dan biarkan Message mencoba untuk menemukan dan memverifikasi nomor Anda.</string>
     <string name="phone_number_input_streamlined_body_text">Bagikan foto, video, dan banyak lagi melalui Wi-Fi atau data seluler. Untuk mendapatkan fitur chat, tambahkan nomor Anda sekarang.</string>
@@ -1305,10 +1414,25 @@ Anda dapat membalas kode singkat yang hanya berisi angka, tetapi tidak dapat mem
     <string name="phone_number_input_title_text">Untuk mendapatkan fitur chat lebih cepat, tambahkan nomor Anda sekarang</string>
     <string name="phone_number_input_tos_reminder_text">Anda sebelumnya telah menyetujui %1$s untuk fitur chat</string>
     <string name="phone_number_input_tos_text">Persyaratan Layanan</string>
+    <string name="phone_number_promo_banner_body_text">Untuk mengirim video berkualitas tinggi, animasi reaksi, dan item lainnya melalui Wi-Fi atau data seluler, konfirmasikan nomor telepon Anda</string>
+    <string name="phone_number_promo_banner_negative_button_text">Tutup</string>
+    <string name="phone_number_promo_banner_positive_button_text">Berikutnya</string>
+    <string name="phone_number_promo_banner_title_text">Langkah berikutnya untuk menggunakan fitur Message yang lebih baik</string>
+    <string name="phone_number_promo_body_text">Mulai sekarang dengan nomor telepon terverifikasi Anda. Kelola fitur chat kapan saja di setelan</string>
+    <string name="phone_number_promo_body_text_mo">Mulai sekarang dengan nomor telepon terverifikasi Anda. Atau lewati untuk mendapatkan fitur chat di lain waktu dan Message akan mencoba memverifikasi nomor Anda.</string>
+    <string name="phone_number_promo_negative_button_text">Nanti saja</string>
+    <string name="phone_number_promo_negative_button_text_mo">Lewati dulu</string>
+    <string name="phone_number_promo_positive_button_text">Dapatkan fitur chat</string>
+    <string name="phone_number_promo_title_text">Siap berbagi foto, video, dan item lainnya melalui Wi-Fi atau data?</string>
+    <string name="phone_number_ui_accepted_snackbar_text">Anda akan menerima notifikasi setelah fitur chat tersedia</string>
+    <string name="phone_number_ui_dismissed_snackbar_action_text">Setelan</string>
+    <string name="phone_number_ui_dismissed_snackbar_text">Untuk mendapatkan fitur chat sekarang, tambahkan nomor telepon Anda atau kelola di setelan</string>
     <string name="photo_taken">Foto diambil</string>
+    <string name="photos_app_installation_required">Untuk mengirim video berkualitas tinggi, dapatkan aplikasi Google Foto</string>
+    <string name="photos_app_onboarding_required">Untuk mengirim video berkualitas tinggi, izinkan akses Google Foto</string>
+    <string name="photos_app_sharing_unavailable_try_again_later">Link video berkualitas tinggi untuk sementara tidak tersedia. Video berkualitas rendah siap dikirim.</string>
+    <string name="photos_app_sign_in_required">Untuk mengirim video berkualitas tinggi, login ke Google Foto</string>
     <string name="picker_disambiguation_title">Pilih tujuan</string>
-    <string name="pin_limit_message">Anda dapat menyematkan maksimal %1$d percakapan</string>
-    <string name="pin_success_message">%1$d dari %2$d percakapan telah disematkan</string>
     <string name="pinch_zoom_pref_title">Cubit untuk memperbesar teks percakapan</string>
     <string name="places_autocomplete_clear_button">Hapus penelusuran</string>
     <string name="places_autocomplete_label">Pilih tempat</string>
@@ -1328,7 +1452,7 @@ Anda dapat membalas kode singkat yang hanya berisi angka, tetapi tidak dapat mem
     <string name="posted_this_year">%1$s%2$s%3$s</string>
     <string name="posted_yesterday">Kemarin%1$s%2$s</string>
     <string name="preference_copied">\"%1$s\" disalin ke papan klip.</string>
-    <string name="preferences_license_title">Lisensi open source</string>
+    <string name="preferences_license_title">Pemberitahuan Pihak Ketiga</string>
     <string name="premium_sms_banner_body">Untuk mengirim ke %s dan nomor SMS Premium lainnya, aktifkan fitur ini di Setelan.</string>
     <string name="premium_sms_banner_body_saved_contact">Untuk mengirim ke %1$s (%2$s) dan nomor SMS Premium lainnya, aktifkan fitur ini di Setelan.</string>
     <string name="premium_sms_banner_description">@string/banner_description</string>
@@ -1359,17 +1483,18 @@ Info tentang pesan dan percakapan Anda menyertakan nomor telepon dan email pengi
 Info ini membantu memvalidasi asumsi dan mengidentifikasi faktor yang berkontribusi terhadap masalah guna memahami masalah dengan lebih cepat dan efisien."</string>
     <string name="problematic_message_feedback_data_rationale_title">Bagaimana info tentang pesan &amp; percakapan Anda dapat membantu</string>
     <string name="promotion_content_description">Pesan ini termasuk kategori penawaran</string>
+    <string name="prompt_button_action_not_now">Lain kali</string>
+    <string name="prompt_button_action_sign_in">Login</string>
     <string name="proxy_screen_clear_search">Hapus penelusuran</string>
     <string name="proxy_screen_search">Telusuri</string>
     <string name="qr_action_bar_device_pairing_title">Penyambungan perangkat</string>
-    <string name="qr_action_bar_title">Message untuk web</string>
     <string name="qr_code_scanner_hint_text">Pindai kode QR yang ada di&lt;br/><b>%s</b></string>
     <string name="qr_code_scanner_preference_button">Pemindai kode QR</string>
     <string name="qr_delete_all_paired_desktops_button_text">Lepas sambungan semua perangkat</string>
     <string name="qr_simplified_welcome_banner_url_text">Buka <b>%s</b> di perangkat Anda</string>
     <string name="qr_success_text_view">Anda sudah siap!</string>
     <string name="qr_welcome_banner_url_text">Kirim &amp; terima pesan di perangkat Anda</string>
-    <string name="qr_welcome_bottom_text">Pertama, sambungkan perangkat dengan ponsel dengan memindai kode QR yang ada di %s</string>
+    <string name="qr_welcome_bottom_text">Pertama, sambungkan perangkat ke ponsel dengan memindai kode QR yang ada di %s</string>
     <string name="qr_welcome_button_text">Pemindai kode QR</string>
     <string name="qr_welcome_footer_text">"Dengan melanjutkan, Anda menyetujui 
 %1$s dan %2$s Google"</string>
@@ -1377,6 +1502,8 @@ Info ini membantu memvalidasi asumsi dan mengidentifikasi faktor yang berkontrib
     <string name="qr_welcome_privacy">Kebijakan Privasi</string>
     <string name="qr_welcome_terms_of_service">Persyaratan Layanan</string>
     <string name="rbm_block_confirmation_message_spam_folder">Anda tidak akan lagi menerima notifikasi jika ada pesan dari %1$s. Percakapan ini akan dipindahkan ke “Spam &amp; diblokir”. %2$s</string>
+    <string name="rbm_block_dialog_body">Anda tidak akan menerima pesan dari pengirim ini. Percakapan ini akan dipindahkan ke “Spam &amp; diblokir”, yang pemblokirannya dapat Anda hentikan kapan saja.</string>
+    <string name="rbm_block_dialog_positive_button_label">Blokir</string>
     <string name="rbm_business_logo_icon_content_description">Ikon Logo Bisnis</string>
     <string name="rbm_platform_generalized_verifier_title">Diverifikasi oleh %s</string>
     <string name="rbm_platform_verified_by_google">Diverifikasi oleh Google</string>
@@ -1396,6 +1523,7 @@ Info ini membantu memvalidasi asumsi dan mengidentifikasi faktor yang berkontrib
     <string name="rcs_learn_more_title">%1$s fitur chat</string>
     <string name="rcs_learn_more_title_with_no_link">Pelajari fitur chat lebih lanjut</string>
     <string name="rcs_message">Pesan Layanan Komunikasi Kaya (RCS)</string>
+    <string name="rcs_message_failed_recipient_lost_encryption_content_description">Tidak dapat dikirim, ketuk untuk melihat opsi</string>
     <string name="rcs_message_failed_recipient_lost_rcs_content_description">Tidak dapat dikirim, ketuk untuk melihat opsi</string>
     <string name="rcs_mobile_data_auto_download_carrier_format_entry">Default (%1$s)</string>
     <string name="rcs_mobile_data_auto_download_limit_disable_entry_text">Nonaktifkan</string>
@@ -1478,11 +1606,12 @@ Info ini membantu memvalidasi asumsi dan mengidentifikasi faktor yang berkontrib
     <string name="reaction_surprised_content_description">Wajah dengan mulut terbuka</string>
     <string name="reactions_promo_announcement">Tekan lama untuk memberi reaksi</string>
     <string name="reactions_promo_text">Sentuh lama untuk memberi reaksi</string>
-    <string name="read_external_storage_permission_description">Akses ke penyimpanan ponsel diperlukan agar dapat melihat isi galeri langsung dari sini.</string>
+    <string name="read_media_storage_permission_description">Untuk melihat isi galeri langsung dari sini, Anda memerlukan akses ke penyimpanan media ponsel.</string>
     <string name="received_label">Diterima:</string>
     <string name="recipient_hint">Ketik nama, nomor telepon, atau email</string>
     <string name="recipient_label">Kepada</string>
     <string name="recipient_offline_description">Tunggu sampai %s online…</string>
+    <string name="reminder_badge_content_description">Badge pengingat</string>
     <string name="reminder_datetime_picker_dialog_delete_button">Hapus</string>
     <string name="reminder_datetime_picker_dialog_menu_title_add">Setel pengingat</string>
     <string name="reminder_datetime_picker_dialog_menu_title_update">Perbarui pengingat</string>
@@ -1503,7 +1632,7 @@ Info ini membantu memvalidasi asumsi dan mengidentifikasi faktor yang berkontrib
     <string name="reminder_suggestions_tooltip_text">Ketuk dan pilih waktu untuk menindaklanjuti di lain waktu. Nonaktifkan saran di &lt;a href>Setelan&lt;/a></string>
     <string name="reminder_suggestions_tooltip_title_text">Setel pengingat</string>
     <string name="reminders_banner_body">%1$s: %2$s</string>
-    <string name="reminders_banner_description">@string/banner_description</string>
+    <string name="reminders_banner_description">Reminder conversation banner</string>
     <string name="reminders_banner_done_button">Selesai</string>
     <string name="reminders_banner_remind_button">Ingatkan 1 jam</string>
     <string name="reminders_banner_self_sender_name">Anda</string>
@@ -1516,7 +1645,7 @@ Info ini membantu memvalidasi asumsi dan mengidentifikasi faktor yang berkontrib
     <string name="remove_reaction_from_gif_rcs_fallback_text">‌%1$s‌ dihapus dari GIF</string>
     <string name="remove_reaction_from_link_rcs_fallback_text">‌%1$s‌ dihapus dari link</string>
     <string name="remove_reaction_from_photo_rcs_fallback_text">‌%1$s‌ dihapus dari foto</string>
-    <string name="remove_reaction_from_text_message_rcs_fallback_text">‌%1$s‌ dihapus dari \"%2$s\"</string>
+    <string name="remove_reaction_from_text_message_rcs_fallback_text">‌%1$s‌ dihapus dari \" %2$s \"</string>
     <string name="remove_reaction_from_unknown_message_type_rcs_fallback_text">‌%1$s‌ dihapus dari jenis pesan yang tidak dikenal</string>
     <string name="remove_reaction_from_video_rcs_fallback_text">‌%1$s‌ dihapus dari video</string>
     <string name="remove_user_dialog_cancel">Batal</string>
@@ -1525,14 +1654,17 @@ Info ini membantu memvalidasi asumsi dan mengidentifikasi faktor yang berkontrib
     <string name="rename_group_title_m2">Nama grup</string>
     <string name="reply_activity_title">Balas</string>
     <string name="reply_button_label">Balas</string>
-    <string name="reply_icon_content_description">Balas pesan</string>
+    <string name="reply_icon_content_description">Balas</string>
     <string name="report_contact_title">Laporkan spam</string>
     <string name="report_failed_rcs_group_creation">Terjadi masalah sehingga satu atau beberapa peserta tidak ditambahkan.</string>
     <string name="report_group_spam_body_spam_folder">Nomor dan SMS terbaru dari anggota grup lainnya akan masuk ke Google untuk ditinjau dan mungkin ke operator Anda (dapat dikenakan biaya). Percakapan ini akan tetap ada dalam “Spam &amp; diblokir”, tanpa notifikasi. %1$s</string>
+    <string name="report_invalid_thread_id_issue_description">ID rangkaian pesan tidak valid. Lihat log untuk mengetahui detailnya.</string>
     <string name="report_issue_action_text">Kirim masukan</string>
+    <string name="report_issue_description">Message mendeteksi error secara otomatis. Lihat log untuk mengetahui detailnya.</string>
     <string name="report_issue_notification_text">Message mendeteksi error. Ketuk untuk mengirim masukan.</string>
     <string name="report_not_spam_snackbar_message">%1$s dilaporkan sebagai bukan spam</string>
     <string name="report_person_delivered">%1$s Diterima pada: %2$s</string>
+    <string name="report_person_ftd">%1$s Gagal mendekripsi: %2$s</string>
     <string name="report_person_read">%1$s Dibaca pada: %2$s</string>
     <string name="report_person_sent">%s belum menerima pesan</string>
     <string name="report_receive_issue_notification_message">Android tidak dapat menerima pesan yang dikirim kepada Anda. Ketuk untuk mengirim masukan.</string>
@@ -1544,7 +1676,8 @@ Info ini membantu memvalidasi asumsi dan mengidentifikasi faktor yang berkontrib
     <string name="report_spam_checkbox_title">Laporkan spam</string>
     <string name="report_spam_snackbar_message">%1$s dilaporkan sebagai spam</string>
     <string name="report_spam_toast_title">Spam dilaporkan</string>
-    <string name="report_telephone_db_recreation_message">Terjadi masalah saat mengambil pesan. Ketuk untuk mengirim masukan.</string>
+    <string name="report_telephone_db_recreation_message">Terjadi error saat mengambil pesan. Ketuk untuk mengirim masukan.</string>
+    <string name="report_thread_id_not_found_description">ID rangkaian pesan tidak ada. Lihat log untuk mengetahui detailnya.</string>
     <string name="required_permissions_no_promptable_promo">Ubah izin di setelan aplikasi perangkat. Beri Message akses ke SMS, Telepon, dan Kontak.</string>
     <string name="required_permissions_no_promptable_title">Berikan Akses</string>
     <string name="required_permissions_promptable_promo">Untuk menyelesaikan penyiapan aplikasi default, izinkan Message melihat SMS, Telepon, dan Kontak Anda</string>
@@ -1564,6 +1697,11 @@ Info ini membantu memvalidasi asumsi dan mengidentifikasi faktor yang berkontrib
     <string name="samsung_setting_search_title">Setelan Message</string>
     <string name="save">Simpan</string>
     <string name="save_attachment">Simpan</string>
+    <string name="save_banner_body">Simpan ulang tahun ini di aplikasi kontak Anda dan Message akan mengingatkan Anda tahun depan</string>
+    <string name="save_banner_positive_button">Simpan ulang tahun</string>
+    <string name="save_banner_title_name">Ingat ulang tahun %1$s</string>
+    <string name="save_banner_title_no_name">Ingat ulang tahunnya</string>
+    <string name="save_birthday_banner_description">@string/banner_description</string>
     <string name="save_otp_confirm_button">Simpan OTP</string>
     <string name="save_otp_dialog_message">OTP ini akan disimpan sementara OTP yang lain akan terus dihapus otomatis setelah 24 jam. Kelola di setelan.</string>
     <string name="save_otp_dialog_title">Simpan OTP ini?</string>
@@ -1582,6 +1720,7 @@ Info ini membantu memvalidasi asumsi dan mengidentifikasi faktor yang berkontrib
     <string name="scheduled_send_announcement_scheduling_failed">Penjadwalan pesan gagal.</string>
     <string name="scheduled_send_announcement_scheduling_started">Menjadwalkan pesan.</string>
     <string name="scheduled_send_announcement_scheduling_succeeded">Pesan dijadwalkan.</string>
+    <string name="scheduled_send_badge_content_description">Badge kirim terjadwal</string>
     <string name="scheduled_send_compose_label_close_content_description">Hapus penjadwalan.</string>
     <string name="scheduled_send_datetime_picker_subtitle">Untuk mengirim, tetap aktifkan ponsel dan hubungkan ke Wi-Fi atau data</string>
     <string name="scheduled_send_datetime_picker_title">Jadwalkan pengiriman (%1$s)</string>
@@ -1609,6 +1748,7 @@ Info ini membantu memvalidasi asumsi dan mengidentifikasi faktor yang berkontrib
     <string name="security_key_top_level_title">Verifikasi enkripsi</string>
     <string name="see_gallery">Lihat galeri</string>
     <string name="selected">Dipilih</string>
+    <string name="selection_position_text">%1$d</string>
     <string name="self_left_group_conversation_failed">Gagal keluar dari grup, coba lagi nanti.</string>
     <string name="self_participant_reaction_name">Anda</string>
     <string name="self_person_name">Anda</string>
@@ -1633,16 +1773,16 @@ Nomor telepon Anda hanya digunakan untuk memecahkan masalah dan mengatasi masala
     <string name="send_button_sms_content_description">Kirim SMS</string>
     <string name="send_button_xms_long_click_content_description">Ubah subjek dan status penting</string>
     <string name="send_encrypted_button_content_description">Kirim pesan dengan enkripsi menyeluruh</string>
-    <string name="send_error_check_prepaid_balance">Terjadi masalah saat mengirim. Jika Anda memiliki paket prabayar, periksa saldo rekening Anda.</string>
+    <string name="send_error_check_prepaid_balance">Terjadi error saat mengirim. Jika Anda memiliki paket prabayar, periksa saldo rekening Anda.</string>
     <string name="send_error_contact_carrier">Tidak dapat mengirim. Hubungi operator.</string>
     <string name="send_error_contact_manufacturer">Tidak dapat mengirim. Hubungi produsen perangkat.</string>
     <string name="send_error_network_error">Tidak dapat mengirim. Ada masalah dengan jaringan.</string>
-    <string name="send_error_network_error_or_check_prepaid_balance">Terjadi masalah saat mengirim. Periksa jaringan atau saldo rekening jika Anda memiliki paket prabayar.</string>
+    <string name="send_error_network_error_or_check_prepaid_balance">Terjadi error saat mengirim. Periksa jaringan atau saldo rekening jika Anda memiliki paket prabayar.</string>
     <string name="send_error_recipient_blocked_or_unable">Tidak dapat mengirim. Penerima ini tidak dapat menerima pesan Anda.</string>
-    <string name="send_error_recipient_has_too_many_unread_messages">Terjadi masalah saat mengirim. Penerima ini memiliki pesan belum dibaca yang terlalu banyak.</string>
+    <string name="send_error_recipient_has_too_many_unread_messages">Terjadi error saat mengirim. Penerima ini memiliki pesan belum dibaca yang terlalu banyak.</string>
     <string name="send_error_recipient_not_confirmed">Tidak dapat mengirim. Nomor telepon penerima ini tidak dapat dikonfirmasi.</string>
     <string name="send_error_recipient_not_confirmed_or_changed">Tidak dapat mengirim. Nomor telepon penerima ini tidak dapat dikonfirmasi atau mungkin telah berubah.</string>
-    <string name="send_error_recipient_unreachable">Terjadi masalah saat mengirim. Saat ini operator tidak dapat menjangkau penerima ini.</string>
+    <string name="send_error_recipient_unreachable">Terjadi error saat mengirim. Saat ini operator tidak dapat menjangkau penerima ini.</string>
     <string name="send_message_failure">Pesan tidak dapat dikirim</string>
     <string name="send_message_failure_airplane_mode">Anda berada dalam mode pesawat. Anda mungkin dapat mengirim pesan setelah menonaktifkannya.</string>
     <string name="send_message_failure_no_data">Data seluler dinonaktifkan. Harap periksa setelan Anda.</string>
@@ -1658,7 +1798,6 @@ Nomor telepon Anda hanya digunakan untuk memecahkan masalah dan mengatasi masala
     <string name="sending_timeout_failure_dialog_title">Pesan tidak terkirim</string>
     <string name="sent_label">Dikirim:</string>
     <string name="set_message_priority_description">Setel status penting</string>
-    <string name="set_rcs_flags">Atur Tanda RCS</string>
     <string name="set_rcs_mobile_data_auto_download_limit_title">Download otomatis file yang Anda terima menggunakan kuota internet</string>
     <string name="setting_fast_track_body_with_cost">Dengan melanjutkan, Anda menyetujui %1$s dan %2$s. Untuk pengiriman pesan berbasis nomor telepon, Google dapat memverifikasi nomor Anda secara berkala dengan bertukar info perangkat dengan operator Anda atau melalui SMS (mungkin dikenakan biaya). Anda dapat menonaktifkan fitur chat dari Setelan. %3$s</string>
     <string name="settings_activity_title">Setelan</string>
@@ -1681,6 +1820,13 @@ Nomor telepon Anda hanya digunakan untuk memecahkan masalah dan mengatasi masala
     <string name="shortcuts_screen_title">Pintasan</string>
     <string name="show_sms_link_warning_change_label">Ubah</string>
     <string name="show_sms_link_warning_text">Lampiran akan dikirim sebagai pesan SMS yang menyertakan link ke lampiran tersebut</string>
+    <string name="sign_in_app_name_without_account">Gunakan %1$s tanpa akun</string>
+    <string name="sign_in_cancel">Batal</string>
+    <string name="sign_in_without_account">Gunakan tanpa akun</string>
+    <string name="sign_in_without_account_short">Tanpa akun</string>
+    <string name="sign_into_photos_app">Login</string>
+    <string name="sign_into_photos_app_title">Untuk melanjutkan, login ke Google Foto</string>
+    <string name="sign_into_photos_app_with_x_to_continue">Anda sedang mengirim dari %1$s</string>
     <string name="signature_banner_description">@string/banner_description</string>
     <string name="silent_ringtone">Senyap</string>
     <string name="sim_label">SIM:</string>
@@ -1699,9 +1845,13 @@ Nomor telepon Anda hanya digunakan untuk memecahkan masalah dan mengatasi masala
     <string name="sim_storage_full_title">Penyimpanan kartu SIM penuh</string>
     <string name="sim_storage_pref_title">Pesan di kartu SIM</string>
     <string name="simple_fail_to_decrypt_message_dialog_body">Untuk mendekripsi pesan berikutnya, coba update aplikasi Message</string>
+    <string name="smart_action_settings_page_description">Tampilkan pintasan yang relevan untuk kalender, penelusuran GIF, berbagi lokasi &amp; lainnya</string>
+    <string name="smart_action_settings_page_title">Tindakan</string>
+    <string name="smart_actions_preference_summary_shortcuts">Tampilkan pintasan yang relevan ke kalender, penelusuran GIF, berbagi lokasi &amp; lainnya</string>
     <string name="smart_actions_preference_title">Tindakan yang disarankan</string>
     <string name="smart_compose_preference_summary">Tampilkan saran penulisan prediktif</string>
     <string name="smart_compose_preference_title">Smart Compose</string>
+    <string name="smart_reply_preference_summary">Tampilkan opsi balasan chat</string>
     <string name="smarts_preference_info_text">Smart Reply dan tindakan yang disarankan hanya dapat dilihat oleh Anda sampai Anda mengetuk &amp; membagikannya. &lt;br/> &lt;br/> Saran berbeda-beda sesuai dengan percakapan Anda dan dihasilkan di perangkat. %1$s</string>
     <string name="smarts_preference_info_text_with_assistant">Smart Reply, tindakan yang disarankan, dan saran Asisten dihasilkan dengan inteligensi pada perangkat oleh Message. &lt;br/> &lt;br/>Saran tidak akan dibagikan ke Google atau siapa pun sampai diketuk. &lt;br/> &lt;br/> Jika Anda mengizinkan Message mengakses lokasi perangkat, Anda akan melihat lebih banyak saran lokal. %1$s</string>
     <string name="smarts_settings_page_summary">Smart Reply, tindakan yang disarankan, &amp; lainnya</string>
@@ -1728,19 +1878,18 @@ Balasan akan muncul dalam percakapan individual"</string>
     <string name="snackbar_text_label_rcs_group_created_too_large">{max_group_size_including_self,plural, =1{Tidak dapat berisi lebih dari # orang}other{Tidak dapat berisi lebih dari # orang}}</string>
     <string name="snackbar_text_label_rcs_group_self_only">Grup ini kosong. Tambahkan orang ke grup ini sebelum mengirimkan pesan di chat ini.</string>
     <string name="snippet">%1$s: %2$s</string>
-    <string name="snippet_assistant_card_text">Kartu bantuan</string>
-    <string name="snippet_attachment_icon_content_description">Ikon lampiran cuplikan balasan</string>
     <string name="snippet_audio_attachment_text">Audio</string>
     <string name="snippet_deleted_message_text">Pesan dihapus</string>
-    <string name="snippet_dismiss_icon_content_description">Ikon tutup balasan</string>
+    <string name="snippet_dismiss_icon_content_description">Hapus</string>
     <string name="snippet_file_attachment_text">File</string>
     <string name="snippet_from_you">Anda: %s</string>
-    <string name="snippet_image_attachment_text">Gambar</string>
-    <string name="snippet_media_thumbnail_content_description">Thumbnail media cuplikan balasan</string>
+    <string name="snippet_image_attachment_text">Foto</string>
     <string name="snippet_self_participant_header">Anda</string>
     <string name="snippet_video_attachment_text">Video</string>
     <string name="soft_num_key_pad_backspace_content_description">Backspace</string>
     <string name="someone_added_participant">%1$s menambahkan %2$s ke grup ini</string>
+    <string name="someone_added_participant_with_learn_more">%1$s menambahkan %2$s ke grup ini. %3$s</string>
+    <string name="someone_else_created_encrypted_rcs_group">%1$s membuat chat grup dengan %2$s. %3$s</string>
     <string name="someone_else_created_mms_group">%1$s membuat grup MMS dengan %2$s</string>
     <string name="someone_else_created_rcs_group">%1$s membuat chat grup dengan %2$s</string>
     <string name="someone_joined_group">Seseorang bergabung dengan grup ini</string>
@@ -1764,7 +1913,6 @@ Balasan akan muncul dalam percakapan individual"</string>
     <string name="spam_dialog_title_spam_folder">Laporkan spam?</string>
     <string name="spam_folder_activity_title">Spam &amp; diblokir</string>
     <string name="spam_folder_conversation_list_empty_text_v2">Spam dan percakapan yang diblokir akan muncul di sini</string>
-    <string name="spam_preference_info_text_on_device">Message menggunakan kecerdasan pada perangkat untuk mendeteksi spam serta mengirim beberapa data tentang pesan tersebut ke Google tanpa menyertakan nomor telepon Anda atau isi pesan. %1$s</string>
     <string name="spam_protection_consent_string">Untuk membantu mendeteksi spam, Message mengirimkan beberapa data tentang pesan Anda ke Google tanpa menyertakan nomor telepon atau isi pesan. %1$s</string>
     <string name="spam_reporting_from">Pelaporan spam</string>
     <string name="spam_settings">Perlindungan spam</string>
@@ -1773,6 +1921,8 @@ Balasan akan muncul dalam percakapan individual"</string>
     <string name="split_view_pref_title">Tampilan detail daftar</string>
     <string name="stacked_banner_count_text">1 dari %1$d</string>
     <string name="star_badge_content_description">Badge bintang</string>
+    <string name="star_badge_menu_remove_action">Hapus</string>
+    <string name="star_badge_menu_view_all_action">Lihat semua</string>
     <string name="star_badge_on_click_snackbar_action">Urungkan</string>
     <string name="star_badge_on_click_snackbar_message">Bintang dihapus</string>
     <string name="sticker_content_description">Stiker %s</string>
@@ -1809,10 +1959,12 @@ Balasan akan muncul dalam percakapan individual"</string>
     <string name="subject_with_label">Subjek: %1$s</string>
     <string name="subject_with_urgent_label">[PENTING] %1$s</string>
     <string name="success_message_format">%1$s %2$s %3$s %4$s %5$s %6$s.</string>
+    <string name="success_message_self_sender">Anda mengatakan %1$s %2$s %3$s %4$s.</string>
     <string name="success_message_self_sender_format_with_multiple_attachments">Anda mengirim beberapa lampiran %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_self_sender_format_with_single_attachment">Anda mengirim lampiran %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_specified_sender_format_with_multiple_attachments">%1$s mengirim beberapa lampiran %2$s %3$s %4$s %5$s %6$s.</string>
     <string name="success_message_specified_sender_format_with_single_attachment">%1$s mengirim lampiran %2$s %3$s %4$s %5$s %6$s.</string>
+    <string name="success_message_unspecified_sender">Pengirim mengatakan %1$s %2$s %3$s %4$s.</string>
     <string name="success_message_unspecified_sender_format_with_multiple_attachments">Pengirim mengirim beberapa lampiran %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_unspecified_sender_format_with_single_attachment">Pengirim mengirim lampiran %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_sent_to_message_format">Dikirim ke %1$s %2$s %3$s %4$s.</string>
@@ -1821,10 +1973,18 @@ Balasan akan muncul dalam percakapan individual"</string>
     <string name="sud_back_button_label">Kembali</string>
     <string name="sud_more_button_label">Lainnya</string>
     <string name="sud_next_button_label">Berikutnya</string>
-    <string name="suggested_stickers_preference_summary">Tampilkan stiker yang disarankan</string>
+    <string name="suggested_stickers_preference_summary">Tampilkan opsi balasan stiker</string>
     <string name="suggested_stickers_preference_title">Stiker yang disarankan</string>
+    <string name="suggestion_shortcut_dialog_body_text">Bintangi pesan, buat jadwal saat ini juga, serta banyak hal lainnya, dengan pintasan cepat dan mudah.</string>
+    <string name="suggestion_shortcut_dialog_positive_button">Oke</string>
+    <string name="suggestion_shortcut_dialog_subsection_body_text">Pintasan dibuat berdasarkan saran berbagai hal, seperti nomor telepon dan tanggal. %1$s</string>
+    <string name="suggestion_shortcut_dialog_subsection_title_text">Cara kerja</string>
+    <string name="suggestion_shortcut_dialog_title">Saran pintasan untuk melakukan banyak hal dengan cepat</string>
+    <string name="suggestion_shortcut_search_title">Telusuri</string>
+    <string name="suggestion_shortcut_star_toolstone">Mulai pesan dan temukan dengan mudah di %1$s</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_notification_inbox_style_summary_text">+%d lainnya</string>
+    <string name="super_sort_pref_title">Pengelolaan pesan</string>
     <string name="super_sort_settings_title">Pengelolaan pesan</string>
     <string name="supersort_conversation_list_empty_text_business_update">Info terbaru bisnis akan otomatis muncul di sini</string>
     <string name="supersort_conversation_list_empty_text_manage_in_settings">Kelola di Setelan</string>
@@ -1887,6 +2047,11 @@ Temukan percakapan apa pun di Semua"</string>
     <string name="survey_user_agent">Agen-Pengguna</string>
     <string name="survey_very_dissatisfied">Sangat tidak puas</string>
     <string name="survey_very_satisfied">Sangat puas</string>
+    <string name="swipe_actions">Tindakan geser</string>
+    <string name="swipe_actions_summary">Pilih Arsipkan atau Hapus, ke kanan atau kiri, atau nonaktifkan tindakan geser</string>
+    <string name="swipe_customize">Sesuaikan</string>
+    <string name="swipe_left">Geser ke kiri</string>
+    <string name="swipe_right">Geser ke kanan</string>
     <string name="switcher_no_phone_number">Kartu SIM tidak ditemukan</string>
     <string name="switcher_pair_device_title_text">Kirim pesan teks dengan ponsel yang terhubung</string>
     <string name="switcher_positive_button_text">Lanjutkan</string>
@@ -1894,6 +2059,7 @@ Temukan percakapan apa pun di Semua"</string>
     <string name="switcher_use_device_sim_number">(%s)</string>
     <string name="switcher_use_device_sim_title_text">Kirim pesan teks dengan SIM perangkat ini</string>
     <string name="syncing_with_device_foreground_notification_text">Message sedang disinkronkan dengan perangkat</string>
+    <string name="system_picker_button_label">Folder</string>
     <string name="t_mobile_tos_pref_link_text">Persyaratan dan Ketentuan</string>
     <string name="t_mobile_tos_pref_text">Fitur chat dari Google didukung oleh T-Mobile. Lihat %1$s.</string>
     <string name="t_mobile_tos_pref_url">https://www.t-mobile.com/responsibility/legal/terms-and-conditions</string>
@@ -1918,6 +2084,7 @@ Setelan > %1$s"</string>
     <string name="theme_setting_dialog_options_light_mode">Cerah</string>
     <string name="theme_setting_dialog_options_system_default_mode">Default sistem</string>
     <string name="theme_setting_dialog_title">Pilih tema</string>
+    <string name="tiktok_account_login_failure">Gagal login ke akun yang dipilih.</string>
     <string name="tiktok_add_account_error">Gagal menambahkan akun, harap coba lagi.</string>
     <string name="tiktok_fix_it">Perbaiki</string>
     <string name="tiktok_load_account_failure">Gagal memuat akun.</string>
@@ -1943,6 +2110,18 @@ Hanya Anda yang bisa melihat nama ini"</string>
     <string name="tombstone_self_removed_from_group_referrer_known">%1$s menghapus Anda dari grup ini</string>
     <string name="tombstone_self_removing_others_from_group">Anda menghapus %1$s dari grup ini</string>
     <string name="tombstone_show_link_previews">Pratinjau link aktif &lt;br /> Pelajari lebih lanjut atau matikan di &lt;u> Setelan &lt;/u>.</string>
+    <string name="tombstone_show_link_previews_disabled">Pratinjau link tidak aktif.&lt;br />Pelajari lebih lanjut atau aktifkan di &lt;u>Setelan&lt;/u>.</string>
+    <string name="tooltip_content">"Akun Google Anda mendukung
+berbagai fitur seperti berbagi link
+Google Foto di Message tanpa perlu
+mengakses percakapan Anda.
+
+Message tetap mengirim pesan
+dari nomor telepon Anda. Pelajari lebih lanjut"</string>
+    <string name="tooltip_content_with_line_break_fix">"Akun Google Anda mendukung fitur seperti berbagi link Google Foto di Message tanpa mengakses percakapan.
+
+Pesan tetap dikirim dari nomor telepon Anda. Pelajari lebih lanjut"</string>
+    <string name="tooltip_link">Pelajari lebih lanjut</string>
     <string name="top_contacts_grid_name">★</string>
     <string name="top_contacts_title">Kontak teratas</string>
     <string name="transaction_content_description">Pesan ini termasuk kategori transaksi</string>
@@ -1952,6 +2131,7 @@ Hanya Anda yang bisa melihat nama ini"</string>
     <string name="unblock_and_report_not_spam_snackbar_message">%1$s dibatalkan pemblokirannya &amp; dilaporkan sebagai bukan spam</string>
     <string name="unblock_banner_body">Untuk mengeluarkan percakapan ini dari Diarsipkan dan menerima pesan lagi, berhenti memblokir %s</string>
     <string name="unblock_banner_body_spam_folder">Untuk mengeluarkan percakapan ini dari “Spam &amp; diblokir” dan menerima pesan lagi, berhenti memblokir %s</string>
+    <string name="unblock_banner_body_v2">Unblock to receive messages from this sender</string>
     <string name="unblock_banner_description">@string/banner_description</string>
     <string name="unblock_banner_positive_button">Berhenti memblokir</string>
     <string name="unblock_banner_title">Diblokir</string>
@@ -1987,6 +2167,7 @@ Nomor telepon hanya digunakan untuk memecahkan masalah dan mengatasi masalah. Go
     <string name="unsent">Tidak Terkirim</string>
     <string name="unspam_banner_body">Untuk mengeluarkan percakapan ini dari Diarsipkan dan menerima notifikasi lagi, laporkan %s sebagai bukan spam</string>
     <string name="unspam_banner_body_spam_folder">Untuk mengeluarkan percakapan ini dari “Spam &amp; diblokir” serta menerima notifikasi lagi, laporkan %s sebagai bukan spam</string>
+    <string name="unspam_banner_body_v2">Report as not spam to receive messages from this sender</string>
     <string name="unspam_banner_description">@string/banner_description</string>
     <string name="unspam_banner_end_button">Bukan spam</string>
     <string name="unspam_banner_title">Dilaporkan sebagai spam</string>
@@ -2002,6 +2183,8 @@ Nomor telepon hanya digunakan untuk memecahkan masalah dan mengatasi masalah. Go
     <string name="unsupported_file_save_alert">Simpan lampiran ke Download?</string>
     <string name="unsupported_file_save_cancel">Batal</string>
     <string name="unverified_sms_banner_description">@string/banner_description</string>
+    <string name="unwanted_messages_toolstone_link">blokir &amp; laporkan</string>
+    <string name="unwanted_messages_toolstone_text">Untuk pesan yang tidak diinginkan, %1$s</string>
     <string name="upcoming_reminder">Pengingat terjadwal</string>
     <string name="update_content_description">Pesan ini termasuk kategori info terbaru</string>
     <string name="update_donation_banner_body_v2">Identitas Anda akan tetap bersifat pribadi dan Anda dapat menghapus isi pesan</string>
@@ -2044,6 +2227,7 @@ Nomor telepon hanya digunakan untuk memecahkan masalah dan mengatasi masalah. Go
     <string name="video_attachment_content_description">Lampiran video</string>
     <string name="video_attachment_limit_exceeded_when_sending">Anda hanya dapat mengirim satu video per pesan. Hapus video tambahan dan coba lagi.</string>
     <string name="video_compress_info">Penerima akan melihat kualitas video yang lebih rendah karena adanya pembatasan MMS dari operator</string>
+    <string name="video_format_type">video</string>
     <string name="video_media_failure">Untuk membuat video, cobalah rekam lebih lama</string>
     <string name="video_taken">Video diambil</string>
     <string name="video_thumbnail_view_play_button_content_description">Putar video</string>
@@ -2090,19 +2274,20 @@ Gunakan pertimbangan terbaik dengan isi pesan ini."</string>
     <string name="websiteTypeWork">Kantor</string>
     <string name="welcome_agree_button_text">Setuju</string>
     <string name="welcome_chat_features_decline">Gunakan Message tanpa fitur chat</string>
-    <string name="welcome_chat_features_learn_more">Pelajari fitur chat lebih lanjut</string>
     <string name="welcome_chat_features_legal">Dengan menggunakan fitur chat, Anda menyetujui %1$s dan %2$s. Google akan memverifikasi nomor Anda secara berkala dengan operator Anda (dapat dikenakan biaya SMS).</string>
+    <string name="welcome_chat_features_text">"· Kirim melalui Wi-Fi atau data seluler
+· Bagikan file &amp; media Anda
+· Jaga privasi pesan Anda"</string>
     <string name="welcome_chat_features_title">Chat yang lebih cepat, lebih kaya, dan berkualitas tinggi melalui Wi-Fi atau data</string>
+    <string name="welcome_chat_features_title_experiment_0">Lakukan lebih banyak hal dengan Message</string>
+    <string name="welcome_chat_features_title_experiment_1">Lakukan lebih banyak hal dengan fitur chat di Message</string>
     <string name="welcome_consent_button_text">Berikutnya</string>
-    <string name="welcome_finish_button_text">Selesai</string>
     <string name="welcome_smarts_notice_description">"Sederhanakan chat Anda dengan fitur seperti Google Assistant dan Smart Reply. Chat Anda tetap aman di perangkat Anda.
 %1$s dan %2$s"</string>
     <string name="welcome_smarts_notice_title">Fitur smart dan membantu</string>
     <string name="welcome_spam_description">"Untuk membantu mencegah spam, Google menggunakan nomor telepon yang bukan kontak Anda, tanpa mengidentifikasi Anda atau nomor Anda.
 %1$s dan %2$s"</string>
     <string name="welcome_spam_title">Perlindungan spam</string>
-    <string name="welcome_splash_tagline">"Pesan sederhana, smart
-oleh Google"</string>
     <string name="widget_reply_exit_content_description">Kembali</string>
     <string name="widget_reply_open">BUKA MESSAGE</string>
     <string name="widget_reply_to">Balas ke %s</string>
@@ -2110,9 +2295,14 @@ oleh Google"</string>
     <string name="work_directory_display_name">Kontak Profil Kerja</string>
     <string name="xms_send_mode_pref_title">Hanya kirim pesan SMS dan MMS</string>
     <string name="you_added_participant">Anda menambahkan %s ke grup ini</string>
+    <string name="you_added_participant_with_learn_more">Anda menambahkan %1$s ke grup ini. %2$s</string>
+    <string name="you_created_encrypted_rcs_group">Anda membuat chat grup ini dengan %1$s. %2$s</string>
     <string name="you_created_mms_group">Anda membuat grup MMS dengan %s</string>
     <string name="you_created_rcs_group">Anda membuat chat grup ini dengan %s</string>
     <string name="you_left_group">Anda keluar dari grup ini</string>
+    <string name="youtube_dismissal_prompt">Ketuk dan tarik untuk menutup</string>
+    <string name="youtube_drag_prompt">Tarik untuk memindahkan pemutar</string>
+    <string name="youtube_pip_playing">Video sedang diputar</string>
     <string name="zero_connectivity_failure_announcement">Pesan tidak dikirim</string>
     <string name="zero_state_search_action_copy">Salin</string>
     <string name="zero_state_search_action_jump_to_chat">Lihat di chat</string>
@@ -2132,6 +2322,7 @@ oleh Google"</string>
     <string name="zero_state_search_details_image_accessibility">Gambar dikirim oleh %1$s pada tanggal %2$s</string>
     <string name="zero_state_search_details_video_accessibility">Video dikirim oleh %1$s pada tanggal %2$s</string>
     <string name="zero_state_search_dropdown_free_text">Telusuri \"%s\"</string>
+    <string name="zero_state_search_empty_results_text">Media, link, dan pesan berbintang dari percakapan ini akan muncul di sini</string>
     <string name="zero_state_search_images">Gambar</string>
     <string name="zero_state_search_link_copied">Link disalin</string>
     <string name="zero_state_search_links">Link</string>

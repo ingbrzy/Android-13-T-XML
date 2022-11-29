@@ -92,9 +92,7 @@
     <string name="accessibility_switch_to_oem_minus_one_button">Go to %1$s</string>
     <string name="accessibility_voice_search_button">Voice Search</string>
     <string name="accessibility_voice_search_visual_aid_text">Speak into the phone to ask me something.</string>
-    <string name="account_item">Switch to %1$s</string>
     <string name="account_item_default">Switch account</string>
-    <string name="account_list">Account list</string>
     <string name="account_loading">Loading…</string>
     <string name="account_particle_disc_description">Open account menu</string>
     <string name="acessibility_recurrence_choose_end_date_description">change end date</string>
@@ -164,7 +162,6 @@
     <string name="ad_badge">Ad</string>
     <string name="ad_badge_text">Ad</string>
     <string name="ad_dismiss_survey_skip">Skip</string>
-    <string name="add_account">Add account</string>
     <string name="add_button_content_description">Add</string>
     <string name="add_custom_feed">Add by RSS feed</string>
     <string name="add_custom_feed_url_hint">https://www.example.org/podcast.xml</string>
@@ -190,8 +187,6 @@ Until family members accept their invite, they'll have limited access to shared 
     <string name="add_salsa_card_title">Add quick phrases you say often</string>
     <string name="add_shortcut_dismiss_button_description">Dismiss</string>
     <string name="add_shortcut_text">Add driving mode to Home screen</string>
-    <string name="add_snackbar_action">Add</string>
-    <string name="add_this_location_to_your_list_snackbar_text">Add this location to your list?</string>
     <string name="add_to_folder">Add to folder: %1$s</string>
     <string name="add_to_folder_with_app">Add to folder with %1$s</string>
     <string name="add_to_home_screen">Add to home screen</string>
@@ -306,6 +301,7 @@ Switch to this account in assistant to continue."</string>
     <string name="all_salsas_section_subtitle">Assistant will wait in standby mode to detect the quick phrases you choose. Common variations will also work.</string>
     <string name="all_set_title">Your Assistant is ready to go</string>
     <string name="all_settings_title">ALL SETTINGS</string>
+    <string name="allow_access">Allow access</string>
     <string name="allow_bluetooth_button_with_device_locked_notification_body">When the phone is locked, you can use your voice to make calls and more with a Bluetooth device</string>
     <string name="allow_bluetooth_button_with_device_locked_notification_title">Use voice with a Bluetooth device</string>
     <string name="allow_button_text">Allow</string>
@@ -389,11 +385,12 @@ Switch to this account in assistant to continue."</string>
     <string name="ambient_settings_bc_page_desc">Your Assistant shows you what you need, right when you need it, on your home screen and lock screen.</string>
     <string name="ambient_settings_bc_title">Live Space</string>
     <string name="ambient_settings_commute_and_ttl_subtitle">See traffic and ETA</string>
-    <string name="ambient_settings_commute_and_ttl_title">Commute &amp; Time to Leave</string>
+    <string name="ambient_settings_commute_subtitle">See Traffic</string>
+    <string name="ambient_settings_commute_title">Commute</string>
     <string name="ambient_settings_device_location_subtitle">Show relevant content based on your location</string>
     <string name="ambient_settings_device_location_title">Location</string>
-    <string name="ambient_settings_grocery_subtitle" />
-    <string name="ambient_settings_grocery_title">Deliveries and pickups</string>
+    <string name="ambient_settings_grocery_subtitle">Delivery and pickup status</string>
+    <string name="ambient_settings_grocery_title">Food and household orders</string>
     <string name="ambient_settings_home_and_work_location_subtitle">Get commute info like ETA and traffic based on your home and work address</string>
     <string name="ambient_settings_home_and_work_location_title">Home and work</string>
     <string name="ambient_settings_hotel_subtitle">Check-in and Check-out information</string>
@@ -406,6 +403,7 @@ Switch to this account in assistant to continue."</string>
     <string name="ambient_settings_title">At a Glance</string>
     <string name="ambient_settings_travel_bundle_subtitle">Flights from Gmail</string>
     <string name="ambient_settings_travel_bundle_title">Travel</string>
+    <string name="ambient_settings_ttl_subtitle">See ETA</string>
     <string name="ambient_settings_ttl_title">Time to Leave</string>
     <string name="ambient_settings_upcoming_bundle_subtitle">Calendar events and reminders</string>
     <string name="ambient_settings_upcoming_bundle_title">Upcoming</string>
@@ -500,6 +498,8 @@ Switch to this account in assistant to continue."</string>
     <string name="apvs_shortcut_promocard_positive_button_text">Add</string>
     <string name="ar_access_description">"Google needs access to your physical activity to detect when you're driving and launch Assistant driving mode"</string>
     <string name="ar_access_title">Get hands-free help on the go</string>
+    <string name="ar_permission_modal_description">"To detect when you're driving and lanuch Assistant driving mode, allow the Google App to access your physical activity."</string>
+    <string name="ar_permission_modal_title">Allow Google to access your physical activity?</string>
     <string name="ar_permissions_screen_title">Get a better look</string>
     <string name="ar_session_error_dialog_body">An error has occurred when trying to view this object in your space.</string>
     <string name="ar_session_error_dialog_title">Unable to view in your space</string>
@@ -521,6 +521,8 @@ Switch to this account in assistant to continue."</string>
     <string name="assistant_aa_loyalty_card_title">Loyalty Card</string>
     <string name="assistant_aa_pay_cafe_title">Pay</string>
     <string name="assistant_accessibility_voice_typing_stopped">Voice typing stopped</string>
+    <string name="assistant_account_fix_next">Next</string>
+    <string name="assistant_account_fix_suggestion">Sign in to your Google Account again to use Assistant</string>
     <string name="assistant_account_screen_subtitle">Your Assistant knows you by your Google Account and can help you with your calendar, commute, and more.</string>
     <string name="assistant_account_screen_title">Sign in to make the Google Assistant yours</string>
     <string name="assistant_add_item_app_control_suggestion">Add</string>
@@ -576,7 +578,13 @@ Is this result correct?"</string>
     <string name="assistant_android_settings_see_all_title">See all Assistant Settings</string>
     <string name="assistant_android_settings_voice_match_summary">Use Voice Match to access your Assistant with your voice, even when the phone is locked</string>
     <string name="assistant_android_settings_voice_match_title">Say “Hey Google”</string>
+    <string name="assistant_app_widget_error_text">"I can't render widgets from %1$s app. You can check it by long-pressing on the app icon from your home screen."</string>
+    <string name="assistant_app_widget_fallback_text">Here it is from %1$s.</string>
+    <string name="assistant_app_widget_footer_text">From %1$s app</string>
+    <string name="assistant_app_widget_preamble_text">%1$s says, %2$s</string>
     <string name="assistant_at_store">At Store</string>
+    <string name="assistant_auto_listening_box_description">Indicator that the assistant is listening to your speech.</string>
+    <string name="assistant_avatar_icon_description">User avatar icon</string>
     <string name="assistant_bit_action_card_clickable_link_text">myactivity.google.com</string>
     <string name="assistant_bit_action_card_clickable_link_url">https://myactivity.google.com</string>
     <string name="assistant_bit_action_card_link">Go to Google Assistant Page</string>
@@ -596,11 +604,28 @@ You can delete your Assistant history in myactivity.google.com."</string>
     <string name="assistant_bit_alert_on_text">"Google Assistant sends info, like your voice requests, to Google so it can answer your questions and help you get things done.
 You can review and delete your Assistant history at any time in myactivity.google.com."</string>
     <string name="assistant_bit_alert_on_title">Turn on Google Assistant?</string>
+    <string name="assistant_blue_bar_action_message">Get Started</string>
+    <string name="assistant_blue_bar_description">Unlock more Assistant features</string>
+    <string name="assistant_blue_pill_description">Unlock more Assistant features</string>
     <string name="assistant_branding">Assistant</string>
     <string name="assistant_calendar_event_during">%1$s now</string>
     <string name="assistant_calendar_event_pre">%1$s in %2$s</string>
     <string name="assistant_calendar_event_pre_static">%1$s at %2$s</string>
     <string name="assistant_calendar_event_time_range">%1$s – %2$s</string>
+    <string name="assistant_canvas_header_agent_icon_description">Action icon</string>
+    <string name="assistant_canvas_header_agent_name_description">Action name</string>
+    <string name="assistant_canvas_header_close_description">Close page</string>
+    <string name="assistant_canvas_logo_view_description">Voice search</string>
+    <string name="assistant_canvas_opa_keyboard_indicator_content_description">Type mode</string>
+    <string name="assistant_canvas_opa_send_button_content_description">Send</string>
+    <string name="assistant_canvas_opa_text_input_hint">Type a message</string>
+    <string name="assistant_canvas_transcription_bar_description">Transcription bar</string>
+    <string name="assistant_cast_on_lockscreen_description">Allow anyone to play video from the lock screen when your device is locked.</string>
+    <string name="assistant_close_btn">Close</string>
+    <string name="assistant_close_button">Close</string>
+    <string name="assistant_cml_card_error_message">"The response of feature vertical from Assistant Server is using deprecated format and cannot be supported in TNG. More information can be found here (go/cml-in-tng-ma)
+Please send feedback to help us report this issue to feature vertical teams."</string>
+    <string name="assistant_correction_title">Did you say</string>
     <string name="assistant_create_doc_app_control_suggestion">Create a document</string>
     <string name="assistant_custodio_activity_menu_help">Help</string>
     <string name="assistant_custodio_activity_menu_send_feedback">Send feedback</string>
@@ -830,11 +855,13 @@ You can review and delete your Assistant history at any time in myactivity.googl
     <string name="assistant_custodio_youtube_media_provider_link">Content settings</string>
     <string name="assistant_custodio_youtube_media_provider_name">YouTube</string>
     <string name="assistant_default_error_message">Something went wrong, try again</string>
+    <string name="assistant_dev_badge">TNG</string>
     <string name="assistant_device_id_android_tv_preference_category">assistantDeviceIdAndroidTvCategory</string>
     <string name="assistant_device_id_assistant_sdk_preference_category">assistantDeviceIdAssistantSDKCategory</string>
     <string name="assistant_device_id_group_holder">assistantDeviceIdHolder</string>
     <string name="assistant_device_id_libassistant_preference_category">assistantDeviceIdLibassistantCategory</string>
     <string name="assistant_dictation_ineligible_aiai_version">To use Assistant voice typing, update your Android System Intelligence app on Google Play. &lt;a href=https://play.google.com/store/apps/details?id=com.google.android.as>Update&lt;/a> &lt;br> &lt;br>&lt;a href=https://support.google.com/gboard/answer/11197787#update_app>Learn more&lt;/a></string>
+    <string name="assistant_dictation_ineligible_android_old_version">To use Assistant voice typing, update your Android System. &lt;a href=intent:#Intent;action=android.settings.SYSTEM_UPDATE_SETTINGS;end>Update&lt;/a> &lt;br> &lt;br>&lt;a href=https://support.google.com/gboard/answer/11197787#update_app>Learn more&lt;/a></string>
     <string name="assistant_dictation_ineligible_download_needed">Assistant voice typing needs an update. Connect to Wi-Fi to automatically download. &lt;br>&lt;a href=https://support.google.com/gboard/answer/11197787#update_to_use>Learn more&lt;/a></string>
     <string name="assistant_dictation_ineligible_generic">"You can't currently use Assistant voice typing. &lt;br>&lt;a href=https://support.google.com/gboard/answer/11197787#fix_issues_assistant_voice_typing>Learn more&lt;/a>"</string>
     <string name="assistant_dictation_ineligible_locale_mismatch">To use Assistant voice typing, your primary Gboard and device languages must be the same. &lt;br>&lt;a href=https://support.google.com/gboard/answer/11197787#device_language>Learn more&lt;/a></string>
@@ -843,11 +870,14 @@ You can review and delete your Assistant history at any time in myactivity.googl
     <string name="assistant_dictation_ineligible_unsupported_system_language">Not available in your current device language. Change your device language to match your Gboard language to use this. &lt;br>&lt;a href=https://support.google.com/gboard/answer/11197787#device_language>Learn more&lt;/a></string>
     <string name="assistant_dictation_ineligible_work_profile">Assistant voice typing isn’t currently available for apps in a work profile. Switch to your personal apps to use this. &lt;br>&lt;a href=https://support.google.com/gboard/answer/11197787#not_available_work_profile>Learn more&lt;/a></string>
     <string name="assistant_edit_app_control_suggestion">Edit</string>
+    <string name="assistant_error_header_default_message">Something went wrong and Assistant couldn’t be set up on your device. You can try again later in your Assistant settings.</string>
+    <string name="assistant_error_header_default_title">Can’t set up Assistant</string>
     <string name="assistant_family_share_account_error_message">An account error occurred</string>
     <string name="assistant_family_share_label">Assistant</string>
     <string name="assistant_family_share_sub_label">Broadcast</string>
     <string name="assistant_family_share_unsupported_shared_content_message">Attempted to share unsupported content</string>
     <string name="assistant_features_title">Get things done</string>
+    <string name="assistant_feedback_acknowledgement">Thanks</string>
     <string name="assistant_flight_chip_boarding_pass">Boarding Pass</string>
     <string name="assistant_flight_chip_check_in">Check in for your flight</string>
     <string name="assistant_flight_chip_more_info">More Flight Info</string>
@@ -862,17 +892,14 @@ You can review and delete your Assistant history at any time in myactivity.googl
     <string name="assistant_flight_seat_info">Seat %1$s</string>
     <string name="assistant_flight_to_delayed_info">Delayed: Flight to %1$s</string>
     <string name="assistant_flight_to_info">Flight to %1$s</string>
+    <string name="assistant_generic_error">Something went wrong. Please send feedback to Assistant</string>
     <string name="assistant_google_bubble_logo_a11y">Google assistant</string>
     <string name="assistant_google_bubble_profile_icon_a11y">Google Assistant menu.</string>
     <string name="assistant_grocery_delivery_completed">%1$s order delivered</string>
-    <string name="assistant_grocery_delivery_during">%1$s delivery now</string>
-    <string name="assistant_grocery_delivery_pre">%1$s delivery in %2$s</string>
-    <string name="assistant_grocery_delivery_pre_static">%1$s delivery at %2$s</string>
+    <string name="assistant_grocery_delivery_scheduled">%1$s delivery scheduled</string>
     <string name="assistant_grocery_pickup_completed">%1$s order picked up</string>
-    <string name="assistant_grocery_pickup_during">%1$s pickup now</string>
-    <string name="assistant_grocery_pickup_pre">%1$s pickup in %2$s</string>
-    <string name="assistant_grocery_pickup_pre_static">%1$s pickup at %2$s</string>
-    <string name="assistant_grocery_pickup_ready">%1$s pickup now</string>
+    <string name="assistant_grocery_pickup_ready">%1$s order ready for pickup</string>
+    <string name="assistant_grocery_pickup_scheduled">%1$s pickup scheduled</string>
     <string name="assistant_grocery_time_range">%1$s – %2$s</string>
     <string name="assistant_guacamole_answer_call_announce">Answering</string>
     <string name="assistant_guacamole_closed_popup_pill_content_description">Say “%1$s”. Double tap on the pill for more information.</string>
@@ -899,6 +926,21 @@ You can review and delete your Assistant history at any time in myactivity.googl
     <string name="assistant_home_address_title">Home Location</string>
     <string name="assistant_hotword_proactive_feedback_notification_title">“Hey Google” error detected</string>
     <string name="assistant_icon_description">Assistant icon</string>
+    <string name="assistant_input_greeting">Hi, how can I help?</string>
+    <string name="assistant_interpreter_auto_mode">Auto</string>
+    <string name="assistant_interpreter_auto_mode_button_description">Auto mic mode button</string>
+    <string name="assistant_interpreter_copy_button_description">Copy the translation to the clipboard</string>
+    <string name="assistant_interpreter_header">Interpreter Mode</string>
+    <string name="assistant_interpreter_header_closeButton_description">Close Interpreter Mode</string>
+    <string name="assistant_interpreter_header_closeButton_title">Close</string>
+    <string name="assistant_interpreter_header_launcherButton_description">Add Home Screen shortcut for Interpreter Mode</string>
+    <string name="assistant_interpreter_header_launcherButton_title">Add Home Screen shortcut</string>
+    <string name="assistant_interpreter_keyboard_mode">Keyboard</string>
+    <string name="assistant_interpreter_keyboard_mode_button_description">Keyboard mode button</string>
+    <string name="assistant_interpreter_manual_mode">Manual</string>
+    <string name="assistant_interpreter_manual_mode_button_description">Manual mic mode button</string>
+    <string name="assistant_interpreter_translation_copied">Translation copied</string>
+    <string name="assistant_interpreter_tts_button_description">Hear translated text</string>
     <string name="assistant_keyboard_action_button_say_prefix_text">Say</string>
     <string name="assistant_keyboard_add_item_button_description">Add the list item</string>
     <string name="assistant_keyboard_add_item_text">Add</string>
@@ -929,6 +971,9 @@ You can review and delete your Assistant history at any time in myactivity.googl
     <string name="assistant_keyboard_first_one_text">First one</string>
     <string name="assistant_keyboard_firstrun_text">&lt;linkable>Manage settings&lt;/linkable></string>
     <string name="assistant_keyboard_icon_label">Keyboard</string>
+    <string name="assistant_keyboard_input_clear_button_content_description">Click to clear text input</string>
+    <string name="assistant_keyboard_input_mic_button_content_description">Click the mic icon to start voice query</string>
+    <string name="assistant_keyboard_input_text_hint">Type a text input here</string>
     <string name="assistant_keyboard_learning_center_category_compose">Type and send</string>
     <string name="assistant_keyboard_learning_center_category_emojis">Add emojis</string>
     <string name="assistant_keyboard_learning_center_category_forms">Forms and emails</string>
@@ -1012,13 +1057,18 @@ You can review and delete your Assistant history at any time in myactivity.googl
     <string name="assistant_keyboard_sticky_mic_education_tip_text">Double-tap to keep mic open&lt;br>until you close the keyboard</string>
     <string name="assistant_keyboard_stop_button_description">Stop dictation</string>
     <string name="assistant_keyboard_stop_text">Stop</string>
+    <string name="assistant_keyboard_suggestion_query_builder_button_content_description">Click to edit in input box</string>
     <string name="assistant_keyboard_undo_button_description">Undo</string>
     <string name="assistant_keyboard_undo_text">Undo</string>
     <string name="assistant_keyboard_voice_command_not_supported">Command not available in this app</string>
     <string name="assistant_keyboard_voice_corrections_tip_text">Say the word you&amp;#8217;d like to&lt;br>replace the selection with</string>
     <string name="assistant_language_not_supported">%s is not yet supported by Google Assistant</string>
     <string name="assistant_learning_center_data_error">Sorry, something went wrong while loading data.</string>
+    <string name="assistant_learning_center_detailed_page_data_error">Sorry, something went wrong while loading data.</string>
     <string name="assistant_legacy_wired_device_name">Wired headphones</string>
+    <string name="assistant_legal_notice_description"><a href="https://policies.google.com/terms">Terms of service</a> and <a href="https://policies.google.com/privacy">Privacy policy</a>.</string>
+    <string name="assistant_loading_default_header">Just a sec…</string>
+    <string name="assistant_loading_default_message">Your Assistant will be right with you</string>
     <string name="assistant_logo_a11y">Tap to open Google Assistant</string>
     <string name="assistant_logo_content_description">Google Assistant logo</string>
     <string name="assistant_long_press_power_action_button_text">Got it</string>
@@ -1070,8 +1120,10 @@ You can review and delete your Assistant history at any time in myactivity.googl
     <string name="assistant_my_actions_unpinned_action_row_add_button_content_description">Add this action</string>
     <string name="assistant_my_actions_unpinned_actions_header">Actions you might like</string>
     <string name="assistant_my_flights_query">My Flights</string>
+    <string name="assistant_network_wifi_error">"For that, you'll have to turn on Wi-Fi or install a SIM card first."</string>
     <string name="assistant_news_player_branding_title">News</string>
     <string name="assistant_news_player_close">Close</string>
+    <string name="assistant_news_player_edit_providers">Edit providers</string>
     <string name="assistant_news_player_feedback">Feedback</string>
     <string name="assistant_news_player_info_story_notes">Story notes</string>
     <string name="assistant_news_player_just_now">Just now</string>
@@ -1083,6 +1135,7 @@ You can review and delete your Assistant history at any time in myactivity.googl
     <string name="assistant_news_player_playlist">Playlist</string>
     <string name="assistant_news_player_playlist_dialog_title">Up Next</string>
     <string name="assistant_news_player_save">Save</string>
+    <string name="assistant_no_app_widget_text">"There's no widget from %1$s app."</string>
     <string name="assistant_no_thanks">No thanks</string>
     <string name="assistant_omniconsent_disclosure_screen_action_button_text">Continue</string>
     <string name="assistant_omniconsent_disclosure_screen_title">Google Partners work with your Assistant to help you</string>
@@ -1104,6 +1157,8 @@ You can review and delete your Assistant history at any time in myactivity.googl
     <string name="assistant_oobe_loading_screen_title">Just a sec…</string>
     <string name="assistant_oobe_screen_next_action_button">Next</string>
     <string name="assistant_oobe_skip_voice_recognition_description">Also get personal results when you activate your Assistant without saying “%1$s”, like tapping your screen.</string>
+    <string name="assistant_permission_denied_error">Microphone Permission is needed to continue</string>
+    <string name="assistant_permission_grant_button">Grant</string>
     <string name="assistant_personal_results_description">Allow your Assistant to give info specific to you on your %1$s, such as your calendar, reminders, and personal actions, like payments and calling contacts.</string>
     <string name="assistant_personal_results_disclaimer">You can always turn off personal results in Assistant Settings. &lt;a href=\"%1$s\">Learn more&lt;/a></string>
     <string name="assistant_personal_results_enrollment_default_header">Get personal results</string>
@@ -1127,6 +1182,13 @@ You can review and delete your Assistant history at any time in myactivity.googl
     <string name="assistant_preloaded_fre_inapp_suggestion_7">Text Mom</string>
     <string name="assistant_preloaded_fre_inapp_suggestion_8">Search for action games</string>
     <string name="assistant_preloaded_fre_inapp_suggestion_9">Show me my emails from last week</string>
+    <string name="assistant_rating_1">Very dissatisfied</string>
+    <string name="assistant_rating_2">Dissatisfied</string>
+    <string name="assistant_rating_3">Neutral</string>
+    <string name="assistant_rating_4">Satisfied</string>
+    <string name="assistant_rating_5">Very satisfied</string>
+    <string name="assistant_rating_very_dissatisfied">Very dissatisfied</string>
+    <string name="assistant_rating_very_satisfied">Very Satisfied</string>
     <string name="assistant_remove_recipient_app_control_suggestion">Remove %1$s</string>
     <string name="assistant_reply_all_app_control_suggestion">Reply all</string>
     <string name="assistant_reply_app_control_suggestion">Reply</string>
@@ -2479,26 +2541,43 @@ You can turn Voice Match and Face Match back on in the settings in your Google H
     <string name="assistant_suw_intro_screen_action_button_text">I agree</string>
     <string name="assistant_suw_intro_screen_cancel_button_text">Skip</string>
     <string name="assistant_suw_intro_screen_default_x_google_hotword">Hey Google</string>
+    <string name="assistant_suw_intro_screen_hint1_for_unicorn_vm3">{GENDER, select, male {“%1$s” also requires Voice Match so {GIVEN_NAME}’s Assistant can recognize him.} female {“%1$s” also requires Voice Match so {GIVEN_NAME}’s Assistant can recognize her.} other {“%1$s” also requires Voice Match so {GIVEN_NAME}’s Assistant can recognize them.}}</string>
+    <string name="assistant_suw_intro_screen_hint1_vm3">“%1$s” also requires Voice Match so your Assistant can recognize you.</string>
+    <string name="assistant_suw_intro_screen_hint2_for_unicorn_vm3">Assistant may activate when %1$s didn’t intend it to—for instance, when there is a noise that sounds like “%2$s.”</string>
+    <string name="assistant_suw_intro_screen_hint2_vm3">Assistant may activate when you didn’t intend it to—for instance, when there is a noise that sounds like “%1$s.”</string>
+    <string name="assistant_suw_intro_screen_hint3_for_unicorn_vm3">You can turn off “%1$s” in %2$s’s Assistant settings.</string>
+    <string name="assistant_suw_intro_screen_hint3_vm3">You can turn off “%1$s” in Assistant settings.</string>
     <string name="assistant_suw_intro_screen_item_summary_1">“What’s the weather this weekend?”</string>
+    <string name="assistant_suw_intro_screen_item_summary_1_for_unicorn">“Do I need an umbrella?”</string>
     <string name="assistant_suw_intro_screen_item_summary_2">“Where’s the nearest coffee shop?”</string>
+    <string name="assistant_suw_intro_screen_item_summary_2_for_unicorn">“What does a hippo sound like?”</string>
     <string name="assistant_suw_intro_screen_item_summary_3">“Set an alarm for 5:00am tomorrow.”</string>
+    <string name="assistant_suw_intro_screen_item_summary_3_for_unicorn">“Set a homework timer for 20 minutes.”</string>
     <string name="assistant_suw_intro_screen_item_title_1">Ask questions</string>
     <string name="assistant_suw_intro_screen_item_title_2">Get directions</string>
+    <string name="assistant_suw_intro_screen_item_title_2_for_unicorn">Learn new things</string>
     <string name="assistant_suw_intro_screen_item_title_3">Get things done</string>
     <string name="assistant_suw_intro_screen_subtitle_v2">If you agree, Google Assistant will wait in standby mode to detect “%1$s.”</string>
+    <string name="assistant_suw_intro_screen_subtitle_v2_for_unicorn_vm3">If you agree, Google Assistant will wait in standby mode to detect when %1$s says “%2$s.”</string>
     <string name="assistant_suw_intro_screen_title">Access your Assistant with “%1$s”</string>
     <string name="assistant_suw_intro_screen_title_for_unicorn">Let %1$s access Google Assistant with “%2$s”</string>
-    <string name="assistant_suw_intro_screen_with_ww_hint">You can update this choice in Assistant settings.</string>
+    <string name="assistant_suw_intro_screen_title_for_unicorn_vm3">Let %1$s talk to Google hands-free</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint2_for_unicorn_vm3">Assistant may activate when %1$s didn’t intend it to—for instance, when there is a noise that sounds like “%2$s” or a quick phrase.</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint2_vm3">Assistant may activate when you didn’t intend it to—for instance, when there is a noise that sounds like “%1$s” or a quick phrase.</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint3_for_unicorn_vm3">You can turn off “%1$s” and quick phrases in %2$s’s Assistant settings.</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint3_vm3">You can turn off “%1$s” and quick phrases in Assistant settings.</string>
     <string name="assistant_suw_intro_screen_with_ww_hint_t">You can turn this off at any time in Assistant settings.</string>
     <string name="assistant_suw_intro_screen_with_ww_item_summary_1">Ask questions and get help with tasks.</string>
     <string name="assistant_suw_intro_screen_with_ww_item_summary_1_t">Ask questions, stay on-top of tasks, enjoy entertainment, keep in touch, and control your smart home.</string>
     <string name="assistant_suw_intro_screen_with_ww_item_summary_2">Try words like “stop” or “snooze” (for example, when an alarm is ringing).</string>
+    <string name="assistant_suw_intro_screen_with_ww_item_summary_2_for_unicorn_vm3">%1$s can say words like “stop” or “snooze” (for example, when an alarm is ringing).</string>
     <string name="assistant_suw_intro_screen_with_ww_item_summary_2_t">Skip “%1$s” for certain actions, like alarms, timers, and music.</string>
     <string name="assistant_suw_intro_screen_with_ww_item_title_1">“%1$s”</string>
     <string name="assistant_suw_intro_screen_with_ww_item_title_1_t">Just say “%1$s”</string>
     <string name="assistant_suw_intro_screen_with_ww_item_title_2">Quick phrases</string>
     <string name="assistant_suw_intro_screen_with_ww_item_title_2_t">Try saying “stop” or “snooze”</string>
     <string name="assistant_suw_intro_screen_with_ww_subtitle">If you agree, Google Assistant will wait in standby mode to detect “%1$s” and certain quick phrases.</string>
+    <string name="assistant_suw_intro_screen_with_ww_subtitle_for_unicorn_vm3">If you agree, Google Assistant will wait in standby mode to detect when %1$s says “%2$s” and certain quick phrases.</string>
     <string name="assistant_suw_intro_screen_with_ww_subtitle_t">If you agree, Google Assistant will wait in standby mode to detect “%1$s”.</string>
     <string name="assistant_suw_intro_screen_with_ww_title">Talk to Google hands-free</string>
     <string name="assistant_suw_intro_screen_with_ww_title_for_unicorn_t">{GENDER, select, male {Let {GIVEN_NAME} use his voice to get help from Google} female {Let {GIVEN_NAME} use her voice to get help from Google} other {Let {GIVEN_NAME} use their voice to get help from Google}}</string>
@@ -2544,10 +2623,14 @@ You can change these options at any time in Assistant settings.}}"</string>
     <string name="assistant_unicorn_get_your_parent_subtitle">Together, you can set up Voice Match.</string>
     <string name="assistant_unicorn_get_your_parent_subtitle_shared_devices">Together, you can set up Google Assistant.</string>
     <string name="assistant_unicorn_get_your_parent_title">Now go get your parent</string>
+    <string name="assistant_user_bubble_logo_a11y">Google assistant</string>
+    <string name="assistant_user_bubble_profile_icon_a11y">Google Assistant menu.</string>
     <string name="assistant_voice_listening_earcon_page_title">Assistant voice &amp; sound</string>
     <string name="assistant_voice_plate_avatar_label">Open settings</string>
     <string name="assistant_voice_plate_greeting_hi_text">Hi, how can I help?</string>
     <string name="assistant_voice_plate_keyboard_icon_label">Keyboard</string>
+    <string name="assistant_voice_plate_onboarding_oauth_recovery_button">Sign in</string>
+    <string name="assistant_voice_plate_onboarding_oauth_recovery_text">Sign in to your Google Account again to use Assistant</string>
     <string name="assistant_voice_plate_onboarding_oobe_button">Get started</string>
     <string name="assistant_voice_plate_onboarding_oobe_text">Unlock more Assistant features</string>
     <string name="assistant_voice_speech_output_title">Assistant voice and speech output</string>
@@ -2581,6 +2664,7 @@ In Settings, tap Permissions > Location > Allow all the time."</string>
     <string name="assistant_weather_widget_preview_time_3">10AM</string>
     <string name="assistant_widget_fallback_text">"%1$s says, here's a widget."</string>
     <string name="assistant_widget_preamble_text">%1$s says, %2$s</string>
+    <string name="assistant_wifi_setting_display_name">Wi-Fi</string>
     <string name="assistant_yesterday_time">Yesterday, %1$s</string>
     <string name="assistantactions_alarm_confirmation_card_button_text">View alarms</string>
     <string name="assistantactions_call_confirmation_card_button">Call</string>
@@ -2740,7 +2824,7 @@ Data charges may apply."</string>
     <string name="bisto_device_launch_oobe_pref_summary">Learn how to get help from Google with your voice and your headphones</string>
     <string name="bisto_device_launch_oobe_pref_title">Learn more</string>
     <string name="bisto_device_make_and_model">Make and model</string>
-    <string name="bisto_device_notification_access_for_gestures_pref_summary">To hear incoming notifications read aloud, in the “Touch &amp; hold” controls, turn on “Talk to Assistant” for both earbuds</string>
+    <string name="bisto_device_notification_access_for_gestures_pref_summary">To hear incoming notifications read aloud, in the “Touch &amp; hold” controls, turn on “Talk to Assistant” for at least one earbud</string>
     <string name="bisto_device_notification_access_pref_summary">Allows spoken notifications on your headphones</string>
     <string name="bisto_device_notification_access_pref_title">Turn on Notification access</string>
     <string name="bisto_device_notifications_pref_title">Spoken notifications</string>
@@ -2755,7 +2839,6 @@ Data charges may apply."</string>
     <string name="bisto_device_tutorial_pref_title">Tutorials</string>
     <string name="bisto_device_user_manual_pref">User Manual</string>
     <string name="bisto_downloading_device_customization">Downloading Device Information</string>
-    <string name="bisto_end_sound_pref_title">Play end sound</string>
     <string name="bisto_error_connect_device">Could not connect to the device. Check your connection and try again.</string>
     <string name="bisto_error_consent_retry_message">Check your connection and try again.</string>
     <string name="bisto_error_enable_opa">Could not communicate with the device. Check your connection and try again.</string>
@@ -2820,7 +2903,9 @@ How it works: Your device relies on camera sensing and analyzes your video to de
 
 Assistant also uses Face Match and Voice Match so Look and Talk will work just for you. If others want to use Look and Talk, they can set it up in their Home app or Assistant app settings.
 
-You can turn this feature off at any time in your Face Match settings."</string>
+You can turn this feature off at any time in your Face Match settings.
+
+Note: You can continue saying “Hey Google” even if you have Look and Talk turned on."</string>
     <string name="blue_steel_consent_title">Look and Talk on %1$s</string>
     <string name="blue_steel_learn_more">&lt;a href=%1$s>Learn more&lt;/a></string>
     <string name="blue_steel_learn_more_link">https://support.google.com/googlenest/answer/11410414</string>
@@ -2834,6 +2919,8 @@ You can turn this feature off at any time in your Face Match settings."</string>
     <string name="bluetooth_off_label">Bluetooth is off</string>
     <string name="bluetooth_on">Bluetooth on</string>
     <string name="bluetooth_on_label">Bluetooth is on</string>
+    <string name="bluetooth_permission_modal_description">To detect when you connect to a car via Bluetooth and launch Assistant driving mode, allow the Google App to access Bluetooth connections.</string>
+    <string name="bluetooth_permission_modal_title">Allow Google to access your Bluetooth connections?</string>
     <string name="boiler_accessibility_name">boiler</string>
     <string name="books_mode_landing_text">Search books</string>
     <string name="both_personal_response_on_lockscreen_message">Use Voice Match to send messages and access your email, contacts, and more when your device is locked.</string>
@@ -2841,7 +2928,6 @@ You can turn this feature off at any time in your Face Match settings."</string>
     <string name="bottom_navigation_collections_label">Collections</string>
     <string name="bottom_navigation_drawer_label">More</string>
     <string name="bottom_navigation_search_label">Search</string>
-    <string name="bottom_navigation_snapshot_label">Snapshot</string>
     <string name="bottom_navigation_spark_label">Discover</string>
     <string name="bottom_navigation_tabs_label">Tabs</string>
     <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
@@ -2856,7 +2942,11 @@ You can turn this feature off at any time in your Face Match settings."</string>
     <string name="bubble_dismiss_text">Drag down to dismiss</string>
     <string name="bubble_feedback_link">Feedback</string>
     <string name="bubble_label">Driving mode</string>
+    <string name="bubble_live_score_removed">Pinned information removed</string>
+    <string name="bubble_notification_channel_name">Pinned live updates</string>
+    <string name="bubble_notification_dismiss">Dismiss</string>
     <string name="bubble_pinned_live_updates">Pinned live updates</string>
+    <string name="bubble_undo_remove">UNDO</string>
     <string name="bundle_summary_app_and_app">Notifications from %1$s and %2$s</string>
     <string name="bundle_summary_app_and_app_same_app">Notifications from %1$s</string>
     <string name="bundle_summary_app_and_event">Notifications from %1$s and one Calendar event.</string>
@@ -2989,7 +3079,6 @@ You can turn this feature off at any time in your Face Match settings."</string>
     <string name="cct_account_mismatch_card_button_text">Open %1$s</string>
     <string name="cct_account_mismatch_card_header">View your web pages</string>
     <string name="cct_account_mismatch_card_text">To see the pages you find here, update &lt;b>%1$s settings&lt;/b> and turn on sync for &lt;b>%2$s&lt;/b></string>
-    <string name="chance_of_precipitation_label">Chance of precipitation: %s</string>
     <string name="change_button_text">Change</string>
     <string name="change_speed_button">Change reading speed</string>
     <string name="channel_description">Improved voice control and easy-to-tap buttons help you focus on the road.</string>
@@ -3121,6 +3210,7 @@ and play music"</string>
     <string name="common_google_play_services_update_text">"%1$s won't run unless you update Google Play services."</string>
     <string name="common_google_play_services_update_title">Update Google Play services</string>
     <string name="common_google_play_services_updating_text">"%1$s won't run without Google Play services, which are currently updating."</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
     <string name="common_google_search_hint">Google Search</string>
     <string name="common_google_search_label">Google</string>
     <string name="common_learn_more">Learn more</string>
@@ -3128,6 +3218,7 @@ and play music"</string>
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_see_updates">SEE UPDATES</string>
     <string name="common_yes">OK</string>
+    <string name="comms_center_close_button_description">Close page</string>
     <string name="commute_eta_msg">%1$s to %2$s</string>
     <string name="commute_eta_time_hour">%1$s hr</string>
     <string name="commute_eta_time_hour_minute">%1$s hr %2$s min</string>
@@ -3343,17 +3434,17 @@ You can view and manage these conversations in the %1$s section of your Google A
     <string name="cricket_second_innings">2nd innings</string>
     <string name="crop_wallpaper">Crop wallpaper</string>
     <string name="cross_profile_meta_data">Show upcoming work events in your personal At A Glance widget</string>
-    <string name="current_conditions_temperature" formatted="false">Temperature: %s %s</string>
     <string name="current_inning">Inning %1$d</string>
-    <string name="current_location_searchbox">Current location</string>
     <string name="current_period">Period %1$d</string>
     <string name="curtain_accessibility_name">curtain</string>
     <string name="custom">"Custom (can't customize on phone)"</string>
+    <string name="custom_reply_button_string">Custom Reply</string>
     <string name="custom_tabs_explore_action_button_desc">View related pages</string>
     <string name="custom_tabs_link_copied">Link copied to clipboard</string>
     <string name="custom_tabs_menu_item_copy_link">Copy link</string>
     <string name="custom_tabs_menu_item_help">Help</string>
     <string name="custom_tabs_menu_item_open_in_browser_generic">Open in web browser</string>
+    <string name="custom_tabs_menu_item_personal_info_removal">Remove results about you</string>
     <string name="custom_tabs_menu_item_recent">Recent</string>
     <string name="custom_tabs_menu_item_share">Share link…</string>
     <string name="custom_tabs_share_via">Share via</string>
@@ -3367,7 +3458,7 @@ You can view and manage these conversations in the %1$s section of your Google A
     <string name="cw_disabled_message">Temporarily unavailable, be back soon!</string>
     <string name="cw_feedback_chip_text">Send feedback</string>
     <string name="cw_icu_abbrev_wday_month_day_no_year">EEEEMMMd</string>
-    <string name="daily_conditions_sky_condition">Sky condition: %s</string>
+    <string name="daily_forecast_display">Today %1$s° / %2$s° %3$s</string>
     <string name="dangerous_or_harmful_activity">Dangerous or harmful activity</string>
     <string name="data_in_assistant">Your data in the Assistant</string>
     <string name="data_sharing_action_button">Allow</string>
@@ -3378,6 +3469,8 @@ You can view and manage these conversations in the %1$s section of your Google A
     <string name="data_sharing_title_text">Search across all your TV apps</string>
     <string name="date_at_time">%1$s at %2$s</string>
     <string name="date_in_the_past">%1$s &lt;font color=\"#9E9E9E\"> is in the past&lt;/font></string>
+    <string name="day_of_week_label_typeface">sans-serif-light</string>
+    <string name="day_picker_description">Month grid of days</string>
     <string name="debug_panel_copy_btn_text">Copy Log</string>
     <string name="debug_panel_log_copied">"Log copied.
 You can also long press to share directly."</string>
@@ -3394,14 +3487,15 @@ You can also long press to share directly."</string>
     <string name="deeplink_default_promocard_negative_button_text">Got it</string>
     <string name="deeplink_default_promocard_positive_button_text">Learn more</string>
     <string name="deeplink_default_promocard_search_with">Search with your camera, voice, and more</string>
+    <string name="default_assistant">Assistant device</string>
     <string name="default_error">Oops, something went wrong.</string>
     <string name="default_error_msg">Unknown error</string>
     <string name="default_group_name">a group chat</string>
     <string name="default_instruction" />
-    <string name="default_location_name">San Francisco</string>
     <string name="default_media_selection_description">When you ask the Assistant to play music, this service will be used by default</string>
     <string name="default_media_selection_title">Choose default music service</string>
     <string name="default_microphone_error">Oops, something went wrong. Please try again.</string>
+    <string name="default_phone">Phone</string>
     <string name="default_recognition_error">Something went wrong. Please try again.</string>
     <string name="default_scroll_format">Page %1$d of %2$d</string>
     <string name="default_search_widget_name">Search</string>
@@ -3917,23 +4011,18 @@ next 2 weeks."</string>
     <string name="episode_sort_option_newest_first">Newest first</string>
     <string name="episode_sort_option_oldest_first">Oldest first</string>
     <string name="equal_sign_with_spaces"> = </string>
-    <string name="error_adding_location_snackbar_text">Error adding location</string>
     <string name="error_app_not_found">This app not found on your device.</string>
     <string name="error_assist_app_step_1_text"><b>1.</b> Tap on the <b>Settings</b> button below</string>
     <string name="error_assist_app_step_2_text"><b>2.</b> Tap on the <b>Assist app</b> section</string>
     <string name="error_assist_app_step_3_text"><b>3.</b> Tap on <b>Google</b> to set as default</string>
     <string name="error_card_title_text_something_went_wrong">Something went wrong</string>
     <string name="error_connecting_to_server">No connection</string>
-    <string name="error_fetching_suggestions_status_text">Error fetching suggestions</string>
-    <string name="error_getting_current_location_status_text">Error getting current location information</string>
-    <string name="error_getting_location_info_status_text">Error getting information for the selected location</string>
     <string name="error_icon_content_description">Error</string>
     <string name="error_loading_content">"Can't load page."</string>
     <string name="error_media_info">An error occurred while playing the media.</string>
     <string name="error_no_connection_text">"No network available
 Consider checking your connection and try again"</string>
     <string name="error_no_match_text">Tap the mic, then speak into your phone for quick answers</string>
-    <string name="error_removing_location_snackbar_text">Error removing location</string>
     <string name="error_snackbar">Could not reach %1$s. Please try again.</string>
     <string name="error_states_content_text">Something went wrong.</string>
     <string name="error_unreliable_network">Something went wrong. Check your connection and try again.</string>
@@ -3998,6 +4087,53 @@ Consider checking your connection and try again"</string>
     <string name="explore_tab_shortcut_section_subtitle">Based on your frequent apps</string>
     <string name="explore_tab_shortcut_section_title">Shortcuts you might like</string>
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
+    <string name="fa_alarm_instance_default_label">No alarm set</string>
+    <string name="fa_alarm_instance_filled_bullet">●</string>
+    <string name="fa_alarm_instance_switch_off_label">%1$s alarm has been turned off</string>
+    <string name="fa_alarm_instance_switch_on_label">%1$s alarm has been turned on</string>
+    <string name="fa_audio_recorder_audio_recording_text">Recording…</string>
+    <string name="fa_audio_recorder_default_play_record_time_text">00:00</string>
+    <string name="fa_audio_recorder_delete_audio_message">Delete audio message</string>
+    <string name="fa_audio_recorder_pause_audio_playback">Pause</string>
+    <string name="fa_audio_recorder_playback_audio">Playback</string>
+    <string name="fa_audio_recorder_recording_audio">Recording</string>
+    <string name="fa_audio_recorder_stop_recording_audio">Stop recording</string>
+    <string name="fa_cancel_button_description">Cancel button</string>
+    <string name="fa_confirm_button_description">Confirm button</string>
+    <string name="fa_contact_selection_contact_icon_description">Contact icon</string>
+    <string name="fa_contact_selection_pick_another_contact_view_hint">Pick another contact</string>
+    <string name="fa_contact_selection_view_hint">Pick a contact</string>
+    <string name="fa_device_setting_toggle_icon_description">Setting icon</string>
+    <string name="fa_device_setting_toggle_off_description">%1$s is off</string>
+    <string name="fa_device_setting_toggle_on_description">%1$s is on</string>
+    <string name="fa_duration_hours_minutes_seconds">%1$02dh %2$02dm %3$02ds</string>
+    <string name="fa_duration_minutes_seconds">%1$02dm %2$02ds</string>
+    <string name="fa_duration_picker_confirm_button_text">Done</string>
+    <string name="fa_duration_picker_hour_unit_label">Hours</string>
+    <string name="fa_duration_picker_minute_unit_label">Minutes</string>
+    <string name="fa_duration_picker_second_unit_label">Seconds</string>
+    <string name="fa_duration_picker_title">Set duration</string>
+    <string name="fa_duration_seconds">%1$02ds</string>
+    <string name="fa_empty_time">--:--</string>
+    <string name="fa_family_info_broadcast_settings_button">Broadcast settings button</string>
+    <string name="fa_family_info_collapse_button">Show people button collapsed</string>
+    <string name="fa_family_info_uncollapse_button">Show people button expanded</string>
+    <string name="fa_filled_bullet">●</string>
+    <string name="fa_hour_unit_label">h</string>
+    <string name="fa_list_item_picker_title">Please select one option</string>
+    <string name="fa_minute_unit_label">m</string>
+    <string name="fa_playback_audio">Playback</string>
+    <string name="fa_recurrence_custom">"Custom (can't customize on phone)"</string>
+    <string name="fa_recurrence_do_not_repeat">"Don't repeat"</string>
+    <string name="fa_recurrence_none">None</string>
+    <string name="fa_remaining_duration_hours_minutes_seconds">%1$02dh %2$02dm %3$02ds remaining</string>
+    <string name="fa_remaining_duration_minutes_seconds">%1$02dm %2$02ds remaining</string>
+    <string name="fa_remaining_duration_seconds">%1$02ds remaining</string>
+    <string name="fa_second_unit_label">s</string>
+    <string name="fa_timer_status_active">ACTIVE</string>
+    <string name="fa_timer_status_paused">PAUSED</string>
+    <string name="fa_timer_status_reset">RESET</string>
+    <string name="fa_timer_status_unknown">UNKNOWN</string>
     <string name="facade_search_box_content_description">Search…</string>
     <string name="face_match_enabled_devices_section_subtitle">"You've turned on Face Match on these devices"</string>
     <string name="face_match_enabled_devices_section_title">Devices with Face Match</string>
@@ -4053,7 +4189,6 @@ Consider checking your connection and try again"</string>
     <string name="feedback_entrypoint">Entry point</string>
     <string name="feedback_entrypoint_action_card">Action card</string>
     <string name="feedback_entrypoint_ampactions">AMP Actions</string>
-    <string name="feedback_entrypoint_assist">Screen search</string>
     <string name="feedback_entrypoint_customtabs">Custom Tabs</string>
     <string name="feedback_entrypoint_message_card">Message card</string>
     <string name="feedback_entrypoint_now">Google search</string>
@@ -4084,7 +4219,6 @@ Consider checking your connection and try again"</string>
     <string name="fetch_with_no_notification_access_dismiss">Dismiss</string>
     <string name="fetch_with_no_notification_access_settings">Settings</string>
     <string name="fetch_with_no_notification_access_title">Hear your notifications on %1$s</string>
-    <string name="fetching_suggestions_status_text">Fetching suggestions...</string>
     <string name="file_chooser_select_images">Select images</string>
     <string name="filled_bullet">●</string>
     <string name="filter_accessibility_name">filter</string>
@@ -4449,7 +4583,7 @@ Try searching for the podcast again."</string>
     <string name="googleapp_accountmenu_chrome_incognito">New Chrome incognito tab</string>
     <string name="googleapp_accountmenu_data_in_search">Search</string>
     <string name="googleapp_accountmenu_passwords">Passwords</string>
-    <string name="googleapp_accountmenu_personal_info_removal">Remove your personal info</string>
+    <string name="googleapp_accountmenu_personal_info_removal">Results about you</string>
     <string name="googleapp_accountmenu_personal_info_removal_education">Placeholder text for Personal Info Remover promo</string>
     <string name="googleapp_accountmenu_quick_delete_education_easy">Clear the last 15 minutes of Search history with one tap</string>
     <string name="googleapp_accountmenu_quickdelete_cancel">Cancel</string>
@@ -4478,6 +4612,10 @@ Try searching for the podcast again."</string>
     <string name="googleapp_autocomplete_with_trending_searches_header_title">Trending searches</string>
     <string name="googleapp_autocomplete_with_trending_searches_summary">Trending searches include popular searches in your area</string>
     <string name="googleapp_autocomplete_with_trending_searches_title">Autocomplete with trending searches</string>
+    <string name="googleapp_autoplay_video_previews_always">On Wi-Fi &amp; mobile data</string>
+    <string name="googleapp_autoplay_video_previews_never">Never</string>
+    <string name="googleapp_autoplay_video_previews_setting_title">Autoplay video previews</string>
+    <string name="googleapp_autoplay_video_previews_wifi">Only on Wi-Fi</string>
     <string name="googleapp_back_arrow_description">Back</string>
     <string name="googleapp_balanced_search_in_your_lang_english">Search in your language</string>
     <string name="googleapp_balanced_search_in_your_lang_hindi">अपनी भाषा में जानकारी पाएँ</string>
@@ -4492,18 +4630,6 @@ Try searching for the podcast again."</string>
     <string name="googleapp_boc_tooltip_tap_to_manage_your_preferences">Tap to manage your preferences &amp; feedback</string>
     <string name="googleapp_books_mode_landing_text">Search books</string>
     <string name="googleapp_bottom_navigation_collections_label_content_description">Collections Button</string>
-    <string name="googleapp_broad_queries_topbar_mic_description">Voice search</string>
-    <string name="googleapp_broad_queries_topbar_search_description">Search</string>
-    <string name="googleapp_broad_queries_topbar_up_content_description">Back</string>
-    <string name="googleapp_broadqueries_beauty_label">खूबसूरती</string>
-    <string name="googleapp_broadqueries_cricket_label">क्रिकेट</string>
-    <string name="googleapp_broadqueries_error_message">Check if the internet connection is working</string>
-    <string name="googleapp_broadqueries_error_title">Something went wrong</string>
-    <string name="googleapp_broadqueries_fitness_label">फ़िटनेस</string>
-    <string name="googleapp_broadqueries_fun_label">टाइमपास</string>
-    <string name="googleapp_broadqueries_loading_indicator_desc">Content loading</string>
-    <string name="googleapp_broadqueries_music_label">संगीत</string>
-    <string name="googleapp_broadqueries_recipes_label">रेसिपी</string>
     <string name="googleapp_browser_actionbutton_ampinfo">More info about AMP</string>
     <string name="googleapp_browser_actionbutton_overflowmenu">More actions</string>
     <string name="googleapp_browser_actionbutton_tabs">Tabs</string>
@@ -4548,7 +4674,6 @@ Signs you out of most sites. You won't be signed out of your Google Account."</s
     <string name="googleapp_browser_settings_cleardata_button_text">Clear data</string>
     <string name="googleapp_browser_settings_extended_safe_browsing_summary">Send browser information to Google to help detect dangerous apps and sites. This includes URLs of some pages you visit, limited system information and some page content.</string>
     <string name="googleapp_browser_settings_extended_safe_browsing_title">Help improve browser security</string>
-    <string name="googleapp_browser_settings_link">Browser settings</string>
     <string name="googleapp_browser_settings_real_time_safe_browsing_summary">Check for new security issues each time you visit a site. URLs of pages you visit will be sent to Google.</string>
     <string name="googleapp_browser_settings_real_time_safe_browsing_title">Check site security in real time</string>
     <string name="googleapp_browser_settings_safe_browsing_summary">See a warning when you try to visit a site that has known security issues. Unsafe URLs you visit may be sent to Google.</string>
@@ -4632,6 +4757,7 @@ Signed in as %1$s"</string>
     <string name="googleapp_custom_tabs_enabled_setting_unavailable_need_first_run_done">Open and set up Chrome to enable this option</string>
     <string name="googleapp_custom_tabs_enabled_setting_unavailable_update_chrome">Install the latest version of Chrome to enable</string>
     <string name="googleapp_custom_tabs_help_menu_item_title">Help</string>
+    <string name="googleapp_custom_tabs_piros_menu_item_title">Remove results about you</string>
     <string name="googleapp_custom_tabs_recently_menu_item_title">Recent</string>
     <string name="googleapp_customize_text">Customize</string>
     <string name="googleapp_default_illustration_description" />
@@ -4693,7 +4819,9 @@ Signed in as %1$s"</string>
     <string name="googleapp_discover_error_card_unexpected_error_message">"Couldn't connect to Discover"</string>
     <string name="googleapp_discover_error_card_unexpected_error_title">Something went wrong</string>
     <string name="googleapp_discover_feedback_log_consent_accept_button_label">Accept</string>
-    <string name="googleapp_discover_feedback_log_consent_message">This information greatly increases our ability to understand your issue and may include things like your corp or personal email address, identity, search history, Chrome browsing activity, Discover user profile, and location. It’ll be stored for up to 90 days. Access to this information is restricted and monitored by appropriate engineering and feedback teams.</string>
+    <string name="googleapp_discover_feedback_log_consent_message">"Accept whether to collect logs for %1$s.
+
+This information greatly increases our ability to understand your issue and may include things from your %1$s account like email address, identity, search history, Chrome browsing activity, Discover user profile, and location. It’ll be stored for up to 90 days. Access to this information is restricted and monitored by appropriate engineering and feedback teams."</string>
     <string name="googleapp_discover_feedback_log_consent_skip_button_label">Skip</string>
     <string name="googleapp_discover_feedback_log_consent_title">Include detailed app state and Discover server logs?</string>
     <string name="googleapp_discover_promo_dialog_title">See updates in Discover</string>
@@ -4787,7 +4915,6 @@ Signed in as %1$s"</string>
     <string name="googleapp_incognito_setup_device_biometrics_dialog_title">Set up biometrics</string>
     <string name="googleapp_incognito_signpost_button_text">Turn off</string>
     <string name="googleapp_incognito_signpost_icon_description">Incognito signpost icon</string>
-    <string name="googleapp_incognito_signpost_message_assistant">Assistant features are not available while browsing in Incognito mode - exit to access Assistant</string>
     <string name="googleapp_incognito_signpost_message_collections">Collections are unavailable while browsing in Incognito mode - exit to access them</string>
     <string name="googleapp_incognito_signpost_message_default">The feature is not available while browsing in Incognito mode - exit to access it</string>
     <string name="googleapp_incognito_signpost_message_discover">"Your Discover feed isn't available when you're in Incognito mode"</string>
@@ -4891,6 +5018,13 @@ You'll see personal on-device search results from these apps and services. Only 
     <string name="googleapp_regular_query_learn_more_url_with_p_value" formatted="false">https://support.google.com/websearch/?p=%s&amp;hl=%s</string>
     <string name="googleapp_reset_style_text">Reset To Default Style</string>
     <string name="googleapp_save_button_text">Save</string>
+    <string name="googleapp_save_feature_default_collection_label">Favorite pages</string>
+    <string name="googleapp_save_feature_error_title">Oops, something went wrong</string>
+    <string name="googleapp_save_feature_share_close_button_description">Close</string>
+    <string name="googleapp_save_feature_share_receiver_subject_and_text">"%1$s
+
+%2$s"</string>
+    <string name="googleapp_save_feature_share_save">Save</string>
     <string name="googleapp_search_a_song_content_description">Tap to start song recognition</string>
     <string name="googleapp_search_bar_radius_24dp_description">Rounded</string>
     <string name="googleapp_search_bar_radius_2dp_description">Rectangle</string>
@@ -4923,11 +5057,11 @@ You'll see personal on-device search results from these apps and services. Only 
     <string name="googleapp_second_screen_manage_interests_menu_label">Manage Interests</string>
     <string name="googleapp_second_screen_settings_menu_label">Settings</string>
     <string name="googleapp_see_updates">See Updates</string>
+    <string name="googleapp_setting_error_card_icon_content_description">Error</string>
+    <string name="googleapp_setting_error_card_message_explanation">"The web page couldn't be loaded"</string>
+    <string name="googleapp_setting_error_card_message_title">Something went wrong</string>
     <string name="googleapp_settings">Settings</string>
-    <string name="googleapp_settings_about_link">About</string>
     <string name="googleapp_settings_about_title">About</string>
-    <string name="googleapp_settings_general_link">General</string>
-    <string name="googleapp_settings_language_and_region_link">Language &amp; region</string>
     <string name="googleapp_settings_language_and_region_title">Language &amp; region</string>
     <string name="googleapp_settings_legal_notices_title">Legal notices</string>
     <string name="googleapp_settings_location_terms_of_service_title">Location terms of service</string>
@@ -4937,9 +5071,7 @@ You'll see personal on-device search results from these apps and services. Only 
     <string name="googleapp_settings_privacy_policy_title">Privacy policy</string>
     <string name="googleapp_settings_search">Search</string>
     <string name="googleapp_settings_search_hint">Search in settings</string>
-    <string name="googleapp_settings_search_widget_link">Search Widget</string>
     <string name="googleapp_settings_terms_of_service_title">Terms of service</string>
-    <string name="googleapp_settings_voice_link">Voice</string>
     <string name="googleapp_settings_voice_title">Voice</string>
     <string name="googleapp_shopping_mode_landing_text">Search shopping</string>
     <string name="googleapp_show_waiting_text">Just a moment…</string>
@@ -4980,6 +5112,7 @@ You'll see personal on-device search results from these apps and services. Only 
     <string name="googleapp_sno_subscriptions_internal_error_header">Something went wrong</string>
     <string name="googleapp_sno_subscriptions_offline_error_message">To view and edit your subscriptions, you’ll need to connect to the network</string>
     <string name="googleapp_sound_search_search_a_song_hint">Search a song</string>
+    <string name="googleapp_srp_query_tiger">tiger</string>
     <string name="googleapp_stamp_viewer_actionbutton_feedback">Send feedback</string>
     <string name="googleapp_stamp_viewer_actionbutton_heart">Heart</string>
     <string name="googleapp_stamp_viewer_actionbutton_help_center">Help center</string>
@@ -4994,7 +5127,7 @@ You'll see personal on-device search results from these apps and services. Only 
     <string name="googleapp_stamp_viewer_error_title">Something went wrong</string>
     <string name="googleapp_stamp_viewer_overflow_menu_button_content_description">More options.</string>
     <string name="googleapp_stamp_viewer_overflow_menu_close">Close</string>
-    <string name="googleapp_stamp_viewer_preview_button_text">Continue full story</string>
+    <string name="googleapp_stamp_viewer_preview_button_text">Continue viewing</string>
     <string name="googleapp_stamp_viewer_preview_label">Preview</string>
     <string name="googleapp_stamp_viewer_publisher_cta">Visit</string>
     <string name="googleapp_stamp_viewer_retry_button_text">Try again</string>
@@ -5011,7 +5144,7 @@ You'll see personal on-device search results from these apps and services. Only 
     <string name="googleapp_tabs_manager_close_all_tabs_dialog_confirmation_button_label">Close all</string>
     <string name="googleapp_tabs_manager_close_all_tabs_dialog_confirmation_message">Are you sure you want to close all open tabs?</string>
     <string name="googleapp_tabs_manager_close_tab_button_default_description">close tab</string>
-    <string name="googleapp_tabs_manager_close_tab_button_description">close website %s - button</string>
+    <string name="googleapp_tabs_manager_close_tab_button_description">close website %s</string>
     <string name="googleapp_tabs_manager_empty_state_title">"You don't have any open tabs"</string>
     <string name="googleapp_tabs_manager_new_tab_button_description">start new search</string>
     <string name="googleapp_tabs_manager_new_tab_button_text">New tab</string>
@@ -5031,18 +5164,19 @@ You'll see personal on-device search results from these apps and services. Only 
     <string name="googleapp_voice_search_humming">Search songs by humming</string>
     <string name="googleapp_voice_search_tired_of_typing">Tired of typing? Search with your voice</string>
     <string name="googleapp_voice_search_with_voice">Search with your voice</string>
+    <string name="googleapp_voice_settings_assistant_title">Google Assistant</string>
     <string name="googleapp_voice_settings_languages_setting_check_content_description">Selected</string>
     <string name="googleapp_voice_settings_languages_setting_limit_reached_notice">"Limit reached. You can't select more languages."</string>
     <string name="googleapp_voice_settings_languages_setting_no_selection_notice">No language is selected.</string>
     <string name="googleapp_voice_settings_languages_setting_save_button_text">SAVE</string>
+    <string name="googleapp_voice_settings_languages_setting_summary_text_others">Others: </string>
+    <string name="googleapp_voice_settings_languages_setting_summary_text_primary">Primary: </string>
     <string name="googleapp_voice_settings_languages_setting_title">Languages</string>
     <string name="googleapp_voice_settings_offline_speech_recognition_setting_summary">Manage downloaded languages</string>
     <string name="googleapp_voice_settings_offline_speech_recognition_setting_title">Offline speech recognition</string>
     <string name="googleapp_voice_settings_spoken_results_setting_title">Spoken results</string>
-    <string name="googleapp_voice_settings_spoken_results_value_all_voices">All voice searches</string>
-    <string name="googleapp_voice_settings_spoken_results_value_hands_free_only">Hands-free searches only</string>
-    <string name="googleapp_voice_settings_voice_match_setting_summary">Talk to the Google Assistant to get things done</string>
-    <string name="googleapp_voice_settings_voice_match_setting_title">Voice Match</string>
+    <string name="googleapp_voice_settings_spoken_results_value_all_voices">On</string>
+    <string name="googleapp_voice_settings_spoken_results_value_hands_free_only">Off</string>
     <string name="googleapp_waa_disabled_tout_promo_description">Google Search privacy settings</string>
     <string name="googleapp_waa_disabled_tout_promo_header">"Your feed isn't based on your history"</string>
     <string name="googleapp_waa_disabled_tout_promo_subheader">Your Discover feed isn’t based on your history because your Web &amp; App Activity setting is off</string>
@@ -5202,6 +5336,8 @@ You'll see personal on-device search results from these apps and services. Only 
     <string name="hotword_disabled_motorola_aov">Another feature is using the microphone instead of \"%1$s\". Turn off Moto Voice to turn \"%1$s\" back on.</string>
     <string name="hotword_disabled_text">"For your Assistant languages, “Hey Google” won't work on your %1$s"</string>
     <string name="hotword_disabled_title">“Hey Google” unavailable for %1$s</string>
+    <string name="hotword_enrollment_battery_impact_disclosure_wear_os">“%1$s” uses more watch battery. You can turn off “%2$s” in Assistant settings.</string>
+    <string name="hotword_enrollment_battery_impact_disclosure_wear_os_for_unicorn">“%1$s” uses more watch battery. You can turn off “%2$s” in %3$s’s Assistant settings.</string>
     <string name="hotword_enrollment_button_more">More</string>
     <string name="hotword_enrollment_delete_voice_model">Delete voice model</string>
     <string name="hotword_enrollment_device_fast_update_progress_summary">Your Assistant is using your previously recorded voice clips to make a voice model for this device.</string>
@@ -5221,7 +5357,10 @@ You'll see personal on-device search results from these apps and services. Only 
     <string name="hotword_enrollment_enroll_text_opa_talkback">Activate the %1$s button below, and then say \"%2$s\" to train your assistant to learn your voice.</string>
     <string name="hotword_enrollment_enroll_text_opa_talkback_assistant_device">"To train your Assistant to recognize your voice, tap the START RECORDING button below, and then say the following when prompted:
 %1$s"</string>
+    <string name="hotword_enrollment_enroll_text_opa_tisid_talkback_assistant_device">Your Assistant will learn your voice on the next screen by saying a phrase and listening to the way you say it. Listen as your Assistant says the phrase. Then press the Start recording button and say the phrase out loud. To begin the process, tap %1$s.</string>
+    <string name="hotword_enrollment_enroll_tisid_talkback_next">Next</string>
     <string name="hotword_enrollment_fast_update_header_title">Activating Voice Match</string>
+    <string name="hotword_enrollment_feature_disabled">This feature has been disabled</string>
     <string name="hotword_enrollment_feature_disabled_by_admin">This feature has been disabled by your administrator</string>
     <string name="hotword_enrollment_from_fdl_google_home_share_screen_done">Done</string>
     <string name="hotword_enrollment_google_home_enrollment_intro_title_activate">Activate Voice Match on this device</string>
@@ -5249,8 +5388,8 @@ These previous recordings can be used to make a voice model on this device. This
 You can get answers just for you, too! Tap to sign into your device: g.co/voicematch"</string>
     <string name="hotword_enrollment_google_home_share_message_subject">Teach your Assistant to recognize you</string>
     <string name="hotword_enrollment_google_home_share_screen_done">Invite</string>
-    <string name="hotword_enrollment_google_home_skip_dialog_negative_button">Set up Voice Match</string>
-    <string name="hotword_enrollment_google_home_skip_dialog_positive_button">Finish</string>
+    <string name="hotword_enrollment_google_home_skip_dialog_negative_button">Remove</string>
+    <string name="hotword_enrollment_google_home_skip_dialog_positive_button">Set up Voice Match</string>
     <string name="hotword_enrollment_google_home_skip_dialog_title">"{PERSON}'s account will be removed from this device"</string>
     <string name="hotword_enrollment_google_home_summary_footer_text">You can view or delete voice activity in your %1$s. You can also turn off Voice Match in Assistant settings.</string>
     <string name="hotword_enrollment_google_home_tisid_enrollment_devices">"
@@ -5268,7 +5407,16 @@ If you decide later that Voice Match isn't for you, simply remove it in Assistan
     <string name="hotword_enrollment_intro_get_started_unicorn">Next</string>
     <string name="hotword_enrollment_intro_header_summary">Get hands-free help from Google Assistant</string>
     <string name="hotword_enrollment_intro_header_summary_oobe">{GENDER, select, male{%1$s can get hands-free help using his voice.} female{%1$s can get hands-free help using her voice.} other{%1$s can get hands-free help using their voice.}}</string>
-    <string name="hotword_enrollment_intro_header_summary_wear_os_battery_disclosure">Your watch will wait in standby mode to give you hands-free help</string>
+    <string name="hotword_enrollment_intro_header_summary_wear_os">"If you tap %1$s, your Assistant will standby to detect “%2$s” when your watch is fully awake.
+
+“%3$s” also requires Voice Match so your Assistant can recognize you."</string>
+    <string name="hotword_enrollment_intro_header_summary_wear_os_for_unicorn">"{GENDER, select, male {If you tap %1$s, %2$s’s Assistant will standby to detect “%3$s” when his watch is fully awake.
+
+“%4$s” also requires Voice Match so %5$s’s Assistant can recognize him.} female {If you tap %1$s, %2$s’s Assistant will standby to detect “%3$s” when her watch is fully awake.
+
+“%4$s” also requires Voice Match so %5$s’s Assistant can recognize her.} other {If you tap %1$s, %2$s’s Assistant will standby to detect “%3$s” when their watch is fully awake.
+
+“%4$s” also requires Voice Match so %5$s’s Assistant can recognize them.}}"</string>
     <string name="hotword_enrollment_intro_header_title">Access your Assistant with “%1$s”</string>
     <string name="hotword_enrollment_intro_header_title_glif_non_opa">Voice search any time</string>
     <string name="hotword_enrollment_intro_header_title_oobe">Let %1$s access Google Assistant with “%2$s”</string>
@@ -5291,6 +5439,8 @@ Voice Match allows Assistant to identify %1$s and tell them apart from others. T
 If you decide later that Voice Match isn’t right for %1$s, simply remove it in their Assistant Settings. To view or delete the audio clips %1$s records during Voice Match setup, go to activity.google.com from %1$s’s account. 
 
 Note: A similar voice or recording might be able to access %1$s’s personal results on your Assistant}}"</string>
+    <string name="hotword_enrollment_intro_misactivation_disclaimer_wear_os">Assistant may activate when you didn’t intend it to–for instance, when there is a noise that sounds like “%1$s.”</string>
+    <string name="hotword_enrollment_intro_misactivation_disclaimer_wear_os_for_unicorn">Assistant may activate when %1$s didn’t intend it to–for instance, when there is a noise that sounds like “%2$s.”</string>
     <string name="hotword_enrollment_intro_summary_glif_non_opa">"Say \"%1$s\" to talk to your device any time: even if your screen is off, or if you're using your favorite apps.&lt;br/>&lt;br/>A unique model of your voice will be created on this device, which will help Google Voice Search identify you and tell you apart from others.&lt;br/>&lt;br/>&lt;b>Keep in mind:&lt;/b> A similar voice or recording might be able to access Voice Search, too. You can remove permission later by turning it off in the Google app."</string>
     <string name="hotword_enrollment_intro_title_activate_hey_google">Activate Voice Match for %1$s</string>
     <string name="hotword_enrollment_intro_title_activate_hey_google_for_unicorn">Activate %1$s’s Voice Match</string>
@@ -5384,7 +5534,6 @@ These previous recordings can be used to make a voice model on this device. This
     <string name="hotword_enrollment_voice_match_next">Next</string>
     <string name="hotword_enrollment_voice_match_no_thanks">No thanks</string>
     <string name="hotword_enrollment_voice_match_skip">Skip</string>
-    <string name="hotword_enrollment_wear_os_battery_impact_disclosure">Standby mode uses more watch battery</string>
     <string name="hotword_enrollment_wrong_query">Try saying that again</string>
     <string name="hotword_model_download_notification_content">Updating voice model to better recognize when you say \"%1$s\"</string>
     <string name="hotword_model_download_notification_title">\"%1$s\" model update</string>
@@ -5820,6 +5969,7 @@ To view or delete the audio clips you recorded during Voice Match setup, go to %
     <string name="learn_more_link">&lt;a href=\"%s\">Learn more&lt;/a></string>
     <string name="learn_more_link_talkback_action_name">learn more about this setting</string>
     <string name="learn_more_link_text">Learn more</string>
+    <string name="learn_more_popup_text">&lt;a href=\"%1$s\">Learn more&lt;/a></string>
     <string name="learn_opa_notification_content">Take your Google Assistant for a test drive</string>
     <string name="learn_opa_notification_title">"Here's the reminder you asked for"</string>
     <string name="legal_notices_url">https://m.google.com/legalnotices</string>
@@ -5968,14 +6118,13 @@ To view or delete the audio clips you recorded during Voice Match setup, go to %
     <string name="lens_info_panel_on_device_chip_share_translate_content_description">Share translated image</string>
     <string name="lens_info_panel_on_device_chip_translate">Translate</string>
     <string name="lens_info_panel_on_device_chip_translate_content_description">Translate selected text</string>
-    <string name="lens_info_panel_on_device_no_text_header_title">No text found</string>
     <string name="lens_info_panel_on_device_results_header_limited_functionality">Some features not available</string>
     <string name="lens_info_panel_on_device_results_header_offline">Offline</string>
     <string name="lens_info_panel_on_device_text_header_title">Text found in image</string>
     <string name="lens_info_panel_on_device_translation_header_title">Translated text</string>
+    <string name="lens_info_panel_partial_translate_enabled_header_title">Original text</string>
     <string name="lens_info_panel_processing_message">Loading…</string>
     <string name="lens_info_panel_quoted_title">\"%1$s\"</string>
-    <string name="lens_info_panel_select_text_to_translate_header_title">Select text to translate</string>
     <string name="lens_kilometers_indicator">%s km</string>
     <string name="lens_latex_input_hint">Type a math problem</string>
     <string name="lens_launcher_description">Camera search</string>
@@ -6075,6 +6224,7 @@ To view or delete the audio clips you recorded during Voice Match setup, go to %
     <string name="lens_sample_images_translate_card_text_short">Translate images</string>
     <string name="lens_search_bar_hint">Enter restaurant name</string>
     <string name="lens_search_filter_name">Search</string>
+    <string name="lens_selection_state_guidance_message_on_device_translation">Tap on text to translate</string>
     <string name="lens_share_to_lens_label">Search image</string>
     <string name="lens_share_translate_message">Translated with Google Lens. Try it yourself!</string>
     <string name="lens_shopping_filter_guidance_message">Take a photo of products or barcodes</string>
@@ -6199,16 +6349,12 @@ To view or delete the audio clips you recorded during Voice Match setup, go to %
     <string name="local_intent_search">Looks like you are trying to find a location while offline.</string>
     <string name="local_results_map_description">Map of %1$s</string>
     <string name="location">Location</string>
-    <string name="location_added_snackbar_text">Location added</string>
-    <string name="location_default_error">Something went wrong. Please try again later.</string>
     <string name="location_feedback_button_heading">For location card, please click “LOCATION CARD FEEDBACK FORM”.</string>
     <string name="location_feedback_button_text">Location card feedback form</string>
     <string name="location_intro_card_subtitle">Tap to enable</string>
     <string name="location_intro_card_title" />
     <string name="location_name">Name</string>
-    <string name="location_not_saved_snackbar_text">%s was not saved.</string>
     <string name="location_permission_toast">Google Search and the Assistant may use your location (including in the background) to provide locally-relevant results and features.</string>
-    <string name="location_removed_snackbar_text">Location removed</string>
     <string name="location_setting_preference">location_setting</string>
     <string name="location_setting_title">Location</string>
     <string name="location_tos_url">https://www.google.co.kr/policies/terms/location</string>
@@ -6240,15 +6386,20 @@ For help with personal info, like calling and messaging your contacts, turn on V
     <string name="logo_view_description">Voice search</string>
     <string name="long_accessible_way_to_add">Double-tap &amp; hold to pick up a widget or use custom actions.</string>
     <string name="long_press_widget_to_add">Touch &amp; hold to pick up a widget.</string>
-    <string name="m3_ref_typeface_brand_regular">sans-serif</string>
-    <string name="m3_ref_typeface_plain_medium">sans-serif-medium</string>
-    <string name="m3_ref_typeface_plain_regular">sans-serif</string>
     <string name="m3_sys_motion_easing_emphasized">path(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1)</string>
     <string name="m3_sys_motion_easing_emphasized_path_data">M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1</string>
     <string name="m3_sys_motion_easing_legacy_accelerate">cubic-bezier(0.4, 0.0, 1.0, 1.0)</string>
     <string name="m3_sys_motion_easing_legacy_decelerate">cubic-bezier(0.0, 0.0, 0.2, 1.0)</string>
     <string name="m3_sys_motion_easing_linear">cubic-bezier(0.0, 0.0, 1.0, 1.0)</string>
     <string name="m3_sys_motion_easing_standard">cubic-bezier(0.2, 0.0, 0.0, 1.0)</string>
+    <string name="ma_screenshot_delete_action">Delete</string>
+    <string name="ma_screenshot_edit_action">Edit</string>
+    <string name="ma_screenshot_notifications_channel_description">Channel for TNG:MA take screenshot client op notifications</string>
+    <string name="ma_screenshot_notifications_channel_name">TNG:MA take screenshot client op notifications channel</string>
+    <string name="ma_screenshot_saving_title">Saving screenshot…</string>
+    <string name="ma_screenshot_share_action">Share</string>
+    <string name="ma_screenshot_taken_content">Tap to view the screenshot</string>
+    <string name="ma_screenshot_taken_title">Screenshot saved</string>
     <string name="magic_flashlight_off">Nox</string>
     <string name="magic_flashlight_on">Lumos</string>
     <string name="mailbox_accessibility_name">mailbox</string>
@@ -6256,7 +6407,6 @@ For help with personal info, like calling and messaging your contacts, turn on V
     <string name="main_page_title">Shortcuts</string>
     <string name="make_a_call_text">"Make a 
 call"</string>
-    <string name="manage_accounts">Manage accounts</string>
     <string name="manage_activity_button_text">Manage history</string>
     <string name="manage_all_assistant_settings">Manage all Assistant settings</string>
     <string name="manage_apps_title">Manage apps &amp; services</string>
@@ -6327,6 +6477,7 @@ call"</string>
     <string name="mdd_notification_action_cancel">Cancel</string>
     <string name="mdd_notification_download_failed">Download failed</string>
     <string name="mdd_notification_download_paused">Waiting for network connection</string>
+    <string name="mdd_notification_download_paused_wifi">Waiting for WiFi connection</string>
     <string name="mdd_notification_download_success">Downloaded</string>
     <string name="media_artist_a11y">%1$s, artist</string>
     <string name="media_assistant_logo_a11y">Click to speak</string>
@@ -6563,6 +6714,14 @@ play %s”"</string>
     <string name="mtrl_picker_toggle_to_day_selection">Tap to switch to selecting a day</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Switch to text input mode</string>
     <string name="mtrl_picker_toggle_to_year_selection">Tap to switch to selecting a year</string>
+    <string name="mtrl_switch_thumb_group_name">circle_group</string>
+    <string name="mtrl_switch_thumb_path_checked">M4,16 A12,12 0 0,1 16,4 H16 A12,12 0 0,1 16,28 H16 A12,12 0 0,1 4,16</string>
+    <string name="mtrl_switch_thumb_path_morphing">M0,16 A11,11 0 0,1 11,5 H21 A11,11 0 0,1 21,27 H11 A11,11 0 0,1 0,16</string>
+    <string name="mtrl_switch_thumb_path_name">circle</string>
+    <string name="mtrl_switch_thumb_path_pressed">M2,16 A14,14 0 0,1 16,2 H16 A14,14 0 0,1 16,30 H16 A14,14 0 0,1 2,16</string>
+    <string name="mtrl_switch_thumb_path_unchecked">M8,16 A8,8 0 0,1 16,8 H16 A8,8 0 0,1 16,24 H16 A8,8 0 0,1 8,16</string>
+    <string name="mtrl_switch_track_decoration_path">M1,16 A15,15 0 0,1 16,1 H36 A15,15 0 0,1 36,31 H16 A15,15 0 0,1 1,16</string>
+    <string name="mtrl_switch_track_path">M0,16 A16,16 0 0,1 16,0 H36 A16,16 0 0,1 36,32 H16 A16,16 0 0,1 0,16</string>
     <string name="mtrl_timepicker_cancel">Cancel</string>
     <string name="mtrl_timepicker_confirm">OK</string>
     <string name="multi_cooker_accessibility_name">multi cooker</string>
@@ -6603,7 +6762,6 @@ Discover and control all your Google searches and more in My Activity."</string>
     <string name="network_connection_unstable">Looks like your network connection is not stable. My apologies, please try again.</string>
     <string name="network_error">"Can't reach Google at the moment."</string>
     <string name="network_error_airplane_mode_tts">"There's no Internet connection right now because you're in airplane mode."</string>
-    <string name="network_error_fetching_weather_data_status_text">Network currently unavailable</string>
     <string name="network_error_no_connection_tts">"There's no Internet connection at the moment."</string>
     <string name="network_error_try_again">Try again</string>
     <string name="never">Never</string>
@@ -7197,11 +7355,12 @@ Later, if you select a different app as your provider, your existing %1$s notes 
     <string name="notification_modal_text">New episodes notifications</string>
     <string name="notification_okay">Okay</string>
     <string name="notification_override_key">notificationOverride</string>
+    <string name="notification_permission_modal_description">To hear your messages and silence your calls, allow the Google App to access your notifications.</string>
+    <string name="notification_permission_modal_title">Allow notification access for Google?</string>
     <string name="notification_permissions_button">Allow access</string>
     <string name="notification_permissions_description">Let the Google app access your messaging &amp; Do Not Disturb settings?</string>
     <string name="notification_settings">SETTINGS</string>
     <string name="notification_sound_preference">notificationSoundPreference</string>
-    <string name="notification_state_text_expired">"Time's up"</string>
     <string name="notification_subscriptions_header">Notifications you opted into</string>
     <string name="notification_subscriptions_summary">You’ve chosen to get updates about these things</string>
     <string name="notification_text">To hear your messages, calendar events, and other important info, give the Google app access to your notifications.</string>
@@ -7472,12 +7631,6 @@ Drag to move or dismiss."</string>
     <string name="opa_consent_check_error_title">Something went wrong</string>
     <string name="opa_consent_check_error_title_confirmreject">Get the full Assistant experience with these settings</string>
     <string name="opa_consent_check_error_title_notavailable">The Google Assistant isn’t available for this account</string>
-    <string name="opa_contextual_cards_found_message">Here’s some info related to this screen:</string>
-    <string name="opa_contextual_cards_found_proactive_message">By the way, here’s what I found related to this screen:</string>
-    <string name="opa_contextual_cards_network_error">"Can't reach Google right now."</string>
-    <string name="opa_contextual_cards_no_cards_message">"I can't find anything on your screen I can help with. Try tapping the mic to ask me anything."</string>
-    <string name="opa_contextual_cards_nothing_found_card_text">Nothing found on screen</string>
-    <string name="opa_contextual_cards_offline_indicator">"Your phone's offline, so I can't help you at the moment."</string>
     <string name="opa_contextual_cards_share_screenshot_error">Looks like something went wrong. Give it another try.</string>
     <string name="opa_continued_conversation_optin_screen_allow_button_text">"Yes I'm in"</string>
     <string name="opa_continued_conversation_optin_screen_disallow_button_text">No thanks</string>
@@ -7728,11 +7881,6 @@ You can turn off personal results in Assistant settings."</string>
     <string name="opa_rich_input_navigate_home">Navigate Home</string>
     <string name="opa_rich_input_navigate_work">Navigate Work</string>
     <string name="opa_rich_input_set_reminder">Set a reminder</string>
-    <string name="opa_screen_read_it">Read it</string>
-    <string name="opa_screen_read_this_page">Read this page</string>
-    <string name="opa_screen_search_instant">What music is playing now?</string>
-    <string name="opa_screen_search_more_screen_context_action">More from my screen</string>
-    <string name="opa_screen_search_screen_context_action">"What's on my screen?"</string>
     <string name="opa_screen_search_share_screenshot_action">Share screenshot</string>
     <string name="opa_screenless_nav_opt_in_notification_body">When navigating, you can use your voice to talk to the Google Assistant</string>
     <string name="opa_screenless_nav_opt_in_notification_title">Use the Google Assistant while navigating</string>
@@ -7940,6 +8088,7 @@ You'll always hear non-personal results you've chosen, like weather or news."</s
     <string name="payments_auth_too_many_fingerprint_retries_should_use_password">Too many tries. Enter password instead.</string>
     <string name="payments_auth_use_biometric_checkbox_hint">Use this device to confirm future payments with your fingerprint, face, or a similar method.</string>
     <string name="payments_auth_use_fingerprint_checkbox_hint">Use fingerprint for future approvals</string>
+    <string name="pending_fragment_error_toast">Something went wrong, please try again later</string>
     <string name="peoplekit_about_suggested_people_hide_info">"You can hide suggestions you don't want to see."</string>
     <string name="peoplekit_about_suggested_people_info">Google suggests people based on your interactions.</string>
     <string name="peoplekit_about_top_suggestions">About suggested people</string>
@@ -8178,6 +8327,7 @@ Ask me something!"</string>
     <string name="phone_pr_title">Your phone</string>
     <string name="phone_voice_match_settings_delete_voice_model_summary">Remove your Voice Match model from this device. This will also turn off “%1$s.”</string>
     <string name="phone_voice_match_settings_delete_voice_model_title">Delete Voice Match model</string>
+    <string name="phone_voice_match_settings_not_supported_error">Hey Google is not supported on this device.</string>
     <string name="phone_voice_match_settings_retrain_summary">Train the Assistant to recognize your voice again</string>
     <string name="phone_voice_match_settings_retrain_title">Retrain Voice Match model</string>
     <string name="photo_downloading_error_toast_text">Error downloading photos</string>
@@ -8519,6 +8669,7 @@ tap here"</string>
     <string name="prefTitle_voiceSearch_bluetooth">Bluetooth audio recording</string>
     <string name="prefTitle_wiredHeadset">Allow wired headset requests with device locked</string>
     <string name="prefValue_ttsMode_always_hub">allVoiceSearchesHub</string>
+    <string name="prefValue_ttsMode_brief">brief</string>
     <string name="prefValue_ttsMode_handsFreeOnly">handsFreeOnly</string>
     <string name="prefValue_ttsMode_handsFreeOnly_hub">handsFreeOnlyHub</string>
     <string name="prefValue_ttsMode_on">always</string>
@@ -8630,6 +8781,7 @@ If you make this change, you will get:"</string>
     <string name="pronunciationlearning_practice_button_oobe">Practice and get feedback</string>
     <string name="pronunciationlearning_pronounced_phoneme_title">"Sounds like you said
 "</string>
+    <string name="pronunciationlearning_try_again_button_text">Try again</string>
     <string name="pronunciationlearning_tts_button_description">hear text pronunciation</string>
     <string name="provider_selection_failure_dialog_title">Cannot complete that operation right now</string>
     <string name="publicServiceLabel">Google Public</string>
@@ -8640,13 +8792,13 @@ If you make this change, you will get:"</string>
     <string name="punt_for_personal_results">"For me to help you with that, you'll need to allow personal results in this car. When it's safe, you can do so in Assistant settings."</string>
     <string name="punt_for_signed_out">"For that, you'll need to sign in with your Google account. When it's safe, check your car notification for the next step."</string>
     <string name="punt_home_alias_unset">"It looks like I don't have your home address. You can get directions to home by telling me your address instead."</string>
-    <string name="punt_max_volume">Sorry, setting the volume to maximum or increasing it to 100% is currently not supported on this device.</string>
     <string name="punt_missing_call_permission">It looks like calling isn’t switched on. When it’s safe, look for the Bluetooth settings on your phone, and choose your car to turn it on.</string>
     <string name="punt_missing_message_permission">It looks like text messaging isn’t switched on. When it’s safe, look for the Bluetooth settings on your phone, and choose your car to turn it on.</string>
     <string name="punt_non_percentage_volume_control">In the car, setting the volume works by percentage, so you can say things like Set the volume to 25%.</string>
     <string name="punt_offline_music">"It looks like there's no connection, so I can't play it for you."</string>
     <string name="punt_open_app">Sorry, this app is not installed or available at the moment.</string>
     <string name="punt_open_unsafe_for_drving_app">"Sorry, that app isn't safe to use while driving."</string>
+    <string name="punt_set_volume_beyond_threshold">For safety reasons, I can’t set the volume that high in your vehicle. You can ask me to set it as high as %1$d%%</string>
     <string name="punt_work_alias_unset">"It looks like I don't have your work address. You can get directions to work by telling me your address instead."</string>
     <string name="qp_bottom_baseball_inning">Bot %1$d</string>
     <string name="qp_precip">Precip %1$s</string>
@@ -8659,7 +8811,6 @@ If you make this change, you will get:"</string>
     <string name="qp_weather_unit_abbrev_celsius">C</string>
     <string name="qp_weather_unit_abbrev_fahrenheit">F</string>
     <string name="qp_wind_speed">Wind %1$d%2$s</string>
-    <string name="qpf_label">Quantitative Precipitation Forecast: %s</string>
     <string name="qr_wifi_error_could_not_connect">You need to manually connect to %s</string>
     <string name="qr_wifi_error_generic_error">"Can't connect to Wi-Fi"</string>
     <string name="qr_wifi_error_no_permissions">App needs to request Wi-Fi permission</string>
@@ -8702,6 +8853,7 @@ If you make this change, you will get:"</string>
     <string name="quick_phrases_tab_this_phone">This phone</string>
     <string name="quoted_query">“%1$s”</string>
     <string name="radiator_accessibility_name">radiator</string>
+    <string name="rain_reminder_display">Expect rain around %1$s</string>
     <string name="rating_1">Very dissatisfied</string>
     <string name="rating_2">Dissatisfied</string>
     <string name="rating_3">Neutral</string>
@@ -8712,7 +8864,6 @@ If you make this change, you will get:"</string>
     <string name="rating_very_dissatisfied">Very dissatisfied</string>
     <string name="rating_very_satisfied">Very satisfied</string>
     <string name="rating_views_content_description">%1$d out of five</string>
-    <string name="reached_max_locations_removal_dialog_title">You can save up to 8. To save a new location, remove one.</string>
     <string name="reaction_ads_show_more">More <b>ads</b> like that coming your way</string>
     <string name="reaction_modal_close_action">Close</string>
     <string name="reaction_show_more">More like that coming your way</string>
@@ -8860,7 +9011,6 @@ This won't delete them from your Google Account."</string>
     <string name="remove_all_devices_button_text">Remove Face Match from all devices</string>
     <string name="remove_all_played">Remove played</string>
     <string name="remove_all_week_old">Remove %1$d+ days old</string>
-    <string name="remove_button_text">Remove</string>
     <string name="remove_completed_episodes">Remove completed episodes</string>
     <string name="remove_download">Remove download</string>
     <string name="remove_from_history_failed">"Couldn't remove item from history."</string>
@@ -8882,6 +9032,7 @@ This won't delete them from your Google Account."</string>
     <string name="repeat_notification">Okay, here it is again. It says</string>
     <string name="replay_count_down">Replaying in &lt;b>%1$d&lt;/b>…</string>
     <string name="reply">Reply</string>
+    <string name="reply_button_string">Reply</string>
     <string name="reply_button_text">Reply</string>
     <string name="reply_message_notice">Sending message</string>
     <string name="report_other_option">Other</string>
@@ -8945,6 +9096,7 @@ This won't delete them from your Google Account."</string>
     <string name="salsa_unavailable">"Quick phrases aren't available right now. &lt;a href=%1$s>Learn more&lt;/a>"</string>
     <string name="salsa_unsupported_locale">"Quick phrases aren't available in your current language. &lt;a href=%1$s>Learn more&lt;/a>"</string>
     <string name="samson_title_loading">Checking…</string>
+    <string name="sans_serif">sans-serif</string>
     <string name="saturation_seek_bar_description">Saturation</string>
     <string name="save_action">Add to collection</string>
     <string name="save_button">Save</string>
@@ -8996,7 +9148,7 @@ This won't delete them from your Google Account."</string>
     <string name="sceneviewer_get_help">Get help</string>
     <string name="sceneviewer_get_help_button_content_description">Get Help</string>
     <string name="sceneviewer_immersive_edge_fallback_dialog_confirm_button">Go</string>
-    <string name="sceneviewer_immersive_edge_fallback_dialog_message">No connection. You will be redirected to &lt;b> %1$s &lt;/b></string>
+    <string name="sceneviewer_immersive_edge_fallback_dialog_message">No connections available. Redirecting you to &lt;b>%1$s&lt;/b>. Please try again in a few minutes.</string>
     <string name="sceneviewer_immersive_edge_fallback_dialog_title">Connection lost</string>
     <string name="sceneviewer_immersive_edge_redirect_dialog_cancel_button">Cancel</string>
     <string name="sceneviewer_immersive_edge_redirect_dialog_confirm_button">OK</string>
@@ -9029,7 +9181,6 @@ This won't delete them from your Google Account."</string>
     <string name="search_apps_web_and_more">Search apps, web, and more…</string>
     <string name="search_box_content_description">Search…</string>
     <string name="search_box_hint">Search…</string>
-    <string name="search_box_hint_for_places_and_web">Search places</string>
     <string name="search_bubble_notification_description">To keep displaying Google Search Bubble.</string>
     <string name="search_bubble_notification_header">Google Search Bubble</string>
     <string name="search_bubble_optin_prompt_cancel_text">Remove</string>
@@ -9064,8 +9215,6 @@ Try searching for the podcast again."</string>
     <string name="search_notifications">Notifications</string>
     <string name="search_now_activity_allow_task_reparenting">true</string>
     <string name="search_now_activity_task_affinity">com.google.android.googlequicksearchbox</string>
-    <string name="search_plate_accessibility_search_button">Search</string>
-    <string name="search_plate_accessibility_voice_search_button">Search</string>
     <string name="search_plate_tooltip_text">Ask your Assistant</string>
     <string name="search_region_country_code_default" />
     <string name="search_region_default">Current Region (default)</string>
@@ -9118,6 +9267,7 @@ Flip open for more."</string>
     <string name="select_address_title">Choose a delivery address</string>
     <string name="select_all_episodes">Select all</string>
     <string name="select_assistant_language">Select your Assistant Language.</string>
+    <string name="select_day">Select month and day</string>
     <string name="select_feedback_category">Select feedback category</string>
     <string name="select_google_account">Google Account</string>
     <string name="select_google_account_add_account">Add account</string>
@@ -9129,6 +9279,7 @@ Flip open for more."</string>
     <string name="select_instrument_message">Google Pay keeps your payment info safe, so you can pay with your Assistant anywhere, anytime.</string>
     <string name="select_instrument_title">Choose a payment method</string>
     <string name="select_wifi_network_button_text">Select a Wi-Fi network</string>
+    <string name="select_year">Select year</string>
     <string name="selectable_search_widget_initializing">Initializing…</string>
     <string name="selected_account">Signed in to %1$s</string>
     <string name="selected_interest">Added to your interests</string>
@@ -9162,7 +9313,6 @@ Flip open for more."</string>
     <string name="sensitive_state_dump_title">Detailed debugging information</string>
     <string name="sensor_accessibility_name">sensor</string>
     <string name="server_error">"Can't reach Google at the moment."</string>
-    <string name="server_error_fetching_weather_data_status_text">Something went wrong. Please try again later.</string>
     <string name="serviceLabel">Google</string>
     <string name="set_alarm">Set alarm</string>
     <string name="set_duration">Set duration</string>
@@ -9258,11 +9408,6 @@ Flip open for more."</string>
 Your shopping lists will be saved by your Assistant (managed by Google Shopping)."</string>
     <string name="shopping_list_category_title_v2">Shopping services</string>
     <string name="shopping_mode_landing_text">Search shopping</string>
-    <string name="short_google_play_services_enable_required">Google Play services needs to be enabled</string>
-    <string name="short_google_play_services_install_required">Google Play services needs to be installed</string>
-    <string name="short_google_play_services_missing_permission">Google Play service doesn’t have one or more required permissions.</string>
-    <string name="short_google_play_services_unsupported">Google Play services is not supported by your device</string>
-    <string name="short_google_play_services_update_required">Google Play services needs to be updated</string>
     <string name="shortcut_creation_confirmation_text">Shortcut created. Next time just say,</string>
     <string name="shortcut_not_available">"Shortcut isn't available"</string>
     <string name="shortcut_phrase_label">When you say:</string>
@@ -9295,7 +9440,6 @@ This show is not available right now."</string>
     <string name="shower_accessibility_name">shower</string>
     <string name="shutter_accessibility_name">shutter</string>
     <string name="sidekick_network_error">Network error. Check your network connections and try again.</string>
-    <string name="sign_in">Sign in</string>
     <string name="sign_in_accept">Sign in</string>
     <string name="sign_in_error_description">It looks like there was an error signing in to your account</string>
     <string name="sign_in_message">Sign in to access your podcasts and listening history on other devices</string>
@@ -9350,6 +9494,7 @@ To manually sleep or wake your Pixel Buds, "<b>triple tap</b> the right earbud.<
     <string name="smarspace_weather_settings_toggle_summary">Current weather information</string>
     <string name="smarspace_weather_settings_toggle_title">Weather</string>
     <string name="smartaction_button_icon_content_description">Icon associated with the selected smart action.</string>
+    <string name="smartsetup_deeplink_version_too_old">This feature is not supported on your device</string>
     <string name="smartspace_alarm_summary">Next upcoming alarm alerts</string>
     <string name="smartspace_alarm_title">Alarm</string>
     <string name="smartspace_assistant_logo_ally">Google Assistant Logo</string>
@@ -9401,9 +9546,11 @@ To manually sleep or wake your Pixel Buds, "<b>triple tap</b> the right earbud.<
     <string name="snooze_success">Reminder snoozed.</string>
     <string name="snooze_ten_min_short">10 minutes</string>
     <string name="snooze_until_tomorrow_short">Tomorrow</string>
+    <string name="snow_reminder_display">Expect snow around %1$s</string>
     <string name="snowman_content">"You can hide stories or topics you're not interested in"</string>
     <string name="soccer_shootout">Shootout</string>
     <string name="solid">Solid</string>
+    <string name="someone_else_text">Someone else</string>
     <string name="sorry_string">"I'm sorry?"</string>
     <string name="sort_description">Sorted by: %1$s</string>
     <string name="sound_search_gms_disable">0:disabled</string>
@@ -9445,10 +9592,19 @@ To manually sleep or wake your Pixel Buds, "<b>triple tap</b> the right earbud.<
     <string name="speech_output_keywords">speech output, hands-free, hands free, handsfree</string>
     <string name="speech_output_subtitle">Choose how conversational your Assistant will be</string>
     <string name="speech_output_title">Speech output</string>
+    <string name="speech_personalization_dialog_cancel">Cancel</string>
+    <string name="speech_personalization_dialog_opt_out_message">If you turn this off, your Assistant will be less accurate at recognizing names and other words that you say frequently. All audio used to improve speech recognition for you will be deleted from this device.</string>
+    <string name="speech_personalization_dialog_opt_out_title">Turn off personalized speech recognition?</string>
+    <string name="speech_personalization_dialog_turn_off">Turn off</string>
+    <string name="speech_personalization_subtitle">How Assistant gets better at recognizing your frequent words &amp; names</string>
+    <string name="speech_personalization_title">Personalized speech recognition</string>
+    <string name="speech_personalization_toggle_description">Store audio recordings on this device to help Google Assistant get better at recognizing what you say. Audio stays on this device and can be deleted any time by turning off personalized speech recognition. &lt;a href=\"%1$s\">Learn more&lt;/a></string>
+    <string name="speech_personalization_toggle_text">Personalized speech recognition</string>
     <string name="speedbump_eco_mode_message">Your home is set to Away and currently using Eco temperatures. The thermostat will use the new temperature for 2 hours then go back to Eco temperatures.</string>
     <string name="speedbump_eco_mode_negative_button_text">No</string>
     <string name="speedbump_eco_mode_positive_button_text">Yes</string>
     <string name="speedbump_eco_mode_title">Are you sure?</string>
+    <string name="speedbump_prompt_text">Tap the mic to get started</string>
     <string name="speedbump_rush_hour_linkified_text">Learn more</string>
     <string name="speedbump_rush_hour_message">"You're currently in a Rush Hour, when your thermostat helps you save when energy demand is at its highest.
 
@@ -9805,9 +9961,6 @@ Anyone in front of a smart display will see your proactive personalized recommen
     <string name="systemcontrol_light_off_status">Off</string>
     <string name="systemcontrol_light_on_status">On</string>
     <string name="systemcontrol_percentage_format">%1$.0f%%</string>
-    <string name="tab_title_10_days">10 days</string>
-    <string name="tab_title_today">Today</string>
-    <string name="tab_title_tomorrow">Tomorrow</string>
     <string name="tablet_accessibility_name">tablet</string>
     <string name="tactile_add_action_button_title">Add action</string>
     <string name="tactile_all_results_title">All results</string>
@@ -10234,40 +10387,34 @@ Improve your car accessory experience by sending diagnostics, usage data, and cr
     <string name="ui_numericpinpad_number_two">2</string>
     <string name="ui_numericpinpad_number_zero">0</string>
     <string name="umbrella_accessibility_name">umbrella</string>
-    <string name="unable_to_save_location_snackbar_text">Unable to save location. Please try again later.</string>
-    <string name="unable_to_show_locations_text">Unable to show locations</string>
-    <string name="unable_to_show_weather_for_location_error">Unable to show weather info for this location.</string>
-    <string name="unable_to_show_weather_for_specific_location_error">Unable to show weather info for %s.</string>
     <string name="unblock_show_from_recommendations">Unblock show from recommendations</string>
     <string name="undo">Undo</string>
     <string name="undo_action">Undo</string>
     <string name="undo_button_text">Undo</string>
     <string name="undo_dismiss_message_default">Done</string>
-    <string name="undo_snackbar_action">Undo</string>
     <string name="undo_string">Undo</string>
     <string name="unicorn_consent_screen_message">The Assistant uses Face Match to tell %1$s apart from others. When they approach the Nest Hub Max we will use their face to personalize the experience for them.</string>
     <string name="unicorn_consent_screen_title">Allow the Assistant to recognize %1$s face</string>
     <string name="unicorn_hand_off_screen_message">{GENDER, select, male {When you’re ready, pass the device to {PERSON} to create his face model and stick around to help with what’s next.} female {When you’re ready, pass the device to {PERSON} to create her face model and stick around to help with what’s next.} other {When you’re ready, pass the device to {PERSON} to create their face model and stick around to help with what’s next.}}</string>
     <string name="unicorn_hand_off_screen_title">Allow the Assistant to recognize %1$s face</string>
-    <string name="unicorn_handoff_img_content_desc">Hand Over the Device</string>
     <string name="unicorn_hotword_enrollment_google_home_oobe_skip_dialog_message">If you skip this step, Google Home will be unable to differentiate {PERSON} from others in your home.</string>
-    <string name="unicorn_hotword_enrollment_google_home_skip_dialog_message">"{GENDER, select, male{Without Voice Match, {PERSON}’s Google Account will be unlinked from this device and he won’t get a personalized experience. 
+    <string name="unicorn_hotword_enrollment_google_home_skip_dialog_message">"{GENDER, select, male{Without Voice Match, {PERSON}’s Google Account will be unlinked from this device and he won’t get parental controls or a personalized experience. 
 
 You can always turn Voice Match on for this device through Family Link or through the settings in {PERSON}’s Google Home app or Google Assistant app. 
 
-When you teach Assistant to recognize {PERSON}’s voice, he’ll get a more personalized experience and Google is able to enforce certain content restrictions. He’ll be able to see things on home devices like his calendar and contacts. 
+Because Assistant can no longer recognize {PERSON}, he will be treated like a guest or any person that Assistant doesn’t recognize. That means Assistant also can’t use parental controls if they were set up for {PERSON}. 
 
-To add {PERSON} back to your home devices, teach Google to recognize {PERSON}’s voice.} female{Without Voice Match, {PERSON}’s Google Account will be unlinked from this device and she won’t get a personalized experience. 
-
-You can always turn Voice Match on for this device through Family Link or through the settings in {PERSON}’s Google Home app or Google Assistant app. 
-
-When you teach Assistant to recognize {PERSON}’s voice, she’ll get a more personalized experience and Google is able to enforce certain content restrictions. She’ll be able to see things on home devices like her calendar and contacts. 
-
-To add {PERSON} back to your home devices, teach Google to recognize {PERSON}’s voice.} other{Without Voice Match, {PERSON}’s Google Account will be unlinked from this device and they won’t get a personalized experience. 
+To add {PERSON} back to your home devices, teach Google to recognize {PERSON}’s voice.} female{Without Voice Match, {PERSON}’s Google Account will be unlinked from this device and she won’t get parental controls or a personalized experience. 
 
 You can always turn Voice Match on for this device through Family Link or through the settings in {PERSON}’s Google Home app or Google Assistant app. 
 
-When you teach Assistant to recognize {PERSON}’s voice, they’ll get a more personalized experience and Google is able to enforce certain content restrictions. They’ll be able to see things on home devices like their calendar and contacts. 
+Because Assistant can no longer recognize {PERSON}, she will be treated like a guest or any person that Assistant doesn’t recognize. That means Assistant also can’t use parental controls if they were set up for {PERSON}. 
+
+To add {PERSON} back to your home devices, teach Google to recognize {PERSON}’s voice.} other{Without Voice Match, {PERSON}’s Google Account will be unlinked from this device and they won’t get parental controls or a personalized experience. 
+
+You can always turn Voice Match on for this device through Family Link or through the settings in {PERSON}’s Google Home app or Google Assistant app. 
+
+Because Assistant can no longer recognize {PERSON}, they will be treated like a guest or any person that Assistant doesn’t recognize. That means Assistant also can’t use parental controls if they were set up for {PERSON}. 
 
 To add {PERSON} back to your home devices, teach Google to recognize {PERSON}’s voice.}}"</string>
     <string name="unified_ime_recognition_locale_toast">Using %1$s for recognition</string>
@@ -10276,14 +10423,16 @@ To add {PERSON} back to your home devices, teach Google to recognize {PERSON}’
     <string name="unified_opt_in_settings_dialog_item2">Your audio recordings may also be stored on your devices when the Assistant nearly activates.</string>
     <string name="unified_opt_in_settings_dialog_item3">"Saved recordings and images will be used to improve Google's speech and activation technologies."</string>
     <string name="unified_opt_in_settings_dialog_item4">Saved recordings and images include associated data, like how a device is configured, how and when an interaction with Assistant happens, and whether device activation is successful.</string>
-    <string name="unified_opt_in_settings_dialog_item5">Voice recordings from near activations happen without the device indicating anything. Assistant may incorrectly detect an activation. Turning off this setting here will clear voice recordings and images on this device. This consent can be withdrawn anytime.</string>
-    <string name="unified_opt_in_settings_improve_activation_toggle_text">Save audio recordings and images from your devices, as well as future devices added to your account, and help Google improve Assistant activation for everyone. Your audio recordings and images stay on your device while a privacy preserving technology combines information from you and many other participants to help Assistant learn over time and develop better smart features.</string>
+    <string name="unified_opt_in_settings_dialog_item5">Voice recordings from near activations happen without the device indicating anything. Assistant may incorrectly detect an activation. Turning off this setting here will clear voice recordings and images on this device. This consent can be withdrawn anytime at Assistant Settings > Help Improve Assistant</string>
+    <string name="unified_opt_in_settings_dialog_title">Audio recordings and images will be saved on your devices that use this feature, whenever Assistant activates or nearly activates, so Google can improve how Assistant activates over time</string>
+    <string name="unified_opt_in_settings_improve_activation_toggle_text">"Save audio recordings and images from your devices, as well as future devices added to your account, and help Google improve Assistant activation for everyone. 
+ Your audio recordings and images stay on your device while a privacy preserving technology combines information from you and many other participants to help Assistant learn over time and develop better smart features. &lt;a href=\"%1$s\">Learn more&lt;/a>"</string>
     <string name="unified_opt_in_settings_improve_activation_toggle_title">Improve how Google activates Assistant on your devices</string>
-    <string name="unified_opt_in_settings_learn_more_url"><a href="https://support.google.com/assistant/answer/10176224">Learn more</a></string>
+    <string name="unified_opt_in_settings_learn_more_url">https://support.google.com/assistant/answer/10176224</string>
     <string name="unified_opt_in_settings_no_thanks">No thanks</string>
     <string name="unified_opt_in_settings_subtitle">"Save audio and images so that Google's activation technologies can improve over time"</string>
     <string name="unified_opt_in_settings_temporarily_store_data_subsection">Devices that will temporarily store your data to learn and improve</string>
-    <string name="unified_opt_in_settings_title">Help Improve Assistant</string>
+    <string name="unified_opt_in_settings_title">Help Improve Google</string>
     <string name="uninstall">Uninstall (%1$s)</string>
     <string name="uninstall_or_update">Uninstall or update (%1$s)</string>
     <string name="uninstall_prompt">Uninstall</string>
@@ -10567,14 +10716,9 @@ However this feature is currently disabled because the Assistant language is not
     <string name="water_heater_accessibility_name">water heater</string>
     <string name="water_purifier_accessibility_name">water purifier</string>
     <string name="water_softener_accessibility_name">water softener</string>
-    <string name="weather_accessibility_search_plate_back_button">Back</string>
-    <string name="weather_accessibility_search_plate_menu_button">Menu</string>
-    <string name="weather_add_to_home_screen">Add to home screen</string>
     <string name="weather_add_to_homescreen">Add to homescreen</string>
     <string name="weather_button_ok">OK</string>
-    <string name="weather_cancel_button_text">Cancel</string>
     <string name="weather_celsius">Celsius</string>
-    <string name="weather_clear">Clear</string>
     <string name="weather_current_location">Current location</string>
     <string name="weather_error_background_content_description">Error</string>
     <string name="weather_error_refreshing">Something went wrong, try again</string>
@@ -10587,7 +10731,6 @@ However this feature is currently disabled because the Assistant language is not
     <string name="weather_search_query">weather</string>
     <string name="weather_search_text">weather</string>
     <string name="weather_send_feedback">Send Feedback</string>
-    <string name="weather_shortcut_icon_label">Weather</string>
     <string name="weather_station_accessibility_name">weather station</string>
     <string name="weather_temperature_units">Temperature units</string>
     <string name="weather_title">%1$s in %2$s</string>
@@ -10665,8 +10808,6 @@ next video"</string>
     <string name="widget_resized">Widget resized to width %1$s height %2$s</string>
     <string name="wifi_off">Wi-Fi off</string>
     <string name="wifi_on">Wi-Fi on</string>
-    <string name="wind_current_time_and_direction_template_with_bullet_separator" formatted="false">%s • %s</string>
-    <string name="wind_speed_with_unit" formatted="false">%d %s</string>
     <string name="window_accessibility_name">window</string>
     <string name="wine_cellar_accessibility_name">wine cellar</string>
     <string name="wired_headset_icon_description">Wired headset</string>
@@ -10683,6 +10824,7 @@ next video"</string>
     <string name="wrong_account_selected_error_message">Google Assistant is using a different account than the one associated with your device. Please log into Google assistant with the following account %1$s.</string>
     <string name="wrong_account_selected_error_title">Accounts do not match</string>
     <string name="xblend_fragment_error_message">Something went wrong!</string>
+    <string name="year_picker_description">Year list</string>
     <string name="yes_button_text">"Yes, I'm in"</string>
     <string name="yesterday">Yesterday</string>
     <string name="yesterday_at_time">Yesterday at %1$s</string>
@@ -10695,7 +10837,6 @@ next video"</string>
     <string name="your_information_link_subtitle">For a more personalized Assistant</string>
     <string name="your_information_page_subtitle">Control the info used to make Google Assistant more personalized to you</string>
     <string name="your_information_title">Your information</string>
-    <string name="your_location_search_menu_text">Your location</string>
     <string name="your_news_update_load_error">Something went wrong loading Your News Update.</string>
     <string name="your_news_update_title">Your News Update</string>
     <string name="your_salsas_section_header">Your quick phrases</string>

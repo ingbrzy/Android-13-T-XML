@@ -28,7 +28,6 @@
     <string name="about_application_pp_tos_settings">Om, vilkår og privatliv</string>
     <string name="accessbility_suggestion_dropdown_closed">Der er ingen tilgængelige forslag</string>
     <string name="accessbility_suggestion_dropdown_opened">Forslag til kontaktpersoner åbnet</string>
-    <string name="acs_url_dropdown_hint">Angiv ACS-webadresse</string>
     <string name="action_add_contact">Tilføj kontakt</string>
     <string name="action_advanced_feedback">Send feedback</string>
     <string name="action_archive">Arkivér</string>
@@ -47,18 +46,19 @@
     <string name="action_help_and_feedback">Hjælp og feedback</string>
     <string name="action_info_and_options">Info og valgmuligheder</string>
     <string name="action_jump_to_chat">Se i chat</string>
+    <string name="action_meet_video_call">Meet-videoopkald</string>
     <string name="action_menu_mark_all_as_read">Markér alle som læst</string>
     <string name="action_menu_show_archived">Arkiveret</string>
     <string name="action_menu_show_spam_folder">Spam og blokeret</string>
     <string name="action_notification_off">Deaktiver notifikationer</string>
     <string name="action_notification_on">Aktivér notifikationer</string>
     <string name="action_notification_settings">Ignorer notifikationer</string>
+    <string name="action_off">Fra</string>
     <string name="action_pair_device">Enheden parres</string>
     <string name="action_people_and_options">Info</string>
     <string name="action_people_and_options_group">Gruppeinfo</string>
     <string name="action_pin_to_top">Fastgør til toppen</string>
     <string name="action_report_spam">Rapportér spam</string>
-    <string name="action_scan_qr_code">Beskeder på nettet</string>
     <string name="action_search">Søg</string>
     <string name="action_search_gifs">Søg efter giffer</string>
     <string name="action_search_messages">Søg efter beskeder</string>
@@ -77,6 +77,7 @@
     <string name="action_viLTE_video_call">Videoopkald via mobilnetværk</string>
     <string name="action_video_call">Foretag et videoopkald</string>
     <string name="actionbar_subtitle_name_prefix">med %s</string>
+    <string name="active_reminder">Påmindelse</string>
     <string name="active_sim_content_message">%s er valgt</string>
     <string name="activity_not_found_message">Vi kunne ikke finde en passende applikation</string>
     <string name="add_area_code_banner_button">Tilføj områdenummer</string>
@@ -90,6 +91,7 @@
     <string name="add_contact_confirmation_dialog_title">Vil du føje dette nummer til Kontakter?</string>
     <string name="add_country_code_banner_button">Tilføj landekode</string>
     <string name="add_more_participants_button_content_description">Tilføj flere deltagere</string>
+    <string name="add_reaction_content_description">Reager med tilpasset reaktion</string>
     <string name="add_reaction_for_assistant_card_rcs_fallback_text">​%1$s​ til assistentkort</string>
     <string name="add_reaction_for_audio_rcs_fallback_text">​%1$s​ til en lydfil</string>
     <string name="add_reaction_for_contact_rcs_fallback_text">​%1$s​ til en kontakt</string>
@@ -97,7 +99,7 @@
     <string name="add_reaction_for_gif_rcs_fallback_text">​%1$s​ til en gif</string>
     <string name="add_reaction_for_link_rcs_fallback_text">​%1$s​ til et link</string>
     <string name="add_reaction_for_photo_rcs_fallback_text">​%1$s​ til et billede</string>
-    <string name="add_reaction_for_text_message_rcs_fallback_text">​%1$s​ til \"%2$s\"</string>
+    <string name="add_reaction_for_text_message_rcs_fallback_text">​%1$s​ til \" %2$s \"</string>
     <string name="add_reaction_for_unknown_message_type_rcs_fallback_text">​%1$s​ til en ukendt beskedtype</string>
     <string name="add_reaction_for_video_rcs_fallback_text">​%1$s​ til en video</string>
     <string name="advanced_feedback_activity_disclaimer">Din beskeds indhold og tekst, på nær hvis det er på screenshots, sendes ikke til Google</string>
@@ -134,14 +136,13 @@
     <string name="apn_mnc">MNC</string>
     <string name="app_name">Beskeder</string>
     <string name="app_settings_conversation_pref_title">Appindstillinger</string>
-    <string name="apply_button">Anvend</string>
     <string name="archived_activity_title">Arkiveret</string>
     <string name="archived_conversation_list_empty_text">Arkiverede samtaler vises her</string>
     <string name="area_code_banner_description">@string/banner_description</string>
     <string name="assistant_movies_shortcut_title">Film</string>
+    <string name="assistant_preference_summary">Vis relevante oplysninger om spisning, film og andet</string>
     <string name="assistant_preference_title">Forslag fra Assistent</string>
     <string name="assistant_restaurants_shortcut_title">Restauranter</string>
-    <string name="assistant_send_to_chip_default_group_name">gruppe</string>
     <string name="assistant_suggestions_tooltip_text">Beskeder opretter forslag og gemmer din samtale på enheden. Du kan trykke på forslag for at se og dele oplysninger fra Google Assistent. &lt;br/> &lt;br/> &lt;a href>Få flere oplysninger&lt;/a>, og administrer i &lt;a href>Indstillinger&lt;/a></string>
     <string name="assistant_suggestions_tooltip_title_text">Få oplysninger med et enkelt tryk</string>
     <string name="assistant_weather_shortcut_title">Vejret</string>
@@ -157,12 +158,18 @@
     <string name="attachment_location">Lokation</string>
     <string name="attachment_picture">Billede</string>
     <string name="attachment_preview_close_content_description">Kassér vedhæftet fil</string>
+    <string name="attachment_preview_photos_link_share_getting_link">Linket hentes…</string>
+    <string name="attachment_preview_photos_link_share_no_upload_needed">Tidligere uploadet</string>
+    <string name="attachment_preview_photos_link_share_upload_size">Uploadhastighed: %s</string>
+    <string name="attachment_preview_photos_link_share_upload_size_failure">Ukendt</string>
+    <string name="attachment_preview_photos_link_share_upload_size_placeholder">Beregner…</string>
     <string name="attachment_unsupported_file">Filen understøttes ikke</string>
     <string name="attachment_vcard">Kontaktkort</string>
     <string name="attachment_video">Video</string>
     <string name="audio_attachment_content_description">Vedhæftet lydfil</string>
     <string name="audio_attachment_seek_playback_description">Lydafspilning</string>
     <string name="audio_button_view_content_description">Tryk to gange og hold nede for at optage lyd. Skub til venstre for at annullere</string>
+    <string name="audio_format_type">lyd</string>
     <string name="audio_pause_content_description">Sæt på pause</string>
     <string name="audio_play_content_description">Afspil vedhæftet lydfil</string>
     <string name="audio_recorder_call_in_progress">Der kan ikke optages lyd, mens du er i et opkald</string>
@@ -181,6 +188,8 @@
     <string name="auto_selected_country_summary">Fundet automatisk (%1$s)</string>
     <string name="automoved_spam_notification_action_dismiss">Afvis</string>
     <string name="automoved_spam_notification_action_view">Se</string>
+    <string name="automoved_spam_notification_content_text">Modtaget spam blev flyttet til \"Spam og blokeret\"</string>
+    <string name="automoved_spam_notification_content_title">Der er registreret spam</string>
     <string name="avatar_no_connection_msg">Der er ingen internetforbindelse</string>
     <string name="avatar_promo_create">Opret</string>
     <string name="avatar_promo_see_all">Se alle</string>
@@ -192,7 +201,8 @@
     <string name="birthday_banner_description">@string/banner_description</string>
     <string name="birthday_banner_dismiss_button_text">Luk</string>
     <string name="birthday_banner_settings_button_text">Administrer i Indstillinger</string>
-    <string name="birthday_info_text">Beskeder opretter fødselsdagspåmindelser ud fra kontakter med fødselsdage på din enhed</string>
+    <string name="birthday_info_text">Disse påmindelser er baseret på oplysninger om fødselsdag fra appen Kontakter på din enhed.</string>
+    <string name="birthday_info_text_with_settings">Disse påmindelser er baseret på oplysninger om fødselsdag fra appen Kontakter på din enhed. &lt;a href>%1$s&lt;/a></string>
     <string name="birthday_nudge_enabled_pref_summary">Få påmindelser om fødselsdage, du har føjet til kontakter på din enhed</string>
     <string name="birthday_nudge_enabled_pref_title">Påmindelser om fødselsdage</string>
     <string name="block_confirmation_message_spam_folder">Du fortsætter med at modtage beskeder fra %1$s, men du får ikke længere notifikationer. Denne samtale flyttes til \"Spam og blokeret\".</string>
@@ -212,9 +222,13 @@
     <string name="boew_promo_text">Lad Beskeder køre i baggrunden for at få chatfunktioner som f.eks. udveksling af beskeder via Wi‑Fi og data</string>
     <string name="boew_promo_title">Gør mere med Beskeder</string>
     <string name="bottomsheet_action_expand_halfway">Udvid halvdelen</string>
+    <string name="bottomsheet_drag_handle_content_description">Håndtag</string>
     <string name="broadcast_receiver_notification_text_extra_info">Beskeder arbejder i baggrunden. Send en fejlrapport, hvis du ser denne notifikation i over et minut. Modtagernavn: %1$s</string>
     <string name="broadcast_sms_text">Send masse-sms</string>
     <string name="bubble_settings_title">Bobler</string>
+    <string name="bugle_add_account_error">Kontoen kunne ikke tilføjes. Prøv igen.</string>
+    <string name="bugle_fix_it">Løs problemet</string>
+    <string name="bugle_load_account_failure">Kontiene kunne ikke indlæses.</string>
     <string name="bugle_notification_category_conversations">Samtaler</string>
     <string name="bugle_notification_category_default_settings">Standardindstillinger</string>
     <string name="bugle_notification_category_reminders">Påmindelser</string>
@@ -226,6 +240,8 @@
     <string name="bugle_notification_reminders_channel_name">Påmindelser</string>
     <string name="bugle_notification_report_issue_channel_name">Anmodning om feedback på Beskeder</string>
     <string name="bugle_notification_silent_default_channel_name">Få notifikationer, men du bruger nettet</string>
+    <string name="bugle_play_services_error">Der opstod en fejl, da forespørgslen blev sendt til Google Play-tjenester.</string>
+    <string name="bugle_retry">Prøv igen</string>
     <string name="business_action_call_full_content_description">Ring til %1$s (%2$s)</string>
     <string name="business_action_call_short_content_description">Ring</string>
     <string name="business_action_call_short_text_m2">Ring</string>
@@ -287,6 +303,7 @@
     <string name="c2o_single_file_attachment_size_limit_exceed">Den vedhæftede fil er for stor til at sende. Prøv at sende en fil mindre end %s.</string>
     <string name="c2o_storage_permissions_text">Tryk for at give adgang til Medier</string>
     <string name="c2o_video_button_text">Video</string>
+    <string name="calendar_badge_content_description">Kalenderbadge</string>
     <string name="calendar_event_added">Begivenheden er gemt</string>
     <string name="calendar_file_content_description">Kalender-fil</string>
     <string name="calendar_suggestion_event_chat_title">Android Beskeder-chat</string>
@@ -297,6 +314,7 @@
     <string name="camera_attach_media">Vedhæft</string>
     <string name="camera_attach_media_description">Vedhæft til besked</string>
     <string name="camera_back_switch_button">Skift til bagsidekameraet</string>
+    <string name="camera_capture_button_label">Tag billede</string>
     <string name="camera_flash_off">Blitz er slået fra</string>
     <string name="camera_flash_on">Blitz er slået til</string>
     <string name="camera_front_switch_button">Skift til frontkamera</string>
@@ -397,6 +415,11 @@ Du kan deaktivere chatfunktioner under Indstillinger. %1$s"</string>
     <string name="common_google_play_services_update_text">%1$s kan ikke køre, medmindre du opdaterer Google Play-tjenester.</string>
     <string name="common_google_play_services_update_title">Opdater Google Play-tjenester</string>
     <string name="common_google_play_services_updating_text">%1$s kan ikke køre uden Google Play-tjenester, som i øjeblikket opdateres.</string>
+    <string name="common_google_play_services_wear_update_text">Du skal bruge en ny version af Google Play-tjenester. Opdateringen gennemføres automatisk om et øjeblik.</string>
+    <string name="common_open_on_phone">Åbn på telefonen</string>
+    <string name="complete_photos_app_onboarding">Åbn Google Fotos</string>
+    <string name="complete_photos_app_onboarding_title">Giv Google Fotos adgang for at fortsætte</string>
+    <string name="complete_photos_app_onboarding_to_continue">Kom godt i gang i Google Fotos-appen.</string>
     <string name="compose_message_view_hint_text">Chatbesked</string>
     <string name="compose_message_view_hint_text_multi_sim_rcs">Chat (%s)</string>
     <string name="compose_message_view_hint_text_multi_sim_sms_mms">Tekst (%s)</string>
@@ -418,15 +441,12 @@ Du kan deaktivere chatfunktioner under Indstillinger. %1$s"</string>
     <string name="contact_has_multiple_destinations_phone">%1$s (og %2$s andre)</string>
     <string name="contact_has_multiple_destinations_type">Flere</string>
     <string name="contact_list_add_people">Tilføj %s</string>
-    <string name="contact_list_empty_text">Angiv navnet på en kontakt eller et telefonnummer for at oprette en ny besked</string>
     <string name="contact_list_send_to_text">Send til %s</string>
     <string name="contact_picker_autocomplete_added">%1$s blev tilføjet – redigeres i øjeblikket</string>
     <string name="contact_picker_autocomplete_deleted">%1$s er slettet, under redigering</string>
-    <string name="contact_picker_cant_add_destination_twice">Dette nummer findes allerede i gruppen</string>
     <string name="contact_picker_cant_remove_from_existing">Nummeret kan ikke fjernes fra en eksisterende samtale</string>
     <string name="contact_picker_cant_remove_from_screen">Gå til &lt;b>Gruppeoplysninger&lt;/b> for at fjerne personer</string>
     <string name="contact_picker_confirm_participants_button_label">Næste</string>
-    <string name="contact_picker_group_create_label">Opret gruppe</string>
     <string name="contact_picker_group_v2_create_label">Opret gruppe</string>
     <string name="contact_picker_message_a_business_label">Chat med en virksomhed</string>
     <string name="contact_picker_title_add_people">Tilføj personer</string>
@@ -449,10 +469,14 @@ Du kan deaktivere chatfunktioner under Indstillinger. %1$s"</string>
     <string name="content_description_link_to_settings">Administrer i Indstillinger</string>
     <string name="contextual_action_bar_description_prefix">Værktøjslinje til følgende handlinger vises: %s. Naviger op for at vælge en handling.</string>
     <string name="conversation_area_code_popup_paragraph">Uden et kendt områdenummer forsøger Beskeder at sende til %1$s. Tilføj denne kontakts områdenummer til fremtidige beskeder. %2$s</string>
+    <string name="conversation_block_failed_message">Ikke blokeret. Tjek forbindelsen</string>
+    <string name="conversation_blocking_message">Blokerer…</string>
     <string name="conversation_country_code_popup_paragraph">Føj landekode (+%1$s for %2$s) til denne kontakt, så din besked sendes til den rette person. %3$s</string>
     <string name="conversation_creation_failed">Samtalen kunne ikke oprettes. Prøv igen senere.</string>
     <string name="conversation_creation_failure">Samtalen kunne ikke startes</string>
+    <string name="conversation_deleting_message">Sletter…</string>
     <string name="conversation_deletion_failed">Samtalen kunne ikke slettes</string>
+    <string name="conversation_deletion_failed_message">Ikke slettet. Tjek forbindelsen</string>
     <string name="conversation_empty_name">Tom</string>
     <string name="conversation_label_all">Alt</string>
     <string name="conversation_label_business_updates">Virksomhed</string>
@@ -479,7 +503,6 @@ Du kan deaktivere chatfunktioner under Indstillinger. %1$s"</string>
     <string name="conversation_list_item_view_draft_message">Kladde</string>
     <string name="conversation_list_item_view_sent_from_other_prefix">%s:</string>
     <string name="conversation_list_item_view_sent_from_you_prefix">"Dig: "</string>
-    <string name="conversation_list_loading_item_description">Samtalen indlæses</string>
     <string name="conversation_list_message_fail_to_decrypt">Ikke dekrypteret</string>
     <string name="conversation_list_rcs_promo_button_negative">Opgrader ikke appen</string>
     <string name="conversation_list_rcs_promo_button_positive">Opgrader nu</string>
@@ -491,7 +514,6 @@ Du kan deaktivere chatfunktioner under Indstillinger. %1$s"</string>
     <string name="conversation_list_snippet_link">Link</string>
     <string name="conversation_list_spam_popup_negative">Administrer i Indstillinger.</string>
     <string name="conversation_list_spam_popup_paragraph">For at forhindre spam bruger Google ukendte afsendere og modtageres telefonnummer. Dine beskeder og kontakter sendes ikke til Google. %1$s</string>
-    <string name="conversation_list_spam_popup_paragraph_on_device">Beskeder bruger intelligente funktioner på enheden til at registrere spam og sender visse data om sådanne beskeder til Google uden at inkludere dit telefonnummer eller indholdet af de pågældende beskeder. %1$s</string>
     <string name="conversation_list_spam_popup_positive">OK</string>
     <string name="conversation_list_spam_popup_title">Spambeskyttelse</string>
     <string name="conversation_list_terms_and_conditions_promo_subtitle">Afslut aktivering af chatfunktioner for at få sms-beskeder via Wi-Fi og andet</string>
@@ -514,6 +536,7 @@ Du kan deaktivere chatfunktioner under Indstillinger. %1$s"</string>
     <string name="conversation_suggestion_set_reminder_action">Foreslået handling: Indstil påmindelse</string>
     <string name="conversation_suggestion_share_location_action">Foreslået handling til deling af lokation</string>
     <string name="conversation_suggestion_share_location_action_failure">Noget gik galt. Føj din lokation til en ny besked for at dele den.</string>
+    <string name="conversation_suggestion_star_action">Foreslået stjernehandling</string>
     <string name="conversation_suggestion_sticker">Foreslået mærkat</string>
     <string name="copy">Kopiér</string>
     <string name="copy_to_clipboard">Kopiér</string>
@@ -523,6 +546,7 @@ Du kan deaktivere chatfunktioner under Indstillinger. %1$s"</string>
     <string name="create_group_info_title">Tilføj gruppenavn</string>
     <string name="create_new_group_message">Hvis du tilføjer denne person, oprettes der en ny gruppe uden chatfunktioner</string>
     <string name="current_country_pref_title">Dit nuværende land</string>
+    <string name="custom_reaction_selection_prompt">Select an emoji</string>
     <string name="dark_mode_disable_title">Deaktiver mørk tilstand</string>
     <string name="dark_mode_enable_title">Aktivér mørk tilstand</string>
     <string name="dasher_disabled_notification_body">Kontakt din systemadministrator, eller log ind med en anden konto.</string>
@@ -590,12 +614,9 @@ Du kan deaktivere chatfunktioner under Indstillinger. %1$s"</string>
     <string name="ditto_activity_label">Enheden parres</string>
     <string name="ditto_foreground_service_device_pairing_notification_text">Dine beskeder er tilgængelige på den enhed, du har parret</string>
     <string name="ditto_foreground_service_device_pairing_notification_title">Enheden parres</string>
-    <string name="ditto_foreground_service_notification_text">Dine beskeder er tilgængelige på den computer, du har parret</string>
-    <string name="ditto_foreground_service_notification_title">Beskeder på nettet</string>
     <string name="ditto_foreground_service_sign_out">Fjern parring</string>
     <string name="ditto_persistent_notification_settings">Notifikationer</string>
     <string name="ditto_settings_action_bar_title">Notifikationer</string>
-    <string name="ditto_settings_connected_to_web_notification_description">\"Beskeder på nettet\" vises, når din enhed er online</string>
     <string name="ditto_settings_connected_to_web_notification_title">Vis vedvarende notifikation</string>
     <string name="ditto_settings_device_paired_notification_description">Du kan se \"Enheden parres\", når din enhed er online</string>
     <string name="ditto_settings_while_using_web_notification_description">Stop ringetone og vibration, når din enhed er online</string>
@@ -636,6 +657,7 @@ Personer gennemgår dine beskeder, hvilket omfatter virksomhedsafsenderens numme
     <string name="dump_mms_pref_title">Gem mms</string>
     <string name="dump_sms_pref_summary">Gem rådata fra modtagne sms-beskeder i en fil på et eksternt lager</string>
     <string name="dump_sms_pref_title">Gem sms</string>
+    <string name="duplicate_upload_snackbar">Nogle dubletter blev ikke medtaget</string>
     <string name="e2ee_conversation_tombstone">Chatter E2EE-krypteret med %1$s</string>
     <string name="e2ee_conversation_tombstone_with_learn_more">Chatter E2EE-krypteret med %1$s. %2$s</string>
     <string name="e2ee_fail_to_send_retry_description">Send igen som chat</string>
@@ -674,7 +696,6 @@ Personer gennemgår dine beskeder, hvilket omfatter virksomhedsafsenderens numme
 Beskeder skifter tilbage, når chatfunktioner genopretter forbindelsen."</string>
     <string name="enable_rcs_auto_fallback_dialog_title">Vil du automatisk sende igen som tekst (sms/mms)?</string>
     <string name="enable_rcs_auto_fallback_title">Send automatisk igen som tekst (sms/mms)</string>
-    <string name="enable_rcs_fallback_to_sms_title">Gensend beskeder, hvis de ikke er leveret</string>
     <string name="enable_rcs_fallback_to_xms_title">Gensend beskeder, hvis de ikke er leveret</string>
     <string name="enable_rcs_summary_off">Brug Wi-Fi eller data til udveksling af beskeder, når det er muligt</string>
     <string name="enable_rcs_summary_on">Bruger data til at sende beskeder, når det er muligt</string>
@@ -686,9 +707,13 @@ Beskeder skifter tilbage, når chatfunktioner genopretter forbindelsen."</string
     <string name="enter_phone_number_title">Bekræft dit telefonnummer</string>
     <string name="enter_phone_number_title_for_sim">Bekræft telefonnummeret til %1$s</string>
     <string name="enumeration_comma">", "</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_failed_to_save_setting">Det er ikke muligt at gemme. Prøv igen.</string>
     <string name="error_icon_content_description">Fejl</string>
     <string name="error_premium_sms_needs_permission">Hvis du vil sende denne besked, skal du gå til Indstillinger på din enhed og slå Adgang til overtakseret sms til</string>
+    <string name="error_text_draft_is_reply_to_missing_message">Kan ikke svare på en slettet besked</string>
+    <string name="error_text_draft_is_reply_without_rcs">Der er problemer med chatfunktionerne. Prøv igen, men uden at bruge svarfunktionen.</string>
+    <string name="error_text_scheduled_send_with_draft_reply">Du kan ikke planlægge et svar på nuværende tidspunkt</string>
     <string name="etouffee_to_rcs_notification">Beskeder har registreret, at E2E-kryptering blev fjernet i en samtale. Tryk for at sende feedback.</string>
     <string name="etouffee_to_telephony_setting">Privatliv</string>
     <string name="etouffee_to_telephony_setting_description">"Sms-tilladelser omfatter dine E2EE-krypterede beskeder, så de kan sikkerhedskopieres på Android, læses højt i din bil eller på en af dine andre enheder og meget andet. Se og administrer dine apps med sms-tilladelser i Android-indstillingerne.
@@ -714,19 +739,24 @@ Hvis du ændrer denne indstilling, påvirker det ikke E2EE-krypterede beskeder, 
     <string name="exo_controls_pause_description">Sæt på pause</string>
     <string name="exo_controls_play_description">Afspil</string>
     <string name="exo_controls_previous_description">Forrige</string>
-    <string name="exo_controls_repeat_all_description">Gentag alle</string>
-    <string name="exo_controls_repeat_off_description">Gentag ingen</string>
-    <string name="exo_controls_repeat_one_description">Gentag én</string>
+    <string name="exo_controls_repeat_all_description">Tilstand: Gentag alle. Slå Gentag til/fra.</string>
+    <string name="exo_controls_repeat_off_description">Tilstand: Gentag ikke. Slå Gentag til/fra.</string>
+    <string name="exo_controls_repeat_one_description">Tilstand: Gentag én. Slå Gentag til/fra.</string>
     <string name="exo_controls_rewind_description">Spol tilbage</string>
     <string name="exo_controls_show">Vis afspilningsknapper</string>
-    <string name="exo_controls_shuffle_off_description">Bland er slået fra</string>
-    <string name="exo_controls_shuffle_on_description">Bland er slået til</string>
+    <string name="exo_controls_shuffle_off_description">Aktivér Bland</string>
+    <string name="exo_controls_shuffle_on_description">Deaktiver Bland</string>
     <string name="exo_controls_vr_description">VR-tilstand</string>
     <string name="exo_track_selection_auto">Automatisk</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="expand_attach_button_content_description">Knapper til udvidelse af vedhæftet fil</string>
     <string name="expand_button_title">Avanceret</string>
     <string name="exposed_dropdown_menu_content_description">Vis rullemenuen</string>
+    <string name="express_sign_in_illustration_content_description">Illustration af funktionen til deling af medier</string>
+    <string name="express_sign_in_sub_title">"Bevar skarp videoklarhed, når du
+logger ind og sender Google Fotos-links."</string>
+    <string name="express_sign_in_title">"Del videoer, som fotografen har tænkt,
+at de skal ses"</string>
     <string name="fail_to_decrypt_message_metadata">Dekrypteringen mislykkedes. Tryk for at se valgmuligheder</string>
     <string name="fail_to_load_dialog_negative_button">Sms med enhedens SIM-kort</string>
     <string name="fail_to_load_dialog_positive_button">Prøv igen</string>
@@ -740,6 +770,7 @@ Hvis du ændrer denne indstilling, påvirker det ikke E2EE-krypterede beskeder, 
     <string name="failed_message_content_description">Beskeden blev ikke sendt. Tryk for at prøve igen.</string>
     <string name="failed_qr_pairing_dialog_message">Noget gik galt. Prøv igen om et par minutter.</string>
     <string name="failed_qr_pairing_dialog_positive_button_text">OK</string>
+    <string name="failed_to_select_attachment_from_system_picker">Denne vedhæftede fil blev ikke valgt</string>
     <string name="fast_track_negative_button_text">Nej tak</string>
     <string name="fast_track_popup_accepted_snack_bar_text">Chatfunktionerne konfigureres. Vi giver dig besked, når de er klar.</string>
     <string name="fast_track_popup_declined_snack_bar_text">Du kan til enhver tid aktivere chatfunktioner i Indstillinger.</string>
@@ -805,6 +836,9 @@ Hvis du ændrer denne indstilling, påvirker det ikke E2EE-krypterede beskeder, 
     <string name="fi_settings_download_over_wifi_title">Synkroniser kun medier via Wi-Fi</string>
     <string name="fi_settings_opt_out_failed">Synkroniseringen kunne ikke stoppes, og du kunne ikke logges ud på nuværende tidspunkt. Prøv igen senere.</string>
     <string name="fi_settings_opt_out_in_progress">Synkroniseringen stoppes, og du logges ud</string>
+    <string name="fi_settings_redirect_button">Administrer backup</string>
+    <string name="fi_settings_redirect_summary">Du finder dem under kontomenuen</string>
+    <string name="fi_settings_redirect_title">Indstillingerne for backup og synkronisering er blevet flyttet</string>
     <string name="fi_settings_sync_preference_backup_in_progress">Backup er i gang: %1$d %%</string>
     <string name="fi_settings_sync_preference_restore_in_progress">Gendannelse i gang: %1$d %%</string>
     <string name="fi_settings_sync_preference_summary">Sms-beskeder, opkald og talebeskeder er altid synkroniseret på skærme</string>
@@ -822,8 +856,9 @@ Hvis du ændrer denne indstilling, påvirker det ikke E2EE-krypterede beskeder, 
     <string name="file_transfer_via_sms_other">Jeg har delt en fil med dig</string>
     <string name="file_transfer_via_sms_video">Jeg har delt en video med dig</string>
     <string name="files_shortcut_title">Filer</string>
+    <string name="flip_camera_button_label">Vip kameraet</string>
     <string name="floating_toolbar_close_overflow_description">Luk prikmenu</string>
-    <string name="floating_toolbar_open_overflow_description">Flere muligheder</string>
+    <string name="floating_toolbar_open_overflow_description">Flere valgmuligheder</string>
     <string name="foreground_service_notification_generic_text">Beskeder arbejder i baggrunden</string>
     <string name="forward_activity_label">Videresend besked</string>
     <string name="forward_message_activity_title">Videresend besked</string>
@@ -835,12 +870,27 @@ Hvis du ændrer denne indstilling, påvirker det ikke E2EE-krypterede beskeder, 
     <string name="full_banner_expand_chip_description">Knappen Udvid chip</string>
     <string name="full_screen_gallery_action_attach">Tilføj</string>
     <string name="fullscreen_button_description">Åbn i fuld skærm</string>
+    <string name="gaia_auth_failure_dialog_body">Nogle af funktionerne på din Google-konto fungerer ikke, før du logger ind</string>
+    <string name="gaia_auth_failure_dialog_title">Log ind igen for at verificere, at det er dig</string>
+    <string name="gallery_google_photos_option_tray_button_add">Tilføj</string>
+    <string name="gallery_google_photos_option_tray_button_always">Altid</string>
+    <string name="gallery_google_photos_option_tray_button_cancel">Annuller</string>
+    <string name="gallery_google_photos_option_tray_button_just_once">Kun én gang</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_image">Billede med lav klarhed</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_unknown">Medie i lav kvalitet</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_video">Video i lav kvalitet</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_image">Billede</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_unknown">Medie</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_video">Video</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_body">Skarp klarhed. Administrer delte links i Google Fotos.</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_learn_more">Få flere oplysninger</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_title">Google Fotos-link</string>
+    <string name="gallery_item_content_description_selected_state">Tryk to gange for at fravælge %1$s vedhæftet på position %2$s</string>
+    <string name="gallery_item_content_description_unselected_state">Vælg %1$s, som blev taget %2$s med tryk to gange</string>
     <string name="general_settings">Generelt</string>
     <string name="general_settings_activity_title">Generelle indstillinger</string>
     <string name="general_settings_title_m2">Valgmuligheder</string>
     <string name="generic_issue_text">Andet</string>
-    <string name="get_messenger_notification_body">Læs og send sms-beskeder på dit ur eller din telefon</string>
-    <string name="get_messenger_notification_header">Hent Beskeder</string>
     <string name="get_sticker_packs_error_msg">Mærkaterne kunne ikke indlæses.</string>
     <string name="gif_screen_no_result">Der blev ikke fundet nogen resultater. Tjek din søgning, og prøv igen.</string>
     <string name="gif_screen_title">Giffer</string>
@@ -848,10 +898,23 @@ Hvis du ændrer denne indstilling, påvirker det ikke E2EE-krypterede beskeder, 
     <string name="gif_search_hint">Søg efter giffer</string>
     <string name="gifs_shortcut_title">Giffer</string>
     <string name="go_to_top">Se seneste</string>
-    <string name="google_account_pref_title">Google-konto</string>
     <string name="google_assistant_verification_channel_name">Assistent-godkender</string>
     <string name="google_assistant_verification_notification_title">Google-assistenten sender en besked</string>
     <string name="google_fi_text">Google Fi</string>
+    <string name="google_photos_onboarding_close_button_description">Luk Google Fotos-kort</string>
+    <string name="google_photos_onboarding_ineligible_title">Log ind på Google Fotos for at få skarpe og klare videoer</string>
+    <string name="google_photos_onboarding_ineligible_title_photos_and_videos">Log ind på Google Fotos for at få skarpe og klare billeder og videoer</string>
+    <string name="google_photos_onboarding_learn_more">Få flere oplysninger</string>
+    <string name="google_photos_onboarding_next">Næste</string>
+    <string name="google_photos_onboarding_ok">OK</string>
+    <string name="google_photos_onboarding_signed_in_title_photos_and_videos">Log ind for at sende skarpe og klare billeder og videoer</string>
+    <string name="google_photos_onboarding_signed_out_title">Log ind for at sende skarpe og klare videoer</string>
+    <string name="google_photos_onboarding_text_body">Bevar skarpheden af dine videoer, når du sender Google Fotos-links i mms-samtaler</string>
+    <string name="google_photos_onboarding_text_body_photos_and_videos_xms">Bevar skarpheden af medier, når du sender Google Fotos-links i mms-samtaler</string>
+    <string name="google_photos_onboarding_title">Del videoer, som fotografen har tænkt, at de skal ses</string>
+    <string name="google_photos_onboarding_title_photos_and_videos">Del billeder og videoer, som fotografen har tænkt, at de skal ses</string>
+    <string name="google_photos_option_tray">Log ind for at sende skarpere videoer</string>
+    <string name="google_photos_option_tray_photos_and_videos">Log ind for at sende skarpe og klare billeder og videoer</string>
     <string name="google_play_protect_title">Google Play Protect</string>
     <string name="google_tos_chat_features_tooltip">"Se, hvornår en person skriver, få kvitteringer for læsning og send beskeder, filer og billeder i høj opløsning med chatfunktioner via Rich Communication Services (RCS). This uses data to send messages.
 
@@ -867,8 +930,9 @@ Du kan deaktivere det i Indstillinger. %1$s"</string>
 
 Du kan ændre dit standardmæssige SIM-kort til opkald i Systemindstillinger. %1$s"</string>
     <string name="google_tos_multisim_view_accessibility_description">Få flere oplysninger</string>
+    <string name="google_tos_negative_link_text">Nej tak</string>
     <string name="group_conversation_title_everyone_else_left">Mig</string>
-    <string name="group_limit_alert_dialog_message">{max_group_size_including_self,plural, =1{Der kan højst være # person}one{Der kan højst være # person}other{Der kan højst være # personer}}</string>
+    <string name="group_limit_alert_dialog_message">{max_group_size_excluding_self,plural, =1{Der kan højst være # anden person}one{Der kan højst være # anden person}other{Der kan højst være # andre personer}}</string>
     <string name="group_mms_pref_title">Gruppebeskeder</string>
     <string name="group_name_edit_text_label">Gruppenavn</string>
     <string name="guest_cloud_preview">SE FORHÅNDSVISNING</string>
@@ -890,14 +954,19 @@ Du kan ændre dit standardmæssige SIM-kort til opkald i Systemindstillinger. %1
     <string name="hats_lib_thank_you_followup_message">Hjælp os med at forbedre vores produkt ved at besvare flere spørgsmål</string>
     <string name="hidden_sender_address">Skjult afsenderadresse</string>
     <string name="highlighter">Overstregningstusch</string>
+    <string name="how_it_works_link_text">Sådan fungerer det</string>
+    <string name="hqms_always_send_image_as_link_pref_title">Send altid billeder via et link i en tekstmeddelelse (sms/mms)</string>
+    <string name="hqms_always_send_video_as_link_pref_title">Send altid videoer via et link i en tekstmeddelelse (sms/mms)</string>
+    <string name="hqms_settings_gaia_card_text">Administrer links i Google Fotos</string>
+    <string name="hqms_settings_info_text">Beskeder uploader til Google Fotos, hvor du kan administrere deling af links til videoer. %1$s</string>
+    <string name="hqms_settings_sign_in_prompt_text">Log ind på din Google-konto for at bruge denne funktion</string>
     <string name="hqms_settings_summary">Del videoer i skarp kvalitet som tekstmeddelelse (sms/mms)</string>
     <string name="hqms_settings_title">Google Fotos</string>
     <string name="identity_verification_notification_text">Beskeder bekræfter en indgående besked</string>
     <string name="ignore">Ignorer</string>
     <string name="image_attachment_content_description">Vedhæftet billede</string>
     <string name="image_compress_info">Modtagere ser lavere billedkvalitet på grund af mobilselskabets mms-grænser</string>
-    <string name="imei_format_dropdown_hint">Indstil IMEI-format</string>
-    <string name="imsi_format_dropdown_hint">Indstil IMSI-format</string>
+    <string name="image_format_type">billede</string>
     <string name="in_conversation_blocked_contact_text">Du ser muligvis ikke alle beskeder, fordi denne samtale indeholder blokerede kontakter.</string>
     <string name="in_conversation_notify_new_message_action">Vis</string>
     <string name="in_conversation_notify_new_message_text">Ny besked</string>
@@ -907,7 +976,7 @@ Du kan ændre dit standardmæssige SIM-kort til opkald i Systemindstillinger. %1
     <string name="incoming_message_for_secondary_user_notification_title">Ny besked</string>
     <string name="incoming_message_foreground_notification_text">Beskeder behandler en indgående besked</string>
     <string name="incoming_mms_disabled_by_company_pref_summary">Din virksomhed tillader ikke indgående mms-beskeder</string>
-    <string name="indeterminate">Hverken tilvalgt eller fravalgt</string>
+    <string name="indeterminate">Delvist markeret</string>
     <string name="info_and_options_activity_business_tab_list_header">Virksomhed</string>
     <string name="info_and_options_activity_info_tab_content_description">Oplysninger</string>
     <string name="info_and_options_activity_info_tab_title">Oplysninger</string>
@@ -918,6 +987,9 @@ Du kan ændre dit standardmæssige SIM-kort til opkald i Systemindstillinger. %1
     <string name="info_and_options_view_terms_of_service">Se servicevilkårene</string>
     <string name="inline_playback_error">Denne video kan ikke afspilles i Beskeder</string>
     <string name="inline_playback_pause_content_description">Sæt video på pause</string>
+    <string name="install_photos_app">Hent Google Fotos</string>
+    <string name="install_photos_app_title">Hent Google Fotos-appen for at fortsætte</string>
+    <string name="install_photos_app_to_continue">Installer appen for at sende skarpe og klare videoer</string>
     <string name="invalid_qr_code_dialog_message">Scan QR-koden på %s for at logge ind</string>
     <string name="invalid_qr_code_dialog_positive_button_text">OK</string>
     <string name="invalid_qr_code_dialog_title">Forkert kode</string>
@@ -931,14 +1003,12 @@ Du kan ændre dit standardmæssige SIM-kort til opkald i Systemindstillinger. %1
     <string name="leave_confirmation_text">Er du sikker på, at du vil stoppe med at modtage beskeder fra denne gruppe?</string>
     <string name="leave_confirmation_title">Forlad gruppen permanent</string>
     <string name="libraries_material_featurehighlight_dismiss">Afvis</string>
-    <string name="link_preview_enabled_pref_summary">Se forhåndsvisninger i beskeder</string>
+    <string name="lighter_account_sign_out_snackbar_text">Log ind for at se dine virksomhedssamtaler</string>
+    <string name="lighter_block_report_spam_body">Virksomhedsnavnet og din samtale med denne virksomhed sendes til Google (dit mobilselskab kan opkræve et gebyr).</string>
     <string name="link_preview_enabled_pref_summary_off">Fra</string>
     <string name="link_preview_failed">Forhåndsvisning er ikke tilgængelig</string>
     <string name="link_preview_google_photos_display_name">Google Fotos</string>
-    <string name="link_preview_preference_info_text">Google får forhåndsvisninger af indhold fra linkede websites. Det er kun links fra kendte afsendere, der har forhåndsvisning. %1$s</string>
-    <string name="link_preview_preference_title">Automatisk forhåndsvisning af links</string>
     <string name="link_preview_tap_to_load">Tryk for at se forhåndsvisning</string>
-    <string name="link_preview_wifi_only_pref_summary">Download kun forhåndsvisninger via Wi-Fi</string>
     <string name="link_to_settings"><u>Administrer i Indstillinger</u></string>
     <string name="listify_many">%1$s og %2$d andre</string>
     <string name="listify_one">%s</string>
@@ -985,13 +1055,13 @@ Anbefalede oplysninger kan deles valgfrit og inkluderer ikke indholdet eller tek
     <string name="manual_msisdn_skipped_snack_bar_text">Forbedrede chatfunktioner er ikke blevet aktiveret. De kan når som helst aktiveres i Indstillinger.</string>
     <string name="manual_msisdn_skipped_snack_bar_text_b155475148">Beskeder forsøger at bekræfte dit nummer hos dit mobilselskab. Administrer i Indstillinger.</string>
     <string name="manual_msisdn_verify_now_snack_bar_text_b155475148">Beskeder forsøger at bekræfte dit nummer hos dit mobilselskab. Administrer i Indstillinger.</string>
-    <string name="manually_override_rcs_flags">Tilsidesæt manuelt RCS-rapporteringer</string>
     <string name="mark_all_messages_as_read_confirmation">Alle beskeder blev markeret som læst</string>
     <string name="mdd_download_notification_channel_name">Notifikationskanal for download af data</string>
     <string name="mdd_foreground_service_notification_title">Downloader</string>
     <string name="mdd_notification_action_cancel">Luk</string>
     <string name="mdd_notification_download_failed">Downloaden mislykkedes</string>
     <string name="mdd_notification_download_paused">Venter på netværksforbindelse</string>
+    <string name="mdd_notification_download_paused_wifi">Venter på Wi-Fi-forbindelse</string>
     <string name="media_compress_info">Modtagere ser lavere mediekvalitet på grund af mobilselskabets mms-grænser</string>
     <string name="media_compress_tooltip_info_icon_text">oplysninger</string>
     <string name="media_viewer_close_button_description">Luk</string>
@@ -1090,6 +1160,8 @@ Anbefalede oplysninger kan deles valgfrit og inkluderer ikke indholdet eller tek
     <string name="message_type_vcard">Kontaktkort</string>
     <string name="message_type_video">Video</string>
     <string name="message_video_content_description">Video</string>
+    <string name="message_with_deleted_snippet_talk_back_announcement">%1$s som svar på en slettet besked</string>
+    <string name="message_with_reply_snippet_talk_back_announcement">%1$s som svar på %2$s fra %3$s</string>
     <string name="messages_for_web_preference_summary">Gå til %1$s</string>
     <string name="messages_for_web_preference_title">Send sms-beskeder, foretag opkald, og aflyt din telefonsvarer på nettet</string>
     <string name="messages_status_feedback_data_description">"Alle anbefalede oplysninger er nyttige til at afklare skjulte problemer, de forskellige tilfælde, hvordan de relaterer sig til hinanden, og hvor fejlfindingen skal udføres.
@@ -1140,14 +1212,18 @@ Du kan besvare korte koder, som kun består af tal, men ikke koder, der både ha
     <string name="mms_group_conversation_changed_to">Denne samtale er nu en gruppe-mms</string>
     <string name="mms_group_conversation_details">Alle kan besvare og se hinandens beskeder</string>
     <string name="mms_phone_number_pref_title">Telefonnummer</string>
-    <string name="mms_text">Mms</string>
+    <string name="mms_text">MMS</string>
     <string name="more_string">+%1$d</string>
     <string name="mtrl_badge_numberless_content_description">Ny notifikation</string>
+    <string name="mtrl_checkbox_state_description_checked">Checked</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Indeterminate</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Not checked</string>
     <string name="mtrl_chip_close_icon_content_description">Fjern %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Flere end %1$d nye notifikationer</string>
     <string name="mtrl_picker_a11y_next_month">Skift til næste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Skift til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Aktuelt valg: %1$s</string>
+    <string name="mtrl_picker_cancel">Annuller</string>
     <string name="mtrl_picker_confirm">OK</string>
     <string name="mtrl_picker_day_of_week_column_header">Kolonne med dage: %1$s</string>
     <string name="mtrl_picker_navigate_to_year_description">Gå til år %1$s</string>
@@ -1159,11 +1235,24 @@ Du kan besvare korte koder, som kun består af tal, men ikke koder, der både ha
     <string name="multimedia_message">Mms</string>
     <string name="muted_conversation_content_description">Notifikationer er deaktiveret.</string>
     <string name="nav_app_bar_navigate_up_description">Naviger op</string>
+    <string name="nav_archived_messages_folder_title">Arkiveret</string>
+    <string name="nav_choose_theme_title">Vælg tema</string>
+    <string name="nav_choose_theme_title_disable_dark_mode">Deaktiver mørk tilstand</string>
+    <string name="nav_choose_theme_title_enable_dark_mode">Aktivér mørk tilstand</string>
+    <string name="nav_device_pairing_title">Enheden parres</string>
+    <string name="nav_mark_all_as_read_title">Markér alle som læst</string>
+    <string name="nav_messages_folder_title">Beskeder</string>
+    <string name="nav_spam_and_blocked_messages_folder_title">Spam og blokeret</string>
+    <string name="nav_starred_folder_title">Stjernemarkeret</string>
     <string name="navigate_up_button_content_description">Gå op</string>
     <string name="new_message_label">{count,plural, =1{1 ny besked}one{# ny besked}other{# nye beskeder}}</string>
     <string name="new_pill_label">Nyhed</string>
     <string name="new_rich_cards_preference_info_text">I forbindelse med oprettelse af alle forhåndsvisninger og identificering af skadeligt indhold scanner Google udvalgte oplysninger (f.eks. steder eller links) fra din chathistorik, uden at du kan identificeres ud fra dem. %1$s</string>
-    <string name="no_google_account">Ingen</string>
+    <string name="no_business_name_fallback">denne virksomhed</string>
+    <string name="no_connection">Der er ingen forbindelse</string>
+    <string name="no_media_button">Se valgmuligheder</string>
+    <string name="no_media_caption">Prøv en anden mediekilde eller -profil</string>
+    <string name="no_media_description">Der er ingen medier gemt på denne enhed for denne profil</string>
     <string name="no_reply_pinned_message_text">Afsenderen understøtter ikke svar</string>
     <string name="no_sim_message">Der er ingen beskeder på SIM-kortet.</string>
     <string name="not_selected">Ikke valgt</string>
@@ -1219,31 +1308,51 @@ Du kan besvare korte koder, som kun består af tal, men ikke koder, der både ha
     <string name="nudge_learn_more_info_text">Mere om påmindelser</string>
     <string name="nudge_reply_enabled_pref_summary">Beskeder, som muligvis kræver et svar for dig, flyttes til toppen</string>
     <string name="nudge_reply_enabled_pref_title">Foreslå svarpåmindelser</string>
+    <string name="nudge_settings_page_description">Vis svar og påmindelser om fødselsdage</string>
     <string name="nudge_settings_page_title">Nudges</string>
     <string name="numeric_text_keyboard_toggle_button_content_description">Skift mellem indtastning af tekst og tal</string>
     <string name="off">Fra</string>
     <string name="og_a11y_close">Luk</string>
     <string name="og_account_and_settings">Konto og indstillinger.</string>
+    <string name="og_account_particle_disc_no_accounts_available_a11y">Log ind</string>
     <string name="og_add_another_account">Tilføj en anden konto</string>
+    <string name="og_app_settings">Indstillinger for %1$s</string>
     <string name="og_choose_an_account_title">Vælg en konto</string>
     <string name="og_collapse_account_list_a11y">Skjul kontolisten.</string>
     <string name="og_continue">Fortsæt</string>
     <string name="og_continue_as">Fortsæt som %1$s</string>
     <string name="og_expand_account_list_a11y">Udvid kontolisten.</string>
+    <string name="og_get_storage_action">Køb lagerplads</string>
+    <string name="og_get_storage_action_short">Køb mere</string>
     <string name="og_google_one_account_a11y">Google One-konto.</string>
+    <string name="og_help_feedback">Hjælp og feedback</string>
     <string name="og_loading_a11y">Indlæser</string>
     <string name="og_manage_accounts">Administrer konti på denne enhed</string>
+    <string name="og_manage_storage_action">Administrer lager</string>
+    <string name="og_manage_storage_action_short">Administrer</string>
+    <string name="og_minimized_storage_card_title">Anvendt lagerplads: %1$s af %2$s GB</string>
+    <string name="og_more_options_action">Flere valgmuligheder</string>
+    <string name="og_more_options_action_short">Valgmuligheder</string>
     <string name="og_my_account_desc_long_length">Administrer din Google-konto</string>
     <string name="og_my_account_desc_meduim_length">Google-konto</string>
     <string name="og_my_account_desc_short_length">Konto</string>
+    <string name="og_privacy_advisor">Dine data i %1$s</string>
     <string name="og_privacy_policy">Privatlivspolitik</string>
     <string name="og_selected_account_a11y">%1$s er valgt.</string>
     <string name="og_sign_in_">Log ind</string>
     <string name="og_signed_in_as_account">Logget ind som %1$s</string>
+    <string name="og_storage_card_almost_full_a11y_label">Kontoen har næsten ikke mere lagerplads</string>
+    <string name="og_storage_card_full_a11y_label">Kontoen har ikke mere lagerplads</string>
+    <string name="og_storage_card_title">Kontoens lagerplads</string>
+    <string name="og_storage_card_title_almost_full">%1$s af lagerpladsen anvendes</string>
+    <string name="og_storage_card_title_full">Der er ikke mere ledig lagerplads</string>
+    <string name="og_storage_progress_subtitle">%1$s GB af %2$s GB er brugt</string>
     <string name="og_terms_of_service">Servicevilkår</string>
     <string name="og_use_account_a11y_no_period">Brug %1$s</string>
+    <string name="og_use_without_an_account">Brug uden en konto</string>
     <string name="on">Til</string>
     <string name="onboarding_google_tos_with_sms_charges_and_learn_more">Acceptér %1$s og %2$s for at aktivere chatfunktioner fra Google. Google bekræfter lejlighedsvis dit nummer ved at udveksle dine enhedsoplysninger med dit mobilselskab (du opkræves muligvis et gebyr for sms). %3$s.</string>
+    <string name="open_full_screen_camera_button_label">Åbn kameraet i fuld skærm</string>
     <string name="open_video_trimmer_dialog_negative">Annuller</string>
     <string name="open_video_trimmer_dialog_positive">Beskær</string>
     <string name="organization">Organisation</string>
@@ -1257,8 +1366,6 @@ Du kan besvare korte koder, som kun består af tal, men ikke koder, der både ha
     <string name="otp_auto_deletion_promo_banner_positive_button_text">Fortsæt</string>
     <string name="otp_auto_deletion_promo_banner_title_text">Vil du slette engangskoder automatisk efter 24 timer?</string>
     <string name="otp_copied_to_clipboard">Koden blev kopieret</string>
-    <string name="otp_pattern_dropdown_hint">Indstil OTP-mønster</string>
-    <string name="otp_port_dropdown_hint">Indstil OTP-port</string>
     <string name="outgoing_message_foreground_notification_text">Beskeder behandler en udgående besked</string>
     <string name="outgoing_mms_disabled_by_carrier_pref_summary">Dit mobilselskab tillader ikke udgående mms-beskeder</string>
     <string name="outgoing_mms_disabled_by_company_pref_summary">Din virksomhed tillader ikke udgående mms-beskeder</string>
@@ -1284,6 +1391,7 @@ Du kan besvare korte koder, som kun består af tal, men ikke koder, der både ha
     <string name="paired_desktops_last_connection_time">Senest aktiv %s</string>
     <string name="paired_desktops_last_connection_time_unknown">ukendt</string>
     <string name="participant_joined_group">%s deltager nu i denne gruppe</string>
+    <string name="participant_joined_with_learn_more">%1$s deltager nu i denne gruppe. %2$s</string>
     <string name="participant_left_group">%s har forladt denne gruppe</string>
     <string name="participant_list_add">Tilføj personer</string>
     <string name="participant_list_count_title_icu">{count,plural, =0{0 andre personer}=1{1 anden person}one{# anden person}other{# andre personer}}</string>
@@ -1303,6 +1411,7 @@ Du kan besvare korte koder, som kun består af tal, men ikke koder, der både ha
     <string name="phone_number_input_body_for_mo_text">Du kan også springe dette trin over for at få chatfunktioner senere, hvorved Beskeder forsøger at bekræfte dit nummer hos dit mobilselskab</string>
     <string name="phone_number_input_body_text">Beskeder bekræfter dit nummer for at sikre, at du får chatfunktioner</string>
     <string name="phone_number_input_hint">Dit telefonnummer</string>
+    <string name="phone_number_input_invalid_number_text">Ugyldigt telefonnummer</string>
     <string name="phone_number_input_negative_button_for_mo_text">Spring over indtil videre</string>
     <string name="phone_number_input_negative_button_for_mt_text">Påmind mig senere</string>
     <string name="phone_number_input_positive_button_text">Tilføj nummer</string>
@@ -1319,10 +1428,25 @@ Du kan besvare korte koder, som kun består af tal, men ikke koder, der både ha
     <string name="phone_number_input_title_text">Tilføj dit nummer nu for at få chatfunktioner hurtigere</string>
     <string name="phone_number_input_tos_reminder_text">Du har tidligere accepteret %1$s for chatfunktioner</string>
     <string name="phone_number_input_tos_text">servicevilkårene</string>
+    <string name="phone_number_promo_banner_body_text">Bekræft dit telefonnummer for at sende skarpe og klare videoer, animerede reaktioner og meget mere via Wi-Fi eller mobildata</string>
+    <string name="phone_number_promo_banner_negative_button_text">Luk</string>
+    <string name="phone_number_promo_banner_positive_button_text">Næste</string>
+    <string name="phone_number_promo_banner_title_text">Næste trin til bedre funktioner i Beskeder</string>
+    <string name="phone_number_promo_body_text">Kom godt i gang med dit bekræftede telefonnummer. Du kan til enhver tid administrere chatfunktioner i Indstillinger</string>
+    <string name="phone_number_promo_body_text_mo">Kom godt i gang med dit bekræftede telefonnummer. Du kan også springe dette trin over for at få chatfunktioner senere, hvorved Beskeder forsøger at bekræfte dit nummer for dig.</string>
+    <string name="phone_number_promo_negative_button_text">Påmind mig senere</string>
+    <string name="phone_number_promo_negative_button_text_mo">Spring over indtil videre</string>
+    <string name="phone_number_promo_positive_button_text">Få chatfunktioner</string>
+    <string name="phone_number_promo_title_text">Er du klar til at dele billeder, videoer og meget andet via Wi-Fi eller data?</string>
+    <string name="phone_number_ui_accepted_snackbar_text">Du får en notifikation, når chatfunktioner er tilgængelige</string>
+    <string name="phone_number_ui_dismissed_snackbar_action_text">Indstillinger</string>
+    <string name="phone_number_ui_dismissed_snackbar_text">Hvis du vil have chatfunktioner nu, skal du tilføje dit telefonnummer eller administrere et i Indstillinger.</string>
     <string name="photo_taken">Billedet blev taget</string>
+    <string name="photos_app_installation_required">Hent Google Fotos-appen for at sende skarpe og klare videoer</string>
+    <string name="photos_app_onboarding_required">Giv Google Fotos adgang for at sende skarpe og klare videoer</string>
+    <string name="photos_app_sharing_unavailable_try_again_later">Linket til videoen i høj opløsning er midlertidigt utilgængelig. Videoen i lav opløsning er klar til afsendelse.</string>
+    <string name="photos_app_sign_in_required">Log ind på Google Fotos for at sende skarpe og klare videoer</string>
     <string name="picker_disambiguation_title">Vælg destination</string>
-    <string name="pin_limit_message">Du kan fastgøre op til %1$d samtaler</string>
-    <string name="pin_success_message">%1$d af %2$d samtaler blev fastgjort</string>
     <string name="pinch_zoom_pref_title">Knib fingrene sammen for at zoome ud på samtaleteksten, eller spred fingrene for at zoome ind</string>
     <string name="places_autocomplete_clear_button">Ryd søgning</string>
     <string name="places_autocomplete_label">Vælg et sted</string>
@@ -1342,7 +1466,7 @@ Du kan besvare korte koder, som kun består af tal, men ikke koder, der både ha
     <string name="posted_this_year">%1$s%2$s%3$s</string>
     <string name="posted_yesterday">i går%1$s%2$s</string>
     <string name="preference_copied">\"%1$s\" blev kopieret til udklipsholderen.</string>
-    <string name="preferences_license_title">Open source-licenser</string>
+    <string name="preferences_license_title">Meddelelser til tredjeparter</string>
     <string name="premium_sms_banner_body">Hvis du vil sende til %s og andre numre med overtakseret sms, skal du aktivere dette i Indstillinger.</string>
     <string name="premium_sms_banner_body_saved_contact">Hvis du vil sende til %1$s (%2$s) og andre numre med overtakseret sms, skal du aktivere dette i Indstillinger.</string>
     <string name="premium_sms_banner_description">@string/banner_description</string>
@@ -1373,10 +1497,11 @@ Oplysninger om dine beskeder og samtaler omfatter telefonnumre og mailadresser p
 Disse oplysninger er med til at validere formodninger og identificere faktorer, der har indvirkning på problemet, så vi hurtigere og mere effektivt kan komme til bunds i sagen."</string>
     <string name="problematic_message_feedback_data_rationale_title">Sådan hjælper oplysninger om dine beskeder og samtaler</string>
     <string name="promotion_content_description">Denne besked er kategoriseret som et tilbud</string>
+    <string name="prompt_button_action_not_now">Ikke nu</string>
+    <string name="prompt_button_action_sign_in">Log ind</string>
     <string name="proxy_screen_clear_search">Ryd søgning</string>
     <string name="proxy_screen_search">Søg</string>
     <string name="qr_action_bar_device_pairing_title">Enheden parres</string>
-    <string name="qr_action_bar_title">Beskeder på nettet</string>
     <string name="qr_code_scanner_hint_text">Scan QR-koden, du kan se på&lt;br/><b>%s</b></string>
     <string name="qr_code_scanner_preference_button">QR-kodescanner</string>
     <string name="qr_delete_all_paired_desktops_button_text">Fjern parring af alle enheder</string>
@@ -1391,6 +1516,8 @@ Disse oplysninger er med til at validere formodninger og identificere faktorer, 
     <string name="qr_welcome_privacy">Privatlivspolitik</string>
     <string name="qr_welcome_terms_of_service">Servicevilkår</string>
     <string name="rbm_block_confirmation_message_spam_folder">Du får ikke længere en notifikation, når du modtager beskeder fra %1$s. Denne samtale flyttes til \"Spam og blokeret\". %2$s</string>
+    <string name="rbm_block_dialog_body">Du modtager ikke beskeder fra denne afsender. Denne samtale flyttes til \"Spam og blokeret\", hvor du til enhver tid kan fjerne blokeringen.</string>
+    <string name="rbm_block_dialog_positive_button_label">Bloker</string>
     <string name="rbm_business_logo_icon_content_description">Ikon for virksomhedslogo</string>
     <string name="rbm_platform_generalized_verifier_title">Bekræftet af %s</string>
     <string name="rbm_platform_verified_by_google">Bekræftet af Google</string>
@@ -1410,6 +1537,7 @@ Disse oplysninger er med til at validere formodninger og identificere faktorer, 
     <string name="rcs_learn_more_title">%1$s om chatfunktioner</string>
     <string name="rcs_learn_more_title_with_no_link">Få flere oplysninger om chatfunktioner</string>
     <string name="rcs_message">RCS-besked (Rich Communication Service)</string>
+    <string name="rcs_message_failed_recipient_lost_encryption_content_description">Leveringen kan ikke udføres. Tryk for at se valgmuligheder</string>
     <string name="rcs_message_failed_recipient_lost_rcs_content_description">Leveringen kan ikke udføres. Tryk for at se valgmuligheder</string>
     <string name="rcs_mobile_data_auto_download_carrier_format_entry">Standard (%1$s)</string>
     <string name="rcs_mobile_data_auto_download_limit_disable_entry_text">Deaktiver</string>
@@ -1492,11 +1620,12 @@ Disse oplysninger er med til at validere formodninger og identificere faktorer, 
     <string name="reaction_surprised_content_description">Ansigt med åben mund</string>
     <string name="reactions_promo_announcement">Langt tryk for at reagere</string>
     <string name="reactions_promo_text">Tryk og hold for at reagere</string>
-    <string name="read_external_storage_permission_description">Hvis du vil se indholdet i galleriet direkte herfra, er det nødvendigt at tilgå din telefons lagerplads.</string>
+    <string name="read_media_storage_permission_description">Hvis du vil se indholdet i galleriet direkte herfra, er det nødvendigt at tilgå telefonens medielager.</string>
     <string name="received_label">Modtaget:</string>
     <string name="recipient_hint">Angiv navn, telefonnummer eller mail</string>
     <string name="recipient_label">Til</string>
     <string name="recipient_offline_description">Venter på, at %s er online…</string>
+    <string name="reminder_badge_content_description">Påmindelsesbadge</string>
     <string name="reminder_datetime_picker_dialog_delete_button">Slet</string>
     <string name="reminder_datetime_picker_dialog_menu_title_add">Indstil påmindelse</string>
     <string name="reminder_datetime_picker_dialog_menu_title_update">Opdater påmindelse</string>
@@ -1517,7 +1646,7 @@ Disse oplysninger er med til at validere formodninger og identificere faktorer, 
     <string name="reminder_suggestions_tooltip_text">Tryk på og vælg et tidspunkt til en senere opfølgning. Deaktiver forslag i &lt;a href>Indstillinger&lt;/a></string>
     <string name="reminder_suggestions_tooltip_title_text">Opret påmindelser</string>
     <string name="reminders_banner_body">%1$s: %2$s</string>
-    <string name="reminders_banner_description">@string/banner_description</string>
+    <string name="reminders_banner_description">Reminder conversation banner</string>
     <string name="reminders_banner_done_button">Udfør</string>
     <string name="reminders_banner_remind_button">Påmind om 1 t.</string>
     <string name="reminders_banner_self_sender_name">Dig</string>
@@ -1530,7 +1659,7 @@ Disse oplysninger er med til at validere formodninger og identificere faktorer, 
     <string name="remove_reaction_from_gif_rcs_fallback_text">‌%1$s‌ blev fjernet fra en gif</string>
     <string name="remove_reaction_from_link_rcs_fallback_text">‌%1$s‌ blev fjernet fra et link</string>
     <string name="remove_reaction_from_photo_rcs_fallback_text">‌%1$s‌ blev fjernet fra et billede</string>
-    <string name="remove_reaction_from_text_message_rcs_fallback_text">‌%1$s‌ blev fjernet fra \"%2$s\"</string>
+    <string name="remove_reaction_from_text_message_rcs_fallback_text">‌%1$s‌ blev fjernet fra \" %2$s \"</string>
     <string name="remove_reaction_from_unknown_message_type_rcs_fallback_text">‌%1$s‌ blev fjernet fra en ukendt beskedtype</string>
     <string name="remove_reaction_from_video_rcs_fallback_text">‌%1$s‌ blev fjernet fra en video</string>
     <string name="remove_user_dialog_cancel">Annuller</string>
@@ -1539,14 +1668,17 @@ Disse oplysninger er med til at validere formodninger og identificere faktorer, 
     <string name="rename_group_title_m2">Gruppenavn</string>
     <string name="reply_activity_title">Svar</string>
     <string name="reply_button_label">Svar</string>
-    <string name="reply_icon_content_description">Svar på besked</string>
+    <string name="reply_icon_content_description">Svar</string>
     <string name="report_contact_title">Rapportér spam</string>
     <string name="report_failed_rcs_group_creation">Noget gik galt, og en eller flere deltagere blev ikke tilføjet.</string>
     <string name="report_group_spam_body_spam_folder">Numrene og de seneste beskeder fra andre gruppemedlemmer sendes til gennemgang hos Google og muligvis til dit mobilselskab (du skal måske betale et gebyr). Denne samtale bliver i \"Spam og blokeret\", og du får ikke notifikationer. %1$s</string>
+    <string name="report_invalid_thread_id_issue_description">Ugyldigt tråd-id. Se logs for at få flere oplysninger.</string>
     <string name="report_issue_action_text">Send feedback</string>
+    <string name="report_issue_description">Beskeder registrerede automatisk en fejl Se logs for at få flere oplysninger.</string>
     <string name="report_issue_notification_text">Beskeder registrerede en fejl. Tryk for at sende feedback.</string>
     <string name="report_not_spam_snackbar_message">Spammarkeringen af %1$s blev fjernet</string>
     <string name="report_person_delivered">%1$s har modtaget beskeden: %2$s</string>
+    <string name="report_person_ftd">%1$s kunne ikke dekryptere: %2$s</string>
     <string name="report_person_read">%1$s har læst beskeden: %2$s</string>
     <string name="report_person_sent">%s har ikke modtaget beskeden</string>
     <string name="report_receive_issue_notification_message">Android kan ikke modtage en besked, der er sendt til dig. Tryk for at sende feedback.</string>
@@ -1559,6 +1691,7 @@ Disse oplysninger er med til at validere formodninger og identificere faktorer, 
     <string name="report_spam_snackbar_message">%1$s blev rapporteret som spam</string>
     <string name="report_spam_toast_title">Der blev rapporteret spam</string>
     <string name="report_telephone_db_recreation_message">Beskederne kunne ikke hentes Tryk for at sende feedback.</string>
+    <string name="report_thread_id_not_found_description">Tråd-id mangler. Se logs for at få flere oplysninger.</string>
     <string name="required_permissions_no_promptable_promo">Skift tilladelser i enhedens appindstillinger. Giv Beskeder adgang til Sms, Opkald og Kontakter.</string>
     <string name="required_permissions_no_promptable_title">Tildel adgang</string>
     <string name="required_permissions_promptable_promo">Lad Beskeder se dine sms-beskeder, din telefon og dine kontakter for at fuldføre konfigurationen af din standardapp.</string>
@@ -1578,6 +1711,11 @@ Disse oplysninger er med til at validere formodninger og identificere faktorer, 
     <string name="samsung_setting_search_title">Indstillinger for Beskeder</string>
     <string name="save">Gem</string>
     <string name="save_attachment">Gem</string>
+    <string name="save_banner_body">Gem denne fødselsdag i appen Kontakter, og så minder Beskeder dig om den næste år</string>
+    <string name="save_banner_positive_button">Gem fødselsdag</string>
+    <string name="save_banner_title_name">Husk, at %1$s har fødselsdag</string>
+    <string name="save_banner_title_no_name">Husk denne fødselsdag</string>
+    <string name="save_birthday_banner_description">@string/banner_description</string>
     <string name="save_otp_confirm_button">Gem engangskode</string>
     <string name="save_otp_dialog_message">Denne engangskode gemmes, mens dine andre engangskoder fortsat slettes automatisk efter 24 timer. Du kan administrere dem i Indstillinger.</string>
     <string name="save_otp_dialog_title">Vil du gemme denne engangskode?</string>
@@ -1596,6 +1734,7 @@ Disse oplysninger er med til at validere formodninger og identificere faktorer, 
     <string name="scheduled_send_announcement_scheduling_failed">Beskeden kunne ikke planlægges.</string>
     <string name="scheduled_send_announcement_scheduling_started">Beskeden planlægges.</string>
     <string name="scheduled_send_announcement_scheduling_succeeded">Beskeden blev planlagt.</string>
+    <string name="scheduled_send_badge_content_description">Badge for planlagt afsendelse</string>
     <string name="scheduled_send_compose_label_close_content_description">Fjern plan.</string>
     <string name="scheduled_send_datetime_picker_subtitle">Lad din telefon være tændt, og opret forbindelse til Wi-Fi eller data for at sende</string>
     <string name="scheduled_send_datetime_picker_title">Planlæg afsendelse (%1$s)</string>
@@ -1619,10 +1758,11 @@ Disse oplysninger er med til at validere formodninger og identificere faktorer, 
     <string name="search_rendering_unable_to_search">Søgningen kunne ikke udføres. Prøv igen senere</string>
     <string name="search_starred_messages_title">Stjernemarkeret</string>
     <string name="security_key_page_description">Sørg for, at alle numre stemmer overens med din modtagers kode, for at bekræfte.</string>
-    <string name="security_key_page_intro">Denne kode giver dig mulighed for at bekræfte, at det kun er din intenderede modtager, der får dine E2EE-krypterede beskeder.</string>
+    <string name="security_key_page_intro">Denne kode giver dig mulighed for at bekræfte, at det kun er den tilsigtede modtager, der får dine E2EE-krypterede beskeder.</string>
     <string name="security_key_top_level_title">Bekræft kryptering</string>
     <string name="see_gallery">Se galleri</string>
     <string name="selected">Valgt</string>
+    <string name="selection_position_text">%1$d</string>
     <string name="self_left_group_conversation_failed">Gruppen kan ikke gemmes. Prøv igen senere.</string>
     <string name="self_participant_reaction_name">Dig</string>
     <string name="self_person_name">Dig</string>
@@ -1672,7 +1812,6 @@ Dit telefonnummer bruges kun til at finde og løse problemer. Google kontakter i
     <string name="sending_timeout_failure_dialog_title">Beskeden blev ikke sendt</string>
     <string name="sent_label">Sendt:</string>
     <string name="set_message_priority_description">Angiv hastestatus</string>
-    <string name="set_rcs_flags">Angiv RCS-rapporteringer</string>
     <string name="set_rcs_mobile_data_auto_download_limit_title">Download automatisk filer, du modtager, via mobildata</string>
     <string name="setting_fast_track_body_with_cost">Når du fortsætter, accepterer du %1$s og %2$s. I forbindelse med telefonnummerbaseret levering af beskeder bekræfter Google lejlighedsvis dit nummer ved at udveksle dine enhedsoplysninger med dit mobilselskab eller via sms (du opkræves muligvis et gebyr). Du kan deaktivere chatfunktioner i Indstillinger. %3$s</string>
     <string name="settings_activity_title">Indstillinger</string>
@@ -1695,6 +1834,13 @@ Dit telefonnummer bruges kun til at finde og løse problemer. Google kontakter i
     <string name="shortcuts_screen_title">Genveje</string>
     <string name="show_sms_link_warning_change_label">Skift</string>
     <string name="show_sms_link_warning_text">Vedhæftede filer sendes som en sms-besked med et link til at downloade dem</string>
+    <string name="sign_in_app_name_without_account">Brug %1$s uden en konto</string>
+    <string name="sign_in_cancel">Annuller</string>
+    <string name="sign_in_without_account">Brug uden en konto</string>
+    <string name="sign_in_without_account_short">Uden en konto</string>
+    <string name="sign_into_photos_app">Log ind</string>
+    <string name="sign_into_photos_app_title">Log ind på Google Fotos for at fortsætte</string>
+    <string name="sign_into_photos_app_with_x_to_continue">Du sender i øjeblikket fra %1$s</string>
     <string name="signature_banner_description">@string/banner_description</string>
     <string name="silent_ringtone">Lydløs</string>
     <string name="sim_label">SIM-kort:</string>
@@ -1713,9 +1859,13 @@ Dit telefonnummer bruges kun til at finde og løse problemer. Google kontakter i
     <string name="sim_storage_full_title">SIM-kortlageret er fyldt</string>
     <string name="sim_storage_pref_title">SIM-kortbeskeder</string>
     <string name="simple_fail_to_decrypt_message_dialog_body">Opdater appen Beskeder for at dekryptere fremtidige beskeder.</string>
+    <string name="smart_action_settings_page_description">Vis relevante genveje til kalender, gifsøgning, deling af lokation og andet</string>
+    <string name="smart_action_settings_page_title">Handlinger</string>
+    <string name="smart_actions_preference_summary_shortcuts">Vis relevante genveje til kalender, gifsøgning, deling af lokation og andet</string>
     <string name="smart_actions_preference_title">Forslag til handlinger</string>
     <string name="smart_compose_preference_summary">Vis skriveforslag</string>
     <string name="smart_compose_preference_title">Skriveassistent</string>
+    <string name="smart_reply_preference_summary">Vis svarmuligheder for chat</string>
     <string name="smarts_preference_info_text">Smartsvar og forslag til handlinger kan kun ses af dig, indtil du trykker og deler. &lt;br/> &lt;br/> Forslag varierer på baggrund af din samtale, og de genereres på enheden. %1$s</string>
     <string name="smarts_preference_info_text_with_assistant">Beskeder sørger for, at der genereres Smartsvar, forslag til handlinger og forslag fra Assistent. &lt;br/> &lt;br/>Forslagene deles ikke med Google eller andre, før du trykker på dem. &lt;br/> &lt;br/> Hvis du giver Beskeder adgang til din enheds lokation, vil du få mere lokale forslag. %1$s</string>
     <string name="smarts_settings_page_summary">Smartsvar, forslag til handlinger og andet</string>
@@ -1732,7 +1882,7 @@ Svar vises i individuelle samtaler"</string>
     <string name="sms_encoding_pref_title">Brug enkle tegn</string>
     <string name="sms_error_template">%1$s (Fejlkode %2$d)</string>
     <string name="sms_protocol_label">SMS</string>
-    <string name="sms_text">Sms</string>
+    <string name="sms_text">SMS</string>
     <string name="smsc_number_pref_summary">Hvis du ændrer eller sletter dette nummer, kan du muligvis ikke længere sende eller modtage sms-beskeder</string>
     <string name="smsc_number_pref_title_pre_r">Tilpasset SMSC</string>
     <string name="smsc_number_pref_title_r_plus">SMSC</string>
@@ -1742,19 +1892,18 @@ Svar vises i individuelle samtaler"</string>
     <string name="snackbar_text_label_rcs_group_created_too_large">{max_group_size_including_self,plural, =1{Der kan højst være # person}one{Der kan højst være # person}other{Der kan højst være # personer}}</string>
     <string name="snackbar_text_label_rcs_group_self_only">Denne gruppe er tom. Føj personer til gruppen, før du sender beskeder i denne chat.</string>
     <string name="snippet">%1$s: %2$s</string>
-    <string name="snippet_assistant_card_text">Assistent-kort</string>
-    <string name="snippet_attachment_icon_content_description">Ikon for vedhæftet fil for svaruddrag</string>
     <string name="snippet_audio_attachment_text">Lyd</string>
     <string name="snippet_deleted_message_text">Beskeden er slettet</string>
-    <string name="snippet_dismiss_icon_content_description">Ikon for luk svar</string>
+    <string name="snippet_dismiss_icon_content_description">Slet</string>
     <string name="snippet_file_attachment_text">Fil</string>
     <string name="snippet_from_you">Dig: %s</string>
     <string name="snippet_image_attachment_text">Billede</string>
-    <string name="snippet_media_thumbnail_content_description">Medieminiature for svaruddrag</string>
     <string name="snippet_self_participant_header">Dig</string>
     <string name="snippet_video_attachment_text">Video</string>
     <string name="soft_num_key_pad_backspace_content_description">Tasten Backspace</string>
     <string name="someone_added_participant">%1$s har føjet %2$s til denne gruppe</string>
+    <string name="someone_added_participant_with_learn_more">%1$s har føjet %2$s til denne gruppe. %3$s</string>
+    <string name="someone_else_created_encrypted_rcs_group">%1$s har oprettet denne gruppechat med %2$s. %3$s</string>
     <string name="someone_else_created_mms_group">%1$s har oprettet denne gruppe-mms med %2$s</string>
     <string name="someone_else_created_rcs_group">%1$s har oprettet denne gruppechat med %2$s</string>
     <string name="someone_joined_group">En person deltager nu i denne gruppe</string>
@@ -1778,7 +1927,6 @@ Svar vises i individuelle samtaler"</string>
     <string name="spam_dialog_title_spam_folder">Vil du rapportere spam?</string>
     <string name="spam_folder_activity_title">Spam og blokeret</string>
     <string name="spam_folder_conversation_list_empty_text_v2">Spam og blokerede samtaler vises her</string>
-    <string name="spam_preference_info_text_on_device">Beskeder bruger intelligente funktioner på enheden til at registrere spam og sender visse data om sådanne beskeder til Google uden at inkludere dit telefonnummer eller indholdet af de pågældende beskeder. %1$s</string>
     <string name="spam_protection_consent_string">Beskeder hjælper med at registrere spam ved at sende visse data om dine beskeder til Google uden at medtage dit telefonnummer eller dit beskedindhold. %1$s</string>
     <string name="spam_reporting_from">Spamrapportering</string>
     <string name="spam_settings">Spambeskyttelse</string>
@@ -1787,6 +1935,8 @@ Svar vises i individuelle samtaler"</string>
     <string name="split_view_pref_title">Detaljeret visning af liste</string>
     <string name="stacked_banner_count_text">1 af %1$d</string>
     <string name="star_badge_content_description">Stjernebadge</string>
+    <string name="star_badge_menu_remove_action">Fjern</string>
+    <string name="star_badge_menu_view_all_action">Se alle</string>
     <string name="star_badge_on_click_snackbar_action">Fortryd</string>
     <string name="star_badge_on_click_snackbar_message">Stjerne er fjernet</string>
     <string name="sticker_content_description">Mærkat med %s</string>
@@ -1823,10 +1973,12 @@ Svar vises i individuelle samtaler"</string>
     <string name="subject_with_label">Emne: %1$s</string>
     <string name="subject_with_urgent_label">[HASTER] %1$s</string>
     <string name="success_message_format">%1$s %2$s %3$s %4$s %5$s %6$s.</string>
+    <string name="success_message_self_sender">Du sagde %1$s %2$s %3$s %4$s.</string>
     <string name="success_message_self_sender_format_with_multiple_attachments">Du sendte adskillige vedhæftede filer %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_self_sender_format_with_single_attachment">Du sendte en vedhæftet fil %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_specified_sender_format_with_multiple_attachments">%1$s sendte adskillige vedhæftede filer %2$s %3$s %4$s %5$s %6$s.</string>
     <string name="success_message_specified_sender_format_with_single_attachment">%1$s sendte en vedhæftet fil %2$s %3$s %4$s %5$s %6$s.</string>
+    <string name="success_message_unspecified_sender">Afsenderen sagde %1$s %2$s %3$s %4$s.</string>
     <string name="success_message_unspecified_sender_format_with_multiple_attachments">Afsenderen sendte adskillige vedhæftede filer %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_unspecified_sender_format_with_single_attachment">Afsenderen sendte en vedhæftet fil %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_sent_to_message_format">Sendt til %1$s %2$s %3$s %4$s.</string>
@@ -1835,10 +1987,18 @@ Svar vises i individuelle samtaler"</string>
     <string name="sud_back_button_label">Tilbage</string>
     <string name="sud_more_button_label">Mere</string>
     <string name="sud_next_button_label">Næste</string>
-    <string name="suggested_stickers_preference_summary">Vis foreslåede mærkater</string>
+    <string name="suggested_stickers_preference_summary">Vis svarmuligheder for mærkat</string>
     <string name="suggested_stickers_preference_title">Foreslåede mærkater</string>
+    <string name="suggestion_shortcut_dialog_body_text">Stjernemarker en besked, planlæg i øjeblikket og meget andet med hurtige og enkle genveje.</string>
+    <string name="suggestion_shortcut_dialog_positive_button">OK</string>
+    <string name="suggestion_shortcut_dialog_subsection_body_text">Genveje foreslås for eksempelvis telefonnumre og datoer. %1$s</string>
+    <string name="suggestion_shortcut_dialog_subsection_title_text">Sådan fungerer det</string>
+    <string name="suggestion_shortcut_dialog_title">Foreslåede genveje, der får dig hurtigere frem</string>
+    <string name="suggestion_shortcut_search_title">Søgning</string>
+    <string name="suggestion_shortcut_star_toolstone">Giv beskeder stjernemarkeringer, så de er nemme at finde i %1$s</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_notification_inbox_style_summary_text">+%d til</string>
+    <string name="super_sort_pref_title">Organisering af beskeder</string>
     <string name="super_sort_settings_title">Organisering af beskeder</string>
     <string name="supersort_conversation_list_empty_text_business_update">Virksomhedsopdateringer vises automatisk her</string>
     <string name="supersort_conversation_list_empty_text_manage_in_settings">Administrer i Indstillinger</string>
@@ -1901,6 +2061,11 @@ Find en vilkårlig samtale under Alle"</string>
     <string name="survey_user_agent">Brugeragent</string>
     <string name="survey_very_dissatisfied">Meget utilfreds</string>
     <string name="survey_very_satisfied">Meget tilfreds</string>
+    <string name="swipe_actions">Strygehandlinger</string>
+    <string name="swipe_actions_summary">Vælg Arkivér eller Slet, om du vil stryge til højre eller til venstre, eller slå strygefunktionen helt fra</string>
+    <string name="swipe_customize">Tilpas</string>
+    <string name="swipe_left">Stryg til venstre</string>
+    <string name="swipe_right">Stryg til højre</string>
     <string name="switcher_no_phone_number">SIM-kortet blev ikke fundet</string>
     <string name="switcher_pair_device_title_text">Send sms-beskeder ved hjælp af den parrede telefon</string>
     <string name="switcher_positive_button_text">Fortsæt</string>
@@ -1908,6 +2073,7 @@ Find en vilkårlig samtale under Alle"</string>
     <string name="switcher_use_device_sim_number">(%s)</string>
     <string name="switcher_use_device_sim_title_text">Send sms-beskeder ved hjælp af denne enheds SIM-kort</string>
     <string name="syncing_with_device_foreground_notification_text">Beskeder synkroniserer med din enhed</string>
+    <string name="system_picker_button_label">Mapper</string>
     <string name="t_mobile_tos_pref_link_text">Vilkår og betingelser</string>
     <string name="t_mobile_tos_pref_text">Chatfunktioner fra Google leveret af T-Mobile. Se %1$s.</string>
     <string name="t_mobile_tos_pref_url">https://www.t-mobile.com/responsibility/legal/terms-and-conditions</string>
@@ -1932,6 +2098,7 @@ Indstillinger > %1$s"</string>
     <string name="theme_setting_dialog_options_light_mode">Lyst</string>
     <string name="theme_setting_dialog_options_system_default_mode">Systemstandard</string>
     <string name="theme_setting_dialog_title">Vælg tema</string>
+    <string name="tiktok_account_login_failure">Der kunne ikke logges ind på den valgte konto.</string>
     <string name="tiktok_add_account_error">Kontoen kunne ikke tilføjes. Prøv igen.</string>
     <string name="tiktok_fix_it">Ret det</string>
     <string name="tiktok_load_account_failure">Kontiene kunne ikke indlæses.</string>
@@ -1957,6 +2124,18 @@ Det er kun dig, der kan se dette navn"</string>
     <string name="tombstone_self_removed_from_group_referrer_known">%1$s har fjernet dig fra denne gruppe</string>
     <string name="tombstone_self_removing_others_from_group">Du har fjernet %1$s fra denne gruppe</string>
     <string name="tombstone_show_link_previews">Forhåndsvisning af links er aktiveret.&lt;br />Få flere oplysninger, eller deaktiver i &lt;u>Indstillinger&lt;/u>.</string>
+    <string name="tombstone_show_link_previews_disabled">Forhåndsvisninger af links er deaktiveret.&lt;br />Få flere oplysninger, eller aktivér i &lt;u>Indstillinger&lt;/u>.</string>
+    <string name="tooltip_content">"Din Google-konto har
+funktioner som f.eks. Google Fotos-linkdeling
+i Beskeder uden
+at tilgå dine samtaler.
+
+Beskeder sendes stadig fra dit
+telefonnummer. Få flere oplysninger"</string>
+    <string name="tooltip_content_with_line_break_fix">"Din Google-konto har effektive funktion som f.eks. Google Fotos-linkdeling i Beskeder uden at tilgå dine samtaler.
+
+Beskeder sendes stadig fra dit telefonnummer. Få flere oplysninger"</string>
+    <string name="tooltip_link">Få flere oplysninger</string>
     <string name="top_contacts_grid_name">★</string>
     <string name="top_contacts_title">Mest anvendte kontakter</string>
     <string name="transaction_content_description">Denne besked er kategoriseret som en transaktion</string>
@@ -1966,6 +2145,7 @@ Det er kun dig, der kan se dette navn"</string>
     <string name="unblock_and_report_not_spam_snackbar_message">Spammarkeringen og blokeringen af %1$s blev fjernet</string>
     <string name="unblock_banner_body">Fjern blokeringen af %s for at flytte denne samtale fra arkivet og få beskeder igen</string>
     <string name="unblock_banner_body_spam_folder">Hvis du vil flytte denne samtale fra \"Spam og blokeret\" og få beskeder igen, skal du fjerne blokeringen af %s</string>
+    <string name="unblock_banner_body_v2">Unblock to receive messages from this sender</string>
     <string name="unblock_banner_description">@string/banner_description</string>
     <string name="unblock_banner_positive_button">Fjern blokering</string>
     <string name="unblock_banner_title">Blokeret</string>
@@ -2001,6 +2181,7 @@ Telefonnumre bruges kun til at finde og løse problemer. Google kontakter ikke d
     <string name="unsent">Ikke-sendt</string>
     <string name="unspam_banner_body">Rapportér %s som ikke-spam for at flytte denne samtale fra arkivet og få beskeder igen</string>
     <string name="unspam_banner_body_spam_folder">Hvis du vil flytte denne samtale fra \"Spam og blokeret\" og få notifikationer igen, skal du rapportere %s som ikke-spam</string>
+    <string name="unspam_banner_body_v2">Report as not spam to receive messages from this sender</string>
     <string name="unspam_banner_description">@string/banner_description</string>
     <string name="unspam_banner_end_button">Ikke spam</string>
     <string name="unspam_banner_title">Rapporteret som spam</string>
@@ -2016,6 +2197,8 @@ Telefonnumre bruges kun til at finde og løse problemer. Google kontakter ikke d
     <string name="unsupported_file_save_alert">Vil du gemme den vedhæftede fil i Downloads</string>
     <string name="unsupported_file_save_cancel">Annuller</string>
     <string name="unverified_sms_banner_description">@string/banner_description</string>
+    <string name="unwanted_messages_toolstone_link">Bloker og rapportér</string>
+    <string name="unwanted_messages_toolstone_text">%1$s, hvis du modtager uønskede beskeder</string>
     <string name="upcoming_reminder">Kommende påmindelse</string>
     <string name="update_content_description">Denne besked er kategoriseret som en opdatering</string>
     <string name="update_donation_banner_body_v2">Din identitet forbliver privat, og du kan fjerne beskedindhold</string>
@@ -2058,6 +2241,7 @@ Telefonnumre bruges kun til at finde og løse problemer. Google kontakter ikke d
     <string name="video_attachment_content_description">Vedhæftet video</string>
     <string name="video_attachment_limit_exceeded_when_sending">Du kan kun sende én video pr. besked. Fjern videoer, og prøv igen.</string>
     <string name="video_compress_info">Modtagere ser lavere videokvalitet på grund af mobilselskabets mms-grænser</string>
+    <string name="video_format_type">video</string>
     <string name="video_media_failure">Lav en længere optagelse for at oprette en video</string>
     <string name="video_taken">Videoen blev optaget</string>
     <string name="video_thumbnail_view_play_button_content_description">Afspil video</string>
@@ -2104,19 +2288,20 @@ Brug din sunde fornuft over for indholdet af beskeden."</string>
     <string name="websiteTypeWork">Arbejde</string>
     <string name="welcome_agree_button_text">Enig</string>
     <string name="welcome_chat_features_decline">Brug Beskeder uden chatfunktioner</string>
-    <string name="welcome_chat_features_learn_more">Få flere oplysninger om chatfunktioner</string>
     <string name="welcome_chat_features_legal">Når du bruger chatfunktioner, accepterer du %1$s og %2$s. Google bekræfter lejlighedsvis dit nummer hos dit mobilselskab (du opkræves muligvis et gebyr for sms).</string>
+    <string name="welcome_chat_features_text">"· Send beskeder via Wi-Fi eller mobildata
+· Del dine filer og medier
+· Hold dine beskeder private"</string>
     <string name="welcome_chat_features_title">Hurtigere og mere detaljeret chat i høj kvalitet via Wi-Fi eller data</string>
+    <string name="welcome_chat_features_title_experiment_0">Få mere ud af Beskeder</string>
+    <string name="welcome_chat_features_title_experiment_1">Få mere ud af dine chatfunktioner i Beskeder</string>
     <string name="welcome_consent_button_text">Næste</string>
-    <string name="welcome_finish_button_text">Udfør</string>
     <string name="welcome_smarts_notice_description">"Gør dine chatsamtaler mere enkle med eksempelvis Google Assistent og Smartsvar. Dine chatsamtaler bliver på din enhed.
 %1$s, og%2$s"</string>
     <string name="welcome_smarts_notice_title">Nyttigt og fikst</string>
     <string name="welcome_spam_description">"For at forhindre spam bruger Google telefonnumre, der ikke er dine kontakter, uden at identificere dig eller dit nummer.
 %1$s, og %2$s"</string>
     <string name="welcome_spam_title">Spambeskyttelse</string>
-    <string name="welcome_splash_tagline">"Ukomplicerede og intelligente beskeder
-leveret af Google"</string>
     <string name="widget_reply_exit_content_description">Tilbage</string>
     <string name="widget_reply_open">ÅBN BESKEDER</string>
     <string name="widget_reply_to">Besvar %s</string>
@@ -2124,9 +2309,14 @@ leveret af Google"</string>
     <string name="work_directory_display_name">Kontakter på arbejdsprofil</string>
     <string name="xms_send_mode_pref_title">Send kun sms- og mms-beskeder</string>
     <string name="you_added_participant">Du har føjet %s til denne gruppe</string>
+    <string name="you_added_participant_with_learn_more">Du har føjet %1$s til denne gruppe. %2$s</string>
+    <string name="you_created_encrypted_rcs_group">Du har oprettet denne gruppechat med %1$s. %2$s</string>
     <string name="you_created_mms_group">Du har oprettet denne gruppe-mms med %s</string>
     <string name="you_created_rcs_group">Du har oprettet denne gruppechat med %s</string>
     <string name="you_left_group">Du har forladt denne gruppe</string>
+    <string name="youtube_dismissal_prompt">Tryk og træk for at lukke</string>
+    <string name="youtube_drag_prompt">Træk for at flytte afspilleren</string>
+    <string name="youtube_pip_playing">Videoen afspilles i et andet vindue</string>
     <string name="zero_connectivity_failure_announcement">Beskeden blev ikke sendt</string>
     <string name="zero_state_search_action_copy">Kopiér</string>
     <string name="zero_state_search_action_jump_to_chat">Se i chat</string>
@@ -2146,6 +2336,7 @@ leveret af Google"</string>
     <string name="zero_state_search_details_image_accessibility">Billedet blev sendt af %1$s %2$s</string>
     <string name="zero_state_search_details_video_accessibility">Videoen blev sendt af %1$s %2$s</string>
     <string name="zero_state_search_dropdown_free_text">Søg efter \"%s\"</string>
+    <string name="zero_state_search_empty_results_text">Her vises dine stjernemarkerede beskeder, medier og links fra denne samtale</string>
     <string name="zero_state_search_images">Billeder</string>
     <string name="zero_state_search_link_copied">Linket blev kopieret</string>
     <string name="zero_state_search_links">Links</string>

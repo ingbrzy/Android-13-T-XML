@@ -28,7 +28,6 @@
     <string name="about_application_pp_tos_settings">Tungkol dito, mga tuntunin at privacy</string>
     <string name="accessbility_suggestion_dropdown_closed">Walang available na mga suhestyon</string>
     <string name="accessbility_suggestion_dropdown_opened">Nakabukas ang mga suhestyon sa contact</string>
-    <string name="acs_url_dropdown_hint">Itakda ang URL ng ACS</string>
     <string name="action_add_contact">Magdagdag ng contact</string>
     <string name="action_advanced_feedback">Magpadala ng feedback</string>
     <string name="action_archive">I-archive</string>
@@ -47,18 +46,19 @@
     <string name="action_help_and_feedback">Tulong at feedback</string>
     <string name="action_info_and_options">Impormasyon at mga opsyon</string>
     <string name="action_jump_to_chat">Tingnan sa chat</string>
+    <string name="action_meet_video_call">Video call sa Meet</string>
     <string name="action_menu_mark_all_as_read">Markahan ang lahat bilang nabasa na</string>
     <string name="action_menu_show_archived">Naka-archive</string>
     <string name="action_menu_show_spam_folder">Spam at naka-block</string>
     <string name="action_notification_off">I-off ang mga notification</string>
     <string name="action_notification_on">I-on ang mga notification</string>
     <string name="action_notification_settings">I-mute ang notification</string>
+    <string name="action_off">Naka-off</string>
     <string name="action_pair_device">Pagpapares ng device</string>
     <string name="action_people_and_options">Mga Detalye</string>
     <string name="action_people_and_options_group">Mga detalye ng grupo</string>
     <string name="action_pin_to_top">I-pin sa itaas</string>
     <string name="action_report_spam">Iulat na spam</string>
-    <string name="action_scan_qr_code">Messages para sa web</string>
     <string name="action_search">Maghanap</string>
     <string name="action_search_gifs">Maghanap ng mga GIF</string>
     <string name="action_search_messages">Hanapin sa mga mensahe</string>
@@ -77,6 +77,7 @@
     <string name="action_viLTE_video_call">Video call gamit ang carrier</string>
     <string name="action_video_call">Makipag-video call</string>
     <string name="actionbar_subtitle_name_prefix">kasama si %s</string>
+    <string name="active_reminder">Paalala</string>
     <string name="active_sim_content_message">%s ang napili</string>
     <string name="activity_not_found_message">Hindi makahanap ng naaangkop na application</string>
     <string name="add_area_code_banner_button">Magdagdag ng area code</string>
@@ -90,6 +91,7 @@
     <string name="add_contact_confirmation_dialog_title">Idagdag sa Mga Contact?</string>
     <string name="add_country_code_banner_button">Magdagdag ng country code</string>
     <string name="add_more_participants_button_content_description">Magdagdag ng higit pang mga kalahok</string>
+    <string name="add_reaction_content_description">Mag-react gamit ang Custom na reaksyon</string>
     <string name="add_reaction_for_assistant_card_rcs_fallback_text">​%1$s​ para sa assistant card</string>
     <string name="add_reaction_for_audio_rcs_fallback_text">​%1$s​ para sa audio file</string>
     <string name="add_reaction_for_contact_rcs_fallback_text">​%1$s​ para sa contact</string>
@@ -97,7 +99,7 @@
     <string name="add_reaction_for_gif_rcs_fallback_text">​%1$s​ para sa GIF</string>
     <string name="add_reaction_for_link_rcs_fallback_text">​%1$s​ para sa link</string>
     <string name="add_reaction_for_photo_rcs_fallback_text">​%1$s​ para sa larawan</string>
-    <string name="add_reaction_for_text_message_rcs_fallback_text">​%1$s​ para sa \"%2$s\"</string>
+    <string name="add_reaction_for_text_message_rcs_fallback_text">​%1$s​ para sa \" %2$s \"</string>
     <string name="add_reaction_for_unknown_message_type_rcs_fallback_text">​%1$s​ para sa isang hindi kilalang uri ng mensahe</string>
     <string name="add_reaction_for_video_rcs_fallback_text">​%1$s​ para sa video</string>
     <string name="advanced_feedback_activity_disclaimer">Hindi ipinapadala sa Google ang content ng iyong mensahe at text, maliban sa mga nasa screenshot.</string>
@@ -134,14 +136,13 @@
     <string name="apn_mnc">MNC</string>
     <string name="app_name">Messages</string>
     <string name="app_settings_conversation_pref_title">Mga setting ng app</string>
-    <string name="apply_button">Ilapat</string>
     <string name="archived_activity_title">Naka-archive</string>
     <string name="archived_conversation_list_empty_text">Lumalabas dito ang mga naka-archive na pag-uusap</string>
     <string name="area_code_banner_description">@string/banner_description</string>
     <string name="assistant_movies_shortcut_title">Mga Pelikula</string>
+    <string name="assistant_preference_summary">Magpakita ng may kaugnayang impormasyon tungkol sa pagkain, mga pelikula, at higit pa</string>
     <string name="assistant_preference_title">Mga mungkahi ng Assistant</string>
     <string name="assistant_restaurants_shortcut_title">Mga Restaurant</string>
-    <string name="assistant_send_to_chip_default_group_name">grupo</string>
     <string name="assistant_suggestions_tooltip_text">Gumagawa ang Messages ng mga suhestyon habang pinapanatili nito ang iyong pag-uusap sa device. Puwede kang mag-tap ng mga suhestyon para tumingin at magbahagi ng impormasyon mula sa Google Assistant. &lt;br/> &lt;br/> &lt;a href>Matuto pa&lt;/a> at pamahalaan sa &lt;a href>Mga Setting&lt;/a></string>
     <string name="assistant_suggestions_tooltip_title_text">Makakuha ng impormasyon sa isang pag-tap</string>
     <string name="assistant_weather_shortcut_title">Lagay ng panahon</string>
@@ -157,12 +158,18 @@
     <string name="attachment_location">Lokasyon</string>
     <string name="attachment_picture">Larawan</string>
     <string name="attachment_preview_close_content_description">I-discard ang attachment</string>
+    <string name="attachment_preview_photos_link_share_getting_link">Kinukuha ang link…</string>
+    <string name="attachment_preview_photos_link_share_no_upload_needed">Dati nang na-upload</string>
+    <string name="attachment_preview_photos_link_share_upload_size">%s na pag-upload</string>
+    <string name="attachment_preview_photos_link_share_upload_size_failure">Hindi alam</string>
+    <string name="attachment_preview_photos_link_share_upload_size_placeholder">Kinakalkula…</string>
     <string name="attachment_unsupported_file">Di sinusuportahang file</string>
     <string name="attachment_vcard">Contact card</string>
     <string name="attachment_video">Video</string>
     <string name="audio_attachment_content_description">Attachment na audio</string>
     <string name="audio_attachment_seek_playback_description">Playback ng audio</string>
     <string name="audio_button_view_content_description">I-double tap at i-hold para mag-record ng audio, i-slide pakaliwa para kanselahin</string>
+    <string name="audio_format_type">audio</string>
     <string name="audio_pause_content_description">I-pause</string>
     <string name="audio_play_content_description">I-play ang attachment na audio</string>
     <string name="audio_recorder_call_in_progress">Hindi puwedeng mag-record ng audio habang nasa tawag</string>
@@ -181,13 +188,16 @@
     <string name="auto_selected_country_summary">Awtomatikong nakita (%1$s)</string>
     <string name="automoved_spam_notification_action_dismiss">I-dismiss</string>
     <string name="automoved_spam_notification_action_view">Tingnan</string>
+    <string name="automoved_spam_notification_content_text">Inilipat sa “Spam at naka-block” ang papasok na spam</string>
+    <string name="automoved_spam_notification_content_title">May na-detect na spam</string>
     <string name="bad_custom_theme">Ang custom na tema na ginagamit mo ay nagdulot ng problema sa app na ito</string>
     <string name="bad_custom_theme_close_button">Lumabas</string>
     <string name="banner_description">Banner ng pag-uusap</string>
     <string name="birthday_banner_description">@string/banner_description</string>
     <string name="birthday_banner_dismiss_button_text">I-dismiss</string>
     <string name="birthday_banner_settings_button_text">Pamahalaan sa mga setting</string>
-    <string name="birthday_info_text">Gumagawa ang Messages ng mga paalala sa kaarawan mula sa mga contact na may kaarawan sa iyong device</string>
+    <string name="birthday_info_text">Ang mga paalala na ito ay batay sa impormasyon ng kaarawan na mula sa app na mga contact ng iyong device.</string>
+    <string name="birthday_info_text_with_settings">Ang mga paalala na ito ay batay sa impormasyon ng kaarawan na mula sa app na mga contact ng iyong device. &lt;a href>%1$s&lt;/a></string>
     <string name="birthday_nudge_enabled_pref_summary">Makatanggap ng mga paalala para sa mga kaarawan na idinagdag mo sa mga contact sa iyong device</string>
     <string name="birthday_nudge_enabled_pref_title">Mga paalala sa kaarawan</string>
     <string name="block_confirmation_message_spam_folder">Patuloy kang makakatanggap ng mga mensahe mula kay/sa %1$s pero hindi na aabisuhan. Ililipat sa “Spam at naka-block” ang pag-uusap na ito.</string>
@@ -207,9 +217,13 @@
     <string name="boew_promo_text">Para makakuha ng mga chat feature tulad ng pagmemensahe gamit ang Wi‑Fi at data, payagan ang Messages na magpatuloy sa background</string>
     <string name="boew_promo_title">Mas maraming magawa gamit ang Messages</string>
     <string name="bottomsheet_action_expand_halfway">I-expand hanggang gitna</string>
+    <string name="bottomsheet_drag_handle_content_description">I-drag ang handle</string>
     <string name="broadcast_receiver_notification_text_extra_info">May ginagawa ang Messages sa background. Maghain ng ulat ng bug kung makikita mo ang notification na ito nang mahigit sa isang minuto. Pangalan ng tagatanggap: %1$s</string>
     <string name="broadcast_sms_text">Pangmaramihang text na SMS</string>
     <string name="bubble_settings_title">Bubbles</string>
+    <string name="bugle_add_account_error">Hindi naidagdag ang account, pakisubukan ulit.</string>
+    <string name="bugle_fix_it">Ayusin ito</string>
+    <string name="bugle_load_account_failure">Hindi na-load ang mga account.</string>
     <string name="bugle_notification_category_conversations">Mga Pag-uusap</string>
     <string name="bugle_notification_category_default_settings">Mga default na setting</string>
     <string name="bugle_notification_category_reminders">Mga Paalala</string>
@@ -221,6 +235,8 @@
     <string name="bugle_notification_reminders_channel_name">Mga Paalala</string>
     <string name="bugle_notification_report_issue_channel_name">Kahilingan para sa feedback sa Messages</string>
     <string name="bugle_notification_silent_default_channel_name">Makakuha ng mga notification habang gumagamit ng web</string>
+    <string name="bugle_play_services_error">Nagka-error sa pag-query ng mga serbisyo ng Google Play.</string>
+    <string name="bugle_retry">Subukan ulit</string>
     <string name="business_action_call_full_content_description">Tumawag sa %1$s (%2$s)</string>
     <string name="business_action_call_short_content_description">Tumawag</string>
     <string name="business_action_call_short_text_m2">Tawag</string>
@@ -282,6 +298,7 @@
     <string name="c2o_single_file_attachment_size_limit_exceed">Masyadong malaki ang iyong attachment para ipadala. Subukang magpadala ng file na mas maliit sa %s.</string>
     <string name="c2o_storage_permissions_text">I-tap upang bigyan ng access sa Media</string>
     <string name="c2o_video_button_text">Video</string>
+    <string name="calendar_badge_content_description">Calendar badge</string>
     <string name="calendar_event_added">Na-save ang event</string>
     <string name="calendar_file_content_description">File sa kalendaryo</string>
     <string name="calendar_suggestion_event_chat_title">Chat sa Android Messages</string>
@@ -292,6 +309,7 @@
     <string name="camera_attach_media">I-attach</string>
     <string name="camera_attach_media_description">I-attach sa Mensahe</string>
     <string name="camera_back_switch_button">Switch ng camera sa likod</string>
+    <string name="camera_capture_button_label">Kumuha ng Larawan</string>
     <string name="camera_flash_off">Naka-off ang flash</string>
     <string name="camera_flash_on">Naka-on ang flash</string>
     <string name="camera_front_switch_button">Switch ng camera sa harap</string>
@@ -392,6 +410,11 @@ Puwede mong i-off ang mga feature ng chat sa mga setting. %1$s"</string>
     <string name="common_google_play_services_update_text">Hindi gagana ang %1$s maliban kung i-a-update mo ang mga serbisyo ng Google Play.</string>
     <string name="common_google_play_services_update_title">I-update ang mga serbisyo ng Google Play</string>
     <string name="common_google_play_services_updating_text">Hindi gagana ang %1$s nang wala ang mga serbisyo ng Google Play na kasalukuyang ina-update.</string>
+    <string name="common_google_play_services_wear_update_text">Kailangan ang bagong bersyon ng mga serbisyo ng Google Play. Mag-a-update itong mag-isa sa ilang sandali.</string>
+    <string name="common_open_on_phone">Buksan sa telepono</string>
+    <string name="complete_photos_app_onboarding">Buksan ang Google Photos</string>
+    <string name="complete_photos_app_onboarding_title">Para magpatuloy, payagan ang access sa Google Photos</string>
+    <string name="complete_photos_app_onboarding_to_continue">Magsimula sa Google Photos app</string>
     <string name="compose_message_view_hint_text">Mensahe sa chat</string>
     <string name="compose_message_view_hint_text_multi_sim_rcs">Chat (%s)</string>
     <string name="compose_message_view_hint_text_multi_sim_sms_mms">Text (%s)</string>
@@ -413,15 +436,12 @@ Puwede mong i-off ang mga feature ng chat sa mga setting. %1$s"</string>
     <string name="contact_has_multiple_destinations_phone">%1$s (+%2$s pa)</string>
     <string name="contact_has_multiple_destinations_type">Marami</string>
     <string name="contact_list_add_people">Idagdag ang %s</string>
-    <string name="contact_list_empty_text">Maglagay ng pangalan ng contact o numero ng telepono upang magsimula ng isang bagong mensahe</string>
     <string name="contact_list_send_to_text">Ipadala sa %s</string>
     <string name="contact_picker_autocomplete_added">Naidagdag na si %1$s, kasalukuyang ine-edit</string>
     <string name="contact_picker_autocomplete_deleted">Na-delete si %1$s, kasalukuyang ini-edit</string>
-    <string name="contact_picker_cant_add_destination_twice">Nasa grupo na ang numerong iyan</string>
     <string name="contact_picker_cant_remove_from_existing">Hindi maalis ang numero mula sa dati nang pag-uusap</string>
     <string name="contact_picker_cant_remove_from_screen">Para alisin ang mga tao, pumunta sa &lt;b>Mga Detalye ng Grupo&lt;/b></string>
     <string name="contact_picker_confirm_participants_button_label">Susunod</string>
-    <string name="contact_picker_group_create_label">Gumawa ng grupo</string>
     <string name="contact_picker_group_v2_create_label">Gumawa ng grupo</string>
     <string name="contact_picker_message_a_business_label">Makipag-chat sa isang negosyo</string>
     <string name="contact_picker_title_add_people">Magdagdag ng mga tao</string>
@@ -444,10 +464,14 @@ Puwede mong i-off ang mga feature ng chat sa mga setting. %1$s"</string>
     <string name="content_description_link_to_settings">Pamahalaan sa Mga Setting</string>
     <string name="contextual_action_bar_description_prefix">Ipinapakita ang toolbar para sa mga pagkilos: %s. Mag-navigate pataas para pumili ng pagkilos o para isara.</string>
     <string name="conversation_area_code_popup_paragraph">Kapag walang kilalang area code, susubukan ng Messages na ipadala sa %1$s. Idagdag ang area code ng contact na ito para sa mga mensahe sa hinaharap. %2$s</string>
+    <string name="conversation_block_failed_message">Hindi na-block, suriin ang koneksyon</string>
+    <string name="conversation_blocking_message">Bina-block…</string>
     <string name="conversation_country_code_popup_paragraph">Magdagdag ng country code (+%1$s para sa %2$s) sa contact na ito para maipadala sa tamang tao ang iyong mensahe. %3$s</string>
     <string name="conversation_creation_failed">Nabigong gumawa ng pag-uusap, pakisubukang muli sa ibang pagkakataon.</string>
     <string name="conversation_creation_failure">Hindi makapagsimula ng pag-uusap</string>
+    <string name="conversation_deleting_message">Dine-delete…</string>
     <string name="conversation_deletion_failed">Hindi ma-delete ang pag-uusap</string>
+    <string name="conversation_deletion_failed_message">Hindi na-delete, suriin ang koneksyon</string>
     <string name="conversation_empty_name">Walang laman</string>
     <string name="conversation_label_all">Lahat</string>
     <string name="conversation_label_business_updates">Negosyo</string>
@@ -474,7 +498,6 @@ Puwede mong i-off ang mga feature ng chat sa mga setting. %1$s"</string>
     <string name="conversation_list_item_view_draft_message">Draft</string>
     <string name="conversation_list_item_view_sent_from_other_prefix">%s:</string>
     <string name="conversation_list_item_view_sent_from_you_prefix">Ikaw:</string>
-    <string name="conversation_list_loading_item_description">Nilo-load ang pag-uusap</string>
     <string name="conversation_list_message_fail_to_decrypt">Hindi ma-decrypt</string>
     <string name="conversation_list_rcs_promo_button_negative">Huwag I-upgrade ang App</string>
     <string name="conversation_list_rcs_promo_button_positive">Mag-upgrade Ngayon</string>
@@ -486,7 +509,6 @@ Puwede mong i-off ang mga feature ng chat sa mga setting. %1$s"</string>
     <string name="conversation_list_snippet_link">Link</string>
     <string name="conversation_list_spam_popup_negative">Pamahalaan sa Mga Setting.</string>
     <string name="conversation_list_spam_popup_paragraph">Para makatulong na mapigilan ang spam, ginagamit ng Google ang mga numero ng telepono ng mga hindi kilalang tagapadala at tagatanggap. Hindi ipapadala sa Google ang iyong mga mensahe at contact. %1$s</string>
-    <string name="conversation_list_spam_popup_paragraph_on_device">Ginagamit ng Messages ang talino na nasa device para ma-detect ang spam, at nagpapadala ito ng ilang data tungkol sa mga mensahe na ito sa Google nang hindi isinasama ang numero ng iyong telepono o content ng mensahe. %1$s</string>
     <string name="conversation_list_spam_popup_positive">OK</string>
     <string name="conversation_list_spam_popup_title">Proteksyon sa spam</string>
     <string name="conversation_list_terms_and_conditions_promo_subtitle">Tapusin ang pag-on sa mga feature ng chat para makuha ang pagmemensahe gamit ang Wi-Fi at higit pa</string>
@@ -509,6 +531,7 @@ Puwede mong i-off ang mga feature ng chat sa mga setting. %1$s"</string>
     <string name="conversation_suggestion_set_reminder_action">Pagkilos na magmungkahi na magtakda ng paalala</string>
     <string name="conversation_suggestion_share_location_action">Iminumungkahing pagbabahagi ng lokasyon na pagkilos</string>
     <string name="conversation_suggestion_share_location_action_failure">Nagkaroon ng problema. Upang ibahagi ang iyong lokasyon, idagdag ito sa isang bagong mensahe.</string>
+    <string name="conversation_suggestion_star_action">Iminumungkahing pag-star</string>
     <string name="conversation_suggestion_sticker">Iminumungkahing sticker</string>
     <string name="copy">Kopyahin</string>
     <string name="copy_to_clipboard">Kopyahin</string>
@@ -518,6 +541,7 @@ Puwede mong i-off ang mga feature ng chat sa mga setting. %1$s"</string>
     <string name="create_group_info_title">Magdagdag ng pangalan ng grupo</string>
     <string name="create_new_group_message">Ang pagdagdag sa taong ito ay magsisimula ng bagong grupo nang walang chat feature</string>
     <string name="current_country_pref_title">Ang iyong kasalukuyang bansa</string>
+    <string name="custom_reaction_selection_prompt">Pumili ng emoji</string>
     <string name="dark_mode_disable_title">I-disable ang dark mode</string>
     <string name="dark_mode_enable_title">I-enable ang dark mode</string>
     <string name="dasher_disabled_notification_body">Makipag-ugnayan sa iyong system administrator o mag-sign in gamit ang ibang account.</string>
@@ -585,12 +609,9 @@ Puwede mong i-off ang mga feature ng chat sa mga setting. %1$s"</string>
     <string name="ditto_activity_label">Pagpapares ng device</string>
     <string name="ditto_foreground_service_device_pairing_notification_text">Available ang iyong mga mensahe sa device na naipares mo</string>
     <string name="ditto_foreground_service_device_pairing_notification_title">Pagpapares ng device</string>
-    <string name="ditto_foreground_service_notification_text">Available ang iyong mga mensahe sa computer na naipares mo</string>
-    <string name="ditto_foreground_service_notification_title">Messages para sa web</string>
     <string name="ditto_foreground_service_sign_out">I-unpair</string>
     <string name="ditto_persistent_notification_settings">Mga Notification</string>
     <string name="ditto_settings_action_bar_title">Mga Notification</string>
-    <string name="ditto_settings_connected_to_web_notification_description">Lalabas ang “Messages para sa web” kapag online ang iyong device</string>
     <string name="ditto_settings_connected_to_web_notification_title">Magpakita ng hindi nawawalang notification</string>
     <string name="ditto_settings_device_paired_notification_description">Lumalabas ang “pagpapares ng device” kapag online ang iyong device</string>
     <string name="ditto_settings_while_using_web_notification_description">Ihinto ang ringtone at pag-vibrate kapag online ang iyong device</string>
@@ -631,6 +652,7 @@ Sinusuri ng mga tao ang iyong mga mensahe, kasama ang numero ng tagapadalang neg
     <string name="dump_mms_pref_title">Itapon ang MMS</string>
     <string name="dump_sms_pref_summary">Itapon ang raw data ng natanggap na SMS sa file ng external storage</string>
     <string name="dump_sms_pref_title">Itapon ang SMS</string>
+    <string name="duplicate_upload_snackbar">Hindi isinama ang ilang duplicate</string>
     <string name="e2ee_conversation_tombstone">End-to-end na naka-encrypt ang chat kay %1$s</string>
     <string name="e2ee_conversation_tombstone_with_learn_more">End-to-end na naka-encrypt ang chat kay %1$s. %2$s</string>
     <string name="e2ee_fail_to_send_retry_description">Ipadala ulit bilang chat</string>
@@ -669,7 +691,6 @@ Sinusuri ng mga tao ang iyong mga mensahe, kasama ang numero ng tagapadalang neg
 Babalik ang mga mensahe kapag kumonekta ulit ang mga feature ng chat."</string>
     <string name="enable_rcs_auto_fallback_dialog_title">Awtomatikong ipadala ulit bilang text (SMS/MMS)?</string>
     <string name="enable_rcs_auto_fallback_title">Awtomatikong ipadala ulit bilang text (SMS/MMS)</string>
-    <string name="enable_rcs_fallback_to_sms_title">Muling ipadala ang mga mensahe kung hindi naihatid</string>
     <string name="enable_rcs_fallback_to_xms_title">Muling ipadala ang mga mensahe kung hindi naihatid</string>
     <string name="enable_rcs_summary_off">Gumamit ng Wi-Fi o data para sa pagmemensahe kapag available</string>
     <string name="enable_rcs_summary_on">Gumagamit ng data para sa pagmemensahe kapag available</string>
@@ -681,9 +702,13 @@ Babalik ang mga mensahe kapag kumonekta ulit ang mga feature ng chat."</string>
     <string name="enter_phone_number_title">Kumpirmahin ang numero ng iyong telepono</string>
     <string name="enter_phone_number_title_for_sim">Kumpirmahin ang numero ng telepono para sa %1$s</string>
     <string name="enumeration_comma">", "</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_failed_to_save_setting">Nagkaproblema sa pag-save. Subukan ulit.</string>
     <string name="error_icon_content_description">Error</string>
     <string name="error_premium_sms_needs_permission">Upang ipadala ang mensaheng ito, bisitahin ang mga setting ng iyong device at i-on ang access sa Premium SMS</string>
+    <string name="error_text_draft_is_reply_to_missing_message">Hindi makakasagot sa isang na-delete na mensahe</string>
+    <string name="error_text_draft_is_reply_without_rcs">Nagkakaproblema sa mga feature ng chat. Subukang ipadala nang walang sagot.</string>
+    <string name="error_text_scheduled_send_with_draft_reply">Hindi makapag-iskedyul ng tugon sa ngayon</string>
     <string name="etouffee_to_rcs_notification">Natukoy ng Messages na nawala ang end-to-end na pag-encrypt sa isang pag-uusap. I-tap para magpadala ng feedback.</string>
     <string name="etouffee_to_telephony_setting">Privacy</string>
     <string name="etouffee_to_telephony_setting_description">"Kasama sa mga pahintulot sa SMS ang iyong mga mensaheng end-to-end na naka-encrypt para ang mga ito ay ma-back up ng Android, mabasa nang malakas sa sasakyan mo o sa isang kasamang device, at higit pa. Tingnan at pamahalaan ang iyong mga app gamit ang mga pahintulot sa SMS sa mga setting ng Android.
@@ -709,19 +734,24 @@ Kapag binago ang setting na ito, hindi maaapektuhan ang mga mensaheng end-to-end
     <string name="exo_controls_pause_description">I-pause</string>
     <string name="exo_controls_play_description">I-play</string>
     <string name="exo_controls_previous_description">Nakaraan</string>
-    <string name="exo_controls_repeat_all_description">Ulitin lahat</string>
-    <string name="exo_controls_repeat_off_description">Walang uulitin</string>
-    <string name="exo_controls_repeat_one_description">Mag-ulit ng isa</string>
+    <string name="exo_controls_repeat_all_description">Current mode: Ulitin lahat. I-toggle ang repeat mode.</string>
+    <string name="exo_controls_repeat_off_description">Current mode: Walang uulitin. I-toggle ang repeat mode.</string>
+    <string name="exo_controls_repeat_one_description">Current mode: Walang uulitin. I-toggle ang repeat mode.</string>
     <string name="exo_controls_rewind_description">I-rewind</string>
     <string name="exo_controls_show">Ipakita ang mga kontrol ng player</string>
-    <string name="exo_controls_shuffle_off_description">Naka-off ang pag-shuffle</string>
-    <string name="exo_controls_shuffle_on_description">Naka-on ang pag-shuffle</string>
+    <string name="exo_controls_shuffle_off_description">I-enable ang shuffle mode</string>
+    <string name="exo_controls_shuffle_on_description">I-disable ang shuffle mode</string>
     <string name="exo_controls_vr_description">VR mode</string>
     <string name="exo_track_selection_auto">Awtomatiko</string>
     <string name="exo_track_selection_none">Wala</string>
     <string name="expand_attach_button_content_description">Palawakin ang mga button ng attachment</string>
     <string name="expand_button_title">Advanced</string>
     <string name="exposed_dropdown_menu_content_description">Ipakita ang dropdown na menu</string>
+    <string name="express_sign_in_illustration_content_description">Larawan ng feature na pagbabahagi ng media</string>
+    <string name="express_sign_in_sub_title">"Panatilihing maliwanag ang linaw ng video kapag
+nag-sign in at nagpadala ka ng mga link ng Google Photos."</string>
+    <string name="express_sign_in_title">"Magbahagi ng mga video tulad ng
+nilalayong maipakita"</string>
     <string name="fail_to_decrypt_message_metadata">Hindi ma-decrypt, mag-tap para sa mga opsyon</string>
     <string name="fail_to_load_dialog_negative_button">Mag-text gamit ang SIM ng device</string>
     <string name="fail_to_load_dialog_positive_button">Subukan ulit</string>
@@ -735,6 +765,7 @@ Kapag binago ang setting na ito, hindi maaapektuhan ang mga mensaheng end-to-end
     <string name="failed_message_content_description">Mensaheng nabigong ipadala. I-tap para subukan ulit.</string>
     <string name="failed_qr_pairing_dialog_message">Nagkaproblema. Subukan ulit sa loob ng ilang minuto.</string>
     <string name="failed_qr_pairing_dialog_positive_button_text">OK</string>
+    <string name="failed_to_select_attachment_from_system_picker">Hindi napili ang attachment na ito</string>
     <string name="fast_track_negative_button_text">Hindi, salamat na lang</string>
     <string name="fast_track_popup_accepted_snack_bar_text">Sine-set up ang mga chat feature. Ipapaalam namin sa iyo kapag handa na ang mga ito.</string>
     <string name="fast_track_popup_declined_snack_bar_text">Anumang oras maaari mong i-on ang mga feature ng chat sa Mga Setting.</string>
@@ -800,6 +831,9 @@ Kapag binago ang setting na ito, hindi maaapektuhan ang mga mensaheng end-to-end
     <string name="fi_settings_download_over_wifi_title">I-sync lang ang media sa pamamagitan ng Wi-Fi</string>
     <string name="fi_settings_opt_out_failed">Hindi mahinto ang pag-sync at mag-sign out ngayon mismo. Subukan ulit sa ibang pagkakataon.</string>
     <string name="fi_settings_opt_out_in_progress">Hinihinto ang pag-sync at nagsa-sign out</string>
+    <string name="fi_settings_redirect_button">Pamahalaan ang backup</string>
+    <string name="fi_settings_redirect_summary">Makita ang mga ito sa ilalim ng menu ng account</string>
+    <string name="fi_settings_redirect_title">Nalipat na ang mga setting ng pag-back up at pag-sync</string>
     <string name="fi_settings_sync_preference_backup_in_progress">Isinasagawa ang pag-back up: %1$d%%</string>
     <string name="fi_settings_sync_preference_restore_in_progress">Isinasagawa ang pag-restore: %1$d%%</string>
     <string name="fi_settings_sync_preference_summary">Nananatiling up-to-date ang mga mensahe, tawag, at voicemail sa lahat ng screen</string>
@@ -817,6 +851,7 @@ Kapag binago ang setting na ito, hindi maaapektuhan ang mga mensaheng end-to-end
     <string name="file_transfer_via_sms_other">Nagbahagi ako ng isang file sa iyo</string>
     <string name="file_transfer_via_sms_video">Nagbahagi ako ng video sa iyo</string>
     <string name="files_shortcut_title">Mga File</string>
+    <string name="flip_camera_button_label">I-flip ang Camera</string>
     <string name="floating_toolbar_close_overflow_description">Isara ang overflow</string>
     <string name="floating_toolbar_open_overflow_description">Higit pang opsyon</string>
     <string name="foreground_service_notification_generic_text">May pinoproseso ang Messages sa background</string>
@@ -830,12 +865,27 @@ Kapag binago ang setting na ito, hindi maaapektuhan ang mga mensaheng end-to-end
     <string name="full_banner_expand_chip_description">Button na i-expand ang chip</string>
     <string name="full_screen_gallery_action_attach">Idagdag</string>
     <string name="fullscreen_button_description">Buksan nang full screen</string>
+    <string name="gaia_auth_failure_dialog_body">Hindi gagana ang ilang feature na pinapagana ng iyong Google Account hanggang sa mag-sign in ka</string>
+    <string name="gaia_auth_failure_dialog_title">Mag-sign in ulit para i-verify na ikaw ito</string>
+    <string name="gallery_google_photos_option_tray_button_add">Magdagdag</string>
+    <string name="gallery_google_photos_option_tray_button_always">Palagi</string>
+    <string name="gallery_google_photos_option_tray_button_cancel">Kanselahin</string>
+    <string name="gallery_google_photos_option_tray_button_just_once">Isang beses lang</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_image">Malabong larawan</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_unknown">Mababang kalidad na media</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_video">Mababang kalidad na video</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_image">Larawan</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_unknown">Media</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_video">Video</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_body">Malinaw. Pamahalaan ang mga nakabahaging link sa Google Photos.</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_learn_more">Matuto pa</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_title">Link ng Google Photos</string>
+    <string name="gallery_item_content_description_selected_state">I-unselect ang naka-attach na %1$s sa posisyon na %2$s gamit ang double tap</string>
+    <string name="gallery_item_content_description_unselected_state">Piliin ang %1$s na ito na kinunan noong %2$s gamit ang pag-double tap</string>
     <string name="general_settings">Pangkalahatan</string>
     <string name="general_settings_activity_title">Mga pangkalahatang setting</string>
     <string name="general_settings_title_m2">Mga Opsyon</string>
     <string name="generic_issue_text">Iba pa</string>
-    <string name="get_messenger_notification_body">Magbasa at magpadala ng mga text message mula sa iyong relo o telepono</string>
-    <string name="get_messenger_notification_header">Kunin ang Messages</string>
     <string name="get_sticker_packs_error_msg">Hindi na-load ang mga sticker.</string>
     <string name="gif_screen_no_result">Hindi makahanap ng katugma. Tingnan ang iyong paghahanap at subukan ulit.</string>
     <string name="gif_screen_title">Mga GIF</string>
@@ -843,10 +893,23 @@ Kapag binago ang setting na ito, hindi maaapektuhan ang mga mensaheng end-to-end
     <string name="gif_search_hint">Maghanap sa mga GIF</string>
     <string name="gifs_shortcut_title">Mga GIF</string>
     <string name="go_to_top">Tingnan ang latest</string>
-    <string name="google_account_pref_title">Google Account</string>
     <string name="google_assistant_verification_channel_name">Taga-verify ng Assistant</string>
     <string name="google_assistant_verification_notification_title">Nagpapadala ng mensahe ang Google Assistant</string>
     <string name="google_fi_text">Google Fi</string>
+    <string name="google_photos_onboarding_close_button_description">Isara ang Google Photos card</string>
+    <string name="google_photos_onboarding_ineligible_title">Mag-sign in sa Google Photos para sa malilinaw na video</string>
+    <string name="google_photos_onboarding_ineligible_title_photos_and_videos">Mag-sign in sa Google Photos para sa malilinaw na larawan at video</string>
+    <string name="google_photos_onboarding_learn_more">Matuto pa</string>
+    <string name="google_photos_onboarding_next">Susunod</string>
+    <string name="google_photos_onboarding_ok">OK</string>
+    <string name="google_photos_onboarding_signed_in_title_photos_and_videos">Mag-sign in para magpadala ng malilinaw na larawan at video</string>
+    <string name="google_photos_onboarding_signed_out_title">Mag-sign in para magpadala ng malilinaw na video</string>
+    <string name="google_photos_onboarding_text_body">Panatilihin ang linaw ng video kapag nagpadala ka ng mga link ng Google Photos sa mga pag-uusap sa MMS</string>
+    <string name="google_photos_onboarding_text_body_photos_and_videos_xms">Panatilihin ang linaw ng media kapag nagpadala ka ng mga link ng Google Photos sa mga pag-uusap sa MMS</string>
+    <string name="google_photos_onboarding_title">Magbahagi ng mga video tulad ng nilalayong maipakita ang mga ito</string>
+    <string name="google_photos_onboarding_title_photos_and_videos">Magbahagi ng mga larawan at video tulad ng nilalayong maipakita ang mga ito</string>
+    <string name="google_photos_option_tray">Mag-sign in para magpadala ng mas malilinaw na video</string>
+    <string name="google_photos_option_tray_photos_and_videos">Mag-sign in para magpadala ng malilinaw na larawan at video</string>
     <string name="google_play_protect_title">Google Play Protect</string>
     <string name="google_tos_chat_features_tooltip">"Makita kung ang isang tao ay nagta-type, nakakatanggap ng mga resibo na nabasa na, at nagpapadala ng mga mensahe, file, at larawang may mataas na resolution gamit ang mga feature ng chat sa pamamagitan ng Rich Communication Services (RCS). Gumagamit ito ng data sa pagpapadala ng mga mensahe.
 
@@ -860,8 +923,9 @@ Puwede mo itong i-off sa mga setting. %1$s"</string>
 
 Mababago mo ang iyong default na SIM sa pagtawag sa Mga setting ng system. %1$s"</string>
     <string name="google_tos_multisim_view_accessibility_description">Matuto pa</string>
+    <string name="google_tos_negative_link_text">Huwag na lang</string>
     <string name="group_conversation_title_everyone_else_left">Ako</string>
-    <string name="group_limit_alert_dialog_message">{max_group_size_including_self,plural, =1{Hindi puwedeng magkaroon ng higit sa # tao}one{Hindi puwedeng magkaroon ng higit sa # tao}other{Hindi puwedeng magkaroon ng higit sa # na tao}}</string>
+    <string name="group_limit_alert_dialog_message">{max_group_size_excluding_self,plural, =1{Hindi puwedeng magkaroon ng higit sa # iba pang tao}one{Hindi puwedeng magkaroon ng higit sa # iba pang tao}other{Hindi puwedeng magkaroon ng higit sa # na iba pang tao}}</string>
     <string name="group_mms_pref_title">Panggrupong pagpapadala ng mensahe</string>
     <string name="group_name_edit_text_label">Pangalan ng grupo</string>
     <string name="guest_cloud_preview">I-PREVIEW</string>
@@ -871,14 +935,19 @@ Mababago mo ang iyong default na SIM sa pagtawag sa Mga setting ng system. %1$s"
     <string name="happy_birthday_no_name">Batiin siya ng Maligayang Kaarawan!</string>
     <string name="hidden_sender_address">Nakatago ang address ng nagpadala</string>
     <string name="highlighter">Highlighter</string>
+    <string name="how_it_works_link_text">Paano ito gumagana</string>
+    <string name="hqms_always_send_image_as_link_pref_title">Palaging ipadala ang mga larawan sa pamamagitan ng link sa text (SMS/MMS)</string>
+    <string name="hqms_always_send_video_as_link_pref_title">Palaging ipadala ang mga video sa pamamagitan ng link sa text (SMS/MMS)</string>
+    <string name="hqms_settings_gaia_card_text">Pamahalaan ang mga link sa Google Photos</string>
+    <string name="hqms_settings_info_text">Ina-upload ang mga mensahe sa Google Photos, kung saan puwede mong pamahalaan ang pagbabahagi ng link ng video. %1$s</string>
+    <string name="hqms_settings_sign_in_prompt_text">Mag-sign in sa iyong Google account para magamit ang feature na ito</string>
     <string name="hqms_settings_summary">Magbahagi ng malinaw na video sa text (SMS/MMS)</string>
     <string name="hqms_settings_title">Google Photos</string>
     <string name="identity_verification_notification_text">Vine-verify ng Messages ang isang papasok na mensahe</string>
     <string name="ignore">Huwag Pansinin</string>
     <string name="image_attachment_content_description">Larawang attachment</string>
     <string name="image_compress_info">Makakakita ang tatanggap ng larawan na may mas mababang kalidad dahil sa mga limitasyon ng carrier sa MMS</string>
-    <string name="imei_format_dropdown_hint">Itakda ang Format ng IMEI</string>
-    <string name="imsi_format_dropdown_hint">Itakda ang Format ng IMSI</string>
+    <string name="image_format_type">larawan</string>
     <string name="in_conversation_blocked_contact_text">Maaaring hindi mo makita ang lahat ng mensahe dahil may mga naka-block na contact sa pag-uusap na ito.</string>
     <string name="in_conversation_notify_new_message_action">Tingnan</string>
     <string name="in_conversation_notify_new_message_text">Bagong mensahe</string>
@@ -888,7 +957,7 @@ Mababago mo ang iyong default na SIM sa pagtawag sa Mga setting ng system. %1$s"
     <string name="incoming_message_for_secondary_user_notification_title">Bagong mensahe</string>
     <string name="incoming_message_foreground_notification_text">May pinoprosesong papasok na mensahe ang Messages</string>
     <string name="incoming_mms_disabled_by_company_pref_summary">Hindi pinapayagan ng iyong kumpanya ang mga papasok na MMS message</string>
-    <string name="indeterminate">Hindi may check o walang check</string>
+    <string name="indeterminate">Bahagyang may check</string>
     <string name="info_and_options_activity_business_tab_list_header">Negosyo</string>
     <string name="info_and_options_activity_info_tab_content_description">Impormasyon</string>
     <string name="info_and_options_activity_info_tab_title">Impormasyon</string>
@@ -899,6 +968,9 @@ Mababago mo ang iyong default na SIM sa pagtawag sa Mga setting ng system. %1$s"
     <string name="info_and_options_view_terms_of_service">Tingnan ang Mga Tuntunin ng Serbisyo</string>
     <string name="inline_playback_error">Hindi ma-play ang video na ito sa Messages</string>
     <string name="inline_playback_pause_content_description">I-pause ang video</string>
+    <string name="install_photos_app">I-install ang Google Photos</string>
+    <string name="install_photos_app_title">Para magpatuloy, i-install ang Google Photos app</string>
+    <string name="install_photos_app_to_continue">I-install ang app para magpadala ng malilinaw na video</string>
     <string name="invalid_qr_code_dialog_message">Upang mag-sign in, i-scan ang QR code sa %s</string>
     <string name="invalid_qr_code_dialog_positive_button_text">OK</string>
     <string name="invalid_qr_code_dialog_title">Maling code</string>
@@ -912,14 +984,12 @@ Mababago mo ang iyong default na SIM sa pagtawag sa Mga setting ng system. %1$s"
     <string name="leave_confirmation_text">Sigurado ka bang gusto mong tumigil nang tumanggap ng mga mensahe mula sa grupong ito?</string>
     <string name="leave_confirmation_title">Permanenteng Umalis sa Grupo</string>
     <string name="libraries_material_featurehighlight_dismiss">I-dismiss</string>
-    <string name="link_preview_enabled_pref_summary">Magpakita ng mga preview sa mga mensahe</string>
+    <string name="lighter_account_sign_out_snackbar_text">Mag-sign in para tingnan ang iyong mga pag-uusap na pang-negosyo</string>
+    <string name="lighter_block_report_spam_body">Mapupunta sa Google ang pangalan ng negosyo at pakikipag-usap mo sa negosyong ito (posibleng magkaroon ng mga singil ng carrier).</string>
     <string name="link_preview_enabled_pref_summary_off">Naka-off</string>
     <string name="link_preview_failed">Hindi available ang preview</string>
     <string name="link_preview_google_photos_display_name">Google Photos</string>
-    <string name="link_preview_preference_info_text">Nakakakuha ang Google ng content ng preview mula sa mga naka-link na site. Mga link na mula sa mga kilalang nagpadala lang ang may kasamang mga preview. %1$s</string>
-    <string name="link_preview_preference_title">Mga awtomatikong preview ng link</string>
     <string name="link_preview_tap_to_load">I-tap para i-load ang preview</string>
-    <string name="link_preview_wifi_only_pref_summary">I-download lang ang mga preview sa Wi-Fi</string>
     <string name="link_to_settings"><u>Pamahalaan sa Mga Setting</u></string>
     <string name="listify_many">%1$s at %2$d iba pa</string>
     <string name="listify_one">%s</string>
@@ -966,13 +1036,13 @@ Opsyonal kung ibabahagi ang inirerekomendang impormasyon at hindi kasama ang con
     <string name="manual_msisdn_skipped_snack_bar_text">Hindi pa na-enable ang mga pinahusay na feature ng chat. I-enable anumang oras sa mga setting.</string>
     <string name="manual_msisdn_skipped_snack_bar_text_b155475148">Susubukan ng Messages na i-verify ang iyong numero sa carrier mo. Pamahalaan sa Mga Setting.</string>
     <string name="manual_msisdn_verify_now_snack_bar_text_b155475148">Susubukan ng Messages na i-verify ang iyong numero sa carrier mo. Pamahalaan sa Mga Setting.</string>
-    <string name="manually_override_rcs_flags">Manual na i-override ang mga RCS Flag</string>
     <string name="mark_all_messages_as_read_confirmation">Namarkahang nabasa na ang lahat ng mensahe</string>
     <string name="mdd_download_notification_channel_name">Channel ng Notification ng Data Download</string>
     <string name="mdd_foreground_service_notification_title">Nagda-download</string>
     <string name="mdd_notification_action_cancel">Kanselahin</string>
     <string name="mdd_notification_download_failed">Hindi na-download</string>
     <string name="mdd_notification_download_paused">Naghihintay ng koneksyon sa network</string>
+    <string name="mdd_notification_download_paused_wifi">Naghihintay ng koneksyon sa WiFi</string>
     <string name="media_compress_info">Makakakita ang tatanggap ng media na may mas mababang kalidad dahil sa mga limitasyon ng carrier para sa MMS</string>
     <string name="media_compress_tooltip_info_icon_text">impormasyon</string>
     <string name="media_viewer_close_button_description">Isara</string>
@@ -1071,6 +1141,8 @@ Opsyonal kung ibabahagi ang inirerekomendang impormasyon at hindi kasama ang con
     <string name="message_type_vcard">Contact card</string>
     <string name="message_type_video">Video</string>
     <string name="message_video_content_description">Video</string>
+    <string name="message_with_deleted_snippet_talk_back_announcement">%1$s, bilang sagot sa na-delete na mensahe</string>
+    <string name="message_with_reply_snippet_talk_back_announcement">%1$s, bilang sagot sa %2$s mula kay %3$s</string>
     <string name="messages_for_web_preference_summary">Pumunta sa %1$s</string>
     <string name="messages_for_web_preference_title">Mag-text, tumawag, at tumingin ng voicemail sa web</string>
     <string name="messages_status_feedback_data_description">"Nakakatulong ang lahat ng inirerekomendang impormasyon sa pagpapakita ng mga nakatagong problema, iba't ibang dahilan, paano nauugnay ang mga ito, at kung saan dapat mag-troubleshoot.
@@ -1124,11 +1196,15 @@ Puwede kang sumagot sa mga short code na mga numero lang, pero hindi sa mga code
     <string name="mms_text">MMS</string>
     <string name="more_string">+%1$d</string>
     <string name="mtrl_badge_numberless_content_description">Bagong notification</string>
+    <string name="mtrl_checkbox_state_description_checked">Checked</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Indeterminate</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Not checked</string>
     <string name="mtrl_chip_close_icon_content_description">Alisin ang %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Mahigit %1$d (na) bagong notification</string>
     <string name="mtrl_picker_a11y_next_month">Lumipat sa susunod na buwan</string>
     <string name="mtrl_picker_a11y_prev_month">Lumipat sa nakaraang buwan</string>
     <string name="mtrl_picker_announce_current_selection">Kasalukuyang seleksyon: %1$s</string>
+    <string name="mtrl_picker_cancel">Kanselahin</string>
     <string name="mtrl_picker_confirm">OK</string>
     <string name="mtrl_picker_day_of_week_column_header">Column ng mga araw: %1$s</string>
     <string name="mtrl_picker_navigate_to_year_description">Mag-navigate patungo sa taong %1$s</string>
@@ -1140,11 +1216,24 @@ Puwede kang sumagot sa mga short code na mga numero lang, pero hindi sa mga code
     <string name="multimedia_message">Multimedia message</string>
     <string name="muted_conversation_content_description">Naka-disable ang mga notification.</string>
     <string name="nav_app_bar_navigate_up_description">Mag-navigate pataas</string>
+    <string name="nav_archived_messages_folder_title">Naka-archive</string>
+    <string name="nav_choose_theme_title">Pumili ng tema</string>
+    <string name="nav_choose_theme_title_disable_dark_mode">I-disable ang dark mode</string>
+    <string name="nav_choose_theme_title_enable_dark_mode">I-enable ang dark mode</string>
+    <string name="nav_device_pairing_title">Pagpapares ng device</string>
+    <string name="nav_mark_all_as_read_title">Markahan ang lahat bilang nabasa na</string>
+    <string name="nav_messages_folder_title">Mga Mensahe</string>
+    <string name="nav_spam_and_blocked_messages_folder_title">Spam at naka-block</string>
+    <string name="nav_starred_folder_title">Naka-star</string>
     <string name="navigate_up_button_content_description">Mag-navigate pataas</string>
     <string name="new_message_label">{count,plural, =1{1 bagong mensahe}one{# bagong mensahe}other{# na bagong mensahe}}</string>
     <string name="new_pill_label">Bago</string>
     <string name="new_rich_cards_preference_info_text">Nagsa-scan ang Google ng piling impormasyon (tulad ng mga lugar o link) mula sa iyong chat history nang hindi ka tinutukoy para gumawa ng lahat ng preview at matukoy ang mapaminsalang content. %1$s</string>
-    <string name="no_google_account">Wala</string>
+    <string name="no_business_name_fallback">ang negosyong ito</string>
+    <string name="no_connection">Walang koneksyon</string>
+    <string name="no_media_button">Mga opsyon sa view</string>
+    <string name="no_media_caption">Sumubok ng ibang source ng media o profile</string>
+    <string name="no_media_description">Walang naka-save na media sa device na ito para sa profile na ito</string>
     <string name="no_reply_pinned_message_text">Hindi sinusuportahan ng nagpadala ang mga tugon</string>
     <string name="no_sim_message">Walang mga mensahe sa SIM</string>
     <string name="not_selected">Hindi napili</string>
@@ -1200,31 +1289,51 @@ Puwede kang sumagot sa mga short code na mga numero lang, pero hindi sa mga code
     <string name="nudge_learn_more_info_text">Higit pa tungkol sa mga nudge</string>
     <string name="nudge_reply_enabled_pref_summary">Malilipat sa itaas ang mga mensahe na posibleng mangailangan ng tugon mula sa iyo</string>
     <string name="nudge_reply_enabled_pref_title">Magmungkahi ng mga paalala sa pagtugon</string>
+    <string name="nudge_settings_page_description">Magpakita ng mga paalala sa pagsagot at kaarawan</string>
     <string name="nudge_settings_page_title">Nudges</string>
     <string name="numeric_text_keyboard_toggle_button_content_description">Lumipat sa pagitan ng paglagay ng text at mga numero</string>
     <string name="off">Naka-off</string>
     <string name="og_a11y_close">Isara</string>
     <string name="og_account_and_settings">Account at mga setting.</string>
+    <string name="og_account_particle_disc_no_accounts_available_a11y">Mag-sign in</string>
     <string name="og_add_another_account">Magdagdag ng isa pang account</string>
+    <string name="og_app_settings">Mga setting ng %1$s</string>
     <string name="og_choose_an_account_title">Pumili ng account</string>
     <string name="og_collapse_account_list_a11y">I-collapse ang listahan ng account.</string>
     <string name="og_continue">Magpatuloy</string>
     <string name="og_continue_as">Magpatuloy bilang %1$s</string>
     <string name="og_expand_account_list_a11y">Palawakin ang listahan ng account.</string>
+    <string name="og_get_storage_action">Kumuha ng storage</string>
+    <string name="og_get_storage_action_short">Bumili pa</string>
     <string name="og_google_one_account_a11y">Google One account.</string>
+    <string name="og_help_feedback">Tulong at feedback</string>
     <string name="og_loading_a11y">Naglo-load</string>
     <string name="og_manage_accounts">Pamahalaan ang mga account sa device na ito</string>
+    <string name="og_manage_storage_action">I-manage ang storage</string>
+    <string name="og_manage_storage_action_short">Pamahalaan</string>
+    <string name="og_minimized_storage_card_title">Nagamit na storage: %1$s sa %2$s GB</string>
+    <string name="og_more_options_action">Higit pang opsyon</string>
+    <string name="og_more_options_action_short">Mga Opsyon</string>
     <string name="og_my_account_desc_long_length">Pamahalaan ang iyong Google Account</string>
     <string name="og_my_account_desc_meduim_length">Google Account</string>
     <string name="og_my_account_desc_short_length">Account</string>
+    <string name="og_privacy_advisor">Ang iyong data sa %1$s</string>
     <string name="og_privacy_policy">Patakaran sa Privacy</string>
     <string name="og_selected_account_a11y">Pinili ang %1$s.</string>
     <string name="og_sign_in_">Mag-sign In</string>
     <string name="og_signed_in_as_account">Naka-sign in bilang %1$s</string>
+    <string name="og_storage_card_almost_full_a11y_label">Halos puno na ang storage ng iyong account</string>
+    <string name="og_storage_card_full_a11y_label">Puno na ang storage ng iyong account</string>
+    <string name="og_storage_card_title">Storage ng account</string>
+    <string name="og_storage_card_title_almost_full">%1$s ng storage ang nagamit</string>
+    <string name="og_storage_card_title_full">Wala nang storage</string>
+    <string name="og_storage_progress_subtitle">%1$s GB sa %2$s GB ang nagamit</string>
     <string name="og_terms_of_service">Mga Tuntunin ng Serbisyo</string>
     <string name="og_use_account_a11y_no_period">Gamitin ang %1$s</string>
+    <string name="og_use_without_an_account">Gamitin nang walang account</string>
     <string name="on">Naka-on</string>
     <string name="onboarding_google_tos_with_sms_charges_and_learn_more">Para i-on ang mga chat feature mula sa Google, sumang-ayon ka sa %1$s at %2$s. Ive-verify ng Google ang iyong numero paminsan-minsan sa pamamagitan ng pakikipagpalitan ng impormasyon ng device mo sa iyong carrier (Puwedeng may mailapat na mga singil sa SMS). %3$s.</string>
+    <string name="open_full_screen_camera_button_label">Buksan ang Camera na Full Screen</string>
     <string name="open_video_trimmer_dialog_negative">Kanselahin</string>
     <string name="open_video_trimmer_dialog_positive">I-trim</string>
     <string name="organization">Organisasyon</string>
@@ -1238,8 +1347,6 @@ Puwede kang sumagot sa mga short code na mga numero lang, pero hindi sa mga code
     <string name="otp_auto_deletion_promo_banner_positive_button_text">Magpatuloy</string>
     <string name="otp_auto_deletion_promo_banner_title_text">Awtomatikong i-delete ang mga OTP pagkalipas ng 24 na oras?</string>
     <string name="otp_copied_to_clipboard">Nakopya ang code</string>
-    <string name="otp_pattern_dropdown_hint">Itakda ang Pattern ng OTP</string>
-    <string name="otp_port_dropdown_hint">Itakda ang Port ng OTP</string>
     <string name="outgoing_message_foreground_notification_text">May pinoprosesong papalabas na mensahe ang Messages</string>
     <string name="outgoing_mms_disabled_by_carrier_pref_summary">Hindi pinapayagan ng iyong carrier ang mga papalabas na MMS message</string>
     <string name="outgoing_mms_disabled_by_company_pref_summary">Hindi pinapayagan ng iyong kumpanya ang mga papalabas na MMS message</string>
@@ -1265,6 +1372,7 @@ Puwede kang sumagot sa mga short code na mga numero lang, pero hindi sa mga code
     <string name="paired_desktops_last_connection_time">Huling aktibo %s</string>
     <string name="paired_desktops_last_connection_time_unknown">hindi alam</string>
     <string name="participant_joined_group">Sumali sina %s sa grupong ito</string>
+    <string name="participant_joined_with_learn_more">Sumali sina %1$s sa grupong ito. %2$s</string>
     <string name="participant_left_group">Umalis si %s sa grupong ito</string>
     <string name="participant_list_add">Magdagdag ng mga tao</string>
     <string name="participant_list_count_title_icu">{count,plural, =0{0 iba pang tao}=1{1 iba pang tao}one{# iba pang tao}other{# na iba pang tao}}</string>
@@ -1284,6 +1392,7 @@ Puwede kang sumagot sa mga short code na mga numero lang, pero hindi sa mga code
     <string name="phone_number_input_body_for_mo_text">O laktawan para makuha ang mga feature ng chat sa ibang pagkakataon at susubukang i-verify ng Messages ang iyong numero sa carrier mo</string>
     <string name="phone_number_input_body_text">Para matiyak na nakukuha mo ang mga feature ng chat, vine-verify ng Messages ang iyong numero</string>
     <string name="phone_number_input_hint">Iyong numero ng telepono</string>
+    <string name="phone_number_input_invalid_number_text">Invalid na numero ng telepono</string>
     <string name="phone_number_input_negative_button_for_mo_text">Laktawan sa ngayon</string>
     <string name="phone_number_input_negative_button_for_mt_text">Ipaalala mamaya</string>
     <string name="phone_number_input_positive_button_text">Magdagdag ng numero</string>
@@ -1300,10 +1409,25 @@ Puwede kang sumagot sa mga short code na mga numero lang, pero hindi sa mga code
     <string name="phone_number_input_title_text">Para mas mabilis na magkaroon ng mga feature ng chat, idagdag ang iyong numero ngayon</string>
     <string name="phone_number_input_tos_reminder_text">Sumang-ayon ka kamakailan sa %1$s ng mga feature ng chat</string>
     <string name="phone_number_input_tos_text">Mga Tuntunin ng Serbisyo</string>
+    <string name="phone_number_promo_banner_body_text">Para magpadala ng malilinaw na video, mga naka-animate na reaksyon, at higit pa sa pamamagitan ng Wi-Fi o mobile data, kumpirmahin ang numero ng iyong telepono</string>
+    <string name="phone_number_promo_banner_negative_button_text">I-dismiss</string>
+    <string name="phone_number_promo_banner_positive_button_text">Susunod</string>
+    <string name="phone_number_promo_banner_title_text">Susunod na hakbang sa mas mahuhusay na feature ng Messages</string>
+    <string name="phone_number_promo_body_text">Magsimula ngayon gamit ang iyong na-verify na numero ng telepono. Pamahalaan ang mga feature ng chat sa mga setting anumang oras</string>
+    <string name="phone_number_promo_body_text_mo">Magsimula ngayon gamit ang iyong na-verify na numero ng telepono. O laktawan para makuha ang mga feature ng chat sa ibang pagkakataon at susubukang i-verify ng Messages ang numero mo para sa iyo.</string>
+    <string name="phone_number_promo_negative_button_text">Ipaalala sa akin mamaya</string>
+    <string name="phone_number_promo_negative_button_text_mo">Laktawan sa ngayon</string>
+    <string name="phone_number_promo_positive_button_text">Kunin ang feature ng chat</string>
+    <string name="phone_number_promo_title_text">Handa ka na bang magbahagi ng mga larawan, video, at higit pa gamit ang Wi-Fi o data?</string>
+    <string name="phone_number_ui_accepted_snackbar_text">Ino-notify ka kapag available na ang mga feature ng chat</string>
+    <string name="phone_number_ui_dismissed_snackbar_action_text">Mga Setting</string>
+    <string name="phone_number_ui_dismissed_snackbar_text">Para magkaroon ng mga feature ng chat ngayon, idagdag ang iyong numero ng telepono o pamahalaan sa mga setting</string>
     <string name="photo_taken">Kinunan ng larawan</string>
+    <string name="photos_app_installation_required">Para magpadala ng malilinaw na video, install ang Google Photos app</string>
+    <string name="photos_app_onboarding_required">Para magpadala ng malilinaw na video, payagan ang access sa Google Photos</string>
+    <string name="photos_app_sharing_unavailable_try_again_later">Pansamantalang hindi available ang link ng malinaw na video. Handa nang ipadala ang malabong video.</string>
+    <string name="photos_app_sign_in_required">Para magpadala ng malilinaw na video, mag-sign in sa Google Photos</string>
     <string name="picker_disambiguation_title">Pumili ng patutunguhan</string>
-    <string name="pin_limit_message">Puwede kang mag-pin ng hanggang %1$d (na) pag-uusap</string>
-    <string name="pin_success_message">Naka-pin ang %1$d sa %2$d (na) pag-uusap</string>
     <string name="pinch_zoom_pref_title">I-pinch para i-zoom ang text ng pag-uusap</string>
     <string name="places_autocomplete_clear_button">I-clear ang paghahanap</string>
     <string name="places_autocomplete_label">Pumili ng lugar</string>
@@ -1323,7 +1447,7 @@ Puwede kang sumagot sa mga short code na mga numero lang, pero hindi sa mga code
     <string name="posted_this_year">%1$s%2$s%3$s</string>
     <string name="posted_yesterday">Kahapon%1$s%2$s</string>
     <string name="preference_copied">Nakopya sa clipboard ang \"%1$s.\"</string>
-    <string name="preferences_license_title">Mga lisensyang open source</string>
+    <string name="preferences_license_title">Mga Abiso ng Third Party</string>
     <string name="premium_sms_banner_body">Para maipadala sa %s at iba pang numero ng Premium SMS, i-on ito sa Mga Setting.</string>
     <string name="premium_sms_banner_body_saved_contact">Para maipadala kay %1$s (%2$s) at sa iba pang numero ng Premium SMS, i-on ito sa Mga Setting.</string>
     <string name="premium_sms_banner_description">@string/banner_description</string>
@@ -1354,10 +1478,11 @@ Kasama sa impormasyon tungkol sa iyong mga mensahe at pag-uusap ang mga numero n
 Nakakatulong ang impormasyong ito na i-validate ang mga pagpapalagay at matukoy ang mga salik na nagdudulot ng isyu, para sa mas mabilis at mas mabuting pag-unawa ng isyu."</string>
     <string name="problematic_message_feedback_data_rationale_title">Paano nakakatulong ang impormasyon tungkol sa iyong mga mensahe at pag-uusap</string>
     <string name="promotion_content_description">Nakakategorya ang mensaheng ito bilang isang alok</string>
+    <string name="prompt_button_action_not_now">Huwag muna</string>
+    <string name="prompt_button_action_sign_in">Mag-sign in</string>
     <string name="proxy_screen_clear_search">I-clear ang paghahanap</string>
     <string name="proxy_screen_search">Maghanap</string>
     <string name="qr_action_bar_device_pairing_title">Pagpapares ng device</string>
-    <string name="qr_action_bar_title">Messages para sa web</string>
     <string name="qr_code_scanner_hint_text">I-scan ang QR code na ipinapakita sa&lt;br/><b>%s</b></string>
     <string name="qr_code_scanner_preference_button">Scanner ng QR code</string>
     <string name="qr_delete_all_paired_desktops_button_text">I-unpair ang lahat ng device</string>
@@ -1372,6 +1497,8 @@ Nakakatulong ang impormasyong ito na i-validate ang mga pagpapalagay at matukoy 
     <string name="qr_welcome_privacy">Patakaran sa Privacy</string>
     <string name="qr_welcome_terms_of_service">Mga Tuntunin ng Serbisyo</string>
     <string name="rbm_block_confirmation_message_spam_folder">Hindi ka na aabisuhan kapag nakatanggap ka ng mga mensahe mula sa %1$s. Ililipat sa “Spam at naka-block” ang pag-uusap na ito. %2$s</string>
+    <string name="rbm_block_dialog_body">Hindi ka makakatanggap ng mga mensahe mula sa tagapadalang ito. Mapupunta ang pag-uusap na ito sa “Spam at naka-block,” na puwede mong i-unblock anumang oras.</string>
+    <string name="rbm_block_dialog_positive_button_label">I-block</string>
     <string name="rbm_business_logo_icon_content_description">Icon ng Logo ng Negosyo</string>
     <string name="rbm_platform_generalized_verifier_title">Na-verify ng %s</string>
     <string name="rbm_platform_verified_by_google">Na-verify ng Google</string>
@@ -1391,6 +1518,7 @@ Nakakatulong ang impormasyong ito na i-validate ang mga pagpapalagay at matukoy 
     <string name="rcs_learn_more_title">%1$s tungkol sa mga feature ng chat</string>
     <string name="rcs_learn_more_title_with_no_link">Matuto pa tungkol sa mga chat feature</string>
     <string name="rcs_message">Rich Communication Service na mensahe</string>
+    <string name="rcs_message_failed_recipient_lost_encryption_content_description">Hindi maihatid, i-tap para sa mga opsyon</string>
     <string name="rcs_message_failed_recipient_lost_rcs_content_description">Hindi maihatid, i-tap para sa mga opsyon</string>
     <string name="rcs_mobile_data_auto_download_carrier_format_entry">Default (%1$s)</string>
     <string name="rcs_mobile_data_auto_download_limit_disable_entry_text">I-disable</string>
@@ -1473,11 +1601,12 @@ Nakakatulong ang impormasyong ito na i-validate ang mga pagpapalagay at matukoy 
     <string name="reaction_surprised_content_description">Mukha na may nakabukas na bibig</string>
     <string name="reactions_promo_announcement">Pumindot nang matagal para mag-react</string>
     <string name="reactions_promo_text">Pumindot nang matagal para mag-react</string>
-    <string name="read_external_storage_permission_description">Para tingnan ang content ng iyong gallery nang direkta mula rito, kinakailangan ang access sa storage ng iyong telepono.</string>
+    <string name="read_media_storage_permission_description">Para makita ang content ng iyong gallery nang direkta mula rito, kailangan ang access sa media storage ng telepono mo.</string>
     <string name="received_label">Natanggap:</string>
     <string name="recipient_hint">Mag-type ng pangalan, numero ng telepono, o email</string>
     <string name="recipient_label">Para kay/kina</string>
     <string name="recipient_offline_description">Naghihintay hanggang mag-online si %s…</string>
+    <string name="reminder_badge_content_description">Badge ng paalala</string>
     <string name="reminder_datetime_picker_dialog_delete_button">I-delete</string>
     <string name="reminder_datetime_picker_dialog_menu_title_add">Itakda ang paalala</string>
     <string name="reminder_datetime_picker_dialog_menu_title_update">Paalala sa update</string>
@@ -1498,7 +1627,7 @@ Nakakatulong ang impormasyong ito na i-validate ang mga pagpapalagay at matukoy 
     <string name="reminder_suggestions_tooltip_text">I-tap at pumili ng oras para mag-follow up sa ibang pagkakataon. I-off ang mga suhestyon sa &lt;a href>Mga Setting&lt;/a></string>
     <string name="reminder_suggestions_tooltip_title_text">Magtakda ng mga paalala</string>
     <string name="reminders_banner_body">%1$s: %2$s</string>
-    <string name="reminders_banner_description">@string/banner_description</string>
+    <string name="reminders_banner_description">Reminder conversation banner</string>
     <string name="reminders_banner_done_button">Tapos na</string>
     <string name="reminders_banner_remind_button">Ipaalala 1 oras</string>
     <string name="reminders_banner_self_sender_name">Ikaw</string>
@@ -1511,7 +1640,7 @@ Nakakatulong ang impormasyong ito na i-validate ang mga pagpapalagay at matukoy 
     <string name="remove_reaction_from_gif_rcs_fallback_text">Inalis ang ‌%1$s‌ mula sa GIF</string>
     <string name="remove_reaction_from_link_rcs_fallback_text">Inalis ang ‌%1$s‌ sa link</string>
     <string name="remove_reaction_from_photo_rcs_fallback_text">Inalis ang ‌%1$s‌ mula sa larawan</string>
-    <string name="remove_reaction_from_text_message_rcs_fallback_text">Inalis ang ‌%1$s‌ mula sa \"%2$s\"</string>
+    <string name="remove_reaction_from_text_message_rcs_fallback_text">Inalis ang ‌%1$s‌ mula sa \" %2$s \"</string>
     <string name="remove_reaction_from_unknown_message_type_rcs_fallback_text">Inalis ang ‌%1$s‌ mula sa isang hindi kilalang uri ng mensahe</string>
     <string name="remove_reaction_from_video_rcs_fallback_text">Inalis ang ‌%1$s‌ mula sa video</string>
     <string name="remove_user_dialog_cancel">Kanselahin</string>
@@ -1520,14 +1649,17 @@ Nakakatulong ang impormasyong ito na i-validate ang mga pagpapalagay at matukoy 
     <string name="rename_group_title_m2">Pangalan ng grupo</string>
     <string name="reply_activity_title">Tumugon</string>
     <string name="reply_button_label">Sumagot</string>
-    <string name="reply_icon_content_description">Sumagot sa mensahe</string>
+    <string name="reply_icon_content_description">Tumugon</string>
     <string name="report_contact_title">Iulat na spam</string>
     <string name="report_failed_rcs_group_creation">Nagkaproblema at hindi naidagdag ang isa o higit pang kalahok.</string>
     <string name="report_group_spam_body_spam_folder">Mapupunta sa Google ang mga numero at kamakailang text ng ibang miyembro ng grupo para sa pagsusuri at puwedeng mapunta ang mga ito sa iyong carrier (puwedeng may mailapat na mga singil). Mananatiling nasa “Spam at naka-block” ang pag-uusap na ito, nang walang notification. %1$s</string>
+    <string name="report_invalid_thread_id_issue_description">Invalid ang thread id. Tingnan ang mga log para sa mga detalye.</string>
     <string name="report_issue_action_text">Magpadala ng feedback</string>
+    <string name="report_issue_description">Awtomatikong may na-detect na error ang Messages. Tingnan ang mga log para sa mga detalye.</string>
     <string name="report_issue_notification_text">May na-detect na error ang Messages. I-tap para magpadala ng feedback.</string>
     <string name="report_not_spam_snackbar_message">Naiulat bilang hindi spam ang %1$s</string>
     <string name="report_person_delivered">%1$s Natanggap: %2$s</string>
+    <string name="report_person_ftd">%1$s Hindi na-decrypt: %2$s</string>
     <string name="report_person_read">%1$s Nabasa na: %2$s</string>
     <string name="report_person_sent">Hindi pa natanggap ni %s</string>
     <string name="report_receive_issue_notification_message">Hindi makatanggap ang Android ng mensaheng ipinadala sa iyo. I-tap para magpadala ng feedback.</string>
@@ -1540,6 +1672,7 @@ Nakakatulong ang impormasyong ito na i-validate ang mga pagpapalagay at matukoy 
     <string name="report_spam_snackbar_message">Naiulat bilang spam ang %1$s</string>
     <string name="report_spam_toast_title">Nai-ulat na spam</string>
     <string name="report_telephone_db_recreation_message">Nagkaproblema sa pagkuha ng mga mensahe. I-tap para magpadala ng feedback.</string>
+    <string name="report_thread_id_not_found_description">Walang thread id. Tingnan ang mga log para sa mga detalye.</string>
     <string name="required_permissions_no_promptable_promo">Baguhin ang mga pahintulot sa mga setting ng app ng iyong device. Bigyan ng access ang Messages sa SMS, Telepono at Mga Contact.</string>
     <string name="required_permissions_no_promptable_title">Bigyan ng Access</string>
     <string name="required_permissions_promptable_promo">Para matapos ang pag-set up ng iyong default na app, hayaan ang Messages na makita ang iyong SMS, Telepono, at Mga Contact</string>
@@ -1559,6 +1692,11 @@ Nakakatulong ang impormasyong ito na i-validate ang mga pagpapalagay at matukoy 
     <string name="samsung_setting_search_title">Mga Setting ng Messages</string>
     <string name="save">I-save</string>
     <string name="save_attachment">I-save</string>
+    <string name="save_banner_body">I-save ang kaarawan na ito sa iyong app na mga contact at papaalalahanan ka ng Messages sa susunod na taon</string>
+    <string name="save_banner_positive_button">I-save ang kaarawan</string>
+    <string name="save_banner_title_name">Tandaan ang kaarawan ni %1$s</string>
+    <string name="save_banner_title_no_name">Tandaan ang kanyang kaarawan</string>
+    <string name="save_birthday_banner_description">@string/banner_description</string>
     <string name="save_otp_confirm_button">I-save ang OTP</string>
     <string name="save_otp_dialog_message">Mase-save ang OTP na ito habang patuloy na awtomatikong made-delete ang iba pang mga OTP pagkalipas ng 24 na oras. Pamahalaan sa mga setting.</string>
     <string name="save_otp_dialog_title">I-save ang OTP na ito?</string>
@@ -1577,6 +1715,7 @@ Nakakatulong ang impormasyong ito na i-validate ang mga pagpapalagay at matukoy 
     <string name="scheduled_send_announcement_scheduling_failed">Hindi naiskedyul ang mensahe.</string>
     <string name="scheduled_send_announcement_scheduling_started">Iniiskedyul ang mensahe.</string>
     <string name="scheduled_send_announcement_scheduling_succeeded">Naiskedyul ang mensahe.</string>
+    <string name="scheduled_send_badge_content_description">Badge ng nakaiskedyul na pagpapadala</string>
     <string name="scheduled_send_compose_label_close_content_description">Alisin ang pag-iiskedyul.</string>
     <string name="scheduled_send_datetime_picker_subtitle">Para maipadala ito, panatilihing naka-on ang telepono at kumonekta sa Wi-Fi o data</string>
     <string name="scheduled_send_datetime_picker_title">Iiskedyul ang pagpapadala (%1$s)</string>
@@ -1604,6 +1743,7 @@ Nakakatulong ang impormasyong ito na i-validate ang mga pagpapalagay at matukoy 
     <string name="security_key_top_level_title">I-verify ang pag-encrypt</string>
     <string name="see_gallery">Tingnan ang gallery</string>
     <string name="selected">Napili</string>
+    <string name="selection_position_text">%1$d</string>
     <string name="self_left_group_conversation_failed">Nabigong umalis sa grupo, pakisubukang muli sa ibang pagkakataon.</string>
     <string name="self_participant_reaction_name">Ikaw</string>
     <string name="self_person_name">Ikaw</string>
@@ -1653,7 +1793,6 @@ Ginagamit lang ang iyong numero ng telepono sa pag-troubleshoot at paglutas ng m
     <string name="sending_timeout_failure_dialog_title">Hindi naipadala ang mensahe</string>
     <string name="sent_label">Ipinadala:</string>
     <string name="set_message_priority_description">Magtakda ng apurahang status</string>
-    <string name="set_rcs_flags">Magtakda ng mga RCS Flag</string>
     <string name="set_rcs_mobile_data_auto_download_limit_title">Awtomatikong i-download ang mga file na matatanggap mo sa pamamagitan ng mobile data</string>
     <string name="setting_fast_track_body_with_cost">Sa pamamagitan ng pagpapatuloy, sumasang-ayon ka sa %1$s at %2$s. Para sa paghahatid ng mensaheng batay sa numero ng telepono, puwedeng paminsan-minsang i-verify ng Google ang iyong numero sa pamamagitan ng pakikipagpalitan ng impormasyon ng device mo sa iyong carrier o sa pamamagitan ng SMS (baka may bayad ito). Puwede mong i-disable ang mga feature ng chat mula sa Mga Setting. %3$s</string>
     <string name="settings_activity_title">Mga Setting</string>
@@ -1676,6 +1815,13 @@ Ginagamit lang ang iyong numero ng telepono sa pag-troubleshoot at paglutas ng m
     <string name="shortcuts_screen_title">Mga Shortcut</string>
     <string name="show_sms_link_warning_change_label">Baguhin</string>
     <string name="show_sms_link_warning_text">Ipapadala ang mga attachment bilang mga SMS na mensahe na may kasamang link patungo sa attachment</string>
+    <string name="sign_in_app_name_without_account">Gamitin ang %1$s nang walang account</string>
+    <string name="sign_in_cancel">Kanselahin</string>
+    <string name="sign_in_without_account">Gamitin nang walang account</string>
+    <string name="sign_in_without_account_short">Walang account</string>
+    <string name="sign_into_photos_app">Mag-sign in</string>
+    <string name="sign_into_photos_app_title">Para magpatuloy, mag-sign in sa Google Photos</string>
+    <string name="sign_into_photos_app_with_x_to_continue">Kasalukuyan kang nagpapadala mula sa %1$s</string>
     <string name="signature_banner_description">@string/banner_description</string>
     <string name="silent_ringtone">Naka-silent</string>
     <string name="sim_label">SIM:</string>
@@ -1694,9 +1840,13 @@ Ginagamit lang ang iyong numero ng telepono sa pag-troubleshoot at paglutas ng m
     <string name="sim_storage_full_title">Puno na ang storage ng SIM card</string>
     <string name="sim_storage_pref_title">Mga mensahe sa SIM card</string>
     <string name="simple_fail_to_decrypt_message_dialog_body">Para i-decrypt ang mga mensahe sa hinaharap, subukang i-update ang iyong Messages app</string>
+    <string name="smart_action_settings_page_description">Magpakita ng mga may kaugnayang shortcut sa kalendaryo, paghahanap ng GIF, pagbabahagi ng lokasyon, at higit pa</string>
+    <string name="smart_action_settings_page_title">Mga Pagkilos</string>
+    <string name="smart_actions_preference_summary_shortcuts">Magpakita ng mga may kaugnayang shortcut sa kalendaryo, paghahanap ng GIF, pagbabahagi ng lokasyon, at higit pa</string>
     <string name="smart_actions_preference_title">Mga iminumungkahing pagkilos</string>
     <string name="smart_compose_preference_summary">Ipakita ang mga suhestyon sa predictive writing</string>
     <string name="smart_compose_preference_title">Smart na Pag-email</string>
+    <string name="smart_reply_preference_summary">Magpakita ng mga opsyon sa pagtugon sa chat</string>
     <string name="smarts_preference_info_text">Ikaw lang ang makakakita sa Smart Reply at mga iminumungkahing pagkilos hanggang sa i-tap at ibahagi mo ang mga ito. &lt;br/> &lt;br/> Nag-iiba-iba ang mga suhestyon batay sa iyong pag-uusap, at binubuo ang mga ito sa device. %1$s</string>
     <string name="smarts_preference_info_text_with_assistant">Bumubuo ng Smart Reply, mga iminumungkahing pagkilos, at mga suhestyon ng Assistant ang Messages gamit ang kaalaman sa device. &lt;br/> &lt;br/>Hindi ibabahagi sa Google o kanino pa man ang mga suhestyon hanggang sa i-tap mo ang mga ito. &lt;br/> &lt;br/> Kung papahintulutan mo ang Messages na i-access ang lokasyon ng iyong device, makakakita ka ng mga mas lokal na suhestyon. %1$s</string>
     <string name="smarts_settings_page_summary">Smart Reply, mga iminumungkahing pagkilos, at higit pa</string>
@@ -1723,19 +1873,18 @@ Lalabas ang mga tugon sa mga indibidwal na pag-uusap"</string>
     <string name="snackbar_text_label_rcs_group_created_too_large">{max_group_size_including_self,plural, =1{Hindi puwedeng magkaroon ng higit sa # tao}one{Hindi puwedeng magkaroon ng higit sa # tao}other{Hindi puwedeng magkaroon ng higit sa # na tao}}</string>
     <string name="snackbar_text_label_rcs_group_self_only">Walang laman ang grupong ito. Magdagdag ng mga tao sa grupong ito bago magmensahe sa chat na ito.</string>
     <string name="snippet">%1$s: %2$s</string>
-    <string name="snippet_assistant_card_text">Assistant card</string>
-    <string name="snippet_attachment_icon_content_description">Tumugon sa icon ng attachment ng snippet</string>
     <string name="snippet_audio_attachment_text">Audio</string>
     <string name="snippet_deleted_message_text">Na-delete ang mensahe</string>
-    <string name="snippet_dismiss_icon_content_description">Icon na i-dismiss ang tumugon</string>
+    <string name="snippet_dismiss_icon_content_description">I-delete</string>
     <string name="snippet_file_attachment_text">File</string>
     <string name="snippet_from_you">Ikaw: %s</string>
     <string name="snippet_image_attachment_text">Larawan</string>
-    <string name="snippet_media_thumbnail_content_description">Tumugon sa thumbnail ng media ng snippet</string>
     <string name="snippet_self_participant_header">Ikaw</string>
     <string name="snippet_video_attachment_text">Video</string>
     <string name="soft_num_key_pad_backspace_content_description">Backspace</string>
     <string name="someone_added_participant">Idinagdag ni %1$s sina %2$s sa grupong ito</string>
+    <string name="someone_added_participant_with_learn_more">Idinagdag ni %1$s sina %2$s sa grupong ito. %3$s</string>
+    <string name="someone_else_created_encrypted_rcs_group">Ginawa ni %1$s ang panggrupong chat na ito kasama sina %2$s. %3$s</string>
     <string name="someone_else_created_mms_group">Ginawa ni %1$s ang panggrupong MMS na ito kasama sina %2$s</string>
     <string name="someone_else_created_rcs_group">Ginawa ni %1$s ang panggrupong chat na ito kasama sina %2$s</string>
     <string name="someone_joined_group">Mayroong sumali sa grupong ito</string>
@@ -1759,7 +1908,6 @@ Lalabas ang mga tugon sa mga indibidwal na pag-uusap"</string>
     <string name="spam_dialog_title_spam_folder">Iulat bilang spam?</string>
     <string name="spam_folder_activity_title">Spam at naka-block</string>
     <string name="spam_folder_conversation_list_empty_text_v2">Dito lumalabas ang spam at naka-block na mga pag-uusap</string>
-    <string name="spam_preference_info_text_on_device">Ginagamit ng Messages ang talino na nasa device para ma-detect ang spam, at nagpapadala ito ng ilang data tungkol sa mga mensahe na ito sa Google nang hindi isinasama ang numero ng iyong telepono o content ng mensahe. %1$s</string>
     <string name="spam_protection_consent_string">Para makatulong na ma-detect ang spam, nagpapadala ang Messages ng ilang data tungkol sa iyong mga mensahe sa Google nang hindi kasama ang iyong numero ng telepono o content ng mensahe. %1$s</string>
     <string name="spam_reporting_from">Pag-uulat ng spam</string>
     <string name="spam_settings">Proteksyon sa spam</string>
@@ -1768,6 +1916,8 @@ Lalabas ang mga tugon sa mga indibidwal na pag-uusap"</string>
     <string name="split_view_pref_title">Listahan at detalyadong view</string>
     <string name="stacked_banner_count_text">1 ng %1$d</string>
     <string name="star_badge_content_description">Star badge</string>
+    <string name="star_badge_menu_remove_action">Alisin</string>
+    <string name="star_badge_menu_view_all_action">Tingnan lahat</string>
     <string name="star_badge_on_click_snackbar_action">I-undo</string>
     <string name="star_badge_on_click_snackbar_message">Inalis ang star</string>
     <string name="sticker_content_description">Sticker ng %s</string>
@@ -1804,10 +1954,12 @@ Lalabas ang mga tugon sa mga indibidwal na pag-uusap"</string>
     <string name="subject_with_label">Paksa: %1$s</string>
     <string name="subject_with_urgent_label">[MAHALAGA] %1$s</string>
     <string name="success_message_format">%1$s %2$s %3$s %4$s %5$s %6$s.</string>
+    <string name="success_message_self_sender">Ang sabi mo, %1$s %2$s %3$s %4$s.</string>
     <string name="success_message_self_sender_format_with_multiple_attachments">Nagpadala ka ng maraming attachment %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_self_sender_format_with_single_attachment">Nagpadala ka ng attachment %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_specified_sender_format_with_multiple_attachments">Nagpadala ng maraming attachment si %1$s %2$s %3$s %4$s %5$s %6$s.</string>
     <string name="success_message_specified_sender_format_with_single_attachment">Nagpadala ng attachment si %1$s %2$s %3$s %4$s %5$s %6$s.</string>
+    <string name="success_message_unspecified_sender">Ang sabi ng tagapadala, %1$s %2$s %3$s %4$s.</string>
     <string name="success_message_unspecified_sender_format_with_multiple_attachments">Nagpadala ng maraming attachment ang tagapadala %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_unspecified_sender_format_with_single_attachment">Nagpadala ng attachment ang tagapadala %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_sent_to_message_format">Naipadala kay %1$s %2$s %3$s %4$s.</string>
@@ -1816,10 +1968,18 @@ Lalabas ang mga tugon sa mga indibidwal na pag-uusap"</string>
     <string name="sud_back_button_label">Bumalik</string>
     <string name="sud_more_button_label">Higit pa</string>
     <string name="sud_next_button_label">Susunod</string>
-    <string name="suggested_stickers_preference_summary">Ipakita ang mga iminumungkahing sticker</string>
+    <string name="suggested_stickers_preference_summary">Magpakita ng mga opsyon sa pagtugon gamit ang sticker</string>
     <string name="suggested_stickers_preference_title">Mga iminumungkahing sticker</string>
+    <string name="suggestion_shortcut_dialog_body_text">Lagyan ng star ang isang mensahe, iiskedyul kaagad, at higit pa, gamit ang mabilis at madaling mga shortcut.</string>
+    <string name="suggestion_shortcut_dialog_positive_button">OK</string>
+    <string name="suggestion_shortcut_dialog_subsection_body_text">Pino-prompt ang mga shortcut ng mga bagay tulad ng mga numero ng telepono at petsa. %1$s</string>
+    <string name="suggestion_shortcut_dialog_subsection_title_text">Paano ito gumagana</string>
+    <string name="suggestion_shortcut_dialog_title">Mga iminumungkahing shortcut para mas mabilis kang makapunta</string>
+    <string name="suggestion_shortcut_search_title">Hanapin</string>
+    <string name="suggestion_shortcut_star_toolstone">Mag-star ng mga mensahe para madaling mahanap ang mga ito sa %1$s</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_notification_inbox_style_summary_text">+%d pa</string>
+    <string name="super_sort_pref_title">Pag-organize ng mensahe</string>
     <string name="super_sort_settings_title">Pag-organize ng mensahe</string>
     <string name="supersort_conversation_list_empty_text_business_update">Awtomatikong lumalabas dito ang mga update sa negosyo</string>
     <string name="supersort_conversation_list_empty_text_manage_in_settings">Pamahalaan sa Mga Setting</string>
@@ -1882,6 +2042,11 @@ Maghanap ng anumang pag-uusap sa Lahat"</string>
     <string name="survey_user_agent">User Agent</string>
     <string name="survey_very_dissatisfied">Lubos na hindi nasiyahan</string>
     <string name="survey_very_satisfied">Lubos na nasiyahan</string>
+    <string name="swipe_actions">Mga pag-swipe</string>
+    <string name="swipe_actions_summary">Piliin ang I-archive o I-delete, pakanan o pakaliwa, o i-off ang pag-swipe</string>
+    <string name="swipe_customize">I-customize</string>
+    <string name="swipe_left">Mag-swipe pakaliwa</string>
+    <string name="swipe_right">Mag-swipe pakanan</string>
     <string name="switcher_no_phone_number">Hindi nahanap ang SIM card</string>
     <string name="switcher_pair_device_title_text">Mag-text gamit ang nakapares na telepono</string>
     <string name="switcher_positive_button_text">Magpatuloy</string>
@@ -1889,6 +2054,7 @@ Maghanap ng anumang pag-uusap sa Lahat"</string>
     <string name="switcher_use_device_sim_number">(%s)</string>
     <string name="switcher_use_device_sim_title_text">Mag-text gamit ang SIM ng device na ito</string>
     <string name="syncing_with_device_foreground_notification_text">Nagsi-sync sa iyong device ang Messages</string>
+    <string name="system_picker_button_label">Mga Folder</string>
     <string name="t_mobile_tos_pref_link_text">Mga Tuntunin at Kundisyon</string>
     <string name="t_mobile_tos_pref_text">Mga feature ng chat mula sa Google na pinapagana ng T-Mobile. Tingnan ang %1$s.</string>
     <string name="t_mobile_tos_pref_url">https://www.t-mobile.com/responsibility/legal/terms-and-conditions</string>
@@ -1913,6 +2079,7 @@ Mga Setting > %1$s"</string>
     <string name="theme_setting_dialog_options_light_mode">Maliwanag</string>
     <string name="theme_setting_dialog_options_system_default_mode">Default ng System</string>
     <string name="theme_setting_dialog_title">Pumili ng tema</string>
+    <string name="tiktok_account_login_failure">Hindi na-log in ang piniling account.</string>
     <string name="tiktok_add_account_error">Hindi naidagdag ang account, pakisubukan ulit.</string>
     <string name="tiktok_fix_it">Ayusin ito</string>
     <string name="tiktok_load_account_failure">Hindi na-load ang mga account.</string>
@@ -1938,6 +2105,18 @@ Ikaw lang ang makakakita sa pangalang ito"</string>
     <string name="tombstone_self_removed_from_group_referrer_known">Inalis ka ni %1$s sa grupong ito</string>
     <string name="tombstone_self_removing_others_from_group">Inalis mo si/sina %1$s sa grupong ito</string>
     <string name="tombstone_show_link_previews">Naka-on ang mga preview ng link.&lt;br />Matuto pa o i-off sa &lt;u>Mga Setting&lt;/u>.</string>
+    <string name="tombstone_show_link_previews_disabled">Naka-off ang mga preview sa link.&lt;br />Matuti pa o i-on sa &lt;u>Mga Setting&lt;/u>.</string>
+    <string name="tooltip_content">"Pinapagana ng iyong Google Account ang
+mga feature gaya ng pagbabahagi ng
+link ng Google Photos sa Messages nang hindi
+ina-access ang iyong mga pag-uusap.
+
+Ipinapadala pa rin ang mga mensahe mula sa iyong
+numero ng telepono. Matuto pa"</string>
+    <string name="tooltip_content_with_line_break_fix">"Pinapagana ng iyong Google Account ang mga feature gaya ng pagbabahagi ng link sa Google Photos sa Messages nang hindi ina-access ang mga pag-uusap mo.
+
+Ipinapadala pa rin ang mga mensahe mula sa iyong numero ng telepono. Matuto pa"</string>
+    <string name="tooltip_link">Matuto pa</string>
     <string name="top_contacts_grid_name">★</string>
     <string name="top_contacts_title">Mga contact na madalas kausapin</string>
     <string name="transaction_content_description">Nakakategorya ang mensaheng ito bilang isang transaksyon</string>
@@ -1947,6 +2126,7 @@ Ikaw lang ang makakakita sa pangalang ito"</string>
     <string name="unblock_and_report_not_spam_snackbar_message">Na-unblock at naiulat bilang hindi spam ang %1$s</string>
     <string name="unblock_banner_body">Para alisin ang pag-uusap na ito mula sa Naka-archive at makakuha ulit ng mga mensahe, i-unblock ang %s</string>
     <string name="unblock_banner_body_spam_folder">Para alisin ang pag-uusap na ito mula sa “Spam at naka-block” at makakuha ulit ng mga mensahe, i-unblock ang %s</string>
+    <string name="unblock_banner_body_v2">Unblock to receive messages from this sender</string>
     <string name="unblock_banner_description">@string/banner_description</string>
     <string name="unblock_banner_positive_button">I-unblock</string>
     <string name="unblock_banner_title">Naka-block</string>
@@ -1982,6 +2162,7 @@ Ginagamit lang ang mga numero ng telepono sa pag-troubleshoot at paglutas ng mga
     <string name="unsent">Hindi Naipadala</string>
     <string name="unspam_banner_body">Para alisin ang pag-uusap na ito mula sa Naka-archive at makakuha ulit ng mga notification, iulat ang %s bilang hindi spam</string>
     <string name="unspam_banner_body_spam_folder">Para alisin ang pag-uusap na ito mula sa “Spam at naka-block\" at makakuha ulit ng mga notification, iulat ang %s bilang hindi spam</string>
+    <string name="unspam_banner_body_v2">Report as not spam to receive messages from this sender</string>
     <string name="unspam_banner_description">@string/banner_description</string>
     <string name="unspam_banner_end_button">Hindi spam</string>
     <string name="unspam_banner_title">Iniulat bilang spam</string>
@@ -1997,6 +2178,8 @@ Ginagamit lang ang mga numero ng telepono sa pag-troubleshoot at paglutas ng mga
     <string name="unsupported_file_save_alert">I-save ang attachment sa Mga Download?</string>
     <string name="unsupported_file_save_cancel">Kanselahin</string>
     <string name="unverified_sms_banner_description">@string/banner_description</string>
+    <string name="unwanted_messages_toolstone_link">i-block at iulat</string>
+    <string name="unwanted_messages_toolstone_text">Para sa mga hindi gustong mensahe, %1$s</string>
     <string name="upcoming_reminder">Nalalapit na paalala</string>
     <string name="update_content_description">Nakakategorya ang mensaheng ito bilang isang update</string>
     <string name="update_donation_banner_body_v2">Mananatiling pribado ang iyong pagkakakilanlan at puwede mong alisin ang anumang content ng mensahe</string>
@@ -2039,6 +2222,7 @@ Ginagamit lang ang mga numero ng telepono sa pag-troubleshoot at paglutas ng mga
     <string name="video_attachment_content_description">Video na attachment</string>
     <string name="video_attachment_limit_exceeded_when_sending">Maaari ka lang magpadala ng isang video sa bawat mensahe. Mangyaring alisin ang mga karagdagang video at subukang muli.</string>
     <string name="video_compress_info">Makakakita ang tatanggap ng video na may mas mababang kalidad dahil sa mga limitasyon ng carrier sa MMS</string>
+    <string name="video_format_type">video</string>
     <string name="video_media_failure">Para gumawa ng video, subukang mag-record nang mas mahaba</string>
     <string name="video_taken">Kinunan ng video</string>
     <string name="video_thumbnail_view_play_button_content_description">I-play ang video</string>
@@ -2085,19 +2269,20 @@ Gamitin ang iyong pinakamahusay na pagpapasya hinggil sa content ng mensaheng it
     <string name="websiteTypeWork">Trabaho</string>
     <string name="welcome_agree_button_text">Sumasang-ayon</string>
     <string name="welcome_chat_features_decline">Gamitin ang Messages nang walang chat feature</string>
-    <string name="welcome_chat_features_learn_more">Matuto pa tungkol sa mga chat feature</string>
     <string name="welcome_chat_features_legal">Sa pamamagitan ng paggamit ng mga feature ng chat, sumasang-ayon ka sa %1$s at %2$s. Pana-panahong ive-verify ng Google ang iyong numero kasama ang carrier mo (puwedeng magkaroon ng mga singil sa SMS).</string>
+    <string name="welcome_chat_features_text">"· Magpadala sa pamamagitan ng Wi-Fi o mobile data
+· Ibahagi ang iyong mga file at media
+· Panatilihing pribado ang iyong mga mensahe"</string>
     <string name="welcome_chat_features_title">Mas mabilis, mas detalyado, mas mataas na kalidad ng chat sa Wi-Fi o data</string>
+    <string name="welcome_chat_features_title_experiment_0">Gumawa ng higit pa sa dati sa Messages</string>
+    <string name="welcome_chat_features_title_experiment_1">Gumawa ng higit pa sa dati gamit ang mga feature ng chat sa Messages</string>
     <string name="welcome_consent_button_text">Susunod</string>
-    <string name="welcome_finish_button_text">Tapusin</string>
     <string name="welcome_smarts_notice_description">"Gawing simple ang iyong mga chat gamit ang mga feature tulad ng Google Assistant at Smart Reply. Mananatiling secure ang iyong mga chat sa device mo.
 %1$s at %2$s"</string>
     <string name="welcome_smarts_notice_title">Nakakatulong na smarts</string>
     <string name="welcome_spam_description">"Para tumulong sa pag-iwas sa spam, ginagamit ng Google ang mga numero ng telepono na wala sa iyong mga contact, nang hindi ka kinikilala o ang numero mo.
 %1$s at %2$s"</string>
     <string name="welcome_spam_title">Proteksyon sa spam</string>
-    <string name="welcome_splash_tagline">"Simple, smart na pagmemensahe
-ng Google"</string>
     <string name="widget_reply_exit_content_description">Bumalik</string>
     <string name="widget_reply_open">BUKSAN ANG MESSAGES</string>
     <string name="widget_reply_to">Tumugon kay %s</string>
@@ -2105,9 +2290,14 @@ ng Google"</string>
     <string name="work_directory_display_name">Mga contact ng Profile sa Trabaho</string>
     <string name="xms_send_mode_pref_title">Magpadala lang ng mga mensaheng SMS at MMS</string>
     <string name="you_added_participant">Idinagdag mo sina %s sa grupong ito</string>
+    <string name="you_added_participant_with_learn_more">Idinagdag mo sina %1$s sa grupong ito. %2$s</string>
+    <string name="you_created_encrypted_rcs_group">Ginawa mo ang panggrupong chat na ito kasama sina %1$s. %2$s</string>
     <string name="you_created_mms_group">Ginawa mo ang panggrupong MMS na ito kasama sina %s</string>
     <string name="you_created_rcs_group">Ginawa mo ang panggrupong chat na ito kasama sina %s</string>
     <string name="you_left_group">Umalis ka sa grupong ito</string>
+    <string name="youtube_dismissal_prompt">I-tap at i-drag para isara</string>
+    <string name="youtube_drag_prompt">I-drag para ilipat sa ibang puwesto ang player</string>
+    <string name="youtube_pip_playing">Kasalukuyang nagpe-play ang video</string>
     <string name="zero_connectivity_failure_announcement">Hindi naipadala ang mensahe</string>
     <string name="zero_state_search_action_copy">Kopyahin</string>
     <string name="zero_state_search_action_jump_to_chat">Tingnan sa chat</string>
@@ -2127,6 +2317,7 @@ ng Google"</string>
     <string name="zero_state_search_details_image_accessibility">Ipinadala ni %1$s ang larawan noong %2$s</string>
     <string name="zero_state_search_details_video_accessibility">Ipinadala ni %1$s ang video noong %2$s</string>
     <string name="zero_state_search_dropdown_free_text">Hanapin ang \"%s\"</string>
+    <string name="zero_state_search_empty_results_text">Lalabas dito ang iyong mga mensaheng naka-star, media, at mga link mula sa pag-uusap na ito</string>
     <string name="zero_state_search_images">Mga Imahe</string>
     <string name="zero_state_search_link_copied">Nakopya ang link</string>
     <string name="zero_state_search_links">Mga Link</string>

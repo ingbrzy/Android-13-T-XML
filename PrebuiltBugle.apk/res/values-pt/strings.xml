@@ -28,7 +28,6 @@
     <string name="about_application_pp_tos_settings">Sobre, termos e privacidade</string>
     <string name="accessbility_suggestion_dropdown_closed">Nenhuma sugestão disponível</string>
     <string name="accessbility_suggestion_dropdown_opened">Sugestões de contato ativadas</string>
-    <string name="acs_url_dropdown_hint">Defina o URL do ACS</string>
     <string name="action_add_contact">Adicionar contato</string>
     <string name="action_advanced_feedback">Enviar feedback</string>
     <string name="action_archive">Arquivar</string>
@@ -47,18 +46,19 @@
     <string name="action_help_and_feedback">Ajuda e feedback</string>
     <string name="action_info_and_options">Informações e opções</string>
     <string name="action_jump_to_chat">Ver no chat</string>
+    <string name="action_meet_video_call">Videochamada do Meet</string>
     <string name="action_menu_mark_all_as_read">Marcar todas como lidas</string>
     <string name="action_menu_show_archived">Arquivadas</string>
-    <string name="action_menu_show_spam_folder">Marcadas como spam e bloqueadas</string>
+    <string name="action_menu_show_spam_folder">Spam e bloqueadas</string>
     <string name="action_notification_off">Desativar notificações</string>
     <string name="action_notification_on">Ativar notificações</string>
     <string name="action_notification_settings">Silenciar notificações</string>
+    <string name="action_off">Desativado</string>
     <string name="action_pair_device">Pareamento de dispositivos</string>
     <string name="action_people_and_options">Informações</string>
     <string name="action_people_and_options_group">Informações sobre o grupo</string>
     <string name="action_pin_to_top">Fixar no início da lista</string>
     <string name="action_report_spam">Denunciar spam</string>
-    <string name="action_scan_qr_code">Mensagens na Web</string>
     <string name="action_search">Pesquisar</string>
     <string name="action_search_gifs">Pesquisar GIFs</string>
     <string name="action_search_messages">Pesquisar mensagens</string>
@@ -77,6 +77,7 @@
     <string name="action_viLTE_video_call">Videochamada pela operadora</string>
     <string name="action_video_call">Fazer uma videochamada</string>
     <string name="actionbar_subtitle_name_prefix">com %s</string>
+    <string name="active_reminder">Lembrete</string>
     <string name="active_sim_content_message">%s selecionado</string>
     <string name="activity_not_found_message">Não foi possível encontrar um app adequado</string>
     <string name="add_area_code_banner_button">Adicionar código de área</string>
@@ -90,6 +91,7 @@
     <string name="add_contact_confirmation_dialog_title">Adicionar a Contatos?</string>
     <string name="add_country_code_banner_button">Adicionar o código do país</string>
     <string name="add_more_participants_button_content_description">Adicionar mais participantes</string>
+    <string name="add_reaction_content_description">Usar reação personalizada</string>
     <string name="add_reaction_for_assistant_card_rcs_fallback_text">Reação ao card de assistência: ​%1$s​</string>
     <string name="add_reaction_for_audio_rcs_fallback_text">Reação a um arquivo de áudio: ​%1$s​</string>
     <string name="add_reaction_for_contact_rcs_fallback_text">Reação a um contato: ​%1$s​</string>
@@ -97,7 +99,7 @@
     <string name="add_reaction_for_gif_rcs_fallback_text">Reação a um GIF: ​%1$s​</string>
     <string name="add_reaction_for_link_rcs_fallback_text">Reação a um link: ​%1$s​</string>
     <string name="add_reaction_for_photo_rcs_fallback_text">Reação a uma foto: ​%1$s​</string>
-    <string name="add_reaction_for_text_message_rcs_fallback_text">Reação à mensagem \"%2$s\": ​%1$s​</string>
+    <string name="add_reaction_for_text_message_rcs_fallback_text">Reação à mensagem \" %2$s \": ​%1$s​</string>
     <string name="add_reaction_for_unknown_message_type_rcs_fallback_text">Reação a um tipo de mensagem desconhecido: ​%1$s​</string>
     <string name="add_reaction_for_video_rcs_fallback_text">Reação a um vídeo: ​%1$s​</string>
     <string name="advanced_feedback_activity_disclaimer">O conteúdo e o texto da sua mensagem não são enviados ao Google, exceto o que aparece na captura de tela</string>
@@ -134,14 +136,13 @@
     <string name="apn_mnc">MNC</string>
     <string name="app_name">Mensagens</string>
     <string name="app_settings_conversation_pref_title">Configurações do app</string>
-    <string name="apply_button">Aplicar</string>
     <string name="archived_activity_title">Arquivadas</string>
     <string name="archived_conversation_list_empty_text">As conversas arquivadas aparecem aqui</string>
     <string name="area_code_banner_description">@string/banner_description</string>
     <string name="assistant_movies_shortcut_title">Filmes</string>
+    <string name="assistant_preference_summary">Mostrar informações relevantes sobre restaurantes, cinemas etc.</string>
     <string name="assistant_preference_title">Sugestões do Assistente</string>
     <string name="assistant_restaurants_shortcut_title">Restaurantes</string>
-    <string name="assistant_send_to_chip_default_group_name">grupo</string>
     <string name="assistant_suggestions_tooltip_text">O Mensagens dá sugestões enquanto você conversa no dispositivo. Toque nas sugestões para ver e compartilhar as informações do Google Assistente. &lt;br/> &lt;br/> &lt;a href>Saiba mais&lt;/a> e gerencie esse recurso em &lt;a href>Configurações&lt;/a></string>
     <string name="assistant_suggestions_tooltip_title_text">Receba informações com um toque</string>
     <string name="assistant_weather_shortcut_title">Clima</string>
@@ -157,12 +158,18 @@
     <string name="attachment_location">Local</string>
     <string name="attachment_picture">Imagem</string>
     <string name="attachment_preview_close_content_description">Descartar anexo</string>
+    <string name="attachment_preview_photos_link_share_getting_link">Gerando o link…</string>
+    <string name="attachment_preview_photos_link_share_no_upload_needed">Mídia já enviada por upload</string>
+    <string name="attachment_preview_photos_link_share_upload_size">Upload: %s</string>
+    <string name="attachment_preview_photos_link_share_upload_size_failure">Desconhecido</string>
+    <string name="attachment_preview_photos_link_share_upload_size_placeholder">Calculando…</string>
     <string name="attachment_unsupported_file">Arquivo incompatível</string>
     <string name="attachment_vcard">Card de contato</string>
     <string name="attachment_video">Vídeo</string>
     <string name="audio_attachment_content_description">Anexo de áudio</string>
     <string name="audio_attachment_seek_playback_description">Reprodução de áudio</string>
     <string name="audio_button_view_content_description">Toque duas vezes no botão e mantenha-o pressionado para gravar áudio, deslize para a esquerda para cancelar</string>
+    <string name="audio_format_type">áudio</string>
     <string name="audio_pause_content_description">Pausa</string>
     <string name="audio_play_content_description">Reproduzir anexo de áudio</string>
     <string name="audio_recorder_call_in_progress">Não é possível gravar áudio durante uma chamada</string>
@@ -179,13 +186,16 @@
     <string name="auto_selected_country_summary">Detectado automaticamente (%1$s)</string>
     <string name="automoved_spam_notification_action_dismiss">Dispensar</string>
     <string name="automoved_spam_notification_action_view">Ver</string>
+    <string name="automoved_spam_notification_content_text">Spam recebido movido para \"Spam e bloqueadas\".</string>
+    <string name="automoved_spam_notification_content_title">Spam detectado</string>
     <string name="bad_custom_theme">O tema personalizado que você está usando causou um problema com este app</string>
     <string name="bad_custom_theme_close_button">Sair</string>
     <string name="banner_description">Banner da conversa</string>
     <string name="birthday_banner_description">@string/banner_description</string>
     <string name="birthday_banner_dismiss_button_text">Dispensar</string>
     <string name="birthday_banner_settings_button_text">Gerenciar nas configurações</string>
-    <string name="birthday_info_text">O Mensagens cria lembretes de aniversário para os contatos com data de nascimento no dispositivo</string>
+    <string name="birthday_info_text">Estes lembretes são baseados nas informações de aniversário no app Contatos do dispositivo.</string>
+    <string name="birthday_info_text_with_settings">Estes lembretes são baseados nas informações de aniversário no app Contatos do dispositivo. &lt;a href>%1$s&lt;/a></string>
     <string name="birthday_nudge_enabled_pref_summary">Receba lembretes dos aniversários que você adicionou aos contatos no seu dispositivo</string>
     <string name="birthday_nudge_enabled_pref_title">Lembretes de aniversários</string>
     <string name="block_confirmation_message_spam_folder">Você continuará recebendo as mensagens de %1$s, mas não as notificações relacionadas. Esta conversa será movida para \"Marcadas como spam e bloqueadas\".</string>
@@ -203,10 +213,13 @@
     <string name="boew_promo_negative_button_text">AGORA NÃO</string>
     <string name="boew_promo_positive_button_text">PRÓXIMA</string>
     <string name="boew_promo_text">Para usar os recursos de chat, como mensagens por Wi-Fi e rede de dados, permita que o Mensagens continue em segundo plano.</string>
-    <string name="boew_promo_title">Faça muito mais com o Mensagens</string>
+    <string name="boew_promo_title">Faça muito mais com o app Mensagens</string>
     <string name="broadcast_receiver_notification_text_extra_info">O Mensagens está funcionando em segundo plano. Envie um relatório do bug caso você continue vendo esta notificação após um minuto. Nome do destinatário: %1$s</string>
     <string name="broadcast_sms_text">Mensagem de texto SMS em massa</string>
     <string name="bubble_settings_title">Balões</string>
+    <string name="bugle_add_account_error">Falha ao adicionar conta. Tente novamente.</string>
+    <string name="bugle_fix_it">Corrigir</string>
+    <string name="bugle_load_account_failure">Falha ao carregar as contas.</string>
     <string name="bugle_notification_category_conversations">Conversas</string>
     <string name="bugle_notification_category_default_settings">Configurações padrão</string>
     <string name="bugle_notification_category_reminders">Lembretes</string>
@@ -218,6 +231,8 @@
     <string name="bugle_notification_reminders_channel_name">Lembretes</string>
     <string name="bugle_notification_report_issue_channel_name">Solicitação de feedback do Mensagens</string>
     <string name="bugle_notification_silent_default_channel_name">Receber notificações quando usar a Web</string>
+    <string name="bugle_play_services_error">Falha ao consultar o Google Play Services.</string>
+    <string name="bugle_retry">Repetir</string>
     <string name="business_action_call_full_content_description">Ligar para: %1$s (%2$s)</string>
     <string name="business_action_call_short_content_description">Ligar</string>
     <string name="business_action_call_short_text_m2">Ligar</string>
@@ -279,6 +294,7 @@
     <string name="c2o_single_file_attachment_size_limit_exceed">Seu anexo é muito grande para ser enviado. Envie um arquivo menor que %s.</string>
     <string name="c2o_storage_permissions_text">Toque para conceder acesso a Mídia</string>
     <string name="c2o_video_button_text">Vídeo</string>
+    <string name="calendar_badge_content_description">Ícone de agenda</string>
     <string name="calendar_event_added">Evento salvo</string>
     <string name="calendar_file_content_description">Arquivo do Agenda</string>
     <string name="calendar_suggestion_event_chat_title">Chat do Android Mensagens</string>
@@ -289,6 +305,7 @@
     <string name="camera_attach_media">Anexar</string>
     <string name="camera_attach_media_description">Anexar à mensagem</string>
     <string name="camera_back_switch_button">Botão da câmera traseira</string>
+    <string name="camera_capture_button_label">Tirar foto</string>
     <string name="camera_flash_off">Flash desativado</string>
     <string name="camera_flash_on">Flash ativado</string>
     <string name="camera_front_switch_button">Botão da câmera frontal</string>
@@ -356,7 +373,7 @@ Você pode desativar os recursos de chat em \"Configurações\". %1$s"</string>
     <string name="clear_custom_smsc_dialog_button">Limpar</string>
     <string name="cmc_consent_settings_title">Mensagens de texto nos dispositivos Galaxy</string>
     <string name="cms_download_media_button_content_description">Fazer download do anexo</string>
-    <string name="cms_no_qr_welcome_bottom_text">"Primeiros passos
+    <string name="cms_no_qr_welcome_bottom_text">"Vamos começar
 1. Acesse %s.
 2. Faça login no Google Fi com ou sem o código QR."</string>
     <string name="cms_no_qr_welcome_title_text">Acesse mensagens de texto, chamadas e correio de voz na Web mesmo quando o smartphone está desligado</string>
@@ -372,6 +389,9 @@ Você pode desativar os recursos de chat em \"Configurações\". %1$s"</string>
     <string name="color_red">Vermelho</string>
     <string name="color_white">Branco</string>
     <string name="color_yellow">Amarelo</string>
+    <string name="complete_photos_app_onboarding">Abrir o Google Fotos</string>
+    <string name="complete_photos_app_onboarding_title">Para continuar, permita o acesso do Google Fotos</string>
+    <string name="complete_photos_app_onboarding_to_continue">Comece a usar o app Google Fotos</string>
     <string name="compose_message_view_hint_text">Mensagem de chat</string>
     <string name="compose_message_view_hint_text_multi_sim_rcs">Chat (%s)</string>
     <string name="compose_message_view_hint_text_multi_sim_sms_mms">Enviar mensagem de texto (%s)</string>
@@ -393,15 +413,12 @@ Você pode desativar os recursos de chat em \"Configurações\". %1$s"</string>
     <string name="contact_has_multiple_destinations_phone">%1$s (+ %2$s)</string>
     <string name="contact_has_multiple_destinations_type">Vários</string>
     <string name="contact_list_add_people">Adicionar %s</string>
-    <string name="contact_list_empty_text">Digite o nome ou telefone de um contato para iniciar uma nova mensagem</string>
     <string name="contact_list_send_to_text">Enviar para %s</string>
     <string name="contact_picker_autocomplete_added">%1$s adicionado, editando no momento</string>
     <string name="contact_picker_autocomplete_deleted">O contato %1$s foi excluído, editando agora</string>
-    <string name="contact_picker_cant_add_destination_twice">Este número já está no grupo</string>
     <string name="contact_picker_cant_remove_from_existing">Não é possível remover um número de uma conversa existente</string>
     <string name="contact_picker_cant_remove_from_screen">Para remover pessoas, acesse &lt;b>Detalhes do grupo&lt;/b></string>
     <string name="contact_picker_confirm_participants_button_label">Próxima</string>
-    <string name="contact_picker_group_create_label">Criar grupo</string>
     <string name="contact_picker_group_v2_create_label">Criar grupo</string>
     <string name="contact_picker_message_a_business_label">Chat com uma empresa</string>
     <string name="contact_picker_title_add_people">Adicionar pessoas</string>
@@ -424,10 +441,14 @@ Você pode desativar os recursos de chat em \"Configurações\". %1$s"</string>
     <string name="content_description_link_to_settings">Gerenciar nas Configurações</string>
     <string name="contextual_action_bar_description_prefix">Mostrando a barra de ferramentas de ações: %s. Navegue para cima para selecionar uma ação ou fechar.</string>
     <string name="conversation_area_code_popup_paragraph">Sem um código de área conhecido, o Mensagens enviará para %1$s. Adicione o código de área deste contato às próximas mensagens. %2$s</string>
+    <string name="conversation_block_failed_message">Não bloqueado, verifique a conexão</string>
+    <string name="conversation_blocking_message">Bloqueando…</string>
     <string name="conversation_country_code_popup_paragraph">Adicione o código do país (+%1$s para %2$s) a este contato para que sua mensagem seja entregue à pessoa certa. %3$s</string>
     <string name="conversation_creation_failed">Falha ao criar a conversa, tente novamente mais tarde.</string>
     <string name="conversation_creation_failure">Não foi possível iniciar a conversa</string>
+    <string name="conversation_deleting_message">Excluindo…</string>
     <string name="conversation_deletion_failed">Não foi possível excluir a conversa</string>
+    <string name="conversation_deletion_failed_message">Não excluído, verifique a conexão</string>
     <string name="conversation_empty_name">Em branco</string>
     <string name="conversation_label_all">Tudo</string>
     <string name="conversation_label_business_updates">Trabalho</string>
@@ -454,7 +475,6 @@ Você pode desativar os recursos de chat em \"Configurações\". %1$s"</string>
     <string name="conversation_list_item_view_draft_message">Rascunho</string>
     <string name="conversation_list_item_view_sent_from_other_prefix">%s:</string>
     <string name="conversation_list_item_view_sent_from_you_prefix">"Você: "</string>
-    <string name="conversation_list_loading_item_description">Carregando conversa</string>
     <string name="conversation_list_message_fail_to_decrypt">Impossível descriptograr</string>
     <string name="conversation_list_rcs_promo_button_negative">Não fazer upgrade do app</string>
     <string name="conversation_list_rcs_promo_button_positive">Fazer upgrade agora</string>
@@ -466,7 +486,6 @@ Você pode desativar os recursos de chat em \"Configurações\". %1$s"</string>
     <string name="conversation_list_snippet_link">Link</string>
     <string name="conversation_list_spam_popup_negative">Gerenciar nas Configurações</string>
     <string name="conversation_list_spam_popup_paragraph">Para prevenção contra spam o Google usa os números de telefone dos destinatários e remetentes desconhecidos. Seus contatos e mensagens não são enviados ao Google. %1$s</string>
-    <string name="conversation_list_spam_popup_paragraph_on_device">O Mensagens usa a inteligência no dispositivo para detectar spam e envia alguns dados sobre isso ao Google sem incluir seu número de telefone nem o conteúdo da mensagem. %1$s</string>
     <string name="conversation_list_spam_popup_positive">OK</string>
     <string name="conversation_list_spam_popup_title">Proteção contra spam</string>
     <string name="conversation_list_terms_and_conditions_promo_subtitle">Conclua a ativação dos recursos de chat para usar o serviço de mensagens por Wi-Fi, entre outros</string>
@@ -489,6 +508,7 @@ Você pode desativar os recursos de chat em \"Configurações\". %1$s"</string>
     <string name="conversation_suggestion_set_reminder_action">Ação sugerida de definir lembrete</string>
     <string name="conversation_suggestion_share_location_action">Ação de compartilhamento de local sugerida</string>
     <string name="conversation_suggestion_share_location_action_failure">Ocorreu um erro. Para compartilhar seu local, adicione-o a uma nova mensagem.</string>
+    <string name="conversation_suggestion_star_action">Ação de estrela sugerida</string>
     <string name="conversation_suggestion_sticker">Adesivo sugerido</string>
     <string name="copy">Copiar</string>
     <string name="copy_to_clipboard">Copiar</string>
@@ -498,6 +518,7 @@ Você pode desativar os recursos de chat em \"Configurações\". %1$s"</string>
     <string name="create_group_info_title">Adicionar nome do grupo</string>
     <string name="create_new_group_message">Se você adicionar esta pessoa, um grupo novo será iniciado sem os recursos de chat</string>
     <string name="current_country_pref_title">País atual</string>
+    <string name="custom_reaction_selection_prompt">Select an emoji</string>
     <string name="dark_mode_disable_title">Desativar modo escuro</string>
     <string name="dark_mode_enable_title">Ativar modo escuro</string>
     <string name="dasher_disabled_notification_body">Entre em contato com o administrador do sistema ou faça login com outra conta.</string>
@@ -517,7 +538,7 @@ Você pode desativar os recursos de chat em \"Configurações\". %1$s"</string>
     <string name="datetime_picker_save_button">Salvar</string>
     <string name="debug_category_pref_title">Depurar</string>
     <string name="default_attachment_name">sem título</string>
-    <string name="default_label_title">Visualização das categorias principais</string>
+    <string name="default_label_title">Visualização da categoria principal</string>
     <string name="default_vcard_file_name">Card de contato</string>
     <string name="delete_all_media">Excluir todas as mensagens com mídia</string>
     <string name="delete_all_media_confirmation">Excluir todas as mensagens com mídia?</string>
@@ -565,12 +586,9 @@ Você pode desativar os recursos de chat em \"Configurações\". %1$s"</string>
     <string name="ditto_activity_label">Pareamento de dispositivos</string>
     <string name="ditto_foreground_service_device_pairing_notification_text">Suas mensagens estão disponíveis no dispositivo pareado</string>
     <string name="ditto_foreground_service_device_pairing_notification_title">Pareamento de dispositivos</string>
-    <string name="ditto_foreground_service_notification_text">Suas mensagens estão disponíveis no computador pareado</string>
-    <string name="ditto_foreground_service_notification_title">Mensagens na Web</string>
     <string name="ditto_foreground_service_sign_out">Desparear</string>
     <string name="ditto_persistent_notification_settings">Notificações</string>
     <string name="ditto_settings_action_bar_title">Notificações</string>
-    <string name="ditto_settings_connected_to_web_notification_description">O \"Mensagens na Web\" aparece quando seu dispositivo está on-line</string>
     <string name="ditto_settings_connected_to_web_notification_title">Mostrar notificação contínua</string>
     <string name="ditto_settings_device_paired_notification_description">Quando seu dispositivo está on-line, você vê \"Pareamento de dispositivos\"</string>
     <string name="ditto_settings_while_using_web_notification_description">Parar de tocar e vibrar quando seu dispositivo estiver on-line</string>
@@ -611,6 +629,7 @@ As mensagens são revisadas por pessoas e incluem o número do remetente corpora
     <string name="dump_mms_pref_title">Descartar MMS</string>
     <string name="dump_sms_pref_summary">Descartar dados brutos de SMS recebidos no arquivo de armazenamento externo</string>
     <string name="dump_sms_pref_title">Descartar SMS</string>
+    <string name="duplicate_upload_snackbar">Algumas cópias não foram incluídas</string>
     <string name="e2ee_conversation_tombstone">Chat criptografado de ponta a ponta com %1$s</string>
     <string name="e2ee_conversation_tombstone_with_learn_more">Chat criptografado de ponta a ponta com %1$s. %2$s</string>
     <string name="e2ee_fail_to_send_retry_description">Reenviar como chat</string>
@@ -649,7 +668,6 @@ As mensagens são revisadas por pessoas e incluem o número do remetente corpora
 Em caso de reconexão dos recursos de chat, o Mensagens será ativado novamente."</string>
     <string name="enable_rcs_auto_fallback_dialog_title">Reenviar automaticamente como mensagem de texto (SMS/MMS)?</string>
     <string name="enable_rcs_auto_fallback_title">Reenviar automaticamente como mensagem de texto (SMS/MMS)</string>
-    <string name="enable_rcs_fallback_to_sms_title">Reenviar mensagens não entregues</string>
     <string name="enable_rcs_fallback_to_xms_title">Reenviar mensagens não entregues</string>
     <string name="enable_rcs_summary_off">Usar Wi-Fi ou dados para enviar mensagens quando disponíveis</string>
     <string name="enable_rcs_summary_on">Usar dados para mensagens quando disponíveis</string>
@@ -663,6 +681,9 @@ Em caso de reconexão dos recursos de chat, o Mensagens será ativado novamente.
     <string name="enumeration_comma">", "</string>
     <string name="error_failed_to_save_setting">Falha ao salvar. Tente novamente.</string>
     <string name="error_premium_sms_needs_permission">Para enviar esta mensagem, visite as configurações do seu dispositivo e ative o acesso ao SMS premium</string>
+    <string name="error_text_draft_is_reply_to_missing_message">Não é possível responder a uma mensagem excluída</string>
+    <string name="error_text_draft_is_reply_without_rcs">Houve um problema com os recursos de chat. Tente enviar sem ser como resposta.</string>
+    <string name="error_text_scheduled_send_with_draft_reply">Não é possível programar uma resposta no momento</string>
     <string name="etouffee_to_rcs_notification">O Mensagens detectou que uma conversa não foi criptografada de ponta a ponta. Toque para enviar feedback.</string>
     <string name="etouffee_to_telephony_setting">Privacidade</string>
     <string name="etouffee_to_telephony_setting_description">"As permissões de envio de SMS incluem as mensagens criptografadas de ponta a ponta para que você possa fazer backup delas com o Android, ouvi-las no carro ou em um dispositivo complementar e muito mais. Veja e gerencie os apps com permissões de envio de SMS nas configurações do Android.
@@ -688,18 +709,23 @@ A mudança dessa configuração não afeta as mensagens criptografadas de ponta 
     <string name="exo_controls_pause_description">Pausar</string>
     <string name="exo_controls_play_description">Reproduzir</string>
     <string name="exo_controls_previous_description">Anterior</string>
-    <string name="exo_controls_repeat_all_description">Repetir tudo</string>
-    <string name="exo_controls_repeat_off_description">Não repetir</string>
-    <string name="exo_controls_repeat_one_description">Repetir uma</string>
+    <string name="exo_controls_repeat_all_description">Modo atual: repetir tudo. Alternar modo de repetição.</string>
+    <string name="exo_controls_repeat_off_description">Modo atual: não repetir. Alternar modo de repetição.</string>
+    <string name="exo_controls_repeat_one_description">Modo atual: repetir um item. Alternar modo de repetição.</string>
     <string name="exo_controls_rewind_description">Voltar</string>
     <string name="exo_controls_show">Mostrar controles do player</string>
-    <string name="exo_controls_shuffle_off_description">Ordem aleatória desativada</string>
-    <string name="exo_controls_shuffle_on_description">Ordem aleatória ativada</string>
+    <string name="exo_controls_shuffle_off_description">Ativar o modo de ordem aleatória</string>
+    <string name="exo_controls_shuffle_on_description">Desativar o modo de ordem aleatória</string>
     <string name="exo_controls_vr_description">Modo RV</string>
     <string name="exo_track_selection_auto">Automática</string>
     <string name="exo_track_selection_none">Nenhuma</string>
     <string name="expand_attach_button_content_description">Botões para expandir/recolher</string>
     <string name="expand_button_title">Avançado</string>
+    <string name="express_sign_in_illustration_content_description">Ilustração do recurso de compartilhamento de mídia</string>
+    <string name="express_sign_in_sub_title">"Faça login e envie os links do Google Fotos para
+preservar a definição dos vídeos."</string>
+    <string name="express_sign_in_title">"Compartilhe vídeos
+com alta qualidade"</string>
     <string name="fail_to_decrypt_message_metadata">Não é possível descriptograr, toque para ver as opções</string>
     <string name="fail_to_load_dialog_negative_button">Enviar mensagens de texto com o chip do dispositivo</string>
     <string name="fail_to_load_dialog_positive_button">Tentar de novo</string>
@@ -713,9 +739,10 @@ A mudança dessa configuração não afeta as mensagens criptografadas de ponta 
     <string name="failed_message_content_description">Falha na mensagem. Toque para tentar novamente.</string>
     <string name="failed_qr_pairing_dialog_message">Ocorreu um erro. Tente novamente em alguns minutos.</string>
     <string name="failed_qr_pairing_dialog_positive_button_text">OK</string>
+    <string name="failed_to_select_attachment_from_system_picker">Falha ao selecionar este anexo</string>
     <string name="fast_track_negative_button_text">Não</string>
     <string name="fast_track_popup_accepted_snack_bar_text">Configurando os recursos de chat. Avisaremos quando estiverem prontos.</string>
-    <string name="fast_track_popup_declined_snack_bar_text">Você pode ativar os recursos de chat a qualquer momento em \"Configurações\".</string>
+    <string name="fast_track_popup_declined_snack_bar_text">Você pode ativar os recursos de chat a qualquer momento nas Configurações.</string>
     <string name="fast_track_positive_button_text">Sim</string>
     <string name="fast_track_positive_button_text_experiment">Aceitar</string>
     <string name="fast_track_privacy_policy">Política de Privacidade</string>
@@ -778,6 +805,9 @@ A mudança dessa configuração não afeta as mensagens criptografadas de ponta 
     <string name="fi_settings_download_over_wifi_title">Sincronizar mídia somente por Wi-Fi</string>
     <string name="fi_settings_opt_out_failed">No momento não é possível parar de sincronizar e sair. Tente mais tarde.</string>
     <string name="fi_settings_opt_out_in_progress">Parando de sincronizar e saindo</string>
+    <string name="fi_settings_redirect_button">Gerenciar backup</string>
+    <string name="fi_settings_redirect_summary">Elas estão disponíveis no menu da conta</string>
+    <string name="fi_settings_redirect_title">As configurações do recurso Backup e sincronização foram movidas</string>
     <string name="fi_settings_sync_preference_backup_in_progress">Backup em andamento: %1$d%%</string>
     <string name="fi_settings_sync_preference_restore_in_progress">Restauração em andamento: %1$d%%</string>
     <string name="fi_settings_sync_preference_summary">As chamadas, as mensagens de texto e de correio de voz são atualizadas em todas as telas</string>
@@ -795,6 +825,7 @@ A mudança dessa configuração não afeta as mensagens criptografadas de ponta 
     <string name="file_transfer_via_sms_other">Compartilhei um arquivo com você</string>
     <string name="file_transfer_via_sms_video">Compartilhei um vídeo com você</string>
     <string name="files_shortcut_title">Arquivos</string>
+    <string name="flip_camera_button_label">Virar câmera</string>
     <string name="floating_toolbar_close_overflow_description">Fechar menu flutuante</string>
     <string name="floating_toolbar_open_overflow_description">Mais opções</string>
     <string name="foreground_service_notification_generic_text">O Mensagens está funcionando em segundo plano</string>
@@ -808,12 +839,27 @@ A mudança dessa configuração não afeta as mensagens criptografadas de ponta 
     <string name="full_banner_expand_chip_description">Ícone expansível</string>
     <string name="full_screen_gallery_action_attach">Adicionar</string>
     <string name="fullscreen_button_description">Abrir tela cheia</string>
+    <string name="gaia_auth_failure_dialog_body">Alguns recursos da sua Conta do Google só funcionam quando você faz login.</string>
+    <string name="gaia_auth_failure_dialog_title">Para verificar sua identidade, faça login novamente</string>
+    <string name="gallery_google_photos_option_tray_button_add">Adicionar</string>
+    <string name="gallery_google_photos_option_tray_button_always">Sempre</string>
+    <string name="gallery_google_photos_option_tray_button_cancel">Cancelar</string>
+    <string name="gallery_google_photos_option_tray_button_just_once">Só uma vez</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_image">Imagem menos nítida</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_unknown">Mídia de baixa qualidade</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_video">Vídeo de baixa qualidade</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_image">Imagem</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_unknown">Mídia</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_video">Vídeo</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_body">Mais qualidade. Gerencie os links compartilhados no Google Fotos.</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_learn_more">Saiba mais</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_title">Link do Google Fotos</string>
+    <string name="gallery_item_content_description_selected_state">Toque duas vezes para desmarcar o arquivo de %1$s anexado na posição %2$s</string>
+    <string name="gallery_item_content_description_unselected_state">Selecione este item de %1$s salvo em %2$s com um toque duplo</string>
     <string name="general_settings">Gerais</string>
     <string name="general_settings_activity_title">Configurações gerais</string>
     <string name="general_settings_title_m2">Opções</string>
     <string name="generic_issue_text">Outro</string>
-    <string name="get_messenger_notification_body">Ler e enviar mensagens de texto do seu relógio ou smartphone</string>
-    <string name="get_messenger_notification_header">Instale o Mensagens</string>
     <string name="get_sticker_packs_error_msg">Falha ao carregar os adesivos.</string>
     <string name="gif_screen_no_result">Não é possível encontrar uma correspondência. Confira sua pesquisa e tente de novo.</string>
     <string name="gif_screen_title">GIFs</string>
@@ -821,8 +867,21 @@ A mudança dessa configuração não afeta as mensagens criptografadas de ponta 
     <string name="gif_search_hint">Pesquisar GIFs</string>
     <string name="gifs_shortcut_title">GIFs</string>
     <string name="go_to_top">Ver mais recente</string>
-    <string name="google_account_pref_title">Conta do Google</string>
     <string name="google_fi_text">Google Fi</string>
+    <string name="google_photos_onboarding_close_button_description">Fechar o card do Google Fotos</string>
+    <string name="google_photos_onboarding_ineligible_title">Faça login no Google Fotos para enviar vídeos mais nítidos</string>
+    <string name="google_photos_onboarding_ineligible_title_photos_and_videos">Faça login no Google Fotos para enviar fotos e vídeos mais nítidos</string>
+    <string name="google_photos_onboarding_learn_more">Saiba mais</string>
+    <string name="google_photos_onboarding_next">Próxima</string>
+    <string name="google_photos_onboarding_ok">OK</string>
+    <string name="google_photos_onboarding_signed_in_title_photos_and_videos">Faça login para enviar fotos e vídeos mais nítidos</string>
+    <string name="google_photos_onboarding_signed_out_title">Faça login para enviar vídeos nítidos</string>
+    <string name="google_photos_onboarding_text_body">Envie os links do Google Fotos nas conversas por MMS e mantenha a qualidade dos seus vídeos</string>
+    <string name="google_photos_onboarding_text_body_photos_and_videos_xms">Envie os links do Google Fotos nas conversas por MMS e mantenha a qualidade das suas mídias</string>
+    <string name="google_photos_onboarding_title">Compartilhe vídeos com alta qualidade</string>
+    <string name="google_photos_onboarding_title_photos_and_videos">Compartilhe fotos e vídeos com alta qualidade</string>
+    <string name="google_photos_option_tray">Faça login para enviar vídeos mais nítidos</string>
+    <string name="google_photos_option_tray_photos_and_videos">Faça login para enviar fotos e vídeos mais nítidos</string>
     <string name="google_tos_chat_features_tooltip">"Veja quando alguém está digitando, receba confirmações de leitura e envie mensagens, arquivos e fotos em alta resolução com os recursos de chat via Serviços de Comunicação Avançada (RCS). O envio das mensagens usa dados.
 
 Você pode desativar esse recurso em \"Configurações\". %1$s"</string>
@@ -835,8 +894,9 @@ Você pode desativar esse recurso em \"Configurações\". %1$s"</string>
 
 Você pode alterar seu chip padrão para chamadas nas \"Configurações do sistema\". %1$s"</string>
     <string name="google_tos_multisim_view_accessibility_description">Saiba mais</string>
+    <string name="google_tos_negative_link_text">Agora não</string>
     <string name="group_conversation_title_everyone_else_left">Eu</string>
-    <string name="group_limit_alert_dialog_message">{max_group_size_including_self,plural, =1{Não é possível ter mais de # pessoa}one{Não é possível ter mais de # pessoa}many{Não é possível ter mais de # pessoas}other{Não é possível ter mais de # pessoas}}</string>
+    <string name="group_limit_alert_dialog_message">{max_group_size_excluding_self,plural, =1{Não é possível ter mais de # pessoa extra.}one{Não é possível ter mais de # pessoa extra.}many{Não é possível ter mais de # pessoas extras.}other{Não é possível ter mais de # pessoas extras.}}</string>
     <string name="group_mms_pref_title">Mensagens em grupo</string>
     <string name="group_name_edit_text_label">Nome do grupo</string>
     <string name="guest_cloud_preview">VISUALIZAÇÃO</string>
@@ -858,14 +918,19 @@ Você pode alterar seu chip padrão para chamadas nas \"Configurações do siste
     <string name="hats_lib_thank_you_followup_message">Ajude-nos a melhorar nosso produto respondendo a mais perguntas</string>
     <string name="hidden_sender_address">Endereço do remetente oculto</string>
     <string name="highlighter">Marca-texto</string>
+    <string name="how_it_works_link_text">Como funciona</string>
+    <string name="hqms_always_send_image_as_link_pref_title">Sempre enviar imagens por link nas mensagens de texto (SMS/MMS)</string>
+    <string name="hqms_always_send_video_as_link_pref_title">Sempre enviar vídeos por link nas mensagens de texto (SMS/MMS)</string>
+    <string name="hqms_settings_gaia_card_text">Gerenciar links no Google Fotos</string>
+    <string name="hqms_settings_info_text">O Mensagens faz upload para o Google Fotos, onde você pode gerenciar o compartilhamento de link de vídeo. %1$s</string>
+    <string name="hqms_settings_sign_in_prompt_text">Faça login na sua Conta do Google para usar este recurso</string>
     <string name="hqms_settings_summary">Compartilhar vídeos mais nítidos nas mensagens de texto (SMS/MMS)</string>
     <string name="hqms_settings_title">Google Fotos</string>
     <string name="identity_verification_notification_text">O Mensagens está verificando uma mensagem recebida</string>
     <string name="ignore">Ignorar</string>
     <string name="image_attachment_content_description">Anexo de imagem</string>
     <string name="image_compress_info">O destinatário verá a imagem com qualidade inferior devido aos limites da operadora para MMS</string>
-    <string name="imei_format_dropdown_hint">Defina o formato do IMEI</string>
-    <string name="imsi_format_dropdown_hint">Defina o formato do IMSI</string>
+    <string name="image_format_type">imagem</string>
     <string name="in_conversation_blocked_contact_text">É possível que você não veja todas as mensagens porque esta conversa contém contatos bloqueados.</string>
     <string name="in_conversation_notify_new_message_action">Ver</string>
     <string name="in_conversation_notify_new_message_text">Nova mensagem</string>
@@ -875,7 +940,7 @@ Você pode alterar seu chip padrão para chamadas nas \"Configurações do siste
     <string name="incoming_message_for_secondary_user_notification_title">Nova mensagem</string>
     <string name="incoming_message_foreground_notification_text">O Mensagens está recebendo um SMS</string>
     <string name="incoming_mms_disabled_by_company_pref_summary">Sua empresa não permite o recebimento de mensagens MMS</string>
-    <string name="indeterminate">Nem marcada nem desmarcada</string>
+    <string name="indeterminate">Parcialmente selecionada</string>
     <string name="info_and_options_activity_business_tab_list_header">Empresa</string>
     <string name="info_and_options_activity_info_tab_content_description">Informações</string>
     <string name="info_and_options_activity_info_tab_title">Informações</string>
@@ -886,6 +951,9 @@ Você pode alterar seu chip padrão para chamadas nas \"Configurações do siste
     <string name="info_and_options_view_terms_of_service">Ver os Termos de Serviço</string>
     <string name="inline_playback_error">Não é possível assistir este vídeo no Mensagens.</string>
     <string name="inline_playback_pause_content_description">Pausar vídeo</string>
+    <string name="install_photos_app">Instalar Google Fotos</string>
+    <string name="install_photos_app_title">Para continuar, instale o app Google Fotos</string>
+    <string name="install_photos_app_to_continue">Instale o app para enviar vídeos mais nítidos</string>
     <string name="invalid_qr_code_dialog_message">Para fazer login, leia o código QR em %s</string>
     <string name="invalid_qr_code_dialog_positive_button_text">OK</string>
     <string name="invalid_qr_code_dialog_title">Código incorreto</string>
@@ -897,14 +965,12 @@ Você pode alterar seu chip padrão para chamadas nas \"Configurações do siste
     <string name="learn_more">Saiba mais</string>
     <string name="leave_confirmation_text">Você quer mesmo parar de receber mensagens deste grupo?</string>
     <string name="leave_confirmation_title">Sair do grupo definitivamente</string>
-    <string name="link_preview_enabled_pref_summary">Mostrar a prévia do conteúdo nas mensagens</string>
+    <string name="lighter_account_sign_out_snackbar_text">Faça login para ver suas conversas de trabalho</string>
+    <string name="lighter_block_report_spam_body">O nome da empresa e a conversa com este usuário são enviados ao Google. Sujeito a cobrança da operadora.</string>
     <string name="link_preview_enabled_pref_summary_off">Desativadas</string>
     <string name="link_preview_failed">Visualização indisponível</string>
     <string name="link_preview_google_photos_display_name">Google Fotos</string>
-    <string name="link_preview_preference_info_text">O Google recebe o conteúdo das visualizações dos sites vinculados. Somente os links de remetentes conhecidos podem ser visualizados. %1$s</string>
-    <string name="link_preview_preference_title">Pré-visualização de links automática</string>
     <string name="link_preview_tap_to_load">Toque para carregar e visualizar</string>
-    <string name="link_preview_wifi_only_pref_summary">Fazer o download das prévias de conteúdo só por Wi-Fi</string>
     <string name="link_to_settings"><u>Gerenciar em Configurações</u></string>
     <string name="listify_many">%1$s e mais %2$d pessoas</string>
     <string name="listify_one">%s</string>
@@ -952,7 +1018,6 @@ O compartilhamento dessas informações é opcional e não inclui o conteúdo ne
     <string name="manual_msisdn_skipped_snack_bar_text">Os recursos de chat avançados não foram ativados. Ative-os a qualquer momento em \"Configurações\".</string>
     <string name="manual_msisdn_skipped_snack_bar_text_b155475148">O Mensagens tentará verificar seu número com a operadora. Gerencie esse recurso em \"Configurações\".</string>
     <string name="manual_msisdn_verify_now_snack_bar_text_b155475148">O Mensagens tentará verificar seu número com a operadora. Gerencie esse recurso em \"Configurações\".</string>
-    <string name="manually_override_rcs_flags">Modificar as sinalizações do RCS manualmente</string>
     <string name="mark_all_messages_as_read_confirmation">Todas as mensagens foram marcadas como lidas</string>
     <string name="media_compress_info">O destinatário verá a mídia com qualidade inferior devido aos limites da operadora para MMS</string>
     <string name="media_compress_tooltip_info_icon_text">informações</string>
@@ -1033,7 +1098,7 @@ O compartilhamento dessas informações é opcional e não inclui o conteúdo ne
     <string name="message_status_seen_by_all">Lida por todos</string>
     <string name="message_status_seen_media">Vista</string>
     <string name="message_status_send_failed">Mensagem não enviada. Toque para tentar de novo.</string>
-    <string name="message_status_send_failed_emergency_number">Faça uma chamada de voz para os serviços de emergência. Não foi possível entregar sua mensagem de texto no momento.</string>
+    <string name="message_status_send_failed_emergency_number">Faça uma ligação para os serviços de emergência. Não foi possível entregar sua mensagem de texto no momento.</string>
     <string name="message_status_send_failed_image_too_large">A imagem é muito grande para ser enviada</string>
     <string name="message_status_send_failed_no_retry_no_fallback">Mensagem não enviada, toque para ver as opções</string>
     <string name="message_status_send_failed_too_large">A mensagem é muito grande para ser enviada</string>
@@ -1052,6 +1117,8 @@ O compartilhamento dessas informações é opcional e não inclui o conteúdo ne
     <string name="message_type_vcard">Card de contato</string>
     <string name="message_type_video">Vídeo</string>
     <string name="message_video_content_description">Vídeo</string>
+    <string name="message_with_deleted_snippet_talk_back_announcement">%1$s em resposta a uma mensagem excluída</string>
+    <string name="message_with_reply_snippet_talk_back_announcement">%1$s em resposta à mensagem para %2$s de%3$s</string>
     <string name="messages_for_web_preference_summary">Acesse %1$s</string>
     <string name="messages_for_web_preference_title">Enviar mensagens de texto, fazer chamadas e verificar o correio de voz na Web</string>
     <string name="messages_status_feedback_data_description">"Todas as informações recomendadas são úteis para revelar problemas ocultos, causas diversas, como eles estão relacionados e onde resolvê-los.
@@ -1107,11 +1174,24 @@ Você pode responder a códigos curtos apenas com números, mas não a códigos 
     <string name="multimedia_message">Mensagem multimídia</string>
     <string name="muted_conversation_content_description">Notificações desativadas.</string>
     <string name="nav_app_bar_navigate_up_description">Navegar para cima</string>
+    <string name="nav_archived_messages_folder_title">Arquivadas</string>
+    <string name="nav_choose_theme_title">Escolher tema</string>
+    <string name="nav_choose_theme_title_disable_dark_mode">Desativar modo escuro</string>
+    <string name="nav_choose_theme_title_enable_dark_mode">Ativar modo escuro</string>
+    <string name="nav_device_pairing_title">Pareamento de dispositivos</string>
+    <string name="nav_mark_all_as_read_title">Marcar todas como lidas</string>
+    <string name="nav_messages_folder_title">Mensagens</string>
+    <string name="nav_spam_and_blocked_messages_folder_title">Spam e bloqueadas</string>
+    <string name="nav_starred_folder_title">Com estrela</string>
     <string name="navigate_up_button_content_description">Navegar para cima</string>
     <string name="new_message_label">{count,plural, =1{1 nova mensagem}one{# nova mensagem}many{# new messages}other{# novas mensagens}}</string>
     <string name="new_pill_label">Novo</string>
     <string name="new_rich_cards_preference_info_text">O Google analisa algumas informações do seu histórico de chat, como lugares ou links, sem identificar você. Isso ajuda a gerar as visualizações e detectar conteúdo nocivo. %1$s</string>
-    <string name="no_google_account">Nenhuma</string>
+    <string name="no_business_name_fallback">esta empresa</string>
+    <string name="no_connection">Sem conexão</string>
+    <string name="no_media_button">Ver opções</string>
+    <string name="no_media_caption">Tente usar uma fonte de mídia ou perfil diferente.</string>
+    <string name="no_media_description">O dispositivo não tem mídias salvas para este perfil.</string>
     <string name="no_reply_pinned_message_text">Este remetente não permite respostas</string>
     <string name="no_sim_message">Não há mensagens no chip</string>
     <string name="not_selected">Não selecionado</string>
@@ -1128,7 +1208,7 @@ Você pode responder a códigos curtos apenas com números, mas não a códigos 
     <string name="notification_download_failures_line1_singular">Falha no download da mensagem de %s</string>
     <string name="notification_download_mms">Fazer download</string>
     <string name="notification_emergency_send_failure_line1">Mensagem para %1$s não enviada</string>
-    <string name="notification_emergency_send_failure_line2">Faça uma chamada de voz para os serviços de emergência. Não foi possível entregar sua mensagem de texto para %1$s no momento.</string>
+    <string name="notification_emergency_send_failure_line2">Faça uma ligação para os serviços de emergência. Não foi possível entregar sua mensagem de texto para %1$s no momento.</string>
     <string name="notification_mark_as_read">Marcar como lida</string>
     <string name="notification_multiple_sims">Vários SIMs</string>
     <string name="notification_multiple_sims_hint_text">Enviar resposta de %s</string>
@@ -1167,31 +1247,51 @@ Você pode responder a códigos curtos apenas com números, mas não a códigos 
     <string name="nudge_learn_more_info_text">Mais sobre os alertas</string>
     <string name="nudge_reply_enabled_pref_summary">As mensagens que talvez precisem da sua resposta vão para a parte superior</string>
     <string name="nudge_reply_enabled_pref_title">Sugerir lembretes de resposta</string>
+    <string name="nudge_settings_page_description">Mostrar lembretes de resposta e aniversário</string>
     <string name="nudge_settings_page_title">Alertas</string>
     <string name="numeric_text_keyboard_toggle_button_content_description">Alternar entre entrada de texto ou números</string>
     <string name="off">Desativado</string>
     <string name="og_a11y_close">Fechar</string>
     <string name="og_account_and_settings">Conta e configurações</string>
+    <string name="og_account_particle_disc_no_accounts_available_a11y">Fazer login</string>
     <string name="og_add_another_account">Adicionar outra conta</string>
+    <string name="og_app_settings">Configurações do %1$s</string>
     <string name="og_choose_an_account_title">Escolha uma conta</string>
     <string name="og_collapse_account_list_a11y">Recolher lista de contas.</string>
     <string name="og_continue">Continuar</string>
     <string name="og_continue_as">Continuar como %1$s</string>
     <string name="og_expand_account_list_a11y">Expandir lista de contas.</string>
+    <string name="og_get_storage_action">Comprar armazenamento</string>
+    <string name="og_get_storage_action_short">Comprar mais</string>
     <string name="og_google_one_account_a11y">Conta do Google One.</string>
+    <string name="og_help_feedback">Ajuda e feedback</string>
     <string name="og_loading_a11y">Carregando</string>
     <string name="og_manage_accounts">Gerenciar contas neste dispositivo</string>
+    <string name="og_manage_storage_action">Gerenciar armazenam.</string>
+    <string name="og_manage_storage_action_short">Gerenciar</string>
+    <string name="og_minimized_storage_card_title">Armazenamento usado: %1$s de %2$s GB</string>
+    <string name="og_more_options_action">Mais opções</string>
+    <string name="og_more_options_action_short">Opções</string>
     <string name="og_my_account_desc_long_length">Gerenciar sua Conta do Google</string>
     <string name="og_my_account_desc_meduim_length">Conta do Google</string>
     <string name="og_my_account_desc_short_length">Conta</string>
+    <string name="og_privacy_advisor">Seus dados no app %1$s</string>
     <string name="og_privacy_policy">Política de Privacidade</string>
     <string name="og_selected_account_a11y">Conta %1$s selecionada.</string>
     <string name="og_sign_in_">Fazer login</string>
     <string name="og_signed_in_as_account">Conta conectada: %1$s</string>
+    <string name="og_storage_card_almost_full_a11y_label">O armazenamento da conta está quase cheio</string>
+    <string name="og_storage_card_full_a11y_label">O armazenamento da conta está cheio</string>
+    <string name="og_storage_card_title">Armazenamento da conta</string>
+    <string name="og_storage_card_title_almost_full">%1$s de armazenamento usado</string>
+    <string name="og_storage_card_title_full">Sem armazenamento</string>
+    <string name="og_storage_progress_subtitle">%1$s GB de %2$s GB usados</string>
     <string name="og_terms_of_service">Termos de Serviço</string>
     <string name="og_use_account_a11y_no_period">Usar %1$s</string>
+    <string name="og_use_without_an_account">Usar sem uma conta</string>
     <string name="on">Ativado</string>
     <string name="onboarding_google_tos_with_sms_charges_and_learn_more">Para ativar os recursos de chat do Google, aceite os %1$s e a %2$s De tempos em tempos, seu número será verificado pelo Google, com o intercâmbio de informações do dispositivo com a operadora (sujeito a cobrança de SMS). %3$s.</string>
+    <string name="open_full_screen_camera_button_label">Abrir câmera em tela cheia</string>
     <string name="open_video_trimmer_dialog_negative">Cancelar</string>
     <string name="open_video_trimmer_dialog_positive">Cortar</string>
     <string name="organization">Organização</string>
@@ -1205,8 +1305,6 @@ Você pode responder a códigos curtos apenas com números, mas não a códigos 
     <string name="otp_auto_deletion_promo_banner_positive_button_text">Continuar</string>
     <string name="otp_auto_deletion_promo_banner_title_text">Excluir OTPs automaticamente após 24 horas?</string>
     <string name="otp_copied_to_clipboard">Código copiado</string>
-    <string name="otp_pattern_dropdown_hint">Defina o padrão da OTP</string>
-    <string name="otp_port_dropdown_hint">Defina a porta da OTP</string>
     <string name="outgoing_message_foreground_notification_text">O Mensagens está enviando um SMS</string>
     <string name="outgoing_mms_disabled_by_carrier_pref_summary">Sua operadora não permite o envio de mensagens MMS</string>
     <string name="outgoing_mms_disabled_by_company_pref_summary">Sua empresa não permite o envio de mensagens MMS</string>
@@ -1232,6 +1330,7 @@ Você pode responder a códigos curtos apenas com números, mas não a códigos 
     <string name="paired_desktops_last_connection_time">Ativo pela última vez: %s</string>
     <string name="paired_desktops_last_connection_time_unknown">desconhecido</string>
     <string name="participant_joined_group">%s está participando deste grupo</string>
+    <string name="participant_joined_with_learn_more">%1$s entraram no grupo. %2$s</string>
     <string name="participant_left_group">%s saiu do grupo</string>
     <string name="participant_list_add">Adicionar pessoas</string>
     <string name="participant_list_count_title_icu">{count,plural, =0{0 outras pessoas}=1{1 outra pessoa}one{# outra pessoa}many{# other people}other{# outras pessoas}}</string>
@@ -1248,10 +1347,11 @@ Você pode responder a códigos curtos apenas com números, mas não a códigos 
     <string name="permission_promo_continue_button_text">Continuar</string>
     <string name="permission_promo_settings_button_text">Configurações</string>
     <string name="phone_number_input_body_for_mo_text">Pule esta etapa para receber acesso aos recursos de chat depois, e o Mensagens tentará verificar o número junto à sua operadora</string>
-    <string name="phone_number_input_body_text">Para garantir que você tenha acesso aos recursos de chat, o Mensagens verifica seu número</string>
+    <string name="phone_number_input_body_text">Para garantir que você tenha acesso aos recursos de chat, o app Mensagens verifica seu número</string>
     <string name="phone_number_input_hint">Seu número de telefone</string>
+    <string name="phone_number_input_invalid_number_text">Número de telefone inválido</string>
     <string name="phone_number_input_negative_button_for_mo_text">Ignorar por enquanto</string>
-    <string name="phone_number_input_negative_button_for_mt_text">Lembrar depois</string>
+    <string name="phone_number_input_negative_button_for_mt_text">Lembrar mais tarde</string>
     <string name="phone_number_input_positive_button_text">Adicionar número</string>
     <string name="phone_number_input_streamlined_body_for_mo_text">Compartilhe fotos, vídeos e muito mais por Wi-Fi ou rede de dados. Para ativar os recursos de chat mais rapidamente, adicione agora seu número. Ou pule esta etapa e deixe o Mensagens descobrir e verificar seu número.</string>
     <string name="phone_number_input_streamlined_body_text">Compartilhe fotos, vídeos e muito mais por Wi-Fi ou rede de dados. Para ativar os recursos de chat, adicione agora seu número.</string>
@@ -1266,10 +1366,25 @@ Você pode responder a códigos curtos apenas com números, mas não a códigos 
     <string name="phone_number_input_title_text">Para ativar os recursos de chat mais rapidamente, adicione agora seu número</string>
     <string name="phone_number_input_tos_reminder_text">Você aceitou os %1$s dos recursos de chat</string>
     <string name="phone_number_input_tos_text">Termos de Serviço</string>
+    <string name="phone_number_promo_banner_body_text">Para enviar vídeos mais nítidos, reações animadas e muito mais por Wi-Fi ou dados móveis, confirme seu número de telefone</string>
+    <string name="phone_number_promo_banner_negative_button_text">Dispensar</string>
+    <string name="phone_number_promo_banner_positive_button_text">Próxima</string>
+    <string name="phone_number_promo_banner_title_text">Próxima etapa para melhorar os recursos do Mensagens</string>
+    <string name="phone_number_promo_body_text">Verifique seu número de telefone para começar. Gerencie os recursos de chat a qualquer momento em \"Configurações\".</string>
+    <string name="phone_number_promo_body_text_mo">Verifique seu número de telefone para começar. Pule esta etapa para receber acesso aos recursos de chat depois, e o Mensagens tentará verificar o número por você.</string>
+    <string name="phone_number_promo_negative_button_text">Lembrar mais tarde</string>
+    <string name="phone_number_promo_negative_button_text_mo">Pular</string>
+    <string name="phone_number_promo_positive_button_text">Acessar recursos de chat</string>
+    <string name="phone_number_promo_title_text">Quer compartilhar fotos, vídeos e muito mais por Wi-Fi ou dados?</string>
+    <string name="phone_number_ui_accepted_snackbar_text">Você receberá uma notificação quando os recursos de chat estiverem disponíveis</string>
+    <string name="phone_number_ui_dismissed_snackbar_action_text">Configurações</string>
+    <string name="phone_number_ui_dismissed_snackbar_text">Para acessar os recursos de chat agora, adicione seu número de telefone ou gerencie-o nas configurações</string>
     <string name="photo_taken">Foto tirada</string>
+    <string name="photos_app_installation_required">Para enviar vídeos mais nítidos, instale o app Google Fotos</string>
+    <string name="photos_app_onboarding_required">Para enviar vídeos mais nítidos, permita o acesso do Google Fotos</string>
+    <string name="photos_app_sharing_unavailable_try_again_later">O link para o vídeo mais nítido está temporariamente indisponível. Uma cópia menos nítida está pronta para ser enviada.</string>
+    <string name="photos_app_sign_in_required">Para enviar vídeos mais nítidos, faça login no Google Fotos</string>
     <string name="picker_disambiguation_title">Selecionar destino</string>
-    <string name="pin_limit_message">Você pode fixar até %1$d conversas</string>
-    <string name="pin_success_message">Você fixou %1$d de %2$d conversas</string>
     <string name="pinch_zoom_pref_title">Fazer gesto de pinça para aumentar o zoom no texto da conversa</string>
     <string name="play_button_description">Assista o vídeo.</string>
     <string name="play_store_link_msg">Mais</string>
@@ -1280,7 +1395,7 @@ Você pode responder a códigos curtos apenas com números, mas não a códigos 
     <string name="posted_this_year">%1$s%2$s%3$s</string>
     <string name="posted_yesterday">Ontem%1$s%2$s</string>
     <string name="preference_copied">\"%1$s\" copiado para a área de transferência.</string>
-    <string name="preferences_license_title">Licenças de código aberto</string>
+    <string name="preferences_license_title">Avisos de terceiros</string>
     <string name="premium_sms_banner_body">Se você quiser enviar um SMS premium para %s e outros números, ative esse recurso em \"Configurações\".</string>
     <string name="premium_sms_banner_body_saved_contact">Se você quiser enviar um SMS premium para %1$s (%2$s) e outros números, ative esse recurso em \"Configurações\".</string>
     <string name="premium_sms_banner_description">@string/banner_description</string>
@@ -1311,24 +1426,27 @@ Isso inclui o número de telefone e o e-mail do remetente e destinatário, o tip
 Essas informações ajudam a validar hipóteses, identificar os fatores que geram o problema e entender com mais rapidez e eficiência o que está acontecendo."</string>
     <string name="problematic_message_feedback_data_rationale_title">Como as informações sobre suas conversas e mensagens podem ajudar</string>
     <string name="promotion_content_description">Esta mensagem foi categorizada como \"Oferta\"</string>
+    <string name="prompt_button_action_not_now">Agora não</string>
+    <string name="prompt_button_action_sign_in">Fazer login</string>
     <string name="proxy_screen_clear_search">Limpar pesquisa</string>
     <string name="proxy_screen_search">Pesquisar</string>
     <string name="qr_action_bar_device_pairing_title">Pareamento de dispositivos</string>
-    <string name="qr_action_bar_title">Mensagens na Web</string>
     <string name="qr_code_scanner_hint_text">Faça a leitura do código QR encontrado em&lt;br/><b>%s</b></string>
     <string name="qr_code_scanner_preference_button">Leitor de código QR</string>
     <string name="qr_delete_all_paired_desktops_button_text">Desparear todos os dispositivos</string>
     <string name="qr_simplified_welcome_banner_url_text">Acesse <b>%s</b> no seu dispositivo</string>
     <string name="qr_success_text_view">Pronto.</string>
     <string name="qr_welcome_banner_url_text">Enviar e receber mensagens no seu dispositivo</string>
-    <string name="qr_welcome_bottom_text">Primeiro, pareie o dispositivo com o smartphone fazendo a leitura do código QR disponível apenas em %s.</string>
+    <string name="qr_welcome_bottom_text">Primeiro, pareie o dispositivo com o smartphone fazendo a leitura do código QR que você só encontra no em: %s</string>
     <string name="qr_welcome_button_text">Leitor de código QR</string>
     <string name="qr_welcome_footer_text">"Ao continuar, você concorda com os 
 %1$s e a %2$s do Google"</string>
     <string name="qr_welcome_hangouts_unpair_devices_text">Desparear todos os dispositivos</string>
     <string name="qr_welcome_privacy">Política de Privacidade</string>
     <string name="qr_welcome_terms_of_service">Termos de Serviço</string>
-    <string name="rbm_block_confirmation_message_spam_folder">Você não receberá mais as notificações das mensagens de %1$s. Esta conversa será movida para \"Marcadas como spam e bloqueadas\". %2$s</string>
+    <string name="rbm_block_confirmation_message_spam_folder">Você não vai mais receber notificações das mensagens de %1$s. Esta conversa vai para a pasta \"Spam e bloqueadas\". %2$s</string>
+    <string name="rbm_block_dialog_body">Você não vai receber mensagens deste remetente. Esta conversa será movida para \"Spam e bloqueadas\" e poderá ser desbloquear a qualquer momento.</string>
+    <string name="rbm_block_dialog_positive_button_label">Bloquear</string>
     <string name="rbm_business_logo_icon_content_description">Ícone do logotipo da empresa</string>
     <string name="rbm_platform_generalized_verifier_title">Verificada pelo %s</string>
     <string name="rbm_platform_verified_by_google">Verificado pelo Google</string>
@@ -1348,6 +1466,7 @@ Essas informações ajudam a validar hipóteses, identificar os fatores que gera
     <string name="rcs_learn_more_title">%1$s sobre os recursos de chat</string>
     <string name="rcs_learn_more_title_with_no_link">Saber mais sobre os recursos de chat</string>
     <string name="rcs_message">Mensagem RCS</string>
+    <string name="rcs_message_failed_recipient_lost_encryption_content_description">Não é possível entregar a mensagem. Toque para ver as opções.</string>
     <string name="rcs_message_failed_recipient_lost_rcs_content_description">Não é possível entregar a mensagem. Toque para ver as opções.</string>
     <string name="rcs_mobile_data_auto_download_carrier_format_entry">Padrão (%1$s)</string>
     <string name="rcs_mobile_data_auto_download_limit_disable_entry_text">Desativar</string>
@@ -1430,11 +1549,12 @@ Essas informações ajudam a validar hipóteses, identificar os fatores que gera
     <string name="reaction_surprised_content_description">Rosto com boca aberta</string>
     <string name="reactions_promo_announcement">Toque e mantenha pressionado para reagir</string>
     <string name="reactions_promo_text">Toque e mantenha pressionado para reagir</string>
-    <string name="read_external_storage_permission_description">Para ver o conteúdo da galeria aqui, você precisa permitir o acesso ao armazenamento do smartphone.</string>
+    <string name="read_media_storage_permission_description">Para ver o conteúdo da galeria aqui, você precisa permitir o acesso ao armazenamento de mídia do seu smartphone.</string>
     <string name="received_label">Recebida:</string>
     <string name="recipient_hint">Digite um nome, número de telefone ou endereço de e-mail</string>
     <string name="recipient_label">Para</string>
     <string name="recipient_offline_description">Aguardando até %s estar on-line…</string>
+    <string name="reminder_badge_content_description">Ícone de lembrete</string>
     <string name="reminder_datetime_picker_dialog_delete_button">Excluir</string>
     <string name="reminder_datetime_picker_dialog_menu_title_add">Definir lembrete</string>
     <string name="reminder_datetime_picker_dialog_menu_title_update">Atualizar lembrete</string>
@@ -1455,7 +1575,7 @@ Essas informações ajudam a validar hipóteses, identificar os fatores que gera
     <string name="reminder_suggestions_tooltip_text">Toque nesta opção e escolha um horário para acompanhar a conversa mais tarde. Para desativar as sugestões, acesse &lt;a href>Configurações&lt;/a>.</string>
     <string name="reminder_suggestions_tooltip_title_text">Definir lembretes</string>
     <string name="reminders_banner_body">%1$s: %2$s</string>
-    <string name="reminders_banner_description">@string/banner_description</string>
+    <string name="reminders_banner_description">Reminder conversation banner</string>
     <string name="reminders_banner_done_button">Ok</string>
     <string name="reminders_banner_remind_button">Lembrar em 1 h</string>
     <string name="reminders_banner_self_sender_name">Você</string>
@@ -1468,7 +1588,7 @@ Essas informações ajudam a validar hipóteses, identificar os fatores que gera
     <string name="remove_reaction_from_gif_rcs_fallback_text">A reação ‌%1$s‌ foi removida de um GIF</string>
     <string name="remove_reaction_from_link_rcs_fallback_text">A reação ‌%1$s‌ foi removida de um link</string>
     <string name="remove_reaction_from_photo_rcs_fallback_text">A reação ‌%1$s‌ foi removida de uma foto</string>
-    <string name="remove_reaction_from_text_message_rcs_fallback_text">A reação ‌%1$s‌ foi removida de \"%2$s\"</string>
+    <string name="remove_reaction_from_text_message_rcs_fallback_text">A reação ‌%1$s‌ foi removida de \" %2$s \"</string>
     <string name="remove_reaction_from_unknown_message_type_rcs_fallback_text">A reação ‌%1$s‌ foi removida de um tipo de mensagem desconhecido</string>
     <string name="remove_reaction_from_video_rcs_fallback_text">A reação ‌%1$s‌ foi removida de um vídeo</string>
     <string name="remove_user_dialog_cancel">Cancelar</string>
@@ -1477,14 +1597,17 @@ Essas informações ajudam a validar hipóteses, identificar os fatores que gera
     <string name="rename_group_title_m2">Nome do grupo</string>
     <string name="reply_activity_title">Responder</string>
     <string name="reply_button_label">Responder</string>
-    <string name="reply_icon_content_description">Responder a mensagem</string>
+    <string name="reply_icon_content_description">Responder</string>
     <string name="report_contact_title">Denunciar spam</string>
     <string name="report_failed_rcs_group_creation">Ocorreu um erro: não foi possível adicionar um ou mais participantes.</string>
     <string name="report_group_spam_body_spam_folder">Os números e as últimas mensagens de texto dos outros participantes do grupo serão enviados para o Google analisar e talvez para sua operadora (sujeito a cobrança). Esta conversa permanecerá em \"Marcadas como spam e bloqueadas\", e você não receberá notificações. %1$s</string>
+    <string name="report_invalid_thread_id_issue_description">ID da conversa inválido. Veja os detalhes nos registros.</string>
     <string name="report_issue_action_text">Enviar feedback</string>
+    <string name="report_issue_description">O Mensagens detectou automaticamente um erro. Veja os detalhes nos registros.</string>
     <string name="report_issue_notification_text">O Mensagens detectou um erro. Toque para enviar feedback.</string>
     <string name="report_not_spam_snackbar_message">%1$s foi marcado como não sendo spam</string>
     <string name="report_person_delivered">%1$s recebeu em: %2$s</string>
+    <string name="report_person_ftd">%1$s Falha ao descriptografar: %2$s</string>
     <string name="report_person_read">%1$s leu em: %2$s</string>
     <string name="report_person_sent">%s não recebeu</string>
     <string name="report_receive_issue_notification_message">O Android não pode receber uma mensagem enviada para você. Toque para enviar feedback.</string>
@@ -1497,6 +1620,7 @@ Essas informações ajudam a validar hipóteses, identificar os fatores que gera
     <string name="report_spam_snackbar_message">%1$s foi denunciado como spam</string>
     <string name="report_spam_toast_title">Spam denunciado</string>
     <string name="report_telephone_db_recreation_message">Ocorreu um problema ao recuperar as mensagens. Toque para enviar feedback.</string>
+    <string name="report_thread_id_not_found_description">ID da conversa ausente. Veja os detalhes nos registros.</string>
     <string name="required_permissions_no_promptable_promo">Altere as permissões nas configurações do app do seu dispositivo. Conceda ao Mensagens acesso aos contatos, telefone e SMS.</string>
     <string name="required_permissions_no_promptable_title">Permitir acesso</string>
     <string name="required_permissions_promptable_promo">Para concluir a configuração do seu app padrão, deixe o Mensagens ver o SMS, Telefone e Contatos</string>
@@ -1512,10 +1636,15 @@ Essas informações ajudam a validar hipóteses, identificar os fatores que gera
     <string name="rich_cards_settings_enable_link_preview_title">Mostrar somente as visualizações de link da Web</string>
     <string name="rich_cards_settings_root_title">Visualizações automáticas</string>
     <string name="said">disse</string>
-    <string name="same_birthday_nudge_text">É aniversário dessa pessoa!</string>
+    <string name="same_birthday_nudge_text">Dia de aniversário!</string>
     <string name="samsung_setting_search_title">Configurações do Mensagens</string>
     <string name="save">Salvar</string>
     <string name="save_attachment">Salvar</string>
+    <string name="save_banner_body">Salve este aniversário nos Contatos para o app Mensagens lembrar você da data no ano que vem</string>
+    <string name="save_banner_positive_button">Salvar aniversário</string>
+    <string name="save_banner_title_name">Lembrar aniversário de %1$s</string>
+    <string name="save_banner_title_no_name">Lembrar este aniversário</string>
+    <string name="save_birthday_banner_description">@string/banner_description</string>
     <string name="save_otp_confirm_button">Salvar OTP</string>
     <string name="save_otp_dialog_message">Esta OTP será salva, mas suas outras OTPs serão excluídas automaticamente após 24 horas. Você pode gerenciá-las em \"Configurações\".</string>
     <string name="save_otp_dialog_title">Salvar esta senha única?</string>
@@ -1534,6 +1663,7 @@ Essas informações ajudam a validar hipóteses, identificar os fatores que gera
     <string name="scheduled_send_announcement_scheduling_failed">Falha ao programar mensagem.</string>
     <string name="scheduled_send_announcement_scheduling_started">Programando mensagem.</string>
     <string name="scheduled_send_announcement_scheduling_succeeded">Mensagem programada.</string>
+    <string name="scheduled_send_badge_content_description">Ícone de envio programado</string>
     <string name="scheduled_send_compose_label_close_content_description">Remove a programação.</string>
     <string name="scheduled_send_datetime_picker_subtitle">Para enviar a mensagem, mantenha o smartphone ligado e conectado ao Wi-Fi ou aos dados móveis.</string>
     <string name="scheduled_send_datetime_picker_title">Programar envio (%1$s)</string>
@@ -1556,11 +1686,12 @@ Essas informações ajudam a validar hipóteses, identificar os fatores que gera
     <string name="search_query_hint">Pesquisar adesivos</string>
     <string name="search_rendering_unable_to_search">Falha ao pesquisar, tente de novo mais tarde</string>
     <string name="search_starred_messages_title">Com estrela</string>
-    <string name="security_key_page_description">Para confirmar que a mensagem é segura, todos os números precisam corresponder ao código do destinatário.</string>
+    <string name="security_key_page_description">Para confirmar, compare todos os números ao código do destinatário.</string>
     <string name="security_key_page_intro">Com este código, você pode confirmar que apenas o destinatário correto recebe suas mensagens criptografadas de ponta a ponta.</string>
     <string name="security_key_top_level_title">Confirmar criptografia</string>
     <string name="see_gallery">Ver galeria</string>
     <string name="selected">Selecionado</string>
+    <string name="selection_position_text">%1$d</string>
     <string name="self_left_group_conversation_failed">Falha ao sair do grupo. Tente novamente mais tarde.</string>
     <string name="self_participant_reaction_name">Você</string>
     <string name="self_person_name">Você</string>
@@ -1610,7 +1741,6 @@ Seu número de telefone só é usado para a solução de problemas. O Google nã
     <string name="sending_timeout_failure_dialog_title">Mensagem não enviada</string>
     <string name="sent_label">Enviada:</string>
     <string name="set_message_priority_description">Definir status urgente</string>
-    <string name="set_rcs_flags">Definir as sinalizações do RCS</string>
     <string name="set_rcs_mobile_data_auto_download_limit_title">Fazer download automático dos arquivos recebidos por dados móveis</string>
     <string name="setting_fast_track_body_with_cost">Ao continuar, você aceita os %1$s e a %2$s. Na entrega de mensagem baseada no número de telefone, o Google poderá verificar ocasionalmente seu número trocando informações do dispositivo com a operadora ou via SMS (sujeito a cobrança). Você pode desativar os recursos de chat em \"Configurações\". %3$s</string>
     <string name="settings_activity_title">Configurações</string>
@@ -1633,6 +1763,13 @@ Seu número de telefone só é usado para a solução de problemas. O Google nã
     <string name="shortcuts_screen_title">Atalhos</string>
     <string name="show_sms_link_warning_change_label">Alterar</string>
     <string name="show_sms_link_warning_text">Os anexos serão enviados como mensagens SMS com um link</string>
+    <string name="sign_in_app_name_without_account">Usar %1$s sem uma conta</string>
+    <string name="sign_in_cancel">Cancelar</string>
+    <string name="sign_in_without_account">Usar sem uma conta</string>
+    <string name="sign_in_without_account_short">Sem conta</string>
+    <string name="sign_into_photos_app">Fazer login</string>
+    <string name="sign_into_photos_app_title">Para continuar, faça login no Google Fotos</string>
+    <string name="sign_into_photos_app_with_x_to_continue">Você está enviando de %1$s</string>
     <string name="signature_banner_description">@string/banner_description</string>
     <string name="silent_ringtone">Silencioso</string>
     <string name="sim_label">SIM:</string>
@@ -1651,18 +1788,22 @@ Seu número de telefone só é usado para a solução de problemas. O Google nã
     <string name="sim_storage_full_title">O armazenamento do chip está cheio</string>
     <string name="sim_storage_pref_title">Mensagens do chip</string>
     <string name="simple_fail_to_decrypt_message_dialog_body">Para descriptografar as próximas mensagens, atualize o app Mensagens</string>
+    <string name="smart_action_settings_page_description">Mostrar os atalhos relevantes para agenda, pesquisa de GIF, compartilhamento de local e muito mais</string>
+    <string name="smart_action_settings_page_title">Ações</string>
+    <string name="smart_actions_preference_summary_shortcuts">Mostrar atalhos relevantes para agenda, pesquisa de GIF, compartilhamento de local etc.</string>
     <string name="smart_actions_preference_title">Ações sugeridas</string>
     <string name="smart_compose_preference_summary">Mostrar sugestões de escrita preditiva</string>
     <string name="smart_compose_preference_title">Escrita inteligente</string>
+    <string name="smart_reply_preference_summary">Mostrar opções de resposta no chat</string>
     <string name="smarts_preference_info_text">Só você pode ver recursos como a resposta inteligente e as ações sugeridas. Para compartilhar é preciso tocar nelas. &lt;br/> &lt;br/> As sugestões variam de acordo com sua conversa e são geradas no dispositivo. %1$s</string>
-    <string name="smarts_preference_info_text_with_assistant">A resposta inteligente, as ações sugeridas e as sugestões do Assistente são geradas pela inteligência integrada ao dispositivo. &lt;br/> &lt;br/>As sugestões não são compartilhadas com o Google nem com ninguém até você tocar nelas para isso. &lt;br/> &lt;br/> Você verá mais sugestões se permitir que o Mensagens acesse o local do seu dispositivo. %1$s</string>
+    <string name="smarts_preference_info_text_with_assistant">A resposta inteligente, as ações sugeridas e as sugestões do Assistente são geradas pela inteligência do app Mensagens integrada ao dispositivo. &lt;br/> &lt;br/>As sugestões não são compartilhadas com o Google nem com ninguém até você tocar nelas. &lt;br/> &lt;br/> Você pode ver sugestões mais relevantes se permitir que o Mensagens acesse o local do seu dispositivo. %1$s</string>
     <string name="smarts_settings_page_summary">Resposta inteligente, ações sugeridas e mais</string>
     <string name="smarts_settings_page_summary_with_assistant">Google Assistente, Resposta inteligente e mais</string>
     <string name="smarts_settings_page_title">Sugestões</string>
     <string name="sms_broadcast_group_conversation_changed_to">Esta conversa agora é uma mensagem de texto em massa</string>
     <string name="sms_broadcast_group_conversation_created">Texto em massa</string>
-    <string name="sms_broadcast_group_conversation_details">"Cada destinatário receberá a mensagem SMS que você enviou
-As respostas serão exibidas em conversas individuais"</string>
+    <string name="sms_broadcast_group_conversation_details">"Todos os destinatários vão receber a mensagem SMS que você enviou
+As respostas vão ser enviadas em conversas individuais."</string>
     <string name="sms_disabled">SMS desativado</string>
     <string name="sms_disallowed_close_button">Ok</string>
     <string name="sms_disallowed_message">Este app não é permitido pelo proprietário do dispositivo.</string>
@@ -1680,19 +1821,18 @@ As respostas serão exibidas em conversas individuais"</string>
     <string name="snackbar_text_label_rcs_group_created_too_large">{max_group_size_including_self,plural, =1{Não é possível ter mais de # pessoa}one{Não é possível ter mais de # pessoa}many{Não é possível ter mais de # pessoas}other{Não é possível ter mais de # pessoas}}</string>
     <string name="snackbar_text_label_rcs_group_self_only">Este grupo está vazio. Adicione pessoas a ele antes de enviar mensagens neste chat.</string>
     <string name="snippet">%1$s: %2$s</string>
-    <string name="snippet_assistant_card_text">Card de assistência</string>
-    <string name="snippet_attachment_icon_content_description">Ícone de anexo do snippet da resposta</string>
     <string name="snippet_audio_attachment_text">Áudio</string>
     <string name="snippet_deleted_message_text">Mensagem excluída</string>
-    <string name="snippet_dismiss_icon_content_description">Ícone \"Dispensar resposta\"</string>
+    <string name="snippet_dismiss_icon_content_description">Excluir</string>
     <string name="snippet_file_attachment_text">Arquivo</string>
     <string name="snippet_from_you">Você: %s</string>
     <string name="snippet_image_attachment_text">Imagem</string>
-    <string name="snippet_media_thumbnail_content_description">Miniatura de mídia do snippet da resposta</string>
     <string name="snippet_self_participant_header">Você</string>
     <string name="snippet_video_attachment_text">Vídeo</string>
     <string name="soft_num_key_pad_backspace_content_description">Barra de espaço</string>
     <string name="someone_added_participant">%1$s adicionou %2$s a este grupo</string>
+    <string name="someone_added_participant_with_learn_more">%1$s adicionou %2$s ao grupo. %3$s</string>
+    <string name="someone_else_created_encrypted_rcs_group">%1$s criou este chat em grupo com %2$s %3$s</string>
     <string name="someone_else_created_mms_group">%1$s criou este MMS em grupo com %2$s</string>
     <string name="someone_else_created_rcs_group">%1$s criou este bate-papo em grupo com %2$s</string>
     <string name="someone_joined_group">Alguém entrou no grupo</string>
@@ -1714,9 +1854,8 @@ As respostas serão exibidas em conversas individuais"</string>
     <string name="spam_dialog_body_spam_folder">O número e as últimas mensagens de texto do remetente vão para o Google e talvez para sua operadora (sujeito a cobrança). Esta conversa permanecerá em \"Marcadas como spam e bloqueadas\", e você não receberá notificações. %1$s</string>
     <string name="spam_dialog_positive_button_label">Denunciar spam</string>
     <string name="spam_dialog_title_spam_folder">Denunciar spam?</string>
-    <string name="spam_folder_activity_title">Marcadas como spam e bloqueadas</string>
+    <string name="spam_folder_activity_title">Spam e bloqueadas</string>
     <string name="spam_folder_conversation_list_empty_text_v2">Spam e conversas bloqueadas aparecem aqui</string>
-    <string name="spam_preference_info_text_on_device">O Mensagens usa a inteligência no dispositivo para detectar spam e envia dados sobre isso ao Google, sem incluir seu número de telefone nem o conteúdo da mensagem. %1$s</string>
     <string name="spam_protection_consent_string">Para detectar o spam, o Mensagens envia alguns dados ao Google, sem incluir seu número de telefone nem o conteúdo das mensagens. %1$s</string>
     <string name="spam_reporting_from">Denúncia de spam</string>
     <string name="spam_settings">Proteção contra spam</string>
@@ -1725,6 +1864,8 @@ As respostas serão exibidas em conversas individuais"</string>
     <string name="split_view_pref_title">Visualização detalhada da lista</string>
     <string name="stacked_banner_count_text">1 de %1$d</string>
     <string name="star_badge_content_description">Ícone de estrela</string>
+    <string name="star_badge_menu_remove_action">Remover</string>
+    <string name="star_badge_menu_view_all_action">Ver tudo</string>
     <string name="star_badge_on_click_snackbar_action">Desfazer</string>
     <string name="star_badge_on_click_snackbar_message">Estrela removida</string>
     <string name="sticker_content_description">Adesivo de %s</string>
@@ -1761,19 +1902,29 @@ As respostas serão exibidas em conversas individuais"</string>
     <string name="subject_with_label">Assunto: %1$s</string>
     <string name="subject_with_urgent_label">[URGENTE] %1$s</string>
     <string name="success_message_format">%1$s %2$s %3$s %4$s %5$s %6$s.</string>
+    <string name="success_message_self_sender">Você disse %1$s %2$s %3$s %4$s.</string>
     <string name="success_message_self_sender_format_with_multiple_attachments">Você enviou vários anexos %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_self_sender_format_with_single_attachment">Você enviou um anexo %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_specified_sender_format_with_multiple_attachments">%1$s enviou vários anexos %2$s %3$s %4$s %5$s %6$s.</string>
     <string name="success_message_specified_sender_format_with_single_attachment">%1$s enviou um anexo %2$s %3$s %4$s %5$s %6$s.</string>
+    <string name="success_message_unspecified_sender">O remetente disse %1$s %2$s %3$s %4$s.</string>
     <string name="success_message_unspecified_sender_format_with_multiple_attachments">O remetente enviou vários anexos %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_unspecified_sender_format_with_single_attachment">O remetente enviou um anexo %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_sent_to_message_format">Enviado para %1$s %2$s %3$s %4$s.</string>
     <string name="success_sent_to_message_format_with_multiple_attachments">Enviado para %1$s com vários anexos %2$s %3$s %4$s.</string>
     <string name="success_sent_to_message_format_with_single_attachment">Enviado para %1$s com um anexo %2$s %3$s %4$s.</string>
-    <string name="suggested_stickers_preference_summary">Mostrar adesivos sugeridos</string>
+    <string name="suggested_stickers_preference_summary">Mostrar opções de resposta com adesivo</string>
     <string name="suggested_stickers_preference_title">Adesivos sugeridos</string>
+    <string name="suggestion_shortcut_dialog_body_text">Marque uma mensagem com estrela, programe reuniões rapidamente e muito mais com atalhos simples.</string>
+    <string name="suggestion_shortcut_dialog_positive_button">OK</string>
+    <string name="suggestion_shortcut_dialog_subsection_body_text">Os atalhos são sugeridos por números de telefone, datas etc. %1$s</string>
+    <string name="suggestion_shortcut_dialog_subsection_title_text">Como funciona</string>
+    <string name="suggestion_shortcut_dialog_title">Atalhos sugeridos para você chegar mais rápido</string>
+    <string name="suggestion_shortcut_search_title">Pesquisa</string>
+    <string name="suggestion_shortcut_star_toolstone">Use o recurso de destacar com estrelas para encontrar as mensagens com facilidade em %1$s</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_notification_inbox_style_summary_text">Mais de +%d</string>
+    <string name="super_sort_pref_title">Organização das mensagens</string>
     <string name="super_sort_settings_title">Organização das mensagens</string>
     <string name="supersort_conversation_list_empty_text_business_update">As atualizações de trabalho aparecem automaticamente aqui</string>
     <string name="supersort_conversation_list_empty_text_manage_in_settings">Para gerenciá-las, acesse \"Configurações\".</string>
@@ -1796,6 +1947,11 @@ Encontrar qualquer conversa em \"Tudo\""</string>
 Encontrar qualquer conversa em \"Tudo\""</string>
     <string name="supersort_still_sorting_conversation_list_transaction">"Ordenando \"Transações\"…
 Encontrar qualquer conversa em \"Tudo\""</string>
+    <string name="swipe_actions">Ações de deslizar</string>
+    <string name="swipe_actions_summary">Deslize para a direita ou esquerda para \"Arquivar\" ou \"Excluir\". Ou desative a ação de deslizar</string>
+    <string name="swipe_customize">Personalizar</string>
+    <string name="swipe_left">Deslizar para a esquerda</string>
+    <string name="swipe_right">Deslizar para a direita</string>
     <string name="switcher_no_phone_number">Chip não encontrado</string>
     <string name="switcher_pair_device_title_text">Enviar mensagem de texto com smartphone pareado</string>
     <string name="switcher_positive_button_text">Continuar</string>
@@ -1803,6 +1959,7 @@ Encontrar qualquer conversa em \"Tudo\""</string>
     <string name="switcher_use_device_sim_number">(%s)</string>
     <string name="switcher_use_device_sim_title_text">Enviar mensagem de texto com o chip deste dispositivo</string>
     <string name="syncing_with_device_foreground_notification_text">O Mensagens está sincronizando com seu dispositivo</string>
+    <string name="system_picker_button_label">Pastas</string>
     <string name="t_mobile_tos_pref_link_text">Termos e Condições</string>
     <string name="t_mobile_tos_pref_text">Recursos de chat do Google com a tecnologia da T-Mobile. Consulte os %1$s.</string>
     <string name="t_mobile_tos_pref_url">https://www.t-mobile.com/responsibility/legal/terms-and-conditions</string>
@@ -1813,9 +1970,9 @@ Encontrar qualquer conversa em \"Tudo\""</string>
     <string name="terms_and_conditions_double_check_dialog_text">Se você rejeitar os Termos e Condições, não será possível usar os recursos de chat, como o serviço de mensagens por Wi-Fi, entre outros.</string>
     <string name="terms_and_conditions_double_check_dialog_title">Rejeitar os Termos e Condições?</string>
     <string name="terms_and_conditions_rejected_dialog_positive_button_text">OK</string>
-    <string name="terms_and_conditions_rejected_dialog_text_new">"Você pode ativar os recursos de chat a qualquer momento no app Configurações:
+    <string name="terms_and_conditions_rejected_dialog_text_new">"Você pode ativar os recursos de chat a qualquer momento acessando as Configurações:
 
-\"Configurações > %1$s\""</string>
+Configurações > %1$s"</string>
     <string name="terms_and_conditions_rejected_dialog_title">Os recursos de chat não estão ativados</string>
     <string name="terms_summary">Resumo dos Termos</string>
     <string name="text_button_action">Adicionar texto</string>
@@ -1826,6 +1983,7 @@ Encontrar qualquer conversa em \"Tudo\""</string>
     <string name="theme_setting_dialog_options_light_mode">Claro</string>
     <string name="theme_setting_dialog_options_system_default_mode">Padrão do sistema</string>
     <string name="theme_setting_dialog_title">Escolher tema</string>
+    <string name="tiktok_account_login_failure">Falha ao fazer login na conta selecionada.</string>
     <string name="tiktok_add_account_error">Falha ao adicionar conta. Tente novamente.</string>
     <string name="tiktok_fix_it">Corrigir</string>
     <string name="tiktok_load_account_failure">Falha ao carregar as contas.</string>
@@ -1851,6 +2009,18 @@ Só você pode vê-lo"</string>
     <string name="tombstone_self_removed_from_group_referrer_known">%1$s removeu você deste grupo</string>
     <string name="tombstone_self_removing_others_from_group">Você removeu %1$s deste grupo</string>
     <string name="tombstone_show_link_previews">As visualizações de link estão ativadas.&lt;br />Saiba mais ou desative-as em &lt;u>Configurações&lt;/u>.</string>
+    <string name="tombstone_show_link_previews_disabled">As visualizações de link estão desativadas.&lt;br />Saiba mais ou ative essa opção em &lt;u>Configurações&lt;/u>.</string>
+    <string name="tooltip_content">"Com a Conta do Google, você usa
+recursos como o compartilhamento de link
+do Google Fotos no Mensagens sem
+acessar suas conversas.
+
+O Mensagens continua usando seu número de telefone para
+enviar os links. Saiba mais"</string>
+    <string name="tooltip_content_with_line_break_fix">"Sua Conta do Google permite usar recursos como o compartilhamento de link do Google Fotos no Mensagens sem acessar suas conversas.
+
+As mensagens são enviadas do seu número de telefone. Saiba mais"</string>
+    <string name="tooltip_link">Saiba mais</string>
     <string name="top_contacts_grid_name">★</string>
     <string name="top_contacts_title">Principais contatos</string>
     <string name="transaction_content_description">Esta mensagem foi categorizada como \"Transação\"</string>
@@ -1859,7 +2029,8 @@ Só você pode vê-lo"</string>
     <string name="unavailable_smsc_number_pref_display_value">Indisponível</string>
     <string name="unblock_and_report_not_spam_snackbar_message">%1$s foi desbloqueado e marcado como não sendo spam</string>
     <string name="unblock_banner_body">Para remover esta conversa de \"Arquivadas\" e voltar a receber mensagens, desbloqueie %s</string>
-    <string name="unblock_banner_body_spam_folder">Para remover esta conversa de \"Marcadas como spam e bloqueadas\" e voltar a receber mensagens, desbloqueie %s</string>
+    <string name="unblock_banner_body_spam_folder">Para remover esta conversa da pasta \"Spam e bloqueadas\" e voltar a receber mensagens, desbloqueie %s</string>
+    <string name="unblock_banner_body_v2">Unblock to receive messages from this sender</string>
     <string name="unblock_banner_description">@string/banner_description</string>
     <string name="unblock_banner_positive_button">Desbloquear</string>
     <string name="unblock_banner_title">Bloqueado</string>
@@ -1895,6 +2066,7 @@ Os números de telefone só são usado para a solução de problemas. O Google n
     <string name="unsent">Não enviado</string>
     <string name="unspam_banner_body">Para remover esta conversa de \"Arquivadas\" e voltar a receber notificações, denuncie %s como não sendo spam</string>
     <string name="unspam_banner_body_spam_folder">Marque as mensagens de %s como não sendo spam para remover esta conversa de \"Marcadas como spam e bloqueadas\" e voltar a receber notificações</string>
+    <string name="unspam_banner_body_v2">Report as not spam to receive messages from this sender</string>
     <string name="unspam_banner_description">@string/banner_description</string>
     <string name="unspam_banner_end_button">Não é spam</string>
     <string name="unspam_banner_title">Denunciado como spam</string>
@@ -1910,6 +2082,8 @@ Os números de telefone só são usado para a solução de problemas. O Google n
     <string name="unsupported_file_save_alert">Salvar o anexo em \"Downloads\"?</string>
     <string name="unsupported_file_save_cancel">Cancelar</string>
     <string name="unverified_sms_banner_description">@string/banner_description</string>
+    <string name="unwanted_messages_toolstone_link">bloquear e denunciar</string>
+    <string name="unwanted_messages_toolstone_text">Mensagens indesejadas, %1$s</string>
     <string name="upcoming_reminder">Lembrete programado</string>
     <string name="update_content_description">Esta mensagem foi categorizada como \"Atualização\"</string>
     <string name="update_donation_banner_body_v2">Sua identidade permanece confidencial e você poderá remover qualquer conteúdo das mensagens.</string>
@@ -1952,6 +2126,7 @@ Os números de telefone só são usado para a solução de problemas. O Google n
     <string name="video_attachment_content_description">Anexo de vídeo</string>
     <string name="video_attachment_limit_exceeded_when_sending">Você só pode enviar um vídeo por mensagem. Remova os vídeos adicionais e tente novamente.</string>
     <string name="video_compress_info">O destinatário verá o vídeo com qualidade inferior devido aos limites da operadora para MMS</string>
+    <string name="video_format_type">vídeo</string>
     <string name="video_media_failure">Para criar um vídeo, faça uma gravação mais longa</string>
     <string name="video_taken">Vídeo gravado</string>
     <string name="video_thumbnail_view_play_button_content_description">Reproduzir vídeo</string>
@@ -1998,19 +2173,20 @@ Use o bom senso para avaliar o conteúdo desta mensagem."</string>
     <string name="websiteTypeWork">Trabalho</string>
     <string name="welcome_agree_button_text">Aceitar</string>
     <string name="welcome_chat_features_decline">Usar o Mensagens sem os recursos de chat</string>
-    <string name="welcome_chat_features_learn_more">Saber mais sobre os recursos de chat</string>
     <string name="welcome_chat_features_legal">Ao usar os recursos de chat, você aceita os %1$s e a %2$s. De tempos em tempos, o Google verificará seu número com a operadora (sujeito a cobrança de SMS).</string>
+    <string name="welcome_chat_features_text">"– Enviar por Wi-Fi ou dados móveis
+– Compartilhar seus arquivos e mídia
+– Manter a privacidade das suas mensagens"</string>
     <string name="welcome_chat_features_title">Chat de alta qualidade com mais rapidez e recursos usando Wi-Fi ou dados móveis</string>
+    <string name="welcome_chat_features_title_experiment_0">Conheça os novos recursos do Mensagens</string>
+    <string name="welcome_chat_features_title_experiment_1">Conheça os novos recursos de chat do Mensagens</string>
     <string name="welcome_consent_button_text">Próxima</string>
-    <string name="welcome_finish_button_text">Concluir</string>
     <string name="welcome_smarts_notice_description">"Simplifique seus chats com recursos como o Google Assistente e a Resposta inteligente. Os chats ficam protegidos no dispositivo.
 %1$s e %2$s"</string>
     <string name="welcome_smarts_notice_title">Recursos inteligentes</string>
     <string name="welcome_spam_description">"Para prevenir spam, o Google usa os números de telefone que não estão nos seus contatos, sem identificar você nem seu número.
 %1$s e %2$s"</string>
     <string name="welcome_spam_title">Proteção contra spam</string>
-    <string name="welcome_splash_tagline">"Mensagens simples e inteligentes
-do Google"</string>
     <string name="widget_reply_exit_content_description">Voltar</string>
     <string name="widget_reply_open">ABRIR NO ANDROID MENSAGENS</string>
     <string name="widget_reply_to">Responder a %s</string>
@@ -2018,9 +2194,14 @@ do Google"</string>
     <string name="work_directory_display_name">Contatos do perfil de trabalho</string>
     <string name="xms_send_mode_pref_title">Enviar somente mensagens SMS e MMS</string>
     <string name="you_added_participant">Você adicionou %s a este grupo</string>
+    <string name="you_added_participant_with_learn_more">Você adicionou %1$s ao grupo. %2$s</string>
+    <string name="you_created_encrypted_rcs_group">Você criou este chat em grupo com %1$s. %2$s</string>
     <string name="you_created_mms_group">Você criou este MMS em grupo com %s</string>
     <string name="you_created_rcs_group">Você criou este bate-papo em grupo com %s</string>
     <string name="you_left_group">Você saiu do grupo</string>
+    <string name="youtube_dismissal_prompt">Toque e arraste para fechar</string>
+    <string name="youtube_drag_prompt">Arraste para mover o player</string>
+    <string name="youtube_pip_playing">O vídeo está em andamento</string>
     <string name="zero_connectivity_failure_announcement">Mensagem não enviada</string>
     <string name="zero_state_search_action_copy">Copiar</string>
     <string name="zero_state_search_action_jump_to_chat">Ver no chat</string>
@@ -2040,6 +2221,7 @@ do Google"</string>
     <string name="zero_state_search_details_image_accessibility">Imagem enviada por %1$s em %2$s</string>
     <string name="zero_state_search_details_video_accessibility">Vídeo enviado por %1$s em %2$s</string>
     <string name="zero_state_search_dropdown_free_text">Pesquisar \"%s\"</string>
+    <string name="zero_state_search_empty_results_text">Os links, o conteúdo de mídia e as mensagens com estrela da conversa aparecem aqui.</string>
     <string name="zero_state_search_images">Imagens</string>
     <string name="zero_state_search_link_copied">Link copiado</string>
     <string name="zero_state_search_links">Links</string>

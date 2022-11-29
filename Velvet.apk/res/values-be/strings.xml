@@ -171,8 +171,6 @@
     <string name="add_salsa_card_title">Дадавайце хуткія фразы, якімі часта карыстаецеся</string>
     <string name="add_shortcut_dismiss_button_description">Закрыць</string>
     <string name="add_shortcut_text">Дадаць ярлык \"За рулём\" на Гал. экран</string>
-    <string name="add_snackbar_action">Дадаць</string>
-    <string name="add_this_location_to_your_list_snackbar_text">Дадаць гэтае месца ў ваш спіс?</string>
     <string name="add_to_folder">Дадаць у папку: %1$s</string>
     <string name="add_to_folder_with_app">Дадаць у папку з %1$s</string>
     <string name="add_to_home_screen">Дадаць на галоўны экран</string>
@@ -278,9 +276,12 @@
     <string name="all_salsas_section_subtitle">Памочнік будзе знаходзіцца ў рэжыме чакання, каб рэагаваць на выбраныя хуткія фразы. Іх папулярныя варыянты таксама будуць спрацоўваць.</string>
     <string name="all_set_title">Памочнік гатовы да работы</string>
     <string name="all_settings_title">УСЕ НАЛАДЫ</string>
+    <string name="allow_access">Дазволіць доступ</string>
     <string name="allow_bluetooth_button_with_device_locked_notification_body">Калі тэлефон заблакіраваны, вы можаце выкарыстоўваць свой голас, каб здзяйсняць званкі і больш з прыладай Bluetooth</string>
     <string name="allow_bluetooth_button_with_device_locked_notification_title">Выкарыстоўвайце голас з прыладай Bluetooth</string>
     <string name="allow_button_text">Дазволіць</string>
+    <string name="allow_calls_toggle_description">За рулём вы будзеце атрымліваць апавяшчэнні пра ўваходныя выклікі</string>
+    <string name="allow_calls_toggle_title">Дазвольце ўваходныя выклікі</string>
     <string name="allow_rotation_title">Дазволіць паварот</string>
     <string name="allow_wired_headsets_button_with_device_locked_notification_body">Калі тэлефон заблакіраваны, вы можаце выкарыстоўваць свой голас, каб здзяйсняць званкі і больш з правадной гарнітурай</string>
     <string name="allow_wired_headsets_button_with_device_locked_notification_title">Выкарыстоўвайце голас з правадной гарнітурай</string>
@@ -356,11 +357,10 @@
     <string name="ambient_settings_bc_page_desc">Памочнік паказвае тое, што вам патрэбна ў канкрэтны перыяд часу, на галоўным экране або на экране блакіроўкі.</string>
     <string name="ambient_settings_bc_title">Live Space</string>
     <string name="ambient_settings_commute_and_ttl_subtitle">Паказ інфармацыі пра дарожны рух і разліковага часу прыбыцця</string>
-    <string name="ambient_settings_commute_and_ttl_title">\"Штодзённая паездка\" і \"Трэба выходзіць\"</string>
+    <string name="ambient_settings_commute_subtitle">Паказваць дарожны рух</string>
+    <string name="ambient_settings_commute_title">Штодзённая паездка</string>
     <string name="ambient_settings_device_location_subtitle">Паказваць змесціва на падставе вашых геаданых</string>
     <string name="ambient_settings_device_location_title">Месцазнаходжанне</string>
-    <string name="ambient_settings_grocery_subtitle" />
-    <string name="ambient_settings_grocery_title">Дастаўка і самавываз</string>
     <string name="ambient_settings_home_and_work_location_subtitle">Атрымлівайце інфармацыю адносна штодзённых паездак (напрыклад, пра разліковы час прыбыцця і дарожны рух) на падставе хатняга і працоўнага адрасоў</string>
     <string name="ambient_settings_home_and_work_location_title">Дом і праца</string>
     <string name="ambient_settings_hotel_subtitle">Інфармацыя пра заезд і выезд</string>
@@ -373,6 +373,7 @@
     <string name="ambient_settings_title">Кароткі агляд</string>
     <string name="ambient_settings_travel_bundle_subtitle">Даныя пра авіярэйсы ў Gmail</string>
     <string name="ambient_settings_travel_bundle_title">Падарожжы</string>
+    <string name="ambient_settings_ttl_subtitle">Паказваць разліковы час прыбыцця</string>
     <string name="ambient_settings_ttl_title">Трэба выходзіць</string>
     <string name="ambient_settings_upcoming_bundle_subtitle">Каляндарныя падзеі і напаміны</string>
     <string name="ambient_settings_upcoming_bundle_title">Будучыя</string>
@@ -449,7 +450,10 @@
     <string name="ar_permissions_screen_title">Get a better look</string>
     <string name="ar_session_error_dialog_body">An error has occurred when trying to view this object in your space.</string>
     <string name="ar_session_error_dialog_title">Unable to view in your space</string>
+    <string name="ar_triggering_description">Прылада выкарыстоўвае даныя пра рух і падключэнні Bluetooth, каб вызначаць, ці знаходзіцеся вы ў аўтамабілі, які рухаецца</string>
+    <string name="ar_triggering_title">Калі выяўлена, што вы за рулём</string>
     <string name="ask_assistant">Спытайце Памочніка</string>
+    <string name="ask_before_launching">Пытацца перад запускам</string>
     <string name="ask_for_message_to_number">Вы хочаце адправіць SMS. Які тэкст паведамлення?</string>
     <string name="ask_for_text_message_contact_first_time">ОК, вы хочаце адправіць SMS кантакту %1$s. Які тэкст паведамлення?</string>
     <string name="ask_to_confirm_3p_chat_message">Вось ваша паведамленне %1$s кантакту %2$s: %3$s. Адправіць паведамленне ці змяніць яго?</string>
@@ -457,10 +461,10 @@
     <string name="ask_to_confirm_message_reprompt">Прабачце. Адправіць паведамленне ці змяніць яго?</string>
     <string name="ask_to_confirm_sms">Вось ваша SMS-паведамленне кантакту %1$s: %2$s. Адправіць паведамленне ці змяніць яго?</string>
     <string name="assistant">Памочнік</string>
-    <string name="assistant_aa_loyalty_card_title">Loyalty Card</string>
+    <string name="assistant_aa_loyalty_card_title">Картка лаяльнасці</string>
     <string name="assistant_accessibility_voice_typing_stopped">Галасавы ўвод тэксту спынены</string>
     <string name="assistant_add_item_app_control_suggestion">Дадаць</string>
-    <string name="assistant_ama_media_only_chip">Listen</string>
+    <string name="assistant_ama_media_only_chip">Слухаць</string>
     <string name="assistant_android_settings_access_assistant_category_title">Доступ да Памочніка Google на Pixel</string>
     <string name="assistant_android_settings_active_edge_summary">Каб пагаварыць з Памочнікам, сцісніце і адпусціце ніжнюю палову тэлефона</string>
     <string name="assistant_android_settings_active_edge_title">Выклік Памочніка сцісканнем</string>
@@ -479,7 +483,8 @@
     <string name="assistant_android_settings_see_all_title">Прагляд усіх налад Памочніка</string>
     <string name="assistant_android_settings_voice_match_summary">Voice Match дазваляе даваць Памочніку галасавыя каманды, нават калі тэлефон заблакіраваны</string>
     <string name="assistant_android_settings_voice_match_title">Фраза \"Ok Google\"</string>
-    <string name="assistant_at_store">At Store</string>
+    <string name="assistant_at_store">У краме</string>
+    <string name="assistant_avatar_icon_description">Значок аватара карыстальніка</string>
     <string name="assistant_bit_action_card_link">Перайсці на старонку Памочніка Google</string>
     <string name="assistant_bit_action_card_negative">Не, дзякуй</string>
     <string name="assistant_bit_action_card_positive">Уключыць</string>
@@ -495,10 +500,15 @@
     <string name="assistant_bit_alert_on_text">"Памочнік Google адпраўляе ў Google інфармацыю (напрыклад, вашы галасавыя запыты), каб знаходзіць адказы на пытанні і выконваць розныя задачы.
 Вы можаце праглядзець і выдаліць гісторыю Памочніка ў любы час на старонцы myactivity.google.com."</string>
     <string name="assistant_bit_alert_on_title">Уключыць Памочніка Google?</string>
-    <string name="assistant_calendar_event_during">%1$s now</string>
-    <string name="assistant_calendar_event_pre">%1$s in %2$s</string>
-    <string name="assistant_calendar_event_pre_static">%1$s at %2$s</string>
-    <string name="assistant_calendar_event_time_range">%1$s – %2$s</string>
+    <string name="assistant_calendar_event_during">Цяпер: %1$s</string>
+    <string name="assistant_calendar_event_pre">%1$s, %2$s</string>
+    <string name="assistant_calendar_event_pre_static">%1$s, %2$s</string>
+    <string name="assistant_calendar_event_time_range">%1$s – %2$s</string>
+    <string name="assistant_canvas_logo_view_description">Галасавы пошук</string>
+    <string name="assistant_canvas_opa_keyboard_indicator_content_description">Рэжым уводу</string>
+    <string name="assistant_canvas_opa_send_button_content_description">Адправіць</string>
+    <string name="assistant_canvas_opa_text_input_hint">Увядзіце паведамленне</string>
+    <string name="assistant_canvas_transcription_bar_description">Радок расшыфроўкі</string>
     <string name="assistant_create_doc_app_control_suggestion">Ствары дакумент</string>
     <string name="assistant_custodio_activity_menu_help">Даведка</string>
     <string name="assistant_custodio_activity_menu_send_feedback">Адправіць водгук</string>
@@ -729,6 +739,7 @@
     <string name="assistant_custodio_youtube_media_provider_name">YouTube</string>
     <string name="assistant_default_error_message">Нешта пайшло не так. Паўтарыце спробу.</string>
     <string name="assistant_dictation_ineligible_aiai_version">Каб выкарыстоўваць галасавы ўвод праз Памочніка, абнавіце праграму Android System Intelligence у Google Play. &lt;a href=\"https://play.google.com/store/apps/details?id=com.google.android.as\">Абнавіць&lt;/a> &lt;br> &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#update_app\">Даведацца больш&lt;/a></string>
+    <string name="assistant_dictation_ineligible_android_old_version">Каб выкарыстоўваць галасавы ўвод праз Памочніка, абнавіце сістэму Android. &lt;a href=\"intent:#Intent;action=android.settings.SYSTEM_UPDATE_SETTINGS;end\">Абнавіць&lt;/a> &lt;br> &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#update_app\">Даведацца больш&lt;/a></string>
     <string name="assistant_dictation_ineligible_download_needed">Патрабуецца абнаўленне функцыі \"Галасавы ўвод праз Памочніка\". Каб яно спампавалася аўтаматычна, падключыцеся да Wi-Fi. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#update_to_use\">Даведацца больш&lt;/a></string>
     <string name="assistant_dictation_ineligible_generic">Зараз вы не можаце выкарыстоўваць галасавы ўвод праз Памочніка. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#fix_issues_assistant_voice_typing\">Даведацца больш&lt;/a></string>
     <string name="assistant_dictation_ineligible_locale_mismatch">Каб вы маглі выкарыстоўваць галасавы ўвод праз Памочніка, асноўная мова клавіятуры Gboard павінна адпавядаць асноўнай мове прылады. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#device_language\">Даведацца больш&lt;/a></string>
@@ -738,29 +749,25 @@
     <string name="assistant_dictation_ineligible_work_profile">Галасавы ўвод праз Памочніка недаступны для праграм у працоўным профілі. Каб выкарыстоўваць гэту функцыю, перайдзіце ў асабістыя праграмы. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#not_available_work_profile\">Даведацца больш&lt;/a></string>
     <string name="assistant_edit_app_control_suggestion">Змяніць</string>
     <string name="assistant_features_title">Кіруйце справамі</string>
-    <string name="assistant_flight_chip_boarding_pass">Boarding Pass</string>
-    <string name="assistant_flight_chip_check_in">Check in for your flight</string>
-    <string name="assistant_flight_chip_more_info">More Flight Info</string>
-    <string name="assistant_flight_departure_gate_info">Gate %1$s</string>
-    <string name="assistant_flight_departure_info">%1$s to %2$s departs in %3$s</string>
-    <string name="assistant_flight_departure_info_now">%1$s to %2$s departs now</string>
-    <string name="assistant_flight_departure_info_static_time">%1$s to %2$s departs at %3$s</string>
-    <string name="assistant_flight_departure_info_static_without_time">%1$s to %2$s</string>
-    <string name="assistant_flight_departure_terminal_info">Terminal %1$s</string>
-    <string name="assistant_flight_departure_time_delayed_info">Departs %1$s (<strike>%2$s</strike>)</string>
-    <string name="assistant_flight_departure_time_info">Departs %1$s</string>
-    <string name="assistant_flight_seat_info">Seat %1$s</string>
-    <string name="assistant_flight_to_delayed_info">Delayed: Flight to %1$s</string>
-    <string name="assistant_flight_to_info">Flight to %1$s</string>
+    <string name="assistant_flight_chip_boarding_pass">Пасадачны талон</string>
+    <string name="assistant_flight_chip_check_in">Зарэгіструйцеся на рэйс</string>
+    <string name="assistant_flight_chip_more_info">Дадатковая інфармацыя пра рэйс</string>
+    <string name="assistant_flight_departure_gate_info">Выхад %1$s</string>
+    <string name="assistant_flight_departure_info">Авіярэйс \"%1$s – %2$s\" вылятае праз %3$s</string>
+    <string name="assistant_flight_departure_info_now">Авіярэйс \"%1$s – %2$s\" вылятае зараз</string>
+    <string name="assistant_flight_departure_info_static_time">Авіярэйс \"%1$s – %2$s\" вылятае ў %3$s</string>
+    <string name="assistant_flight_departure_info_static_without_time">%1$s – %2$s</string>
+    <string name="assistant_flight_departure_terminal_info">Тэрмінал %1$s</string>
+    <string name="assistant_flight_departure_time_delayed_info">Вылет: %1$s (<strike>%2$s</strike>)</string>
+    <string name="assistant_flight_departure_time_info">Вылет: %1$s</string>
+    <string name="assistant_flight_seat_info">Месца %1$s</string>
+    <string name="assistant_flight_to_delayed_info">Затрымліваецца: рэйс у аэрапорт %1$s</string>
+    <string name="assistant_flight_to_info">Аэрапорт прыбыцця: %1$s</string>
     <string name="assistant_grocery_delivery_completed">%1$s order delivered</string>
-    <string name="assistant_grocery_delivery_during">%1$s delivery now</string>
-    <string name="assistant_grocery_delivery_pre">%1$s delivery in %2$s</string>
-    <string name="assistant_grocery_delivery_pre_static">%1$s delivery at %2$s</string>
+    <string name="assistant_grocery_delivery_scheduled">%1$s delivery scheduled</string>
     <string name="assistant_grocery_pickup_completed">%1$s order picked up</string>
-    <string name="assistant_grocery_pickup_during">%1$s pickup now</string>
-    <string name="assistant_grocery_pickup_pre">%1$s pickup in %2$s</string>
-    <string name="assistant_grocery_pickup_pre_static">%1$s pickup at %2$s</string>
-    <string name="assistant_grocery_pickup_ready">%1$s pickup now</string>
+    <string name="assistant_grocery_pickup_ready">%1$s order ready for pickup</string>
+    <string name="assistant_grocery_pickup_scheduled">%1$s pickup scheduled</string>
     <string name="assistant_grocery_time_range">%1$s – %2$s</string>
     <string name="assistant_guacamole_answer_call_announce">Ідзе злучэнне</string>
     <string name="assistant_guacamole_closed_popup_pill_content_description">Скажыце \"%1$s\". Каб азнаёміцца з дадатковай інфармацыяй, двойчы націсніце на прадаўгаватую кнопку.</string>
@@ -815,6 +822,9 @@
     <string name="assistant_keyboard_first_one_text">Першы элемент</string>
     <string name="assistant_keyboard_firstrun_text">&lt;linkable>Кіраваць наладамі&lt;/linkable></string>
     <string name="assistant_keyboard_icon_label">Клавіятура</string>
+    <string name="assistant_keyboard_input_clear_button_content_description">Click to clear text input</string>
+    <string name="assistant_keyboard_input_mic_button_content_description">Click the mic icon to start voice query</string>
+    <string name="assistant_keyboard_input_text_hint">Type a text input here</string>
     <string name="assistant_keyboard_learning_center_category_compose">Увод і адпраўка паведамленняў</string>
     <string name="assistant_keyboard_learning_center_category_emojis">Дадаванне эмодзі</string>
     <string name="assistant_keyboard_learning_center_category_forms">Формы і электронныя лісты</string>
@@ -898,12 +908,14 @@
     <string name="assistant_keyboard_sticky_mic_education_tip_text">Каб мікрафон не выключаўся, пакуль вы&lt;br>не закрыеце клавіятуру, націсніце двойчы</string>
     <string name="assistant_keyboard_stop_button_description">Спыніць галасавы ўвод</string>
     <string name="assistant_keyboard_stop_text">Спыніць</string>
+    <string name="assistant_keyboard_suggestion_query_builder_button_content_description">Click to edit in input box</string>
     <string name="assistant_keyboard_undo_button_description">Адрабіць</string>
     <string name="assistant_keyboard_undo_text">Адрабіць</string>
     <string name="assistant_keyboard_voice_command_not_supported">Такая каманда недаступная ў гэтай праграме</string>
     <string name="assistant_keyboard_voice_corrections_tip_text">Вымавіце слова, якім трэба&lt;br>замяніць вылучаны тэкст.</string>
     <string name="assistant_language_not_supported">%s пакуль не падтрымліваецца Памочнікам Google</string>
     <string name="assistant_learning_center_data_error">Sorry, something went wrong while loading data.</string>
+    <string name="assistant_learning_center_detailed_page_data_error">Sorry, something went wrong while loading data.</string>
     <string name="assistant_logo_a11y">Націсніце, каб адкрыць Памочніка Google</string>
     <string name="assistant_logo_content_description">Лагатып Памочніка Google</string>
     <string name="assistant_long_press_power_action_button_text">Зразумела</string>
@@ -945,7 +957,7 @@
     <string name="assistant_my_actions_unpin_confirmation_dialog_title">Увага!</string>
     <string name="assistant_my_actions_unpinned_action_row_add_button_content_description">Дадаць гэта дзеянне</string>
     <string name="assistant_my_actions_unpinned_actions_header">Дзеянні, якія могуць вас зацікавіць</string>
-    <string name="assistant_my_flights_query">My Flights</string>
+    <string name="assistant_my_flights_query">Мае рэйсы</string>
     <string name="assistant_on_lockscreen_desc">Дазвольце Памочніку рэагаваць на запыты, калі тэлефон заблакіраваны. Каб атрымліваць асабістыя вынікі (напрыклад, кантакты або паведамленні), скажыце \"%1$s\" – так Памочнік зможа пазнаць ваш голас.</string>
     <string name="assistant_on_lockscreen_description">Дазвольце Памочніку рэагаваць на запыты, калі тэлефон заблакіраваны. Каб атрымліваць асабістыя вынікі (напрыклад, кантакты і паведамленні), скажыце \"Ok Google\" – так Памочнік зможа пазнаць ваш голас.</string>
     <string name="assistant_on_lockscreen_title">Адказы Памочніка на экране блакіроўкі</string>
@@ -1772,21 +1784,38 @@
     <string name="assistant_suw_intro_screen_action_button_text">Я згаджаюся</string>
     <string name="assistant_suw_intro_screen_cancel_button_text">Прапусціць</string>
     <string name="assistant_suw_intro_screen_default_x_google_hotword">Ok Google</string>
+    <string name="assistant_suw_intro_screen_hint1_for_unicorn_vm3">{GENDER,select, male{{GIVEN_NAME} зможа карыстацца галасавой камандай \"%1$s\", калі наладзіць Voice Match, – тады Памочнік зможа яго пазнаваць.}female{{GIVEN_NAME} зможа карыстацца галасавой камандай \"%1$s\", калі наладзіць Voice Match, – тады Памочнік зможа яе пазнаваць.}other{{GIVEN_NAME} зможа карыстацца галасавой камандай \"%1$s\", калі наладзіць Voice Match, – тады Памочнік зможа пазнаваць гэтага карыстальніка.}}</string>
+    <string name="assistant_suw_intro_screen_hint1_vm3">Вы зможаце карыстацца галасавой камандай \"%1$s\", калі наладзіце Voice Match, – тады Памочнік зможа вас пазнаваць.</string>
+    <string name="assistant_suw_intro_screen_hint2_for_unicorn_vm3">Памочнік можа ўключацца памылкова – напрыклад, калі ён пачуе ад карыстальніка %1$s нешта, падобнае да \"%2$s\".</string>
+    <string name="assistant_suw_intro_screen_hint2_vm3">Памочнік можа ўключацца памылкова – напрыклад, калі ён пачуе нешта, падобнае да \"%1$s\".</string>
+    <string name="assistant_suw_intro_screen_hint3_for_unicorn_vm3">Галасавую каманду \"%1$s\" можна выключыць у наладах Памочніка карыстальніка %2$s.</string>
+    <string name="assistant_suw_intro_screen_hint3_vm3">Галасавую каманду \"%1$s\" можна выключыць у наладах Памочніка.</string>
     <string name="assistant_suw_intro_screen_item_summary_1">"\"Якое надвор'е ў гэтыя выхадныя?\""</string>
+    <string name="assistant_suw_intro_screen_item_summary_1_for_unicorn">\"Ці трэба браць парасон?\"</string>
     <string name="assistant_suw_intro_screen_item_summary_2">\"Дзе знаходзіцца найбліжэйшая кавярня?\"</string>
+    <string name="assistant_suw_intro_screen_item_summary_2_for_unicorn">\"Якія гукі ўтварае бегемот?\"</string>
     <string name="assistant_suw_intro_screen_item_summary_3">\"Пастаў будзільнік на заўтра, на 5 гадзін раніцы\".</string>
+    <string name="assistant_suw_intro_screen_item_summary_3_for_unicorn">\"Задай таймер для выканання дамашняй работы на 20 хвілін\".</string>
     <string name="assistant_suw_intro_screen_item_title_1">Задавайце пытаннi</string>
     <string name="assistant_suw_intro_screen_item_title_2">Пракладвайце маршруты</string>
+    <string name="assistant_suw_intro_screen_item_title_2_for_unicorn">Атрымлівайце новую інфармацыю</string>
     <string name="assistant_suw_intro_screen_item_title_3">Выконвайце паўсядзённыя задачы</string>
     <string name="assistant_suw_intro_screen_subtitle_v2">Калі вы дасце на гэта згоду, то, знаходзячыся ў рэжыме чакання, Памочнік Google будзе рэагаваць на словы \"%1$s\".</string>
+    <string name="assistant_suw_intro_screen_subtitle_v2_for_unicorn_vm3">Калі вы дасце на гэта згоду, то, знаходзячыся ў рэжыме чакання, Памочнік Google будзе рэагаваць на словы \"%2$s\" ад карыстальніка %1$s.</string>
     <string name="assistant_suw_intro_screen_title">Выклікайце Памочніка камандай \"%1$s\"</string>
     <string name="assistant_suw_intro_screen_title_for_unicorn">Дазвольце карыстальніку %1$s выклікаць Памочніка Google з дапамогай галасавой каманды \"%2$s\"</string>
-    <string name="assistant_suw_intro_screen_with_ww_hint">Змяніць гэты выбар можна ў наладах Памочніка.</string>
+    <string name="assistant_suw_intro_screen_title_for_unicorn_vm3">Уключыце галасавое кіраванне Google для карыстальніка %1$s</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint2_for_unicorn_vm3">Памочнік можа ўключацца памылкова – напрыклад, калі ён пачуе ад карыстальніка %1$s нешта, падобнае да \"%2$s\" або да хуткай фразы.</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint2_vm3">Памочнік можа ўключацца памылкова – напрыклад, калі ён пачуе нешта, падобнае да \"%1$s\" або да хуткай фразы.</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint3_for_unicorn_vm3">Галасавую каманду \"%1$s\" або хуткія фразы можна выключыць у наладах Памочніка карыстальніка %2$s.</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint3_vm3">Галасавую каманду \"%1$s\" і хуткія фразы можна выключыць у наладах Памочніка.</string>
     <string name="assistant_suw_intro_screen_with_ww_item_summary_1">Задавайце пытанні і атрымлівайце дапамогу пры выкананні розных задач.</string>
     <string name="assistant_suw_intro_screen_with_ww_item_summary_2">Напрыклад, паспрабуйце сказаць \"спыніць\" або \"адкласці\", калі звініць будзільнік.</string>
+    <string name="assistant_suw_intro_screen_with_ww_item_summary_2_for_unicorn_vm3">%1$s можа, напрыклад, гаварыць \"спыніць\" або \"адкласці\", калі звініць будзільнік.</string>
     <string name="assistant_suw_intro_screen_with_ww_item_title_1">\"%1$s\"</string>
     <string name="assistant_suw_intro_screen_with_ww_item_title_2">Хуткія фразы</string>
     <string name="assistant_suw_intro_screen_with_ww_subtitle">Калі вы дасце на гэта згоду, то, знаходзячыся ў рэжыме чакання, Памочнік Google будзе рэагаваць на словы \"%1$s\" і пэўныя хуткія фразы.</string>
+    <string name="assistant_suw_intro_screen_with_ww_subtitle_for_unicorn_vm3">Калі вы дасце на гэта згоду, то, знаходзячыся ў рэжыме чакання, Памочнік Google будзе рэагаваць на словы \"%2$s\" і пэўныя хуткія фразы ад карыстальніка %1$s.</string>
     <string name="assistant_suw_intro_screen_with_ww_title">Адпраўляйце запыты ў Google, выкарыстоўваючы гучную сувязь</string>
     <string name="assistant_suw_loading_screen_title">Ідзе праверка…</string>
     <string name="assistant_suw_more_button_text">Яшчэ</string>
@@ -1802,8 +1831,8 @@
     <string name="assistant_suw_settings_screen_title">Актывацыя Памочніка без разблакіроўкі экрана %1$s</string>
     <string name="assistant_suw_settings_screen_title_for_unicorn">{GENDER,select, male{Дазвольце карыстальніку {GIVEN_NAME} карыстацца Google Памочнікам без разблакіроўкі экрана %1$s}female{Дазвольце карыстальніку {GIVEN_NAME} карыстацца Google Памочнікам без разблакіроўкі экрана %1$s}other{Дазвольце карыстальніку {GIVEN_NAME} карыстацца Google Памочнікам без разблакіроўкі экрана %1$s}}</string>
     <string name="assistant_take_note_app_control_suggestion">Ствары нататку</string>
-    <string name="assistant_tap_to_check_in">Tap to check-in</string>
-    <string name="assistant_tomorrow_time">Tomorrow, %1$s</string>
+    <string name="assistant_tap_to_check_in">Націсніце, каб зарэгістравацца на рэйс</string>
+    <string name="assistant_tomorrow_time">Заўтра, %1$s</string>
     <string name="assistant_ui_learn_more_link">Даведацца больш</string>
     <string name="assistant_unicorn_get_your_parent_subtitle">Разам вы зможаце наладзіць функцыю Voice Match.</string>
     <string name="assistant_unicorn_get_your_parent_subtitle_shared_devices">Разам вы зможаце наладзіць Памочніка Google.</string>
@@ -1811,6 +1840,8 @@
     <string name="assistant_voice_plate_avatar_label">Адкрыць налады</string>
     <string name="assistant_voice_plate_greeting_hi_text">Вітаю! Чым магу дапамагчы?</string>
     <string name="assistant_voice_plate_keyboard_icon_label">Клавіятура</string>
+    <string name="assistant_voice_plate_onboarding_oauth_recovery_button">Увайсці</string>
+    <string name="assistant_voice_plate_onboarding_oauth_recovery_text">Каб выкарыстоўваць Памочніка, увайдзіце ва Уліковы запіс Google зноў</string>
     <string name="assistant_voice_plate_onboarding_oobe_button">Пачаць</string>
     <string name="assistant_voice_plate_onboarding_oobe_text">Разблакіруйце больш функцый Памочніка</string>
     <string name="assistant_voice_speech_output_title">Вывад голасу і маўлення Памочніка</string>
@@ -1833,7 +1864,7 @@
     <string name="assistant_weather_widget_preview_condition">Сонечна</string>
     <string name="assistant_weather_widget_preview_loading">Ідзе загрузка…</string>
     <string name="assistant_weather_widget_preview_location">Сан-Францыска</string>
-    <string name="assistant_yesterday_time">Yesterday, %1$s</string>
+    <string name="assistant_yesterday_time">Учора, %1$s</string>
     <string name="assistantactions_alarm_confirmation_card_button_text">View alarms</string>
     <string name="assistantactions_call_confirmation_card_button">Call</string>
     <string name="assistantactions_confirmation_card_cancel_text">Operation canceled</string>
@@ -1948,7 +1979,9 @@
 
 Каб функцыя \"Паглядзіце і гаварыце\" працавала толькі для вас, Памочнік выкарыстоўвае Face Match і Voice Match. Калі іншыя карыстальнікі хочуць выкарыстоўваць функцыю \"Паглядзіце і гаварыце\", яны могуць уключыць яе ў наладах праграмы \"Памочнік\" або \"Home\".
 
-Выключыць гэту функцыю заўсёды можна ў наладах Face Match."</string>
+Выключыць гэту функцыю заўсёды можна ў наладах Face Match.
+
+Заўвага: выкарыстоўваць галасавую каманду \"Ok Google\" можна і тады, калі функцыя \"Паглядзіце і гаварыце\" ўключана."</string>
     <string name="blue_steel_consent_title">Функцыя \"Паглядзіце і гаварыце\" на прыладзе \"%1$s\"</string>
     <string name="blue_steel_learn_more">&lt;a href=%1$s>Даведацца больш&lt;/a></string>
     <string name="blue_steel_turn_on">Уключыць</string>
@@ -1965,7 +1998,6 @@
     <string name="bottom_navigation_collections_label">Калекцыі</string>
     <string name="bottom_navigation_drawer_label">Яшчэ</string>
     <string name="bottom_navigation_search_label">Пошук</string>
-    <string name="bottom_navigation_snapshot_label">Зводка</string>
     <string name="bottom_navigation_spark_label">Рэкамендацыі</string>
     <string name="bottom_navigation_tabs_label">Укладкі</string>
     <string name="bottomsheet_action_expand_halfway">Разгарнуць напалову</string>
@@ -1973,6 +2005,8 @@
     <string name="brightness">Яркасць экрана</string>
     <string name="broken_google_play_services_text">Каб завяршыць ваш запыт, патрабуюцца Службы Google Play. Перазапусціце прыладу.</string>
     <string name="bt_auto_trigger_title">Запуск рэжыму Памочніка \"За рулём\" пры падключэнні прылады да аўтамабіля</string>
+    <string name="bt_triggering_description">Гэта налада можа выкарыстоўвацца для запуску рэжыму \"За рулём\", калі вы садзіцеся ў машыну</string>
+    <string name="bt_triggering_title">Пры падключэнні да Bluetooth машыны</string>
     <string name="bubble_cancel_button_text">Скасаваць</string>
     <string name="bubble_dismiss_text">Перацягніце ўніз, каб адхіліць</string>
     <string name="bubble_feedback_link">Водгук</string>
@@ -2080,7 +2114,6 @@
     <string name="cct_account_mismatch_card_button_text">Адкрыць %1$s</string>
     <string name="cct_account_mismatch_card_header">Прагляд вэб-старонак</string>
     <string name="cct_account_mismatch_card_text">Каб бачыць тут знойдзеныя старонкі, абнавіце &lt;b>налады %1$s&lt;/b> і ўключыце сінхранізацыю для &lt;b>%2$s&lt;/b></string>
-    <string name="chance_of_precipitation_label">Імавернасць ападкаў: %s</string>
     <string name="change_button_text">Змяніць</string>
     <string name="change_speed_button">Змена хуткасці чытання</string>
     <string name="channel_description">Палепшанае галасавое кіраванне і лёгкадаступныя кнопкі дапамогуць вам засяродзіцца на дарозе.</string>
@@ -2194,6 +2227,7 @@
     <string name="common_google_play_services_update_text">%1$s не будзе працаваць, пакуль вы не абновіце службы Google Play.</string>
     <string name="common_google_play_services_update_title">Абнаўленне службаў Google Play</string>
     <string name="common_google_play_services_updating_text">%1$s не будзе працаваць без службаў Google Play, якія ў цяперашні час абнаўляюцца.</string>
+    <string name="common_google_play_services_wear_update_text">Патрабуецца новая версія служб Google Play. Яна абновіцца аўтаматычна ў бліжэйшы час.</string>
     <string name="common_google_search_hint">Пошук у Google</string>
     <string name="common_google_search_label">Google</string>
     <string name="common_learn_more">Даведацца больш</string>
@@ -2201,6 +2235,7 @@
     <string name="common_open_on_phone">Адкрыць на тэлефоне</string>
     <string name="common_see_updates">ГЛЯДЗІЦЕ АБНАЎЛЕННІ</string>
     <string name="common_yes">ОК</string>
+    <string name="comms_center_close_button_description">Закрыць старонку</string>
     <string name="commute_eta_msg">%1$s да месца: %2$s</string>
     <string name="commute_eta_time_hour">%1$s гадз</string>
     <string name="commute_eta_time_hour_minute">%1$s гадз %2$s хв</string>
@@ -2346,16 +2381,16 @@
     <string name="cricket_second_innings">2-гі інінг</string>
     <string name="crop_wallpaper">Абрэзаць шпалеры</string>
     <string name="cross_profile_meta_data">Паказваць будучыя звязаныя з працай падзеі ў асабістым віджэце \"Кароткі агляд\"</string>
-    <string name="current_conditions_temperature" formatted="false">Тэмпература: %s%s</string>
     <string name="current_inning">Падач %1$d</string>
-    <string name="current_location_searchbox">Бягучае месцазнаходжанне</string>
     <string name="current_period">Перыяд %1$d</string>
     <string name="custom">Карыстальніцкае (нельга наладзіць на тэлефоне)</string>
+    <string name="custom_reply_button_string">Свой адказ</string>
     <string name="custom_tabs_explore_action_button_desc">Прагляд звязаных старонак</string>
     <string name="custom_tabs_link_copied">Спасылка скапіраваная ў буфер абмену</string>
     <string name="custom_tabs_menu_item_copy_link">Скапіраваць спасылку</string>
     <string name="custom_tabs_menu_item_help">Даведка</string>
     <string name="custom_tabs_menu_item_open_in_browser_generic">Адкрыць у вэб-браўзеры</string>
+    <string name="custom_tabs_menu_item_personal_info_removal">Выдаліць вынікі са звесткамі пра вас</string>
     <string name="custom_tabs_menu_item_recent">Апошнія</string>
     <string name="custom_tabs_menu_item_share">Падзял. спасылкай...</string>
     <string name="custom_tabs_share_via">Апублікаваць з дапамогай</string>
@@ -2367,7 +2402,6 @@
     <string name="cw_chip_icon_description">Значок чыпа дзеяння</string>
     <string name="cw_disabled_message">Часова недаступны. Хутка будзе даступным!</string>
     <string name="cw_feedback_chip_text">Адправіць водгук</string>
-    <string name="daily_conditions_sky_condition">Неба: %s</string>
     <string name="dangerous_or_harmful_activity">Небяспечныя або шкодныя дзеянні</string>
     <string name="data_in_assistant">Вашы даныя ў Памочніку</string>
     <string name="data_sharing_action_button">Дазволіць</string>
@@ -2378,6 +2412,7 @@
     <string name="data_sharing_title_text">Шукаць ва ўсіх праграмах для тэлевізара</string>
     <string name="date_at_time">%1$s у %2$s</string>
     <string name="date_in_the_past">Дата: %1$s&lt;font color=#9E9E9E> ужо прайшла&lt;/font></string>
+    <string name="day_picker_description">Сетка дзён памесячна</string>
     <string name="decline_button_description">Адхіліць выклік</string>
     <string name="decline_permissions">Not Now</string>
     <string name="deeplink_default_promocard_more_ways_to_search">Праграма Google дае пашыраныя магчымасці пошуку</string>
@@ -2387,7 +2422,6 @@
     <string name="default_error">Нешта пайшло не так.</string>
     <string name="default_error_msg">Невядомая памылка</string>
     <string name="default_group_name">групавы чат</string>
-    <string name="default_location_name">Сан-Францыска</string>
     <string name="default_media_selection_description">Гэты сэрвіс будзе выкарыстоўвацца, калі вы просіце Памочніка прайграць музыку</string>
     <string name="default_media_selection_title">Выберыце стандартны сэрвіс музыкі</string>
     <string name="default_microphone_error">Нешта пайшло не так. Паўтарыце спробу.</string>
@@ -2721,9 +2755,12 @@
     <string name="dnd_setting_title">Паказваць толькі важныя апавяшчэнні</string>
     <string name="dnd_title_off">Выключана</string>
     <string name="dnd_title_on">Уключана</string>
+    <string name="dnd_toggle_description">Непрыярытэтныя апавяшчэнні праграм перастануць паказвацца, пакуль вы будзеце за рулём</string>
+    <string name="dnd_toggle_title">Выкарыстоўваць рэжым \"Не турбаваць\"</string>
     <string name="do_not_disturb_desc">Не турбаваць</string>
     <string name="do_not_show_fewer_like_this">Дазволіць паказваць больш падобнага змесціва</string>
     <string name="do_not_show_more_like_this">Не паказваць больш падобнага змесціва</string>
+    <string name="do_nothing">Нічога не рабіць</string>
     <string name="done_button_text">Гатова</string>
     <string name="done_label">Гатова</string>
     <string name="doodle_content_description">Відарыс дудл ад Google</string>
@@ -2751,8 +2788,11 @@
     <string name="dreamliner_dock_trusted_item_summary">"Дазволіць асабістыя вынікі на гэтай прыладзе (фота, электронная пошта, каляндар, кантакты, напаміны і г. д.), калі заблакіраваны тэлефон падключаны да Pixel Stand. Пры гэтым таксама будуць дазволены плацяжы – калі ўключана Аплата з дапамогай Памочніка. &lt;a href='https://support.google.com/assistant/answer/7684543?hl=en&amp;co=GENIE.Platform=Android'>Даведацца больш&lt;/a>"</string>
     <string name="dreamliner_dock_trusted_item_title">Асабістыя вынікі на Pixel Stand</string>
     <string name="drive_mode_dedup_string">за рулём</string>
+    <string name="driving_general_settings_header">Агульныя</string>
     <string name="driving_screen_not_driving_description">Выйсці з рэжыму Памочніка \"За рулём\"</string>
     <string name="driving_screen_not_driving_label">Я не за рулём</string>
+    <string name="driving_settings_subtitle">Як Памочнік павінен дзейнічаць, калі вы за рулём</string>
+    <string name="driving_settings_title">Рэжым \"За рулём\"</string>
     <string name="drl_nga_mic_button">Мікрафон</string>
     <string name="dsc_illustration_description">Лагатыпы вашых праграм для ТБ</string>
     <string name="dt_promocard_icon_description">Цёмная тэма</string>
@@ -2804,6 +2844,9 @@
     <string name="enable_google_play_services_link">Уключыць</string>
     <string name="enable_google_play_services_text">Каб завяршыць ваш запыт, трэба ўключыць Службы Google Play.</string>
     <string name="enable_google_search_restriction">Уключыць пошук Google</string>
+    <string name="enable_mini_toggle_description">Рэжым \"За рулём\" будзе запускацца, калі вы будзеце прыступаць да навігацыі</string>
+    <string name="enable_mini_toggle_title">Пры навігацыі ў Google Картах:</string>
+    <string name="enable_mini_toggle_waiting_period_description">Неўзабаве рэжым \"За рулём\" будзе запускацца, калі вы пачняце карыстацца навігацыяй</string>
     <string name="enable_video_preview_autoplay">Аўтапрайграванне</string>
     <string name="enable_video_preview_autoplay_on_mobile_data">Дазволіць у сетках мабільнай сувязі</string>
     <string name="enable_web_history_toast">Гісторыя вэб-пошуку ўключана</string>
@@ -2830,22 +2873,17 @@
     <string name="episode_sort">Сартаваць</string>
     <string name="episode_sort_option_newest_first">Спачатку навейшыя</string>
     <string name="episode_sort_option_oldest_first">Спачатку старэйшыя</string>
-    <string name="error_adding_location_snackbar_text">Памылка падчас дадання месца</string>
     <string name="error_assist_app_step_1_text"><b>1.</b> Націсніце кнопку <b>Налады</b> ніжэй</string>
     <string name="error_assist_app_step_2_text"><b>2.</b> Выберыце раздзел <b>Праграма-памочнік</b></string>
     <string name="error_assist_app_step_3_text"><b>3.</b> Выберыце <b>Google</b> у якасці стандартнай праграмы</string>
     <string name="error_card_title_text_something_went_wrong">Нешта пайшло не так</string>
     <string name="error_connecting_to_server">Няма злучэння</string>
-    <string name="error_fetching_suggestions_status_text">Памылка падрыхтоўкі прапаноў</string>
-    <string name="error_getting_current_location_status_text">Памылка атрымання інфармацыі аб бягучым месцазнаходжанні</string>
-    <string name="error_getting_location_info_status_text">Памылка атрымання інфармацыі для выбранага месцазнаходжання</string>
     <string name="error_icon_content_description">Памылка</string>
     <string name="error_loading_content">Не атрымлiваецца загрузіць старонку.</string>
     <string name="error_media_info">Падчас прайгравання мультымедыйнага файла ўзнікла памылка.</string>
     <string name="error_no_connection_text">"Інтэрнэт недаступны
 Праверце падключэнне і паўтарыце спробу"</string>
     <string name="error_no_match_text">Каб атрымаць хуткі адказ, націсніце на значок мікрафона і гаварыце ў тэлефон</string>
-    <string name="error_removing_location_snackbar_text">Памылка выдалення месца</string>
     <string name="error_unreliable_network">Нешта пайшло не так. Праверце падлучэнне і паспрабуйце зноў.</string>
     <string name="errors_header">E</string>
     <string name="errors_header_full_length">Памылкі</string>
@@ -2899,6 +2937,53 @@
     <string name="explore_tab_shortcut_section_subtitle">На аснове даных пра праграмы, якімі вы нядаўна карысталіся</string>
     <string name="explore_tab_shortcut_section_title">Хуткія каманды, якія могуць вам спадабацца</string>
     <string name="exposed_dropdown_menu_content_description">Паказаць выпадное меню</string>
+    <string name="fa_alarm_instance_default_label">Будзільнікі не пастаўлены</string>
+    <string name="fa_alarm_instance_filled_bullet">●</string>
+    <string name="fa_alarm_instance_switch_off_label">Будзільнік на %1$s выключаны</string>
+    <string name="fa_alarm_instance_switch_on_label">Будзільнік на %1$s уключаны</string>
+    <string name="fa_audio_recorder_audio_recording_text">Ідзе запіс…</string>
+    <string name="fa_audio_recorder_default_play_record_time_text">00:00</string>
+    <string name="fa_audio_recorder_delete_audio_message">Выдаліць аўдыяпаведамленне</string>
+    <string name="fa_audio_recorder_pause_audio_playback">Прыпыніць</string>
+    <string name="fa_audio_recorder_playback_audio">Прайграць</string>
+    <string name="fa_audio_recorder_recording_audio">Ідзе запіс</string>
+    <string name="fa_audio_recorder_stop_recording_audio">Спыніць запіс</string>
+    <string name="fa_cancel_button_description">Кнопка скасавання</string>
+    <string name="fa_confirm_button_description">Кнопка пацвярджэння</string>
+    <string name="fa_contact_selection_contact_icon_description">Значок кантакту</string>
+    <string name="fa_contact_selection_pick_another_contact_view_hint">Выберыце іншы кантакт</string>
+    <string name="fa_contact_selection_view_hint">Выберыце кантакт</string>
+    <string name="fa_device_setting_toggle_icon_description">Значок налад</string>
+    <string name="fa_device_setting_toggle_off_description">%1$s: выключана</string>
+    <string name="fa_device_setting_toggle_on_description">%1$s: уключана</string>
+    <string name="fa_duration_hours_minutes_seconds">%1$02d гадз %2$02d хв %3$02d с</string>
+    <string name="fa_duration_minutes_seconds">%1$02d хв %2$02d с</string>
+    <string name="fa_duration_picker_confirm_button_text">Гатова</string>
+    <string name="fa_duration_picker_hour_unit_label">Гадзіны</string>
+    <string name="fa_duration_picker_minute_unit_label">Хвіліны</string>
+    <string name="fa_duration_picker_second_unit_label">Секунды</string>
+    <string name="fa_duration_picker_title">Задайце працягласць</string>
+    <string name="fa_duration_seconds">%1$02d с</string>
+    <string name="fa_empty_time">--:--</string>
+    <string name="fa_family_info_broadcast_settings_button">"Кнопка налад адпраўкі аб'яў"</string>
+    <string name="fa_family_info_collapse_button">Кнопка \"Паказаць людзей\" згорнута</string>
+    <string name="fa_family_info_uncollapse_button">Кнопка \"Паказаць людзей\" разгорнута</string>
+    <string name="fa_filled_bullet">●</string>
+    <string name="fa_hour_unit_label">г</string>
+    <string name="fa_list_item_picker_title">Выберыце адзін варыянт</string>
+    <string name="fa_minute_unit_label">х</string>
+    <string name="fa_playback_audio">Прайграць</string>
+    <string name="fa_recurrence_custom">Карыстальніцкае значэнне (нельга наладзіць на тэлефоне)</string>
+    <string name="fa_recurrence_do_not_repeat">Не паўтараць</string>
+    <string name="fa_recurrence_none">Няма</string>
+    <string name="fa_remaining_duration_hours_minutes_seconds">Застаецца %1$02d гадз %2$02d хв %3$02d с</string>
+    <string name="fa_remaining_duration_minutes_seconds">Застаецца %1$02d хв %2$02d с</string>
+    <string name="fa_remaining_duration_seconds">Застаецца %1$02d с</string>
+    <string name="fa_second_unit_label">с</string>
+    <string name="fa_timer_status_active">АКТЫЎНЫ</string>
+    <string name="fa_timer_status_paused">ПРЫПЫНЕНЫ</string>
+    <string name="fa_timer_status_reset">СКІНУТЫ</string>
+    <string name="fa_timer_status_unknown">СТАН НЕВЯДОМЫ</string>
     <string name="facade_search_box_content_description">Шукаць…</string>
     <string name="face_match_enabled_devices_section_subtitle">Вы ўключылі Face Match на гэтых прыладах</string>
     <string name="face_match_enabled_devices_section_title">Прылады з Face Match</string>
@@ -2952,7 +3037,6 @@
     <string name="feedback_unsuccessful_snackbar_hint">Узнікла памылка. Паўтарыце спробу пазней.</string>
     <string name="feedback_verify_location">Спраўдзіць месцазнаходжанне</string>
     <string name="feedtooltip_video">Відэа цяпер аўтаматычна прайграецца на мабільным трафіку. &lt;u>Налады&lt;/u></string>
-    <string name="fetching_suggestions_status_text">Падрыхтоўка прапаноў...</string>
     <string name="filled_bullet">●</string>
     <string name="final_notification_no_reply_prompt">Паўтарыць паведамленне ці не трэба?</string>
     <string name="final_notification_no_reply_reprompt">Прабачце. Паўтарыць паведамленне ці не трэба?</string>
@@ -3250,7 +3334,7 @@
     <string name="googleapp_accountmenu_chrome_incognito">Новая ўкладка Chrome у рэжыме інкогніта</string>
     <string name="googleapp_accountmenu_data_in_search">Пошук</string>
     <string name="googleapp_accountmenu_passwords">Паролі</string>
-    <string name="googleapp_accountmenu_personal_info_removal">Выдаленне асабістай інфармацыі</string>
+    <string name="googleapp_accountmenu_personal_info_removal">Results about you</string>
     <string name="googleapp_accountmenu_quick_delete_education_easy">Выдаліць апошнія 15 хвілін гісторыі Пошуку можна адным дотыкам</string>
     <string name="googleapp_accountmenu_quickdelete_cancel">Скасаваць</string>
     <string name="googleapp_accountmenu_quickdelete_error">Не ўдалося выдаліць гісторыю</string>
@@ -3266,7 +3350,7 @@
     <string name="googleapp_accountmenu_search_history">Гісторыя пошуку</string>
     <string name="googleapp_accountmenu_your_contributions">Ваш уклад</string>
     <string name="googleapp_actionbutton_listen">Прачытаць услых</string>
-    <string name="googleapp_ads_personalization_settings_title">Ads personalization</string>
+    <string name="googleapp_ads_personalization_settings_title">Персаналізацыя рэкламы</string>
     <string name="googleapp_amp_security_button_description">Падключэнне бяспечнае</string>
     <string name="googleapp_app_suggestions_summary">Назвы ўсталяваных праграм</string>
     <string name="googleapp_app_suggestions_title">Праграмы</string>
@@ -3278,6 +3362,10 @@
     <string name="googleapp_autocomplete_with_trending_searches_header_title">Папулярныя пошукавыя запыты</string>
     <string name="googleapp_autocomplete_with_trending_searches_summary">"Папулярныя пошукавыя запыты ўключаюць у сябе тыя, якія з'яўляюцца папулярнымі ў вашым рэгіёне"</string>
     <string name="googleapp_autocomplete_with_trending_searches_title">Аўтазапаўненне з улікам папулярных запытаў</string>
+    <string name="googleapp_autoplay_video_previews_always">Праз Wi‑Fi і мабільны інтэрнэт</string>
+    <string name="googleapp_autoplay_video_previews_never">Ніколі</string>
+    <string name="googleapp_autoplay_video_previews_setting_title">Аўтапрайграванне перадпрагляду відэа</string>
+    <string name="googleapp_autoplay_video_previews_wifi">Толькі праз Wi-Fi</string>
     <string name="googleapp_back_arrow_description">Назад</string>
     <string name="googleapp_bar_color_title">Колер панэлі</string>
     <string name="googleapp_bar_logo_title">Лагатып панэлі</string>
@@ -3289,12 +3377,6 @@
     <string name="googleapp_boc_tooltip_tap_to_manage_your_preferences">Націсніце, каб кіраваць параметрамі і водгукамі</string>
     <string name="googleapp_books_mode_landing_text">Пошук кніг</string>
     <string name="googleapp_bottom_navigation_collections_label_content_description">Кнопка \"Калекцыі\"</string>
-    <string name="googleapp_broad_queries_topbar_mic_description">Галасавы пошук</string>
-    <string name="googleapp_broad_queries_topbar_search_description">Пошук</string>
-    <string name="googleapp_broad_queries_topbar_up_content_description">Назад</string>
-    <string name="googleapp_broadqueries_error_message">Праверце, ці працуе інтэрнэт-падключэнне</string>
-    <string name="googleapp_broadqueries_error_title">Нешта пайшло не так</string>
-    <string name="googleapp_broadqueries_loading_indicator_desc">Ідзе загрузка змесціва</string>
     <string name="googleapp_browser_actionbutton_ampinfo">Падрабязней пра AMP</string>
     <string name="googleapp_browser_actionbutton_overflowmenu">Іншыя дзеянні</string>
     <string name="googleapp_browser_actionbutton_tabs">Укладкі</string>
@@ -3307,8 +3389,8 @@
     <string name="googleapp_browser_clear_error">Пры спробе выдаліць гісторыю праглядаў нешта пайшло не так.</string>
     <string name="googleapp_browser_contextmenu_open_in_new_tab_title">Адкрыць у новай укладцы</string>
     <string name="googleapp_browser_contextmenu_previewimage_description">Папярэдні прагляд відарыса</string>
-    <string name="googleapp_browser_contextmenu_previewimage_scrolllabel">Scroll for more of image</string>
-    <string name="googleapp_browser_contextmenu_previewimage_smalllabel">Image preview enlarged from original size</string>
+    <string name="googleapp_browser_contextmenu_previewimage_scrolllabel">Прагартайце, каб пабачыць нябачныя часткі відарыса</string>
+    <string name="googleapp_browser_contextmenu_previewimage_smalllabel">У параўнанні з яго зыходным памерам відарыс перадпрагляду павялічаны</string>
     <string name="googleapp_browser_download_blocker_incognito_continue_btn">Спампаваць</string>
     <string name="googleapp_browser_download_blocker_incognito_message">Спампаваныя файлы захоўваюцца на прыладзе. Яны застануцца даступнымі і пасля таго, як вы выключыце рэжым інкогніта.</string>
     <string name="googleapp_browser_enable_title">Адкрываць вэб-старонкі ў праграме Google</string>
@@ -3318,28 +3400,27 @@
     <string name="googleapp_browser_firstrun_summary">"Праграма Google была абноўлена. Цяпер вы можаце праглядаць вэб-змесціва – напрыклад, артыкулы, відэа і гісторыі – у адным інтэрфейсе.
 
 Магчыма, вам спатрэбіцца змяніць налады браўзера і ўвайсці ва ўліковы запіс на некаторых сайтах."</string>
-    <string name="googleapp_browser_firstrun_summary_v2">"Now you can view pages faster and enjoy an improved search experience.
+    <string name="googleapp_browser_firstrun_summary_v2">"Цяпер вы можаце праглядаць старонкі хутчэй і карыстацца палепшанай функцыяй пошуку.
 
-You may need to log back in to some sites."</string>
+Магчыма, вам трэба будзе занава ўвайсці ва ўліковы запіс на некаторых сайтах."</string>
     <string name="googleapp_browser_firstrun_summary_v2_part2">"
 
-Manage your new browser security and privacy settings in the app."</string>
+Кіраваць новымі наладамі прыватнасці і бяспекі браўзера можна ў праграме."</string>
     <string name="googleapp_browser_firstrun_title">Цяпер вэб-змесціва адкрываецца ў праграме</string>
-    <string name="googleapp_browser_firstrun_title_v2">Browse without leaving the app</string>
+    <string name="googleapp_browser_firstrun_title_v2">Праглядайце вэб-старонкі, не выходзячы з праграмы</string>
     <string name="googleapp_browser_setting_clear_cache_title"><b>Відарысы і файлы ў кэшы</b>"
 Некаторыя сайты могуць загружацца павальней пры наступным наведванні."</string>
     <string name="googleapp_browser_setting_clear_data_title"><b>Файлы cookie і даныя сайтаў</b>"
 Будзе выкананы выхад з большасці сайтаў. З Уліковага запісу Google вы не выйдзеце."</string>
     <string name="googleapp_browser_settings_browser_privacy_category_title">Прыватнасць у браўзеры</string>
     <string name="googleapp_browser_settings_browser_safety_category_title">Бяспека ў браўзеры</string>
-    <string name="googleapp_browser_settings_browsing_history_summary">Manage your browsing history at My Activity</string>
+    <string name="googleapp_browser_settings_browsing_history_summary">Кіруйце гісторыяй прагляду сайтаў на старонцы \"Мае дзеянні\"</string>
     <string name="googleapp_browser_settings_browsing_history_title">Гісторыя прагляду сайтаў</string>
     <string name="googleapp_browser_settings_clear_browsing_data_summary">Выдаліць файлы cookie і кэшаваныя даныя</string>
     <string name="googleapp_browser_settings_clear_browsing_data_title">Выдаліць даныя аб праглядзе старонак у інтэрнэце</string>
     <string name="googleapp_browser_settings_cleardata_button_text">Выдаліць даныя</string>
     <string name="googleapp_browser_settings_extended_safe_browsing_summary">Адпраўляць даныя браўзера ў Google для выяўлення небяспечных праграм і сайтаў. Гэтыя даныя ўключаюць у сябе URL-адрасы і змесціва некаторых наведаных старонак, а таксама пэўную сістэмную інфармацыю.</string>
     <string name="googleapp_browser_settings_extended_safe_browsing_title">Дапамагаць павышаць бяспеку браўзера</string>
-    <string name="googleapp_browser_settings_link">Налады браўзера</string>
     <string name="googleapp_browser_settings_real_time_safe_browsing_summary">Правяраць наяўнасць праблем з бяспекай пры кожным наведванні сайта. URL-адрасы старонак, якія вы наведваеце, будуць адпраўляцца ў Google.</string>
     <string name="googleapp_browser_settings_real_time_safe_browsing_title">Правяраць бяспеку сайтаў у рэальным часе</string>
     <string name="googleapp_browser_settings_safe_browsing_summary">Папярэджваць пры спробе пераходу на сайт, які мае праблемы з бяспекай. Небяспечныя URL-адрасы, па якіх вы пераходзіце, могуць адпраўляцца ў Google.</string>
@@ -3406,10 +3487,10 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_covid_vaccine_register_25_subheader">Атрымаць вакцыну могуць усе, каму споўнілася 25 гадоў</string>
     <string name="googleapp_covid_vaccine_register_header">Зарэгіструйцеся вакцынацыю ад COVID-19 сёння</string>
     <string name="googleapp_custom_color_description">Карыстальніцкая колеравая тэма віджэта Пошуку</string>
-    <string name="googleapp_custom_color_hue_slider_description">Custom hue slider</string>
-    <string name="googleapp_custom_color_hue_slider_label">Hue</string>
-    <string name="googleapp_custom_color_saturation_slider_description">Custom saturation slider</string>
-    <string name="googleapp_custom_color_saturation_slider_label">Saturation</string>
+    <string name="googleapp_custom_color_hue_slider_description">Паўзунок для выбару адцення</string>
+    <string name="googleapp_custom_color_hue_slider_label">Адценне</string>
+    <string name="googleapp_custom_color_saturation_slider_description">Паўзунок для выбару насычанасці</string>
+    <string name="googleapp_custom_color_saturation_slider_label">Насычанасць</string>
     <string name="googleapp_custom_tabs_collections_menu_item_title">Прагледзець калекцыі</string>
     <string name="googleapp_custom_tabs_copy_link_menu_item_title">Скапіраваць спасылку</string>
     <string name="googleapp_custom_tabs_copy_link_toast_text">Спасылка скапіравана ў буфер абмену</string>
@@ -3421,6 +3502,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_custom_tabs_enabled_setting_unavailable_need_first_run_done">Каб уключыць гэту наладу, адкрыйце і наладзьце Chrome</string>
     <string name="googleapp_custom_tabs_enabled_setting_unavailable_update_chrome">Каб уключыць гэту наладу, усталюйце апошнюю версію Chrome</string>
     <string name="googleapp_custom_tabs_help_menu_item_title">Даведка</string>
+    <string name="googleapp_custom_tabs_piros_menu_item_title">Выдаліць вынікі са звесткамі пра вас</string>
     <string name="googleapp_custom_tabs_recently_menu_item_title">Апошняе</string>
     <string name="googleapp_customize_text">Наладзіць</string>
     <string name="googleapp_disco_channels_and_interests_tng_setting">Каналы і інтарэсы</string>
@@ -3532,7 +3614,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_general_settings_title">Агульныя налады</string>
     <string name="googleapp_go_to_discover_content_description">Перайсці ў Рэкамендацыі</string>
     <string name="googleapp_goc_bottombar_close_description">Схаваць звязаныя старонкі</string>
-    <string name="googleapp_google_app_browser_instacart_button_content_description">Instacart button</string>
+    <string name="googleapp_google_app_browser_instacart_button_content_description">Кнопка Instacart</string>
     <string name="googleapp_hide_explicit_results_settings_title">Хаванне вынікаў сексуальнага характару</string>
     <string name="googleapp_images_mode_landing_text">Пошук відарысаў</string>
     <string name="googleapp_incognito_app_strip_header">З вашых праграм (рэжым інкогніта можа не працаваць у знойдзеных праграмах)</string>
@@ -3566,7 +3648,6 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_incognito_setup_device_biometrics_dialog_title">Наладжванне біяметрыі</string>
     <string name="googleapp_incognito_signpost_button_text">Выключыць</string>
     <string name="googleapp_incognito_signpost_icon_description">Значок рэжыму інкогніта</string>
-    <string name="googleapp_incognito_signpost_message_assistant">Функцыі Памочніка недаступныя ў рэжыме інкогніта – выйдзіце з гэтага рэжыму, каб атрымаць доступ да Памочніка</string>
     <string name="googleapp_incognito_signpost_message_collections">Калекцыі недаступныя ў рэжыме інкогніта – выйдзіце з гэтага рэжыму, каб атрымаць да іх доступ</string>
     <string name="googleapp_incognito_signpost_message_default">Функцыя недаступная ў рэжыме інкогніта – выйдзіце з гэтага рэжыму, каб атрымаць да яе доступ</string>
     <string name="googleapp_incognito_signpost_message_discover">Стужка \"Рэкамендацыі\" недаступная ў рэжыме інкогніта</string>
@@ -3589,7 +3670,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_interstitial_visibility_warning_isp">Ваш інтэрнэт-правайдар.</string>
     <string name="googleapp_interstitial_visibility_warning_websites">Вэб-сайты, якія вы наведваеце.</string>
     <string name="googleapp_language_setting_title">Пошук мовы</string>
-    <string name="googleapp_language_switcher_auto_option">Auto-switch</string>
+    <string name="googleapp_language_switcher_auto_option">Аўтаматычна</string>
     <string name="googleapp_lens_button_content_description">Пошук з дапамогай камеры</string>
     <string name="googleapp_lens_explainer">"Шукаць інфармацыю пра любыя аб'екты можна, фатаграфуючы іх"</string>
     <string name="googleapp_lens_icon_content_description">Пошук з дапамогай камеры</string>
@@ -3668,7 +3749,14 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_recent_pages_enabled_setting_title">Нядаўна наведаныя старонкі</string>
     <string name="googleapp_region_setting_title">Рэгіён пошуку</string>
     <string name="googleapp_reset_style_text">Скінуць да стандартнага стылю</string>
-    <string name="googleapp_save_button_text">Save</string>
+    <string name="googleapp_save_button_text">Захаваць</string>
+    <string name="googleapp_save_feature_default_collection_label">Абраныя старонкі</string>
+    <string name="googleapp_save_feature_error_title">Нешта пайшло не так</string>
+    <string name="googleapp_save_feature_share_close_button_description">Закрыць</string>
+    <string name="googleapp_save_feature_share_receiver_subject_and_text">"%1$s
+
+%2$s"</string>
+    <string name="googleapp_save_feature_share_save">Захаваць</string>
     <string name="googleapp_search_a_song_content_description">Націсніце на кнопку, каб пачаць распазнаванне кампазіцыі</string>
     <string name="googleapp_search_bar_radius_24dp_description">З акруглымі канцамі</string>
     <string name="googleapp_search_bar_radius_2dp_description">Прамавугольнік</string>
@@ -3698,26 +3786,27 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_second_screen_manage_interests_menu_label">Кіраваць інтарэсамі</string>
     <string name="googleapp_second_screen_settings_menu_label">Налады</string>
     <string name="googleapp_see_updates">Паказаць абнаўленні</string>
-    <string name="googleapp_settings_about_link">Інфармацыя</string>
+    <string name="googleapp_setting_error_card_icon_content_description">Памылка</string>
+    <string name="googleapp_setting_error_card_message_explanation">Не ўдалося загрузіць вэб-старонку</string>
+    <string name="googleapp_setting_error_card_message_title">Нешта пайшло не так</string>
     <string name="googleapp_settings_about_title">Інфармацыя</string>
-    <string name="googleapp_settings_general_link">Агульныя налады</string>
-    <string name="googleapp_settings_language_and_region_link">Мова і рэгіён</string>
     <string name="googleapp_settings_language_and_region_title">Мова і рэгіён</string>
     <string name="googleapp_settings_legal_notices_title">Прававыя палажэнні</string>
     <string name="googleapp_settings_location_terms_of_service_title">Умовы выкарыстання геалакацыі</string>
+    <string name="googleapp_settings_nav_up">Перайсці ўверх</string>
     <string name="googleapp_settings_open_source_licenses_title">Староннія апавяшчэнні</string>
     <string name="googleapp_settings_privacy_and_security_link">Прыватнасць і бяспека</string>
     <string name="googleapp_settings_privacy_policy_title">Палітыка прыватнасці</string>
-    <string name="googleapp_settings_search_widget_link">Віджэт Пошуку</string>
+    <string name="googleapp_settings_search">Пошук</string>
+    <string name="googleapp_settings_search_hint">Шукаць у наладах</string>
     <string name="googleapp_settings_terms_of_service_title">Умовы выкарыстання</string>
-    <string name="googleapp_settings_voice_link">Галасавы ўвод</string>
     <string name="googleapp_settings_voice_title">Голас</string>
     <string name="googleapp_shopping_mode_landing_text">Пошук тавараў</string>
     <string name="googleapp_show_waiting_text">Хвілінку…</string>
-    <string name="googleapp_sign_in_tout_header">Sign in to personalize Discover</string>
-    <string name="googleapp_sign_in_tout_negative_text">Cancel</string>
-    <string name="googleapp_sign_in_tout_positive_text">Sign in</string>
-    <string name="googleapp_sign_in_tout_subheader">Control what you see in the Google app by signing in</string>
+    <string name="googleapp_sign_in_tout_header">Каб персаналізаваць Рэкамендацыі, увайдзіце ва ўліковы запіс</string>
+    <string name="googleapp_sign_in_tout_negative_text">Скасаваць</string>
+    <string name="googleapp_sign_in_tout_positive_text">Увайсці</string>
+    <string name="googleapp_sign_in_tout_subheader">Каб вызначыць, якое змесціва павінна паказвацца ў праграме Google, увайдзіце ва ўліковы запіс</string>
     <string name="googleapp_signed_out_pq_based_suggestion_message">Гэта падказка звязана з нядаўнімі пошукавымі запытамі.</string>
     <string name="googleapp_silk_pane_close_button">Закрыць</string>
     <string name="googleapp_silk_pane_dismiss_message">Адхіліць</string>
@@ -3725,6 +3814,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_sno_subscriptions_internal_error_header">Нешта пайшло не так</string>
     <string name="googleapp_sno_subscriptions_offline_error_message">Каб праглядаць і змяняць свае падпіскі, вам трэба падключыцца да сеткі</string>
     <string name="googleapp_sound_search_search_a_song_hint">Шукаць кампазіцыю</string>
+    <string name="googleapp_srp_query_tiger">тыгр</string>
     <string name="googleapp_stamp_viewer_actionbutton_feedback">Адправіць водгук</string>
     <string name="googleapp_stamp_viewer_actionbutton_heart">Памеціць сэрцайкам</string>
     <string name="googleapp_stamp_viewer_actionbutton_help_center">Даведачны цэнтр</string>
@@ -3739,7 +3829,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_stamp_viewer_error_title">Нешта пайшло не так</string>
     <string name="googleapp_stamp_viewer_overflow_menu_button_content_description">Дадатковыя параметры.</string>
     <string name="googleapp_stamp_viewer_overflow_menu_close">Закрыць</string>
-    <string name="googleapp_stamp_viewer_preview_button_text">Паглядзець усю гісторыю</string>
+    <string name="googleapp_stamp_viewer_preview_button_text">Працягнуць прагляд</string>
     <string name="googleapp_stamp_viewer_preview_label">Перадпрагляд</string>
     <string name="googleapp_stamp_viewer_publisher_cta">Наведаць</string>
     <string name="googleapp_stamp_viewer_retry_button_text">Паўтарыць спробу</string>
@@ -3756,7 +3846,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_tabs_manager_close_all_tabs_dialog_confirmation_button_label">Закрыць усе</string>
     <string name="googleapp_tabs_manager_close_all_tabs_dialog_confirmation_message">Сапраўды закрыць усе адкрытыя ўкладкі?</string>
     <string name="googleapp_tabs_manager_close_tab_button_default_description">закрыць укладку</string>
-    <string name="googleapp_tabs_manager_close_tab_button_description">закрыць вэб-сайт %s – кнопка</string>
+    <string name="googleapp_tabs_manager_close_tab_button_description">закрыць вэб-сайт %s</string>
     <string name="googleapp_tabs_manager_empty_state_title">Адкрытых укладак няма</string>
     <string name="googleapp_tabs_manager_new_tab_button_description">пачаць новы пошук</string>
     <string name="googleapp_tabs_manager_new_tab_button_text">Новая ўкладка</string>
@@ -3774,18 +3864,19 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_voice_search_humming">Шукайце песні, напяваючы іх</string>
     <string name="googleapp_voice_search_tired_of_typing">Надакучыла набіраць запыты? Шукайце з дапамогай голасу</string>
     <string name="googleapp_voice_search_with_voice">Шукайце з дапамогай голасу</string>
+    <string name="googleapp_voice_settings_assistant_title">Памочнік Google</string>
     <string name="googleapp_voice_settings_languages_setting_check_content_description">Выбрана</string>
     <string name="googleapp_voice_settings_languages_setting_limit_reached_notice">Ліміт дасягнуты. Вы не можаце выбраць больш моў.</string>
     <string name="googleapp_voice_settings_languages_setting_no_selection_notice">Мова не выбрана.</string>
     <string name="googleapp_voice_settings_languages_setting_save_button_text">ЗАХАВАЦЬ</string>
+    <string name="googleapp_voice_settings_languages_setting_summary_text_others">Others:</string>
+    <string name="googleapp_voice_settings_languages_setting_summary_text_primary">Primary:</string>
     <string name="googleapp_voice_settings_languages_setting_title">Мовы</string>
     <string name="googleapp_voice_settings_offline_speech_recognition_setting_summary">Кіраванне спампаванымі мовамі</string>
     <string name="googleapp_voice_settings_offline_speech_recognition_setting_title">Распазнаванне маўлення афлайн</string>
     <string name="googleapp_voice_settings_spoken_results_setting_title">Агучванне вынікаў</string>
-    <string name="googleapp_voice_settings_spoken_results_value_all_voices">Усе галасавыя пошукавыя запыты</string>
-    <string name="googleapp_voice_settings_spoken_results_value_hands_free_only">Толькі з галасавым кіраваннем</string>
-    <string name="googleapp_voice_settings_voice_match_setting_summary">Гаварыце з Памочнікам Google, каб выконваць розныя задачы</string>
-    <string name="googleapp_voice_settings_voice_match_setting_title">Voice Match</string>
+    <string name="googleapp_voice_settings_spoken_results_value_all_voices">On</string>
+    <string name="googleapp_voice_settings_spoken_results_value_hands_free_only">Off</string>
     <string name="googleapp_waa_disabled_tout_promo_description">Налады прыватнасці Google Пошуку</string>
     <string name="googleapp_waa_disabled_tout_promo_header">Змесціва стужкі падбіраецца без уліку вашай гісторыі</string>
     <string name="googleapp_waa_disabled_tout_promo_subheader">Стужка \"Рэкамендацыі\" падбіраецца без уліку гісторыі, бо \"Дзеянні ў інтэрнэце і праграмах\" выключаны</string>
@@ -3858,6 +3949,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="help_and_feedback">Даведка і водгукі</string>
     <string name="help_quoted_example_query">“%s”</string>
     <string name="heres_the_message">Вось паведамленне:</string>
+    <string name="hey_google_title">Распазнаванне каманды \"Ok Google\"</string>
     <string name="hide_completed_episodes">Схаваць праслуханыя выпускі</string>
     <string name="hide_debug_info">Схаваць адлад. інф.</string>
     <string name="hide_examples_description">Схаваць прыклады</string>
@@ -3897,6 +3989,8 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="hotseat_out_of_space">У латку \"Абранае\" больш няма месца</string>
     <string name="hotword_disabled">\"%1$s\" выключана</string>
     <string name="hotword_disabled_motorola_aov">Іншая функцыя выкарыстоўвае мікрафон замест \"%1$s\". Выключыце Moto Voice, каб зноў уключыць \"%1$s\".</string>
+    <string name="hotword_enrollment_battery_impact_disclosure_wear_os">Пры выкарыстанні галасавой каманды \"%1$s\" гадзіннік разраджаецца хутчэй. Фразу \"%2$s\" можна выключыць у наладах Памочніка.</string>
+    <string name="hotword_enrollment_battery_impact_disclosure_wear_os_for_unicorn">Пры выкарыстанні галасавой каманды \"%1$s\" гадзіннік разраджаецца хутчэй. Фразу \"%2$s\" можна выключыць у наладах Памочніка карыстальніка %3$s.</string>
     <string name="hotword_enrollment_button_more">Яшчэ</string>
     <string name="hotword_enrollment_delete_voice_model">Выдаліць галасавую мадэль</string>
     <string name="hotword_enrollment_device_fast_update_progress_summary">Памочнік выкарыстоўвае зробленыя раней запісы вашага маўлення, каб стварыць узор голасу для гэтай прылады.</string>
@@ -3916,7 +4010,10 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="hotword_enrollment_enroll_text_opa_talkback">Актывуйце кнопку %1$s ніжэй, а потым скажыце \"%2$s\", каб памочнік вывучыў ваш голас.</string>
     <string name="hotword_enrollment_enroll_text_opa_talkback_assistant_device">"Каб навучыць Памочніка распазнаваць ваш голас, націсніце кнопку ПАЧАЦЬ ЗАПІС ніжэй і прамоўце наступную фразу:
 %1$s"</string>
+    <string name="hotword_enrollment_enroll_text_opa_tisid_talkback_assistant_device">Пасля таго як вы пяройдзеце на наступны экран, Памочнік паспрабуе навучыцца распазнаваць ваш голас: ён вымавіць фразу, якую вы павінны будзеце паўтарыць. Праслухайце яе, затым націсніце кнопку \"Пачаць запіс\" і гучна вымавіце фразу самі. Каб пачаць, націсніце \"%1$s\".</string>
+    <string name="hotword_enrollment_enroll_tisid_talkback_next">Далей</string>
     <string name="hotword_enrollment_fast_update_header_title">Уключаецца функцыя Voice Match</string>
+    <string name="hotword_enrollment_feature_disabled">Гэта функцыя была адключана</string>
     <string name="hotword_enrollment_feature_disabled_by_admin">Гэту функцыю адключыў адміністратар</string>
     <string name="hotword_enrollment_from_fdl_google_home_share_screen_done">Гатова</string>
     <string name="hotword_enrollment_google_home_enrollment_intro_title_activate">Актывуйце Voice Match на гэтай прыладзе</string>
@@ -3944,8 +4041,8 @@ Manage your new browser security and privacy settings in the app."</string>
 Вы таксама можаце скарыстацца гэтай магчымасцю і атрымліваць персаналізаваныя адказы! Націсніце, каб увайсці ў сваю прыладу: g.co/voicematch"</string>
     <string name="hotword_enrollment_google_home_share_message_subject">Навучыце Памочніка пазнаваць вас</string>
     <string name="hotword_enrollment_google_home_share_screen_done">Запрасіць</string>
-    <string name="hotword_enrollment_google_home_skip_dialog_negative_button">Наладзіць Voice Match</string>
-    <string name="hotword_enrollment_google_home_skip_dialog_positive_button">Завяршыць</string>
+    <string name="hotword_enrollment_google_home_skip_dialog_negative_button">Выдаліць</string>
+    <string name="hotword_enrollment_google_home_skip_dialog_positive_button">Наладзіць Voice Match</string>
     <string name="hotword_enrollment_google_home_skip_dialog_title">Уліковы запіс карыстальніка {PERSON} будзе выдалены з гэтай прылады</string>
     <string name="hotword_enrollment_google_home_summary_footer_text">Праглядзець або выдаліць галасавую дзейнасць можна ў раздзеле %1$s. Выключыць Voice Match можна ў наладах Памочніка.</string>
     <string name="hotword_enrollment_google_home_tisid_enrollment_devices">"
@@ -3963,7 +4060,16 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="hotword_enrollment_intro_get_started_unicorn">Далей</string>
     <string name="hotword_enrollment_intro_header_summary">Задавайце пытанні Памочніку голасам</string>
     <string name="hotword_enrollment_intro_header_summary_oobe">{GENDER,select, male{%1$s можа атрымліваць дапамогу па гучнай сувязі.}female{%1$s можа атрымліваць дапамогу па гучнай сувязі.}other{%1$s можа атрымліваць дапамогу па гучнай сувязі.}}</string>
-    <string name="hotword_enrollment_intro_header_summary_wear_os_battery_disclosure">Гадзіннік будзе знаходзіцца ў рэжыме чакання, каб вы маглі карыстацца галасавым кіраваннем</string>
+    <string name="hotword_enrollment_intro_header_summary_wear_os">"Калі націснуць \"%1$s\", Памочнік пяройдзе ў рэжым чакання галасавой каманды \"%2$s\", пасля якой гадзіннік цалкам актывуецца.
+
+Каб Памочнік мог распазнаць ваш голас, калі вы вымаўляеце \"%3$s\", функцыя Voice Match павінна быць уключана."</string>
+    <string name="hotword_enrollment_intro_header_summary_wear_os_for_unicorn">"{GENDER,select, male{Калі націснуць \"%1$s\", Памочнік карыстальніка %2$s пяройдзе ў рэжым чакання галасавой каманды \"%3$s\", пасля якой гадзіннік цалкам актывуецца.
+
+Каб Памочнік мог распазнаць яго голас, калі %5$s вымаўляе \"%4$s\", функцыя Voice Match павінна быць уключана.}female{Калі націснуць \"%1$s\", Памочнік карыстальніка %2$s пяройдзе ў рэжым чакання галасавой каманды \"%3$s\", пасля якой гадзіннік цалкам актывуецца.
+
+Каб Памочнік мог распазнаць яе голас, калі %5$s вымаўляе \"%4$s\", функцыя Voice Match павінна быць уключана.}other{Калі націснуць \"%1$s\", Памочнік карыстальніка %2$s пяройдзе ў рэжым чакання галасавой каманды \"%3$s\", пасля якой гадзіннік цалкам актывуецца.
+
+Каб Памочнік мог распазнаць голас карыстальніка %5$s, калі гэты карыстальнік вымаўляе \"%4$s\", функцыя Voice Match павінна быць уключана.}}"</string>
     <string name="hotword_enrollment_intro_header_title">Выклікайце Памочніка камандай \"%1$s\"</string>
     <string name="hotword_enrollment_intro_header_title_glif_non_opa">Галасавы пошук у любы час</string>
     <string name="hotword_enrollment_intro_header_title_oobe">Дазвольце карыстальніку %1$s выклікаць Памочніка камандай \"%2$s\"</string>
@@ -3986,6 +4092,8 @@ Voice Match дазваляе Памочніку ідэнтыфікаваць г�
 Калі вы вырашыце, што карыстальніку %1$s не трэба выкарыстоўваць Voice Match, проста выдаліце для яго гэту функцыю праз Налады Памочніка. Каб праслухаць або выдаліць запісы, якія зрабіў карыстальнік %1$s пры наладжванні Voice Match, перайдзіце на старонку activity.google.com з уліковага запісу, якім валодае %1$s. 
 
 Заўвага. Асоба з падобным голасам ці запісам голасу можа атрымаць доступ да персанальных вынікаў карыстальніка %1$s праз вашага Памочніка}}"</string>
+    <string name="hotword_enrollment_intro_misactivation_disclaimer_wear_os">Памочнік можа ўключацца, калі вы гэтага не запытваеце (напрыклад, пры выяўленні шуму, падобнага да галасавой каманды \"%1$s\").</string>
+    <string name="hotword_enrollment_intro_misactivation_disclaimer_wear_os_for_unicorn">Памочнік можа ўключацца, калі %1$s гэтага не запытвае (напрыклад, пры выяўленні шуму, падобнага да галасавой каманды \"%2$s\").</string>
     <string name="hotword_enrollment_intro_summary_glif_non_opa">Скажыце \"%1$s\", каб пачаць размову з прыладай у любы момант, нават калі экран выключаны або калі запушчана праграма.&lt;br/>&lt;br/>На прыладзе будзе створаны ўзор вашага голасу, які дапаможа галасавому пошуку Google пазнаваць вас і адрозніваць ад іншых.&lt;br/>&lt;br/>&lt;b>Увага!&lt;/b> Доступ да галасавога пошуку можа атрымаць чалавек з падобным голасам або запісам вашага голасу. Гэты дазвол можна выдаліць у наладах праграмы Google.</string>
     <string name="hotword_enrollment_intro_title_activate_hey_google">Уключэнне функцыі Voice Match для галасавой каманды \"%1$s\"</string>
     <string name="hotword_enrollment_intro_title_activate_hey_google_for_unicorn">Актывуйце Voice Match для карыстальніка %1$s</string>
@@ -4079,7 +4187,6 @@ Voice Match дазваляе Памочніку ідэнтыфікаваць г�
     <string name="hotword_enrollment_voice_match_next">Далей</string>
     <string name="hotword_enrollment_voice_match_no_thanks">Не, дзякуй</string>
     <string name="hotword_enrollment_voice_match_skip">Прапусціць</string>
-    <string name="hotword_enrollment_wear_os_battery_impact_disclosure">У рэжыме чакання акумулятар гадзінніка разраджаецца хутчэй</string>
     <string name="hotword_enrollment_wrong_query">Скажыце яшчэ раз</string>
     <string name="hotword_model_download_notification_content">Ідзе абнаўленне ўзору голасу для лепшага распазнавання галасавой каманды \"%1$s\"</string>
     <string name="hotword_model_download_notification_title">Абнаўленне мадэлі \"%1$s\"</string>
@@ -4352,6 +4459,7 @@ Voice Match дазваляе Памочніку ідэнтыфікаваць г�
     <string name="language_switcher_nudge_string">Каб змяніць мову, націсніце на гэту кнопку</string>
     <string name="language_unsupported_text">Змяніце мову Памочніка</string>
     <string name="language_unsupported_tts">"Я не ведаю мовы, выбранай вамі для аўтамабіля. Калі хочаце атрымліваць ад мяне дапамогу, вы можаце выбраць іншую мову – толькі для размоў са мной. Гэта можна зрабіць у наладах Памочніка ў аўтамабілі, калі з'явіцца бяспечная магчымасць."</string>
+    <string name="launch_driving_mode">Запускаць рэжым \"За рулём\"</string>
     <string name="launcher_name">Запуск Google Now</string>
     <string name="launcher_shortcut_assistant_short">Памочнік Google</string>
     <string name="launcher_shortcut_text_search_short">Пошук</string>
@@ -4430,7 +4538,7 @@ Voice Match дазваляе Памочніку ідэнтыфікаваць г�
     <string name="lens_education_filter_guidance_message">Атрыманне дапамогі: навядзіце на дамашнюю работу і націсніце \"Зняць\"</string>
     <string name="lens_empty_latex_snackbar">Каб пабачыць вынікі, увядзіце матэматычнае ўраўненне</string>
     <string name="lens_error_please_try_again">Паўтарыце спробу</string>
-    <string name="lens_failed_to_open_3rd_party_content">Unable to load content</string>
+    <string name="lens_failed_to_open_3rd_party_content">Не ўдалося загрузіць змесціва</string>
     <string name="lens_failed_to_open_image">Не ўдалося адкрыць відарыс.</string>
     <string name="lens_failure_info_card_compact_text_filter_description">Каб капіраваць або шукаць, зрабіце фота слоў</string>
     <string name="lens_failure_info_card_compact_translate_filter_description">Каб перакласці, зрабіце фота тэксту</string>
@@ -4507,14 +4615,13 @@ Voice Match дазваляе Памочніку ідэнтыфікаваць г�
     <string name="lens_info_panel_on_device_chip_share_translate_content_description">Абагуліць перакладзены відарыс</string>
     <string name="lens_info_panel_on_device_chip_translate">Перакласці</string>
     <string name="lens_info_panel_on_device_chip_translate_content_description">Перакласці вылучаны тэкст</string>
-    <string name="lens_info_panel_on_device_no_text_header_title">Тэкст не знойдзены</string>
     <string name="lens_info_panel_on_device_results_header_limited_functionality">Пэўныя функцыі недаступныя</string>
     <string name="lens_info_panel_on_device_results_header_offline">Па-за сеткай</string>
     <string name="lens_info_panel_on_device_text_header_title">На гэтым відарысе знойдзены тэкст</string>
     <string name="lens_info_panel_on_device_translation_header_title">Перакладзены тэкст</string>
+    <string name="lens_info_panel_partial_translate_enabled_header_title">Зыходны тэкст</string>
     <string name="lens_info_panel_processing_message">Ідзе загрузка…</string>
     <string name="lens_info_panel_quoted_title">\"%1$s\"</string>
-    <string name="lens_info_panel_select_text_to_translate_header_title">Выберыце тэкст для перакладу</string>
     <string name="lens_kilometers_indicator">%s км</string>
     <string name="lens_latex_input_hint">Увядзіце матэматычную задачу</string>
     <string name="lens_launcher_description">Пошук з дапамогай камеры</string>
@@ -4610,6 +4717,7 @@ Voice Match дазваляе Памочніку ідэнтыфікаваць г�
     <string name="lens_sample_images_translate_card_text_short">Відарысы перакладу</string>
     <string name="lens_search_bar_hint">Увядзіце назву рэстарана</string>
     <string name="lens_search_filter_name">Пошук</string>
+    <string name="lens_selection_state_guidance_message_on_device_translation">Каб перакласці, націсніце на тэкст</string>
     <string name="lens_share_to_lens_label">Шукаць па відарысе</string>
     <string name="lens_share_translate_message">"Перакладзена з дапамогай Google Аб'ектыва. Паспрабуйце самі!"</string>
     <string name="lens_shopping_filter_guidance_message">Сфатаграфуйце тавар ці штрыхкод</string>
@@ -4723,14 +4831,10 @@ Voice Match дазваляе Памочніку ідэнтыфікаваць г�
     <string name="local_intent_search">Здаецца, вы спрабуеце знайсці месца, знаходзячыся па-за сеткай.</string>
     <string name="local_results_map_description">Карта %1$s</string>
     <string name="location">Месцазнаходжанне</string>
-    <string name="location_added_snackbar_text">Месца дададзена</string>
-    <string name="location_default_error">Нешта пайшло не так. Паўтарыце спробу пазней.</string>
     <string name="location_feedback_button_heading">Каб адправіць водгук пра картку, выберыце пункт \"ФОРМА ВОДГУКУ АБ КАРТЦЫ МЕСЦАЗНАХОДЖАННЯ\".</string>
     <string name="location_feedback_button_text">Форма водгуку аб картцы месцазнаходжання</string>
     <string name="location_name">Імя</string>
-    <string name="location_not_saved_snackbar_text">Месца: %s не было захавана.</string>
     <string name="location_permission_toast">Google Пошук і Памочнік могуць выкарыстоўваць даныя вашай геалакацыі (у тым ліку ў фонавым рэжыме), каб вы атрымлівалі вынікі і функцыі, якія адпавядаюць вашаму месцазнаходжанню.</string>
-    <string name="location_removed_snackbar_text">Месца выдалена</string>
     <string name="location_setting_title">Месцазнаходжанне</string>
     <string name="lockscreen_close_icon_description">Закрыць</string>
     <string name="lockscreen_consent_action">Так, згаджаюся</string>
@@ -4820,6 +4924,7 @@ Voice Match дазваляе Памочніку ідэнтыфікаваць г�
     <string name="mdd_notification_action_cancel">Скасаваць</string>
     <string name="mdd_notification_download_failed">Збой спампоўкі</string>
     <string name="mdd_notification_download_paused">Чакаецца падключэнне да сеткі</string>
+    <string name="mdd_notification_download_paused_wifi">Waiting for WiFi connection</string>
     <string name="mdd_notification_download_success">Спампаваны</string>
     <string name="media_artist_a11y">%1$s, выканаўца</string>
     <string name="media_assistant_logo_a11y">Націсніце і гаварыце</string>
@@ -4884,6 +4989,10 @@ Voice Match дазваляе Памочніку ідэнтыфікаваць г�
     <string name="menu_overlay_reset_to_default_style">Скінуць да стандартнага стылю</string>
     <string name="menu_refresh">Абнавіць</string>
     <string name="menu_send_button_content_description">Кнопка \"Адправіць\" для адпраўкі водгукаў.</string>
+    <string name="message_alert_hear_contact">Агучваць імя кантакту</string>
+    <string name="message_alert_hear_message">Агучваць усё паведамленне</string>
+    <string name="message_alert_notification_only">Толькі апавяшчаць</string>
+    <string name="message_alert_title">Укажыце, як рэагаваць на паведамленні</string>
     <string name="message_announce_title">Інфармаванне аб паведамленнях</string>
     <string name="message_card_feedback">Адправіць водгук</string>
     <string name="message_center_auto_read_setting_turn_on">Уключыць аўтачытанне</string>
@@ -4904,6 +5013,9 @@ Voice Match дазваляе Памочніку ідэнтыфікаваць г�
     <string name="message_sound_search_result_tts">Вы слухаеце %s</string>
     <string name="message_sound_search_result_with_artist_tts" formatted="false">Вы слухаеце %s выканаўцы %s</string>
     <string name="message_who_initial_prompt">Каму вы хочаце адправіць паведамленне?</string>
+    <string name="messaging_settings_header">Выклікі і паведамленні</string>
+    <string name="messaging_toggle_description">Дзякуючы Памочніку вы можаце за рулём аўтамабіля праслухоўваць паведамленні і адказваць на іх</string>
+    <string name="messaging_toggle_title">Уключыць агучванне і адказ голасам</string>
     <string name="mic_button_content_description">Галасавы пошук</string>
     <string name="mic_button_description">Кнопка мікрафона: %1$s</string>
     <string name="mic_fab_content_description">Націсніце, каб пагаварыць з Памочнікам Google.</string>
@@ -5031,7 +5143,7 @@ Voice Match дазваляе Памочніку ідэнтыфікаваць г�
     <string name="mtrl_picker_toggle_to_day_selection">Дакраніцеся, каб пераключыцца на выбар дня</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Пераключыцца ў рэжым уводу \"Тэкст\"</string>
     <string name="mtrl_picker_toggle_to_year_selection">Дакраніцеся, каб пераключыцца на выбар года</string>
-    <string name="mtrl_timepicker_cancel">Cancel</string>
+    <string name="mtrl_timepicker_cancel">Скасаваць</string>
     <string name="mtrl_timepicker_confirm">ОК</string>
     <string name="multiple_devices_cant_find_device">Прылада не знойдзена</string>
     <string name="multiple_devices_found_explanation">Наладжваць можна толькі адну прыладу за раз. Выберыце прыладу, якую трэба падключыць да Памочніка.</string>
@@ -5066,7 +5178,6 @@ Voice Match дазваляе Памочніку ідэнтыфікаваць г�
     <string name="network_connection_unstable">Здаецца, падключэнне да сеткі нестабільнае. Паўтарыце спробу.</string>
     <string name="network_error">Немагчыма падключыцца да Google зараз.</string>
     <string name="network_error_airplane_mode_tts">Зараз няма падлучэння да інтэрнэту, таму што вы знаходзіцеся ў рэжыме «У самалёце».</string>
-    <string name="network_error_fetching_weather_data_status_text">Зараз сетка недаступна</string>
     <string name="network_error_no_connection_tts">Няма падлучэння да інтэрнэту.</string>
     <string name="network_error_try_again">Паўтарыце спробу</string>
     <string name="never">Ніколі</string>
@@ -5570,6 +5681,8 @@ Voice Match дазваляе Памочніку ідэнтыфікаваць г�
     <string name="notification_heading">Дазвольце Памочніку зачытваць вам апавяшчэнні</string>
     <string name="notification_modal_text">Апавяшчэнні пра новыя выпускі</string>
     <string name="notification_okay">Добра</string>
+    <string name="notification_permission_modal_description">Каб мець магчымасць праслухоўваць паведамленні і выключаць гук выклікаў, дайце праграме Google доступ да апавяшчэнняў.</string>
+    <string name="notification_permission_modal_title">Дазволіць Google доступ да апавяшчэнняў?</string>
     <string name="notification_permissions_button">Даць доступ</string>
     <string name="notification_permissions_description">Даць праграме Google доступ да налад рэжыму \"Не турбаваць\" і абмену паведамленнямі?</string>
     <string name="notification_settings">НАЛАДЫ</string>
@@ -5835,12 +5948,6 @@ Voice Match дазваляе Памочніку ідэнтыфікаваць г�
     <string name="opa_consent_check_error_title">Нешта пайшло не так</string>
     <string name="opa_consent_check_error_title_confirmreject">Задайце гэтыя налады і карыстайцеся ўсімі магчымасцямі Памочніка</string>
     <string name="opa_consent_check_error_title_notavailable">Памочнік Google недаступны для гэтага ўліковага запісу</string>
-    <string name="opa_contextual_cards_found_message">Вось некаторая інфармацыя, звязаная з гэтым экранам:</string>
-    <string name="opa_contextual_cards_found_proactive_message">Дарэчы, вось што звязана з гэтым экранам:</string>
-    <string name="opa_contextual_cards_network_error">Няма падключэння.</string>
-    <string name="opa_contextual_cards_no_cards_message">Я не магу знайсці на экране нічога, з чым я мог бы вам дапамагчы. Паспрабуйце дакрануцца да мікрафона, каб спытаць мяне аб чым-небудзь.</string>
-    <string name="opa_contextual_cards_nothing_found_card_text">На экране нічога не знойдзена</string>
-    <string name="opa_contextual_cards_offline_indicator">Ваш тэлефон працуе ў пазасеткавым рэжыме, таму зараз я не магу дапамагчы вам.</string>
     <string name="opa_contextual_cards_share_screenshot_error">Здаецца, нешта пайшло не так. Паспрабуйце яшчэ раз.</string>
     <string name="opa_continued_conversation_optin_screen_allow_button_text">Так, згаджаюся</string>
     <string name="opa_continued_conversation_optin_screen_disallow_button_text">Не, дзякуй</string>
@@ -6068,10 +6175,6 @@ Voice Match дазваляе Памочніку ідэнтыфікаваць г�
     <string name="opa_pre_upgrade_notifs_disabled_toast_text">Мы абнавілі налады і адключылі гэтыя абвесткі</string>
     <string name="opa_privacy_policy_chip_text">Палітыка прыватнасці</string>
     <string name="opa_proactive_notification_subtext">Памочнік</string>
-    <string name="opa_screen_read_it">Прачытайце</string>
-    <string name="opa_screen_read_this_page">Чытаць гэту старонку</string>
-    <string name="opa_screen_search_more_screen_context_action">Больш з майго экрана</string>
-    <string name="opa_screen_search_screen_context_action">Што на маім экране?</string>
     <string name="opa_screen_search_share_screenshot_action">Абагульванне здымка экрана</string>
     <string name="opa_screenless_nav_opt_in_notification_body">Падчас навігацыі вы можаце выкарыстоўваць свой голас, каб пагаварыць з Памочнікам Google</string>
     <string name="opa_screenless_nav_opt_in_notification_title">Выкарыстоўвайце Памочнік Google падчас навігацыі</string>
@@ -6243,6 +6346,7 @@ Voice Match дазваляе Памочніку ідэнтыфікаваць г�
     <string name="payments_auth_too_many_fingerprint_retries_should_use_password">Занадта шмат спроб. Увядзіце пароль.</string>
     <string name="payments_auth_use_biometric_checkbox_hint">Пацвярджаць будучыя плацяжы на гэтай прыладзе з дапамогай адбіткаў пальцаў, распазнавання твару або падобным спосабам.</string>
     <string name="payments_auth_use_fingerprint_checkbox_hint">Для будучых ухваленняў выкарыстоўваць адбітак пальца</string>
+    <string name="pending_fragment_error_toast">Нешта пайшло не так. Паўтарыце спробу пазней.</string>
     <string name="permdesc_install_shortcut">Дазваляе праграмам дадаваць ярлыкі без умяшання карыстальніка.</string>
     <string name="permdesc_read_settings">Дазваляе праграме счытваць налады і ярлыкі на Галоўнай старонцы.</string>
     <string name="permdesc_write_settings">Дазваляе праграме змяняць налады і ярлыкі на Галоўнай старонцы.</string>
@@ -6380,6 +6484,7 @@ Voice Match дазваляе Памочніку ідэнтыфікаваць г�
     <string name="phone_pr_title">Ваш тэлефон</string>
     <string name="phone_voice_match_settings_delete_voice_model_summary">Выдаліць з прылады мадэль голасу для Voice Match. Каманда \"%1$s\" перастане дзейнічаць.</string>
     <string name="phone_voice_match_settings_delete_voice_model_title">Выдаленне мадэлі голасу для Voice Match</string>
+    <string name="phone_voice_match_settings_not_supported_error">Галасавая каманда Ok Google не падтрымліваецца на гэтай прыладзе.</string>
     <string name="phone_voice_match_settings_retrain_summary">Навучыць Памочніка распазнаваць мой голас</string>
     <string name="phone_voice_match_settings_retrain_title">Абнаўленне мадэлі голасу для Voice Match</string>
     <string name="photo_downloading_error_toast_text">Памылка пры спампоўванні фота</string>
@@ -6775,13 +6880,13 @@ Voice Match дазваляе Памочніку ідэнтыфікаваць г�
     <string name="punt_for_personal_results">"Каб дапамагчы вам, мне патрэбны ваш дазвол на выкарыстанне функцыі персанальных вынікаў у гэтай машыне. Вы можаце даць дазвол у наладах Памочніка, калі ў вас з'явіцца магчымасць."</string>
     <string name="punt_for_signed_out">Для гэтага вам трэба ўвайсці ва Уліковы запіс Google. Калі гэта не будзе ствараць небяспекі дарожнаму руху, прачытайце апавяшчэнне аўтамабіля з апісаннем наступнага кроку.</string>
     <string name="punt_home_alias_unset">Здаецца, вы не ўказалі свой хатні адрас. Скажыце свой адрас, каб пракласці маршруты дадому.</string>
-    <string name="punt_max_volume">На жаль, павелічэнне гучнасці да максімальнага значэння (да 100%) зараз не падтрымліваецца на гэтай прыладзе.</string>
     <string name="punt_missing_call_permission">Здаецца, выклікі не ўключаны. Каб уключыць гэту функцыю, упэўніцеся што бяспецы руху нішто не пагражае, перайдзіце ў налады Bluetooth на тэлефоне і выберыце свой аўтамабіль.</string>
     <string name="punt_missing_message_permission">Здаецца, адпраўка SMS не ўключана. Каб уключыць гэту функцыю, упэўніцеся што бяспецы руху нішто не пагражае, перайдзіце ў налады Bluetooth на тэлефоне і выберыце свой аўтамабіль.</string>
     <string name="punt_non_percentage_volume_control">У аўтамабілі гучнасць задаецца ў працэнтах. Гэта значыць, што вы можаце, напрыклад, загадаць: \"Устанаві гучнасць на 25%\".</string>
     <string name="punt_offline_music">Адсутнічае падключэнне да інтэрнэту, таму я не магу ўключыць прайграванне.</string>
     <string name="punt_open_app">Гэта праграма не ўсталявана або недаступная зараз.</string>
     <string name="punt_open_unsafe_for_drving_app">Гэту праграму небяспечна выкарыстоўваць за рулём.</string>
+    <string name="punt_set_volume_beyond_threshold">З прычын бяспекі я не магу задаць такі высокі ўзровень гучнасці ў аўтамабілі. Вы можаце папрасіць мяне задаць узровень, не вышэйшы за %1$d%%</string>
     <string name="punt_work_alias_unset">Здаецца, вы не ўказалі свой працоўны адрас. Скажыце свой адрас, каб пракласці маршруты да працы.</string>
     <string name="qp_bottom_baseball_inning">Бот %1$d</string>
     <string name="qp_precip">Ападкі %1$s</string>
@@ -6793,7 +6898,6 @@ Voice Match дазваляе Памочніку ідэнтыфікаваць г�
     <string name="qp_weather_unit_abbrev_celsius">C</string>
     <string name="qp_weather_unit_abbrev_fahrenheit">F</string>
     <string name="qp_wind_speed">Вецер %1$d%2$s</string>
-    <string name="qpf_label">Колькасны прагноз ападкаў: %s</string>
     <string name="qsb_promocard_icon_description">Google</string>
     <string name="qsb_promocard_negative_button_text">Не, дзякуй</string>
     <string name="qsb_promocard_positive_button_text">Дадаць</string>
@@ -6836,7 +6940,6 @@ Voice Match дазваляе Памочніку ідэнтыфікаваць г�
     <string name="rating_very_dissatisfied">Вельмі незадаволены</string>
     <string name="rating_very_satisfied">Вельмі задаволены</string>
     <string name="rating_views_content_description">%1$d з пяці</string>
-    <string name="reached_max_locations_removal_dialog_title">Вы можаце захаваць да 8 месцазнаходжанняў. Каб захаваць новае, выдал. адно.</string>
     <string name="reaction_ads_show_more">Цяпер вы будзеце атрымліваць болей падобнай <b>рэкламы</b></string>
     <string name="reaction_modal_close_action">Закрыць</string>
     <string name="reaction_show_more">Цяпер вы будзеце атрымліваць болей падобнага змесціва</string>
@@ -6970,7 +7073,6 @@ Voice Match дазваляе Памочніку ідэнтыфікаваць г�
     <string name="remove_all_devices_button_text">Выдаліць Face Match з усіх прылад</string>
     <string name="remove_all_played">Выдаліць праслуханыя</string>
     <string name="remove_all_week_old">Выдаліць выпускі, спампаваныя больш за %1$d сут таму</string>
-    <string name="remove_button_text">Выдаліць</string>
     <string name="remove_completed_episodes">Выдаліць праслуханыя выпускі</string>
     <string name="remove_download">Выдаліць спампоўку</string>
     <string name="remove_from_history_failed">Немагчыма выдаліць элемент з гісторыі.</string>
@@ -6987,6 +7089,7 @@ Voice Match дазваляе Памочніку ідэнтыфікаваць г�
     <string name="repeat_notification">ОК, паўтараю паведамленне. Яго тэкст:</string>
     <string name="replay_count_down">Паўторнае прайграванне праз &lt;b>%1$d&lt;/b>…</string>
     <string name="reply">Адказаць</string>
+    <string name="reply_button_string">Адказаць</string>
     <string name="reply_button_text">Адказаць</string>
     <string name="reply_message_notice">Ідзе адпраўка паведамлення</string>
     <string name="report_other_option">Іншае</string>
@@ -7078,7 +7181,7 @@ Voice Match дазваляе Памочніку ідэнтыфікаваць г�
     <string name="sceneviewer_get_help">Get help</string>
     <string name="sceneviewer_get_help_button_content_description">Get Help</string>
     <string name="sceneviewer_immersive_edge_fallback_dialog_confirm_button">Go</string>
-    <string name="sceneviewer_immersive_edge_fallback_dialog_message">No connection. You will be redirected to &lt;b> %1$s &lt;/b></string>
+    <string name="sceneviewer_immersive_edge_fallback_dialog_message">No connections available. Redirecting you to &lt;b>%1$s&lt;/b>. Please try again in a few minutes.</string>
     <string name="sceneviewer_immersive_edge_fallback_dialog_title">Connection lost</string>
     <string name="sceneviewer_immersive_edge_redirect_dialog_cancel_button">Cancel</string>
     <string name="sceneviewer_immersive_edge_redirect_dialog_confirm_button">OK</string>
@@ -7108,7 +7211,6 @@ Voice Match дазваляе Памочніку ідэнтыфікаваць г�
     <string name="search_apps_web_and_more">Шукайце ў праграмах, інтэрнэце і ў іншых крыніцах…</string>
     <string name="search_box_content_description">Пошук…</string>
     <string name="search_box_hint">Пошук…</string>
-    <string name="search_box_hint_for_places_and_web">Пошук месцаў</string>
     <string name="search_bubble_notification_description">Паказваць усплывальнае апавяшчэнне Google Пошуку і далей.</string>
     <string name="search_bubble_notification_header">Усплывальнае апавяшчэнне Google Пошуку</string>
     <string name="search_bubble_optin_prompt_cancel_text">Выдаліць</string>
@@ -7140,7 +7242,6 @@ Voice Match дазваляе Памочніку ідэнтыфікаваць г�
     <string name="search_maps">Шукаць у картах</string>
     <string name="search_menu_title">Пошук</string>
     <string name="search_notifications">Апавяшчэнні</string>
-    <string name="search_plate_accessibility_voice_search_button">Пошук</string>
     <string name="search_region_default">Бягучая вобласць (стандартная)</string>
     <string name="search_region_setting_summary">Цяперашні рэгіён</string>
     <string name="search_restriction">У вас няма дазволу на выкарыстанне Google Пошуку</string>
@@ -7189,6 +7290,7 @@ Voice Match дазваляе Памочніку ідэнтыфікаваць г�
     <string name="select_address_title">Выберыце адрас дастаўкі</string>
     <string name="select_all_episodes">Выбраць усе</string>
     <string name="select_assistant_language">Выберыце мову Памочніка.</string>
+    <string name="select_day">Выберыце месяц і дзень</string>
     <string name="select_feedback_category">Выберыце катэгорыю водгуку</string>
     <string name="select_google_account">Уліковыя запісы Google</string>
     <string name="select_google_account_add_account">Дадаць уліковы запіс</string>
@@ -7200,6 +7302,7 @@ Voice Match дазваляе Памочніку ідэнтыфікаваць г�
     <string name="select_instrument_message">Google Pay абараняе вашу плацежную інфармацыю, што дазваляе плаціць з дапамогай Памочніка дзе і калі пажадаеце.</string>
     <string name="select_instrument_title">Выберыце спосаб аплаты</string>
     <string name="select_wifi_network_button_text">Выбраць сетку Wi-Fi</string>
+    <string name="select_year">Выберыце год</string>
     <string name="selectable_search_widget_initializing">Ідзе ініцыялізацыя…</string>
     <string name="selected_interest">Дададзена да вашых інтарэсаў</string>
     <string name="selected_language">Мова стужкі абноўлена</string>
@@ -7224,7 +7327,6 @@ Voice Match дазваляе Памочніку ідэнтыфікаваць г�
     <string name="sending_audio_to_account_toast">Адпраўка аўдыё ў %1$s…</string>
     <string name="sensitive_or_disparaging_for_individuals">Крыўднае або пагардлівае да людзей</string>
     <string name="server_error">Немагчыма паключыцца да Google зараз.</string>
-    <string name="server_error_fetching_weather_data_status_text">Нешта пайшло не так. Паспрабуйце яшчэ раз пазней.</string>
     <string name="set_alarm">Паставіць будзільнік</string>
     <string name="set_duration">Усталюйце працягласць</string>
     <string name="set_reminder_saved">Напамін захаваны</string>
@@ -7309,11 +7411,6 @@ Voice Match дазваляе Памочніку ідэнтыфікаваць г�
 Вашы спісы пакупак будуць захоўвацца Памочнікам (праз Google Shopping)."</string>
     <string name="shopping_list_category_title_v2">Сэрвісы для пакупак</string>
     <string name="shopping_mode_landing_text">Пошук па пакупках</string>
-    <string name="short_google_play_services_enable_required">Павінны быць уключаны паслугі Google Play</string>
-    <string name="short_google_play_services_install_required">Павінны быць усталяваны паслугі Google Play</string>
-    <string name="short_google_play_services_missing_permission">Служба Google Play не мае аднаго або больш неабходных дазволаў.</string>
-    <string name="short_google_play_services_unsupported">Паслугі Google Play не падтрымліваюцца на вашай прыладзе</string>
-    <string name="short_google_play_services_update_required">Неабходна абнавіць Сэрвісы Google Play</string>
     <string name="shortcut_not_available">Ярлык недаступны</string>
     <string name="shortcut_phrase_label">Калі вы кажаце:</string>
     <string name="shortcuts_link_description">Што можна рабіць ва ўсталяваных праграмах з дапамогай хуткіх каманд</string>
@@ -7425,6 +7522,7 @@ Voice Match дазваляе Памочніку ідэнтыфікаваць г�
     <string name="snowman_content">Гісторыі і тэмы, якія вас не цікавяць, можна схаваць</string>
     <string name="soccer_shootout">Серыя пенальці</string>
     <string name="solid">Непразрысты</string>
+    <string name="someone_else_text">Іншая асоба</string>
     <string name="sorry_string">Не маглі б вы паўтарыць?</string>
     <string name="sort_description">Прыменены параметр сартавання: %1$s</string>
     <string name="sound_search_hint">Што гэта за песня?</string>
@@ -7454,6 +7552,7 @@ Voice Match дазваляе Памочніку ідэнтыфікаваць г�
     <string name="speech_output_keywords">галасавы вывад, галасавое кіраванне, гучная сувязь, па гучнай сувязі, гарнітура, рэжым \"без трубкі\"</string>
     <string name="speech_output_subtitle">Выберыце, як Памочнік будзе выкарыстоўваць рэжым размовы</string>
     <string name="speech_output_title">Галасавы вывад</string>
+    <string name="speedbump_prompt_text">Каб пачаць, націсніце на відарыс мікрафона</string>
     <string name="spinner_request_completed">Стужка абноўлена</string>
     <string name="spinner_request_failed">Не ўдалося абнавіць Стужку</string>
     <string name="spinner_requesting_new_content">Стужка абнаўляецца</string>
@@ -7719,9 +7818,6 @@ Voice Match дазваляе Памочніку ідэнтыфікаваць г�
     <string name="switch_on">УКЛ.</string>
     <string name="switcher_description">Інструмент выбару мовы галасавога пошуку</string>
     <string name="switcher_language_description">Бягучая мова – %1$s</string>
-    <string name="tab_title_10_days">10 дзён</string>
-    <string name="tab_title_today">Сёння</string>
-    <string name="tab_title_tomorrow">Заўтра</string>
     <string name="tactile_add_action_button_title">Дадаць дзеянне</string>
     <string name="tactile_all_results_title">Усе вынікі</string>
     <string name="tactile_answers_on_the_go_suggestion_1">Колькі складае 15%% ад 48 долараў?</string>
@@ -7925,6 +8021,7 @@ Voice Match дазваляе Памочніку ідэнтыфікаваць г�
     <string name="transparency_seek_bar_description">Празрыстасць панэлі</string>
     <string name="transparent">Празрысты</string>
     <string name="trends_suggestion_message">Гэты пошук папулярны ў вашым рэгіёне.</string>
+    <string name="triggering_settings_header">Запуск рэжыму \"За рулём\"</string>
     <string name="trim_silence">Абрэзаць фрагменты, дзе запісана цішыня</string>
     <string name="trim_silence_disable">Не абразаць фрагменты, дзе запісана цішыня</string>
     <string name="trim_silence_enable">Абразаць фрагменты, дзе запісана цішыня</string>
@@ -8073,39 +8170,33 @@ Voice Match дазваляе Памочніку ідэнтыфікаваць г�
     <string name="twslang_zh_CN">Кітайская (спрошчаная)</string>
     <string name="twslang_zh_TW">Кітайская (традыцыйная)</string>
     <string name="twslang_zu">Зулу</string>
-    <string name="unable_to_save_location_snackbar_text">Немагчыма захаваць месца. Калі ласка, паўтарыце спробу пазней.</string>
-    <string name="unable_to_show_locations_text">Немагчыма паказаць месцы</string>
-    <string name="unable_to_show_weather_for_location_error">"Немагчыма паказаць прагноз надвор'я для гэтага месца."</string>
-    <string name="unable_to_show_weather_for_specific_location_error">"Немагчыма паказаць прагноз надвор'я для %s."</string>
     <string name="unblock_show_from_recommendations">Дазволіць рэкамендаваць гэты падкаст</string>
     <string name="undo">Адмяніць дзеянне</string>
     <string name="undo_action">Адрабіць</string>
     <string name="undo_dismiss_message_default">Гатова</string>
-    <string name="undo_snackbar_action">Адмяніць</string>
     <string name="undo_string">Адрабіць</string>
     <string name="unicorn_consent_screen_message">Памочнік выкарыстоўвае Face Match, каб адрозніваць карыстальніка %1$s ад іншых. Калі ваша дзіця падыдзе да Nest Hub Max, мы выкарыстаем мадэль твару дзіцяці, каб персаналізаваць яго ўзаемадзеянне з прыладай.</string>
     <string name="unicorn_consent_screen_title">Дазвольце Памочніку пазнаваць твар карыстальніка %1$s</string>
     <string name="unicorn_hand_off_screen_message">{GENDER,select, male{Калі будзеце гатовыя, перадайце прыладу карыстальніку {PERSON}, каб ён мог стварыць мадэль свайго твару. Заставайцеся паблізу, каб дапамагчы з далейшымі крокамі.}female{Калі будзеце гатовыя, перадайце прыладу карыстальніку {PERSON}, каб яна магла стварыць мадэль свайго твару. Заставайцеся паблізу, каб дапамагчы з далейшымі крокамі.}other{Калі будзеце гатовыя, перадайце прыладу карыстальніку {PERSON}, каб ён мог стварыць мадэль свайго твару. Заставайцеся паблізу, каб дапамагчы з далейшымі крокамі.}}</string>
     <string name="unicorn_hand_off_screen_title">Дазвольце Памочніку пазнаваць твар карыстальніка %1$s</string>
-    <string name="unicorn_handoff_img_content_desc">Перадаць прыладу</string>
     <string name="unicorn_hotword_enrollment_google_home_oobe_skip_dialog_message">Калі вы прапусціце гэты крок, Google Home не зможа адрозніваць карыстальніка {PERSON} ад іншых людзей у вашым доме.</string>
-    <string name="unicorn_hotword_enrollment_google_home_skip_dialog_message">"{GENDER,select, male{Пры выключэнні Voice Match сувязь прылады з Уліковым запісам Google, якім карыстаецца {PERSON}, будзе выдалена, а работа сэрвісаў для яго не будзе персаналізавацца. 
+    <string name="unicorn_hotword_enrollment_google_home_skip_dialog_message">"{GENDER,select, male{Пры выключэнні Voice Match сувязь прылады з Уліковым запісам Google, якім карыстаецца {PERSON}, будзе выдалена, а бацькоўскі кантроль і персаналізацыя сэрвісаў для яго перастануць ажыццяўляцца. 
 
-Вы заўсёды можаце ўключыць Voice Match для гэтай прылады праз Family Link або ў наладах праграм \"Google Home\" або \"Памочнік Google\", якімі карыстаецца {PERSON}. 
+Вы заўсёды можаце ўключыць Voice Match для гэтай прылады праз Family Link альбо ў наладах праграм \"Google Home\" або \"Памочнік Google\", якімі карыстаецца {PERSON}. 
 
-Калі вы навучыце Памочніка пазнаваць голас карыстальніка {PERSON}, работа сэрвісаў для яго будзе персаналізаванай, а Google зможа прымусова прымяняць пэўныя абмежаванні на змесціва. Дзіця зможа праглядаць некаторыя даныя на прыладах для дома (напрыклад, свой каляндар і кантакты). 
+Памочнік больш не зможа пазнаваць карыстальніка {PERSON} і таму будзе лічыць яго госцем або проста незнаёмым чалавекам. Калі {PERSON} знаходзіўся пад бацькоўскім кантролем, Памочнік не зможа ажыццяўляць гэты кантроль у дачыненні да яго. 
 
-Каб зноў дадаць карыстальніка {PERSON} на прылады для дома, навучыце Google распазнаваць, калі гаворыць іменна {PERSON}.}female{Пры выключэнні Voice Match сувязь прылады з Уліковым запісам Google, якім карыстаецца {PERSON}, будзе выдалена, а работа сэрвісаў для яе не будзе персаналізавацца. 
+Каб зноў дадаць карыстальніка {PERSON} на прылады для дома, навучыце Google распазнаваць, калі гаворыць іменна {PERSON}.}female{Пры выключэнні Voice Match сувязь прылады з Уліковым запісам Google, якім карыстаецца {PERSON}, будзе выдалена, а бацькоўскі кантроль і персаналізацыя сэрвісаў для яе перастануць ажыццяўляцца. 
 
-Вы заўсёды можаце ўключыць Voice Match для гэтай прылады праз Family Link або ў наладах праграм \"Google Home\" або \"Памочнік Google\", якімі карыстаецца {PERSON}. 
+Вы заўсёды можаце ўключыць Voice Match для гэтай прылады праз Family Link альбо ў наладах праграм \"Google Home\" або \"Памочнік Google\", якімі карыстаецца {PERSON}. 
 
-Калі вы навучыце Памочніка пазнаваць голас карыстальніка {PERSON}, работа сэрвісаў для яе будзе персаналізаванай, а Google зможа прымусова прымяняць пэўныя абмежаванні на змесціва. Дзіця зможа праглядаць некаторыя даныя на прыладах для дома (напрыклад, свой каляндар і кантакты). 
+Памочнік больш не зможа пазнаваць карыстальніка {PERSON} і таму будзе лічыць яе госцем або проста незнаёмым чалавекам. Калі {PERSON} знаходзілася пад бацькоўскім кантролем, Памочнік не зможа ажыццяўляць гэты кантроль у дачыненні да яе. 
 
-Каб зноў дадаць карыстальніка {PERSON} на прылады для дома, навучыце Google распазнаваць, калі гаворыць іменна {PERSON}.}other{Пры выключэнні Voice Match сувязь прылады з Уліковым запісам Google, якім карыстаецца {PERSON}, будзе выдалена, а работа сэрвісаў для гэтага карыстальніка не будзе персаналізавацца. 
+Каб зноў дадаць карыстальніка {PERSON} на прылады для дома, навучыце Google распазнаваць, калі гаворыць іменна {PERSON}.}other{Пры выключэнні Voice Match сувязь прылады з Уліковым запісам Google, якім карыстаецца {PERSON}, будзе выдалена, а бацькоўскі кантроль і персаналізацыя сэрвісаў для гэтага карыстальніка перастануць ажыццяўляцца. 
 
-Вы заўсёды можаце ўключыць Voice Match для гэтай прылады праз Family Link або ў наладах праграм \"Google Home\" або \"Памочнік Google\", якімі карыстаецца {PERSON}. 
+Вы заўсёды можаце ўключыць Voice Match для гэтай прылады праз Family Link альбо ў наладах праграм \"Google Home\" або \"Памочнік Google\", якімі карыстаецца {PERSON}. 
 
-Калі вы навучыце Памочніка пазнаваць голас карыстальніка {PERSON}, работа сэрвісаў для яго будзе персаналізаванай, а Google зможа прымусова прымяняць пэўныя абмежаванні на змесціва. Дзіця зможа праглядаць некаторыя даныя на прыладах для дома (напрыклад, свой каляндар і кантакты). 
+Памочнік больш не зможа пазнаваць карыстальніка {PERSON} і таму будзе лічыць гэту асобу госцем або проста незнаёмым чалавекам. Калі карыстальнік {PERSON} знаходзіўся пад бацькоўскім кантролем, Памочнік не зможа ажыццяўляць гэты кантроль у дачыненні да яго. 
 
 Каб зноў дадаць карыстальніка {PERSON} на прылады для дома, навучыце Google распазнаваць, калі гаворыць іменна {PERSON}.}}"</string>
     <string name="unified_ime_recognition_locale_toast">Для распазнавання выкарыстоўваецца %1$s</string>
@@ -8332,12 +8423,8 @@ Voice Match"</string>
     <string name="warning_unsupported_music_provider_dialog_negative_button_text">НЕ</string>
     <string name="warning_unsupported_music_provider_dialog_positive_button_text">ТАК</string>
     <string name="warning_unsupported_music_provider_dialog_title">Працягнуць з музычным сэрвісам, які не падтрымліваецца?</string>
-    <string name="weather_accessibility_search_plate_back_button">Назад</string>
-    <string name="weather_accessibility_search_plate_menu_button">Меню</string>
-    <string name="weather_add_to_home_screen">Дадаць на галоўны экран</string>
     <string name="weather_add_to_homescreen">Дадаць на галоўны экран</string>
     <string name="weather_button_ok">OK</string>
-    <string name="weather_cancel_button_text">Скасаваць</string>
     <string name="weather_celsius">Шкала Цэльсія</string>
     <string name="weather_current_location">Бягучае месцазнаходжанне</string>
     <string name="weather_error_background_content_description">Памылка</string>
@@ -8351,7 +8438,6 @@ Voice Match"</string>
     <string name="weather_search_query">"надвор'е"</string>
     <string name="weather_search_text">"надвор'е"</string>
     <string name="weather_send_feedback">Адправіць водгук</string>
-    <string name="weather_shortcut_icon_label">"Надвор'е"</string>
     <string name="weather_temperature_units">Адзінкі вымярэння тэмпературы</string>
     <string name="weather_title">%1$s у %2$s</string>
     <string name="weather_today_tab_name">Сёння</string>
@@ -8410,8 +8496,6 @@ Voice Match"</string>
     <string name="widget_resized">Памеры віджэта зменены на: шырыня %1$s, вышыня %2$s</string>
     <string name="wifi_off">Wi-Fi выключаны</string>
     <string name="wifi_on">Wi-Fi уключаны</string>
-    <string name="wind_current_time_and_direction_template_with_bullet_separator" formatted="false">%s • %s</string>
-    <string name="wind_speed_with_unit" formatted="false">%d %s</string>
     <string name="wired_headset_icon_description">Правадная гарнітура</string>
     <string name="wired_headset_off_label">Правадная гарнітура выключана</string>
     <string name="wired_headset_on_label">Правадная гарнітура ўключана</string>
@@ -8425,6 +8509,7 @@ Voice Match"</string>
     <string name="workspace_scroll_format">Галоўны экран %1$d з %2$d</string>
     <string name="wrong_account_selected_error_message">Памочнік Google выкарыстоўвае не той уліковы запіс, што звязаны з вашай прыладай. Выкарыстайце для ўваходу наступны ўліковы запіс: %1$s.</string>
     <string name="wrong_account_selected_error_title">Уліковыя запісы не супадаюць</string>
+    <string name="year_picker_description">Спiс гадоў</string>
     <string name="yes_button_text">Так, згаджаюся</string>
     <string name="yesterday">Учора</string>
     <string name="yesterday_at_time">Учора ў %1$s</string>
@@ -8436,7 +8521,6 @@ Voice Match"</string>
     <string name="your_information_link_subtitle">Персаналізацыя Памочніка</string>
     <string name="your_information_page_subtitle">Выбірайце, якія звесткі павінны выкарыстоўвацца для персаналізацыі Памочніка Google</string>
     <string name="your_information_title">Ваша асабістая інфармацыя</string>
-    <string name="your_location_search_menu_text">Ваша месцазнаходжанне</string>
     <string name="your_news_update_load_error">Нешта пайшло не так пры загрузцы \"Навін для вас\".</string>
     <string name="your_news_update_title">Вашы навіны</string>
     <string name="your_salsas_section_header">Вашы хуткія фразы</string>

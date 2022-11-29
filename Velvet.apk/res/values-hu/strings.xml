@@ -81,8 +81,6 @@
     <string name="accessibility_switch_to_oem_minus_one_button">Ugrás ide: %1$s</string>
     <string name="accessibility_voice_search_button">Hangalapú keresés</string>
     <string name="accessibility_voice_search_visual_aid_text">Ha kérdezni szeretne tőlem, beszéljen a telefonba.</string>
-    <string name="account_item">Váltás erre: %1$s</string>
-    <string name="account_list">Fióklista</string>
     <string name="account_loading">Betöltés…</string>
     <string name="account_particle_disc_description">Fiókhoz tartozó menü megnyitása</string>
     <string name="acessibility_recurrence_choose_end_date_description">záró dátum módosítása</string>
@@ -148,7 +146,6 @@
     <string name="ad_badge">Hirdetés</string>
     <string name="ad_badge_text">Hirdetés</string>
     <string name="ad_dismiss_survey_skip">Kihagyás</string>
-    <string name="add_account">Fiók hozzáadása</string>
     <string name="add_button_content_description">Hozzáad</string>
     <string name="add_custom_feed">Hozzáadás RSS-hírcsatornán keresztül</string>
     <string name="add_custom_feed_url_hint">https://www.example.org/podcast.xml</string>
@@ -174,8 +171,6 @@ Amíg a családtagok el nem fogadják a meghívót, korlátozottan férhetnek ho
     <string name="add_salsa_card_title">Hozzáadhat gyakran kimondott gyors kifejezéseket</string>
     <string name="add_shortcut_dismiss_button_description">Bezárás</string>
     <string name="add_shortcut_text">Vezetési mód hozzáadása a Kezdőlaphoz</string>
-    <string name="add_snackbar_action">Hozzáadás</string>
-    <string name="add_this_location_to_your_list_snackbar_text">Hozzáadja ezt a helyet a listához?</string>
     <string name="add_to_folder">Hozzáadás a(z) %1$s mappához</string>
     <string name="add_to_folder_with_app">Hozzáadás a mappához a következővel: %1$s</string>
     <string name="add_to_home_screen">Hozzáadás a kezdőképernyőhöz</string>
@@ -281,9 +276,12 @@ A folytatáshoz váltson a Segédben erre a fiókra."</string>
     <string name="all_salsas_section_subtitle">A Segéd készenléti módban várakozik, amíg nem észleli a kiválasztott gyors kifejezéseket. A kifejezések gyakori változatai szintén működnek.</string>
     <string name="all_set_title">Segédje készen áll</string>
     <string name="all_settings_title">MINDEN BEÁLLÍTÁS</string>
+    <string name="allow_access">Hozzáférés megadása</string>
     <string name="allow_bluetooth_button_with_device_locked_notification_body">Amikor a telefon zárolva van, hangjával kezdeményezhet hívásokat, illetve végezhet más műveleteket egy Bluetooth-eszköz használatával.</string>
     <string name="allow_bluetooth_button_with_device_locked_notification_title">Hang használata Bluetooth-eszközzel</string>
     <string name="allow_button_text">Engedélyezés</string>
+    <string name="allow_calls_toggle_description">A rendszer értesíti majd a vezetés közben bejövő hívásokról</string>
+    <string name="allow_calls_toggle_title">Bejövő hívások engedélyezése</string>
     <string name="allow_rotation_title">Elforgatás engedélyezése</string>
     <string name="allow_wired_headsets_button_with_device_locked_notification_body">Amikor a telefon zárolva van, hangjával kezdeményezhet hívásokat, illetve végezhet más műveleteket egy vezetékes headset használatával.</string>
     <string name="allow_wired_headsets_button_with_device_locked_notification_title">Hang használata vezetékes headsettel</string>
@@ -359,11 +357,10 @@ A folytatáshoz váltson a Segédben erre a fiókra."</string>
     <string name="ambient_settings_bc_page_desc">A Segéd mindig a megfelelő információt jeleníti meg a megfelelő időpontban a kezdőképernyőn és a lezárási képernyőn.</string>
     <string name="ambient_settings_bc_title">Live Space</string>
     <string name="ambient_settings_commute_and_ttl_subtitle">Forgalom és várható érkezés megtekintése</string>
-    <string name="ambient_settings_commute_and_ttl_title">Ingázás és ideje indulni</string>
+    <string name="ambient_settings_commute_subtitle">Forgalom megtekintése</string>
+    <string name="ambient_settings_commute_title">Ingázás</string>
     <string name="ambient_settings_device_location_subtitle">Releváns tartalom megjelenítése helyadatok alapján</string>
     <string name="ambient_settings_device_location_title">Hely</string>
-    <string name="ambient_settings_grocery_subtitle" />
-    <string name="ambient_settings_grocery_title">Kézbesítések és átvételek</string>
     <string name="ambient_settings_home_and_work_location_subtitle">Ingázással (például a várható érkezéssel és a forgalommal) kapcsolatos információt kérhet otthoni és munkahelyi címe alapján</string>
     <string name="ambient_settings_home_and_work_location_title">Otthon és munkahely</string>
     <string name="ambient_settings_hotel_subtitle">Be- és kijelentkezési információk</string>
@@ -376,6 +373,7 @@ A folytatáshoz váltson a Segédben erre a fiókra."</string>
     <string name="ambient_settings_title">Áttekintés</string>
     <string name="ambient_settings_travel_bundle_subtitle">Repülőjáratok a Gmailből</string>
     <string name="ambient_settings_travel_bundle_title">Utazás</string>
+    <string name="ambient_settings_ttl_subtitle">Várható érkezés megtekintése</string>
     <string name="ambient_settings_ttl_title">Ideje indulni</string>
     <string name="ambient_settings_upcoming_bundle_subtitle">Naptáresemények és emlékeztetők</string>
     <string name="ambient_settings_upcoming_bundle_title">Közelgő</string>
@@ -452,7 +450,10 @@ A folytatáshoz váltson a Segédben erre a fiókra."</string>
     <string name="ar_permissions_screen_title">Get a better look</string>
     <string name="ar_session_error_dialog_body">An error has occurred when trying to view this object in your space.</string>
     <string name="ar_session_error_dialog_title">Unable to view in your space</string>
+    <string name="ar_triggering_description">Az eszköz mozgás észlelésével és Bluetooth-kapcsolatok segítségével érzékeli, ha Ön mozgó járműben tartózkodik</string>
+    <string name="ar_triggering_title">Ha észleli, hogy Ön járművet vezet</string>
     <string name="ask_assistant">Segéd megkérdezése</string>
+    <string name="ask_before_launching">Kérdezzen rá indítás előtt</string>
     <string name="ask_for_message_to_number">Értem, üzenetet szeretne küldeni. Mit szeretne írni?</string>
     <string name="ask_for_text_message_contact_first_time">Értem, SMS-t szeretne küldeni a következő személynek: %1$s. Mit szeretne írni?</string>
     <string name="ask_to_confirm_3p_chat_message">%1$s-üzenetének címzettje %2$s, a szövege pedig a következő: %3$s. Szeretné elküldeni vagy módosítani?</string>
@@ -460,10 +461,10 @@ A folytatáshoz váltson a Segédben erre a fiókra."</string>
     <string name="ask_to_confirm_message_reprompt">Elnézést, elküldeni vagy módosítani szeretné?</string>
     <string name="ask_to_confirm_sms">Az SMS címzettje %1$s, a szövege pedig a következő: %2$s. Szeretné elküldeni vagy módosítani?</string>
     <string name="assistant">Segéd</string>
-    <string name="assistant_aa_loyalty_card_title">Loyalty Card</string>
+    <string name="assistant_aa_loyalty_card_title">Hűségkártya</string>
     <string name="assistant_accessibility_voice_typing_stopped">Hangvezérelt írás leállítva</string>
     <string name="assistant_add_item_app_control_suggestion">Hozzáadás</string>
-    <string name="assistant_ama_media_only_chip">Listen</string>
+    <string name="assistant_ama_media_only_chip">Meghallgatás</string>
     <string name="assistant_android_settings_access_assistant_category_title">Hozzáférés a Google Segédhez Pixelen</string>
     <string name="assistant_android_settings_active_edge_summary">A telefon alsó felének rövid összenyomásával és elengedésével beszélhet Segédjéhez</string>
     <string name="assistant_android_settings_active_edge_title">Segéd aktiválása összenyomással</string>
@@ -482,7 +483,8 @@ A folytatáshoz váltson a Segédben erre a fiókra."</string>
     <string name="assistant_android_settings_see_all_title">Segéd-beállítások megtekintése</string>
     <string name="assistant_android_settings_voice_match_summary">A Voice Match használatával hozzáférhet Segédjéhez még akkor is, amikor a telefon zárolva van</string>
     <string name="assistant_android_settings_voice_match_title">„Ok Google” kimondása</string>
-    <string name="assistant_at_store">At Store</string>
+    <string name="assistant_at_store">Üzletben</string>
+    <string name="assistant_avatar_icon_description">Felhasználói avatar ikonja</string>
     <string name="assistant_bit_action_card_link">Ugrás a Google Segéd oldalára</string>
     <string name="assistant_bit_action_card_negative">Köszönöm, nem</string>
     <string name="assistant_bit_action_card_positive">Bekapcsolás</string>
@@ -498,10 +500,15 @@ A myactivity.google.com webhelyen törölheti a Segédre vonatkozó előzmények
     <string name="assistant_bit_alert_on_text">"A kérdések hatékonyabb megválaszolása és a teendők könnyebb elvégzése érdekében a Google Segéd különböző adatokat küld a Google-nak (például a hangalapú kéréseket).
 A myactivity.google.com webhelyen bármikor áttekintheti és törölheti a Segédhez tartozó előzményeket."</string>
     <string name="assistant_bit_alert_on_title">Bekapcsolja a Google Segédet?</string>
-    <string name="assistant_calendar_event_during">%1$s now</string>
-    <string name="assistant_calendar_event_pre">%1$s in %2$s</string>
-    <string name="assistant_calendar_event_pre_static">%1$s at %2$s</string>
-    <string name="assistant_calendar_event_time_range">%1$s – %2$s</string>
+    <string name="assistant_calendar_event_during">%1$s most</string>
+    <string name="assistant_calendar_event_pre">%1$s %2$s múlva</string>
+    <string name="assistant_calendar_event_pre_static">%1$s ekkor: %2$s</string>
+    <string name="assistant_calendar_event_time_range">%1$s–%2$s</string>
+    <string name="assistant_canvas_logo_view_description">Hangalapú keresés</string>
+    <string name="assistant_canvas_opa_keyboard_indicator_content_description">Gépelési mód</string>
+    <string name="assistant_canvas_opa_send_button_content_description">Küldés</string>
+    <string name="assistant_canvas_opa_text_input_hint">Írjon be egy üzenetet</string>
+    <string name="assistant_canvas_transcription_bar_description">Átírási sáv</string>
     <string name="assistant_create_doc_app_control_suggestion">Dokumentum létrehozása</string>
     <string name="assistant_custodio_activity_menu_help">Súgó</string>
     <string name="assistant_custodio_activity_menu_send_feedback">Visszajelzés küldése</string>
@@ -732,6 +739,7 @@ A myactivity.google.com webhelyen bármikor áttekintheti és törölheti a Seg�
     <string name="assistant_custodio_youtube_media_provider_name">YouTube</string>
     <string name="assistant_default_error_message">Hiba történt. Próbálja újra.</string>
     <string name="assistant_dictation_ineligible_aiai_version">Töltse le az Android System Intelligence alkalmazás legfrissebb verzióját a Google Playről, hogy használhassa a „Hangvezérelt írás a Segéddel” funkciót. &lt;a href=\"https://play.google.com/store/apps/details?id=com.google.android.as\">Frissítés&lt;/a> &lt;br> &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#update_app\">További információ&lt;/a></string>
+    <string name="assistant_dictation_ineligible_android_old_version">Ha szeretné használni a Hangvezérelt írás a Segéddel funkciót, frissítse Android rendszerét. &lt;a href=\"intent:#Intent;action=android.settings.SYSTEM_UPDATE_SETTINGS;end\">Frissítés&lt;/a> &lt;br> &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#update_app\">További információ&lt;/a></string>
     <string name="assistant_dictation_ineligible_download_needed">A „Hangvezérelt írás a Segéddel´ funkciót frissíteni kell. Csatlakozzon Wi-Fi-hálózathoz az automatikus letöltéshez. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#update_to_use\">További információ&lt;/a></string>
     <string name="assistant_dictation_ineligible_generic">Jelenleg nem használhatja a „Hangvezérelt írás a Segéddel” funkciót. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#fix_issues_assistant_voice_typing\">További információ&lt;/a></string>
     <string name="assistant_dictation_ineligible_locale_mismatch">Ahhoz, hogy használhassa a „Hangvezérelt írás a Segéddel” funkciót, a Gboard és az eszköz elsődleges nyelvének ugyanannak kell lennie. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#device_language\">További információ&lt;/a></string>
@@ -741,29 +749,25 @@ A myactivity.google.com webhelyen bármikor áttekintheti és törölheti a Seg�
     <string name="assistant_dictation_ineligible_work_profile">A „Hangvezérelt írás a Segéddel” funkció jelenleg nem áll rendelkezésre a munkaprofilban lévő alkalmazásokhoz. A funkció használatához váltson a személyes alkalmazásaira. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#not_available_work_profile\">További információ&lt;/a></string>
     <string name="assistant_edit_app_control_suggestion">Szerkesztés</string>
     <string name="assistant_features_title">Ügyek intézése</string>
-    <string name="assistant_flight_chip_boarding_pass">Boarding Pass</string>
-    <string name="assistant_flight_chip_check_in">Check in for your flight</string>
-    <string name="assistant_flight_chip_more_info">More Flight Info</string>
-    <string name="assistant_flight_departure_gate_info">Gate %1$s</string>
-    <string name="assistant_flight_departure_info">%1$s to %2$s departs in %3$s</string>
-    <string name="assistant_flight_departure_info_now">%1$s to %2$s departs now</string>
-    <string name="assistant_flight_departure_info_static_time">%1$s to %2$s departs at %3$s</string>
-    <string name="assistant_flight_departure_info_static_without_time">%1$s to %2$s</string>
-    <string name="assistant_flight_departure_terminal_info">Terminal %1$s</string>
-    <string name="assistant_flight_departure_time_delayed_info">Departs %1$s (<strike>%2$s</strike>)</string>
-    <string name="assistant_flight_departure_time_info">Departs %1$s</string>
-    <string name="assistant_flight_seat_info">Seat %1$s</string>
-    <string name="assistant_flight_to_delayed_info">Delayed: Flight to %1$s</string>
-    <string name="assistant_flight_to_info">Flight to %1$s</string>
+    <string name="assistant_flight_chip_boarding_pass">Beszállókártya</string>
+    <string name="assistant_flight_chip_check_in">Megkezdheti a jegykezelést és poggyászfelvételt</string>
+    <string name="assistant_flight_chip_more_info">További járatinformációk</string>
+    <string name="assistant_flight_departure_gate_info">Kapu: %1$s</string>
+    <string name="assistant_flight_departure_info">A(z) %1$s–%2$s repülőjárat %3$s múlva indul</string>
+    <string name="assistant_flight_departure_info_now">A(z) %1$s–%2$s repülőjárat most indul</string>
+    <string name="assistant_flight_departure_info_static_time">A(z) %1$s–%2$s járat ekkor indul: %3$s</string>
+    <string name="assistant_flight_departure_info_static_without_time">%1$s–%2$s</string>
+    <string name="assistant_flight_departure_terminal_info">Terminál: %1$s</string>
+    <string name="assistant_flight_departure_time_delayed_info">Indulási idő: %1$s (<strike>%2$s</strike>)</string>
+    <string name="assistant_flight_departure_time_info">Indulási idő: %1$s</string>
+    <string name="assistant_flight_seat_info">Ülés: %1$s</string>
+    <string name="assistant_flight_to_delayed_info">Késés: a(z) %1$s repülőtérre tartó járat késik</string>
+    <string name="assistant_flight_to_info">Repülőjárat ide: %1$s</string>
     <string name="assistant_grocery_delivery_completed">%1$s order delivered</string>
-    <string name="assistant_grocery_delivery_during">%1$s delivery now</string>
-    <string name="assistant_grocery_delivery_pre">%1$s delivery in %2$s</string>
-    <string name="assistant_grocery_delivery_pre_static">%1$s delivery at %2$s</string>
+    <string name="assistant_grocery_delivery_scheduled">%1$s delivery scheduled</string>
     <string name="assistant_grocery_pickup_completed">%1$s order picked up</string>
-    <string name="assistant_grocery_pickup_during">%1$s pickup now</string>
-    <string name="assistant_grocery_pickup_pre">%1$s pickup in %2$s</string>
-    <string name="assistant_grocery_pickup_pre_static">%1$s pickup at %2$s</string>
-    <string name="assistant_grocery_pickup_ready">%1$s pickup now</string>
+    <string name="assistant_grocery_pickup_ready">%1$s order ready for pickup</string>
+    <string name="assistant_grocery_pickup_scheduled">%1$s pickup scheduled</string>
     <string name="assistant_grocery_time_range">%1$s – %2$s</string>
     <string name="assistant_guacamole_answer_call_announce">Válasz…</string>
     <string name="assistant_guacamole_closed_popup_pill_content_description">Mondja azt, hogy „%1$s“. A tabletta formájú gombra duplán koppintva további információt jeleníthet meg.</string>
@@ -818,6 +822,9 @@ A myactivity.google.com webhelyen bármikor áttekintheti és törölheti a Seg�
     <string name="assistant_keyboard_first_one_text">Az első</string>
     <string name="assistant_keyboard_firstrun_text">&lt;linkable>Beállítások kezelése&lt;/linkable></string>
     <string name="assistant_keyboard_icon_label">Billentyűzet</string>
+    <string name="assistant_keyboard_input_clear_button_content_description">Click to clear text input</string>
+    <string name="assistant_keyboard_input_mic_button_content_description">Click the mic icon to start voice query</string>
+    <string name="assistant_keyboard_input_text_hint">Type a text input here</string>
     <string name="assistant_keyboard_learning_center_category_compose">Gépelés és küldés</string>
     <string name="assistant_keyboard_learning_center_category_emojis">Emojik hozzáadása</string>
     <string name="assistant_keyboard_learning_center_category_forms">Űrlapok és e-mailek</string>
@@ -901,12 +908,14 @@ A myactivity.google.com webhelyen bármikor áttekintheti és törölheti a Seg�
     <string name="assistant_keyboard_sticky_mic_education_tip_text">Koppintson duplán a mikrofon nyitva tartásához, amíg bezárja a billentyűzetet</string>
     <string name="assistant_keyboard_stop_button_description">Diktálás leállítása</string>
     <string name="assistant_keyboard_stop_text">Leállítás</string>
+    <string name="assistant_keyboard_suggestion_query_builder_button_content_description">Click to edit in input box</string>
     <string name="assistant_keyboard_undo_button_description">Visszavonás</string>
     <string name="assistant_keyboard_undo_text">Visszavonás</string>
     <string name="assistant_keyboard_voice_command_not_supported">A parancs nem áll rendelkezésre ebben az alkalmazásban</string>
     <string name="assistant_keyboard_voice_corrections_tip_text">Mondja ki azt a szót, amellyel ki szeretné cserélni a kijelölt szöveget</string>
     <string name="assistant_language_not_supported">A(z) %s nyelvet még nem támogatja a Google Segéd</string>
     <string name="assistant_learning_center_data_error">Sorry, something went wrong while loading data.</string>
+    <string name="assistant_learning_center_detailed_page_data_error">Sorry, something went wrong while loading data.</string>
     <string name="assistant_logo_a11y">Koppintson a Google Segéd megnyitásához</string>
     <string name="assistant_logo_content_description">A Google Segéd logója</string>
     <string name="assistant_long_press_power_action_button_text">Értem</string>
@@ -948,7 +957,7 @@ A myactivity.google.com webhelyen bármikor áttekintheti és törölheti a Seg�
     <string name="assistant_my_actions_unpin_confirmation_dialog_title">Figyelem!</string>
     <string name="assistant_my_actions_unpinned_action_row_add_button_content_description">A művelet hozzáadása</string>
     <string name="assistant_my_actions_unpinned_actions_header">Műveletek, melyeket kedvelhet</string>
-    <string name="assistant_my_flights_query">My Flights</string>
+    <string name="assistant_my_flights_query">Saját repülőjáratok</string>
     <string name="assistant_on_lockscreen_desc">Engedélyezheti, hogy a Segéd akkor is válaszoljon, ha a telefonja zárolva van. Személyes találatok (például névjegyek és üzenetek) kéréséhez mondja azt, hogy „%1$s“, így a Segéd felismerheti az Ön hangját.</string>
     <string name="assistant_on_lockscreen_description">Engedélyezheti, hogy a Segéd akkor is válaszoljon, ha a telefonja zárolva van. Személyes találatok (például névjegyek és üzenetek) kéréséhez mondja azt, hogy „Ok Google”, így a Segéd felismerheti az Ön hangját.</string>
     <string name="assistant_on_lockscreen_title">Segéd-válaszok a lezárási képernyőn</string>
@@ -1775,21 +1784,38 @@ A Google Home vagy a Google Segéd alkalmazásában újra bekapcsolhatja a Voice
     <string name="assistant_suw_intro_screen_action_button_text">Elfogadom</string>
     <string name="assistant_suw_intro_screen_cancel_button_text">Kihagyás</string>
     <string name="assistant_suw_intro_screen_default_x_google_hotword">Ok Google</string>
+    <string name="assistant_suw_intro_screen_hint1_for_unicorn_vm3">{GENDER,select, male{A(z) „%1$s” használatához a Voice Match is szükséges, hogy {GIVEN_NAME} felismerhető legyen a Segéd számára.}female{A(z) „%1$s” használatához a Voice Match is szükséges, hogy {GIVEN_NAME} felismerhető legyen a Segéd számára.}other{A(z) „%1$s” használatához a Voice Match is szükséges, hogy {GIVEN_NAME} felismerhető legyen a Segéd számára.}}</string>
+    <string name="assistant_suw_intro_screen_hint1_vm3">A(z) „%1$s” használatához a Voice Match is szükséges, hogy Segédje felismerhesse Önt.</string>
+    <string name="assistant_suw_intro_screen_hint2_for_unicorn_vm3">A Segéd %1$s kérése nélkül is aktiválódhat – például ha olyasmit hall, ami a(z) „%2$s” parancsra hasonlít.</string>
+    <string name="assistant_suw_intro_screen_hint2_vm3">A Segéd kérés nélkül is aktiválódhat – például ha olyasmit hall, ami a(z) „%1$s” parancsra hasonlít.</string>
+    <string name="assistant_suw_intro_screen_hint3_for_unicorn_vm3">A(z) „%1$s” kikapcsolása %2$s Segéd-beállításai között lehetséges.</string>
+    <string name="assistant_suw_intro_screen_hint3_vm3">A(z) „%1$s” kikapcsolása a Segéd beállításaiban lehetséges.</string>
     <string name="assistant_suw_intro_screen_item_summary_1">"„What's the weather this weekend?” (Milyen lesz az idő hétvégén?)"</string>
+    <string name="assistant_suw_intro_screen_item_summary_1_for_unicorn">„Do I need an umbrella?” (Vinnem kell esernyőt?)</string>
     <string name="assistant_suw_intro_screen_item_summary_2">„Where’s the nearest coffee shop?” (Hol van a legközelebbi kávézó?)</string>
+    <string name="assistant_suw_intro_screen_item_summary_2_for_unicorn">„What does a hippo sound like?” (Milyen hangot ad ki egy víziló?)</string>
     <string name="assistant_suw_intro_screen_item_summary_3">„Set an alarm for 5:00am tomorrow.” (Állíts be egy ébresztőt holnap reggel 5 órára.)</string>
+    <string name="assistant_suw_intro_screen_item_summary_3_for_unicorn">„Set a homework timer for 20 minutes.” (20 perces házifeladat-időzítő beállítása.)</string>
     <string name="assistant_suw_intro_screen_item_title_1">Kérdések feltevése</string>
     <string name="assistant_suw_intro_screen_item_title_2">Útvonaltervezés</string>
+    <string name="assistant_suw_intro_screen_item_title_2_for_unicorn">Új dolgok megismerése</string>
     <string name="assistant_suw_intro_screen_item_title_3">Ügyek intézése</string>
     <string name="assistant_suw_intro_screen_subtitle_v2">Ha beleegyezik, a Google Segéd készenléti állapotban várakozik arra, hogy Ön a következőt mondja: „%1$s”.</string>
+    <string name="assistant_suw_intro_screen_subtitle_v2_for_unicorn_vm3">Ha beleegyezik, a Google Segéd készenléti állapotban várakozik, amíg azt nem észleli, hogy %1$s kimondja a következőt: „%2$s”.</string>
     <string name="assistant_suw_intro_screen_title">A Segéd megnyitása a(z) „%1$s” paranccsal</string>
     <string name="assistant_suw_intro_screen_title_for_unicorn">%1$s hozzáférhet a Google Segédhez a(z) „%2$s” paranccsal</string>
-    <string name="assistant_suw_intro_screen_with_ww_hint">Ezt a Segéd beállításaiban módosíthatja.</string>
+    <string name="assistant_suw_intro_screen_title_for_unicorn_vm3">A Google-hoz szabadkezes módban való beszéd engedélyezése %1$s számára</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint2_for_unicorn_vm3">A Segéd %1$s kérése nélkül is aktiválódhat – például ha olyasmit hall, ami a(z) „%2$s” parancsra vagy valamelyik gyorsparancsra hasonlít.</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint2_vm3">A Segéd kérés nélkül is aktiválódhat – például ha olyasmit hall, ami a(z) „%1$s” parancsra vagy valamelyik gyorsparancsra hasonlít.</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint3_for_unicorn_vm3">A(z) „%1$s” és a gyorsparancsok kikapcsolása %2$s Segéd-beállításaiban lehetséges.</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint3_vm3">A(z) „%1$s” és a gyorsparancsok kikapcsolása a Segéd beállításaiban lehetséges.</string>
     <string name="assistant_suw_intro_screen_with_ww_item_summary_1">Kérdéseket tehet fel, és segítséget kaphat különböző feladatok megoldása során.</string>
     <string name="assistant_suw_intro_screen_with_ww_item_summary_2">Próbálkozhat a „stop” (leállít) vagy a „snooze” (elhalaszt) szavakkal, például akkor, amikor szól az ébresztő.</string>
+    <string name="assistant_suw_intro_screen_with_ww_item_summary_2_for_unicorn_vm3">%1$s mondhat olyan szavakat, mint a „stop” (leállítás) vagy a „snooze” (elhalasztás), például akkor, amikor szól az ébresztő.</string>
     <string name="assistant_suw_intro_screen_with_ww_item_title_1">„%1$s”</string>
     <string name="assistant_suw_intro_screen_with_ww_item_title_2">Gyorsparancsok</string>
     <string name="assistant_suw_intro_screen_with_ww_subtitle">Ha beleegyezik, a Google Segéd készenléti állapotban várakozik az Ön gyorsparancsaira, illetve arra, hogy Ön a következőt mondja: „%1$s”.</string>
+    <string name="assistant_suw_intro_screen_with_ww_subtitle_for_unicorn_vm3">Ha beleegyezik, a Google Segéd készenléti módban várakozik, amíg azt nem észleli, hogy %1$s kimondja a(z) „%2$s” parancsot, illetve bizonyos gyorsparancsokat.</string>
     <string name="assistant_suw_intro_screen_with_ww_title">A Google megszólítása szabadkézzel</string>
     <string name="assistant_suw_loading_screen_title">Ellenőrzés folyamatban…</string>
     <string name="assistant_suw_more_button_text">Több</string>
@@ -1805,8 +1831,8 @@ A Google Home vagy a Google Segéd alkalmazásában újra bekapcsolhatja a Voice
     <string name="assistant_suw_settings_screen_title">Hozzáférés Segédjéhez a(z) %1$s feloldása nélkül</string>
     <string name="assistant_suw_settings_screen_title_for_unicorn">{GENDER,select, male{{GIVEN_NAME} hozzáférhet a Google Segédhez a(z) %1$s feloldása nélkül}female{{GIVEN_NAME} hozzáférhet a Google Segédhez a(z) %1$s feloldása nélkül}other{{GIVEN_NAME} hozzáférhet a Google Segédhez a(z) %1$s feloldása nélkül}}</string>
     <string name="assistant_take_note_app_control_suggestion">Jegyzet készítése</string>
-    <string name="assistant_tap_to_check_in">Tap to check-in</string>
-    <string name="assistant_tomorrow_time">Tomorrow, %1$s</string>
+    <string name="assistant_tap_to_check_in">Koppintson a jegykezeléshez és poggyászfelvételhez</string>
+    <string name="assistant_tomorrow_time">Holnap, %1$s</string>
     <string name="assistant_ui_learn_more_link">További információ</string>
     <string name="assistant_unicorn_get_your_parent_subtitle">Együtt beállíthatjátok a Voice Match funkciót.</string>
     <string name="assistant_unicorn_get_your_parent_subtitle_shared_devices">Együtt beállíthatjátok a Google Segédet.</string>
@@ -1814,6 +1840,8 @@ A Google Home vagy a Google Segéd alkalmazásában újra bekapcsolhatja a Voice
     <string name="assistant_voice_plate_avatar_label">Beállítások megnyitása</string>
     <string name="assistant_voice_plate_greeting_hi_text">Üdvözlöm. Miben segíthetek?</string>
     <string name="assistant_voice_plate_keyboard_icon_label">Billentyűzet</string>
+    <string name="assistant_voice_plate_onboarding_oauth_recovery_button">Bejelentkezés</string>
+    <string name="assistant_voice_plate_onboarding_oauth_recovery_text">A Segéd használatához jelentkezzen be újra a Google-fiókjába</string>
     <string name="assistant_voice_plate_onboarding_oobe_button">Kezdés</string>
     <string name="assistant_voice_plate_onboarding_oobe_text">Még több Segéd-funkcióhoz férhet hozzá</string>
     <string name="assistant_voice_speech_output_title">A Segéd hang- és beszédkimenete</string>
@@ -1836,7 +1864,7 @@ A Beállításokban koppintson az Engedélyek > Hely > Mindig engedélyezett leh
     <string name="assistant_weather_widget_preview_condition">Napos</string>
     <string name="assistant_weather_widget_preview_loading">Betöltés…</string>
     <string name="assistant_weather_widget_preview_location">Budapest</string>
-    <string name="assistant_yesterday_time">Yesterday, %1$s</string>
+    <string name="assistant_yesterday_time">Tegnap, %1$s</string>
     <string name="assistantactions_alarm_confirmation_card_button_text">Ébresztések megtekintése</string>
     <string name="assistantactions_call_confirmation_card_button">Hívás</string>
     <string name="assistantactions_confirmation_card_cancel_text">Művelet megszakítva</string>
@@ -1951,7 +1979,9 @@ A szolgáltató adatforgalmi díjat számíthat fel."</string>
 
 A Segéd a Face Match és a Voice Match funkciókat is használja, hogy a Look and Talk szolgáltatás csak Önnél működjön. Ha mások is szeretnék a Look and Talk funkciót használni, akkor a Home vagy a Segéd alkalmazás beállításai között állíthatják be.
 
-Bármikor kikapcsolhatja a Face Match beállításaiban."</string>
+Bármikor kikapcsolhatja a Face Match beállításaiban.
+
+Fontos: Az „Ok Google” a Look and Talk funkció bekapcsolását követően is használható marad."</string>
     <string name="blue_steel_consent_title">Look and Talk itt: %1$s</string>
     <string name="blue_steel_learn_more">&lt;a href=%1$s>További információ&lt;/a>.</string>
     <string name="blue_steel_turn_on">Bekapcsolás</string>
@@ -1968,7 +1998,6 @@ Bármikor kikapcsolhatja a Face Match beállításaiban."</string>
     <string name="bottom_navigation_collections_label">Gyűjtemények</string>
     <string name="bottom_navigation_drawer_label">Több</string>
     <string name="bottom_navigation_search_label">Keresés</string>
-    <string name="bottom_navigation_snapshot_label">Pillanatkép</string>
     <string name="bottom_navigation_spark_label">Discover</string>
     <string name="bottom_navigation_tabs_label">Lapok</string>
     <string name="bottomsheet_action_expand_halfway">Kibontás félig</string>
@@ -1976,6 +2005,8 @@ Bármikor kikapcsolhatja a Face Match beállításaiban."</string>
     <string name="brightness">Képernyő fényereje</string>
     <string name="broken_google_play_services_text">A kérés teljesítéséhez szükség van a Google Play-szolgáltatásokra. Kérjük, indítsa újra eszközét.</string>
     <string name="bt_auto_trigger_title">Segéd vezetési módjának indítása az autóhoz való csatlakozáskor</string>
+    <string name="bt_triggering_description">A beállítás segítségével elindíthatja a vezetési módot, amikor beszáll az autóba</string>
+    <string name="bt_triggering_title">Ha az autó Bluetooth-hálózatára csatlakozott</string>
     <string name="bubble_cancel_button_text">Mégse</string>
     <string name="bubble_dismiss_text">Elvetéshez húzza lefelé</string>
     <string name="bubble_feedback_link">Visszajelzés</string>
@@ -2083,7 +2114,6 @@ Bármikor kikapcsolhatja a Face Match beállításaiban."</string>
     <string name="cct_account_mismatch_card_button_text">%1$s megnyitása</string>
     <string name="cct_account_mismatch_card_header">Saját weboldalak</string>
     <string name="cct_account_mismatch_card_text">Az itt található oldalak megtekintéshez frissítse a(z) &lt;b>%1$s beállításait&lt;/b>, és kapcsolja be a(z) &lt;b>%2$s&lt;/b> szinkronizálását.</string>
-    <string name="chance_of_precipitation_label">Csapadék valószínűsége: %s</string>
     <string name="change_button_text">Módosítás</string>
     <string name="change_speed_button">Olvasássebesség állítása</string>
     <string name="channel_description">A továbbfejlesztett hangvezérlés és a könnyen koppintató gombok révén az útra figyelhet.</string>
@@ -2197,6 +2227,7 @@ Bármikor kikapcsolhatja a Face Match beállításaiban."</string>
     <string name="common_google_play_services_update_text">A(z) %1$s alkalmazás csak akkor fog működni, ha frissíti a Google Play-szolgáltatásokat.</string>
     <string name="common_google_play_services_update_title">A Google Play-szolgáltatások frissítése</string>
     <string name="common_google_play_services_updating_text">A(z) %1$s alkalmazás nem fut a Google Play-szolgáltatások nélkül, amelyek frissítése folyamatban van.</string>
+    <string name="common_google_play_services_wear_update_text">A Google Play-szolgáltatások új verziójára van szükség. A szolgáltatás hamarosan frissíti önmagát.</string>
     <string name="common_google_search_hint">Google-keresés</string>
     <string name="common_google_search_label">Google</string>
     <string name="common_learn_more">További információ</string>
@@ -2204,6 +2235,7 @@ Bármikor kikapcsolhatja a Face Match beállításaiban."</string>
     <string name="common_open_on_phone">Megnyitás a telefonon</string>
     <string name="common_see_updates">HÍREK MEGTEKINTÉSE</string>
     <string name="common_yes">OK</string>
+    <string name="comms_center_close_button_description">Oldal bezárása</string>
     <string name="commute_eta_msg">%1$s idáig: %2$s</string>
     <string name="commute_eta_time_hour">%1$s óra</string>
     <string name="commute_eta_time_hour_minute">%1$s óra %2$s perc</string>
@@ -2349,16 +2381,16 @@ Ezeket a beszélgetéseket a Google-fiók beállításainak %1$s részében teki
     <string name="cricket_second_innings">2. negyed</string>
     <string name="crop_wallpaper">Háttérkép körbevágása</string>
     <string name="cross_profile_meta_data">Közelgő munkaesemények megjelenítése a személyes Áttekintés modulban</string>
-    <string name="current_conditions_temperature" formatted="false">Hőmérséklet: %s %s</string>
     <string name="current_inning">%1$d. inning</string>
-    <string name="current_location_searchbox">Jelenlegi tartózkodási hely</string>
     <string name="current_period">%1$d. játékrész</string>
     <string name="custom">Egyéni… (telefonon nem állítható be)</string>
+    <string name="custom_reply_button_string">Egyéni válasz</string>
     <string name="custom_tabs_explore_action_button_desc">Kapcsolódó oldalak</string>
     <string name="custom_tabs_link_copied">Link átmásolva a vágólapra</string>
     <string name="custom_tabs_menu_item_copy_link">Link másolása</string>
     <string name="custom_tabs_menu_item_help">Súgó</string>
     <string name="custom_tabs_menu_item_open_in_browser_generic">Megnyitás böngészőben</string>
+    <string name="custom_tabs_menu_item_personal_info_removal">Az Önről szóló találatok eltávolítása</string>
     <string name="custom_tabs_menu_item_recent">Legutóbbi</string>
     <string name="custom_tabs_menu_item_share">Link megosztása…</string>
     <string name="custom_tabs_share_via">Megosztás itt:</string>
@@ -2370,7 +2402,6 @@ Ezeket a beszélgetéseket a Google-fiók beállításainak %1$s részében teki
     <string name="cw_chip_icon_description">Műveleti szelvény ikonja</string>
     <string name="cw_disabled_message">Átmenetileg nem áll rendelkezésre. Térjen vissza kicsit később.</string>
     <string name="cw_feedback_chip_text">Visszajelzés küldése</string>
-    <string name="daily_conditions_sky_condition">Időjárás: %s</string>
     <string name="dangerous_or_harmful_activity">Veszélyes vagy kártékony tevékenység</string>
     <string name="data_in_assistant">Az Ön adatai a Segédben</string>
     <string name="data_sharing_action_button">Engedélyezés</string>
@@ -2381,6 +2412,7 @@ Ezeket a beszélgetéseket a Google-fiók beállításainak %1$s részében teki
     <string name="data_sharing_title_text">Keresés az összes tévés alkalmazásban</string>
     <string name="date_at_time">%1$s, %2$s</string>
     <string name="date_in_the_past">%1$s &lt;font color=#9E9E9E> már elmúlt&lt;/font></string>
+    <string name="day_picker_description">Napok havi leosztásban</string>
     <string name="decline_button_description">Hívás elutasítása</string>
     <string name="decline_permissions">Not Now</string>
     <string name="deeplink_default_promocard_more_ways_to_search">Több keresési mód a Google alkalmazásban</string>
@@ -2390,7 +2422,6 @@ Ezeket a beszélgetéseket a Google-fiók beállításainak %1$s részében teki
     <string name="default_error">Hoppá, hiba történt.</string>
     <string name="default_error_msg">Ismeretlen hiba</string>
     <string name="default_group_name">csoportos csevegés</string>
-    <string name="default_location_name">San Francisco</string>
     <string name="default_media_selection_description">A rendszer alapértelmezés szerint ezt a szolgáltatást használja majd, amikor Ön zene lejátszására kéri meg a Segédet</string>
     <string name="default_media_selection_title">Alapértelmezett zeneszolgáltatás kiválasztása</string>
     <string name="default_microphone_error">Hoppá, hiba történt. Próbálkozzon újra.</string>
@@ -2724,9 +2755,12 @@ Ezeket a beállításokat bármikor újra bekapcsolhatja a Home vagy a Segéd al
     <string name="dnd_setting_title">Kizárólag elsőbbségi értesítések megjelenítése</string>
     <string name="dnd_title_off">Ki</string>
     <string name="dnd_title_on">Be</string>
+    <string name="dnd_toggle_description">A kevésbé fontos alkalmazásértesítéseket a rendszer elnémítja vezetés közben</string>
+    <string name="dnd_toggle_title">Értesítések korlátozása vezetéskor</string>
     <string name="do_not_disturb_desc">Ne zavarjanak</string>
     <string name="do_not_show_fewer_like_this">Nem szeretnék kevesebb ehhez hasonlót látni</string>
     <string name="do_not_show_more_like_this">Nem szeretnék több ehhez hasonlót látni</string>
+    <string name="do_nothing">Ne tegyen semmit</string>
     <string name="done_button_text">Kész</string>
     <string name="done_label">Kész</string>
     <string name="doodle_content_description">Google ünnepi embléma képe</string>
@@ -2754,8 +2788,11 @@ Ezeket a beállításokat bármikor újra bekapcsolhatja a Home vagy a Segéd al
     <string name="dreamliner_dock_trusted_item_summary">"Engedélyezi a személyes találatokat (például fotókat, e-maileket, naptárbejegyzéseket, névjegyeket és emlékeztetőket) ezen az eszközön, amikor a telefon a Pixel Standen található lezárt állapotban. Lehetővé teszi a fizetést is, ha be van kapcsolva a Fizetés a Segéddel funkció. &lt;a href='https://support.google.com/assistant/answer/7684543?hl=en&amp;co=GENIE.Platform=Android'>További információ&lt;/a>."</string>
     <string name="dreamliner_dock_trusted_item_title">A Pixel Stand személyes találatai</string>
     <string name="drive_mode_dedup_string">vezetési mód</string>
+    <string name="driving_general_settings_header">Általános</string>
     <string name="driving_screen_not_driving_description">Kilépés a Segéd vezetési módjából</string>
     <string name="driving_screen_not_driving_label">Nem vezetek</string>
+    <string name="driving_settings_subtitle">Annak kezelése, hogy a Segéd miként segíthet a vezetésben</string>
+    <string name="driving_settings_title">Vezetési mód</string>
     <string name="drl_nga_mic_button">Mikrofon</string>
     <string name="dsc_illustration_description">Saját tévés alkalmazások logói</string>
     <string name="dt_promocard_icon_description">Sötét téma</string>
@@ -2807,6 +2844,9 @@ nincs bejegyzés az Ön naplójában."</string>
     <string name="enable_google_play_services_link">Engedélyezés</string>
     <string name="enable_google_play_services_text">A kérés teljesítéséhez engedélyeznie kell a Google Play-szolgáltatásokat.</string>
     <string name="enable_google_search_restriction">A Google Kereső engedélyezése</string>
+    <string name="enable_mini_toggle_description">A vezetési mód a navigáció indításakor aktiválódik</string>
+    <string name="enable_mini_toggle_title">Amikor a Google Térképen navigál</string>
+    <string name="enable_mini_toggle_waiting_period_description">A vezetési mód hamarosan aktiválódik a navigáció indításakor</string>
     <string name="enable_video_preview_autoplay">Automatikus lejátszás</string>
     <string name="enable_video_preview_autoplay_on_mobile_data">Engedélyezés mobilhálózaton keresztül</string>
     <string name="enable_web_history_toast">Internetes előzmények tárolása engedélyezve</string>
@@ -2833,22 +2873,17 @@ nincs bejegyzés az Ön naplójában."</string>
     <string name="episode_sort">Rendezés</string>
     <string name="episode_sort_option_newest_first">A legújabb legelöl</string>
     <string name="episode_sort_option_oldest_first">A legrégebbi legelöl</string>
-    <string name="error_adding_location_snackbar_text">Hiba a hely hozzáadásakor</string>
     <string name="error_assist_app_step_1_text"><b>1.</b> Koppintson lent a <b>Beállítások</b> gombra.</string>
     <string name="error_assist_app_step_2_text"><b>2.</b> Koppintson a <b>Segédalkalmazás</b> szakaszra.</string>
     <string name="error_assist_app_step_3_text"><b>3.</b> Az alapértelmezettként való beállításhoz koppintson a <b>Google</b> lehetőségre.</string>
     <string name="error_card_title_text_something_went_wrong">Hiba történt</string>
     <string name="error_connecting_to_server">Nincs kapcsolat</string>
-    <string name="error_fetching_suggestions_status_text">Hiba a javaslatok lekérése közben</string>
-    <string name="error_getting_current_location_status_text">Hiba az aktuális helyadatok lekérésekor</string>
-    <string name="error_getting_location_info_status_text">Hiba a kiválasztott helyre vonatkozó információk lekérésekor</string>
     <string name="error_icon_content_description">Hiba</string>
     <string name="error_loading_content">Nem lehet betölteni az oldalt.</string>
     <string name="error_media_info">Hiba történt a médiatartalom lejátszásakor.</string>
     <string name="error_no_connection_text">"Nincs elérhető hálózat
 Ellenőrizze a kapcsolatot, majd próbálja újra"</string>
     <string name="error_no_match_text">Koppintson a mikrofonra, majd beszéljen a telefonba, hogy gyorsan választ kapjon</string>
-    <string name="error_removing_location_snackbar_text">Hiba ahely eltávolításakor</string>
     <string name="error_unreliable_network">Hiba történt. Ellenőrizze a kapcsolatot, és próbálja újra.</string>
     <string name="errors_header">Hib</string>
     <string name="errors_header_full_length">Hibák</string>
@@ -2902,6 +2937,53 @@ Ellenőrizze a kapcsolatot, majd próbálja újra"</string>
     <string name="explore_tab_shortcut_section_subtitle">A gyakran használt alkalmazásai alapján</string>
     <string name="explore_tab_shortcut_section_title">Ajánlott gyorsparancsok</string>
     <string name="exposed_dropdown_menu_content_description">Legördülő menü megjelenítése</string>
+    <string name="fa_alarm_instance_default_label">Nincs ébresztés</string>
+    <string name="fa_alarm_instance_filled_bullet">●</string>
+    <string name="fa_alarm_instance_switch_off_label">%1$s – ébresztés kikapcsolva</string>
+    <string name="fa_alarm_instance_switch_on_label">%1$s – ébresztés bekapcsolva</string>
+    <string name="fa_audio_recorder_audio_recording_text">Felvétel…</string>
+    <string name="fa_audio_recorder_default_play_record_time_text">00:00</string>
+    <string name="fa_audio_recorder_delete_audio_message">Hangüzenet törlése</string>
+    <string name="fa_audio_recorder_pause_audio_playback">Szünet</string>
+    <string name="fa_audio_recorder_playback_audio">Lejátszás</string>
+    <string name="fa_audio_recorder_recording_audio">Felvétel…</string>
+    <string name="fa_audio_recorder_stop_recording_audio">Felvétel leállítása</string>
+    <string name="fa_cancel_button_description">Mégse gomb</string>
+    <string name="fa_confirm_button_description">Megerősítés gomb</string>
+    <string name="fa_contact_selection_contact_icon_description">Névjegy ikon</string>
+    <string name="fa_contact_selection_pick_another_contact_view_hint">Válasszon másik névjegyet</string>
+    <string name="fa_contact_selection_view_hint">Válasszon névjegyet</string>
+    <string name="fa_device_setting_toggle_icon_description">Beállítások ikon</string>
+    <string name="fa_device_setting_toggle_off_description">A(z) %1$s ki van kapcsolva</string>
+    <string name="fa_device_setting_toggle_on_description">A(z) %1$s aktív</string>
+    <string name="fa_duration_hours_minutes_seconds">%1$02d ó %2$02d p %3$02d mp</string>
+    <string name="fa_duration_minutes_seconds">%1$02d p %2$02d mp</string>
+    <string name="fa_duration_picker_confirm_button_text">Kész</string>
+    <string name="fa_duration_picker_hour_unit_label">Óra</string>
+    <string name="fa_duration_picker_minute_unit_label">Perc</string>
+    <string name="fa_duration_picker_second_unit_label">Másodperc</string>
+    <string name="fa_duration_picker_title">Időtartam beállítása</string>
+    <string name="fa_duration_seconds">%1$02d mp</string>
+    <string name="fa_empty_time">--:--</string>
+    <string name="fa_family_info_broadcast_settings_button">Közvetítési beállítások gomb</string>
+    <string name="fa_family_info_collapse_button">Személyek megjelenítése gomb összecsukva</string>
+    <string name="fa_family_info_uncollapse_button">Személyek megjelenítése gomb kibontva</string>
+    <string name="fa_filled_bullet">●</string>
+    <string name="fa_hour_unit_label">ó</string>
+    <string name="fa_list_item_picker_title">Válasszon egy lehetőséget</string>
+    <string name="fa_minute_unit_label">p</string>
+    <string name="fa_playback_audio">Lejátszás</string>
+    <string name="fa_recurrence_custom">Egyéni (telefonon nem szabható személyre)</string>
+    <string name="fa_recurrence_do_not_repeat">Nincs ismétlés</string>
+    <string name="fa_recurrence_none">Nincs</string>
+    <string name="fa_remaining_duration_hours_minutes_seconds">%1$02d óra %2$02d perc %3$02d másodperc maradt</string>
+    <string name="fa_remaining_duration_minutes_seconds">%1$02d perc %2$02d másodperc maradt</string>
+    <string name="fa_remaining_duration_seconds">%1$02d másodperc maradt</string>
+    <string name="fa_second_unit_label">m</string>
+    <string name="fa_timer_status_active">AKTÍV</string>
+    <string name="fa_timer_status_paused">SZÜNETEL</string>
+    <string name="fa_timer_status_reset">VISSZAÁLLÍTÁS</string>
+    <string name="fa_timer_status_unknown">ISMERETLEN</string>
     <string name="facade_search_box_content_description">Keresés…</string>
     <string name="face_match_enabled_devices_section_subtitle">Bekapcsolta a Face Match funkciót ezeken az eszközökön</string>
     <string name="face_match_enabled_devices_section_title">Face Match funkcióval rendelkező eszközök</string>
@@ -2955,7 +3037,6 @@ Ellenőrizze a kapcsolatot, majd próbálja újra"</string>
     <string name="feedback_unsuccessful_snackbar_hint">Hiba történt. Próbálkozzon újra.</string>
     <string name="feedback_verify_location">Tartózkodási hely megerősítése</string>
     <string name="feedtooltip_video">A rendszer mostantól automatikusan lejátssza a videókat mobiladatok használatával. &lt;u>Beállítások&lt;/u></string>
-    <string name="fetching_suggestions_status_text">Javaslatok lekérése...</string>
     <string name="filled_bullet">●</string>
     <string name="final_notification_no_reply_prompt">Szeretné, hogy megismételjem, vagy egyelőre végzett?</string>
     <string name="final_notification_no_reply_reprompt">Elnézést, szeretné, hogy megismételjem, vagy egyelőre végzett?</string>
@@ -3253,7 +3334,7 @@ Keressen rá ismét a podcastra."</string>
     <string name="googleapp_accountmenu_chrome_incognito">Új Chrome inkognitó lap</string>
     <string name="googleapp_accountmenu_data_in_search">Keresés</string>
     <string name="googleapp_accountmenu_passwords">Jelszavak</string>
-    <string name="googleapp_accountmenu_personal_info_removal">Személyes információk eltávolítása</string>
+    <string name="googleapp_accountmenu_personal_info_removal">Results about you</string>
     <string name="googleapp_accountmenu_quick_delete_education_easy">A keresési előzmények utolsó 15 percének törlése egyetlen koppintással</string>
     <string name="googleapp_accountmenu_quickdelete_cancel">Mégse</string>
     <string name="googleapp_accountmenu_quickdelete_error">Nem sikerült az előzmények törlése</string>
@@ -3269,7 +3350,7 @@ Keressen rá ismét a podcastra."</string>
     <string name="googleapp_accountmenu_search_history">Keresési előzmények</string>
     <string name="googleapp_accountmenu_your_contributions">Az Ön hozzájárulásai</string>
     <string name="googleapp_actionbutton_listen">Felolvasás</string>
-    <string name="googleapp_ads_personalization_settings_title">Ads personalization</string>
+    <string name="googleapp_ads_personalization_settings_title">Hirdetések személyre szabása</string>
     <string name="googleapp_amp_security_button_description">A kapcsolat biztonságos</string>
     <string name="googleapp_app_suggestions_summary">A telepített alkalmazások neve.</string>
     <string name="googleapp_app_suggestions_title">Alkalmazások</string>
@@ -3281,6 +3362,10 @@ Keressen rá ismét a podcastra."</string>
     <string name="googleapp_autocomplete_with_trending_searches_header_title">Felkapott keresések</string>
     <string name="googleapp_autocomplete_with_trending_searches_summary">A felkapott keresések tartalmazzák az Ön környékén népszerű kereséseket</string>
     <string name="googleapp_autocomplete_with_trending_searches_title">Automatikus kiegészítés felkapott keresésekkel</string>
+    <string name="googleapp_autoplay_video_previews_always">Wi-Fi- és mobilhálózaton</string>
+    <string name="googleapp_autoplay_video_previews_never">Soha</string>
+    <string name="googleapp_autoplay_video_previews_setting_title">Videó-előnézetek automatikus lejátszása</string>
+    <string name="googleapp_autoplay_video_previews_wifi">Csak Wi-Fi-n</string>
     <string name="googleapp_back_arrow_description">Vissza</string>
     <string name="googleapp_bar_color_title">A sáv színe</string>
     <string name="googleapp_bar_logo_title">A sáv emblémája</string>
@@ -3292,12 +3377,6 @@ Keressen rá ismét a podcastra."</string>
     <string name="googleapp_boc_tooltip_tap_to_manage_your_preferences">Koppintson a beállítások és visszajelzések kezeléséhez</string>
     <string name="googleapp_books_mode_landing_text">Könyvek keresése</string>
     <string name="googleapp_bottom_navigation_collections_label_content_description">Gyűjtemények gomb</string>
-    <string name="googleapp_broad_queries_topbar_mic_description">Hangalapú keresés</string>
-    <string name="googleapp_broad_queries_topbar_search_description">Keresés</string>
-    <string name="googleapp_broad_queries_topbar_up_content_description">Vissza</string>
-    <string name="googleapp_broadqueries_error_message">Ellenőrizze, hogy működik-e az internetkapcsolata</string>
-    <string name="googleapp_broadqueries_error_title">Hiba történt</string>
-    <string name="googleapp_broadqueries_loading_indicator_desc">A tartalom betöltése folyamatban van</string>
     <string name="googleapp_browser_actionbutton_ampinfo">További információ az AMP-ről</string>
     <string name="googleapp_browser_actionbutton_overflowmenu">További műveletek</string>
     <string name="googleapp_browser_actionbutton_tabs">Lapok</string>
@@ -3310,8 +3389,8 @@ Keressen rá ismét a podcastra."</string>
     <string name="googleapp_browser_clear_error">Hiba történt a böngészési adatok törlésekor.</string>
     <string name="googleapp_browser_contextmenu_open_in_new_tab_title">Megnyitás új lapon</string>
     <string name="googleapp_browser_contextmenu_previewimage_description">Kép előnézete</string>
-    <string name="googleapp_browser_contextmenu_previewimage_scrolllabel">Scroll for more of image</string>
-    <string name="googleapp_browser_contextmenu_previewimage_smalllabel">Image preview enlarged from original size</string>
+    <string name="googleapp_browser_contextmenu_previewimage_scrolllabel">Görgessen a kép további részeinek megjelenítéséhez</string>
+    <string name="googleapp_browser_contextmenu_previewimage_smalllabel">Az eredeti méretéről nagyított kép előnézete</string>
     <string name="googleapp_browser_download_blocker_incognito_continue_btn">Letöltés</string>
     <string name="googleapp_browser_download_blocker_incognito_message">A letöltött fájlok az eszközre lesznek mentve. Az inkognitó mód kikapcsolása után is hozzáférhetők maradnak.</string>
     <string name="googleapp_browser_enable_title">Weboldalak megnyitása a Google alkalmazásban</string>
@@ -3321,28 +3400,27 @@ Keressen rá ismét a podcastra."</string>
     <string name="googleapp_browser_firstrun_summary">"A Google alkalmazást frissítette a rendszer. Mostantól közvetlenül az alkalmazásban böngészhet a webes tartalmak (például cikkek, videók vagy hírek) között.
 
 Előfordulhat, hogy bizonyos webhelyek esetében be kell jelentkeznie, továbbá érdemes áttekintenie a böngészőbeállításokat."</string>
-    <string name="googleapp_browser_firstrun_summary_v2">"Now you can view pages faster and enjoy an improved search experience.
+    <string name="googleapp_browser_firstrun_summary_v2">"Mostantól gyorsabban tekintheti meg az oldalakat, és élvezheti a továbbfejlesztett keresési élményt.
 
-You may need to log back in to some sites."</string>
+Előfordulhat, hogy egyes webhelyekre újból be kell jelentkeznie."</string>
     <string name="googleapp_browser_firstrun_summary_v2_part2">"
 
-Manage your new browser security and privacy settings in the app."</string>
+A böngésző új biztonsági és adatvédelmi beállításait az alkalmazásban kezelheti."</string>
     <string name="googleapp_browser_firstrun_title">A webes tartalmak mostantól az alkalmazásban nyílnak meg</string>
-    <string name="googleapp_browser_firstrun_title_v2">Browse without leaving the app</string>
+    <string name="googleapp_browser_firstrun_title_v2">Böngészés az alkalmazásból való kilépés nélkül</string>
     <string name="googleapp_browser_setting_clear_cache_title"><b>Gyorsítótárban lévő képek és fájlok</b>"
 Előfordulhat, hogy egyes webhelyek lassabban töltődnek be, amikor legközelebb felkeresi őket."</string>
     <string name="googleapp_browser_setting_clear_data_title"><b>Cookie-k és webhelyadatok</b>"
 A rendszer a legtöbb webhelyről kijelentkezteti Önt. A rendszer nem jelentkezteti ki Google-fiókjából."</string>
     <string name="googleapp_browser_settings_browser_privacy_category_title">Böngésző adatvédelme</string>
     <string name="googleapp_browser_settings_browser_safety_category_title">Böngésző biztonsága</string>
-    <string name="googleapp_browser_settings_browsing_history_summary">Manage your browsing history at My Activity</string>
+    <string name="googleapp_browser_settings_browsing_history_summary">Böngészési előzmények kezelése a Saját tevékenységek oldalon</string>
     <string name="googleapp_browser_settings_browsing_history_title">Böngészési előzmények</string>
     <string name="googleapp_browser_settings_clear_browsing_data_summary">Cookie-k és gyorsítótár törlése</string>
     <string name="googleapp_browser_settings_clear_browsing_data_title">Böngészési adatok törlése</string>
     <string name="googleapp_browser_settings_cleardata_button_text">Adatok törlése</string>
     <string name="googleapp_browser_settings_extended_safe_browsing_summary">A Google-nak küldött böngészőadatok segíthetnek a veszélyes appok és webhelyek észlelésében. Ilyen adatok a felkeresett oldalak URL-jei, a korlátozott rendszeradatok és bizonyos oldaltartalmak.</string>
     <string name="googleapp_browser_settings_extended_safe_browsing_title">Segítsen a böngésző biztonságának fejlesztésében</string>
-    <string name="googleapp_browser_settings_link">Böngészőbeállítások</string>
     <string name="googleapp_browser_settings_real_time_safe_browsing_summary">Webhelyek felkeresésekor ellenőrizheti, hogy vannak-e új biztonsági problémák. A felkeresett oldalak URL-jeit a rendszer elküldi a Google-nak.</string>
     <string name="googleapp_browser_settings_real_time_safe_browsing_title">Webhelyek biztonságának ellenőrzése valós időben</string>
     <string name="googleapp_browser_settings_safe_browsing_summary">Ismert biztonsági problémákkal rendelkező webhely megnyitásakor figyelmeztetést láthat. A nem biztonságos URL-eket elküldheti a rendszer a Google-nak.</string>
@@ -3409,10 +3487,10 @@ A rendszer a legtöbb webhelyről kijelentkezteti Önt. A rendszer nem jelentkez
     <string name="googleapp_covid_vaccine_register_25_subheader">Mindenki, aki betöltötte 25. életévét, jogosult az oltásra</string>
     <string name="googleapp_covid_vaccine_register_header">Regisztráljon ma a COVID-oltásra</string>
     <string name="googleapp_custom_color_description">Egyéni színű Kereső modul</string>
-    <string name="googleapp_custom_color_hue_slider_description">Custom hue slider</string>
-    <string name="googleapp_custom_color_hue_slider_label">Hue</string>
-    <string name="googleapp_custom_color_saturation_slider_description">Custom saturation slider</string>
-    <string name="googleapp_custom_color_saturation_slider_label">Saturation</string>
+    <string name="googleapp_custom_color_hue_slider_description">Egyéni színárnyalat csúszkája</string>
+    <string name="googleapp_custom_color_hue_slider_label">Színárnyalat</string>
+    <string name="googleapp_custom_color_saturation_slider_description">Egyéni színtelítettség csúszkája</string>
+    <string name="googleapp_custom_color_saturation_slider_label">Telítettség</string>
     <string name="googleapp_custom_tabs_collections_menu_item_title">Gyűjtemények megtekintése</string>
     <string name="googleapp_custom_tabs_copy_link_menu_item_title">Link másolása</string>
     <string name="googleapp_custom_tabs_copy_link_toast_text">Link átmásolva a vágólapra</string>
@@ -3424,6 +3502,7 @@ Bejelentkezve mint: %1$s"</string>
     <string name="googleapp_custom_tabs_enabled_setting_unavailable_need_first_run_done">Nyissa meg és állítsa be a Chrome böngészőt a beállítás engedélyezéséhez</string>
     <string name="googleapp_custom_tabs_enabled_setting_unavailable_update_chrome">Az engedélyezéshez telepítenie kell a Chrome legfrissebb verzióját</string>
     <string name="googleapp_custom_tabs_help_menu_item_title">Súgó</string>
+    <string name="googleapp_custom_tabs_piros_menu_item_title">Az Önről szóló találatok eltávolítása</string>
     <string name="googleapp_custom_tabs_recently_menu_item_title">Legújabbak</string>
     <string name="googleapp_customize_text">Személyre szabás</string>
     <string name="googleapp_disco_channels_and_interests_tng_setting">Csatornák és érdeklődési körök</string>
@@ -3535,7 +3614,7 @@ Bejelentkezve mint: %1$s"</string>
     <string name="googleapp_general_settings_title">Általános</string>
     <string name="googleapp_go_to_discover_content_description">A Discover megnyitása</string>
     <string name="googleapp_goc_bottombar_close_description">Kapcsolódó oldalak elrejtése</string>
-    <string name="googleapp_google_app_browser_instacart_button_content_description">Instacart button</string>
+    <string name="googleapp_google_app_browser_instacart_button_content_description">Instacart gomb</string>
     <string name="googleapp_hide_explicit_results_settings_title">Felnőtteknek szóló találatok elrejtése</string>
     <string name="googleapp_images_mode_landing_text">Képek keresése</string>
     <string name="googleapp_incognito_app_strip_header">Az alkalmazásaiból (lehetséges, hogy nincs inkognitó módban)</string>
@@ -3569,7 +3648,6 @@ Bejelentkezve mint: %1$s"</string>
     <string name="googleapp_incognito_setup_device_biometrics_dialog_title">Biometria beállítása</string>
     <string name="googleapp_incognito_signpost_button_text">Kikapcsolás</string>
     <string name="googleapp_incognito_signpost_icon_description">Inkognitó módot jelző ikon</string>
-    <string name="googleapp_incognito_signpost_message_assistant">A Segéd-funkciók nem használhatók inkognitó módban való böngészéskor – lépjen ki az inkognitó módból a Segéd használatához</string>
     <string name="googleapp_incognito_signpost_message_collections">A gyűjtemények nem állnak rendelkezésre inkognitó módban való böngészéskor – a hozzáféréshez lépjen ki az inkognitó módból</string>
     <string name="googleapp_incognito_signpost_message_default">Ez a funkció nem áll rendelkezésre inkognitó módban való böngészéskor – lépjen ki az inkognitó módból, hogy hozzáférhessen a funkcióhoz</string>
     <string name="googleapp_incognito_signpost_message_discover">Az Ön Discover-hírcsatornája nem áll rendelkezésre inkognitó módban</string>
@@ -3592,7 +3670,7 @@ Bejelentkezve mint: %1$s"</string>
     <string name="googleapp_interstitial_visibility_warning_isp">Az internetszolgáltatója</string>
     <string name="googleapp_interstitial_visibility_warning_websites">Az Ön által meglátogatott webhelyek</string>
     <string name="googleapp_language_setting_title">Keresés nyelve</string>
-    <string name="googleapp_language_switcher_auto_option">Auto-switch</string>
+    <string name="googleapp_language_switcher_auto_option">Automatikus váltás</string>
     <string name="googleapp_lens_button_content_description">Fényképezőgépes kereső</string>
     <string name="googleapp_lens_explainer">Készítsen fotót bármiről, amire rá szeretne keresni</string>
     <string name="googleapp_lens_icon_content_description">Fényképezőgépes kereső</string>
@@ -3671,7 +3749,14 @@ Eszközalapú személyes keresési találatokat kaphat appokból és szolgáltat
     <string name="googleapp_recent_pages_enabled_setting_title">Legutóbbi oldalak</string>
     <string name="googleapp_region_setting_title">Keresés régiója</string>
     <string name="googleapp_reset_style_text">Alapértelmezett stílus visszaállítása</string>
-    <string name="googleapp_save_button_text">Save</string>
+    <string name="googleapp_save_button_text">Mentés</string>
+    <string name="googleapp_save_feature_default_collection_label">Kedvenc oldalak</string>
+    <string name="googleapp_save_feature_error_title">Hoppá, hiba történt</string>
+    <string name="googleapp_save_feature_share_close_button_description">Bezárás</string>
+    <string name="googleapp_save_feature_share_receiver_subject_and_text">"%1$s
+
+%2$s"</string>
+    <string name="googleapp_save_feature_share_save">Mentés</string>
     <string name="googleapp_search_a_song_content_description">Koppintson a zenefelismerés elindításához</string>
     <string name="googleapp_search_bar_radius_24dp_description">Lekerekített</string>
     <string name="googleapp_search_bar_radius_2dp_description">Téglalap</string>
@@ -3701,26 +3786,27 @@ Eszközalapú személyes keresési találatokat kaphat appokból és szolgáltat
     <string name="googleapp_second_screen_manage_interests_menu_label">Érdeklődési körök kezelése</string>
     <string name="googleapp_second_screen_settings_menu_label">Beállítások</string>
     <string name="googleapp_see_updates">Hírek megtekintése</string>
-    <string name="googleapp_settings_about_link">Névjegy</string>
+    <string name="googleapp_setting_error_card_icon_content_description">Hiba</string>
+    <string name="googleapp_setting_error_card_message_explanation">Nem sikerült a weboldal betöltése</string>
+    <string name="googleapp_setting_error_card_message_title">Hiba történt</string>
     <string name="googleapp_settings_about_title">Névjegy</string>
-    <string name="googleapp_settings_general_link">Általános</string>
-    <string name="googleapp_settings_language_and_region_link">Nyelv és régió</string>
     <string name="googleapp_settings_language_and_region_title">Nyelv és régió</string>
     <string name="googleapp_settings_legal_notices_title">Jogi közlemények</string>
     <string name="googleapp_settings_location_terms_of_service_title">Tartózkodási helyre vonatkozó ÁSZF</string>
+    <string name="googleapp_settings_nav_up">Fel</string>
     <string name="googleapp_settings_open_source_licenses_title">Harmadik felek tájékoztatói</string>
     <string name="googleapp_settings_privacy_and_security_link">Adatvédelem és biztonság</string>
     <string name="googleapp_settings_privacy_policy_title">Adatvédelmi irányelvek</string>
-    <string name="googleapp_settings_search_widget_link">Kereső modul</string>
+    <string name="googleapp_settings_search">Keresés</string>
+    <string name="googleapp_settings_search_hint">Keresés a beállítások között</string>
     <string name="googleapp_settings_terms_of_service_title">ÁSZF</string>
-    <string name="googleapp_settings_voice_link">Hang</string>
     <string name="googleapp_settings_voice_title">Voice</string>
     <string name="googleapp_shopping_mode_landing_text">Keresés a vásárlási lehetőségek között</string>
     <string name="googleapp_show_waiting_text">Egy pillanat…</string>
-    <string name="googleapp_sign_in_tout_header">Sign in to personalize Discover</string>
-    <string name="googleapp_sign_in_tout_negative_text">Cancel</string>
-    <string name="googleapp_sign_in_tout_positive_text">Sign in</string>
-    <string name="googleapp_sign_in_tout_subheader">Control what you see in the Google app by signing in</string>
+    <string name="googleapp_sign_in_tout_header">Bejelentkezés a Discover személyre szabásához</string>
+    <string name="googleapp_sign_in_tout_negative_text">Mégse</string>
+    <string name="googleapp_sign_in_tout_positive_text">Bejelentkezés</string>
+    <string name="googleapp_sign_in_tout_subheader">Ha bejelentkezik, vezérelheti, mit lát a Google alkalmazásban</string>
     <string name="googleapp_signed_out_pq_based_suggestion_message">Ez a várható kifejezés a legutóbbi keresésekhez kapcsolódik.</string>
     <string name="googleapp_silk_pane_close_button">Bezárás</string>
     <string name="googleapp_silk_pane_dismiss_message">Elvetés</string>
@@ -3728,6 +3814,7 @@ Eszközalapú személyes keresési találatokat kaphat appokból és szolgáltat
     <string name="googleapp_sno_subscriptions_internal_error_header">Hiba történt</string>
     <string name="googleapp_sno_subscriptions_offline_error_message">A feliratkozások megtekintéséhez és módosításához csatlakoznia kell a hálózathoz</string>
     <string name="googleapp_sound_search_search_a_song_hint">Zene keresése</string>
+    <string name="googleapp_srp_query_tiger">tigris</string>
     <string name="googleapp_stamp_viewer_actionbutton_feedback">Visszajelzés küldése</string>
     <string name="googleapp_stamp_viewer_actionbutton_heart">Szív</string>
     <string name="googleapp_stamp_viewer_actionbutton_help_center">Súgó</string>
@@ -3742,7 +3829,7 @@ Eszközalapú személyes keresési találatokat kaphat appokból és szolgáltat
     <string name="googleapp_stamp_viewer_error_title">Hiba történt</string>
     <string name="googleapp_stamp_viewer_overflow_menu_button_content_description">További beállítások.</string>
     <string name="googleapp_stamp_viewer_overflow_menu_close">Bezárás</string>
-    <string name="googleapp_stamp_viewer_preview_button_text">Teljes történet</string>
+    <string name="googleapp_stamp_viewer_preview_button_text">Megtekintés folytatása</string>
     <string name="googleapp_stamp_viewer_preview_label">Előnézet</string>
     <string name="googleapp_stamp_viewer_publisher_cta">Felkeresés</string>
     <string name="googleapp_stamp_viewer_retry_button_text">Újra</string>
@@ -3759,7 +3846,7 @@ Eszközalapú személyes keresési találatokat kaphat appokból és szolgáltat
     <string name="googleapp_tabs_manager_close_all_tabs_dialog_confirmation_button_label">Az összes bezárása</string>
     <string name="googleapp_tabs_manager_close_all_tabs_dialog_confirmation_message">Biztosan be szeretné zárni az összes megnyitott lapot?</string>
     <string name="googleapp_tabs_manager_close_tab_button_default_description">lap bezárása</string>
-    <string name="googleapp_tabs_manager_close_tab_button_description">webhely bezárása %s – gomb</string>
+    <string name="googleapp_tabs_manager_close_tab_button_description">a(z) %s webhely bezárása</string>
     <string name="googleapp_tabs_manager_empty_state_title">Nincs megnyitott lap</string>
     <string name="googleapp_tabs_manager_new_tab_button_description">új keresés indítása</string>
     <string name="googleapp_tabs_manager_new_tab_button_text">Új lap</string>
@@ -3777,18 +3864,19 @@ Eszközalapú személyes keresési találatokat kaphat appokból és szolgáltat
     <string name="googleapp_voice_search_humming">Zenéket kereshet dúdolással</string>
     <string name="googleapp_voice_search_tired_of_typing">Belefáradt a gépelésbe? Keressen hangja segítségével.</string>
     <string name="googleapp_voice_search_with_voice">Kereshet hangja segítségével</string>
+    <string name="googleapp_voice_settings_assistant_title">Google Segéd</string>
     <string name="googleapp_voice_settings_languages_setting_check_content_description">Kijelölve</string>
     <string name="googleapp_voice_settings_languages_setting_limit_reached_notice">Elérte a korlátot. Nem választhat ki további nyelveket.</string>
     <string name="googleapp_voice_settings_languages_setting_no_selection_notice">Nincs kiválasztott nyelv.</string>
     <string name="googleapp_voice_settings_languages_setting_save_button_text">MENTÉS</string>
+    <string name="googleapp_voice_settings_languages_setting_summary_text_others">Others:</string>
+    <string name="googleapp_voice_settings_languages_setting_summary_text_primary">Primary:</string>
     <string name="googleapp_voice_settings_languages_setting_title">Nyelvek</string>
     <string name="googleapp_voice_settings_offline_speech_recognition_setting_summary">Letöltött nyelvek kezelése</string>
     <string name="googleapp_voice_settings_offline_speech_recognition_setting_title">Offline beszédfelismerés</string>
     <string name="googleapp_voice_settings_spoken_results_setting_title">Hangalapú találatok</string>
-    <string name="googleapp_voice_settings_spoken_results_value_all_voices">Összes hangalapú keresés</string>
-    <string name="googleapp_voice_settings_spoken_results_value_hands_free_only">Csak a szabadkezes keresések</string>
-    <string name="googleapp_voice_settings_voice_match_setting_summary">Beszéljen a Google Segédhez a feladatok elvégzéséhez</string>
-    <string name="googleapp_voice_settings_voice_match_setting_title">Voice Match</string>
+    <string name="googleapp_voice_settings_spoken_results_value_all_voices">On</string>
+    <string name="googleapp_voice_settings_spoken_results_value_hands_free_only">Off</string>
     <string name="googleapp_waa_disabled_tout_promo_description">A Google Kereső adatvédelmi beállításai</string>
     <string name="googleapp_waa_disabled_tout_promo_header">A hírcsatornája nem az előzményein alapul</string>
     <string name="googleapp_waa_disabled_tout_promo_subheader">A Discover-hírcsatornája nem az Ön előzményein alapul, mert az Internetes és alkalmazástevékenységek beállítás ki van kapcsolva</string>
@@ -3861,6 +3949,7 @@ Eszközalapú személyes keresési találatokat kaphat appokból és szolgáltat
     <string name="help_and_feedback">Súgó és visszajelzés</string>
     <string name="help_quoted_example_query">„%s”</string>
     <string name="heres_the_message">Íme az üzenet:</string>
+    <string name="hey_google_title">Az „Ok Google\" érzékelése</string>
     <string name="hide_account_list">Fiókok elrejtése</string>
     <string name="hide_completed_episodes">Befejezett epizódok elrejtése</string>
     <string name="hide_debug_info">Hibakeresés rejtése</string>
@@ -3901,6 +3990,8 @@ Eszközalapú személyes keresési találatokat kaphat appokból és szolgáltat
     <string name="hotseat_out_of_space">Nincs több hely a Kedvencek tálcán</string>
     <string name="hotword_disabled">Ki van kapcsolva a(z) „%1$s” hotword</string>
     <string name="hotword_disabled_motorola_aov">A(z) „%1$s” helyett valamelyik másik funkció használja a mikrofont. A(z) „%1$s” újbóli bekapcsolásához zárja be a Moto Voice alkalmazást.</string>
+    <string name="hotword_enrollment_battery_impact_disclosure_wear_os">A(z) „%1$s” jobban igénybe veszi az óra akkumulátorát. A(z) „%2$s” a Segéd beállításai között kapcsolható ki.</string>
+    <string name="hotword_enrollment_battery_impact_disclosure_wear_os_for_unicorn">A(z) „%1$s” jobban igénybe veszi az óra akkumulátorát. A(z) „%2$s” %3$s Segédjének beállításai között kapcsolható ki.</string>
     <string name="hotword_enrollment_button_more">Több</string>
     <string name="hotword_enrollment_delete_voice_model">Hangminta törlése</string>
     <string name="hotword_enrollment_device_fast_update_progress_summary">Segédje az Ön hangjáról korábban készített felvételek alapján létrehozza a hangmintát ehhez az eszközhöz.</string>
@@ -3920,7 +4011,10 @@ Eszközalapú személyes keresési találatokat kaphat appokból és szolgáltat
     <string name="hotword_enrollment_enroll_text_opa_talkback">Aktiválja a %1$s gombot alább, majd mondja ki az „%2$s” parancsot annak érdekében, hogy betaníthassa asszisztensét a hangja felismerésére.</string>
     <string name="hotword_enrollment_enroll_text_opa_talkback_assistant_device">"Ha szeretné megtanítani Segédjét hangja felismerésére, koppintson az alábbi RÖGZÍTÉS INDÍTÁSA gombra, és amikor a rendszer kéri, mondja a következőt:
 %1$s"</string>
+    <string name="hotword_enrollment_enroll_text_opa_tisid_talkback_assistant_device">A következő oldalon betaníthatja a Segédnek az Ön hangját úgy, hogy a Segéd kimond egy kifejezést, és megfigyeli, Ön hogyan ismételi el utána. Hallgassa meg a Segéd által kimondott kifejezést. Majd nyomja meg a Felvétel indítása gombot, és hangosan ismételje el a kifejezést. A folyamat elkezdéséhez koppintson a(z) %1$s gombra.</string>
+    <string name="hotword_enrollment_enroll_tisid_talkback_next">Tovább</string>
     <string name="hotword_enrollment_fast_update_header_title">Voice Match aktiválása…</string>
+    <string name="hotword_enrollment_feature_disabled">Ez a funkció le van tiltva</string>
     <string name="hotword_enrollment_feature_disabled_by_admin">A rendszergazda letiltotta ezt a funkciót</string>
     <string name="hotword_enrollment_from_fdl_google_home_share_screen_done">Kész</string>
     <string name="hotword_enrollment_google_home_enrollment_intro_title_activate">A Voice Match funkció aktiválása ezen az eszközön</string>
@@ -3948,8 +4042,8 @@ Korábbi felvételeiből ezen az eszközön is létrehozhat hangmintát. Ez legf
 Ön is kaphat személyre szóló válaszokat. Koppintson az eszközre történő bejelentkezéshez: g.co/voicematch."</string>
     <string name="hotword_enrollment_google_home_share_message_subject">Tanítsa meg Segédjét arra, hogy felismerje Önt</string>
     <string name="hotword_enrollment_google_home_share_screen_done">Meghívás</string>
-    <string name="hotword_enrollment_google_home_skip_dialog_negative_button">Voice Match beállítása</string>
-    <string name="hotword_enrollment_google_home_skip_dialog_positive_button">Befejezés</string>
+    <string name="hotword_enrollment_google_home_skip_dialog_negative_button">Eltávolítás</string>
+    <string name="hotword_enrollment_google_home_skip_dialog_positive_button">Voice Match beállítása</string>
     <string name="hotword_enrollment_google_home_skip_dialog_title">{PERSON} fiókja el lesz távolítva az eszközről</string>
     <string name="hotword_enrollment_google_home_summary_footer_text">A hangtevékenységeket a következő helyen tekintheti meg és törölheti: %1$s. A Voice Match funkciót a Segéd beállításaiban kapcsolhatja ki.</string>
     <string name="hotword_enrollment_google_home_tisid_enrollment_devices">"
@@ -3967,7 +4061,16 @@ Ha később úgy dönt, hogy nem szeretné használni a Voice Match szolgáltat�
     <string name="hotword_enrollment_intro_get_started_unicorn">Tovább</string>
     <string name="hotword_enrollment_intro_header_summary">Szabadkezes segítséget kaphat a Google Segédtől</string>
     <string name="hotword_enrollment_intro_header_summary_oobe">{GENDER,select, male{%1$s kézhasználat nélkül, csupán hangalapú utasításokkal is kérhet segítséget.}female{%1$s kézhasználat nélkül, csupán hangalapú utasításokkal is kérhet segítséget.}other{%1$s kézhasználat nélkül, csupán hangalapú utasításokkal is kérhet segítséget.}}</string>
-    <string name="hotword_enrollment_intro_header_summary_wear_os_battery_disclosure">Órája készenléti módban várakozik, hogy szabadkezes segítséget nyújthasson</string>
+    <string name="hotword_enrollment_intro_header_summary_wear_os">"Ha a %1$s gombra koppint, Segédje készenlétbe lép, hogy észlelhesse a(z) „%2$s” parancsszó elhangzását, amikor az óra teljesen ébren van.
+
+A(z) „%3$s” parancsszó használatához a Voice Match funkció is szükséges, hogy Segédje felismerhesse Önt."</string>
+    <string name="hotword_enrollment_intro_header_summary_wear_os_for_unicorn">"{GENDER,select, male{Ha a %1$s gombra kattint, %2$s Segédje készenlétbe lép, hogy észlelhesse a(z) „%3$s” parancsszó elhangzását, amikor gyermeke órája teljesen ébren van.
+
+A(z) „%4$s” parancsszó használatához a Voice Match funkció is szükséges, hogy %5$s Segédje felismerhesse őt.}female{Ha a %1$s gombra kattint, %2$s Segédje készenlétbe lép, hogy észlelhesse a(z) „%3$s” parancsszó elhangzását, amikor gyermeke órája teljesen ébren van.
+
+A(z) „%4$s” parancsszó használatához a Voice Match funkció is szükséges, hogy %5$s Segédje felismerhesse őt.}other{Ha a %1$s gombra kattint, %2$s Segédje készenlétbe lép, hogy észlelhesse a(z) „%3$s” parancsszó elhangzását, amikor gyermeke órája teljesen ébren van.
+
+A(z) „%4$s” parancsszó használatához a Voice Match funkció is szükséges, hogy %5$s Segédje felismerhesse őt.}}"</string>
     <string name="hotword_enrollment_intro_header_title">A Segéd megnyitása az „%1$s” paranccsal</string>
     <string name="hotword_enrollment_intro_header_title_glif_non_opa">Hangalapú keresés bármikor</string>
     <string name="hotword_enrollment_intro_header_title_oobe">%1$s hozzáférhet a Google Segédhez a következő paranccsal: „%2$s“</string>
@@ -3990,6 +4093,8 @@ A Voice Match lehetővé teszi a Segéd számára %1$s felismerését, és máso
 Ha később úgy dönt, hogy a Voice Match szolgáltatás nem megfelelő %1$s számára, egyszerűen eltávolíthatja a Segéd beállításaiban. Ha szeretné megtekinteni (vagy törölni) azokat a hangfelvételeket, amelyeket %1$s rögzített a Voice Match beállítása során, %1$s fiókjából ugorjon az activity.google.com oldalra. 
 
 Megjegyzés: Előfordulhat, hogy hasonló hanggal vagy hangfelvétellel is hozzá lehet férni %1$s személyes találataihoz az Ön Segédjén keresztül.}}"</string>
+    <string name="hotword_enrollment_intro_misactivation_disclaimer_wear_os">A Segéd az Ön szándékán kívül is aktiválódhat, például ha a(z) „%1$s” parancsszóhoz hasonló zaj hallatszik.</string>
+    <string name="hotword_enrollment_intro_misactivation_disclaimer_wear_os_for_unicorn">A Segéd %1$s szándékán kívül is aktiválódhat, például ha a(z) „%2$s” parancsszóhoz hasonló zaj hallatszik.</string>
     <string name="hotword_enrollment_intro_summary_glif_non_opa">A(z) „%1$s” kimondásával bármikor beszélhet eszközéhez, még akkor is, amikor a képernyő ki van kapcsolva, vagy éppen kedvenc alkalmazásait használja.&lt;br/>&lt;br/>Ez a funkció létrehozza az Ön egyedi hangmintáját az eszközön, és a Google Hangalapú keresés ennek köszönhetően tudja Önt azonosítani, illetve másoktól megkülönböztetni.&lt;br/>&lt;br/>&lt;b>Ne feledje:&lt;/b> Hasonló hanggal vagy hangfelvétellel mások is hozzáférhetnek a Hangalapú kereséshez. Az engedélyt a Google alkalmazás beállításaiban kapcsolhatja ki.</string>
     <string name="hotword_enrollment_intro_title_activate_hey_google">A Voice Match aktiválása a(z) %1$s parancsszóra</string>
     <string name="hotword_enrollment_intro_title_activate_hey_google_for_unicorn">%1$s Voice Match funkciójának aktiválása</string>
@@ -4083,7 +4188,6 @@ Korábbi felvételeiből ezen az eszközön is létrehozhat hangmintát. Ez a m�
     <string name="hotword_enrollment_voice_match_next">Következő</string>
     <string name="hotword_enrollment_voice_match_no_thanks">Nem, köszönöm</string>
     <string name="hotword_enrollment_voice_match_skip">Kihagyás</string>
-    <string name="hotword_enrollment_wear_os_battery_impact_disclosure">A készenléti mód jobban igénybe veszi az óra akkumulátorát</string>
     <string name="hotword_enrollment_wrong_query">Ismételje meg, amit mondott</string>
     <string name="hotword_model_download_notification_content">Hangminta frissítése a parancsszó (%1$s) jobb felismeréséhez…</string>
     <string name="hotword_model_download_notification_title">„%1$s” hangminta frissítése</string>
@@ -4356,6 +4460,7 @@ A Voice Match beállítása során rögzített hangfelvételek megtekintéséhez
     <string name="language_switcher_nudge_string">A nyelv módosításához kattintson erre a gombra</string>
     <string name="language_unsupported_text">Módosítsa a Segéd nyelvét</string>
     <string name="language_unsupported_tts">Nem beszélek az autó Ön által kiválasztott nyelvén. Ha ennek ellenére a segítségemet szeretné kérni, választhat másik nyelvet kizárólag a köztünk folyó beszélgetéshez. Amikor biztonságos, ezt megteheti az autó Segéd-beállításaiban.</string>
+    <string name="launch_driving_mode">A vezetési mód indítása</string>
     <string name="launcher_name">Google Asszisztens Indító</string>
     <string name="launcher_shortcut_assistant_short">Google Segéd</string>
     <string name="launcher_shortcut_text_search_short">Keresés</string>
@@ -4511,14 +4616,13 @@ A Voice Match beállítása során rögzített hangfelvételek megtekintéséhez
     <string name="lens_info_panel_on_device_chip_share_translate_content_description">Lefordított kép megosztása</string>
     <string name="lens_info_panel_on_device_chip_translate">Fordítás</string>
     <string name="lens_info_panel_on_device_chip_translate_content_description">A kijelölt szöveg fordítása</string>
-    <string name="lens_info_panel_on_device_no_text_header_title">Nem található szöveg</string>
     <string name="lens_info_panel_on_device_results_header_limited_functionality">Egyes funkciók nem állnak rendelkezésre</string>
     <string name="lens_info_panel_on_device_results_header_offline">Offline</string>
     <string name="lens_info_panel_on_device_text_header_title">A képen szöveg található</string>
     <string name="lens_info_panel_on_device_translation_header_title">Lefordított szöveg</string>
+    <string name="lens_info_panel_partial_translate_enabled_header_title">Eredeti szöveg</string>
     <string name="lens_info_panel_processing_message">Betöltés…</string>
     <string name="lens_info_panel_quoted_title">„%1$s”</string>
-    <string name="lens_info_panel_select_text_to_translate_header_title">Jelölje ki a lefordítandó szöveget</string>
     <string name="lens_kilometers_indicator">%s km</string>
     <string name="lens_latex_input_hint">Írjon be egy matematikai problémát</string>
     <string name="lens_launcher_description">Fényképezőgépes kereső</string>
@@ -4614,6 +4718,7 @@ A Voice Match beállítása során rögzített hangfelvételek megtekintéséhez
     <string name="lens_sample_images_translate_card_text_short">Képek lefordítása</string>
     <string name="lens_search_bar_hint">Adja meg az étterem nevét</string>
     <string name="lens_search_filter_name">Keresés</string>
+    <string name="lens_selection_state_guidance_message_on_device_translation">Koppintson a lefordítandó szövegre</string>
     <string name="lens_share_to_lens_label">Kép keresése</string>
     <string name="lens_share_translate_message">A Google Lens használatával lefordítva. Próbálja ki!</string>
     <string name="lens_shopping_filter_guidance_message">Fotózzon terméket vagy vonalkódot</string>
@@ -4727,14 +4832,10 @@ A Voice Match beállítása során rögzített hangfelvételek megtekintéséhez
     <string name="local_intent_search">Úgy tűnik, hogy helyet szeretne keresni, miközben offline állapotban van.</string>
     <string name="local_results_map_description">A(z) %1$s térképe</string>
     <string name="location">Hely</string>
-    <string name="location_added_snackbar_text">Hely hozzáadva</string>
-    <string name="location_default_error">Hiba történt. Próbálja újra később.</string>
     <string name="location_feedback_button_heading">A helykártya esetén kattintson a „HELYKÁRTYA VISSZAJELZÉSI ŰRLAP” elemre.</string>
     <string name="location_feedback_button_text">Helykártya visszajelzési űrlap</string>
     <string name="location_name">Név</string>
-    <string name="location_not_saved_snackbar_text">A következő helyet nem mentette a rendszer: %s.</string>
     <string name="location_permission_toast">Előfordulhat, hogy a helyileg releváns találatok és funkciók biztosítása érdekében a Google Kereső és a Segéd az Ön helyadatait használja (akár a háttérben futva is).</string>
-    <string name="location_removed_snackbar_text">Hely eltávolítva</string>
     <string name="location_setting_title">Hely</string>
     <string name="lockscreen_close_icon_description">Bezárás</string>
     <string name="lockscreen_consent_action">Igen, folytatom</string>
@@ -4765,7 +4866,6 @@ Ha szeretne segítséget kérni a személyes adataival kapcsolatban is (példáu
     <string name="main_page_subtitle">Hozzon létre gyorsparancsokat, így Segédje segíthet az appoknál az Ok Google elhangzásakor</string>
     <string name="main_page_title">Gyorsparancsok</string>
     <string name="make_a_call_text">Hívás indítása</string>
-    <string name="manage_accounts">Fiókok kezelése</string>
     <string name="manage_activity_button_text">Előzmények kezelése</string>
     <string name="manage_all_assistant_settings">Az összes Segéd-beállítás kezelése</string>
     <string name="manage_apps_title">Alkalmazások és szolgáltatások kezelése</string>
@@ -4824,6 +4924,7 @@ Ha szeretne segítséget kérni a személyes adataival kapcsolatban is (példáu
     <string name="mdd_notification_action_cancel">Mégse</string>
     <string name="mdd_notification_download_failed">Sikertelen letöltés</string>
     <string name="mdd_notification_download_paused">Várakozás hálózati kapcsolatra</string>
+    <string name="mdd_notification_download_paused_wifi">Waiting for WiFi connection</string>
     <string name="mdd_notification_download_success">Letöltve</string>
     <string name="media_artist_a11y">%1$s, előadó</string>
     <string name="media_assistant_logo_a11y">Kattintson a beszédhez</string>
@@ -4888,6 +4989,10 @@ játssz zenét”"</string>
     <string name="menu_overlay_reset_to_default_style">Alapértelmezett stílus visszaállítása</string>
     <string name="menu_refresh">Frissítés</string>
     <string name="menu_send_button_content_description">Küldés gomb a visszajelzés elküldéséhez.</string>
+    <string name="message_alert_hear_contact">Névjegy meghallgatása</string>
+    <string name="message_alert_hear_message">Teljes üzenet meghallgatása</string>
+    <string name="message_alert_notification_only">Csak értesítés</string>
+    <string name="message_alert_title">Értesítés kiválasztása</string>
     <string name="message_announce_title">Értesítés SMS-ekről</string>
     <string name="message_card_feedback">Visszajelzés</string>
     <string name="message_center_auto_read_setting_turn_on">Auto. felolvasás be</string>
@@ -4908,6 +5013,9 @@ játssz zenét”"</string>
     <string name="message_sound_search_result_tts">A következő számot hallgatja éppen: %s</string>
     <string name="message_sound_search_result_with_artist_tts" formatted="false">%s %s című számát hallgatja</string>
     <string name="message_who_initial_prompt">Kinek szeretne üzenetet küldeni?</string>
+    <string name="messaging_settings_header">Hívások és üzenetek</string>
+    <string name="messaging_toggle_description">Segédje segít az üzenetek vezetés közbeni meghallgatásában és megválaszolásában</string>
+    <string name="messaging_toggle_title">Üzenetek meghallgatása és hangalapú válaszadás</string>
     <string name="mic_button_content_description">Hangalapú keresés</string>
     <string name="mic_button_description">%1$s mikrofon gomb</string>
     <string name="mic_fab_content_description">Kattintson, hogy beszélhessen a Google Segéddel.</string>
@@ -5070,7 +5178,6 @@ A Saját tevékenységek között megtalálja és kezelheti az összes Google-ke
     <string name="network_connection_unstable">Úgy tűnik, hogy a hálózati kapcsolat nem stabil. Kérjük, próbálja újra.</string>
     <string name="network_error">A Google jelenleg nem érhető el.</string>
     <string name="network_error_airplane_mode_tts">Jelenleg nincs internetkapcsolat, mert az eszköz repülős üzemmódban van.</string>
-    <string name="network_error_fetching_weather_data_status_text">A hálózat jelenleg nem áll rendelkezésre</string>
     <string name="network_error_no_connection_tts">Jelenleg nincs internetkapcsolat.</string>
     <string name="network_error_try_again">Újrapróbálkozás</string>
     <string name="never">Soha</string>
@@ -5574,6 +5681,8 @@ A(z) %1$s továbbra is hozzáfér majd az azon időszakban készített jegyzetek
     <string name="notification_heading">Engedélyezheti a Segéd számára, hogy felolvassa Önnek az értesítéseket</string>
     <string name="notification_modal_text">Értesítés új epizódokról</string>
     <string name="notification_okay">Rendben</string>
+    <string name="notification_permission_modal_description">Üzenetei meghallgatásához és hívásai némításához adjon hozzáférést a Google alkalmazásnak az értesítéseihez.</string>
+    <string name="notification_permission_modal_title">Engedélyezi a Google számára az értesítésekhez való hozzáférést?</string>
     <string name="notification_permissions_button">Hozzáférés megadása</string>
     <string name="notification_permissions_description">Engedélyezi, hogy a Google alkalmazás hozzáférjen az üzenetek és a Ne zavarjanak mód beállításaihoz?</string>
     <string name="notification_settings">BEÁLLÍTÁSOK</string>
@@ -5839,12 +5948,6 @@ Elvetés és áthelyezés húzással lehetséges."</string>
     <string name="opa_consent_check_error_title">Hiba történt</string>
     <string name="opa_consent_check_error_title_confirmreject">Ezekkel a beállításokkal kihozhatja Segédjéből a legtöbbet</string>
     <string name="opa_consent_check_error_title_notavailable">A Google Segéd nem áll rendelkezésre ebben a fiókban</string>
-    <string name="opa_contextual_cards_found_message">Íme néhány információ a képernyő tartalmával kapcsolatban:</string>
-    <string name="opa_contextual_cards_found_proactive_message">Apropó, ezeket találtam a képernyő tartalmával kapcsolatban:</string>
-    <string name="opa_contextual_cards_network_error">Nincs kapcsolat</string>
-    <string name="opa_contextual_cards_no_cards_message">Nem találok semmi olyat a képernyőn, amellyel kapcsolatban segíthetnék. Koppintson a mikrofonra, és kérdezzen tőlem.</string>
-    <string name="opa_contextual_cards_nothing_found_card_text">Semmi nem található a képernyőn</string>
-    <string name="opa_contextual_cards_offline_indicator">Telefonja offline állapotban van, ezért jelenleg nem tudok segíteni.</string>
     <string name="opa_contextual_cards_share_screenshot_error">Úgy tűnik, valami hiba történt. Próbálkozzon újra.</string>
     <string name="opa_continued_conversation_optin_screen_allow_button_text">Benne vagyok</string>
     <string name="opa_continued_conversation_optin_screen_disallow_button_text">Nem, köszönöm</string>
@@ -6072,10 +6175,6 @@ A személyes találatokat a Segéd beállításaiban kapcsolhatja ki."</string>
     <string name="opa_pre_upgrade_notifs_disabled_toast_text">Frissítettük a beállításokat, és kikapcsoltuk ezeket az értesítéseket.</string>
     <string name="opa_privacy_policy_chip_text">Adatvédelmi irányelvek</string>
     <string name="opa_proactive_notification_subtext">Segéd</string>
-    <string name="opa_screen_read_it">Olvasnivaló</string>
-    <string name="opa_screen_read_this_page">Oldal felolvasása</string>
-    <string name="opa_screen_search_more_screen_context_action">Továbbiak a képernyőmről</string>
-    <string name="opa_screen_search_screen_context_action">Mi van a képernyőmön?</string>
     <string name="opa_screen_search_share_screenshot_action">Képernyőkép megosztása</string>
     <string name="opa_screenless_nav_opt_in_notification_body">Navigálás közben szóban kommunikálhat a Google Segéddel</string>
     <string name="opa_screenless_nav_opt_in_notification_title">A Google Segéd használata navigálás közben</string>
@@ -6247,6 +6346,7 @@ A kiválasztott nem személyes találatokat (pl. időjárás-előrejelzéseket �
     <string name="payments_auth_too_many_fingerprint_retries_should_use_password">Túl sok próbálkozás. Adja meg jelszavát.</string>
     <string name="payments_auth_use_biometric_checkbox_hint">Jelen eszköz használata a jövőbeli fizetések ujjlenyomattal, arccal vagy más hasonló módszerrel való igazolásához.</string>
     <string name="payments_auth_use_fingerprint_checkbox_hint">Ujjlenyomat használata a jövőbeni jóváhagyásokhoz</string>
+    <string name="pending_fragment_error_toast">Hiba történt. Próbálkozzon újra később.</string>
     <string name="peoplekit_about_suggested_people_hide_info">Elrejtheti azokat a javaslatokat, amelyeket nem szeretne látni.</string>
     <string name="peoplekit_about_suggested_people_info">A Google az Ön interakciói alapján javasol személyeket.</string>
     <string name="peoplekit_about_top_suggestions">A javasolt személyekről</string>
@@ -6446,6 +6546,7 @@ Felhívjuk figyelmét, hogy az ezt az eszközt használó személyek szintén k�
     <string name="phone_pr_title">Telefon</string>
     <string name="phone_voice_match_settings_delete_voice_model_summary">Eltávolíthatja Voice Match-hangmintáját az eszközről. Így a következőt is kikapcsolja: „%1$s.”</string>
     <string name="phone_voice_match_settings_delete_voice_model_title">Voice Match-hangminta törlése</string>
+    <string name="phone_voice_match_settings_not_supported_error">Az Ok Google funkciót nem támogatja ez az eszköz.</string>
     <string name="phone_voice_match_settings_retrain_summary">Újra betaníthatja a Segédet az Ön hangjának felismerésére</string>
     <string name="phone_voice_match_settings_retrain_title">Voice Match-hangminta újbóli betanítása</string>
     <string name="photo_downloading_error_toast_text">Hiba történt a fotók letöltése közben</string>
@@ -6841,13 +6942,13 @@ A módosítással a következőket érheti el:"</string>
     <string name="punt_for_personal_results">Ahhoz, hogy segíteni tudjak Önnek, engedélyeznie kell a személyes találatokat az autóban. Amikor biztonságos, a Segéd beállításaiban megteheti ezt.</string>
     <string name="punt_for_signed_out">Ehhez be kell jelentkeznie a Google-fiókjával. Amikor biztonságos, tekintse meg az autós értesítést a következő lépéshez.</string>
     <string name="punt_home_alias_unset">Úgy tűnik, nincs meg az otthoni címe. Ha elmondja a címet, segíthetek az útvonaltervezésben.</string>
-    <string name="punt_max_volume">Sajnáljuk, a maximális hangerő beállítása, vagy a hangerő 100%-ra állítása jelenleg nem támogatott ezen az eszközön.</string>
     <string name="punt_missing_call_permission">Úgy tűnik, nincs bekapcsolva a hívás. Amikor biztonságos, a bekapcsoláshoz keresse meg telefonján a Bluetooth-beállításokat, és válassza ki az autóját.</string>
     <string name="punt_missing_message_permission">Úgy tűnik, nincs bekapcsolva az üzenetküldés. Amikor biztonságos, a bekapcsoláshoz keresse meg telefonján a Bluetooth-beállításokat, és válassza ki az autóját.</string>
     <string name="punt_non_percentage_volume_control" formatted="false">Az autóban a hangerőt százalékban kifejezve kell beállítani, ezért mondhatja például azt, hogy: „Set the volume to 25%” („Állítsd be a hangerőt 25%-ra”).</string>
     <string name="punt_offline_music">Úgy tűnik, nincs kapcsolat, ezért nem tudom lejátszani Önnek.</string>
     <string name="punt_open_app">Ez az alkalmazás sajnos nincs telepítve, vagy jelenleg nem áll rendelkezésre.</string>
     <string name="punt_open_unsafe_for_drving_app">Sajnos vezetés közben nem biztonságos ennek az alkalmazásnak a használata.</string>
+    <string name="punt_set_volume_beyond_threshold">Biztonsági okok miatt nem tudom beállítani a hangerőt ilyen magas értékre a járműben. A hangerő legfeljebb %1$d%% értékre állítását kérheti tőlem.</string>
     <string name="punt_work_alias_unset">Úgy tűnik, nem ismerem a munkahelyi címét. Ha elmondja a címet, segíthetek az útvonaltervezésben.</string>
     <string name="qp_bottom_baseball_inning">Hazai %1$d.</string>
     <string name="qp_precip">Csapadék %1$s</string>
@@ -6859,7 +6960,6 @@ A módosítással a következőket érheti el:"</string>
     <string name="qp_weather_unit_abbrev_celsius">C</string>
     <string name="qp_weather_unit_abbrev_fahrenheit">F</string>
     <string name="qp_wind_speed">Szél %1$d%2$s</string>
-    <string name="qpf_label">Csapadék várható mennyisége: %s</string>
     <string name="qsb_promocard_icon_description">Google</string>
     <string name="qsb_promocard_negative_button_text">Köszönöm, nem</string>
     <string name="qsb_promocard_positive_button_text">Hozzáad</string>
@@ -6902,7 +7002,6 @@ A módosítással a következőket érheti el:"</string>
     <string name="rating_very_dissatisfied">Nagyon elégedetlen</string>
     <string name="rating_very_satisfied">Nagyon elégedett</string>
     <string name="rating_views_content_description">%1$d az ötből</string>
-    <string name="reached_max_locations_removal_dialog_title">Legfeljebb nyolc helyet lehet elmenteni. Új mentéséhez távolítson el egyet.</string>
     <string name="reaction_ads_show_more">Több ehhez hasonló <b>hirdetés</b> jelenik majd meg</string>
     <string name="reaction_modal_close_action">Bezárás</string>
     <string name="reaction_show_more">Több ehhez hasonló jelenik majd meg</string>
@@ -7036,7 +7135,6 @@ Ettől még ott maradnak Google-fiókjában."</string>
     <string name="remove_all_devices_button_text">A Face Match eltávolítása minden eszközről</string>
     <string name="remove_all_played">A lejátszottak törlése</string>
     <string name="remove_all_week_old">A(z) %1$d napnál régebbiek törlése</string>
-    <string name="remove_button_text">Eltávolítás</string>
     <string name="remove_completed_episodes">Befejezett epizódok eltávolítása</string>
     <string name="remove_download">Letöltés eltávolítása</string>
     <string name="remove_from_history_failed">Az elem nem távolítható el az előzmények közül.</string>
@@ -7053,6 +7151,7 @@ Ettől még ott maradnak Google-fiókjában."</string>
     <string name="repeat_notification">Rendben, megismétlem. Az üzenet így szól:</string>
     <string name="replay_count_down">Újrajátszás &lt;b>%1$d&lt;/b> múlva…</string>
     <string name="reply">Válasz</string>
+    <string name="reply_button_string">Válasz</string>
     <string name="reply_button_text">Válasz</string>
     <string name="reply_message_notice">Az üzenet küldése folyamatban van</string>
     <string name="report_other_option">Egyéb</string>
@@ -7144,7 +7243,7 @@ Ettől még ott maradnak Google-fiókjában."</string>
     <string name="sceneviewer_get_help">Get help</string>
     <string name="sceneviewer_get_help_button_content_description">Get Help</string>
     <string name="sceneviewer_immersive_edge_fallback_dialog_confirm_button">Go</string>
-    <string name="sceneviewer_immersive_edge_fallback_dialog_message">No connection. You will be redirected to &lt;b> %1$s &lt;/b></string>
+    <string name="sceneviewer_immersive_edge_fallback_dialog_message">No connections available. Redirecting you to &lt;b>%1$s&lt;/b>. Please try again in a few minutes.</string>
     <string name="sceneviewer_immersive_edge_fallback_dialog_title">Connection lost</string>
     <string name="sceneviewer_immersive_edge_redirect_dialog_cancel_button">Cancel</string>
     <string name="sceneviewer_immersive_edge_redirect_dialog_confirm_button">OK</string>
@@ -7174,7 +7273,6 @@ Ettől még ott maradnak Google-fiókjában."</string>
     <string name="search_apps_web_and_more">Keresés az alkalmazásokban, a weben és egyéb helyeken…</string>
     <string name="search_box_content_description">Keresés…</string>
     <string name="search_box_hint">Keresés…</string>
-    <string name="search_box_hint_for_places_and_web">Helyek keresése</string>
     <string name="search_bubble_notification_description">A Google Kereső-buborék megtartásához.</string>
     <string name="search_bubble_notification_header">Google Kereső-buborék</string>
     <string name="search_bubble_optin_prompt_cancel_text">Törlés</string>
@@ -7206,7 +7304,6 @@ Próbáljon meg újra rákeresni a podcastra."</string>
     <string name="search_maps">Keresés a Térképen</string>
     <string name="search_menu_title">Keresés</string>
     <string name="search_notifications">Értesítések</string>
-    <string name="search_plate_accessibility_voice_search_button">Keresés</string>
     <string name="search_region_default">Jelenlegi régió (alapértelmezett)</string>
     <string name="search_region_setting_summary">Jelenlegi régió</string>
     <string name="search_restriction">Nincs engedélye a Google Kereső használatára</string>
@@ -7255,6 +7352,7 @@ Nyissa ki a továbbiakért."</string>
     <string name="select_address_title">Szállítási cím választása</string>
     <string name="select_all_episodes">Összes kijelölése</string>
     <string name="select_assistant_language">Válassza ki Segédje nyelvét.</string>
+    <string name="select_day">Válassza ki a hónapot és a napot</string>
     <string name="select_feedback_category">Visszajelzés kategóriájának kiválasztása</string>
     <string name="select_google_account">Google-fiók</string>
     <string name="select_google_account_add_account">Fiók hozzáadása</string>
@@ -7266,6 +7364,7 @@ Nyissa ki a továbbiakért."</string>
     <string name="select_instrument_message">A Google Pay gondoskodik a fizetési adatok biztonságáról, így bárhol, bármikor fizethet Segédjével.</string>
     <string name="select_instrument_title">A fizetési mód kiválasztása</string>
     <string name="select_wifi_network_button_text">Wi-Fi-hálózat kiválasztása</string>
+    <string name="select_year">Válassza ki az évet</string>
     <string name="selectable_search_widget_initializing">Inicializálás…</string>
     <string name="selected_account">Bejelentkezve ebbe: %1$s</string>
     <string name="selected_interest">Hozzáadva az érdeklődési körökhöz</string>
@@ -7291,7 +7390,6 @@ Nyissa ki a továbbiakért."</string>
     <string name="sending_audio_to_account_toast">Hang küldése ide: %1$s…</string>
     <string name="sensitive_or_disparaging_for_individuals">Érzékenyen vagy becsmérlően érinthet másokat</string>
     <string name="server_error">A Google jelenleg nem érhető el.</string>
-    <string name="server_error_fetching_weather_data_status_text">Hiba történt. Próbálkozzon újra később.</string>
     <string name="set_alarm">Ébresztés beállítása</string>
     <string name="set_duration">Időtartam beállítása</string>
     <string name="set_reminder_saved">Emlékeztető mentve</string>
@@ -7376,11 +7474,6 @@ Nyissa ki a továbbiakért."</string>
 A bevásárlólistáit az Ön Segédje is menti (ezt a Google Shopping kezeli)."</string>
     <string name="shopping_list_category_title_v2">Vásárlási szolgáltatások</string>
     <string name="shopping_mode_landing_text">Keresés a vásárlási lehetőségek között</string>
-    <string name="short_google_play_services_enable_required">A Google Play-szolgáltatásokat engedélyezni kell</string>
-    <string name="short_google_play_services_install_required">A Google Play-szolgáltatások telepítése szükséges</string>
-    <string name="short_google_play_services_missing_permission">A Google Play-szolgáltatás nem rendelkezik egy vagy több szükséges engedéllyel.</string>
-    <string name="short_google_play_services_unsupported">Az eszköz nem támogatja a Google Play-szolgáltatásokat</string>
-    <string name="short_google_play_services_update_required">A Google Play-szolgáltatásokat frissíteni kell</string>
     <string name="shortcut_not_available">A gyorsparancs nem áll rendelkezésre</string>
     <string name="shortcut_phrase_label">Amikor azt mondja, hogy:</string>
     <string name="shortcuts_link_description">Műveletek a telepített alkalmazásokkal gyorsparancsok segítségével</string>
@@ -7409,7 +7502,6 @@ Ehhez a műsorhoz jelenleg nem lehet hozzáférni."</string>
     <string name="show_proactively_on_displays">Proaktív megjelenítés a kijelzőkön</string>
     <string name="show_results">Találatok megjelenítése</string>
     <string name="sidekick_network_error">Hálózati hiba. Ellenőrizze a hálózati kapcsolatot, majd próbálja újra.</string>
-    <string name="sign_in">Bejelentkezés</string>
     <string name="sign_in_accept">Bejelentkezés</string>
     <string name="sign_in_error_description">Úgy tűnik, hiba történt a fiókba történő bejelentkezés során</string>
     <string name="sign_in_message">Ha bejelentkezik, hozzáférhet podcastjaihoz és a többi eszközén tárolt lejátszási előzményekhez</string>
@@ -7494,6 +7586,7 @@ Ehhez a műsorhoz jelenleg nem lehet hozzáférni."</string>
     <string name="snowman_content">Elrejtheti az Önt nem érdeklő híreket és témákat</string>
     <string name="soccer_shootout">Büntetőpárbaj</string>
     <string name="solid">Nem átlátszó</string>
+    <string name="someone_else_text">Valaki más</string>
     <string name="sorry_string">Tessék?</string>
     <string name="sort_description">Rendezés alapja: %1$s</string>
     <string name="sound_search_hint">Melyik ez a dal?</string>
@@ -7523,6 +7616,7 @@ Ehhez a műsorhoz jelenleg nem lehet hozzáférni."</string>
     <string name="speech_output_keywords">szövegfelolvasás, szabadkezes, szabad kezes, érintés nélkül</string>
     <string name="speech_output_subtitle">Válassza ki, mennyire legyen beszédes Segédje</string>
     <string name="speech_output_title">Beszédkimenet</string>
+    <string name="speedbump_prompt_text">A kezdéshez koppintson a mikrofonra</string>
     <string name="spinner_request_completed">Hírcsatorna frissítve</string>
     <string name="spinner_request_failed">Nem lehet frissíteni a hírcsatornát</string>
     <string name="spinner_requesting_new_content">A hírcsatorna frissítése folyamatban van</string>
@@ -7828,9 +7922,6 @@ Mindenki, aki az okoskijelzők előtt tartózkodik, láthatja majd az Ön proakt
     <string name="switch_on">BE</string>
     <string name="switcher_description">A hangalapú keresés nyelvének kiválasztása</string>
     <string name="switcher_language_description">Jelenleg beállított nyelv: %1$s.</string>
-    <string name="tab_title_10_days">10 nap</string>
-    <string name="tab_title_today">Ma</string>
-    <string name="tab_title_tomorrow">Holnap</string>
     <string name="tactile_add_action_button_title">Művelet hozzáadása</string>
     <string name="tactile_all_results_title">Az összes találat</string>
     <string name="tactile_answers_on_the_go_suggestion_1">Mennyi 48 USD 15%%-a?</string>
@@ -8034,6 +8125,7 @@ Mindenki, aki az okoskijelzők előtt tartózkodik, láthatja majd az Ön proakt
     <string name="transparency_seek_bar_description">A sáv árnyékolása</string>
     <string name="transparent">Átlátszó</string>
     <string name="trends_suggestion_message">Ez a keresés egyre népszerűbb a közelben.</string>
+    <string name="triggering_settings_header">A vezetési mód indítása</string>
     <string name="trim_silence">Néma részek kivágása</string>
     <string name="trim_silence_disable">Néma részek kivágásának letiltása</string>
     <string name="trim_silence_enable">Néma részek kivágásának engedélyezése</string>
@@ -8182,39 +8274,33 @@ Mindenki, aki az okoskijelzők előtt tartózkodik, láthatja majd az Ön proakt
     <string name="twslang_zh_CN">kínai (egyszerűsített)</string>
     <string name="twslang_zh_TW">kínai (hagyományos)</string>
     <string name="twslang_zu">zulu</string>
-    <string name="unable_to_save_location_snackbar_text">Nem lehet menteni a helyet. Próbálkozzon újra később.</string>
-    <string name="unable_to_show_locations_text">Nincs megjeleníthető hely</string>
-    <string name="unable_to_show_weather_for_location_error">Nem lehet megjeleníteni ennek a helynek az időjárási információit.</string>
-    <string name="unable_to_show_weather_for_specific_location_error">Nem lehet megjeleníteni %s időjárási információit.</string>
     <string name="unblock_show_from_recommendations">A podcastnak a javaslatok listájáról való levételének visszavonása</string>
     <string name="undo">Visszavonás</string>
     <string name="undo_action">Visszavonás</string>
     <string name="undo_dismiss_message_default">Kész</string>
-    <string name="undo_snackbar_action">Visszavonás</string>
     <string name="undo_string">Visszavonás</string>
     <string name="unicorn_consent_screen_message">A Face Match segítségével Segédje képes %1$s másoktól való megkülönböztetésére. Gyermekének csak közel kell lépnie a Nest Hub Max eszközhöz, és az arca felismerése után személyre szabjuk számára a felhasználói élményt.</string>
     <string name="unicorn_consent_screen_title">Annak engedélyezése a Segéd számára, hogy felismerje %1$s arcát</string>
     <string name="unicorn_hand_off_screen_message">{GENDER,select, male{Ahhoz, hogy {PERSON} létrehozhassa saját arcmodelljét, adja oda neki az eszközt, amikor elkészült, majd segítsen neki a további lépésekben.}female{Ahhoz, hogy {PERSON} létrehozhassa saját arcmodelljét, adja oda neki az eszközt, amikor elkészült, majd segítsen neki a további lépésekben.}other{Ahhoz, hogy {PERSON} létrehozhassa saját arcmodelljét, adja oda neki az eszközt, amikor elkészült, majd segítsen neki a további lépésekben.}}</string>
     <string name="unicorn_hand_off_screen_title">Annak engedélyezése a Segéd számára, hogy felismerje %1$s arcát</string>
-    <string name="unicorn_handoff_img_content_desc">Eszköz átadása</string>
     <string name="unicorn_hotword_enrollment_google_home_oobe_skip_dialog_message">Ha kihagyja ezt a lépést, a Google Home nem tud majd különbséget tenni {PERSON} és az Ön otthonában lévő többi személy között.</string>
-    <string name="unicorn_hotword_enrollment_google_home_skip_dialog_message">"{GENDER,select, male{A Voice Match nélkül {PERSON} Google-fiókja le lesz választva erről az eszközről, és az általa tapasztalható felhasználói élmény nem lesz személyre szabva. 
+    <string name="unicorn_hotword_enrollment_google_home_skip_dialog_message">"{GENDER,select, male{A Voice Match nélkül {PERSON} Google-fiókja le lesz választva erről az eszközről, nem lesz használható rajta a szülői felügyelet, és a gyermeke által tapasztalható felhasználói élmény nem lesz személyre szabva. 
 
-A Family Linken, illetve {PERSON} Google Home vagy Google Segéd alkalmazásában bármikor bekapcsolhatja a Voice Match funkciót erre az eszközre vonatkozóan. 
+A Family Linken vagy {PERSON} Google Home vagy Google Segéd alkalmazásában bármikor bekapcsolhatja a Voice Match funkciót erre az eszközre vonatkozóan. 
 
-Ha betanítja a Segédnek {PERSON} hangjának felismerését, gyermekének személyre szabottabb élményben lehet része, és a Google képes lesz bizonyos tartalmi korlátozások kényszerítésére. Gyermeke láthat majd olyan tartalmakat az otthoni eszközökön, mint a naptára és a névjegyei. 
+Mivel {PERSON} a továbbiakban nem lesz felismerhető a Segéd számára, úgy kezeli majd gyermekét a rendszer, mint egy vendéget, illetve bárki mást, akit nem ismer fel a Segéd. Ez azt jelenti, hogy a Segéd a szülői felügyeletet sem tudja használni, ha be volt állítva {PERSON} számára. 
 
-Ha ismét hozzá szeretné adni {PERSON} fiókját otthoni eszközeihez, tanítsa meg a Google számára {PERSON} hangjának felismerését.}female{A Voice Match nélkül {PERSON} Google-fiókja le lesz választva erről az eszközről, és az általa tapasztalható felhasználói élmény nem lesz személyre szabva. 
+Ha ismét hozzá szeretné adni {PERSON} fiókját otthoni eszközeihez, tanítsa meg a Google számára {PERSON} hangjának felismerését.}female{A Voice Match nélkül {PERSON} Google-fiókja le lesz választva erről az eszközről, nem lesz használható rajta a szülői felügyelet, és a gyermeke által tapasztalható felhasználói élmény nem lesz személyre szabva. 
 
-A Family Linken, illetve {PERSON} Google Home vagy Google Segéd alkalmazásában bármikor bekapcsolhatja a Voice Match funkciót erre az eszközre vonatkozóan. 
+A Family Linken vagy {PERSON} Google Home vagy Google Segéd alkalmazásában bármikor bekapcsolhatja a Voice Match funkciót erre az eszközre vonatkozóan. 
 
-Ha betanítja a Segédnek {PERSON} hangjának felismerését, gyermekének személyre szabottabb élményben lehet része, és a Google képes lesz bizonyos tartalmi korlátozások kényszerítésére. Gyermeke láthat majd olyan tartalmakat az otthoni eszközökön, mint a naptára és a névjegyei. 
+Mivel {PERSON} a továbbiakban nem lesz felismerhető a Segéd számára, úgy kezeli majd gyermekét a rendszer, mint egy vendéget, illetve bárki mást, akit nem ismer fel a Segéd. Ez azt jelenti, hogy a Segéd a szülői felügyeletet sem tudja használni, ha be volt állítva {PERSON} számára. 
 
-Ha újra hozzá szeretné adni {PERSON} fiókját otthoni eszközeihez, tanítsa meg a Google számára {PERSON} hangjának felismerését.}other{A Voice Match nélkül {PERSON} Google-fiókja le lesz választva erről az eszközről, és az általa tapasztalható felhasználói élmény nem lesz személyre szabva. 
+Ha ismét hozzá szeretné adni {PERSON} fiókját otthoni eszközeihez, tanítsa meg a Google számára {PERSON} hangjának felismerését.}other{A Voice Match nélkül {PERSON} Google-fiókja le lesz választva erről az eszközről, nem lesz használható rajta a szülői felügyelet, és a gyermeke által tapasztalható felhasználói élmény nem lesz személyre szabva. 
 
-A Family Linken, illetve {PERSON} Google Home vagy Google Segéd alkalmazásában bármikor bekapcsolhatja a Voice Match funkciót erre az eszközre vonatkozóan. 
+A Family Linken vagy {PERSON} Google Home vagy Google Segéd alkalmazásában bármikor bekapcsolhatja a Voice Match funkciót erre az eszközre vonatkozóan. 
 
-Ha betanítja a Segédnek {PERSON} hangjának felismerését, gyermekének személyre szabottabb élményben lehet része, és a Google képes lesz bizonyos tartalmi korlátozások kényszerítésére. Gyermeke láthat majd olyan tartalmakat az otthoni eszközökön, mint a naptára és a névjegyei. 
+Mivel {PERSON} a továbbiakban nem lesz felismerhető a Segéd számára, úgy kezeli majd gyermekét a rendszer, mint egy vendéget, illetve bárki mást, akit nem ismer fel a Segéd. Ez azt jelenti, hogy a Segéd a szülői felügyeletet sem tudja használni, ha be volt állítva {PERSON} számára. 
 
 Ha ismét hozzá szeretné adni {PERSON} fiókját otthoni eszközeihez, tanítsa meg a Google számára {PERSON} hangjának felismerését.}}"</string>
     <string name="unified_ime_recognition_locale_toast">%1$s használata a felismeréshez</string>
@@ -8443,12 +8529,8 @@ a Voice Match funkcióval"</string>
     <string name="warning_unsupported_music_provider_dialog_negative_button_text">NEM</string>
     <string name="warning_unsupported_music_provider_dialog_positive_button_text">IGEN</string>
     <string name="warning_unsupported_music_provider_dialog_title">Folytatja a nem támogatott zeneszolgáltatással?</string>
-    <string name="weather_accessibility_search_plate_back_button">Vissza</string>
-    <string name="weather_accessibility_search_plate_menu_button">Menü</string>
-    <string name="weather_add_to_home_screen">Hozzáadás a kezdőképernyőhöz</string>
     <string name="weather_add_to_homescreen">Hozzáadás a kezdőképernyőhöz</string>
     <string name="weather_button_ok">OK</string>
-    <string name="weather_cancel_button_text">Mégse</string>
     <string name="weather_celsius">Celsius</string>
     <string name="weather_current_location">Jelenlegi hely</string>
     <string name="weather_error_background_content_description">Hiba</string>
@@ -8462,7 +8544,6 @@ a Voice Match funkcióval"</string>
     <string name="weather_search_query">időjárás</string>
     <string name="weather_search_text">időjárás</string>
     <string name="weather_send_feedback">Visszajelzés küldése</string>
-    <string name="weather_shortcut_icon_label">Időjárás</string>
     <string name="weather_temperature_units">Hőmérséklet mértékegysége</string>
     <string name="weather_title">%2$s: %1$s</string>
     <string name="weather_today_tab_name">Ma</string>
@@ -8521,8 +8602,6 @@ a Voice Match funkcióval"</string>
     <string name="widget_resized">Modul átméretezve %1$s szélességre és %2$s magasságra</string>
     <string name="wifi_off">Wi-Fi kikapcsolva</string>
     <string name="wifi_on">Wi-Fi bekapcsolva</string>
-    <string name="wind_current_time_and_direction_template_with_bullet_separator" formatted="false">%s • %s</string>
-    <string name="wind_speed_with_unit" formatted="false">%d %s</string>
     <string name="wired_headset_icon_description">Vezetékes headset</string>
     <string name="wired_headset_off_label">A vezetékes headset ki van kapcsolva</string>
     <string name="wired_headset_on_label">A vezetékes headset be van kapcsolva</string>
@@ -8536,6 +8615,7 @@ a Voice Match funkcióval"</string>
     <string name="workspace_scroll_format">%2$d/%1$d. kezdőképernyő</string>
     <string name="wrong_account_selected_error_message">A Google Segéd másik fiókot használ, mint amelyet az eszközhöz társítottak. Jelentkezzen be a Google Segédbe a következő fiókkal: %1$s.</string>
     <string name="wrong_account_selected_error_title">A fiókok nem egyeznek</string>
+    <string name="year_picker_description">Évek listája</string>
     <string name="yes_button_text">Igen, folytatom</string>
     <string name="yesterday">Tegnap</string>
     <string name="yesterday_at_time">Tegnap, %1$s</string>
@@ -8547,7 +8627,6 @@ a Voice Match funkcióval"</string>
     <string name="your_information_link_subtitle">A személyre szabott Segédért</string>
     <string name="your_information_page_subtitle">Szabályozhatja, hogy milyen információk legyenek felhasználva a Google Segéd testreszabásához</string>
     <string name="your_information_title">Az Ön adatai</string>
-    <string name="your_location_search_menu_text">Az Ön tartózkodási helye</string>
     <string name="your_news_update_load_error">Hiba történt „Az Ön hírei” betöltése során.</string>
     <string name="your_news_update_title">Friss hírek</string>
     <string name="your_salsas_section_header">Saját gyors kifejezések</string>

@@ -26,7 +26,6 @@
     <string name="abc_shareactionprovider_share_with_application">%s ilə paylaşın</string>
     <string name="abc_toolbar_collapse_description">Yığcamlaşdırın</string>
     <string name="about_application_pp_tos_settings">Şərtlər və məxfilik haqqında</string>
-    <string name="acs_url_dropdown_hint">ACS linkini ayarlayın</string>
     <string name="action_add_contact">Kontakt əlavə edin</string>
     <string name="action_advanced_feedback">Rəy göndərin</string>
     <string name="action_archive">Arxiv</string>
@@ -45,18 +44,19 @@
     <string name="action_help_and_feedback">Yardım və geri əlaqə</string>
     <string name="action_info_and_options">Məlumat və seçimlər</string>
     <string name="action_jump_to_chat">Söhbətdə baxın</string>
+    <string name="action_meet_video_call">Meet video zəngi</string>
     <string name="action_menu_mark_all_as_read">Hamısını oxunmuş olaraq qeyd edin</string>
     <string name="action_menu_show_archived">Arxivləşmiş</string>
     <string name="action_menu_show_spam_folder">Spam və blok edilənlər</string>
     <string name="action_notification_off">Bildirişləri deaktiv edin</string>
     <string name="action_notification_on">Bildirişləri aktivləşdirin</string>
     <string name="action_notification_settings">Bildirişləri səssiz edin</string>
+    <string name="action_off">Deaktiv</string>
     <string name="action_pair_device">Cihaz qoşulması</string>
     <string name="action_people_and_options">Məlumat</string>
     <string name="action_people_and_options_group">Qrup detalları</string>
     <string name="action_pin_to_top">Yuxarıya bərkidin</string>
     <string name="action_report_spam">Spam olaraq bildirin</string>
-    <string name="action_scan_qr_code">Veb üçün Mesajlaşma</string>
     <string name="action_search">Axtarın</string>
     <string name="action_search_gifs">"GIF'ləri axtarın"</string>
     <string name="action_search_messages">Mesajları axtarın</string>
@@ -75,6 +75,7 @@
     <string name="action_viLTE_video_call">Operator video zəngi</string>
     <string name="action_video_call">Video zəng edin</string>
     <string name="actionbar_subtitle_name_prefix">%s ilə</string>
+    <string name="active_reminder">Xatırladıcı</string>
     <string name="active_sim_content_message">%s seçilib</string>
     <string name="activity_not_found_message">Uyğun tətbiqi tapmaq olmadı</string>
     <string name="add_area_code_banner_button">Ərazi kodu əlavə edin</string>
@@ -88,6 +89,7 @@
     <string name="add_contact_confirmation_dialog_title">Kontaktlara əlavə edilsin?</string>
     <string name="add_country_code_banner_button">Ölkə kodu əlavə edin</string>
     <string name="add_more_participants_button_content_description">İştirakçı əlavə edin</string>
+    <string name="add_reaction_content_description">Fərdi reaksiya ilə cavab verin</string>
     <string name="add_reaction_for_assistant_card_rcs_fallback_text">Assistent kartına ​%1$s​</string>
     <string name="add_reaction_for_audio_rcs_fallback_text">Audio fayla ​%1$s​</string>
     <string name="add_reaction_for_contact_rcs_fallback_text">Kontakta ​%1$s​</string>
@@ -95,7 +97,7 @@
     <string name="add_reaction_for_gif_rcs_fallback_text">GIF-ə ​%1$s​</string>
     <string name="add_reaction_for_link_rcs_fallback_text">Linkə ​%1$s​</string>
     <string name="add_reaction_for_photo_rcs_fallback_text">Fotoya ​%1$s​</string>
-    <string name="add_reaction_for_text_message_rcs_fallback_text">\"%2$s\" üçün ​%1$s​</string>
+    <string name="add_reaction_for_text_message_rcs_fallback_text">\" %2$s \" üçün ​%1$s​</string>
     <string name="add_reaction_for_unknown_message_type_rcs_fallback_text">Naməlum mesaj növünə ​%1$s​</string>
     <string name="add_reaction_for_video_rcs_fallback_text">Videoya ​%1$s​</string>
     <string name="advanced_feedback_activity_disclaimer">"Skrinşotlarda olanlar istisna olmaqla mesajınızın kontenti və mətni Google'a göndərilmir"</string>
@@ -132,14 +134,13 @@
     <string name="apn_mnc">MNC</string>
     <string name="app_name">Mesajlar</string>
     <string name="app_settings_conversation_pref_title">Tətbiq ayarları</string>
-    <string name="apply_button">Tətbiq edin</string>
     <string name="archived_activity_title">Arxivləşmiş</string>
     <string name="archived_conversation_list_empty_text">Arxivlənmiş söhbətlər burada görünür</string>
     <string name="area_code_banner_description">@string/banner_description</string>
     <string name="assistant_movies_shortcut_title">Filmlər</string>
+    <string name="assistant_preference_summary">Axşam yeməyi, filmlər və s. haqqında uyğun məlumatları göstərin</string>
     <string name="assistant_preference_title">Assistent təklifləri</string>
     <string name="assistant_restaurants_shortcut_title">Restoranlar</string>
-    <string name="assistant_send_to_chip_default_group_name">qrup</string>
     <string name="assistant_suggestions_tooltip_text">Mesaj tətbiqi söhbəti cihazda saxlayarkən təkliflər yaradır. Google Assistentdə məlumata baxmaq və paylaşmaq üçün təkliflərə klikləyə bilərsiniz. &lt;br/> &lt;br/> &lt;a href>Ətraflı məlumat&lt;/a> və idarə etmək üçün &lt;a href>Ayarlara&lt;/a> daxil olun</string>
     <string name="assistant_suggestions_tooltip_title_text">Bir kliklə məlumat əldə edin</string>
     <string name="assistant_weather_shortcut_title">Hava</string>
@@ -155,12 +156,18 @@
     <string name="attachment_location">Məkan</string>
     <string name="attachment_picture">Şəkil</string>
     <string name="attachment_preview_close_content_description">Qoşmanı ləğv edin</string>
+    <string name="attachment_preview_photos_link_share_getting_link">Keçid əldə olunur…</string>
+    <string name="attachment_preview_photos_link_share_no_upload_needed">Əvvəlcədən yüklənib</string>
+    <string name="attachment_preview_photos_link_share_upload_size">%s yükləmə</string>
+    <string name="attachment_preview_photos_link_share_upload_size_failure">Naməlum</string>
+    <string name="attachment_preview_photos_link_share_upload_size_placeholder">Hesablanır…</string>
     <string name="attachment_unsupported_file">Dəstəklənməyən fayl</string>
     <string name="attachment_vcard">Kontakt kartı</string>
     <string name="attachment_video">Video</string>
     <string name="audio_attachment_content_description">Audio qoşma</string>
     <string name="audio_attachment_seek_playback_description">Audio oxutma</string>
     <string name="audio_button_view_content_description">Səs yazmaq üçün iki dəfə toxunaraq basıb saxlayın, ləğv etmək üçün sola sürüşdürün</string>
+    <string name="audio_format_type">audio</string>
     <string name="audio_pause_content_description">Pauza</string>
     <string name="audio_play_content_description">Audio qoşmanı ifa et</string>
     <string name="audio_recorder_call_in_progress">Zəngdə olarkən audio qeydə almaq mümkün olmur</string>
@@ -179,6 +186,8 @@
     <string name="auto_selected_country_summary">Avtomatik aşkarlandı (%1$s)</string>
     <string name="automoved_spam_notification_action_dismiss">Kənarlaşdırın</string>
     <string name="automoved_spam_notification_action_view">Baxın</string>
+    <string name="automoved_spam_notification_content_text">Gələn spam \"Spam və bloklananlar\" qovluğuna köçürüldü</string>
+    <string name="automoved_spam_notification_content_title">Spam aşkarlandı</string>
     <string name="avatar_no_connection_msg">Bağlantı yoxdur</string>
     <string name="avatar_promo_create">Yaradın</string>
     <string name="avatar_promo_see_all">Hamısına Baxın</string>
@@ -190,7 +199,8 @@
     <string name="birthday_banner_description">@string/banner_description</string>
     <string name="birthday_banner_dismiss_button_text">Kənarlaşdırın</string>
     <string name="birthday_banner_settings_button_text">Ayarlarda idarə edin</string>
-    <string name="birthday_info_text">Mesaj cihazınızda ad günü olan kontaktlardan ad günü xatırladıcıları yaradır</string>
+    <string name="birthday_info_text">Bu xatırladıcılar cihazınızın kontakt tətbiqindəki doğum günü məlumatlarına əsaslanır.</string>
+    <string name="birthday_info_text_with_settings">Bu xatırladıcılar cihazınızın kontakt tətbiqindəki doğum günü məlumatlarına əsaslanır. &lt;a href>%1$s&lt;/a></string>
     <string name="birthday_nudge_enabled_pref_summary">Cihazınızdakı kontaktlara əlavə etdiyiniz ad günləri üçün xatırladıcılar alın</string>
     <string name="birthday_nudge_enabled_pref_title">Ad günü xatırladıcıları</string>
     <string name="block_confirmation_message_spam_folder">%1$s nömrəsindən mesajlar almağa davam edəcəksiniz, lakin bildiriş əldə etməyəcəksiniz. Bu söhbət \"Spam və blok edilənlər\" bölməsinə köçürüləcək.</string>
@@ -210,9 +220,13 @@
     <string name="boew_promo_text">Wi‑Fi və data ilə mesajlaşmaq kimi söhbət funksiyalarını əldə etmək üçün Mesajın arxa fonda işləməsinə icazə verin</string>
     <string name="boew_promo_title">Mesajlaşma ilə daha çox imkanlar</string>
     <string name="bottomsheet_action_expand_halfway">Tam genişləndirin</string>
+    <string name="bottomsheet_drag_handle_content_description">Dəstək</string>
     <string name="broadcast_receiver_notification_text_extra_info">Mesaj arxa fonda işləyir. Bu bildirişi bir dəqiqədən çox görsəniz, baq hesabatı təqdim edin. Qəbul edənin adı: %1$s</string>
     <string name="broadcast_sms_text">kütləvi SMS mətn</string>
     <string name="bubble_settings_title">Köpüklər</string>
+    <string name="bugle_add_account_error">Hesab əlavə etmək alınmadı, yenidən cəhd edin.</string>
+    <string name="bugle_fix_it">Düzəldin</string>
+    <string name="bugle_load_account_failure">Hesabları yükləmək alınmadı.</string>
     <string name="bugle_notification_category_conversations">Söhbətlər</string>
     <string name="bugle_notification_category_default_settings">Defolt ayarlar</string>
     <string name="bugle_notification_category_reminders">Xatırlatmalar</string>
@@ -224,6 +238,8 @@
     <string name="bugle_notification_reminders_channel_name">Xatırlatmalar</string>
     <string name="bugle_notification_report_issue_channel_name">Mesaj rəyi sorğusu</string>
     <string name="bugle_notification_silent_default_channel_name">Vebdən istifadə edərkən bildirişlər alın</string>
+    <string name="bugle_play_services_error">Google Play xidmətlərinə sorğu göndərmək alınmadı.</string>
+    <string name="bugle_retry">Təkrar cəhd edin</string>
     <string name="business_action_call_full_content_description">%1$s nömrəsinə zəng edin (%2$s)</string>
     <string name="business_action_call_short_content_description">Zəng</string>
     <string name="business_action_call_short_text_m2">Zəng</string>
@@ -285,6 +301,7 @@
     <string name="c2o_single_file_attachment_size_limit_exceed">Fayl qoşması çox böyükdür. Həcmi maksimum %s olan fayl göndərin.</string>
     <string name="c2o_storage_permissions_text">Mediaya giriş üçün klikləyin</string>
     <string name="c2o_video_button_text">Video</string>
+    <string name="calendar_badge_content_description">Təqvim nişanı</string>
     <string name="calendar_event_added">Tədbir yadda saxlanıldı</string>
     <string name="calendar_file_content_description">Təqvim faylı</string>
     <string name="calendar_suggestion_event_chat_title">Android Mesaj Çatı</string>
@@ -295,6 +312,7 @@
     <string name="camera_attach_media">Əlavə edin</string>
     <string name="camera_attach_media_description">Mesaja əlavə edin</string>
     <string name="camera_back_switch_button">Arxa kamera keçidi</string>
+    <string name="camera_capture_button_label">Foto çəkin</string>
     <string name="camera_flash_off">Fleş deaktivdir</string>
     <string name="camera_flash_on">Fleş aktivdir</string>
     <string name="camera_front_switch_button">Ön kamera keçidi</string>
@@ -392,6 +410,11 @@ Ayarlardan söhbət funksiyalarını deaktiv edə bilərsiniz. %1$s"</string>
     <string name="common_google_play_services_update_text">%1$s Google Play xidmətləri yeniləmə halda çalışmaz.</string>
     <string name="common_google_play_services_update_title">Google Play xidmətlərini güncəlləşdirin</string>
     <string name="common_google_play_services_updating_text">%1$s hal-hazırda güncəllənən Google Play xidmətləri olmadan çalışmayacaq.</string>
+    <string name="common_google_play_services_wear_update_text">Google Play xidmətlərinin yeni versiyası lazımdır. Qısa müddətə özünü yeniləyəcək.</string>
+    <string name="common_open_on_phone">Telefonda açın</string>
+    <string name="complete_photos_app_onboarding">Google Fotonu açın</string>
+    <string name="complete_photos_app_onboarding_title">Davam etmək üçün Google Foto girişinə icazə verin</string>
+    <string name="complete_photos_app_onboarding_to_continue">Google Foto tətbiqində başlayın</string>
     <string name="compose_message_view_hint_text">Söhbət mesajı</string>
     <string name="compose_message_view_hint_text_multi_sim_rcs">Söhbət edin (%s)</string>
     <string name="compose_message_view_hint_text_multi_sim_sms_mms">Mesaj göndərin (%s)</string>
@@ -413,15 +436,12 @@ Ayarlardan söhbət funksiyalarını deaktiv edə bilərsiniz. %1$s"</string>
     <string name="contact_has_multiple_destinations_phone">%1$s (+ daha %2$s)</string>
     <string name="contact_has_multiple_destinations_type">Çoxsaylı</string>
     <string name="contact_list_add_people">%s əlavə edin</string>
-    <string name="contact_list_empty_text">Yeni mesaja başlamaq üçün kontakt adını və ya telefon nömrəsini daxil edin</string>
     <string name="contact_list_send_to_text">%s ünvanına göndərin</string>
     <string name="contact_picker_autocomplete_added">%1$s əlavə edildi, hal-hazırda redaktə edilir</string>
     <string name="contact_picker_autocomplete_deleted">%1$s silindi, hazırda redaktə olunur</string>
-    <string name="contact_picker_cant_add_destination_twice">O rəqəm artıq qrupda var</string>
     <string name="contact_picker_cant_remove_from_existing">Mövcud qrupdan nömrəni silmək mümkün deyil</string>
     <string name="contact_picker_cant_remove_from_screen">Şəxsləri silmək üçün &lt;b>Qrup Detallarına&lt;/b> keçin</string>
     <string name="contact_picker_confirm_participants_button_label">Növbəti</string>
-    <string name="contact_picker_group_create_label">Qrup yaradın</string>
     <string name="contact_picker_group_v2_create_label">Qrup yaradın</string>
     <string name="contact_picker_message_a_business_label">Bizneslə söhbət edin</string>
     <string name="contact_picker_title_add_people">Şəxs əlavə edin</string>
@@ -444,10 +464,14 @@ Ayarlardan söhbət funksiyalarını deaktiv edə bilərsiniz. %1$s"</string>
     <string name="content_description_link_to_settings">Ayarlarda idarə edin</string>
     <string name="contextual_action_bar_description_prefix">Əməliyyatlar üçün alət paneli göstərilir: %s. Əməliyyat seçmək və ya bağlamaq üçün yuxarı keçin.</string>
     <string name="conversation_area_code_popup_paragraph">Məlum ərazi kodu olmadan Mesaj tətbiqi %1$s ünvanına göndərməyə çalışacaq. Gələcək mesajlar üçün bu kontaktın ərazi kodunu əlavə edin. %2$s</string>
+    <string name="conversation_block_failed_message">Bloklanmadı, bağlantını yoxlayın</string>
+    <string name="conversation_blocking_message">Bloklanır…</string>
     <string name="conversation_country_code_popup_paragraph">Bu kontakta ölkə kodu (%2$s üçün +%1$s) əlavə edin, beləliklə, mesajınız doğru şəxsə göndəriləcək. %3$s</string>
     <string name="conversation_creation_failed">Söhbət yaratmaq olmur. Sonra cəhd edin.</string>
     <string name="conversation_creation_failure">Söhbətə başlamaq olmadı</string>
+    <string name="conversation_deleting_message">Silinir…</string>
     <string name="conversation_deletion_failed">Söhbət silinə bilmədi</string>
+    <string name="conversation_deletion_failed_message">Silinmədi, bağlantını yoxlayın</string>
     <string name="conversation_empty_name">Boş</string>
     <string name="conversation_label_all">Hamısı</string>
     <string name="conversation_label_business_updates">Biznes</string>
@@ -474,7 +498,6 @@ Ayarlardan söhbət funksiyalarını deaktiv edə bilərsiniz. %1$s"</string>
     <string name="conversation_list_item_view_draft_message">Qaralama</string>
     <string name="conversation_list_item_view_sent_from_other_prefix">%s:</string>
     <string name="conversation_list_item_view_sent_from_you_prefix">"Siz: "</string>
-    <string name="conversation_list_loading_item_description">Söhbət yüklənir</string>
     <string name="conversation_list_message_fail_to_decrypt">Deşifrə edilmədi</string>
     <string name="conversation_list_rcs_promo_button_negative">Tətbiqi Təkmilləşdirməyin</string>
     <string name="conversation_list_rcs_promo_button_positive">İndi Təkmilləşdirin</string>
@@ -486,7 +509,6 @@ Ayarlardan söhbət funksiyalarını deaktiv edə bilərsiniz. %1$s"</string>
     <string name="conversation_list_snippet_link">Link</string>
     <string name="conversation_list_spam_popup_negative">Ayarlardan idarə edin</string>
     <string name="conversation_list_spam_popup_paragraph">"Spamın qarşısını almaq üçün Google naməlum göndərən və alıcıların telefon nömrələrindən istifadə edir. Mesaj və kontaktlar Google'a göndərilmir. %1$s"</string>
-    <string name="conversation_list_spam_popup_paragraph_on_device">"Mesaj spamı aşkarlamaq üçün cihaz kəşfiyyatından istifadə edir və telefon nömrəniz və ya mesaj kontentini daxil etmədən bu mesaj haqqındakı bəzi datanı Google'a göndərir. %1$s"</string>
     <string name="conversation_list_spam_popup_positive">OK</string>
     <string name="conversation_list_spam_popup_title">Spamdan qorunma</string>
     <string name="conversation_list_terms_and_conditions_promo_subtitle">Wi-Fi vasitəsilə mesajlaşma və s. üçün söhbət funksiyalarının aktiv edilməsini tamamlayın</string>
@@ -509,6 +531,7 @@ Ayarlardan söhbət funksiyalarını deaktiv edə bilərsiniz. %1$s"</string>
     <string name="conversation_suggestion_set_reminder_action">Təklif edilən xatırlatma əməliyyatı</string>
     <string name="conversation_suggestion_share_location_action">Məkan paylaşımı təklif edildi</string>
     <string name="conversation_suggestion_share_location_action_failure">Xəta baş verdi. Məkanı paylaşmaq üçün yeni mesaja əlavə edin.</string>
+    <string name="conversation_suggestion_star_action">Təklif edilən ulduzlama əməliyyatı</string>
     <string name="conversation_suggestion_sticker">Təklif edilən stiker</string>
     <string name="copy">Kopyalayın</string>
     <string name="copy_to_clipboard">Kopyalayın</string>
@@ -518,6 +541,7 @@ Ayarlardan söhbət funksiyalarını deaktiv edə bilərsiniz. %1$s"</string>
     <string name="create_group_info_title">Qrup adı əlavə edin</string>
     <string name="create_new_group_message">Bu şəxsi əlavə etmək söhbət funksiyaları olmayan yeni qrup yaradacaq</string>
     <string name="current_country_pref_title">Cari ölkəniz</string>
+    <string name="custom_reaction_selection_prompt">Emoji seçin</string>
     <string name="dark_mode_disable_title">Qaranlıq rejimini deaktiv edin</string>
     <string name="dark_mode_enable_title">Qaranlıq rejimini aktiv edin</string>
     <string name="dasher_disabled_notification_body">Sistem administratoru ilə əlaqə saxlayın, yaxud başqa hesab ilə daxil olun.</string>
@@ -585,12 +609,9 @@ Ayarlardan söhbət funksiyalarını deaktiv edə bilərsiniz. %1$s"</string>
     <string name="ditto_activity_label">Cihaz qoşulması</string>
     <string name="ditto_foreground_service_device_pairing_notification_text">Mesajlar qoşulduğunuz cihazda əlçatandır</string>
     <string name="ditto_foreground_service_device_pairing_notification_title">Cihaz qoşulması</string>
-    <string name="ditto_foreground_service_notification_text">Mesajlar qoşduğunuz kompüterdə əlçatandır</string>
-    <string name="ditto_foreground_service_notification_title">Veb üçün Mesajlar</string>
     <string name="ditto_foreground_service_sign_out">Ayırın</string>
     <string name="ditto_persistent_notification_settings">Bildirişlər</string>
     <string name="ditto_settings_action_bar_title">Bildirişlər</string>
-    <string name="ditto_settings_connected_to_web_notification_description">\"Veb üçün Mesajlar\" cihaz onlayn olduqda görünür</string>
     <string name="ditto_settings_connected_to_web_notification_title">Davamlı bildirişi göstərin</string>
     <string name="ditto_settings_device_paired_notification_description">Cihazınız onlayn olduqda \"cihaz qoşulması\" görünür</string>
     <string name="ditto_settings_while_using_web_notification_description">Cihaz onlayn olduqda zəng səsini və vibrasiyanı dayandırın</string>
@@ -630,6 +651,7 @@ Biznesin göndərən nömrəsi daxil olmaqla, insanlar mesajlarınıza baxır. T
     <string name="dump_mms_pref_title">Damp MMS</string>
     <string name="dump_sms_pref_summary">Damp xarici saxlanma faylına emal edilməmiş SMS datası qəbul etdi</string>
     <string name="dump_sms_pref_title">Damp SMS</string>
+    <string name="duplicate_upload_snackbar">Bəzi dublikatlar daxil edilməyib</string>
     <string name="e2ee_conversation_tombstone">%1$s ilə söhbət tam şifrələnib</string>
     <string name="e2ee_conversation_tombstone_with_learn_more">%1$s ilə söhbət tam şifrələnib. %2$s</string>
     <string name="e2ee_fail_to_send_retry_description">Çat kimi yenidən göndərin</string>
@@ -668,7 +690,6 @@ Biznesin göndərən nömrəsi daxil olmaqla, insanlar mesajlarınıza baxır. T
 Mesajlar çat funksiyaları yenidən qoşulduqda təkrar aktivləşdiriləcək."</string>
     <string name="enable_rcs_auto_fallback_dialog_title">Avtomatik olaraq mətn kimi (SMS/MMS) yenidən göndərilsin?</string>
     <string name="enable_rcs_auto_fallback_title">Avtomatik olaraq mətn kimi yenidən göndərin (SMS/MMS)</string>
-    <string name="enable_rcs_fallback_to_sms_title">Çatdırılmadığı halda mesajları yenidən göndərin</string>
     <string name="enable_rcs_fallback_to_xms_title">Çatdırılmadığı halda mesajları yenidən göndərin</string>
     <string name="enable_rcs_summary_off">Əlçatan olduqda mesajlaşma üçün Wi-Fi və ya data istifadə edin</string>
     <string name="enable_rcs_summary_on">Mesajlaşma üçün data istifadəsi</string>
@@ -680,9 +701,13 @@ Mesajlar çat funksiyaları yenidən qoşulduqda təkrar aktivləşdiriləcək."
     <string name="enter_phone_number_title">Telefon nömrənizi təsdiq edin</string>
     <string name="enter_phone_number_title_for_sim">%1$s üçün telefon nömrəsini təsdiq edin</string>
     <string name="enumeration_comma">", "</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_failed_to_save_setting">Yadda saxlanılarkən xəta baş verdi. Yenə cəhd edin.</string>
     <string name="error_icon_content_description">Xəta</string>
     <string name="error_premium_sms_needs_permission">Bu mesajı göndərmək üçün cihaz ayarlarına daxil olaraq Premium SMS girişini aktiv edin</string>
+    <string name="error_text_draft_is_reply_to_missing_message">Silinmiş mesajı cavablamaq mümkün deyil</string>
+    <string name="error_text_draft_is_reply_without_rcs">Çat funksiyaları ilə bağlı xəta oldu. Mesajı cavablandırmadan göndərməyi sınayın.</string>
+    <string name="error_text_scheduled_send_with_draft_reply">Hazırda cavablandırmanı planlaşdırmaq mümkün deyil</string>
     <string name="etouffee_to_rcs_notification">Mesaj tam şifrələnmənin söhbətdə ləğv edildiyini aşkarladı. Rəy göndərmək üçün toxunun.</string>
     <string name="etouffee_to_telephony_setting">Məxfilik</string>
     <string name="etouffee_to_telephony_setting_description">"SMS icazələrinə tam şifrələnmiş mesajlar daxildir. Yəni onlar Android cihazında yedəklənə, avtomobilinizdə, yaxud kompanyon cihazda və s. səsləndirilə bilər. Android ayarlarında SMS icazələri olan tətbiqlərinizə baxın və idarə edin.
@@ -708,19 +733,24 @@ Bu ayarın dəyişdirilməsi artıq göndərdiyiniz və ya qəbul etdiyiniz tam 
     <string name="exo_controls_pause_description">Pauza</string>
     <string name="exo_controls_play_description">Oxudun</string>
     <string name="exo_controls_previous_description">Əvvəl</string>
-    <string name="exo_controls_repeat_all_description">Hamısı təkrarlansın</string>
-    <string name="exo_controls_repeat_off_description">Heç biri təkrarlanmasın</string>
-    <string name="exo_controls_repeat_one_description">Biri təkrarlansın</string>
+    <string name="exo_controls_repeat_all_description">Cari rejim: Hamısını təkrarlayın. Təkrarlanma rejimini keçirin.</string>
+    <string name="exo_controls_repeat_off_description">Cari rejim: Heç birini təkrarlamayın. Təkrarlanma rejimini keçirin.</string>
+    <string name="exo_controls_repeat_one_description">Cari rejim: Birini təkrarlayın. Təkrarlanma rejimini keçirin.</string>
     <string name="exo_controls_rewind_description">Geri çəkin</string>
     <string name="exo_controls_show">Oyunçu nəzarətlərini göstərin</string>
-    <string name="exo_controls_shuffle_off_description">Qarışdırma deaktivdir</string>
-    <string name="exo_controls_shuffle_on_description">Qarışdırma aktivdir</string>
+    <string name="exo_controls_shuffle_off_description">Qarışdırma rejimini aktiv edin</string>
+    <string name="exo_controls_shuffle_on_description">Qarışdırma rejimini deaktiv edin</string>
     <string name="exo_controls_vr_description">VR rejimi</string>
     <string name="exo_track_selection_auto">Avtomatik</string>
     <string name="exo_track_selection_none">Yoxdur</string>
     <string name="expand_attach_button_content_description">Qoşma düymələrini genişləndirin</string>
     <string name="expand_button_title">Əlavə</string>
     <string name="exposed_dropdown_menu_content_description">Açılan menyunu göstərin</string>
+    <string name="express_sign_in_illustration_content_description">Media paylaşması funksiyası üçün illüstrasiya</string>
+    <string name="express_sign_in_sub_title">"Daxil olduğunuz və Google Foto keçidləri göndərdiyiniz
+zaman yüksək video keyfiyyətini qoruyun."</string>
+    <string name="express_sign_in_title">"Videoları
+göründüyü kimi paylaşın"</string>
     <string name="fail_to_decrypt_message_metadata">Deşifrə etmək mümkün deyil, seçimlər üçün toxunun</string>
     <string name="fail_to_load_dialog_negative_button">"Cihaz SIM'i ilə mesajlaşın"</string>
     <string name="fail_to_load_dialog_positive_button">Təkrar sınayın</string>
@@ -734,6 +764,7 @@ Bu ayarın dəyişdirilməsi artıq göndərdiyiniz və ya qəbul etdiyiniz tam 
     <string name="failed_message_content_description">Mesaj alınmadı. Təkrar etmək üçün tıklayın.</string>
     <string name="failed_qr_pairing_dialog_message">Xəta baş verdi. Bir neçə dəqiqə sonra yenidən cəhd edin.</string>
     <string name="failed_qr_pairing_dialog_positive_button_text">OK</string>
+    <string name="failed_to_select_attachment_from_system_picker">Bu qoşmanı seçmək alınmadı</string>
     <string name="fast_track_negative_button_text">Yox, Sağolun</string>
     <string name="fast_track_popup_accepted_snack_bar_text">Söhbət funksiyaları ayarlanır. Hazır olduqda Sizə məlumat verəcəyik.</string>
     <string name="fast_track_popup_declined_snack_bar_text">Söhbət funksiyalarını istənilən zaman Ayarlarda aktiv edə bilərsiniz.</string>
@@ -799,6 +830,9 @@ Bu ayarın dəyişdirilməsi artıq göndərdiyiniz və ya qəbul etdiyiniz tam 
     <string name="fi_settings_download_over_wifi_title">Yalnız Wi-Fi ilə medianı sinxronizasiya edin</string>
     <string name="fi_settings_opt_out_failed">Hazırda sinxronizasiyanı dayandırıb çıxış etmək mümkün deyil. Sonra cəhd edin.</string>
     <string name="fi_settings_opt_out_in_progress">Sinxronizasiya dayandırılır və hesabdan çıxış edilir</string>
+    <string name="fi_settings_redirect_button">Yedəkləməni idarə edin</string>
+    <string name="fi_settings_redirect_summary">Bu ayarları hesab menyusunda tapın</string>
+    <string name="fi_settings_redirect_title">Yedəkləmə və sinxronlaşdırma ayarları köçürülüb</string>
     <string name="fi_settings_sync_preference_backup_in_progress">Yedəkləmə davam edir: %1$d%%</string>
     <string name="fi_settings_sync_preference_restore_in_progress">Bərpa davam edir: %1$d%%</string>
     <string name="fi_settings_sync_preference_summary">Mesaj, zəng və səsli e-məktub hər yerdə sinxrondur</string>
@@ -816,6 +850,7 @@ Bu ayarın dəyişdirilməsi artıq göndərdiyiniz və ya qəbul etdiyiniz tam 
     <string name="file_transfer_via_sms_other">Sizinlə fayl paylaşmışam</string>
     <string name="file_transfer_via_sms_video">Sizinlə video paylaşmışam</string>
     <string name="files_shortcut_title">Fayllar</string>
+    <string name="flip_camera_button_label">Kameranı çevirin</string>
     <string name="floating_toolbar_close_overflow_description">Paneli bağlayın</string>
     <string name="floating_toolbar_open_overflow_description">Digər seçimlər</string>
     <string name="foreground_service_notification_generic_text">Mesaj arxa fonda işləyir</string>
@@ -829,12 +864,27 @@ Bu ayarın dəyişdirilməsi artıq göndərdiyiniz və ya qəbul etdiyiniz tam 
     <string name="full_banner_expand_chip_description">Çip düyməsini genişləndirin</string>
     <string name="full_screen_gallery_action_attach">Əlavə edin</string>
     <string name="fullscreen_button_description">Tam ekranda açın</string>
+    <string name="gaia_auth_failure_dialog_body">Daxil olana qədər Google Hesabınız tərəfindən dəstəklənən bəzi funksiyalar işləməyəcək</string>
+    <string name="gaia_auth_failure_dialog_title">Kimliyinizi doğrulamaq üçün yenidən daxil olun</string>
+    <string name="gallery_google_photos_option_tray_button_add">Əlavə edin</string>
+    <string name="gallery_google_photos_option_tray_button_always">Həmişə</string>
+    <string name="gallery_google_photos_option_tray_button_cancel">Ləğv edin</string>
+    <string name="gallery_google_photos_option_tray_button_just_once">Sadəcə bir dəfə</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_image">Aşağı keyfiyyətli şəkil</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_unknown">Aşağı keyfiyyətli media</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_video">Aşağı keyfiyyətli video</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_image">Şəkil</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_unknown">Media</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_video">Video</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_body">Yüksək keyfiyyət. Google Fotoda paylaşılmış keçidləri idarə edin.</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_learn_more">Ətraflı məlumat</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_title">Google Foto keçidi</string>
+    <string name="gallery_item_content_description_selected_state">%2$s istiqamətində əlavə edilmiş bu %1$s elementinin seçimini silin</string>
+    <string name="gallery_item_content_description_unselected_state">%2$s üzrə çəkilmiş bu %1$s elementini seçmək üçün iki dəfə toxunun</string>
     <string name="general_settings">Ümumi</string>
     <string name="general_settings_activity_title">Ümumi ayarlar</string>
     <string name="general_settings_title_m2">Seçimlər</string>
     <string name="generic_issue_text">Digər</string>
-    <string name="get_messenger_notification_body">Saat və ya telefonunuzdan mətn mesajlarınızı oxuyun və göndərin</string>
-    <string name="get_messenger_notification_header">Mesajlaşma əldə edin</string>
     <string name="get_sticker_packs_error_msg">Stikerlər yüklənmədi.</string>
     <string name="gif_screen_no_result">Uyğunluq tapılmadı. Axtarışınızı yoxlayın və yenidən cəhd edin.</string>
     <string name="gif_screen_title">GIF-lər</string>
@@ -842,10 +892,23 @@ Bu ayarın dəyişdirilməsi artıq göndərdiyiniz və ya qəbul etdiyiniz tam 
     <string name="gif_search_hint">GIF axtarın</string>
     <string name="gifs_shortcut_title">GIF-lər</string>
     <string name="go_to_top">Ən yenisinə baxın</string>
-    <string name="google_account_pref_title">Google Hesabı</string>
     <string name="google_assistant_verification_channel_name">Assistent doğrulayıcısı</string>
     <string name="google_assistant_verification_notification_title">Google Assistent mesaj göndərir</string>
     <string name="google_fi_text">Google Fi</string>
+    <string name="google_photos_onboarding_close_button_description">Google Foto kartını bağlayın</string>
+    <string name="google_photos_onboarding_ineligible_title">Yüksək keyfiyyətli videolar üçün Google Fotoya daxil olun</string>
+    <string name="google_photos_onboarding_ineligible_title_photos_and_videos">Yüksək keyfiyyətli foto və videolar üçün Google Fotoya daxil olun</string>
+    <string name="google_photos_onboarding_learn_more">Ətraflı məlumat</string>
+    <string name="google_photos_onboarding_next">Sonra</string>
+    <string name="google_photos_onboarding_ok">OK</string>
+    <string name="google_photos_onboarding_signed_in_title_photos_and_videos">Yüksək keyfiyyətli foto və videolar göndərmək üçün daxil olun</string>
+    <string name="google_photos_onboarding_signed_out_title">Yüksək keyfiyyətli videolar göndərmək üçün daxil olun</string>
+    <string name="google_photos_onboarding_text_body">Google Foto keçidlərini MMS söhbətlərində göndərdiyiniz zaman video keyfiyyətini qoruyun</string>
+    <string name="google_photos_onboarding_text_body_photos_and_videos_xms">Google Foto keçidlərini MMS söhbətlərində göndərdiyiniz zaman yüksək video keyfiyyətini qoruyun</string>
+    <string name="google_photos_onboarding_title">Videoları göründüyü kimi paylaşın</string>
+    <string name="google_photos_onboarding_title_photos_and_videos">Foto və videoları göründüyü kimi paylaşın</string>
+    <string name="google_photos_option_tray">Daha keyfiyyətli videolar göndərmək üçün daxil olun</string>
+    <string name="google_photos_option_tray_photos_and_videos">Yüksək keyfiyyətli foto və videolar göndərmək üçün daxil olun</string>
     <string name="google_play_protect_title">Google Play Protect</string>
     <string name="google_tos_chat_features_tooltip">"İstifadəçi yazarkən görün, oxu hesabatları əldə edin, Zəngin Kommunikasiya Xidmətlərinin (RCS) çat funksiyaları ilə mesajlar, fayllar və yüksək ayırdetmə dəqiqliyində olan fotolar əldə edin. Bu, mesajlar göndərmək üçün data istifadə edir.
 
@@ -859,8 +922,9 @@ Bunu ayarlarda deaktiv edə bilərsiniz. %1$s"</string>
 
 Sistem ayarlarında defolt zəng SIM-ni dəyişə bilərsiniz. %1$s"</string>
     <string name="google_tos_multisim_view_accessibility_description">Ətraflı məlumat</string>
+    <string name="google_tos_negative_link_text">Xeyr, təşəkkürlər</string>
     <string name="group_conversation_title_everyone_else_left">Mən</string>
-    <string name="group_limit_alert_dialog_message">{max_group_size_including_self,plural, =1{Maksimum # şəxs ola bilər}other{Maksimum # şəxs ola bilər}}</string>
+    <string name="group_limit_alert_dialog_message">{max_group_size_excluding_self,plural, =1{Maksimum # digər şəxs ola bilər}other{Maksimum # digər şəxs ola bilər}}</string>
     <string name="group_mms_pref_title">Qrup mesajlaşması</string>
     <string name="group_name_edit_text_label">Qrup adı</string>
     <string name="guest_cloud_preview">ÖNİZLƏMƏ</string>
@@ -870,14 +934,19 @@ Sistem ayarlarında defolt zəng SIM-ni dəyişə bilərsiniz. %1$s"</string>
     <string name="happy_birthday_no_name">Onun doğum gününü təbrik edin!</string>
     <string name="hidden_sender_address">Gizli göndərici ünvanı</string>
     <string name="highlighter">Vurğulayıcı</string>
+    <string name="how_it_works_link_text">İşləmə qaydası</string>
+    <string name="hqms_always_send_image_as_link_pref_title">Mesajda (SMS/MMS) şəkilləri həmişə keçidlə göndərin</string>
+    <string name="hqms_always_send_video_as_link_pref_title">Mətndə videoları həmişə keçid vasitəsilə göndərin (SMS/MMS)</string>
+    <string name="hqms_settings_gaia_card_text">Keçidləri Google Fotoda idarə edin</string>
+    <string name="hqms_settings_info_text">Mesajlar video keçid paylaşmasını idarə edə bildiyiniz Google Fotoya yüklənir. %1$s</string>
+    <string name="hqms_settings_sign_in_prompt_text">Bu funksiyadan istifadə etmək üçün Google hesabınıza daxil olun</string>
     <string name="hqms_settings_summary">Mətndə yüksək keyfiyyətli video paylaşın (SMS/MMS)</string>
     <string name="hqms_settings_title">Google Foto</string>
     <string name="identity_verification_notification_text">Mesaj tətbiqi gələn mesaji doğrulayır</string>
     <string name="ignore">İqnor edin</string>
     <string name="image_attachment_content_description">Şəkil qoşması</string>
     <string name="image_compress_info">Operator MMS limitlərinə görə alıcıya aşağı keyfiyyətli şəkil göstəriləcək</string>
-    <string name="imei_format_dropdown_hint">IMEI Formatı ayarlayın</string>
-    <string name="imsi_format_dropdown_hint">IMSI Formatı ayarlayın</string>
+    <string name="image_format_type">təsvir</string>
     <string name="in_conversation_blocked_contact_text">Bu söhbətin daxilində blok edilmiş kontaktlar olduğu üçün bütün mesajları görməyə bilərsiniz.</string>
     <string name="in_conversation_notify_new_message_action">Göstər</string>
     <string name="in_conversation_notify_new_message_text">Yeni mesaj</string>
@@ -887,7 +956,7 @@ Sistem ayarlarında defolt zəng SIM-ni dəyişə bilərsiniz. %1$s"</string>
     <string name="incoming_message_for_secondary_user_notification_title">Yeni mesaj</string>
     <string name="incoming_message_foreground_notification_text">Mesaj gələn mesajı işləyir</string>
     <string name="incoming_mms_disabled_by_company_pref_summary">Şirkətiniz gələn MMS mesajlarına icazə vermir</string>
-    <string name="indeterminate">Nə seçilməyib, nə də seçim ləğv edilməyib</string>
+    <string name="indeterminate">Qismən yoxlanıb</string>
     <string name="info_and_options_activity_business_tab_list_header">Biznes</string>
     <string name="info_and_options_activity_info_tab_content_description">Məlumat</string>
     <string name="info_and_options_activity_info_tab_title">Məlumat</string>
@@ -898,6 +967,9 @@ Sistem ayarlarında defolt zəng SIM-ni dəyişə bilərsiniz. %1$s"</string>
     <string name="info_and_options_view_terms_of_service">Xidmət Şərtlərinə Baxın</string>
     <string name="inline_playback_error">Bu videonu Mesajda oxutmaq mümkün deyil</string>
     <string name="inline_playback_pause_content_description">Videonu durdurun</string>
+    <string name="install_photos_app">Google Fotonu əldə edin</string>
+    <string name="install_photos_app_title">Davam etmək üçün Google Foto tətbiqini əldə edin</string>
+    <string name="install_photos_app_to_continue">Yüksək keyfiyyətli videolar göndərmək üçün tətbiqi quraşdırın</string>
     <string name="invalid_qr_code_dialog_message">Daxil olmaq üçün %s linkindəki QR kodunu skan edin</string>
     <string name="invalid_qr_code_dialog_positive_button_text">OK</string>
     <string name="invalid_qr_code_dialog_title">Yanlış kod</string>
@@ -911,14 +983,12 @@ Sistem ayarlarında defolt zəng SIM-ni dəyişə bilərsiniz. %1$s"</string>
     <string name="leave_confirmation_text">Bu qrupdan mesajlar almağı dayandırmaq istədiyinizdən əminsiniz?</string>
     <string name="leave_confirmation_title">Qrupu Həmmişəlik Tərk edin</string>
     <string name="libraries_material_featurehighlight_dismiss">Kənarlaşdır</string>
-    <string name="link_preview_enabled_pref_summary">Önizləmələri mesajlarda göstərin</string>
+    <string name="lighter_account_sign_out_snackbar_text">Biznes söhbətlərinizə baxmaq üçün daxil olun</string>
+    <string name="lighter_block_report_spam_body">"Biznes adı və bu bizneslə söhbətiniz Google'a göndərilir (operator ödənişləri tətbiq oluna bilər)."</string>
     <string name="link_preview_enabled_pref_summary_off">Deaktiv</string>
     <string name="link_preview_failed">Önizləmə əlçatan deyil</string>
     <string name="link_preview_google_photos_display_name">Google Foto</string>
-    <string name="link_preview_preference_info_text">Google əlaqələndirilmiş saytlardan önizləmə kontenti əldə edir. Önizləmələr yalnız kimliyi məlum göndərənlərin linklərində ola bilər. %1$s</string>
-    <string name="link_preview_preference_title">Avtomatik link önizləmələri</string>
     <string name="link_preview_tap_to_load">Önizləməni yükləmək üçün klikləyin</string>
-    <string name="link_preview_wifi_only_pref_summary">Önizləmələri yalnız Wi-Fi ilə endirin</string>
     <string name="link_to_settings"><u>Ayarlarda idarə edin</u></string>
     <string name="listify_many">%1$s və %2$d digəri</string>
     <string name="listify_one">%s</string>
@@ -965,13 +1035,13 @@ Tövsiyə olunan məlumatları paylaşmaq istəyə bağlıdır və mesajlarını
     <string name="manual_msisdn_skipped_snack_bar_text">Qabaqcıl söhbət funksiyaları aktiv deyil. Ayarlarda aktiv edə bilərsiniz.</string>
     <string name="manual_msisdn_skipped_snack_bar_text_b155475148">Mesaj operatorla nömrənizi doğrulamağa çalışacaq. Ayarlardan idarə edin.</string>
     <string name="manual_msisdn_verify_now_snack_bar_text_b155475148">Mesaj operatorla nömrənizi doğrulamağa çalışacaq. Ayarlardan idarə edin.</string>
-    <string name="manually_override_rcs_flags">RCS Banerlərini manual olaraq ləğv edin</string>
     <string name="mark_all_messages_as_read_confirmation">Bütün mesajlar oxunmuş olaraq qeyd edildi</string>
     <string name="mdd_download_notification_channel_name">Data Endirmə Bildirişi Kanalı</string>
     <string name="mdd_foreground_service_notification_title">Endirilir</string>
     <string name="mdd_notification_action_cancel">Ləğv edin</string>
     <string name="mdd_notification_download_failed">Endirmə alınmadı</string>
     <string name="mdd_notification_download_paused">Şəbəkə bağlantısı gözlənilir</string>
+    <string name="mdd_notification_download_paused_wifi">Wi-Fi bağlantısı gözlənilir</string>
     <string name="media_compress_info">Operator MMS limitlərinə görə alıcıya aşağı keyfiyyətli media göstəriləcək</string>
     <string name="media_compress_tooltip_info_icon_text">məlumat</string>
     <string name="media_viewer_close_button_description">Bağlayın</string>
@@ -1070,6 +1140,8 @@ Tövsiyə olunan məlumatları paylaşmaq istəyə bağlıdır və mesajlarını
     <string name="message_type_vcard">Əlaqə kartı</string>
     <string name="message_type_video">Video</string>
     <string name="message_video_content_description">Video</string>
+    <string name="message_with_deleted_snippet_talk_back_announcement">Silinmiş mesaja cavab: %1$s</string>
+    <string name="message_with_reply_snippet_talk_back_announcement">%3$s tərəfindən %2$s mesajına cavab: %1$s</string>
     <string name="messages_for_web_preference_summary">%1$s linkinə keçin</string>
     <string name="messages_for_web_preference_title">Mesaj yazın, zəng edin və səsli məktubları yoxlayın</string>
     <string name="messages_status_feedback_data_description">"Tövsiyə olunan bütün məlumatlar gizli problemləri, onların müxtəlif səbəblərini, əlaqələrini və nasazlığın harada aradan qaldırılmalı olduğunu aşkarlamaqda faydalıdır.
@@ -1122,11 +1194,15 @@ Siz \"MSG007\" kimi hərf və rəqəmlərdən ibarət kodlara deyil, yalnız rə
     <string name="mms_phone_number_pref_title">Telefon nömrəsi</string>
     <string name="mms_text">MMS</string>
     <string name="mtrl_badge_numberless_content_description">Yeni bildiriş</string>
+    <string name="mtrl_checkbox_state_description_checked">Checked</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Indeterminate</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Not checked</string>
     <string name="mtrl_chip_close_icon_content_description">%1$s silin</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Minimum %1$d yeni bildiriş</string>
     <string name="mtrl_picker_a11y_next_month">Növbəti aya dəyişin</string>
     <string name="mtrl_picker_a11y_prev_month">Əvvəlki aya dəyişin</string>
     <string name="mtrl_picker_announce_current_selection">Cari seçim: %1$s</string>
+    <string name="mtrl_picker_cancel">Ləğv edin</string>
     <string name="mtrl_picker_confirm">OK</string>
     <string name="mtrl_picker_day_of_week_column_header">Gün sütunu: %1$s</string>
     <string name="mtrl_picker_navigate_to_year_description">%1$s ilinə keçin</string>
@@ -1138,11 +1214,24 @@ Siz \"MSG007\" kimi hərf və rəqəmlərdən ibarət kodlara deyil, yalnız rə
     <string name="multimedia_message">Multimedia mesajı</string>
     <string name="muted_conversation_content_description">Bildirişlər deaktiv edildi.</string>
     <string name="nav_app_bar_navigate_up_description">Yuxarı keçin</string>
+    <string name="nav_archived_messages_folder_title">Arxiv edilənlər</string>
+    <string name="nav_choose_theme_title">Tema seçin</string>
+    <string name="nav_choose_theme_title_disable_dark_mode">Qaranlıq rejimi deaktiv edin</string>
+    <string name="nav_choose_theme_title_enable_dark_mode">Qaranlıq rejimi aktiv edin</string>
+    <string name="nav_device_pairing_title">Cihaz qoşulması</string>
+    <string name="nav_mark_all_as_read_title">Hamısını oxunmuş olaraq qeyd edin</string>
+    <string name="nav_messages_folder_title">Mesajlar</string>
+    <string name="nav_spam_and_blocked_messages_folder_title">Spam və blok edilənlər</string>
+    <string name="nav_starred_folder_title">Ulduzlu</string>
     <string name="navigate_up_button_content_description">Yuxarı gedin</string>
     <string name="new_message_label">{count,plural, =1{1 yeni mesaj}other{# yeni mesaj}}</string>
     <string name="new_pill_label">Yeni</string>
     <string name="new_rich_cards_preference_info_text">Google bütün önizləmələri yaratmaq və zərərli kontenti aşkarlamaq üçün kimliyinizi müəyyən etmədən çat tarixçənizdəki seçilmiş məlumatı (yerlər və ya linkər kimi) skan edir. %1$s</string>
-    <string name="no_google_account">Heç biri</string>
+    <string name="no_business_name_fallback">bu biznes</string>
+    <string name="no_connection">Bağlantı yoxdur</string>
+    <string name="no_media_button">Seçimlərə baxın</string>
+    <string name="no_media_caption">Başqa media mənbəyi və ya profilini sınayın</string>
+    <string name="no_media_description">Cihazda bu profil üzrə yadda saxlanmış media yoxdur</string>
     <string name="no_reply_pinned_message_text">Göndərən cavabları dəstəkləmir</string>
     <string name="no_sim_message">SİMdə mesaj yoxdur</string>
     <string name="not_selected">Seçilməyib</string>
@@ -1198,31 +1287,51 @@ Siz \"MSG007\" kimi hərf və rəqəmlərdən ibarət kodlara deyil, yalnız rə
     <string name="nudge_learn_more_info_text">Xatırlatma bildirişləri haqqında ətraflı məlumat</string>
     <string name="nudge_reply_enabled_pref_summary">Cavablamalı olduğunuz mesajlar yuxarıya köçürüləcək</string>
     <string name="nudge_reply_enabled_pref_title">Cavab xatırladıcıları təklif edin</string>
+    <string name="nudge_settings_page_description">Cavab və doğum günü xatırladıcılarını göstərin</string>
     <string name="nudge_settings_page_title">Xatırlatma bildirişləri</string>
     <string name="numeric_text_keyboard_toggle_button_content_description">Mətn və nömrə daxiletməsi arasında seçim edin</string>
     <string name="off">Deaktiv</string>
     <string name="og_a11y_close">Bağlayın</string>
     <string name="og_account_and_settings">Hesab və ayarlar.</string>
+    <string name="og_account_particle_disc_no_accounts_available_a11y">Giriş</string>
     <string name="og_add_another_account">Başqa hesab əlavə edin</string>
+    <string name="og_app_settings">%1$s ayarları</string>
     <string name="og_choose_an_account_title">Hesab seçin</string>
     <string name="og_collapse_account_list_a11y">Hesab siyahısını yığcamlaşdırın.</string>
     <string name="og_continue">Davam edin</string>
     <string name="og_continue_as">%1$s kimi davam edin</string>
     <string name="og_expand_account_list_a11y">Hesab siyahısını genişləndirin.</string>
+    <string name="og_get_storage_action">Yaddaş əldə edin</string>
+    <string name="og_get_storage_action_short">Daha çoxunu alın</string>
     <string name="og_google_one_account_a11y">Google One hesabı.</string>
+    <string name="og_help_feedback">Yardım və geri əlaqə</string>
     <string name="og_loading_a11y">Yüklənir</string>
     <string name="og_manage_accounts">Bu cihazdakı hesabları idarə edin</string>
+    <string name="og_manage_storage_action">Yaddaşı idarə edin</string>
+    <string name="og_manage_storage_action_short">İdarə edin</string>
+    <string name="og_minimized_storage_card_title">İstifadə edilən yaddaş: %1$s/%2$s GB</string>
+    <string name="og_more_options_action">Daha çox seçim</string>
+    <string name="og_more_options_action_short">Seçimlər</string>
     <string name="og_my_account_desc_long_length">Google Hesabınızı idarə edin</string>
     <string name="og_my_account_desc_meduim_length">Google Hesabı</string>
     <string name="og_my_account_desc_short_length">Hesab</string>
+    <string name="og_privacy_advisor">%1$s datanız</string>
     <string name="og_privacy_policy">Məxfilik Siyasəti</string>
     <string name="og_selected_account_a11y">%1$s seçildi.</string>
     <string name="og_sign_in_">Daxil olun</string>
     <string name="og_signed_in_as_account">%1$s olaraq giriş edilib</string>
+    <string name="og_storage_card_almost_full_a11y_label">Hesabınızın yaddaşı demək olar ki, doludur</string>
+    <string name="og_storage_card_full_a11y_label">Hesabınızın yaddaşı doludur</string>
+    <string name="og_storage_card_title">Hesab yaddaşı</string>
+    <string name="og_storage_card_title_almost_full">%1$s yaddaş istifadə edilib</string>
+    <string name="og_storage_card_title_full">Yaddaş dolub</string>
+    <string name="og_storage_progress_subtitle">%1$s/%2$s GB istifadə olunur</string>
     <string name="og_terms_of_service">Xidmət Şərtləri</string>
     <string name="og_use_account_a11y_no_period">%1$s istifadə edin</string>
+    <string name="og_use_without_an_account">Hesab əlavə etmədən istifadə edin</string>
     <string name="on">Aktiv</string>
     <string name="onboarding_google_tos_with_sms_charges_and_learn_more">"Google'da söhbət funksiyalarını aktiv etmək üçün %1$s və %2$s ilə razılaşırsınız. Google cihaz məlumatını operatorla dəyişməklə (SMS xərcləri tətbiq edilə bilər) nömrəni doğrulayacaq. %3$s."</string>
+    <string name="open_full_screen_camera_button_label">Tam Ekranlı Kameranı Açın</string>
     <string name="open_video_trimmer_dialog_negative">Ləğv edin</string>
     <string name="open_video_trimmer_dialog_positive">Kəsin</string>
     <string name="organization">Təşkilat</string>
@@ -1236,8 +1345,6 @@ Siz \"MSG007\" kimi hərf və rəqəmlərdən ibarət kodlara deyil, yalnız rə
     <string name="otp_auto_deletion_promo_banner_positive_button_text">Davam edin</string>
     <string name="otp_auto_deletion_promo_banner_title_text">Birdəfəlik parollar 24 saat sonra avtomatik silinsin?</string>
     <string name="otp_copied_to_clipboard">Kod kopyalandı</string>
-    <string name="otp_pattern_dropdown_hint">Birdəfəlik parol nümunəsi ayarlayın</string>
-    <string name="otp_port_dropdown_hint">Birdəfəlik parol portu ayarlayın</string>
     <string name="outgoing_message_foreground_notification_text">Mesaj gedən mesajı işləyir</string>
     <string name="outgoing_mms_disabled_by_carrier_pref_summary">Operatorunuz gedən MMS mesajlarına icazə vermir</string>
     <string name="outgoing_mms_disabled_by_company_pref_summary">Şirkətiniz gedən MMS mesajlarına icazə vermir</string>
@@ -1263,6 +1370,7 @@ Siz \"MSG007\" kimi hərf və rəqəmlərdən ibarət kodlara deyil, yalnız rə
     <string name="paired_desktops_last_connection_time">Ən son aktiv olma vaxtı: %s</string>
     <string name="paired_desktops_last_connection_time_unknown">naməlum</string>
     <string name="participant_joined_group">%s qrupa qoşuldu</string>
+    <string name="participant_joined_with_learn_more">%1$s bu qrupa qoşuldu. %2$s</string>
     <string name="participant_left_group">%s qrupu tərk etdi</string>
     <string name="participant_list_add">Adamları əlavə edin</string>
     <string name="participant_list_count_title_icu">{count,plural, =0{0 digər iştirakçı}=1{1 digər iştirakçı}other{# digər iştirakçı}}</string>
@@ -1282,6 +1390,7 @@ Siz \"MSG007\" kimi hərf və rəqəmlərdən ibarət kodlara deyil, yalnız rə
     <string name="phone_number_input_body_for_mo_text">Çat funksiyalarını sonra əldə etmək üçün ötürsəniz, Mesaj operatorunuzla nömrəni doğrulamağa çalışacaq</string>
     <string name="phone_number_input_body_text">Çat funksiyaları əldə etdiyinizdən əmin olmaq üçün Mesaj nömrənizi doğrulayır</string>
     <string name="phone_number_input_hint">Telefon nömrəsi</string>
+    <string name="phone_number_input_invalid_number_text">Yanlış telefon nömrəsi</string>
     <string name="phone_number_input_negative_button_for_mo_text">Hələlik ötürün</string>
     <string name="phone_number_input_negative_button_for_mt_text">Sonra xatırladın</string>
     <string name="phone_number_input_positive_button_text">Nömrə əlavə edin</string>
@@ -1298,10 +1407,25 @@ Siz \"MSG007\" kimi hərf və rəqəmlərdən ibarət kodlara deyil, yalnız rə
     <string name="phone_number_input_title_text">Çat funksiyalarını daha tez əldə etmək üçün indi nömrənizi əlavə edin</string>
     <string name="phone_number_input_tos_reminder_text">Çat funksiyalarının %1$s ilə razılaşmısınız.</string>
     <string name="phone_number_input_tos_text">Xidmət Şərtləri</string>
+    <string name="phone_number_promo_banner_body_text">Wi-Fi və ya mobil data üzərindən yüksək keyfiyyətli video, animasiya reaksiyaları və s. göndərmək üçün telefon nömrənizi təsdiqləyin</string>
+    <string name="phone_number_promo_banner_negative_button_text">Qapadın</string>
+    <string name="phone_number_promo_banner_positive_button_text">Növbəti</string>
+    <string name="phone_number_promo_banner_title_text">Daha yaxşı Mesaj funksiyaları üçün növbəti addım</string>
+    <string name="phone_number_promo_body_text">Doğrulanmış telefon nömrənizlə indi başlayın. İstənilən vaxt ayarlarda çat funksiyalarını idarə edin.</string>
+    <string name="phone_number_promo_body_text_mo">Doğrulanmış telefon nömrənizlə indi başlayın. Yaxud çat funksiyalarını daha sonra əldə etmək üçün ötürün və Mesaj Sizin üçün nömrəni doğrulamağa çalışacaq.</string>
+    <string name="phone_number_promo_negative_button_text">Sonra xatırladın</string>
+    <string name="phone_number_promo_negative_button_text_mo">Hələlik ötürün</string>
+    <string name="phone_number_promo_positive_button_text">Çat funksiyalarını əldə edin</string>
+    <string name="phone_number_promo_title_text">Wi-Fi və ya data bağlantısı ilə foto, video və s. paylaşmağa hazırsınız?</string>
+    <string name="phone_number_ui_accepted_snackbar_text">Çat funksiyaları əlçatan olduqda Sizə bildiriləcək.</string>
+    <string name="phone_number_ui_dismissed_snackbar_action_text">Ayarlar</string>
+    <string name="phone_number_ui_dismissed_snackbar_text">Çat funksiyalarını indi əldə etmək üçün telefon nömrənizi əlavə edin və ya ayarlardan idarə edin</string>
     <string name="photo_taken">Foto çəkildi</string>
+    <string name="photos_app_installation_required">Yüksək keyfiyyətli videolar göndərmək üçün Google Foto tətbiqini əldə edin</string>
+    <string name="photos_app_onboarding_required">Yüksək keyfiyyətli videolar göndərmək üçün Google Foto girişinə icazə verin</string>
+    <string name="photos_app_sharing_unavailable_try_again_later">Yüksək keyfiyyətli video keçidi müvəqqəti olaraq əlçatan deyil. Aşağı keyfiyyətli video göndərilməyə hazırdır.</string>
+    <string name="photos_app_sign_in_required">Yüksək keyfiyyətli videolar gödərmək üçün Google Fotoya daxil olun</string>
     <string name="picker_disambiguation_title">Təyinatı seçin</string>
-    <string name="pin_limit_message">Ən çox %1$d söhbəti bərkidə bilərsiniz</string>
-    <string name="pin_success_message">%1$d/%2$d söhbət bərkidilib</string>
     <string name="pinch_zoom_pref_title">Söhbət mətnini böyütmək üçün ekran üzərində iki barmağınızı yaxınlaşdırıb uzaqlaşdırın</string>
     <string name="places_autocomplete_clear_button">Axtarışı silin</string>
     <string name="places_autocomplete_label">Yer seçin</string>
@@ -1351,17 +1475,18 @@ Mesajlarınız və söhbətləriniz barədə məlumata göndərənlərin və qə
 Bu məlumat fərziyyələri yoxlamaq və problemin daha sürətli və effektiv başa düşülməsi üçün problemə səbəb olan amilləri müəyyən etməyə kömək edir."</string>
     <string name="problematic_message_feedback_data_rationale_title">Mesaj və söhbətləriniz haqqında məlumat necə kömək edir</string>
     <string name="promotion_content_description">Bu mesaj təklif kateqoriyasındadır</string>
+    <string name="prompt_button_action_not_now">İndi yox</string>
+    <string name="prompt_button_action_sign_in">Daxil olun</string>
     <string name="proxy_screen_clear_search">Axtarışı silin</string>
     <string name="proxy_screen_search">Axtarış</string>
     <string name="qr_action_bar_device_pairing_title">Cihaz qoşulması</string>
-    <string name="qr_action_bar_title">Veb üçün Mesajlaşma</string>
     <string name="qr_code_scanner_hint_text">&lt;br/><b>%s</b> ünvanında göstərilən QR kodunu skan edin</string>
     <string name="qr_code_scanner_preference_button">QR kod skaneri</string>
     <string name="qr_delete_all_paired_desktops_button_text">Birləşdirilmiş bütün cihazların bağlantısını kəsin</string>
     <string name="qr_simplified_welcome_banner_url_text">Cihazınızda <b>%s</b> linkinə keçin</string>
     <string name="qr_success_text_view">Tamamdır!</string>
-    <string name="qr_welcome_banner_url_text">Cihazınızda mesajlar göndərin və əldə edin</string>
-    <string name="qr_welcome_bottom_text">Əvvəlcə, yalnız %s ünvanında əlçatan olan QR kodunu skan etməklə cihazı telefona qoşun</string>
+    <string name="qr_welcome_banner_url_text">Mesaj göndərin və qəbul edin</string>
+    <string name="qr_welcome_bottom_text">Bunun üçün %s ünvanındakı QR-kodu skan etməklə telefonu cihaza qoşun</string>
     <string name="qr_welcome_button_text">QR kod skaneri</string>
     <string name="qr_welcome_footer_text">"Davam etməklə Google 
 %1$s və %2$s ilə razılaşırsınız"</string>
@@ -1369,6 +1494,8 @@ Bu məlumat fərziyyələri yoxlamaq və problemin daha sürətli və effektiv b
     <string name="qr_welcome_privacy">Məxfilik Siyasəti</string>
     <string name="qr_welcome_terms_of_service">Xidmət Şərtləri</string>
     <string name="rbm_block_confirmation_message_spam_folder">Artıq %1$s Sizə mesaj göndərdikdə bildiriş almayacaqsınız. Bu söhbət \"Spam və blok edilənlər\" bölməsinə köçürüləcək. %2$s</string>
+    <string name="rbm_block_dialog_body">Bu göndərəndən mesaj qəbul etməyəcəksiniz. Bu söhbət \"Spam və bloklanmış mesajlar\" bölməsinə köçürüləcək, burada göndərəni istənilən vaxt blokdan çıxara bilərsiniz.</string>
+    <string name="rbm_block_dialog_positive_button_label">Bloklayın</string>
     <string name="rbm_business_logo_icon_content_description">Biznes Loqosu İkonası</string>
     <string name="rbm_platform_generalized_verifier_title">%s tərəfindən doğrulanıb</string>
     <string name="rbm_platform_verified_by_google">Google tərəfindən doğrulanıb</string>
@@ -1388,6 +1515,7 @@ Bu məlumat fərziyyələri yoxlamaq və problemin daha sürətli və effektiv b
     <string name="rcs_learn_more_title">Çat funksiyaları haqqında - %1$s</string>
     <string name="rcs_learn_more_title_with_no_link">Çat funksiyaları haqqında ətraflı məlumat əldə edin</string>
     <string name="rcs_message">Rich Communication Service message</string>
+    <string name="rcs_message_failed_recipient_lost_encryption_content_description">Çatdırmaq mümkün deyil, seçimlər üçün toxunun</string>
     <string name="rcs_message_failed_recipient_lost_rcs_content_description">Çatdırılmadı. Seçimlər üçün toxunun</string>
     <string name="rcs_mobile_data_auto_download_carrier_format_entry">Defolt (%1$s)</string>
     <string name="rcs_mobile_data_auto_download_limit_disable_entry_text">Deaktiv edin</string>
@@ -1470,11 +1598,12 @@ Bu məlumat fərziyyələri yoxlamaq və problemin daha sürətli və effektiv b
     <string name="reaction_surprised_content_description">Ağzını açaraq təəccüblə baxan üz</string>
     <string name="reactions_promo_announcement">Reaksiya vermək üçün uzun müddət basıb saxlayın</string>
     <string name="reactions_promo_text">Reaksiya vermək üçün toxunub saxlayın</string>
-    <string name="read_external_storage_permission_description">Qalereyanızın məzmununa birbaşa buradan baxmaq üçün telefonunuzun yaddaşına daxil olmaq tələb olunur.</string>
+    <string name="read_media_storage_permission_description">Qalereyanızın kontentinə birbaşa buradan baxmaq üçün telefonun yaddaşına giriş icazəsi tələb olunur.</string>
     <string name="received_label">Qəbul edilən:</string>
     <string name="recipient_hint">Ad, nömrə və ya e-poçt ünvanı yazın</string>
     <string name="recipient_label">Kimə</string>
     <string name="recipient_offline_description">%s onlayn olanadək gözlənilir…</string>
+    <string name="reminder_badge_content_description">Xatırladıcı nişanı</string>
     <string name="reminder_datetime_picker_dialog_delete_button">Silin</string>
     <string name="reminder_datetime_picker_dialog_menu_title_add">Xatırlatma ayarlayın</string>
     <string name="reminder_datetime_picker_dialog_menu_title_update">Xatırlatmanı yeniləyin</string>
@@ -1495,7 +1624,7 @@ Bu məlumat fərziyyələri yoxlamaq və problemin daha sürətli və effektiv b
     <string name="reminder_suggestions_tooltip_text">Sonra izləmək üçün toxunun və vaxt seçin. &lt;a href>Ayarlarda&lt;/a> təklifləri deaktiv edin</string>
     <string name="reminder_suggestions_tooltip_title_text">Xatırlatmaları ayarlayın</string>
     <string name="reminders_banner_body">%1$s: %2$s</string>
-    <string name="reminders_banner_description">@string/banner_description</string>
+    <string name="reminders_banner_description">Reminder conversation banner</string>
     <string name="reminders_banner_done_button">Oldu</string>
     <string name="reminders_banner_remind_button">1 saat sonra xatırladın</string>
     <string name="reminders_banner_self_sender_name">Siz</string>
@@ -1508,7 +1637,7 @@ Bu məlumat fərziyyələri yoxlamaq və problemin daha sürətli və effektiv b
     <string name="remove_reaction_from_gif_rcs_fallback_text">‌%1$s‌ GIF-dən silindi</string>
     <string name="remove_reaction_from_link_rcs_fallback_text">‌%1$s‌ linkdən silindi</string>
     <string name="remove_reaction_from_photo_rcs_fallback_text">‌%1$s‌ fotodan silindi</string>
-    <string name="remove_reaction_from_text_message_rcs_fallback_text">‌%1$s‌ \"%2$s\" mesajından silindi</string>
+    <string name="remove_reaction_from_text_message_rcs_fallback_text">‌%1$s‌ \" %2$s \" mesajından silindi</string>
     <string name="remove_reaction_from_unknown_message_type_rcs_fallback_text">‌%1$s‌ naməlum mesaj növündən silindi</string>
     <string name="remove_reaction_from_video_rcs_fallback_text">‌%1$s‌ videodan silindi</string>
     <string name="remove_user_dialog_cancel">Ləğv edin</string>
@@ -1517,14 +1646,17 @@ Bu məlumat fərziyyələri yoxlamaq və problemin daha sürətli və effektiv b
     <string name="rename_group_title_m2">Qrup adı</string>
     <string name="reply_activity_title">Cavablayın</string>
     <string name="reply_button_label">Cavablayın</string>
-    <string name="reply_icon_content_description">Mesaja cavab verin</string>
+    <string name="reply_icon_content_description">Cavablayın</string>
     <string name="report_contact_title">Spam olaraq bildirin</string>
     <string name="report_failed_rcs_group_creation">Xəta baş verdi. Bir və ya daha çox iştirakçı əlavə edilmədi.</string>
     <string name="report_group_spam_body_spam_folder">"Digər qrup üzvlərinin nömrələri və ən son mesajları nəzərdən keçirilmə üçün Google'a göndəriləcək. Həmçinin operatora da göndərilə bilər. Bu zaman ödəniş çıxılacaq. Bu söhbət bildirişlər olmadan \"Spam və blok edilənlər\" bölməsində qalacaq. %1$s"</string>
+    <string name="report_invalid_thread_id_issue_description">Yanlış mövzu id-si. Ətraflı məlumat üçün qeydlərə baxın.</string>
     <string name="report_issue_action_text">Rəy göndərin</string>
+    <string name="report_issue_description">Mesaj avtomatik olaraq xəta aşkarladı. Ətraflı məlumat üçün qeydlərə baxın.</string>
     <string name="report_issue_notification_text">Mesaj xəta aşkarladı. Rəy göndərmək üçün toxunun.</string>
     <string name="report_not_spam_snackbar_message">%1$s \"spam deyil\" kimi bildirildi</string>
     <string name="report_person_delivered">%1$s Qəbul edilib: %2$s</string>
+    <string name="report_person_ftd">%1$s Deşifrə etmək alınmadı: %2$s</string>
     <string name="report_person_read">%1$s Oxunub: %2$s</string>
     <string name="report_person_sent">%s qəbul edilməyib</string>
     <string name="report_receive_issue_notification_message">Android Sizə göndərilən mesajı əldə edə bilmədi. Rəy göndərmək üçün toxunun.</string>
@@ -1537,6 +1669,7 @@ Bu məlumat fərziyyələri yoxlamaq və problemin daha sürətli və effektiv b
     <string name="report_spam_snackbar_message">%1$s spam olaraq bildirildi</string>
     <string name="report_spam_toast_title">Spam bildirildi</string>
     <string name="report_telephone_db_recreation_message">Mesajlar əldə edilərkən xəta baş verdi. Rəy göndərmək üçün toxunun.</string>
+    <string name="report_thread_id_not_found_description">Mövzu id-si yoxdur. Ətraflı məlumat üçün qeydlərə baxın.</string>
     <string name="required_permissions_no_promptable_promo">Cihazın tətbiq ayarlarından icazələri dəyişin. Mesajlaşmaya SMS, Telefon, və Kontaktlara giriş imkanı verin.</string>
     <string name="required_permissions_no_promptable_title">Giriş Təmin Edin</string>
     <string name="required_permissions_promptable_promo">Defolt tətbiqi ayarlamağı tamamlamaq üçün Mesaj tətbiqinin SMS, Telefon və Kontakta daxil olmasına icazəsi verin</string>
@@ -1556,6 +1689,11 @@ Bu məlumat fərziyyələri yoxlamaq və problemin daha sürətli və effektiv b
     <string name="samsung_setting_search_title">Mesaj ayarları</string>
     <string name="save">Yadda saxlayın</string>
     <string name="save_attachment">Yadda saxlayın</string>
+    <string name="save_banner_body">Bu doğum günü tarixini kontakt tətbiqinizdə yadda saxlayın, Mesaj gələn il Sizə xatırladacaq</string>
+    <string name="save_banner_positive_button">Doğum gününü yadda saxlayın</string>
+    <string name="save_banner_title_name">%1$s adlı şəxsin doğum gününü xatırlayın</string>
+    <string name="save_banner_title_no_name">Onun doğum gününü xatırlayın</string>
+    <string name="save_birthday_banner_description">@string/banner_description</string>
     <string name="save_otp_confirm_button">Birdəfəlik parolu (OTP) yadda saxlayın</string>
     <string name="save_otp_dialog_message">Digər birdəfəlik parollarınız avtomatik silinməyə davam edərkən bu birdəfəlik parol (OTP) 24 saat sonra yadda saxlanılacaq. Ayarlarda idarə edin.</string>
     <string name="save_otp_dialog_title">Bu birdəfəlik parol (OTP) yadda saxlanılsın?</string>
@@ -1574,6 +1712,7 @@ Bu məlumat fərziyyələri yoxlamaq və problemin daha sürətli və effektiv b
     <string name="scheduled_send_announcement_scheduling_failed">Mesajı planlaşdırmaq alınmadı.</string>
     <string name="scheduled_send_announcement_scheduling_started">Mesaj planlaşdırılır.</string>
     <string name="scheduled_send_announcement_scheduling_succeeded">Mesaj planlaşdırıldı.</string>
+    <string name="scheduled_send_badge_content_description">Planlaşdırılmış göndərmə nişanı</string>
     <string name="scheduled_send_compose_label_close_content_description">Planlamanı silin.</string>
     <string name="scheduled_send_datetime_picker_subtitle">Göndərmək üçün telefonu yanılı saxılayın Wi-Fi və ya dataya qoşulun</string>
     <string name="scheduled_send_datetime_picker_title">Göndərilmə vaxtını planlaşdırın (%1$s)</string>
@@ -1596,11 +1735,12 @@ Bu məlumat fərziyyələri yoxlamaq və problemin daha sürətli və effektiv b
     <string name="search_query_hint">Stiker axtarın</string>
     <string name="search_rendering_unable_to_search">Axtararkən xəta oldu, sonra cəhd edin</string>
     <string name="search_starred_messages_title">Ulduzlu</string>
-    <string name="security_key_page_description">Təsdiq etmək üçün bütün rəqəmləri alıcının kodu ilə yoxlayın</string>
+    <string name="security_key_page_description">Təsdiq etmək üçün bütün rəqəmləri alıcının kodu ilə yoxlayın.</string>
     <string name="security_key_page_intro">Bu kod yalnız nəzərdə tutulmuş alıcınızın tam şifrələnmiş mesajlarınızı qəbul etdiyini təsdiqləmək imkanı verir.</string>
     <string name="security_key_top_level_title">Şifrələməni təsdiq edin</string>
     <string name="see_gallery">Qalereyaya baxın</string>
     <string name="selected">Seçilib</string>
+    <string name="selection_position_text">%1$d</string>
     <string name="self_left_group_conversation_failed">Qrupu tərk etmək olmadı. Yenidən cəhd edin.</string>
     <string name="self_participant_reaction_name">Siz</string>
     <string name="self_person_name">Siz</string>
@@ -1650,7 +1790,6 @@ Telefon nömrəniz yalnız nasazlıqların aradan qaldırılması və problemlə
     <string name="sending_timeout_failure_dialog_title">Mesaj göndərilmədi</string>
     <string name="sent_label">Göndərilən:</string>
     <string name="set_message_priority_description">Təcili status ayarlayın</string>
-    <string name="set_rcs_flags">RCS Banerləri Ayarlayın</string>
     <string name="set_rcs_mobile_data_auto_download_limit_title">Mobil data üzərindən əldə etdiyiniz faylları avtomatik endirin</string>
     <string name="setting_fast_track_body_with_cost">Davam etməklə %1$s və %2$s ilə razılaşırsınız. Telefon nömrəsi ilə mesaj göndərmək üçün Google cihaz məlumatını operatorla dəyişməklə və ya SMS vasitəsilə (xərclər tətbiq oluna bilər) nömrənizi doğrulayacaq. Çat funksiyalarını Ayarlarda deaktiv edə bilərsiniz. %3$s</string>
     <string name="settings_activity_title">Ayarlar</string>
@@ -1673,6 +1812,13 @@ Telefon nömrəniz yalnız nasazlıqların aradan qaldırılması və problemlə
     <string name="shortcuts_screen_title">Qısayollar</string>
     <string name="show_sms_link_warning_change_label">Dəyişin</string>
     <string name="show_sms_link_warning_text">Qoşmanın linki də daxil olmaqla qoşmalar SMS mesajları kimi göndəriləcək</string>
+    <string name="sign_in_app_name_without_account">%1$s tətbiqini hesab olmadan istifadə edin</string>
+    <string name="sign_in_cancel">Ləğv edin</string>
+    <string name="sign_in_without_account">Hesab olmadan istifadə edin</string>
+    <string name="sign_in_without_account_short">Hesab olmadan</string>
+    <string name="sign_into_photos_app">Daxil olun</string>
+    <string name="sign_into_photos_app_title">Davam etmək üçün Google Fotoya daxil olun</string>
+    <string name="sign_into_photos_app_with_x_to_continue">Hazırda %1$s hesabından göndərirsiniz</string>
     <string name="signature_banner_description">@string/banner_description</string>
     <string name="silent_ringtone">Səssiz</string>
     <string name="sim_label">SIM:</string>
@@ -1691,9 +1837,13 @@ Telefon nömrəniz yalnız nasazlıqların aradan qaldırılması və problemlə
     <string name="sim_storage_full_title">SIM kartın yaddaşı doludur</string>
     <string name="sim_storage_pref_title">SIM kart mesajları</string>
     <string name="simple_fail_to_decrypt_message_dialog_body">Gələcək mesajları deşifrə etmək üçün Mesaj tətbiqini güncəlləyin</string>
+    <string name="smart_action_settings_page_description">Təqvim, GIF axtarışı, məkan paylaşımı və s. üçün müvafiq qısayolları göstərin</string>
+    <string name="smart_action_settings_page_title">Əməliyyatlar</string>
+    <string name="smart_actions_preference_summary_shortcuts">Təqvim, GIF axtarışı, məkan paylaşımı və s. üçün müvafiq qısayolları göstərin</string>
     <string name="smart_actions_preference_title">Təklif edilən əməliyyatlar</string>
     <string name="smart_compose_preference_summary">Təxmini yazı təklifləri göstərin</string>
     <string name="smart_compose_preference_title">Ağıllı Tərtibat</string>
+    <string name="smart_reply_preference_summary">Çat vasitəsilə cavab seçimlərini göstərin</string>
     <string name="smarts_preference_info_text">Məntiqli Cavab və təklif edilən əməliyyatlara klikləyib paylaşanadək onları yalnız Siz görəcəksiniz. &lt;br/> &lt;br/> Təkliflər söhbətə görə fərqlənir və cihazda yaradılır. %1$s</string>
     <string name="smarts_preference_info_text_with_assistant">Məntiqli Cavab, təklif edilən əməliyyatlar və Assistent təklifləri Mesaj tətbiqi ilə cihazda yaradılır. &lt;br/> &lt;br/>Klikləyənədək təklifləri Google və ya başqa biri ilə paylaşmaq mümkün deyil. &lt;br/> &lt;br/> Mesaj tətbiqinə cihaz məkanına giriş icazəsi versəniz, daha çox yerli təklifə baxa biləcəksiniz. %1$s</string>
     <string name="smarts_settings_page_summary">Məntiqli Cavab, təklif edilən əməliyyatlar və s.</string>
@@ -1720,19 +1870,18 @@ Cavablar individual söhbətlərdə görünəcək"</string>
     <string name="snackbar_text_label_rcs_group_created_too_large">{max_group_size_including_self,plural, =1{Maksimum # şəxs ola bilər}other{Maksimum # şəxs ola bilər}}</string>
     <string name="snackbar_text_label_rcs_group_self_only">Bu qrup boşdur. Bu çatda mesajlaşmadan əvvəl bu qrupa istifadəçilər əlavə edin.</string>
     <string name="snippet">%1$s: %2$s</string>
-    <string name="snippet_assistant_card_text">Köməkçi kartı</string>
-    <string name="snippet_attachment_icon_content_description">Cavab fraqmentində qoşma ikonası</string>
     <string name="snippet_audio_attachment_text">Audio</string>
     <string name="snippet_deleted_message_text">Mesaj silindi</string>
-    <string name="snippet_dismiss_icon_content_description">\"Cavab verməkdən imtina\" ikonası</string>
+    <string name="snippet_dismiss_icon_content_description">Silin</string>
     <string name="snippet_file_attachment_text">Fayl</string>
     <string name="snippet_from_you">Siz: %s</string>
     <string name="snippet_image_attachment_text">Şəkil</string>
-    <string name="snippet_media_thumbnail_content_description">Cavab fraqmentində media miniatürü</string>
     <string name="snippet_self_participant_header">Siz</string>
     <string name="snippet_video_attachment_text">Video</string>
     <string name="soft_num_key_pad_backspace_content_description">Gerial</string>
     <string name="someone_added_participant">%1$s qrupa %2$s əlavə etdi</string>
+    <string name="someone_added_participant_with_learn_more">%1$s bu qrupa %2$s adlı iştirakçıları əlavə etdi. %3$s</string>
+    <string name="someone_else_created_encrypted_rcs_group">%1$s %2$s ilə bu qrup çatını yaratdı. %3$s</string>
     <string name="someone_else_created_mms_group">%1$s %2$s ilə MMS qrupu yaratdı</string>
     <string name="someone_else_created_rcs_group">%1$s %2$s ilə qrup çatı yaratdı</string>
     <string name="someone_joined_group">Kimsə qrupa qoşuldu</string>
@@ -1756,7 +1905,6 @@ Cavablar individual söhbətlərdə görünəcək"</string>
     <string name="spam_dialog_title_spam_folder">Spam olaraq bildirilsin?</string>
     <string name="spam_folder_activity_title">Spam və blok edilənlər</string>
     <string name="spam_folder_conversation_list_empty_text_v2">Spam və blok edilən söhbətlər burada görünür</string>
-    <string name="spam_preference_info_text_on_device">"Mesaj spamı aşkarlamaq üçün cihaz kəşfiyyatından istifadə edir və telefon nömrəniz və ya mesaj kontentini daxil etmədən bu mesaj haqqındakı bəzi datanı Google'a göndərir. %1$s"</string>
     <string name="spam_protection_consent_string">"Spamı aşkarlamağa kömək etmək üçün Mesaj telefon nömrəniz və ya mesaj kontentinizi daxil etmədən mesajlarınız haqqında bəzi dataları Google'a göndərir. %1$s"</string>
     <string name="spam_reporting_from">Spam bildirmə</string>
     <string name="spam_settings">Spam mühafizəsi</string>
@@ -1765,6 +1913,8 @@ Cavablar individual söhbətlərdə görünəcək"</string>
     <string name="split_view_pref_title">Detallı siyahı görünüşü</string>
     <string name="stacked_banner_count_text">1/%1$d</string>
     <string name="star_badge_content_description">Ulduz nişanı</string>
+    <string name="star_badge_menu_remove_action">Silin</string>
+    <string name="star_badge_menu_view_all_action">Hamısına baxın</string>
     <string name="star_badge_on_click_snackbar_action">Geri qaytarın</string>
     <string name="star_badge_on_click_snackbar_message">Ulduz silindi</string>
     <string name="sticker_content_description">%s stikeri</string>
@@ -1801,10 +1951,12 @@ Cavablar individual söhbətlərdə görünəcək"</string>
     <string name="subject_with_label">Mövzu: %1$s</string>
     <string name="subject_with_urgent_label">[VACİB] %1$s</string>
     <string name="success_message_format">%1$s %2$s %3$s %4$s %5$s %6$s.</string>
+    <string name="success_message_self_sender">Sizin yazdığınız: %1$s%2$s%3$s%4$s</string>
     <string name="success_message_self_sender_format_with_multiple_attachments">Çoxsaylı qoşma göndərdiniz %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_self_sender_format_with_single_attachment">Qoşma göndərdiniz %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_specified_sender_format_with_multiple_attachments">%1$s çoxsaylı qoşma göndərdi %2$s %3$s %4$s %5$s %6$s.</string>
     <string name="success_message_specified_sender_format_with_single_attachment">%1$s qoşma göndərdi %2$s %3$s %4$s %5$s %6$s.</string>
+    <string name="success_message_unspecified_sender">Göndərənin yazdığı: %1$s%2$s%3$s%4$s</string>
     <string name="success_message_unspecified_sender_format_with_multiple_attachments">Göndərən çoxsaylı qoşma göndərdi %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_message_unspecified_sender_format_with_single_attachment">Göndərən qoşma göndərdi %1$s %2$s %3$s %4$s %5$s.</string>
     <string name="success_sent_to_message_format">%1$s ünvanına göndərildi %2$s %3$s %4$s.</string>
@@ -1813,10 +1965,18 @@ Cavablar individual söhbətlərdə görünəcək"</string>
     <string name="sud_back_button_label">Geri</string>
     <string name="sud_more_button_label">Daha çox</string>
     <string name="sud_next_button_label">Növbəti</string>
-    <string name="suggested_stickers_preference_summary">Təklif edilən stikerləri göstərin</string>
+    <string name="suggested_stickers_preference_summary">Stiker vasitəsilə cavab seçimlərini göstərin</string>
     <string name="suggested_stickers_preference_title">Təklif edilən stikerlər</string>
+    <string name="suggestion_shortcut_dialog_body_text">Cəld və asan qısayollarla mesajları ulduzlayın, qısa zamanda planlaşdırın və s.</string>
+    <string name="suggestion_shortcut_dialog_positive_button">OK</string>
+    <string name="suggestion_shortcut_dialog_subsection_body_text">Qısayollar telefon nömrəsi, tarix kimi amillərə görə tövsiyə edilir. %1$s</string>
+    <string name="suggestion_shortcut_dialog_subsection_title_text">İşləmə qaydası</string>
+    <string name="suggestion_shortcut_dialog_title">Əməliyyatları sürətləndirmək üçün təklif olunan qısayollar</string>
+    <string name="suggestion_shortcut_search_title">Axtarış</string>
+    <string name="suggestion_shortcut_star_toolstone">Mesajları ulduzla işarələyərək %1$s bölməsində asanlıqla tapın</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_notification_inbox_style_summary_text">+%d+</string>
+    <string name="super_sort_pref_title">Mesajların sistemləşdirilməsi</string>
     <string name="super_sort_settings_title">Mesajların sistemləşdirilməsi</string>
     <string name="supersort_conversation_list_empty_text_business_update">Biznes yeniləmələri burada avtomatik görünəcək</string>
     <string name="supersort_conversation_list_empty_text_manage_in_settings">Ayarlarda idarə edin</string>
@@ -1879,6 +2039,11 @@ Hamısı filtrində bütün söhbətləri tapın"</string>
     <string name="survey_user_agent">İstifadəçi Agenti</string>
     <string name="survey_very_dissatisfied">Çox narazı</string>
     <string name="survey_very_satisfied">Çox razı</string>
+    <string name="swipe_actions">Sürüşdürmə əməliyyatları</string>
+    <string name="swipe_actions_summary">Arxivləyin və ya Silin, sağa və ya sola, seçimini edin, yaxud sürüşdürməni deaktiv edin</string>
+    <string name="swipe_customize">Fərdiləşdirin</string>
+    <string name="swipe_left">Sola sürüşdürün</string>
+    <string name="swipe_right">Sağa sürüşdürün</string>
     <string name="switcher_no_phone_number">SIM kart tapılmadı</string>
     <string name="switcher_pair_device_title_text">Qoşulmuş telefonla mesaj göndərin</string>
     <string name="switcher_positive_button_text">Davam edin</string>
@@ -1886,6 +2051,7 @@ Hamısı filtrində bütün söhbətləri tapın"</string>
     <string name="switcher_use_device_sim_number">(%s)</string>
     <string name="switcher_use_device_sim_title_text">Bu cihazın SİM-i ilə mesaj göndərin</string>
     <string name="syncing_with_device_foreground_notification_text">Mesajlar cihazınızla sinxronlaşır</string>
+    <string name="system_picker_button_label">Qovluqlar</string>
     <string name="t_mobile_tos_pref_link_text">Şərtlər və Müddəalar</string>
     <string name="t_mobile_tos_pref_text">T-Mobile tərəfindən dəstəklənən Google çat funksiyaları. Baxın: %1$s.</string>
     <string name="t_mobile_tos_pref_url">https://www.t-mobile.com/responsibility/legal/terms-and-conditions</string>
@@ -1910,6 +2076,7 @@ Ayarlar > %1$s"</string>
     <string name="theme_setting_dialog_options_light_mode">İşıqlı</string>
     <string name="theme_setting_dialog_options_system_default_mode">Sistem defoltu</string>
     <string name="theme_setting_dialog_title">Tema seçin</string>
+    <string name="tiktok_account_login_failure">Seçilmiş hesaba daxil olmaq alınmadı.</string>
     <string name="tiktok_add_account_error">Hesab əlavə etmək alınmadı, yenidən cəhd edin.</string>
     <string name="tiktok_fix_it">Düzəldin</string>
     <string name="tiktok_load_account_failure">Hesabları yükləmək alınmadı.</string>
@@ -1935,6 +2102,18 @@ Bu adı yalnız Siz görə bilərsiniz"</string>
     <string name="tombstone_self_removed_from_group_referrer_known">%1$s Sizi bu qrupdan sildi</string>
     <string name="tombstone_self_removing_others_from_group">%1$s adlı iştirakçını bu qrupdan sildiniz</string>
     <string name="tombstone_show_link_previews">Link önizləmələri aktivdir.&lt;br />Ətraflı məlumat əldə edin və ya &lt;u>Ayarlardan&lt;/u> deaktiv edin.</string>
+    <string name="tombstone_show_link_previews_disabled">Keçid önizləmələri deaktivdir.&lt;br />Ətraflı məlumat əldə edin və ya &lt;u>Ayarlarda&lt;/u> aktiv edin.</string>
+    <string name="tooltip_content">"Google Hesabınız söhbətlərə
+daxil olmadan Mesajda Google Foto keçidi
+paylaşmaq kimi
+funksiyaları dəstəkləyir.
+
+Mesajlar hələ də
+telefon nömrənizdən göndərilir. Ətraflı məlumat"</string>
+    <string name="tooltip_content_with_line_break_fix">"Google Hesabınız söhbətlərinizə giriş etmədən Mesajda Google Foto keçid paylaşımı kimi funksiyaları dəstəkləyir.
+
+Mesajlar hələ də telefon nömrənizdən göndərilir. Ətraflı məlumat"</string>
+    <string name="tooltip_link">Ətraflı məlumat</string>
     <string name="top_contacts_grid_name">★</string>
     <string name="top_contacts_title">Top kontaktlar</string>
     <string name="transaction_content_description">Bu mesaj tranzaksiya kateqoriyasındadır</string>
@@ -1944,6 +2123,7 @@ Bu adı yalnız Siz görə bilərsiniz"</string>
     <string name="unblock_and_report_not_spam_snackbar_message">%1$s blokdan çıxarıldı və \"spam deyil\" kimi bildirildi</string>
     <string name="unblock_banner_body">Bu söhbəti Arxivdən çıxarmaq və yenidən mesajlar əldə etmək üçün %s əlaqə vasitəsini blokdan çıxarın</string>
     <string name="unblock_banner_body_spam_folder">Bu söhbəti \"Spam və blok edilənlər\" bölməsindən çıxarmaq və yenidən mesajlar almaq üçün %s nömrəsini blokdan çıxarın</string>
+    <string name="unblock_banner_body_v2">Unblock to receive messages from this sender</string>
     <string name="unblock_banner_description">@string/banner_description</string>
     <string name="unblock_banner_positive_button">Blokdan çıxarın</string>
     <string name="unblock_banner_title">Bloklanıb</string>
@@ -1979,6 +2159,7 @@ Telefon nömrələri yalnız nasazlıqların aradan qaldırılması və probleml
     <string name="unsent">Göndərilmədi</string>
     <string name="unspam_banner_body">Bu söhbəti Arxivdən çıxarmaq və yenidən bildirişlər əldə etmək üçün %s əlaqə vasitəsini \"spam deyil\" kimi bildirin</string>
     <string name="unspam_banner_body_spam_folder">Bu söhbəti \"Spam və blok edilənlər\" bölməsindən çıxarmaq və yenidən bildirişlər almaq üçün %s nömrəsini \"spam deyil\" kimi bildirin</string>
+    <string name="unspam_banner_body_v2">Report as not spam to receive messages from this sender</string>
     <string name="unspam_banner_description">@string/banner_description</string>
     <string name="unspam_banner_end_button">Spam deyil</string>
     <string name="unspam_banner_title">Spam olaraq bildirildi</string>
@@ -1994,6 +2175,8 @@ Telefon nömrələri yalnız nasazlıqların aradan qaldırılması və probleml
     <string name="unsupported_file_save_alert">Qoşma Endirmələrdə yadda saxlansın?</string>
     <string name="unsupported_file_save_cancel">Ləğv edin</string>
     <string name="unverified_sms_banner_description">@string/banner_description</string>
+    <string name="unwanted_messages_toolstone_link">blok edin və bildirin</string>
+    <string name="unwanted_messages_toolstone_text">İstənməyən mesajları %1$s</string>
     <string name="upcoming_reminder">Növbəti xatırlatma</string>
     <string name="update_content_description">Bu mesaj yeniləmə kateqoriyasındadır</string>
     <string name="update_donation_banner_body_v2">Kimliyiniz məxfi qalacaq. İstədiyiniz mesaj kontentini silə bilərsiniz</string>
@@ -2036,6 +2219,7 @@ Telefon nömrələri yalnız nasazlıqların aradan qaldırılması və probleml
     <string name="video_attachment_content_description">Video qoşma</string>
     <string name="video_attachment_limit_exceeded_when_sending">Hər mesaja yalnız bir video yükləyə bilərsiniz. Əlavə videoları silin və yenidən cəhd edin.</string>
     <string name="video_compress_info">Operator MMS limitlərinə görə alıcıya aşağı keyfiyyətli video göstəriləcək</string>
+    <string name="video_format_type">video</string>
     <string name="video_media_failure">Video yaratmaq üçün daha uzun müddət qeydə alın</string>
     <string name="video_taken">Video çəkildi</string>
     <string name="video_thumbnail_view_play_button_content_description">Videonu oxut</string>
@@ -2082,18 +2266,20 @@ Bu mesajın kontentini nəzərə alaraq hansının doğru olduğuna qərar verin
     <string name="websiteTypeWork">İş</string>
     <string name="welcome_agree_button_text">Razıyam</string>
     <string name="welcome_chat_features_decline">Mesaj tətbiqini çat funksiyaları olmadan istifadə edin</string>
-    <string name="welcome_chat_features_learn_more">Çat funksiyaları haqqında ətraflı məlumat əldə edin</string>
     <string name="welcome_chat_features_legal">Söhbət funksiyalarından istifadə etməklə %1$s və %2$s ilə razılaşırsınız. Google vaxtaşırı operatorla (SMS xərcləri tətbiq edilə bilər) nömrəni doğrulayacaq.</string>
+    <string name="welcome_chat_features_text">"· Wi-Fi və ya mobil data vasitəsilə göndərin
+· Fayllarınızı və medianızı paylaşın
+· Mesajlarınızı məxfi saxlayın"</string>
     <string name="welcome_chat_features_title">Wi-Fi və ya data üzərindən daha sürətli, zəngin, yüksək keyfiyyətli çat</string>
+    <string name="welcome_chat_features_title_experiment_0">Mesaj ilə daha çox funksiyadan yararlanın</string>
+    <string name="welcome_chat_features_title_experiment_1">Mesaj ilə çat funksiyalarından yararlanın</string>
     <string name="welcome_consent_button_text">Növbəti</string>
-    <string name="welcome_finish_button_text">Tamamlayın</string>
     <string name="welcome_smarts_notice_description">"Google Assistent və Məntiqli Cavab kimi funksiyalar ilə söhbətlərinizi asanlaşdırın. Söhbətlər cihazınızda təhlükəsiz saxlanır.
 %1$s və %2$s"</string>
     <string name="welcome_smarts_notice_title">Faydalı smart funksiyalar</string>
     <string name="welcome_spam_description">"Spamın qarşısını almaq üçün Google kimliyinizi və nömrənizi müəyyənləşdirmədən kontaktınızda olmayan telefon nömrələrindən istifadə edir.
 %1$s, %2$s"</string>
     <string name="welcome_spam_title">Spamdan qorunma</string>
-    <string name="welcome_splash_tagline">Google tərəfindən dəstəklənən sadə və ağıllı mesaj tətbiqi</string>
     <string name="widget_reply_exit_content_description">Geri</string>
     <string name="widget_reply_open">MESAJI AÇIN</string>
     <string name="widget_reply_to">%s üçün cavab</string>
@@ -2101,9 +2287,14 @@ Bu mesajın kontentini nəzərə alaraq hansının doğru olduğuna qərar verin
     <string name="work_directory_display_name">İş Profili kontaktları</string>
     <string name="xms_send_mode_pref_title">Yalnız SMS və MMS mesaj göndərin</string>
     <string name="you_added_participant">Bu qrupa %s əlavə etdiniz</string>
+    <string name="you_added_participant_with_learn_more">Bu qrupa %1$s adlı iştirakçıları əlavə etdiniz. %2$s</string>
+    <string name="you_created_encrypted_rcs_group">%1$s ilə bu qrup çatını yaratdınız. %2$s</string>
     <string name="you_created_mms_group">%s ilə MMS qrupu yaratdınız</string>
     <string name="you_created_rcs_group">%s ilə bu qrup çatını yaratdınız</string>
     <string name="you_left_group">Qrupu tərk etdiniz</string>
+    <string name="youtube_dismissal_prompt">Bağlamaq üçün toxunun və sürüşdürün</string>
+    <string name="youtube_drag_prompt">Pleyeri hərəkət etdirmək üçün sürüşdürün</string>
+    <string name="youtube_pip_playing">Video hazırda göstərilir</string>
     <string name="zero_connectivity_failure_announcement">Mesaj göndərilmədi</string>
     <string name="zero_state_search_action_copy">Kopyalayın</string>
     <string name="zero_state_search_action_jump_to_chat">Söhbətdə baxın</string>
@@ -2123,6 +2314,7 @@ Bu mesajın kontentini nəzərə alaraq hansının doğru olduğuna qərar verin
     <string name="zero_state_search_details_image_accessibility">%1$s tərəfindən %2$s tarixində göndərilən şəkil</string>
     <string name="zero_state_search_details_video_accessibility">%1$s tərəfindən %2$s tarixində göndərilən video</string>
     <string name="zero_state_search_dropdown_free_text">\"%s\" üçün axtarış edin</string>
+    <string name="zero_state_search_empty_results_text">Ulduzlu mesajlarınız, media və bu söhbətdən olan keçidlər burada görünəcək</string>
     <string name="zero_state_search_images">Təsvirlər</string>
     <string name="zero_state_search_link_copied">Link kopyalandı</string>
     <string name="zero_state_search_links">Linklər</string>

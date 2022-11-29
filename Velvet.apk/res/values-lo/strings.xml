@@ -87,15 +87,21 @@
     <string name="ar_permissions_screen_title">Get a better look</string>
     <string name="ar_session_error_dialog_body">An error has occurred when trying to view this object in your space.</string>
     <string name="ar_session_error_dialog_title">Unable to view in your space</string>
-    <string name="assistant_aa_loyalty_card_title">Loyalty Card</string>
+    <string name="assistant_aa_loyalty_card_title">ບັດສະມາຊິກ</string>
     <string name="assistant_accessibility_voice_typing_stopped">ຢຸດການພິມດ້ວຍສຽງແລ້ວ</string>
     <string name="assistant_add_item_app_control_suggestion">ເພີ່ມ</string>
-    <string name="assistant_ama_media_only_chip">Listen</string>
-    <string name="assistant_at_store">At Store</string>
-    <string name="assistant_calendar_event_during">%1$s now</string>
-    <string name="assistant_calendar_event_pre">%1$s in %2$s</string>
-    <string name="assistant_calendar_event_pre_static">%1$s at %2$s</string>
+    <string name="assistant_ama_media_only_chip">ຟັງ</string>
+    <string name="assistant_at_store">ຢູ່ທີ່ຮ້ານ</string>
+    <string name="assistant_avatar_icon_description">ໄອຄອນຮູບແທນຕົວຂອງຜູ້ໃຊ້</string>
+    <string name="assistant_calendar_event_during">%1$s ຕອນນີ້</string>
+    <string name="assistant_calendar_event_pre">%1$s ໃນ %2$s</string>
+    <string name="assistant_calendar_event_pre_static">%1$s ເວລາ %2$s</string>
     <string name="assistant_calendar_event_time_range">%1$s – %2$s</string>
+    <string name="assistant_canvas_logo_view_description">ຊອກຫາດ້ວຍສຽງ</string>
+    <string name="assistant_canvas_opa_keyboard_indicator_content_description">ໂໝດພິມ</string>
+    <string name="assistant_canvas_opa_send_button_content_description">ສົ່ງ</string>
+    <string name="assistant_canvas_opa_text_input_hint">ພິມຂໍ້ຄວາມ</string>
+    <string name="assistant_canvas_transcription_bar_description">ແຖບການຖອດຖ່າຍຂໍ້ຄວາມ</string>
     <string name="assistant_create_doc_app_control_suggestion">ສ້າງເອກະສານ</string>
     <string name="assistant_custodio_activity_menu_help">ຊ່ວຍເຫຼືອ</string>
     <string name="assistant_custodio_activity_menu_send_feedback">ສົ່ງຄຳຕິຊົມ</string>
@@ -325,6 +331,7 @@
     <string name="assistant_custodio_youtube_media_provider_link">ການຕັ້ງຄ່າເນື້ອຫາ</string>
     <string name="assistant_custodio_youtube_media_provider_name">YouTube</string>
     <string name="assistant_dictation_ineligible_aiai_version">ເພື່ອໃຊ້ການພິມດ້ວຍສຽງຂອງຜູ້ຊ່ວຍ, ອັບເດດແອັບ Android System Intelligence ຂອງທ່ານ Google Play. &lt;a href=\"https://play.google.com/store/apps/details?id=com.google.android.as\">ອັບເດດ&lt;/a> &lt;br> &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#update_app\">ສຶກສາເພີ່ມເຕີມ&lt;/a></string>
+    <string name="assistant_dictation_ineligible_android_old_version">ເພື່ອໃຊ້ການພິມດ້ວຍສຽງຂອງຜູ້ຊ່ວຍ, ໃຫ້ອັບເດດລະບົບ Android ຂອງທ່ານ. &lt;a href=\"intent:#Intent;action=android.settings.SYSTEM_UPDATE_SETTINGS;end\">ອັບເດດ&lt;/a> &lt;br> &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#update_app\">ສຶກສາເພີ່ມເຕີມ&lt;/a></string>
     <string name="assistant_dictation_ineligible_download_needed">ການພິມດ້ວຍສຽງຂອງຜູ້ຊ່ວຍຈຳເປັນຕ້ອງອັບເດດ. ເຊື່ອມຕໍ່ກັບ Wi-Fi ເພື່ອດາວໂຫຼດໂດຍອັດຕະໂນມັດ. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#update_to_use\">ສຶກສາເພີ່ມເຕີມ&lt;/a></string>
     <string name="assistant_dictation_ineligible_generic">ຕອນນີ້ທ່ານບໍ່ສາມາດໃຊ້ການພິມດ້ວຍສຽງຂອງຜູ້ຊ່ວຍໄດ້. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#fix_issues_assistant_voice_typing\">ສຶກສາເພີ່ມເຕີມ&lt;/a></string>
     <string name="assistant_dictation_ineligible_locale_mismatch">ເພື່ອໃຊ້ການພິມດ້ວຍສຽງຂອງຜູ້ຊ່ວຍ, ພາສາ Gboard ຫຼັກ ແລະ ພາສາອຸປະກອນຂອງທ່ານຈະຕ້ອງຄືກັນ. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#device_language\">ສຶກສາເພີ່ມເຕີມ&lt;/a></string>
@@ -333,29 +340,25 @@
     <string name="assistant_dictation_ineligible_unsupported_system_language">ບໍ່ສາມາດໃຊ້ໄດ້ເປັນພາສາອຸປະກອນປັດຈຸບັນຂອງທ່ານ. ປ່ຽນພາສາອຸປະກອນຂອງທ່ານໃຫ້ກົງກັບພາສາ Gboard ຂອງທ່ານເພື່ອໃຊ້ສິ່ງນີ້. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#device_language\">ສຶກສາເພີ່ມເຕີມ&lt;/a></string>
     <string name="assistant_dictation_ineligible_work_profile">ການພິມດ້ວຍສຽງຂອງຜູ້ຊ່ວຍບໍ່ສາມາດໃຊ້ໄດ້ສຳລັບແອັບໃນ​ໂປຣ​ໄຟລ໌​ບ່ອນ​ເຮັດ​ວຽກໃນປັດຈຸບັນນີ້. ສະຫຼັບເປັນແອັບສ່ວນຕົວຂອງທ່ານເພື່ອໃຊ້ສິ່ງນີ້. &lt;br>&lt;a href=\"https://support.google.com/gboard/answer/11197787#not_available_work_profile\">ສຶກສາເພີ່ມເຕີມ&lt;/a></string>
     <string name="assistant_edit_app_control_suggestion">ແກ້ໄຂ</string>
-    <string name="assistant_flight_chip_boarding_pass">Boarding Pass</string>
-    <string name="assistant_flight_chip_check_in">Check in for your flight</string>
-    <string name="assistant_flight_chip_more_info">More Flight Info</string>
-    <string name="assistant_flight_departure_gate_info">Gate %1$s</string>
-    <string name="assistant_flight_departure_info">%1$s to %2$s departs in %3$s</string>
-    <string name="assistant_flight_departure_info_now">%1$s to %2$s departs now</string>
-    <string name="assistant_flight_departure_info_static_time">%1$s to %2$s departs at %3$s</string>
-    <string name="assistant_flight_departure_info_static_without_time">%1$s to %2$s</string>
-    <string name="assistant_flight_departure_terminal_info">Terminal %1$s</string>
-    <string name="assistant_flight_departure_time_delayed_info">Departs %1$s (<strike>%2$s</strike>)</string>
-    <string name="assistant_flight_departure_time_info">Departs %1$s</string>
-    <string name="assistant_flight_seat_info">Seat %1$s</string>
-    <string name="assistant_flight_to_delayed_info">Delayed: Flight to %1$s</string>
-    <string name="assistant_flight_to_info">Flight to %1$s</string>
+    <string name="assistant_flight_chip_boarding_pass">ບັດບ່ອນນັ່ງ</string>
+    <string name="assistant_flight_chip_check_in">ເຊັກອິນສຳລັບຖ້ຽວບິນຂອງທ່ານ</string>
+    <string name="assistant_flight_chip_more_info">ຂໍ້ມູນເພີ່ມເຕີມກ່ຽວກັບຖ້ຽວບິນ</string>
+    <string name="assistant_flight_departure_gate_info">ປະຕູ %1$s</string>
+    <string name="assistant_flight_departure_info">%1$s ໄປ %2$s ອອກເດີນທາງໃນເວລາ %3$s</string>
+    <string name="assistant_flight_departure_info_now">%1$s ໄປ %2$s ອອກເດີນທາງຕອນນີ້</string>
+    <string name="assistant_flight_departure_info_static_time">%1$s ໄປ %2$s ອອກເດີນທາງໃນເວລາ %3$s</string>
+    <string name="assistant_flight_departure_info_static_without_time">%1$s ໄປ %2$s</string>
+    <string name="assistant_flight_departure_terminal_info">ປາຍທາງ %1$s</string>
+    <string name="assistant_flight_departure_time_delayed_info">ອອກເດີນທາງເວລາ %1$s (<strike>%2$s</strike>)</string>
+    <string name="assistant_flight_departure_time_info">ອອກເດີນທາງເວລາ %1$s</string>
+    <string name="assistant_flight_seat_info">ບ່ອນນັ່ງ %1$s</string>
+    <string name="assistant_flight_to_delayed_info">ຫຼ້າຊ້າ: ຖ້ຽວບິນໄປ %1$s</string>
+    <string name="assistant_flight_to_info">ຖ້ຽວບິນໄປ %1$s</string>
     <string name="assistant_grocery_delivery_completed">%1$s order delivered</string>
-    <string name="assistant_grocery_delivery_during">%1$s delivery now</string>
-    <string name="assistant_grocery_delivery_pre">%1$s delivery in %2$s</string>
-    <string name="assistant_grocery_delivery_pre_static">%1$s delivery at %2$s</string>
+    <string name="assistant_grocery_delivery_scheduled">%1$s delivery scheduled</string>
     <string name="assistant_grocery_pickup_completed">%1$s order picked up</string>
-    <string name="assistant_grocery_pickup_during">%1$s pickup now</string>
-    <string name="assistant_grocery_pickup_pre">%1$s pickup in %2$s</string>
-    <string name="assistant_grocery_pickup_pre_static">%1$s pickup at %2$s</string>
-    <string name="assistant_grocery_pickup_ready">%1$s pickup now</string>
+    <string name="assistant_grocery_pickup_ready">%1$s order ready for pickup</string>
+    <string name="assistant_grocery_pickup_scheduled">%1$s pickup scheduled</string>
     <string name="assistant_grocery_time_range">%1$s – %2$s</string>
     <string name="assistant_guacamole_closed_popup_pill_content_description">ເວົ້າ “%1$s”. ແຕະສອງເທື່ອໃສ່ເມັດຢາເພື່ອເບິ່ງຂໍ້ມູນເພີ່ມເຕີມ.</string>
     <string name="assistant_guacamole_opened_popup_pill_content_description">ເວົ້າ “%1$s”. ແຕະສອງເທື່ອໃສ່ເມັດຢາເພື່ອເບິ່ງຂໍ້ມູນໜ້ອຍລົງ.</string>
@@ -404,6 +407,9 @@
     <string name="assistant_keyboard_first_one_text">ລາຍການທຳອິດ</string>
     <string name="assistant_keyboard_firstrun_text">&lt;linkable>ຈັດການການຕັ້ງຄ່າ&lt;/linkable></string>
     <string name="assistant_keyboard_icon_label">ແປ້ນພິມ</string>
+    <string name="assistant_keyboard_input_clear_button_content_description">Click to clear text input</string>
+    <string name="assistant_keyboard_input_mic_button_content_description">Click the mic icon to start voice query</string>
+    <string name="assistant_keyboard_input_text_hint">Type a text input here</string>
     <string name="assistant_keyboard_learning_center_category_compose">ພິມ ແລະ ສົ່ງ</string>
     <string name="assistant_keyboard_learning_center_category_emojis">ເພີ່ມອີໂມຈິ</string>
     <string name="assistant_keyboard_learning_center_category_forms">ແບບຟອມ ແລະ ອີເມວ</string>
@@ -487,11 +493,13 @@
     <string name="assistant_keyboard_sticky_mic_education_tip_text">ແຕະສອງເທື່ອເພື່ອເປີດໄມໄວ້&lt;br>ຈົນກວ່າທ່ານປິດແປ້ນພິມ</string>
     <string name="assistant_keyboard_stop_button_description">ຢຸດການປ້ອນຂໍ້ມູນດ້ວຍສຽງ</string>
     <string name="assistant_keyboard_stop_text">ຢຸດ</string>
+    <string name="assistant_keyboard_suggestion_query_builder_button_content_description">Click to edit in input box</string>
     <string name="assistant_keyboard_undo_button_description">ຍົກເລີກ</string>
     <string name="assistant_keyboard_undo_text">ຍົກເລີກ</string>
     <string name="assistant_keyboard_voice_command_not_supported">ຄຳສັ່ງບໍ່ສາມາດໃຊ້ໄດ້ໃນແອັບນີ້</string>
     <string name="assistant_keyboard_voice_corrections_tip_text">ເວົ້າຄຳທີ່ທ່ານຕ້ອງການ&lt;br>ປ່ຽນແທນຄຳທີ່ເລືອກ</string>
     <string name="assistant_learning_center_data_error">Sorry, something went wrong while loading data.</string>
+    <string name="assistant_learning_center_detailed_page_data_error">Sorry, something went wrong while loading data.</string>
     <string name="assistant_long_press_power_action_button_text">ເຂົ້າໃຈແລ້ວ</string>
     <string name="assistant_long_press_power_action_description">ກຳລັງປິດເຄື່ອງ</string>
     <string name="assistant_long_press_power_button_1">ປຸ່ມເປີດປິດ</string>
@@ -531,7 +539,7 @@
     <string name="assistant_my_actions_unpin_confirmation_dialog_title">ລະວັງ!</string>
     <string name="assistant_my_actions_unpinned_action_row_add_button_content_description">ເພີ່ມຄຳສັ່ງນີ້</string>
     <string name="assistant_my_actions_unpinned_actions_header">ຄຳສັ່ງທີ່ທ່ານອາດຈະມັກ</string>
-    <string name="assistant_my_flights_query">My Flights</string>
+    <string name="assistant_my_flights_query">ຖ້ຽວບິນຂອງຂ້ອຍ</string>
     <string name="assistant_preloaded_fre_homescreen_suggestion_1">ຕັ້ງຄ່າໂມງນັບຖອຍຫຼັງເປັນ 2 ນາທີ</string>
     <string name="assistant_preloaded_fre_homescreen_suggestion_11">ຕັ້ງຄ່າການແຈ້ງເຕືອນ</string>
     <string name="assistant_preloaded_fre_homescreen_suggestion_12">ເປີດ Gmail</string>
@@ -591,21 +599,38 @@
     <string name="assistant_suw_intro_screen_action_button_text">ຂ້ອຍເຫັນດີ</string>
     <string name="assistant_suw_intro_screen_cancel_button_text">ຂ້າມ</string>
     <string name="assistant_suw_intro_screen_default_x_google_hotword">Ok Google</string>
+    <string name="assistant_suw_intro_screen_hint1_for_unicorn_vm3">{GENDER,select, male{“%1$s” ຍັງຈຳເປັນຕ້ອງໃຊ້ Voice Match ເພື່ອໃຫ້ {GIVEN_NAME}’s ຜູ້ຊ່ວຍສາມາດຈຳແນກລາວໄດ້.}female{“%1$s” ຍັງຈຳເປັນໃຊ້ Voice Match ເພື່ອໃຫ້ {GIVEN_NAME}’s ຜູ້ຊ່ວຍສາມາດຈຳແນກລາວໄດ້.}other{“%1$s” ຍັງຈຳເປັນຕ້ອງໃຊ້ Voice Match ເພື່ອໃຫ້ {GIVEN_NAME}’s ຜູ້ຊ່ວຍສາມາດຈຳແນກເຂົາເຈົ້າໄດ້.}}</string>
+    <string name="assistant_suw_intro_screen_hint1_vm3">“%1$s” ຍັງຈຳເປັນຕ້ອງໃຊ້ Voice Match ເພື່ອໃຫ້ຜູ້ຊ່ວຍຂອງທ່ານສາມາດຈຳແນກທ່ານໄດ້.</string>
+    <string name="assistant_suw_intro_screen_hint2_for_unicorn_vm3">ຜູ້ຊ່ວຍອາດຈະເປີດນຳໃຊ້ເມື່ອ %1$s ບໍ່ໄດ້ຕັ້ງໃຈ ເຊັ່ນ: ເມື່ອມີສຽງລົບກວນທີ່ຄ້າຍຄືກັບ “%2$s.”</string>
+    <string name="assistant_suw_intro_screen_hint2_vm3">ຜູ້ຊ່ວຍອາດຈະເປີດນຳໃຊ້ເມື່ອທ່ານບໍ່ໄດ້ຕັ້ງໃຈ ເຊັ່ນ: ເມື່ອມີສຽງລົບກວນທີ່ຄ້າຍຄືກັບ “%1$s.”</string>
+    <string name="assistant_suw_intro_screen_hint3_for_unicorn_vm3">ທ່ານສາມາດປິດ “%1$s” ໃນການຕັ້ງຄ່າຜູ້ຊ່ວຍຂອງ %2$s.</string>
+    <string name="assistant_suw_intro_screen_hint3_vm3">ທ່ານສາມາດປິດ “%1$s” ໃນການຕັ້ງຄ່າຜູ້ຊ່ວຍ.</string>
     <string name="assistant_suw_intro_screen_item_summary_1">“ສະພາບອາກາດໃນວັນທ້າຍອາທິດນີ້ເປັນແນວໃດ?“</string>
+    <string name="assistant_suw_intro_screen_item_summary_1_for_unicorn">“ຂ້ອຍຈຳເປັນຕ້ອງໃຊ້ຄັນຮົ່ມບໍ?”</string>
     <string name="assistant_suw_intro_screen_item_summary_2">“ຮ້ານກາເຟໃກ້ສຸດຢູ່ໃສ?“</string>
+    <string name="assistant_suw_intro_screen_item_summary_2_for_unicorn">“ຮິບໂປຮ້ອງສຽງແນວໃດ?”</string>
     <string name="assistant_suw_intro_screen_item_summary_3">“ຕັ້ງໂມງປຸກເປັນ 5:00 ໂມງເຊົ້າມື້ອື່ນ“.</string>
+    <string name="assistant_suw_intro_screen_item_summary_3_for_unicorn">“ຕັ້ງໂມງຈັບເວລາເຮັດວຽກບ້ານ 20 ນາທີ.”</string>
     <string name="assistant_suw_intro_screen_item_title_1">ຖາມຄໍາຖາມ</string>
     <string name="assistant_suw_intro_screen_item_title_2">ຂໍເສັ້ນທາງ</string>
+    <string name="assistant_suw_intro_screen_item_title_2_for_unicorn">ສຶກສາສິ່ງໃໝ່</string>
     <string name="assistant_suw_intro_screen_item_title_3">ເຮັດສິ່ງຕ່າງໆໃຫ້ແລ້ວ</string>
     <string name="assistant_suw_intro_screen_subtitle_v2">ຖ້າທ່ານເຫັນດີ, ຜູ້ຊ່ວຍ Google ຈະລໍຖ້າໃນໂໝດສະແຕນບາຍເພື່ອກວດຫາ “%1$s”.</string>
+    <string name="assistant_suw_intro_screen_subtitle_v2_for_unicorn_vm3">ຖ້າທ່ານເຫັນດີ, ຜູ້ຊ່ວຍ Google ຈະລໍຖ້າໃນໂໝດສະແຕນບາຍເພື່ອກວດຫາເມື່ອ %1$s ເວົ້າວ່າ “%2$s.”</string>
     <string name="assistant_suw_intro_screen_title">ເຂົ້າເຖິງຜູ້ຊ່ວຍຂອງທ່ານດ້ວຍ “%1$s”</string>
     <string name="assistant_suw_intro_screen_title_for_unicorn">ອະນຸຍາດໃຫ້ %1$s ເຂົ້າເຖິງຜູ້ຊ່ວຍ Google ດ້ວຍ “%2$s”</string>
-    <string name="assistant_suw_intro_screen_with_ww_hint">ທ່ານສາມາດອັບເດດການເລືອກນີ້ໄດ້ໃນການຕັ້ງຄ່າຜູ້ຊ່ວຍ.</string>
+    <string name="assistant_suw_intro_screen_title_for_unicorn_vm3">ອະນຸຍາດໃຫ້ %1$s ລົມກັບ Google ແບບແຮນຟຣີ</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint2_for_unicorn_vm3">ຜູ້ຊ່ວຍອາດຈະເປີດນຳໃຊ້ເມື່ອ %1$s ບໍ່ໄດ້ຕັ້ງໃຈ ເຊັ່ນ: ເມື່ອມີສຽງລົບກວນທີ່ຄ້າຍຄືກັບ “%2$s” ຫຼື ວະລີດ່ວນ.</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint2_vm3">ຜູ້ຊ່ວຍອາດຈະເປີດນຳໃຊ້ເມື່ອທ່ານບໍ່ໄດ້ຕັ້ງໃຈ ເຊັ່ນ: ເມື່ອມີສຽງລົບກວນທີ່ຄ້າຍຄືກັບ “%1$s” ຫຼື ວະລີດ່ວນ.</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint3_for_unicorn_vm3">ທ່ານສາມາດປິດ “%1$s” ແລະ ວະລີດ່ວນໃນການຕັ້ງຄ່າຜູ້ຊ່ວຍຂອງ %2$s.</string>
+    <string name="assistant_suw_intro_screen_with_ww_hint3_vm3">ທ່ານສາມາດປິດ “%1$s” ແລະ ວະລີດ່ວນໃນການຕັ້ງຄ່າຜູ້ຊ່ວຍ.</string>
     <string name="assistant_suw_intro_screen_with_ww_item_summary_1">ຖາມຄຳຖາມ ແລະ ຂໍຄວາມຊ່ວຍເຫຼືອກ່ຽວກັບໜ້າວຽກຕ່າງໆ.</string>
     <string name="assistant_suw_intro_screen_with_ww_item_summary_2">ລອງຄຳເວົ້າ ເຊັ່ນ: “stop“ ຫຼື “snooze“ (ຕົວຢ່າງ: ເມື່ອໂມງປຸກດັງຢູ່).</string>
+    <string name="assistant_suw_intro_screen_with_ww_item_summary_2_for_unicorn_vm3">%1$s ສາມາດເວົ້າຄຳເວົ້າ ເຊັ່ນ: “ຢຸດ“ ຫຼື “ເລື່ອນໄປກ່ອນ“ (ຕົວຢ່າງ: ເມື່ອໂມງປຸກດັງຢູ່).</string>
     <string name="assistant_suw_intro_screen_with_ww_item_title_1">“%1$s”</string>
     <string name="assistant_suw_intro_screen_with_ww_item_title_2">ຄຳສັ່ງດ່ວນ</string>
     <string name="assistant_suw_intro_screen_with_ww_subtitle">ຖ້າທ່ານເຫັນດີ, ຜູ້ຊ່ວຍ Google ຈະລໍຖ້າໃນໂໝດສະແຕນບາຍເພື່ອກວດຫາ “%1$s” ແລະ ຄຳສັ່ງດ່ວນສະເພາະ.</string>
+    <string name="assistant_suw_intro_screen_with_ww_subtitle_for_unicorn_vm3">ຖ້າທ່ານເຫັນດີ, ຜູ້ຊ່ວຍ Google ຈະລໍຖ້າໃນໂໝດສະແຕນບາຍເພື່ອກວດຫາເມື່ອ %1$s ເວົ້າວ່າ “%2$s” ແລະ ວະລີດ່ວນສັ້ນໆ.</string>
     <string name="assistant_suw_intro_screen_with_ww_title">ໂອ້ລົມກັບ Google ແບບແຮນຟຣີ</string>
     <string name="assistant_suw_loading_screen_title">ກຳລັງກວດສອບ…</string>
     <string name="assistant_suw_more_button_text">ເພີ່ມເຕີ່ມ</string>
@@ -621,11 +646,13 @@
     <string name="assistant_suw_settings_screen_title">ເຂົ້າເຖິງຜູ້ຊ່ວຍຂອງທ່ານໂດຍບໍ່ຕ້ອງປົດລັອກ %1$s ຂອງທ່ານ</string>
     <string name="assistant_suw_settings_screen_title_for_unicorn">{GENDER,select, male{ອະນຸຍາດໃຫ້ {GIVEN_NAME} ເຂົ້າເຖິງຜູ້ຊ່ວຍ Google ໂດຍບໍ່ປົດລັອກ %1$s ຂອງລາວ}female{ອະນຸຍາດໃຫ້ {GIVEN_NAME} ເຂົ້າເຖິງຜູ້ຊ່ວຍ Google ໂດຍບໍ່ປົດລັອກ %1$s ຂອງລາວ}other{ອະນຸຍາດໃຫ້ {GIVEN_NAME} ເຂົ້າເຖິງຜູ້ຊ່ວຍ Google ໂດຍບໍ່ປົດລັອກ %1$s ຂອງເຂົາເຈົ້າ}}</string>
     <string name="assistant_take_note_app_control_suggestion">ຈົດບັນທຶກ</string>
-    <string name="assistant_tap_to_check_in">Tap to check-in</string>
-    <string name="assistant_tomorrow_time">Tomorrow, %1$s</string>
+    <string name="assistant_tap_to_check_in">ແຕະເພື່ອເຊັກອິນ</string>
+    <string name="assistant_tomorrow_time">ມື້ອື່ນ, %1$s</string>
     <string name="assistant_voice_plate_avatar_label">ເປີດການຕັ້ງຄ່າ</string>
     <string name="assistant_voice_plate_greeting_hi_text">ສະບາຍດີ, ມີຫຍັງໃຫ້ຊ່ວຍບໍ?</string>
     <string name="assistant_voice_plate_keyboard_icon_label">ແປ້ນພິມ</string>
+    <string name="assistant_voice_plate_onboarding_oauth_recovery_button">ເຂົ້າສູ່ລະບົບ</string>
+    <string name="assistant_voice_plate_onboarding_oauth_recovery_text">ເຂົ້າສູ່ບັນຊີ Google ຂອງທ່ານອີກເທື່ອໜຶ່ງເພື່ອໃຊ້ຜູ້ຊ່ວຍ</string>
     <string name="assistant_voice_plate_onboarding_oobe_button">ເລີ່ມຕົ້ນ</string>
     <string name="assistant_voice_plate_onboarding_oobe_text">ປົດລັອກຄຸນສົມບັດເພີ່ມເຕີມຂອງຜູ້ຊ່ວຍ</string>
     <string name="assistant_vs_ui_education_tooltip_caption">ເພື່ອສິ້ນສຸດການສົນທະນານີ້ກັບຜູ້ຊ່ວຍຂອງທ່ານ, ກະລຸນາລາກຟອງຂໍ້ຄວາມໄປລຸ່ມສຸດໜ້າຈໍ</string>
@@ -647,7 +674,7 @@
     <string name="assistant_weather_widget_preview_condition">ແດດອອກ</string>
     <string name="assistant_weather_widget_preview_loading">ກຳລັງໂຫຼດ…</string>
     <string name="assistant_weather_widget_preview_location">ຊານຟຣານຊິສໂກ</string>
-    <string name="assistant_yesterday_time">Yesterday, %1$s</string>
+    <string name="assistant_yesterday_time">ມື້ວານນີ້, %1$s</string>
     <string name="assistantactions_alarm_confirmation_card_button_text">View alarms</string>
     <string name="assistantactions_call_confirmation_card_button">Call</string>
     <string name="assistantactions_confirmation_card_cancel_text">Operation canceled</string>
@@ -696,7 +723,6 @@
     <string name="bottom_navigation_collections_label">ຄໍເລັກຊັນ</string>
     <string name="bottom_navigation_drawer_label">ເພີ່ມເຕີມ</string>
     <string name="bottom_navigation_search_label">ຊອກຫາ</string>
-    <string name="bottom_navigation_snapshot_label">ສະແນັບຊັອດ</string>
     <string name="bottom_navigation_spark_label">Discover</string>
     <string name="bottom_navigation_tabs_label">ແຖບ</string>
     <string name="bottomsheet_action_expand_halfway">ຂະຫຍາຍອອກເຄິ່ງໜຶ່ງ</string>
@@ -757,7 +783,9 @@
     <string name="common_google_play_services_update_text">%1$s ຈະບໍ່ສາມາດເຮັດວຽກໄດ້ຈົນກວ່າທ່ານຈະອັບເດດການ​ບໍ​ລິ​ການ Google Play</string>
     <string name="common_google_play_services_update_title">ອັບເດດການ​ບໍ​ລິ​ການ Google Play</string>
     <string name="common_google_play_services_updating_text">%1$s ຈະບໍ່ສາມາດໃຊ້ງານໄດ້ໂດຍທີ່ບໍ່ມີການ​ບໍ​ລິ​ການ Google Play, ເຊິ່ງ​ກຳ​ລັງ​ອັບ​ເດດ​ຢູ່​ໃນ​ປະ​ຈຸ​ບັນ.</string>
+    <string name="common_google_play_services_wear_update_text">ຈຳ​ເປັນ​ຕ້ອງ​ມີ​ກາ​ນ​ບໍ​ລິ​ການ Google Play ເວີ​ຊັນ​ໃໝ່. ມັນ​ຈະ​ອັບ​ເດດ​ຕົວ​ເອງ​ໄວໆ​ນີ້.</string>
     <string name="common_open_on_phone">​ເປີດ​ໃນ​ໂທ​ລະ​ສັບ</string>
+    <string name="comms_center_close_button_description">ປິດໜ້າ</string>
     <string name="confirm_device_credential_password">ໃຊ້ລະຫັດຜ່ານ</string>
     <string name="confirm_not_driving_button">ຂ້ອຍບໍ່ໄດ້ຂັບລົດຢູ່</string>
     <string name="confirm_not_driving_description">ບໍ່ໄດ້ງຂັບຂີ່ບໍ? ອອກຈາກໂໝດຂັບຂີ່ຕອນນີ້</string>
@@ -767,6 +795,8 @@
     <string name="copy">ສຳເນົາ</string>
     <string name="create_folder_with">ສ້າງ​ໂຟ​ລ​ເດີ​ກັບ: %1$s</string>
     <string name="crop_wallpaper">ຕັດພາບພື້ນຫຼັງ</string>
+    <string name="custom_reply_button_string">ຕອບກັບແບບກຳນົດເອງ</string>
+    <string name="day_picker_description">ຕາຕາລາງວັນທີ</string>
     <string name="decline_button_description">ປະຕິເສດສາຍ</string>
     <string name="decline_permissions">Not Now</string>
     <string name="default_error">ຂໍອະໄພ, ມີບາງອັນຜິດພາດ.</string>
@@ -839,6 +869,53 @@
     <string name="experimental_mode_unexpectedly_disconnected_warning">ເຊີບເວີລົ້ມເຫຼວໂດຍບໍ່ຄາດຄິດ. ກະລຸນາປິດແອັບ ແລ້ວລອງໃໝ່ພາຍຫຼັງ.</string>
     <string name="experimental_test_in_progress">ຄວາມສາມາດຂອງອຸປະກອນທົດສອບ…</string>
     <string name="exposed_dropdown_menu_content_description">ສະແດງເມນູເລື່ອນລົງ</string>
+    <string name="fa_alarm_instance_default_label">ບໍ່ໄດ້ຕັ້ງໂມງປຸກ</string>
+    <string name="fa_alarm_instance_filled_bullet">●</string>
+    <string name="fa_alarm_instance_switch_off_label">ໂມງປຸກ %1$s ຖືກປິດແລ້ວ</string>
+    <string name="fa_alarm_instance_switch_on_label">ໂມງປຸກ %1$s ຖືກເປີດແລ້ວ</string>
+    <string name="fa_audio_recorder_audio_recording_text">ກຳລັງບັນທຶກ…</string>
+    <string name="fa_audio_recorder_default_play_record_time_text">00:00</string>
+    <string name="fa_audio_recorder_delete_audio_message">ລຶບຂໍ້ຄວາມສຽງອອກ</string>
+    <string name="fa_audio_recorder_pause_audio_playback">ຢຸດຊົ່ວຄາວ</string>
+    <string name="fa_audio_recorder_playback_audio">ການຫຼິ້ນ</string>
+    <string name="fa_audio_recorder_recording_audio">ການບັນທຶກສຽງ</string>
+    <string name="fa_audio_recorder_stop_recording_audio">ຢຸດການບັນທຶກ</string>
+    <string name="fa_cancel_button_description">ປຸ່ມຍົກເລີກ</string>
+    <string name="fa_confirm_button_description">ປຸ່ມຢືນຢັນ</string>
+    <string name="fa_contact_selection_contact_icon_description">ໄອຄອນລາຍຊື່ຜູ້ຕິດຕໍ່</string>
+    <string name="fa_contact_selection_pick_another_contact_view_hint">ເລືອກລາຍຊື່ຜູ້ຕິດຕໍ່ອື່ນ</string>
+    <string name="fa_contact_selection_view_hint">ເລືອກລາຍຊື່</string>
+    <string name="fa_device_setting_toggle_icon_description">ໄອຄອນການຕັ້ງຄ່າ</string>
+    <string name="fa_device_setting_toggle_off_description">%1$s ປິດຢູ່</string>
+    <string name="fa_device_setting_toggle_on_description">%1$s ເປີດຢູ່</string>
+    <string name="fa_duration_hours_minutes_seconds">%1$02dຊມ %2$02dນທ %3$02dວິ</string>
+    <string name="fa_duration_minutes_seconds">%1$02dນທ %2$02dວິ</string>
+    <string name="fa_duration_picker_confirm_button_text">ແລ້ວໆ</string>
+    <string name="fa_duration_picker_hour_unit_label">ຊົ່ວໂມງ</string>
+    <string name="fa_duration_picker_minute_unit_label">ນາທີ</string>
+    <string name="fa_duration_picker_second_unit_label">ວິນາທີ</string>
+    <string name="fa_duration_picker_title">ກຳນົດເວລາ</string>
+    <string name="fa_duration_seconds">%1$02dວິ</string>
+    <string name="fa_empty_time">--:--</string>
+    <string name="fa_family_info_broadcast_settings_button">ປຸ່ມການຕັ້ງຄ່າອອກອາກາດ</string>
+    <string name="fa_family_info_collapse_button">ຫຍໍ້ລົງປຸ່ມສະແດງຄົນ</string>
+    <string name="fa_family_info_uncollapse_button">ຂະຫຍາຍປຸ່ມສະແດງຄົນ</string>
+    <string name="fa_filled_bullet">●</string>
+    <string name="fa_hour_unit_label">ຊມ</string>
+    <string name="fa_list_item_picker_title">ກະລຸນາເລືອກໜຶ່ງຕົວເລືອກ</string>
+    <string name="fa_minute_unit_label">ນທ</string>
+    <string name="fa_playback_audio">ການຫຼິ້ນ</string>
+    <string name="fa_recurrence_custom">ກຳນົດເອງ (ບໍ່ສາມາດປັບແຕ່ງໃນໂທລະສັບໄດ້)</string>
+    <string name="fa_recurrence_do_not_repeat">ບໍ່ຊ້ຳ</string>
+    <string name="fa_recurrence_none">ບໍ່ມີ</string>
+    <string name="fa_remaining_duration_hours_minutes_seconds">ເຫຼືອຢູ່ %1$02dຊມ %2$02dນທ %3$02dວິ</string>
+    <string name="fa_remaining_duration_minutes_seconds">ເຫຼືອຢູ່ %1$02dນທ %2$02dວິ</string>
+    <string name="fa_remaining_duration_seconds">ເຫຼືອຢູ່ %1$02dວິ</string>
+    <string name="fa_second_unit_label">ວິ</string>
+    <string name="fa_timer_status_active">ນຳໃຊ້ຢູ່</string>
+    <string name="fa_timer_status_paused">ຢຸດຊົ່ວຄາວແລ້ວ</string>
+    <string name="fa_timer_status_reset">ຣີເຊັດ</string>
+    <string name="fa_timer_status_unknown">ບໍ່ຮູ້ຈັກ</string>
     <string name="facade_search_box_content_description">ຊອກຫາ…</string>
     <string name="filled_bullet">●</string>
     <string name="find_something_else_button_text">ຊອກຫາແນວອື່ນ</string>
@@ -994,7 +1071,7 @@
     <string name="googleapp_accountmenu_chrome_incognito">ແຖບບໍ່ເປີດເຜີຍຕົວຕົນໃໝ່ຂອງ Chrome</string>
     <string name="googleapp_accountmenu_data_in_search">ຊອກຫາ</string>
     <string name="googleapp_accountmenu_passwords">ລະຫັດຜ່ານ</string>
-    <string name="googleapp_accountmenu_personal_info_removal">ລຶບຂໍ້ມູນສ່ວນຕົວຂອງທ່ານອອກ</string>
+    <string name="googleapp_accountmenu_personal_info_removal">ຜົນການຊອກຫາກ່ຽວກັບທ່ານ</string>
     <string name="googleapp_accountmenu_quick_delete_education_easy">ລຶບລ້າງປະຫວັດການຊອກຫາ 15 ນາທີຜ່ານມາດ້ວຍການແຕະເທື່ອດຽວ</string>
     <string name="googleapp_accountmenu_quickdelete_cancel">ຍົກເລີກ</string>
     <string name="googleapp_accountmenu_quickdelete_error">ບໍ່ສາມາດລຶບປະຫວັດໄດ້</string>
@@ -1010,7 +1087,7 @@
     <string name="googleapp_accountmenu_search_history">ປະຫວັດການຊອກຫາ</string>
     <string name="googleapp_accountmenu_your_contributions">ການປະກອບສ່ວນຂອງທ່ານ</string>
     <string name="googleapp_actionbutton_listen">ອ່ານດັງໆ</string>
-    <string name="googleapp_ads_personalization_settings_title">Ads personalization</string>
+    <string name="googleapp_ads_personalization_settings_title">ການປັບແຕ່ງໂຄສະນາເປັນແບບສ່ວນຕົວ</string>
     <string name="googleapp_amp_security_button_description">ການເຊື່ອມຕໍ່ປອດໄພດີ</string>
     <string name="googleapp_app_suggestions_summary">ຊື່ຂອງແອັບທີ່ຕິດຕັ້ງແລ້ວ.</string>
     <string name="googleapp_app_suggestions_title">ແອັບ</string>
@@ -1022,6 +1099,10 @@
     <string name="googleapp_autocomplete_with_trending_searches_header_title">ການຊອກຫາທີ່ກຳລັງມາແຮງ</string>
     <string name="googleapp_autocomplete_with_trending_searches_summary">ການຊອກຫາທີ່ຕິດເທຣນຮວມມີການຊອກຫາຍອດນິຍົມໃນພື້ນທີ່ຂອງທ່ານ</string>
     <string name="googleapp_autocomplete_with_trending_searches_title">ເຮັດສຳເລັດອັດຕະໂນມັດດ້ວຍການຊອກຫາທີ່ມາແຮງ</string>
+    <string name="googleapp_autoplay_video_previews_always">ເມື່ອໃຊ້ Wi-Fi ແລະ ອິນເຕີເນັດມືຖື</string>
+    <string name="googleapp_autoplay_video_previews_never">ຢ່າຫຼິ້ນອັດຕະໂນມັດ</string>
+    <string name="googleapp_autoplay_video_previews_setting_title">ຫຼິ້ນຕົວຢ່າງວິດີໂອອັດຕະໂນມັດ</string>
+    <string name="googleapp_autoplay_video_previews_wifi">ເມື່ອໃຊ້ Wi-Fi ເທົ່ານັ້ນ</string>
     <string name="googleapp_back_arrow_description">ກັບຄືນ</string>
     <string name="googleapp_bar_color_title">ສີແຖບ</string>
     <string name="googleapp_bar_logo_title">ໂລໂກ້ແຖບ</string>
@@ -1033,12 +1114,6 @@
     <string name="googleapp_boc_tooltip_tap_to_manage_your_preferences">ແຕະເພື່ອຈັດການການຕັ້ງຄ່າ ແລະ ຄຳຕິຊົມຂອງທ່ານ</string>
     <string name="googleapp_books_mode_landing_text">ຊອກຫາປຶ້ມ</string>
     <string name="googleapp_bottom_navigation_collections_label_content_description">ປຸ່ມຄໍເລັກຊັນ</string>
-    <string name="googleapp_broad_queries_topbar_mic_description">ຊອກຫາດ້ວຍສຽງ</string>
-    <string name="googleapp_broad_queries_topbar_search_description">ຊອກຫາ</string>
-    <string name="googleapp_broad_queries_topbar_up_content_description">ກັບຄືນ</string>
-    <string name="googleapp_broadqueries_error_message">ກວດເບິ່ງວ່າການເຊື່ອມຕໍ່ອິນເຕີເນັດໃຊ້ໄດ້ຢູ່</string>
-    <string name="googleapp_broadqueries_error_title">ມີບາງຢ່າງຜິດພາດ</string>
-    <string name="googleapp_broadqueries_loading_indicator_desc">ກຳລັງໂຫຼດເນື້ອຫາ</string>
     <string name="googleapp_browser_actionbutton_ampinfo">ຂໍ້ມູນເພີ່ມເຕີມກ່ຽວກັບ AMP</string>
     <string name="googleapp_browser_actionbutton_overflowmenu">ຄຳສັ່ງເພີ່ມເຕີມ</string>
     <string name="googleapp_browser_actionbutton_tabs">ແຖບ</string>
@@ -1051,8 +1126,8 @@
     <string name="googleapp_browser_clear_error">ມີບາງຢ່າງຜິດພາດໃນເວລາພະຍາຍາມລຶບລ້າງຂໍ້ມູນການນຳໃຊ້.</string>
     <string name="googleapp_browser_contextmenu_open_in_new_tab_title">ເປີດໃນແຖບໃໝ່</string>
     <string name="googleapp_browser_contextmenu_previewimage_description">ຕົວຢ່າງຮູບ</string>
-    <string name="googleapp_browser_contextmenu_previewimage_scrolllabel">Scroll for more of image</string>
-    <string name="googleapp_browser_contextmenu_previewimage_smalllabel">Image preview enlarged from original size</string>
+    <string name="googleapp_browser_contextmenu_previewimage_scrolllabel">ເລື່ອນເບິ່ງຮູບເພີ່ມເຕີມ</string>
+    <string name="googleapp_browser_contextmenu_previewimage_smalllabel">ສະແດງຕົວຢ່າງຮູບທີ່ຂະຫຍາຍຈາກຂະໜາດຕົ້ນສະບັບ</string>
     <string name="googleapp_browser_download_blocker_incognito_continue_btn">ດາວໂຫລດ</string>
     <string name="googleapp_browser_download_blocker_incognito_message">ໄຟລ໌ທີ່ດາວໂຫຼດຈະຖືກບັນທຶກໄວ້ໃນອຸປະກອນຂອງທ່ານ. ພວກມັນຈະຍັງເຂົ້າເຖິງໄດ້ຫຼັງຈາກທີ່ທ່ານປິດໂໝດບໍ່ເປີດເຜີຍຕົວຕົນແລ້ວ.</string>
     <string name="googleapp_browser_enable_title">ເປີດໜ້າເວັບໃນ Google app</string>
@@ -1062,28 +1137,27 @@
     <string name="googleapp_browser_firstrun_summary">"ລະບົບໄດ້ອັບເດດ Google app ຂອງທ່ານແລ້ວ ແລະ ຕອນນີ້ທ່ານສາມາດເລືອກເບິ່ງເນື້ອຫາເວັບ ເຊັ່ນ: ບົດຄວາມ, ວິດີໂອ ແລະ ສະຕໍຣີ, ທັງໝົດພາຍໃນແອັບ.
 
 ທ່ານອາດຈຳເປັນຕ້ອງເຂົ້າສູ່ລະບົບບາງເວັບໄຊ ແລະ ທ່ານອາດຕ້ອງການກວດສອບການຕັ້ງຄ່າໂປຣແກຣມທ່ອງເວັບຂອງທ່ານ."</string>
-    <string name="googleapp_browser_firstrun_summary_v2">"Now you can view pages faster and enjoy an improved search experience.
+    <string name="googleapp_browser_firstrun_summary_v2">"ຕອນນີ້ທ່ານສາມາດເບິ່ງໜ້າຕ່າງໆຂອງເວັບໄດ້ໄວຂຶ້ນ ພ້ອມທັງເພີດເພີນໄປກັບປະສົບການຊອກຫາທີ່ປັບປຸງໃໝ່.
 
-You may need to log back in to some sites."</string>
+ທ່ານອາດຕ້ອງກັບເຂົ້າສູ່ລະບົບໃນບາງເວັບໄຊ."</string>
     <string name="googleapp_browser_firstrun_summary_v2_part2">"
 
-Manage your new browser security and privacy settings in the app."</string>
+ຈັດການການຕັ້ງຄ່າຄວາມປອດໄພ ແລະ ຄວາມເປັນສ່ວນຕົວຂອງໂປຣແກຣມທ່ອງເວັບໃໝ່ຂອງທ່ານໃນແອັບ."</string>
     <string name="googleapp_browser_firstrun_title">ຕອນນີ້ເນື້ອຫາເວັບເປີດຢູ່ໃນແອັບ</string>
-    <string name="googleapp_browser_firstrun_title_v2">Browse without leaving the app</string>
+    <string name="googleapp_browser_firstrun_title_v2">ເລືອກເບິ່ງໂດຍບໍ່ຕ້ອງອອກຈາກແອັບ</string>
     <string name="googleapp_browser_setting_clear_cache_title"><b>ຮູບ ແລະ ໄຟລ໌ທີ່ແຄສໄວ້</b>"
 ບາງເວັບໄຊອາດຈະໂຫຼດຊ້າກວ່າໃນການເຂົ້າເບິ່ງຄັ້ງຕໍ່ໄປຂອງທ່ານ."</string>
     <string name="googleapp_browser_setting_clear_data_title"><b>ຂໍ້ມູນຄຸກກີ້ ແລະ ເວັບໄຊ</b>"
 ນຳທ່ານອອກຈາກລະບົບເວັບໄຊສ່ວນໃຫຍ່. ທ່ານຈະບໍ່ຖືກນຳອອກຈາກລະບົບບັນຊີ Google ຂອງທ່ານ."</string>
     <string name="googleapp_browser_settings_browser_privacy_category_title">ຄວາມເປັນສ່ວນຕົວຂອງໂປຣແກຣມທ່ອງເວັບ</string>
     <string name="googleapp_browser_settings_browser_safety_category_title">ຄວາມປອດໄພໃນໂປຣແກຣມທ່ອງເວັບ</string>
-    <string name="googleapp_browser_settings_browsing_history_summary">Manage your browsing history at My Activity</string>
+    <string name="googleapp_browser_settings_browsing_history_summary">ຈັດການປະຫວັດການທ່ອງເວັບຂອງທ່ານຢູ່ທີ່ ການເຄື່ອນໄຫວຂອງຂ້ອຍ</string>
     <string name="googleapp_browser_settings_browsing_history_title">ປະຫວັດການທ່ອງເວັບ</string>
     <string name="googleapp_browser_settings_clear_browsing_data_summary">ລຶບຂ້າງຄຸກກີ້ ແລະ ຂໍ້ມູນທີ່ແຄສໄວ້</string>
     <string name="googleapp_browser_settings_clear_browsing_data_title">ລຶບລ້າງຂໍ້ມູນການທ່ອງເວັບ</string>
     <string name="googleapp_browser_settings_cleardata_button_text">ລຶບລ້າງຂໍ້ມູນ</string>
     <string name="googleapp_browser_settings_extended_safe_browsing_summary">ສົ່ງຂໍ້ມູນໂປຣແກຣມທ່ອງເວັບໃຫ້ Google ເພື່ອຊ່ວຍກວດຫາແອັບ ແລະ ເວັບໄຊອັນຕະລາຍ. ນີ້ຮວມເອົາ URL ຂອງບາງໜ້າທີ່ທ່ານເຂົ້າເບິ່ງ, ຂໍ້ມູນລະບົບແບບຈຳກັດ ແລະ ບາງເນື້ອຫາໃນໜ້າ.</string>
     <string name="googleapp_browser_settings_extended_safe_browsing_title">ຊ່ວຍປັບປຸງຄວາມປອດໄພຂອງໂປຣແກຣມທ່ອງເວັບ</string>
-    <string name="googleapp_browser_settings_link">ການຕັ້ງຄ່າໂປຣແກຣມທ່ອງເວັບ</string>
     <string name="googleapp_browser_settings_real_time_safe_browsing_summary">ກວດຫາບັນຫາຄວາມປອດໄພໃໝ່ໃນແຕ່ລະຄັ້ງທີ່ທ່ານເຂົ້າເບິ່ງເວັບໄຊ. URL ຂອງໜ້າທີ່ທ່ານເຂົ້າເບິ່ງຈະຖືກສົ່ງໃຫ້ Google.</string>
     <string name="googleapp_browser_settings_real_time_safe_browsing_title">ກວດຄວາມປອດໄພເວັບໄຊແບບສົດໆ</string>
     <string name="googleapp_browser_settings_safe_browsing_summary">ເຫັນຄຳເຕືອນເມື່ອທ່ານພະຍາຍາມເຂົ້າເບິ່ງເວັບໄຊທີ່ຮູ້ວ່າມີບັນຫາຄວາມປອດໄພ. URL ທີ່ບໍ່ປອດໄພທີ່ທ່ານເຂົ້າເບິ່ງອາດຈະຖືກສົ່ງໃຫ້ Google.</string>
@@ -1150,10 +1224,10 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_covid_vaccine_register_25_subheader">ທຸກຄົນອາຍຸແຕ່ 25 ປີຂຶ້ນໄປມີສິດໄດ້ຮັບວັກຊີນ</string>
     <string name="googleapp_covid_vaccine_register_header">ລົງທະບຽນຮັບວັກຊີນ COVID ໃນມື້ນີ້</string>
     <string name="googleapp_custom_color_description">ກຳນົດເອງສີວິດເຈັດຊອກຫາເອງ</string>
-    <string name="googleapp_custom_color_hue_slider_description">Custom hue slider</string>
-    <string name="googleapp_custom_color_hue_slider_label">Hue</string>
-    <string name="googleapp_custom_color_saturation_slider_description">Custom saturation slider</string>
-    <string name="googleapp_custom_color_saturation_slider_label">Saturation</string>
+    <string name="googleapp_custom_color_hue_slider_description">ແຖບເລື່ອນສີສັນແບບກຳນົດເອງ</string>
+    <string name="googleapp_custom_color_hue_slider_label">ໂທນສີ</string>
+    <string name="googleapp_custom_color_saturation_slider_description">ແຖບເລື່ອນຄວາມແຈດຂອງສີແບບກຳນົດເອງ</string>
+    <string name="googleapp_custom_color_saturation_slider_label">ຄວາມແຈດຂອງສີ</string>
     <string name="googleapp_custom_tabs_collections_menu_item_title">ເບິ່ງຄໍເລັກຊັນ</string>
     <string name="googleapp_custom_tabs_copy_link_menu_item_title">ສຳເນົາລິ້ງ</string>
     <string name="googleapp_custom_tabs_copy_link_toast_text">ສຳເນົາລິ້ງໃສ່ຄລິບບອດແລ້ວ</string>
@@ -1165,6 +1239,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_custom_tabs_enabled_setting_unavailable_need_first_run_done">ເປີດ ແລະ ຕັ້ງຄ່າ Chrome ເພື່ອເປີດນຳໃຊ້ຕົວເລືອກນີ້</string>
     <string name="googleapp_custom_tabs_enabled_setting_unavailable_update_chrome">ຕິດຕັ້ງ Chrome ເວີຊັນຫຼ້າສຸດເພື່ອເປີດນຳໃຊ້</string>
     <string name="googleapp_custom_tabs_help_menu_item_title">ຊ່ວຍເຫຼືອ</string>
+    <string name="googleapp_custom_tabs_piros_menu_item_title">ລຶບຜົນການຊອກຫາກ່ຽວກັບທ່ານ</string>
     <string name="googleapp_custom_tabs_recently_menu_item_title">ຫຼ້າສຸດ</string>
     <string name="googleapp_customize_text">ປັບແຕ່ງ</string>
     <string name="googleapp_disco_channels_and_interests_tng_setting">ຊ່ອງ ແລະ ຄວາມສົນໃຈ</string>
@@ -1276,7 +1351,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_general_settings_title">ທົ່ວໄປ</string>
     <string name="googleapp_go_to_discover_content_description">ໄປທີ່ Discover</string>
     <string name="googleapp_goc_bottombar_close_description">ເຊື່ອງໜ້າທີ່ກ່ຽວຂ້ອງໄວ້</string>
-    <string name="googleapp_google_app_browser_instacart_button_content_description">Instacart button</string>
+    <string name="googleapp_google_app_browser_instacart_button_content_description">ປຸ່ມ Instacart</string>
     <string name="googleapp_hide_explicit_results_settings_title">ເຊື່ອງຜົນການຊອກຫາທີ່ບໍ່ເໝາະສົມ</string>
     <string name="googleapp_images_mode_landing_text">ຊອກຫາຮູບພາບ</string>
     <string name="googleapp_incognito_app_strip_header">ຈາກແອັບຂອງທ່ານ (ອາດຈະບໍ່ຢູ່ໃນໂໝດບໍ່ເປີດເຜີຍຕົວຕົນ)</string>
@@ -1310,7 +1385,6 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_incognito_setup_device_biometrics_dialog_title">ຕັ້ງຄ່າຂໍ້ມູນຊີວະມິຕິ</string>
     <string name="googleapp_incognito_signpost_button_text">ປິດ</string>
     <string name="googleapp_incognito_signpost_icon_description">ໄອຄອນປ້າຍສະແດງໂໝດບໍ່ເປີດເຜີຍຕົວຕົນ</string>
-    <string name="googleapp_incognito_signpost_message_assistant">ຄຸນສົມບັດຜູ້ຊ່ວຍບໍ່ມີໃຫ້ນຳໃຊ້ໃນຂະນະທີ່ທ່ອງເວັບໃນໂໝດບໍ່ເປີດເຜີຍຕົວຕົນ, ອອກເພື່ອເຂົ້າເຖິງຜູ້ຊ່ວຍ</string>
     <string name="googleapp_incognito_signpost_message_collections">ຄໍເລັກຊັນບໍ່ມີໃຫ້ໃນຂະນະທີ່ທ່ອງເວັບໃນໂໝດບໍ່ເປີດເຜີຍຕົວຕົນ, ອອກເພື່ອເຂົ້າເຖິງພວກມັນ</string>
     <string name="googleapp_incognito_signpost_message_default">ຄຸນສົມບັດບໍ່ມີໃຫ້ນຳໃຊ້ໃນຂະນະທີ່ທ່ອງເວັບໃນໂໝດບໍ່ເປີດເຜີຍຕົວຕົນ, ອອກເພື່ອເຂົ້າເຖິງມັນ</string>
     <string name="googleapp_incognito_signpost_message_discover">ຟີດ Discover ຂອງທ່ານບໍ່ສາມາດໃຊ້ໄດ້ເມື່ອທ່ານຢູ່ໃນໂໝດບໍ່ເປີດເຜີຍຕົວຕົນ</string>
@@ -1333,7 +1407,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_interstitial_visibility_warning_isp">ຜູ້ໃຫ້ບໍລິການອິນເຕີເນັດຂອງທ່ານ</string>
     <string name="googleapp_interstitial_visibility_warning_websites">ເວັບໄຊທີ່ທ່ານເຂົ້າເບິ່ງ</string>
     <string name="googleapp_language_setting_title">ພາສາໃນການຊອກຫາ</string>
-    <string name="googleapp_language_switcher_auto_option">Auto-switch</string>
+    <string name="googleapp_language_switcher_auto_option">ສະຫຼັບອັດຕະໂນມັດ</string>
     <string name="googleapp_lens_button_content_description">ຊອກຫາດ້ວຍກ້ອງ</string>
     <string name="googleapp_lens_explainer">ຖ່າຍຮູບສິ່ງຕ່າງໆ ເພື່ອຊອກຫາມັນ</string>
     <string name="googleapp_lens_icon_content_description">ຊອກຫາດ້ວຍກ້ອງ</string>
@@ -1412,7 +1486,14 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_recent_pages_enabled_setting_title">ໜ້າທີ່ຜ່ານມາ</string>
     <string name="googleapp_region_setting_title">ພາກພື້ນສຳລັບການຊອກຫາ</string>
     <string name="googleapp_reset_style_text">ຣີເຊັດເປັນຮູບແບບເລີ່ມຕົ້ນ</string>
-    <string name="googleapp_save_button_text">Save</string>
+    <string name="googleapp_save_button_text">ບັນທຶກ</string>
+    <string name="googleapp_save_feature_default_collection_label">ໜ້າທີ່ມັກ</string>
+    <string name="googleapp_save_feature_error_title">ອຸ໋ຍ, ມີບາງຢ່າງຜິດພາດເກີດຂຶ້ນ</string>
+    <string name="googleapp_save_feature_share_close_button_description">ປິດ</string>
+    <string name="googleapp_save_feature_share_receiver_subject_and_text">"%1$s
+
+%2$s"</string>
+    <string name="googleapp_save_feature_share_save">ບັນທຶກ</string>
     <string name="googleapp_search_a_song_content_description">ແຕະເພື່ອເລີ່ມການຮັບຮູ້ເພງ</string>
     <string name="googleapp_search_bar_radius_24dp_description">ມົນ</string>
     <string name="googleapp_search_bar_radius_2dp_description">ສີ່ແຈສາກ</string>
@@ -1442,26 +1523,27 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_second_screen_manage_interests_menu_label">ຈັດການຄວາມສົນໃຈ</string>
     <string name="googleapp_second_screen_settings_menu_label">ການຕັ້ງຄ່າ</string>
     <string name="googleapp_see_updates">ເບິ່ງການອັບເດດ</string>
-    <string name="googleapp_settings_about_link">ກ່ຽວກັບ</string>
+    <string name="googleapp_setting_error_card_icon_content_description">ຜິດພາດ</string>
+    <string name="googleapp_setting_error_card_message_explanation">ບໍ່ສາມາດໂຫຼດໜ້າເວັບໄດ້</string>
+    <string name="googleapp_setting_error_card_message_title">ມີບາງຢ່າງຜິດພາດເກີດຂຶ້ນ</string>
     <string name="googleapp_settings_about_title">ກ່ຽວກັບ</string>
-    <string name="googleapp_settings_general_link">ທົ່ວໄປ</string>
-    <string name="googleapp_settings_language_and_region_link">ພາສາ ແລະ ພາກພື້ນ</string>
     <string name="googleapp_settings_language_and_region_title">ພາສາ ແລະ ພາກພື້ນ</string>
     <string name="googleapp_settings_legal_notices_title">ປະກາດທາງກົດໝາຍ</string>
     <string name="googleapp_settings_location_terms_of_service_title">ຂໍ້ກຳນົດບໍລິການສະຖານທີ່</string>
+    <string name="googleapp_settings_nav_up">ເລື່ອນຂຶ້ນ</string>
     <string name="googleapp_settings_open_source_licenses_title">ແຈ້ງການພາກສ່ວນທີສາມ</string>
     <string name="googleapp_settings_privacy_and_security_link">ຄວາມເປັນສ່ວນຕົວ ແລະ ຄວາມປອດໄພ</string>
     <string name="googleapp_settings_privacy_policy_title">ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ</string>
-    <string name="googleapp_settings_search_widget_link">ວິດເຈັດຊອກຫາ</string>
+    <string name="googleapp_settings_search">ຊອກຫາ</string>
+    <string name="googleapp_settings_search_hint">ຊອກຫາໃນການຕັ້ງຄ່າ</string>
     <string name="googleapp_settings_terms_of_service_title">ຂໍ້ກຳນົດບໍລິການ</string>
-    <string name="googleapp_settings_voice_link">ສຽງ</string>
     <string name="googleapp_settings_voice_title">ສຽງ</string>
     <string name="googleapp_shopping_mode_landing_text">ຊອກຫາການຊື້ເຄື່ອງ</string>
     <string name="googleapp_show_waiting_text">ກະລຸນາລໍຖ້າ…</string>
-    <string name="googleapp_sign_in_tout_header">Sign in to personalize Discover</string>
-    <string name="googleapp_sign_in_tout_negative_text">Cancel</string>
-    <string name="googleapp_sign_in_tout_positive_text">Sign in</string>
-    <string name="googleapp_sign_in_tout_subheader">Control what you see in the Google app by signing in</string>
+    <string name="googleapp_sign_in_tout_header">ເຂົ້າສູ່ລະບົບເພື່ອປັບແຕ່ງ Discover ເປັນແບບສ່ວນຕົວ</string>
+    <string name="googleapp_sign_in_tout_negative_text">ຍົກເລີກ</string>
+    <string name="googleapp_sign_in_tout_positive_text">ເຂົ້າສູ່ລະບົບ</string>
+    <string name="googleapp_sign_in_tout_subheader">ຄວບຄຸມສິ່ງທີ່ທ່ານເຫັນໃນ Google app ໂດຍການເຂົ້າສູ່ລະບົບ</string>
     <string name="googleapp_signed_out_pq_based_suggestion_message">ການຄາດເດົານີ້ກ່ຽວຂ້ອງກັບການຊອກຫາຫຼ້າສຸດ.</string>
     <string name="googleapp_silk_pane_close_button">ປິດ</string>
     <string name="googleapp_silk_pane_dismiss_message">ປິດໄວ້</string>
@@ -1469,6 +1551,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_sno_subscriptions_internal_error_header">ມີບາງຢ່າງຜິດພາດ</string>
     <string name="googleapp_sno_subscriptions_offline_error_message">ເພື່ອເບິ່ງ ແລະ ແກ້ໄຂຄວາມສົນໃຈຂອງທ່ານ, ທ່ານຈະຈຳເປັນຕ້ອງເຊື່ອມຕໍ່ກັບເຄືອຂ່າຍກ່ອນ</string>
     <string name="googleapp_sound_search_search_a_song_hint">ຊອກຫາເພງ</string>
+    <string name="googleapp_srp_query_tiger">ເສືອ</string>
     <string name="googleapp_stamp_viewer_actionbutton_feedback">ສົ່ງຄຳຕິຊົມ</string>
     <string name="googleapp_stamp_viewer_actionbutton_heart">ຫົວໃຈ</string>
     <string name="googleapp_stamp_viewer_actionbutton_help_center">ສູນຊ່ວຍເຫຼືອ</string>
@@ -1483,7 +1566,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_stamp_viewer_error_title">ມີບາງຢ່າງຜິດພາດ</string>
     <string name="googleapp_stamp_viewer_overflow_menu_button_content_description">ຕົວເລືອກເພີ່ມເຕີມ.</string>
     <string name="googleapp_stamp_viewer_overflow_menu_close">ປິດ</string>
-    <string name="googleapp_stamp_viewer_preview_button_text">ສືບຕໍ່ຂ່າວເຕັມ</string>
+    <string name="googleapp_stamp_viewer_preview_button_text">ສືບຕໍ່ການເບິ່ງ</string>
     <string name="googleapp_stamp_viewer_preview_label">ຕົວຢ່າງ</string>
     <string name="googleapp_stamp_viewer_publisher_cta">ເຂົ້າຊົມ</string>
     <string name="googleapp_stamp_viewer_retry_button_text">ລອງໃໝ່</string>
@@ -1500,7 +1583,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_tabs_manager_close_all_tabs_dialog_confirmation_button_label">ປິດທັງໝົດ</string>
     <string name="googleapp_tabs_manager_close_all_tabs_dialog_confirmation_message">ທ່ານແນ່ໃຈບໍ່ວ່າທ່ານຕ້ອງການປິດແຖບທີ່ເປີດຢູ່ທັງໝົດ?</string>
     <string name="googleapp_tabs_manager_close_tab_button_default_description">ປິດແຖບ</string>
-    <string name="googleapp_tabs_manager_close_tab_button_description">ປິດເວັບໄຊ %s - ປຸ່ມ</string>
+    <string name="googleapp_tabs_manager_close_tab_button_description">ປິດເວັບໄຊ %s</string>
     <string name="googleapp_tabs_manager_empty_state_title">ທ່ານບໍ່ມີແຖບທີ່ເປີດຢູ່ໃດໆ</string>
     <string name="googleapp_tabs_manager_new_tab_button_description">ເລີ່ມການຊອກຫາໃໝ່</string>
     <string name="googleapp_tabs_manager_new_tab_button_text">ແຖບໃໝ່</string>
@@ -1518,18 +1601,19 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="googleapp_voice_search_humming">ຊອກຫາເພງດ້ວຍການຮໍາ</string>
     <string name="googleapp_voice_search_tired_of_typing">ເບື່ອພິມແລ້ວບໍ? ຊອກຫາດ້ວຍສຽງຂອງທ່ານ</string>
     <string name="googleapp_voice_search_with_voice">ຊອກຫາດ້ວຍສຽງຂອງທ່ານ</string>
+    <string name="googleapp_voice_settings_assistant_title">ຜູ້ຊ່ວຍ Google</string>
     <string name="googleapp_voice_settings_languages_setting_check_content_description">ເລືອກແລ້ວ</string>
     <string name="googleapp_voice_settings_languages_setting_limit_reached_notice">ຮອດຂີດຈຳກັດແລ້ວ. ທ່ານບໍ່ສາມາດເລືອກພາສາໄດ້ເພີ່ມອີກ.</string>
     <string name="googleapp_voice_settings_languages_setting_no_selection_notice">ບໍ່ມີພາສາທີ່ຖືກເລືອກ.</string>
     <string name="googleapp_voice_settings_languages_setting_save_button_text">ບັນທຶກ</string>
+    <string name="googleapp_voice_settings_languages_setting_summary_text_others">ອື່ນໆ:</string>
+    <string name="googleapp_voice_settings_languages_setting_summary_text_primary">ຫຼັກ:</string>
     <string name="googleapp_voice_settings_languages_setting_title">ພາສາ</string>
     <string name="googleapp_voice_settings_offline_speech_recognition_setting_summary">ຈັດການພາສາທີ່ດາວໂຫລດມາແລ້ວ</string>
     <string name="googleapp_voice_settings_offline_speech_recognition_setting_title">ການຈຳແນກສຽງເວົ້າແບບອອບລາຍ</string>
     <string name="googleapp_voice_settings_spoken_results_setting_title">ຜົນການຊອກຫາທີ່ເວົ້າເປັນສຽງ</string>
-    <string name="googleapp_voice_settings_spoken_results_value_all_voices">ການຊອກຫາດ້ວຍສຽງທັງໝົດ</string>
-    <string name="googleapp_voice_settings_spoken_results_value_hands_free_only">ການຊອກຫາແບບບໍ່ໃຊ້ມືເທົ່ານັ້ນ</string>
-    <string name="googleapp_voice_settings_voice_match_setting_summary">ລົມກັບຜູ້ຊ່ວຍ Google ເພື່ອເຮັດສິ່ງຕ່າງໆໃຫ້ແລ້ວສຳເລັດ</string>
-    <string name="googleapp_voice_settings_voice_match_setting_title">Voice Match</string>
+    <string name="googleapp_voice_settings_spoken_results_value_all_voices">ເປີດ</string>
+    <string name="googleapp_voice_settings_spoken_results_value_hands_free_only">ປິດ</string>
     <string name="googleapp_waa_disabled_tout_promo_description">ການຕັ້ງຄ່າຄວາມເປັນສ່ວນຕົວຂອງ Google ຊອກຫາ</string>
     <string name="googleapp_waa_disabled_tout_promo_header">ຟີດຂອງທ່ານບໍ່ອີງໃສ່ປະຫວັດຂອງທ່ານ</string>
     <string name="googleapp_waa_disabled_tout_promo_subheader">ຟີດ Discover ຂອງທ່ານບໍ່ໄດ້ອີງໃສ່ປະຫັວດເນື່ອງຈາກການຕັ້ງຄ່າການເຄື່ອນໄຫວເວັບ ແລະ ແອັບຂອງທ່ານປິດຢູ່</string>
@@ -1736,14 +1820,13 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="lens_info_panel_on_device_chip_share_translate_content_description">ແບ່ງປັນຮູບທີ່ແປພາສາແລ້ວ</string>
     <string name="lens_info_panel_on_device_chip_translate">ແປພາສາ</string>
     <string name="lens_info_panel_on_device_chip_translate_content_description">ແປຂໍ້ຄວາມທີ່ເລືອກ</string>
-    <string name="lens_info_panel_on_device_no_text_header_title">ບໍ່ເຫັນຂໍ້ຄວາມ</string>
     <string name="lens_info_panel_on_device_results_header_limited_functionality">ບາງຄຸນສົມບັດບໍ່ສາມາດໃຊ້ໄດ້</string>
     <string name="lens_info_panel_on_device_results_header_offline">ອອບລາຍ</string>
     <string name="lens_info_panel_on_device_text_header_title">ພົບຂໍ້ຄວາມໃນຮູບພາບ</string>
     <string name="lens_info_panel_on_device_translation_header_title">ຂໍ້ຄວາມທີ່ແປແລ້ວ</string>
+    <string name="lens_info_panel_partial_translate_enabled_header_title">ຂໍ້ຄວາມຕົ້ນສະບັບ</string>
     <string name="lens_info_panel_processing_message">ກຳລັງໂຫລດ…</string>
     <string name="lens_info_panel_quoted_title">\"%1$s\"</string>
-    <string name="lens_info_panel_select_text_to_translate_header_title">ເລືອກຂໍ້ຄວາມທີ່ຈະແປພາສາ</string>
     <string name="lens_kilometers_indicator">%s ກມ</string>
     <string name="lens_latex_input_hint">ພິມບັນຫາຄະນິດສາດ</string>
     <string name="lens_living_surface_audio_button_mute">ປິດສຽງ</string>
@@ -1838,6 +1921,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="lens_sample_images_translate_card_text_short">ແປຂໍ້ຄວາມໃນຮູບ</string>
     <string name="lens_search_bar_hint">ປ້ອນຊື່ຮ້ານອາຫານ</string>
     <string name="lens_search_filter_name">ຊອກຫາ</string>
+    <string name="lens_selection_state_guidance_message_on_device_translation">ແຕະໃສ່ຂໍ້ຄວາມເພື່ອແປພາສາ</string>
     <string name="lens_share_to_lens_label">ຊອກຫາຮູບພາບ</string>
     <string name="lens_share_translate_message">ແປກັບ Google Lens. ລອງໃຊ້ມັນດ້ວຍຕົວທ່ານເອງ!</string>
     <string name="lens_shopping_filter_guidance_message">ຖ່າຍຮູບຜະລິດຕະພັນ ຫຼື ບາໂຄດ</string>
@@ -1953,6 +2037,7 @@ Manage your new browser security and privacy settings in the app."</string>
     <string name="mdd_notification_action_cancel">ຍົກເລີກ</string>
     <string name="mdd_notification_download_failed">ດາວໂຫຼດບໍ່ສຳເລັດ</string>
     <string name="mdd_notification_download_paused">ກຳລັງລໍຖ້າການເຊື່ອມຕໍ່ເຄືອຂ່າຍ</string>
+    <string name="mdd_notification_download_paused_wifi">Waiting for WiFi connection</string>
     <string name="mdd_notification_download_success">ດາວໂຫຼດແລ້ວ</string>
     <string name="media_browser_youtube_premium_warning_text">ເພື່ອເຫັນການແນະນຳ, ທ່ານຈຳເປັນຕ້ອງມີບັນຊີພຣີມຽມ</string>
     <string name="media_empty_state_task_hey_google_play_music">"“Ok Google,
@@ -2518,11 +2603,11 @@ play %s”"</string>
     <string name="punt_for_personal_results">ເພື່ອໃຫ້ເຮົາຊ່ວຍທ່ານໃນເລື່ອງນັ້ນ, ທ່ານຈຳເປັນຕ້ອງອະນຸຍາດຜົນການຊອກຫາສ່ວນຕົວຢູ່ໃນລົດນີ້. ເມື່ອປອດໄພແລ້ວ, ທ່ານສາມາດໃຫ້ອະນຸຍາດໄດ້ໃນການຕັ້ງຄ່າຜູ້ຊ່ວຍ.</string>
     <string name="punt_for_signed_out">ດ້ວຍເຫດນັ້ນ, ທ່ານຈະຈຳເປັນຕ້ອງເຂົ້າສູ່ລະບົບດ້ວຍບັນຊີ Google ຂອງທ່ານ. ເມື່ອປອດໄພ, ກະລຸນາກວດເບິ່ງການແຈ້ງເຕືອນໃນລົດຂອງທ່ານສຳລັບຂັ້ນຕອນຕໍ່ໄປ.</string>
     <string name="punt_home_alias_unset">ປາກົດວ່າເຮົາບໍ່ມີທີ່ຢູ່ເຮືອນຂອງທ່ານ. ທ່ານສາມາດຂໍຄຳແນະນຳເສັ້ນທາງຫາເຮືອນໂດຍການບອກທີ່ຢູ່ຂອງທ່ານໃຫ້ເຮົາແທນ.</string>
-    <string name="punt_max_volume">ຂໍອະໄພ, ໃນຂະນະນີ້ລະບົບບໍ່ຮອງຮັບການຕັ້ງຄ່າລະດັບສຽງເປັນສູງສຸດ ຫຼື ເພີ່ມມັນເປັນ 100% ໃນອຸປະກອນນີ້.</string>
     <string name="punt_non_percentage_volume_control">ຢູ່ໃນລົດ, ການຕັ້ງຄ່າລະດັບສຽງຈະເຮັດວຽກເປັນເປີເຊັນ, ສະນັ້ນທ່ານສາມາດເວົ້າສິ່ງຕ່າງໆໄດ້ ເຊັ່ນ: ຕັ້ງຄ່າລະດັບສຽງເປັນ 25%.</string>
     <string name="punt_offline_music">ປາກົດວ່າບໍ່ມີການເຊື່ອມຕໍ່, ສະນັ້ນເຮົາບໍ່ສາມາດຫຼິ້ນມັນໃຫ້ທ່ານໄດ້.</string>
     <string name="punt_open_app">ຂໍອະໄພ, ແອັບນີ້ບໍ່ໄດ້ຖືກຕິດຕັ້ງ ຫຼື ບໍ່ສາມາດໃຊ້ໄດ້ໃນຂະນະນີ້.</string>
     <string name="punt_open_unsafe_for_drving_app">ຂໍອະໄພ, ແອັບນັ້ນບໍ່ປອດໄພໃນການນຳໃຊ້ໃນເວລາຂັບລົດ.</string>
+    <string name="punt_set_volume_beyond_threshold">ດ້ວຍເຫດຜົນດ້ານຄວາມປອດໄພ, ລະບົບບໍ່ສາມາດຕັ້ງລະດັບສຽງທີ່ສູງແບບນັ້ນໃນລົດຂອງທ່ານໄດ້. ທ່ານສາມາດບອກໃຫ້ຕັ້ງລະດັບສຽງໄດ້ສູງສຸດ %1$d%%</string>
     <string name="punt_work_alias_unset">ປາກົດວ່າເຮົາບໍ່ມີທີ່ຢູ່ບ່ອນເຮັດວຽກຂອງທ່ານ. ທ່ານສາມາດຂໍຄຳແນະນຳເສັ້ນທາງໄປບ່ອນເຮັດວຽກໂດຍບອກທີ່ຢູ່ຂອງທ່ານໃຫ້ເຮົາແທນ.</string>
     <string name="query_suggestion_header_text">ລອງເວົ້າ</string>
     <string name="recurrence_dialog_title">ເກີດຂຶ້ນຊໍ້າ</string>
@@ -2534,6 +2619,7 @@ play %s”"</string>
     <string name="recurrence_month_pattern_last_day">ໃນມື້ສຸດທ້າຍຂອງເດືອນ</string>
     <string name="refresh_bt_latency_button_description">ທົດສອບການຕອບສະໜອງຂອງ Bluetooth ຄືນໃໝ່</string>
     <string name="replay_count_down">ກຳລັງຫຼິ້ນຄືນໃໝ່ໃນ &lt;b>%1$d&lt;/b>…</string>
+    <string name="reply_button_string">ຕອບກັບ</string>
     <string name="reply_button_text">ຕອບກັບ</string>
     <string name="reset_settings">ຣີເຊັດການຕັ້ງຄ່າ</string>
     <string name="resume_label">ສືບຕໍ່ສາຍ</string>
@@ -2559,7 +2645,7 @@ play %s”"</string>
     <string name="sceneviewer_get_help">Get help</string>
     <string name="sceneviewer_get_help_button_content_description">Get Help</string>
     <string name="sceneviewer_immersive_edge_fallback_dialog_confirm_button">Go</string>
-    <string name="sceneviewer_immersive_edge_fallback_dialog_message">No connection. You will be redirected to &lt;b> %1$s &lt;/b></string>
+    <string name="sceneviewer_immersive_edge_fallback_dialog_message">No connections available. Redirecting you to &lt;b>%1$s&lt;/b>. Please try again in a few minutes.</string>
     <string name="sceneviewer_immersive_edge_fallback_dialog_title">Connection lost</string>
     <string name="sceneviewer_immersive_edge_redirect_dialog_cancel_button">Cancel</string>
     <string name="sceneviewer_immersive_edge_redirect_dialog_confirm_button">OK</string>
@@ -2577,6 +2663,8 @@ play %s”"</string>
     <string name="search_box_content_description">ຊອກຫາ…</string>
     <string name="search_menu_title">ຊອກຫາ</string>
     <string name="search_restriction">ທ່ານບໍ່ມີການອະນຸຍາດນຳໃຊ້ Google ຊອກຫາ</string>
+    <string name="select_day">ເລືອກເດືອນ ແລະ ວັນ</string>
+    <string name="select_year">ເລືອກປີ</string>
     <string name="send_a_message">ສົ່ງຂໍ້ຄວາມຫາ %1$s</string>
     <string name="send_a_message_no_contact">ສົ່ງຂໍ້ຄວາມ</string>
     <string name="send_a_message_text">ສົ່ງຂໍ້ຄວາມ</string>
@@ -2605,6 +2693,7 @@ play %s”"</string>
     <string name="signed_out_account_particle_disc_state_description">ອອກຈາກລະບົບແລ້ວ</string>
     <string name="six_dof_guidance">ຊີ້ໂທລະສັບຂອງທ່ານລົງໃສ່ພື້ນທີ່ຫວ່າງ ແລ້ວເຄື່ອນຍ້າຍມັນໄປມາຢ່າງຊ້າໆ</string>
     <string name="smartaction_button_icon_content_description">ໄອຄອນທີ່ເຊື່ອມໂຍງກັບຄຳສັ່ງອັດສະລິຍະທີ່ເລືອກ.</string>
+    <string name="someone_else_text">ຄົນອື່ນ</string>
     <string name="soundsearch_close_content_description">ປິດ</string>
     <string name="soundsearch_label_almost_there">ໃກ້ສຳເລັດແລ້ວ…</string>
     <string name="soundsearch_label_keep_going">ເຮັດຕໍ່ໄປ…</string>
@@ -2940,5 +3029,6 @@ play %s”"</string>
     <string name="workspace_cling_longpress_title">ຮູບພາບພື້ນຫຼັງ, ວິດເຈັດ ແລະ ການຕັ້ງຄ່າ</string>
     <string name="workspace_new_page">ໜ້າ​ຂອງ​ໜ້າ​ຈໍ​ຫຼັກ​ໃໝ່</string>
     <string name="workspace_scroll_format">ໜ້າຈໍຫຼັກ %1$d ໃນ %2$d</string>
+    <string name="year_picker_description">ລາຍການປີ</string>
     <string name="yes_button_text">ແມ່ນ, ຂ້ອຍເຂົ້າຮ່ວມ</string>
 </resources>

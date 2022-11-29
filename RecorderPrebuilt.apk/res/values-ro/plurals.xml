@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="custom_cards_view_description_items_left">
-        <item quantity="other">%1$d de elemente rămase</item>
-        <item quantity="one">%1$d element rămas</item>
-        <item quantity="few">%1$d elemente rămase</item>
-    </plurals>
     <plurals name="dlg_message_deletion_confirmation">
         <item quantity="other">Înregistrările vor fi șterse definitiv. Această acțiune nu poate fi anulată.</item>
         <item quantity="one">Înregistrarea va fi ștearsă definitiv. Această acțiune nu poate fi anulată.</item>
@@ -25,20 +20,30 @@
         <item quantity="one">Ștergeți definitiv această înregistrare?</item>
         <item quantity="few">Ștergeți definitiv aceste înregistrări?</item>
     </plurals>
-    <plurals name="download_unsuccessful_description_storage_full">
+    <plurals name="download_failure_description_storage_full">
         <item quantity="other">Nu putem descărca înregistrările, deoarece spațiul de stocare al dispozitivului este plin. Atingeți pentru a examina.</item>
         <item quantity="one">Spațiul de stocare al dispozitivului este plin. Atingeți pentru a examina.</item>
         <item quantity="few">Nu putem descărca înregistrările, deoarece spațiul de stocare al dispozitivului este plin. Atingeți pentru a examina.</item>
-    </plurals>
-    <plurals name="downloaded_description">
-        <item quantity="other">S-au descărcat %1$d de înregistrări</item>
-        <item quantity="one">S-a descărcat %1$d înregistrare</item>
-        <item quantity="few">S-au descărcat %1$d înregistrări</item>
     </plurals>
     <plurals name="downloading_description">
         <item quantity="other">Se descarcă %1$d de înregistrări</item>
         <item quantity="one">Se descarcă %1$d înregistrare</item>
         <item quantity="few">Se descarcă %1$d înregistrări</item>
+    </plurals>
+    <plurals name="og_backup_failed_title">
+        <item quantity="other">Nu s-a făcut backup pentru %1$d de elemente</item>
+        <item quantity="one">Nu s-a făcut backup pentru %1$d element</item>
+        <item quantity="few">Nu s-a făcut backup pentru %1$d elemente</item>
+    </plurals>
+    <plurals name="og_backup_items_left">
+        <item quantity="other">%1$d de elemente rămase</item>
+        <item quantity="one">%1$d element rămas</item>
+        <item quantity="few">%1$d elemente rămase</item>
+    </plurals>
+    <plurals name="og_backup_items_stopped_title">
+        <item quantity="other">Nu s-a făcut backup pentru %1$d de elemente</item>
+        <item quantity="one">Nu s-a făcut backup pentru %1$d element</item>
+        <item quantity="few">Nu s-a făcut backup pentru %1$d elemente</item>
     </plurals>
     <plurals name="search_results_count">
         <item quantity="other">%1$d de rezultate</item>
@@ -46,9 +51,9 @@
         <item quantity="few">%1$d rezultate</item>
     </plurals>
     <plurals name="search_results_position">
-        <item quantity="other">%1$d/%2$d de rezultate</item>
-        <item quantity="one">%1$d/%2$d rezultat</item>
-        <item quantity="few">%1$d/%2$d rezultate</item>
+        <item quantity="other">^1/^2 de rezultate</item>
+        <item quantity="one">^1/^2 rezultat</item>
+        <item quantity="few">^1/^2 rezultate</item>
     </plurals>
     <plurals name="search_results_position_content_description">
         <item quantity="other">%1$d din %2$d de rezultate</item>
@@ -64,11 +69,6 @@
         <item quantity="other">Spațiul de stocare al dispozitivului este plin. Nu putem descărca înregistrările.</item>
         <item quantity="one">Spațiul de stocare al dispozitivului este plin. Nu putem descărca înregistrarea.</item>
         <item quantity="few">Spațiul de stocare al dispozitivului este plin. Nu putem descărca înregistrările.</item>
-    </plurals>
-    <plurals name="uploaded_description">
-        <item quantity="other">S-au încărcat %1$d de înregistrări</item>
-        <item quantity="one">S-a încărcat %1$d înregistrare</item>
-        <item quantity="few">S-au încărcat %1$d înregistrări</item>
     </plurals>
     <plurals name="uploading_description">
         <item quantity="other">Se încarcă %1$d de înregistrări</item>

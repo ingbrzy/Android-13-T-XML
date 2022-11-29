@@ -28,7 +28,6 @@
     <string name="about_application_pp_tos_settings">簡介、條款及隱私權</string>
     <string name="accessbility_suggestion_dropdown_closed">沒有建議收件者</string>
     <string name="accessbility_suggestion_dropdown_opened">已開啟聯絡人建議</string>
-    <string name="acs_url_dropdown_hint">設定 ACS 網址</string>
     <string name="action_add_contact">新增聯絡人</string>
     <string name="action_advanced_feedback">提供意見</string>
     <string name="action_archive">封存</string>
@@ -47,18 +46,19 @@
     <string name="action_help_and_feedback">說明與意見回饋</string>
     <string name="action_info_and_options">資訊和選項</string>
     <string name="action_jump_to_chat">在即時通訊中查看</string>
+    <string name="action_meet_video_call">Meet 視訊通話</string>
     <string name="action_menu_mark_all_as_read">全部標為已讀取</string>
     <string name="action_menu_show_archived">已封存</string>
     <string name="action_menu_show_spam_folder">垃圾內容與已封鎖的對話</string>
     <string name="action_notification_off">關閉通知</string>
     <string name="action_notification_on">開啟通知</string>
     <string name="action_notification_settings">忽略通知</string>
+    <string name="action_off">關閉</string>
     <string name="action_pair_device">裝置配對</string>
     <string name="action_people_and_options">詳細資料</string>
     <string name="action_people_and_options_group">群組詳細資料</string>
     <string name="action_pin_to_top">固定至頂端</string>
     <string name="action_report_spam">檢舉垃圾訊息</string>
-    <string name="action_scan_qr_code">訊息網頁版</string>
     <string name="action_search">搜尋</string>
     <string name="action_search_gifs">搜尋 GIF</string>
     <string name="action_search_messages">搜尋訊息</string>
@@ -77,6 +77,7 @@
     <string name="action_viLTE_video_call">電信業者視訊通話</string>
     <string name="action_video_call">撥打視訊通話</string>
     <string name="actionbar_subtitle_name_prefix">通訊對象：%s</string>
+    <string name="active_reminder">提醒</string>
     <string name="active_sim_content_message">已選取「%s」</string>
     <string name="activity_not_found_message">找不到適用的應用程式</string>
     <string name="add_area_code_banner_button">新增區碼</string>
@@ -90,6 +91,7 @@
     <string name="add_contact_confirmation_dialog_title">加到聯絡人？</string>
     <string name="add_country_code_banner_button">新增國家/地區代碼</string>
     <string name="add_more_participants_button_content_description">新增更多參與者</string>
+    <string name="add_reaction_content_description">使用自訂回應做出回應</string>
     <string name="add_reaction_for_assistant_card_rcs_fallback_text">對 Google 助理資訊卡回應 ​%1$s​</string>
     <string name="add_reaction_for_audio_rcs_fallback_text">對音訊檔案表示 ​%1$s​</string>
     <string name="add_reaction_for_contact_rcs_fallback_text">對聯絡人表示 ​%1$s​</string>
@@ -97,7 +99,7 @@
     <string name="add_reaction_for_gif_rcs_fallback_text">對 GIF 表示 ​%1$s​</string>
     <string name="add_reaction_for_link_rcs_fallback_text">對連結表示 ​%1$s​</string>
     <string name="add_reaction_for_photo_rcs_fallback_text">對相片表示 ​%1$s​</string>
-    <string name="add_reaction_for_text_message_rcs_fallback_text">對「%2$s」表示 ​%1$s​</string>
+    <string name="add_reaction_for_text_message_rcs_fallback_text">對「 %2$s 」表示 ​%1$s​</string>
     <string name="add_reaction_for_unknown_message_type_rcs_fallback_text">對不明訊息類型表示 ​%1$s​</string>
     <string name="add_reaction_for_video_rcs_fallback_text">對影片表示 ​%1$s​</string>
     <string name="advanced_feedback_activity_disclaimer">訊息中的內容和文字 (螢幕截圖中的項目例外) 不會傳送給 Google</string>
@@ -134,14 +136,13 @@
     <string name="apn_mnc">MNC</string>
     <string name="app_name">訊息</string>
     <string name="app_settings_conversation_pref_title">應用程式設定</string>
-    <string name="apply_button">套用</string>
     <string name="archived_activity_title">已封存</string>
     <string name="archived_conversation_list_empty_text">封存的對話會顯示在這裡</string>
     <string name="area_code_banner_description">@string/banner_description</string>
     <string name="assistant_movies_shortcut_title">電影</string>
+    <string name="assistant_preference_summary">顯示餐飲、電影等項目的相關資訊</string>
     <string name="assistant_preference_title">Google 助理建議</string>
     <string name="assistant_restaurants_shortcut_title">餐廳</string>
-    <string name="assistant_send_to_chip_default_group_name">群組</string>
     <string name="assistant_suggestions_tooltip_text">「訊息」應用程式會為你提供建議，並將對話保留在裝置中。只要輕觸這些建議，即可查看及分享由 Google 助理提供的資訊。 &lt;br/> &lt;br/> 如要&lt;a href>瞭解詳情&lt;/a>及管理相關設定，請前往&lt;a href>設定&lt;/a></string>
     <string name="assistant_suggestions_tooltip_title_text">輕觸一下即可取得各項資訊</string>
     <string name="assistant_weather_shortcut_title">天氣</string>
@@ -157,12 +158,18 @@
     <string name="attachment_location">位置資訊</string>
     <string name="attachment_picture">相片</string>
     <string name="attachment_preview_close_content_description">捨棄附件</string>
+    <string name="attachment_preview_photos_link_share_getting_link">正在取得連結…</string>
+    <string name="attachment_preview_photos_link_share_no_upload_needed">先前已上傳</string>
+    <string name="attachment_preview_photos_link_share_upload_size">上傳大小：%s</string>
+    <string name="attachment_preview_photos_link_share_upload_size_failure">不明</string>
+    <string name="attachment_preview_photos_link_share_upload_size_placeholder">計算中…</string>
     <string name="attachment_unsupported_file">不支援的檔案</string>
     <string name="attachment_vcard">聯絡人資訊卡</string>
     <string name="attachment_video">影片</string>
     <string name="audio_attachment_content_description">音訊附件</string>
     <string name="audio_attachment_seek_playback_description">音訊播放</string>
     <string name="audio_button_view_content_description">輕觸兩下並按住即可錄音，向左滑動即可取消</string>
+    <string name="audio_format_type">音訊</string>
     <string name="audio_pause_content_description">暫停</string>
     <string name="audio_play_content_description">播放音訊附件</string>
     <string name="audio_recorder_call_in_progress">通話期間無法錄音</string>
@@ -181,6 +188,8 @@
     <string name="auto_selected_country_summary">自動偵測 (%1$s)</string>
     <string name="automoved_spam_notification_action_dismiss">關閉</string>
     <string name="automoved_spam_notification_action_view">查看</string>
+    <string name="automoved_spam_notification_content_text">收到的垃圾內容已移至「垃圾內容和已封鎖的訊息」資料夾</string>
+    <string name="automoved_spam_notification_content_title">偵測到垃圾內容</string>
     <string name="avatar_no_connection_msg">沒有網際網路連線</string>
     <string name="avatar_promo_create">建立</string>
     <string name="avatar_promo_see_all">查看全部</string>
@@ -192,7 +201,8 @@
     <string name="birthday_banner_description">@string/banner_description</string>
     <string name="birthday_banner_dismiss_button_text">關閉</string>
     <string name="birthday_banner_settings_button_text">前往設定管理</string>
-    <string name="birthday_info_text">「訊息」應用程式會根據裝置上的聯絡人生日資料設定生日提醒</string>
+    <string name="birthday_info_text">系統會根據裝置聯絡人應用程式中的生日資訊顯示這些提醒。</string>
+    <string name="birthday_info_text_with_settings">系統會根據裝置聯絡人應用程式中的生日資訊顯示這些提醒。&lt;a href>%1$s&lt;/a></string>
     <string name="birthday_nudge_enabled_pref_summary">如果你在裝置上的聯絡人有生日資訊，系統就會在對方過生日時提醒你</string>
     <string name="birthday_nudge_enabled_pref_title">生日提醒</string>
     <string name="block_confirmation_message_spam_folder">你會繼續收到「%1$s」的訊息，但不會再收到相關通知。系統會將這個對話移至「已封鎖的垃圾訊息」。</string>
@@ -212,9 +222,13 @@
     <string name="boew_promo_text">如要使用聊天功能 (例如透過 Wi‑Fi 和行動數據網路收發訊息)，請允許「訊息」繼續在背景中執行</string>
     <string name="boew_promo_title">充分運用「訊息」的各項功能</string>
     <string name="bottomsheet_action_expand_halfway">展開一半</string>
+    <string name="bottomsheet_drag_handle_content_description">拖曳控點</string>
     <string name="broadcast_receiver_notification_text_extra_info">「訊息」應用程式正在背景執行。如果這則通知顯示超過一分鐘，請回報問題。收件者名稱：%1$s</string>
     <string name="broadcast_sms_text">群組簡訊</string>
     <string name="bubble_settings_title">對話框</string>
+    <string name="bugle_add_account_error">無法新增帳戶，請再試一次。</string>
+    <string name="bugle_fix_it">修正問題</string>
+    <string name="bugle_load_account_failure">無法載入帳戶。</string>
     <string name="bugle_notification_category_conversations">對話</string>
     <string name="bugle_notification_category_default_settings">預設設定</string>
     <string name="bugle_notification_category_reminders">提醒</string>
@@ -226,6 +240,8 @@
     <string name="bugle_notification_reminders_channel_name">提醒</string>
     <string name="bugle_notification_report_issue_channel_name">「訊息」意見回饋要求</string>
     <string name="bugle_notification_silent_default_channel_name">使用網頁版時接收通知</string>
+    <string name="bugle_play_services_error">無法查詢 Google Play 服務。</string>
+    <string name="bugle_retry">重試</string>
     <string name="business_action_call_full_content_description">撥打 %1$s (%2$s)</string>
     <string name="business_action_call_short_content_description">來電</string>
     <string name="business_action_call_short_text_m2">撥號</string>
@@ -287,6 +303,7 @@
     <string name="c2o_single_file_attachment_size_limit_exceed">附件太大，系統無法傳送。請傳送小於 %s 的檔案</string>
     <string name="c2o_storage_permissions_text">輕觸這裡即可授予媒體存取權</string>
     <string name="c2o_video_button_text">影片</string>
+    <string name="calendar_badge_content_description">日曆標記</string>
     <string name="calendar_event_added">已儲存活動</string>
     <string name="calendar_file_content_description">日曆檔</string>
     <string name="calendar_suggestion_event_chat_title">Android 訊息即時通訊</string>
@@ -297,6 +314,7 @@
     <string name="camera_attach_media">附加</string>
     <string name="camera_attach_media_description">附加到訊息</string>
     <string name="camera_back_switch_button">後置鏡頭切換按鈕</string>
+    <string name="camera_capture_button_label">拍照</string>
     <string name="camera_flash_off">關閉閃光燈</string>
     <string name="camera_flash_on">開啟閃光燈</string>
     <string name="camera_front_switch_button">前置鏡頭切換按鈕</string>
@@ -397,6 +415,11 @@
     <string name="common_google_play_services_update_text">您必須更新 Google Play 服務，才能執行「%1$s」。</string>
     <string name="common_google_play_services_update_title">更新 Google Play 服務</string>
     <string name="common_google_play_services_updating_text">執行「%1$s」所需的 Google Play 服務正在更新。</string>
+    <string name="common_google_play_services_wear_update_text">必須使用新版 Google Play 服務。該服務稍後就會自動更新。</string>
+    <string name="common_open_on_phone">在手機上開啟</string>
+    <string name="complete_photos_app_onboarding">開啟 Google 相簿</string>
+    <string name="complete_photos_app_onboarding_title">如要繼續，請將必要權限授予 Google 相簿</string>
+    <string name="complete_photos_app_onboarding_to_continue">開始使用 Google 相簿應用程式</string>
     <string name="compose_message_view_hint_text">傳送即時通訊訊息</string>
     <string name="compose_message_view_hint_text_multi_sim_rcs">進行即時通訊 (%s)</string>
     <string name="compose_message_view_hint_text_multi_sim_sms_mms">訊息 (透過 %s 傳送)</string>
@@ -418,15 +441,12 @@
     <string name="contact_has_multiple_destinations_phone">%1$s (另有 %2$s 組電話號碼)</string>
     <string name="contact_has_multiple_destinations_type">多種</string>
     <string name="contact_list_add_people">新增 %s</string>
-    <string name="contact_list_empty_text">輸入聯絡人名稱或電話號碼，即可開始傳送新訊息</string>
     <string name="contact_list_send_to_text">傳送至 %s</string>
     <string name="contact_picker_autocomplete_added">已加入%1$s，目前處於編輯狀態</string>
     <string name="contact_picker_autocomplete_deleted">已刪除%1$s，目前處於編輯狀態</string>
-    <string name="contact_picker_cant_add_destination_twice">群組中已有這組號碼</string>
     <string name="contact_picker_cant_remove_from_existing">無法從現有對話中移除號碼</string>
     <string name="contact_picker_cant_remove_from_screen">如要移除成員，請前往 [群組詳細資料]&lt;b>&lt;/b></string>
     <string name="contact_picker_confirm_participants_button_label">繼續</string>
-    <string name="contact_picker_group_create_label">建立群組</string>
     <string name="contact_picker_group_v2_create_label">建立群組</string>
     <string name="contact_picker_message_a_business_label">與商家進行即時通訊</string>
     <string name="contact_picker_title_add_people">新增參與者</string>
@@ -449,10 +469,14 @@
     <string name="content_description_link_to_settings">前往「設定」管理</string>
     <string name="contextual_action_bar_description_prefix">顯示動作工具列：%s。向上瀏覽即可選取動作或關閉工具列。</string>
     <string name="conversation_area_code_popup_paragraph">「訊息」應用程式不知道區碼，因此會嘗試將訊息傳送到 %1$s。建議你為這位聯絡人新增區碼，以利日後傳送訊息。%2$s</string>
+    <string name="conversation_block_failed_message">未封鎖，請檢查連線</string>
+    <string name="conversation_blocking_message">封鎖中…</string>
     <string name="conversation_country_code_popup_paragraph">替這筆聯絡人資料加上國家/地區代碼 (%2$s的代碼為 %1$s)，讓訊息可以傳送給正確的對象。%3$s</string>
     <string name="conversation_creation_failed">無法建立對話，請稍後再試。</string>
     <string name="conversation_creation_failure">無法發起對話</string>
+    <string name="conversation_deleting_message">刪除中…</string>
     <string name="conversation_deletion_failed">無法刪除對話</string>
+    <string name="conversation_deletion_failed_message">未刪除，請檢查連線</string>
     <string name="conversation_empty_name">空白</string>
     <string name="conversation_label_all">全部</string>
     <string name="conversation_label_business_updates">公司</string>
@@ -479,7 +503,6 @@
     <string name="conversation_list_item_view_draft_message">草稿</string>
     <string name="conversation_list_item_view_sent_from_other_prefix">%s：</string>
     <string name="conversation_list_item_view_sent_from_you_prefix">你：</string>
-    <string name="conversation_list_loading_item_description">正在載入對話</string>
     <string name="conversation_list_message_fail_to_decrypt">無法解密</string>
     <string name="conversation_list_rcs_promo_button_negative">不要升級應用程式</string>
     <string name="conversation_list_rcs_promo_button_positive">立即升級</string>
@@ -491,7 +514,6 @@
     <string name="conversation_list_snippet_link">連結</string>
     <string name="conversation_list_spam_popup_negative">在「設定」中管理</string>
     <string name="conversation_list_spam_popup_paragraph">Google 會使用不明寄件者和收件者的電話號碼來協助你阻擋垃圾內容。請放心，系統不會將你的訊息和聯絡人傳送給 Google。%1$s</string>
-    <string name="conversation_list_spam_popup_paragraph_on_device">「訊息」應用程式會使用機器學習智慧功能偵測垃圾訊息，並將這類訊息的部分相關資料傳送給 Google。請放心，這些資料不包含你的電話號碼或訊息內容。%1$s</string>
     <string name="conversation_list_spam_popup_positive">確定</string>
     <string name="conversation_list_spam_popup_title">垃圾訊息阻擋</string>
     <string name="conversation_list_terms_and_conditions_promo_subtitle">開啟即時通訊功能後，即可透過 Wi-Fi 收發訊息，還可執行多種 RCS 專屬的功能</string>
@@ -514,6 +536,7 @@
     <string name="conversation_suggestion_set_reminder_action">建議的提醒設定操作</string>
     <string name="conversation_suggestion_share_location_action">建議的位置資訊分享動作</string>
     <string name="conversation_suggestion_share_location_action_failure">發生錯誤。如要分享你的位置資訊，請在新訊息中新增位置。</string>
+    <string name="conversation_suggestion_star_action">建議加上星號</string>
     <string name="conversation_suggestion_sticker">建議的貼圖</string>
     <string name="copy">複製</string>
     <string name="copy_to_clipboard">複製</string>
@@ -523,6 +546,7 @@
     <string name="create_group_info_title">新增群組名稱</string>
     <string name="create_new_group_message">如果新增這位使用者，系統將建立不具即時通訊功能的新群組</string>
     <string name="current_country_pref_title">你目前所在的國家/地區</string>
+    <string name="custom_reaction_selection_prompt">選取表情符號</string>
     <string name="dark_mode_disable_title">停用深色模式</string>
     <string name="dark_mode_enable_title">啟用深色模式</string>
     <string name="dasher_disabled_notification_body">請與你的系統管理員聯絡或使用其他帳戶登入。</string>
@@ -590,12 +614,9 @@
     <string name="ditto_activity_label">裝置配對</string>
     <string name="ditto_foreground_service_device_pairing_notification_text">你的訊息會顯示在已配對的裝置上</string>
     <string name="ditto_foreground_service_device_pairing_notification_title">裝置配對</string>
-    <string name="ditto_foreground_service_notification_text">你的訊息會出現在已配對的電腦上</string>
-    <string name="ditto_foreground_service_notification_title">訊息網頁版</string>
     <string name="ditto_foreground_service_sign_out">解除配對</string>
     <string name="ditto_persistent_notification_settings">通知</string>
     <string name="ditto_settings_action_bar_title">通知</string>
-    <string name="ditto_settings_connected_to_web_notification_description">當裝置上線時顯示「訊息網頁版」</string>
     <string name="ditto_settings_connected_to_web_notification_title">顯示常駐通知</string>
     <string name="ditto_settings_device_paired_notification_description">當裝置連上網路時，就會顯示「裝置配對」</string>
     <string name="ditto_settings_while_using_web_notification_description">當裝置連上網路時，關閉鈴聲和震動設定</string>
@@ -636,6 +657,7 @@
     <string name="dump_mms_pref_title">傾印多媒體訊息</string>
     <string name="dump_sms_pref_summary">將收到的簡訊原始資料傾印到外部儲存空間檔案</string>
     <string name="dump_sms_pref_title">傾印簡訊</string>
+    <string name="duplicate_upload_snackbar">不包含某些重複的圖片</string>
     <string name="e2ee_conversation_tombstone">正在與%1$s進行端對端加密即時通訊</string>
     <string name="e2ee_conversation_tombstone_with_learn_more">正在與%1$s進行端對端加密即時通訊。%2$s</string>
     <string name="e2ee_fail_to_send_retry_description">以即時通訊形式重新傳送</string>
@@ -674,7 +696,6 @@
 重新連上即時通訊功能後，就會切換回「訊息」應用程式。"</string>
     <string name="enable_rcs_auto_fallback_dialog_title">要自動以簡訊/多媒體訊息形式重新傳送嗎？</string>
     <string name="enable_rcs_auto_fallback_title">自動以簡訊/多媒體訊息形式重新傳送</string>
-    <string name="enable_rcs_fallback_to_sms_title">重新傳送未能成功送達的訊息</string>
     <string name="enable_rcs_fallback_to_xms_title">重新傳送未能成功送達的訊息</string>
     <string name="enable_rcs_summary_off">在可用時透過 Wi-Fi 或行動數據服務收發訊息</string>
     <string name="enable_rcs_summary_on">利用行動數據服務 (如果可用) 收發簡訊</string>
@@ -686,9 +707,13 @@
     <string name="enter_phone_number_title">驗證你的手機號碼</string>
     <string name="enter_phone_number_title_for_sim">確認「%1$s」的電話號碼</string>
     <string name="enumeration_comma">、</string>
+    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_failed_to_save_setting">無法儲存，請再試一次。</string>
     <string name="error_icon_content_description">錯誤</string>
     <string name="error_premium_sms_needs_permission">如要傳送這則訊息，請前往裝置的「設定」，然後啟用「付費簡訊」存取權</string>
+    <string name="error_text_draft_is_reply_to_missing_message">無法回覆已刪除的訊息</string>
+    <string name="error_text_draft_is_reply_without_rcs">使用即時通訊功能時發生問題，請試試直接傳送訊息，不要使用回覆功能。</string>
+    <string name="error_text_scheduled_send_with_draft_reply">目前無法設定回覆時間</string>
     <string name="etouffee_to_rcs_notification">系統偵測到對話中的訊息未經端對端加密處理。輕觸即可提供意見。</string>
     <string name="etouffee_to_telephony_setting">隱私權</string>
     <string name="etouffee_to_telephony_setting_description">"簡訊權限涵蓋端對端加密訊息，因此你必須授予這項權限，Android 才能備份這類訊息、在車輛中或隨附裝置上朗讀訊息內容，以及執行其他操作。你可以在 Android 設定中查看及管理具有簡訊權限的應用程式。
@@ -714,19 +739,24 @@
     <string name="exo_controls_pause_description">暫停</string>
     <string name="exo_controls_play_description">播放</string>
     <string name="exo_controls_previous_description">返回</string>
-    <string name="exo_controls_repeat_all_description">重複播放所有項目</string>
-    <string name="exo_controls_repeat_off_description">不重複播放</string>
-    <string name="exo_controls_repeat_one_description">重複播放單一項目</string>
+    <string name="exo_controls_repeat_all_description">目前模式：重複播放所有項目。切換重複播放模式。</string>
+    <string name="exo_controls_repeat_off_description">目前模式：不重複播放。切換重複播放模式。</string>
+    <string name="exo_controls_repeat_one_description">目前模式：重複播放單一項目。切換重複播放模式。</string>
     <string name="exo_controls_rewind_description">倒轉</string>
     <string name="exo_controls_show">顯示播放器控制選項</string>
-    <string name="exo_controls_shuffle_off_description">隨機播放已關閉</string>
-    <string name="exo_controls_shuffle_on_description">隨機播放已開啟</string>
+    <string name="exo_controls_shuffle_off_description">啟用隨機播放模式</string>
+    <string name="exo_controls_shuffle_on_description">停用隨機播放模式</string>
     <string name="exo_controls_vr_description">虛擬實境模式</string>
     <string name="exo_track_selection_auto">自動</string>
     <string name="exo_track_selection_none">無</string>
     <string name="expand_attach_button_content_description">展開附件按鈕</string>
     <string name="expand_button_title">進階</string>
     <string name="exposed_dropdown_menu_content_description">顯示下拉式選單</string>
+    <string name="express_sign_in_illustration_content_description">媒體分享功能的插圖</string>
+    <string name="express_sign_in_sub_title">"只要登入帳戶並傳送 Google 相簿連結，
+就能維持影片內容的清晰度。"</string>
+    <string name="express_sign_in_title">"分享影片
+清晰不失真"</string>
     <string name="fail_to_decrypt_message_metadata">無法解密，輕觸即可查看選項</string>
     <string name="fail_to_load_dialog_negative_button">透過裝置 SIM 卡傳送訊息</string>
     <string name="fail_to_load_dialog_positive_button">重試</string>
@@ -740,9 +770,10 @@
     <string name="failed_message_content_description">訊息傳送失敗，輕觸即可重試。</string>
     <string name="failed_qr_pairing_dialog_message">發生錯誤，請稍候片刻再重試。</string>
     <string name="failed_qr_pairing_dialog_positive_button_text">確定</string>
+    <string name="failed_to_select_attachment_from_system_picker">無法選取這個附件</string>
     <string name="fast_track_negative_button_text">不用了，謝謝</string>
     <string name="fast_track_popup_accepted_snack_bar_text">正在設定即時通訊功能。系統會在即時通訊功能就緒時通知你。</string>
-    <string name="fast_track_popup_declined_snack_bar_text">你隨時可以前往 [設定] 開啟即時通訊功能。</string>
+    <string name="fast_track_popup_declined_snack_bar_text">你隨時可以在「設定」中開啟即時通訊功能。</string>
     <string name="fast_track_positive_button_text">是，我要啟用</string>
     <string name="fast_track_positive_button_text_experiment">同意</string>
     <string name="fast_track_privacy_policy">隱私權政策</string>
@@ -805,6 +836,9 @@
     <string name="fi_settings_download_over_wifi_title">僅透過 Wi-Fi 同步處理媒體附件</string>
     <string name="fi_settings_opt_out_failed">目前無法停止同步處理並登出帳戶，請稍後再試。</string>
     <string name="fi_settings_opt_out_in_progress">正在停止同步處理並登出帳戶</string>
+    <string name="fi_settings_redirect_button">管理備份</string>
+    <string name="fi_settings_redirect_summary">你可以在帳戶選單底下找到這些設定</string>
+    <string name="fi_settings_redirect_title">「備份與同步」設定已移至他處</string>
     <string name="fi_settings_sync_preference_backup_in_progress">備份中：%1$d%%</string>
     <string name="fi_settings_sync_preference_restore_in_progress">還原中：%1$d%%</string>
     <string name="fi_settings_sync_preference_summary">訊息、通話和語音留言會在所有裝置上保持同步</string>
@@ -822,6 +856,7 @@
     <string name="file_transfer_via_sms_other">我已分享一個檔案給你</string>
     <string name="file_transfer_via_sms_video">我已分享一部影片給你</string>
     <string name="files_shortcut_title">檔案</string>
+    <string name="flip_camera_button_label">切換鏡頭</string>
     <string name="floating_toolbar_close_overflow_description">關閉溢位模式</string>
     <string name="floating_toolbar_open_overflow_description">更多選項</string>
     <string name="foreground_service_notification_generic_text">「訊息」應用程式正在背景執行</string>
@@ -835,12 +870,27 @@
     <string name="full_banner_expand_chip_description">展開方塊按鈕</string>
     <string name="full_screen_gallery_action_attach">新增</string>
     <string name="fullscreen_button_description">開啟全螢幕模式</string>
+    <string name="gaia_auth_failure_dialog_body">你必須登入，才能使用 Google 帳戶提供的部分功能</string>
+    <string name="gaia_auth_failure_dialog_title">為驗證你的身分，請重新登入</string>
+    <string name="gallery_google_photos_option_tray_button_add">新增</string>
+    <string name="gallery_google_photos_option_tray_button_always">一律採用</string>
+    <string name="gallery_google_photos_option_tray_button_cancel">取消</string>
+    <string name="gallery_google_photos_option_tray_button_just_once">僅限一次</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_image">較低清析度的圖片</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_unknown">低解析度的媒體</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_body_video">低解析度的影片</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_image">圖像</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_unknown">媒體</string>
+    <string name="gallery_google_photos_option_tray_type_attachment_title_video">影片</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_body">媒體內容清晰呈現，而且你還能在 Google 相簿中管理分享連結。</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_learn_more">瞭解詳情</string>
+    <string name="gallery_google_photos_option_tray_type_photos_link_title">Google 相簿連結</string>
+    <string name="gallery_item_content_description_selected_state">輕觸兩下即可取消選取附加在位置 %2$s 的這個%1$s檔案</string>
+    <string name="gallery_item_content_description_unselected_state">輕觸兩下即可選取這個在 %2$s 拍攝的%1$s</string>
     <string name="general_settings">一般</string>
     <string name="general_settings_activity_title">一般設定</string>
     <string name="general_settings_title_m2">選項</string>
     <string name="generic_issue_text">其他</string>
-    <string name="get_messenger_notification_body">透過手錶或手機讀取及傳送簡訊</string>
-    <string name="get_messenger_notification_header">下載「訊息」</string>
     <string name="get_sticker_packs_error_msg">無法載入貼圖。</string>
     <string name="gif_screen_no_result">找不到相符的結果。請檢查你輸入的搜尋字詞，然後再試一次。</string>
     <string name="gif_screen_title">GIF</string>
@@ -848,10 +898,23 @@
     <string name="gif_search_hint">搜尋 GIF</string>
     <string name="gifs_shortcut_title">GIF</string>
     <string name="go_to_top">查看最新資訊</string>
-    <string name="google_account_pref_title">Google 帳戶</string>
     <string name="google_assistant_verification_channel_name">Google 助理驗證器</string>
     <string name="google_assistant_verification_notification_title">Google 助理正在傳送訊息</string>
     <string name="google_fi_text">Google Fi</string>
+    <string name="google_photos_onboarding_close_button_description">關閉 Google 相簿卡片</string>
+    <string name="google_photos_onboarding_ineligible_title">登入 Google 相簿即可分享畫質清晰的影片</string>
+    <string name="google_photos_onboarding_ineligible_title_photos_and_videos">登入 Google 相簿即可分享畫質清晰的相片和影片</string>
+    <string name="google_photos_onboarding_learn_more">瞭解詳情</string>
+    <string name="google_photos_onboarding_next">繼續</string>
+    <string name="google_photos_onboarding_ok">確定</string>
+    <string name="google_photos_onboarding_signed_in_title_photos_and_videos">登入即可傳送畫質清晰的相片和影片</string>
+    <string name="google_photos_onboarding_signed_out_title">登入即可傳送畫質清晰的影片</string>
+    <string name="google_photos_onboarding_text_body">在多媒體訊息對話中傳送 Google 相簿連結可維持影片的清晰度</string>
+    <string name="google_photos_onboarding_text_body_photos_and_videos_xms">在多媒體訊息對話中傳送 Google 相簿連結可維持媒體的高清晰度</string>
+    <string name="google_photos_onboarding_title">分享清晰不失真的影片</string>
+    <string name="google_photos_onboarding_title_photos_and_videos">分享清晰不失真的相片和影片</string>
+    <string name="google_photos_option_tray">登入即可傳送畫質更清晰的影片</string>
+    <string name="google_photos_option_tray_photos_and_videos">登入即可傳送畫質清晰的相片和影片</string>
     <string name="google_play_protect_title">Google Play 安全防護</string>
     <string name="google_tos_chat_features_tooltip">"進階通訊解決方案 (RCS) 提供各種即時通訊功能，您除了可以查看通訊對象是否正在輸入內容，還能接收讀取回條，以及傳送訊息、檔案和高解析度相片。這項服務會使用行動數據傳送訊息。
 
@@ -865,8 +928,9 @@
 
 您可以在「系統設定」中變更預設的通話 SIM 卡。%1$s"</string>
     <string name="google_tos_multisim_view_accessibility_description">瞭解詳情</string>
+    <string name="google_tos_negative_link_text">不用了，謝謝</string>
     <string name="group_conversation_title_everyone_else_left">我</string>
-    <string name="group_limit_alert_dialog_message">{max_group_size_including_self,plural, =1{上限為 # 人}other{上限為 # 人}}</string>
+    <string name="group_limit_alert_dialog_message">{max_group_size_excluding_self,plural, =1{只能再新增 # 人}other{只能再新增 # 人}}</string>
     <string name="group_mms_pref_title">群組傳訊</string>
     <string name="group_name_edit_text_label">群組名稱</string>
     <string name="guest_cloud_preview">搶先版</string>
@@ -888,14 +952,19 @@
     <string name="hats_lib_thank_you_followup_message">請回答更多問題，協助我們改善產品</string>
     <string name="hidden_sender_address">隱藏的寄件者地址</string>
     <string name="highlighter">螢光筆</string>
+    <string name="how_it_works_link_text">運作方式</string>
+    <string name="hqms_always_send_image_as_link_pref_title">一律透過簡訊/多媒體訊息傳送圖像連結</string>
+    <string name="hqms_always_send_video_as_link_pref_title">一律透過簡訊/多媒體訊息傳送影片連結</string>
+    <string name="hqms_settings_gaia_card_text">前往 Google 相簿管理連結</string>
+    <string name="hqms_settings_info_text">「訊息」應用程式會將影片上傳至 Google 相簿，方便你管理影片連結分享設定。%1$s</string>
+    <string name="hqms_settings_sign_in_prompt_text">登入 Google 帳戶即可使用這項功能</string>
     <string name="hqms_settings_summary">透過簡訊/多媒體訊息分享清晰的影片</string>
     <string name="hqms_settings_title">Google 相簿</string>
     <string name="identity_verification_notification_text">「訊息」應用程式正在驗證收到的訊息</string>
     <string name="ignore">忽略</string>
     <string name="image_attachment_content_description">圖片附件</string>
     <string name="image_compress_info">收件者看到的影像品質可能會因電信業者對多媒體訊息所設的限制而降低</string>
-    <string name="imei_format_dropdown_hint">設定 IMEI 格式</string>
-    <string name="imsi_format_dropdown_hint">設定 IMSI 格式</string>
+    <string name="image_format_type">圖片</string>
     <string name="in_conversation_blocked_contact_text">這場對話中有部分聯絡人遭到封鎖，因此你可能無法看到所有訊息。</string>
     <string name="in_conversation_notify_new_message_action">查看</string>
     <string name="in_conversation_notify_new_message_text">新訊息</string>
@@ -905,7 +974,7 @@
     <string name="incoming_message_for_secondary_user_notification_title">新訊息</string>
     <string name="incoming_message_foreground_notification_text">「訊息」應用程式正在處理收到的訊息</string>
     <string name="incoming_mms_disabled_by_company_pref_summary">貴公司不允許你接收多媒體訊息</string>
-    <string name="indeterminate">沒有勾選也沒有取消勾選</string>
+    <string name="indeterminate">部分檢查</string>
     <string name="info_and_options_activity_business_tab_list_header">商家</string>
     <string name="info_and_options_activity_info_tab_content_description">資訊</string>
     <string name="info_and_options_activity_info_tab_title">資訊</string>
@@ -916,6 +985,9 @@
     <string name="info_and_options_view_terms_of_service">查看《服務條款》</string>
     <string name="inline_playback_error">無法在「訊息」應用程式中播放這部影片</string>
     <string name="inline_playback_pause_content_description">暫停影片</string>
+    <string name="install_photos_app">安裝 Google 相簿</string>
+    <string name="install_photos_app_title">如要繼續，請安裝 Google 相簿應用程式</string>
+    <string name="install_photos_app_to_continue">安裝應用程式即可傳送畫質清晰的影片</string>
     <string name="invalid_qr_code_dialog_message">如要登入，請掃描 %s 頁面上的 QR 圖碼</string>
     <string name="invalid_qr_code_dialog_positive_button_text">確定</string>
     <string name="invalid_qr_code_dialog_title">QR 圖碼不正確</string>
@@ -929,14 +1001,12 @@
     <string name="leave_confirmation_text">確定要停止接收這個群組的訊息嗎？</string>
     <string name="leave_confirmation_title">永久退出群組</string>
     <string name="libraries_material_featurehighlight_dismiss">關閉</string>
-    <string name="link_preview_enabled_pref_summary">在訊息中顯示預覽畫面</string>
+    <string name="lighter_account_sign_out_snackbar_text">登入即可查看你的商家對話</string>
+    <string name="lighter_block_report_spam_body">系統會將你與這個商家間的對話及其商家名稱傳送給 Google (電信業者可能會收取相關費用)。</string>
     <string name="link_preview_enabled_pref_summary_off">關閉</string>
     <string name="link_preview_failed">無法預覽</string>
     <string name="link_preview_google_photos_display_name">Google 相簿</string>
-    <string name="link_preview_preference_info_text">Google 會從連結的網站中取得預覽內容。除非傳送連結的人是你知道的聯絡人，否則系統不會顯示預覽畫面。%1$s</string>
-    <string name="link_preview_preference_title">自動顯示連結預覽畫面</string>
     <string name="link_preview_tap_to_load">輕觸即可載入預覽畫面</string>
-    <string name="link_preview_wifi_only_pref_summary">僅使用 Wi-Fi 下載預覽畫面</string>
     <string name="link_to_settings"><u>前往「設定」管理</u></string>
     <string name="listify_many">%1$s和另外 %2$d 人</string>
     <string name="listify_one">%s</string>
@@ -983,13 +1053,13 @@
     <string name="manual_msisdn_skipped_snack_bar_text">尚未啟用進階即時通訊功能。你隨時可以在設定頁面啟用此功能。</string>
     <string name="manual_msisdn_skipped_snack_bar_text_b155475148">「訊息」應用程式會向電信業者驗證你的電話號碼。前往「設定」進行管理。</string>
     <string name="manual_msisdn_verify_now_snack_bar_text_b155475148">「訊息」應用程式會向電信業者驗證你的電話號碼。前往「設定」進行管理。</string>
-    <string name="manually_override_rcs_flags">手動覆寫 RCS 標記</string>
     <string name="mark_all_messages_as_read_confirmation">已將所有訊息標為已讀取</string>
     <string name="mdd_download_notification_channel_name">資料下載通知管道</string>
     <string name="mdd_foreground_service_notification_title">下載中</string>
     <string name="mdd_notification_action_cancel">取消</string>
     <string name="mdd_notification_download_failed">下載失敗</string>
     <string name="mdd_notification_download_paused">正在等待網路連線</string>
+    <string name="mdd_notification_download_paused_wifi">正在等待 Wi-Fi 連線</string>
     <string name="media_compress_info">由於電信業者對多媒體訊息設定限制，收件者看到的媒體品質會降低</string>
     <string name="media_compress_tooltip_info_icon_text">資訊</string>
     <string name="media_viewer_close_button_description">關閉</string>
@@ -1088,6 +1158,8 @@
     <string name="message_type_vcard">聯絡人卡片</string>
     <string name="message_type_video">影片</string>
     <string name="message_video_content_description">影片</string>
+    <string name="message_with_deleted_snippet_talk_back_announcement">%1$s以回應已刪除的訊息</string>
+    <string name="message_with_reply_snippet_talk_back_announcement">%1$s以回應%3$s的「%2$s」</string>
     <string name="messages_for_web_preference_summary">前往 %1$s</string>
     <string name="messages_for_web_preference_title">透過網頁版服務傳送訊息、撥打電話及檢查語音留言</string>
     <string name="messages_status_feedback_data_description">"所有建議的資訊都能協助我們找出潛藏的問題、各種成因和彼此間的關聯，以及要解決的問題所在。
@@ -1138,14 +1210,18 @@
     <string name="mms_group_conversation_changed_to">這個對話現已改為群組多媒體訊息</string>
     <string name="mms_group_conversation_details">所有人都能回覆及查看彼此的訊息</string>
     <string name="mms_phone_number_pref_title">電話號碼</string>
-    <string name="mms_text">多媒體訊息</string>
+    <string name="mms_text">MMS</string>
     <string name="more_string">+%1$d 人</string>
     <string name="mtrl_badge_numberless_content_description">新通知</string>
+    <string name="mtrl_checkbox_state_description_checked">Checked</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Indeterminate</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Not checked</string>
     <string name="mtrl_chip_close_icon_content_description">移除 %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description">超過 %1$d 則新通知</string>
     <string name="mtrl_picker_a11y_next_month">變更至下個月</string>
     <string name="mtrl_picker_a11y_prev_month">變更至上個月</string>
     <string name="mtrl_picker_announce_current_selection">目前選取：%1$s</string>
+    <string name="mtrl_picker_cancel">取消</string>
     <string name="mtrl_picker_confirm">確定</string>
     <string name="mtrl_picker_day_of_week_column_header">星期幾資料欄：%1$s</string>
     <string name="mtrl_picker_navigate_to_year_description">前往 %1$s 年</string>
@@ -1157,11 +1233,24 @@
     <string name="multimedia_message">多媒體訊息</string>
     <string name="muted_conversation_content_description">已停用通知。</string>
     <string name="nav_app_bar_navigate_up_description">向上瀏覽</string>
+    <string name="nav_archived_messages_folder_title">已封存</string>
+    <string name="nav_choose_theme_title">選擇主題</string>
+    <string name="nav_choose_theme_title_disable_dark_mode">停用深色模式</string>
+    <string name="nav_choose_theme_title_enable_dark_mode">啟用深色模式</string>
+    <string name="nav_device_pairing_title">裝置配對</string>
+    <string name="nav_mark_all_as_read_title">全部標為已讀</string>
+    <string name="nav_messages_folder_title">訊息</string>
+    <string name="nav_spam_and_blocked_messages_folder_title">垃圾內容和已封鎖的訊息</string>
+    <string name="nav_starred_folder_title">已加星號</string>
     <string name="navigate_up_button_content_description">向上瀏覽</string>
     <string name="new_message_label">{count,plural, =1{1 則新訊息}other{# 則新訊息}}</string>
     <string name="new_pill_label">最新</string>
     <string name="new_rich_cards_preference_info_text">為建立所有預覽畫面及辨識有害內容，Google 會掃描即時通訊記錄中的特定資訊 (例如位置或連結)，但不會辨識你的身分。%1$s</string>
-    <string name="no_google_account">無</string>
+    <string name="no_business_name_fallback">這個商家</string>
+    <string name="no_connection">沒有網路連線</string>
+    <string name="no_media_button">查看選項</string>
+    <string name="no_media_caption">請使用其他媒體來源或資料夾</string>
+    <string name="no_media_description">這個資料夾在這部裝置上未儲存任何媒體</string>
     <string name="no_reply_pinned_message_text">寄件者不支援回覆功能</string>
     <string name="no_sim_message">SIM 卡中未儲存任何訊息</string>
     <string name="not_selected">未選取</string>
@@ -1217,31 +1306,51 @@
     <string name="nudge_learn_more_info_text">進一步瞭解自動提醒</string>
     <string name="nudge_reply_enabled_pref_summary">系統會將可能要回覆的訊息移到頂端</string>
     <string name="nudge_reply_enabled_pref_title">建議回覆提醒</string>
+    <string name="nudge_settings_page_description">顯示回覆和生日提醒</string>
     <string name="nudge_settings_page_title">自動提醒</string>
     <string name="numeric_text_keyboard_toggle_button_content_description">切換輸入的文字和數字</string>
     <string name="off">已關閉</string>
     <string name="og_a11y_close">關閉</string>
     <string name="og_account_and_settings">帳戶和設定。</string>
+    <string name="og_account_particle_disc_no_accounts_available_a11y">登入</string>
     <string name="og_add_another_account">新增其他帳戶</string>
+    <string name="og_app_settings">「%1$s」設定</string>
     <string name="og_choose_an_account_title">選擇帳戶</string>
     <string name="og_collapse_account_list_a11y">收合帳戶清單。</string>
     <string name="og_continue">繼續</string>
     <string name="og_continue_as">以%1$s的身分繼續使用</string>
     <string name="og_expand_account_list_a11y">展開帳戶清單。</string>
+    <string name="og_get_storage_action">購買儲存空間</string>
+    <string name="og_get_storage_action_short">購買更多儲存空間</string>
     <string name="og_google_one_account_a11y">Google One 帳戶。</string>
+    <string name="og_help_feedback">說明與意見回饋</string>
     <string name="og_loading_a11y">載入中</string>
     <string name="og_manage_accounts">管理這個裝置上的帳戶</string>
+    <string name="og_manage_storage_action">管理儲存空間</string>
+    <string name="og_manage_storage_action_short">管理</string>
+    <string name="og_minimized_storage_card_title">儲存空間用量：%1$s (總容量：%2$s GB)</string>
+    <string name="og_more_options_action">更多選項</string>
+    <string name="og_more_options_action_short">選項</string>
     <string name="og_my_account_desc_long_length">管理你的 Google 帳戶</string>
     <string name="og_my_account_desc_meduim_length">Google 帳戶</string>
     <string name="og_my_account_desc_short_length">帳戶</string>
+    <string name="og_privacy_advisor">你在「%1$s」中的資料</string>
     <string name="og_privacy_policy">隱私權政策</string>
     <string name="og_selected_account_a11y">已選取 %1$s。</string>
     <string name="og_sign_in_">登入</string>
     <string name="og_signed_in_as_account">目前的登入身分是%1$s</string>
+    <string name="og_storage_card_almost_full_a11y_label">您的帳戶儲存空間即將用盡</string>
+    <string name="og_storage_card_full_a11y_label">您的帳戶儲存空間已滿</string>
+    <string name="og_storage_card_title">帳戶儲存空間</string>
+    <string name="og_storage_card_title_almost_full">已使用 %1$s 的儲存空間</string>
+    <string name="og_storage_card_title_full">儲存空間已滿</string>
+    <string name="og_storage_progress_subtitle">目前已使用 %1$s GB/%2$s GB</string>
     <string name="og_terms_of_service">服務條款</string>
     <string name="og_use_account_a11y_no_period">使用%1$s</string>
+    <string name="og_use_without_an_account">在不登入帳戶的狀態下使用</string>
     <string name="on">已開啟</string>
     <string name="onboarding_google_tos_with_sms_charges_and_learn_more">啟用 Google 的即時通訊功能，即表示您同意《%1$s》與《%2$s》。Google 將不定期驗證您的電話號碼，方法包括與您的電信業者交換您的裝置資訊 (可能要支付簡訊費用)。%3$s。</string>
+    <string name="open_full_screen_camera_button_label">開啟全螢幕攝影機</string>
     <string name="open_video_trimmer_dialog_negative">取消</string>
     <string name="open_video_trimmer_dialog_positive">剪輯</string>
     <string name="organization">機構</string>
@@ -1255,8 +1364,6 @@
     <string name="otp_auto_deletion_promo_banner_positive_button_text">繼續</string>
     <string name="otp_auto_deletion_promo_banner_title_text">要在 24 小時後自動刪除含有動態密碼的訊息嗎？</string>
     <string name="otp_copied_to_clipboard">已複製代碼</string>
-    <string name="otp_pattern_dropdown_hint">設定動態密碼模式</string>
-    <string name="otp_port_dropdown_hint">設定動態密碼通訊埠</string>
     <string name="outgoing_message_foreground_notification_text">「訊息」應用程式正在處理送出的訊息</string>
     <string name="outgoing_mms_disabled_by_carrier_pref_summary">電信業者不允許你傳送多媒體訊息</string>
     <string name="outgoing_mms_disabled_by_company_pref_summary">貴公司不允許你傳送多媒體訊息</string>
@@ -1282,6 +1389,7 @@
     <string name="paired_desktops_last_connection_time">上次上線時間：%s</string>
     <string name="paired_desktops_last_connection_time_unknown">不明</string>
     <string name="participant_joined_group">%s加入了這個群組</string>
+    <string name="participant_joined_with_learn_more">%1$s加入了這個群組。%2$s</string>
     <string name="participant_left_group">%s退出了這個群組</string>
     <string name="participant_list_add">新增參與者</string>
     <string name="participant_list_count_title_icu">{count,plural, =0{沒有其他成員}=1{另外 1 位成員}other{另外 # 位成員}}</string>
@@ -1299,10 +1407,11 @@
     <string name="permission_promo_continue_button_text">繼續</string>
     <string name="permission_promo_settings_button_text">設定</string>
     <string name="phone_number_input_body_for_mo_text">你可以略過這個步驟，稍後再取得即時通訊功能。如果選取這個選項，「訊息」應用程式會與電信業者驗證你的號碼</string>
-    <string name="phone_number_input_body_text">「訊息」應用程式會驗證你的電話號碼，以確保你能夠取得即時通訊功能</string>
+    <string name="phone_number_input_body_text">「訊息」應用程式會驗證你的電話號碼，確保你能夠取得即時通訊功能</string>
     <string name="phone_number_input_hint">你的電話號碼</string>
+    <string name="phone_number_input_invalid_number_text">電話號碼無效</string>
     <string name="phone_number_input_negative_button_for_mo_text">暫時略過</string>
-    <string name="phone_number_input_negative_button_for_mt_text">稍後提醒</string>
+    <string name="phone_number_input_negative_button_for_mt_text">稍後提醒我</string>
     <string name="phone_number_input_positive_button_text">新增電話號碼</string>
     <string name="phone_number_input_streamlined_body_for_mo_text">你可以透過 Wi-Fi 或行動數據分享相片、影片和其他內容。如要更快啟用即時通訊功能，請立即新增電話號碼。你也可以略過這個步驟，讓「訊息」應用程式嘗試辨識及驗證你的電話號碼。</string>
     <string name="phone_number_input_streamlined_body_text">你可以透過 Wi-Fi 或行動數據分享相片、影片和其他內容。如要啟用即時通訊功能，請立即新增電話號碼。</string>
@@ -1317,10 +1426,25 @@
     <string name="phone_number_input_title_text">如要更快啟用即時通訊功能，請立即新增電話號碼</string>
     <string name="phone_number_input_tos_reminder_text">你先前已同意即時通訊功能的《%1$s》</string>
     <string name="phone_number_input_tos_text">服務條款</string>
+    <string name="phone_number_promo_banner_body_text">如要透過 Wi-Fi 或行動數據傳送畫質清晰的影片、動畫回應等內容，請確認你的電話號碼</string>
+    <string name="phone_number_promo_banner_negative_button_text">關閉</string>
+    <string name="phone_number_promo_banner_positive_button_text">繼續</string>
+    <string name="phone_number_promo_banner_title_text">改善「訊息」應用程式功能的下一步</string>
+    <string name="phone_number_promo_body_text">現在就透過已驗證的電話號碼分享這些內容。你隨時可前往設定管理即時通訊功能</string>
+    <string name="phone_number_promo_body_text_mo">現在就可以透過已驗證的電話號碼分享這些內容。你也可以選擇略過，稍後再取得即時通訊功能。如果選取這個選項，「訊息」應用程式會驗證你的電話號碼。</string>
+    <string name="phone_number_promo_negative_button_text">稍後提醒我</string>
+    <string name="phone_number_promo_negative_button_text_mo">暫時略過</string>
+    <string name="phone_number_promo_positive_button_text">取得即時通訊功能</string>
+    <string name="phone_number_promo_title_text">想透過 Wi-Fi 或行動數據分享相片、影片和其他項目嗎？</string>
+    <string name="phone_number_ui_accepted_snackbar_text">當即時通訊功能可以使用時，系統就會通知你</string>
+    <string name="phone_number_ui_dismissed_snackbar_action_text">設定</string>
+    <string name="phone_number_ui_dismissed_snackbar_text">如要立即取得即時通訊功能，請前往「設定」新增或管理電話號碼</string>
     <string name="photo_taken">已拍照</string>
+    <string name="photos_app_installation_required">如要傳送畫質清晰的影片，請安裝 Google 相簿應用程式</string>
+    <string name="photos_app_onboarding_required">如要傳送畫質清晰的影片，請將必要權限授予 Google 相簿</string>
+    <string name="photos_app_sharing_unavailable_try_again_later">系統暫時無法提供清晰畫質的影片連結。你現在可以傳送清晰度較低的影片。</string>
+    <string name="photos_app_sign_in_required">如要傳送畫質清晰的影片，請登入 Google 相簿</string>
     <string name="picker_disambiguation_title">選取目標號碼</string>
-    <string name="pin_limit_message">你最多可以固定 %1$d 個對話</string>
-    <string name="pin_success_message">已固定 %1$d 個對話，共可固定 %2$d 個對話</string>
     <string name="pinch_zoom_pref_title">雙指撥動即可縮放對話文字</string>
     <string name="places_autocomplete_clear_button">清除搜尋</string>
     <string name="places_autocomplete_label">挑選地點</string>
@@ -1340,7 +1464,7 @@
     <string name="posted_this_year">%1$s%2$s%3$s</string>
     <string name="posted_yesterday">昨天%1$s%2$s</string>
     <string name="preference_copied">已將「%1$s」複製到剪貼簿。</string>
-    <string name="preferences_license_title">開放原始碼授權</string>
+    <string name="preferences_license_title">第三方通知</string>
     <string name="premium_sms_banner_body">如要傳送訊息到 %s 和其他付費簡訊號碼，請前往「設定」頁面開啟這項設定。</string>
     <string name="premium_sms_banner_body_saved_contact">如要傳送訊息到%1$s (%2$s) 和其他付費簡訊號碼，請前往「設定」頁面開啟這項設定。</string>
     <string name="premium_sms_banner_description">@string/banner_description</string>
@@ -1371,10 +1495,11 @@
 這項資訊可幫助我們驗證假設及找出問題成因，以便更快速而有效率地瞭解問題。"</string>
     <string name="problematic_message_feedback_data_rationale_title">訊息和對話的相關資訊有何用處</string>
     <string name="promotion_content_description">這則訊息已歸類為「優惠」訊息</string>
+    <string name="prompt_button_action_not_now">暫時不要</string>
+    <string name="prompt_button_action_sign_in">登入</string>
     <string name="proxy_screen_clear_search">清除搜尋</string>
     <string name="proxy_screen_search">搜尋</string>
     <string name="qr_action_bar_device_pairing_title">裝置配對</string>
-    <string name="qr_action_bar_title">訊息網頁版</string>
     <string name="qr_code_scanner_hint_text">掃描下列網址顯示的 QR 圖碼&lt;br/><b>%s</b></string>
     <string name="qr_code_scanner_preference_button">QR 圖碼掃描器</string>
     <string name="qr_delete_all_paired_desktops_button_text">將所有裝置解除配對</string>
@@ -1389,6 +1514,8 @@
     <string name="qr_welcome_privacy">隱私權政策</string>
     <string name="qr_welcome_terms_of_service">服務條款</string>
     <string name="rbm_block_confirmation_message_spam_folder">日後當「%1$s」傳送訊息給你時，你不會再收到通知。系統會將這個對話移至「已封鎖的垃圾訊息」。%2$s</string>
+    <string name="rbm_block_dialog_body">你不會再收到來自這位傳送者的訊息。系統會將這個對話移至「垃圾內容和已封鎖的訊息」，你隨時可以在當中解除封鎖這位傳送者。</string>
+    <string name="rbm_block_dialog_positive_button_label">封鎖</string>
     <string name="rbm_business_logo_icon_content_description">商家標誌圖示</string>
     <string name="rbm_platform_generalized_verifier_title">經過 %s 驗證</string>
     <string name="rbm_platform_verified_by_google">經 Google 驗證</string>
@@ -1408,6 +1535,7 @@
     <string name="rcs_learn_more_title">%1$s：關於即時通訊功能</string>
     <string name="rcs_learn_more_title_with_no_link">進一步瞭解即時通訊功能</string>
     <string name="rcs_message">進階通訊服務 (RCS) 訊息功能</string>
+    <string name="rcs_message_failed_recipient_lost_encryption_content_description">無法傳送訊息，輕觸即可查看相關選項</string>
     <string name="rcs_message_failed_recipient_lost_rcs_content_description">無法傳送訊息；輕觸即可查看相關選項</string>
     <string name="rcs_mobile_data_auto_download_carrier_format_entry">預設 (%1$s)</string>
     <string name="rcs_mobile_data_auto_download_limit_disable_entry_text">停用</string>
@@ -1490,11 +1618,12 @@
     <string name="reaction_surprised_content_description">張大嘴</string>
     <string name="reactions_promo_announcement">長按即可回應訊息</string>
     <string name="reactions_promo_text">按住即可回應訊息</string>
-    <string name="read_external_storage_permission_description">你必須授予手機的儲存空間存取權，才能從這裡直接觀看圖片庫內容。</string>
+    <string name="read_media_storage_permission_description">你必須授予手機的媒體儲存空間存取權，才能直接從這裡瀏覽圖片庫內容。</string>
     <string name="received_label">接收時間：</string>
     <string name="recipient_hint">輸入姓名、電話號碼或電子郵件</string>
-    <string name="recipient_label">收件者</string>
+    <string name="recipient_label">傳送給</string>
     <string name="recipient_offline_description">等待%s上線…</string>
+    <string name="reminder_badge_content_description">提醒標記</string>
     <string name="reminder_datetime_picker_dialog_delete_button">刪除</string>
     <string name="reminder_datetime_picker_dialog_menu_title_add">設定提醒</string>
     <string name="reminder_datetime_picker_dialog_menu_title_update">更新提醒</string>
@@ -1515,7 +1644,7 @@
     <string name="reminder_suggestions_tooltip_text">輕觸即可選擇後續追蹤時間。如要關閉建議功能，請前往&lt;a href>設定&lt;/a></string>
     <string name="reminder_suggestions_tooltip_title_text">設定提醒</string>
     <string name="reminders_banner_body">%1$s：%2$s</string>
-    <string name="reminders_banner_description">@string/banner_description</string>
+    <string name="reminders_banner_description">Reminder conversation banner</string>
     <string name="reminders_banner_done_button">完成</string>
     <string name="reminders_banner_remind_button">1 小時後提醒我</string>
     <string name="reminders_banner_self_sender_name">你</string>
@@ -1528,7 +1657,7 @@
     <string name="remove_reaction_from_gif_rcs_fallback_text">已移除對 GIF 表示的 ‌%1$s‌</string>
     <string name="remove_reaction_from_link_rcs_fallback_text">已移除對連結表示的 ‌%1$s‌</string>
     <string name="remove_reaction_from_photo_rcs_fallback_text">已移除對相片表示的 ‌%1$s‌</string>
-    <string name="remove_reaction_from_text_message_rcs_fallback_text">已移除對「%2$s」表示的 ‌%1$s‌</string>
+    <string name="remove_reaction_from_text_message_rcs_fallback_text">已移除對「 %2$s 」表示的 ‌%1$s‌</string>
     <string name="remove_reaction_from_unknown_message_type_rcs_fallback_text">已移除對不明訊息類型表示的 ‌%1$s‌</string>
     <string name="remove_reaction_from_video_rcs_fallback_text">已移除對影片表示的 ‌%1$s‌</string>
     <string name="remove_user_dialog_cancel">取消</string>
@@ -1537,14 +1666,17 @@
     <string name="rename_group_title_m2">群組名稱</string>
     <string name="reply_activity_title">回覆</string>
     <string name="reply_button_label">回覆</string>
-    <string name="reply_icon_content_description">回覆訊息</string>
+    <string name="reply_icon_content_description">回覆</string>
     <string name="report_contact_title">檢舉垃圾訊息</string>
     <string name="report_failed_rcs_group_creation">發生錯誤，無法新增一或多位參與者。</string>
     <string name="report_group_spam_body_spam_folder">系統會將群組中其他成員的號碼和近期簡訊提供給 Google 進行審查，也可能會將這些資訊一併提供給你的電信業者 (可能要支付相關費用)。這個對話將保持「已封鎖的垃圾訊息」狀態，你不會收到任何相關通知。%1$s</string>
+    <string name="report_invalid_thread_id_issue_description">會話串 ID 無效。如要瞭解詳情，請查看記錄。</string>
     <string name="report_issue_action_text">提供意見</string>
+    <string name="report_issue_description">「訊息」應用程式自動偵測到錯誤。如要瞭解詳情，請查看記錄。</string>
     <string name="report_issue_notification_text">「訊息」應用程式偵測到錯誤。輕觸即可提供意見。</string>
     <string name="report_not_spam_snackbar_message">已將 %1$s 回報為非垃圾訊息傳送者</string>
     <string name="report_person_delivered">%1$s已收到：%2$s</string>
+    <string name="report_person_ftd">「%1$s」解密失敗的時間：%2$s</string>
     <string name="report_person_read">%1$s已讀：%2$s</string>
     <string name="report_person_sent">%s尚未收到</string>
     <string name="report_receive_issue_notification_message">Android 無法接收傳送給你的訊息。輕觸即可提供意見。</string>
@@ -1557,6 +1689,7 @@
     <string name="report_spam_snackbar_message">已將 %1$s 回報為垃圾訊息傳送者</string>
     <string name="report_spam_toast_title">已回報為垃圾訊息</string>
     <string name="report_telephone_db_recreation_message">無法擷取訊息，輕觸即可提供意見。</string>
+    <string name="report_thread_id_not_found_description">找不到會話串 ID。如要瞭解詳情，請查看記錄。</string>
     <string name="required_permissions_no_promptable_promo">請透過裝置的應用程式設定變更權限，允許「訊息」存取簡訊、電話和聯絡人資料。</string>
     <string name="required_permissions_no_promptable_title">授予存取權</string>
     <string name="required_permissions_promptable_promo">為完成預設應用程式的設定程序，請授權讓「訊息」查看你的簡訊、通話記錄和聯絡人</string>
@@ -1576,6 +1709,11 @@
     <string name="samsung_setting_search_title">「訊息」應用程式設定</string>
     <string name="save">儲存</string>
     <string name="save_attachment">儲存</string>
+    <string name="save_banner_body">只要將這項生日資訊儲存到聯絡人應用程式，「訊息」應用程式就會在對方明年生日時提醒你</string>
+    <string name="save_banner_positive_button">儲存生日資訊</string>
+    <string name="save_banner_title_name">儲存%1$s的生日資訊</string>
+    <string name="save_banner_title_no_name">儲存聯絡人的生日資訊</string>
+    <string name="save_birthday_banner_description">@string/banner_description</string>
     <string name="save_otp_confirm_button">儲存動態密碼</string>
     <string name="save_otp_dialog_message">系統將儲存這個動態密碼，其他動態密碼仍會在 24 小時後自動刪除。你可以前往設定進行管理。</string>
     <string name="save_otp_dialog_title">要儲存這個動態密碼嗎？</string>
@@ -1594,6 +1732,7 @@
     <string name="scheduled_send_announcement_scheduling_failed">無法安排訊息傳送時間。</string>
     <string name="scheduled_send_announcement_scheduling_started">正在安排訊息傳送時間。</string>
     <string name="scheduled_send_announcement_scheduling_succeeded">已排定訊息傳送時間。</string>
+    <string name="scheduled_send_badge_content_description">已安排傳送時間的標記</string>
     <string name="scheduled_send_compose_label_close_content_description">移除排定的時間。</string>
     <string name="scheduled_send_datetime_picker_subtitle">如要傳送訊息，請將手機保持在開啟狀態，並且連上 Wi-Fi 或行動數據網路</string>
     <string name="scheduled_send_datetime_picker_title">排定傳送時間 (%1$s)</string>
@@ -1617,10 +1756,11 @@
     <string name="search_rendering_unable_to_search">無法搜尋，請稍後再試</string>
     <string name="search_starred_messages_title">已加星號</string>
     <string name="security_key_page_description">驗證時，請確認上方各組數字與收件者的驗證碼完全一致。</string>
-    <string name="security_key_page_intro">你可以使用下方的驗證碼確認對方身分，確保只有指定收件者才能收到你的端對端加密訊息。</string>
+    <string name="security_key_page_intro">你可以使用下方的驗證碼確認對方身分，確保只有指定的通訊對象才能收到你的端對端加密訊息。</string>
     <string name="security_key_top_level_title">驗證加密</string>
     <string name="see_gallery">查看圖片庫</string>
     <string name="selected">已選取</string>
+    <string name="selection_position_text">%1$d</string>
     <string name="self_left_group_conversation_failed">無法退出群組，請稍後再試。</string>
     <string name="self_participant_reaction_name">你</string>
     <string name="self_person_name">你</string>
@@ -1670,7 +1810,6 @@
     <string name="sending_timeout_failure_dialog_title">訊息未傳送</string>
     <string name="sent_label">傳送時間：</string>
     <string name="set_message_priority_description">設定緊急狀態</string>
-    <string name="set_rcs_flags">設定 RCS 標記</string>
     <string name="set_rcs_mobile_data_auto_download_limit_title">自動下載你透過行動數據連線收到的檔案</string>
     <string name="setting_fast_track_body_with_cost">選擇繼續即表示您同意《%1$s》與《%2$s》。針對透過電話號碼傳送訊息的服務，Google 可能會不定期驗證您的電話號碼，方法包括與您的電信業者交換您的裝置資訊，或透過簡訊進行驗證 (可能需要支付相關費用)。您隨時可以在設定頁面停用即時通訊功能。%3$s</string>
     <string name="settings_activity_title">設定</string>
@@ -1693,6 +1832,13 @@
     <string name="shortcuts_screen_title">捷徑</string>
     <string name="show_sms_link_warning_change_label">變更</string>
     <string name="show_sms_link_warning_text">系統會透過含有附件連結的簡訊傳送附件</string>
+    <string name="sign_in_app_name_without_account">不登入帳戶，直接使用「%1$s」</string>
+    <string name="sign_in_cancel">取消</string>
+    <string name="sign_in_without_account">在不選用帳戶的狀態下使用</string>
+    <string name="sign_in_without_account_short">不使用任何帳戶</string>
+    <string name="sign_into_photos_app">登入</string>
+    <string name="sign_into_photos_app_title">如要繼續，請登入 Google 相簿</string>
+    <string name="sign_into_photos_app_with_x_to_continue">你目前是透過以下帳戶傳送連結：%1$s</string>
     <string name="signature_banner_description">@string/banner_description</string>
     <string name="silent_ringtone">靜音</string>
     <string name="sim_label">SIM 卡：</string>
@@ -1711,9 +1857,13 @@
     <string name="sim_storage_full_title">SIM 卡儲存空間已用盡</string>
     <string name="sim_storage_pref_title">SIM 卡中的訊息</string>
     <string name="simple_fail_to_decrypt_message_dialog_body">為了之後能順利解密訊息，建議你更新「訊息」應用程式</string>
+    <string name="smart_action_settings_page_description">顯示日曆、GIF 搜尋、位置資訊分享等功能的相關捷徑</string>
+    <string name="smart_action_settings_page_title">動作</string>
+    <string name="smart_actions_preference_summary_shortcuts">顯示日曆、GIF 搜尋、位置資訊分享等功能的相關捷徑</string>
     <string name="smart_actions_preference_title">建議採取的動作</string>
     <string name="smart_compose_preference_summary">顯示書寫預測建議</string>
     <string name="smart_compose_preference_title">智慧撰寫</string>
+    <string name="smart_reply_preference_summary">顯示即時通訊回覆選項</string>
     <string name="smarts_preference_info_text">除非你輕觸並分享智慧回覆和建議採取的動作，否則其他人不會看到這些內容。 &lt;br/> &lt;br/> 這些建議是由裝置所產生，內容會因你的對話內容而異。%1$s</string>
     <string name="smarts_preference_info_text_with_assistant">智慧回覆、建議採取的動作和 Google 助理建議是「訊息」應用程式利用裝置內建的智慧功能產生。 &lt;br/> &lt;br/>除非你輕觸建議，否則系統不會將建議與 Google 或任何其他人分享。 &lt;br/> &lt;br/> 如果你允許「訊息」應用程式存取裝置上的位置資訊，就能取得更多在地建議。%1$s</string>
     <string name="smarts_settings_page_summary">智慧回覆、建議採取的動作和其他設定</string>
@@ -1721,7 +1871,7 @@
     <string name="smarts_settings_page_title">建議</string>
     <string name="sms_broadcast_group_conversation_changed_to">這個對話現已改為群組簡訊</string>
     <string name="sms_broadcast_group_conversation_created">群組簡訊</string>
-    <string name="sms_broadcast_group_conversation_details">"每位收件者都會收到你傳送的簡訊
+    <string name="sms_broadcast_group_conversation_details">"每位接收者都會收到你傳送的簡訊
 回覆會顯示在個別對話中"</string>
     <string name="sms_disabled">簡訊功能已停用</string>
     <string name="sms_disallowed_close_button">確定</string>
@@ -1729,8 +1879,8 @@
     <string name="sms_encoding_pref_summary">轉換簡訊中的特殊字元</string>
     <string name="sms_encoding_pref_title">使用簡單字元</string>
     <string name="sms_error_template">%1$s (錯誤代碼：%2$d)</string>
-    <string name="sms_protocol_label">簡訊</string>
-    <string name="sms_text">簡訊</string>
+    <string name="sms_protocol_label">SMS</string>
+    <string name="sms_text">SMS</string>
     <string name="smsc_number_pref_summary">如果你變更或刪除這組號碼，可能會導致簡訊功能無法正常運作</string>
     <string name="smsc_number_pref_title_pre_r">自訂 SMSC</string>
     <string name="smsc_number_pref_title_r_plus">SMSC</string>
@@ -1740,19 +1890,18 @@
     <string name="snackbar_text_label_rcs_group_created_too_large">{max_group_size_including_self,plural, =1{上限為 # 人}other{上限為 # 人}}</string>
     <string name="snackbar_text_label_rcs_group_self_only">這個群組沒有其他人。你必須先新增群組成員，才能在這個即時通訊中傳送訊息。</string>
     <string name="snippet">%1$s：%2$s</string>
-    <string name="snippet_assistant_card_text">Google 助理資訊卡</string>
-    <string name="snippet_attachment_icon_content_description">回覆文字片段的附件圖示</string>
     <string name="snippet_audio_attachment_text">音訊</string>
     <string name="snippet_deleted_message_text">訊息已刪除</string>
-    <string name="snippet_dismiss_icon_content_description">回覆關閉圖示</string>
+    <string name="snippet_dismiss_icon_content_description">刪除</string>
     <string name="snippet_file_attachment_text">檔案</string>
     <string name="snippet_from_you">你：%s</string>
-    <string name="snippet_image_attachment_text">圖像</string>
-    <string name="snippet_media_thumbnail_content_description">回覆文字片段的媒體縮圖</string>
+    <string name="snippet_image_attachment_text">圖片</string>
     <string name="snippet_self_participant_header">你</string>
     <string name="snippet_video_attachment_text">影片</string>
     <string name="soft_num_key_pad_backspace_content_description">退格鍵</string>
     <string name="someone_added_participant">%1$s將%2$s加入這個群組</string>
+    <string name="someone_added_participant_with_learn_more">%1$s將%2$s加入這個群組。%3$s</string>
+    <string name="someone_else_created_encrypted_rcs_group">%1$s建立了這個群組通訊並邀請%2$s加入。%3$s</string>
     <string name="someone_else_created_mms_group">%1$s建立了這個群組多媒體訊息並邀請%2$s加入</string>
     <string name="someone_else_created_rcs_group">%1$s建立了這個群組通訊並邀請%2$s加入</string>
     <string name="someone_joined_group">有人加入了這個群組</string>
@@ -1776,7 +1925,6 @@
     <string name="spam_dialog_title_spam_folder">要檢舉垃圾訊息嗎？</string>
     <string name="spam_folder_activity_title">垃圾內容與已封鎖的對話</string>
     <string name="spam_folder_conversation_list_empty_text_v2">已封鎖的垃圾訊息會顯示在這裡</string>
-    <string name="spam_preference_info_text_on_device">「訊息」應用程式會使用機器學習智慧功能偵測垃圾訊息，並將這類訊息的部分相關資料傳送給 Google。請放心，這些資料不包含你的電話號碼或訊息內容。%1$s</string>
     <string name="spam_protection_consent_string">為協助偵測垃圾訊息，「訊息」應用程式會將訊息的某些資料傳送給 Google。請放心，當中不會有你的電話號碼或訊息內容。%1$s</string>
     <string name="spam_reporting_from">回報垃圾訊息</string>
     <string name="spam_settings">垃圾訊息阻擋</string>
@@ -1785,6 +1933,8 @@
     <string name="split_view_pref_title">清單詳細檢視畫面</string>
     <string name="stacked_banner_count_text">第 1 個橫幅 (共 %1$d 個)</string>
     <string name="star_badge_content_description">星號標記</string>
+    <string name="star_badge_menu_remove_action">移除</string>
+    <string name="star_badge_menu_view_all_action">全部顯示</string>
     <string name="star_badge_on_click_snackbar_action">復原</string>
     <string name="star_badge_on_click_snackbar_message">已移除星號</string>
     <string name="sticker_content_description">「%s」的貼圖</string>
@@ -1821,10 +1971,12 @@
     <string name="subject_with_label">主旨：%1$s</string>
     <string name="subject_with_urgent_label">[緊急] %1$s</string>
     <string name="success_message_format">%1$s %2$s %3$s %4$s %5$s %6$s。</string>
+    <string name="success_message_self_sender">你在 %3$s 對「%4$s」說：%1$s，%2$s</string>
     <string name="success_message_self_sender_format_with_multiple_attachments">你傳送了多個附件 %1$s %2$s %3$s %4$s %5$s。</string>
     <string name="success_message_self_sender_format_with_single_attachment">你傳送了一個附件 %1$s %2$s %3$s %4$s %5$s。</string>
     <string name="success_message_specified_sender_format_with_multiple_attachments">%1$s 傳送了多個附件 %2$s %3$s %4$s %5$s %6$s。</string>
     <string name="success_message_specified_sender_format_with_single_attachment">%1$s 傳送了一個附件 %2$s %3$s %4$s %5$s %6$s。</string>
+    <string name="success_message_unspecified_sender">傳送者在 %3$s 對「%4$s」說：%1$s，%2$s</string>
     <string name="success_message_unspecified_sender_format_with_multiple_attachments">寄件者傳送了多個附件 %1$s %2$s %3$s %4$s %5$s。</string>
     <string name="success_message_unspecified_sender_format_with_single_attachment">寄件者傳送了一個附件 %1$s %2$s %3$s %4$s %5$s。</string>
     <string name="success_sent_to_message_format">已傳送給 %1$s %2$s %3$s %4$s。</string>
@@ -1833,10 +1985,18 @@
     <string name="sud_back_button_label">返回</string>
     <string name="sud_more_button_label">更多</string>
     <string name="sud_next_button_label">繼續</string>
-    <string name="suggested_stickers_preference_summary">顯示建議貼圖</string>
+    <string name="suggested_stickers_preference_summary">顯示貼圖回覆選項</string>
     <string name="suggested_stickers_preference_title">建議貼圖</string>
+    <string name="suggestion_shortcut_dialog_body_text">捷徑功能既便捷又好用，可讓你為訊息加上星號、安排訊息傳送時間等等。</string>
+    <string name="suggestion_shortcut_dialog_positive_button">確定</string>
+    <string name="suggestion_shortcut_dialog_subsection_body_text">系統會根據電話號碼和日期等資訊提供捷徑建議。%1$s</string>
+    <string name="suggestion_shortcut_dialog_subsection_title_text">運作方式</string>
+    <string name="suggestion_shortcut_dialog_title">使用建議捷徑可以更快完成操作</string>
+    <string name="suggestion_shortcut_search_title">搜尋</string>
+    <string name="suggestion_shortcut_star_toolstone">將訊息加上星號，就能在%1$s中輕鬆找到這些訊息</string>
     <string name="summary_collapsed_preference_list">%1$s、%2$s</string>
     <string name="summary_notification_inbox_style_summary_text">還有 +%d 則訊息</string>
+    <string name="super_sort_pref_title">整理訊息</string>
     <string name="super_sort_settings_title">整理訊息</string>
     <string name="supersort_conversation_list_empty_text_business_update">這裡會自動顯示商家的最新消息</string>
     <string name="supersort_conversation_list_empty_text_manage_in_settings">前往「設定」管理</string>
@@ -1899,6 +2059,11 @@
     <string name="survey_user_agent">使用者代理程式</string>
     <string name="survey_very_dissatisfied">非常不滿意</string>
     <string name="survey_very_satisfied">很滿意</string>
+    <string name="swipe_actions">滑動動作</string>
+    <string name="swipe_actions_summary">你可以用向右或向左滑動的方式封存或刪除訊息，也可以關閉滑動動作</string>
+    <string name="swipe_customize">自訂</string>
+    <string name="swipe_left">向左滑動</string>
+    <string name="swipe_right">向右滑動</string>
     <string name="switcher_no_phone_number">找不到 SIM 卡</string>
     <string name="switcher_pair_device_title_text">使用配對的手機傳送訊息</string>
     <string name="switcher_positive_button_text">繼續</string>
@@ -1906,6 +2071,7 @@
     <string name="switcher_use_device_sim_number">(%s)</string>
     <string name="switcher_use_device_sim_title_text">使用這部裝置的 SIM 卡傳送訊息</string>
     <string name="syncing_with_device_foreground_notification_text">「訊息」應用程式正在與你的裝置同步</string>
+    <string name="system_picker_button_label">資料夾</string>
     <string name="t_mobile_tos_pref_link_text">條款及細則</string>
     <string name="t_mobile_tos_pref_text">Google 的即時通訊功能技術是由 T-Mobile 提供。詳情請參閱《%1$s》。</string>
     <string name="t_mobile_tos_pref_url">https://www.t-mobile.com/responsibility/legal/terms-and-conditions</string>
@@ -1930,6 +2096,7 @@
     <string name="theme_setting_dialog_options_light_mode">淺色</string>
     <string name="theme_setting_dialog_options_system_default_mode">系統預設</string>
     <string name="theme_setting_dialog_title">選擇主題</string>
+    <string name="tiktok_account_login_failure">無法登入選取的帳戶。</string>
     <string name="tiktok_add_account_error">無法新增帳戶，請再試一次。</string>
     <string name="tiktok_fix_it">修正問題</string>
     <string name="tiktok_load_account_failure">無法載入帳戶。</string>
@@ -1955,6 +2122,18 @@
     <string name="tombstone_self_removed_from_group_referrer_known">%1$s已將你從這個群組中移除</string>
     <string name="tombstone_self_removing_others_from_group">你已將%1$s從群組中移除</string>
     <string name="tombstone_show_link_previews">已開啟連結預覽功能。&lt;br />你可以前往 [設定] &lt;u>&lt;/u>瞭解詳情或關閉這項功能。</string>
+    <string name="tombstone_show_link_previews_disabled">連結預覽功能已關閉。&lt;br />前往「設定」&lt;u>&lt;/u>瞭解詳情或開啟這項功能。</string>
+    <string name="tooltip_content">"Google 帳戶為「訊息」應用程式
+的多項功能提供了技術支援 (例如
+Google 相簿連結分享功能)，
+但不會存取你的對話內容。
+
+系統仍會透過你的電話號碼
+傳送訊息。瞭解詳情"</string>
+    <string name="tooltip_content_with_line_break_fix">"Google 帳戶可讓「訊息」應用程式提供 Google 相簿連結共享等功能，但不會存取你在「訊息」應用程式中的對話。
+
+請注意，系統仍會透過你的手機號碼傳送訊息。瞭解詳情"</string>
+    <string name="tooltip_link">瞭解詳情</string>
     <string name="top_contacts_grid_name">★</string>
     <string name="top_contacts_title">常用聯絡人</string>
     <string name="transaction_content_description">這則訊息已歸類為「交易」訊息</string>
@@ -1964,6 +2143,7 @@
     <string name="unblock_and_report_not_spam_snackbar_message">已將 %1$s 解除封鎖並回報為非垃圾訊息傳送者</string>
     <string name="unblock_banner_body">如要將這個對話移出「已封存」並再次接收訊息，請解除封鎖 %s</string>
     <string name="unblock_banner_body_spam_folder">如要將這個對話移出「已封鎖的垃圾訊息」並再次接收相關訊息，請將 %s 解除封鎖</string>
+    <string name="unblock_banner_body_v2">Unblock to receive messages from this sender</string>
     <string name="unblock_banner_description">@string/banner_description</string>
     <string name="unblock_banner_positive_button">解除封鎖</string>
     <string name="unblock_banner_title">已封鎖</string>
@@ -1999,6 +2179,7 @@
     <string name="unsent">已取消傳送</string>
     <string name="unspam_banner_body">如要將這個對話移出「已封存」並再次接收相關通知，請將 %s 回報為非垃圾訊息傳送者</string>
     <string name="unspam_banner_body_spam_folder">如要將這個對話移出「已封鎖的垃圾訊息」並再次接收相關通知，請將 %s 回報為非垃圾訊息</string>
+    <string name="unspam_banner_body_v2">Report as not spam to receive messages from this sender</string>
     <string name="unspam_banner_description">@string/banner_description</string>
     <string name="unspam_banner_end_button">非垃圾內容</string>
     <string name="unspam_banner_title">已檢舉為垃圾訊息</string>
@@ -2014,6 +2195,8 @@
     <string name="unsupported_file_save_alert">確定要將附件儲存到「下載內容」？</string>
     <string name="unsupported_file_save_cancel">取消</string>
     <string name="unverified_sms_banner_description">@string/banner_description</string>
+    <string name="unwanted_messages_toolstone_link">封鎖並檢舉</string>
+    <string name="unwanted_messages_toolstone_text">如果你認為這是垃圾訊息，可以%1$s</string>
     <string name="upcoming_reminder">有即將到來的提醒</string>
     <string name="update_content_description">這則訊息已歸類為「最新動態」訊息</string>
     <string name="update_donation_banner_body_v2">你的個人資訊不會對外公開，而且你可以移除任何訊息內容</string>
@@ -2056,6 +2239,7 @@
     <string name="video_attachment_content_description">影片附件</string>
     <string name="video_attachment_limit_exceeded_when_sending">每則訊息只能傳送一部影片。請移除額外的影片，然後再試一次。</string>
     <string name="video_compress_info">由於電信業者對多媒體訊息設定限制，收件者看到的影片品質會降低</string>
+    <string name="video_format_type">影片</string>
     <string name="video_media_failure">如要建立影片，請試著延長錄影時間</string>
     <string name="video_taken">已錄影</string>
     <string name="video_thumbnail_view_play_button_content_description">播放影片</string>
@@ -2102,19 +2286,20 @@ Google 已驗證你在這個對話中收到的上一則訊息是由「%1$s」送
     <string name="websiteTypeWork">公司</string>
     <string name="welcome_agree_button_text">同意</string>
     <string name="welcome_chat_features_decline">使用「訊息」應用程式但不開啟即時通訊功能</string>
-    <string name="welcome_chat_features_learn_more">進一步瞭解即時通訊功能</string>
     <string name="welcome_chat_features_legal">使用即時通訊功能即表示您同意《%1$s》和《%2$s》。Google 將不定期向電信業者驗證您的電話號碼 (可能要支付簡訊費用)。</string>
+    <string name="welcome_chat_features_text">"· 透過 Wi-Fi 或行動數據網路傳送訊息
+· 分享檔案和媒體內容
+· 防止他人讀取你的訊息"</string>
     <string name="welcome_chat_features_title">透過 Wi-Fi 或數據網路使用更快、功能更豐富、品質更高的即時通訊功能</string>
+    <string name="welcome_chat_features_title_experiment_0">「訊息」應用程式讓你事半功倍</string>
+    <string name="welcome_chat_features_title_experiment_1">「訊息」應用程式的即時通訊功能讓你事半功倍</string>
     <string name="welcome_consent_button_text">繼續</string>
-    <string name="welcome_finish_button_text">完成</string>
     <string name="welcome_smarts_notice_description">"智慧回覆和 Google 助理等功能可以讓你更輕鬆地與他人即時通訊。你的即時通訊內容會安全地保留在裝置中。
 %1$s及%2$s"</string>
     <string name="welcome_smarts_notice_title">智慧回覆真貼心</string>
     <string name="welcome_spam_description">"為進一步防範垃圾訊息，Google 會使用你的通訊錄以外的電話號碼做為判斷依據，但不會辨識你的身分或號碼。
 %1$s及%2$s"</string>
     <string name="welcome_spam_title">垃圾訊息阻擋</string>
-    <string name="welcome_splash_tagline">"簡單、智慧型的訊息功能
-由 Google 提供"</string>
     <string name="widget_reply_exit_content_description">返回</string>
     <string name="widget_reply_open">開啟訊息應用程式</string>
     <string name="widget_reply_to">回覆%s</string>
@@ -2122,9 +2307,14 @@ Google 已驗證你在這個對話中收到的上一則訊息是由「%1$s」送
     <string name="work_directory_display_name">工作資料夾聯絡人</string>
     <string name="xms_send_mode_pref_title">只傳送簡訊和多媒體訊息</string>
     <string name="you_added_participant">你將%s加入這個群組</string>
+    <string name="you_added_participant_with_learn_more">你將%1$s加入這個群組。%2$s</string>
+    <string name="you_created_encrypted_rcs_group">你建立了這個群組通訊並邀請%1$s加入。%2$s</string>
     <string name="you_created_mms_group">你建立了這個群組多媒體訊息並邀請%s加入</string>
     <string name="you_created_rcs_group">你建立了這個群組通訊並邀請%s加入</string>
     <string name="you_left_group">你退出了這個群組</string>
+    <string name="youtube_dismissal_prompt">輕觸並拖曳即可關閉</string>
+    <string name="youtube_drag_prompt">拖曳即可移動播放器</string>
+    <string name="youtube_pip_playing">目前正在播放這部影片</string>
     <string name="zero_connectivity_failure_announcement">無法傳送訊息</string>
     <string name="zero_state_search_action_copy">複製</string>
     <string name="zero_state_search_action_jump_to_chat">查看對話</string>
@@ -2144,6 +2334,7 @@ Google 已驗證你在這個對話中收到的上一則訊息是由「%1$s」送
     <string name="zero_state_search_details_image_accessibility">%1$s在 %2$s傳送的圖片</string>
     <string name="zero_state_search_details_video_accessibility">%1$s在 %2$s傳送的影片</string>
     <string name="zero_state_search_dropdown_free_text">搜尋「%s」</string>
+    <string name="zero_state_search_empty_results_text">這個對話中已加星號的訊息、媒體和連結會顯示在這裡</string>
     <string name="zero_state_search_images">圖片</string>
     <string name="zero_state_search_link_copied">已複製連結</string>
     <string name="zero_state_search_links">連結</string>
